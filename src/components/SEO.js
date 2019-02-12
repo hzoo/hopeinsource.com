@@ -65,14 +65,14 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                 name: 'twitter:creator',
                 content: siteMetadata.social.twitter,
               },
-              {
-                name: 'twitter:title',
-                content: title || siteMetadata.title,
-              },
-              {
-                name: 'twitter:description',
-                content: metaDescription,
-              },
+              // {
+              //   name: 'twitter:title',
+              //   content: title || siteMetadata.title,
+              // },
+              // {
+              //   name: 'twitter:description',
+              //   content: metaDescription,
+              // },
             ]
               .concat(
                 metaImage
@@ -81,10 +81,10 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                         property: 'og:image',
                         content: metaImage,
                       },
-                      {
-                        name: 'twitter:image',
-                        content: metaImage,
-                      },
+                      // {
+                      //   name: 'twitter:image',
+                      //   content: metaImage,
+                      // },
                     ]
                   : []
               )

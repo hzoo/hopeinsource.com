@@ -3,9 +3,9 @@ module.exports = {
     title: 'Hope in Source — A podcast about faith and open source — with Nadia Eghbal & Henry Zhu',
     author: 'Nadia Eghbal & Henry Zhu',
     description: 'What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.',
-    siteUrl: 'https://hopeinsource.com',
+    siteUrl: 'https://hopeinsource.netlify.com', // temp
     social: {
-      twitter: '@hopeinsourcepod',
+      twitter: '@left_pad',
     },
   },
   pathPrefix: '/',

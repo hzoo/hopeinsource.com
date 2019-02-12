@@ -30,9 +30,7 @@ class Intro extends React.Component {
           </a>.
         </p>
         
-        <p>
-          <Subscribe />
-        </p>
+        <Subscribe />
       </div>
     )
   }

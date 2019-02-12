@@ -3,7 +3,7 @@ import React from 'react'
 class Subscribe extends React.Component {
   render() {
     return (
-      <div style={{ float: 'right' }}>
+      <p style={{ float: 'right' }}>
         Subscribe:{' '}
         <a href="https://itunes.apple.com/us/podcast/on-margins/id1236390557" target="_blank">
           iTunes
@@ -20,7 +20,7 @@ class Subscribe extends React.Component {
         <a href="https://rss.simplecast.com/podcasts/7049/rss" target="_blank" rel="noopener noreferrer">
           RSS
         </a>
-      </div>
+      </p>
     )
   }
 }
