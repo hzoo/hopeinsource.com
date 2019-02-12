@@ -33,31 +33,35 @@ class BlogPostTemplate extends React.Component {
           slug={post.fields.slug}
           episodeLink={post.frontmatter.episodeLink}
         />
-        <Link
-          style={{
-            boxShadow: 'none',
-            textDecoration: 'none',
-            color: 'inherit',
-          }}
-          to={'/'}
-        >
-          <h1>{post.frontmatter.title}</h1>
-        </Link>
-        <p
-          style={{
-            ...scale(-1 / 5),
-            display: 'block',
-            marginBottom: rhythm(1),
-            marginTop: rhythm(-1),
-          }}
-        >
-          {post.frontmatter.date}
-          {` • ${post.frontmatter.time} min 🎧`}
-        </p>
+        {
+          // <Link
+          //   style={{
+          //     boxShadow: 'none',
+          //     textDecoration: 'none',
+          //     color: 'inherit',
+          //   }}
+          //   to={'/'}
+          // >
+          //   <h1>{post.frontmatter.title}</h1>
+          // </Link>
+          // <p
+          //   style={{
+          //     ...scale(-1 / 5),
+          //     display: 'block',
+          //     marginBottom: rhythm(1),
+          //     marginTop: rhythm(-1),
+          //   }}
+          // >
+          //   {post.frontmatter.date}
+          //   {` • ${post.frontmatter.time} min 🎧`}
+          // </p>
+        }
 
         <Support />
+
+        <iframe frameBorder='0' height='200px' scrolling='no' seamless src={`https://embed.simplecast.com/${post.frontmatter.episodeLink}?color=3d3d3d`} width='100%'></iframe>
         
-        <blockquote>{post.frontmatter.spoiler}</blockquote>
+        <blockquote>{post.frontmatter.description}</blockquote>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
 

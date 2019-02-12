@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'gatsby'
 
 import { rhythm } from '../utils/typography'
 import Subscribe from './Subscribe'
@@ -23,7 +24,16 @@ class Footer extends React.Component {
 
         <Subscribe />
 
-        All rights reserved
+        <Link
+          style={{
+            boxShadow: 'none',
+            textDecoration: 'none',
+            color: 'inherit',
+          }}
+          to={'/'}
+        >
+          All rights reserved
+        </Link>
       </footer>
     )
   }
