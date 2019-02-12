@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hope in Source',
+    title: 'Hope in Source — A podcast about faith and open source — with Nadia Eghbal & Henry Zhu',
     author: 'Nadia Eghbal & Henry Zhu',
     description: 'Hope in Source website',
     siteUrl: 'https://www.hopeinsource.com',
