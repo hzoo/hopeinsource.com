@@ -4,6 +4,7 @@ import React from 'react'
 import 'typeface-montserrat'
 import 'typeface-merriweather'
 import cover from '../assets/icon.jpg'
+import Subscribe from './Subscribe'
 
 class Intro extends React.Component {
   render() {
@@ -32,18 +33,7 @@ class Intro extends React.Component {
         </p>
         
         <p>
-          Subscribe:{' '}
-          <a href="https://itunes.apple.com/us/podcast/on-margins/id1236390557">
-            iTunes
-          </a>
-          ,{' '}
-          <a href="https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B">
-            Spotify
-          </a>
-          ,{' '}
-          <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D">
-            Google
-          </a>
+          <Subscribe />
         </p>
       </div>
     )
