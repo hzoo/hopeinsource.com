@@ -25,7 +25,6 @@ class BlogPostTemplate extends React.Component {
     let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
       `${SITE}${slug}`
     )}`
-    console.log(post);
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
@@ -34,7 +33,16 @@ class BlogPostTemplate extends React.Component {
           slug={post.fields.slug}
           episodeLink={post.frontmatter.episodeLink}
         />
-        <h1>{post.frontmatter.title}</h1>
+        <Link
+          style={{
+            boxShadow: 'none',
+            textDecoration: 'none',
+            color: 'inherit',
+          }}
+          to={'/'}
+        >
+          <h1>{post.frontmatter.title}</h1>
+        </Link>
         <p
           style={{
             ...scale(-1 / 5),
