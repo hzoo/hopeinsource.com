@@ -45,16 +45,8 @@ class BlogPostTemplate extends React.Component {
           {` • ${post.frontmatter.time} min 🎧`}
         </p>
 
-        <p
-          style={{
-            backgroundColor: '#4F5B66',
-          }}
-        >
-          <i>Hope in Source</i> is made possible by the support of Patrons.
-          Consider becoming a{' '}
-          <a href="https://www.patreon.com/henryzhu">supporter</a> today!
-        </p>
-
+        <Support />
+        
         <blockquote>{post.frontmatter.spoiler}</blockquote>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
