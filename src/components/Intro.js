@@ -21,15 +21,13 @@ class Intro extends React.Component {
         <img src={cover} alt="Hope in Source Cover Art"/>
         
         <p>
-          <i>Hope in Source</i> is a podcast about the parallels between faith
-          and open source software. Join{' '}
+          Join{' '}
           <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{' '}
           <a href="https://twitter.com/left_pad">Henry Zhu</a> for an
-          off-the-cuff conversation between friends. Check out{' '}
+          off-the-cuff conversation between friends. Backstory at{' '}
           <a href="nadiaeghbal.com/public-faith">
             nadiaeghbal.com/public-faith
-          </a>{' '}
-          for the backstory
+          </a>.
         </p>
         
         <p>
