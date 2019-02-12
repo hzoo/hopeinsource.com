@@ -19,7 +19,7 @@ const query = graphql`
   }
 `
 
-function SEO({ meta, image, title, description, slug }) {
+function SEO({ meta, image, title, description, slug, appId }) {
   return (
     <StaticQuery
       query={query}
@@ -83,6 +83,16 @@ function SEO({ meta, image, title, description, slug }) {
                       {
                         name: 'twitter:image',
                         content: metaImage,
+                      },
+                    ]
+                  : []
+              )
+              .concat(
+                appId
+                  ? [
+                      {
+                        name: 'apple-itunes-app',
+                        content: `app-id=${appId}`,
                       },
                     ]
                   : []

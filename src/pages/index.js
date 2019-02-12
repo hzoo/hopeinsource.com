@@ -8,6 +8,7 @@ import SEO from '../components/SEO'
 import Footer from '../components/Footer'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm } from '../utils/typography'
+import cover from '../assets/icon.jpg'
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,7 +17,7 @@ class BlogIndex extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO />
+        <SEO image={cover} appId={1437677655} />
         <Intro />
         <hr />
         {posts.map(({ node }) => {
