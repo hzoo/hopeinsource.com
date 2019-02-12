@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import Layout from '../components/Layout'
 import Support from '../components/Support'
 import SEO from '../components/SEO'
+import Footer from '../components/Footer'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 
@@ -106,6 +107,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
+      <Footer />
       </Layout>
     )
   }
