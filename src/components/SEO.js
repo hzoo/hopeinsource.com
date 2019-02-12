@@ -20,14 +20,14 @@ const query = graphql`
   }
 `
 
-function SEO({ meta, image=cover, title, description, slug, appId=1437677655 }) {
+function SEO({ meta, image=cover, title, description, slug, appId=1437677655, episodeLink }) {
   return (
     <StaticQuery
       query={query}
       render={data => {
         const { siteMetadata } = data.site
         const metaDescription = description || siteMetadata.description
-        const metaImage = image ? image : null
+        const metaImage = image ? `${siteMetadata.siteUrl}${image}` : null
         const url = `${siteMetadata.siteUrl}${slug}`
         return (
           <Helmet
@@ -59,7 +59,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655 }) 
               },
               {
                 name: 'twitter:card',
-                content: 'summary',
+                content: episodeLink ? 'player': 'summary',
               },
               {
                 name: 'twitter:creator',
@@ -84,6 +84,32 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655 }) 
                       {
                         name: 'twitter:image',
                         content: metaImage,
+                      },
+                    ]
+                  : []
+              )
+              .concat(
+                episodeLink
+                  ? [
+                      {
+                        name: 'twitter:player',
+                        content: `https://simplecast.com/card/${episodeLink}`,
+                      },
+                      {
+                        name: 'twitter:player:width',
+                        content: '300',
+                      },
+                      {
+                        name: 'twitter:player:height',
+                        content: '80',
+                      },
+                      {
+                        name: 'twitter:player:stream',
+                        content: `https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/${episodeLink}.mp3`,
+                      },
+                      {
+                        name: 'twitter:player:stream:content_type',
+                        content: 'audio/mpeg',
                       },
                     ]
                   : []

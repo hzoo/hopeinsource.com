@@ -24,13 +24,14 @@ class BlogPostTemplate extends React.Component {
     let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
       `${SITE}${slug}`
     )}`
-
+    console.log(post);
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title={post.frontmatter.title}
-          description={post.frontmatter.spoiler}
+          description={post.frontmatter.description}
           slug={post.fields.slug}
+          episodeLink={post.frontmatter.episodeLink}
         />
         <h1>{post.frontmatter.title}</h1>
         <p
@@ -128,7 +129,8 @@ export const pageQuery = graphql`
         title
         time
         date(formatString: "MMMM DD, YYYY")
-        spoiler
+        description
+        episodeLink
       }
       fields {
         slug

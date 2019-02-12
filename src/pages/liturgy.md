@@ -2,7 +2,8 @@
 title: '09: Liturgy'
 date: '2018-10-16'
 time: '32'
-spoiler: How do our rituals shape us? We talk about where habits come from, why we use them, and whether they strengthen our belief systems.
+description: How do our rituals shape us? We talk about where habits come from, why we use them, and whether they strengthen our belief systems.
+episodeLink: ebdcb8e1
 ---
 
 ## Selected Links

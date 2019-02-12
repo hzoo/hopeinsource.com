@@ -2,7 +2,8 @@
 title: '07: Mythology and Symbolism'
 date: '2018-10-16'
 time: '35'
-spoiler: How do symbols and stories foster culture? We talk about stories as a way to onboard new contributors, the mythology of leadership, when leaders step down, and how traditions evolve over time.
+description: How do symbols and stories foster culture? We talk about stories as a way to onboard new contributors, the mythology of leadership, when leaders step down, and how traditions evolve over time.
+episodeLink: 195ba80c
 ---
 
 ## Selected Links
