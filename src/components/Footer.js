@@ -1,6 +1,7 @@
 import React from 'react'
 
 import { rhythm } from '../utils/typography'
+// import patreon from '../assets/patreon.png'
 
 class Footer extends React.Component {
   render() {
@@ -11,6 +12,14 @@ class Footer extends React.Component {
           paddingTop: rhythm(1 / 2),
         }}
       >
+        {
+          // <a style={{
+          //   boxShadow: "none"
+          // }} href="https://www.patreon.com/bePatron?u=905738">
+          //   <img src={patreon} alt="Become a Patron" height="35" style={{margin: 0}}/>
+          // </a>
+        }
+
         <div style={{ float: 'right' }}>
           Subscribe:{' '}
           <a href="https://itunes.apple.com/us/podcast/on-margins/id1236390557">

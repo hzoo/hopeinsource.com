@@ -3,12 +3,23 @@ import React from 'react'
 // Import typefaces
 import 'typeface-montserrat'
 import 'typeface-merriweather'
+import cover from '../assets/icon.jpg'
 
 class Intro extends React.Component {
   render() {
     return (
-      <div>
-        <p style={{ maxWidth: 620 }}>
+      <div style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "column",
+        textAlign: 'center',
+        maxWidth: '472px',
+        margin: '0 auto',
+      }}>
+        <img src={cover} alt="Hope in Source Cover Art"/>
+        
+        <p>
           <i>Hope in Source</i> is a podcast about the parallels between faith
           and open source software. Join{' '}
           <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{' '}
@@ -19,8 +30,9 @@ class Intro extends React.Component {
           </a>{' '}
           for the backstory
         </p>
-        <p style={{ maxWidth: 620, textAlign: 'right' }}>
-          Subscribe on{' '}
+        
+        <p>
+          Subscribe:{' '}
           <a href="https://itunes.apple.com/us/podcast/on-margins/id1236390557">
             iTunes
           </a>
@@ -31,10 +43,6 @@ class Intro extends React.Component {
           ,{' '}
           <a href="https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D">
             Google
-          </a>
-          ,{' '}
-          <a href="/rss.xml" target="_blank" rel="noopener noreferrer">
-            RSS
           </a>
         </p>
       </div>
