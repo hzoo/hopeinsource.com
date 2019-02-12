@@ -1,0 +1,8 @@
+# https://www.netlify.com/docs/redirects/
+
+/faith-and-open-source /faith
+/community-membership /membership
+/intrinsic-motivation /motivation
+/holy-inefficiency /inefficiency
+/mythology-and-symbolism /myth
+/authority-and-leadership /authority
