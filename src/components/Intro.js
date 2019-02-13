@@ -24,10 +24,9 @@ class Intro extends React.Component {
           Join{' '}
           <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{' '}
           <a href="https://twitter.com/left_pad">Henry Zhu</a> for an
-          off-the-cuff conversation between friends. Backstory at{' '}
-          <a href="nadiaeghbal.com/public-faith">
-            nadiaeghbal.com/public-faith
-          </a>.
+          off-the-cuff conversation between friends. Read the backstory from
+          <a href="henryzoo.com/living-out-in-faith">Henry</a> and
+          <a href="nadiaeghbal.com/public-faith">Nadia</a>
         </p>
         
         <Subscribe />
