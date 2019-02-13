@@ -6,11 +6,11 @@ description: We talk about our backgrounds and motivation for doing this podcast
 episodeLink: 10d618f0
 ---
 
-## Selected Links
+## Links
 
 - Henry's ZEIT Day talk: https://www.youtube.com/watch?v=9sPDcVYX3g8
 - Nadia's Helium Grant: https://www.heliumgrant.org
 
-## Full Transcript
+## Transcript
 
 WIP

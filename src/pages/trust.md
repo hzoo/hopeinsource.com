@@ -6,8 +6,8 @@ description: Why do we trust anyone? We talk about trust as an act of faith, tru
 episodeLink: 61758f27
 ---
 
-## Selected Links
+## Links
 
-## Full Transcript
+## Transcript
 
 WIP

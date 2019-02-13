@@ -6,10 +6,10 @@ description: What does it mean to join a community? We talk about casual versus 
 episodeLink: 4cd0f407
 ---
 
-## Selected Links
+## Links
 
 - Call to Commitment: https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS
 
-## Full Transcript
+## Transcript
 
 WIP

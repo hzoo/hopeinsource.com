@@ -6,11 +6,11 @@ description: Does authority have a place in religion? We talk about authority in
 episodeLink: 4f9a5e1a
 ---
 
-## Selected Links
+## Links
 
 - Universal Priesthood: https://en.wikipedia.org/wiki/Priesthood_of_all_believers
 - Exit, Voice, and Loyalty: https://www.amazon.com/Exit-Voice-Loyalty-Responses-Organizations/dp/0674276604
 
-## Full Transcript
+## Transcript
 
 WIP

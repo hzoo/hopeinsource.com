@@ -6,12 +6,12 @@ description: How do symbols and stories foster culture? We talk about stories as
 episodeLink: 195ba80c
 ---
 
-## Selected Links
+## Links
 
 - Babel and Guy Fieri ("Favorite Moments" section): https://github.com/open-source/stories/hzoo#favorite-moments
 - On Fairy Stories (Tolkien): https://en.wikipedia.org/wiki/On_Fairy-Stories
 - "Time to Leave" blog post: https://medium.com/@mikeal/time-to-leave-a68294ccb2af
 
-## Full Transcript
+## Transcript
 
 WIP

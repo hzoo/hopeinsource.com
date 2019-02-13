@@ -6,10 +6,10 @@ description: Can everything that matters be measured? We talk about measuring th
 episodeLink: 74b76909
 ---
 
-## Selected Links
+## Links
 
 - Methodologies for measuring project health: https://nadiaeghbal.com/project-health
 
-## Full Transcript
+## Transcript
 
 WIP

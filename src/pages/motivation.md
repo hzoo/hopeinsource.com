@@ -6,10 +6,10 @@ description: Why do we do what we do? We talk about intrinsic motivation, the ro
 episodeLink: a2ab2ac8
 ---
 
-## Selected Links
+## Links
 
 - Call to Commitment: https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS
 
-## Full Transcript
+## Transcript
 
 WIP

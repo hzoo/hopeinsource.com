@@ -6,10 +6,10 @@ description: How do communities handle money? We talk about money and centraliza
 episodeLink: bc9e47d0
 ---
 
-## Selected Links
+## Links
 
 - Tithe: https://en.wikipedia.org/wiki/Tithe
 
-## Full Transcript
+## Transcript
 
 WIP

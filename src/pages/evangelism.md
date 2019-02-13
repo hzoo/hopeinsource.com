@@ -6,10 +6,10 @@ description: How do we evangelize our ideas? We talk about evangelism in religio
 episodeLink: 45c76f65
 ---
 
-## Selected Links
+## Links
 
 - 2017 Open Source Survey: http://opensourcesurvey.org/
 
-## Full Transcript
+## Transcript
 
 WIP
