@@ -12,6 +12,7 @@ class Footer extends React.Component {
         style={{
           marginTop: rhythm(3 / 4),
           paddingTop: rhythm(1 / 2),
+          textAlign: 'center',
         }}
       >
         {
@@ -23,7 +24,6 @@ class Footer extends React.Component {
         }
 
         <Subscribe />
-
         <Link
           style={{
             boxShadow: 'none',

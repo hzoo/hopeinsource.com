@@ -7,6 +7,7 @@ class Support extends React.Component {
       <p style={{
       	maxWidth: 620,
         backgroundColor: '#4F5B66',
+        textAlign: 'center',
       }}>
           <Link
             style={{
@@ -18,7 +19,7 @@ class Support extends React.Component {
           >
             <i>Hope in Source</i>
           </Link>{' '}
-          is made possible by the support of Patrons. Consider becoming a{' '}
+          is made possible by the support of patrons.<br/>Consider becoming a{' '}
         <a href="https://www.patreon.com/henryzhu">supporter</a> today!
       </p>
     )
