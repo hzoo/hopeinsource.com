@@ -7,6 +7,7 @@ module.exports = {
     social: {
       twitter: '@left_pad',
     },
+    rss: 'https://rss.simplecast.com/podcasts/7049/rss'
   },
   pathPrefix: '/',
   plugins: [
@@ -53,7 +54,7 @@ module.exports = {
         trackingId: `UA-127078332-1`,
       },
     },
-    `gatsby-plugin-feed`,
+    // `gatsby-plugin-feed`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

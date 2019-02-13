@@ -15,6 +15,7 @@ const query = graphql`
         social {
           twitter
         }
+        rss
       }
     }
   }
@@ -125,7 +126,14 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                   : []
               )
               .concat(meta)}
-          />
+          >
+            <link
+              rel="alternate"
+              type="application/rss+xml"
+              title={siteMetadata.title}
+              href={siteMetadata.rss}
+            />
+          </Helmet>
         )
       }}
     />
