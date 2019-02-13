@@ -26,7 +26,7 @@ class Intro extends React.Component {
           <a href="https://twitter.com/left_pad">Henry Zhu</a> for an
           off-the-cuff conversation between friends. Read the backstory from{' '}
           <a href="henryzoo.com/living-out-in-faith">Henry</a> and{' '}
-          <a href="nadiaeghbal.com/public-faith">Nadia</a>
+          <a href="nadiaeghbal.com/public-faith">Nadia</a>.
         </p>
         
         <Subscribe />
