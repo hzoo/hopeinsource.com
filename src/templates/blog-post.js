@@ -59,8 +59,13 @@ class BlogPostTemplate extends React.Component {
 
         <Support />
 
-        <iframe frameBorder='0' height='200px' scrolling='no' seamless src={`https://embed.simplecast.com/${post.frontmatter.episodeLink}?color=3d3d3d`} width='100%'></iframe>
-        
+        {
+         // <iframe frameBorder='0' height='200px' scrolling='no' seamless src={`https://embed.simplecast.com/${post.frontmatter.episodeLink}?color=3d3d3d`} width='100%'></iframe>
+        }
+
+        <iframe frameborder='0' height='94px' scrolling='no' seamless src={`https://simplecast.com/e/${post.frontmatter.episodeLink}?style=medium-dark`} width='100%'></iframe>
+
+
         <blockquote>{post.frontmatter.description}</blockquote>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
