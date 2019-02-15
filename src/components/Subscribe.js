@@ -8,7 +8,7 @@ class Subscribe extends React.Component {
           Google
         </a>{' '}
         &bull;{' '}
-        <a href="https://itunes.apple.com/us/podcast/on-margins/id1236390557" target="_blank">
+        <a href="https://itunes.apple.com/us/podcast/hope-in-source/id1437677655" target="_blank">
           Apple
         </a>{' '}
         &bull;{' '}
