@@ -9,24 +9,20 @@ import Footer from '../components/Footer'
 import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 
-const GITHUB_USERNAME = 'hzoo'
-const GITHUB_REPO_NAME = 'hopeinsource.com'
-const SITE = 'hopeinsource.com'
-
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteTitle = get(this.props, 'data.site.siteMetadata.title')
+    const siteMetadata = get(this.props, 'data.site.siteMetadata')
     const { previous, next, slug } = this.props.pageContext
-    const editUrl = `https://github.com/${GITHUB_USERNAME}/${GITHUB_REPO_NAME}/edit/master/src/pages/${slug.replace(
+    const editUrl = `https://github.com/${siteMetadata.gitOrg}/${siteMetadata.siteUrl}/edit/master/src/pages/${slug.replace(
       /\//g,
       ''
     )}.md`
     let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
-      `${SITE}${slug}`
+      `${siteMetadata.siteUrl}${slug}`
     )}`
     return (
-      <Layout location={this.props.location} title={siteTitle}>
+      <Layout location={this.props.location} title={siteMetadata.title}>
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description}
@@ -138,6 +134,8 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         author
+        gitOrg
+        siteUrl
       }
     }
     markdownRemark(fields: { slug: { eq: $slug } }) {

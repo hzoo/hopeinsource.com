@@ -3,11 +3,17 @@ module.exports = {
     title: 'Hope in Source — A podcast about faith and open source — with Nadia Eghbal & Henry Zhu',
     author: 'Nadia Eghbal & Henry Zhu',
     description: 'What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.',
-    siteUrl: 'https://hopeinsource.netlify.com', // temp
+    gitOrg: 'hzoo',
+    siteUrl: 'hopeinsource.com',
     social: {
       twitter: '@left_pad',
     },
-    rss: 'https://rss.simplecast.com/podcasts/7049/rss'
+    feed: {
+      rss: 'https://rss.simplecast.com/podcasts/7049/rss',
+      google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D',
+      apple: 'https://itunes.apple.com/us/podcast/hope-in-source/id1437677655',
+      spotify: 'https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B',
+    },
   },
   pathPrefix: '/',
   plugins: [

@@ -15,7 +15,9 @@ const query = graphql`
         social {
           twitter
         }
-        rss
+        feed {
+          rss
+        }
       }
     }
   }
@@ -66,14 +68,6 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                 name: 'twitter:creator',
                 content: siteMetadata.social.twitter,
               },
-              // {
-              //   name: 'twitter:title',
-              //   content: title || siteMetadata.title,
-              // },
-              // {
-              //   name: 'twitter:description',
-              //   content: metaDescription,
-              // },
             ]
               .concat(
                 metaImage
@@ -82,10 +76,6 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                         property: 'og:image',
                         content: metaImage,
                       },
-                      // {
-                      //   name: 'twitter:image',
-                      //   content: metaImage,
-                      // },
                     ]
                   : []
               )
@@ -131,7 +121,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
               rel="alternate"
               type="application/rss+xml"
               title={siteMetadata.title}
-              href={siteMetadata.rss}
+              href={siteMetadata.feed.rss}
             />
           </Helmet>
         )
