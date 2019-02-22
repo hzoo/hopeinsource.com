@@ -2,7 +2,7 @@ import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 
 const query = graphql`
-  query GetSiteMetadata {
+  query getFeed {
     site {
       siteMetadata {
         feed {
@@ -42,7 +42,7 @@ class Subscribe extends React.Component {
               </a>
             </p>
           )
-        }
+        }}
       />
     )
   }
