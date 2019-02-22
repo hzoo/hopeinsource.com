@@ -8,8 +8,6 @@ episodeLink: a2ab2ac8
 
 ## Links
 
-- Call to Commitment: https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS
-
 ## Transcript
 
 Henry:              00:00          So, in this episode, uh, I want to bring up topics around like work burnout and work and why we do what we do. And, um, I guess, motivations and, and goals that we have when we're working in open source or, or anything in life.
@@ -326,4 +324,4 @@ Henry:              42:59          Yeah. It's weird 'cause um, in the Bible, it 
 
 Henry:              43:34          And some people think that the way that we are most satisfied in who God is, is by worship.
 
-Nadia:              43:43          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad] or [@nayafia] or on our website, hopeinsource.com.
+Nadia:              43:43          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).
