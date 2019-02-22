@@ -218,4 +218,4 @@ Henry:              34:01          Yeah, 'cause it, it's, and also that you know
 
 Nadia:              34:29          Yeah.
 
-Nadia:              34:31          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter [@left-pad] or [@nayafia], or on our website, hopeinsource.com.
+Nadia:              34:31          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter [@left_pad] or [@nayafia], or on our website, hopeinsource.com.
