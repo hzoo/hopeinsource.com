@@ -326,4 +326,4 @@ Henry:              42:59          Yeah. It's weird 'cause um, in the Bible, it 
 
 Henry:              43:34          And some people think that the way that we are most satisfied in who God is, is by worship.
 
-Nadia:              43:43          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@leftpad] or [@nayafia] or on our website, hopeinsource.com.
+Nadia:              43:43          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad] or [@nayafia] or on our website, hopeinsource.com.
