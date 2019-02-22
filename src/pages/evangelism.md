@@ -158,4 +158,4 @@ Nadia:              33:27          Yeah, if you weren't though.
 
 Henry:              33:28          Yeah, it would be weird if you weren't guess and then now it's almost like the opposite and it's only perceived as pretty negative. So it's just a different situation to be in.
 
-Nadia:              33:39          Thanks for listening. If you like to continue the conversation you can find us on Twitter [@left_pad] and [@nayafia] or on our website hopeinsource.com.
+Nadia:              33:39          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).
