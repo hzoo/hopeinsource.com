@@ -16,7 +16,7 @@ Nadia:              00:00          Okay, so today we're gonna be talking about t
 
 Henry:              00:14          Yeah. Sounds good. Or how that relates to like, how we might see that in open source, too.
 
-Nadia:              00:18          So yeah, I was, I was thinking about this topic because I was reading this book called Call to Commitment, about um, a church that kind of took the approach of, drawing these very clear lines around who was a member of the church and who isn't.
+Nadia:              00:18          So yeah, I was, I was thinking about this topic because I was reading this book called [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS), about um, a church that kind of took the approach of, drawing these very clear lines around who was a member of the church and who isn't.
 
 Nadia:              00:33          And the idea being that if you, if you wanna show up and attend, you're always welcome to attend, you're welcome to, you know, take part and enjoy the services, but if you really wanna, like, be a part of the church, you kinda have to like, they wanna know that you're super, super committed. And that means saying no to people that might just sort of be casually committed.
 
@@ -218,4 +218,4 @@ Henry:              34:01          Yeah, 'cause it, it's, and also that you know
 
 Nadia:              34:29          Yeah.
 
-Nadia:              34:31          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter [@left_pad] or [@nayafia], or on our website, hopeinsource.com.
+Nadia:              34:31          Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).
