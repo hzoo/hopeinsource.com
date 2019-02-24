@@ -24,26 +24,26 @@ class Subscribe extends React.Component {
       <StaticQuery
         query={query}
         render={data => {
-          const feed = data.site.siteMetadata.feed;
+          const metaData = data.site.siteMetadata;
           return (
             <p>
-              <a href={feed.google} target="_blank">
+              <a href={metaData.feed.google} target="_blank">
                 Google
               </a>{' '}
               &bull;{' '}
-              <a href={feed.apple} target="_blank">
+              <a href={metaData.feed.apple} target="_blank">
                 Apple
               </a>{' '}
               &bull;{' '}
-              <a href={feed.spotify} target="_blank">
+              <a href={metaData.feed.spotify} target="_blank">
                 Spotify
               </a>{' '}
               &bull;{' '}
-              <a href={feed.rss} target="_blank" rel="noopener noreferrer">
+              <a href={metaData.feed.rss} target="_blank" rel="noopener noreferrer">
                 RSS
               </a>{' '}
               &bull;{' '}
-              <a href={`https://github.com/${feed.gitOrg}/${feed.siteUrl}`} target="_blank">
+              <a href={`https://github.com/${metaData.gitOrg}/${metaData.siteUrl}`} target="_blank">
                 GitHub
               </a>
             </p>
