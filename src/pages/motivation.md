@@ -3,7 +3,7 @@ title: '03: Intrinsic Motivation'
 date: '2018-10-16'
 time: '43'
 description: Why do we do what we do? We talk about intrinsic motivation, the role it plays in creative work with uncertain outcomes, motivating new contributors, and sustaining motivation over time.
-episodeLink: a2ab2ac8
+episodeLink: 89cf91e7-918e-4d52-bce6-66b00a543ea1
 ---
 
 ## Links

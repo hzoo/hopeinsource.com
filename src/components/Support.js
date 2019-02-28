@@ -11,14 +11,12 @@ class Support extends React.Component {
       }}>
           <Link
             style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
               color: 'inherit',
             }}
             to={'/'}
           >
             <i>Hope in Source</i>
-          </Link>{' '}
+          </Link>{' '}<br/>
           is made possible by the support of patrons.<br/>Consider becoming a{' '}
         <a href="https://www.patreon.com/henryzhu">supporter</a> today!
       </p>

@@ -3,7 +3,7 @@ title: '10: Trust'
 date: '2018-10-16'
 time: '34'
 description: Why do we trust anyone? We talk about trust as an act of faith, trusting people versus trusting code, and the relationship between trust and work.
-episodeLink: 61758f27
+episodeLink: 4bbe56cb-eecb-4d8b-9dbb-b637c2923cee
 ---
 
 ## Links

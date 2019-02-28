@@ -84,7 +84,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                   ? [
                       {
                         name: 'twitter:player',
-                        content: `https://simplecast.com/card/${episodeLink}`,
+                        content: `https://player.simplecast.com/${episodeLink}?dark=true&color=1B2B34`,
                       },
                       {
                         name: 'twitter:player:width',
@@ -93,14 +93,6 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                       {
                         name: 'twitter:player:height',
                         content: '80',
-                      },
-                      {
-                        name: 'twitter:player:stream',
-                        content: `https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/${episodeLink}.mp3`,
-                      },
-                      {
-                        name: 'twitter:player:stream:content_type',
-                        content: 'audio/mpeg',
                       },
                     ]
                   : []
