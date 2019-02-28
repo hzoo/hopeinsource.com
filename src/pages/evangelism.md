@@ -3,7 +3,8 @@ title: '05: Evangelism'
 date: '2018-10-16'
 time: '34'
 description: How do we evangelize our ideas? We talk about evangelism in religion and tech, meeting people where they're at, living one's values in public, and maintaining humility in the face of conviction.
-episodeLink: 45c76f65
+episodeLink: 59e08c5c-60b2-44d2-a051-4edc5a411a3f
+embedUrl: https://hopeinsource.simplecast.com/episodes/5-evangelism-45c76f65
 ---
 
 ## Links

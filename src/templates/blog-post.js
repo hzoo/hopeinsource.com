@@ -27,44 +27,20 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description}
           slug={post.fields.slug}
-          episodeLink={post.frontmatter.episodeLink}
+          embedUrl={post.frontmatter.embedUrl}
         />
-        {
-          // <Link
-          //   style={{
-          //     boxShadow: 'none',
-          //     textDecoration: 'none',
-          //     color: 'inherit',
-          //   }}
-          //   to={'/'}
-          // >
-          //   <h1>{post.frontmatter.title}</h1>
-          // </Link>
-          // <p
-          //   style={{
-          //     ...scale(-1 / 5),
-          //     display: 'block',
-          //     marginBottom: rhythm(1),
-          //     marginTop: rhythm(-1),
-          //   }}
-          // >
-          //   {post.frontmatter.date}
-          //   {` • ${post.frontmatter.time} min 🎧`}
-          // </p>
-        }
 
         <Support />
 
         {
-         // <audio id="audio" 
-         //    preload="auto" 
-         //    src={`https://dts.podtrac.com/redirect.mp3/audio.simplecast.com/${post.frontmatter.episodeLink}.mp3`} >
-         //    <p>Your browser does not support the audio element</p>
-         // </audio>
-        }
-
-        {
-          <iframe frameborder='0' height='94px' scrolling='no' seamless src={`https://simplecast.com/e/${post.frontmatter.episodeLink}?style=medium-dark`} width='100%'></iframe>
+          <iframe
+            height="52px"
+            width="100%"
+            frameborder="no"
+            scrolling="no"
+            seamless
+            src={`https://player.simplecast.com/${post.frontmatter.episodeLink}?dark=true&color=1B2B34`}>
+          </iframe>
         }
 
         <blockquote>{post.frontmatter.description}</blockquote>
@@ -153,6 +129,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         episodeLink
+        embedUrl
       }
       fields {
         slug

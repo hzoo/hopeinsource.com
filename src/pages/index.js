@@ -79,7 +79,6 @@ export const pageQuery = graphql`
             time
             title
             description
-            episodeLink
           }
         }
       }

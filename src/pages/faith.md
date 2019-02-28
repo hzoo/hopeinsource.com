@@ -3,7 +3,8 @@ title: '01: Faith and open source'
 date: '2018-10-16'
 time: '33'
 description: We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
-episodeLink: 10d618f0
+episodeLink: 2e19daf2-a0b2-4481-9b4a-dadb02976988
+embedUrl: https://hopeinsource.simplecast.com/episodes/1-faith-and-open-source-10d618f0
 ---
 
 ## Links
