@@ -86,6 +86,13 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                         name: 'twitter:player',
                         content: `${embedUrl}`,
                       },
+                        name: 'twitter:player:width',
+                        content: '438',
+                      },
+                      {
+                        name: 'twitter:player:height',
+                        content: '52',
+                      },
                     ]
                   : []
               )
