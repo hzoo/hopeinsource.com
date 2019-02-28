@@ -23,7 +23,7 @@ const query = graphql`
   }
 `
 
-function SEO({ meta, image=cover, title, description, slug, appId=1437677655, episodeLink }) {
+function SEO({ meta, image=cover, title, description, slug, appId=1437677655, embedUrl }) {
   return (
     <StaticQuery
       query={query}
@@ -62,7 +62,7 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
               },
               {
                 name: 'twitter:card',
-                content: episodeLink ? 'player': 'summary',
+                content: embedUrl ? 'player': 'summary',
               },
               {
                 name: 'twitter:creator',
@@ -80,11 +80,11 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, ep
                   : []
               )
               .concat(
-                episodeLink
+                embedUrl
                   ? [
                       {
                         name: 'twitter:player',
-                        content: `https://player.simplecast.com/${episodeLink}?dark=true&color=1B2B34`,
+                        content: `${embedUrl}`,
                       },
                       {
                         name: 'twitter:player:width',

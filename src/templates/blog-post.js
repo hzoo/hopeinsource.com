@@ -27,7 +27,7 @@ class BlogPostTemplate extends React.Component {
           title={post.frontmatter.title}
           description={post.frontmatter.description}
           slug={post.fields.slug}
-          episodeLink={post.frontmatter.episodeLink}
+          embedUrl={post.frontmatter.embedUrl}
         />
 
         <Support />
@@ -129,6 +129,7 @@ export const pageQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         description
         episodeLink
+        embedUrl
       }
       fields {
         slug

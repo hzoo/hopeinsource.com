@@ -4,6 +4,7 @@ date: '2018-10-16'
 time: '34'
 description: What does it mean to join a community? We talk about casual versus committed membership, and how maintainers and leaders manage expectations around trust and collaboration.
 episodeLink: 992b433f-9f93-4d4b-bb49-74358b669935
+embedUrl: https://hopeinsource.simplecast.com/episodes/2-community-membership-4cd0f407
 ---
 
 ## Links
