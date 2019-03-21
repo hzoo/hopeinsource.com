@@ -27,7 +27,7 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 - ["Science and Complexity"](http://people.physics.anu.edu.au/~tas110/Teaching/Lectures/L1/Material/WEAVER1947.pdf) (Warren Weaver)
 - [Desire paths](https://en.wikipedia.org/wiki/Desire_path)
 - [*The Cat and the Toaster: Living System Ministry in a Technological Age*](https://www.amazon.com/Cat-Toaster-Living-Ministry-Technological/dp/1608992705) (book)
-    - Many references to the church as a body (1 Corinthians 12:12-31) [https://en.wikipedia.org/wiki/Body_of_Christ](https://en.wikipedia.org/wiki/Body_of_Christ), also reminded of being farmers/stewards/shepards.
+    - Many references to the [church as a body](https://en.wikipedia.org/wiki/Body_of_Christ) (1 Corinthians 12:12-31), also reminded of being farmers/stewards/shepards.
 - Timothy's upcoming new book: *The Ethics of Beauty*
 - [Paperclip maximization](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)
 
