@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
 
 import Layout from '../components/Layout'
+import Subscribe from '../components/Subscribe'
 import Support from '../components/Support'
 import SEO from '../components/SEO'
 import Footer from '../components/Footer'
