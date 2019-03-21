@@ -1,8 +1,8 @@
 ---
-title: '11: Cities'
+title: '11: City as Liturgy'
 date: '2019-03-21'
 time: '54'
-description: Is the city a toaster (a structure) or a cat (living)? We are joined by Dr. Timothy Patitsis to talk about the "problem" of a city (or the Internet). Our discussion covers the varied (and unrecognized) approaches of scientific thinking, the nature of liturgy as embodied knowledge, and on discerning the right kinds of governance.
+description: Is the city a toaster (an object) or a cat (a living organism)? We are joined by Dr. Timothy Patitsis to talk about how our physical and digital spaces, like liturgy, can be understood as "the work of the people". We discuss science as organized complexity, the meaning of knowledge, recursive societies, fractal hierarchies, and implications for governance.
 episodeLink: c302abae-9279-4ea1-94ab-f6f2ab9b2fca
 embedUrl: https://hopeinsource.simplecast.com/episodes/cities-JKgi3094
 ---
