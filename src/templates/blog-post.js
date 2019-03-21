@@ -31,6 +31,8 @@ class BlogPostTemplate extends React.Component {
         />
 
         <Support />
+      
+        <Subscribe />
 
         {
           <iframe
