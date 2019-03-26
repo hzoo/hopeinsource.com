@@ -15,11 +15,13 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 ## Show Notes (WIP)
 
-- ["The Death and Life of Great American Cities"](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities) (Jane Jacobs)
-- Timothy's paper: ["The City as Liturgy"](https://www.academia.edu/12035222/The_City_as_Liturgy_An_Orthodox_Theologian_Corresponds_with_Jane_Jacobs_About_a_Gentle_Reconciliation_of_Science_and_Religion)
+- ["The Death and Life of Great American Cities"] (Jane Jacobs)
+- Timothy's paper: ["The City as Liturgy"]
 - ["Reclaiming public life"](https://nadiaeghbal.com/public-life): Nadia's post after reading Jane Jacobs' book on cities
-- ["After Writing: On the Liturgical Consummation of Philosophy"](https://www.amazon.com/After-Writing-Liturgical-Cosummation-Philosophy/dp/0631206728) (Catherine Pickstock). The article that linked liturgy with cities for Timothy. The author accused Descartes of substituting a "mode of knowing" that was impersonal, visual, timeless; similar to Jacobs' accusation of urban planners
-- ["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"](https://academiccommons.columbia.edu/doi/10.7916/D832055Z): Article about governance from a friend that Timothy recommends. Can't throw away hierarchy entirely, but it can be fractal
+- ["After Writing"]: On the Liturgical Consummation of Philosophy (Catherine Pickstock). The article that linked liturgy with cities for Timothy. The author accused Descartes of substituting a "mode of knowing" that was impersonal, visual, timeless; similar to Jacobs' accusation of urban planners
+- [Cartesianism](https://en.wikipedia.org/wiki/Cartesianism): philsophy of René Descartes
+- ["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"]: Article about governance from a friend that Timothy recommends. Can't throw away hierarchy entirely, but it can be fractal
+- [Subsidiarity]
 - [*Governing The Commons*](https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/0521405998) by Elinor Ostrom
 - ["Governance without foundations"](https://nadiaeghbal.com/foundations): Nadia's post on foundations
 - Organic order isn't known all at once, is recursive/algorithmic (think of our relationships)
@@ -31,27 +33,34 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 - Timothy's upcoming new book: *The Ethics of Beauty*
 - [Paperclip maximization](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)
 
+["The Death and Life of Great American Cities"]: https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities
+["The City as Liturgy"]: https://www.academia.edu/12035222/The_City_as_Liturgy_An_Orthodox_Theologian_Corresponds_with_Jane_Jacobs_About_a_Gentle_Reconciliation_of_Science_and_Religion
+["After Writing"]: https://www.amazon.com/After-Writing-Liturgical-Cosummation-Philosophy/dp/0631206728
+[Urban Renewal Act]: https://en.wikipedia.org/wiki/Housing_Act_of_1949
+["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"]: https://academiccommons.columbia.edu/doi/10.7916/D832055Z
+[Subsidiarity]: https://en.wikipedia.org/wiki/Subsidiarity_(Catholicism)
+
 ## Transcript
 
-Henry:              00:00          All right. We decided to make a bonus episode. So Nadia, she wrote a post, uh, I think a month ago about, um, her reading of a book called The Death and Life of Great American Cities. And it just talks about cities and how that relates to, I guess open source and communities online that, uh, you know, open source is kind of like a digital city. Same with the internet.
+Henry:              00:00          All right. We decided to make a bonus episode. So Nadia, she wrote a post, uh, I think a month ago about, um, her reading of a book called ["The Death and Life of Great American Cities"]. And it just talks about cities and how that relates to, I guess open source and communities online that, uh, you know, open source is kind of like a digital city. Same with the internet.
 
-Henry:              00:21          Um, and then that got me looking into my own research on the topic. And I found a paper called The City as Liturgy. And so I thought it'd be cool to bring on the author. Uh, and so right now we have, uh, Dr. Timothy Patitsas, um, with us. Um, he's a Assistant Professor of Orthodox Christian Ethics at Holy Cross Greek Orthodox School of Theology in Boston. And he wrote a dissertation called, The King Returns to His City, an Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church. So thanks for joining us today.
+Henry:              00:21          Um, and then that got me looking into my own research on the topic. And I found a paper called ["The City as Liturgy"]. And so I thought it'd be cool to bring on the author. Uh, and so right now we have, uh, Dr. Timothy Patitsas, um, with us. Um, he's a Assistant Professor of Orthodox Christian Ethics at Holy Cross Greek Orthodox School of Theology in Boston. And he wrote a dissertation called, "The King Returns to His City, an Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church". So thanks for joining us today.
 
 Dr. Timothy Pat:    00:57          Thank you, Henry. And thank you, Nadia. Thanks for, um, thanks for bringing me on. Yeah.
 
-Nadia:              01:02          That'll be good if we start just by talking a little bit about this theory that you had about City as Liturgy and your reading of Jane Jacobs' work just for the benefit of everyone who hasn't read her work and, also just as a refresher of like what Liturgy is and like how that relates to cities in your mind.
+Nadia:              01:02          That'll be good if we start just by talking a little bit about this theory that you had about City as Liturgy and your reading of Jane Jacobs' work just for the benefit of everyone who hasn't read her work and, also just as a refresher of like what liturgy is and like how that relates to cities in your mind.
 
 Dr. Timothy Pat:    01:19          Yeah, so, so to start, you know, with Jane Jacobs she, she did not finish college. She did do a couple of years at Colombia in the 1930s. And when she got to a point where they insisted that she choose a major she quit. Um, she wanted to, to be free to organize her education any way she saw fit. And, um, I mean to follow the intellectual leads as they, as they came to her.
 
-Dr. Timothy Pat:    01:44          And, but she was a journalist in New York City. And she covered, um, the effects of the Urban Renewal Act. I think there's, there's a more official name for it of 1949, which really devastated American cities. And, um, replaced kind of the, the living order ... replaced what was the living order of the old city with this very abstract, very visual kind of formal, pretty order that was underneath all that was lifeless and dead.
+Dr. Timothy Pat:    01:44          And, but she was a journalist in New York City. And she covered, um, the effects of the [Urban Renewal Act]. I think there's, there's a more official name for it of 1949, which really devastated American cities. And, um, replaced kind of the, the living order ... replaced what was the living order of the old city with this very abstract, very visual kind of formal, pretty order that was underneath all that was lifeless and dead.
 
-Dr. Timothy Pat:    02:13          In 1961 she published her book, The Death and Life of Great American Cities. It was an instant hit. Um, I don't know how much impact it had on the field of urban planning initially or even still today. I certainly wish there, there was more evidence that what she wrote there is being followed.
+Dr. Timothy Pat:    02:13          In 1961 she published her book, ["The Death and Life of Great American Cities"]. It was an instant hit. Um, I don't know how much impact it had on the field of urban planning initially or even still today. I certainly wish there, there was more evidence that what she wrote there is being followed.
 
 Dr. Timothy Pat:    02:33          But I, I came to her book many years later just as a side thing while I was working on my dissertation in theology. And one day I just happened to notice that it was, she was describing cities as if they were liturgies. So there's a, there's a book that helped me to, uh, to, to, um, understand Jane Jacobs.
 
 Dr. Timothy Pat:    02:50          I, I mean of course I, I ... the moment I read The Death and Life of Great American Cities I was in love with that book. I was in love with just her, her writing style, her insight, um, her rebellious nature against, you know, what was the, the accepted reasoning of the day. And also it's really a, a, a, a text about racial injustice because of the over 2,000 American, uh, city neighborhoods that were completely, you know, dynamited down to the rubble to make way for urban renewal. Um, 1700 of them were largely African-American neighborhoods.
 
-Dr. Timothy Pat:    03:29          So a huge blow to the African-American urban communities. And no one talks about that. Still today. She's, there's like one other book you hear about. So, so on many levels I, I loved Death and Life. Um, but there's another, uh, a theologian in England named Catherine Pickstock. And she wrote a book called, After Writing. And the subtitle is On the Liturgical Consummation of Philosophy.
+Dr. Timothy Pat:    03:29          So a huge blow to the African-American urban communities. And no one talks about that. Still today. She's, there's like one other book you hear about. So, so on many levels I, I loved Death and Life. Um, but there's another, uh, a theologian in England named Catherine Pickstock. And she wrote a book called, ["After Writing"]. And the subtitle is On the Liturgical Consummation of Philosophy.
 
 Dr. Timothy Pat:    03:56          And I didn't read that book super closely 'cause kind of technical and dense. But I, her basic point was that, um, she thought that Descartes had aspired for, aspired to, to bring us to a mode of knowing that was impersonal and visual and outside of time. And, and I, and it was during actually my, my, uh, comprehensive exams for the dissertation at Catholic U in Washington that it just hit me that, um, what Pickstock was accusing Descartes of doing, is what Jane Jacobs had accused the urban planners of her day of doing.
 
@@ -69,7 +78,7 @@ Nadia:              06:56          Um, just to sort of oversimplify a little bit
 
 Nadia:              07:35          Um, and then I think when, when I read it I was kind of taken in the direction of her description of cities being a lot like, um, like the internet as a city, I guess. Um, and that we have this sort of like digital lives that are also very like organic and complex, and, um, separate from ... or yeah, similar to, to the way that cities are. Um, and so yeah, like I totally on, on, on the same page about, uh, about her impacts on cities. Uh, the idea of like city as liturgy I, I wanted to sort of like unpack a little bit more.
 
-Nadia:              08:07          Um, we had an episode on Liturgy and I, I'm kind of the I guess like theological newb here. Um, and I remember we talked about liturgy as sort of like, uh, religious rituals or habits or things that you do that sort of like reinforce, um, I guess your practice. Uh, and so, yeah, I wanted to just sort of unpack a little bit more from your side. Like what ... is that, is that right? (laughs). Um, what is liturgy, um, and then yeah how, how did you see the, the parallels being drawn to the way Jane Jacobs describes cities?
+Nadia:              08:07          Um, we had an [episode on liturgy](https://hopeinsource.com/liturgy/) and I, I'm kind of the I guess like theological newb here. Um, and I remember we talked about liturgy as sort of like, uh, religious rituals or habits or things that you do that sort of like reinforce, um, I guess your practice. Uh, and so, yeah, I wanted to just sort of unpack a little bit more from your side. Like what ... is that, is that right? (laughs). Um, what is liturgy, um, and then yeah how, how did you see the, the parallels being drawn to the way Jane Jacobs describes cities?
 
 Dr. Timothy Pat:    08:38          Yeah, that, these are, these are all, you know, these are great questions. You know, let's see. What is liturgy? I mean as a, as a mode of knowing liturgy revolves around the idea that, you know, or- organic order is not meant to be known all at once. Or like think of it as, as a, as a person. You're not meant to know a person all at once. We don't introduce ourselves with, you know, a biography or the full life story, but rather living systems are meant to be know recursively.
 
@@ -89,7 +98,7 @@ Nadia:              12:30          Um, I'm wondering what the ... just to get su
 
 Dr. Timothy Pat:    12:40          Oh, I mean the, the Car- Cartesian read of liturgy is, you know, ditch it and, you know, salvation, you know, is not a recur- , it's not a ... there's, there isn't that recursive element of getting to know Christ, let's say for a Christian. It is just you're saved or you're not. And, and at the same time, um, services are just lectures. Right, so it, so that's it's just, it's just mind to mind. It i- , it isn't anymore that sense of that the entire person, body, soul, un- unconscious, psyche, emotions, everything.
 
-Dr. Timothy Pat:    13:17          Um, I mean, I don't, I don't think it ... you know, what's the point of worshiping if there's no insense? I mean ... speaking again to, to Christians or Jews because you know they, we have a biblical vision that in heavenly worship there's insense. Like if you're not gonna impact the most basic, uh, and ancient sen- , one of the five senses, then, you know, what, why, why are you bothering? You know, it's, what are you really doing in the end? So, um, so I think in, in the Carte- , you know, you just, you know, religion as a, is a, is a doctrine. You know it, you assent to it intellectually. Game over. Get on with your life.
+Dr. Timothy Pat:    13:17          Um, I mean, I don't, I don't think it ... you know, what's the point of worshiping if there's no insense? I mean ... speaking again to, to Christians or Jews because you know they, we have a biblical vision that in heavenly worship there's incense. Like if you're not gonna impact the most basic, uh, and ancient sen- , one of the five senses, then, you know, what, why, why are you bothering? You know, it's, what are you really doing in the end? So, um, so I think in, in the Carte- , you know, you just, you know, religion as a, is a, is a doctrine. You know it, you assent to it intellectually. Game over. Get on with your life.
 
 Dr. Timothy Pat:    13:55          Now, that doesn't mean, 'cause this goes back to the final chapter of Death and Life and that's really the crucial chapter that there are three kinds of science that we know how to do. And in two of 'em that kind of Cartesian approach really works. And Jacobs, Jacobs was not an anti-Cartesian at that level. In fact, what I try to say is that she saves the enlightenment because she, she gives us a post-modern science that respects the role of modern science. The first two kinds of scientific problem solving.
 
@@ -101,7 +110,7 @@ Dr. Timothy Pat:    15:25          Well, I, I think I, I ... Can I, can I put in
 
 Nadia:              15:29          Yes.
 
-Dr. Timothy Pat:    15:29          Um, it, it's, it's called, uh, An Exploration of Hierarchy as Fractal and the Theology of Dionysius the Areopagite. Um, and it's by a, a friend of mine named Georgia J. Williams. Georgia Williams. And, um, this word hierarchy was first cined, coined, I mean as a noun, as a, as a proper noun like that in the, in the maybe the 500s A.D.
+Dr. Timothy Pat:    15:29          Um, it, it's, it's called, uh, ["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"]. Um, and it's by a, a friend of mine named Georgia J. Williams. Georgia Williams. And, um, this word hierarchy was first cined, coined, I mean as a noun, as a, as a proper noun like that in the, in the maybe the 500s A.D.
 
 Dr. Timothy Pat:    15:54          And what it meant in the theology of this, this, um, saint of the early church, Dionysius, was so what this is what we mean as, by fractal. So you kind of just have to read ... you, you, you cannot ... you can't dispense with hierarchy, but you have to understand it fractally. And I think, Henry, you were saying that that relates to this whole notion of subsidiarity, which I have ... I haven't really read about.
 
@@ -109,7 +118,7 @@ Dr. Timothy Pat:    16:21          But just to give you a, an example that I use
 
 Dr. Timothy Pat:    16:53          And so, this issue of how you get people involved, first of all, you have to empower them to get involved. You know, to control their own lives like right where they are. But, but then of course they will be in these nested, you know, networks.
 
-Henry:              17:08          Yeah, I guess speaking of subsidiarity, uh, it's a term from, uh, Catholic church. Um, it says it's a, it's organizing principle that matters should be handled by the smallest or lowest, uh, least centralized authority. And so all decisions should be taken at the local level if possible and like kind of like moving up.
+Henry:              17:08          Yeah, I guess speaking of [subsidiarity], uh, it's a term from, uh, Catholic church. Um, it says it's a, it's organizing principle that matters should be handled by the smallest or lowest, uh, least centralized authority. And so all decisions should be taken at the local level if possible and like kind of like moving up.
 
 Henry:              17:27          So it, it kind of reminds me of like doing things only when necessary or like even like a lazy way of thinking where it's not like everything has to be handled by the people that have the most context around what they're handling. And it even kind of reminds me of a post that Nadia did about like foundations and whether open source projects should join a foundation for their own governance and when to like add more people and add governance. And it's kind of like do it when it requires it to be happening rather than beforehand.
 
