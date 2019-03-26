@@ -13,7 +13,7 @@ Dr. Timothy Patitsas has been Assistant Professor of Orthodox Christian Ethics 
 since 2005. His dissertation, The King Returns to His City: An Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church,
 combined interests in complexity theory, liturgy, urbanism, and the economic and political writings of Jane Jacobs.
 
-## Show Notes (WIP)
+## Show Notes
 
 - ["The Death and Life of Great American Cities"] (Jane Jacobs)
 - Timothy's paper: ["The City as Liturgy"]
