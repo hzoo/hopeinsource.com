@@ -29,9 +29,9 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 - ["Science and Complexity"](http://people.physics.anu.edu.au/~tas110/Teaching/Lectures/L1/Material/WEAVER1947.pdf) (Warren Weaver)
 - ["Letters to a Young Poet"]: Particularly Letter #4: "Don't search for the answers, which could not be given to you now, because you would not be able to live them."
 - [Desire lines]
-- [*The Cat and the Toaster"]: Living System Ministry in a Technological Age (book)
+- ["The Cat and the Toaster"]: Living System Ministry in a Technological Age (book)
     - Many references to the [church as a body](https://en.wikipedia.org/wiki/Body_of_Christ) (1 Corinthians 12:12-31), also reminded of being farmers/stewards/shepards.
-- Timothy's upcoming new book: *The Ethics of Beauty*
+- *The Ethics of Beauty*: Timothy's upcoming new book
 - [paperclip maximization]
 
 ["The Death and Life of Great American Cities"]: https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities
