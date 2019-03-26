@@ -27,11 +27,12 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 - Organic order isn't known all at once, is recursive/algorithmic (think of our relationships)
 - We cope with perennial issues, like death, through liturgy (ritual)
 - ["Science and Complexity"](http://people.physics.anu.edu.au/~tas110/Teaching/Lectures/L1/Material/WEAVER1947.pdf) (Warren Weaver)
-- [Desire paths](https://en.wikipedia.org/wiki/Desire_path)
-- [*The Cat and the Toaster: Living System Ministry in a Technological Age*](https://www.amazon.com/Cat-Toaster-Living-Ministry-Technological/dp/1608992705) (book)
+- ["Letters to a Young Poet"]: Particularly Letter #4: "Don't search for the answers, which could not be given to you now, because you would not be able to live them."
+- [Desire lines]
+- [*The Cat and the Toaster"]: Living System Ministry in a Technological Age (book)
     - Many references to the [church as a body](https://en.wikipedia.org/wiki/Body_of_Christ) (1 Corinthians 12:12-31), also reminded of being farmers/stewards/shepards.
 - Timothy's upcoming new book: *The Ethics of Beauty*
-- [Paperclip maximization](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)
+- [paperclip maximization]
 
 ["The Death and Life of Great American Cities"]: https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities
 ["The City as Liturgy"]: https://www.academia.edu/12035222/The_City_as_Liturgy_An_Orthodox_Theologian_Corresponds_with_Jane_Jacobs_About_a_Gentle_Reconciliation_of_Science_and_Religion
@@ -39,6 +40,10 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 [Urban Renewal Act]: https://en.wikipedia.org/wiki/Housing_Act_of_1949
 ["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"]: https://academiccommons.columbia.edu/doi/10.7916/D832055Z
 [Subsidiarity]: https://en.wikipedia.org/wiki/Subsidiarity_(Catholicism)
+["Letters to a Young Poet"]: https://www.carrothers.com/rilke_main.htm
+[desire lines]: https://en.wikipedia.org/wiki/Desire_path
+["The Cat and the Toaster"]: https://www.amazon.com/Cat-Toaster-Living-Ministry-Technological/dp/1608992705
+[paperclip maximization]: https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer
 
 ## Transcript
 
@@ -184,7 +189,7 @@ Dr. Timothy Pat:    28:39          I, I think, you know, with this ... we respec
 
 Dr. Timothy Pat:    29:26          And I think the academy, you know, tends to reward people who do the first two kinds of science and we, and we think that is science. And we think ... and, and everything that our culture valorizes, you know, power, um, I think maybe the third kind of science is more feminine and that's one reason why, although it's high, a higher science, it's neglected.
 
-Dr. Timothy Pat:    29:53          And, um, so there's a lot of, there's a lot of factors like that where, where you're just not quite sure why. And then it's partly like the first mover advantage like the, the other two kinds of science were discovered first. Um, but, you know, the three kinds of science also work ... I mean, let me put this another way. The, the ... and, and simplicity science, it's to use the Socratic transcendentals, that's the study of the good, of, of the good in the sense of what's useful, utility. And statistical science is, is the science of the true.
+Dr. Timothy Pat:    29:53          And, um, so there's a lot of, there's a lot of factors like that where, where you're just not quite sure why. And then it's partly like the first mover advantage like the, the other two kinds of science were discovered first. Um, but, you know, the three kinds of science also work ... I mean, let me put this another way. The, the ... and, and simplicity science, it's to use the [Socratic transcendentals](https://en.wikipedia.org/wiki/Transcendentals), that's the study of the good, of, of the good in the sense of what's useful, utility. And statistical science is, is the science of the true.
 
 Dr. Timothy Pat:    30:29          But organic science is the science of the beautiful. And that was your original point of this interview. You said, "She showed that ordinary people opening their eyes, looking around, feeling, uh, sensing," because what I call, um, you know, organic complexity, it's the beauty first approach to science. And, and that is the thing that we just cannot accept as a society is the centrality of beauty and that is the thing which, you know, the modern period and the rejection of liturgy and worship and all that was supposed to free us from was the, the bewitching power of beauty. And, and we were supposed to be truth firsters.
 
@@ -216,7 +221,7 @@ Nadia:              35:08          Whereas like with problems of organized compl
 
 Henry:              35:30          Yeah. I think that kind of just ties back into liturgy itself. It's like, it's easy to tell people things that like, um, like the ideas in your mind, even if you say them it's like do people actually understand what you're saying and like I think living that out is a better way of understanding what they're getting at.
 
-Henry:              35:50          It kind of even reminds me of the, uh, the letters to a young poet that I sent you. Um, like, not being out, not being able to like live out the answers and so like the idea is to live out the questions. And I think that's hard for people because we just want an answer and we just wanna like figure it out now.
+Henry:              35:50          It kind of even reminds me of the, uh, the ["Letters to a Young Poet"] that I sent you. Um, like, not being out, not being able to like live out the answers and so like the idea is to live out the questions. And I think that's hard for people because we just want an answer and we just wanna like figure it out now.
 
 Henry:              36:09          Um, and like this idea of like having patience and like, um, I think that's hard for people.
 
@@ -254,7 +259,7 @@ Nadia:              42:16          Right. I think that is what was really nice a
 
 Nadia:              42:37          But like each of those pieces still exist as their own thing. Like a road is just a road. But a road when people are on it is now like, becomes a, a problem of organized complexity. Um, and so she's not saying that the artifact is transforming into something living, but more that it is now participating in a system that is a separate thing.
 
-Dr. Timothy Pat:    42:56          That's, that's a good point. Yeah. And now it's, and now, now, now it will ... like, um, I- I- I think sometimes they call 'em desire lines in cities [inaudible 00:43:05] purposes.
+Dr. Timothy Pat:    42:56          That's, that's a good point. Yeah. And now it's, and now, now, now it will ... like, um, I- I- I think sometimes they call 'em [desire lines] in cities [inaudible 00:43:05] purposes.
 
 Nadia:              43:06          Yes.
 
@@ -264,7 +269,7 @@ Nadia:              43:25          How do you think about those re- religious ri
 
 Dr. Timothy Pat:    43:52          It just it's, it's very hard to, to, to shift. You know, it's hard to invent something, a new ritual that will catch. And, um, so the sign, the sign that it should catch is, is usually that it has caught and, you know, something ... it, you know, it's, it's kind of the collective affirmation around it that, you know, lets you know that, "Okay, this is ... I tried it and, uh, other people caught on and here we are."
 
-Dr. Timothy Pat:    44:21          But, but yeah, I think, yeah, that that feeling of antiquity ... By the way in, in, in Boston at the Emmanuel Gosp- , there's a some- something called the Emmanuel Gospel Center and it is, um, the do Urban Christian Ministry, but their whole approach is this, uh, organized complexity approach and I'm, I'm trying to find ... oh, I just remembered the name of their book. It's something like, The Cat and the Toaster. And, um, and, and it's or The Toaster and the Cat or one of those.
+Dr. Timothy Pat:    44:21          But, but yeah, I think, yeah, that that feeling of antiquity ... By the way in, in, in Boston at the Emmanuel Gosp- , there's a some- something called the Emmanuel Gospel Center and it is, um, the do Urban Christian Ministry, but their whole approach is this, uh, organized complexity approach and I'm, I'm trying to find ... oh, I just remembered the name of their book. It's something like, ["The Cat and the Toaster"]. And, um, and, and it's or The Toaster and the Cat or one of those.
 
 Dr. Timothy Pat:    44:51          And it, and it's, you know, the question is if you're dealing with some- , are you dealing with a toaster or a cat? You know, is it, is it ... and, and that has to do with time. Can you take it apart and put it back together? It's a toaster. If you take it apart are you, do you belong in jail? That's a cat.
 
@@ -280,7 +285,7 @@ Nadia:              46:04          And what was cat toaster toast, I'm just thin
 
 Dr. Timothy Pat:    46:07          And, and the thing, the thing about the antiquity of, of liturgies or rituals is that they are cats and not toasters. So the idea that you could take them apart and put them back together, um, unless in putting them back together you do hit up, hit upon the ancient patterns. I mean the perennial, not ancient in time, but the timeless forms. Um, just not gonna happen. You know, it just isn't gonna happen. They just, they won't, they won't survive the transition. You'll lose your, your church or religion if you do it wrong. It'll just, it'll just go away underneath you.
 
-Nadia:              46:45          Here's something I'm sort of wondering about. Going back to sort of like the recursive fractal nature of, of organized systems. There's this, uh, I can't even really remember where it comes from. The, the whole idea of like paper, paperclip maximization where like you have a factory that's making paperclips and then all, all it knows is to make paperclips and then it, it sort of just like, it's so focused on the thing. (laughs). And you end up, yeah, you end up just sort of like destroying everything be, uh, for, uh, for the sake of paperclips.
+Nadia:              46:45          Here's something I'm sort of wondering about. Going back to sort of like the recursive fractal nature of, of organized systems. There's this, uh, I can't even really remember where it comes from. The, the whole idea of like paper, [paperclip maximization] where like you have a factory that's making paperclips and then all, all it knows is to make paperclips and then it, it sort of just like, it's so focused on the thing. (laughs). And you end up, yeah, you end up just sort of like destroying everything be, uh, for, uh, for the sake of paperclips.
 
 Nadia:              47:10          Um, and, yeah, just trying to think a little bit about that like maybe symbiotic relationship between systems of organized complexity but also respecting the, um, the more objective, uh, and like how do you know when a system is trying to optimize for something and everyone is kind of talking it through and then but like it's taking us into like a worse direction in some shape or form.
 
