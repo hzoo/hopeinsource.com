@@ -17,8 +17,8 @@ class Support extends React.Component {
           >
             <i>Hope in Source</i>
           </Link>{' '}<br/>
-          is made possible by the support of patrons.<br/>Consider becoming a{' '}
-        <a href="https://www.patreon.com/henryzhu">supporter</a> today!
+          is made possible by the support of the community!<br/>Consider becoming a{' '}
+        <a href="https://github.com/users/hzoo/sponsorship">sponsor</a> today!
       </p>
     )
   }
