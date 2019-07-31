@@ -13,6 +13,8 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/2-community-membership-4c
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/membership.md)
+
 00:00 **Nadia**: Okay, so today we're gonna be talking about the concept of membership in a church, what it means to commit or not commit to attending. And, I think that's it. Right?
 
 00:14 **Henry**: Yeah. Sounds good. Or how that relates to like, how we might see that in open source, too.

@@ -11,6 +11,8 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/3-intrinsic-motivation-a2
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/motivation.md)
+
 00:00 **Henry**: So, in this episode, uh, I want to bring up topics around like work burnout and work and why we do what we do. And, um, I guess, motivations and, and goals that we have when we're working in open source or, or anything in life.
 
 00:17 **Henry**: Uh, I guess, the last weeks, I, I've been feeling kind of burnt out in terms of, um, just like the burden of doing something in public, I guess. And also, you know, having ... not being able to release, uh, a major version for like a year. And like kind of everyday it's like, "Oh, I still haven't finished," kind of thing.

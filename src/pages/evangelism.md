@@ -13,6 +13,8 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/5-evangelism-45c76f65
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/evangelism.md)
+
 00:00 **Henry**: I think we mentioned evangelism in the last episode, so I, I think we thought it would be a good idea to go into that topic in more detail. Yeah, we just wanna talk about how evangelism in the faith context might not be that different in open source ‘cause we're also trying to get people to either do open source as a whole or get involved in your project.
 
 00:25 **Nadia**: I was like talking to a friend about this who pointed out that that the term evangelism and tech is like evang- evangelism from religion which sounds obvious but I hadn't really thought of before and then I was like oh, that's kind of weird that we use this term evangelism, which has a religious context to it and tech and so yeah, we're gonna talk about sort of like the relationship between the two.

@@ -14,7 +14,7 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/1-faith-and-open-source-1
 
 ## Transcript
 
-> Conversations have been edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/faith.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/faith.md)
 
 00:00 **Nadia**: So we decided to start recording some conversations about open source and faith, because both of us have sort of noticed in our work around open source, there're a lot of open source developers that had some sort of connection to faith. Often, I think, Christian faith, and I think for both of us we were sort of wondering why that was. We have pretty different backgrounds in terms of our personal connection to faith. Henry, do you want to talk a little bit about yours first and then I'll talk about mine?
 

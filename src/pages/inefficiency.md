@@ -13,6 +13,8 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/4-holy-inefficiency-74b76
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/inefficiency.md)
+
 00:00 **Henry**: Right, so in this episode, uh, I wanted to talk about organizational health. I know you just wrote a post about the health of an open source project and how we measure it, whether it's by contributors or activity or output. Uh, it just got me thinking about how we measure that in a church, and what's the relationship between church growth and health, like popularity of open source projects versus health or sustainability.
 
 00:31 **Nadia**: It's interesting, 'cause I feel like I s- ... even though I believe that we should be measuring projects, activity, an- and output over number of contributors, I still fum- ... it's just, like, an easier thing to visualize when you talk about, like, people coming to your project or leaving your project as a sign of health. And yeah, even as a ... we've talked about this with church stuff, of, like, bringing people into your congregation and, like, who's attending, how many people are there? So it's just, like, such an easy visual to fall back on that, yeah, the stuff I was writing about was trying to make the case that number of contributors or number of attendees or whatever, like, doesn't really matter. What matters more is, like, what are you actually producing and putting out.

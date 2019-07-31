@@ -11,6 +11,8 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/10-trust-61758f27
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/trust.md)
+
 00:00 **Nadia**: So, this is our last episode. And we figured for our last episode we would kinda get back to the definition of faith itself and talk about faith as an act of trust in other people. Um, which is something that is also super relevant to software both at the social level of open source being the act of trusting random people to submit code or whatever else to your project. Um, and then also even on a more technical level of how- what are ways that people sort of like try to enforce trust on the code level or not, and does that make sense. Um, but yeah kinda zooming out, I guess just to faith itself and how it relates to trust.
 
 00:38 **Henry**: Yes, I think we were just discussing before that it- it feels like faith is ... I guess you can think of faith as like a noun and trust as the verb. And so, faith is um ... Or trust is faith in action. And it's like how we apply that. And yeah, when you face certain ... Especially in faith, it's like you're facing certain struggles in your life and you- you- you know, are you gonna have faith in yourself or in God or something, um, that you're able to get through this? Like do you have hope, um, for what's gonna happen in the future? Even though you have no idea what's gonna happen.

@@ -18,6 +18,8 @@ embedUrl: https://hopeinsource.simplecast.com/episodes/9-liturgy-ebdcb8e1
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/liturgy.md)
+
 00:00 **Henry**: All right. In this episode, we're going to be discussing ritual and liturgy and maybe the role that that has in faith and open source.
 
 00:09 **Nadia**: Okay. I still don't really know what [liturgy](https://en.wikipedia.org/wiki/Liturgy) is, so we should talk about what that is first.

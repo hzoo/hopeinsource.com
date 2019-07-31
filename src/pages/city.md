@@ -47,6 +47,8 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 ## Transcript
 
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/city.md)
+
 00:00 **Henry**:  All right. We decided to make a bonus episode. So Nadia wrote a post a month ago about her reading of a book called ["The Death and Life of Great American Cities"]. It talks about cities and how that relates to open source and communities online, that open source is kind of like a digital city. Same with the internet.
 
 00:21 **Henry**:  That got me looking into my own research on the topic. I found a paper called ["The City as Liturgy"]. And so I thought it'd be cool to bring on the author. So right now we have Dr. Timothy Patitsas, with us. He's a Assistant Professor of Orthodox Christian Ethics at Holy Cross Greek Orthodox School of Theology in Boston. And he wrote a dissertation called, "The King Returns to His City, an Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church". Thanks for joining us today.
