@@ -4,6 +4,7 @@ module.exports = {
     author: 'Nadia Eghbal & Henry Zhu',
     description: 'What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.',
     gitOrg: 'hzoo',
+    gitRepo: 'hopeinsource.com',
     siteUrl: 'https://hopeinsource.com',
     social: {
       twitter: '@left_pad',
