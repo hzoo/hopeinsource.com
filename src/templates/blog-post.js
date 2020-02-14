@@ -37,13 +37,13 @@ class BlogPostTemplate extends React.Component {
 
         {
           <iframe
-            height="52px"
+            src={`https://share.transistor.fm/e/${post.frontmatter.episodeLink}`}
             width="100%"
-            frameborder="no"
+            height="180"
+            frameBorder="0"
             scrolling="no"
             seamless
-            src={`https://player.simplecast.com/${post.frontmatter.episodeLink}?dark=true&color=1B2B34`}>
-          </iframe>
+          ></iframe>
         }
 
         <blockquote>{post.frontmatter.description}</blockquote>
