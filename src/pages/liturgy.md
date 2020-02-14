@@ -3,8 +3,8 @@ title: '09: Liturgy'
 date: '2018-10-16'
 time: '32'
 description: How do our rituals shape us? We talk about where habits come from, why we use them, and whether they strengthen our belief systems.
-episodeLink: 9636c570-3726-4e57-8bb9-4622c61deb18
-embedUrl: https://hopeinsource.simplecast.com/episodes/9-liturgy-ebdcb8e1
+episodeLink: a77b8490
+embedUrl: https://share.transistor.fm/s/a77b8490
 ---
 
 ## Links
