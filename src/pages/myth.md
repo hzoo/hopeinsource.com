@@ -3,8 +3,8 @@ title: '07: Mythology and Symbolism'
 date: '2018-10-16'
 time: '35'
 description: How do symbols and stories foster culture? We talk about stories as a way to onboard new contributors, the mythology of leadership, when leaders step down, and how traditions evolve over time.
-episodeLink: 719ff0f4-c090-4be2-a878-89d47ad7a5c6
-embedUrl: https://hopeinsource.simplecast.com/episodes/7-mythology-and-symbolism-195ba80c
+episodeLink: 3f03502f
+embedUrl: https://share.transistor.fm/s/3f03502f
 ---
 
 ## Links
