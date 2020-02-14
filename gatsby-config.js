@@ -10,7 +10,7 @@ module.exports = {
       twitter: '@left_pad',
     },
     feed: {
-      rss: 'https://feeds.simplecast.com/9H3Jd25O',
+      rss: 'https://feeds.transistor.fm/hope-in-source',
       google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D',
       apple: 'https://itunes.apple.com/us/podcast/hope-in-source/id1437677655',
       spotify: 'https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B',
