@@ -88,11 +88,11 @@ function SEO({ meta, image=cover, title, description, slug, appId=1437677655, em
                       },
                       {
                         name: 'twitter:player:width',
-                        content: '438',
+                        content: '500',
                       },
                       {
                         name: 'twitter:player:height',
-                        content: '52',
+                        content: '180',
                       },
                     ]
                   : []
