@@ -3,8 +3,8 @@ title: '06: Money'
 date: '2018-10-16'
 time: '44'
 description: How do communities handle money? We talk about money and centralization, tithing systems, how much funding is too much, and when to contribute money versus time.
-episodeLink: d758637e-4f58-4766-9eed-238df48b0986
-embedUrl: https://hopeinsource.simplecast.com/episodes/6-money-bc9e47d0
+episodeLink: e4627cff
+embedUrl: https://share.transistor.fm/s/e4627cff
 ---
 
 ## Links
