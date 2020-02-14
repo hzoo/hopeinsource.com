@@ -3,8 +3,8 @@ title: '08: Authority and Leadership'
 date: '2018-10-16'
 time: '26'
 description: Does authority have a place in religion? We talk about authority in decentralized organizations, listening to others versus trying something new, and when to fork or leave a community.
-episodeLink: a3f16a80-c82d-4fcd-86d1-d59cfc3c2e76
-embedUrl: https://hopeinsource.simplecast.com/episodes/8-authority-and-leadership-4f9a5e1a
+episodeLink: 44735894
+embedUrl: https://share.transistor.fm/s/44735894
 ---
 
 ## Links
