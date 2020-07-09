@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
-import get from 'lodash/get'
 
 import Layout from '../components/Layout'
 import Subscribe from '../components/Subscribe'
@@ -13,7 +12,7 @@ import { rhythm, scale } from '../utils/typography'
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    const siteMetadata = get(this.props, 'data.site.siteMetadata')
+    const siteMetadata = this.props.data.site.siteMetadata
     const { previous, next, slug } = this.props.pageContext
     const editUrl = `https://github.com/${siteMetadata.gitOrg}/${siteMetadata.siteUrl}/edit/master/src/pages/${slug.replace(
       /\//g,
