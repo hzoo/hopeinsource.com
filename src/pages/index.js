@@ -20,6 +20,17 @@ class BlogIndex extends React.Component {
         <Intro />
         <hr />
 
+        {
+          <iframe
+            src={`https://share.transistor.fm/e/hope-in-source/latest/dark`}
+            width="100%"
+            height="180"
+            frameBorder="0"
+            scrolling="no"
+            seamless
+          ></iframe>
+        }
+
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (

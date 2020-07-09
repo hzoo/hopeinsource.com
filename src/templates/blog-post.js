@@ -36,7 +36,7 @@ class BlogPostTemplate extends React.Component {
 
         {
           <iframe
-            src={`https://share.transistor.fm/e/${post.frontmatter.episodeLink}`}
+            src={`https://share.transistor.fm/e/${post.frontmatter.episodeLink}/dark`}
             width="100%"
             height="180"
             frameBorder="0"
