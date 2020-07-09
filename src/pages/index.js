@@ -6,7 +6,6 @@ import Layout from '../components/Layout'
 import Testimonial from '../components/Testimonial'
 import SEO from '../components/SEO'
 import Footer from '../components/Footer'
-import { formatReadingTime } from '../utils/helpers'
 import { rhythm } from '../utils/typography'
 
 class BlogIndex extends React.Component {
@@ -83,7 +82,6 @@ export const pageQuery = graphql`
           fields {
             slug
           }
-          timeToRead
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             time

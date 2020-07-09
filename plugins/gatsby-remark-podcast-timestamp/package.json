@@ -1,0 +1,14 @@
+{
+  "name": "gatsby-remark-podcast-timestamp",
+  "private": true,
+  "description": "handle timestamps",
+  "version": "0.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "mdast-util-to-string": "^1.1.0",
+    "unist-util-visit": "^2.0.2"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.0.0"
+  }
+}

@@ -50,23 +50,14 @@ module.exports = {
           },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
+          {
+            resolve: require.resolve('./plugins/gatsby-remark-podcast-timestamp')
+          },
         ],
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `Hope in Source`,
-        short_name: `Hope in Source`,
-        start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/assets/icon.jpg`,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: 'gatsby-plugin-typography',

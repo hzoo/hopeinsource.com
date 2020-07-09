@@ -6,7 +6,6 @@ import Subscribe from '../components/Subscribe'
 import Support from '../components/Support'
 import SEO from '../components/SEO'
 import Footer from '../components/Footer'
-import { formatReadingTime } from '../utils/helpers'
 import { rhythm, scale } from '../utils/typography'
 
 class BlogPostTemplate extends React.Component {
@@ -124,7 +123,6 @@ export const pageQuery = graphql`
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
-      timeToRead
       frontmatter {
         title
         time
