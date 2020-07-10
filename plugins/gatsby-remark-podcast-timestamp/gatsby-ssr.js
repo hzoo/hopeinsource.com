@@ -20,8 +20,13 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       text-decoration: underline;
       opacity: 0;
     }
-    p:hover .${className} {
+    .wrap:hover .${className} {
       opacity: 1;
+    }
+    .wrap a {
+      box-shadow: inherit;
+      color: inherit;
+      text-decoration: inherit;
     }
   `
 

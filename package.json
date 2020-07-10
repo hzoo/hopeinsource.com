@@ -42,6 +42,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
+    "clean": "gatsby clean",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "start": "npm run dev",
     "build": "rm -rf public && rm -rf .cache && gatsby build"
