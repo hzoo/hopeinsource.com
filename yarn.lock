@@ -1019,6 +1019,16 @@
   dependencies:
     "@hapi/hoek" "^8.3.0"
 
+"@iconify/icons-mdi@^1.0.46":
+  version "1.0.115"
+  resolved "https://registry.yarnpkg.com/@iconify/icons-mdi/-/icons-mdi-1.0.115.tgz#b4769158d686eb934456d6c9ee4ce223c2f308ac"
+  integrity sha512-AdfV5ZBm0BCgr8VC25NruqEjnJPo9K8Aqam9OQt5iYqJy+QS3lGcTGP8JucIoV1OcqiGGHD5EsvOViw0xVm8fA==
+
+"@iconify/react@^1.1.3":
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/@iconify/react/-/react-1.1.3.tgz#ebe4d3e5f5dea23cd6a9634acd7a0a25c7414a59"
+  integrity sha512-ReZNJyr89AfED6XZIXkhsJiNv2taT3j1cTo1HVPHMsrKOz6gAYdXtD2kDWF6+GVoFUxpmnO0fMcA6yCyTf6Tow==
+
 "@jest/types@^25.5.0":
   version "25.5.0"
   resolved "https://registry.yarnpkg.com/@jest/types/-/types-25.5.0.tgz#4d6a4793f7b9599fc3680877b856a97dbccf2a9d"
@@ -10958,6 +10968,15 @@ react-fast-compare@^2.0.2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
+
+react-h5-audio-player@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/react-h5-audio-player/-/react-h5-audio-player-3.2.0.tgz#bce677d0b3ee44373f2e5d9baf0d7cba263cf4be"
+  integrity sha512-u2nBMwo+5SpRjfDUEH79LmzbbVPJRBZNRLqpWZ/i6vanCQow+UaEZmSoKiwXamAejSXLXJa8+DFgnOskllJgHw==
+  dependencies:
+    "@babel/runtime" "^7.10.2"
+    "@iconify/icons-mdi" "^1.0.46"
+    "@iconify/react" "^1.1.3"
 
 react-helmet@^5.2.0:
   version "5.2.1"

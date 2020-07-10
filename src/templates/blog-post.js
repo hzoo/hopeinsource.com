@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+import AudioPlayer from 'react-h5-audio-player';
 
 import Layout from '../components/Layout'
 import Subscribe from '../components/Subscribe'
@@ -7,6 +8,65 @@ import Support from '../components/Support'
 import SEO from '../components/SEO'
 import Footer from '../components/Footer'
 import { rhythm, scale } from '../utils/typography'
+
+class Player extends React.Component {
+  constructor(props) {
+    super(props);
+    // this.player.current.audio.current
+    this.player = React.createRef();
+  }
+
+  componentDidMount() {
+    if (typeof window !== "undefined") {
+      window.addEventListener("hashchange", this.testAudioSeek);
+    }
+  }
+
+  componentWillUnmount() {
+    if (typeof window !== "undefined") {
+      window.removeEventListener("hashchange", this.testAudioSeek);
+    }
+  }
+
+  testAudioSeek = event => {
+    window.player = this.player.current.audio.current;
+    // TODO get the new hash from the event, prevent hash from actually changing
+    // this looks for a URL hash using this format:
+    // #t=<number of seconds> (e.g. #t=120)
+    if (typeof window !== "undefined") {
+      // const query = window.location.search;
+      // const urlParams = new URLSearchParams(query);
+      // const time = urlParams.get('t')
+      if (location.hash.startsWith('#t=')) {
+        let time = location.hash.slice(3);
+        const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
+        if (timestamp) {
+          let seconds = 0;
+          if (timestamp[3]) {
+            seconds =
+              Number(timestamp[1]) * 3600 +
+              Number(timestamp[2]) * 60 +
+              Number(timestamp[3]);
+          } else {
+            seconds = Number(timestamp[1]) * 60 + Number(timestamp[2]);
+          }
+          this.player.current.audio.current.currentTime = seconds;
+        }
+      }
+    }
+  };
+
+  render() {
+    return <AudioPlayer
+      header={this.props.title}
+      src={this.props.src}
+      layout="horizontal-reverse"
+      ref={this.player}
+      customAdditionalControls={[]}
+      customVolumeControls={[]}
+    />
+  }
+}
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -29,24 +89,15 @@ class BlogPostTemplate extends React.Component {
           embedUrl={post.frontmatter.embedUrl}
         />
 
-        <Support />
+        <h2>{post.frontmatter.title}</h2>
       
         <Subscribe />
-
-        {
-          <iframe
-            src={`https://share.transistor.fm/e/${post.frontmatter.episodeLink}/dark`}
-            width="100%"
-            height="180"
-            frameBorder="0"
-            scrolling="no"
-            seamless
-          ></iframe>
-        }
 
         <blockquote>{post.frontmatter.description}</blockquote>
 
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
+
+        <Support />
 
         <h2>Credits</h2>
         <p>
@@ -103,6 +154,10 @@ class BlogPostTemplate extends React.Component {
           </li>
         </ul>
       <Footer />
+              <Player
+        title={post.frontmatter.title}
+        src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}
+      />
       </Layout>
     )
   }

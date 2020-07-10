@@ -31,6 +31,7 @@ Wordpress2016.overrideThemeStyles = () => ({
     color: 'inherit',
     borderLeftColor: 'inherit',
     opacity: '0.8',
+    fontSize: '14px',
   },
 })
 
