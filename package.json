@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.45",
+    "gatsby-plugin-catch-links": "^2.3.11",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.16",
@@ -41,6 +42,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "gatsby develop",
+    "clean": "gatsby clean",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
     "start": "npm run dev",
     "build": "rm -rf public && rm -rf .cache && gatsby build"

@@ -25,6 +25,7 @@ module.exports = {
         name: 'pages',
       },
     },
+    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {

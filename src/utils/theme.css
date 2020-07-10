@@ -36,3 +36,7 @@ footer {
 .rhap_progress-indicator, .rhap_progress-filled {
 	background: var(--green);
 }
+
+.wrap:hover {
+	border-right: 1px dotted var(--white);
+}

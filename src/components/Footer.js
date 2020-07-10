@@ -31,7 +31,6 @@ class Footer extends React.Component {
         >
           All rights reserved
         </Link>
-        <br />
       </footer>
     )
   }

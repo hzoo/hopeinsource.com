@@ -21,8 +21,14 @@ Wordpress2016.overrideThemeStyles = () => ({
   'a.anchor svg[aria-hidden="true"]': {
     stroke: 'var(--textLink)',
   },
+  p: {
+    marginBottom: '1rem'
+  },
   'p code': {
     fontSize: '1.1rem',
+  },
+  'p strong': {
+    color: 'var(--green)'
   },
   'li code': {
     fontSize: '1rem',
