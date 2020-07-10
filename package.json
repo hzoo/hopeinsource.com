@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^2.13.45",
+    "gatsby-plugin-catch-links": "^2.3.11",
     "gatsby-plugin-feed": "^2.0.8",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.16",

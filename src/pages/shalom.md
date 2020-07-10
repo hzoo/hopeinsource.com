@@ -16,8 +16,9 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 - [Nicole's Twitter](https://twitter.com/nwilliams030) (you should follow her!)
 - [C.S. Lewis](https://en.wikipedia.org/wiki/C._S._Lewis)
 - [G.K. Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton)
-- The Machine Stops
-- Tools for Conviviality
+- The Machine Stops (E. M. Forster)
+- Tools for Conviviality (Ivan Illich)
+- Severance (Ling Ma)
 
 #### Faith in Public
 

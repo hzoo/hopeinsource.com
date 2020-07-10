@@ -18,6 +18,10 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       padding-right: 1.42188rem;
       box-shadow: none;
       text-decoration: underline;
+      opacity: 0;
+    }
+    p:hover .${className} {
+      opacity: 1;
     }
   `
 

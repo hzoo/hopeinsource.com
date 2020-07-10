@@ -19,7 +19,7 @@ module.exports = ({ markdownAST }, pluginOptions) => {
   		node.children.shift();
 
     	const html = `<p>
-  <a href="#t=${timestamp[1]}" id="t=${timestamp[1]}" class="timestamp">(${timestamp[1]})</a>
+  <a href="#t=${timestamp[1]}" id="t=${timestamp[1]}" class="timestamp">${timestamp[1]} 🕐</a>
   <strong>${toString(node.children.shift())}</strong>${toString(node)}
 </p>
 `

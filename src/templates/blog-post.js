@@ -29,14 +29,10 @@ class Player extends React.Component {
   }
 
   testAudioSeek = event => {
-    window.player = this.player.current.audio.current;
     // TODO get the new hash from the event, prevent hash from actually changing
     // this looks for a URL hash using this format:
     // #t=<number of seconds> (e.g. #t=120)
     if (typeof window !== "undefined") {
-      // const query = window.location.search;
-      // const urlParams = new URLSearchParams(query);
-      // const time = urlParams.get('t')
       if (location.hash.startsWith('#t=')) {
         let time = location.hash.slice(3);
         const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
@@ -51,6 +47,7 @@ class Player extends React.Component {
             seconds = Number(timestamp[1]) * 60 + Number(timestamp[2]);
           }
           this.player.current.audio.current.currentTime = seconds;
+          this.player.current.audio.current.play();
         }
       }
     }
