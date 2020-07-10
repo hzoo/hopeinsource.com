@@ -17,6 +17,7 @@ class Player extends React.Component {
   }
 
   componentDidMount() {
+    this.testAudioSeek();
     if (typeof window !== "undefined") {
       window.addEventListener("hashchange", this.testAudioSeek);
     }
