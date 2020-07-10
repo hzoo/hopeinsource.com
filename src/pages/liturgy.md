@@ -3,7 +3,7 @@ title: '09: Liturgy'
 date: '2018-10-16'
 time: '32'
 description: How do our rituals shape us? We talk about where habits come from, why we use them, and whether they strengthen our belief systems.
-episodeLink: 'a77b8490'
+episodeLink: '0ac2c89d'
 embedUrl: https://share.transistor.fm/s/a77b8490
 ---
 
