@@ -7,16 +7,16 @@ import Subscribe from '../components/Subscribe'
 import Support from '../components/Support'
 import SEO from '../components/SEO'
 import Footer from '../components/Footer'
-import { rhythm, scale } from '../utils/typography'
+import { rhythm } from '../utils/typography'
 
 class Player extends React.Component {
   constructor(props) {
     super(props);
-    // this.player.current.audio.current
     this.player = React.createRef();
   }
 
   componentDidMount() {
+    // play if url has timestamp
     this.testAudioSeek();
     if (typeof window !== "undefined") {
       window.addEventListener("hashchange", this.testAudioSeek);
@@ -34,8 +34,9 @@ class Player extends React.Component {
     // this looks for a URL hash using this format:
     // #t=<number of seconds> (e.g. #t=120)
     if (typeof window !== "undefined") {
-      if (location.hash.startsWith('#t=')) {
-        let time = location.hash.slice(3);
+      let hash = window.location.hash;
+      if (hash.startsWith('#t=')) {
+        let time = hash.slice(3);
         const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
         if (timestamp) {
           let seconds = 0;
@@ -56,7 +57,7 @@ class Player extends React.Component {
 
   render() {
     return <AudioPlayer
-      header={this.props.title}
+      // header={this.props.title}
       src={this.props.src}
       layout="horizontal-reverse"
       ref={this.player}
@@ -115,12 +116,6 @@ class BlogPostTemplate extends React.Component {
             Edit on GitHub
           </a>
         </p>
-        <h3
-          style={{
-            fontFamily: 'Montserrat, sans-serif',
-            marginTop: rhythm(0.25),
-          }}
-        />
         <div
           style={{
             display: 'flex',

@@ -28,15 +28,15 @@ class Subscribe extends React.Component {
           const metaData = data.site.siteMetadata;
           return (
             <p>
-              <a href={metaData.feed.apple} target="_blank">
+              <a href={metaData.feed.apple} target="_blank" rel="noreferrer">
                 Apple
               </a>{' '}
               &bull;{' '}
-              <a href={metaData.feed.spotify} target="_blank">
+              <a href={metaData.feed.spotify} target="_blank" rel="noreferrer">
                 Spotify
               </a>{' '}
               &bull;{' '}
-              <a href={metaData.feed.google} target="_blank">
+              <a href={metaData.feed.google} target="_blank" rel="noreferrer">
                 Google
               </a>{' '}
               &bull;{' '}
@@ -44,7 +44,7 @@ class Subscribe extends React.Component {
                 RSS
               </a>{' '}
               &bull;{' '}
-              <a href={`https://github.com/${metaData.gitOrg}/${metaData.gitRepo}`} target="_blank">
+              <a href={`https://github.com/${metaData.gitOrg}/${metaData.gitRepo}`} target="_blank" rel="noreferrer">
                 GitHub
               </a>
             </p>

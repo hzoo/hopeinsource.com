@@ -19,7 +19,7 @@ footer {
 
 /* audio player override */
 .rhap_container {
-	border-top: 1px solid white;
+	border-top: 1px solid #3F3F3F;
 	background-color: var(--bg);
 	position: fixed;
 	bottom: 0;
@@ -30,8 +30,11 @@ footer {
 .rhap_header {
 	text-align: center;
 }
-.rhap_main-controls-button, .rhap_time {
+.rhap_main-controls-button, .rhap_time{
 	color: var(--white);
+}
+.rhap_current-time {
+	color: var(--green);
 }
 .rhap_progress-indicator, .rhap_progress-filled {
 	background: var(--green);
