@@ -25,7 +25,7 @@ module.exports = ({ markdownAST }, pluginOptions) => {
 <a href="#t=${timestamp[1]}"><span class="timestamp">${timestamp[1]} 🕐</span>`;
 
       // remove timestamp
-  		if (node.children.length === 3) {
+  		if (node.children.length >= 3) {
         node.children.shift();
         let name = `<strong>${toString(node.children.shift())}</strong>`;
         html += name;
