@@ -39,6 +39,9 @@ Wordpress2016.overrideThemeStyles = () => ({
     opacity: '0.8',
     fontSize: '14px',
   },
+  h4: {
+    marginTop: '5px'
+  }
 })
 
 delete Wordpress2016.googleFonts

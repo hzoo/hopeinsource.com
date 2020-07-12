@@ -1,13 +1,14 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
-import AudioPlayer from 'react-h5-audio-player';
+import React from "react";
+import { Link, graphql } from "gatsby";
+import AudioPlayer from "react-h5-audio-player";
+import slugs from "github-slugger";
 
-import Layout from '../components/Layout'
-import Subscribe from '../components/Subscribe'
-import Support from '../components/Support'
-import SEO from '../components/SEO'
-import Footer from '../components/Footer'
-import { rhythm } from '../utils/typography'
+import Layout from "../components/Layout";
+import Subscribe from "../components/Subscribe";
+import Support from "../components/Support";
+import SEO from "../components/SEO";
+import Footer from "../components/Footer";
+import { rhythm } from "../utils/typography";
 
 class Player extends React.Component {
   constructor(props) {
@@ -29,13 +30,13 @@ class Player extends React.Component {
     }
   }
 
-  testAudioSeek = event => {
+  testAudioSeek = (event) => {
     // TODO get the new hash from the event, prevent hash from actually changing
     // this looks for a URL hash using this format:
     // #t=<number of seconds> (e.g. #t=120)
     if (typeof window !== "undefined") {
       let hash = window.location.hash;
-      if (hash.startsWith('#t=')) {
+      if (hash.startsWith("#t=")) {
         let time = hash.slice(3);
         const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
         if (timestamp) {
@@ -56,31 +57,50 @@ class Player extends React.Component {
   };
 
   render() {
-    return <AudioPlayer
-      // header={this.props.title}
-      src={this.props.src}
-      layout="horizontal-reverse"
-      ref={this.player}
-      customAdditionalControls={[]}
-      customVolumeControls={[]}
-    />
+    return (
+      <AudioPlayer
+        // header={this.props.title}
+        src={this.props.src}
+        layout="horizontal-reverse"
+        ref={this.player}
+        customAdditionalControls={[]}
+        customVolumeControls={[]}
+      />
+    );
   }
 }
 
+const preprocessHeading = (h) => {
+  const cleanValue = h.value
+    .replace(/<(\/)?[^>]+>/g, "")
+    .replace(/\s{2,}/g, " ");
+  return {
+    // depth: h.depth,
+    value: cleanValue,
+    id: slugs.slug(cleanValue),
+  };
+};
+
 class BlogPostTemplate extends React.Component {
   render() {
-    const post = this.props.data.markdownRemark
-    const siteMetadata = this.props.data.site.siteMetadata
-    const { previous, next, slug } = this.props.pageContext
-    const editUrl = `https://github.com/${siteMetadata.gitOrg}/${siteMetadata.siteUrl}/edit/master/src/pages/${slug.replace(
-      /\//g,
-      ''
-    )}.md`
+    const post = this.props.data.markdownRemark;
+    const headings = post.headings
+      .filter((h) => h.depth === 4)
+      .map(preprocessHeading);
+    const siteMetadata = this.props.data.site.siteMetadata;
+    const { previous, next, slug } = this.props.pageContext;
+    const editUrl = `https://github.com/${siteMetadata.gitOrg}/${
+      siteMetadata.siteUrl
+    }/edit/master/src/pages/${slug.replace(/\//g, "")}.md`;
     let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
       `${siteMetadata.siteUrl}${slug}`
-    )}`
+    )}`;
     return (
-      <Layout location={this.props.location} title={siteMetadata.title}>
+      <Layout
+        location={this.props.location}
+        title={siteMetadata.title}
+        headings={headings}
+      >
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description}
@@ -89,7 +109,7 @@ class BlogPostTemplate extends React.Component {
         />
 
         <h2>{post.frontmatter.title}</h2>
-      
+
         <Subscribe />
 
         <blockquote>{post.frontmatter.description}</blockquote>
@@ -100,7 +120,7 @@ class BlogPostTemplate extends React.Component {
 
         <h2>Credits</h2>
         <p>
-          Hosted by <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{' '}
+          Hosted by <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{" "}
           <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
           Edited by <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
           Cover art by Jessica Han. <br />
@@ -118,16 +138,16 @@ class BlogPostTemplate extends React.Component {
         </p>
         <div
           style={{
-            display: 'flex',
+            display: "flex",
             marginBottom: rhythm(2.5),
           }}
         />
         <ul
           style={{
-            display: 'flex',
-            flexWrap: 'wrap',
-            justifyContent: 'space-between',
-            listStyle: 'none',
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-between",
+            listStyle: "none",
             padding: 0,
           }}
         >
@@ -146,17 +166,17 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-      <Footer />
-              <Player
-        title={post.frontmatter.title}
-        src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}
-      />
+        <Footer />
+        <Player
+          title={post.frontmatter.title}
+          src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}
+        />
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogPostTemplate
+export default BlogPostTemplate;
 
 export const pageQuery = graphql`
   query BlogPostBySlug($slug: String!) {
@@ -182,6 +202,10 @@ export const pageQuery = graphql`
       fields {
         slug
       }
+      headings {
+        depth
+        value
+      }
     }
   }
-`
+`;

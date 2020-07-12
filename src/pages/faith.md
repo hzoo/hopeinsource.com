@@ -29,7 +29,7 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 (01:06) **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when. I went to a Quaker high school which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
 
-#### open source and faith as restorative
+#### Open source and faith as restorative
 
 I guess I'm just sort of like weirdly interested in this topic because it's just fascinated me that especially for me working in tech in San Francisco, I feel like I almost never interact with faith or religion among my peers at all, in my sort of geographic location. But it seems like in open source for some reason, it's a much more prominent theme.
 
@@ -105,7 +105,7 @@ I guess I'm just sort of like weirdly interested in this topic because it's just
 
 (17:49) **Nadia**: I wonder whether that's a good evolution or whether that's actually a sign of a problem, right? Cause I think historically in open source... When I talked to open source developers that were from projects that are a bit older, there's this belief that all the users are potential contributors and there shouldn't even be a concept of users, because if you are using the project, you have the potential to be able to theoretically give back and I think in some of the older projects I've seen, there's just much more of a sense of: if you have a problem it's... sure, you can report a bug or something so that other people can see it, but it's kind of on you to contribute if you really, really need that fix that badly, then it's kind of on you to figure out how to solve it. And I think that worked because when projects are smaller, there're just fewer people using open source in general.
 
-#### Seeing Faces Regularly
+#### Seeing faces regularly
 
 (18:45) **Nadia**: There was that higher level of community, right? Where you kind of did feel like there are fewer people that are working on this project and there can be this shared expectation that everyone needs to pitch in. And now with a project Babel, it's impossible. Of course, there are just people who are users and that aren't going to ever be contributors but maybe from within that there's still a smaller core of people that are somewhat active or contributing and of those people, there might be more of a shared context of pitching in and helping each other out. I don't know, would you say there is a sizable contributor community of faces that you see regularly, similar to how you would see people regularly in like a congregation or whatever?
 
@@ -127,7 +127,7 @@ I guess I'm just sort of like weirdly interested in this topic because it's just
 
 (23:03) **Henry**: Yeah. Right. Like the scope of it is just never going to be that big. And we don't have enough people... Well, I think another thing is just we're not really thinking about it that much, right? My assumption is that most people just want to work on code and community is there but it's kind of implicit. I don't think anyone's going out of their way to set up these kinds of things. Now I'm thinking, "Oh, what is we made a Babel meetup." It's not where you give talks. It's just where you contribute or we have a conference even. That seems kind of crazy for a small project like us, that's not even a company, but maybe?
 
-#### On Crossfit and Accountability: ("everyone else is going to be there")
+#### On Crossfit and accountability: ("Everyone else is going to be there")
 
 (23:48) **Nadia**: Yeah. I guess I'm going back to faith stuff again. Well why do people go to church regularly? And I think there's some sort of sense of purpose and community that doesn't have to be this super designed out conference and a meetup kind of thing, maybe it's also the accountability thing? So like... I'm not religious.
 
@@ -143,7 +143,7 @@ I guess I'm just sort of like weirdly interested in this topic because it's just
 
 (28:04) **Henry**: Which is also the same issue in the church too. Everyone there are all serving and trying to do different things and it might lead to burnout there. It's also an issue.
 
-#### On Stepping Away from service
+#### On stepping away from service
 
 (28:19) **Nadia**: Are there people that will step away from the church for a while and then come back? And if so, why?
 

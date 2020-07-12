@@ -43,3 +43,22 @@ footer {
 .wrap:hover {
 	border-right: 1px dotted var(--white);
 }
+
+@media screen and (min-width: 600px) {
+	.sidebar {
+		padding-left: 50px;
+		flex: 0 0 300px
+	}
+	.toc {
+		position: fixed;
+		height: calc(100vh - 75px);
+		overflow-y: auto;
+		margin-right: -999px;
+		padding-right: 999px;
+	}
+}
+@media screen and (max-width: 600px) {
+	.toc {
+		opacity: 0;
+	}
+}

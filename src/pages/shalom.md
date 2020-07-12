@@ -22,7 +22,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 </details>
 
-#### Faith in Public
+#### Faith in public
 
 (00:00) **Nicole**: I think both of us found each other talking about religion and faith and that intersection with tech and our careers and our Twitter spheres. I think both of us share both Christian faith and also not having talked about that on Twitter for a long time and started to talk about that recently for a variety of reasons.
 
@@ -50,7 +50,7 @@ Definitely interested in more about why that happened for you. But for me, it wa
 
 (02:03) **Henry**: Yeah, and I guess even though Twitter is all about being public, yeah, what are you not just allowed to say, but what you comfortable with yourself right. And sometimes nothing's controversial, you just don't want to, I don't know if it's a privacy thing.
 
-#### Apologetics and Rationality
+#### Apologetics and rationality
 
 (02:16) **Nicole**: Yeah, yeah. I just saw a few hours ago, Sonya Mann was asking about whether she should write an article about her, I think reconversion to Christianity? And it sort of made me think about that too. I think, for a long time my aversion to talking about it on Twitter was honestly having gone through a Christian K-12 school where you have apologetics classes, you know, literally learning about how to argue for your faith.
 
@@ -80,7 +80,7 @@ The biggest thing I realized coming out of that school was like nobody in the re
 
 (07:46) **Nicole**: Yeah. Yeah. That's another one of those paradoxes that's really hard for me to get over. I think, where it's like in Hartford, I think people looking at Christianity externally to get over where it's like the Church's both strength and weakness lies in the body of believers like the church as like capital C lowercase C. What's the whole system there? Like the greater Christian population, not like your local church body? A lot of people sort of shy away from going to a church or like connecting with Christians who are truly super different from them in any way. And I think that's the greatest strength of all, but it's very hard to keep a cohesive body of people working for the same goal that are radically different. I think that's like one of those radical Christian tenants that we sort of like excuse ourselves from at least again, like East coast Protestant exposure to Christianity. That's another thing that I wish was taken a little more seriously.
 
-#### Church as a Body
+#### The Church as body
 
 (08:40) **Henry**: I think it's a great word, a great metaphor. The church as a body,
 
@@ -104,7 +104,7 @@ maybe that is that rationalist part coming out of, most people just think the ch
 
 (10:39) **Nicole**: Yeah. That's very true.
 
-#### The Machine Stops and Pandemic
+#### The Machine Stops and the pandemic
 
 (10:40) **Henry**: So I mentioned this short story, The Machine Stops. And it was written in 1909, which is kind of amazing cause it's sort of talking about the internet, how people in this world all live in these cells. They could describe it like a beehive no one leaves their cell. There are buttons all over this room that you can push to give you whatever you want. So you could say like, I wanted the food and then it gives you a food. I want music, it'll give you music. So I started like Amazon or Spotify, right. Except this is a 1900. They figured out how to travel anywhere they want, but no one travels anymore cause you don't have to, cause you can like look at this plate, which you could say is Zoom or Skype. But in the story, the son of the mom wants to see her. And then she's like, I can see you. What more do you want? And he's like, I want to see you face to face. So he has to convince her to go to where he is and so they can talk. The first third of the story is just about her going on this Airship and then the, the trouble of physical movement.
  
@@ -118,7 +118,7 @@ maybe that is that rationalist part coming out of, most people just think the ch
 
 (12:33) **Nicole**: That's so crazy. reminds me of there's a black mirror episode that's pretty similar to that too. That's so interesting.
 
-#### Remote Work and Education
+#### Remote work and education
 
 I'm also interested in terms of remote work and this whole, like, I think like Google and Facebook and Twitter have all said that like for at least the next six months, if not until like 2021, people are at least allowed to work from home. I'm very interested to see, like, obviously there's already been this discussion around, schooling from home. If people don't have good situations or good internet connections and like how general like equity of access to resources will play out there. But I'm interested to see how people who might not be in as great of situations or not know that they instinctively value community as much might work from home because of external forces. Whether it's like monetary forces, push them to do that, and I don't know how far we'll go in terms of our ability to live quarantined in some sense before we realize that it can't work out for the long term
 
@@ -126,7 +126,7 @@ I'm also interested in terms of remote work and this whole, like, I think like G
 
 (13:45) **Nicole**: Yeah, Have you read *Severance* by Ling Ma by any chance? It's this really good book. It was written in 2018 which is kind of wild. It's fiction. It is about a pandemic and it's also about this girl who's living in New York, and it's supposed to be satirical. I'm fairly sure, like a satirical post-apocalyptic commentary on millennial working culture and all this type of stuff, and it is so surprisingly accurate to what is going on today. It's like she, this poor girl is sort of like in limbo for a variety of reasons. Partially like pressure from her family to work well and all this type of stuff that is so fully ingrained in our system that she stays working in New York for her company way, way past, like when anybody else is even still living in New York, let alone working. It's super interesting and it's like as the time goes on and quarantine more and more, am I like, wow, We are truly living out this book.
 
-#### C.S. Lewis on Living and Dying
+#### C.S. Lewis on living and dying
 
 (14:38) **Henry**: And also makes me wonder like I really want to look into more, I'm sure people are doing this, of just the history of how people have dealt with the stuff in the past. I shared that C.S. Lewis article, where he mentions the nuclear age, you know, that everyone's afraid that we're all gonna die.
 
@@ -150,7 +150,7 @@ seems to me that all political duties (among which I include military duties) ar
 
 (16:53) **Nicole**: Yeah. So that's a very interesting framework. I like it. C.S. Lewis was always incredibly knowledgeable about everything at all times. It's amazing.
 
-#### Secular/Spiritual Distinction (1 Corinthians 10:31)
+#### The secular, spiritual distinction (1 Cor 10:31)
 
 (17:03) **Henry**: I think he was trying to talk about the secular, spiritual distinction? You know, what does it mean to be Christian or doing things in a Christian way versus like, if I want to be spiritual, then I should become a monk, or I should become a pastor instead of going into the workplace. And that's like the whole faith and work movement. I think he's saying a similar thing there where it's like, if you do it for the glory of God, then it's okay.
 
@@ -166,7 +166,7 @@ God isn't like, Oh, if you glorify me in this societally accepted way, that's th
 
 (19:52) **Nicole**: Right, Yeah. That whole exercise of constantly giving up self. Interested in like control in your own life is so difficult. And it's something that I'm always like trying to work so hard on and yet it never feels like it gets any easier.
 
-#### On Disrupting Church: Reductionism
+#### Reductionism in disrupting church
 
 I also think it's so interesting cause there's so much discourse right now about Silicon Valley people being like, is the core power yoga like the modern worship. Or is this random thing, the modern replacement for church for people. And I think the one thing that, that basically always misses is it has to be the reason the Church, and the reason Christianity is so compelling is because you're not like doing some inwardly focused like, wow, I want to make myself better. It's like that is a second order effect of giving up self control basically to God, that was not a very great phrasing, but you get the intention.
 
@@ -180,7 +180,7 @@ I also think it's so interesting cause there's so much discourse right now about
 
 (22:13) **Nicole**: Right, right. Yeah. Like back to your point about the body of Christ as well, like that's the only context that it works is the whole is greater than pride. Like we help glorify God through helping each other in our challenges,
 
-#### "Family": Unity and Humility
+#### Unity and humility in family
 
 (22:27) **Henry**: Yeah, in the secular point of view, we talk a lot about unity and diversity, right? That sort of initiative is related to that idea that like being the same and thinking the same, will just lead to the same answers, right? And I don't think it inherently means that just because people are different, everything's going to be okay. We catch each other's mistakes essentially. And, then the difference in the church is that there are people, you're not gonna like everyone. and we have to learn to love one another despite that. You may ask the question, why do we even join together? Right? Is it because we all want to help each other? No, it's because we all believe in Christ and Christ is the only way, the glue that sticks us together and will continue to stick together despite having disagreements. That's the idea. Obviously that's not true in reality but.
 
@@ -200,7 +200,7 @@ I also think it's so interesting cause there's so much discourse right now about
 
 (26:15) **Nicole**: Yeah, definitely.
 
-#### Non-neutrality of Technology
+#### Non-neutrality of technology
 
 (26:17) **Henry**: Yeah. How do you think that the church should think about community now? Cause we do focus so much about meeting together in person and now that we can't, we're struggling with the same thing. Maybe more specifically, I think a lot of people in the church view technology as like a thing, like a tool, right? That you just use. So if anything, they are less critical of tech than maybe a lot of other people. Everyone's using zoom. Let's just use zoom. And that's our thing. And we're not thinking about like, how is that changing our worship
 
@@ -216,13 +216,13 @@ I also think it's so interesting cause there's so much discourse right now about
 
 (29:13) **Henry**: No, I just figured that, I mean, we didn't even do this for the previous stuff, but like, I'm sure there are a lot of people that have no idea for certain terms that we use. So maybe we should explain to, and just for ourselves to kind of.. no that was good.
 
-#### Liturgy and Senses
+#### Liturgy and the senses
 
 (29:26) **Nicole**: Yeah, and honestly, like broadly, I wouldn't consider myself Presbyterian personally, but I go to a Presbyterian church, which is pretty like high to medium, liturgy, which is basically just what is the structure of the church service that you run? Most of the time it's pretty informed by historical traditions and how people think you interpret Bible verses about like what God said is the best way to worship him is. And it's interesting cause for me. I don't know, I have very, For me when I'm in some sort of high church, like Catholic churches, liturgy feels much more meaningful to me than it does in Presbyterian church. Not sure why, but honestly, I could almost be much more moved by having worship, having a service or a message delivered, and then finishing it. Like, to me, that would be more compelling, but I'm not exactly sure why,
 
 (30:13) **Henry**: Hmm. Yeah, I am not sure. It's sort of like what are we familiar with? Like if you know, like the words that people say, it just resonates in your heart and that will, that convicts me sometimes just people just talking. Right. But then for other people, like I haven't really been to a lot of, like high church services. I did, I guess, enter into a Greek Orthodox church and just hearing from my friend who's a professor and talking to him and he would say that incense is really important and smelling that. And he was saying like, if we're going to worship, we got our worship with all of our senses. From the abstract point of view, which is kind of ironic, I would say that cause we're talking about physical senses, it makes sense to me cause it's like. God wants us to worship with all of our mind, body, spirit. And so that would mean that, okay, then you should incorporate our hearing and our speaking and our sight and our smell. But in reality, I don't. I've never had that experience. Or maybe you think it's kind of weird. and so I think I'm more like you in the current moment, but I'm interested in how other people are going through their worship.
 
-#### Habituation and Monotony
+#### Habituation and monotony
 
 (31:12) **Nicole**: Yeah. I think it's like for me, I can't tell why. Cause I also have been on a big aesthetics kick on Twitter. I think partially just because I don't know, I like to be dramatic when people don't agree with me, but also because I think we are like lacking in aesthetic discussion about a lot of like major fields and how that plays into the compellingness of their ideology. And I do think it's exactly like you said, it makes it so much more compelling if you are. Fully preparing yourself and fully preparing your mind and your body and your senses to be in a different space, I think about this so much in quarantine when technically it could exist in the same room, in the same house, wearing the same clothes and not have all the parts of my day set apart. It means so much more when I'm able to have my phone and wifi off and go down for breakfast, silently and just think and, make sure to change and completely brush my teeth and put on my makeup and just do all of that silly stuff that makes a huge difference. I think honestly, maybe my issue with Protestant liturgy has a little bit to do with.. It feels more like rule following than it does something that's sort of like heart and soul That would probably is not a great excuse. I think that there's plenty of things that Christianity would say, even if you don't feel it with your heart, it's going to do it in practice. And then eventually, you know, it'll feel more compelling throughout time. So maybe, honestly, I just need to get over it, but that's my take.
 
@@ -246,7 +246,7 @@ Kind of tying that back to the whole doing things over and over. I think even in
 
 (36:46) **Henry**: Mm. Wow. That's really good, just like the theme of childlike faith in the Bible itself too. Cause you were saying how we do a lot of things that we think are silly. And I was just thinking about that, we already assume that that way of being is just wrong. Um, of monotony of, things that don't really matter because we're so focused on like work and efficiency and being, I would say like a robot, there's like this goal. I don't know why that we're just pursuing productivity so much that. Isn't that the aesthetic that we're going for and we're not questioning that there are other types of aesthetics out there.
 
-#### Productivity and Fun
+#### Productivity and fun
 
 (37:21) **Nicole**: Yeah. Yeah, definitely. It's been good. I've enjoyed seeing more and more Twitter accounts pop up where it's like all these like, PMs or software engineers or like people who are typically at the center of like the productivity, maximizing discourse for totally understandable reasons. I have test out my fair share of productivity tools, but I've really enjoyed seeing people just like posting their flower garden or, you know, the new cooking trick they've learned, or some things silly like Celeste chia. I dunno if you follow her. but, salon she had just posting like, okay, give me doodle prompts and I will doodle what you give me. And just this massive thread of her doodling, silly, sweet little things, really enjoyed that evening at my feed.
 
@@ -272,7 +272,7 @@ Kind of tying that back to the whole doing things over and over. I think even in
 
 (40:12) **Henry**: I actually, that's funny. I feel like in a way, I'm still approaching learning non tech stuff in a tech way. Like I just can't help myself from doing that. Um. another one would be like, people try really hard to look like they're lazy or they're not doing anything, but they're trying really hard to do it. Aren't we trying to not try it?
 
-#### Education, Learning is Autotelic
+#### Learning is autotelic
 
 (40:33) **Nicole**: Yeah. This might be a whole nother can of worms, honestly, we'll see. Well, like Lambda school, there's that, but also like, I mean, even just what you were saying now, right, where like. Sometimes for some people, the thought of just reading a book that is not super current is like a detractor from productivity. Like why would you choose something that's less applicable or people perceive as being less applicable to like right now in time, I guess. I think. The need for like liberal arts education broadly is kind of become a meme at this point. And I think it's, it's tough because I'm also a super strong advocate for optionality somewhere between academia and like a technical certificate. But on the other hand, if I lived in an ideal universe, I feel like everybody needs a chance to go through sort of like a liberal arts education. I think the ideal way to gain like robust context in the world, not even from like, I think a lot of people view it as like, Oh, looking at philosophy, it makes you better at computer science. That's the worst way to view it. Like philosophy is its own thing. Philosophy helps you be better at thinking philosophically, which like if you apply it to computer science or STEM, like that's cool, but you're also kind of missing the point. It's not about gaining utility.
 
@@ -332,7 +332,7 @@ Kind of tying that back to the whole doing things over and over. I think even in
 
 (53:27) **Henry**: Right? I think this act of participation or you could say like creation, right? That's an interesting way to put it. We say creative, but like maybe going back to God creating things and then wanting us to do the same, you know? I think that's, maybe that's where a lot of the joy comes from.
 
-#### Shalom
+#### On shalom
 
 (53:38) **Nicole**: Yeah, yeah. I wrote my high school thesis, about the idea of restoring Shalom, which is super interesting. I could go on for a long time, but one of the core tenants of that is that in the beginning in the garden of Eden, everything was in Shalom, which means a state of flourishing state of the world as it's intended to be. And in heaven we will also be in Shalom. And so a lot of the way we can frame our purpose as human beings is to be sub creators and sub restores of Shalom. Which is also cool. Like I was saying earlier, puts everything in the context of worship and like doing small actions of sub creations essentially, that bring things back to like a state of flourishing, which for me at least, I find very meaningful.
 
