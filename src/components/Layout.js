@@ -17,63 +17,58 @@ let TOC = ({ headings }) => {
   );
 };
 
-class Layout extends React.Component {
-  render() {
-    const { location, title, children, headings } = this.props;
-    const rootPath = `${__PATH_PREFIX__}/`;
+export default function Layout({ location, title, children, headings }) {
+  const rootPath = `${__PATH_PREFIX__}/`;
 
-    let header;
-    if (location.pathname !== rootPath) {
-      header = (
-        <h3
-          style={{
-            fontFamily: "Montserrat, sans-serif",
-            marginTop: 0,
-            marginBottom: rhythm(-1),
-          }}
-        >
-          <Link
-            style={{
-              boxShadow: "none",
-              textDecoration: "none",
-              color: "inherit",
-            }}
-            to={"/"}
-          >
-            {`← ${title}`}
-          </Link>
-        </h3>
-      );
-    }
-
-    return (
-      <div
+  let header;
+  if (location.pathname !== rootPath) {
+    header = (
+      <h3
         style={{
-          color: "var(--textNormal)",
-          background: "var(--bg)",
-          padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
-          display: "flex",
-          maxWidth: headings ? rhythm(36) : rhythm(24),
-          margin: "0 auto",
+          fontFamily: "Montserrat, sans-serif",
+          marginTop: 0,
+          marginBottom: rhythm(-1),
         }}
       >
-        <div
-          className="content"
+        <Link
           style={{
-            flex: "1 1 auto",
+            boxShadow: "none",
+            textDecoration: "none",
+            color: "inherit",
           }}
+          to={"/"}
         >
-          {header}
-          {children}
-        </div>
-        {headings && (
-          <div className="sidebar">
-            <TOC headings={headings} />
-          </div>
-        )}
-      </div>
+          {`← ${title}`}
+        </Link>
+      </h3>
     );
   }
-}
 
-export default Layout;
+  return (
+    <div
+      class="container"
+      style={{
+        color: "var(--textNormal)",
+        background: "var(--bg)",
+        padding: `${rhythm(1)} ${rhythm(3 / 4)}`,
+        display: "flex",
+        margin: "0 auto",
+      }}
+    >
+      <div
+        className="content"
+        style={{
+          flex: "1 1 auto",
+        }}
+      >
+        {header}
+        {children}
+      </div>
+      {headings && (
+        <div className="sidebar">
+          <TOC headings={headings} />
+        </div>
+      )}
+    </div>
+  );
+}

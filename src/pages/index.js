@@ -14,42 +14,48 @@ class BlogIndex extends React.Component {
     const posts = this.props.data.allMarkdownRemark.edges;
 
     return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO />
-        <Intro />
-        <hr />
-
-        {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug;
-          return (
-            <div key={node.fields.slug}>
-              <h3
-                style={{
-                  marginTop: rhythm(1),
-                  marginBottom: rhythm(1 / 4),
-                  textDecoration: "underline",
-                }}
-              >
-                <Link style={{ boxShadow: "none" }} to={node.fields.slug}>
-                  {title}
-                </Link>
-              </h3>
-              <small>
-                {node.frontmatter.date}
-                {` • ${node.frontmatter.time} min 🎧`}
-              </small>
-              <p
-                dangerouslySetInnerHTML={{
-                  __html: node.frontmatter.description,
-                }}
-              />
+      <Layout location={this.props.location} title={siteTitle} column={true}>
+        <div className="column">
+          <div className="column-left">
+            <div className="column-left-c">
+              <SEO />
+              <Intro />
+              <hr />
             </div>
-          );
-        })}
+          </div>
 
-        <Testimonial />
-
-        <Footer />
+          <div>
+            {posts.map(({ node }) => {
+              const title = node.frontmatter.title || node.fields.slug;
+              return (
+                <div key={node.fields.slug}>
+                  <h3
+                    style={{
+                      marginTop: rhythm(1),
+                      marginBottom: rhythm(1 / 4),
+                      textDecoration: "underline",
+                    }}
+                  >
+                    <Link style={{ boxShadow: "none" }} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small>
+                    {node.frontmatter.date}
+                    {` • ${node.frontmatter.time} min 🎧`}
+                  </small>
+                  <p
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description,
+                    }}
+                  />
+                </div>
+              );
+            })}
+            <Testimonial />
+            <Footer />
+          </div>
+        </div>
       </Layout>
     );
   }

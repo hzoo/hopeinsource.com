@@ -7,13 +7,20 @@ episodeLink: '892ed7d4'
 embedUrl: https://share.transistor.fm/s/1ca166c4
 ---
 
-## Links
+### Transcript
 
-- Call to Commitment: https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS
-
-## Transcript
+<details>
+<summary>Mentions
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/membership.md)
+
+</summary>
+
+- [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)
+
+</details>
+
+#### What is membership?
 
 (00:00) **Nadia**: Okay, so today we're gonna be talking about the concept of membership in a church, what it means to commit or not commit to attending. And, I think that's it. Right?
 
