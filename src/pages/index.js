@@ -1,17 +1,17 @@
-import React from 'react'
-import { Link, graphql } from 'gatsby'
+import React from "react";
+import { Link, graphql } from "gatsby";
 
-import Intro from '../components/Intro'
-import Layout from '../components/Layout'
-import Testimonial from '../components/Testimonial'
-import SEO from '../components/SEO'
-import Footer from '../components/Footer'
-import { rhythm } from '../utils/typography'
+import Intro from "../components/Intro";
+import Layout from "../components/Layout";
+import Testimonial from "../components/Testimonial";
+import SEO from "../components/SEO";
+import Footer from "../components/Footer";
+import { rhythm } from "../utils/typography";
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const posts = this.props.data.allMarkdownRemark.edges
+    const siteTitle = this.props.data.site.siteMetadata.title;
+    const posts = this.props.data.allMarkdownRemark.edges;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -20,17 +20,17 @@ class BlogIndex extends React.Component {
         <hr />
 
         {posts.map(({ node }) => {
-          const title = node.frontmatter.title || node.fields.slug
+          const title = node.frontmatter.title || node.fields.slug;
           return (
             <div key={node.fields.slug}>
               <h3
                 style={{
                   marginTop: rhythm(1),
                   marginBottom: rhythm(1 / 4),
-                  textDecoration: 'underline',
+                  textDecoration: "underline",
                 }}
               >
-                <Link style={{ boxShadow: 'none' }} to={node.fields.slug}>
+                <Link style={{ boxShadow: "none" }} to={node.fields.slug}>
                   {title}
                 </Link>
               </h3>
@@ -39,21 +39,23 @@ class BlogIndex extends React.Component {
                 {` • ${node.frontmatter.time} min 🎧`}
               </small>
               <p
-                dangerouslySetInnerHTML={{ __html: node.frontmatter.description }}
+                dangerouslySetInnerHTML={{
+                  __html: node.frontmatter.description,
+                }}
               />
             </div>
-          )
+          );
         })}
 
         <Testimonial />
 
         <Footer />
       </Layout>
-    )
+    );
   }
 }
 
-export default BlogIndex
+export default BlogIndex;
 
 export const pageQuery = graphql`
   query {
@@ -64,7 +66,10 @@ export const pageQuery = graphql`
       }
     }
     allMarkdownRemark(
-      sort: { fields: [frontmatter___date, frontmatter___title], order: [DESC, DESC] }
+      sort: {
+        fields: [frontmatter___date, frontmatter___title]
+        order: [DESC, DESC]
+      }
     ) {
       edges {
         node {
@@ -81,4 +86,4 @@ export const pageQuery = graphql`
       }
     }
   }
-`
+`;

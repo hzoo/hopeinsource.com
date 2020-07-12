@@ -1,14 +1,11 @@
-const React = require("react")
+const React = require("react");
 
 const pluginDefaults = {
   className: `timestamp`,
-}
+};
 
 exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
-  const { className } = Object.assign(
-    pluginDefaults,
-    pluginOptions
-  )
+  const { className } = Object.assign(pluginDefaults, pluginOptions);
 
   // match quote distance
   const styles = `
@@ -28,11 +25,11 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       color: inherit;
       text-decoration: inherit;
     }
-  `
+  `;
 
   return setHeadComponents([
     <style key={`gatsby-remark-podcast-timestamps`} type="text/css">
       {styles}
-    </style>
-  ])
-}
+    </style>,
+  ]);
+};

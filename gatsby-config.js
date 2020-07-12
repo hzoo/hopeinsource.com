@@ -1,28 +1,30 @@
 module.exports = {
   siteMetadata: {
-    title: 'Hope in Source',
-    author: 'Nadia Eghbal & Henry Zhu',
-    description: 'What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.',
-    gitOrg: 'hzoo',
-    gitRepo: 'hopeinsource.com',
-    siteUrl: 'https://hopeinsource.com',
+    title: "Hope in Source",
+    author: "Nadia Eghbal & Henry Zhu",
+    description:
+      "What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.",
+    gitOrg: "hzoo",
+    gitRepo: "hopeinsource.com",
+    siteUrl: "https://hopeinsource.com",
     social: {
-      twitter: '@left_pad',
+      twitter: "@left_pad",
     },
     feed: {
-      rss: 'https://feeds.transistor.fm/hope-in-source',
-      google: 'https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D',
-      apple: 'https://itunes.apple.com/us/podcast/hope-in-source/id1437677655',
-      spotify: 'https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B',
+      rss: "https://feeds.transistor.fm/hope-in-source",
+      google:
+        "https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D",
+      apple: "https://itunes.apple.com/us/podcast/hope-in-source/id1437677655",
+      spotify: "https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B",
     },
   },
-  pathPrefix: '/',
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/src/pages`,
-        name: 'pages',
+        name: "pages",
       },
     },
     `gatsby-plugin-catch-links`,
@@ -42,17 +44,19 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          'gatsby-remark-autolink-headers',
+          "gatsby-remark-autolink-headers",
           {
-            resolve: 'gatsby-remark-prismjs',
+            resolve: "gatsby-remark-prismjs",
             options: {
-              inlineCodeMarker: '÷',
+              inlineCodeMarker: "÷",
             },
           },
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
+          "gatsby-remark-copy-linked-files",
+          "gatsby-remark-smartypants",
           {
-            resolve: require.resolve('./plugins/gatsby-remark-podcast-timestamp')
+            resolve: require.resolve(
+              "./plugins/gatsby-remark-podcast-timestamp"
+            ),
           },
         ],
       },
@@ -61,11 +65,11 @@ module.exports = {
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
     {
-      resolve: 'gatsby-plugin-typography',
+      resolve: "gatsby-plugin-typography",
       options: {
-        pathToConfigModule: 'src/utils/typography',
+        pathToConfigModule: "src/utils/typography",
       },
     },
-    `gatsby-plugin-twitter`
+    `gatsby-plugin-twitter`,
   ],
-}
+};

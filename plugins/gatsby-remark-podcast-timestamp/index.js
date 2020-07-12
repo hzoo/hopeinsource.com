@@ -1,13 +1,15 @@
-const visit = require("unist-util-visit")
-const toString = require("mdast-util-to-string")
+const visit = require("unist-util-visit");
+const toString = require("mdast-util-to-string");
 const timestampRegex = /\((\d+:\d+(:\d+)?)\)/;
 
 function isTimestamp(p) {
   // '(00:28) **Henry**: talking here!'
-  if (p.children.length >= 3 &&
-  	  p.children[0].type === 'text' &&
-  	  p.children[1].type === 'strong') { 
-  		return p.children[0].value.match(timestampRegex);
+  if (
+    p.children.length >= 3 &&
+    p.children[0].type === "text" &&
+    p.children[1].type === "strong"
+  ) {
+    return p.children[0].value.match(timestampRegex);
   }
 
   // (00:28) talking here!'
@@ -18,14 +20,14 @@ function isTimestamp(p) {
 
 // https://www.gatsbyjs.org/tutorial/remark-plugin-tutorial/
 module.exports = ({ markdownAST }, pluginOptions) => {
-  visit(markdownAST, "paragraph", node => {
-  	let timestamp = isTimestamp(node);
-  	if (timestamp) {
-  		let html = `<p class="wrap">
+  visit(markdownAST, "paragraph", (node) => {
+    let timestamp = isTimestamp(node);
+    if (timestamp) {
+      let html = `<p class="wrap">
 <a href="#t=${timestamp[1]}"><span class="timestamp">${timestamp[1]} 🕐</span>`;
 
       // remove timestamp
-  		if (node.children.length >= 3) {
+      if (node.children.length >= 3) {
         node.children.shift();
         let name = `<strong>${toString(node.children.shift())}</strong>`;
         html += name;
@@ -34,13 +36,13 @@ module.exports = ({ markdownAST }, pluginOptions) => {
       //   node.children[0].value.replace(timestampRegex, '');
       // }
 
-      html += `${toString(node)}</a></p>`
+      html += `${toString(node)}</a></p>`;
 
-  		node.type = "html"
-	    node.children = undefined
-	    node.value = html
-  	}
-  })
+      node.type = "html";
+      node.children = undefined;
+      node.value = html;
+    }
+  });
 
-  return markdownAST
-}
+  return markdownAST;
+};
