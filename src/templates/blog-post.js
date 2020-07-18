@@ -81,6 +81,20 @@ const preprocessHeading = (h) => {
   };
 };
 
+let TOC = ({ headings }) => {
+  return (
+    <ul className="toc">
+      {headings.map((heading, i) => {
+        return (
+          <li key={i}>
+            <a href={`#${heading.id}`}>{heading.value}</a>
+          </li>
+        );
+      })}
+    </ul>
+  );
+};
+
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
@@ -96,81 +110,102 @@ class BlogPostTemplate extends React.Component {
       `${siteMetadata.siteUrl}${slug}`
     )}`;
     return (
-      <Layout
-        location={this.props.location}
-        title={siteMetadata.title}
-        headings={headings}
-      >
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description}
-          slug={post.fields.slug}
-          embedUrl={post.frontmatter.embedUrl}
-        />
+      <Layout>
+        <div>
+          <h3
+            style={{
+              fontFamily: "Montserrat, sans-serif",
+              marginTop: 0,
+              marginBottom: rhythm(-1),
+            }}
+          >
+            <Link
+              style={{
+                boxShadow: "none",
+                textDecoration: "none",
+                color: "inherit",
+              }}
+              to={"/"}
+            >
+              {`← ${siteMetadata.title}`}
+            </Link>
+          </h3>
 
-        <h2>{post.frontmatter.title}</h2>
+          <SEO
+            title={post.frontmatter.title}
+            description={post.frontmatter.description}
+            slug={post.fields.slug}
+            embedUrl={post.frontmatter.embedUrl}
+          />
 
-        <Subscribe />
+          <h2>{post.frontmatter.title}</h2>
 
-        <blockquote>{post.frontmatter.description}</blockquote>
+          <Subscribe />
 
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+          <blockquote>{post.frontmatter.description}</blockquote>
 
-        <Support />
+          <div dangerouslySetInnerHTML={{ __html: post.html }} />
 
-        <h2>Credits</h2>
-        <p>
-          Hosted by <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{" "}
-          <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
-          Edited by <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
-          Cover art by Jessica Han. <br />
-          Music by <a href="https://twitter.com/ken_wheeler">Ken Wheeler</a>.
-        </p>
+          <Support />
 
-        <p>
-          <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-            Discuss on Twitter
-          </a>
-          {` • `}
-          <a href={editUrl} target="_blank" rel="noopener noreferrer">
-            Edit on GitHub
-          </a>
-        </p>
-        <div
-          style={{
-            display: "flex",
-            marginBottom: rhythm(2.5),
-          }}
-        />
-        <ul
-          style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-between",
-            listStyle: "none",
-            padding: 0,
-          }}
-        >
-          <li>
-            {previous && (
-              <Link to={previous.fields.slug} rel="prev">
-                ← {previous.frontmatter.title}
-              </Link>
-            )}
-          </li>
-          <li>
-            {next && (
-              <Link to={next.fields.slug} rel="next">
-                {next.frontmatter.title} →
-              </Link>
-            )}
-          </li>
-        </ul>
-        <Footer />
-        <Player
-          title={post.frontmatter.title}
-          src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}
-        />
+          <h2>Credits</h2>
+          <p>
+            Hosted by <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{" "}
+            <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
+            Edited by <a href="https://twitter.com/left_pad">Henry Zhu</a>.{" "}
+            <br />
+            Cover art by Jessica Han. <br />
+            Music by <a href="https://twitter.com/ken_wheeler">Ken Wheeler</a>.
+          </p>
+
+          <p>
+            <a href={discussUrl} target="_blank" rel="noopener noreferrer">
+              Discuss on Twitter
+            </a>
+            {` • `}
+            <a href={editUrl} target="_blank" rel="noopener noreferrer">
+              Edit on GitHub
+            </a>
+          </p>
+          <div
+            style={{
+              display: "flex",
+              marginBottom: rhythm(2.5),
+            }}
+          />
+          <ul
+            style={{
+              display: "flex",
+              flexWrap: "wrap",
+              justifyContent: "space-between",
+              listStyle: "none",
+              padding: 0,
+            }}
+          >
+            <li>
+              {previous && (
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              )}
+            </li>
+            <li>
+              {next && (
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              )}
+            </li>
+          </ul>
+          <Footer />
+          <Player
+            title={post.frontmatter.title}
+            src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}
+          />
+        </div>
+        <div className="sidebar">
+          <TOC headings={headings} />
+        </div>
       </Layout>
     );
   }

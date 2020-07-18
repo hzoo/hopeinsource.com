@@ -27,7 +27,6 @@ module.exports = {
         name: "pages",
       },
     },
-    `gatsby-plugin-catch-links`,
     {
       resolve: `gatsby-transformer-remark`,
       options: {
@@ -44,7 +43,12 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          "gatsby-remark-autolink-headers",
+          {
+            resolve: "gatsby-remark-autolink-headers",
+            options: {
+              offsetY: "20",
+            },
+          },
           {
             resolve: "gatsby-remark-prismjs",
             options: {
@@ -61,6 +65,7 @@ module.exports = {
         ],
       },
     },
+    // `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
