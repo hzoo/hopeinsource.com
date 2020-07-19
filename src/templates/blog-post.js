@@ -81,20 +81,6 @@ const preprocessHeading = (h) => {
   };
 };
 
-let TOC = ({ headings }) => {
-  return (
-    <ul className="toc">
-      {headings.map((heading, i) => {
-        return (
-          <li key={i}>
-            <a href={`#${heading.id}`}>{heading.value}</a>
-          </li>
-        );
-      })}
-    </ul>
-  );
-};
-
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark;
@@ -204,7 +190,31 @@ class BlogPostTemplate extends React.Component {
           />
         </div>
         <div className="sidebar">
-          <TOC headings={headings} />
+          <ul className="toc">
+            {headings.map((heading, i) => {
+              return (
+                <li key={i}>
+                  <a href={`#${heading.id}`}>{heading.value}</a>
+                </li>
+              );
+            })}
+
+            {previous && (
+              <li>
+                <br />
+                <Link to={previous.fields.slug} rel="prev">
+                  ← {previous.frontmatter.title}
+                </Link>
+              </li>
+            )}
+            {next && (
+              <li>
+                <Link to={next.fields.slug} rel="next">
+                  {next.frontmatter.title} →
+                </Link>
+              </li>
+            )}
+          </ul>
         </div>
       </Layout>
     );
