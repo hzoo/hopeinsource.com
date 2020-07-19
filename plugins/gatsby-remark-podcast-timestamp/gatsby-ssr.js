@@ -14,7 +14,6 @@ exports.onRenderBody = ({ setHeadComponents }, pluginOptions) => {
       transform: translateX(-100%);
       padding-right: 1.42188rem;
       box-shadow: none;
-      text-decoration: underline;
       opacity: 0;
     }
     .wrap:hover .${className} {

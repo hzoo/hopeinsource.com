@@ -40,10 +40,6 @@ footer {
 	background: var(--green);
 }
 
-.wrap:hover {
-	border-right: 1px dotted var(--white);
-}
-
 @media screen and (max-width: 1100px) {
 	.toc {
 		display: none;
