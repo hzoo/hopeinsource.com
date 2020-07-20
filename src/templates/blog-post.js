@@ -198,10 +198,9 @@ class BlogPostTemplate extends React.Component {
                 </li>
               );
             })}
-
+            <br />
             {previous && (
               <li>
-                <br />
                 <Link to={previous.fields.slug} rel="prev">
                   ← {previous.frontmatter.title}
                 </Link>

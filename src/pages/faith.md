@@ -127,7 +127,7 @@ I guess I'm just sort of like weirdly interested in this topic because it's just
 
 (23:03) **Henry**: Yeah. Right. Like the scope of it is just never going to be that big. And we don't have enough people... Well, I think another thing is just we're not really thinking about it that much, right? My assumption is that most people just want to work on code and community is there but it's kind of implicit. I don't think anyone's going out of their way to set up these kinds of things. Now I'm thinking, "Oh, what is we made a Babel meetup." It's not where you give talks. It's just where you contribute or we have a conference even. That seems kind of crazy for a small project like us, that's not even a company, but maybe?
 
-#### On Crossfit and accountability: ("Everyone else is going to be there")
+#### "Everyone else is going to be there"
 
 (23:48) **Nadia**: Yeah. I guess I'm going back to faith stuff again. Well why do people go to church regularly? And I think there's some sort of sense of purpose and community that doesn't have to be this super designed out conference and a meetup kind of thing, maybe it's also the accountability thing? So like... I'm not religious.
 
