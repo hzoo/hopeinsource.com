@@ -22,17 +22,19 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 #### What makes an organization healthy?
 
-(00:00) **Henry**: Alright, so in this episode, I wanted to talk about organizational health. Nadia just wrote a post about the health of an open source project and how we measure it, whether it's by contributors, activity, or output. It just got me thinking about how we measure that in a church, and what's the relationship between church growth and health, like the popularity of open source projects versus health or sustainability.
+(00:00) **Henry**: Alright, so in this episode, I wanted to talk about organizational health. Nadia just wrote a post about the health of an open source project and how we measure it, whether it's by contributors, activity, or output. It just got me thinking about how we measure that in a church. What's the relationship between church growth and health, the popularity of open source projects versus health or sustainability.
 
-(00:31) **Nadia**: It's interesting, 'cause even though I believe that we should be measuring a project's activity and output over number of contributors, it's just an easier thing to visualize when you talk about people coming to your project or leaving your project as a sign of health. And we've talked about this with church stuff, of bringing people into your congregation and who's attending, how many people are there? So it's just such an easy visual to fall back on that, the stuff I was writing about was trying to make the case that number of contributors or number of attendees or whatever doesn't really matter. What matters more is what are you actually producing and putting out.
+(00:31) **Nadia**: It's interesting, 'cause even though I believe that we should be measuring a project's activity and output over number of contributors, it's just an easier thing to visualize when you talk about people coming to your project or leaving your project as a sign of health. We've talked about this with church stuff, of bringing people into your congregation and who's attending. How many people are there? It's such an easy visual to fall back on that. The stuff I was writing about was trying to make the case that number of contributors or attendees doesn't really matter. What matters more is what are you actually producing and putting out.
 
-(01:07) **Nadia**: Which actually relates to Call to Commitment... they purposely kept a really small congregation because they were like, "Yeah, we don't need to inflate this with a bunch of fake numbers." But then I was thinking, for church stuff, what would output even really be in a church if it's not the number of people attending or listening?
+#### What Is a Church's Output?
 
-(01:29) **Henry**: Yeah. I guess they just cared a lot about the individual people. It's all about, how well are they doing, mentally or spiritually, and so we don't want shallowness or just numbers like what you said. Even though it's an easy way to think about it. "Oh, as long as we have more people that means probably more people are tithing and that means that we're gonna sustain this thing 'cause if we don't have money then it's not gonna work anymore."
+(01:07) **Nadia**: Which actually relates to Call to Commitment. They purposely kept a really small congregation because they were like, "We don't need to inflate this with a bunch of fake numbers." But for church stuff, what would output even really be in a church if it's not the number of people attending?
 
-(02:08) **Henry**: But I think for output, I think it's really hard to quantify, which is why I don't know if we can use attendance, because people can go to church every week, that doesn't mean they're any closer to God or other people.
+(01:29) **Henry**: Yeah. I guess they just cared a lot about the individual people. It's all about how well are they doing, mentally or spiritually. So we don't want shallowness or just numbers, what you said. Even though it's an easy way to think about it. "Oh, as long as we have more people, that means probably more people are tithing, and that means that we're gonna sustain this thing 'cause if we don't have money then it's not gonna work anymore."
 
-(02:28) **Nadia**: But what is a church's output? For an open source project it's easier to make the argument and say code is ultimately your output and that's why you can measure it based on PRs or commits or whatever, versus number of people contributing. But yeah, what's the equivalent that a church is trying to put out if not trying to, I don't know, touch people basically?
+(02:08) **Henry**: But I think for output, I think it's really hard to quantify, which is why I don't know if we can use attendance. Because people can go to church every week, that doesn't mean they're any closer to God or other people.
+
+(02:28) **Nadia**: But what is a church's output? For an open source project it's easier to make the argument and say code is ultimately your output and that's why you can measure it based on PRs or commits versus number of people contributing. What's the equivalent that a church is trying to put out if not trying to, I don't know, touch people basically?
 
 (02:47) **Henry**: I mean, even with open source, just because we're adding more code doesn't mean... Well, I guess there's the mission of the project versus is it still going? We can make PRs all day that all they do is update dependencies and it looks like it's really active (laughs), but are people actually getting benefit from it? That's more of a measure of how useful something is. I don't know if those are conflated or it's hard to know the difference sometimes, and at church it's the same, where you would think that if there are more people coming then maybe that means that more people can serve or more people can help the community that that church is a part of.
 
@@ -40,13 +42,19 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 (03:59) **Henry**: And so the problem is it's hard to measure. Basically it's saying how well is your relationship with your church or God or other people and that's hard to measure in any relationship, right?
 
+#### Latest Activity (Commit) As Heuristic
+
 (04:11) **Nadia**: Yeah, I don't know that there is a metric in that way. I was thinking with open source projects, I talked about some of this in my post of the latest commit as being this really quick heuristic. When's the last time this thing was updated? And I'm trying to think of what would the equivalent be if someone walked into a church they'd never been to before. "Oh, I know this is the place for me," but it's kind of an intangible thing, right? It just feels right or you like the vibe of it or whatever. I don't really know if it's the same.
 
 (04:44) **Henry**: Yeah, it's almost like doing an interview for someone, like getting a job or whether you should work at that company. All I did was look at their website and now I'm gonna figure out what I want to be there from that, same as people decide whether to use a project based on so many random things, right? How many stars they have or if the last commit was an hour ago versus a month ago and in a church you just go in, then you see certain people or you heard something.
 
-(05:16) **Henry**: But I almost feel like you have to spend more time to know that and to be there for the whole service, if they're talking about church and it's weird because, (laughs) that reminds me that now there's this term that people use called "church hopping", which is a negative term of people not being willing to commit to something 'cause it doesn't fit them.
+(05:16) **Henry**: But I feel like you have to spend more time to know that. To be there for the whole service, if they're talking about church.
 
-(05:42) **Henry**: And not that trying to find a fit is bad or anything, but it's really easy for people to say, "I don't think anywhere fits me, so I'm just gonna keep going place to place," and you're never actually committed to a local body. It's kinda just like, "I want to keep getting from it," versus at that point you're probably not even thinking about, "How am I gonna give back?" It's just, "I need something that makes me feel good about myself."
+#### Church Hopping: What's in It for Me?
+
+(05:22) **Henry**: It's weird because, (laughs) it kinda reminds me, now there's this term that people use called "church hopping", which is a negative term of people not being willing to commit to something 'cause it doesn't fit them.
+
+(05:42) **Henry**: And not that trying to find a fit is bad, but it's really easy for people to say, "I don't think anywhere fits me, so I'm just gonna keep going place to place," and you're never actually committed to a local body. It's kinda just, "I want to keep getting from it," versus at that point you're probably not even thinking about, "How am I gonna give back?" It's just, "I need something that makes me feel good about myself."
 
 (06:09) **Nadia**: Is that a new behavior, church hopping?
 
@@ -58,11 +66,18 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 (06:45) **Henry**: Maybe that's normal and I don't think it that's healthy, right? 'Cause that means that everyone is kinda loosely connected, and we're trying to find deeper connections with each other, the church, or open source project, and I think the symptom is this consumerist mentality, like joining a club, buying something, or going to the mall, those kind of ideas. And that kind of almost got caught up in the church where people are, "I do these things in my rest my life like this, and so at church I'm gonna do the same thing." Go here and there.
 
-(07:24) **Nadia**: Yeah, I mean it feels like that's a thing that people are experiencing beyond church or open source, just sort of how does the world around you serve you versus how do you be a part of it or be an active participant in it? I think it's a really hard question everyone is grappling right now. We were talking about this a little bit.. how to bring that feeling of localization or local communities to an internet context, where it feels like the early promise of the internet was that you're connected to this global community and borders are gonna break down and we're just gonna be part of this one big happy family on the internet and there's peace on earth or whatever.
+(07:24) **Nadia**: Yeah, I mean it feels like that's a thing that people are experiencing beyond church or open source, just sort of how does the world around you serve you versus how do you be a part of it or be an active participant in it? I think it's a really hard question everyone is grappling right now. We were talking about this a little bit.
+
+#### The Internet: One Big Happy Family?
+
+(07:44) **Nadia**: How to bring that feeling of localization or local communities to an internet context, where it feels like the early promise of the internet was that you're connected to this global community and borders are gonna break down and we're just gonna be part of this one big happy family on the internet and there's peace on earth.
 
 (08:06) **Nadia**: And I feel like in reality we're coming to this hard realization that a more localized community is actually really, really important for people to feel grounded and some shape or form and you can't just scale this thing to some massive global scale.
 
-(08:21) **Nadia**: Yeah. It's interesting that people are church hopping 'cause I feel like church would be an example of something where people could feel a little bit more localized. It makes sense in like an open source context that I think just because you're using so many more projects than you did before and there are so many more choices... and I feel like GitHub in particular has just made it so easy to hop around from one product to another that I, I think that's like some of the conflict between earlier open source and now.
+(08:21) **Nadia**: Yeah. It's interesting that people are church hopping 'cause I feel like church would be an example of something where people could feel a little bit more localized. It makes sense in an open source context just because you're using so many more projects than you did before and so many more choices. I feel like GitHub in particular has just made it so easy to hop around from one product to another, that I think that's some of the conflict between 
+earlier open source and now.
+
+#### On Losing a Coherent Story with Growth
 
 (08:52) **Nadia**: The earlier ones had smaller groups of developers that knew each other better and had more context for each other and now you can just use things or hop in, say something, and go onto the next project. But I don't know if it's realistic for open source at least to expect that people will find a community to settle into, that might just be the way it is.
 
@@ -74,15 +89,19 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 (10:25) **Nadia**: And so yeah, I feel like open source has become so popular now that it's become just so much more nuanced. There isn't a giant open source community, 'cause well everything is open source. But now you have these smaller things. But then there are some behaviors that are pervasive across open source, like around community management or project management, things like that and  no one is really thinking about it because no one really affiliates with it anymore, you have open source in general. Even though that's probably a good thing long-term.
 
-(10:59) **Henry**: Yeah, I think that's really interesting, when something kind of, not splits up, but it gets so big that there is  subgroups and then they kind of focus on their own thing and they should because they have different goals. But then there are also people that want to bring that back and that we can all learn from each other. So with church it's the same, each church is its own little community, and it should be local. I don't think it makes sense to kind of have the same "message" to every church.
+(10:59) **Henry**: Yeah, I think that's really interesting. When something, not splits up, but it gets so big that there are subgroups, they kind of focus on their own thing because they have different goals. But then there are also people that want to bring that back, that we can all learn from each other. With church it's the same, each church is its own little community, and it should be local.
 
-(11:42) **Henry**: Like it is the same, we all have the same values or goals or whatever, but then the way you present that to people has to be local. I was reading this tweet from James K.A. Smith. Say you have a pastor who's preaching, he doesn't give a generic message to the person. Basically 'cause then I would assume that  you don't even have to be there. You could do a livestream sermon online, anyone in the world can listen to you.
+#### McDonaldization of Church
+
+(11:38) **Henry**: I don't think it makes sense to kind of have the same "message" to every church. Like it is the same, we all have the same values or goals or whatever, but then the way you present that to people has to be local. I was reading this tweet from James K.A. Smith. Say you have a pastor who's preaching, he doesn't give a generic message to the person. Basically 'cause then I would assume that you don't even have to be there. You could do a livestream sermon online, anyone in the world can listen to you.
 
 (12:12) **Henry**: But that person should know all the people in their congregation what they're dealing with. Who are these people, where are they at, what time period is this in? And so that's super highly contextal, right? All those things matter in what you're trying to say to people versus some generic saying ... I think he mentioned, we don't wanna turn church into this McDonald's franchise where anywhere you go it's the same thing. It all roots back to the same overall goal, but then specifically it needs to cater to those people that are there.
 
 (13:01) **Nadia**: Hmm. It's a hard balance. 'Cause I think, I don't know, there are some benefits to feeling like you can be home wherever you are. There's something I really like about having internet friends (laughs) where, I've been traveling a bunch this month, any city I go to, I know people there and I can always feel kind of at home. My social group is bigger than just the physical city I live in.
 
 (13:25) **Nadia**: But at the same time, I know that going back to San Francisco is going home and that's a really nice thing. I wasn't raised in a very... well, I don't know if that's true. I guess it's sort of baffled me a little bit with Christianity, you can identify as a Christian, but you also identify with your denomination.
+
+#### Balancing Local and Global Affiliation
 
 (13:46) **Nadia**: You also might identify with your church and so you do have these multiple layers of community. So I went to Quaker high school and I've gone to Quaker meetings in other cities, in other countries and it's nice to do 'cause I can find a meeting for worship in some other country, but it's not the same at all.
 
@@ -114,6 +133,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 (18:25) **Henry**: Agree to disagree, yeah.
 
+#### Narcissism of Small Differences
+
 (18:28) **Nadia**: I wonder if it's sort of the uncanny valley. When theoretically two developers will do really, really similar stuff, they're gonna argue more violently about the very small differences than people from two totally different... there's more in-fighting between Christian denominations than there would be between-
 
 (18:49) **Henry**: Non-Christian.
@@ -129,6 +150,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 (20:03) **Henry**: Even in the Bible we talk about the Pharisees, which are people that know a lot about the Bible, they know a lot about laws, but they ended up caring so much about laws that  all they would do is call out people that they didn't follow the rule, that kind of thing.
 
 (20:20) **Henry**: This is obviously true in anything. Even now, how do we learn to kind of show that we're just like everyone else too. So when you end up knowing more than someone, you're not gonna look down on people for not knowing it, but you're gonna help them get to where they are versus only say negative things about what people are dealing with.
+
+#### Eternal Students: On Showing vs. Telling
 
 (20:44) **Nadia**: It kinda goes back to this idea of being an eternal student or committing yourself to the process versus being like, "I figured it out and now I'm gonna go tell everyone else what I think," which is just a good practice for humans in general (laughs).
 
@@ -150,6 +173,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 (24:45) **Henry**: And I think you mentioned this in previous conversations. About how there's a certain mystery to it. And even though in our age, it's all about knowledge and science and instant wanting to know the answer, I think there's something special or interesting about not knowing and maybe never really understanding completely, but knowing it truly and that we can know, but we might not know exhaustively. I think that's really good.
 
+#### Working in Public!
+
 (25:19) **Nadia**: That's the value of documenting everything you're learning in public to me also 'cause, I don't know, it just seems like it almost makes it necessary to be like, if the whole point is the process and everything is a lifelong process, then it's really important that I'm documenting that process in a way that other people can learn from wherever they're at because I'm never gonna just be done and then publish a thing where I'm like, "Look, I figured it out (laughs) here it is."
 
 (25:49) **Nadia**: I really struggle with just all the open source research that I'm doing now 'cause I think when I came in, I just felt like, "All right, the problem is really obvious," we should have just figured out an answer, but the more I dig into it the more I'm like, "Oh, that's just like really, really complicated," and in general I think with research not just mine, but just in general it's like you're kinda exploring these questions that you just don't really have answers to and you're just gonna have to keep probing at.
@@ -157,6 +182,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 (26:20) **Nadia**: So if you're never gonna arrive at the answer, then it's all you can really do to show progress or to show that you are actively thinking about things is to record it, but that's also something I think I've lifted from open source and just the importance of, you don't have to make a thing, you don't have to make the best tool ever and then put it out there just along the way, just put yourself out there and publish it.
 
 (26:45) **Henry**: Yeah, I think that goes back to what we said about how with software in general or open source it's never done. I think people forget that the maintainers are just people that are trying to improve on something, versus having a finished product. Same thing with your faith as well, it is never gonna be done, and we should look to that as a source of inspiration and versus a sense of dread.
+
+#### Holy Inefficiency: A Pokémon Story
 
 (27:16) **Henry**: It kinda reminds me, I heard this sermon in our church like two weeks ago, the title was actually Holy Inefficiency, which is a really interesting title. But it was just talking about in our current age it's all about information, you know notifications and overload of too much information, not too less.
 
@@ -176,6 +203,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 
 (29:48) **Nadia**: Too real, too real. The Pokémon in particular. Is the term holy inefficiency the idea that it's almost like a holy day of rest or intentionality about being inefficient?
 
+#### Intimacy with Martha and Mary
+
 (29:58) **Henry**: I think there are multiple parts to it. He used this passage where it's talking about Mary and Martha, and so one of them  washing the dishes basically and the other one was washing Jesus's feet. And so she was like, "Hey, why don't you help me in the kitchen 'cause we have to like get stuff done?" And the other person is just being with Jesus, like in relationship.
 
 (30:21) **Henry**: And so his point was that, you can spend your whole life, this is for spirituality. You can go to a seminary and study about God, you can read about God, you can listen to podcasts about God, you can talk about it, all these things. And yet in the end, you might not actually know him at all, because you turned it into this kind of game where there's a number attached to it versus like washing someone's feet, that's a very like different thing from accomplishing all these things.
@@ -183,6 +212,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 (30:56) **Henry**: So how do we remember what it means to know someone? And to know them, we would use the word intimacy, right? So that's something that that we should be doing. I think his point with the inefficiency part is that to be in a relationship is actually to be inefficient.
 
 (31:16) **Henry**: You don't want to meet someone, and then only talk to them for five minutes because you're like, "Oh, I need to go on with the rest of my day." But if you like them and you want to know them more, if it's God or another person, then you're gonna wanna be inefficient, right? You wanna stay there as long as possible, you wanna just talk about whatever, maybe like what you said, in silence, you're just like there waiting.
+
+#### Relationship Building
 
 (31:43) **Henry**: I think one of the most important things that we can do as a Christian is to wait. I think it's really interesting because that is the opposite of what we would want to do as people, and if you don't know God, same thing. We have this urge to wanna do something 'cause we feel guilty or "If I don't do anything nothing is gonna happen." But your implying that God can't move, that he can't work in your life.
 
@@ -193,6 +224,8 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 (33:13) **Nadia**: So now I try to be just a lot more unstructured. It means saying "no" to more people, which is I guess a tradeoff, but then also if there is someone that I'm really looking forward to getting to know or talking to, not having it feel like this has to be a one hour thing and at the end of this coffee, I need to go off and go to my other one hour thing, but instead just have it be a little bit more open, a little more unstructured.
 
 (33:39) **Nadia**: And yeah, when you're not thinking about it as like, "Oh it's 11:59 and I need to go," (laughs) all the interesting chatter comes about more naturally when you're willing to just give it up. I mean if you asked me that a few years ago it would have been like, "Ugh, I can't, I don't have time to spend two-and-a-half hours talking to someone (laughs), I need to go do other things." And I still struggle with this a lot, but just trying to be more comfortable with the idea that, just don't look at the clock and just enjoy the person that you're spending time with, but it's harder.
+
+#### Learning to Be (Not Do)
 
 (34:15) **Nadia**: I was thinking about that, and a friend of mine has a friend who's known for being, as he put it, very good at resting.
 
