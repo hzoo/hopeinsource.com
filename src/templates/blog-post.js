@@ -128,7 +128,9 @@ class BlogPostTemplate extends React.Component {
 
           <Subscribe />
 
-          <blockquote>{post.frontmatter.description}</blockquote>
+          <blockquote>
+            {post.frontmatter.description} ({post.frontmatter.time} min)
+          </blockquote>
 
           <div dangerouslySetInnerHTML={{ __html: post.html }} />
 

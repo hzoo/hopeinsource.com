@@ -16,26 +16,30 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 </summary>
 
-- Henry's ZEIT Day talk: https://www.youtube.com/watch?v=9sPDcVYX3g8
-- Nadia's Helium Grant: https://www.heliumgrant.org
+- Henry's ZEIT Day talk: [In Pursuit of Open Source](https://www.youtube.com/watch?v=9sPDcVYX3g8)
+- Nadia's Grant: [Helium Grant](https://www.heliumgrant.org)
 
 </details>
 
 #### What is your faith background?
 
-(00:00) **Nadia**: So we decided to start recording some conversations about open source and faith, because both of us have sort of noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, I think, Christian faith. I think for both of us we were sort of wondering why that was. We have pretty different backgrounds in terms of our personal connection to faith. Henry, do you want to talk a little bit about yours first and then I'll talk about mine?
+(00:00) **Nadia**: So we decided to start recording some conversations about open source and faith, because both of us have noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, Christian faith. Both of us were sort of wondering why that was. We have pretty different backgrounds in terms of our personal connection to faith. Henry, do you want to talk a little bit about yours first and then I'll talk about mine?
 
-(00:29) **Henry**: Yeah, real short, I am a Christian. I didn't grow up Christian but I mostly started pursuing it after college and going into working. I've just noticed through getting involved in open source, just a lot of parallels with what we do in church and our faith background. Stuff like that, and I didn't hear a lot of people talking about it but it does seem like it's kind of underlying a lot of stuff. So I think it would be really interesting to talk more about it explicitly.
+(00:29) **Henry**: Yeah, real short, I am a Christian. I didn't grow up Christian but I mostly started pursuing it after college and going into working. I've just noticed through getting involved in open source, just a lot of parallels with what we do in church and our faith background. I didn't hear a lot of people talking about it but it does seem like it's kind of underlying a lot of stuff. So it would be really interesting to talk more about it explicitly.
 
-(01:06) **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when. I went to a Quaker high school which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
+(01:03) **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when. I went to a Quaker high school which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
 
-#### Open source and faith as restorative
+#### Faith as restorative
 
-I guess I'm just sort of like weirdly interested in this topic because it's just fascinated me that especially for me working in tech in San Francisco, I feel like I almost never interact with faith or religion among my peers at all, in my sort of geographic location. But it seems like in open source for some reason, it's a much more prominent theme.
+(01:39) **Nadia**: I guess I'm sort of weirdly interested in this topic because it's just fascinated me that especially for me working in tech in San Francisco, I feel like I almost never interact with faith or religion among my peers at all, in my sort of geographic location. But it seems like in open source for some reason, it's a much more prominent theme.
 
 (02:01) **Henry**: Yeah. That's really interesting that you said that... because open source could be global then maybe you see a lot different kind of people and not just like tech in San Francisco but in New York or all of these other places. It's spread out all over.
 
-(02:18) **Nadia**: Yeah. It's sort of nice and like restorative almost to get to talk about these topics in open source more than I feel like I do day-to-day in San Francisco. And I don't really know why that is. Maybe you're right, that it's just a geographic difference. I thought of it as also just people might be attracted to open source for similar reasons that they might be attracted to some sort of faith or spiritual practice. I feel like I'm sort of mixing all these terms of faith, spirituality, religion, and those are all each, actually, kind of different things, but the aspects of faith that I think are really present in open source are around community organizing, and also just a sense of service, giving something to other people without expecting anything in return, for the benefit of some sort of greater good.
+(02:18) **Nadia**: Yeah. It's sort of nice and like restorative almost to get to talk about these topics in open source more than I feel like I do day-to-day in San Francisco. And I don't really know why that is. Maybe you're right, that it's just a geographic difference. I thought of it as also just people might be attracted to open source for similar reasons that they might be attracted to some sort of faith or spiritual practice.
+
+#### Giving without expectations
+
+(02:45) **Nadia**: I feel like I'm sort of mixing all these terms of faith, spirituality, religion, and those are all each, actually, kind of different things, but the aspects of faith that I think are really present in open source are around community organizing, and also just a sense of service, giving something to other people without expecting anything in return, for the benefit of some sort of greater good.
 
 (03:11) **Henry**: Right. Yeah, I gave a talk on this in SF, at Zeit Day, but the way I got started in open source wasn't because I thought it was about community or serving people. I thought it was just cool that people are working together and I use stuff and it would be nice to be able say that you worked on some project. So it came from a pretty selfish point of view of wanting to be involved in something bigger. But later growing into not just being a contributor, but a maintainer, I realized how fundamentally it's all about people, and the maintainers themselves is a big part of that. Not just the code stuff.
 
@@ -143,7 +147,7 @@ I guess I'm just sort of like weirdly interested in this topic because it's just
 
 (28:04) **Henry**: Which is also the same issue in the church too. Everyone there are all serving and trying to do different things and it might lead to burnout there. It's also an issue.
 
-#### On stepping away from service
+#### Learning when to step away
 
 (28:19) **Nadia**: Are there people that will step away from the church for a while and then come back? And if so, why?
 
