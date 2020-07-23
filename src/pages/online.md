@@ -16,7 +16,7 @@ embedUrl: https://share.transistor.fm/s/40b0aef1
 
 </summary>
 
-- TBD
+- The book, [Strange Rites](https://www.publicaffairsbooks.com/titles/tara-isabella-burton/strange-rites/9781541762510/)
 
 </details>
 
@@ -32,7 +32,7 @@ embedUrl: https://share.transistor.fm/s/40b0aef1
 
 (00:00:45) **Tara**: Well, man, that is high compliments indeed. I'm a big fan of both. So I'll take it.
 
-(00:00:49) **Henry**: I kind of wanted to mention your intro at the end, a quote. It says, it is also about the Americans who don't know if this is all there is or what all means, or there, or even is. It is about our quest for knowing, for belonging, and for meaning. The pilgrimage none of us can get out of.
+(00:00:49) **Henry**: I kind of wanted to mention your intro at the end, a quote. It says, "It is also about the Americans who don't know if this is all there is or what all means, or there, or even is. It is about our quest for knowing, for belonging, and for meaning. The pilgrimage none of us can get out of."
 
 #### Who is this written for?
 
