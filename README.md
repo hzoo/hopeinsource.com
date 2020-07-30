@@ -1,6 +1,6 @@
 # [hopeinsource.com](https://hopeinsource.com)
 
-## Run
+## Preview
 
 ```sh
 yarn
@@ -8,7 +8,6 @@ yarn dev
 open https://localhost:8000
 ```
 
-## Updating pages
+## Updating Transcripts
 
-> https://github.com/hzoo/hopeinsource.com/tree/master/src/pages
-
+Check out https://github.com/hzoo/hopeinsource.com/tree/master/episodes
