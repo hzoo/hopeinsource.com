@@ -23,14 +23,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/src/pages`,
-        name: "pages",
+        path: `${__dirname}/episodes`,
+        name: "episodes",
       },
     },
     {
-      resolve: `gatsby-transformer-remark`,
+      resolve: `gatsby-plugin-mdx`,
       options: {
-        plugins: [
+        extensions: [`.mdx`, `.md`],
+        gatsbyRemarkPlugins: [
           {
             resolve: `gatsby-remark-images`,
             options: {
@@ -63,9 +64,9 @@ module.exports = {
             ),
           },
         ],
+        plugins: [`gatsby-remark-autolink-headers`],
       },
     },
-    // `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-react-helmet`,
