@@ -36,7 +36,7 @@ module.exports = ({ markdownAST }, pluginOptions) => {
       //   node.children[0].value.replace(timestampRegex, '');
       // }
 
-      html += `${toString(node)}</a></p>`;
+      html += `</a>${toString(node)}</p>`;
 
       node.type = "html";
       node.children = undefined;

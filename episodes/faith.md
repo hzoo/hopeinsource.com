@@ -1,9 +1,9 @@
 ---
-title: '01: Faith and open source'
-date: '2018-10-16'
-time: '33'
+title: "01: Faith and open source"
+date: "2018-10-16"
+time: "33"
 description: We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
-episodeLink: 'a2bfec15'
+episodeLink: "a2bfec15"
 embedUrl: https://share.transistor.fm/s/2bb32fae
 ---
 
@@ -27,7 +27,7 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 (00:29) **Henry**: Yeah, real short, I am a Christian. I didn't grow up Christian but I mostly started pursuing it after college and going into working. I've just noticed through getting involved in open source, just a lot of parallels with what we do in church and our faith background. I didn't hear a lot of people talking about it but it does seem like it's kind of underlying a lot of stuff. So it would be really interesting to talk more about it explicitly.
 
-(01:03) **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when. I went to a Quaker high school which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
+(01:05) **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when. I went to a Quaker high school which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
 
 #### Faith as restorative
 
@@ -57,13 +57,13 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 #### The conflicts of public service and sustainability
 
-(06:50) **Nadia**: One of the reasons I'm hesitant to talk about it is because of this intrinsic motivation thing and the idea of public service, which sort of stands in conflict sometimes with the work that I'm interested in at open source, which is around sustainability and saying you can't really rely on the goodwill of developers to continue to maintain the infrastructure that we're all relying on. So for me sometimes, I worry that if I kind of dig into the faith thing of... There's some sense of... you're doing it for reasons other than something material. You're doing it because you really believe in this thing, and that sometimes I worry that if I focus on that sidem then it might invalidate this belief that also we need some sort of support for people that are doing this work, and how do they avoid getting burned out by the work that they're doing.
+(06:50) **Nadia**: One of the reasons I'm hesitant to talk about it is because of this intrinsic motivation thing and the idea of public service, which sort of stands in conflict sometimes with the work that I'm interested in at open source, which is around sustainability and saying you can't really rely on the goodwill of developers to continue to maintain the infrastructure that we're all relying on. So for me sometimes, I worry that if I kind of dig into the faith thing of... There's some sense of... you're doing it for reasons other than something material. You're doing it because you really believe in this thing, and that sometimes I worry that if I focus on that side then it might invalidate this belief that also we need some sort of support for people that are doing this work, and how do they avoid getting burned out by the work that they're doing.
 
 (07:39) **Henry**: Right. That's a really good point and I definitely am not on the side of you should do everything for free. Obviously, because I left to... and I have to sustain myself too. (laughs) So I am living out that struggle right now where there's this sense of "I want to be able to give everything away", but you don't want to limit access to things because you have to make money for it, but you have to sustain yourself and the idea that only people that can have the free time to do open source are the only people that should do it is seems pretty wrong to me as well. I don't know. It's a healthy struggle to have.
 
-(08:24) **Nadia**: It seems like we don't hold our day to day work to that same standard. We expect that you... It's great to be intrinsically motivated by the work that you do as your day job, but that doesn't negate the need to have a salary or sustain yourself. And so why would that be any different for open source?
+(08:24) **Nadia**: It seems like we don't hold our day to day work to that same standard. It's great to be intrinsically motivated by the work that you do as your day job, but that doesn't negate the need to have a salary or sustain yourself. And so why would that be any different for open source?
 
-(08:44) **Henry**: Right. It shouldn't be in conflict. I had a conversation with someone about work and whether if we're all trying to help people, you can make a for-profit company and then decide to donate it away or use that wealth or influence to help, or you can spend your time serving people more directly, (and maybe you won't ever make a lot of money) but you're having impact. Maybe some people believe one is more impactful than the other. It's hard to say. I think it's where you're placed at in the current time.
+(08:44) **Henry**: Right. It shouldn't be in conflict. I had a conversation with someone about work. If we're all trying to help people you can make a for-profit company and then decide to donate it away or use that wealth or influence to help, or you can spend your time serving people more directly, (and maybe you won't ever make a lot of money) but you're having impact. Maybe some people believe one is more impactful than the other. It's hard to say. I think it's where you're placed at in the current time.
 
 (09:28) **Nadia**: What do you mean by that?
 
@@ -93,7 +93,7 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 #### Tithing and a sense of ownership
 
-(14:44) **Nadia**: This is making me think about tithing a little bit, but in a different way...
+(15:00) **Nadia**: This is making me think about tithing a little bit, but in a different way...
 
 (14:51) **Nadia**: Yeah. I'm interested in tithing at a bunch of different levels but in particular I guess I'm thinking about it right now, how do you know whether you can afford to tithe or not. And I guess similarly, how do you know when you can afford to give of yourself in any shape or form, if you don't have a lot yourself.
 
@@ -169,4 +169,4 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 (33:10) **Henry**: I guess the concern is that when you're so involved and all that... say I'm doing open source full time, I still don't want to be so into it that I'm consumed but everything that's there, all you do is think about worry and all that. And you don't do your best work there.
 
-(33:31) **Nadia**: Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).
+**Nadia**: Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).
