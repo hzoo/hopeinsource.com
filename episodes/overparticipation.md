@@ -1,11 +1,13 @@
 ---
-title: "#16 Over-Participation (Working in Public)"
+title: "#16 Managing Over-Participation (Working in Public)"
 date: "2020-08-04"
 time: "47"
-description: "Is more (information, people, code) always better? Nadia Eghbal joins Henry (like at the beginning of this podcast) to chat about her new book, Working in Public: The Making and Maintenance of Open Source Software, a deep-dive into the of open source community and how it may paint a picture of online communities in general. They talk about different models of communities, the turn to individual creators in various fields, and the importance of moderation and boundaries."
+description: "Is more (information, people, code) always better? Nadia Eghbal joins Henry to chat about her new book, Working in Public: The Making and Maintenance of Open Source Software, a deep-dive into the of open source community and how it may paint a picture of online communities in general. They talk about her 2x2 model of communities, the public web (Twitter) to private groups (group chat), the turn to individual creators, and the importance of moderation and boundaries."
 episodeLink: "1735505a"
 embedUrl: https://share.transistor.fm/s/bd3ffd63
 ---
+
+Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
 ### Transcript
 
@@ -15,8 +17,6 @@ embedUrl: https://share.transistor.fm/s/bd3ffd63
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/overparticipation.md)
 
 </summary>
-
-- The book, [Working in Public](https://www.amazon.com/dp/0578675862/)
 
 </details>
 
@@ -51,6 +51,8 @@ embedUrl: https://share.transistor.fm/s/bd3ffd63
 (03:26) **Nadia**: And there isn't really any way to distinguish between someone who's just here to get their bug fix in and then leave versus someone who really wants to be active in taking on a role in that project's development. You know, it's not really about devaluing someone's contribution, but just saying, should you give as much attention to that one time contributor as you do to someone who shows up consistently and proves that they're willing to be there for a long period of time.
 
 (03:52) **Nadia**: And I think it should be okay to kind of like push back on that a little bit and say, well, if you've just shown up once and you say you're interested, but you haven't done anything to show that you're really trying, then I can't really afford to spend as much attention on that person as I might on a long time trusted collaborator.
+
+> "we’re glad you’re doing this once, but the level of maybe attention I’m gonna give you or level of commitment that I expect is just gonna be different" [#2 Membership, @11:31](https://hopeinsource.com/membership/#t=11:31)
 
 (04:07) **Henry**: Yeah, I guess we talked about that on the membership episode.
 
@@ -257,6 +259,8 @@ embedUrl: https://share.transistor.fm/s/bd3ffd63
 #### Cozyroom
 
 (34:19) **Henry**: That's exciting. I tried one recently called cozyroom.
+
+> https://cozyroom.xyz
 
 (34:22) **Nadia**: Oh, yeah, I tried that too. Yeah.
 
