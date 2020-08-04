@@ -122,13 +122,9 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
 (11:55) **Nadia**: And early on, I think I kind of was like, okay, is that true? And trying to sort of go through how that was actually playing out in different projects and understand like, okay, that actually.. Like sometimes it's not the maintainer, it's just the nature of their project. Why is that? And then trying to like unwind that from the project. But yeah, I think open source is a really great example because it is a little bit more removed from, real world society, I guess. So it's a little bit easier to examine it, dispassionately.
 
-#### Timing of the Book
-
 (12:20) **Henry**: Right. And you were saying that we were dealing with the same issues before maybe a lot of this other stuff happened.
 
 (12:27) **Nadia**: Yeah. I mean, even over the course of writing the book, it was interesting. Cause like I felt like I started writing it at the end of 2018. And I was nervous in the first few iterations of my draft, because I felt like I was saying something that I really shouldn't say or that.. But then I felt like over the course of 2018, 2019, and then now getting to the point of publishing the book, it feels almost like obvious now, or maybe not obvious, but it's way less controversial to talk about now. I mean, these are debates that people are having very openly right now in the public and political sphere. We're talking a lot about like censorship, cancel culture, and things like that.
-
-#### Higher Context Communities: Group Chats and Newsletters
 
 (13:04) **Nadia**: And also just seeing like how much your social behavior has changed, where I think at least for people I know, group chats and group messaging have become so much more of a thing because people are kind of retreating from these very public spheres to find higher context communities.
 
@@ -154,13 +150,11 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
 (15:51) **Henry**: Right. That reminds me of when we talked about evangelism a lot, because it's sort of the whole seeker friendly church, right. That's sort of the same thing. And what does evangelism really mean? Are you trying to literally every single person you see off the street, you're going to try to get them to go to your church or the people that do decide to show up, are you going to help them? And same with open source? Like you can't help everyone. You're limited person.
 
-#### It Comes Down to Saying No?
+#### The Importance of Moderation: Saying No
 
 (16:15) **Henry**: I don't know, maybe the internet and computers, it makes us.. We kind of embody the properties of those things, right? We feel like we are limitless too. When we do face this burden, then we have to finally think to ourselves like, Hey, I can't do this anymore. I have to learn to say, no.
 
 (16:31) **Henry**: Maybe it's sad, or maybe that's just reality. A lot of the issue, you know, disregarding money, just comes down to not feeling guilty about saying no. Which is funny because especially as open source maintainers, we have the freedom to say no, right. If it's not your job. Although you could say that has something to do with your reputation, that has a lot of social capital, but, yeah, you should be able to step away in theory, right. But then nobody does it. You don't see people doing it until they get to the breaking point, which is really unfortunate.
-
-#### The Importance of Moderation
 
 (17:04) **Nadia**: Yeah, I, in doing research for this book, I also went through sort of like some of the existing literature around how online communities are built and sustained. And if you go through that stuff, it's actually funny, cause like they kind of had no qualms and talking about this stuff early on, I guess before it became maybe a little bit more sensitive of a topic. But if you look at like very early online communities, and just sort of like the research that has been done about that. There's a lot of wisdom in there about the importance of moderators stepping into set the tone of a community and kicking out people that are hostile or newcomers that come in with zero context, but are just trying to like troll the group, all this behavior.
 
@@ -232,7 +226,7 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
 (29:43) **Nadia**: Not every writer, but a lot of writers that are doing well, came from say, building their audience on Twitter. And so it's not like they can just completely go dark and never do anything public again. They have to switch between these modes now where certain things are public and therefore growing your audience and getting a lot of like random new interests coming in. And then your newsletter can be a place to do things more quietly. Yeah, there's no way to really escape that if you are a creator of any sort, I think. And dealing with the idea that sometimes.. The things you care the most about are not the things that are going to go the most viral.
 
-#### Designing Beyond Engagement and Utility
+#### Beyond Zoom: Designing For Conversation
 
 (30:17) **Henry**: Thinking about that, my friend has a newsletter too and one of the titles was called Friction is the Friend of Serendipity, based off a different post called engagement is the enemy of serendipity. So I think what we're talking about is essentially the whole neutral public square idea, right? There's this space where we can all go and say whatever you want. In theory, everything is good, but now we're realizing we need friction, we need boundaries. That those are good things. But because we live in a society that has been without those for so long, there's this transition period that's going to be really difficult to figure out. Because everything is just based off of that assumption all the way down.
 
@@ -243,8 +237,6 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 (31:45) **Nadia**: Of course, take it to your text, take it to DMs. But those features or apps have not actually really been designed for group chat behavior. He was saying, you use SMS to receive your verification codes when you've got like two factor enabled. You use SMS for the most utilitarian things. But then you also use SMS to have these really deep conversations with people.
 
 (32:08) **Nadia**: And it just seems a little bit like strange. What would it look like if we had social products that were really designed for group type conversations. It might look a little bit different from just like straight up messaging. And so yeah, I feel like that's a good example of, the behavior is already happening. We can kind of look at it and be like, okay, everyone's fleeing to text for some reason. Suddenly I have all these group chats that I didn't have like three or four years ago. Why is that? But then see that as almost like the emerging nascent behavior that might lead to more interesting opportunities to build on top of.
-
-#### Beyond Zoom: Designing For Conversation
 
 (32:39) **Henry**: Yeah, that makes a lot of sense. That sort of reminds me of GitHub being transactional. Or just seems like everything's a box, right? Zoom is just a bunch of boxes. Maybe that's where a lot of programmer's interest in like architecture comes about? The medium matters, the space that you're in matters. We're not in buildings anymore because the pandemic, but digital spaces. How do we create them so it's more embodied, right? Involves more of our being.
 
@@ -274,7 +266,7 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
 (35:06) **Nadia**: But I like that with cozyroom, when you're talking, your cartoon is talking, it's almost like I don't need the video to look like me, but I just want to see some representation when I'm saying something or whatever. Yeah, that was a fun one.
 
-#### The Tyranny of Grids
+#### Tools Vs. Apps: The Tyranny of Grids
 
 (35:16) **Henry**: It's like the tyranny of grids, I guess.
 
@@ -287,8 +279,6 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 (35:48) **Henry**: Yeah. Like counterclockwise, cause you're literally in a digital space.
 
 (35:52) **Nadia**: I still don't understand why, like my grid it does not look the same as everyone else's grid on the same Zoom call. It seems like they always put you in like the top middle or something like that. Whoever you are. I guess it just changes for everyone else, but it can get very confusing where you're like, I want the sensation of let's go around the room, but my room doesn't even look like your room.
-
-#### Tools Vs. Apps: Screen Sharing vs. Figma
 
 (36:10) **Henry**: It's such a simple thing. It's funny that technology can do some such amazing things, but once you kind of veer off. Simple as like wanting to go in order, it doesn't work anymore. It does remind me of about Ivan Illich. He talks about Tools for Conviviality and this idea of tools versus apps. Apps are created by a designer that kind of forces you into their vision of what it is, I think that's similar to the grid thing. Versus a tool, where like you get to decide for yourself how you want to use it. You have the freedom to do that.
 
