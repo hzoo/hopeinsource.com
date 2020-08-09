@@ -34,8 +34,7 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "prettier": "^1.14.2",
-    "remark-html": "^12.0.0"
+    "prettier": "^1.14.2"
   },
   "homepage": "https://hopeinsource.com",
   "license": "MIT",

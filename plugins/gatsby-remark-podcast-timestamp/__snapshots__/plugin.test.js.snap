@@ -1,115 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`gatsby-remark-podcast-timestamp adds id to a markdown header 1`] = `
-Object {
-  "children": Array [
-    Object {
-      "children": undefined,
-      "type": "html",
-      "value": "<a href=\\"#t=00:00\\"><span class=\\"timestamp\\">00:00 🕐</span></a>",
-    },
-    Object {
-      "children": Array [
-        Object {
-          "children": Array [
-            Object {
-              "type": "text",
-              "value": "Henry",
-            },
-          ],
-          "type": "strong",
-        },
-        Object {
-          "type": "text",
-          "value": ": Hi.",
-        },
-      ],
-      "data": Object {
-        "hName": "span",
-        "hProperties": Object {
-          "className": Array [
-            "text",
-          ],
-        },
-      },
-      "type": "paragraph",
-    },
-  ],
-  "data": Object {
-    "hProperties": Object {
-      "className": Array [
-        "wrap",
-        "right",
-      ],
-    },
-  },
-  "type": "paragraph",
-}
-`;
-
-exports[`gatsby-remark-podcast-timestamp adds id to a markdown header 2`] = `
-Object {
-  "children": Array [
-    Object {
-      "children": Array [
-        Object {
-          "type": "text",
-          "value": "Henry",
-        },
-      ],
-      "type": "strong",
-    },
-    Object {
-      "type": "text",
-      "value": ": Hi.",
-    },
-  ],
-  "data": Object {
-    "hName": "span",
-    "hProperties": Object {
-      "className": Array [
-        "text",
-      ],
-    },
-  },
-  "type": "paragraph",
-}
-`;
-
 exports[`gatsby-remark-podcast-timestamp doesn't affect normal paragraphs or use of link references 1`] = `
 Object {
   "children": Array [
-    Object {
-      "position": Position {
-        "end": Object {
-          "column": 4,
-          "line": 1,
-          "offset": 3,
-        },
-        "indent": Array [],
-        "start": Object {
-          "column": 1,
-          "line": 1,
-          "offset": 0,
-        },
-      },
-      "type": "text",
-      "value": "hi ",
-    },
     Object {
       "children": Array [
         Object {
           "position": Position {
             "end": Object {
-              "column": 9,
+              "column": 6,
               "line": 1,
-              "offset": 8,
+              "offset": 5,
             },
             "indent": Array [],
             "start": Object {
-              "column": 5,
+              "column": 2,
               "line": 1,
-              "offset": 4,
+              "offset": 1,
             },
           },
           "type": "text",
@@ -120,15 +27,15 @@ Object {
       "label": "asdf",
       "position": Position {
         "end": Object {
-          "column": 10,
+          "column": 7,
           "line": 1,
-          "offset": 9,
+          "offset": 6,
         },
         "indent": Array [],
         "start": Object {
-          "column": 4,
+          "column": 1,
           "line": 1,
-          "offset": 3,
+          "offset": 0,
         },
       },
       "referenceType": "shortcut",
@@ -137,9 +44,9 @@ Object {
   ],
   "position": Position {
     "end": Object {
-      "column": 10,
+      "column": 7,
       "line": 1,
-      "offset": 9,
+      "offset": 6,
     },
     "indent": Array [],
     "start": Object {
@@ -149,5 +56,57 @@ Object {
     },
   },
   "type": "paragraph",
+}
+`;
+
+exports[`gatsby-remark-podcast-timestamp wraps timestamp 1`] = `
+Object {
+  "children": Array [
+    Object {
+      "children": Array [
+        Object {
+          "children": undefined,
+          "type": "html",
+          "value": "<a href=\\"#t=00:00\\"><span class=\\"timestamp\\">00:00 🕐</span></a>",
+        },
+        Object {
+          "children": Array [
+            Object {
+              "children": Array [
+                Object {
+                  "type": "text",
+                  "value": "Henry",
+                },
+              ],
+              "type": "strong",
+            },
+            Object {
+              "type": "text",
+              "value": ": Hi.",
+            },
+          ],
+          "data": Object {
+            "hName": "span",
+            "hProperties": Object {
+              "className": Array [
+                "text",
+              ],
+            },
+          },
+          "type": "paragraph",
+        },
+      ],
+      "data": Object {
+        "hProperties": Object {
+          "className": Array [
+            "wrap",
+            "right",
+          ],
+        },
+      },
+      "type": "paragraph",
+    },
+  ],
+  "type": "root",
 }
 `;

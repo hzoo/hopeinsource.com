@@ -1,6 +1,7 @@
 const visit = require("unist-util-visit");
 const toString = require("mdast-util-to-string");
 const timestampRegex = /(\d+:\d+(:\d+)?)/;
+const remove = require("unist-util-remove");
 
 function isTimestamp(p) {
   // has to be the first child in a paragraph and match the regex
@@ -13,13 +14,56 @@ function isTimestamp(p) {
   );
 }
 
+let emojiMap = {
+  "(laughs)": "😂",
+  hm: "🤔",
+  mm: "👍",
+};
+
+function getReaction(node) {
+  return (
+    node.type === "text" &&
+    emojiMap[
+      node.value
+        .slice(2)
+        .toLowerCase()
+        .replace(".", "")
+    ]
+  );
+}
+
 let firstSpeaker;
 
 // https://www.gatsbyjs.org/tutorial/remark-plugin-tutorial/
 module.exports = ({ markdownAST }, pluginOptions) => {
-  visit(markdownAST, "paragraph", (node) => {
+  visit(markdownAST, "paragraph", (node, index, parent) => {
     let timestamp = isTimestamp(node);
-    if (!timestamp) return;
+    if (!timestamp || parent.type !== "root") return;
+
+    // if a reaction
+    let reaction = getReaction(node.children[3]);
+    if (reaction) {
+      let prevText = parent.children[index - 1];
+      if (prevText.type === "paragraph" && prevText.children.length === 2) {
+        prevText.children.push({
+          type: "paragraph",
+          children: [
+            {
+              type: "text",
+              value: reaction,
+            },
+          ],
+          data: {
+            hName: "span",
+            hProperties: {
+              className: ["laugh"],
+            },
+          },
+        });
+        return;
+      }
+    }
+
     node.children.shift(); // remove timestamp
     node.children.shift(); // remove space
     let name = toString(node.children[0]);
@@ -55,6 +99,15 @@ module.exports = ({ markdownAST }, pluginOptions) => {
       node.data.hProperties.className.push("right");
     }
   });
+
+  // remove paragraph text for reaction
+  remove(
+    markdownAST,
+    (node) =>
+      node.type === "paragraph" &&
+      node.children.length === 4 &&
+      getReaction(node.children[3])
+  );
 
   return markdownAST;
 };

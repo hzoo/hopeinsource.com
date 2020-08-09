@@ -21,20 +21,20 @@ function filterLoc(obj) {
 
 describe(`gatsby-remark-podcast-timestamp`, () => {
   it(`doesn't affect normal paragraphs or use of link references`, () => {
-    const markdownAST = remark.parse(`hi [asdf]`);
+    const markdownAST = remark.parse(`[asdf]`);
     const transformed = plugin({ markdownAST }, {});
     visit(transformed, `paragraph`, (node) => {
       expect(node).toMatchSnapshot();
     });
   });
 
-  it(`adds id to a markdown header`, () => {
+  it(`wraps timestamp`, () => {
     const markdownAST = remark.parse(`
 [00:00] **Henry**: Hi.
 `);
     const transformed = plugin({ markdownAST }, {});
 
-    visit(transformed, `paragraph`, (node) => {
+    visit(transformed, `root`, (node) => {
       expect(filterLoc(node)).toMatchSnapshot();
     });
   });

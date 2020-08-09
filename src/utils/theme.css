@@ -132,6 +132,7 @@ footer {
 }
 .wrap {
   display: flex;
+  position: relative;
 }
 .wrap.right {
   justify-content: space-between;
@@ -147,6 +148,20 @@ footer {
   background-color: rgb(61, 84, 102);
   max-width: 87.5%;
 }
-.wrap.right .text {
+.right .text {
   background-color: rgb(29, 161, 242);
+}
+.right .laugh {
+  left: initial;
+  right: -9px;
+}
+.laugh {
+  font-size: 1.3em;
+  position: absolute;
+  left: -9px;
+  bottom: -20px;
+  background: white;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.15);
 }
