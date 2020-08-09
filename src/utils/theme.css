@@ -130,8 +130,23 @@ footer {
   /* opacity: 1; */
   color: var(--green);
 }
+.wrap {
+  display: flex;
+}
+.wrap.right {
+  justify-content: space-between;
+}
 .wrap a {
   box-shadow: inherit;
   color: inherit;
   text-decoration: inherit;
+}
+.text {
+  padding: 10px;
+  border-radius: 1.25rem;
+  background-color: rgb(61, 84, 102);
+  max-width: 87.5%;
+}
+.wrap.right .text {
+  background-color: rgb(29, 161, 242);
 }
