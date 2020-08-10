@@ -1,5 +1,5 @@
 ---
-title: "#16 Managing Over-Participation (Working in Public)"
+title: "16 Managing Over-Participation (Working in Public)"
 date: "2020-08-04"
 time: "47"
 description: "Is more (information, people, code) always better? Nadia Eghbal joins Henry to chat about her new book, Working in Public: The Making and Maintenance of Open Source Software, a deep-dive into the of open source community and how it may paint a picture of online communities in general. They talk about her 2x2 model of communities, the public web (Twitter) to private groups (group chat), the turn to individual creators, and the importance of moderation and boundaries."
