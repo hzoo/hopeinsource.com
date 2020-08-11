@@ -1,5 +1,5 @@
 ---
-title: "01: Faith and open source"
+title: "01: Faith and Open Source"
 date: "2018-10-16"
 time: "33"
 description: We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
@@ -23,41 +23,59 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 
 #### What is your faith background?
 
-[00:00] **Nadia**: So we decided to start recording some conversations about open source and faith, because both of us have noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, Christian faith. Both of us were sort of wondering why that was. We have pretty different backgrounds in terms of our personal connection to faith. Henry, do you want to talk a little bit about yours first and then I'll talk about mine?
+[00:00] **Nadia**: So we decided to start recording some conversations about open source and faith, because both of us have noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, Christian faith.
 
-[00:29] **Henry**: Yeah, real short, I am a Christian. I didn't grow up Christian but I mostly started pursuing it after college and going into working. I've just noticed through getting involved in open source, just a lot of parallels with what we do in church and our faith background. I didn't hear a lot of people talking about it but it does seem like it's kind of underlying a lot of stuff. So it would be really interesting to talk more about it explicitly.
+[00:17] **Nadia**: For both of us were sort of wondering why that was. We have pretty different backgrounds in terms of our personal connection to faith.
 
-[01:05] **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when. I went to a Quaker high school which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
+[00:25] **Nadia**: Henry, do you want to talk a little bit about yours first and then I'll talk about mine?
+
+[00:29] **Henry**: Yeah, real short, I am a Christian. I didn't grow up Christian, but I mostly started pursuing it after college and going into working.
+
+[00:42] **Henry**: I've just noticed through getting involved in open source, just a lot of parallels with what we do in church and our faith background.
+
+[00:53] **Henry**: I didn't hear a lot of people talking about it but it does seem like it's kind of underlying a lot of stuff. So it would be really interesting to talk more about it explicitly.
+
+[01:05] **Nadia**: I'm not religious, but I guess I've had a background of just being maybe more like academically interested in it since I don't even know when.
+
+[01:15] **Nadia**: I went to a Quaker high school, which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
 
 #### Faith as restorative
 
-[01:39] **Nadia**: I guess I'm sort of weirdly interested in this topic because it's just fascinated me that especially for me working in tech in San Francisco, I feel like I almost never interact with faith or religion among my peers at all, in my sort of geographic location. But it seems like in open source for some reason, it's a much more prominent theme.
+[01:37] **Nadia**: I guess I'm sort of weirdly interested in this topic because it's just fascinated me that especially for me working in tech in San Francisco, I feel like I almost never interact with faith or religion among my peers at all, in my sort of geographic location.
 
-[02:01] **Henry**: Yeah. That's really interesting that you said that... because open source could be global then maybe you see a lot different kind of people and not just like tech in San Francisco but in New York or all of these other places. It's spread out all over.
+[01:54] **Nadia**: But it seems like in open source for some reason, it's a much more prominent theme.
 
-[02:18] **Nadia**: Yeah. It's sort of nice and like restorative almost to get to talk about these topics in open source more than I feel like I do day-to-day in San Francisco. And I don't really know why that is. Maybe you're right, that it's just a geographic difference. I thought of it as also just people might be attracted to open source for similar reasons that they might be attracted to some sort of faith or spiritual practice.
+[02:00] **Henry**: Yeah. That's really interesting that you said that... because open source could be global then maybe you see a lot different kind of people and not just like tech in San Francisco but in New York or all of these other places. It's spread out all over.
+
+[02:16] **Nadia**: Yeah. It's sort of nice and like restorative almost to get to talk about these topics in open source more than I feel like I do day-to-day in San Francisco. And I don't really know why that is. Maybe you're right, that it's just a geographic difference. I thought of it as also just people might be attracted to open source for similar reasons that they might be attracted to some sort of faith or spiritual practice.
 
 #### Giving without expectations
 
-[02:45] **Nadia**: I feel like I'm sort of mixing all these terms of faith, spirituality, religion, and those are all each, actually, kind of different things, but the aspects of faith that I think are really present in open source are around community organizing, and also just a sense of service, giving something to other people without expecting anything in return, for the benefit of some sort of greater good.
+[02:41] **Nadia**: I feel like I'm sort of mixing all these terms of faith, spirituality, religion, and those are all each, actually, kind of different things, but the aspects of faith that I think are really present in open source are around community organizing, and also just a sense of service, giving something to other people without expecting anything in return, for the benefit of some sort of greater good.
 
-[03:11] **Henry**: Right. Yeah, I gave a talk on this in SF, at Zeit Day, but the way I got started in open source wasn't because I thought it was about community or serving people. I thought it was just cool that people are working together and I use stuff and it would be nice to be able say that you worked on some project. So it came from a pretty selfish point of view of wanting to be involved in something bigger. But later growing into not just being a contributor, but a maintainer, I realized how fundamentally it's all about people, and the maintainers themselves is a big part of that. Not just the code stuff.
+[03:08] **Henry**: Well I gave a talk on this in SF, at Zeit Day, but the way I got started in open source wasn't because I thought it was about community or serving people.
 
-[03:57] **Nadia**: What's the reaction been like when you've given talks in that realm or just talked to other people about it?
+[03:19] **Henry**: I thought it was just cool that people are working together and I use stuff and it would be nice to be able say that you worked on some project. So it came from a pretty selfish point of view of wanting to be involved in something bigger.
 
-[04:03] **Henry**: Actually, so that's funny because in my mind it's maybe like what you said. It's really surprising at the positive feedback I've gotten. I haven't really gotten anything negative from anyone about it. And maybe this is just because I'm just sharing my story and sharing personal thoughts. I'm not like trying to convince anyone of anything. It's just recognizing what shared, agreed values or parallels are in both. I really like the word you used, restorative. I don't know. It's just a different aspect of technology and programming that I don't see other than in open source, right?
+[03:34] **Henry**: But later growing into not just being a contributor, but a maintainer, I realized how fundamentally it's all about people, and the maintainers themselves is a big part of that. Not just the code stuff.
+
+[03:54] **Nadia**: What's the reaction been like when you've given talks in that realm or just talked to other people about it?
+
+[04:01] **Henry**: Actually, so that's funny because in my mind it's maybe like what you said. It's really surprising at the positive feedback I've gotten. I haven't really gotten anything negative from anyone about it.
+
+[04:17] **Henry**: And maybe this is just because I'm just sharing my story and sharing personal thoughts. I'm not like trying to convince anyone of anything. It's just recognizing what shared, agreed values or parallels are in both. I really like the word you used, restorative. I don't know. It's just a different aspect of technology and programming that I don't see other than in open source, right?
 
 #### What drives us?
 
 [04:51] **Henry**: It feels like all this stuff in technology's about making things better for yourself or making money, and just very materialistic and robotic, in a sense. And yet this is more about helping others, and not necessarily thinking about yourself.
 
-[05:16] **Nadia**: Yeah, I think it ties really closely to that sense of instrinsic motivation that we see a lot in open source. I feel like, for both of us, we've had these experiences of not being sure how other people will take it if we talk about faith in and I guess a more like not professional context, but just not among very close friends. I wonder why that is. Why does this perceive to be such an uncomfortable topic when it's also something that seems to really drive a lot of people in some shape or form or it's something that they do and care and believe in?
+[05:19] **Nadia**: Yeah, I think it ties really closely to that sense of instrinsic motivation that we see a lot in open source. I feel like, for both of us, we've had these experiences of not being sure how other people will take it if we talk about faith in and I guess a more like not professional context, but just not among very close friends. I wonder why that is. Why does this perceive to be such an uncomfortable topic when it's also something that seems to really drive a lot of people in some shape or form or it's something that they do and care and believe in?
 
-[05:57] **Henry**: I guess it's that people have their own experiences, other perceptions, and it's hard to differentiate. The kind of faith that's shown in open source which is very different from what you might see in media or that kind of stuff. It definitely feels weird, but I don't know. I feel like the more I talk about it, I feel more, not confident, just more willing to share. The more talks I've given, I try to share more about that. I'm not going up there and telling about my faith. It's just I find whether it's different quotes, books, or things I'm learning in my own journey there with my community. It's like, "Oh, they're very similar."
+[06:00] **Henry**: I guess it's that people have their own experiences, other perceptions, and it's hard to differentiate. The kind of faith that's shown in open source which is very different from what you might see in media or that kind of stuff. It definitely feels weird, but I don't know. I feel like the more I talk about it, I feel more, not confident, just more willing to share. The more talks I've given, I try to share more about that. I'm not going up there and telling about my faith. It's just I find whether it's different quotes, books, or things I'm learning in my own journey there with my community. It's like, "Oh, they're very similar."
 
 #### The conflicts of public service and sustainability
 
-[06:50] **Nadia**: One of the reasons I'm hesitant to talk about it is because of this intrinsic motivation thing and the idea of public service, which sort of stands in conflict sometimes with the work that I'm interested in at open source, which is around sustainability and saying you can't really rely on the goodwill of developers to continue to maintain the infrastructure that we're all relying on. So for me sometimes, I worry that if I kind of dig into the faith thing of... There's some sense of... you're doing it for reasons other than something material. You're doing it because you really believe in this thing, and that sometimes I worry that if I focus on that side then it might invalidate this belief that also we need some sort of support for people that are doing this work, and how do they avoid getting burned out by the work that they're doing.
+[06:53] **Nadia**: One of the reasons I'm hesitant to talk about it is because of this intrinsic motivation thing and the idea of public service, which sort of stands in conflict sometimes with the work that I'm interested in at open source, which is around sustainability and saying you can't really rely on the goodwill of developers to continue to maintain the infrastructure that we're all relying on. So for me sometimes, I worry that if I kind of dig into the faith thing of... There's some sense of... you're doing it for reasons other than something material. You're doing it because you really believe in this thing, and that sometimes I worry that if I focus on that side then it might invalidate this belief that also we need some sort of support for people that are doing this work, and how do they avoid getting burned out by the work that they're doing.
 
 [07:39] **Henry**: Right. That's a really good point and I definitely am not on the side of you should do everything for free. Obviously, because I left to... and I have to sustain myself too. (laughs) So I am living out that struggle right now where there's this sense of "I want to be able to give everything away", but you don't want to limit access to things because you have to make money for it, but you have to sustain yourself and the idea that only people that can have the free time to do open source are the only people that should do it is seems pretty wrong to me as well. I don't know. It's a healthy struggle to have.
 
