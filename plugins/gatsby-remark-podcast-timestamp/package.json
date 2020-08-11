@@ -3,12 +3,19 @@
   "private": true,
   "description": "handle timestamps",
   "version": "0.0.0",
-  "main": "index.js",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "yarn jest"
+  },
   "dependencies": {
     "mdast-util-to-string": "^1.1.0",
-    "unist-util-visit": "^2.0.2"
+    "unist-util-visit": "^2.0.3"
   },
   "peerDependencies": {
     "gatsby": "^2.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.2.2",
+    "remark": "^12.0.1"
   }
 }

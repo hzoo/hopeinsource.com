@@ -39,25 +39,12 @@ module.exports = {
             },
           },
           {
-            resolve: `gatsby-remark-responsive-iframe`,
-            options: {
-              wrapperStyle: `margin-bottom: 1.0725rem`,
-            },
-          },
-          {
             resolve: "gatsby-remark-autolink-headers",
             options: {
               offsetY: "20",
             },
           },
-          {
-            resolve: "gatsby-remark-prismjs",
-            options: {
-              inlineCodeMarker: "÷",
-            },
-          },
           "gatsby-remark-copy-linked-files",
-          "gatsby-remark-smartypants",
           {
             resolve: require.resolve(
               "./plugins/gatsby-remark-podcast-timestamp"
