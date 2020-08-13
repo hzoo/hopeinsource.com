@@ -49,7 +49,7 @@ const BlogIndex = ({ data, location }) => {
             </div>
           );
         })}
-        <Testimonial />
+        <Testimonial title={siteTitle} />
         <Footer title={siteTitle} />
       </div>
     </Layout>

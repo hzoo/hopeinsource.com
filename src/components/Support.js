@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "gatsby";
 
-const Support = () => {
+const Support = ({ title }) => {
   return (
     <p
       style={{
@@ -16,7 +16,7 @@ const Support = () => {
         }}
         to={"/"}
       >
-        <i>Hope in Source</i>
+        <i>{title}</i>
       </Link>{" "}
       <br />
       is made possible by the support of the community!

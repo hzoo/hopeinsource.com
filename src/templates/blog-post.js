@@ -89,9 +89,6 @@ const BlogPostTemplate = ({ data, pageContext }) => {
     .map(preprocessHeading);
   const siteMetadata = data.site.siteMetadata;
   const { previous, next, slug } = pageContext;
-  const editUrl = `https://github.com/${siteMetadata.gitOrg}/${
-    siteMetadata.siteUrl
-  }/edit/master/src/pages/${slug.replace(/\//g, "")}.md`;
   let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
     `${siteMetadata.siteUrl}${slug}`
   )}`;
@@ -134,24 +131,11 @@ const BlogPostTemplate = ({ data, pageContext }) => {
 
         <MDXRenderer>{post.body}</MDXRenderer>
 
-        <Support />
-
-        <h2>Credits</h2>
-        <p>
-          Hosted by <a href="https://twitter.com/nayafia">Nadia Eghbal</a> and{" "}
-          <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
-          Edited by <a href="https://twitter.com/left_pad">Henry Zhu</a>. <br />
-          Cover art by Jessica Han. <br />
-          Music by <a href="https://twitter.com/ken_wheeler">Ken Wheeler</a>.
-        </p>
+        <Support title={siteMetadata.title} />
 
         <p>
           <a href={discussUrl} target="_blank" rel="noopener noreferrer">
             Discuss on Twitter
-          </a>
-          {` • `}
-          <a href={editUrl} target="_blank" rel="noopener noreferrer">
-            Edit on GitHub
           </a>
         </p>
         <div
