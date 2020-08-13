@@ -2,7 +2,8 @@ import React from "react";
 import Helmet from "react-helmet";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-import cover from "../assets/icon.jpg";
+import his_cover from "../assets/his.jpg";
+import ma_cover from "../assets/ma.jpg";
 
 const query = graphql`
   query GetSiteMetadata {
@@ -25,8 +26,8 @@ const query = graphql`
 
 function SEO({
   meta,
-  image = cover,
   title,
+  image,
   description,
   slug,
   appId = 1437677655,
@@ -37,6 +38,10 @@ function SEO({
       query={query}
       render={(data) => {
         const { siteMetadata } = data.site;
+        image =
+          image || siteMetadata.title === "Hope in Source"
+            ? his_cover
+            : ma_cover;
         const metaDescription = description || siteMetadata.description;
         const metaImage = image ? `${siteMetadata.siteUrl}${image}` : null;
         const url = `${siteMetadata.siteUrl}${slug}`;
