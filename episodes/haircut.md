@@ -9,7 +9,7 @@ embedUrl: https://share.transistor.fm/s/5657c836
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/city.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/city.md)
 
 [00:00] **Henry**: So this podcast, I have a special bonus episode with my friend Jonathan. We recorded this podcast earlier this year in April, on Holy Saturday, which is the day before Easter. I thought it'd be fun to record a podcast while he was cutting my hair. So the kind of topics that we talked about are pretty varied. Just to give you a summary of what we talked about: the relationship between faith and the world and culture, how we should engage living in New York, worklife balance, serendipity, thinking about communities, creativity and how it relates to God, the importance of testimony and of stories, seeing God as a person, and the importance of bodies. Let us know what you think and enjoy the conversation.
 

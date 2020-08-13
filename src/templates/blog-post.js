@@ -184,7 +184,7 @@ const BlogPostTemplate = ({ data, pageContext }) => {
             )}
           </li>
         </ul>
-        <Footer />
+        <Footer title={siteMetadata.title} />
         <Player
           title={post.frontmatter.title}
           src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}

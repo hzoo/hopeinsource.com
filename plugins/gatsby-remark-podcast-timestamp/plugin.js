@@ -18,10 +18,9 @@ function isSpeaker(p) {
   return p.children.length > 1 && p.children[0].type === "strong";
 }
 
-let firstSpeaker;
-
 // https://www.gatsbyjs.org/tutorial/remark-plugin-tutorial/
 module.exports = ({ markdownAST }, pluginOptions) => {
+  let firstSpeaker;
   visit(markdownAST, "paragraph", (node) => {
     if (node.data && (node.data.hName || node.data.hProperties)) return;
 

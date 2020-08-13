@@ -1,9 +1,9 @@
 ---
-title: '10: Trust'
-date: '2018-10-16'
-time: '34'
+title: "10: Trust"
+date: "2018-10-16"
+time: "34"
 description: Why do we trust anyone? We talk about trust as an act of faith, trusting people versus trusting code, and the relationship between trust and work.
-episodeLink: '5b9ca809'
+episodeLink: "5b9ca809"
 embedUrl: https://share.transistor.fm/s/30b20eda
 ---
 
@@ -11,7 +11,7 @@ embedUrl: https://share.transistor.fm/s/30b20eda
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/trust.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/trust.md)
 
 [00:00] **Nadia**: So, this is our last episode. And we figured for our last episode we would kinda get back to the definition of faith itself and talk about faith as an act of trust in other people. Um, which is something that is also super relevant to software both at the social level of open source being the act of trusting random people to submit code or whatever else to your project. Um, and then also even on a more technical level of how- what are ways that people sort of like try to enforce trust on the code level or not, and does that make sense. Um, but yeah kinda zooming out, I guess just to faith itself and how it relates to trust.
 

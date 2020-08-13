@@ -1,29 +1,53 @@
-module.exports = {
-  siteMetadata: {
-    title: "Hope in Source",
-    author: "Nadia Eghbal & Henry Zhu",
-    description:
-      "What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.",
-    gitOrg: "hzoo",
-    gitRepo: "hopeinsource.com",
-    siteUrl: "https://hopeinsource.com",
-    social: {
-      twitter: "@left_pad",
-    },
-    feed: {
-      rss: "https://feeds.transistor.fm/hope-in-source",
-      google:
-        "https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D",
-      apple: "https://itunes.apple.com/us/podcast/hope-in-source/id1437677655",
-      spotify: "https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B",
-    },
+let MA_metadata = {
+  title: "Maintainers Anonymous",
+  author: "Henry Zhu",
+  description: "A podcast about sharing our lives as people, as maintainers.",
+  gitOrg: "hzoo",
+  gitRepo: "hopeinsource.com",
+  siteUrl: "https://maintainersanonymous.com",
+  social: {
+    twitter: "@left_pad",
   },
+  feed: {
+    rss: "https://feeds.transistor.fm/maintainers-anonymous",
+    google:
+      "https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy50cmFuc2lzdG9yLmZtL21haW50YWluZXJzLWFub255bW91cw%3D%3D",
+    apple:
+      "https://itunes.apple.com/us/podcast/maintainers-anonymous/id1459347058",
+    spotify: "https://open.spotify.com/show/1rvrUipEYmYOt2EZoL0uWm",
+  },
+};
+
+let HIS_metadata = {
+  title: "Hope in Source",
+  author: "Nadia Eghbal & Henry Zhu",
+  description:
+    "What are the parallels between faith and open source software? Join Nadia and Henry for an off-the-cuff conversation between friends.",
+  gitOrg: "hzoo",
+  gitRepo: "hopeinsource.com",
+  siteUrl: "https://hopeinsource.com",
+  social: {
+    twitter: "@left_pad",
+  },
+  feed: {
+    rss: "https://feeds.transistor.fm/hope-in-source",
+    google:
+      "https://www.google.com/podcasts?feed=aHR0cHM6Ly9yc3Muc2ltcGxlY2FzdC5jb20vcG9kY2FzdHMvNzA0OS9yc3M%3D",
+    apple: "https://itunes.apple.com/us/podcast/hope-in-source/id1437677655",
+    spotify: "https://open.spotify.com/show/5EXwiyKzPrrucncKyrHy0B",
+  },
+};
+
+module.exports = {
+  siteMetadata: process.env.MA ? MA_metadata : HIS_metadata,
   pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/episodes`,
+        path: process.env.MA
+          ? `${__dirname}/ma-episodes`
+          : `${__dirname}/episodes`,
         name: "episodes",
       },
     },

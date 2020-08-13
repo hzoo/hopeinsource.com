@@ -14,7 +14,7 @@ Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 <details>
 <summary>Links
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/overparticipation.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/overparticipation.md)
 
 </summary>
 

@@ -12,7 +12,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 <details>
 <summary>Links
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/shalom.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/shalom.md)
 
 </summary>
 
@@ -189,7 +189,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 [22:13] **Nicole**: Right, right. Yeah. Like back to your point about the body of Christ as well, like that's the only context that it works is the whole is greater than pride. Like we help glorify God through helping each other in our challenges,
 
-#### Unity and humility in family
+#### Unity and Humility in Family
 
 [22:27] **Henry**: Yeah, in the secular point of view, we talk a lot about unity and diversity, right? That sort of initiative is related to that idea that like being the same and thinking the same, will just lead to the same answers, right? And I don't think it inherently means that just because people are different, everything's going to be okay. We catch each other's mistakes essentially. And, then the difference in the church is that there are people, you're not gonna like everyone. and we have to learn to love one another despite that. You may ask the question, why do we even join together? Right? Is it because we all want to help each other? No, it's because we all believe in Christ and Christ is the only way, the glue that sticks us together and will continue to stick together despite having disagreements. That's the idea. Obviously that's not true in reality but.
 
@@ -209,7 +209,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 [26:15] **Nicole**: Yeah, definitely.
 
-#### Non-neutrality of technology
+#### Non-neutrality of Technology
 
 [26:17] **Henry**: Yeah. How do you think that the church should think about community now? Cause we do focus so much about meeting together in person and now that we can't, we're struggling with the same thing. Maybe more specifically, I think a lot of people in the church view technology as like a thing, like a tool, right? That you just use. So if anything, they are less critical of tech than maybe a lot of other people. Everyone's using zoom. Let's just use zoom. And that's our thing. And we're not thinking about like, how is that changing our worship
 
@@ -225,13 +225,13 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 [29:13] **Henry**: No, I just figured that, I mean, we didn't even do this for the previous stuff, but like, I'm sure there are a lot of people that have no idea for certain terms that we use. So maybe we should explain to, and just for ourselves to kind of.. no that was good.
 
-#### Liturgy and the senses
+#### Liturgy and the Senses
 
 [29:26] **Nicole**: Yeah, and honestly, like broadly, I wouldn't consider myself Presbyterian personally, but I go to a Presbyterian church, which is pretty like high to medium, liturgy, which is basically just what is the structure of the church service that you run? Most of the time it's pretty informed by historical traditions and how people think you interpret Bible verses about like what God said is the best way to worship him is. And it's interesting cause for me. I don't know, I have very, For me when I'm in some sort of high church, like Catholic churches, liturgy feels much more meaningful to me than it does in Presbyterian church. Not sure why, but honestly, I could almost be much more moved by having worship, having a service or a message delivered, and then finishing it. Like, to me, that would be more compelling, but I'm not exactly sure why,
 
 [30:13] **Henry**: Hmm. Yeah, I am not sure. It's sort of like what are we familiar with? Like if you know, like the words that people say, it just resonates in your heart and that will, that convicts me sometimes just people just talking. Right. But then for other people, like I haven't really been to a lot of, like high church services. I did, I guess, enter into a Greek Orthodox church and just hearing from my friend who's a professor and talking to him and he would say that incense is really important and smelling that. And he was saying like, if we're going to worship, we got our worship with all of our senses. From the abstract point of view, which is kind of ironic, I would say that cause we're talking about physical senses, it makes sense to me cause it's like. God wants us to worship with all of our mind, body, spirit. And so that would mean that, okay, then you should incorporate our hearing and our speaking and our sight and our smell. But in reality, I don't. I've never had that experience. Or maybe you think it's kind of weird. and so I think I'm more like you in the current moment, but I'm interested in how other people are going through their worship.
 
-#### Habituation and monotony
+#### Habituation and Monotony
 
 [31:12] **Nicole**: Yeah. I think it's like for me, I can't tell why. Cause I also have been on a big aesthetics kick on Twitter. I think partially just because I don't know, I like to be dramatic when people don't agree with me, but also because I think we are like lacking in aesthetic discussion about a lot of like major fields and how that plays into the compellingness of their ideology. And I do think it's exactly like you said, it makes it so much more compelling if you are. Fully preparing yourself and fully preparing your mind and your body and your senses to be in a different space, I think about this so much in quarantine when technically it could exist in the same room, in the same house, wearing the same clothes and not have all the parts of my day set apart. It means so much more when I'm able to have my phone and wifi off and go down for breakfast, silently and just think and, make sure to change and completely brush my teeth and put on my makeup and just do all of that silly stuff that makes a huge difference. I think honestly, maybe my issue with Protestant liturgy has a little bit to do with.. It feels more like rule following than it does something that's sort of like heart and soul That would probably is not a great excuse. I think that there's plenty of things that Christianity would say, even if you don't feel it with your heart, it's going to do it in practice. And then eventually, you know, it'll feel more compelling throughout time. So maybe, honestly, I just need to get over it, but that's my take.
 
@@ -255,7 +255,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 [36:46] **Henry**: Mm. Wow. That's really good, just like the theme of childlike faith in the Bible itself too. Cause you were saying how we do a lot of things that we think are silly. And I was just thinking about that, we already assume that that way of being is just wrong. Um, of monotony of, things that don't really matter because we're so focused on like work and efficiency and being, I would say like a robot, there's like this goal. I don't know why that we're just pursuing productivity so much that. Isn't that the aesthetic that we're going for and we're not questioning that there are other types of aesthetics out there.
 
-#### Productivity and fun
+#### Productivity and Fun
 
 [37:21] **Nicole**: Yeah. Yeah, definitely. It's been good. I've enjoyed seeing more and more Twitter accounts pop up where it's like all these like, PMs or software engineers or like people who are typically at the center of like the productivity, maximizing discourse for totally understandable reasons. I have test out my fair share of productivity tools, but I've really enjoyed seeing people just like posting their flower garden or, you know, the new cooking trick they've learned, or some things silly like Celeste chia. I dunno if you follow her. but, salon she had just posting like, okay, give me doodle prompts and I will doodle what you give me. And just this massive thread of her doodling, silly, sweet little things, really enjoyed that evening at my feed.
 
@@ -281,7 +281,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 [40:12] **Henry**: I actually, that's funny. I feel like in a way, I'm still approaching learning non tech stuff in a tech way. Like I just can't help myself from doing that. Um. another one would be like, people try really hard to look like they're lazy or they're not doing anything, but they're trying really hard to do it. Aren't we trying to not try it?
 
-#### Learning is autotelic
+#### Learning is Autotelic
 
 [40:33] **Nicole**: Yeah. This might be a whole nother can of worms, honestly, we'll see. Well, like Lambda school, there's that, but also like, I mean, even just what you were saying now, right, where like. Sometimes for some people, the thought of just reading a book that is not super current is like a detractor from productivity. Like why would you choose something that's less applicable or people perceive as being less applicable to like right now in time, I guess. I think. The need for like liberal arts education broadly is kind of become a meme at this point. And I think it's, it's tough because I'm also a super strong advocate for optionality somewhere between academia and like a technical certificate. But on the other hand, if I lived in an ideal universe, I feel like everybody needs a chance to go through sort of like a liberal arts education. I think the ideal way to gain like robust context in the world, not even from like, I think a lot of people view it as like, Oh, looking at philosophy, it makes you better at computer science. That's the worst way to view it. Like philosophy is its own thing. Philosophy helps you be better at thinking philosophically, which like if you apply it to computer science or STEM, like that's cool, but you're also kind of missing the point. It's not about gaining utility.
 
@@ -349,7 +349,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 
 [53:27] **Henry**: Right? I think this act of participation or you could say like creation, right? That's an interesting way to put it. We say creative, but like maybe going back to God creating things and then wanting us to do the same, you know? I think that's, maybe that's where a lot of the joy comes from.
 
-#### On shalom
+#### On Shalom
 
 [53:38] **Nicole**: Yeah, yeah. I wrote my high school thesis, about the idea of restoring Shalom, which is super interesting. I could go on for a long time, but one of the core tenants of that is that in the beginning in the garden of Eden, everything was in Shalom, which means a state of flourishing state of the world as it's intended to be. And in heaven we will also be in Shalom. And so a lot of the way we can frame our purpose as human beings is to be sub-creators and sub-restorers of Shalom. Which is also cool. Like I was saying earlier, puts everything in the context of worship and like doing small actions of sub-creations essentially, that bring things back to like a state of flourishing, which for me at least, I find very meaningful.
 

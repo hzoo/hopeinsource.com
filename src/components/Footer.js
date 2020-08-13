@@ -4,7 +4,8 @@ import { Link } from "gatsby";
 import { rhythm } from "../utils/typography";
 import Subscribe from "./Subscribe";
 
-const Footer = () => {
+const Footer = ({ title }) => {
+  let his = title === "Hope in Source";
   return (
     <footer
       style={{
@@ -14,14 +15,28 @@ const Footer = () => {
       }}
     >
       <Subscribe />
-      <div>
-        Hosts: <a href="https://twitter.com/nayafia">Nadia Eghbal</a> &{" "}
-        <a href="https://twitter.com/left_pad">Henry Zhu</a>
-      </div>
-      <div>
-        Cover Art: Jessica Han | Music:{" "}
-        <a href="https://twitter.com/ken_wheeler/">Ken Wheeler</a>
-      </div>
+      {his ? (
+        <>
+          <div>
+            Hosts: <a href="https://twitter.com/nayafia">Nadia Eghbal</a> &{" "}
+            <a href="https://twitter.com/left_pad">Henry Zhu</a>
+          </div>
+          <div>
+            Cover Art: Jessica Han | Music:{" "}
+            <a href="https://twitter.com/ken_wheeler/">Ken Wheeler</a>
+          </div>
+        </>
+      ) : (
+        <>
+          <div>
+            Hosted by <a href="https://twitter.com/left_pad">Henry Zhu</a>
+          </div>
+          <div>
+            Cover art by{" "}
+            <a href="https://twitter.com/Mappletons">Maggie Appleton</a>
+          </div>
+        </>
+      )}
       <Link
         style={{
           boxShadow: "none",

@@ -18,7 +18,7 @@ embedUrl: https://share.transistor.fm/s/a77b8490
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/liturgy.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/liturgy.md)
 
 [00:00] **Henry**: All right. In this episode, we're going to be discussing ritual and liturgy and maybe the role that that has in faith and open source.
 

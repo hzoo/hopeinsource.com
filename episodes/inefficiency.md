@@ -12,7 +12,7 @@ embedUrl: https://share.transistor.fm/s/5e76ec9f
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/src/pages/inefficiency.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/inefficiency.md)
 
 </summary>
 

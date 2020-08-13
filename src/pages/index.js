@@ -17,7 +17,7 @@ const BlogIndex = ({ data, location }) => {
       <div className="hero-wrapper">
         <div className="hero">
           <SEO />
-          <Intro />
+          <Intro title={siteTitle} />
         </div>
       </div>
 
@@ -50,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
           );
         })}
         <Testimonial />
-        <Footer />
+        <Footer title={siteTitle} />
       </div>
     </Layout>
   );
