@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, graphql } from "gatsby";
 import AudioPlayer from "react-h5-audio-player";
 import slugs from "github-slugger";
@@ -11,65 +11,61 @@ import SEO from "../components/SEO";
 import Footer from "../components/Footer";
 import { rhythm } from "../utils/typography";
 
-class Player extends React.Component {
-  constructor(props) {
-    super(props);
-    this.player = React.createRef();
-  }
-
-  componentDidMount() {
-    // play if url has timestamp
-    this.testAudioSeek();
-    if (typeof window !== "undefined") {
-      window.addEventListener("hashchange", this.testAudioSeek);
-    }
-  }
-
-  componentWillUnmount() {
-    if (typeof window !== "undefined") {
-      window.removeEventListener("hashchange", this.testAudioSeek);
-    }
-  }
-
-  testAudioSeek = (event) => {
-    // TODO get the new hash from the event, prevent hash from actually changing
-    // this looks for a URL hash using this format:
-    // #t=<number of seconds> (e.g. #t=120)
-    if (typeof window !== "undefined") {
-      let hash = window.location.hash;
-      if (hash.startsWith("#t=")) {
-        let time = hash.slice(3);
-        const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
-        if (timestamp) {
-          let seconds = 0;
-          if (timestamp[3]) {
-            seconds =
-              Number(timestamp[1]) * 3600 +
-              Number(timestamp[2]) * 60 +
-              Number(timestamp[3]);
-          } else {
-            seconds = Number(timestamp[1]) * 60 + Number(timestamp[2]);
-          }
-          this.player.current.audio.current.currentTime = seconds;
-          this.player.current.audio.current.play();
+function testAudioSeek(player) {
+  // TODO get the new hash from the event, prevent hash from actually changing
+  // this looks for a URL hash using this format:
+  // #t=<number of seconds> (e.g. #t=120)
+  if (typeof window !== "undefined") {
+    let hash = window.location.hash;
+    if (hash.startsWith("#t=")) {
+      let time = hash.slice(3);
+      const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
+      if (timestamp) {
+        let seconds = 0;
+        if (timestamp[3]) {
+          seconds =
+            Number(timestamp[1]) * 3600 +
+            Number(timestamp[2]) * 60 +
+            Number(timestamp[3]);
+        } else {
+          seconds = Number(timestamp[1]) * 60 + Number(timestamp[2]);
         }
+        player.current.audio.current.currentTime = seconds;
+        player.current.audio.current.play();
       }
     }
-  };
-
-  render() {
-    return (
-      <AudioPlayer
-        // header={this.props.title}
-        src={this.props.src}
-        layout="horizontal-reverse"
-        ref={this.player}
-        customAdditionalControls={[]}
-        customVolumeControls={[]}
-      />
-    );
   }
 }
+
+let Player = ({ src, passRef, isPlaying }) => {
+  let player = passRef;
+
+  useEffect(() => {
+    // play if url has timestamp
+    testAudioSeek(player);
+    if (typeof window !== "undefined") {
+      window.addEventListener("hashchange", () => testAudioSeek(player));
+    }
+
+    return () => {
+      if (typeof window !== "undefined") {
+        window.removeEventListener("hashchange", () => testAudioSeek(player));
+      }
+    };
+  }, [player]);
+
+  return (
+    <AudioPlayer
+      src={src}
+      layout="horizontal-reverse"
+      ref={player}
+      customAdditionalControls={[]}
+      customVolumeControls={[]}
+      onPlay={(e) => isPlaying(true)}
+      onPause={(e) => isPlaying(false)}
+    />
+  );
+};
 
 const preprocessHeading = (h) => {
   const cleanValue = h.value
@@ -92,6 +88,10 @@ const BlogPostTemplate = ({ data, pageContext }) => {
   let discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
     `${siteMetadata.siteUrl}${slug}`
   )}`;
+  const playerEl = useRef(null);
+  let [isPlaying, setIsPlaying] = useState(
+    playerEl?.current?.isPlaying() || false
+  );
   return (
     <Layout>
       <div>
@@ -121,8 +121,21 @@ const BlogPostTemplate = ({ data, pageContext }) => {
           embedUrl={post.frontmatter.embedUrl}
         />
 
-        <h2>{post.frontmatter.title}</h2>
-
+        <h2 style={{ display: "flex", alignItems: "center" }}>
+          <button
+            aria-label="Play"
+            className="rhap_button-clear rhap_main-controls-button"
+            type="button"
+            onClick={() =>
+              isPlaying
+                ? playerEl.current.audio.current.pause()
+                : playerEl.current.audio.current.play()
+            }
+          >
+            {isPlaying ? "⏸" : "▶"}
+          </button>
+          {post.frontmatter.title}
+        </h2>
         <Subscribe />
 
         <blockquote>
@@ -170,8 +183,9 @@ const BlogPostTemplate = ({ data, pageContext }) => {
         </ul>
         <Footer title={siteMetadata.title} />
         <Player
-          title={post.frontmatter.title}
           src={`https://media.transistor.fm/${post.frontmatter.episodeLink}.mp3`}
+          passRef={playerEl}
+          isPlaying={(type) => setIsPlaying(type)}
         />
       </div>
       <div className="sidebar">
