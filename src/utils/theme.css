@@ -150,3 +150,6 @@ footer {
 .wrap.right .text {
   background-color: rgb(29, 161, 242);
 }
+.wrap.other .text {
+  background-color: rgb(61, 84, 75);
+}

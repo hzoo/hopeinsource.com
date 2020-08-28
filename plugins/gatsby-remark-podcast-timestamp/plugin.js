@@ -20,7 +20,7 @@ function isSpeaker(p) {
 
 // https://www.gatsbyjs.org/tutorial/remark-plugin-tutorial/
 module.exports = ({ markdownAST }, pluginOptions) => {
-  let firstSpeaker;
+  let speakerOrder = [];
   visit(markdownAST, "paragraph", (node) => {
     if (node.data && (node.data.hName || node.data.hProperties)) return;
 
@@ -34,8 +34,8 @@ module.exports = ({ markdownAST }, pluginOptions) => {
       return;
     }
     let name = toString(node.children[0]);
-    if (!firstSpeaker) {
-      firstSpeaker = name;
+    if (!speakerOrder.includes(name)) {
+      speakerOrder.push(name);
     }
 
     node.children = [
@@ -62,8 +62,10 @@ module.exports = ({ markdownAST }, pluginOptions) => {
         className: ["wrap"],
       },
     };
-    if (name === firstSpeaker) {
+    if (speakerOrder.indexOf(name) === 0) {
       node.data.hProperties.className.push("right");
+    } else if (speakerOrder.indexOf(name) === 1) {
+      node.data.hProperties.className.push("other");
     }
   });
 
