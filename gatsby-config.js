@@ -38,16 +38,37 @@ let HIS_metadata = {
   },
 };
 
+let MA = process.env.MA;
+
 module.exports = {
-  siteMetadata: process.env.MA ? MA_metadata : HIS_metadata,
+  siteMetadata: MA ? MA_metadata : HIS_metadata,
   pathPrefix: "/",
   plugins: [
-    {
+    MA && {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: process.env.MA
-          ? `${__dirname}/ma-episodes`
-          : `${__dirname}/episodes`,
+        path: `${__dirname}/season-2`,
+        name: "episodes",
+      },
+    },
+    !MA && {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/season-1`,
+        name: "episodes",
+      },
+    },
+    !MA && {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/season-2`,
+        name: "episodes",
+      },
+    },
+    !MA && {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/season-3`,
         name: "episodes",
       },
     },
@@ -87,5 +108,5 @@ module.exports = {
         pathToConfigModule: "src/utils/typography",
       },
     },
-  ],
+  ].filter(Boolean),
 };

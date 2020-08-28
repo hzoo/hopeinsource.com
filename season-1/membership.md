@@ -1,5 +1,6 @@
 ---
 title: "02: Community Membership"
+season: 1
 date: "2018-10-16"
 time: "34"
 description: What does it mean to join a community? We talk about casual versus committed membership, and how maintainers and leaders manage expectations around trust and collaboration.

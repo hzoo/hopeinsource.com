@@ -1,6 +1,7 @@
 ---
-title: "13: Legacy"
-date: "2020-02-14"
+title: "S3E1: Legacy"
+season: 3
+date: "2020-06-01"
 time: "48"
 description: Why do we so easily forget where we come from? Dr. Timothy Patitsis joins Henry again to chat about the affect of legacy on our lives through the language of standards, language diversity, being a melting pot or mosaic, legibility, Jane Jacob's tripartite society, algorithmic control and agency, sanctification and faith as an adventure. Michael Polanyi says that "a society which wants to preserve a fund of personal knowledge must submit to tradition".
 episodeLink: "20dd6763"

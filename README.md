@@ -6,8 +6,9 @@
 
 ## Edit Transcripts
 
-- Hope in Source: https://github.com/hzoo/hopeinsource.com/tree/master/episodes
-- Maintainers Anonymous: https://github.com/hzoo/hopeinsource.com/tree/master/ma-episodes
+- Hope in Source: https://github.com/hzoo/hopeinsource.com/tree/master/season-1
+- Maintainers Anonymous: https://github.com/hzoo/hopeinsource.com/tree/master/season-2
+- ?: https://github.com/hzoo/hopeinsource.com/tree/master/season-3
 
 ## Preview
 

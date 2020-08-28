@@ -1,5 +1,6 @@
 ---
-title: "12: Maggie Appleton on Embodiment Through Metaphors"
+title: "MA 12: Maggie Appleton on Embodiment Through Metaphors"
+season: 2
 date: "2020-05-13"
 time: "54"
 description: "Is programming all digital or do we still have embodied roots? How does this affect how we write, teach, and learn code? Maggie Appleton joins Henry again to discuss everything metaphors (basically everything). We chat about mental models and abstraction, Polanyi, Cartesian dualism, auto ethnography, knowledge, cats!"

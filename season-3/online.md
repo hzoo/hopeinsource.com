@@ -1,5 +1,6 @@
 ---
-title: "15: Very Online (Strange Rites)"
+title: "S3E3: Very Online (Strange Rites)"
+season: 3
 date: "2020-07-23"
 time: "63"
 description: "What happens to our religions when they meet the Internet? Tara Isabella Burton joins Henry to chat about her new book, Strange Rites: New Religions for a Godless World. They chat about our failing institutions, taking fandoms like Harry Potter seriously, how we all remix religion, how consumerism infects all of life, on embodiment and givenness, and most importantly, what is our freedom even for?"

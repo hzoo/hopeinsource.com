@@ -1,5 +1,6 @@
 ---
 title: "12: Haircut (Bonus)"
+season: 1
 date: "2020-02-14"
 time: "27"
 description: Why not record an conversation while getting a haircut? Fellow friend and developer Jonathan Tsao cuts Henry's hair and they have a spontaneous conversation about a variety of topics covering faith and culture, living in NYC, creativitiy, narratives, sharing in vulnerability, and embodiment.

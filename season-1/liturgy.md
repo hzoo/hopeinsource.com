@@ -1,5 +1,6 @@
 ---
 title: "09: Liturgy"
+season: 1
 date: "2018-10-16"
 time: "32"
 description: How do our rituals shape us? We talk about where habits come from, why we use them, and whether they strengthen our belief systems.

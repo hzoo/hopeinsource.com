@@ -40,6 +40,9 @@ const BlogIndex = ({ data, location }) => {
               <small>
                 {node.frontmatter.date}
                 {` • ${node.frontmatter.time} min 🎧`}
+                {node.frontmatter.season
+                  ? ` • Season ${node.frontmatter.season}`
+                  : null}
               </small>
               <p
                 dangerouslySetInnerHTML={{
@@ -82,6 +85,7 @@ export const pageQuery = graphql`
             time
             title
             description
+            season
           }
         }
       }

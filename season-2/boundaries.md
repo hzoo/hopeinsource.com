@@ -1,5 +1,6 @@
 ---
-title: "2: Stephanie Hurlburt on Boundaries"
+title: "MA 2: Stephanie Hurlburt on Boundaries"
+season: 2
 date: "2019-04-12"
 time: "49"
 description: "How is business development relevant to open source? Stephanie Hurlburt (Binomial) joins Henry to chat about understanding learnings from success, setting health boundaries, what 'networking' really means, conversations/pitching, and more! (recorded in February)"

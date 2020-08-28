@@ -1,5 +1,6 @@
 ---
 title: "01: Faith and Open Source"
+season: 1
 date: "2018-10-16"
 time: "33"
 description: We talk about our backgrounds and motivation for doing this podcast, and why the practice of faith seems so prevalent among open source developers.
