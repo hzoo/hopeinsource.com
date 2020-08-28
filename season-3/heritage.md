@@ -55,7 +55,7 @@ embedUrl: https://share.transistor.fm/s/5c511f38
 
 [01:22] **Henry**: I guess we could talk about how we got here.
 
-#### Meeting at the interdisciplinary Maintainers III Conference
+#### Meeting at the Interdisciplinary Maintainers III Conference
 
 [01:24] **Bernardo**: How do we know each other?
 
@@ -81,7 +81,7 @@ embedUrl: https://share.transistor.fm/s/5c511f38
 
 [02:50] **Henry**: Yeah. I went to Sustain Open Source. And then FOSDEM.
 
-#### Bosch, a co-housing project in Brussels
+#### Bosch, a Co-housing project in Brussels
 
 [02:55] **Bernardo**: And then you find yourself in Bosch.
 
@@ -229,7 +229,7 @@ embedUrl: https://share.transistor.fm/s/5c511f38
 
 [16:06] **Marianita**: Maybe not belonging in a certain sense of identity, but the fact of existing with others.
 
-#### Outsourcing Dampens our Sense of Curiousity
+#### Outsourcing Dampens our Sense of Curiosity
 
 [16:11] **Bernardo**: When we have people that clean our house, make our garden, look after our children, come to fix the leaking in our tap. Those are things that they're pushing us towards the definition of comfort that we have today, but it's pushing us away from layers of understanding our close environment. That's a bit strange, no?
 
@@ -449,7 +449,7 @@ embedUrl: https://share.transistor.fm/s/5c511f38
 
 [38:32] **Marianita**: Now we start to be able to count on other people doing yoga, doing sewing classes, doing parties. People come and proposes, Oh, let's do crepes, let's do pancakes, because it's the day of the pancake. So that's, I think what we hope for the future.
 
-#### Self-managed, Informal, Shared Spaces
+#### Self-Managed, Informal, Shared Spaces
 
 [38:50] **Marianita**: And maybe the next step would be.. When we will have to move, maybe that should be a more, stable move. I don't know. I don't know. Do you want to make a stable move?
 
