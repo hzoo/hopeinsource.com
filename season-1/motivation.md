@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/02593e58
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/motivation.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/motivation.md)
 
 </summary>
 

@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/30b0ab32
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/ma-episodes/boundaries.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/boundaries.md)
 
 </summary>
 

@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/b18b6287
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/ma-episodes/freedom.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/freedom.md)
 
 </summary>
 

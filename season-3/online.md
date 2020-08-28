@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/40b0aef1
 <details>
 <summary>Links
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/online.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/online.md)
 
 </summary>
 

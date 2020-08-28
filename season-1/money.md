@@ -14,7 +14,7 @@ embedUrl: https://share.transistor.fm/s/e4627cff
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/money.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/money.md)
 
 [00:00] **Nadia**: So this episode, we're gonna talk about money and there's a lot of crossover between open source and religion when it comes to money, I think, because religion is this inherently decentralized concept. Anyone can participate, get up and leave, um, there's no central person organizing whether you choose to be religious or not but, churches would be examples of a more, I think, centralized organization within religion that helps, enable people to do more things with it. So yeah, I wanna talk about when is money needed in a decentralized context and how do you know that money is necessary or not? Like, why can't people just practice religion by themselves and not have resources for anything?
 

@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/8d4a63a5
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/ma-episodes/speedrunning.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/speedrunning.md)
 
 </summary>
 

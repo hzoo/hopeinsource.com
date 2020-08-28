@@ -15,7 +15,7 @@ embedUrl: https://share.transistor.fm/s/44735894
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/authority.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/authority.md)
 
 [00:00] **Henry**: Alright, this podcast, we're gonna be talking about governance, leaderships, authority. And I know the [last podcast](/myth) we talked a bit about narrative and it ended up being a discussion about people and kind of the stories that we talk about for people, it was interesting. Just think about maybe the role of authority in general, especially in terms of faith. I think it's interesting, 'cause in, in most religions you know, you're submitting to you know, not just maybe it's rules but you know, a God or a person and that's inherently about the authority.
 

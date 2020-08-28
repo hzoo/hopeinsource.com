@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/b2b895b0
 <details>
 <summary>Links
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/shalom.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/shalom.md)
 
 </summary>
 

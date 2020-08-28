@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/93cc7c50
 <details>
 <summary>Links
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/legacy.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/legacy.md)
 
 </summary>
 

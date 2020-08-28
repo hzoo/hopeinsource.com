@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/f9193da2
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/ma-episodes/getting-old.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/getting-old.md)
 
 </summary>
 

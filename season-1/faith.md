@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/2bb32fae
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/faith.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/faith.md)
 
 </summary>
 

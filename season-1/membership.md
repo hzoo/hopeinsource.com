@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/1ca166c4
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/membership.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/membership.md)
 
 </summary>
 

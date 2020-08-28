@@ -14,7 +14,7 @@ embedUrl: https://share.transistor.fm/s/0fdced2e
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/evangelism.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/evangelism.md)
 
 [00:00] **Henry**: I think we mentioned evangelism in the last episode, so we thought it would be a good idea to go into that topic in more detail. About how evangelism in the faith context might not be that different in open source ‘cause we're also trying to get people to either do open source as a whole or get involved in your project.
 

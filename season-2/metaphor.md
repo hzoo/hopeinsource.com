@@ -13,7 +13,7 @@ embedUrl: https://share.transistor.fm/s/33bb512b
 <details>
 <summary>Mentions
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/ma-episodes/metaphor.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/metaphor.md)
 
 </summary>
 

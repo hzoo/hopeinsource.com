@@ -48,7 +48,7 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 ## Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/episodes/city.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/city.md)
 
 [00:00] **Henry**: All right. We decided to make a bonus episode. So Nadia wrote a post a month ago about her reading of a book called ["The Death and Life of Great American Cities"]. It talks about cities and how that relates to open source and communities online, that open source is kind of like a digital city. Same with the internet.
 
