@@ -5,7 +5,7 @@ date: "2018-10-16"
 time: "26"
 description: Does authority have a place in religion? We talk about authority in decentralized organizations, listening to others versus trying something new, and when to fork or leave a community.
 episodeLink: "36c194d2"
-embedUrl: https://share.transistor.fm/s/44735894
+embedUrl: https://share.transistor.fm/e/44735894
 ---
 
 ## Links

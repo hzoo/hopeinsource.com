@@ -5,7 +5,7 @@ date: "2020-03-05"
 time: "55"
 description: "Is the open source community a gift economy? What even is a gift? Maggie Appleton joins Henry to discuss open source as a gift economy (versus a market economy), why we participate in open source and exchange gifts, rituals and habits, patronage and crowdfunding, quantified self and disembodiment, our role in tech"
 episodeLink: 0114ded5
-embedUrl: https://share.transistor.fm/s/9d389287
+embedUrl: https://share.transistor.fm/e/9d389287
 ---
 
 ### Transcript

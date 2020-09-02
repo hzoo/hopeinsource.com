@@ -5,7 +5,7 @@ date: "2018-10-16"
 time: "34"
 description: Why do we trust anyone? We talk about trust as an act of faith, trusting people versus trusting code, and the relationship between trust and work.
 episodeLink: "5b9ca809"
-embedUrl: https://share.transistor.fm/s/30b20eda
+embedUrl: https://share.transistor.fm/e/30b20eda
 ---
 
 ## Links

@@ -5,7 +5,7 @@ date: "2019-03-21"
 time: "54"
 description: Is the city a toaster (an object) or a cat (a living organism)? We are joined by Dr. Timothy Patitsis to talk about how our physical and digital spaces, like liturgy, can be understood as "the work of the people". We discuss science as organized complexity, the meaning of knowledge, recursive societies, fractal hierarchies, and implications for governance.
 episodeLink: "1e2b2d17"
-embedUrl: https://share.transistor.fm/s/9935e8af
+embedUrl: https://share.transistor.fm/e/9935e8af
 ---
 
 ## Guest:

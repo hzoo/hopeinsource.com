@@ -5,7 +5,7 @@ date: "2020-07-08"
 time: "56"
 description: What does flourishing look like? Nicole Williams joins Henry to chat about faith in a less reductive way (than many of us may of grown up with). On rationality, the Church as a body, education, liturgy, family, being productive, and simply doing things for it's own sake. Was rather hard to say what we were getting at until the very end, all tying back to a picture of shalom! (This was recorded in May)
 episodeLink: "b04b21c0"
-embedUrl: https://share.transistor.fm/s/b2b895b0
+embedUrl: https://share.transistor.fm/e/b2b895b0
 ---
 
 ### Transcript

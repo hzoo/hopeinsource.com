@@ -5,7 +5,7 @@ date: "2018-10-16"
 time: "34"
 description: What does it mean to join a community? We talk about casual versus committed membership, and how maintainers and leaders manage expectations around trust and collaboration.
 episodeLink: "892ed7d4"
-embedUrl: https://share.transistor.fm/s/1ca166c4
+embedUrl: https://share.transistor.fm/e/1ca166c4
 ---
 
 ### Transcript

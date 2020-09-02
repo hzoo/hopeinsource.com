@@ -5,7 +5,7 @@ date: "2020-09-02"
 time: "54"
 description: "What does it mean to be code adjacent? Shawn Wang joins Henry to chat about not just open code but open thinking with his experience in community managing, the idea of tumbling, moderating /r/reactjs, starting the Svelete Society meetup, documenting and learning in public, being historians of our field, fresh notes vs. awesome lists, the meta language, and adoption curves. (recorded in June)"
 episodeLink: "932b52ce"
-embedUrl: https://share.transistor.fm/s/4fad5d14
+embedUrl: https://share.transistor.fm/e/4fad5d14
 ---
 
 ### Transcript
@@ -27,13 +27,13 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [00:02] **Henry**: Tumbling. You just mentioned this to me. Do you want to explain what that is?
 
-[00:05] **Shawn**: Yeah, okay. So hi and thanks for having me on. 
+[00:05] **Shawn**: Yeah, okay. So hi and thanks for having me on.
 
-[00:08] **Shawn**: This is an idea that's kind of spreading a little bit, I heard it first from Joel Hooks and Chris Biscardi from the egghead crowd. And they heard it from Alex Hillman, who runs in the Amy Hoyt circle of sell products online and stuff. So if you're in that world, you know who these people are. If you're not, you have no idea. But anyway, I think this feeling is very common among people like us. 
+[00:08] **Shawn**: This is an idea that's kind of spreading a little bit, I heard it first from Joel Hooks and Chris Biscardi from the egghead crowd. And they heard it from Alex Hillman, who runs in the Amy Hoyt circle of sell products online and stuff. So if you're in that world, you know who these people are. If you're not, you have no idea. But anyway, I think this feeling is very common among people like us.
 
 [00:28] **Shawn**: So communities are important. We all get that. You can appoint a community manager to help to grow the community or coordinate events and stuff like that.
 
-[00:36] **Shawn**: But it's a very like draining job.  (laughs)  
+[00:36] **Shawn**: But it's a very like draining job. (laughs)
 
 [00:40] **Shawn**: I've done it, right. You've done it.
 
@@ -43,63 +43,63 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [00:59] **Shawn**: He also made the analogy, if you're community manager, you're like a cruise director and a single point of failure.
 
-[01:04] **Shawn**: Everything relies on you to get going. Everything relies on you to start and to organize schedules and stuff like that. 
+[01:04] **Shawn**: Everything relies on you to get going. Everything relies on you to start and to organize schedules and stuff like that.
 
 [01:10] **Shawn**: Whereas, his idea of a tumbler is a person who makes things happen.
 
 [01:13] **Shawn**: In particular, a professional entertainer, a comedian whose function is to encourage an audience, guests at a resort, to participate in the entertainment activities.
 
-[01:21] **Shawn**: So you kickstart things, but then it's like a sustainable nuclear reaction between the participants in the community. 
+[01:21] **Shawn**: So you kickstart things, but then it's like a sustainable nuclear reaction between the participants in the community.
 
 [01:27] **Shawn**: Which is like, that's nice, right? Like I don't have to do everything.
 
-[01:32] **Shawn**: I haven't seen this online that much. 
+[01:32] **Shawn**: I haven't seen this online that much.
 
 [01:34] **Shawn**: So it really takes some talent in terms of community management to kickstart a many to many conversation, instead of many to one conversation with the community manager in the center of everything.
 
-[01:46] **Shawn**: So this idea of tumbling. I think it's an interesting word. That's why it catches attention. It doesn't really tell you how to do it. I mean, it'd be a good idea. 
+[01:46] **Shawn**: So this idea of tumbling. I think it's an interesting word. That's why it catches attention. It doesn't really tell you how to do it. I mean, it'd be a good idea.
 
-[01:54] **Shawn**: I think it's a good goal though. For example, one actionable step is to remove yourself from being a blocker on things, right? Let people self-organize. Give them the power and trust them with the responsibility. 
+[01:54] **Shawn**: I think it's a good goal though. For example, one actionable step is to remove yourself from being a blocker on things, right? Let people self-organize. Give them the power and trust them with the responsibility.
 
 [02:04] **Shawn**: I think you've had this of other people that you chatted with. Give responsibility early right, and you see them start to take charge and grow into their roles.
 
 #### Specific, Limited-term Maintainer Roles
 
-[02:12] **Shawn**: One of the other things that, I think I was watching a Nadia talk. And she like started this chain of thought in me. I'm sorry, I can't remember which talk it was. 
+[02:12] **Shawn**: One of the other things that, I think I was watching a Nadia talk. And she like started this chain of thought in me. I'm sorry, I can't remember which talk it was.
 
-[02:20] **Shawn**: But basically, you know how we have these roles, like maintainer of an opensource repo? That's so broad, and that used to be the only role. 
+[02:20] **Shawn**: But basically, you know how we have these roles, like maintainer of an opensource repo? That's so broad, and that used to be the only role.
 
 [02:28] **Shawn**: And now we have like write, maintain, admin, whatever. But then we also have triage and some smaller roles that only triage and do other sort of community manage-y stuff. So I think it's interesting.
 
-[02:42] **Shawn**: What if every project had a maintainers.md and then we separated the role of a maintainer into these separate roles and then people could sign up for that. And it'd be  well expected what each role would do. And there'll be like a limited term. And then once that term is over, then we kind of just vote in the new ones. 
+[02:42] **Shawn**: What if every project had a maintainers.md and then we separated the role of a maintainer into these separate roles and then people could sign up for that. And it'd be well expected what each role would do. And there'll be like a limited term. And then once that term is over, then we kind of just vote in the new ones.
 
-[02:58] **Shawn**: It's probably not voting. It's just like whoever wants to do it, but it's like a rotating thing. It's not the same person and you're not taking it on for the rest of their lives. 
+[02:58] **Shawn**: It's probably not voting. It's just like whoever wants to do it, but it's like a rotating thing. It's not the same person and you're not taking it on for the rest of their lives.
 
 [03:06] **Shawn**: It's kind of little bit like how I guess golf clubs and social clubs run. They have limited terms and that's great. Even the president of the club, right, gets to cycle over and then you can see past presidents.
 
 #### Separation of Maintainer Concerns
 
-[03:17] **Shawn**: And that's a nice thing to have done, but you don't commit to it for the rest of your life. 
+[03:17] **Shawn**: And that's a nice thing to have done, but you don't commit to it for the rest of your life.
 
-[03:21] **Shawn**: So I've been calling this idea, separation of maintainer concerns, but then also like it has this like term limits. 
+[03:21] **Shawn**: So I've been calling this idea, separation of maintainer concerns, but then also like it has this like term limits.
 
-[03:28] **Shawn**: What do you think? 
+[03:28] **Shawn**: What do you think?
 
 [03:29] **Henry**: Yeah. I like that. It's sort of deals with a lot of different issues at once.
 
-[03:33] **Henry**: One that you just pointed out now is this idea that you have to maintain something forever. And that's not necessarily a bad thing. 
+[03:33] **Henry**: One that you just pointed out now is this idea that you have to maintain something forever. And that's not necessarily a bad thing.
 
 [03:41] **Henry**: It's just that the assumption is that you need to do that. So people that are trying to get involved, they're like, Oh, if I start, I'm going to have to do this forever. And they don't want to commit to that, right.
 
 [03:51] **Shawn**: Well, sometimes I might not get involved because I'm just going to assume you're you're in charge forever. So I'm just going to just find something else to do.
 
-[03:57] **Henry**: That's true too. And there's this pattern of whenever new projects come out, all these people just show up out of nowhere that were capable of contributing before, but because it's new, it seems like it needs a lot of help, but all the old projects just need as much help as before too. It doesn't seem as like cool or fun. 
+[03:57] **Henry**: That's true too. And there's this pattern of whenever new projects come out, all these people just show up out of nowhere that were capable of contributing before, but because it's new, it seems like it needs a lot of help, but all the old projects just need as much help as before too. It doesn't seem as like cool or fun.
 
 [04:14] **Henry**: What you said, everything's under control. Even though on the inside, it feels like everything's on fire sort of thing, right?
 
 #### Babel W18, like YC W18
 
-[04:20] **Shawn**: Yeah. It could be like a thing that we formalize. 
+[04:20] **Shawn**: Yeah. It could be like a thing that we formalize.
 
 [04:22] **Shawn**: You know how Y Combinator companies, they have like a batch, like I went through Y Combinator Winter 18. So for the rest of my life, I just say like YC W18.
 
@@ -107,7 +107,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [04:34] **Shawn**: What if we had like Babel W18 and I served as X of Babel for that term. And then I moved on. And someone else did that after me. And that's totally fine.
 
-[04:45] **Henry**: Yeah, I like what you said about differentiation of roles. 
+[04:45] **Henry**: Yeah, I like what you said about differentiation of roles.
 
 [04:49] **Henry**: Maintainer is too broad and because it's so vague, people have their own assumptions on what that means. It limits what people can get involved with.
 
@@ -115,15 +115,15 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [05:05] **Henry**: We need to give them the concrete things, not just writing code, but all these other things and maybe giving those a name is a good thing, right?
 
-[05:13] **Shawn**: I mean, triager. Repro-er. I haven't thought this out. 
+[05:13] **Shawn**: I mean, triager. Repro-er. I haven't thought this out.
 
 [05:18] **Shawn**: This is like a blog post that's been sitting on my mind for like a year, and I haven't done anything.
 
-[05:23] **Henry**: I know you probably don't consider yourself a maintainer, but if you're the one managing the subreddit or if you're the one that's making videos about some project, those are all parts of maintaining the community, right. 
+[05:23] **Henry**: I know you probably don't consider yourself a maintainer, but if you're the one managing the subreddit or if you're the one that's making videos about some project, those are all parts of maintaining the community, right.
 
-[05:34] **Shawn**: Yeah, I mean, I don't have a name for what I do, but I think it's important. I think that code only goes so far, and I think that communities around code matters. 
+[05:34] **Shawn**: Yeah, I mean, I don't have a name for what I do, but I think it's important. I think that code only goes so far, and I think that communities around code matters.
 
-[05:44] **Shawn**: And I think that people who can sort of manage between both actually do very well. You know, there's an amount of self-interest in this. I'm not doing this, like for the community. 
+[05:44] **Shawn**: And I think that people who can sort of manage between both actually do very well. You know, there's an amount of self-interest in this. I'm not doing this, like for the community.
 
 [05:52] **Shawn**: Because I've been so involved, I know everything is going on in React. If anything that I want done, I don't have to be an expert in everything. I know the experts on everything, right. So I can just call them. That's great.
 
@@ -137,29 +137,29 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [06:26] **Shawn**: And that's not me, right? That's that's just like the growth of React's popularity. I actually charted it once and it's round about 70% a year growth every year across GitHub, NPM and React reddit and what have you. So it's just an organic growth from people learning react. Feels like react is taking over, but actually there's tons of people who are still learning, right and still getting started.
 
-[06:50] **Shawn**: So I was an active moderator for two years, ish. I've been on reddit for like two years before that. 
+[06:50] **Shawn**: So I was an active moderator for two years, ish. I've been on reddit for like two years before that.
 
-[06:54] **Shawn**: And then I only got the job because there was some like framework war that was brewing. 
+[06:54] **Shawn**: And then I only got the job because there was some like framework war that was brewing.
 
-[06:58] **Shawn**: And then Dan Abramov was telling me.. There's some like nasty comments about Vue or whatever in the React community. 
+[06:58] **Shawn**: And then Dan Abramov was telling me.. There's some like nasty comments about Vue or whatever in the React community.
 
-[07:05] **Shawn**: And he was like, why don't you shut it down? 
+[07:05] **Shawn**: And he was like, why don't you shut it down?
 
-[07:06] **Shawn**: And I was like, Dan, I don't have.. I'm not a mod. I don't have the ability. 
+[07:06] **Shawn**: And I was like, Dan, I don't have.. I'm not a mod. I don't have the ability.
 
-[07:09] **Shawn**: And then he's like, now you are. 
+[07:09] **Shawn**: And then he's like, now you are.
 
-[07:11] **Shawn**: And, I thought it was a great opportunity and I enjoyed it. I'm on reddit anyway, so that bought me into reddit even more. 
+[07:11] **Shawn**: And, I thought it was a great opportunity and I enjoyed it. I'm on reddit anyway, so that bought me into reddit even more.
 
 [07:17] **Shawn**: The challenge has been sort of trying to get active participation.
 
 [07:21] **Shawn**: Trying to balance beginners and advanced people, because we all share the same board. It's just one message board that's just voted.
 
-[07:29] **Shawn**: So sometimes there are a lot more beginners in there. So you just get a lot of beginner stuff voted up. 
+[07:29] **Shawn**: So sometimes there are a lot more beginners in there. So you just get a lot of beginner stuff voted up.
 
 [07:33] **Shawn**: But then the really awesome stuff, like there are very advanced people there who have really good comments and conversations, and we need to encourage them and to make them stick around.
 
-[07:41] **Shawn**: So it's this weird balance of like are we beginner reddit today or are we like let's get deep into details, reddit, you know? 
+[07:41] **Shawn**: So it's this weird balance of like are we beginner reddit today or are we like let's get deep into details, reddit, you know?
 
 [07:47] **Shawn**: And moderators have very limited control, because the mob just votes whatever they want.
 
@@ -167,19 +167,19 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [07:55] **Shawn**: You can post discussion topics, you can post like surveys, you can post job boards, like who's hiring, right. That's very popular. So stuff like that.
 
-[08:03] **Shawn**: But ultimately the conversation comes from the community and then your main job is to like shut off toxic elements. 
+[08:03] **Shawn**: But ultimately the conversation comes from the community and then your main job is to like shut off toxic elements.
 
 [08:09] **Shawn**: So that's what Reddit is basically for me.
 
 #### Learning with "I Promise to Answer Every Question"
 
-[08:12] **Shawn**: I also started like a beginner Q and A. 
+[08:12] **Shawn**: I also started like a beginner Q and A.
 
 [08:14] **Shawn**: Basically, it serves as a sink for all the Q&A questions that otherwise would be posted elsewhere. And then it would make the whole thing, very, very beginner.
 
 [08:21] **Shawn**: But then also, it was a very good learning exercise for me, because I would just promise to answer every question.
 
-[08:28] **Shawn**: And that just gets you very good at answering questions. 
+[08:28] **Shawn**: And that just gets you very good at answering questions.
 
 [08:30] **Shawn**: And then if you answer enough questions, you can see that you're repeating yourself, you make it a blog post, and then you can just like copy and paste, right.
 
@@ -205,33 +205,33 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [09:41] **Shawn**: But it also reminds you, you know, this like Memento Mori thing, like all things die or all things must pass.
 
-[09:46] **Shawn**: People don't know that git is only 15 years old. There was a time before git. 
+[09:46] **Shawn**: People don't know that git is only 15 years old. There was a time before git.
 
 [09:52] **Shawn**: And VS Code is five years old, you know, and there was a time before VS Code.
 
 [09:59] **Shawn**: But it also means that five and 15 years from now, we would be doing completely different things.
 
-[10:03] **Shawn**: That the presence of like, this is a special moment, but like not everything is fixed. 
+[10:03] **Shawn**: That the presence of like, this is a special moment, but like not everything is fixed.
 
 [10:08] **Shawn**: Things can improve. But also like things that seem like a sure thing right now may not be.
 
-[10:14] **Shawn**: And I think I don't know what to do with that. 
+[10:14] **Shawn**: And I think I don't know what to do with that.
 
 [10:15] **Shawn**: You know, that's just like sobering and it helps you be grounded in like everything that you do.
 
 [10:21] **Henry**: Yeah, I think this aspect of caring about history, that's related to all this stuff I've been trying to talk about on the podcast.
 
-[10:27] **Henry**: Like people that care about archival and preservation, even the thing we talked about with Jordan, and he's trying to preserve the aesthetic of Windows 98. 
+[10:27] **Henry**: Like people that care about archival and preservation, even the thing we talked about with Jordan, and he's trying to preserve the aesthetic of Windows 98.
 
-[10:36] **Henry**: Or people trying to preserve the artwork in museums, right. How do we do that in code? Are we even doing that, right? 
+[10:36] **Henry**: Or people trying to preserve the artwork in museums, right. How do we do that in code? Are we even doing that, right?
 
-[10:42] **Henry**: Like what you said, there's not a lot of history. I know Maggie was saying she wants to kind of do a podcast about JavaScript history. 
+[10:42] **Henry**: Like what you said, there's not a lot of history. I know Maggie was saying she wants to kind of do a podcast about JavaScript history.
 
 [10:50] **Henry**: And I know there's the book, 20 years of JavaScript, but no one really cares about that stuff. You kind of move on to the next thing. And we forget like what we've learned, if we even learned it, right?
 
-[11:00] **Shawn**: So JavaScript has a good.. Brendan Eich is still super active and he answers basically every question about JavaScript, which is amazing. 
+[11:00] **Shawn**: So JavaScript has a good.. Brendan Eich is still super active and he answers basically every question about JavaScript, which is amazing.
 
-[11:07] **Shawn**: You can ask the creator. 
+[11:07] **Shawn**: You can ask the creator.
 
 [11:09] **Shawn**: So it's still fine. JavaScript has a lot of like institutional memory, especially everyone in TC39.
 
@@ -247,7 +247,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [11:37] **Shawn**: Like, we don't really know what Tobias Kopper's was thinking when he made Webpack.
 
-[11:42] **Shawn**: We have some reconstructions based on like podcast interviews and stuff like that, but like nobody ever like stopped and like wrote it down. 
+[11:42] **Shawn**: We have some reconstructions based on like podcast interviews and stuff like that, but like nobody ever like stopped and like wrote it down.
 
 [11:49] **Shawn**: It's just like, it just became a thing.
 
@@ -255,11 +255,11 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [12:01] **Shawn**: Yeah, but you can tell the story in podcasts and stuff that people pick it up, you know?
 
-[12:06] **Shawn**: Okay then, you know, even for Babel, the primary doc for Babel's origins is Sebastian's like 2016 year in review. 
+[12:06] **Shawn**: Okay then, you know, even for Babel, the primary doc for Babel's origins is Sebastian's like 2016 year in review.
 
 [12:13] **Shawn**: It was just like, that's it? Like, it's just one of the most, you know, important..
 
-[12:18] **Shawn**: I want to know the journey. I want to know the pain. I want to know like the things that you tried and it didn't work, and then why it didn't work. 
+[12:18] **Shawn**: I want to know the journey. I want to know the pain. I want to know like the things that you tried and it didn't work, and then why it didn't work.
 
 [12:24] **Shawn**: Cause like someone else is going to try it and no one writes it down. So it's sad, but whatever.
 
@@ -273,25 +273,25 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [12:51] **Shawn**: And I feel like if we instill a culture of document yourself more, it helps historians like me, but then also it helps people get contributing. Cause they know the philosophy and all that.
 
-[13:03] **Shawn**: Like right now, even like Sebastian is making this almost the same mistake with Rome, like everything's in his head. 
+[13:03] **Shawn**: Like right now, even like Sebastian is making this almost the same mistake with Rome, like everything's in his head.
 
-[13:08] **Henry**: Yeah. What you're saying about culture is like, we're so far focused on making the new release or making it faster and less code size. Which is all good. 
+[13:08] **Henry**: Yeah. What you're saying about culture is like, we're so far focused on making the new release or making it faster and less code size. Which is all good.
 
-[13:20] **Henry**: But at the same time, that same person that's doing all that, they're not spending the time to, like you said, write down their thinking, because it's hard to write down your thinking and you kind of just want make it work. And there's only one person. 
+[13:20] **Henry**: But at the same time, that same person that's doing all that, they're not spending the time to, like you said, write down their thinking, because it's hard to write down your thinking and you kind of just want make it work. And there's only one person.
 
 [13:34] **Henry**: Maybe it's similar to the whole community manager thing that is also a blocker on all of these different things. And not that they don't care about these things, I'm sure they want to do it, but just, you feel overwhelmed because of all the possible things to think about what's on your mind. I don't know what to prioritize all the time.
 
-[13:51] **Shawn**: I don't know. I tend to think that solution's pretty simple. 
+[13:51] **Shawn**: I don't know. I tend to think that solution's pretty simple.
 
-[13:53] **Shawn**: Just like write more. 
+[13:53] **Shawn**: Just like write more.
 
 [13:55] **Shawn**: Just be okay with like, this is what I think now, I might change my mind. I don't know. But here it is.
 
 [14:01] **Shawn**: We're always on Twitter so much. Like it's a form of sharing what I think, but like not really super committing into it that much. That's fine.
 
-[14:07] **Henry**: Yeah. I think maybe we could talk about that a bit. Similar to code, you don't want to commit it. And it's like, why do I feel like I can't put it down on paper sort of thing. 
+[14:07] **Henry**: Yeah. I think maybe we could talk about that a bit. Similar to code, you don't want to commit it. And it's like, why do I feel like I can't put it down on paper sort of thing.
 
-[14:15] **Shawn**: So that's, I guess that's why I blog. I don't know. It helps you get into dev rel. 
+[14:15] **Shawn**: So that's, I guess that's why I blog. I don't know. It helps you get into dev rel.
 
 [14:19] **Shawn**: That's the other part of my life I've kinda gotten into. And then obviously that also got me into teaching mainly for egghead, but I've done some other workshops.
 
@@ -299,7 +299,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 #### Learning Gears: Explorer, Connector, Miner
 
-[14:32] **Shawn**: So I call these learning gears. 
+[14:32] **Shawn**: So I call these learning gears.
 
 [14:34] **Shawn**: There's the explorer gear when you don't know what you don't know, and you're just going around and exploring and then taking notes for yourself.
 
@@ -319,15 +319,15 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [15:32] **Shawn**: If you have like a general.. I wish things of just generally better, like that's not something that people can rally behind. But if you have a very specific vision, then that's something that people can get around.
 
-[15:42] **Shawn**: That's the kind of thing that I see in Rich Harris. And they can get people to come along with that vision, with the docs and the speaking that they do. 
+[15:42] **Shawn**: That's the kind of thing that I see in Rich Harris. And they can get people to come along with that vision, with the docs and the speaking that they do.
 
-[15:49] **Shawn**: It just seems like pretty inspiring. 
+[15:49] **Shawn**: It just seems like pretty inspiring.
 
 #### Finding A Vision People Can Rally Around
 
 [15:51] **Shawn**: And I'm looking for that. I haven't found that yet.
 
-[15:55] **Shawn**: I always feel like, you know, cause I'm known for non-technical things. I'm known for like, okay, I manage the react community, whatever. 
+[15:55] **Shawn**: I always feel like, you know, cause I'm known for non-technical things. I'm known for like, okay, I manage the react community, whatever.
 
 [16:01] **Shawn**: I speak a lot or whatever, but it's not really super technical. It's just like how to like, be super noisy as a dev.
 
@@ -337,9 +337,9 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [16:18] **Shawn**: I mean, it would be nice. Just cause like, you don't feel like a real dev if it's not technical.
 
-[16:22] **Shawn**: But like the world seems to want me to do more nontechnical stuff, especially like with this book that I'm doing, because that's definitely been the most successful thing that I've ever written or said, which is kinda sad, but like, yeah, I think it's okay. 
+[16:22] **Shawn**: But like the world seems to want me to do more nontechnical stuff, especially like with this book that I'm doing, because that's definitely been the most successful thing that I've ever written or said, which is kinda sad, but like, yeah, I think it's okay.
 
-[16:35] **Shawn**: I'm comfortable leaning into that. I also know that like, I want to do more, and I don't want to be only defined by the non technical stuff. 
+[16:35] **Shawn**: I'm comfortable leaning into that. I also know that like, I want to do more, and I don't want to be only defined by the non technical stuff.
 
 [16:42] **Shawn**: So that's kinda what I'm like. I want to adjust the other way now.
 
@@ -347,9 +347,9 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 #### Being Code Adjacent
 
-[17:01] **Shawn**: to code. You need to know how to code, but then you're like next to it. 
+[17:01] **Shawn**: to code. You need to know how to code, but then you're like next to it.
 
-[17:04] **Henry**: That makes sense. Cause I wouldn't be able to maintain Babel if I don't know anything about compilers, I need to know something about it. 
+[17:04] **Henry**: That makes sense. Cause I wouldn't be able to maintain Babel if I don't know anything about compilers, I need to know something about it.
 
 [17:12] **Henry**: Just to think out loud there, to me, it's sort of like, is it even worth our time to spend all this time trying to make all these things faster when it really doesn't really change what our product is about?
 
@@ -359,7 +359,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 #### Maybe We Need a JavaScript Community Manager
 
-[17:41] **Shawn**: We went through this phase of every tool does one, one job well. 
+[17:41] **Shawn**: We went through this phase of every tool does one, one job well.
 
 [17:46] **Shawn**: But then it turned out that there's like 10 different config files in my repo. I don't know what they do. And they kind of don't work super well with each other.
 
@@ -373,35 +373,35 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [18:31] **Shawn**: So to kind of bring it back to like the community thing, JavaScript doesn't really have a community manager or a tumbler. It just is this mess. Like maybe we should have one.
 
-[18:41] **Henry**: Yeah. I think about that too. It's not really about your individual tool because in the end, no one's going to use it by itself. So you kind of do have to know about every other tool anyway, no matter what you maintain. 
+[18:41] **Henry**: Yeah. I think about that too. It's not really about your individual tool because in the end, no one's going to use it by itself. So you kind of do have to know about every other tool anyway, no matter what you maintain.
 
 [18:54] **Henry**: What would it look like to be a maintainer of multiple projects, but then I guess the easy way out, in a way, is just make it all one.
 
-[19:05] **Shawn**: And that's what Sebastian did. I don't know. I think it's interesting. It's definitely above my pay grade. 
+[19:05] **Shawn**: And that's what Sebastian did. I don't know. I think it's interesting. It's definitely above my pay grade.
 
 #### Cheat Sheets and Awesome Lists
 
 [19:10] **Shawn**: So I think that the things that I focus on in my scale are open source knowledge. And that's probably the other thing that we can talk about, the cheat sheets that I do.
 
-[19:20] **Henry**: I guess it's just like, why did you start doing it? Why do we call them cheat sheets in particular? Are they just awesome lists or readmes, 
+[19:20] **Henry**: I guess it's just like, why did you start doing it? Why do we call them cheat sheets in particular? Are they just awesome lists or readmes,
 
 [19:30] **Shawn**: So, first of all, I feel like a lot of awesome lists become not awesome over time. Well, I mean, there's a process to add them, but there's no process to delete them, right. You're not going to come in like, okay, this repo is not awesome anymore.
 
 [19:42] **Henry**: No, I think that's a super interesting point.
 
-[19:44] **Henry**: It's almost like when we talk about like CSS, it's really hard to remove it, right? You don't want to like prevent someone from adding their awesome link. 
+[19:44] **Henry**: It's almost like when we talk about like CSS, it's really hard to remove it, right? You don't want to like prevent someone from adding their awesome link.
 
 [19:50] **Henry**: And then later you realize that it doesn't fit with this whole thing and you can't. And it just gets bigger and bigger. It sounds like any code, I guess.
 
 [19:58] **Shawn**: Yeah. But the goal for this was actually more than just a repo of links, right? That's what awesome lists mainly are, they're good for that kind of surfacing.
 
-[20:06] **Shawn**: So I kind of compare it to Yahoo versus Google, right. 
+[20:06] **Shawn**: So I kind of compare it to Yahoo versus Google, right.
 
-[20:09] **Shawn**: Old Yahoo used to have humans who just like manually index the entire internet, right. 
+[20:09] **Shawn**: Old Yahoo used to have humans who just like manually index the entire internet, right.
 
 [20:15] **Shawn**: And then Google trained us that you have to type it into the search box. And then you find the top 10 blue links.
 
-[20:20] **Shawn**: But it turns out that it's actually pretty easy to beat Google at surfacing the super relevant things, because you as a human know how to organize better to your domain. Google only has the template links. 
+[20:20] **Shawn**: But it turns out that it's actually pretty easy to beat Google at surfacing the super relevant things, because you as a human know how to organize better to your domain. Google only has the template links.
 
 #### Personalized Docs, Documentation Levels
 
@@ -409,23 +409,23 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [20:41] **Shawn**: So every project tends to have one set of documentation and that's fine for a certain project size. But actually I have this whole theory of documentation levels.
 
-[20:51] **Shawn**: When it get to another level that's big enough, there's like weird use cases that the main docs will never cover. Just never, right. 
+[20:51] **Shawn**: When it get to another level that's big enough, there's like weird use cases that the main docs will never cover. Just never, right.
 
-[20:57] **Shawn**: So the way that I got started with the typescript thing was I got my first dev job, right. I went through boot camp. Like I graduated, I started my first day at the new job. 
+[20:57] **Shawn**: So the way that I got started with the typescript thing was I got my first dev job, right. I went through boot camp. Like I graduated, I started my first day at the new job.
 
-[21:06] **Shawn**: And then my boss was like, do you know, TypeScript? 
+[21:06] **Shawn**: And then my boss was like, do you know, TypeScript?
 
-[21:08] **Shawn**: And I said, no. And then I spent like six months, like struggling. 
+[21:08] **Shawn**: And I said, no. And then I spent like six months, like struggling.
 
 [21:12] **Shawn**: And then I was just like, okay, I'm going back to my old code, to other files to copy and paste and then copy it to a new file just to make a component. I should probably like pull these out and then paste it in somewhere as a cheat sheet, right. So like it's not just links.
 
 [21:26] **Shawn**: It's also like copy and pasteable examples of common things that you're going to use. And the reason that React is never going to document in TypeScript is cause they use flow, right.
 
-[21:37] **Shawn**: And the reason that TypeScript is never going to document React is because they serve TypeScript. The TypeScript docs serve TypeScript users who are coming over from Node.js  And just general JS Land. They don't have anything react specific. 
+[21:37] **Shawn**: And the reason that TypeScript is never going to document React is because they serve TypeScript. The TypeScript docs serve TypeScript users who are coming over from Node.js And just general JS Land. They don't have anything react specific.
 
-[21:49] **Shawn**: So I found the hole where it was just like an intersection of React doesn't do this Typescript doesn't do this, but there are a lot of me who are like React and TypeScript people. 
+[21:49] **Shawn**: So I found the hole where it was just like an intersection of React doesn't do this Typescript doesn't do this, but there are a lot of me who are like React and TypeScript people.
 
-[21:56] **Shawn**: And why not just create the docs for us? And so like it started copying pasting, and then now a whole bunch of it's like been translated into two other languages and it strikes a nerve because it's underserved. 
+[21:56] **Shawn**: And why not just create the docs for us? And so like it started copying pasting, and then now a whole bunch of it's like been translated into two other languages and it strikes a nerve because it's underserved.
 
 [22:07] **Shawn**: And I think people need to get over this idea of like one single doc for that domain end those story. Like there can be different docs for different audiences and that should be totally fine.
 
@@ -435,15 +435,15 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [22:32] **Shawn**: I take a lot of notes in one note and stuff like that, but on thematic stuff that I know other people will have interest in, I might as well share it. Because they actually helped me out and improve it and stuff like that.
 
-[22:43] **Shawn**: So I've been taught TypeScript by people at Microsoft and Uber and Airbnb and other places cause they PR stuff in, and then I have to learn from it, you know?  
+[22:43] **Shawn**: So I've been taught TypeScript by people at Microsoft and Uber and Airbnb and other places cause they PR stuff in, and then I have to learn from it, you know?
 
 #### Open Source Knowledge, Proof of Work
 
-[22:53] **Shawn**: So I kind of call it open source knowledge. 
+[22:53] **Shawn**: So I kind of call it open source knowledge.
 
 [22:55] **Shawn**: And it's the whole idea, open source code is better than closed source code because there's more people looking at it. It's easy to contribute. You know, open source has clearly eaten software, right. But the way that we treat our knowledge is very close source.
 
-[23:08] **Shawn**: Even this recent digital garden movement. It's all closed. 
+[23:08] **Shawn**: Even this recent digital garden movement. It's all closed.
 
 [23:12] **Shawn**: No, one's sharing their knowledge.
 
@@ -453,33 +453,33 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [23:28] **Shawn**: It's very like informal. I mean, I'm the curator, right? Under my name and all that, but people get value just cause like they can contribute what they know, but then they benefit from the rest. It's exactly the same as the open source code project.
 
-[23:39] **Shawn**: That's really good for one thing, but I find it helpful to establish expertise over time. 
+[23:39] **Shawn**: That's really good for one thing, but I find it helpful to establish expertise over time.
 
 [23:44] **Shawn**: Like when I started out, I was a complete newb. And then people could see that I was a complete newb and then they could help me. And then over time, by the process of having answered a lot of questions, I became less of a noob.
 
-[23:56] **Shawn**: And people could see that because all I needed to do was just drop them this cheat sheet and go, like, I made that. 
+[23:56] **Shawn**: And people could see that because all I needed to do was just drop them this cheat sheet and go, like, I made that.
 
 [24:02] **Shawn**: And for me, that's proof of work. So I'm bringing this idea in from cryptocurrencies and blockchains and stuff like that.
 
-[24:08] **Shawn**: The reason that the way that we interview is kind of like broken, you have to perform within a small interview window of I dunno a day, right. 
+[24:08] **Shawn**: The reason that the way that we interview is kind of like broken, you have to perform within a small interview window of I dunno a day, right.
 
-[24:15] **Shawn**: And then like, hopefully you serialize your experiences down to a certain format, like on a resume or in like 30 minutes. A technical interview or like a conversation in a fit interview. And then they like deserialize it from like what you say. 
+[24:15] **Shawn**: And then like, hopefully you serialize your experiences down to a certain format, like on a resume or in like 30 minutes. A technical interview or like a conversation in a fit interview. And then they like deserialize it from like what you say.
 
-[24:28] **Shawn**: And they'll be like, okay, I can see this person performing in my team. And that's it. 
+[24:28] **Shawn**: And they'll be like, okay, I can see this person performing in my team. And that's it.
 
 [24:33] **Shawn**: And that's fine. That's the normal way of doing things. But I have had people interview me and they Google me in front of me and they can just instantly see all the work that I've done and know that I'm legit and it's like not fakeable, you know?
 
-[24:47] **Shawn**: And I'm not bragging, it just is. You can verify instantly because it's open. Whereas everyone else, if your work is closed, you cannot verify. 
+[24:47] **Shawn**: And I'm not bragging, it just is. You can verify instantly because it's open. Whereas everyone else, if your work is closed, you cannot verify.
 
 [24:55] **Shawn**: So you have to do like reference checks, you have to do technical tests and what have you. And it just kinda sucks in general.
 
-[25:03] **Henry**: And it's happened over a long period of time, so it's not like people that just literally just copy paste someone's repo and then remove their attribution  or increase their contributor counts.
+[25:03] **Henry**: And it's happened over a long period of time, so it's not like people that just literally just copy paste someone's repo and then remove their attribution or increase their contributor counts.
 
 #### Twitter as a Permanent Hallway Track
 
-[25:13] **Shawn**: Yeah. I mean that's a little bit of like what Twitter is, right? It's a permanent hallway track. 
+[25:13] **Shawn**: Yeah. I mean that's a little bit of like what Twitter is, right? It's a permanent hallway track.
 
-[25:17] **Shawn**: My new job, do you know Nader Dabit? 
+[25:17] **Shawn**: My new job, do you know Nader Dabit?
 
 [25:20] **Henry**: Yeah.
 
@@ -497,7 +497,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 #### Find the Intersection of Two Communities
 
-[26:07] **Shawn**: So that's the TypeScript thing. I'm planning to turn that into like a course someday. I definitely got lucky with that one, didn't really do much to promote it or anything. 
+[26:07] **Shawn**: So that's the TypeScript thing. I'm planning to turn that into like a course someday. I definitely got lucky with that one, didn't really do much to promote it or anything.
 
 [26:15] **Shawn**: But I think that intersection, a pretty good formula for people if they're listening too and they want to do this, is to find the intersection of two big communities, probably underserved.
 
@@ -509,11 +509,11 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [26:43] **Shawn**: So I basically extended that approach to design. So I called it spark-joy, and that's just like a collection of design tools and that one got picked up by Addy Osmani. That one got attention, cause Addy just tweets really awesome stuff. So that was probably like one of the highlights of my like open source knowledge career.
 
-[27:00] **Shawn**: My designs suck, but I think that there's a market for design, for developers like me,  who know they suck at design, but they want simple tricks. 
+[27:00] **Shawn**: My designs suck, but I think that there's a market for design, for developers like me, who know they suck at design, but they want simple tricks.
 
 [27:08] **Shawn**: And there are other people who do that, but there's nothing stopping me from collecting my own list of stuff, right.
 
-[27:14] **Shawn**: So that's what spark-joy is about. This one's not an intersection. This is just like my take on people like me on something that's super popular, which is designed for devs, always sells out whatever. 
+[27:14] **Shawn**: So that's what spark-joy is about. This one's not an intersection. This is just like my take on people like me on something that's super popular, which is designed for devs, always sells out whatever.
 
 [27:24] **Shawn**: And anytime some designer goes like, Hey, what if I did a course on design for devs, devs just eat it up right there. And they never use any of the things that they learned.
 
@@ -547,19 +547,19 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [29:46] **Shawn**: But I took it on myself to like be the central repo of knowledge for everything new in react, and I called it like fresh-async-react at the time.
 
-[29:55] **Shawn**: So the fresh repo idea was like a twist on Sindre's awesome repo. So awesome repo just like lists things that are awesome and maybe less awesome over time. Right. 
+[29:55] **Shawn**: So the fresh repo idea was like a twist on Sindre's awesome repo. So awesome repo just like lists things that are awesome and maybe less awesome over time. Right.
 
 [30:05] **Shawn**: Whereas fresh is like for things that are new and constantly evolving. So actually chronological order is more important than alphabetical or categorical order.
 
 [30:15] **Shawn**: Chronological means, okay, things that are three months ago, no longer relevant. So let's just delete all this stuff. So let's just like, keep it fresh. So that was essentially what I was doing there.
 
-[30:25] **Shawn**: And then it became concurrent react and became not so fresh anymore, so I just turned it into notes. And these were the unofficial documentation for confined reacts, and then they actually released the beta. So then I archived it. 
+[30:25] **Shawn**: And then it became concurrent react and became not so fresh anymore, so I just turned it into notes. And these were the unofficial documentation for confined reacts, and then they actually released the beta. So then I archived it.
 
 [30:35] **Shawn**: And it's good to have projects that end. It's good to give closure to yourself, but then also to the people who might see it in future and go like, is this still maintained?
 
 [30:43] **Henry**: I guess that's like history as well.
 
-[30:45] **Shawn**: It's history! It's still there. 
+[30:45] **Shawn**: It's history! It's still there.
 
 [30:47] **Henry**: It's still useful to see like how people were thinking.
 
@@ -567,13 +567,13 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 #### Starting a Meetup: Svelte Society
 
-[30:57] **Shawn**: And then I also do a lot of real life community work. Cause like cheatsheets are kind of ad hoc on GitHub, but the real life things started with the Svelte Society stuff. 
+[30:57] **Shawn**: And then I also do a lot of real life community work. Cause like cheatsheets are kind of ad hoc on GitHub, but the real life things started with the Svelte Society stuff.
 
 [31:05] **Shawn**: So this one was because like you, me, Rich Harris and a bunch of other people are all in New York and like we don't meet up enough.
 
 [31:16] **Henry**: Yeah.
 
-[31:16] **Shawn**: So there was going to be the world's first Svelte Meetup in London. 
+[31:16] **Shawn**: So there was going to be the world's first Svelte Meetup in London.
 
 [31:20] **Shawn**: And I was like, we have Rich Harris in New York. We should have a New York meetup.
 
@@ -581,17 +581,17 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [31:27] **Shawn**: So I just like put out a call and I was like, well, we're having a meet up on this date?
 
-[31:31] **Shawn**: I don't have a venue. I don't have a time. I don't have people. 
+[31:31] **Shawn**: I don't have a venue. I don't have a time. I don't have people.
 
-[31:33] **Shawn**: I don't have speakers, but we're just going to meet up and Rich is going to be there, cause I'm going to drag him there. 
+[31:33] **Shawn**: I don't have speakers, but we're just going to meet up and Rich is going to be there, cause I'm going to drag him there.
 
 [31:38] **Shawn**: And then like stuff got together because like you have a specific want, right? We are going to have a meet up before London.
 
 [31:43] **Shawn**: And people just like helped out. Tierney chipped in with the Microsoft space and people helped me promote it and get speakers and stuff like that. And it turned out really well, you can organize a 50 person meetup in one week. Just, just like that.
 
-[31:56] **Shawn**: Yeah that was pretty fun. And then we moved online, right? I think it was more building out the Svelte community. 
+[31:56] **Shawn**: Yeah that was pretty fun. And then we moved online, right? I think it was more building out the Svelte community.
 
-[32:02] **Shawn**: Cause there was some on Discord and some on GitHub, but not really like people trying it out, talking about it, and then also putting it into toy apps at work, and then eventually production apps, right? 
+[32:02] **Shawn**: Cause there was some on Discord and some on GitHub, but not really like people trying it out, talking about it, and then also putting it into toy apps at work, and then eventually production apps, right?
 
 [32:12] **Shawn**: Like if you want to grow a community, even in coding, you can write the most perfect code, but then if you don't see other people using it, you don't have a lot of confidence in this library or this framework.
 
@@ -615,9 +615,9 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [33:11] **Shawn**: And I think what really kind of bailed me out. It was honestly this Coronavirus, because I was already thinking, like this in person thing is really a mess.
 
-[33:18] **Shawn**: Cause I have to organize venue and then people and then do AV and then do talks. Cause no one else speaking. So I have to be a speaker. 
+[33:18] **Shawn**: Cause I have to organize venue and then people and then do AV and then do talks. Cause no one else speaking. So I have to be a speaker.
 
-[33:25] **Shawn**: It's a lot, right. And it's super stressful and I don't get to enjoy it. I don't get to hang out with people and stuff like that. 
+[33:25] **Shawn**: It's a lot, right. And it's super stressful and I don't get to enjoy it. I don't get to hang out with people and stuff like that.
 
 [33:31] **Shawn**: So I was already thinking of going online anyway, and then this Coronavirus thing happened. So I was like, Oh yeah, now we are online.
 
@@ -627,9 +627,9 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 #### Taking Part in Category Creation
 
-[33:56] **Shawn**: Like I don't even necessarily need to see Svelte take over the world or anything. 
+[33:56] **Shawn**: Like I don't even necessarily need to see Svelte take over the world or anything.
 
-[33:59] **Shawn**: I just want to see how far can I push it to make it a thing? 
+[33:59] **Shawn**: I just want to see how far can I push it to make it a thing?
 
 [34:02] **Shawn**: Cause I saw it happen in Netlify where it used to be cheap, free static site generators. And now people are like, yeah, I'm the JAMstack person, right?
 
@@ -651,7 +651,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [35:05] **Shawn**: I've never spoken to Cheng Lou. I'm curious what he thinks about it now. Cause they definitely have that problem for a reason.
 
-[35:09] **Henry**: Yeah, I guess there's a difference between what we say and how it plays out. I can say a lot of things about Babel, but if it's still stuck the way it is. 
+[35:09] **Henry**: Yeah, I guess there's a difference between what we say and how it plays out. I can say a lot of things about Babel, but if it's still stuck the way it is.
 
 [35:17] **Shawn**: Yeah sure sure. He's super intellectual. He doesn't have to be the doer.
 
@@ -661,9 +661,9 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [35:38] **Shawn**: I have my own like insecurities and need to, you know, fix my own situations and all that. So it's kinda like, you have to be a leader of people without being perfect yourself.
 
-[35:50] **Shawn**: Like you're not done with, you know, your own problems, but then you gotta like assume the community's problems as your own, and then deal with that as well. 
+[35:50] **Shawn**: Like you're not done with, you know, your own problems, but then you gotta like assume the community's problems as your own, and then deal with that as well.
 
-[35:58] **Shawn**: And it takes a certain kind of. Yeah, I'm sure. I'm sure you feel that all the time. 
+[35:58] **Shawn**: And it takes a certain kind of. Yeah, I'm sure. I'm sure you feel that all the time.
 
 [36:02] **Henry**: You know, it's funny when people are always asking me for advice like, Oh, I know how to maintain this thing. There's a sense where I don't really know either.
 
@@ -677,7 +677,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [36:34] **Shawn**: You know how like when people are parents for the first time, they have no idea how to be a parent. They have a baby, they come home from the hospital, they have a baby in their hands and they are like, shit this is real now. And you figure it out and guess what? Like hundreds of millions of people every year, figure it out.
 
-[36:52] **Henry**: You can read a bunch of books, you do a lot of prep work beforehand, but then when you finally get to it, you're like, Oh, 
+[36:52] **Henry**: You can read a bunch of books, you do a lot of prep work beforehand, but then when you finally get to it, you're like, Oh,
 
 [36:59] **Shawn**: I'm sure even the prep is completely not reflective of like what it actually is like, you know, like there's all these prenatal things and you got to read about it and then, but then you're like, actually, you know, you wake up at 4:00 AM every day for like three years. And it's just really hard, you know?
 
@@ -701,11 +701,11 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [38:32] **Shawn**: Because as much as I tell people to like learn in public, be raw, and perfect's the enemy of good, sometimes it really counts to get it right on the launch.
 
-[38:39] **Shawn**: Sometimes when it's meant for a general audience, you have to figure everything out before you hit them. So do need that sort of review process. 
+[38:39] **Shawn**: Sometimes when it's meant for a general audience, you have to figure everything out before you hit them. So do need that sort of review process.
 
 [38:47] **Henry**: I think that's good. Like there's writing, but then also just examples for our community with like Vue 3 and React Hooks.
 
-[38:54] **Henry**: They weren't going to do that in public when they're trying to figure out how everything works, they did it after they had all the docs and planned through everything. 
+[38:54] **Henry**: They weren't going to do that in public when they're trying to figure out how everything works, they did it after they had all the docs and planned through everything.
 
 [39:00] **Henry**: I think a lot of people are like, why don't you do it in public? Isn't it open source, that sort of sentiment. And it's like, no, they're doing this for the benefit, because they don't even know what it is.
 
@@ -717,7 +717,7 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [39:38] **Shawn**: And they'll they'll shit on you for showing something that is like not fully worked out anyway, cause they'll just pick holes and stuff.
 
-[39:45] **Shawn**: Like when I heard that Vue 3 was being developed in closed source or whatever, I was like, yeah, that makes a lot of sense. And Evan got so much shit for that. And I think like, geez, these people just haven't really been involved in a real nitty gritty opensource thing. 
+[39:45] **Shawn**: Like when I heard that Vue 3 was being developed in closed source or whatever, I was like, yeah, that makes a lot of sense. And Evan got so much shit for that. And I think like, geez, these people just haven't really been involved in a real nitty gritty opensource thing.
 
 [40:02] **Shawn**: They just expect everything to be open. I don't know. I just no sympathy for that.
 
@@ -733,17 +733,17 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [40:45] **Henry**: Yeah. I was just thinking, we can add a bunch of features. And then you write a blog post about it and then nobody knows about it. And then a few months later, you're just talking to someone like, Oh, I didn't know that this was the thing I could have used it a long time ago. Like the fact that it's been there for years, it doesn't matter.
 
-[41:01] **Shawn**: So two interesting antidotes. One supports this idea. One refutes this idea. 
+[41:01] **Shawn**: So two interesting antidotes. One supports this idea. One refutes this idea.
 
 [41:06] **Shawn**: Okay. So the first supporting idea is this idea of CSS 4.
 
-[41:10] **Shawn**: Do you know the CSS working group and the transition from 2.1 to 3? 
+[41:10] **Shawn**: Do you know the CSS working group and the transition from 2.1 to 3?
 
-[41:14] **Shawn**: So there was CSS 1, which is the original spec or whatever, then CSS 2 and 2.1, cause 2 made some mistakes. 
+[41:14] **Shawn**: So there was CSS 1, which is the original spec or whatever, then CSS 2 and 2.1, cause 2 made some mistakes.
 
-[41:20] **Shawn**: And then CSS working group kind of like got together and said like, Hey having like these big specs is a lot of work. Like we should break out into smaller groups and then work on individual specifications for individual features. 
+[41:20] **Shawn**: And then CSS working group kind of like got together and said like, Hey having like these big specs is a lot of work. Like we should break out into smaller groups and then work on individual specifications for individual features.
 
-[41:31] **Shawn**: So Grid was a separate feature. There's like CSS for voice there's CSS for more media queries and user preferences and all that. They're all these like small little, tiny groups. They splintered from one big group to individual groups. 
+[41:31] **Shawn**: So Grid was a separate feature. There's like CSS for voice there's CSS for more media queries and user preferences and all that. They're all these like small little, tiny groups. They splintered from one big group to individual groups.
 
 [41:44] **Shawn**: And then they were like, we will all move at different paces. So this is CSS Grid Level 1. And then this other thing we'll have like Headings styling Level 4. And we'll just proceed at different levels.
 
@@ -759,17 +759,17 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [42:57] **Shawn**: So now, after like probably five years of denying that there was a CSS 3. Now they're saying let's actually have a move back to market ourselves as having a CSS 4, even though it's not actually going to exist, we're just going to lie to everybody and call it CSS 4. And Jen Simmons is leading this charge.
 
-[43:15] **Shawn**: And two years ago she was like making videos about how there is no CSS 3. And so like, there's been a huge 180, purely because of marketing reasons. Just to get people to use CSS the way that its intended. They realized that, Oh, we over adjusted on how CSS is run, but not on how it's marketed and super interesting stuff. 
+[43:15] **Shawn**: And two years ago she was like making videos about how there is no CSS 3. And so like, there's been a huge 180, purely because of marketing reasons. Just to get people to use CSS the way that its intended. They realized that, Oh, we over adjusted on how CSS is run, but not on how it's marketed and super interesting stuff.
 
 [43:37] **Shawn**: That's a tech marketing story that like I like telling now, cause it's super cool. It's CSS, man.
 
 #### Adoption Curves: Focusing too much on the head
 
-[43:42] **Shawn**: So the other narrative that kind of goes against it. So it's like, okay. Design things to make it easier for the general public to consume, right. Because at the end of the day, that's what you're consuming them for. You're not consuming for the kind of people that goes to CSS conferences and know the intricacies of your spec, right. 
+[43:42] **Shawn**: So the other narrative that kind of goes against it. So it's like, okay. Design things to make it easier for the general public to consume, right. Because at the end of the day, that's what you're consuming them for. You're not consuming for the kind of people that goes to CSS conferences and know the intricacies of your spec, right.
 
 [43:59] **Shawn**: That's not the kind of people that you want to reach. I mean, sure, you want to reach them first, but if you want real impact, you have to reach for like the person on the street who has like five minutes out of every year to care about CSS.
 
-[44:10] **Shawn**: So then we get to Ilya Grigorik. 
+[44:10] **Shawn**: So then we get to Ilya Grigorik.
 
 [44:11] **Shawn**: Do you know this guy? He wrote high performance browser networking. I've never met him, but he likes seems like a legend.
 
@@ -783,13 +783,13 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [44:37] **Shawn**: No one cares in the body and the tail, right? So we can create all these like really awesome feature lists and stuff.
 
-[44:43] **Shawn**: No one cares. 
+[44:43] **Shawn**: No one cares.
 
-[44:43] **Shawn**: No one's gonna use it until you simplify it, right. Like make it easy for them to use it. Cause they have other priorities that that is going on. 
+[44:43] **Shawn**: No one's gonna use it until you simplify it, right. Like make it easy for them to use it. Cause they have other priorities that that is going on.
 
 [44:49] **Shawn**: Like we are in the body and the tail in others areas of our lives, right. Like I don't know, finance and the climate. And then I dunno. Yeah.
 
-[44:56] **Shawn**: So like, you know, we have to be humble and get out of our heads and just make it easy. 
+[44:56] **Shawn**: So like, you know, we have to be humble and get out of our heads and just make it easy.
 
 [45:00] **Shawn**: And for him it was like, okay, even a movement like CSS 4 is not enough. Because that means that implies that people have to know about CSS 4 and you've got to go reach out to them.
 
@@ -799,9 +799,9 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [45:15] **Shawn**: His example was image optimization.
 
-[45:17] **Shawn**: You can do conferences about image optimization. Hey, run your thing. There's like this SVG optimizer. And it's like 30% smaller. And everyone should do that. 
+[45:17] **Shawn**: You can do conferences about image optimization. Hey, run your thing. There's like this SVG optimizer. And it's like 30% smaller. And everyone should do that.
 
-[45:23] **Shawn**: Then you just like do nonstop lectures and like build, build tools. 
+[45:23] **Shawn**: Then you just like do nonstop lectures and like build, build tools.
 
 [45:26] **Shawn**: And people still won't do it, right. They just won't.
 
@@ -809,19 +809,19 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [45:37] **Shawn**: And so for him it was like, this should be built into the platform. For him, it happens to benefit him, cause he works on Android Chrome.
 
-[45:45] **Shawn**: Let's just like have native inputs that just optimize the image when you upload images and it would just be optimized forever, with no code. Cause it's at the earliest point of entry. 
+[45:45] **Shawn**: Let's just like have native inputs that just optimize the image when you upload images and it would just be optimized forever, with no code. Cause it's at the earliest point of entry.
 
 [45:55] **Shawn**: And he was like, we need to find things like that, that will really reach the body and the tail because they don't even know. They don't have to know.
 
 [46:02] **Shawn**: We've made it simple enough that we don't tack on this universal tooling that all developers have to like learn and maintain and use, because we don't fix the things at the source.
 
-[46:13] **Henry**: Yeah, no, that makes sense. If you don't need that feature, it should just be a default. Like that's just how it works and it doesn't even need to have a name or a concept, but then you have to figure out how to do that, I guess. 
+[46:13] **Henry**: Yeah, no, that makes sense. If you don't need that feature, it should just be a default. Like that's just how it works and it doesn't even need to have a name or a concept, but then you have to figure out how to do that, I guess.
 
 [46:25] **Henry**: And especially if it's like with the tooling, you have to make a breaking change. So, yeah, it's hard to find a trade off.
 
 [46:33] **Shawn**: Yeah. I don't know either. These are all super new ideas to me. I just think they were fascinating. Cause I'm always looking for like, what's the paradigm shift that will just invalidate everything I'm using today.
 
-[46:47] **Henry**: No, that's true, we're always adding. I want to remove config, not add more or at least make it so that the.. 
+[46:47] **Henry**: No, that's true, we're always adding. I want to remove config, not add more or at least make it so that the..
 
 [46:53] **Henry**: What do they call it, incidental complexity versus essential.
 
@@ -831,27 +831,27 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [46:58] **Shawn**: There's so many great books. What's a great program.. You know, you read way more books than anyone I know, what's a great programming book and just like philosophy of programming or like history of programming.
 
-[47:08] **Henry**: No, I think that was good. I mentioned this a long time ago, but programming as theory building is like an essay. It's not really a book. 
+[47:08] **Henry**: No, I think that was good. I mentioned this a long time ago, but programming as theory building is like an essay. It's not really a book.
 
-[47:16] **Shawn**: Yeah, that's fine. 
+[47:16] **Shawn**: Yeah, that's fine.
 
 [47:16] **Henry**: It kind of even goes back to what you were talking about, almost life cycle of code, you know, like life and death, rebirth, if you want to use that metaphor of programs. Just thinking about people and how they relate to code and the fact that it's about mental models and stuff like that. I hadn't been reading too much about like philosophy of code in that sense, but that was the most that I've seen for that kind of thing.
 
 [47:41] **Shawn**: Yeah. Do you think developers care, do you think were like married to incidental complexity. It's like, we're paid to do that, right? Okay, I'm glad they're shitty tools because then you need to hire people.
 
-[47:54] **Henry**: You keep the job. I guess they're both true. No one's like intentionally be like, Oh, I'm going to make a tool that's hard or anything. That that would be weird. 
+[47:54] **Henry**: You keep the job. I guess they're both true. No one's like intentionally be like, Oh, I'm going to make a tool that's hard or anything. That that would be weird.
 
-[48:01] **Henry**: But I think you kind of get used to how things are and how we see the things. Like our answer is the tool. 
+[48:01] **Henry**: But I think you kind of get used to how things are and how we see the things. Like our answer is the tool.
 
 [48:09] **Henry**: Maybe another book would be a tools for conviviality. People mentioned that one, a lot.
 
 [48:14] **Shawn**: I've heard that one. I need to go look into that.
 
-[48:17] **Henry**: Yeah. He's really talking about like technology in general and the idea of tools. 
+[48:17] **Henry**: Yeah. He's really talking about like technology in general and the idea of tools.
 
-[48:22] **Henry**: He would differentiate tools where someone designed something specifically for someone to do versus sort of like a hammer where it's a tool where you can almost create your own ways of using this thing that the person that made it didn't even think of, right. 
+[48:22] **Henry**: He would differentiate tools where someone designed something specifically for someone to do versus sort of like a hammer where it's a tool where you can almost create your own ways of using this thing that the person that made it didn't even think of, right.
 
-[48:38] **Henry**: How do you create a tool, sort of like the web it's supposed to be, right? Like supposedly anyone should be able to make their own website, but then we create all this tooling so that you have to learn it and you have to go to school or  you have to go to bootcamp.
+[48:38] **Henry**: How do you create a tool, sort of like the web it's supposed to be, right? Like supposedly anyone should be able to make their own website, but then we create all this tooling so that you have to learn it and you have to go to school or you have to go to bootcamp.
 
 [48:51] **Henry**: In a sense he's actually arguing against like professionalization of anything, to that extreme. Or industrialization of things.
 
@@ -873,27 +873,27 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [49:42] **Henry**: Like with Google docs or Figma or even actual games like Animal Crossing and Fortnite. People are able to create something different cause they have a platform for it versus you can't do anything other than like, screen share and chat.
 
-[49:54] **Shawn**: Sounds like you want to go into VR. 
+[49:54] **Shawn**: Sounds like you want to go into VR.
 
 [49:56] **Henry**: I think that barrier for that just having to buy that and being expensive, you have to have another computer, you have to like wear something. I think that seems a lot far off to me than just like, at least starting off with something 2D.
 
-[50:09] **Henry**: I dunno, like one example I saw. If say you have like a stand up or something and you want everyone to like, talk about what they're doing in a zoom call. 
+[50:09] **Henry**: I dunno, like one example I saw. If say you have like a stand up or something and you want everyone to like, talk about what they're doing in a zoom call.
 
-[50:16] **Henry**: Like everyone's face is in a different place. You can't even have an order to it, but if you're in a 2D space, you could make an actual circle and then you could just be like, Oh, let's go counterclockwise or clockwise. Just like in real life. 
+[50:16] **Henry**: Like everyone's face is in a different place. You can't even have an order to it, but if you're in a 2D space, you could make an actual circle and then you could just be like, Oh, let's go counterclockwise or clockwise. Just like in real life.
 
 [50:29] **Henry**: I think that presents a better way of knowing where people are sort of thing in this virtual space versus just abstractly everywhere, right? .
 
-[50:37] **Shawn**: It's good. We kind of have that in Figma. I don't know if you play around with Figma. Like this idea of cursors that represent people. Then people can kind of move around and communicate. 
+[50:37] **Shawn**: It's good. We kind of have that in Figma. I don't know if you play around with Figma. Like this idea of cursors that represent people. Then people can kind of move around and communicate.
 
-[50:45] **Shawn**: We can even express like frustration with like our mouse movements, which is pretty cool. 
+[50:45] **Shawn**: We can even express like frustration with like our mouse movements, which is pretty cool.
 
-[50:50] **Henry**: No exactly. I think it's fascinating seeing how people.. 
+[50:50] **Henry**: No exactly. I think it's fascinating seeing how people..
 
 [50:54] **Henry**: You give them the freedom or just ability to kind of express themselves.
 
 [51:00] **Henry**: Even with like the card game, where they can hover over the cards. And if you do it really fast, you can tell how they act.
 
-[51:08] **Henry**: Actually, this reminds me of the game that I was playing a lot in-person of The Mind, which I liked. 
+[51:08] **Henry**: Actually, this reminds me of the game that I was playing a lot in-person of The Mind, which I liked.
 
 [51:14] **Henry**: I don't know if I even talked about that before. I wanted to write something about this, but it's a very simple board game.
 
@@ -907,21 +907,21 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [51:54] **Henry**: If someone is leaning backward, you know that they're probably not going to go. If they're like kind of hovering over it, they're probably wanting to go next. You kinda just have to go with your gut, right.
 
-[52:02] **Shawn**: Yeah. And you have to learn and adjust for people who are too timid and too aggressive. 
+[52:02] **Shawn**: Yeah. And you have to learn and adjust for people who are too timid and too aggressive.
 
 [52:08] **Henry**: The game is interesting because it helps you empathize with others and it's a cooperative game, right? We're all on the same team.
 
-[52:15] **Henry**: Oh, this person went too fast. This person went too slow. It's hard to say. They're both true, right? 
+[52:15] **Henry**: Oh, this person went too fast. This person went too slow. It's hard to say. They're both true, right?
 
 [52:20] **Henry**: Like the person that was too fast has to learn to like account for it. The person that's going slow should learn to be faster.
 
-[52:26] **Henry**: And then the fun thing is when someone else is around and like, Hey, you should join in. And now that person changes the whole dynamic of how the timing works, right. 
+[52:26] **Henry**: And then the fun thing is when someone else is around and like, Hey, you should join in. And now that person changes the whole dynamic of how the timing works, right.
 
 [52:35] **Henry**: And you're only supposed to play with like four people max. And at the conference, you know, there's like 12 people or something.
 
 [52:40] **Shawn**: that was a good game. You brought it to React Rally and it was a lot of fun. Psychic.
 
-[52:48] **Henry**: And it's funny cause people are like, Oh, that's some kind of cult thing, you put your hands in the middle, and say the mind, right? 
+[52:48] **Henry**: And it's funny cause people are like, Oh, that's some kind of cult thing, you put your hands in the middle, and say the mind, right?
 
 [52:54] **Henry**: When we all put our hand in the middle, it's just to say that the timer starts now, but it's not like you're literally counting in your head one, two, three.
 
@@ -933,17 +933,17 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [53:20] **Shawn**: I always think about how game tech is always so far ahead of everything else, right.
 
-[53:24] **Shawn**: But it's good. 
+[53:24] **Shawn**: But it's good.
 
-[53:24] **Shawn**: Cause like, we pay for entertainment and entertainment eventually benefits us. 
+[53:24] **Shawn**: Cause like, we pay for entertainment and entertainment eventually benefits us.
 
 [53:29] **Shawn**: So you can say like when you're playing your Xbox or your Switch you're funding R&D!
 
-[53:37] **Shawn**: Basic science. Yeah. When you buy smartphones, we are funding research into making the smallest chips and most power efficient chips in the world, right. 
+[53:37] **Shawn**: Basic science. Yeah. When you buy smartphones, we are funding research into making the smallest chips and most power efficient chips in the world, right.
 
 [53:46] **Henry**: Yeah. Just the way people think about interactivity and design.
 
-[53:53] **Henry**: One of the problems that we have with tech is like the idea of presence and immersion and participation, then I think involving the person more is a good thing, sort of passive consumption, right. I think games help with that. 
+[53:53] **Henry**: One of the problems that we have with tech is like the idea of presence and immersion and participation, then I think involving the person more is a good thing, sort of passive consumption, right. I think games help with that.
 
 [54:06] **Henry**: I mean, a lot of times it's very trivial, right. You just kind of clicking on things, but how do we make it so that something real is happening there.
 
@@ -951,11 +951,11 @@ embedUrl: https://share.transistor.fm/s/4fad5d14
 
 [54:14] **Shawn**: Emojis are good.
 
-[54:15] **Shawn**: I think I was actually reflecting that probably one of the best ways of expressing without  plus one everywhere is emoji. People can express a lot of things with just like five or six, whatever they give us.
+[54:15] **Shawn**: I think I was actually reflecting that probably one of the best ways of expressing without plus one everywhere is emoji. People can express a lot of things with just like five or six, whatever they give us.
 
-[54:26] **Henry**: I guess even pictures of memes, I guess that's why people like those. 
+[54:26] **Henry**: I guess even pictures of memes, I guess that's why people like those.
 
-[54:31] **Shawn**: it says a lot 
+[54:31] **Shawn**: it says a lot
 
 [54:31] **Henry**: Instead of just like typing out something like good job. That's interesting.
 

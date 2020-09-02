@@ -5,7 +5,7 @@ date: "2020-05-13"
 time: "54"
 description: "Is programming all digital or do we still have embodied roots? How does this affect how we write, teach, and learn code? Maggie Appleton joins Henry again to discuss everything metaphors (basically everything). We chat about mental models and abstraction, Polanyi, Cartesian dualism, auto ethnography, knowledge, cats!"
 episodeLink: d870c501
-embedUrl: https://share.transistor.fm/s/33bb512b
+embedUrl: https://share.transistor.fm/e/33bb512b
 ---
 
 ### Transcript

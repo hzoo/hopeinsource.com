@@ -5,7 +5,7 @@ date: "2019-07-15"
 time: "75"
 description: "How should we think about saving something forever? Jonathan Farbowitz (Guggenheim) continues the on-going discussion of software preservation with Henry in talking about the goals of museums, the hard (and maybe impossible) task of keeping something intact, the norms and steps of conservation, comparing physical and digital artwork, the importance of authors in conserving a piece, emulation vs. language porting (rewrites), a discussion about an art's 'dependencies', possibly adding automated testing, and deprecations/breakages in environments/standards."
 episodeLink: f74a2cda
-embedUrl: https://share.transistor.fm/s/cde0eb06
+embedUrl: https://share.transistor.fm/e/cde0eb06
 ---
 
 ### Transcript

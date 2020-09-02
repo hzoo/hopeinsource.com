@@ -5,7 +5,7 @@ date: "2020-07-23"
 time: "63"
 description: "What happens to our religions when they meet the Internet? Tara Isabella Burton joins Henry to chat about her new book, Strange Rites: New Religions for a Godless World. They chat about our failing institutions, taking fandoms like Harry Potter seriously, how we all remix religion, how consumerism infects all of life, on embodiment and givenness, and most importantly, what is our freedom even for?"
 episodeLink: "0f941cd6"
-embedUrl: https://share.transistor.fm/s/40b0aef1
+embedUrl: https://share.transistor.fm/e/40b0aef1
 ---
 
 ### Transcript

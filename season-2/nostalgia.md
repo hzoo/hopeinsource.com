@@ -5,7 +5,7 @@ date: "2020-05-26"
 time: "76"
 description: "Why attempt to faithfully recreate the past? Jordan Scales joins Henry to chat about design systems, being pixel perfect, accessibility, the Microsoft Windows User Experience reference manual, using VMs, MSPaint and Figma, whimsy and having fun with coding, creating satire at no one's expense, and even how Babel's Guy Fieri meme could of been Jeff Goldblum in another universe."
 episodeLink: 8b00cb5a
-embedUrl: https://share.transistor.fm/s/e7a1abae
+embedUrl: https://share.transistor.fm/e/e7a1abae
 ---
 
 ### Transcript

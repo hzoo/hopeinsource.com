@@ -5,7 +5,7 @@ date: "2020-08-28"
 time: "43"
 description: "Do we think about how the places in which we live are passed down? Both Bernardo Robles Hidalgo (architect) and Marianita Palumbo (anthropologist) join Henry to chat about living as maintenance. We discuss Bosch, responsibility of taking care of the places we live in, on our desire for comfort, the right to repair, the aesthetic of maintenance, and communal living. (recorded in February)"
 episodeLink: "841541a0"
-embedUrl: https://share.transistor.fm/s/5c511f38
+embedUrl: https://share.transistor.fm/e/5c511f38
 ---
 
 ### Transcript
