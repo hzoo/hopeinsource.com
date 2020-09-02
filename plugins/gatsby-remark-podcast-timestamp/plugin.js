@@ -64,7 +64,7 @@ module.exports = ({ markdownAST }, pluginOptions) => {
     };
     if (speakerOrder.indexOf(name) === 0) {
       node.data.hProperties.className.push("right");
-    } else if (speakerOrder.indexOf(name) === 1) {
+    } else if (speakerOrder.indexOf(name) > 1) {
       node.data.hProperties.className.push("other");
     }
   });
