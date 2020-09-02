@@ -1,5 +1,5 @@
 ---
-title: "MA14: Open Knowledge"
+title: "MA 14: Open Knowledge"
 season: 2
 date: "2020-09-02"
 time: "54"
