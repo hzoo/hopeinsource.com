@@ -135,7 +135,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [06:21] **Shawn**: I joined when we were maybe 30, 40,000 people, and now it's coming up to 200,000.
 
-[06:26] **Shawn**: And that's not me, right? That's that's just like the growth of React's popularity. I actually charted it once and it's round about 70% a year growth every year across GitHub, NPM and React reddit and what have you. So it's just an organic growth from people learning react. Feels like react is taking over, but actually there's tons of people who are still learning, right and still getting started.
+[06:26] **Shawn**: And that's not me, right? That's that's just like the growth of React's popularity. I actually charted it once and it's round about 70% a year growth every year across GitHub, NPM and React reddit and what have you. So it's just an organic growth from people learning React. Feels like React is taking over, but actually there's tons of people who are still learning, right and still getting started.
 
 [06:50] **Shawn**: So I was an active moderator for two years, ish. I've been on reddit for like two years before that.
 
@@ -183,7 +183,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [08:30] **Shawn**: And then if you answer enough questions, you can see that you're repeating yourself, you make it a blog post, and then you can just like copy and paste, right.
 
-[08:39] **Shawn**: Actually, if anyone is looking to get started in react or just any technology, you just go answer questions enough. And then the best questions become your blog post, and then you build your reputation that way. It's not that mysterious, right.
+[08:39] **Shawn**: Actually, if anyone is looking to get started in React or just any technology, you just go answer questions enough. And then the best questions become your blog post, and then you build your reputation that way. It's not that mysterious, right.
 
 [08:51] **Henry**: That makes sense. I know Logan, who was a core Babel maintainer, basically did the same thing except with Slack. We had our just real time chat and then he just answered people's questions.
 
@@ -327,7 +327,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [15:51] **Shawn**: And I'm looking for that. I haven't found that yet.
 
-[15:55] **Shawn**: I always feel like, you know, cause I'm known for non-technical things. I'm known for like, okay, I manage the react community, whatever.
+[15:55] **Shawn**: I always feel like, you know, cause I'm known for non-technical things. I'm known for like, okay, I manage the React community, whatever.
 
 [16:01] **Shawn**: I speak a lot or whatever, but it's not really super technical. It's just like how to like, be super noisy as a dev.
 
@@ -421,9 +421,9 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [21:26] **Shawn**: It's also like copy and pasteable examples of common things that you're going to use. And the reason that React is never going to document in TypeScript is cause they use flow, right.
 
-[21:37] **Shawn**: And the reason that TypeScript is never going to document React is because they serve TypeScript. The TypeScript docs serve TypeScript users who are coming over from Node.js And just general JS Land. They don't have anything react specific.
+[21:37] **Shawn**: And the reason that TypeScript is never going to document React is because they serve TypeScript. The TypeScript docs serve TypeScript users who are coming over from Node.js And just general JS Land. They don't have anything React-specific.
 
-[21:49] **Shawn**: So I found the hole where it was just like an intersection of React doesn't do this Typescript doesn't do this, but there are a lot of me who are like React and TypeScript people.
+[21:49] **Shawn**: So I found the hole where it was just like an intersection of React doesn't do this TypeScript doesn't do this, but there are a lot of me who are like React and TypeScript people.
 
 [21:56] **Shawn**: And why not just create the docs for us? And so like it started copying pasting, and then now a whole bunch of it's like been translated into two other languages and it strikes a nerve because it's underserved.
 
@@ -507,7 +507,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [26:36] **Shawn**: They just have different priorities, right. They're trying to maintain their thing and they don't have you at heart and that's fine.
 
-[26:43] **Shawn**: So I basically extended that approach to design. So I called it spark-joy, and that's just like a collection of design tools and that one got picked up by Addy Osmani. That one got attention, cause Addy just tweets really awesome stuff. So that was probably like one of the highlights of my like open source knowledge career.
+[26:43] **Shawn**: So I basically extended that approach to design. So I called it spark-joy, and that's just like a collection of design tools and that one got picked up by Addy Osmani. That one got attention, 'cause Addy just tweets really awesome stuff. So that was probably like one of the highlights of my like open source knowledge career.
 
 [27:00] **Shawn**: My designs suck, but I think that there's a market for design, for developers like me, who know they suck at design, but they want simple tricks.
 
@@ -529,23 +529,23 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [28:11] **Shawn**: It's an important thing to like, look ahead to like what you're painting yourself into, in your current job. And if you don't like that, then you have to pivot. Before you have no choice. It's just like unfortunate that people are pigeonholed into undesirable things within a company. And then once you're in there, you kind of have no way to leave and it's just kind of nasty.
 
-[28:32] **Shawn**: But anyway, like everything is a CLA and I think people don't understand that even Babel's a CLI. We all use the same set of tools and no one ever documented them, so that was CLI cheat sheet.
+[28:32] **Shawn**: But anyway, like everything is a CLI and I think people don't understand that even Babel's a CLI. We all use the same set of tools and no one ever documented them, so that was CLI cheat sheet.
 
-[28:41] **Shawn**: It's not as popular as the other ones, but no JavaScript course will tell you that chokidar is what you use for fire watching, but everyone uses chokidar and it's like, where are the edge cases and you have to use something else. There's all these like, small little cross-platform nuances that like, nobody writes down, but I just wrote it down for myself, you know.
+[28:41] **Shawn**: It's not as popular as the other ones, but no JavaScript course will tell you that chokidar is what you use for file watching, but everyone uses chokidar and it's like, where are the edge cases and you have to use something else. There's all these like, small little cross-platform nuances that like, nobody writes down, but I just wrote it down for myself, you know.
 
 [28:59] **Henry**: Yeah. There's a lot of assumptions that people have that if you're in it, you know it, but no one writes it down.
 
-[29:06] **Shawn**: I think it makes syndrome syndrome knows all this stuff, right. Like the kind of stuff that he does, he knows all of this. Like I know utils goodness. Right? Because he made most of that, but he doesn't write it down. He just like opened it up. This is yet another library. And if people have to go use this library or do they use a competitor to that?
+[29:06] **Shawn**: Like, Sindre knows all this stuff, right? Like the kind of stuff that he does, he knows all of this CLI utils goodness. Right? Because he made most of that, but he doesn't write it down. He just like, open-sources yet another library. And people have to go use this library or they use a competitor library.
 
-[29:24] **Shawn**: I agree. But then we just, I don't know why we use it. So might be a good idea to write down. I don't know.
+[29:24] **Shawn**: But then we just, I don't know why we use it. So might be a good idea to write down. I don't know.
 
 #### "Fresh notes"
 
-[29:31] **Shawn**: The last thing that I have you listed here is concurrent react notes. So I'm sure you know, this like whole hoo hah about concurrent react? It used to be async react, covering React Suspense and time slicing, now it's just suspense.
+[29:31] **Shawn**: The last thing that I have you listed here is Concurrent React notes. So I'm sure you know, this like whole hoo hah about Concurrent React? It used to be Async React, covering React Suspense and time slicing, now it's just Suspense.
 
-[29:42] **Shawn**: Used to be a super exciting thing in react. Now it's just super boring.
+[29:42] **Shawn**: Used to be a super exciting thing in React. Now it's just super boring.
 
-[29:46] **Shawn**: But I took it on myself to like be the central repo of knowledge for everything new in react, and I called it like fresh-async-react at the time.
+[29:46] **Shawn**: But I took it on myself to like be the central repo of knowledge for everything new in React, and I called it like fresh-async-react at the time.
 
 [29:55] **Shawn**: So the fresh repo idea was like a twist on Sindre's awesome repo. So awesome repo just like lists things that are awesome and maybe less awesome over time. Right.
 
@@ -553,7 +553,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [30:15] **Shawn**: Chronological means, okay, things that are three months ago, no longer relevant. So let's just delete all this stuff. So let's just like, keep it fresh. So that was essentially what I was doing there.
 
-[30:25] **Shawn**: And then it became concurrent react and became not so fresh anymore, so I just turned it into notes. And these were the unofficial documentation for confined reacts, and then they actually released the beta. So then I archived it.
+[30:25] **Shawn**: And then it became Concurrent React and became not so fresh anymore, so I just turned it into notes. And these were the unofficial documentation for Concurrent React, and then they actually released the beta. So then I archived it.
 
 [30:35] **Shawn**: And it's good to have projects that end. It's good to give closure to yourself, but then also to the people who might see it in future and go like, is this still maintained?
 
@@ -601,7 +601,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [32:29] **Henry**: What was it like, the difference between maintaining this meetup versus the first time. It's one thing to just be like, Oh, let's just meet up. But I want to continually do this.
 
-[32:38] **Shawn**: Yeah. I mean, the excitement definitely dropped off. We probably went from like 50 to like 30, but it'ss still there, you know.
+[32:38] **Shawn**: Yeah. I mean, the excitement definitely dropped off. We probably went from like 50 to like 30, but it's still there, you know.
 
 [32:44] **Shawn**: And then it's the classic difficulties of getting speakers and doing logistics and stuff. I was definitely kind of like one person on that for awhile.
 
@@ -719,7 +719,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [39:45] **Shawn**: Like when I heard that Vue 3 was being developed in closed source or whatever, I was like, yeah, that makes a lot of sense. And Evan got so much shit for that. And I think like, geez, these people just haven't really been involved in a real nitty gritty opensource thing.
 
-[40:02] **Shawn**: They just expect everything to be open. I don't know. I just no sympathy for that.
+[40:02] **Shawn**: They just expect everything to be open. I don't know. I just have no sympathy for that.
 
 [40:08] **Henry**: Yeah. I think it's very similar to TC39 proposals. When do you decide to use the feature when it's stage three. When's early too early and people are going to complain about everything. JavaScript's moving too fast or it's moving too slow. It's hard to like have a handle over the communication over any of this stuff.
 
@@ -837,13 +837,13 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [47:16] **Henry**: It kind of even goes back to what you were talking about, almost life cycle of code, you know, like life and death, rebirth, if you want to use that metaphor of programs. Just thinking about people and how they relate to code and the fact that it's about mental models and stuff like that. I hadn't been reading too much about like philosophy of code in that sense, but that was the most that I've seen for that kind of thing.
 
-[47:41] **Shawn**: Yeah. Do you think developers care, do you think were like married to incidental complexity. It's like, we're paid to do that, right? Okay, I'm glad they're shitty tools because then you need to hire people.
+[47:41] **Shawn**: Yeah. Do you think developers care? Do you think were like married to incidental complexity? It's like, we're paid to do that, right? Okay, I'm glad they're shitty tools because then you need to hire people.
 
-[47:54] **Henry**: You keep the job. I guess they're both true. No one's like intentionally be like, Oh, I'm going to make a tool that's hard or anything. That that would be weird.
+[47:54] **Henry**: You keep the job. I guess they're both true. No one's like intentionally be like, "Oh, I'm going to make a tool that's hard" or anything. That that would be weird.
 
 [48:01] **Henry**: But I think you kind of get used to how things are and how we see the things. Like our answer is the tool.
 
-[48:09] **Henry**: Maybe another book would be a tools for conviviality. People mentioned that one, a lot.
+[48:09] **Henry**: Maybe another book would be Tools for Conviviality. People mentioned that one, a lot.
 
 [48:14] **Shawn**: I've heard that one. I need to go look into that.
 
@@ -881,7 +881,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 [50:16] **Henry**: Like everyone's face is in a different place. You can't even have an order to it, but if you're in a 2D space, you could make an actual circle and then you could just be like, Oh, let's go counterclockwise or clockwise. Just like in real life.
 
-[50:29] **Henry**: I think that presents a better way of knowing where people are sort of thing in this virtual space versus just abstractly everywhere, right? .
+[50:29] **Henry**: I think that presents a better way of knowing where people are sort of thing in this virtual space versus just abstractly everywhere, right?
 
 [50:37] **Shawn**: It's good. We kind of have that in Figma. I don't know if you play around with Figma. Like this idea of cursors that represent people. Then people can kind of move around and communicate.
 
