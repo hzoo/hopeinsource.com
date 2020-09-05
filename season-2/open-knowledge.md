@@ -23,7 +23,7 @@ embedUrl: https://share.transistor.fm/e/4fad5d14
 
 #### Intro: Tumbling as an Alternative to Community Manager
 
-[00:00] **Henry**: Hey, this is Henry. I have with me, Sean.
+[00:00] **Henry**: Hey, this is Henry. I have with me, Shawn.
 
 [00:02] **Henry**: Tumbling. You just mentioned this to me. Do you want to explain what that is?
 
