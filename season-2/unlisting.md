@@ -4,7 +4,7 @@ season: 2
 date: "2020-09-16"
 time: "46"
 description: "Why would you choose to leave the public internet on your own terms? Philip Guo joins Henry (for the 2nd time) to chat about his recent choice to make a minimal public web presence after being on the web for many years. We discuss the logistics of removing social media (Twitter, Facebook, YouTube), moving to longer forms of media (podcasts, essays, books), making introductory content, recognizing different stages of your career, being out of touch, freeing your mind for the next thing, not being ashamed of previous work, taking time to reflect, and friction. (recorded in May)"
-episodeLink: "8673dbd2"
+episodeLink: "f86069d0"
 embedUrl: https://share.transistor.fm/e/38a62493
 ---
 
