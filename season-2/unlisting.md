@@ -1,5 +1,5 @@
 ---
-title: "MA 15: Philip Guo on Unlisting Yourself"
+title: "MA 15: Philip Guo (#2) on Unlisting Yourself"
 season: 2
 date: "2020-09-16"
 time: "46"
@@ -17,6 +17,8 @@ embedUrl: https://share.transistor.fm/e/38a62493
 
 </summary>
 
+- [3: Life After Digital Death)(https://hopeinsource.com/digital-death)
+- [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
 - [Philip's (minimal) website](https://pg.ucsd.edu/)
 
 </details>
