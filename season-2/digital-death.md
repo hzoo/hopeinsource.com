@@ -3,7 +3,7 @@ title: "MA 16: Philip Guo (#3) on Life After Digital Death"
 season: 2
 date: "2020-09-23"
 time: "33"
-description: "What's life after removing yourself for social media? Philip Guo joins Henry (the last in the trilogy) to chat about LIT, life after Twitter. We discuss being irrelevant, forcing yourself to think about different things, treating a newsletter like email, restraining your growth, moving to the digital suburbs, engaging with the past, directing your attention and production, being particular and local, making it normal again to not have to create. (recorded in July)"
+description: "What's life after removing yourself from social media? Philip Guo joins Henry (the last in the trilogy) to chat about LAT, life after Twitter. We discuss being irrelevant, forcing yourself to think about different things, treating a newsletter like email, restraining your growth, moving to the digital suburbs, engaging with the past, directing your attention and production, being particular and local, making it normal again to not have to create. (recorded in July)"
 episodeLink: "aa1d84f7"
 embedUrl: https://share.transistor.fm/e/a2900112
 ---
