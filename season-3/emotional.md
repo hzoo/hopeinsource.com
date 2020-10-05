@@ -29,7 +29,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [00:12] **Omar**: Yeah. I just left my job at Dynamicland. So I'm kind of been collecting my thoughts and it could be fun to go through some of what I've been thinking about.
 
-> [Dynamicland](https://dynamicland.org) maybe difficult to describe, as it's not just a program, it's also the building itself! I had a [chance](https://twitter.com/left_pad/status/1192511538541690880?s=20) to experience it thanks to Omar, but I recommend reading Carl Tashian's [post](https://tashian.com/articles/dynamicland/) on it!
+> [Dynamicland](https://dynamicland.org) may be difficult to describe, as it's not just a program, it's also the building itself! I had a [chance](https://twitter.com/left_pad/status/1192511538541690880?s=20) to experience it thanks to Omar, but I recommend reading Carl Tashian's [post](https://tashian.com/articles/dynamicland/) on it! You can also check out Omar's [writeup of Geokit](https://omar.website/posts/notes-from-dynamicland-geokit/), a map project he did at Dynamicland.
 
 [00:21] **Omar**: You know, I think one thing that's kinda unique that I do is use Twitter and screenshots that I take and chats with other people as my equivalent kind of note taking system. So there's a lot of just weird thoughts that I have floating around that I want to collate and see if there are any themes.
 
@@ -273,6 +273,8 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [18:22] **Omar**: Yeah. The other thing I was going to say about reading on the phone. One of the things that is always tempting to do is, to think of software in terms of discrete features, where you're like adding this feature to the next version, or this is the button that you use to access that feature.
 
+> "increasingly skeptical that 'features' is a good way to think about software" - [Omar](https://twitter.com/rsnous/status/1263212491808534528)
+
 [18:39] **Omar**: And I mean, I do this too, like in my own software, I often like fall into thinking of it in terms of features, but I think that's often too reductive. Like adding a feature, often changes what all the other features mean because it changed the whole user experience.
 
 [18:56] **Henry**: Right, that's like trying to apply like the whole is greater than the sum of its parts to the software development.
@@ -285,6 +287,8 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [19:51] **Omar**: Yeah. And I was wondering if part of the reason for this is that this sort of structure of the technology or the software is actually additive, right? Like to add a feature like, because you can add code, you kind of think of the effect of the code is also being additive.
 
+> "I also wonder if code encourages thinking in features: because 'adding' a 'feature' mostly involves adding extra code onto your program, you assume the resulting experience is also additive (but it isn't! you're changing the whole program's experience, not only the new piece)" - [Omar](https://twitter.com/rsnous/status/1287275307200688128)
+
 [20:06] **Henry**: Yeah, I think so. Something I was thinking about was like how religious institutions see technology. I was reading about Marshall McLuhan, and he had a lot of warnings about technology and how a lot of church people would just embrace it wholeheartedly, rather than kind of analyzing how that changes the experience of being in a building.
 
 [20:26] **Omar**: Right, almost even like treating technology as like this separate category from rituals, or art, or culture. Like almost that alone, there's already something there where you can feel like you either have to adopt it wholeheartedly or reject it wholeheartedly.
@@ -293,7 +297,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 #### Skeuomorphism to Flat: Building Off of Digital Literacy
 
-[20:52] **Omar**: I have a friend who talks about how using BitTorrent to pirate movies or music or whatever, it was only practical after people had already used Napster and Kazaa and these other services to pirate stuff. Because the audience had to learn these interactions and these way of doing things before you could introduce this BitTorrent way, which builds on the knowledge of the existing way.
+[20:52] **Omar**: I have a friend [[John Backus](https://twitter.com/backus)] who talks about how using BitTorrent to pirate movies or music or whatever, it was only practical after people had already used Napster and Kazaa and these other services to pirate stuff. Because the audience had to learn these interactions and these way of doing things before you could introduce this BitTorrent way, which builds on the knowledge of the existing way.
 
 [21:15] **Omar**: Another example, is if you remember computers in like the late 1990s, early two thousands, all the buttons were like 3d. They like stuck out of the toolbar, right. And then, you know, once people learned what things you could click on, they didn't have to be 3d anymore. Like now most of the buttons on your computer, they don't have those bezels.
 
@@ -351,7 +355,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 #### Tractability
 
-[26:48] **Omar**: I have a thread somewhere on Twitter where I was looking at this idea of tractability. There was a blog post that a economic historian wrote a year or two ago, where she is talking about, over the last hundred years, how have computers affected economics and how have they constrained economics?
+[26:48] **Omar**: I have a thread somewhere on Twitter where I was looking at this idea of tractability. There was a blog post that a economic historian [sic: should be 'historian of economics'] wrote a year or two ago, where she is talking about, over the last hundred years, how have computers affected economics and how have they constrained economics?
 
 > "👍 the hidden influence of tools & materials on practice. (in this case, the hidden influence of availability & nature of compute on the practice of economics + subsequent path dependence)" - [Omar](https://twitter.com/rsnous/status/1163105743148421121?s=20)
 
@@ -378,6 +382,10 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 [28:52] **Henry**: I guess another theme I saw. You were saying like a respect for how people feel or how they use computers. Cause I think, whoever it is, can be dismissive of anyone's actions or reactions to certain things. Oh, this is supposed to be the right way of doing things.
 
 [29:08] **Omar**: Yeah. I think one of the examples that I had was if somebody's making an HTML page and then just using bold tags or just like putting in-line CSS everywhere. And like, that's not what you're supposed to do, right? Like if you go on any tutorial, they'll tell you, you should make a separate CSS file or you should put everything in a style tag at the top and use classes.
+
+> "i love this -- the energy of using screenshots and camera roll for everything, or making your Web page with HTML tables / b and font tags / inline CSS instead of 'the way you're supposed to'" - [Omar](https://twitter.com/rsnous/status/1285565425376301058)
+
+[![image](https://pbs.twimg.com/media/Edc-UXiVAAECZ38?format=png&name=large)](https://twitter.com/rsnous/status/1285565425376301058)
 
 [29:25] **Omar**: But the fact that people want to do that. Like, there's something to learn from that. About what kinds of things people want to do, and how those aren't suited to the prescription.
 
@@ -412,6 +420,8 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 #### Really Fine Grain Open Source
 
 [31:47] **Omar**: Yeah. I mean, I was complaining earlier about how.. We talked about this earlier today. If you're using an open source library and it doesn't do something that you need, it's really hard to, even if it's totally open source and you have all the freedom to fork it and modify the code.
+
+> "I have a lot of problems with open source as-is as a solution to this -- I think it's hugely more difficult and takes a lot more willpower to fork a library or send a pull request than to change something in your own code. you really have to go out of your way" - [Omar](https://twitter.com/rsnous/status/1292639339730542593)
 
 [32:01] **Omar**: It's like still a lot harder than if you're just changing something in your own project. I think in some sense, the grain of opensource is too coarse or too big. I think I want to play around more with like really fine grain open source. That's where it is sort of at the line of code level or the cell level with a spreadsheet. And that's the level that you're working with people at.
 
@@ -449,7 +459,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [35:31] **Omar**: Yeah. Once I kind of started introspecting about like, what am I thinking and feeling when I'm programming and why am I not doing things? I noticed that there were all these weird emotional forces that are really determinative of what I'm doing at any given time.
 
-> Need to find this tweet!
+> "when I used to TA intro systems programming, kids similarly dreaded using gdb -- they would do almost anything, even if it took way longer and they were completely stuck, to avoid breaking it out" - [Omar](https://twitter.com/rsnous/status/1257165574032879616)
 
 [35:45] **Omar**: And I originally noticed the debugger thing, I tweeted about this, because I was TAing a class in college with freshmen and sophomores who were learning how to program in C and they hated using the debugger. Like they would do almost anything to avoid, to avoid having to pull up the debugger. And again, it's always tempting to tell them. we did usually tell them, like, why don't you open the debugger? But I think at the same time, there's something to learn from that. Like, why don't people want to use the debugger?
 
