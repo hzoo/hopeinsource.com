@@ -297,7 +297,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 #### Skeuomorphism to Flat: Building Off of Digital Literacy
 
-[20:52] **Omar**: I have a friend [[John Backus](https://twitter.com/backus)] who talks about how using BitTorrent to pirate movies or music or whatever, it was only practical after people had already used Napster and Kazaa and these other services to pirate stuff. Because the audience had to learn these interactions and these way of doing things before you could introduce this BitTorrent way, which builds on the knowledge of the existing way.
+[20:52] **Omar**: I have a friend \[[John Backus](https://twitter.com/backus)\] who talks about how using BitTorrent to pirate movies or music or whatever, it was only practical after people had already used Napster and Kazaa and these other services to pirate stuff. Because the audience had to learn these interactions and these way of doing things before you could introduce this BitTorrent way, which builds on the knowledge of the existing way.
 
 [21:15] **Omar**: Another example, is if you remember computers in like the late 1990s, early two thousands, all the buttons were like 3d. They like stuck out of the toolbar, right. And then, you know, once people learned what things you could click on, they didn't have to be 3d anymore. Like now most of the buttons on your computer, they don't have those bezels.
 
@@ -355,7 +355,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 #### Tractability
 
-[26:48] **Omar**: I have a thread somewhere on Twitter where I was looking at this idea of tractability. There was a blog post that a economic historian [sic: should be 'historian of economics'] wrote a year or two ago, where she is talking about, over the last hundred years, how have computers affected economics and how have they constrained economics?
+[26:48] **Omar**: I have a thread somewhere on Twitter where I was looking at this idea of tractability. There was a blog post that a economic historian \[sic: should be 'historian of economics'\] \[[Beatrice Cherrier](https://twitter.com/undercoverhist)\] wrote a year or two ago, where she is talking about, over the last hundred years, how have computers affected economics and how have they constrained economics?
 
 > "👍 the hidden influence of tools & materials on practice. (in this case, the hidden influence of availability & nature of compute on the practice of economics + subsequent path dependence)" - [Omar](https://twitter.com/rsnous/status/1163105743148421121?s=20)
 
