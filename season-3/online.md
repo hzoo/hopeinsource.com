@@ -1,5 +1,5 @@
 ---
-title: "S3E3: Very Online (Strange Rites)"
+title: "Very Online (Strange Rites)"
 season: 3
 date: "2020-07-23"
 time: "63"

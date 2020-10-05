@@ -1,5 +1,5 @@
 ---
-title: "S3E1: Legacy"
+title: "Legacy (Timothy Patitsis)"
 season: 3
 date: "2020-06-01"
 time: "48"

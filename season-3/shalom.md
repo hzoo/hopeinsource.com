@@ -1,5 +1,5 @@
 ---
-title: "S3E2: Towards Shalom"
+title: "Towards Shalom (Nicole Williams)"
 season: 3
 date: "2020-07-08"
 time: "56"

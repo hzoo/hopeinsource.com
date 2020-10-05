@@ -1,5 +1,5 @@
 ---
-title: "S3E5: Inhabiting Heritage"
+title: "Inhabiting Heritage (Bernardo Hidalgo, Marianita Palumbo)"
 season: 3
 date: "2020-08-28"
 time: "43"

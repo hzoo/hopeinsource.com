@@ -1,5 +1,5 @@
 ---
-title: "S3E4: Managing Over-Participation (Working in Public)"
+title: "Managing Over-Participation (Working in Public)"
 season: 3
 date: "2020-08-04"
 time: "47"
