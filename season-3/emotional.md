@@ -1,5 +1,5 @@
 ---
-title: "S3E6: Emotional Programming (Omar Rizwan)"
+title: "Emotional Programming (Omar Rizwan)"
 season: 3
 date: "2020-10-05"
 time: "40"
@@ -48,6 +48,10 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 [01:02] **Omar**: It's more like whenever I see a list of things on my computer, I'm always like how can this instead be a spatial thing? How can I physicalize something? Or if there's some system where there's a bunch of configuration, how can I instead just make that something where people could reprogram it directly?
 
 > "I like the idea of getting a separate Raspberry Pi to host each website I make, so there ends up being like a shelf in my apartment with a bunch of websites sitting on it" - [Omar](https://twitter.com/rsnous/status/1262140583755132929?s=20)
+
+> "I wonder if I could have an email inbox that's like a desktop, where each email is an icon or something. spatial. so I can drag & cluster emails about an upcoming conference together in one corner, newsletters I want to read at the bottom edge, work emails in another corner, etc" - [Omar](https://twitter.com/rsnous/status/1251249279718420481)
+
+> "thinking about how the Apple Lisa let you have multiple files with the same name in the same folder. because why not? you can distinguish them by putting them in different spots in the folder!" - [Omar](https://twitter.com/rsnous/status/1215391056667299841)
 
 #### What's Wrong with Lists?
 
@@ -348,6 +352,8 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 #### Tractability
 
 [26:48] **Omar**: I have a thread somewhere on Twitter where I was looking at this idea of tractability. There was a blog post that a economic historian wrote a year or two ago, where she is talking about, over the last hundred years, how have computers affected economics and how have they constrained economics?
+
+> "👍 the hidden influence of tools & materials on practice. (in this case, the hidden influence of availability & nature of compute on the practice of economics + subsequent path dependence)" - [Omar](https://twitter.com/rsnous/status/1163105743148421121?s=20)
 
 [27:06] **Omar**: Because, you know, if you're an economist, you often are doing a lot of calculations on data. You're trying to like figure things out. And you're often using computers to do that, right? Like for the last 50 years or so, that's been one of the uses of computers. So how has the tractability of, things like what things are easy to calculate, how has that affected the field of economics?
 
