@@ -35,7 +35,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 > A screenshot of a chat bubble saying: "imagining growing a router. you like get this blob of clay and stick an Ethernet cable from your laptop into it, and stick another Ethernet cable from your modem into it on other side. and then you try to browse the Web on your laptop and like tune the blob of cluy until it's a working router." - [Omar](https://twitter.com/rsnous/status/1312546643426775041?s=20)
 
-[![image](https://user-images.githubusercontent.com/588473/95118854-fa9af180-0718-11eb-9b58-7a9c341ff98a.png)](https://twitter.com/rsnous/status/1312546643426775041?s=20)
+[![A screenshot of a chat bubble](https://user-images.githubusercontent.com/588473/95118854-fa9af180-0718-11eb-9b58-7a9c341ff98a.png)](https://twitter.com/rsnous/status/1312546643426775041?s=20)
 
 [00:38] **Henry**: And how long were you at Dynamicland anyway?
 
@@ -57,9 +57,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [01:17] **Henry**: Right, because you tweeted that recently too, tyranny of lists.
 
-> A screenshot with a Google search of "the tyranny of lists" with 320k results.
-
-[![image](https://user-images.githubusercontent.com/588473/95119801-90834c00-071a-11eb-9cc8-de45195a7073.png)](https://twitter.com/rsnous/status/1290668662949462016?s=20)
+[![A screenshot with a Google search of "the tyranny of lists" with 320k results](https://user-images.githubusercontent.com/588473/95119801-90834c00-071a-11eb-9cc8-de45195a7073.png)](https://twitter.com/rsnous/status/1290668662949462016?s=20)
 
 [01:20] **Omar**: Yeah. And these are the things where hopefully, it turns out a lot simpler if you apply this way of thinking to the problem?
 
@@ -73,7 +71,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [02:06] **Omar**: Often if you have a list of emails, you know, you can't put emails that belong together, together. You can't space them different distances from each other. Because everything is the same, it is uniform with space. If it's sorted, then you don't even have control of what order they’re in.
 
-![](https://lh3.googleusercontent.com/wlf842vsNrbW70WRloE0LzJVOJfoL4lYMbqOEebLudfLr91bLou7Sb6Hu7f5C_uP9femGOjfLdns4B9q5rdzVBHx9NIGvOayPqbvRQ=w790)
+![picture of a list of emails in gmail](https://lh3.googleusercontent.com/wlf842vsNrbW70WRloE0LzJVOJfoL4lYMbqOEebLudfLr91bLou7Sb6Hu7f5C_uP9femGOjfLdns4B9q5rdzVBHx9NIGvOayPqbvRQ=w790)
 
 [02:21] **Omar**: And I think often the reason people use a list is like, it's not a great reason. It's that a list of something that's easy to do on the computer. Because like iOS gives you a list control or like you can make a HTML list element, or like your Mac finder uses lists by default. Or, you know, a list is easy to type in your word processor or a note taking app.
 
@@ -83,7 +81,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 > We were using [HackMD](https://hackmd.io) and Markdown to make a list of tweets, but I really wanted to be able to spatially drag in order to categorize them!
 
-![image](https://user-images.githubusercontent.com/588473/95120290-536b8980-071b-11eb-8fef-bde27e712c98.png)
+![screenshot of our HackMD list of tweets](https://user-images.githubusercontent.com/588473/95120290-536b8980-071b-11eb-8fef-bde27e712c98.png)
 
 [03:02] **Omar**: Yeah. Sometimes now when I'm looking at my email, I see like an email from a week ago and an email from a month ago. They're kind of about the same thing and yet I'm like, why can't I drag these to be together?
 
@@ -153,7 +151,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 > [Screenotate](https://screenotate.com) saves the screenshot (and other metadata) as well as the text via OCR for easier search. Here's a metadata example below:
 
-![image](https://user-images.githubusercontent.com/588473/95122652-d3dfb980-071e-11eb-88fa-0b9bb5a964fd.png)
+![screenshot of screenotate's output for the text above](https://user-images.githubusercontent.com/588473/95122652-d3dfb980-071e-11eb-88fa-0b9bb5a964fd.png)
 
 [09:14] **Henry**: I think you had a tweet about that too, right? It was designing for yourself, like Apple.
 
@@ -225,7 +223,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [14:40] **Henry**: Cause you mentioned religious texts. You have a lot of tweets around like books. One of them was a picture of the Quran and there was gold and when you see it in real life, it glimmers. But in a 2D environment, you lose that information because it's just the picture.
 
-![image](https://user-images.githubusercontent.com/588473/95123250-a6474000-071f-11eb-9ebf-a10847be83bd.png)
+![quran with glimmering gold lettering](https://user-images.githubusercontent.com/588473/95123250-a6474000-071f-11eb-9ebf-a10847be83bd.png)
 
 > "I bet that the power of the gold lettering is much diminished when you view it as flat images on your screen. I bet it'd be far more striking in person. like, the gold would catch the light more than everything else on the page, and it'd shine differently from different angles…" - [Omar](https://twitter.com/rsnous/status/1254406794174009344?s=20)
 
@@ -233,7 +231,7 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 > "I was in this big cathedral just after sunrise a few months ago and was looking at the murals. this is a crappy photo but see how much the halos stick out because of their gold texture and the light conditions!!" - [Omar](https://twitter.com/rsnous/status/1254557768834363392)
 
-![image](https://user-images.githubusercontent.com/588473/95123390-e1497380-071f-11eb-8402-25c55e6d2a31.png)
+![cathedral painting with gold halos](https://user-images.githubusercontent.com/588473/95123390-e1497380-071f-11eb-8402-25c55e6d2a31.png)
 
 [15:12] **Omar**: I think in tech especially, it's always very tempting to set up this binary between the content and the presentation. Right now we're going to just work on the content and the presentation lives somewhere else and they're totally independent.
 
@@ -385,7 +383,9 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 > "i love this -- the energy of using screenshots and camera roll for everything, or making your Web page with HTML tables / b and font tags / inline CSS instead of 'the way you're supposed to'" - [Omar](https://twitter.com/rsnous/status/1285565425376301058)
 
-[![image](https://pbs.twimg.com/media/Edc-UXiVAAECZ38?format=png&name=large)](https://twitter.com/rsnous/status/1285565425376301058)
+> "So this was a big lesson to me. Of course doing it by hand on a computer may not be, you know, the perfection that computers are capable of, but it's much better than doing it by hand in hot metal. So it was a big improvement step for him, and I completely ignored that intermediate possibility in my wish to have the perfection, and I didn't even recognize that it would be exploited, and it was just a big lesson to me that less than perfect is still valuable, and in fact perfection sometimes, it delays things so much that meanwhile people keep suffering under the kind of the old methods" - [Simonyi, page 26](https://archive.computerhistory.org/resources/access/text/2015/06/102702232-05-01-acc.pdf)
+
+[![screenshot of text from Simonyi on printers](https://pbs.twimg.com/media/Edc-UXiVAAECZ38?format=png&name=large)](https://twitter.com/rsnous/status/1285565425376301058)
 
 [29:25] **Omar**: But the fact that people want to do that. Like, there's something to learn from that. About what kinds of things people want to do, and how those aren't suited to the prescription.
 
@@ -473,9 +473,9 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 #### Being Immediately Useful
 
-[36:57] **Omar**: It also reminds me, you know, there's a great book by Bonnie Nardi, who's an anthropologist on end-user programming. And she points out that this is kind of the genius of spreadsheets.
+[36:57] **Omar**: It also reminds me, you know, there's a great book \[A Small Matter of Programming\] by Bonnie Nardi, who's an anthropologist on end-user programming. And she points out that this is kind of the genius of spreadsheets.
 
-![image](https://user-images.githubusercontent.com/588473/95124439-6f722980-0721-11eb-9472-07be9d8e1f48.png)
+![cover art of the book, A Small Matter of Programming](https://user-images.githubusercontent.com/588473/95124439-6f722980-0721-11eb-9472-07be9d8e1f48.png)
 
 [37:05] **Omar**: Like you open up your spreadsheet. You start typing your data, your list of things, and like it's immediately useful. You don't have to initialize a new project. You don't have to write a bunch of code so that things will appear on the screen. Things are on the screen from the beginning. From the beginning, you're already working in your domain, you already have your stuff that you actually care about in the system.
 
@@ -485,7 +485,9 @@ embedUrl: https://share.transistor.fm/e/3120d5ff
 
 [37:45] **Omar**: Yeah. Well there was an interesting demo by Yoshiki Schmitz, who's one of these kinds of people in our Twitter community. It's a prototype of a way to turn JSON data into an interface. Maybe you have data of a bunch of apartments and you want to turn it into an Airbnb type of interface.
 
-[![image](https://user-images.githubusercontent.com/588473/95124614-ad6f4d80-0721-11eb-8667-989bc4f69506.png)](https://twitter.com/yoshikischmitz/status/1176642448077967362?s=20)
+> "I've been jamming on this concept for making data-driven designs. Given some JSON, this app will provide you with an interface to describe how you want each entry styled, allowing you to gradually create a more complicated design. Here I create an airbnb-ish app." - [Yoshiki](https://twitter.com/yoshikischmitz/status/1176642448077967362?s=20)
+
+[![tweet of Yoshiki's demo](https://user-images.githubusercontent.com/588473/95124614-ad6f4d80-0721-11eb-8667-989bc4f69506.png)](https://twitter.com/yoshikischmitz/status/1176642448077967362?s=20)
 
 [38:06] **Omar**: I don't know if you've seen this, and the way it works is like, His prototype, basically you import the JSON and then it immediately renders all of it on the screen. It's like a list of stuff. And then you can incrementally tweak the way that list looks into the interface you actually want. So you never have to write that loop of making all the elements. You start out with all the elements.
 
