@@ -25,8 +25,6 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 </details>
 
-S3E7: Natural Limits
-
 [00:00] **Henry**: So I have with me, Michael Sacasas. He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, The Convivial Society.
 
 #### Games and Virtue
