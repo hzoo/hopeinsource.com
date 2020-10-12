@@ -19,6 +19,7 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 - Michael's [Twitter](https://twitter.com/lmsacasas)
 - Michael's Newsletter: [The Convivial Society](https://theconvivialsociety.substack.com/about?utm_source=menu-dropdown)
+- Newsletter: [Fortnite and the Good Life](https://theconvivialsociety.substack.com/p/the-convivial-society-no-15)
 - Newsletter: [Children and Technology](https://theconvivialsociety.substack.com/p/children-and-technology)
 - Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 - Video version on [Youtube](https://www.youtube.com/watch?v=fojoWc1oCeQ)
@@ -95,7 +96,7 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 > "The focus isn’t on “parenting” as an activity, but on being a parent as a relationship structured by love." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
-[06:22] **Michael**: So there's a limit to your ability to generate the product that you desire here. Even using that language, I think, betrays the temptation. And so understanding that, you know, you can care for and provide an environment conducive to their flourishing, speaking of children now, just as you worked for a plant. That's a very different kind of way of thinking about the child.
+[06:22] **Michael**: So there's a limit to your ability to generate the product that you desire here. Even using that language, I think, betrays the temptation. And so understanding that, you know, you can care for and provide an environment conducive to their flourishing, speaking of children now, just as you would for a plant. That's a very different kind of way of thinking about the child.
 
 [06:43] **Michael**: It goes back to the division that's really fundamental. I think we talked about this last time we talked. This fundamental sort of division between what you receive as a gift and what you only experience as something that you made, that you control, that you master. That divide, I think, runs through those two kinds of modes of parenting as well. Yeah.
 
@@ -316,6 +317,9 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 [29:06] **Michael**: And so you saw death, right? This is the point, right. Death was amongst you, right? Now we cordon it off, right? It happens out of sight. There's a kind of taboo to it, and we have, I think, a difficult time reckoning with its presence emotionally, psychologically in our lives.
 
 [29:27] **Michael**: And Hannah Arendt talks about this too, how in the modern world, biological life becomes the highest value. And it basically trumps everything, every other value. So there are a lot of different theoretical strands that kind of land at the same place, which is, you know, that we now view biological life as this thing to be preserved at all costs, right. And that this is a, in some respects, a uniquely modern attitude.
+
+> "We saw before that in the rise of society it was ultimately the life of the species which asserted itself." - Hannah Arendt, The Human Condition pg 321
+> "Society" is a technical term in the book, but it arises only in modern world. By "life of the species" she is referring to mere biological life - Michael
 
 [29:58] **Henry**: Yeah. I was thinking about how you said we don't really see it. And I was thinking, we don't really see it coming too in a way, because. People live in different places, the way you find out is like through a phone call or something. Whereas before if you were living together..
 
