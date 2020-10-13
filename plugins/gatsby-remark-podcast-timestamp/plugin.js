@@ -41,7 +41,6 @@ module.exports = ({ markdownAST }, pluginOptions) => {
     node.children = [
       {
         type: "html",
-        children: undefined,
         value: `<a href="#t=${timestamp}"><span class="timestamp">${timestamp} 🕐</span></a>`,
       },
       {
@@ -56,7 +55,6 @@ module.exports = ({ markdownAST }, pluginOptions) => {
       },
     ];
 
-    node.type = "paragraph";
     node.data = {
       hProperties: {
         className: ["wrap"],
