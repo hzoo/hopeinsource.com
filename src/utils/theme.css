@@ -140,6 +140,7 @@ footer {
   box-shadow: inherit;
   color: inherit;
   text-decoration: inherit;
+  text-decoration-line: underline;
 }
 .text {
   padding: 10px;

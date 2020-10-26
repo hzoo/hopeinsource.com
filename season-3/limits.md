@@ -26,17 +26,21 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 </details>
 
-[00:00] **Henry**: So I have with me, Michael Sacasas. He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, The Convivial Society.
+[00:00] **Henry**: So I have with me, [Michael Sacasas](https://thefrailestthing.com). He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, [The Convivial Society](https://theconvivialsociety.substack.com).
 
 #### Games and Virtue
 
 [00:12] **Henry**: But the thing that caught my attention was when you wrote [Fortnite and the Good Life](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life).
 
+> "Naturally, then, such public debates, and consequently are own habits of moral reasoning, get locked into matters of measurable—which is to say supposedly objective, scientifically verifiable—harm." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
+
 [00:16] **Michael**: As I said in that little newsletter, gaming is not my beat. So I wrote that with a little bit of trepidation, making a very specific point, but yeah.
+
+> "I'm not entirely sure what my beat is, but it's not gaming" - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
 [00:24] **Henry**: Maybe a common view of gaming, especially for people that don't necessarily play games, is something like: a lot of video games are violent and that's not good for you, so video games are bad. And it's very like a simple view of gaming, right?
 
-> "When parents and other concerned adults—recall Hillary Clinton's mid-2000s criticism of Grand Theft Auto—worry about games they are usually worried about violent or sexualized content." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
+> "When parents and other concerned adults—recall Hillary Clinton's mid-2000s criticism of Grand Theft Auto—worry about games they are usually worried about violent or sexualized content."
 
 [00:40] **Henry**: But I guess you were trying to get across the point that maybe "Fortnite is bad" isn't really what you should be thinking. But rather the opposite question of: is Fortnite not just good, but does it promote a certain type of character in people when they're playing?
 
@@ -50,11 +54,13 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [01:29] **Michael**: My default here is to kind of think about these things through a kind of virtue ethic lens. We're kind of asking the question constantly, right? Not as is this one thing right or wrong necessarily, although that's an important question to ask, but what kind of person am I becoming? What kind of habits am I inculcating? What will those habits make of me in the long run?
 
+> "(I don't know that I've made my assumptions on these matters explicit in writing anywhere, but much of what I do write about technology tends to draw on the tradition of virtue ethics. The idea is simple: we are always becoming who we will be and that becoming is correlated to our practices and the technologies or material realities that sustain them.)" - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
+
 [01:49] **Michael**: And then we're also sort of asking, not just am I avoiding bad things, but am I pursuing good things, virtuous things. So that's a frame that doesn't offer a simplistic answer. You don't just sort of insert Fortnite into that and come out with a yes, play it; no, don't play it, kind of response, right.
 
-> "..with regards to both gaming and other forms of technology, I'm chiefly struck by the limited scope of our moral reasoning. As with so many discussions about the moral or ethical status of technology, we are focused on questions of harm Indeed, we might even say that we are focused on questions of measurable harm. In this way, debates of this sort already play out on ground circumscribed by a certain technocratic vision." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
-
 [02:07] **Michael**: But I think it helps fill out.. give more thickness to the moral reflection that might be involved, right. So it complicates it and highlights some ways about thinking about the problem, which are not, you know, again, easily reducible to a set of rules: just play for 20 minutes a day and you'll be okay.
+
+> "..with regards to both gaming and other forms of technology, I'm chiefly struck by the limited scope of our moral reasoning. As with so many discussions about the moral or ethical status of technology, we are focused on questions of harm Indeed, we might even say that we are focused on questions of measurable harm. In this way, debates of this sort already play out on ground circumscribed by a certain technocratic vision."
 
 #### Social Gaming
 
@@ -66,9 +72,13 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [03:08] **Michael**: Yeah. And even sort of what desires is it fulfilling? What role is it playing in a social life? One of the interesting dynamics about gaming today is the kind of sociality that it inculcates.. I was about to say that it has a social dimension, but I corrected myself because when I played with my friends, it had a social dimension.
 
+> "Let us quickly acknowledge that playing Fortnite is not a disembodied experience." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
+
 [03:24] **Michael**: You know, we were all there in a room playing together and it was a kind of artifact around which a certain kind of social interaction formed.
 
 [03:31] **Michael**: Now that social interaction is happening in a different mode and a different shape. And I think asking the question, what are the outcomes of this? What are the differences? And paying close attention to, as you say, how this is being used, I think is always important.
+
+> "We're left needing to pay close attention to how playing Fornite is a differently embodied experience than gathering at the mall or attending a church service or dropping in at a cocktail party, and then determining the significance of that difference." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
 [03:46] **Henry**: There was a trend of like this idea of couch play. Oh, actually before that would have been like arcades, right? And that was a certain experience where you had to go somewhere and actually a place to meet people. And eventually, we had home consoles where you would have LAN parties where you bring your computers. That was a communal experience.
 
@@ -83,6 +93,8 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 [04:49] **Michael**: So that space and that kind of activity reverts to an analog medium, in that context. Yeah. I don't have any more thoughts on that at the moment, except maybe to connect with the trend towards vinyl records as a medium of choice for some people. Just interesting ways in which, you know, analog kind of reappears, yeah.
 
 #### Gardeners and Carpenters
+
+> Newsletter: ["Children and Technology"](https://theconvivialsociety.substack.com/p/children-and-technology)
 
 [05:07] **Henry**: Yeah. You brought up kids. I think you had an interesting [post](https://theconvivialsociety.substack.com/p/children-and-technology) recently about your thoughts as a parent. So I went home for a while, so I got to live with my parents for a few months. And I was just thinking about how they're still gonna treat you like a kid, even though you're an adult. And I even showed them the article. I really appreciated the metaphor of the carpenter and the gardener.
 
@@ -100,11 +112,15 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [06:43] **Michael**: It goes back to the division that's really fundamental. I think we talked about this last time we talked. This fundamental sort of division between what you receive as a gift and what you only experience as something that you made, that you control, that you master. That divide, I think, runs through those two kinds of modes of parenting as well. Yeah.
 
+> "Of course, any discussion that starts with “There are two kinds of x” will undoubtedly have its limitations, but I think it’s useful to remember that we do not make our children, we receive them as gifts." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
+
 #### Technocratic Parenting
 
 [07:07] **Henry**: I think that relates a lot to the views of Illich, we're talking about treating people as commodities. In our computer age, you know, we like to think of everything as a machine.
 
 [07:17] **Michael**: Yeah. And I will say that sort of machine metaphor goes back much further. There's a rather well known French text from the 1700s called [Man as Machine](https://en.wikipedia.org/wiki/Man_a_Machine). And that metaphor is persistent to today and, you know, sort of changed in some respects under the old days we might have called cybernetic conditions.
+
+> "The human body is a machine which winds its own springs." - [Man a Machine](http://bactra.org/LaMettrie/Machine/)
 
 [07:35] **Michael**: That's one of the subtle ways in which our material environment kind of shapes how we think about ourselves and society. It's not by the direct effect of the tools necessarily. But it's what happens when they become metaphors from the human person for how society works, and then they become very powerful because these metaphors shape our imagination, our way of perceiving reality, or even of perceiving our own selves.
 
@@ -115,6 +131,8 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 [08:09] **Michael**: Right, some variation. And that happens then through our use of those tools, which is perhaps the most obvious ways in which that happens. So then what I'm suggesting is that it may happen in even more subtle ways when the tools become metaphors.
 
 [08:21] **Michael**: And to go back to the parenting question, right? So I wrote that newsletter in part, because, you know, as I mentioned in there, I get asked this question a lot and for a while, I didn't like to answer it because I didn't have kids. And, and I thought, well, you know, I'm not about to lecture parents about something I have very little experience with, or no experience with. But I felt a little bit of liberty now that I've got two of my own.
+
+> "Having now been a parent for nearly five years... of course, the questions have also taken on a more personal and urgent quality." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
 [08:41] **Michael**: But often what people want to know are very straightforward things. This goes back to the gaming question, even right. Just should I do it or not? You know, should I ban this game from my child's life? If I let them play, how many hours a day do I let them play right.
 
@@ -160,9 +178,11 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 #### Natural Scales and Limits
 
+> Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
+
 [13:03] **Michael**: And the connection to Ilich, just to kind of sneak him in at the moment. I think, you know, Illich was preoccupied, especially, through the seventies with the question of [limits](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections) and scale and threshold, right.
 
-[13:14] **Michael**: And I think this is really an essential point. It's one that I think is critical, the question of scale. Where the approach that you might take to consider the information ecosystem. Right? So in a pre-modern setting without the printing press site, right.
+[13:14] **Michael**: And I think this is really an essential point. It's one that I think is critical, the question of scale. Where the approach that you might take to consider the information ecosystem, Right? So in a pre-modern setting without the printing press site, right.
 
 [13:30] **Michael**: You're likely to encounter, you know, very discrete amounts of textual information, right. Or coded information, right. You encounter information all the time in reading, you know, where the wind is blowing or the cloud formations to determine whether it's going to rain right there. We live in an information rich environment.
 
@@ -178,15 +198,21 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 #### Two Thresholds, Accelerating Harms
 
-[15:10] **Michael**: But there is a question of whether you've not passed through a certain threshold, right. So, you know, Illich talks about how there are these two thresholds in medicine, for example. He begins Tools of Conviviality with this.
+[15:10] **Michael**: But there is a question of whether you've not passed through a certain threshold, right. So, you know, Illich talks about how there are these two thresholds in medicine, for example. He begins [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality) with this.
+
+> "... opens with a discussion of what Illich called “two watersheds” in medicine" - [Michael](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 
 [15:23] **Michael**: Where through the first threshold, you have genuine gains in the ability to care for people, to improve people's general health. And what happens at those moments can be relatively simple. It's learning how important clean drinking water is. Or being able to treat some basic infections.
 
 [15:40] **Michael**: But then there's another threshold where the institution of medicine, when it kind of becomes institutionalized, begins now to reverse its gains in some respects, right.
 
-[15:51] **Michael**: And this is contested territory. I think a lot of people would have various opinions about how we think about these gains, right. But for Illich the prospects, for example, of having his life extended by a couple of years, but at the great cost to his quality of life or to his mobility or to his ability to be with friends and family. To be sort of, as we sometimes say, kind of hooked up to a machine just for a few more months of life. To him, that was an anathema.
+[15:51] **Michael**: And this is contested territory. I think a lot of people would have various opinions about how we think about these gains, right. But for Illich the prospects, for example, of having his life extended by a couple of years, but at the great cost to his quality of life or to his mobility or to his ability to be with friends and family. To be sort of, as we sometimes say, kind of "hooked up to a machine" just for a few more months of life. To him, that was an anathema.
+
+> ".. I do not think any weighing-up of risks entered into Illich's thinking. Indeed, he believed that the ever-growing emphasis on risk calculation in medicine constitues the ultimate disembodiment, because it invites people to think of thmselves not as unique persons but as members of an abstract class for which probilities can be calculated." - [Rivers North of the Future, pg 39](https://www.goodreads.com/book/show/253075.The_Rivers_North_of_the_Future)
 
 [16:19] **Michael**: And he lived that right. You may know that he had undiagnosed cancer for the latter part of his life and never had it treated. So this question of where you pass a threshold where the goods begin diminishing and harms begin accelerating, and how passed that threshold, it's not like you can just develop better coping mechanisms. You just can't.
+
+> "Illich lived what he believed: that each person is given a story to tell, and that nothing could be worse than to allow that unique story to be shrunk to a “survival rate” of reduced to an assigned “role”." - [Rivers North of the Future, pg 39](https://www.goodreads.com/book/show/253075.The_Rivers_North_of_the_Future)
 
 [16:45] **Michael**: I think this was Illich's point, the Vietnam war looming large in his imagination. He uses that as a metaphor for what then becomes a default posture. Well, past this threshold, the only thing we know to do is escalate. More money, more resources, more bombs.
 
@@ -208,6 +234,8 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [18:36] **Henry**: This is definitely the case in tech. Like our culture is around, tech will solve everything. The joke is like, fix it with an app, right.
 
+> Apple in 2009: "There's An App For That"
+
 [18:43] **Michael**: Right, right. The question is, who's the joke on?
 
 [18:46] **Henry**: That's true because startup culture is scale. Getting as many users as possible. Engagement. And I think we're all slowly realizing that, yeah, we are hitting this threshold of a lot of things.
@@ -218,11 +246,15 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 #### Limits as Heresy
 
-[19:10] **Henry**: And I talked about this in Nadia's book. Her book goes about open source, and how it's the same problems showing up there and how it reflects in our greater society. Of a neutral public square. Commenting on YouTube videos, anyone can do it, the same problem. Maybe we have too many people involved.
+> Also had a convo with Nadia on her book, [Managing Over-Participation](https://hopeinsource.com/overparticipation)
+
+[19:10] **Henry**: And I talked about this in [Nadia's book](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862). Her book goes about open source, and how it's the same problems showing up there and how it reflects in our greater society. Of a neutral public square. Commenting on YouTube videos, anyone can do it, the same problem. Maybe we have too many people involved.
 
 [19:28] **Michael**: Yeah. The proposition that there should be limits is a kind of modern heresy. It goes against something I think, deeply ingrained in Western modernity. Not only with regards to its technological aspects. Although, again, increasingly these two things are so deeply intertwined. It's hard to pull them apart.
 
 [19:48] **Michael**: So you see it reflected in tech, but you see it reflected in other areas as well. But yeah, it's one of those taken for granted assumptions that I think a lot of modern Western culture, assumes, right. That limits are just fundamentally bad, right.
+
+> "In the modern world, of course, we tend to experience limits as taunts inviting their own transgression. This is, in my view, a destructive dead end." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
 [20:03] **Michael**: They're there to be transgressed. To be overcome. They tempt us to push beyond them, right. And so I recognize, right? So there's a measure of caution I think that we should employ here, right. Because well, what kind of limits are you talking about, right?
 
@@ -230,7 +262,7 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [20:37] **Michael**: So it's a thorny question. To simply say, you know, we should recognize that limits are good. I think that's true. But obviously that doesn't solve the matter, because a lot of debate needs to follow from that.
 
-[20:50] **Michael**: But this refusal. I tend to come back to, our limits are sort of a given part of our humanity, right. That I am only body in one place. That I inhabit one moment in time as it were, right. That these temporal and spatial limits, they are fundamentally good.
+[20:50] **Michael**: But this refusal.. I tend to come back to, our limits are sort of a given part of our humanity, right. That I am only body in one place. That I inhabit one moment in time as it were, right. That these temporal and spatial limits, they are fundamentally good.
 
 #### Attractive Limits
 
@@ -250,13 +282,13 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [22:44] **Michael**: And so they pop up in all of our discussions about what tech should be, what it can do for us, how we should use it, the kinds of technologies that we imagined, et cetera, et cetera. Yeah.
 
-#### Iatrogenesis
+#### Iatrogenesis: The Cure is the Problem
 
 [22:56] **Henry**: Yeah. I was just thinking. We use this term like diminishing returns, but the threshold is saying that there's a point where it's not just diminishing returns, where it's negative returns, right.
 
 [23:05] **Michael**: Right, right, exactly. You know, and I'm obviously not a medical doctor. So I'll just offer this as what Illich argues, that passed the second threshold, he places that somewhere in the mid 20th century, we then begin to get the generation.. I forget the technical term for this, but of diseases that are caused by the medical profession, right.
 
-> Thanks to a comment on [YouTube](https://www.youtube.com/watch?v=fojoWc1oCeQ&lc=UgyfXEtjjz2kI9Ad7114AaABAg) for pointing out the word, [iatrogenesis](https://en.wikipedia.org/wiki/Iatrogenesis)
+> Thanks to a comment on [YouTube](https://www.youtube.com/watch?v=fojoWc1oCeQ&lc=UgyfXEtjjz2kI9Ad7114AaABAg) for pointing out the word, [iatrogenesis](https://en.wikipedia.org/wiki/Iatrogenesis), as a negative condition resulting from further medical intervention. (aka when the cure becomes it's own problem)
 
 [23:24] **Michael**: One example that he gives is the radiation that frequent x-rays would have generated, until that got figured out. It is just not a question of diminishing returns, it is a question of harms caused by the application of that technique past a certain threshold. Yeah.
 
@@ -296,7 +328,7 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 [26:14] **Michael**: Maybe it's some war, maybe it's, you know, in a hospital bed. Death is a reality that we face. And so, you know, the desire to extend our lives indefinitely tends to.. It comes at a cost, right? It comes at a cost, psychologically and emotionally.
 
-[26:35] **Michael**: And it's interesting because there is this increasingly non fringe movement around radical life extension, and even the language or the idea of approaching death as a technical problem, right? It's an engineering problem. We just have to apply the appropriate technique and we can overcome death.
+[26:35] **Michael**: And it's interesting because there is this increasingly non fringe movement around radical [life extension](https://en.wikipedia.org/wiki/Life_extension), and even the language or the idea of approaching death as a technical problem, right? It's an engineering problem. We just have to apply the appropriate technique and we can overcome death.
 
 [26:55] **Michael**: You know, needless to say, I tend to think this is a fundamentally mistaken way of perceiving it, but it is wrapped up with this modern technological project, right. It's something you find the seeds of even in Descartes and Bacon.
 
@@ -308,17 +340,20 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 
 > "Vanity of vanities, says the Preacher, vanity of vanities! All is vanity." - [Ecclesiastes 1:2](https://www.biblegateway.com/passage/?search=ecclesiastes+1&version=ESV)
 
-[28:07] **Michael**: Or the keeping of a memento mori right, a remembrance of death. That you will die, right. This was I think, part and parcel of human existence. This kind of recognition, even this focusing of your attention on the fact that you will die, was intended to sort of reap a certain moral reward, right.
+[28:07] **Michael**: Or the keeping of a [memento mori](https://en.wikipedia.org/wiki/Memento_mori) right, a remembrance of death. That you will die, right. This was I think, part and parcel of human existence. This kind of recognition, even this focusing of your attention on the fact that you will die, was intended to sort of reap a certain moral reward, right.
 
 [28:25] **Michael**: In the sense that by being mindful of that, you live well, right? In light of your mortality. But I think you're right to say that much of modern society is meant to keep death out of sight, right.
 
 [28:41] **Michael**: Illich wrote in the 1970s, and he was living in Mexico in Cuernavaca at the time, he talks about how in a prior generation, most people would die at home. And they would be buried by their loved ones. One of the professions that he's kind of coming up as an example of people losing their capacity to just care for themselves, was the sort of professionalization of burial and the disposal of the human body.
+
+> "The control of undertakers over burial shows how radical monopoly functions and how it differs from other forms of culturally defined behavior. A generation ago, in Mexico, only the Opening of the grave and the blessing of the dead body were performed by professionals: the gravedigger and the priest... Now legislation is being passed to make the mortician’s ministrations compulsory. Once he gets hold of the body, the funeral director will have established aradical monopoly over burial" - Tools for Conviviality
 
 [29:06] **Michael**: And so you saw death, right? This is the point, right. Death was amongst you, right? Now we cordon it off, right? It happens out of sight. There's a kind of taboo to it, and we have, I think, a difficult time reckoning with its presence emotionally, psychologically in our lives.
 
 [29:27] **Michael**: And Hannah Arendt talks about this too, how in the modern world, biological life becomes the highest value. And it basically trumps everything, every other value. So there are a lot of different theoretical strands that kind of land at the same place, which is, you know, that we now view biological life as this thing to be preserved at all costs, right. And that this is a, in some respects, a uniquely modern attitude.
 
 > "We saw before that in the rise of society it was ultimately the life of the species which asserted itself." - Hannah Arendt, The Human Condition pg 321
+
 > "Society" is a technical term in the book, but it arises only in modern world. By "life of the species" she is referring to mere biological life - Michael
 
 [29:58] **Henry**: Yeah. I was thinking about how you said we don't really see it. And I was thinking, we don't really see it coming too in a way, because. People live in different places, the way you find out is like through a phone call or something. Whereas before if you were living together..
@@ -339,6 +374,8 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 > Therefore, send not to know
 > For whom the bell tolls,
 > It tolls for thee.
+>
+> For Whom the Bell Tolls
 
 [30:22] **Henry**: Oh, that's interesting. So this sort of reminds me of when people leave their job or they leave the city. It's not always announced. People just kind of like leave and then you find out a few months later, like, Oh, what happened to this person? And they're like, Oh yeah, they left.
 
