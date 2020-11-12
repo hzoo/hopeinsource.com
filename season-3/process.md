@@ -119,27 +119,27 @@ embedUrl: https://share.transistor.fm/e/bb6e376b
 
 #### Creating a Disembodied God
 
-[12:11] **Maggie**:I'm trying to think of how to tie it back in. I'm thinking specifically about this idea of people trying to invent their own gods through technology. And especially with the world of AI, I guess I've been watching this play out a lot in the language and a lot of the stories and narratives happening there.
+[12:11] **Maggie**: I'm trying to think of how to tie it back in. I'm thinking specifically about this idea of people trying to invent their own gods through technology. And especially with the world of AI, I guess I've been watching this play out a lot in the language and a lot of the stories and narratives happening there.
 
-[12:26] **Maggie**:This idea of the dream of generalized AI is in many ways that the language talks about it sounds like it's trying to recreate a kind of God for people who maybe are from a nonreligious background. And I've been curious about the whole thing because there's no sense of embodiment in any of the AI discussion.
+[12:26] **Maggie**: This idea of the dream of generalized AI is in many ways that the language talks about it sounds like it's trying to recreate a kind of God for people who maybe are from a nonreligious background. And I've been curious about the whole thing because there's no sense of embodiment in any of the AI discussion.
 
-[12:42] **Maggie**:It's just like, okay, we're going to build a brain in the machine. And it's really funny, like reading people like Polanyi, or everything we've been talking about about embodied knowledge. If you have a brain in a machine, how does it know what up and down is? And left and right, and front and back, and heavy and light? And the experience of having a body? If it doesn't have that, like it isn't capable of understanding human thought and rationality and cognition like on a fundamental level. That's a conversation that never happens in AI.
+[12:42] **Maggie**: It's just like, okay, we're going to build a brain in the machine. And it's really funny, like reading people like Polanyi, or everything we've been talking about about embodied knowledge. If you have a brain in a machine, how does it know what up and down is? And left and right, and front and back, and heavy and light? And the experience of having a body? If it doesn't have that, like it isn't capable of understanding human thought and rationality and cognition like on a fundamental level. That's a conversation that never happens in AI.
 
-[13:13] **Maggie**:So I mean, now I'm appreciating so much this concept that in traditional Christian thought, like you're saying there's no escape from the body. That's not the dream. That there's still some form of body that is always assumed to be there. And yet that isn't carrying over into more modern forms of ideas of higher being.
+[13:13] **Maggie**: So I mean, now I'm appreciating so much this concept that in traditional Christian thought, like you're saying there's no escape from the body. That's not the dream. That there's still some form of body that is always assumed to be there. And yet that isn't carrying over into more modern forms of ideas of higher being.
 
 [13:29] **Henry**: Yeah. And not just that it's important, but that the body is a good thing. And I think that's hard to remember. This is hard to talk about, but like a theology of suffering, a theology of a body. What is the point of disease, and going through all these struggles, and the fact that we're not perfect, and we decay and die. And I think in a non theistic view, how can those things be good? And so comfort is our greatest aspiration. And you know, and it's hard. I don't want to say suffering is all good. It's not. People that are suffering from a chronic disease, how do we think about these people? Why do we think that these people are important? And I think that if we're trying to get rid of the body, you're implicitly saying that they have less worth.
 
 [14:12] **Maggie**: Right. Right. I don't want to have to say the efficacy of suffering, the practicality of it. There's so many traditions that have pointed out how there is a purpose to suffering, it can be good in lots of ways and has an important role to play.
 
-[14:27] **Maggie**:I mean, all this is the entire Buddhism, right? Like life is suffering. Or, you know, stoicism, right. Goes on about this a lot, that you're supposed to do engage in certain degrees of suffering to teach yourself that it's inevitable and you can withstand it. And it's not the worst thing in the world to feel discomfort. And it has important things to teach you. I really love that line of thinking a lot.
+[14:27] **Maggie**: I mean, all this is the entire Buddhism, right? Like life is suffering. Or, you know, stoicism, right. Goes on about this a lot, that you're supposed to do engage in certain degrees of suffering to teach yourself that it's inevitable and you can withstand it. And it's not the worst thing in the world to feel discomfort. And it has important things to teach you. I really love that line of thinking a lot.
 
-[14:46] **Maggie**:But then maybe only because so much of dominant culture now denies that, that it is like the pursuit of comfort, the pursuit of escaping the body. You try to avoid pain, decay and, eventual death. Fear of sprinting away from death at all cost like the kind of MO of modern culture.
+[14:46] **Maggie**: But then maybe only because so much of dominant culture now denies that, that it is like the pursuit of comfort, the pursuit of escaping the body. You try to avoid pain, decay and, eventual death. Fear of sprinting away from death at all cost like the kind of MO of modern culture.
 
 [15:01] **Henry**: Yeah. I was recently talking about this earlier too. We don't know how to die well. We spend so much money.. And for good reason. We want to stay around loved ones, but at what cost.
 
 #### The Denial of Death
 
-[15:14] **Maggie**: Yeah. Makes me think back to.. Have you ever heard of a book called [The Denial of Death](https://en.wikipedia.org/wiki/The_Denial_of_Death? Oh, who wrote it? Ernest? I read it as, as like maybe an 18 year old. And it really was one of those books where it just sort of shifts your whole world view. One of those you sort of live with the book for awhile.
+[15:14] **Maggie**: Yeah. Makes me think back to.. Have you ever heard of a book called [The Denial of Death](https://en.wikipedia.org/wiki/The_Denial_of_Death)? Oh, who wrote it? Ernest? I read it as, as like maybe an 18 year old. And it really was one of those books where it just sort of shifts your whole world view. One of those you sort of live with the book for awhile.
 
 [15:29] **Maggie**: I think that the guy who wrote it might've been more of a psychologist, but really it's philosophy. He had this theory that what makes us uncomfortable is that we're both gods and worms. That we have this like physical body that we have to deal with. And he doesn't put it in those terms, but that's the implication. That this physicality that we will eventually rot and be eaten by worms.
 
@@ -181,7 +181,7 @@ embedUrl: https://share.transistor.fm/e/bb6e376b
 
 [20:06] **Maggie**: Yeah, right. Atomic habits, tiny habits.
 
-[20:08] And even right, like bootstrapping and hustle culture, it all just reeks of Protestant work ethic. All of it, right. Go into the incubator and you have to sleep three hours a night and just get your startup going. You know, what are people chasing except for some sense of salvation at the end where they think, well, if I do this, I'm gonna have been ethically in the right by the end of this.
+[20:08] **Maggie**: And even right, like bootstrapping and hustle culture, it all just reeks of Protestant work ethic. All of it, right. Go into the incubator and you have to sleep three hours a night and just get your startup going. You know, what are people chasing except for some sense of salvation at the end where they think, well, if I do this, I'm gonna have been ethically in the right by the end of this.
 
 [20:29] **Maggie**: And in the capitalist cosmology of this system, the reward is money instead of salvation. If we're going to call American capitalism a religious belief system in itself, which wouldn't be too difficult to argue, it is that your eternal salvation is you become a millionaire and buy a Ferrari. It's not a millionaire anymore. Now it has to be a billionaire, you know, inflation.
 
