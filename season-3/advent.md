@@ -1,7 +1,7 @@
 ---
-title: "Advent (Alex Kim)"
+title: "Approaching Advent (Alex Kim)"
 season: 3
-date: "2020-12-08"
+date: "2020-12-09"
 time: "35"
 description: "What is Advent anyway? Alex Kim joins Henry to chat about the season of waiting, memory, our loss and discovery of tradition, teaching ritual as meaningful, a Christian conception of time, and opening ourselves up to hope."
 episodeLink: ""
