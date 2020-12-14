@@ -4,8 +4,8 @@ season: 3
 date: "2020-12-09"
 time: "35"
 description: "What is Advent anyway? Alex Kim joins Henry to chat about the season of waiting, memory, our loss and discovery of tradition, teaching ritual as meaningful, a Christian conception of time, and opening ourselves up to hope."
-episodeLink: ""
-embedUrl: https://share.transistor.fm/e/
+episodeLink: "06856b2b"
+embedUrl: https://share.transistor.fm/e/6b7a7fee
 ---
 
 ### Transcript
