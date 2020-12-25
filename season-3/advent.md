@@ -47,9 +47,9 @@ Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels
 
 #### A Season of Double Vision
 
-[02:13] So I read an article recently. I forgot where it was, but it was talking about how advent is a season of double vision, where you're seeing like two different time periods at once. You're looking at the past and you're also looking into the future. And one could even sort of argue that Christmas is kind of the ultimate expression of God's arrival and coming. 
+[02:13] **Alex**: So I read an article recently. I forgot where it was, but it was talking about how advent is a season of double vision, where you're seeing like two different time periods at once. You're looking at the past and you're also looking into the future. And one could even sort of argue that Christmas is kind of the ultimate expression of God's arrival and coming. 
 
-[02:40] Which, in another sense, is almost like a foretaste of Christ coming in full glory to judge the living and the dead, as you know our creed says. Many of the youth at my church recite every Sunday morning, to the extent that I think a lot of them are starting to remember it. But the question is like, did they really understand the full import of those words?
+[02:40] **Alex**: Which, in another sense, is almost like a foretaste of Christ coming in full glory to judge the living and the dead, as you know our creed says. Many of the youth at my church recite every Sunday morning, to the extent that I think a lot of them are starting to remember it. But the question is like, did they really understand the full import of those words?
 
 [03:04] **Henry**: Wait, which creed?
 
