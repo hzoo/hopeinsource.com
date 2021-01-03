@@ -35,9 +35,11 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [01:48] **Sonya**: And so I knew these religious friends. We talked about it a little bit. I guess it just made me more open-minded. And then I felt a kind of spiritual malaise that I think a lot of people feel, although they wouldn't all necessarily describe it that way. 
 
-[02:03] **Sonya**: And I decided to try praying more. And I've always been kind of a prayer, even during my atheist phase, saying hail Mary's and the Lord's prayer. Almost like as a calming ritual. And then I leaned more into it. I was like, all right, well, what if I just do this more and see what happens?
+[02:03] **Sonya**: And I decided to try praying more. And I've always been kind of a prayer, even during my atheist phase, saying [Hail Marys](https://en.wikipedia.org/wiki/Hail_Mary) and the Lord's prayer. Almost like as a calming ritual. And then I leaned more into it. I was like, all right, well, what if I just do this more and see what happens?
 
 [02:21] **Sonya**: And then I started reading the Bible. And I was reading first Corinthians actually. And I should memorize the actual verse, but I don't remember it word for word off the top of my head. But, you might recognize it. It's when Paul says that Christianity is unsensable to the Gentile. Unreasonable, maybe. But the ones who believe, it all makes sense. 
+
+> "For the foolishness of God is wiser than human wisdom, and the weakness of God is stronger than human strength" - 1 Corinthians 1:25 NIV (Probably 18-25)
 
 [02:42] **Sonya**: I don't know why that exact passage made it click. I guess I would chalk it up to God's will. I just felt like, Oh. I guess I had some sort of.. I had a spiritual experience. You know, I felt touched by God's love.
 
@@ -47,9 +49,11 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [03:33] **Sonya**: You have probably heard a lot more stories of people's experiences with that kind of thing than I have. And I'm curious, if there's a typical way that people come back to the faith or maybe not?
 
-[03:45] **Henry**: I don't want to speculate on the way, but malaise is a good word. There's this book called a secular age by Charles Taylor. Taylor is a Catholic and he was talking about the secularization thesis, which was kind of saying something like the more scientific a country is, they will become more atheist. And he was saying that that's not true. The way people express their spirituality is different, but the amount of spirituality might be actually the same as before.
+[03:45] **Henry**: I don't want to speculate on the way, but malaise is a good word. There's this book called [A Secular Age](https://en.wikipedia.org/wiki/A_Secular_Age) by Charles Taylor. Taylor is a Catholic and he was talking about the secularization thesis, which was kind of saying something like the more scientific a country is, they will become more atheist. And he was saying that that's not true. The way people express their spirituality is different, but the amount of spirituality might be actually the same as before.
 
 [04:08] **Henry**: You can see this now where even in tech, people love meditation. People love their fan fiction. There's fan clubs. There's CrossFit, SoulCycle, all these things.. They're not really religion, but if you want to define religion more generally, they are. There's a community. There's a sense of purpose.
+
+> "There are layers of meaning to calling a company a cult. Many successful companies are culty in one way or another—the Apple blog “Cult of Mac” was not named entirely tongue-in-cheek. Some companies are cultish with respect to customers, like Peloton, which literally sells access to a scheduled ritual that makes participants more virtuous." - [Palantir: On Business, Cults, and Politics](https://diff.substack.com/p/palantir-on-business-cults-and-politics)
 
 [04:24] **Sonya**: The writer, Byrne Hobart, pointed out that Peloton is a weekly ritual that improves the people who do it, which is kind of.. Hmm.
 
@@ -69,27 +73,39 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [06:40] **Sonya**: And that's something that I had to grapple with as an atheist then that I think I have a better understanding of now. Of course I would feel that way. I'm sure that people who are still atheist would think that I understand it less now. But so it goes.
 
-[06:53] **Sonya**: I think the purpose point is interesting. I'm a big fan of this phrase from the cybernetics movement, which is, the purpose of a system is what it does. I mean, you mentioned a little earlier that we often learn things from suffering. It's not the only thing, but it's one of the things that suffering does. 
+> ["The purpose of a system is what it does (POSIWID)"](https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does)
+
+[06:53] **Sonya**: I think the purpose point is interesting. I'm a big fan of this phrase from the cybernetics movement, which is, "the purpose of a system is what it does". I mean, you mentioned a little earlier that we often learn things from suffering. It's not the only thing, but it's one of the things that suffering does. 
 
 [07:11] **Sonya**: At least in the sort of standard Christian view, this world is temporary, and our inhabitance of this world is temporary. And I think of when I was a little kid.. Like, how do I feel about my memories of pain, of the stuff that I went through years and years ago? And how will I feel about my memories of pain now when I'm in the afterlife, whatever it may look like. I don't know? And sort of that like zooming out perspective helps me.
 
 [07:38] **Sonya**: And I think also just the acceptance that I don't have to know everything. I mean like you said, God encompasses doubt or allows doubt. Will receive you back, regardless of doubt. And can even like help you get through periods of doubt. 
 
+> "Immediately the boy’s father exclaimed, “I do believe; help me overcome my unbelief!" - Mark 9:24 (NIV)
+
 [07:52] **Henry**: There's so much richness in the Bible. I believe help my unbelief. It's an acknowledgement that I desire to know God, but yet I don't feel that way. And not that emotions don't matter; they completely do. It's just saying that the really important thing about faith is that even if I don't feel that I love God, it's okay. And we talk about this a lot in the faith of salvation by works.
 
+> "About three in the afternoon Jesus cried out in a loud voice, "Eli, Eli, lema sabachthani?" (which means "My God, my God, why have you forsaken me?")." - Matthew 27:46 (NIV)
+
 [08:14] **Sonya**: One of the most poignant things in the Bible is when Jesus is on the cross and he says, father, why have you forsaken me? And I really love that, that admission of fear and insecurity and doubt from the savior. It's very powerful. I wouldn't say that I've felt, you know, the exact same way as Jesus, that seems pretty presumptuous, but I've definitely had that father, why have you forsaken me feeling? But it's still an appeal to God, right? I feel forsaken, but I'm turning to you to have to try and help deal with it.
+
+> "Be imitators of me, as I am of Christ." - Paul in 1 Corinthians 11:1 (ESV)
 
 [08:47] **Henry**: And he's still deciding to obey, cause he could just be like, I don't want to do this anymore. Imitate me.
 
 #### Imitate me
 
-[08:52] **Henry**: And we want to follow rules or we want to follow the outcome. And in this religion, it's about following a person, which means following their character. And I mean, you mentioned virtue ethics in your post, thriverism right?
+[08:52] **Henry**: And we want to follow rules or we want to follow the outcome. And in this religion, it's about following a person, which means following their character. And I mean, you mentioned virtue ethics in your post, [Thriverism](https://www.sonyasupposedly.com/thriverism/), right?
+
+> "The King will reply, 'Truly I tell you, whatever you did for one of the least of these brothers and sisters of mine, you did for me.'" - Matthew 25:40 (NIV)
 
 [09:03] **Sonya**: That reminds me of another thing that comes up in the Bible, where Jesus says, do unto the least of these as you would do to me. I might be mangling the phrasing there, but I'm sure you know what I'm referencing. And I also thought of this, cause you mentioned good works. To me, that reads as a call to really do concretely good things. If you know, Jesus appeared and came to be in whatever scenario, how would I treat him? And what would be the sort of material concrete commitments that I would make?
 
 [09:32] **Sonya**: I'm called or at least I feel that way. That there's this sort of duty to live up to that expectation, that I would have for myself as how I would engage with God. Something that I think is maybe under acknowledged about Christianity, is that it really.. What the faith asks of us is huge. It's huge. And at least I feel like I'm only able to try because it's okay that I fall short, you know? 
 
 [09:59] **Henry**: That is grace, right. Which is so hard to, not just get across, but for you to understand. And that's why we can talk all day about like all these things, but ultimately it has to be lived out. And that's where you can see the hypocrisy. But that's why it's a lifelong process, right? We use the term like sainctification right. It's okay to mess up. We can live our life, but we also acknowledge that, yes, we can never be perfect. We're going to try to get there anyway, and not by our own strength, right. 
+
+> "Master, which is the great commandment in the law? Jesus said unto him, Thou shalt love the Lord thy God with all thy heart, and with all thy soul, and with all thy mind. This is the first and great commandment. And the second is like unto it, Thou shalt love thy neighbour as thyself. On these two commandments hang all the law and the prophets." - Matthew 22:36-40 (KJV)
 
 [10:26] **Sonya**: Generosity is such a big theme of Jesus's teachings, and of course, life also. And that's something that I feel like that I'm asked to emulate by the faith. And it's hard. It's really hard to be generous, especially, the treat thy neighbor as thyself part is really difficult.
 
@@ -101,6 +117,8 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [11:19] **Henry**: But I think ultimately, I had this conviction in my heart that one way of expressing my faith is through whatever we do. And there's something about open source to me that reminded me of this idea of giving away. The phrase I would use is freely given, freely received, right. And there's a lot of problems, right? There's a whole sustainability issue. If I can't afford to give, why am I giving? And they're not giving back. And it seems like companies are exploiting us.
 
+> "For though I am free from all, I have made myself a servant to all, that I might win more of them." - 1 Corinthians 9:19 (ESV)
+
 [11:44] **Henry**: But ultimately it's a choice. And another verse from first Corinthians says though I am free from all, made myself a servant to all. No one is literally forcing me. I'm choosing to be a servant. And then later Paul says, to the Greeks, I became a Greek. To the Jews, I became a Jew. I become all things to all peoples. And that's really interesting cause that's the phrase meet people where they're at. I'm not trying to impose certain things. I want to learn who they are, understand them, connect with them, and find out not just their issues, cause I'm going to fix them or anything, but just like be in relationship.
 
 #### Desiring Duty
@@ -111,7 +129,7 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [12:37] **Henry**: I think it's hard cause we don't really want to impose any sort of value, because we think that's the ultimate value. Maybe something we've lost. And even in open source, we can't say like, Oh, we're not going to let you in, because it sounds like we're being not inclusive versus saying there are boundaries and rules in everything. Sometimes they're just implicit and wanting to make them explicit is not bad. It looks bad because people don't take you in good faith if you do it.
 
-[13:02] **Sonya**: It's often taken as an aggressive act, to make things explicit. I mean, one of the things that Christianity emphasizes is that we're all sinners. We all are saved by Jesus, not by ourselves. I guess I've always kind of bought the idea of original sin. Like I feel like people are very flawed, so it just always kind of made sense to me. I certainly feel very flawed. And we're even, I think, constrained the choices that we can make by our natures. Who we are and then our experiences.
+[13:02] **Sonya**: It's often taken as an aggressive act, to make things explicit. I mean, one of the things that Christianity emphasizes is that we're all sinners. We all are saved by Jesus, not by ourselves. I guess I've always kind of bought the idea of [original sin](https://en.wikipedia.org/wiki/Original_sin). Like I feel like people are very flawed, so it just always kind of made sense to me. I certainly feel very flawed. And we're even, I think, constrained the choices that we can make by our natures. Who we are and then our experiences.
 
 [13:35] **Sonya**: You know, I think the part of Christianity that I have the most trouble with is the possibility of not being saved, I guess. It feels unfair to me, you know? But I don't, I guess something that's maybe changed about me now that I'm older is that.. I dunno, I can just kind of feel that way and let it be. Instead of feeling like, Oh, I don't fully understand it in every respect and it's not like perfectly laid out and consistent. Yeah, I'm able to deal better with uncertainty now. Maybe it's the same thing with like, if I seek certainty from God, I should also be able to accept uncertainty.
 
@@ -121,7 +139,7 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [14:20] **Sonya**: I see reality overall as being kind of fractal, where you have patterns that repeat on every scale. And that's kind of how I think of the core symbolism of Christianity. I see it like repeating on every scale, like the idea of generous sacrifice being what enables good things, kind of. Good things is too simplistic. I don't even know the words. I guess grace, maybe.
 
-[14:45] **Sonya**: Without someone being willing to sort of cooperate first, I think of the prisoner's dilemma, right? Like Jesus, in his prisoner's dilemma with the Pharisees, et cetera, et cetera, decides to cooperate, even though he knows that he's going to be killed.
+[14:45] **Sonya**: Without someone being willing to sort of cooperate first, I think of the [prisoner's dilemma]https://en.wikipedia.org/wiki/Prisoner%27s_dilemma), right? Like Jesus, in his prisoner's dilemma with the Pharisees, et cetera, et cetera, decides to cooperate, even though he knows that he's going to be killed.
 
 [15:00] **Sonya**: And then also the supreme generosity by God of allowing his son. His son and his self.. This is what you said about the Trinity. It's difficult to talk about. How can you be your own son, right? But that's the mystery. 
 
@@ -157,7 +175,7 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 #### Compassionate Judgement
 
-[19:20] **Sonya**: I think of doubting Thomas who asked to put his hands in the wounds. And that's another really poignant thing, he kinda feels bad about it afterwards, or at least that's my reading of things. But Jesus still lets him do it. He's like, okay, if that's what you need to do to believe, go for it. 
+[19:20] **Sonya**: I think of [Doubting Thomas](https://en.wikipedia.org/wiki/Doubting_Thomas) who asked to put his hands in the wounds. And that's another really poignant thing, he kinda feels bad about it afterwards, or at least that's my reading of things. But Jesus still lets him do it. He's like, okay, if that's what you need to do to believe, go for it. 
 
 [19:37] **Sonya**: And I don't know why exactly that feels so meaningful to me. I guess it feels very generous, you know. Like you're God and you have this human who's like, Hmm, I'm not sure I buy it. And someone who knew you really well, who was one of your disciples. And still he meets Thomas where he is. But at the same time, I wouldn't call it like non-judgemental because I think there is judgment in it, but it's like a compassionate judgment. 
 
@@ -169,7 +187,7 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 [20:53] **Henry**: Right. God has shown to us that level of grace. In so much as we understand that grace that he's given to us, we reciprocate that back to other people. We are reflections of God. We are ambassadors of Christ. We represent him, through our life. Everything about us. And I think you quoted at the end, what is the point of life, to know God and to glorify him right.
 
-[21:15] **Sonya**: Yeah, I quoted Nicole. 
+[21:15] **Sonya**: Yeah, I quoted [Nicole](https://hopeinsource.com/shalom/#t=18:27). 
 
 [21:17] **Henry**: The catechism, the chief end of man. We want to be free from people telling us what to do, but then we have to come up with what the purpose is ourselves. I guess that's existentialism. 
 
@@ -192,6 +210,8 @@ embedUrl: https://share.transistor.fm/e/51b15944
 [23:14] **Sonya**: I mean, we can look at Christianity as something that like persists and grows through time also. So I see it as like, these are our sort of our ancestors in the faith. This is what they put together to help guide us. It's interesting, all the biblical background of the different authors and the different texts that all got combined and the different languages that were involved.
 
 [23:37] **Sonya**: Just the Bible itself is awe inspiring. That this document was written and compiled. And then that it was able to be passed on over and over and over again and sustained. I can't remember if this is actually from the Bible itself or if this is a later idea, but the idea that God looks after his word, and I think, yeah, that does seem to have empircally happened. 
+
+> "And the word of the Lord came to me, saying, “Jeremiah, what do you see?” And I said, “I see an almond branch.” Then the Lord said to me, “You have seen well, for I am watching over my word to perform it." - Jeremiah 1:11-12 (ESV)
 
 [24:01] **Sonya**: There is historical evidence for Jesus being a person, if not, for like every single thing that happens in the Bible with respect to Jesus. You have Jesus who comes and dies and returns and starts Christianity. And then through that act, through that happening, Christianity keeps going. And all of that did empirically happen. People did decide to spread the faith. There were the early martyrs who died for it. And it's easy to interpret, like God looks after his word in the sort of wishy-washy, abstract way. But no, I think it can be pretty literal that through the grace and the passion, yeah, through people's choices. And maybe something that I keep circling back to.. Is this like tension between literal and symbolic and intertwine together. 
 
