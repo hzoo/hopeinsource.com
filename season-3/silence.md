@@ -4,8 +4,8 @@ season: 3
 date: "2021-09-01"
 time: "57"
 description: "How can we think about digital communication, let alone silence? Is it possible? Michael Sacasas is back to chat about a few of his last newsletter posts: the nature of silence, attention not as a resource, on hope vs. expectations, the arms race of escalation, manufactured needs, askesis or discipline, the commons vs. the public, and trustlessness and codes of law."
-episodeLink: ""
-embedUrl: https://share.transistor.fm/e/
+episodeLink: "62d7e144"
+embedUrl: https://share.transistor.fm/e/8df2bd21
 ---
 
 ### Transcript
@@ -16,6 +16,10 @@ embedUrl: https://share.transistor.fm/e/
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/silence.md)
 
 </summary>
+
+- [Impossible Silences](https://theconvivialsociety.substack.com/p/impossible-silences)
+- [Your Attention Is Not a Resource](https://theconvivialsociety.substack.com/p/your-attention-is-not-a-resource)
+- [Surviving the Show: Illich And The Case For An Askesis of Perception](https://theconvivialsociety.substack.com/p/surviving-the-show-the-case-for-an)
 
 </details>
 
@@ -29,13 +33,15 @@ embedUrl: https://share.transistor.fm/e/
 
 [00:24] **Michael**: Yeah. That's right.
 
-[00:26] **Henry**: Maybe we can start with one of your posts called _Impossible Silences_.
+[00:26] **Henry**: Maybe we can start with one of your posts called [*Impossible Silences*](https://theconvivialsociety.substack.com/p/impossible-silences).
 
 [00:30] **Michael**: So I think various things that have led me over the years to think about silence. And, in this particular case, I was sort of struck by the fact that essentially silence is a critical part of human communication. It's meaningful. This is I think the important word, right?
 
+> Saying nothing, in other words, is not the same thing as silence. Silence is felt. It is meaningful. It is not mere negation. In fact, it can be, as we shall see, eloquent.
+
 [00:45] **Michael**: So if we're together and, you know, if we imagine something like a sorrowful or tragic situation, I don't necessarily have to speak words to meaningfully communicate my love or my care, right? So, two bodies in proximity being silent before one another are still having a kind of meaningful exchange as it were between the two of them.
 
-[01:13] **Michael**: And so that's the title of that piece we were talking about, I called impossible silences. Because in a digital media context, that kind of silence is impossible, right? You can't have it. It presupposes the presence of bodies. And so if I'm on Twitter and there's some controversy, some part of the outrage cycle for the day or whatever it is. And I don't say anything about it, that silence isn't meaningful, it doesn't necessarily communicate. Or if it is meaningful, it's always in a sort of dangerous way, right? Why hasn't this person said something about this thing, because the expectation is that everybody sort of pronounces their opinions on what is happening, stakes out their claim, and, you know, puts down their take, et cetera.
+[01:13] **Michael**: And so that's the title of that piece we were talking about, I called *Impossible Silences*. Because in a digital media context, that kind of silence is impossible, right? You can't have it. It presupposes the presence of bodies. And so if I'm on Twitter and there's some controversy, some part of the outrage cycle for the day or whatever it is. And I don't say anything about it, that silence isn't meaningful, it doesn't necessarily communicate. Or if it is meaningful, it's always in a sort of dangerous way, right? Why hasn't this person said something about this thing, because the expectation is that everybody sort of pronounces their opinions on what is happening, stakes out their claim, and, you know, puts down their take, et cetera.
 
 [01:55] **Henry**: Immediately.
 
