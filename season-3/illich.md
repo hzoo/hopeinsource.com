@@ -4,7 +4,7 @@ season: 3
 date: "2021-06-18"
 time: "50"
 description: "Why read Ivan Illich today? In this episode, Madhu Suri Prakash and Dana L. Stuchul of Penn State University interview Michael Sacasas on his work as being a sort of bridge or interlocutor of Illich's thoughts. They talk about schooling and inequality in COVID, ways of thinking about technology, a life of planning vs. gift, convivial tools, redemption of work, and more. (Recorded in December 2020)"
-episodeLink: "1d58dffe"
+episodeLink: "0efed081"
 embedUrl: https://share.transistor.fm/e/0efed081
 ---
 
@@ -17,15 +17,17 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 </summary>
 
+- [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies)
+
 </details>
 
-[00:00] **Henry**: I know it's been a while since the last podcast, but I've been reading a lot of Ivan Illich over the last few years. And I figured it was worth hosting a guest podcast about his work. And so on this next episode, I have Michael Sacasas. But he's being interviewed by Madhu and Dana of Penn State University. They're also the editors of the International Journal of Illich Studies. You had a really fascinating conversation with Michael about his work in trying to bring to light Illich's thoughts around the pandemic, institutions and modern life. I hope you enjoy the conversation.
+[00:00] **Henry**: I know it's been a while since the last podcast, but I've been reading a lot of Ivan Illich over the last few years. And I figured it was worth hosting a guest podcast about his work. And so on this next episode, I have Michael Sacasas. But he's being interviewed by Madhu and Dana of Penn State University. They're also the editors of [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies). You had a really fascinating conversation with Michael about his work in trying to bring to light Illich's thoughts around the pandemic, institutions and modern life. I hope you enjoy the conversation.
 
 [00:33] **Dana**: Michael, would you remind me what your work is and is about?
 
 #### Working within the Christian tradition
 
-[00:38] **Michael**: My official title is associate director for educational programming at the Christian Studies Center in Gainesville. So we are not a part of the University of Florida, but we're right across the street. I find it helpful to think of this as a para-academic institution.
+[00:38] **Michael**: My official title is associate director for educational programming at *The Christian Studies Center* in Gainesville. So we are not a part of the University of Florida, but we're right across the street. I find it helpful to think of this as a para-academic institution.
 
 [00:54] **Michael**: So there are other religious groups on campus that are more explicitly geared towards the spiritual life. Our direction is geared on the intellectual life. And part of the mission statement of the institution is to support the university by bringing the resources of the Christian tradition to bear on the life of the university. And my work is generally to get our program up and running. And I do a lot of the teaching here and leading of the small groups and whatnot.
 
@@ -43,7 +45,7 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [02:08] **Michael**: This setting gives me a great deal of freedom to explore my own interests: to teach, but not grade, to not have any administrative labors except of course administrating our program. But were a relatively small institution, so it's not a great deal of bureaucratic red tape that we have to go through. All that to say, yes, I'm actually quite delighted to be here and it was really fantastic to land here.
 
-[02:29] **Madhu**: For us, The Convivial Society has worked out very beautifully. You came into our lives in a very good moment. And we have loved everything you've shared.
+[02:29] **Madhu**: For us, [*The Convivial Society*](https://theconvivialsociety.substack.com/) has worked out very beautifully. You came into our lives in a very good moment. And we have loved everything you've shared.
 
 [02:42] **Michael**: I'm so glad to hear that. Thank you. I should report too that part of the freedom I get here now is I will be teaching a class on Ivan's work next semester doing three lectures. So we sometimes have public lectures. These will be zoom based under the present circumstances, but we hope to sort of advertise to the university community here. And so hopefully expand the base of those who are reappointed with Ivan's work.
 
@@ -51,11 +53,11 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [03:04] **Madhu**: I want to ask two questions and they may seem unrelated. I just want to juxtapose them.
 
-[03:11] **Madhu**: The first question is, of course, what led you to starting this Convivial Society substack newsletter? It's a labor of love and must require a lot of time when you're a father, husband, with this job, and do the mountain of research you're doing. So we would love to hear what got you moving on this fabulous initiative.
+[03:11] **Madhu**: The first question is, of course, what led you to starting this Convivial Society Substack newsletter? It's a labor of love and must require a lot of time when you're a father, husband, with this job, and do the mountain of research you're doing. So we would love to hear what got you moving on this fabulous initiative.
 
 [03:37] **Madhu**: And then leaping to the present moment of the pandemic, every day on the radio I hear one repeated statement, which is, Oh, this is the lost year of schooling in this COVID era. And I have my own reactions to hearing that. As a friend of Ivan's, I would love to know, as a father of young girls, what your thoughts are.
 
-[04:08] **Michael**: With regards to the Convival Society, the newsletter. It was a new iteration of something that I had started when I began my grad program around 2009 which was at the University of Central Florida.
+[04:08] **Michael**: With regards to *The Convival Society*, the newsletter. It was a new iteration of something that I had started when I began my grad program around 2009 which was at the University of Central Florida.
 
 [04:20] **Michael**: As I began my coursework, I found myself wanting some sort of outlet. I don't think I would have put it like this at the time, but it was a way of reaching for an intellectual community in the absence of one. I was working while I was doing my grad work. It was a kind of go into class, leave class. And so there's not much opportunity to cultivate that community there. And so I turned to writing online. And in essence, I thought of it as an effort to think out loud or write out loud through the work that I was doing.
 
@@ -133,7 +135,7 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [18:12] **Dana**: And if I can give an example very quickly of what I mean. Ever since I lived in Southwestern Ohio, where I passed the tallest mountain in Ohio, which happened to be a landfill, I've asked myself everything I put in the trash is there in that mountain. That's an ethical issue and waste. Very generally, I ask myself all the time, how do I judge my living, my decisions, my actions, my relationship to my daughter and what she's learning by living with me. So these are very real personal questions. I can't say that I've achieved any enlightenment on them, but those are my active questions. And I suspect you have similar.
 
-[18:56] **Michael**: Yeah. One of the things that comes to my mind along these lines. Let me back up a little bit. At the end of Deschooling Society, Illich draws upon the myth of Prometheus and that opposition between a life that seeks to plan and control, as opposed to receiving as a gift, right? So that frame of mind that the reality that we experience is a gift and is given and for which we have responsibilities which does not belong to us as it were.
+[18:56] **Michael**: Yeah. One of the things that comes to my mind along these lines. Let me back up a little bit. At the end of *Deschooling Society*, Illich draws upon the myth of Prometheus and that opposition between a life that seeks to plan and control, as opposed to receiving as a gift, right? So that frame of mind that the reality that we experience is a gift and is given and for which we have responsibilities which does not belong to us as it were.
 
 [19:25] **Michael**: Especially as I think about this in a distinctively theological vein with people like Illich or even Wendell Berry who has this wonderful line about how we live the given life, not the planned in one of his Sabbath poems. And that succinctly captures something that is very important to me.
 
@@ -159,11 +161,11 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [22:53] **Michael**: No. Yeah. That gesture that there is this one still future or still developing technology that will be the solution to all of the problems with the prior configuration of technology has caused.
 
-[23:03] **Michael**: On the one hand, I don't want to suggest that it is impossible. You know, one of the things I've been thinking of late is that when one sort of writes in this vein it, it's very common to sort of hear the rejoinder. Well are you just anti-technology? And I think one of the wonderful things about Illich, especially in Tools for Conviviality, it's not about, anti-technology about finding the right technology, the technology that is conducive towards human flourishing right. There are no illusions in Illich's work about a return to some sort of state of nature or anything of that sort, but it is about finding tools that are appropriate.
+[23:03] **Michael**: On the one hand, I don't want to suggest that it is impossible. You know, one of the things I've been thinking of late is that when one sort of writes in this vein it, it's very common to sort of hear the rejoinder. Well are you just anti-technology? And I think one of the wonderful things about Illich, especially in *Tools for Conviviality*, it's not about, anti-technology about finding the right technology, the technology that is conducive towards human flourishing right. There are no illusions in Illich's work about a return to some sort of state of nature or anything of that sort, but it is about finding tools that are appropriate.
 
 [23:40] **Michael**: One way of thinking about this is, you know, tools are appropriate to a human scale. I just saw someone comment yesterday about Facebook and asking whether the problem with Facebook was at scale, to which of course in my mind with Illich on the question of scale and limits very much in view, answered yes, obviously. And if you applied sort of the institutional critique to something like Facebook, the only thing Facebook can ever offer you is more Facebook. And so the idea that the answer may be limits is something that never occurs to us, right. This is something that both Berry and Illich are so good on, that maybe the answer is not more, but less. Or differently configured.
 
-[24:23] **Michael**: There's a beautiful passage in Tools for Conviviality where Illich writes the possibility of a convivial society sort of requires that our consolations and satisfactions don't lie in simply the accumulation of goods or in the products of industrial society but rather in the pleasures of human interaction, human community. And that we discovered we don't actually need very much for that.
+[24:23] **Michael**: There's a beautiful passage in *Tools for Conviviality* where Illich writes the possibility of a convivial society sort of requires that our consolations and satisfactions don't lie in simply the accumulation of goods or in the products of industrial society but rather in the pleasures of human interaction, human community. And that we discovered we don't actually need very much for that.
 
 [24:47] **Michael**: And so there's a way of construing the necessity of limits in a way that hopefully clothes them in their proper beauty so that they become attractive to us again. I think a lot of people would acknowledge that we don't find satisfaction in our way of life for all of our material abundance.
 
@@ -261,7 +263,7 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [41:37] **Dana**: And I'll just add. Our beloved friend Gustavo Esteva tells story after story of the aha effect experienced by indigenous peoples who upon conversing about an Illich derived idea, say, Oh, of course. That's true. We know that. So the juxtaposition of people you might say of our class or of our education, who find Illich out of reach, or even more troubling conclusion, in contrast to people among the so-called grassroots.
 
-[42:12] **Michael**: No, right. One of the most joy giving messages that I receive is when somebody says, I've been reading your newsletter for a while, and so I finally picked up tools for conviviality or Deschooling Society or whatever it may be. And I actually have often framed, especially when I began writing online, part of what I was doing at least to myself as an effort to translate. I certainly hope it was never a question of simplifying, but translating and interpreting the work that is happening in more sort of academic circles, whether that's in the philosophy of technology.
+[42:12] **Michael**: No, right. One of the most joy giving messages that I receive is when somebody says, I've been reading your newsletter for a while, and so I finally picked up *Tools for Conviviality* or Deschooling Society or whatever it may be. And I actually have often framed, especially when I began writing online, part of what I was doing at least to myself as an effort to translate. I certainly hope it was never a question of simplifying, but translating and interpreting the work that is happening in more sort of academic circles, whether that's in the philosophy of technology.
 
 [42:46] **Michael**: I mean, I think Illich is sort of his own genre in some respects. You know, as this question suggests, it doesn't sit neatly within our academic discourse. But to introduce people to that work in a way that is inviting, I certainly hope that's part of what I've done and what the newsletter does. And actually, I tend to find Illich's work stimulating and provocative. But I can see how even sort of the idea of questioning the institutions of medicine and schooling just run so against the grain of the assumptions of modernity's blessings to us and what we take for granted.
 
@@ -275,15 +277,15 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [44:24] **Madhu**: Continue this question about accessibility because colleagues of mine whose graduate students are developing an interest in Illich, will often ask me, what would you suggest as a starting point to enter Illich's unreadable work.
 
-[44:42] **Madhu**: I'm going to juxtapose two essays. My most favorite is To Hell With Good Intentions. It's one of my favorite essays, because my daughter-in-law was given that when she was going off to Latin America and she cannot forget that and neither can do gooders.
+[44:42] **Madhu**: I'm going to juxtapose two essays. My most favorite is *To Hell With Good Intentions*. It's one of my favorite essays, because my daughter-in-law was given that when she was going off to Latin America and she cannot forget that and neither can do gooders.
 
-[45:02] **Madhu**: My other favorite essay, A Declaration on Soil, which for me is pure poetry. The latter is you have to know so much Illich to understand that. Not only so much, Illich so much Wendell Berry, so much guns, understand that Illich whereas to hell with good intentions gives the ordinary do gooder on the street a real punch in the stomach.
+[45:02] **Madhu**: My other favorite essay, *Declaration on Soil*, which for me is pure poetry. The latter is you have to know so much Illich to understand that. Not only so much, Illich so much Wendell Berry, so much guns, understand that Illich whereas *To Hell With Good Intentions* gives the ordinary do gooder on the street a real punch in the stomach.
 
 [45:29] **Dana**: Then slap.
 
 [45:31] **Madhu**: If you were challenged to bring something of Ivan's writing as a doorway, as a portal that is not daunting, but seductive, attractive, simple, just as when he buries poems. What could you choose to offer your readers of convivial society?
 
-[45:55] **Michael**: When I've been asked that question, I've often actually, and maybe this has been too ambitious, but I've thought about Tools for Conviviality. But I've been asked that question by the sorts of people that I, generally think, yeah, you can pick this up and you're going to be okay.
+[45:55] **Michael**: When I've been asked that question, I've often actually, and maybe this has been too ambitious, but I've thought about *Tools for Conviviality*. But I've been asked that question by the sorts of people that I, generally think, yeah, you can pick this up and you're going to be okay.
 
 [46:08] **Michael**: This is actually kind of derived from another conversation about the relative clarity and obscurity of the writing of Walter Ong and Marshall McLuhan who are often saying similar things, but many who found McLuhan impenetrable and Ong very clear and then in that conversation, I sort of suggested, well McLuhan's interviews are really accessible.
 
@@ -295,7 +297,7 @@ embedUrl: https://share.transistor.fm/e/0efed081
 
 [47:27] **Michael**: And so that seems to actually be rather fitting, right, so much Ivan's labor involved gathering people together face to face around the table in conversation. So that it ends up being that when we get a glimpse of that, when we get a little taste of that, even if it's in the transcribed format, that we really see the passion, the energy. The vibrant quality of his thought come across in a way that's very compelling. Where I grant that the pros can sometimes be very dense and difficult at times now.
 
-[48:01] **Madhu**: Yes. I love that interview too. And it's in Jerry Brown's book, Dialogues, I think.
+[48:01] **Madhu**: Yes. I love that interview too. And it's in Jerry Brown's book, *Dialogues*, I think.
 
 [48:09] **Michael**: Okay. Yeah. I found that online, David Apple or something, he has a kind of a archive and I think that's where I first encountered him.
 
