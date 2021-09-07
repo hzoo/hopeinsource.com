@@ -4,7 +4,7 @@ season: 3
 date: "2021-06-18"
 time: "50"
 description: "Why read Ivan Illich today? In this episode, Madhu Suri Prakash and Dana L. Stuchul of Penn State University interview Michael Sacasas on his work as being a sort of bridge or interlocutor of Illich's thoughts. They talk about schooling and inequality in COVID, ways of thinking about technology, a life of planning vs. gift, convivial tools, redemption of work, and more. (Recorded in December 2020)"
-episodeLink: "1d58dffe"
+episodeLink: "0efed081"
 embedUrl: https://share.transistor.fm/e/0efed081
 ---
 
