@@ -1,9 +1,9 @@
 ---
-title: "MA 15: Philip Guo (#2) on Unlisting Yourself"
+title: "MA 15: Philip Gee (#2) on Unlisting Yourself"
 season: 2
 date: "2020-09-16"
 time: "46"
-description: "Why would you choose to leave the public internet on your own terms? Philip Guo joins Henry (for the 2nd time) to chat about his recent choice to make a minimal public web presence after being on the web for many years. We discuss the logistics of removing social media (Twitter, Facebook, YouTube), moving to longer forms of media (podcasts, essays, books), making introductory content, recognizing different stages of your career, being out of touch, freeing your mind for the next thing, not being ashamed of previous work, taking time to reflect, and friction. (recorded in May)"
+description: "Why would you choose to leave the public internet on your own terms? Philip Gee joins Henry (for the 2nd time) to chat about his recent choice to make a minimal public web presence after being on the web for many years. We discuss the logistics of removing social media (Twitter, Facebook, YouTube), moving to longer forms of media (podcasts, essays, books), making introductory content, recognizing different stages of your career, being out of touch, freeing your mind for the next thing, not being ashamed of previous work, taking time to reflect, and friction. (recorded in May)"
 episodeLink: "f86069d0"
 embedUrl: https://share.transistor.fm/e/38a62493
 ---
@@ -19,7 +19,6 @@ embedUrl: https://share.transistor.fm/e/38a62493
 
 - [3: Life After Digital Death)(https://hopeinsource.com/digital-death)
 - [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
-- [Philip's (minimal) website](https://pg.ucsd.edu/)
 
 </details>
 
@@ -61,7 +60,7 @@ embedUrl: https://share.transistor.fm/e/38a62493
 
 [01:58] **Philip**: And I just decided all of a sudden when I got up one morning or the weekend, just to delete Facebook and to delete Twitter as much as I could.
 
-[02:06] **Philip**: I used this thing called Tweet Delete. I just payed $10 for it, seemed good, to just delete all my tweets and I unfollowed everybody. So my account was basically inactive.
+[02:06] **Philip**: I used this thing called Tweet Delete. I just payed \$10 for it, seemed good, to just delete all my tweets and I unfollowed everybody. So my account was basically inactive.
 
 [02:15] **Philip**: I still wanted to keep Twitter because I had a good amount of followers. I had a verified account. And just for DMS and stuff in case people want to reach me.
 
@@ -367,7 +366,7 @@ embedUrl: https://share.transistor.fm/e/38a62493
 
 [18:42] **Henry**: I mean you don't broadcast that either.
 
-[18:43] **Philip**:  That's by definition. Yeah, I didn't do like the "I'm quitting Facebook, I'm quitting Twitter" on Twitter or Facebook, right?
+[18:43] **Philip**: That's by definition. Yeah, I didn't do like the "I'm quitting Facebook, I'm quitting Twitter" on Twitter or Facebook, right?
 
 [18:49] **Henry**: Ironically. Yeah. I think that gets to the heart of that being quiet or I guess, silent on social media, it doesn't work because inherently it's about posting. So it is weird to say like, I'm going to be quiet, I'm going to quit Twitter on Twitter.
 
@@ -423,7 +422,7 @@ embedUrl: https://share.transistor.fm/e/38a62493
 
 [22:03] **Philip**: Yeah. I think this dovetails really well with traditional computer science education, right? So a lot of the online textbooks, or even my Python tutor site and stuff, textbooks and courses, MOOCs, online courses, youTube videos, resources. The majority of those are aimed at beginners, right? Just getting started, kind of CS 1 sort of beginners.
 
-[22:23] **Philip**: And if you want to have the most impact, that's what you do. Because like you're saying,  by definition, most people are beginners. There's always new beginners every year learning. And then, you know, if the field is growing, then the number of beginners keeps growing.
+[22:23] **Philip**: And if you want to have the most impact, that's what you do. Because like you're saying, by definition, most people are beginners. There's always new beginners every year learning. And then, you know, if the field is growing, then the number of beginners keeps growing.
 
 [22:37] **Philip**: If you want to just have impact numbers wise, that's the most bang for the buck.
 

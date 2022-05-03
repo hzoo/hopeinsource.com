@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 
 import { rhythm } from "../utils/typography";
-import Subscribe from "./Subscribe";
 
 const Footer = ({ title }) => {
   let his = title === "Hope in Source";
@@ -14,7 +13,6 @@ const Footer = ({ title }) => {
         textAlign: "center",
       }}
     >
-      <Subscribe />
       {his ? (
         <>
           <div>
@@ -47,6 +45,13 @@ const Footer = ({ title }) => {
       >
         All rights reserved
       </Link>
+      <br />
+      <br />
+      <div>
+        Donate on{" "}
+        <a href="https://github.com/sponsors/hzoo/">GitHub Sponsors</a>
+      </div>
+      <div>ETH: 0xD060a6E825fE8012aE1aC7Fb9F33Cc9A05fD1998</div>
     </footer>
   );
 };
