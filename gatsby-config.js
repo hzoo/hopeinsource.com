@@ -72,6 +72,13 @@ module.exports = {
         name: "episodes",
       },
     },
+    !MA && {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/season-4`,
+        name: "episodes",
+      },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
