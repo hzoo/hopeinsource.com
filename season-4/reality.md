@@ -1,7 +1,7 @@
 ---
-title: "Reality is Personal"
+title: "Reality is Personal (Esther Meek)"
 season: 4
-date: "2022-08-24"
+date: "2022-08-25"
 time: "43"
 description: "What is the nature of reality? Esther Lightcap Meek warmly speaks of reality as interpersonal. We discuss hope as a person-ed affair, how life is a sort of scrabbling together of clues, gift economies, covenant epistemology, on commitment, consent, belonging. (Recorded in November 2021)"
 episodeLink: "b317808d"
