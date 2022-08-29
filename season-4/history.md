@@ -1,7 +1,7 @@
 ---
 title: "History is Necromancy (David Cayley)"
 season: 4
-date: "2022-08-25"
+date: "2022-08-29"
 time: "49"
 description: "What is the place of history in our society? Who was Ivan Illich and how might he be a helpful voice, even in his passing? David Cayley shares about his new book, Ivan Illich: An Intellectual Journey. It's not really a biography, and as Illich himself would say, 'you can't capture me!' We talk about open source, big tech, and enclosure, history which gives you roots, how tradition and change are intertwined, the many myths/idols of society, on good vs. value, aestheticism, and much more. (Recorded in January 2022)"
 episodeLink: "5990e947"
