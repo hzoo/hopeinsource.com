@@ -1,7 +1,7 @@
 ---
 title: "Digital Communion (Nick Ripatrazone)"
 season: 4
-date: "2022-08-25"
+date: "2022-08-29"
 time: "52"
 description: "Can our digitally mediated environment be spiritual? Nick Ripatrazone takes us through the lens of the Canadian philosopher Marshall McLuhan, focusing on his not well-known Catholic faith. McLuhan himself describes his testimony into the Church as, 'I came in on my knees. That is the only way in.' We discuss the topics around intertextuality, the complexity of life, on form/function within mediums like poetry, concept/percept, ambuigity and paradox, and McLuhan's famous phrase the medium is the message. (Recorded April 2022)"
 episodeLink: "973ef0a1"
