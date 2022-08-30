@@ -8,20 +8,15 @@ episodeLink: "62d7e144"
 embedUrl: https://share.transistor.fm/e/8df2bd21
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/silence.md)
-
-</summary>
+### Links
 
 - [Impossible Silences](https://theconvivialsociety.substack.com/p/impossible-silences)
 - [Your Attention Is Not a Resource](https://theconvivialsociety.substack.com/p/your-attention-is-not-a-resource)
 - [Surviving the Show: Illich And The Case For An Askesis of Perception](https://theconvivialsociety.substack.com/p/surviving-the-show-the-case-for-an)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/silence.md)
 
 #### Impossible Silences
 

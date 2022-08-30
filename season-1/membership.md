@@ -8,18 +8,13 @@ episodeLink: "892ed7d4"
 embedUrl: https://share.transistor.fm/e/1ca166c4
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/membership.md)
-
-</summary>
+### Links
 
 - [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/membership.md)
 
 #### A Call to Commitment
 

@@ -8,19 +8,14 @@ episodeLink: bab7f1ad
 embedUrl: https://share.transistor.fm/e/68b9a175
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/preservation.md)
-
-</summary>
+### Links
 
 - [Wendy Hagenmaier](https://www.library.gatech.edu/wendy-hagenmaier)
 - [Fostering Communities of Practice](https://www.softwarepreservationnetwork.org/fcop) (part of [Software Preservation Network](https://www.softwarepreservationnetwork.org))
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/preservation.md)
 
 [00:06] **Henry**: Today, I have with me, Wendy. She's the digital collections archivist at Georgia Tech Library. I thought that it would be cool to talk with her because archival in a way it seems to relate a lot to maintenance, especially with digital archiving, it's related to software. So yeah, thanks for joining with me today.
 

@@ -8,19 +8,14 @@ episodeLink: "b317808d"
 embedUrl: https://share.transistor.fm/e/3524fd4a
 ---
 
-### Transcript
-
-<details open>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/dorean.md)
-
-</summary>
+### Links
 
 - [Esther's website](https://www.estherlightcapmeek.com)
 - [A Little Manual for Knowing (book)](https://www.estherlightcapmeek.com/little-manual-lm.html)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/dorean.md)
 
 #### Hope as a Person
 

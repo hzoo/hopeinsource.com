@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/f125250b
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/disembodiment.md)
-
-</summary>
-
-</details>
 
 [00:00] **Henry**: You were telling me earlier about going back to..
 

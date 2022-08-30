@@ -8,18 +8,13 @@ episodeLink: "06856b2b"
 embedUrl: https://share.transistor.fm/e/6b7a7fee
 ---
 
+### Links
+
+- Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels_Message-Gabriel.html))
+
 ### Transcript
 
-<details>
-<summary>Links
-
-Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels_Message-Gabriel.html))
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/advent.md)
-
-</summary>
-
-</details>
 
 [00:00] **Henry**: Many of us in the tech world and love [Advent of Code](https://adventofcode.com), a calendar of yearly coding puzzles, started in order to save Christmas. But some of us may also wonder about what Advent itself is for. Well, Alex, my pastor friend, asked me if I wanted to have a Christmas episode, so I suggested we talk about this current season of Advent. 
 

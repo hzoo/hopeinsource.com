@@ -8,19 +8,14 @@ episodeLink: "5990e947"
 embedUrl: https://share.transistor.fm/e/dc0e9bbd
 ---
 
-### Transcript
-
-<details open>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/history.md)
-
-</summary>
+### Links
 
 - [David's website](https://www.davidcayley.com)
 - [Ivan Illich: An Intellectual Journey (book)](https://www.psupress.org/books/titles/978-0-271-08812-9.html)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/history.md)
 
 #### Recursive Publics or Enclosure of a New Commons?
 

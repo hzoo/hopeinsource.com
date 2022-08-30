@@ -8,18 +8,13 @@ episodeLink: "500f9b42"
 embedUrl: https://share.transistor.fm/e/02593e58
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/motivation.md)
-
-</summary>
+### Links
 
 - [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/motivation.md)
 
 #### Finding Your Inner Quiet
 

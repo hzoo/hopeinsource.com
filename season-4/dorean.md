@@ -8,18 +8,13 @@ episodeLink: "c079064c"
 embedUrl: https://share.transistor.fm/e/559898a7
 ---
 
-### Transcript
-
-<details open>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/dorean.md)
-
-</summary>
+### Links
 
 - [The Dorean Principle (html book)](https://thedoreanprinciple.org/)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/dorean.md)
 
 #### Supporting Ministries with Co-Laborers
 

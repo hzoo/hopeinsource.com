@@ -8,18 +8,13 @@ episodeLink: "0f941cd6"
 embedUrl: https://share.transistor.fm/e/40b0aef1
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/online.md)
-
-</summary>
+### Links
 
 - The book, [Strange Rites](https://www.publicaffairsbooks.com/titles/tara-isabella-burton/strange-rites/9781541762510/)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/online.md)
 
 #### Intro: Charles Taylor meets Marshall McLuhan
 

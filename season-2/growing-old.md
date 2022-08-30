@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/b4d35677
 
 ### Transcript
 
-<details>
-<summary>Mentions
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/growing-old.md)
-
-</summary>
-
-</details>
 
 [00:00] **Henry**: All right, today I have with me Philip Gee. I don't remember how we first got in contact, but I actually heard of you a long time ago because my roommate in college, I think he read your post about doing a PhD or something like that.
 

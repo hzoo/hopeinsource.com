@@ -8,20 +8,15 @@ episodeLink: 174320ce
 embedUrl: https://share.transistor.fm/e/8d4a63a5
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/speedrunning.md)
-
-</summary>
+### Links
 
 - [Speedrun Science](https://www.fangamer.com/products/speedrun-book), Eric's new book
 - [Speedrun Perspectives, A Quick Look at Fast Gaming](https://www.youtube.com/watch?v=145EqyR_MYo), Eric's talk at Google
 - [Twitch: Omnigamer](https://www.twitch.tv/omnigamer), Eric's Twitch channel
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/speedrunning.md)
 
 [00:00] **Henry**: Alright today I have joining with me Omnigamer, he was involved in the early competitive Super Smash Bros community and he’s currently a computer science researcher at MIT. He also just announced the release of a new book on speedrunning called “Speedrun Science.” This is how I found out about him, I watched a talk from the YouTube channel “Talks at Google.” And then personally I’m pretty into video games myself and watching speedruns on Twitch, so it felt like Omni would be the perfect guest to at least talk about how speedrunning and open source and programming are related. Thanks for being on the show with me.
 

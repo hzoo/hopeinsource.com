@@ -8,20 +8,15 @@ episodeLink: "b04b21c0"
 embedUrl: https://share.transistor.fm/e/b2b895b0
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/shalom.md)
-
-</summary>
+### Links
 
 - The Machine Stops (E. M. Forster)
 - Tools for Conviviality (Ivan Illich)
 - Severance (Ling Ma)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/shalom.md)
 
 #### Faith in Public
 

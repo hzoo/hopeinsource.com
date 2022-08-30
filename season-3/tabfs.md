@@ -10,18 +10,9 @@ embedUrl: https://share.transistor.fm/e/3b52a6e9
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/tabfs.md)
 
-</summary>
-
-</details>
-
 #### TabFS or BrowserFS?
-
-> 
 
 [0:00] **Omar**: It's funny. You know, one thing that I thought was interesting. This is something that [Andy said](https://twitter.com/andy_matuschak/status/1348744953334153216?s=20) is that like, I don't have much of a use for the project, cause I'm not a big tab user. And I think it's funny how many people have sort of glommed onto this idea that this is about tab management.
 

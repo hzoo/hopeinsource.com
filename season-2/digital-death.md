@@ -8,19 +8,14 @@ episodeLink: "aa1d84f7"
 embedUrl: https://share.transistor.fm/e/a2900112
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/digital-death.md)
-
-</summary>
+### Links
 
 - [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
 - [2: Unlisiting Yourself](https://hopeinsource.com/growing-old)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/digital-death.md)
 
 #### Intro to the "Trilogy"
 

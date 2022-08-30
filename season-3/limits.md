@@ -8,14 +8,7 @@ episodeLink: "1c4ba146"
 embedUrl: https://share.transistor.fm/e/be085bf0
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/limits.md)
-
-</summary>
+### Links
 
 - Michael's [Twitter](https://twitter.com/lmsacasas)
 - Michael's Newsletter: [The Convivial Society](https://theconvivialsociety.substack.com/about?utm_source=menu-dropdown)
@@ -24,7 +17,9 @@ embedUrl: https://share.transistor.fm/e/be085bf0
 - Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 - Video version on [Youtube](https://www.youtube.com/watch?v=fojoWc1oCeQ)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/limits.md)
 
 [00:00] **Henry**: So I have with me, [Michael Sacasas](https://thefrailestthing.com). He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, [The Convivial Society](https://theconvivialsociety.substack.com).
 

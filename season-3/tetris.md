@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/8b84652f
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/tetris.md)
-
-</summary>
-
-</details>
 
 #### The Software/Hardware Arms Race
 

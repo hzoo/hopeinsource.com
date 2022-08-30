@@ -8,20 +8,15 @@ episodeLink: 8b00cb5a
 embedUrl: https://share.transistor.fm/e/e7a1abae
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/nostalgia.md)
-
-</summary>
+### Links
 
 - [98.css](https://jdan.github.io/98.css/)
 - [Jordan's 98.css Blog Post](https://thatjdanisso.cool/98-dot-css)
 - [Microsoft Windows User Experience Reference Manual](https://www.amazon.com/Microsoft-Windows-Experience-Professional-Editions/dp/0735605661)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/nostalgia.md)
 
 [00:00:00] **Jordan**: Hello, and welcome to Maintainers Anonymous. This is your guest Jordan Scales. Henry graciously allowed me to do the introduction. This is a podcast about software maintenance and anonymization. Henry, I don't know if that's correct.
 

@@ -8,8 +8,6 @@ episodeLink: "5b9ca809"
 embedUrl: https://share.transistor.fm/e/30b20eda
 ---
 
-## Links
-
 ## Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/trust.md)

@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/embodied.md)
-
-</summary>
-
-</details>
 
 #### Indwelling
 

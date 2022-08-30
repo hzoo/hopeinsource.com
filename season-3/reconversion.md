@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/51b15944
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/reconversion.md)
-
-</summary>
-
-</details>
 
 [00:00] **Henry**: Hey, everyone! I'm talking with Sonya Mann, sonyasupposedly on social media. After my chat with Nicole Williams, she mentioned that Sonya had relatively recently reconverted to Christianity and it might be an interesting conversation. So please enjoy our chat, where we just talk out loud about how she sees the world with this new lens.  
 

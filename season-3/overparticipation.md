@@ -8,18 +8,13 @@ episodeLink: "1735505a"
 embedUrl: https://share.transistor.fm/e/bd3ffd63
 ---
 
-Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
+### Links
+
+- Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/overparticipation.md)
-
-</summary>
-
-</details>
 
 #### Five Years Looking At Open Source Communities
 

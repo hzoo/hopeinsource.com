@@ -8,18 +8,13 @@ episodeLink: "87edfd5f"
 embedUrl: https://share.transistor.fm/e/5e76ec9f
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/inefficiency.md)
-
-</summary>
+### Links
 
 - Nadia's post: [Methodologies for measuring project health](https://nadiaeghbal.com/project-health)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/inefficiency.md)
 
 #### What makes an organization healthy?
 
