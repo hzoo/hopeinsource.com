@@ -14,16 +14,10 @@
 ## Preview
 
 ```sh
-yarn
-yarn dev
+npm install
+npm run dev
 open https://localhost:8000
 
 # use MA=true environment variable for maintainers anonymous
-MA=true yarn dev
-```
-
-## Run
-
-```sh
-yarn start
+MA=true npm run dev
 ```

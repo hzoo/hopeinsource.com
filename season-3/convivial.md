@@ -8,14 +8,7 @@ episodeLink: "65de5f7d"
 embedUrl: https://share.transistor.fm/e/34d485c0
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/convivial.md)
-
-</summary>
+### Links
 
 - Video version on [Youtube](https://www.youtube.com/watch?v=fojoWc1oCeQ)
 - Part 1: [Natural Limits](https://hopeinsource.com/limits/)
@@ -24,7 +17,9 @@ embedUrl: https://share.transistor.fm/e/34d485c0
 - Newsletter: [A Theory of Zoom Fatigue](https://theconvivialsociety.substack.com/p/a-theory-of-zoom-fatigue)
 - Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/convivial.md)
 
 #### Conviviality as Autonomy
 

@@ -8,18 +8,13 @@ episodeLink: "20dd6763"
 embedUrl: https://share.transistor.fm/e/93cc7c50
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/legacy.md)
-
-</summary>
+### Links
 
 - [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/legacy.md)
 
 #### I'm from there 7,000 years ago
 

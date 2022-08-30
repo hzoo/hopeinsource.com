@@ -8,18 +8,13 @@ episodeLink: "ca3e9f6c"
 embedUrl: https://share.transistor.fm/e/3120d5ff
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/emotional.md)
-
-</summary>
+### Links
 
 - [Omar's Twitter](https://twitter.com/rsnous)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/emotional.md)
 
 #### That's a Dynamicland sort of thought
 

@@ -8,19 +8,14 @@ episodeLink: "973ef0a1"
 embedUrl: https://share.transistor.fm/e/a8b7e0d4
 ---
 
-### Transcript
-
-<details open>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/communion.md)
-
-</summary>
+### Links
 
 - [Digital Communion (book)](https://www.fortresspress.com/store/product/9781506471143/Digital-Communion)
 - [Nick's site](https://nickripatrazone.com/)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/communion.md)
 
 #### Layers of Language Meaning
 

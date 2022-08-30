@@ -31,7 +31,7 @@ class Player extends React.Component {
     }
   }
 
-  testAudioSeek = (event) => {
+  testAudioSeek(event) {
     // TODO get the new hash from the event, prevent hash from actually changing
     // this looks for a URL hash using this format:
     // #t=<number of seconds> (e.g. #t=120)
@@ -55,7 +55,7 @@ class Player extends React.Component {
         }
       }
     }
-  };
+  }
 
   render() {
     return (

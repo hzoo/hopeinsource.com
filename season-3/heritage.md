@@ -8,18 +8,13 @@ episodeLink: "841541a0"
 embedUrl: https://share.transistor.fm/e/5c511f38
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/overparticipation.md)
-
-</summary>
+### Links
 
 - [MAMA](http://mama.brussels/)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/overparticipation.md)
 
 #### Intros: An Architect and Anthropologist
 

@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/30b0ab32
 
 ### Transcript
 
-<details>
-<summary>Mentions
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/boundaries.md)
-
-</summary>
-
-</details>
 
 [00:07] **Henry**: Today, I have with me Stephanie Hurlburt. She is a developer, but also does a lot of work on the business side. I'd like to talk to her about open source and her experience with networking, sales. A lot of things that I think a lot of open source developers don't have a lot of experience with, or even almost a willingness to learn. Thanks for joining me today.
 

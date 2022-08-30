@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/fbe0cd82
 
 ### Transcript
 
-<details>
-<summary>Links
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/essence.md)
-
-</summary>
-
-</details>
 
 #### Microsoft Word as Worldview
 

@@ -8,14 +8,7 @@ episodeLink: d870c501
 embedUrl: https://share.transistor.fm/e/33bb512b
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/metaphor.md)
-
-</summary>
+### Show Notes
 
 - Building a Second Brain
 - Metaphors We Live By
@@ -38,7 +31,9 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 - The Death and Life of Great American Cities. So she uses the same kind
 - How to Talk About Books You Haven't Read
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/metaphor.md)
 
 [00:00] **Henry**: Hey everyone, this is Henry for the Maintainers Anonymous podcast. I have with me **Maggie Appleton**, again! And here we want to talk about this idea of metaphor, I think we mentioned that at the end of the last episode. And I know that Maggie, you just did like a talk about metaphors and embodiment.
 

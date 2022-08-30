@@ -10,14 +10,7 @@ embedUrl: https://share.transistor.fm/e/161de068
 
 ### Transcript
 
-<details>
-<summary>Mentions
-
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/standards.md)
-
-</summary>
-
-</details>
 
 [00:07] **Henry**: Today I have with me Jory Burson. She's been involved in standards for a really long time. I met her through TC39. Thanks for joining today.
 

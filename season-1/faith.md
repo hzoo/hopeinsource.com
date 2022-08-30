@@ -8,19 +8,14 @@ episodeLink: "a2bfec15"
 embedUrl: https://share.transistor.fm/e/2bb32fae
 ---
 
-### Transcript
-
-<details>
-<summary>Mentions
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/faith.md)
-
-</summary>
+## Links
 
 - Henry's ZEIT Day talk: [In Pursuit of Open Source](https://www.youtube.com/watch?v=9sPDcVYX3g8)
 - Nadia's Grant: [Helium Grant](https://www.heliumgrant.org)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/faith.md)
 
 #### What is your faith background?
 

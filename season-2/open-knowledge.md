@@ -8,18 +8,13 @@ episodeLink: "932b52ce"
 embedUrl: https://share.transistor.fm/e/4fad5d14
 ---
 
-### Transcript
-
-<details>
-<summary>Links
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/open-knowledge.md)
-
-</summary>
+### Links
 
 - [Shawn's blog](https://www.swyx.io)
 
-</details>
+### Transcript
+
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/open-knowledge.md)
 
 #### Intro: Tumbling as an Alternative to Community Manager
 
