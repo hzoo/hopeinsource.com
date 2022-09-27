@@ -1,7 +1,7 @@
 ---
 title: "Finding Hope Amid Burnout (Alex Kim)"
 season: 4
-date: "2022-06-28"
+date: "2022-09-27"
 time: "43"
 description: "Where can hope be found? Alex Kim joins again to open up questions of responsibility, and our place in relation to times of weariness. He speaks out his experiences growing up and also shepherding a local church body as a youth pastor. We speak amidst the burnout on notions of time, the work of Charles Taylor through Andrew Root, work/play, and living out in hope. Maybe it's what this podcast is attempting to work towards! (Recorded June 2022)"
 episodeLink: "04c015c8"
