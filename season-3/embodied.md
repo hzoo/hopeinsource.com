@@ -56,7 +56,7 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 [03:28] **Maggie**: I mean, it gets us back to the technology as tools with like the affordances baked in, that because we've all been handed the web and our digital mediums from this historical legacy of being visual first and text first. That we don't have the design patents for embodiment or using light or sound in different ways with them, even if we now have more of the material infrastructure to be able to do that.. Or kind of, I mean, most of us can't actually hack together a raspberry PI system that has like cool led lights that communicate things to us or haptic feedback stuff, right.
 
-[04:05] **Maggie**: We can build an app in react, but you know, we can't build things into our house that are more just like inventive technology processes. Or it takes a lot of work to, or at least I've tried Googling it and it's harder than I can figure out.
+[04:05] **Maggie**: We can build an app in React, but you know, we can't build things into our house that are more just like inventive technology processes. Or it takes a lot of work to, or at least I've tried Googling it and it's harder than I can figure out.
 
 [04:19] **Henry**: It might be just, we kind of reflect the kind of programming that we do. When we're writing code, we're using like lists and maps. Basically we see all these lists, so we just assume that it's going to be like a feed or in Zoom it's a box. We don't know how to think spatially, so it's just not what we turn to.
 
@@ -70,11 +70,11 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 > [Paperclip maximizer](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer)
 
-[05:22] **Maggie**: And I was being a bit maybe coy with it, but I'm relating it to.. Sometimes in the react world, it feels like we have this runaway todo app machine, where every single app that gets made as a todo app. People see that everyone else is building todo apps, every tutorial teaches you to build a todo app.
+[05:22] **Maggie**: And I was being a bit maybe coy with it, but I'm relating it to.. Sometimes in the React world, it feels like we have this runaway todo app machine, where every single app that gets made as a todo app. People see that everyone else is building todo apps, every tutorial teaches you to build a todo app.
 
 [05:38] **Maggie**: And todo apps, right, they do the create, read, update, delete which like these essential functions. So it is a great example, but what happens when everyone in the community is looking inwards at themselves, or when I say themselves at other members of community and what they're building and they build what they see, because it's just this self reinforcing loop.
 
-[05:58] **Henry**: Yeah, I guess we'd like to think we can be more creative, but that's just what you turn to. It's the same with a hacker news clone.
+[05:58] **Henry**: Yeah, I guess we'd like to think we can be more creative, but that's just what you turn to. It's the same with a Hacker News clone.
 
 [06:06] **Maggie**: It requires a balance, right? Cause we can't check out all previous norms. Cause our users won't know what they're looking at or what to do with it. I imagine this is where the Dynamicland stuff would relate a lot. Like whatever they're doing there sounds really cool. Of course it's all very mysterious and we're not quite sure what they're doing. But it seems like, we can't even fathom what they're making, because it seems like it's going to be so different from what we're used to using.
 
@@ -136,7 +136,7 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 [11:55] **Maggie**: And I do like that approach too, cause it's different to what I would maybe think of as the popular understanding of how your quote unquote supposed to study or consume someone's.. consume even oh that word.. but read someone's work currently, right.
 
-[12:11] **Maggie**:You're supposed to like sit down and you're like super focused mode and take really great notes into your digital Zettelkasten system. And take out all the highlights and automate the process and tweet about it. It's a very specific way of interacting with knowledge, as opposed to coming to it in bits and pieces and revisiting it in small chunks over time, and not turning it into some sort of information filtering system.
+[12:11] **Maggie**: You're supposed to like sit down and you're like super focused mode and take really great notes into your digital Zettelkasten system. And take out all the highlights and automate the process and tweet about it. It's a very specific way of interacting with knowledge, as opposed to coming to it in bits and pieces and revisiting it in small chunks over time, and not turning it into some sort of information filtering system.
 
 [12:36] **Henry**: We said this before, but that is the whole reductionist view of information, that you can just download it.
 
@@ -152,7 +152,7 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 [13:37] **Henry**: And I think that represents a good way of thinking about how we might want to relate to knowledge too, even though it's not a real person, we personify. And that's why it's personal, right? Any topic that you care a lot about, you're obviously gonna put your whole body, mind, and soul into this thing.
 
-[13:56] **Maggie**: Yeah. I liked that so much, that idea of yeah putting like the embodied action investment into, when you care about something to try and be part of it. I'm now thinking about when someone gets really into a theory or an author. And they want to go do something like a pilgrimage to where that person maybe used to live or they, or they'll buy a really nice copy of the hardback edition of one of their books, right.
+[13:56] **Maggie**: Yeah. I liked that so much, that idea of yeah putting like the embodied action investment into, when you care about something to try and be part of it. I'm now thinking about when someone gets really into a theory or an author, and they want to go do something like a pilgrimage to where that person maybe used to live or they, or they'll buy a really nice copy of the hardback edition of one of their books, right.
 
 [14:22] **Maggie**: And what they're seeking is some sort of meaningful embodied experience with what so far has just being more of a detached mental experience. Maybe just text on a page. I was thinking of this because all around London, we're sort of getting allowed to go around a bit more again, with locked down lifting.
 
@@ -196,7 +196,7 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 [19:28] **Maggie**: Hmm. I like that. I hadn't thought of that before. That embodiment clearly being so symbolically critical. And then God coming into human form and the resurrection, clearly yeah it's a signal that embodiment is important.
 
-[19:41] **Maggie**: And in my head, I'm just finding it an interesting contrast to what I would maybe think of as I want to call it like the digital religion, but, you know, the trans humanist ideal that is a little bit religious in many ways. It's ideal is to escape embodiment, right?
+[19:41] **Maggie**: And in my head, I'm just finding it an interesting contrast to what I would maybe think of as I want to call it like the digital religion, but, you know, the transhumanist ideal that is a little bit religious in many ways. It's ideal is to escape embodiment, right?
 
 [19:55] **Maggie**: Like all the rhetoric around, well, not just living in the cloud, but not caring as much about your body or it being a burden or weight. You have to like upkeep it. It's talked about as this inconvenient thing. Yeah, it doesn't allow you to just like fly through cyberspace, right?
 
@@ -218,7 +218,7 @@ embedUrl: https://share.transistor.fm/e/e272736d
 
 [21:40] **Henry**: So Polanyi had an essay called [Stability of Beliefs](http://www.polanyisociety.org/mp-stability.htm). It was just talking about various beliefs of even indigenous cultures. And how especially Western people think that what they do is just absurd or just weird. It doesn't make sense, but in some sense it, maybe it doesn't, but those things work for them. And there's something about it that works, that is true. It sort of supports the idea of conspiracy theory in a way, and not being so judgemental over that. It's hard not to, obviously I get extremely frustrated.
 
-[22:15] **Henry**: And I think Aaron [tweeted](https://twitter.com/aaronzlewis/status/1293367838762250241?s=20) about ([)how) the president of TED made a video about how the people that believe Bill Gates' is doing this, they're crazy. And I think people that listen to that, it only reinforces their belief that they are right. And so Polanyi is saying the same thing where if you have a different way you see the world, it is literally a different language, a different world. Different concepts and meanings for the same words. And you have to understand from within that view, because on the outside, it's always going to look strange.
+[22:15] **Henry**: And I think Aaron [tweeted](https://twitter.com/aaronzlewis/status/1293367838762250241?s=20) about how the president of TED made a video about how the people that believe Bill Gates is doing this, they're crazy. And I think people that listen to that, it only reinforces their belief that they are right. And so Polanyi is saying the same thing where if you have a different way you see the world, it is literally a different language, a different world. Different concepts and meanings for the same words. And you have to understand from within that view, because on the outside, it's always going to look strange.
 
 [22:46] **Maggie**: I definitely struggle with that as well, right. That if we take seriously post-modern subjective truth. Then anyone else's decision of what is true for them and their cultural context, we have to take as valid. Which is interesting if we tie it back to Bruno Latour's robustness thing where at some point there's a material reality to it.
 
