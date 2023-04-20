@@ -39,13 +39,13 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 
 [00:14] **Maggie**: So, last time we chatted, we had mostly talked about **gift economies** in relationship to open source stuff, and then started to talk a bit about how metaphor and embodied metaphor relates to programming. And I, yeah, I had just done a talk the other week about how embodiment and metaphor relates to something called **Building a Second Brain**, which is a strange theory, which just essentially means being a nerdy, information collector, social community we have of people that are really into taking in notes and collecting everything that they research and turning it into useful output of some sort.
 
-[00:46] **Maggie**: And because it's called Building a Second Brain, I got a bit into where ideas of body and brain come from. And the history of **René Descartes**, who is a French philosopher kind of initiated the original idea that all minds and our bodies are separate, which more modern science has proven to not be completely true.
+[00:46] **Maggie**: And because it's called _Building a Second Brain_, I got a bit into where ideas of body and brain come from. And the history of **René Descartes**, who is a French philosopher kind of initiated the original idea that all minds and our bodies are separate, which more modern science has proven to not be completely true.
 
 [01:04] **Maggie**: And I think we all understand that, you know, that's problematic in lots of ways. There's all these ways that the body affects the brain and the brain affects the body, that they are perhaps not two separate entities connected, but are instead one cohesive system (laughs). But the historical legacy of that stays with us and it causes some problems.
 
 [01:20] **Maggie**: And I think this relates a lot to programming, cause it's such a cerebral process. And yet from my understanding of it, like the way that we program and build things is very physical and embodied, especially in the metaphors we use to work with it.
 
-[01:35] **Maggie**: So yes, we started to get into a bit a theory called **Metaphors We Live By**, which is a book that, **George Lakoff** wrote, and **Mark Johnson**, his coauthor, who probably doesn't get as much credit for it (laughs) he's always hidden. And yeah, so he came up with this theory, I think it was in 1991 this book was published? And it established a discipline called **Cognitive Metaphor Theory**, which is this idea that everything about the way we reason in the world, everything about the way we think, everything about the way we move is metaphorical.
+[01:35] **Maggie**: So yes, we started to get into a bit a theory called **Metaphors We Live By**, which is a book that, **George Lakoff** wrote, and **Mark Johnson**, his coauthor, who probably doesn't get as much credit for it (laughs). He's always hidden. And yeah, so he came up with this theory, I think it was in 1991 this book was published? And it established a discipline called **Cognitive Metaphor Theory**, which is this idea that everything about the way we reason in the world, everything about the way we think, everything about the way we move is metaphorical.
 
 [02:06] **Maggie**: Which is a bit difficult to understand. So if we back it up a bit and talk a bit about metaphor, you know, it just simply means understanding one thing in terms of another, right? So that's like the very basic definition. And we usually think a metaphor is something that lives in like literature and poetry, right? Or it's like some fancy thing you put at the beginning of an article to make it more interesting than it is, right? Like every programming tutorial it goes, "Oh, well, here's how like RxJS is like a big pile of cars or something." And it seems very, you know fluffy and artistic and tangential to the point sometimes.
 
@@ -133,7 +133,7 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 
 [14:24] **Maggie**: And so even though the internet is a terribly embodied, there are certain ways we talk about it in space.
 
-[14:28] **Maggie**: So, you know, the cloud, we know is above us, right? That's unquestionable. And we know we are below it and we download things. Right? So that's very clear. We're below, the future links we're going to go to are to the right and links we've been to are to the left in the past. That's, uh,
+[14:28] **Maggie**: So, you know, the cloud, we know is above us, right? That's unquestionable. And we know we are below it and we download things. Right? So that's very clear. We're below. The future links we're going to go to are to the right and links we've been to are to the left in the past. That's, uh,
 
 [14:43] **Henry**: history.
 
@@ -155,7 +155,7 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 
 [17:27] **Maggie**: And it's associated with emotion and it's associated with nature. Whereas. The brain is associated with reason and culture and higher thinking. And we think the body is bad and the brain is good. And we would vary it, and we constantly trying to like control our bodies with like our reason. So there's a clear hierarchy intention to them. In a ways, the internet is sort of like this taken to an extreme where we're all trying to live in the cloud and deny our physicality.
 
-[17:53] **Maggie**: Which is problematic because the research that Lakoff and Johnson ended up working on for like the next 20 to 30 years, after they had originally done Metaphors We Live By was very much about how reason is embodied. So, you know, they had started on this train of thought, but they had started working with more neuroscientists and really, you know, got into how metaphors are embedded in neurons in your brain. It's very physical.
+[17:53] **Maggie**: Which is problematic because the research that Lakoff and Johnson ended up working on for like the next 20 to 30 years, after they had originally done _Metaphors We Live By_ was very much about how reason is embodied. So, you know, they had started on this train of thought, but they had started working with more neuroscientists and really, you know, got into how metaphors are embedded in neurons in your brain. It's very physical.
 
 [18:16] **Maggie**: And they found out so much of the way that we reason and think about the world in what we would consider our logical way is spatial. And it's completely linked to our bodies and our emotions. And there is no, you know, there is no separation of mind and body is like the punchline.
 
@@ -183,9 +183,9 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 
 [21:00] **Henry**: It even says later that, the program that's dead can still have useful output, meaning that, you know, the program, like when it's not maintained right. It's still working. I thought that was fascinating.
 
-[21:09] **Maggie**: I like that. So that's like "program as a living organism" is like that big metaphor. that's interesting. I mean I may keep a lot of lists of programming metaphors I see around, and they're always very nature-based. I mean, most of our metaphors in the world are. But particularly, I mean, okay, on a higher level they get, sometimes they get a bit mechanical based, but that's actually the more trite ones that a part of some tutorial article and everyone goes, Oh, it's like a car in general or something.
+[21:09] **Maggie**: I like that. So that's like "program as a living organism" is like that big metaphor. That's interesting. I mean I may keep a lot of lists of programming metaphors I see around, and they're always very nature-based. I mean, most of our metaphors in the world are. But particularly, I mean, okay, on a higher level they get, sometimes they get a bit mechanical based, but that's actually the more trite ones that a part of some tutorial article and everyone goes, Oh, it's like a car in general or something.
 
-[21:36] **Maggie**: Cause we, yeah. There's also a glorification of the mechanical in programming culture. So people like to jump to rocket ships and cause and jet planes as the metaphorical example. But when you really look at the actual metaphorical language programmers use, it's all very nature. Right? It's like trees, right. You've roots, you have branches, forks, which, okay. utensils. It kind of gets like tools.
+[21:36] **Maggie**: Cause we, yeah. There's also a glorification of the mechanical in programming culture. So people like to jump to rocket ships and cause and jet planes as the metaphorical example. But when you really look at the actual metaphorical language programmers use, it's all very nature. Right? It's like trees, right. You've roots, you have branches, forks, which, okay. Utensils. It kind of gets like tools.
 
 [21:59] **Henry**: Or fork in the road, I guess, but
 
@@ -267,7 +267,7 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 
 [29:41] **Henry**: There's a lot of people that like, it is interesting how there are people that, you know, you could say like there's jQuery and like Backbone, like all these different frameworks that people aren't talking about as much anymore, but they were very important. It's still being used right now, so there's, there's a lot of history there.
 
-[29:57] **Henry**: I know Allen, he was what, the editor of ES6, for JavaScript. He just did with Brendan Eich. I a book called like **20 Years of JavaScript**. I can link it to you later.
+[29:57] **Henry**: I know Allen, he was the editor of ES6, for JavaScript. He just did with Brendan Eich a book called like **20 Years of JavaScript**. I can link it to you later.
 
 [30:08] **Maggie**: Yeah. Cause I'm always, sort of surprised by the lack of explicit cultural writing about, about the community. It's funny, it mostly shows up in tweets, right? Like tweets that you can tell get tons and tons of likes and retweets. Like my favorite account is I am a developer. Do you know that one?
 
@@ -349,27 +349,23 @@ embedUrl: https://share.transistor.fm/e/33bb512b
 
 [41:00] **Maggie**: And a digital tool is no different to a hammer or a cup. You know, and it can get a bit tricky with it if you want, you know, and to go into the whole world theory where you say, we are all one, you know, I am not different than the cup and the cup is, is part of me and I am part of the cup and that sort of thing.
 
-[41:17] **Maggie**: But it is true that if you took humans and you took away all our tools that we've designed, you can take everything to be a tool: the house, the electricity, the internet . This kind of gets back to the second brain theory of what I mentioned at the beginning, where you sort of accept that the internet is an extension of your brain, and it doesn't make you less human, and it's not some sort of weird negative thing where you're trying to like downplay your emotion and your body. You're just saying, I embrace that this is all one continuous system. I should have mentioned the correct term for this is: it's a theory called **cybernetics**, where they say were all in a cyber network, you know, it's all one big connected GraphQL sort of node system.
+[41:17] **Maggie**: But it is true that if you took humans and you took away all our tools that we've designed, you can take everything to be a tool: the house, the electricity, the internet. This kind of gets back to the second brain theory of what I mentioned at the beginning, where you sort of accept that the internet is an extension of your brain, and it doesn't make you less human, and it's not some sort of weird negative thing where you're trying to like downplay your emotion and your body. You're just saying, I embrace that this is all one continuous system. I should have mentioned the correct term for this is: it's a theory called **cybernetics**, where they say were all in a cyber network, you know, it's all one big connected GraphQL sort of node system.
 
 [41:56] **Henry**: The cup thing is funny cause I was reading about **Bruce Lee**. I don't know if you remember his quote about water? And he's like, be like water. If you put water into the cup, it becomes the cup.
 
 [42:06] **Maggie**: I have seen that.
 
-[42:07] **Henry**: It'd be like water, right?
-I thought was funny.
+[42:07] **Henry**: It'd be like water, right? I thought was funny.
 
 [42:10] **Maggie**: Mhmm.
 
 [42:10] **Henry**: Cause it relates a lot to what you're saying about like, you know, the hammer and like that's an extension.
 
-[42:15] **Henry**: Polanyi actually uses that metaphor to talk about knowing like epistemology. And he thinks that when we are learning, the things that we use are clues for us to figure out like, how do we think about reality?
-And so it's kind of like when you're holding the pen, you are in a way, abstracting it so that you're thinking through the pen itself, right? But then you can also focus your attention on the pen so that you're not focusing on what you're writing. So you could choose to change your relationship to the things that you're touching, right? Like say if you're playing piano is probably easier. Like you can play the song or you can focus on your fingers and each of those things. You're doing both of those things at the same time. So one would be like, I need to practice my scales versus I need to play this song.
+[42:15] **Henry**: Polanyi actually uses that metaphor to talk about knowing like epistemology. And he thinks that when we are learning, the things that we use are clues for us to figure out like, how do we think about reality? And so it's kind of like when you're holding the pen, you are in a way, abstracting it so that you're thinking through the pen itself, right? But then you can also focus your attention on the pen so that you're not focusing on what you're writing. So you could choose to change your relationship to the things that you're touching, right? Like say if you're playing piano is probably easier. Like you can play the song or you can focus on your fingers and each of those things. You're doing both of those things at the same time. So one would be like, I need to practice my scales versus I need to play this song.
 
 [43:03] **Maggie**: Mm, yeah. And it does make sense, but it is a bit funny how we define the edge of the self and also the big emphasis on the self as like an, you know, individual being is a very inherently Western thing. Putting emphasis on that. But we put so much concern into the edge of ourself and the rest of the world, right? I end here, wherever my skin is, that is the end of me. And then everything else beyond that is something different.
 
-[43:27] **Maggie**: And of course, like again, you get into like trippy Buddhist theory, you know, they'll say that that's not true. But it is, you know, like, I always think of this with my keyboard shortcuts.
-
-[43:36] **Maggie**: I can't explicitly tell you, like if you asked me what combination of keys I pressed to do certain things, I couldn't begin to tell you any of them. And yet when I'm in a particular app, in a particular context and I want to do a certain thing, my fingers just hit keys and I don't know what keys they are.
+[43:27] **Maggie**: And of course, like again, you get into like trippy Buddhist theory, you know, they'll say that that's not true. But it is, you know, like, I always think of this with my keyboard shortcuts. I can't explicitly tell you, like if you asked me what combination of keys I pressed to do certain things, I couldn't begin to tell you any of them. And yet when I'm in a particular app, in a particular context and I want to do a certain thing, my fingers just hit keys and I don't know what keys they are.
 
 [43:54] **Maggie**: I set them up some time ago, but now it is so muscle memory that it feels the same to me as moving a finger. It's not, it doesn't feel different outside of myself. That is part of me and how I operate, you know?
 
@@ -385,8 +381,7 @@ And so it's kind of like when you're holding the pen, you are in a way, abstract
 
 [45:08] **Maggie**: Gosh.
 
-[45:09] **Henry**: Super complicated, but he's just saying that the thing you're focusing on is the focal and everything around it is called subsidiary, right? Like the things and the periphery are around it.
-It doesn't have to be the spatial version, but just that's how you think of these things. And so he's saying that there's always a focal and a subsidiary and they all happen at the same time, but you choose to focus on one thing.
+[45:09] **Henry**: Super complicated, but he's just saying that the thing you're focusing on is the focal and everything around it is called subsidiary, right? Like the things and the periphery are around it. It doesn't have to be the spatial version, but just that's how you think of these things. And so he's saying that there's always a focal and a subsidiary and they all happen at the same time, but you choose to focus on one thing.
 
 [45:33] **Henry**: So in the case of the piano, normally if you're playing the piece right, the, the song, your focal is the song and the subsidiary is you're playing with your hands, but you're not thinking about your hands because you've already learned how to play, this is assuming you know how to play.
 
@@ -394,9 +389,9 @@ It doesn't have to be the spatial version, but just that's how you think of thes
 
 [46:08] **Maggie**: Yeah. I mean, I'm sure you covered this in your talk. This is exactly in the programming context is like a newer programmers focused so much on syntax and libraries and frameworks and more experienced programmers have gotten to the level where they're thinking in the higher level abstract structures of things or mental models, but really metaphors. Of how to fit things together on a higher level, but people who are newer are probably more concerned about whether it's Vue or React or whatever, you know, Python.
 
-[46:35] **Henry**: And maybe in a way ,you give away your experiences by your questions, right? So if they say, what should I use? React or Vue, then you know.. that doesn't mean they're a bad programmer, it just means they're inexperienced, right? They don't know what to ask.
+[46:35] **Henry**: And maybe in a way, you give away your experiences by your questions, right? So if they say, what should I use? React or Vue, then you know.. that doesn't mean they're a bad programmer, it just means they're inexperienced, right? They don't know what to ask.
 
-[46:49] **Henry**: going back to Bruce Lee again, I liked his, he has like this three stages of cultivation that I talked about in terms of knowledge. And so like the first stage is called the primitive stage where you don't really know what you're doing, so it's all based on intuition. Like if you're programming, you just doing things, you don't even know that there's like a way of doing things. And then you move onto the second stage where you ask somebody and they tell you, and that's the mechanical stage, where you learn some principle about programming or you learn a framework and then you think, once I learn React, everything is React.
+[46:49] **Henry**: Going back to Bruce Lee again, I liked his, he has like this three stages of cultivation that I talked about in terms of knowledge. And so like the first stage is called the primitive stage where you don't really know what you're doing, so it's all based on intuition. Like if you're programming, you just doing things, you don't even know that there's like a way of doing things. And then you move onto the second stage where you ask somebody and they tell you, and that's the mechanical stage, where you learn some principle about programming or you learn a framework and then you think, once I learn React, everything is React.
 
 [47:22] **Henry**: Like I want to make a.. every single app I can make, I'll use React. Or once I learn DRY, everything has to be, don't repeat yourself, right. And then we know that if you're in the third stage, you'll be like, the answer is that it depends. It's not always, you can apply that one thing everywhere. And he calls that artlessness. There is no stage, you have to figure out the context, right? The situation.
 
@@ -422,16 +417,11 @@ It doesn't have to be the spatial version, but just that's how you think of thes
 
 [50:39] **Maggie**: And not in a way right, where it has human rights, but as an I think of it as a more, cognitive living being in itself than perhaps other people might. But I'm more, I'm more prone to take magic and mysticism and animism seriously, just from reading about it in anthropology and understanding it's a beautiful way to see the world, even if you don't, on a rational level, think it's all true.
 
-[51:00] **Henry**: Yeah. No, I resonated with that too with a book I was reading called **The Cat and The Toaster**. It's a book about ministry, but I think you can apply it to a lot of things. The key question is essentially, what are we dealing with, for whatever problem we're trying to solve? Is it a cat, or is it a toaster? Or if it's a toaster? You can take it apart. You can put it back together, you can repair it. But you definitely don't want to do that with the cat. So basically understand, are you dealing with a living thing, or a non-living thing. And it doesn't have to mean that it's literally that, right?
-So if you apply that to the metaphor of open source or a city or the environment, none of those things are living in a way, but we can treat them as living.
+[51:00] **Henry**: Yeah. No, I resonated with that too with a book I was reading called **The Cat and The Toaster**. It's a book about ministry, but I think you can apply it to a lot of things. The key question is essentially, what are we dealing with, for whatever problem we're trying to solve? Is it a cat, or is it a toaster? Or if it's a toaster? You can take it apart. You can put it back together, you can repair it. But you definitely don't want to do that with the cat. So basically understand, are you dealing with a living thing, or a non-living thing. And it doesn't have to mean that it's literally that, right? So if you apply that to the metaphor of open source or a city or the environment, none of those things are living in a way, but we can treat them as living.
 
 [51:45] **Maggie**: I like that. Yeah. Like I always love that as systems, as organisms. I mean, we, we use that metaphor all the time. And especially programming as organism is probably my favorite programming metaphor to lean into, as living system. I liked your birth and death stuff about it, that makes perfect sense.
 
-[52:02] **Henry**: And a lot of that is, to me, it relates to, Jane Jacobs wrote a book called **The Death and Life of Great American Cities**. So she uses the same
-
-[52:09] **Maggie**: Yeah.
-
-[52:11] **Henry**: kind of language in a way.
+[52:02] **Henry**: And a lot of that is, to me, it relates to, Jane Jacobs wrote a book called **The Death and Life of Great American Cities**. So she uses the same kind of language in a way.
 
 [52:12] **Maggie**: I have definitely seen that one around, but haven't read it yet.
 
