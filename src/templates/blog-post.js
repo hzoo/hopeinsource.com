@@ -61,6 +61,7 @@ class Player extends React.Component {
     return (
       <AudioPlayer
         // header={this.props.title}
+        preload="metadata"
         src={this.props.src}
         layout="horizontal-reverse"
         ref={this.player}
