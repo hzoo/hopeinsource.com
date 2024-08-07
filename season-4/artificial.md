@@ -3,7 +3,7 @@ title: 'Artificial Physicality (Drew Austin)'
 season: 4
 date: "2024-08-07"
 time: "50"
-description: ""
+description: "Why does everyone care about New York? Drew Austin explores the interplay bt digital/physical env and how tech values shape our lives. We discuss some of his past essays: fashion as public good, airport lounge-ification highlighting, and how digital paradigms reshape our physical spaces. Topics include: fake serendipity, lofi, gm, resilient systems, the commons as customs, postmodernist software, leaving a trace, Twitter as a waiting room. (Recorded October 2021)"
 episodeLink: "1c3ca662"
 embedUrl: https://share.transistor.fm/e/5273bdb8
 ---
@@ -12,7 +12,7 @@ embedUrl: https://share.transistor.fm/e/5273bdb8
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/artificial.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/main/season-4/artificial.md)
 
 [00:00] **Henry:** Talking with Drew Austin. We're doing this in person, which is kind of new for me. And maybe for you too. 
 
