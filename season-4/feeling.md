@@ -1,14 +1,19 @@
 ---
-title: 'Right Feeling (Sonya Mann #3)'
+title: 'Right Feeling (Sonya Mann)'
 season: 4
 date: "2024-08-09"
 time: "47"
-description: "How does faith call us to both right action and right emotion? Sonya Mann joins me to discuss the layered meanings of biblical parables. Some themes I liked: the paradoxical nature of faith, the generousity of God, the interplay bt obligation and grace, freedom within constraint, the parable of workers in the vineyard and talents, lay utilitarianism, the nature of praise, phenomenology in faith, the metaphor of weddings, viserality and the flesh, specificity, sacred modes, acceptable woo, cheap grace. (Recorded October 2020)"
+description: "How does faith call us to both right action and right emotion? Sonya Mann joins me again to discuss the layered meanings of biblical parables. Some themes I liked: the paradoxical nature of faith, the generousity of God, the interplay bt obligation and grace, freedom within constraint, the parable of workers in the vineyard and talents, lay utilitarianism, the nature of praise, phenomenology in faith, the metaphor of weddings, viserality and the flesh, specificity, sacred modes, acceptable woo, cheap grace. (Recorded October 2020)"
 episodeLink: "7b1c5ae2"
 embedUrl: https://share.transistor.fm/e/393f4afc
 ---
 
 ### Links
+
+- [Matthew 20: Parable of the Workers in the Vineyard](https://en.wikipedia.org/wiki/Parable_of_the_Workers_in_the_Vineyard)
+- [Matthew 25: Parable of the Talents](https://en.wikipedia.org/wiki/Parable_of_the_Talents)
+- [Luke 15: Parable of the Prodigal Son](https://en.wikipedia.org/wiki/Parable_of_the_Prodigal_Son)
+- [The Woodcarver: A parable, of sorts](https://www.reddit.com/r/latterdaysaints/comments/75wvcx/the_woodcarver_a_parable_of_sorts/)
 
 ### Transcript
 
