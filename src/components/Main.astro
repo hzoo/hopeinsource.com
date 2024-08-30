@@ -1,16 +1,39 @@
 ---
 import { getCollection } from 'astro:content';
-import Testimonial from "@components/Testimonial.jsx";
-import Footer from "@components/Footer.jsx";
+import Testimonial from "@components/Testimonial.tsx";
+import Footer from "@components/Footer.tsx";
 import SEO from "@components/SEO.tsx";
 import Subscribe from "./Subscribe";
 
 import { Image } from 'astro:assets';
 import his_cover from "../assets/his.jpg";
 
-const posts = await getCollection('podcast', () => {
+const posts = (await getCollection('podcast', () => {
   return true;
+}))
+// sort by season, then by order
+.sort((a, b) => {
+    // post.id format is: "season-1/authority.md"
+    const aSeason = a.data.season || 0;
+    const bSeason = b.data.season || 0;
+
+    // Sort by season in descending order
+    if (bSeason !== aSeason) {
+    return bSeason - aSeason;
+    }
+
+    // If seasons are the same, sort by order in descending order
+    return b.data.sidebar.order - a.data.sidebar.order;
 });
+
+function calculateEpisodeNumber(posts: any[], currentPost: any) {
+  const season = currentPost.data.season || 0;
+  const episodesInSeason = posts
+    .filter(p => p.data.season === season)
+    .sort((a, b) => b.data.sidebar.order - a.data.sidebar.order); // Sort in descending order
+  const episodeIndex = episodesInSeason.findIndex(p => p.id === currentPost.id);
+  return episodesInSeason.length - episodeIndex; // This will make the latest episode have the highest number
+}
 ---
 
 <div class="container">
@@ -65,6 +88,7 @@ const posts = await getCollection('podcast', () => {
       .map((post) => {
           const title = post.data.title || post.slug;
           const newSlug = post.slug.split('/').pop();
+          const episodeNumber = calculateEpisodeNumber(posts, post);
           return (
           <div>
               <h3 style={{ marginTop: 0 }}>
@@ -75,7 +99,7 @@ const posts = await getCollection('podcast', () => {
               <small>
               {post.data.date}
               {post.data.time && ` • ${post.data.time} min 🎧`}
-              {post.data.season && ` • Season ${post.data.season}`}
+              {post.data.season && ` • Season ${post.data.season}, Episode ${episodeNumber}`}
               </small>
               <p set:html={post.data.description} />
           </div>
