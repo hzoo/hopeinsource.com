@@ -1,0 +1,62 @@
+---
+import AudioPlayer from '@components/AudioPlayer.astro';
+
+import SEO from '@components/SEO.jsx';
+import Subscribe from '@components/Subscribe.jsx';
+import Support from '@components/Support.jsx';
+import Footer from '@components/Footer.jsx';
+import { hisMetadata } from "../../metadata.ts";
+
+import '../styles/custom.css';
+
+const { frontmatter, slug } = Astro.props;
+// const discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
+//   `${hisMetadata.siteUrl}${slug}`
+// )}`;
+---
+
+<div>
+<h3 style={{margin: 0}}>
+    <a href="/">← {hisMetadata.title}</a>
+</h3>
+
+<SEO
+    title={frontmatter.title}
+    description={frontmatter.description}
+    slug={slug}
+    embedUrl={frontmatter.embedUrl}
+/>
+
+<h2>{frontmatter.title}</h2>
+
+<Subscribe />
+
+<section class="episode-info">
+    {frontmatter.date}
+    {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
+    {frontmatter.season && ` • Season ${frontmatter.season}`}
+</section>
+
+<blockquote>
+    {frontmatter.description} ({frontmatter.time} min)
+</blockquote>
+
+<section class="content">
+    <slot />
+</section>
+
+<Support />
+
+<!-- <p style={{ textAlign: "center" }}>
+    <a href={discussUrl} target="_blank" rel="noopener noreferrer">
+    Discuss on Twitter
+    </a>
+</p> -->
+
+<Footer />
+
+<AudioPlayer
+    title={frontmatter.title}
+    src={`https://media.transistor.fm/${frontmatter.episodeLink}.mp3`}
+/>
+</div>

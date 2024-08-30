@@ -1,0 +1,20 @@
+---
+import HomeLayout from '@layouts/HomeLayout.astro';
+import '../styles/custom.css';
+---
+
+<HomeLayout>
+    <div class="flex flex-col items-center justify-center min-h-screen text-center">
+        <h1 class="text-6xl font-bold text-gray-200 mb-4">404</h1>
+        <p class="text-2xl text-gray-300 mb-8">Oops! Page not found</p>
+        <p class="text-lg text-gray-400 mb-8">
+        The page you are looking for may have been removed, renamed, or is temporarily unavailable.
+        </p>
+        <a
+        href="/"
+        class="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
+        >
+        Go Home
+        </a>
+    </div>
+</HomeLayout>

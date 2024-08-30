@@ -1,0 +1,174 @@
+---
+const { src } = Astro.props;
+---
+
+<div id="audio-player" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white shadow-lg">
+  <div class="mx-auto px-4 py-2">
+    <div class="flex items-center space-x-4">
+      <button id="play-pause" class="w-10 h-10 rounded-full flex items-center justify-center focus:outline-none hover:opacity-80 transition-opacity">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </button>
+      <span id="current-time" class="text-sm w-12">00:00</span>
+      <div class="flex-grow">
+        <input type="range" id="seek-slider" class="w-full h-2 bg-gray-600 rounded-lg appearance-none cursor-pointer" min="0" max="100" value="0" disabled>
+      </div>
+      <span id="duration" class="text-sm w-12">00:00</span>
+    </div>
+  </div>
+  <audio id="audio-element" preload="none"></audio>
+</div>
+
+<script define:vars={{ src }} is:inline>
+  const audio = document.getElementById('audio-element');
+  const playPauseButton = document.getElementById('play-pause');
+  const seekSlider = document.getElementById('seek-slider');
+  const currentTimeDisplay = document.getElementById('current-time');
+  const durationDisplay = document.getElementById('duration');
+  const playIcon = playPauseButton.querySelector('svg');
+
+  let isLoaded = false;
+
+  function formatTime(seconds) {
+    const minutes = Math.floor(seconds / 60);
+    const remainingSeconds = Math.floor(seconds % 60);
+    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+  }
+
+  function updateTimeDisplay() {
+    if (currentTimeDisplay) currentTimeDisplay.textContent = formatTime(audio.currentTime);
+    if (durationDisplay) durationDisplay.textContent = formatTime(audio.duration);
+    if (seekSlider) seekSlider.value = String(audio.currentTime / audio.duration * 100);
+
+    // Update the seek slider background
+    const percent = (audio.currentTime / audio.duration) * 100;
+    seekSlider.style.background = `linear-gradient(to right, var(--green) 0%, var(--green) ${percent}%, #4b5563 ${percent}%, #4b5563 100%)`;
+  }
+
+  function seekToTimestamp() {
+    const hash = window.location.hash;
+    if (hash.startsWith('#t=')) {
+      const time = hash.slice(3);
+      const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
+      if (timestamp) {
+        let seconds = 0;
+        if (timestamp[3]) {
+          seconds = Number(timestamp[1]) * 3600 + Number(timestamp[2]) * 60 + Number(timestamp[3]);
+        } else {
+          seconds = Number(timestamp[1]) * 60 + Number(timestamp[2]);
+        }
+        loadAudioAndPlay(seconds);
+      }
+    }
+  }
+
+  function togglePlayPauseIcon(isPaused) {
+    if (isPaused) {
+      playIcon.innerHTML = `
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      `;
+    } else {
+      playIcon.innerHTML = `
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+      `;
+    }
+  }
+
+  function loadAudioAndPlay(startTime = 0) {
+    if (!isLoaded) {
+      audio.src = src;
+      audio.load();
+      isLoaded = true;
+    }
+
+    audio.currentTime = startTime;
+    audio.play().then(() => {
+      togglePlayPauseIcon(false);
+      seekSlider.disabled = false;
+    }).catch(error => {
+      console.error('Error playing audio:', error);
+    });
+  }
+
+  playPauseButton?.addEventListener('click', () => {
+    if (!isLoaded) {
+      loadAudioAndPlay();
+    } else if (audio.paused) {
+      audio.play().then(() => togglePlayPauseIcon(false)).catch(console.error);
+    } else {
+      audio.pause();
+      togglePlayPauseIcon(true);
+    }
+  });
+
+  seekSlider?.addEventListener('input', () => {
+    const seekTime = audio.duration * (Number(seekSlider.value) / 100);
+    audio.currentTime = seekTime;
+  });
+
+  audio.addEventListener('timeupdate', updateTimeDisplay);
+  audio.addEventListener('loadedmetadata', () => {
+    updateTimeDisplay();
+    seekSlider.disabled = false;
+  });
+
+  window.addEventListener('hashchange', seekToTimestamp);
+  seekToTimestamp();
+  // Add click event listeners to all heading links
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const href = link.getAttribute('href');
+      if (href?.startsWith('#t=')) {
+        window.location.hash = href;
+        seekToTimestamp();
+      }
+    });
+  });
+
+  console.log('Audio player script loaded');
+</script>
+
+<style>
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  #audio-player {
+    --seek-before-width: 0%;
+  }
+
+  #play-pause {
+    background-color: var(--green);
+    transition: opacity 0.3s ease;
+  }
+
+  #seek-slider {
+    --seek-before-color: var(--green);
+    background: #4b5563;
+    margin: 0;
+    padding: 0;
+  }
+
+  #seek-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    margin-top: -4px;
+  }
+
+  #seek-slider::-moz-range-thumb {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: none;
+  }
+</style>

@@ -1,0 +1,18 @@
+{
+  "name": "remark-transcript-plugin",
+  "private": true,
+  "description": "handle timestamps",
+  "version": "0.0.1",
+  "dependencies": {
+    "mdast-util-to-string": "^4.0.0",
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "bun-types": "^1.1.26",
+    "remark": "^12.0.1",
+    "remark-parse": "^11.0.0",
+    "remark-rehype": "^11.1.0",
+    "rehype-stringify": "^10.0.0",
+    "unified": "^11.0.5"
+  }
+}

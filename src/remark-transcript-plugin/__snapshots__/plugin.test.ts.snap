@@ -1,0 +1,38 @@
+// Bun Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`doesn't affect normal paragraphs or use of link references 1`] = `
+{
+  "children": [
+    {
+      "type": "text",
+      "value": "hi [asdf]",
+    },
+  ],
+  "type": "paragraph",
+}
+`;
+
+exports[`adds id to a markdown header 1`] = `
+{
+  "children": [
+    {
+      "type": "text",
+      "value": "[00:00] ",
+    },
+    {
+      "children": [
+        {
+          "type": "text",
+          "value": "Henry",
+        },
+      ],
+      "type": "strong",
+    },
+    {
+      "type": "text",
+      "value": ": Hi.",
+    },
+  ],
+  "type": "paragraph",
+}
+`;

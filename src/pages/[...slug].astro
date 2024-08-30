@@ -1,0 +1,39 @@
+---
+import { getCollection } from 'astro:content';
+import HomeLayout from '../layouts/HomeLayout.astro';
+import EpLayout from '../layouts/EpLayout.astro';
+
+export async function getStaticPaths() {
+  const podcastEntries = await getCollection('podcast');
+  return podcastEntries.map(entry => ({
+    params: { slug: entry.slug.split('/').pop() }, // This line is changed
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { Content, headings } = await entry.render();
+
+const h4Headings = headings.filter(h => h.depth === 4);
+---
+
+<HomeLayout>
+<div class="container">
+    <div class="content-wrapper">
+        <EpLayout frontmatter={entry.data} slug={`/${entry.slug.split('/').pop()}`}>
+            <Content />
+        </EpLayout>
+    </div>
+    <aside class="sidebar">
+        <nav class="toc">
+            <ul>
+                {h4Headings.map(heading => (
+                    <li>
+                        <a href={`#${heading.slug}`}>{heading.text}</a>
+                    </li>
+                ))}
+            </ul>
+        </nav>
+    </aside>
+</div>
+</HomeLayout>

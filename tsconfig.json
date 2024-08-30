@@ -1,0 +1,15 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "strictNullChecks": true,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@assets/*": ["src/assets/*"],
+      "@layouts/*": ["src/layouts/*"]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react",
+    "types": ["bun-types"]
+  }
+}
