@@ -5,13 +5,18 @@ import EpLayout from '../layouts/EpLayout.astro';
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection('podcast');
-  return podcastEntries.map(entry => ({
-    params: { slug: entry.slug.split('/').pop() }, // This line is changed
-    props: { entry },
-  }));
+  return podcastEntries.map(entry => {
+    const slug = entry.slug.split('/').pop();
+    return {
+      params: { slug },
+      props: { entry },
+    };
+  });
 }
 
+const { slug } = Astro.params;
 const { entry } = Astro.props;
+
 const { Content, headings } = await entry.render();
 
 const h4Headings = headings.filter(h => h.depth === 4);

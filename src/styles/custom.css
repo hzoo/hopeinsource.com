@@ -66,7 +66,7 @@ h4 {
 a {
   color: var(--textLink);
 }
-hr: {
+hr {
   background: var(--hr);
 }
 blockquote {

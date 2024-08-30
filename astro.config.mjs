@@ -6,6 +6,7 @@ import { remarkTranscriptPlugin } from "./src/remark-transcript-plugin/plugin";
 
 // https://astro.build/config
 export default defineConfig({
+  publicDir: "public",
   integrations: [
     react(),
     tailwind({
