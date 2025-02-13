@@ -1,0 +1,47 @@
+---
+import { hisMetadata } from "@/metadata.ts";
+import his_cover from "@/assets/his.jpg";
+
+interface Props {
+  title?: string;
+  description?: string;
+  slug?: string;
+  embedUrl?: string;
+}
+
+const { 
+  title, 
+  description = hisMetadata.description,
+  slug = '',
+  embedUrl,
+} = Astro.props;
+
+const url = `${hisMetadata.siteUrl}${slug}`;
+const pageTitle = title ? `${title} - ${hisMetadata.title}` : hisMetadata.title;
+---
+
+<meta charset="utf-8" />
+<title>{pageTitle}</title>
+<meta name="description" content={description} />
+<meta property="og:url" content={url} />
+<meta property="og:title" content={pageTitle} />
+<meta name="og:description" content={description} />
+<meta name="twitter:card" content={embedUrl ? "player" : "summary"} />
+<meta name="twitter:creator" content={hisMetadata.twitter} />
+<meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
+
+{embedUrl && (
+  <>
+    <meta name="twitter:player" content={embedUrl} />
+    <meta name="twitter:player:width" content="500" />
+    <meta name="twitter:player:height" content="180" />
+  </>
+)}
+
+<meta name="apple-itunes-app" content="app-id=1437677655" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title={hisMetadata.title}
+  href={hisMetadata.rss}
+/> 

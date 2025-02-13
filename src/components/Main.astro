@@ -3,8 +3,8 @@ import { getCollection } from 'astro:content';
 import type {  InferEntrySchema } from 'astro:content';
 import Testimonial from "@/components/Testimonial.tsx";
 import Footer from "@/components/Footer.tsx";
-import { hisMetadata } from "@/metadata.ts";
 import Subscribe from "@/components/Subscribe.tsx";
+import BaseHead from './BaseHead.astro';
 
 import { Image } from 'astro:assets';
 import his_cover from "@/assets/his.jpg";
@@ -40,22 +40,7 @@ function calculateEpisodeNumber(posts: { id: string, data: InferEntrySchema<"pod
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title>{hisMetadata.title}</title>
-    <meta name="description" content={hisMetadata.description} />
-    <meta property="og:url" content={hisMetadata.siteUrl} />
-    <meta property="og:title" content={hisMetadata.title} />
-    <meta name="og:description" content={hisMetadata.description} />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:creator" content={hisMetadata.twitter} />
-    <meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
-    <meta name="apple-itunes-app" content="app-id=1437677655" />
-    <link
-      rel="alternate"
-      type="application/rss+xml"
-      title={hisMetadata.title}
-      href={hisMetadata.rss}
-    />
+    <BaseHead />
   </head>
   <body>
     <div class="container">
