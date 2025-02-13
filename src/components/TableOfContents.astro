@@ -12,13 +12,13 @@ const { headings } = Astro.props;
 ---
 
 {headings.length > 0 && (
-  <nav class="toc">
-    <ul>
+  <nav class="toc rounded-lg p-4 mb-8 bg-his-chat-other">
+    <ul class="list-none p-0">
       {headings.map((heading) => (
-        <li>
+        <li class="mb-2">
           <a
             href={`#${heading.slug}`}
-            class="toc-link"
+            class="toc-link rounded-md no-underline transition-colors duration-300 hover:opacity-80"
             data-heading-id={heading.slug}
           >
             {heading.text}
