@@ -2,12 +2,12 @@
 const { src } = Astro.props;
 ---
 
-<div id="audio-player" class="fixed bottom-4 left-1/2 -translate-x-1/2 max-w-xl w-[calc(100%-2rem)] bg-gray-800/95 backdrop-blur-sm text-white shadow-xl rounded-2xl border border-gray-700/50">
+<div class="fixed bottom-4 left-1/2 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-gray-700/50 bg-gray-800/95 text-white shadow-xl backdrop-blur-sm">
   <div class="px-4 py-3">
     <div class="flex items-center gap-4">
       <button 
         id="play-pause" 
-        class="w-10 h-10 rounded-xl flex items-center justify-center focus:outline-none hover:opacity-80 transition-all duration-200 bg-his-green/10 text-his-green hover:bg-his-green/20"
+        class="flex h-10 w-10 items-center justify-center rounded-xl bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
         aria-label="Play/Pause"
       >
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -15,21 +15,21 @@ const { src } = Astro.props;
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </button>
-      <span id="current-time" class="text-sm font-mono w-12 text-gray-400">00:00</span>
+      <span id="current-time" class="w-12 text-sm font-mono text-gray-400">00:00</span>
       <div class="flex-grow relative h-2 group">
         <div class="absolute inset-0 rounded-full bg-gray-700/50"></div>
-        <div id="progress-bar" class="absolute inset-y-0 left-0 rounded-full bg-his-green/40 w-0 transition-all duration-100"></div>
+        <div id="progress-bar" class="absolute inset-y-0 left-0 w-0 rounded-full bg-his-green/40 transition-all duration-100"></div>
         <input 
           type="range" 
           id="seek-slider" 
-          class="absolute inset-0 w-full h-full opacity-0 cursor-pointer group-hover:opacity-100 transition-opacity" 
+          class="absolute inset-0 h-full w-full cursor-pointer opacity-0 transition-opacity group-hover:opacity-100" 
           min="0" 
           max="100" 
           value="0" 
           disabled
         >
       </div>
-      <span id="duration" class="text-sm font-mono w-12 text-gray-400">00:00</span>
+      <span id="duration" class="w-12 text-sm font-mono text-gray-400">00:00</span>
     </div>
   </div>
   <audio id="audio-element" preload="none"></audio>
@@ -139,24 +139,7 @@ const { src } = Astro.props;
     });
   });
 </script>
-
 <style>
-  #audio-player {
-    --seek-before-width: 0%;
-  }
-
-  #play-pause {
-    background-color: var(--green);
-    transition: opacity 0.3s ease;
-  }
-
-  #seek-slider {
-    --seek-before-color: var(--green);
-    background: #4b5563;
-    margin: 0;
-    padding: 0;
-  }
-
   #seek-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 12px;

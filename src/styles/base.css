@@ -234,14 +234,6 @@
 }
 
 @layer components {
-  .wrapper {
-    @apply flex flex-1 flex-col max-w-[42rem] mx-auto p-7;
-    
-    @media (min-width: 1100px) {
-      @apply max-w-[63rem] flex-row justify-between;
-    }
-  }
-
   .sidebar {
     @media (min-width: 1100px) {
       @apply flex-none w-[275px] ml-4;
@@ -258,11 +250,7 @@
     @apply bg-[#4F5B66];
   } 
 
-  .timestamp {
-    @apply text-xs text-flexoki-light-bg font-mono mt-0.5 block;
-  }
-
-  .wrap {
+  .message {
     @apply flex flex-col mb-4 relative max-w-[85%] md:max-w-[75%];
 
     & a {
@@ -270,42 +258,57 @@
     }
   }
 
-  .text {
+  .message-bubble {
     @apply px-4 py-3 rounded-[18px] bg-[color:var(--color-his-chat-default)] break-words hyphens-auto;
 
     & strong {
-      /* @apply block mb-1 font-medium text-sm; */
       @apply mb-1 font-bold;
     }
   }
 
-  .wrap:hover {
-    & .timestamp {
+  .message-time {
+    @apply text-xs text-flexoki-light-bg font-mono mt-0.5 block;
+  }
+
+  .message:hover {
+    & .message-time {
       @apply text-his-green transition-colors duration-200;
     }
   }
 
-  .speaker-0, .speaker-2 {
+  .message-sent {
     @apply ml-auto;
+
+    & .message-bubble {
+      @apply bg-[color:var(--color-his-chat-blue)];
+    }
+
+    & .message-time {
+      @apply text-right;
+    }
   }
-  .speaker-1  {
+
+  .message-received {
     @apply mr-auto;
+
+    & .message-bubble {
+      @apply bg-[color:var(--color-his-chat-other)];
+    }
+
+    & .message-time {
+      @apply text-left;
+    }
   }
 
-  .speaker-0 .text {
-    @apply bg-[color:var(--color-his-chat-blue)];
-  }
-  .speaker-1 .text {
-    @apply bg-[color:var(--color-his-chat-other)];
-  }
-  .speaker-2 .text {
-    @apply bg-[color:var(--color-his-chat-default)];
-  }
+  .message-system {
+    @apply ml-auto;
 
-  .speaker-0 .timestamp, .speaker-2 .timestamp {
-    @apply text-right;
-  }
-  .speaker-1 .timestamp {
-    @apply text-left;
+    & .message-bubble {
+      @apply bg-[color:var(--color-his-chat-default)];
+    }
+
+    & .message-time {
+      @apply text-right;
+    }
   }
 } 

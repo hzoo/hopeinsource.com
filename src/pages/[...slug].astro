@@ -1,47 +1,73 @@
 ---
-import { getCollection, render } from 'astro:content';
-import HomeLayout from '../layouts/HomeLayout.astro';
-import EpLayout from '../layouts/EpLayout.astro';
-import TableOfContents from '../components/TableOfContents.astro';
+import { getCollection, render } from "astro:content";
+import HomeLayout from "../layouts/HomeLayout.astro";
+import EpLayout from "../layouts/EpLayout.astro";
+import TableOfContents from "../components/TableOfContents.astro";
+import { hisMetadata } from "@/metadata.ts";
+import AudioPlayer from "@/components/AudioPlayer.astro";
+import Footer from "@/components/Footer.astro";
+import Subscribe from "@/components/Subscribe.astro";
 
 export async function getStaticPaths() {
-  const podcastEntries = await getCollection('podcast');
-  
+  const podcastEntries = await getCollection("podcast");
+
   // Pre-render content at build time
   const pages = await Promise.all(
-    podcastEntries.
-    
-    map(async (entry) => {
-      const slug = entry.id.split('/').pop();
+    podcastEntries.map(async (entry) => {
+      const slug = entry.id.split("/").pop();
       const { Content, headings } = await render(entry);
       const h4Headings = headings.filter((h) => h.depth === 4);
-      
+
       return {
         params: { slug },
-        props: { 
-          entry,
+        props: {
+          slug,
           Content,
-          headings: h4Headings
+          headings: h4Headings,
+          frontmatter: entry.data,
         },
       };
-    })
+    }),
   );
-  
+
   return pages;
 }
 
-const { entry, Content, headings } = Astro.props;
+const { slug, Content, headings, frontmatter } = Astro.props;
 ---
 
-<HomeLayout>
-<div class="wrapper">
-    <div class="content-wrapper">
-        <EpLayout frontmatter={entry.data} slug={`/${entry.id.split('/').pop()}`}>
-            <Content />
-        </EpLayout>
+<EpLayout frontmatter={frontmatter} slug={`/${slug}`}>
+  <div class="mx-auto px-5 py-7 flex flex-col lg:flex-row lg:max-w-6xl">
+    <div class="max-w-3xl mx-auto px-5 py-7">
+      <a href="/"><h3 class="m-0">← {hisMetadata.title}</h3></a>
+      <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
+      <Subscribe />
+
+      <section class="episode-info text-sm text-gray-300">
+        {
+          frontmatter.date.toLocaleDateString("en-US", {
+            year: "numeric",
+            month: "long",
+            day: "numeric",
+          })
+        }
+        {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
+        {frontmatter.season && ` • Season ${frontmatter.season}`}
+      </section>
+
+      <blockquote class="text-sm leading-relaxed">
+        {frontmatter.description} ({frontmatter.time} min)
+      </blockquote>
+
+      <main>
+        <Content />
+      </main>
+
+      <Footer />
+      <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
     </div>
     <aside class="sidebar">
-        <TableOfContents headings={headings} />
+      <TableOfContents headings={headings} />
     </aside>
-</div>
-</HomeLayout>
+  </div>
+</EpLayout>

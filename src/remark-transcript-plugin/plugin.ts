@@ -63,10 +63,10 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
   options: PluginOptions = {}
 ) => {
   const {
-    timestampClass = "timestamp",
-    wrapClass = "wrap",
+    timestampClass = "message-time",
+    wrapClass = "message",
     timestampEmoji = "🕐",
-    textClass = "text",
+    textClass = "message-bubble",
   } = options;
 
   console.log("remarkTranscriptPlugin", options);
@@ -121,7 +121,9 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         hProperties: {
           className: [
             wrapClass,
-            `speaker-${speakerIndex % 3}`,
+            speakerIndex === 0 ? "message-sent" :
+            speakerIndex === 1 ? "message-received" :
+            "message-system"
           ],
         },
       };
