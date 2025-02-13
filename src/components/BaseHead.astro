@@ -14,6 +14,7 @@ const {
 } = Astro.props;
 
 const siteTitle = title === hisMetadata.title ? title : `${title} | ${hisMetadata.title}`;
+const isMainPage = slug === '';
 ---
 
 <!-- Global Metadata -->
@@ -26,7 +27,9 @@ const siteTitle = title === hisMetadata.title ? title : `${title} | ${hisMetadat
 <link rel="preconnect" href="https://media.transistor.fm" />
 
 <!-- Preload critical assets -->
-<link rel="preload" as="image" href={`${hisMetadata.siteUrl}${his_cover.src}`} />
+{isMainPage && 
+  <link rel="preload" href={`${hisMetadata.siteUrl}${his_cover.src}`} as="image" type="image/webp" fetchpriority="high" />
+}
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />

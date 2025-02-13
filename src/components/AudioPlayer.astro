@@ -32,7 +32,7 @@ const { src } = Astro.props;
       <span id="duration" class="w-12 text-sm font-mono text-gray-400">00:00</span>
     </div>
   </div>
-  <audio id="audio-element" preload="none"></audio>
+  <audio id="audio-element" preload="metadata"></audio>
 </div>
 
 <script define:vars={{ src }} is:inline>
@@ -90,6 +90,7 @@ const { src } = Astro.props;
   function loadAudioAndPlay(startTime = 0) {
     if (!isLoaded) {
       audio.src = src;
+      audio.setAttribute('x-cache-control', 'max-age=31536000');
       audio.load();
       isLoaded = true;
     }
