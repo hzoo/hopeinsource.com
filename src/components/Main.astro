@@ -3,7 +3,7 @@ import { getCollection } from 'astro:content';
 import type {  InferEntrySchema } from 'astro:content';
 import Testimonial from "@/components/Testimonial.tsx";
 import Footer from "@/components/Footer.tsx";
-import SEO from "@/components/SEO.tsx";
+import { hisMetadata } from "@/metadata.ts";
 import Subscribe from "@/components/Subscribe.tsx";
 
 import { Image } from 'astro:assets';
@@ -37,94 +37,116 @@ function calculateEpisodeNumber(posts: { id: string, data: InferEntrySchema<"pod
 }
 ---
 
-<div class="container">
-    <div class="hero-wrapper">
-        <div class="hero">
-            <SEO />
-            <div
-                style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  textAlign: "center",
-                  justifyContent: "center",
-                  alignItems: "center",
-                  maxWidth: "472px",
-                  margin: "0 auto",
-                }}
-            >
-                <Image
-                    class="hero-image"
-                    width={472}
-                    src={his_cover}
-                    alt={`Hope in Source Cover Art`} />
-                <p style={{ margin: 0, maxWidth: '75%'}}>
-                    Join <a href="https://twitter.com/left_pad">Henry Zhu</a> for an
-                    off-the-cuff conversation between friends.
-                </p>
-                <p style={{marginTop: 0, fontSize: "0.9rem"}}>
-                    (read the backstory from{" "}
-                    <a href="https://henryzoo.com/living-out-in-faith">Henry</a> and{" "}
-                    <a href="https://nadia.xyz/public-faith">Nadia</a>)
-                </p>
-                <Subscribe />
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{hisMetadata.title}</title>
+    <meta name="description" content={hisMetadata.description} />
+    <meta property="og:url" content={hisMetadata.siteUrl} />
+    <meta property="og:title" content={hisMetadata.title} />
+    <meta name="og:description" content={hisMetadata.description} />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content={hisMetadata.twitter} />
+    <meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
+    <meta name="apple-itunes-app" content="app-id=1437677655" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={hisMetadata.title}
+      href={hisMetadata.rss}
+    />
+  </head>
+  <body>
+    <div class="container">
+        <div class="hero-wrapper">
+            <div class="hero">
+                <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "column",
+                      textAlign: "center",
+                      justifyContent: "center",
+                      alignItems: "center",
+                      maxWidth: "472px",
+                      margin: "0 auto",
+                    }}
+                >
+                    <Image
+                        class="hero-image"
+                        width={472}
+                        src={his_cover}
+                        alt={`Hope in Source Cover Art`} />
+                    <p style={{ margin: 0, maxWidth: '75%'}}>
+                        Join <a href="https://twitter.com/left_pad">Henry Zhu</a> for an
+                        off-the-cuff conversation between friends.
+                    </p>
+                    <p style={{marginTop: 0, fontSize: "0.9rem"}}>
+                        (read the backstory from{" "}
+                        <a href="https://henryzoo.com/living-out-in-faith">Henry</a> and{" "}
+                        <a href="https://nadia.xyz/public-faith">Nadia</a>)
+                    </p>
+                    <Subscribe />
+                </div>
             </div>
         </div>
+        <div>
+          {posts
+          // sort by season, then by order
+          .sort((a, b) => {
+              // post.id format is: "season-1/authority.md"
+              const aSeason = a.data.season || 0;
+              const bSeason = b.data.season || 0;
+
+              // Sort by season in descending order
+              if (bSeason !== aSeason) {
+              return bSeason - aSeason;
+              }
+
+              // If seasons are the same, sort by order in descending order
+              return b.data.sidebar.order - a.data.sidebar.order;
+          })
+          .map((post) => {
+              const title = post.data.title || post.id;
+              const newSlug = post.id.split('/').pop();
+              const episodeNumber = calculateEpisodeNumber(posts, post);
+              return (
+              <div>
+                  <h3 style={{ marginTop: 0 }}>
+                      <a href={`/${newSlug}`}>
+                        {title}
+                    </a>
+                  </h3>
+                  <small>
+                  {post.data.date}
+                  {post.data.time && ` • ${post.data.time} min 🎧`}
+                  {post.data.season && ` • Season ${post.data.season}, Episode ${episodeNumber}`}
+                  </small>
+                  <p set:html={post.data.description} />
+              </div>
+              );
+          })}
+            <hr />
+            <Testimonial />
+            <Footer />
+        </div>
     </div>
-    <div>
-      {posts
-      // sort by season, then by order
-      .sort((a, b) => {
-          // post.id format is: "season-1/authority.md"
-          const aSeason = a.data.season || 0;
-          const bSeason = b.data.season || 0;
 
-          // Sort by season in descending order
-          if (bSeason !== aSeason) {
-          return bSeason - aSeason;
-          }
-
-          // If seasons are the same, sort by order in descending order
-          return b.data.sidebar.order - a.data.sidebar.order;
-      })
-      .map((post) => {
-          const title = post.data.title || post.id;
-          const newSlug = post.id.split('/').pop();
-          const episodeNumber = calculateEpisodeNumber(posts, post);
-          return (
-          <div>
-              <h3 style={{ marginTop: 0 }}>
-                  <a href={`/${newSlug}`}>
-                    {title}
-                </a>
-              </h3>
-              <small>
-              {post.data.date}
-              {post.data.time && ` • ${post.data.time} min 🎧`}
-              {post.data.season && ` • Season ${post.data.season}, Episode ${episodeNumber}`}
-              </small>
-              <p set:html={post.data.description} />
-          </div>
-          );
-      })}
-        <hr />
-        <Testimonial />
-        <Footer />
-    </div>
-</div>
-
-<style>
-  .hero-image {
-      width: 100%;
-      max-width: 472px;
-      height: auto;
-      aspect-ratio: 1 / 1;
-      object-fit: contain;
-      margin-bottom: 1rem;
-  }
-
-  @media (max-width: 768px) {
+    <style>
       .hero-image {
-          max-width: 90%;
+          width: 100%;
+          max-width: 472px;
+          height: auto;
+          aspect-ratio: 1 / 1;
+          object-fit: contain;
+          margin-bottom: 1rem;
       }
-  }
-</style>
+
+      @media (max-width: 768px) {
+          .hero-image {
+              max-width: 90%;
+          }
+      }
+    </style>
+  </body>
+</html>

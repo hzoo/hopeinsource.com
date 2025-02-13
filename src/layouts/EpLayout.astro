@@ -1,62 +1,79 @@
 ---
 import AudioPlayer from '@/components/AudioPlayer.astro';
 
-import SEO from '@/components/SEO.tsx';
 import Subscribe from '@/components/Subscribe.tsx';
 import Support from '@/components/Support.tsx';
 import Footer from '@/components/Footer.tsx';
 import { hisMetadata } from "@/metadata.ts";
+import his_cover from "@/assets/his.jpg";
 
 import '../styles/custom.css';
 
 const { frontmatter, slug } = Astro.props;
-// const discussUrl = `https://twitter.com/search?q=${encodeURIComponent(
-//   `${hisMetadata.siteUrl}${slug}`
-// )}`;
+const url = `${hisMetadata.siteUrl}${slug}`;
 ---
 
-<div>
-<h3 style={{margin: 0}}>
-    <a href="/">← {hisMetadata.title}</a>
-</h3>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>{frontmatter.title} - {hisMetadata.title}</title>
+    <meta name="description" content={frontmatter.description} />
+    <meta property="og:url" content={url} />
+    <meta property="og:title" content={`${frontmatter.title} - ${hisMetadata.title}`} />
+    <meta name="og:description" content={frontmatter.description} />
+    <meta name="twitter:card" content={frontmatter.embedUrl ? "player" : "summary"} />
+    <meta name="twitter:creator" content={hisMetadata.twitter} />
+    <meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
+    
+    {frontmatter.embedUrl && (
+      <>
+        <meta name="twitter:player" content={frontmatter.embedUrl} />
+        <meta name="twitter:player:width" content="500" />
+        <meta name="twitter:player:height" content="180" />
+      </>
+    )}
+    
+    <meta name="apple-itunes-app" content="app-id=1437677655" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title={hisMetadata.title}
+      href={hisMetadata.rss}
+    />
+  </head>
+  <body>
+    <div>
+      <h3 style={{margin: 0}}>
+          <a href="/">← {hisMetadata.title}</a>
+      </h3>
 
-<SEO
-    title={frontmatter.title}
-    description={frontmatter.description}
-    slug={slug}
-    embedUrl={frontmatter.embedUrl}
-/>
+      <h2>{frontmatter.title}</h2>
 
-<h2>{frontmatter.title}</h2>
+      <Subscribe />
 
-<Subscribe />
+      <section class="episode-info">
+          {frontmatter.date}
+          {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
+          {frontmatter.season && ` • Season ${frontmatter.season}`}
+      </section>
 
-<section class="episode-info">
-    {frontmatter.date}
-    {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
-    {frontmatter.season && ` • Season ${frontmatter.season}`}
-</section>
+      <blockquote>
+          {frontmatter.description} ({frontmatter.time} min)
+      </blockquote>
 
-<blockquote>
-    {frontmatter.description} ({frontmatter.time} min)
-</blockquote>
+      <section class="content">
+          <slot />
+      </section>
 
-<section class="content">
-    <slot />
-</section>
+      <Support />
 
-<Support />
+      <Footer />
 
-<!-- <p style={{ textAlign: "center" }}>
-    <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-    Discuss on Twitter
-    </a>
-</p> -->
-
-<Footer />
-
-<AudioPlayer
-    title={frontmatter.title}
-    src={`https://media.transistor.fm/${frontmatter.episodeLink}.mp3`}
-/>
-</div>
+      <AudioPlayer
+          title={frontmatter.title}
+          src={`https://media.transistor.fm/${frontmatter.episodeLink}.mp3`}
+      />
+    </div>
+  </body>
+</html>
