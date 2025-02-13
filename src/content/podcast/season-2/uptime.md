@@ -1,15 +1,21 @@
 ---
 title: "MA 10: Jonathan Farbowitz on the Commitment to Infinite Uptime"
 season: 2
-date: "2019-07-15"
+date: 2019-07-15
 time: "75"
-description: "How should we think about saving something forever? Jonathan Farbowitz (Guggenheim) continues the on-going discussion of software preservation with Henry in talking about the goals of museums, the hard (and maybe impossible) task of keeping something intact, the norms and steps of conservation, comparing physical and digital artwork, the importance of authors in conserving a piece, emulation vs. language porting (rewrites), a discussion about an art's 'dependencies', possibly adding automated testing, and deprecations/breakages in environments/standards."
-episodeLink: f74a2cda
-embedUrl: https://share.transistor.fm/e/cde0eb06
+description: How should we think about saving something forever? Jonathan
+  Farbowitz (Guggenheim) continues the on-going discussion of software
+  preservation with Henry in talking about the goals of museums, the hard (and
+  maybe impossible) task of keeping something intact, the norms and steps of
+  conservation, comparing physical and digital artwork, the importance of
+  authors in conserving a piece, emulation vs. language porting (rewrites), a
+  discussion about an art's 'dependencies', possibly adding automated testing,
+  and deprecations/breakages in environments/standards.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461852/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345811-44100-2-0239b07cde78fc95.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-10-Jonathan-Farbowitz-on-the-Commitment-to-Infinite-Uptime-e2su9is
 sidebar:
-    order: 10
+  order: 10
 ---
-
 ### Links
 
 - [Jonathan](https://twitter.com/jfarbowitz)

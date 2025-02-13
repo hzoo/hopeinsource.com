@@ -1,14 +1,14 @@
 ---
 import { getCollection } from "astro:content";
 import type { PodcastEntry } from "@/types/podcast";
-import Testimonial from "@/components/Testimonial";
-import Footer from "@/components/Footer";
-import Subscribe from "@/components/Subscribe";
-import EpisodeList from "@/components/EpisodeList";
+import Testimonial from "@/components/Testimonial.astro";
+import Footer from "@/components/Footer.astro";
+import Subscribe from "@/components/Subscribe.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 
-const rawPosts = await getCollection("podcast", () => true);
+// Move all data processing to build time
+const rawPosts = await getCollection("podcast");
 const posts: PodcastEntry[] = rawPosts
   .sort((a, b) => {
     const aSeason = a.data.season || 0;
@@ -23,22 +23,21 @@ const posts: PodcastEntry[] = rawPosts
     slug: post.id.split('/').pop() || ''
   }));
 
-// Pre-compute episode grouping by season
-const episodesBySeasons = posts.reduce((acc, episode) => {
-  const season = episode.data.season || 0;
-  if (!acc[season]) {
-    acc[season] = [];
-  }
-  acc[season].push(episode);
-  return acc;
-}, {} as Record<number, PodcastEntry[]>);
+// Pre-compute episodes by season at build time
+const episodesBySeasons = Object.fromEntries(
+  Object.entries(
+    posts.reduce((acc, episode) => {
+      const season = episode.data.season || 0;
+      if (!acc[season]) {
+        acc[season] = [];
+      }
+      acc[season].push(episode);
+      return acc;
+    }, {} as Record<number, PodcastEntry[]>)
+  ).sort(([a], [b]) => Number(b) - Number(a))
+);
 
-// Sort seasons in descending order
-const seasons = Object.keys(episodesBySeasons)
-  .map(Number)
-  .sort((a, b) => b - a);
-
-const initialSeason = seasons[0];
+const seasons = Object.keys(episodesBySeasons).map(Number).sort((a, b) => b - a);
 ---
 
 <div class="wrapper mx-auto px-5 py-7 flex flex-col lg:flex-row lg:max-w-6xl">
@@ -68,12 +67,34 @@ const initialSeason = seasons[0];
         </div>
     </div>
     <div class="flex-1">
-        <EpisodeList 
-            episodesBySeasons={episodesBySeasons} 
-            seasons={seasons}
-            initialSeason={initialSeason}
-            client:load 
-        />
+        <div class="space-y-12">
+            {seasons.map((season) => (
+                <section class="space-y-6">
+                    {season !== 0 && (
+                        <h2 class="text-2xl font-bold text-his-green">Season {season}</h2>
+                    )}
+                    <div class="space-y-1">
+                        {episodesBySeasons[season].map((episode) => (
+                            <article class="hover:bg-gray-800/50 px-2 rounded-lg transition-colors">
+                                <a href={`/${episode.slug}`} class="block group">
+                                    <h3 class="text-xl font-semibold group-hover:text-his-green transition-colors">
+                                        {episode.data.title}
+                                    </h3>
+                                    <div class="text-sm text-gray-400 mt-1 space-x-2">
+                                        {episode.data.date.toLocaleDateString('en-US', {
+                                          year: 'numeric',
+                                          month: 'long',
+                                          day: 'numeric',
+                                        })} {episode.data.time && <span>• {episode.data.time} min 🎧</span>}
+                                    </div>
+                                    <p class="mt-2 text-gray-300">{episode.data.description}</p>
+                                </a>
+                            </article>
+                        ))}
+                    </div>
+                </section>
+            ))}
+        </div>
         <hr class="my-8 border-his-hr" />
         <Testimonial />
         <Footer />

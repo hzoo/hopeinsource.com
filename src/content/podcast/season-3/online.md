@@ -1,15 +1,19 @@
 ---
-title: "Very Online (Strange Rites)"
+title: Very Online (Strange Rites)
 season: 3
-date: "2020-07-23"
+date: 2020-07-23
 time: "63"
-description: "What happens to our religions when they meet the Internet? Tara Isabella Burton joins Henry to chat about her new book, Strange Rites: New Religions for a Godless World. They chat about our failing institutions, taking fandoms like Harry Potter seriously, how we all remix religion, how consumerism infects all of life, on embodiment and givenness, and most importantly, what is our freedom even for?"
-episodeLink: "0f941cd6"
-embedUrl: https://share.transistor.fm/e/40b0aef1
+description: "What happens to our religions when they meet the Internet? Tara
+  Isabella Burton joins Henry to chat about her new book, Strange Rites: New
+  Religions for a Godless World. They chat about our failing institutions,
+  taking fandoms like Harry Potter seriously, how we all remix religion, how
+  consumerism infects all of life, on embodiment and givenness, and most
+  importantly, what is our freedom even for?"
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461664/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345615-48000-1-402d5f8709904360.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Very-Online-Strange-Rites-e2su9d0
 sidebar:
-    order: 3
+  order: 3
 ---
-
 ### Links
 
 - The book, [Strange Rites](https://www.publicaffairsbooks.com/titles/tara-isabella-burton/strange-rites/9781541762510/)

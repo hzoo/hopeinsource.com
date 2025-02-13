@@ -1,11 +1,11 @@
 ---
 title: "Natural Limits (Michael Sacasas)"
 season: 3
-date: "2020-10-12"
+date: 2020-10-12
 time: "30"
 description: "Can we consider limits as a gift? Michael Sacasas and Henry discuss an understated concept in our modern times, namely limited nature as creatures in the context of parenting, social media, and health. We pass through a mix of (sometimes heavy) topics: violent games and virtue ethics, parents as gardeners rather than carpenters, the issues of unprecedented scale, modernity as the application of technique, our inclination to believe more is better, and the art of dying."
-episodeLink: "1c4ba146"
-embedUrl: https://share.transistor.fm/e/be085bf0
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461732/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345711-48000-1-732ff3b961ed2b7d.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Natural-Limits-L-M--Sacasas-e2su9f4
 sidebar:
     order: 7
 ---

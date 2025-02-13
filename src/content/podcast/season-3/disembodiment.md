@@ -1,22 +1,25 @@
 ---
-title: "Digital Disembodiment (Maggie Appleton)"
+title: Digital Disembodiment (Maggie Appleton)
 season: 3
-date: "2021-04-05"
+date: 2021-04-05
 time: "26"
-description: "How does the digital life shape our perceptions of ourselves? Maggie Appleton starts us off on a discussion of school in pandemic times which lead to a discussion of the disembodiment that technology can create, somehow bringing us further towards our thoughts on time and space? (Recorded in November 2020)"
-episodeLink: "c9c2824b"
-embedUrl: https://share.transistor.fm/e/f125250b
+description: How does the digital life shape our perceptions of ourselves?
+  Maggie Appleton starts us off on a discussion of school in pandemic times
+  which lead to a discussion of the disembodiment that technology can create,
+  somehow bringing us further towards our thoughts on time and space? (Recorded
+  in November 2020)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461722/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345704-48000-1-5c7cc18ec401648a.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-Disembodiment-Maggie-Appleton-e2su9eq
 sidebar:
-    order: 16
+  order: 16
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/disembodiment.md)
 
 [00:00] **Henry**: You were telling me earlier about going back to..
 
-[00:02] **Maggie**: School. Kind of. I wanted to do this MSC, a master's of science in digital anthropology, that I had my eye on for like the last six or seven years being like, okay, at one point I'll like take time off work and do that. And finally last December was like, okay, I'm going to finally do it in 2020 and like applied and got in January and was super excited. And then was like in denial about the COVID situation until like June being like, it'll be fine. We'll be back in person by then. 
+[00:02] **Maggie**: School. Kind of. I wanted to do this MSC, a master's of science in digital anthropology, that I had my eye on for like the last six or seven years being like, okay, at one point I'll like take time off work and do that. And finally last December was like, okay, I'm going to finally do it in 2020 and like applied and got in January and was super excited. And then was like in denial about the COVID situation until like June being like, it'll be fine. We'll be back in person by then.
 
 [00:32] **Maggie**: But yeah, the course started at the end of September and I did the first five weeks and it was all online. Cause we've been in lockdown ever since then. So anyway, they banned all in person research and most of the degree was around ethnography. So going and being with people in places and studying culture through embodied, you know, in-person rich, highly detailed experiences. So yeah, I decided it was better to defer until next year. And I don't know if we'll be back in person by then, but you know, wasn't the year for it.
 
@@ -24,11 +27,11 @@ sidebar:
 
 [01:12] **Maggie**: Well, the funny thing is, is it's a degree in digital anthropology, but every, all the researchers who lead the program are very much obsessed with like studying the digital through in-person interactions, because there are so many people trying to study digital culture just by like scraping forums and like scraping Twitter.
 
-[01:32] **Maggie**: And considering that like truth and data about what our culture is. And this program took the approach of like, it's impossible for us to understand how digital culture works unless we go and be with people. In their homes or in their workplaces while they're using digital devices, seeing the rich context around it, seeing all the things that we don't put online, the blended bits. Which is why I was drawn to the program. 
+[01:32] **Maggie**: And considering that like truth and data about what our culture is. And this program took the approach of like, it's impossible for us to understand how digital culture works unless we go and be with people. In their homes or in their workplaces while they're using digital devices, seeing the rich context around it, seeing all the things that we don't put online, the blended bits. Which is why I was drawn to the program.
 
 [02:00] **Henry**: Yeah, I'd be wondering if they would even purposely cancel everything, given the nature of what it is.
 
-[02:07] **Maggie**: I think a lot of the people running the course probably would have agreed with that, but given the economics of higher education institutions, they sort of needed all the tuition money, so they just kind of kept the course running. That's my interpretation of it. a lot of them were saying it's, you know, it's not quite the academic experience we would have gotten otherwise. 
+[02:07] **Maggie**: I think a lot of the people running the course probably would have agreed with that, but given the economics of higher education institutions, they sort of needed all the tuition money, so they just kind of kept the course running. That's my interpretation of it. a lot of them were saying it's, you know, it's not quite the academic experience we would have gotten otherwise.
 
 #### Deschooling Society
 
@@ -42,7 +45,7 @@ sidebar:
 
 [03:30] **Henry**: Yeah. That's interesting. So I haven't even read Deschooling myself, but I've read he also didn't pick the title for the book? I mean, this is apparently true for like almost any book. But it sounded like he would have rather use the term like dis-establishing school. Cause the first chapter of the book is something like why we must this established school. Kind of like when we talk about separation of church and state. His main issue before was what he called compulsory education people are forced to learn certain things instead of by voluntarily doing that.
 
-[04:06] **Maggie**: Yeah. 
+[04:06] **Maggie**: Yeah.
 
 [04:07] **Henry**: And that's different from like saying we shouldn't have school I think.
 
@@ -76,19 +79,19 @@ sidebar:
 
 > Maggie had a few suggestions in mind: [On Deck](https://www.beondeck.com/), [Hyperlink Academy](https://hyperlink.academy/), [School for Poetic Computation](https://sfpc.io/), [Recurse Center](https://www.recurse.com/), [The Black School](https://theblack.school/about-us/), [Enrol Yourself](https://www.enrolyourself.com/)
 
-[07:33] **Maggie**: Maybe it is just my corner of the internet and Twitter, but there does seem to be more of a rise right now of independent educational people crafting their own educational plans. Very anti-institutional very go your own way, autodidactic. 
+[07:33] **Maggie**: Maybe it is just my corner of the internet and Twitter, but there does seem to be more of a rise right now of independent educational people crafting their own educational plans. Very anti-institutional very go your own way, autodidactic.
 
-[07:48] **Maggie**: Which I think might be a double-edged sword in, in ways. I think there's a lot of narrative around, like we can just teach ourselves anything. And like the independent learner that maybe doesn't give as much credit to the fact that still all, some things where like the information is behind the walls of the Academy and like, that's not great. Like there's still paywalls on every major academic journal site, right. To be able to read good research, which is like a whole different problem. 
+[07:48] **Maggie**: Which I think might be a double-edged sword in, in ways. I think there's a lot of narrative around, like we can just teach ourselves anything. And like the independent learner that maybe doesn't give as much credit to the fact that still all, some things where like the information is behind the walls of the Academy and like, that's not great. Like there's still paywalls on every major academic journal site, right. To be able to read good research, which is like a whole different problem.
 
 [08:16] **Maggie**: But I feel like he maybe would like appreciate a lot of the stuff we're seeing of, especially I think about it in terms of the whole like lifelong learner narrative of what happens after you graduate university. And a lot of us still want to be researching and learning and digging into things deeply. And how do we create structures for that, where we're able to do that regularly, socially, whether the people develop deep ideas and mostly blogging has become some sort of medium for self-education of the last decade.
 
-[08:44] **Henry**: Yeah. Without the institution, it doesn't mean that you're on your own. It's not like a autonomous self, but that you are interdependent with other people in your local community. So he really fostered friendships. Relying on one another. Those two almost feel as separate, but like they're interrelated in his word, conviviality. Which is like such a interesting word because Polanyi uses it too; I'm trying to figure out like how they relate. 
+[08:44] **Henry**: Yeah. Without the institution, it doesn't mean that you're on your own. It's not like a autonomous self, but that you are interdependent with other people in your local community. So he really fostered friendships. Relying on one another. Those two almost feel as separate, but like they're interrelated in his word, conviviality. Which is like such a interesting word because Polanyi uses it too; I'm trying to figure out like how they relate.
 
 [09:12] **Henry**: But this relates a lot to institutions. In this case, if you have an institution, like say school, you are relying on school in order to get learning and eventually depend on school, almost like an  addiction kind of thing, but not at an individual level, almost like a societal level. We have to have school. Not that you shouldn't do these things, but that's just kind of our default thinking. And then the other way around, by depending on institutions, we also don't depend on our fellow peers, our neighbor.
 
 #### Disembodied By Technology
 
-[09:42] **Henry**: And that relates a lot to tools, which he talks about and tools for conviviality. This idea of like services and products and consumerism. So whether it's the nonprofit or it's the government or company, we're not relying on people, relying on services. Or we are relying on apps and algorithms. 
+[09:42] **Henry**: And that relates a lot to tools, which he talks about and tools for conviviality. This idea of like services and products and consumerism. So whether it's the nonprofit or it's the government or company, we're not relying on people, relying on services. Or we are relying on apps and algorithms.
 
 [10:05] **Henry**: I was thinking about that quantified self thing again, cause we talked about it before and I was like, wow, this is really related because a friend was just mentioning they had like this app that tells them how much water they should drink. And this is not like bad on its own, right. You know, it's good to just know. Or even like what levels of vitamins or all that stuff. But if you think about it.. Is it a good thing in the long run if we rely on these apps to tell us how much food we should have, or when we should go to sleep. Cause you could see that could turned into a dependency to where there's a little virtual avatar that tells you it's like sad when you don't have water and then it's like happy when you do.
 
@@ -98,7 +101,7 @@ sidebar:
 
 [11:26] **Maggie**: Cause I'm now seeing that  there's a lot in the quantified self movement that's about personal agency. Like there's the personal medicine movement, which it sounds like he would have been really into where rather than relying on some generic doctor to try and help figure out what's wrong with you. You can have more agency in coding and designing apps and tracking your own system and like improving it. Like it helps people who have specific things like diabetes or asthma or IBS, like something where small changes can make a big difference to quality of life. So that he'd be really into.
 
-[11:57] **Maggie**: But it's definitely true that the quantified self movement, it kind can go good or bad with the way people approach it. And so it's very much like the narrative people come to it with, because there's like a sort of a strain to it that is the people who want the phone to tell them how to feel, right? To have the phone be like, you need to now eat 400 calories and drink a liter of water. And you need to like go to sleep at 7:22 PM. And this idea that like the magical technological system will help them optimize themselves. 
+[11:57] **Maggie**: But it's definitely true that the quantified self movement, it kind can go good or bad with the way people approach it. And so it's very much like the narrative people come to it with, because there's like a sort of a strain to it that is the people who want the phone to tell them how to feel, right? To have the phone be like, you need to now eat 400 calories and drink a liter of water. And you need to like go to sleep at 7:22 PM. And this idea that like the magical technological system will help them optimize themselves.
 
 [12:31] **Maggie**: And a lot of the stuff I ended up reading about it, there was a strong thread of like being the optimal capitalist. How do I become the most productive, right? Make the most money. Optimize every minute of my day. And then there's another group in the community that are really interesting, cause they're the like more squishy self-reflective ones who were there  collecting data, just to look at it and just be like, okay, I'm tracking moods or I'm tracking how my sleep correlates with the number of hours I work. And just using it as a way to do a lot of them. We use the word personal science and just kind of look at numbers and be like, Oh, that's interesting. What does that make me think about how I'm I'm acting? So I think it's like, you can use the raw tools to do it in two very different ways.
 
@@ -122,7 +125,7 @@ sidebar:
 
 [16:55] **Maggie**: Yeah. I don't know why that's not more of a narrative in mainstream discussions about this stuff, because I'm thinking so much about how, right, any app where we outsource agency and permission to it to sort of manage whatever it is. Like, let's say our sleep, right.
 
-[17:11] **Maggie**: It's going to use whatever is our best scientific evidence right now for like the most generic data for how many hours a human should sleep, right. It's going to be like, here's the mass average, we've decided it's eight hours. This app is going to help you get exactly eight hours sleep, which says nothing for like the exact particularities of different human bodies. 
+[17:11] **Maggie**: It's going to use whatever is our best scientific evidence right now for like the most generic data for how many hours a human should sleep, right. It's going to be like, here's the mass average, we've decided it's eight hours. This app is going to help you get exactly eight hours sleep, which says nothing for like the exact particularities of different human bodies.
 
 [17:31] **Maggie**: I love like there's lots of historical records. We used to sleep in two different times. You'd do like a four hour sleep and then you'd get up and read for two hours and hang out and like chill and then you'd sleep for another four hours. Because it was dark for longer. Cause they didn't have artificial light. This is like pre-electricity. It's pretty well recorded that was a fairly typical sleep pattern for most humans. And now no one really does that I know of. And they don't think any scientific papers have studied, whether that's optimal or not. But yeah any app is just going to use the generic human body, some like amalgamated massive data points that it's not your particular system and your particular needs.
 
@@ -136,9 +139,9 @@ sidebar:
 
 #### Perceiving Time
 
-> There was a recent Vsauce on time, [Illusions of Time](https://www.youtube.com/watch?v=zHL9GP_B30E) 
+> There was a recent Vsauce on time, [Illusions of Time](https://www.youtube.com/watch?v=zHL9GP_B30E)
 
-[20:11] **Henry**: Another one I was thinking about was the passage of time and like knowing how long something takes. I don't think most people have any sense of that anymore. We have a watch, or you look at the time, and then you're like, Oh wow, X time has passed. 
+[20:11] **Henry**: Another one I was thinking about was the passage of time and like knowing how long something takes. I don't think most people have any sense of that anymore. We have a watch, or you look at the time, and then you're like, Oh wow, X time has passed.
 
 [20:25] **Henry**: I gave a talk at like a student hackathon and I don't know why we ended up doing this, but we just really, Hey, what if we like tried the time how long one minute is? And so we all like close our eyes and then you like open them when you think it's a minute. And then also doing that without counting, right, but just trying to just sit there.
 
@@ -166,9 +169,9 @@ sidebar:
 
 [25:14] **Maggie**: Cause it is such a shame that there's so much cultural baggage around games and like the, even the politics around like online gaming worlds is like too much to like go into. But the affordances of the platform are really the valuable thing, right? Like being in world of Warcraft, it requires people being willing to get over the weirdness of being into like elves and dwarves and fairies. I don't know, I've never played it. But clearly like there's, there's actually been some good ethnography, so people writing about World of Warcraft communities that are  genuinely like tight knit cultures. People come best friends and get married to partners out their World of Warcraft clans, like genuine human connections culture, like through and through unquestionable. And it's like, why can't we just have that in different forms that don't involve orcs or all this other weird cultural narrative layered on it.
 
-[26:03] **Henry**: Right. I play games, and it's like I don't normally consider myself the person, even though I guess, that's supposed to be the point, like you're immersing yourself in this world, but I mean, people like superheroes. So it's like not that different. Maybe it's easier for people because it's not really me. Maybe it being too real is even more weird, but it's like, you almost want it to be different on purpose so that you remember it's just like a representation of yourself or something. 
+[26:03] **Henry**: Right. I play games, and it's like I don't normally consider myself the person, even though I guess, that's supposed to be the point, like you're immersing yourself in this world, but I mean, people like superheroes. So it's like not that different. Maybe it's easier for people because it's not really me. Maybe it being too real is even more weird, but it's like, you almost want it to be different on purpose so that you remember it's just like a representation of yourself or something.
 
-[26:29]People want to be able to like express themselves, right. That's one of the problems with stuff like zoom, where the only way you can express yourself is like your background, right. Or your clothes, I guess. And there, I could do whatever the platform allows me to do which might be more fun for people. 
+[26:29]People want to be able to like express themselves, right. That's one of the problems with stuff like zoom, where the only way you can express yourself is like your background, right. Or your clothes, I guess. And there, I could do whatever the platform allows me to do which might be more fun for people.
 
 [26:45] **Maggie**: And also provides activities and goals. Just like things to go do together in the way the real world does, right. Whereas like zoom, you're just presented with the screens of each other. And there's no like subtle background distraction or subtle things. Like as if you're going to get coffee with someone, there's this whole process of getting the coffee and chatting about the quality of the coffee and commenting on the person at the table next to you and petting the dog next to you.
 

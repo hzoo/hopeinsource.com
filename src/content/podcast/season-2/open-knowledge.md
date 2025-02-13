@@ -1,15 +1,19 @@
 ---
 title: "MA 14: Open Knowledge"
 season: 2
-date: "2020-09-02"
+date: 2020-09-02
 time: "54"
-description: "What does it mean to be code adjacent? Shawn Wang joins Henry to chat about not just open code but open thinking with his experience in community managing, the idea of tumbling, moderating /r/reactjs, starting the Svelete Society meetup, documenting and learning in public, being historians of our field, fresh notes vs. awesome lists, the meta language, and adoption curves. (recorded in June)"
-episodeLink: "932b52ce"
-embedUrl: https://share.transistor.fm/e/4fad5d14
+description: What does it mean to be code adjacent? Shawn Wang joins Henry to
+  chat about not just open code but open thinking with his experience in
+  community managing, the idea of tumbling, moderating /r/reactjs, starting the
+  Svelete Society meetup, documenting and learning in public, being historians
+  of our field, fresh notes vs. awesome lists, the meta language, and adoption
+  curves. (recorded in June)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461898/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345870-48000-1-abccd8a63b7b2f2e.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-14-Shawn-Wang-on-Open-Knowledge-e2su9ka
 sidebar:
-    order: 14
+  order: 14
 ---
-
 ### Links
 
 - [Shawn's blog](https://www.swyx.io)

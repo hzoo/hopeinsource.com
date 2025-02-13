@@ -1,15 +1,18 @@
 ---
 title: "11: City as Liturgy (Bonus)"
 season: 1
-date: "2019-03-21"
+date: 2019-03-21
 time: "54"
-description: Is the city a toaster (an object) or a cat (a living organism)? We are joined by Dr. Timothy Patitsis to talk about how our physical and digital spaces, like liturgy, can be understood as "the work of the people". We discuss science as organized complexity, the meaning of knowledge, recursive societies, fractal hierarchies, and implications for governance.
-episodeLink: "1e2b2d17"
-embedUrl: https://share.transistor.fm/e/9935e8af
+description: Is the city a toaster (an object) or a cat (a living organism)? We
+  are joined by Dr. Timothy Patitsis to talk about how our physical and digital
+  spaces, like liturgy, can be understood as "the work of the people". We
+  discuss science as organized complexity, the meaning of knowledge, recursive
+  societies, fractal hierarchies, and implications for governance.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461808/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345769-44100-1-f3634ed400746825.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/11-City-as-Liturgy-Bonus-e2su9hg
 sidebar:
-    order: 11
+  order: 11
 ---
-
 ### Guest
 
 Dr. Timothy Patitsas has been Assistant Professor of Orthodox Christian Ethics at the Holy Cross Greek Orthodox School of Theology in Boston, Massachusetts
@@ -338,4 +341,4 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [53:40] **Henry**: Yeah, in desiring beauty what is it that we can say or do that helps us be captured by a spirit of awe and wonder like Jacobs' love for the city. Makes me think of how we seek God in intimacy. To seek a who rather than a what.
 
-53:53 **Nadia**: Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).
+[53:53] **Nadia**: Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com).

@@ -1,15 +1,20 @@
 ---
-title: "Legacy (Timothy Patitsis)"
+title: Legacy (Timothy Patitsis)
 season: 3
-date: "2020-06-01"
+date: 2020-06-01
 time: "48"
-description: Why do we so easily forget where we come from? Dr. Timothy Patitsis joins Henry again to chat about the affect of legacy on our lives through the language of standards, language diversity, being a melting pot or mosaic, legibility, Jane Jacob's tripartite society, algorithmic control and agency, sanctification and faith as an adventure. Michael Polanyi says that "a society which wants to preserve a fund of personal knowledge must submit to tradition".
-episodeLink: "20dd6763"
-embedUrl: https://share.transistor.fm/e/93cc7c50
+description: Why do we so easily forget where we come from? Dr. Timothy Patitsis
+  joins Henry again to chat about the affect of legacy on our lives through the
+  language of standards, language diversity, being a melting pot or mosaic,
+  legibility, Jane Jacob's tripartite society, algorithmic control and agency,
+  sanctification and faith as an adventure. Michael Polanyi says that "a society
+  which wants to preserve a fund of personal knowledge must submit to
+  tradition".
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461717/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345681-44100-2-d54e56ee8c8de539.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Legacy-Timothy-Patitsis-e2su9el
 sidebar:
-    order: 1
+  order: 1
 ---
-
 ### Links
 
 - [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)

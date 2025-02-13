@@ -1,15 +1,19 @@
 ---
 title: "MA 13: Jordan Scales on Nostalgia and Not Taking Yourself Too Seriously"
 season: 2
-date: "2020-05-26"
+date: 2020-05-26
 time: "76"
-description: "Why attempt to faithfully recreate the past? Jordan Scales joins Henry to chat about design systems, being pixel perfect, accessibility, the Microsoft Windows User Experience reference manual, using VMs, MSPaint and Figma, whimsy and having fun with coding, creating satire at no one's expense, and even how Babel's Guy Fieri meme could of been Jeff Goldblum in another universe."
-episodeLink: 8b00cb5a
-embedUrl: https://share.transistor.fm/e/e7a1abae
+description: Why attempt to faithfully recreate the past? Jordan Scales joins
+  Henry to chat about design systems, being pixel perfect, accessibility, the
+  Microsoft Windows User Experience reference manual, using VMs, MSPaint and
+  Figma, whimsy and having fun with coding, creating satire at no one's expense,
+  and even how Babel's Guy Fieri meme could of been Jeff Goldblum in another
+  universe.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461585/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345529-44100-1-176923435cef5a06.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-13-Jordan-Scales-on-Nostalgia-and-Not-Taking-Yourself-Too-Seriously-e2su9ah
 sidebar:
-    order: 13
+  order: 13
 ---
-
 ### Links
 
 - [98.css](https://jdan.github.io/98.css/)

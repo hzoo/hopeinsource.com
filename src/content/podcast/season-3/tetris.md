@@ -1,15 +1,19 @@
 ---
-title: "Software Tetris (Stephen Kell)"
+title: Software Tetris (Stephen Kell)
 season: 3
-date: "2021-03-09"
+date: 2021-03-09
 time: "42"
-description: "What is the state of modern software now, and how is it like losing at Tetris? Stephen Kell joins Henry to chat about Ivan Illich's thought (counter-productivity, radical monopoly, critique of institutions) applied to software! We talk about the software/hardware arms race, how our default is more is better, tech being all-consuming, tyranny of updates. (recorded in Dec 2020)"
-episodeLink: "06996f31"
-embedUrl: https://share.transistor.fm/e/8b84652f
+description: What is the state of modern software now, and how is it like losing
+  at Tetris? Stephen Kell joins Henry to chat about Ivan Illich's thought
+  (counter-productivity, radical monopoly, critique of institutions) applied to
+  software! We talk about the software/hardware arms race, how our default is
+  more is better, tech being all-consuming, tyranny of updates. (recorded in Dec
+  2020)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461667/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345626-48000-1-abff2867c3c045e8.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Software-Tetris-Stephen-Kell-e2su9d3
 sidebar:
-    order: 15
+  order: 15
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/tetris.md)
@@ -18,15 +22,15 @@ sidebar:
 
 > "Do increased performance and functionality keep pace with the increased demand for resources? Mostly the answer is no." - Niklaus Wirth ([A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf))
 
-[0:00] **Stephen**: [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) wrote in the nineties that [software is getting slower faster than hardware is getting faster](https://cr.yp.to/bib/1995/wirth.pdf). Which okay, maybe that's only true-ish. But I was kind of interested in research on [software verification](https://en.wikipedia.org/wiki/Software_verification) at that time, and I realized that this was almost a [Zeno's paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) sort of situation. It means that verification technology is kind of stuck just far enough behind the curve. It still never scales to the contemporary software because in the meantime that has got so much bigger and more complex as well. 
+[0:00] **Stephen**: [Niklaus Wirth](https://en.wikipedia.org/wiki/Niklaus_Wirth) wrote in the nineties that [software is getting slower faster than hardware is getting faster](https://cr.yp.to/bib/1995/wirth.pdf). Which okay, maybe that's only true-ish. But I was kind of interested in research on [software verification](https://en.wikipedia.org/wiki/Software_verification) at that time, and I realized that this was almost a [Zeno's paradox](https://en.wikipedia.org/wiki/Zeno%27s_paradoxes) sort of situation. It means that verification technology is kind of stuck just far enough behind the curve. It still never scales to the contemporary software because in the meantime that has got so much bigger and more complex as well.
 
-[0:27] **Henry**: And when you mean verification, do you mean proving that it's right? 
+[0:27] **Henry**: And when you mean verification, do you mean proving that it's right?
 
 [0:31] **Stephen**: Yeah, exactly. So formal verification. There's lots of different techniques. People do pen and paper proof sometimes. They're actually quite good for humans, but they are sometimes wrong or don't actually correspond to the software that people really run. And then there's more machine checkable and other techniques like [model checking](https://en.wikipedia.org/wiki/Model_checking) or [symbolic execution](https://en.wikipedia.org/wiki/Symbolic_execution). And they all have scalability problems of different kinds. I just sort of started to think, well, software keeps getting bigger. This isn't good. And..
 
 [0:54] **Henry**: Is there an end?
 
-[0:55] **Stephen**: Exactly. It's the discipline that's grown up around thinking that the challenge is making "the software". All the classic software engineering literature, with a few exceptions, tends to take this sort of delimited view, right? All these ideas about software being a project that is managed: where you have a project involving certain people with certain requirements, and it lasts a certain time, and it is sort of delivered. 
+[0:55] **Stephen**: Exactly. It's the discipline that's grown up around thinking that the challenge is making "the software". All the classic software engineering literature, with a few exceptions, tends to take this sort of delimited view, right? All these ideas about software being a project that is managed: where you have a project involving certain people with certain requirements, and it lasts a certain time, and it is sort of delivered.
 
 [1:16] **Stephen**: Nowadays, a lot of software that is in very widespread use is much more of a continuous process and it's much more interconnected. It's more like *software is an organism* that is continually growing and gaining limbs. And because it used to be the case that actually writing the code and delivering the thing was the hard part, then we sort of optimize for that. But now we've optimized for growing stuff really quickly. And not so much about containing it, or preventing it from sort of taking over the world, I guess.
 
@@ -34,7 +38,7 @@ sidebar:
 
 [2:08] **Stephen**: Yeah. And I guess the story of continuous compatibility is right there, isn't it, in that project. I started out really in research thinking about ways of breaking that connection. What if you've got some software targeting some interface. How do I run that software in an environment that doesn't provide that interface? What are ways in which the the tooling, the languages available to me, could make that easier? And that hasn't really attracted a lot of attention. Because we're trained into thinking that that's not a real problem, that the real problem is writing the code or the real problem is, well, you've got to fix your code to stay up to date with whatever interface you're depending on. And if you don't, then it's kind of.. It's your fault, right? Well, what are you going to do? Of course software changes. And you know, stable foundations, who could expect that? Software is going to keep changing and it's human beings' job to sort of keep working at it.
 
-[2:54] **Henry**: It's weird cause the point of our project is actually in some sense not to exist, right. We help translate new stuff so that eventually you can get rid of at least parts of it. 
+[2:54] **Henry**: It's weird cause the point of our project is actually in some sense not to exist, right. We help translate new stuff so that eventually you can get rid of at least parts of it.
 
 [3:04] **Stephen**: Yep. I sometimes say it's like playing Tetris where you want to find a piece that fits into a space so that suddenly you could ignore a whole lot of other complexity. And that you can sometimes find those pieces and we're pretty bad at it. And I wish I could formalize that intuition a bit better. Cause it feels more powerful than I've managed to make it sort of actually work so far. The picture I get is like.. *Losing at Tetris is basically the state of software right now* where blocks are just falling into place. We don't have time, we don't have the resources to put them in the right place, so they just kind of pile up and there's kind of an explosion of kind of arbitrary complexity.
 
@@ -42,17 +46,17 @@ sidebar:
 
 [3:37] **Henry**: If we talk about [Illich](https://en.wikipedia.org/wiki/Ivan_Illich) and this kind of thinking, it doesn't mean we don't think that technology has good parts and that we should get rid of it entirely.
 
-[3:45] **Stephen**: Right. So what do we want to say about Illich? So I chanced upon Ivan Illich because I like riding my bike, and I get around by bike. And I have a sort of another Twitter account where I just follow kind of random stuff, including a lot of things about cycling. And someone just tweeted this a link to a passage from one of his books, [Energy and Equity](http://debate.uvm.edu/asnider/Ivan_Illich/Ivan%20Illich_Energy%20and%20Equity.pdf). And I was just.. Immediately I read this and I was transfixed because I thought.. This is talking about software. 
+[3:45] **Stephen**: Right. So what do we want to say about Illich? So I chanced upon Ivan Illich because I like riding my bike, and I get around by bike. And I have a sort of another Twitter account where I just follow kind of random stuff, including a lot of things about cycling. And someone just tweeted this a link to a passage from one of his books, [Energy and Equity](http://debate.uvm.edu/asnider/Ivan_Illich/Ivan%20Illich_Energy%20and%20Equity.pdf). And I was just.. Immediately I read this and I was transfixed because I thought.. This is talking about software.
 
 [4:11] **Stephen**: It wasn't talking about software. But it could have been talking about software, cause it was written during the oil crisis in the seventies. He was debunking the idea that the problem in society was somehow a shortage of energy.
 
-[4:23] **Henry**: Cars. 
+[4:23] **Henry**: Cars.
 
 [4:24] **Stephen**: Yeah, exactly. We're structuring society so that we're just kind of building in the need for more and more, but actually it's not helping us. And this idea of trying to solve a crisis by escalation. I think that was actually a phrase from [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality). Again, it really spoke to me about software, this idea that we're always saying, Oh, but the next system will be wonderful.
 
 > "Large-system programming has over the past decades been such a tar pit, and many great and powerful beasts have thrashed violently in it. Most have emerged with running systems--few have met goals, schedules, and budgets. Large and small, massive or wiry, team after team has become entangled in the tar. No one thing seems to cause the difficulty--any particular paw can be pulled away. But the accumulation of simultaneous and interacting factors brings slower and slower motion. Everyone seems to have been surprised by the stickiness of the problem, and it is hard to discern the nature of it. But we must try to understand it if we are to solve it." - The Tar Pit, Chapter 1 of The Mythical Man-Month
 
-[4:43] **Stephen**: And, you know, somehow yeah, the next system will make some things better, but it will make some things worse. And it will be more complex than the old system. And somehow there'll be more costs associated with it. It's almost like Fred Brooks' tarpit, he was talking about a single project where if you don't take care of your technical debt, then you try and put one foot forward, but you're just sinking into the tarpit. And eventually you're stuck. But I think a tarpit on a sort of society-wide scale is really both what Illich was talking about and also what is happening with software. 
+[4:43] **Stephen**: And, you know, somehow yeah, the next system will make some things better, but it will make some things worse. And it will be more complex than the old system. And somehow there'll be more costs associated with it. It's almost like Fred Brooks' tarpit, he was talking about a single project where if you don't take care of your technical debt, then you try and put one foot forward, but you're just sinking into the tarpit. And eventually you're stuck. But I think a tarpit on a sort of society-wide scale is really both what Illich was talking about and also what is happening with software.
 
 [5:16] **Henry**: Almost to the point where he was saying that like anything faster than a bike, we shouldn't even.. Not that we shouldn't have, because clearly he also took flights and stuff. But that if everyone had a bike, that's different from everyone having a car. And he'll bring up like traffic jams. So.. wondering the equivalent of traffic jams?
 
@@ -62,15 +66,15 @@ sidebar:
 
 [5:53] **Stephen**: It's a complex phenomenon and I don't want to reduce it to something simple, but it's a sign that technology is kind of starting to dominate the human activity if you like. When people talk about, automation will take over in a lot of sectors, and so there'll be fewer jobs of actually doing the baseline work. But there'll be more tech jobs to sort of be behind the scenes, actually running things. Running all this infrastructure, keeping all the software up to date, dealing with change in the software that's caused by other changes in software in other places and so on and so on. And, well, is it necessarily a better world?
 
-[6:24] **Henry**: That's a good question. 
+[6:24] **Henry**: That's a good question.
 
-[6:25] **Stephen**: All of us have grown up in a world where, the march of progress in industry has been kind of an axiom. We sort of take for granted that as time goes by, our technology can do more wonderful things. And to an extent that's true, right? This is why it's quite hard to get your head around. Cause yeah, we do have greater capability, in the same way when we gained cars. We somehow did gain something, but we also lost something once they sort of taken hold in society, and society had sort of adapted in the fullness of what modern car-based society sort of implies. And that's made us poorer. So there's this paradox that having a more powerful capability, once it's deployed across society, actually makes us poorer somehow. 
+[6:25] **Stephen**: All of us have grown up in a world where, the march of progress in industry has been kind of an axiom. We sort of take for granted that as time goes by, our technology can do more wonderful things. And to an extent that's true, right? This is why it's quite hard to get your head around. Cause yeah, we do have greater capability, in the same way when we gained cars. We somehow did gain something, but we also lost something once they sort of taken hold in society, and society had sort of adapted in the fullness of what modern car-based society sort of implies. And that's made us poorer. So there's this paradox that having a more powerful capability, once it's deployed across society, actually makes us poorer somehow.
 
 #### Counting the Costs
 
-[7:06] **Stephen**: And that's a fascinating idea and that's very much the core of Illich's work, certainly his sort of 1970s work. He sort of applied this idea in three different contexts, really. One was schooling, so organized education. Another was health care and the other was transport. 
+[7:06] **Stephen**: And that's a fascinating idea and that's very much the core of Illich's work, certainly his sort of 1970s work. He sort of applied this idea in three different contexts, really. One was schooling, so organized education. Another was health care and the other was transport.
 
-[7:23] **Stephen**: And it's kind of fascinating that he takes aim.. You know, we get used to modern healthcare. We say, of course that keeps us alive. You know, how can this be a bad thing? And he was arguing well, yes, it does. But how do we add up the negatives, right? It basically allows us to be kept alive in an increasingly unhealthy society. So how do we add up the negatives? 
+[7:23] **Stephen**: And it's kind of fascinating that he takes aim.. You know, we get used to modern healthcare. We say, of course that keeps us alive. You know, how can this be a bad thing? And he was arguing well, yes, it does. But how do we add up the negatives, right? It basically allows us to be kept alive in an increasingly unhealthy society. So how do we add up the negatives?
 
 [7:41] **Stephen**: And he has this passage that I quoted in my talk about how "society can have no quantitative standards by which to add up the illusion, social control, prolonged suffering, loneliness, genetic deterioration, and frustration produced by medical treatment". He doesn't mean all medical treatment. He means that the full machine, if you like, of modern medicine, applied at the society-wide scale.
 
@@ -80,7 +84,7 @@ sidebar:
 
 [8:51] **Henry**: Yeah. He came up with this term, [iatrogenesis](https://en.wikipedia.org/wiki/Iatrogenesis), to describe this. Where the application of the institution or what we call the solution, becomes it's own problem. For medical, it would have been like misdiagnosis. He also has cultural and social iatrogenesis too, where if you question going to school or you're a dropout, then you're not considered part of the system. He was saying, we have quantized when you have dropped out, and that also tells you like where you are in society based on like when you left.
 
-[9:22] **Stephen**: Yeah. And that's a fascinating thing, which I often remark on. Like Illich himself, I suppose, I could call myself a heavy consumer of education. And he observes quite rightly that the more you have,  the more shall be given to you. There's very much a rich-get-richer effect. 
+[9:22] **Stephen**: Yeah. And that's a fascinating thing, which I often remark on. Like Illich himself, I suppose, I could call myself a heavy consumer of education. And he observes quite rightly that the more you have,  the more shall be given to you. There's very much a rich-get-richer effect.
 
 #### The Politics of Open Source
 
@@ -122,11 +126,11 @@ sidebar:
 
 [15:11] **Stephen**: It comes back to this interconnectedness with software where so many things are expressed in terms of Unix interfaces and Unix abstractions that, well, we end up just lumping a big system together, part of which is, a Unix. And then we layer on all the other stuff that we care about, but the totality is only getting more complex over time.
 
-[15:31] **Henry**: Hmm. We never truly get rid of the underlying layers then. 
+[15:31] **Henry**: Hmm. We never truly get rid of the underlying layers then.
 
 [15:35] **Stephen**: I mean, there will be some exceptions, right? So with hardware.. The Von Neumann architecture, we haven't got away from that. But we have got a lot of different variants where the instruction sets are quite different and the behavior of the hardware is quite different, but we managed to isolate software pretty well in the sense that we can write portable high level code that we can re-target to any of these different CPU's. It's a reasonably clean separation. When we build a new CPU, we don't end up having to ship around the old one. Well, there's some exceptions to that as well.
 
-[16:05] **Henry**: It kind of reminded of Apple's new M1 chip then. It's a lot faster, but the software catches up in terms of how slow it will get eventually. All those same programs still take the same amount of time. 
+[16:05] **Henry**: It kind of reminded of Apple's new M1 chip then. It's a lot faster, but the software catches up in terms of how slow it will get eventually. All those same programs still take the same amount of time.
 
 [16:17] **Stephen**: So you've quite rightly I think, pointed out the flaw in what I was just saying. Once you care about binary compatibility, then yes, suddenly you do need the old CPU or a software implementation of it to be carted around. So I guess it's the differences, right? Well, either way you have a layer of translation, right? So the software implementation, well it's not a whole CPU, it's not like a gate-level simulation of the old CPU. It's a translation layer. And similarly, when we just worried about porting our operating system to some new CPU. Well, we had a compiler that could translate it to that architecture as well. So, having means of translating is kind of a very general thing and we've got it down in certain niches, like compilers. I guess you're all too aware of with your day job.
 
@@ -160,23 +164,23 @@ sidebar:
 
 [21:12] **Stephen**: I do it myself, right. And I was looking at a Docker file that I wrote recently thinking, the first thing this Dockerfile does is do an update. So I'm basically saying, yeah, forget what you know about versions of software that work just whatever the distributor in the package system thinks is stable. Yeah, just trust them. And obviously that breaks all sorts of things and debugging a particular problem that came from that. But we sort of deliberately create a sort of shifting sands that we then build on. It's kind of hilarious when you look at it from that distance.
 
-[21:38] **Henry**: Yeah. And you said like, it's a choice. And maybe it's a choice that we forgotten as a culture. But we just assume that every change doesn't have problems. 
+[21:38] **Henry**: Yeah. And you said like, it's a choice. And maybe it's a choice that we forgotten as a culture. But we just assume that every change doesn't have problems.
 
 #### The Tyranny of Updating
 
-[21:48] **Henry**: Although I feel like now there becomes a fear in updating too. 
+[21:48] **Henry**: Although I feel like now there becomes a fear in updating too.
 
-[21:52] **Stephen**: I'm terrified. 
+[21:52] **Stephen**: I'm terrified.
 
 [21:53] **Henry**: It's true at a like operating system level too. Say Mac has a new version, I never want to be on the new version.
 
 [21:59] **Stephen**: Yup. I don't even use a Mac, but you know, every time they release a new version, I get dozens of friends complaining on all kinds of social media about how their machine is broken and everything is terrible. Which is kind of funny. I shouldn't laugh. Sorry. I really sympathize with their difficulties. Because what normally happens with me as I don't reboot my machine for ages, and then I've accidentally installed some new package. I didn't mean to install new things, but I had to install some new thing as a consequence of some other thing. And then everything seems fine, but then I reboot and then nothing works.
 
-[22:25] **Henry**: I'm also reminded of like every desktop program that you have, it's giving you a pop up to tell you to update, right. You have to always click on remind me later. It's like, what if every update we're making just makes things worse? But the assumption, like you said, in the back of our head is that we need to continue moving forward. 
+[22:25] **Henry**: I'm also reminded of like every desktop program that you have, it's giving you a pop up to tell you to update, right. You have to always click on remind me later. It's like, what if every update we're making just makes things worse? But the assumption, like you said, in the back of our head is that we need to continue moving forward.
 
-[22:44] **Stephen**: I guess there are some systems that have been really good about compatibility over time. And they tend to be the ones that are also not really evolving in features. So I guess TeX, the type setting thing is one example. I was thinking about the phone network, like just plain old plug your phone into the wall. Although there have been evolutions, it's kind of amazing how stable that has been, but equally we all know that that's a network that is kind of slow to evolve. So I feel like with software, we should be able to get the best of both worlds. It's just an intuition, but it's an unsolved problem. Yeah. 
+[22:44] **Stephen**: I guess there are some systems that have been really good about compatibility over time. And they tend to be the ones that are also not really evolving in features. So I guess TeX, the type setting thing is one example. I was thinking about the phone network, like just plain old plug your phone into the wall. Although there have been evolutions, it's kind of amazing how stable that has been, but equally we all know that that's a network that is kind of slow to evolve. So I feel like with software, we should be able to get the best of both worlds. It's just an intuition, but it's an unsolved problem. Yeah.
 
-[23:17] **Henry**: Yeah. One of the symptoms of the radical monopoly is that, you start designing for that monopoly. So for the car, the streets used to be for people to walk on. And now they're mainly for the car, right? The person walking isn't the first class person. I guess the same with the whole updating thing is, all old code is obsolete. 
+[23:17] **Henry**: Yeah. One of the symptoms of the radical monopoly is that, you start designing for that monopoly. So for the car, the streets used to be for people to walk on. And now they're mainly for the car, right? The person walking isn't the first class person. I guess the same with the whole updating thing is, all old code is obsolete.
 
 [23:37] **Stephen**: Yep. The human need is often forgotten, right? We blame the human. We say, well, it's your fault for not updating. And someone could say, well, I didn't update because that was going to break this other thing. Or there might be some perfectly good reason for not updating, but ultimately we always blame the human. We give primacy to the technology. It's really strange, actually.
 
@@ -184,13 +188,13 @@ sidebar:
 
 #### End-user Programming
 
-[24:07] **Stephen**: I do think that commodity software is kind of going backwards in that there was a sort of dream, this idea that, you know, your computer should be a thing that ordinary people can program. This kind of end user programming thing. It hasn't gone away, but I feel like it's less and less mainstream now. So for example, in the early days, you had Microsoft office. Okay, Excel is the survivor. But there were things you could do, like you could write VBA scripts, or you could record macros. There's this idea that the computer is there to help you take the repetitive stuff away from you. And that idea feels like it's just shrinking more and more into the background. The systems that people use nowadays offer less and less of that sort of thing. 
+[24:07] **Stephen**: I do think that commodity software is kind of going backwards in that there was a sort of dream, this idea that, you know, your computer should be a thing that ordinary people can program. This kind of end user programming thing. It hasn't gone away, but I feel like it's less and less mainstream now. So for example, in the early days, you had Microsoft office. Okay, Excel is the survivor. But there were things you could do, like you could write VBA scripts, or you could record macros. There's this idea that the computer is there to help you take the repetitive stuff away from you. And that idea feels like it's just shrinking more and more into the background. The systems that people use nowadays offer less and less of that sort of thing.
 
 [24:46] **Stephen**: Because I use the most bizarre software.. You know, I'm a hardcore Unix user. Well, relatively hardcore. There's degrees of it. So I'm definitely not typical and I maybe don't have full sight of, what's the typical usage pattern, but I definitely get the sense that this idea that the computer might take away the repetitive tasks from you is maybe more radical than ever.
 
 [25:05] **Henry**: I think you mentioned machine learning in your talk too, but that kind of reminds me of that too. Even the experts don't know what's going on, cause the whole point is it's a black box.
 
-[25:13] **Stephen**: I am kind of in awe of what's been achieved in machine learning. I mean, in awe and also terror. It's changing the rules so quickly about what computers can do that it's quite a scary time to be alive, but I do have a kind of respect for how fast things are being achieved, right. Just recently with the protein folding successes, it is very impressive. 
+[25:13] **Stephen**: I am kind of in awe of what's been achieved in machine learning. I mean, in awe and also terror. It's changing the rules so quickly about what computers can do that it's quite a scary time to be alive, but I do have a kind of respect for how fast things are being achieved, right. Just recently with the protein folding successes, it is very impressive.
 
 [25:34] **Stephen**: And I do think that when things stabilize, we are going to have to contend with this idea that maybe if there's a function we're interested in, then there's maybe two basic ways of making that function be a thing we can compute.
 
@@ -208,11 +212,11 @@ sidebar:
 
 [27:39] **Henry**: I think that's a great philosophical question, what is the good life and how should we live? Tech usually it doesn't or tries to stay away from those questions. And just to say that no tech is the thing that is good. And actually Illich talks about a distinction between what is good and what is valuable. And I think that's kind of hard to piece out, but for him, the good has limits and values don't, right. Meaning that infinite money or infinite energy versus good in terms of like how people used to think of good is sort of like the virtues, right. It's like that golden mean of like.. So one example I use is like courage is in between recklessness and being afraid, right?
 
-[28:22] **Stephen**: Yep. And that is very much a theme of Illich isn't it? How he talks about these thresholds, where with medicine, he was saying that medicine went through these two thresholds. Where one was in the early days, like 1913 was this first.. He called it a watershed, sorry, not a threshold, where, it crossed this point where modern medicine was likely to deliver a treatment that was more effective than just whatever your local quack, you're non-qualified doctor might come out with. And after that point, it still progressed, but it became a point where there was a second threshold, actually it was according to him delivering net harm. 
+[28:22] **Stephen**: Yep. And that is very much a theme of Illich isn't it? How he talks about these thresholds, where with medicine, he was saying that medicine went through these two thresholds. Where one was in the early days, like 1913 was this first.. He called it a watershed, sorry, not a threshold, where, it crossed this point where modern medicine was likely to deliver a treatment that was more effective than just whatever your local quack, you're non-qualified doctor might come out with. And after that point, it still progressed, but it became a point where there was a second threshold, actually it was according to him delivering net harm.
 
 [28:55] **Stephen**:And it's exactly that sort of idea of recklessness versus fear or timidity, finding the balance. And as a society, we're not very good at finding these balances. We were very good at continuing on a trajectory that gains a lot of momentum.
 
-[29:09] **Stephen**:And this is what Illich talked about with disciplines being good at defining metrics by which their own successes later measured. So that's how they sort of sustain themselves even past the point where by rights, we should be saying, hang on a minute, this isn't helping our society, but we've already defined success in terms of, you know, this particular discipline's notion of progress, which is not our human value, if you like. I think I probably mean our good, not our value. So we have to be careful of allowing the metrics to be set for us, I suppose, rather than relating them to sort of human first principles. 
+[29:09] **Stephen**:And this is what Illich talked about with disciplines being good at defining metrics by which their own successes later measured. So that's how they sort of sustain themselves even past the point where by rights, we should be saying, hang on a minute, this isn't helping our society, but we've already defined success in terms of, you know, this particular discipline's notion of progress, which is not our human value, if you like. I think I probably mean our good, not our value. So we have to be careful of allowing the metrics to be set for us, I suppose, rather than relating them to sort of human first principles.
 
 [29:43] **Henry**: Yeah. That ties back to like escalation and radical monopoly, where like the thing that succeeds is able to set the terms. And we submit to those terms because we've seen the success, right. And then they continue that success and that leads to confusing the ends and the means where like, they're not actually helping us anymore, but then we've relied on them so much. We can't help but defer to them.
 
@@ -224,23 +228,23 @@ sidebar:
 
 [30:57] **Henry**: Oh, it's kinda like when we learn various paradigms and that becomes the lens through which we see everything. Everything is a function, or everything is an object. Don't repeat yourself. It's hard not to think that way, when it feels like it's working, right.
 
-[31:11] **Stephen**: Yeah, we like simple rules. There's a lot of slogans in software, right. And the slogans are kind of like little bits of folklore and we summarize them down into a slogan, like don't repeat yourself. When actually the reality is always, well, generally don't repeat yourself, but actually there are some cases where repeating yourself is perfectly fine and a good idea relative to the alternatives, but that's not a very nice slogan. It's very human to sort of need these rules of thumb and these little bits of wisdom. It's just that we have to catch ourselves when they're not helping us.  
+[31:11] **Stephen**: Yeah, we like simple rules. There's a lot of slogans in software, right. And the slogans are kind of like little bits of folklore and we summarize them down into a slogan, like don't repeat yourself. When actually the reality is always, well, generally don't repeat yourself, but actually there are some cases where repeating yourself is perfectly fine and a good idea relative to the alternatives, but that's not a very nice slogan. It's very human to sort of need these rules of thumb and these little bits of wisdom. It's just that we have to catch ourselves when they're not helping us.
 
 [31:39] **Henry**: It's like this, inclination to want to codify right. I think that's what technology is about. It's about making these artifacts that kind of have the tradition and culture that we have. And this is what he talks about too with convivial tools. We kind of learn to depend on these things eventually to the point where machines know us  better than ourselves, right? The algorithms, right? What we're supposed to eat, what we're supposed to watch, what we're supposed to wear. To the point where like, we don't have to make decisions anymore because the machine will make it for us.
 
 [32:11] **Stephen**: Right. And then will we really be human?
 
-[32:13] **Henry**: Yeah. We're making things such that we won't even be confident in ourselves anymore. 
+[32:13] **Henry**: Yeah. We're making things such that we won't even be confident in ourselves anymore.
 
 [32:18] **Stephen**: The thing you mentioned with rules is really interesting. People want a need rules to live by. And it  reminded me that when I've talked about Illich's ideas to some people, they've been skeptical cause you say it's better to do without this powerful technology. And then people say, well, how can you persuade people to not do that? It's basically kind of an abstinence thing. We have to say, no, don't do that. It's for the best really. And you know, actually, that's kind of a fragile thing. It's not going to be a stable, but then you remember that actually humans are very irrational, right? So there's all sorts of rules we live by that we can't justify and we rely on it being a kind of cultural imposition that says.. Oh, I should have an example.
 
-[32:57] **Henry**: You mean just like, folk anything, right? Or superstition. 
+[32:57] **Henry**: You mean just like, folk anything, right? Or superstition.
 
-[33:01] **Stephen**: Exactly. Superstitions, folk customs. 
+[33:01] **Stephen**: Exactly. Superstitions, folk customs.
 
 #### Corruption of Christianity
 
-[33:04] **Henry**: Actually, I wanted to bring up that Illich was a Catholic, right. Where did his religious background fit into all his thinking? It wasn't just kind of abstract. It was kind of at the core of it actually. So I read this book called rivers North of the future. And he mentioned a parable in the new Testament that Jesus says, the good Samaritan. I'm not sure if you're familiar? 
+[33:04] **Henry**: Actually, I wanted to bring up that Illich was a Catholic, right. Where did his religious background fit into all his thinking? It wasn't just kind of abstract. It was kind of at the core of it actually. So I read this book called rivers North of the future. And he mentioned a parable in the new Testament that Jesus says, the good Samaritan. I'm not sure if you're familiar?
 
 [33:26] **Stephen**: Yeah, I know the one.
 
@@ -264,7 +268,7 @@ sidebar:
 
 #### Need to Care for One Another
 
-[35:56] **Stephen**: Yep. In one of the seventies books, probably Tools for Conviviality, he talks about how unsophisticated societies, people do a lot of things for themselves. I think one of the examples was they bury their own dead. He had a whole list of the things. These are things that people would do directly, for their families, their loved ones. They were somehow self-sufficient. And when the more you institutionalized, the more you separate people, even if the institution is actually trying to help people. It's trying to take away the burdens of whatever the task is. It actually ends up distancing. 
+[35:56] **Stephen**: Yep. In one of the seventies books, probably Tools for Conviviality, he talks about how unsophisticated societies, people do a lot of things for themselves. I think one of the examples was they bury their own dead. He had a whole list of the things. These are things that people would do directly, for their families, their loved ones. They were somehow self-sufficient. And when the more you institutionalized, the more you separate people, even if the institution is actually trying to help people. It's trying to take away the burdens of whatever the task is. It actually ends up distancing.
 
 [36:26] **Henry**: Yeah. And in that particular case, the burden, in some sense is the thing that we need, maybe. To take care of our family. I think about like the nursing home, right? It's a place where they are separated from their family and you kind of visit them. Even back then, when someone passes away in your family, everyone lives in the same place. And so it's like, you knew it was coming. And people have the time to be able to kind of, you know, just go through that process, right. But now given that everything's global, a lot of your relatives and grandparents or parents even don't live in the same country maybe, and you get a phone call that like they're sick or they passed away.
 
@@ -272,17 +276,17 @@ sidebar:
 
 [37:31] **Stephen**: Our society has conspired to keep us busy, and give us the feeling that we don't have time. Not just the feeling, you know, the economic reality that we have to spend more time on other things in order to not starve. But either way it doesn't feel like an essential scarcity. It feels like one that that's been constructed.
 
-[37:49] **Henry**: Hmm, a manufactured scarcity. If we ever take the chance to like fast from being online, and then you don't use the computer for a week and you're like, wow, time's moving so slowly. 
+[37:49] **Henry**: Hmm, a manufactured scarcity. If we ever take the chance to like fast from being online, and then you don't use the computer for a week and you're like, wow, time's moving so slowly.
 
 [38:00] **Stephen**: But then the flip side, I guess, is our friend radical monopoly where social media almost has a radical monopoly on a communication and connection with people now. If I want to be invited to the cinema with my friends, then if I'm not on the same social network, they're probably just going to not going to send me the message. So that's kind of terrifying. We've always been dependent on some means of communication..
 
-[38:22] **Henry**: Yeah. You familiar with McLuhan? Four laws of media. He talks similar to what we were saying about how like technologies include stuff, but then also forgoes stuff. And he brings up the idea of perspective, right. Each media has a certain lens, right. And so by focusing on something, you're also not focusing on something else. So something is lost. His famous phrase, right? The medium is the message, the environment through which content is presented. 
+[38:22] **Henry**: Yeah. You familiar with McLuhan? Four laws of media. He talks similar to what we were saying about how like technologies include stuff, but then also forgoes stuff. And he brings up the idea of perspective, right. Each media has a certain lens, right. And so by focusing on something, you're also not focusing on something else. So something is lost. His famous phrase, right? The medium is the message, the environment through which content is presented.
 
 #### Monasticism and Child-likeness
 
 [38:50] Actually later in his life Illich got really interested in doing research into the history of the senses, like our taste and our smell. And how the book changed, how people read, And so how has the screen changed how we read.
 
-[39:05] **Stephen**: Yeah, no, I see this sort of effect a lot, where things are designed to be read in the medium that they're presented in. And that can have a radical effect on how they're written. 
+[39:05] **Stephen**: Yeah, no, I see this sort of effect a lot, where things are designed to be read in the medium that they're presented in. And that can have a radical effect on how they're written.
 
 [39:14] **Henry**: And he brought up monastic reading versus scholastic reading and how even in the book, it treats the words as isolated things. Versus before people read in prayer, in meditation, out loud even. Reading was a way of life for them even. And now it's just like a way to get information. It's funny cause I see a little bit of interest in that again.
 
@@ -298,7 +302,7 @@ sidebar:
 
 [41:07] **Henry**: It's kind of like this phrase of not being childish, but being childlike, if there's a distinction between innocence, but not being naive.
 
-[41:15] **Stephen**: Right. Being able to look at the world through a suitably childlike eyes where it's constructive. Even the word constructive, it's like, a lot of industrialism. Does anything good have to be constructive? but yes, where there's value in, doing so. 
+[41:15] **Stephen**: Right. Being able to look at the world through a suitably childlike eyes where it's constructive. Even the word constructive, it's like, a lot of industrialism. Does anything good have to be constructive? but yes, where there's value in, doing so.
 
 [41:28] **Henry**: I think of words like wonder and awe. Things that are not measurable and trying to embrace this art, like poetry. what is the equivalent of that in programming?
 

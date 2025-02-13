@@ -1,15 +1,19 @@
 ---
-title: "Embodied Knowledge (Maggie Appleton)"
+title: Embodied Knowledge (Maggie Appleton)
 season: 3
-date: "2020-11-02"
+date: 2020-11-02
 time: "25"
-description: "Can there be knowledge without a knower? Maggie Appleton joins Henry again in a 2-part chat to discuss how knowledge is personal, through the work of Michael Polanyi. We cover how knowing is an activity, ambient technology, dualism, Bruno Latour, knowing as faith, learning through liturgy, Jesus as the embodiment of God. We end by asking how we should navigate the post-truth world."
-episodeLink: "8960d710"
-embedUrl: https://share.transistor.fm/e/e272736d
+description: Can there be knowledge without a knower? Maggie Appleton joins
+  Henry again in a 2-part chat to discuss how knowledge is personal, through the
+  work of Michael Polanyi. We cover how knowing is an activity, ambient
+  technology, dualism, Bruno Latour, knowing as faith, learning through liturgy,
+  Jesus as the embodiment of God. We end by asking how we should navigate the
+  post-truth world.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461512/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345483-48000-1-84cceed086668fbb.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Embodied-Knowledge-Maggie-Appleton-e2su988
 sidebar:
-    order: 9
+  order: 9
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/embodied.md)

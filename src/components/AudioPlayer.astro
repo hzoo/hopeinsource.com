@@ -2,20 +2,34 @@
 const { src } = Astro.props;
 ---
 
-<div id="audio-player" class="fixed bottom-0 left-0 right-0 bg-gray-800 text-white shadow-lg">
-  <div class="mx-auto px-4 py-2">
-    <div class="flex items-center space-x-4">
-      <button id="play-pause" class="w-10 h-10 rounded-full flex items-center justify-center focus:outline-none hover:opacity-80 transition-opacity">
+<div id="audio-player" class="fixed bottom-4 left-1/2 -translate-x-1/2 max-w-xl w-[calc(100%-2rem)] bg-gray-800/95 backdrop-blur-sm text-white shadow-xl rounded-2xl border border-gray-700/50">
+  <div class="px-4 py-3">
+    <div class="flex items-center gap-4">
+      <button 
+        id="play-pause" 
+        class="w-10 h-10 rounded-xl flex items-center justify-center focus:outline-none hover:opacity-80 transition-all duration-200 bg-his-green/10 text-his-green hover:bg-his-green/20"
+        aria-label="Play/Pause"
+      >
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </button>
-      <span id="current-time" class="text-sm w-12">00:00</span>
-      <div class="flex-grow">
-        <input type="range" id="seek-slider" class="w-full h-2 bg-gray-600 rounded-lg appearance-none cursor-pointer" min="0" max="100" value="0" disabled>
+      <span id="current-time" class="text-sm font-mono w-12 text-gray-400">00:00</span>
+      <div class="flex-grow relative h-2 group">
+        <div class="absolute inset-0 rounded-full bg-gray-700/50"></div>
+        <div id="progress-bar" class="absolute inset-y-0 left-0 rounded-full bg-his-green/40 w-0 transition-all duration-100"></div>
+        <input 
+          type="range" 
+          id="seek-slider" 
+          class="absolute inset-0 w-full h-full opacity-0 cursor-pointer group-hover:opacity-100 transition-opacity" 
+          min="0" 
+          max="100" 
+          value="0" 
+          disabled
+        >
       </div>
-      <span id="duration" class="text-sm w-12">00:00</span>
+      <span id="duration" class="text-sm font-mono w-12 text-gray-400">00:00</span>
     </div>
   </div>
   <audio id="audio-element" preload="none"></audio>
@@ -27,54 +41,50 @@ const { src } = Astro.props;
   const seekSlider = document.getElementById('seek-slider');
   const currentTimeDisplay = document.getElementById('current-time');
   const durationDisplay = document.getElementById('duration');
+  const progressBar = document.getElementById('progress-bar');
   const playIcon = playPauseButton.querySelector('svg');
 
   let isLoaded = false;
 
   function formatTime(seconds) {
+    if (!seconds || isNaN(seconds)) return '00:00';
     const minutes = Math.floor(seconds / 60);
     const remainingSeconds = Math.floor(seconds % 60);
     return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
   }
 
   function updateTimeDisplay() {
-    if (currentTimeDisplay) currentTimeDisplay.textContent = formatTime(audio.currentTime);
-    if (durationDisplay) durationDisplay.textContent = formatTime(audio.duration);
-    if (seekSlider) seekSlider.value = String(audio.currentTime / audio.duration * 100);
-
-    // Update the seek slider background
+    if (!audio.duration) return;
+    
+    currentTimeDisplay.textContent = formatTime(audio.currentTime);
+    durationDisplay.textContent = formatTime(audio.duration);
+    
     const percent = (audio.currentTime / audio.duration) * 100;
-    seekSlider.style.background = `linear-gradient(to right, var(--green) 0%, var(--green) ${percent}%, #4b5563 ${percent}%, #4b5563 100%)`;
+    seekSlider.value = String(percent);
+    progressBar.style.width = `${percent}%`;
   }
 
   function seekToTimestamp() {
     const hash = window.location.hash;
-    if (hash.startsWith('#t=')) {
-      const time = hash.slice(3);
-      const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
-      if (timestamp) {
-        let seconds = 0;
-        if (timestamp[3]) {
-          seconds = Number(timestamp[1]) * 3600 + Number(timestamp[2]) * 60 + Number(timestamp[3]);
-        } else {
-          seconds = Number(timestamp[1]) * 60 + Number(timestamp[2]);
-        }
-        loadAudioAndPlay(seconds);
-      }
-    }
+    if (!hash.startsWith('#t=')) return;
+
+    const time = hash.slice(3);
+    const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
+    if (!timestamp) return;
+
+    const hours = timestamp[3] ? Number(timestamp[1]) : 0;
+    const minutes = timestamp[3] ? Number(timestamp[2]) : Number(timestamp[1]);
+    const seconds = timestamp[3] ? Number(timestamp[3]) : Number(timestamp[2]);
+    
+    const totalSeconds = (hours * 3600) + (minutes * 60) + seconds;
+    loadAudioAndPlay(totalSeconds);
   }
 
   function togglePlayPauseIcon(isPaused) {
-    if (isPaused) {
-      playIcon.innerHTML = `
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-      `;
-    } else {
-      playIcon.innerHTML = `
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-      `;
-    }
+    playIcon.innerHTML = isPaused 
+      ? `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`
+      : `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />`;
   }
 
   function loadAudioAndPlay(startTime = 0) {
@@ -85,19 +95,19 @@ const { src } = Astro.props;
     }
 
     audio.currentTime = startTime;
-    audio.play().then(() => {
-      togglePlayPauseIcon(false);
-      seekSlider.disabled = false;
-    }).catch(error => {
-      console.error('Error playing audio:', error);
-    });
+    audio.play()
+      .then(() => {
+        togglePlayPauseIcon(false);
+        seekSlider.disabled = false;
+      })
+      .catch(error => console.error('Error playing audio:', error));
   }
 
   playPauseButton?.addEventListener('click', () => {
     if (!isLoaded) {
       loadAudioAndPlay();
     } else if (audio.paused) {
-      audio.play().then(() => togglePlayPauseIcon(false)).catch(console.error);
+      audio.play().then(() => togglePlayPauseIcon(false));
     } else {
       audio.pause();
       togglePlayPauseIcon(true);
@@ -117,24 +127,20 @@ const { src } = Astro.props;
 
   window.addEventListener('hashchange', seekToTimestamp);
   seekToTimestamp();
-  // Add click event listeners to all heading links
+
   document.querySelectorAll('a[href^="#"]').forEach(link => {
     link.addEventListener('click', (e) => {
-      e.preventDefault();
       const href = link.getAttribute('href');
       if (href?.startsWith('#t=')) {
+        e.preventDefault();
         window.location.hash = href;
         seekToTimestamp();
       }
     });
   });
-
-  console.log('Audio player script loaded');
 </script>
 
 <style>
-  @import "tailwindcss";
-
   #audio-player {
     --seek-before-width: 0%;
   }

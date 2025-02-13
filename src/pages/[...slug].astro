@@ -2,22 +2,35 @@
 import { getCollection, render } from 'astro:content';
 import HomeLayout from '../layouts/HomeLayout.astro';
 import EpLayout from '../layouts/EpLayout.astro';
-import TableOfContents from '../components/TableOfContents';
+import TableOfContents from '../components/TableOfContents.astro';
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection('podcast');
-  return podcastEntries.map(entry => {
-    const slug = entry.id.split('/').pop();
-    return {
-      params: { slug },
-      props: { entry },
-    };
-  });
+  
+  // Pre-render content at build time
+  const pages = await Promise.all(
+    podcastEntries.
+    
+    map(async (entry) => {
+      const slug = entry.id.split('/').pop();
+      const { Content, headings } = await render(entry);
+      const h4Headings = headings.filter((h) => h.depth === 4);
+      
+      return {
+        params: { slug },
+        props: { 
+          entry,
+          Content,
+          headings: h4Headings
+        },
+      };
+    })
+  );
+  
+  return pages;
 }
 
-const { entry } = Astro.props;
-const { Content, headings } = await render(entry);
-const h4Headings = headings.filter((h: { depth: number }) => h.depth === 4);
+const { entry, Content, headings } = Astro.props;
 ---
 
 <HomeLayout>
@@ -28,7 +41,7 @@ const h4Headings = headings.filter((h: { depth: number }) => h.depth === 4);
         </EpLayout>
     </div>
     <aside class="sidebar">
-        <TableOfContents headings={h4Headings} client:load />
+        <TableOfContents headings={headings} />
     </aside>
 </div>
 </HomeLayout>

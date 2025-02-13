@@ -1,15 +1,17 @@
 ---
 title: "MA 2: Stephanie Hurlburt on Boundaries"
 season: 2
-date: "2019-04-12"
+date: 2019-04-12
 time: "49"
-description: "How is business development relevant to open source? Stephanie Hurlburt (Binomial) joins Henry to chat about understanding learnings from success, setting health boundaries, what 'networking' really means, conversations/pitching, and more! (recorded in February)"
-episodeLink: da0b436a
-embedUrl: https://share.transistor.fm/e/30b0ab32
+description: How is business development relevant to open source? Stephanie
+  Hurlburt (Binomial) joins Henry to chat about understanding learnings from
+  success, setting health boundaries, what 'networking' really means,
+  conversations/pitching, and more! (recorded in February)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461579/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345536-44100-2-0885cf253a8da2f4.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-2-Stephanie-Hurlburt-on-Boundaries-e2su9ab
 sidebar:
-    order: 2
+  order: 2
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/boundaries.md)

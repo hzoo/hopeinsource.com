@@ -1,15 +1,20 @@
 ---
 title: "MA 8: Anthony Giovannetti on Mastery and Learning through Games"
 season: 2
-date: "2019-06-21"
+date: 2019-06-21
 time: "57"
-description: "Why play or even make games? Anthony Giovannetti (MegaCrit) joins Henry to chat building the video game Slay the Spire with the community. They discuss games an a interactive medium, immersion, player incentives/tradeoffs, emergent gameplay through roguelikes (procedural generation, permadeath), player mastery/difficulty, Steam early access, user feedback, importance of testing, data-informed balancing, and player accessibility driving features via streaming, translations, and UX."
-episodeLink: a126f2f3
-embedUrl: https://share.transistor.fm/e/f93ba53d
+description: Why play or even make games? Anthony Giovannetti (MegaCrit) joins
+  Henry to chat building the video game Slay the Spire with the community. They
+  discuss games an a interactive medium, immersion, player incentives/tradeoffs,
+  emergent gameplay through roguelikes (procedural generation, permadeath),
+  player mastery/difficulty, Steam early access, user feedback, importance of
+  testing, data-informed balancing, and player accessibility driving features
+  via streaming, translations, and UX.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461753/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345708-44100-2-7150ee07b7132f8a.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-8-Anthony-Giovannetti-on-Mastery-and-Learning-through-Games-e2su9fp
 sidebar:
-    order: 8
+  order: 8
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/games.md)

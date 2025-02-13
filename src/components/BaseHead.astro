@@ -11,7 +11,6 @@ const {
   publishedTime,
   modifiedTime,
   author = 'Henry Zhu, Nadia Asparouhova',
-  embedUrl,
 } = Astro.props;
 
 const siteTitle = title === hisMetadata.title ? title : `${title} | ${hisMetadata.title}`;
@@ -20,8 +19,14 @@ const siteTitle = title === hisMetadata.title ? title : `${title} | ${hisMetadat
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
 <meta name="generator" content={Astro.generator} />
+
+<!-- Preconnect to external domains -->
+<link rel="preconnect" href="https://media.transistor.fm" />
+
+<!-- Preload critical assets -->
+<link rel="preload" as="image" href={`${hisMetadata.siteUrl}${his_cover.src}`} />
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
@@ -52,13 +57,6 @@ const siteTitle = title === hisMetadata.title ? title : `${title} | ${hisMetadat
 
 <!-- RSS Feed -->
 <link rel="alternate" type="application/rss+xml" title={`${hisMetadata.title} RSS Feed`} href={hisMetadata.rss} />
-
-<!-- Podcast Embed -->
-{embedUrl && <meta property="og:video" content={embedUrl} />}
-{embedUrl && <meta property="og:video:secure_url" content={embedUrl} />}
-{embedUrl && <meta property="og:video:type" content="text/html" />}
-
-<meta name="apple-itunes-app" content="app-id=1437677655" />
 
 <!-- Theme Color -->
 <meta name="theme-color" content="#1a1a1a" />

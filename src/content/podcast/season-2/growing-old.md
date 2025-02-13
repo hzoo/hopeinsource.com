@@ -1,15 +1,22 @@
 ---
 title: "MA 7: Philip Gee On Growing Old with the Web"
 season: 2
-date: "2019-05-31"
+date: 2019-05-31
 time: "64"
-description: "Do we learn in a vacuum, or does it involve our whole selves? Philip Gee (UC San Diego) joins Henry to chat about maintaining a web presence since its beginnings. We discuss some of the points made in Nadia's post on ideas carrying us forward, even beyond what we are known for, the greater intimacy of podcasts and vlogs, attaching ideas to people, science as subjective vs. purely objective and in community, knowledge as opening up possibilities, embracing whimsy and being random (haircut podcasts), embracing spontaneity and cities, understanding our bodies and mortality and it's relation to our digital lives and rest."
-episodeLink: 3dc07d32
-embedUrl: https://share.transistor.fm/e/b4d35677
+description: Do we learn in a vacuum, or does it involve our whole selves?
+  Philip Gee (UC San Diego) joins Henry to chat about maintaining a web presence
+  since its beginnings. We discuss some of the points made in Nadia's post on
+  ideas carrying us forward, even beyond what we are known for, the greater
+  intimacy of podcasts and vlogs, attaching ideas to people, science as
+  subjective vs. purely objective and in community, knowledge as opening up
+  possibilities, embracing whimsy and being random (haircut podcasts), embracing
+  spontaneity and cities, understanding our bodies and mortality and it's
+  relation to our digital lives and rest.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461646/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345603-44100-2-0f358c314d81ded6.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-7-Philip-Gee-1-On-Growing-Old-with-the-Web-e2su9ce
 sidebar:
-    order: 7
+  order: 7
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/growing-old.md)

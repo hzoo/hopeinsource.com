@@ -1,11 +1,11 @@
 ---
 title: "MA 5: Evan You on Funding One's Freedom"
 season: 2
-date: "2019-05-06"
+date: 2019-05-06
 time: "86"
 description: "How can we be free? Evan You (Vue.js) chats with Henry about the complexities of funding people vs. projects, non-monetary perks of oss, Patreon potentially just a payment processor, the honing in on the uniqueness of open source (being free, flexible, organic/emergent, self-motivated, distributed/remote), full time not being for everyone, the importance of side projects and off-pressure moments and just having fun."
-episodeLink: 6ebabf36
-embedUrl: https://share.transistor.fm/e/b18b6287
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461807/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345742-44100-2-496c601fb9ec569c.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-5-Evan-You-on-Funding-Ones-Freedom-e2su9hf
 sidebar:
     order: 5
 ---

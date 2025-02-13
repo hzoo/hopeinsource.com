@@ -1,15 +1,19 @@
 ---
 title: "MA 1: Omnigamer on Speedrunning as Research"
 season: 2
-date: "2019-04-10"
+date: 2019-04-10
 time: "87"
-description: "What's beyond simply beating a video game? Henry is joined by Eric 'Omnigamer' Koziel to chat about speedruning as an optimization problem (code golf), game knowledge as discovery, access as a result of technology, issues of game preservation/archival, coordination issues, obscure/popular games, versioning/patches, and more! (recorded in January. Since then, Eric has a new book out, Speedrun Science)"
-episodeLink: 174320ce
-embedUrl: https://share.transistor.fm/e/8d4a63a5
+description: What's beyond simply beating a video game? Henry is joined by Eric
+  'Omnigamer' Koziel to chat about speedruning as an optimization problem (code
+  golf), game knowledge as discovery, access as a result of technology, issues
+  of game preservation/archival, coordination issues, obscure/popular games,
+  versioning/patches, and more! (recorded in January. Since then, Eric has a new
+  book out, Speedrun Science)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461841/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345795-44100-1-6e01a12b408ea4f6.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-1-Omnigamer-on-Speedrunning-as-Research-e2su9ih
 sidebar:
-    order: 1
+  order: 1
 ---
-
 ### Links
 
 - [Speedrun Science](https://www.fangamer.com/products/speedrun-book), Eric's new book

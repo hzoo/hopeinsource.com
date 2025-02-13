@@ -1,15 +1,16 @@
 ---
 title: "04: Holy Inefficiency"
 season: 1
-date: "2018-10-16"
+date: 2018-10-16
 time: "37"
-description: Can everything that matters be measured? We talk about measuring the output and health of a community, competition between groups, growing a community without losing authenticity, and embracing "holy inefficiency".
-episodeLink: "87edfd5f"
-embedUrl: https://share.transistor.fm/e/5e76ec9f
+description: Can everything that matters be measured? We talk about measuring
+  the output and health of a community, competition between groups, growing a
+  community without losing authenticity, and embracing "holy inefficiency".
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461806/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345774-44100-1-afa7a3f70b0424a3.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/4-Holy-Inefficiency-e2su9he
 sidebar:
-    order: 4
+  order: 4
 ---
-
 ### Links
 
 - Nadia's post: [Methodologies for measuring project health](https://nadia.xyz/project-health)

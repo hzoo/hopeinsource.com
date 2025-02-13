@@ -1,11 +1,11 @@
 ---
 title: 'Everyone is "Protestant" Online (L.M. Sacasas)'
 season: 4
-date: "2022-09-27"
+date: 2022-09-27
 time: "50"
 description: "How do we all act as protestants online? L.M. Sacasas joins Henry (4th time!?) to chat about material/digital culture, how we compensate for natural affordances in new digital interfaces, our inability to account for non-measurable losses, texture vs. frictionlessness, lofi, roguelikes, reality tv, ambient data capture, extracting our private life for gain, how digital space is more of a past rather a place. (Recorded August 2022)"
-episodeLink: "ca5d08c2"
-embedUrl: https://share.transistor.fm/e/7771074d
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461809/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345760-44100-1-7f68d551fcfe2298.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Everyone-is-Protestant-Online-L-M--Sacasas-e2su9h
 sidebar:
     order: 6
 ---

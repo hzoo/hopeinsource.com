@@ -4,7 +4,7 @@ import { glob } from 'astro/loaders';
 const podcastSchema = z.object({
   title: z.string(),
   season: z.number(),
-  date: z.string(),
+  date: z.date(),
   time: z.string(),
   description: z.string(),
   episodeLink: z.string(),

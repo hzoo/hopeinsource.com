@@ -1,15 +1,13 @@
 import { visit } from "unist-util-visit";
-import { toString } from "mdast-util-to-string";
+import { toString as toStringUtil } from "mdast-util-to-string";
 import type { Plugin } from "unified";
-import type { Paragraph, Text, Strong, Parent, PhrasingContent } from "mdast";
+import type { Root, Paragraph, Text, Strong, PhrasingContent, Link } from "mdast";
 
 const timestampRegex = /^\[(\d{2}:\d{2})\]/;
 
 interface PluginOptions {
   timestampClass?: string;
   wrapClass?: string;
-  rightClass?: string;
-  otherClass?: string;
   timestampEmoji?: string;
   textClass?: string;
 }
@@ -28,21 +26,14 @@ function isSpeaker(node: Paragraph): boolean {
   return node.children.length > 0 && node.children[0].type === "strong";
 }
 
-interface HTMLStrong extends Parent {
-  type: "strong";
-  data: {
-    hName: "strong";
-  };
-}
-
 function createText(value: string): Text {
   return { type: "text", value };
 }
 
 function createSpan(
   className: string,
-  children: (PhrasingContent | HTMLStrong | Text)[]
-) {
+  children: PhrasingContent[]
+): PhrasingContent {
   return {
     type: "span",
     data: {
@@ -50,33 +41,39 @@ function createSpan(
       hProperties: { className: [className] },
     },
     children,
-  };
+  } as unknown as PhrasingContent;
 }
 
-function createStrong(children: Text[]): HTMLStrong {
+function createStrong(children: Text[]): Strong {
   return {
     type: "strong",
-    data: {
-      hName: "strong",
-    },
     children,
   };
 }
 
-export const remarkTranscriptPlugin: Plugin<[PluginOptions?]> = (
+function createLink(url: string, children: PhrasingContent[]): Link {
+  return {
+    type: "link",
+    url,
+    children,
+  };
+}
+
+export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
   options: PluginOptions = {}
 ) => {
   const {
     timestampClass = "timestamp",
     wrapClass = "wrap",
-    rightClass = "right",
-    otherClass = "other",
     timestampEmoji = "🕐",
     textClass = "text",
   } = options;
 
-  return (tree) => {
+  console.log("remarkTranscriptPlugin", options);
+
+  return (tree: Root) => {
     const speakerOrder: string[] = [];
+    let speakerCount = 0;
 
     visit(tree, "paragraph", (node: Paragraph) => {
       let timestamp: string | null = null;
@@ -86,50 +83,45 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?]> = (
         const match = (node.children[0] as Text).value.match(timestampRegex);
         if (match) {
           timestamp = match[1];
-          speaker = toString(node.children[1] as Strong);
+          speaker = toStringUtil(node.children[1] as Strong);
         }
       } else if (isSpeaker(node)) {
         timestamp = "00:00";
-        speaker = toString(node.children[0] as Strong);
+        speaker = toStringUtil(node.children[0] as Strong);
       } else {
         return;
       }
 
       if (!timestamp || !speaker) return;
 
-      if (!speakerOrder.includes(speaker)) {
+      let speakerIndex = speakerOrder.indexOf(speaker);
+      if (speakerIndex === -1) {
+        speakerIndex = speakerCount++;
         speakerOrder.push(speaker);
       }
-
-      const timestampLink = {
-        type: "link",
-        url: `#t=${timestamp}`,
-        children: [
-          createSpan(timestampClass, [
-            createText(`${timestamp} ${timestampEmoji}`),
-          ]),
-        ],
-      };
 
       const content = isTimestamp(node)
         ? node.children.slice(2)
         : node.children.slice(1);
 
-      const textSpan = createSpan(textClass, [
-        createStrong([createText(`${speaker}`)]),
-        ...content,
+      const messageSpan = createSpan(textClass, [
+        createStrong([createText(speaker)]),
+        ...content as PhrasingContent[],
       ]);
 
-      node.children = [
-        timestampLink as PhrasingContent,
-        textSpan as PhrasingContent,
-      ];
+      const timestampText = createSpan(timestampClass, [
+        createText(timestamp),
+      ]);
+
+      const timestampLink = createLink(`#t=${timestamp}`, [timestampText]);
+
+      node.children = [messageSpan, timestampLink];
       node.data = {
         hName: "p",
         hProperties: {
           className: [
             wrapClass,
-            speakerOrder.indexOf(speaker) === 0 ? rightClass : otherClass,
+            `speaker-${speakerIndex % 3}`,
           ],
         },
       };

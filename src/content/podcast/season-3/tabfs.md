@@ -1,15 +1,18 @@
 ---
-title: "TabFS (Omar Rizwan)"
+title: TabFS (Omar Rizwan)
 season: 3
-date: "2021-02-19"
+date: 2021-02-19
 time: "26"
-description: "What happens when we open up browser APIs like a filesystem? Omar Rizwan joins Henry to chat about his latest project, TabFS! We discuss possible extensions, tinkering with scripts vs being a whole project, writing it yourself, few dependencies, determining your 1.0, literate documentation, and maintaining a newly popular open source project!"
-episodeLink: "8b208bfa"
-embedUrl: https://share.transistor.fm/e/3b52a6e9
+description: What happens when we open up browser APIs like a filesystem? Omar
+  Rizwan joins Henry to chat about his latest project, TabFS! We discuss
+  possible extensions, tinkering with scripts vs being a whole project, writing
+  it yourself, few dependencies, determining your 1.0, literate documentation,
+  and maintaining a newly popular open source project!
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461749/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345721-48000-1-5943dd07847ccba7.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/TabFS-Omar-Rizwan-e2su9fl
 sidebar:
-    order: 14
+  order: 14
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/tabfs.md)
@@ -24,11 +27,11 @@ sidebar:
 
 [0:53] **Omar**: And I mean, I started this like four years ago, and I had like gone through a number of different designs for it when I've had time. The original title was ChromeFS. And I wanted to replace the Chrome because I didn't want to have the trademark in the title. But I don't know why I didn't go with BrowserFS.
 
-[1:06] **Omar**: But it is very much this idea of like your browser is this weird mini operating system. And then your real operating system has all these tools. How do we kind of bring the browser out? And tab, I guess, is just the most concrete thing in your browser, and so that got promoted to be the title. 
+[1:06] **Omar**: But it is very much this idea of like your browser is this weird mini operating system. And then your real operating system has all these tools. How do we kind of bring the browser out? And tab, I guess, is just the most concrete thing in your browser, and so that got promoted to be the title.
 
 [1:23] **Omar**: Maybe part of it is also the browser extension APIs. If you go look at the Chrome extension API, the tab APIs are like pretty prominently placed and it's easy to understand what they do. So those were some of the first examples that I started writing. And so maybe that kind of accidentally dominated the presentation of the extension.
 
-[1:40] **Henry**: Right. And then it is a common thing for people to say they have thousands of tabs open, and there are extensions that help you with that. 
+[1:40] **Henry**: Right. And then it is a common thing for people to say they have thousands of tabs open, and there are extensions that help you with that.
 
 [1:47] **Omar**: Right. So maybe it's unintentionally a good presentation. I think when you have a demo like this,  like there's a lot of usefulness in being kind of conservative in what the demo does, where it's like something that people recognize as something useful.
 
@@ -46,13 +49,13 @@ sidebar:
 
 [3:18] **Henry**: Yeah. That's something that people are opening up every day and they recognize it, even if you're not a programmer, right. I think that's cool where there are people that might not even understand FS, but then they can see the value.. They see that that's powerful.
 
-[3:31] **Omar**: There were definitely people who were like, I don't know how to install this, but it looks cool. And I think they like understand that at some level, which certainly wouldn't be true if it was SQL. 
+[3:31] **Omar**: There were definitely people who were like, I don't know how to install this, but it looks cool. And I think they like understand that at some level, which certainly wouldn't be true if it was SQL.
 
 #### Project Boilerplates vs. Toys
 
-[3:40] **Henry**: You brought up that it's a way for people to make extensions too right. A different interface. 
+[3:40] **Henry**: You brought up that it's a way for people to make extensions too right. A different interface.
 
-[3:45] **Omar**: Yeah. That's one framing that I think is pretty compelling, but I don't have any good examples for it yet. Unless you count the tab things. If you were really masochistic about writing an extension to close all your stack overflow tabs. 
+[3:45] **Omar**: Yeah. That's one framing that I think is pretty compelling, but I don't have any good examples for it yet. Unless you count the tab things. If you were really masochistic about writing an extension to close all your stack overflow tabs.
 
 [3:59] **Omar**: It's interesting cause it's like very much a different way of thinking about programming your computer. And it's sort of in line with some of the Dynamicland stuff, where you just sketch something out and that's a program. And it can like talk to all of this other stuff that you already have in your environment. In terms of really lightweight programming, in terms of having this space, the file system or the real world, where you have all these operations that you already know, you can just kind of reuse them now applied to new stuff.
 
@@ -60,7 +63,7 @@ sidebar:
 
 > 3. a lot of the difficulty of making an extension that I had in mind isn't these Web content issues; it's stuff like, you have to write it as these 3 separate scripts that communicate asynchronously, and you need weird manifest file, and you need to manually import your extension - [tweet](https://twitter.com/rsnous/status/1261489605364178945)
 
-[4:37] **Omar**: Yeah. One like weirdly concrete way I think about this is if you want to make an extension, you have to make like four different files and you have to like put them in a folder. You have to make this manifest file to tell your browser what the extension is about. You might have to make like two or three JavaScript files. 
+[4:37] **Omar**: Yeah. One like weirdly concrete way I think about this is if you want to make an extension, you have to make like four different files and you have to like put them in a folder. You have to make this manifest file to tell your browser what the extension is about. You might have to make like two or three JavaScript files.
 
 > I think that the browsers assume that your extension is a Product and you won't mind doing a lot of bureaucracy to distribute it because it's amortized over the scale of your product 😕 - [tweet](https://twitter.com/rsnous/status/1346681133845544961)
 
@@ -68,11 +71,11 @@ sidebar:
 
 [4:54] **Omar**: Clearly they're not thinking the same way you would if you were making a Python script or a shell script or something. They're thinking when you make an extension, it's an undertaking. It's very similar to trying to make an iPhone app or an Android app, where it's like, you have to make a project. You have to open it in this IDE and there's all this stuff around it. Even if you only want to do something very simple,
 
-[5:15] **Henry**: Right. The whole boilerplate concept, I suppose. I mean, this is true, even with making a web app now. I guess you could just make an HTML file, but.. 
+[5:15] **Henry**: Right. The whole boilerplate concept, I suppose. I mean, this is true, even with making a web app now. I guess you could just make an HTML file, but..
 
 [5:24] **Omar**: I try to, whenever I can. Yeah.
 
-[5:26] **Henry**: Right. You feel like you need to use something that someone told you, whether it's WordPress or Gatsby or create react app, but maybe that's worse. 
+[5:26] **Henry**: Right. You feel like you need to use something that someone told you, whether it's WordPress or Gatsby or create react app, but maybe that's worse.
 
 [5:35] **Omar**: Yeah. And this is related to what we talked about in the last podcast, it shows that they're optimizing for people who are making a certain kind of thing, right? Facebook is making their messenger app or their messenger website, so that's going to be a huge app. So it doesn't matter if there's all this boilerplate around it cause it's still going to be a small percentage of this giant app that they're making. If I'm making like some one file thing and I need all this boiler plate, you know, the boilerplate dominates the actual application.
 
@@ -92,11 +95,11 @@ sidebar:
 
 [7:18] **Omar**: Whereas when you use a library often, you have to figure out what it's doing, read the documentation, see if you can configure it in the right way, which I think is actually a very, very different feeling from programming a system that you really understand by yourself.
 
-[7:33] **Henry**: right. And I guess we got used to this like glue mindset of like taking things and putting them together. Maybe you feel less like agency because even though it's all open source and you could change everything, you feel like you don't have as much control. The trade-off is at what level is it worth doing it yourself. 
+[7:33] **Henry**: right. And I guess we got used to this like glue mindset of like taking things and putting them together. Maybe you feel less like agency because even though it's all open source and you could change everything, you feel like you don't have as much control. The trade-off is at what level is it worth doing it yourself.
 
 [7:51] **Omar**: Right. I mean, it depends on the actual domain, but I always feel like I'm usually okay with like having one or two really big dependencies where I'm like intentionally attaching myself to this thing, but lots of people use it. It's pretty much standalone.
 
-[8:06] **Omar**: It's interesting in the case of TabFS, because part of the reason that it took me a few years to really finish this project is that I spent a while playing with different frameworks and different languages. There was a file system that was written in go. And then there was a browser extension that was written in TypeScript with Webpack and all this other stuff. And then over time, I just got more and more fed up with the dependencies and with like trying to write wrappers so that TypeScript would accept the weird things I was doing. All of these things that are pretty much incidental to the thing that I'm actually trying to do. 
+[8:06] **Omar**: It's interesting in the case of TabFS, because part of the reason that it took me a few years to really finish this project is that I spent a while playing with different frameworks and different languages. There was a file system that was written in go. And then there was a browser extension that was written in TypeScript with Webpack and all this other stuff. And then over time, I just got more and more fed up with the dependencies and with like trying to write wrappers so that TypeScript would accept the weird things I was doing. All of these things that are pretty much incidental to the thing that I'm actually trying to do.
 
 [8:40] **Omar**: And so now it is basically pure C and pure JavaScript. There's no like package manager. There's no build step. The browser extension is one JavaScript file. And it's just plain ES6. And the C file system half, which is the half that talks to your operating system.. You do have to compile it, but it's just one C file. And it only depends on FUSE, which is the module that you need to, to make file systems for your computer.
 
@@ -114,9 +117,9 @@ sidebar:
 
 [9:56] **Omar**: Or I think part of it is also like, if it's your room, like if you have this feeling of ownership over it, , that you want it to be clean.
 
-[10:04] **Henry**: Yeah. Either you have the habit or you do notice everything around you is getting worse and worse, but then there's a point where you're like, okay, I'll clean it. But most of the time it's messy. 
+[10:04] **Henry**: Yeah. Either you have the habit or you do notice everything around you is getting worse and worse, but then there's a point where you're like, okay, I'll clean it. But most of the time it's messy.
 
-[10:13] **Henry**: If someone else came in and tried to clean your room, you would get frustrated because you're like, I know what that was in that place. You kind of had that 
+[10:13] **Henry**: If someone else came in and tried to clean your room, you would get frustrated because you're like, I know what that was in that place. You kind of had that
 
 [10:19] **Omar**: right, right, Right. That's an interesting part of this is that this is a project that I basically was working on for a few years, you know, very much on and off, obviously. But it was like basically like in my head. And so is that part of why it's turned out the way it has? Where it has very few dependencies and it's just these two files, because it was like, there is no division of labor between different people. And it has this very clear kind of, I can drive it to have the aesthetic that I want.
 
@@ -130,11 +133,11 @@ sidebar:
 
 #### What is a 1.0?
 
-[11:25] **Henry**: You shared with me earlier, like what you were working on and then you ended up just posting it. And so I guess you felt, it was okay to not need what you considered 1.0. That goes back to whether the idea came across and you didn't need it to be like a huge thing that everyone depended on. 
+[11:25] **Henry**: You shared with me earlier, like what you were working on and then you ended up just posting it. And so I guess you felt, it was okay to not need what you considered 1.0. That goes back to whether the idea came across and you didn't need it to be like a huge thing that everyone depended on.
 
 [11:42] **Omar**: Yeah. So I posted this on new year's Eve. And the reason I posted it on new year's Eve was I kind of looked at what I had done, and half the page is still to do is, but I was like, okay, I can just leave all these and just post it, so it was done this year. And I think that was the right move. I think people pretty much got the message about what this thing is. Maybe not to the extent I wanted, but it'd be hard to imagine more people seeing it than ended up seeing it. Yeah, I think there's a spectrum where there were earlier versions where I didn't have the examples up, or I didn't have the pictures, or I didn't have some of the functionality that powers the examples where I think those would not have been good to post. So I think it was the right time.
 
-[12:20] **Henry**: In terms of like, you already hit, finished the implementation, but then you added all those 
+[12:20] **Henry**: In terms of like, you already hit, finished the implementation, but then you added all those
 
 [12:25] **Omar**: Yeah. Yeah. And I think that that was important. And it's also because of the way. Like, if you look at the page, actually it has this gray background. It has this like kinda janky font. And that was actually completely intentional, because I changed the font and I changed the background from all the other pages on my website, because when I was writing it, I was like, I didn't want to have this nice looking font or this white background, because it makes it feel like I want to be writing in full sentences. It makes it feel like I want it to be a finished page. So I intentionally kind of made it look rougher so that I would feel more comfortable leaving all these TODOs in and kind of just jotting things down.
 
@@ -158,7 +161,7 @@ sidebar:
 
 [14:53] **Omar**: And also, like, I think part of the reason that it made so much sense to release this early is it was never clear to me what a 1.0, would be. It's released early in the sense that there's a lot of stuff that is listed on the page that's not done. But like if I had just deleted all that stuff from the page, then I guess it would be done, right. It's not like there's like some kind of spec that I'm trying to meet.
 
-[15:17] **Henry**: Yeah, exactly. What is a 1.0 anyway? The only reason why it's a 1.0 is because you decided at one point, it's 1.0. Even though in reality there's no difference. It's just like a arbitrary distinction. 
+[15:17] **Henry**: Yeah, exactly. What is a 1.0 anyway? The only reason why it's a 1.0 is because you decided at one point, it's 1.0. Even though in reality there's no difference. It's just like a arbitrary distinction.
 
 [15:27] **Omar**: Another interesting thing is that because it's open source and because of the audience that it's reached, it provides this sort of comfort to me. The people who are looking at this have the kind of technical sophistication where they can deal with hiccups in the installation, hiccups in the thing running. I don't feel like I need to make it a super smooth path. And so obviously that's like a particular audience and that's excluding a lot of people who maybe would find this useful, but from my end in terms of not having to work a lot on polish, I found that and still find that really reassuring.
 
@@ -170,9 +173,9 @@ sidebar:
 
 > [multi-threaded tabfs.c PR](https://github.com/osnr/TabFS/pull/29)
 
-[16:31] **Omar**: One of the first pull requests that I ever got for this project was someone who basically went and took the C half of the project and made it multithreaded. 
+[16:31] **Omar**: One of the first pull requests that I ever got for this project was someone who basically went and took the C half of the project and made it multithreaded.
 
-[16:43] **Henry**: That's huge. 
+[16:43] **Henry**: That's huge.
 
 [16:44] **Omar**: It went from like maybe 300 lines of C to 400 lines of C. And I looked at it. And I was like, it looks good, merged it. And we've been multi-threaded for two weeks. It works great. It's like a huge speed increase. It's a nice validation of the architecture that I came up with, because it basically like everything just worked on top of that. The JavaScript really didn't have to change. None of the synthetic files implementations had to change, it all just instantly became multithreaded once you swapped this bit of the implementation.
 
@@ -190,15 +193,15 @@ sidebar:
 
 [18:46] **Omar**: And that I think, especially for people who are maybe less comfortable, that kind of breaks this emotional barrier of like the text programming system is intimidating. And I think that's true even for programmers with, open source projects that they're using. A lot of the time, people won't look at the source code? It's not an expected thing that you do.
 
-[19:03] **Henry**: It would be nice if it was like more of an instinct that you would turn to that first, rather than turn to the issues. I've seen people talk about how in open-source we need not just onboarding, but a way of deep diving into code. Maybe you mentioned people putting one in to put like a trace into the GitHub repo or just a program that you run that goes through what things are happening. 
+[19:03] **Henry**: It would be nice if it was like more of an instinct that you would turn to that first, rather than turn to the issues. I've seen people talk about how in open-source we need not just onboarding, but a way of deep diving into code. Maybe you mentioned people putting one in to put like a trace into the GitHub repo or just a program that you run that goes through what things are happening.
 
-[19:26] **Omar**: Yeah, this project is maybe in a good position where that would be compelling because you can imagine some kind of trace or introduction where like you have your actual tabs open. And so it can do something where your data is actually flowing through it. That's something that I think people really find cool and a lot of the draw to actually installing this thing is this kind of moment when you see your tabs as files. 
+[19:26] **Omar**: Yeah, this project is maybe in a good position where that would be compelling because you can imagine some kind of trace or introduction where like you have your actual tabs open. And so it can do something where your data is actually flowing through it. That's something that I think people really find cool and a lot of the draw to actually installing this thing is this kind of moment when you see your tabs as files.
 
-[19:49] **Henry**: Very meta, because you could reference that in this tutorial, this is the tab you're on right now. 
+[19:49] **Henry**: Very meta, because you could reference that in this tutorial, this is the tab you're on right now.
 
-[19:53] **Omar**: Yeah. I, I want to do more of that. This would be a cool area to do some stuff in where you can like hop between your browser world and your graphical file Explorer world. And there's links you can click that go from one to the other. Because that's stuff that when you think about it, it's kind of obvious, but nobody really does it. I think partly because of the communications overhead of like, just implementing all this stuff. But with the file system, it's really easy. 
+[19:53] **Omar**: Yeah. I, I want to do more of that. This would be a cool area to do some stuff in where you can like hop between your browser world and your graphical file Explorer world. And there's links you can click that go from one to the other. Because that's stuff that when you think about it, it's kind of obvious, but nobody really does it. I think partly because of the communications overhead of like, just implementing all this stuff. But with the file system, it's really easy.
 
-[20:16] **Omar**: It's also gets at some of the stuff from Acme Plan 9 editor. It sort of provided these hypertext system where if you had a text file and it had the name of another file in it, you could click on that and it would hop you to that file. Or you could put a line number after that and you could hop to that line number. So you could kind of build this hypertext network of stuff you were working on just in the plain text. 
+[20:16] **Omar**: It's also gets at some of the stuff from Acme Plan 9 editor. It sort of provided these hypertext system where if you had a text file and it had the name of another file in it, you could click on that and it would hop you to that file. Or you could put a line number after that and you could hop to that line number. So you could kind of build this hypertext network of stuff you were working on just in the plain text.
 
 #### Taking Phrases Seriously
 
@@ -208,7 +211,7 @@ sidebar:
 
 [21:02] **Omar**: Like everything is file is something that people sort of just like mumble. It's like part of history. It's like part of why Unix won. It's not something that I think people actually like often really take seriously as like, Oh, I have all this stuff on my computer. I have all these browser tabs. How can they be files? And so part of the kind of deep drive of this project is to actually take that mantra seriously and turn like modern concepts on your computer into files.
 
-[21:28] **Henry**: Okay. Something that people tell each other, but nothing in our systems actually reflect that statement. 
+[21:28] **Henry**: Okay. Something that people tell each other, but nothing in our systems actually reflect that statement.
 
 [21:34] **Omar**: Like no new concepts. I mean, yeah. Like your Unix processor files and your sockets are kind of like files. But you know, your Twitter users are not files, your posts on your Facebook feed aren't files. And I think pushing for more of that, I mean, it's kind of like what we talked about with regard to freshness and scripture in the last podcast is like taking these ideas that people now just kind of mouth and really reevaluating them and reapplying them.
 
@@ -226,11 +229,11 @@ sidebar:
 
 [23:38] **Omar**: Yeah. I think that a lot of people who gave it only a cursory look assume that it was all reading and not writing. Partly because I didn't put a ton of examples in for writing. But that was one of the original ideas for the file  system was that you could use it to do live editing of webpages, because you just have it mounted as file system. And then you can go edit the JavaScript or the HTML on the mounted file system. And then that would just live edit the webpage.
 
-[24:05] **Henry**: Yeah. I saw a [PR that made an API for textareas](https://github.com/osnr/TabFS/pull/51). 
+[24:05] **Henry**: Yeah. I saw a [PR that made an API for textareas](https://github.com/osnr/TabFS/pull/51).
 
 > [Keeping Tabs on your abstractions, Anil Dash](https://anildash.com/2021/01/03/keeping-tabs-on-your-abstractions)
 
-[24:10] **Omar**: There are extensions that do just that specific thing, right? Like where you can use vim to edit text areas. So you can write email in Gmail or you can use Emacs to edit text area. Like I've seen those and that's a whole extension to do this pull requests that's like five lines of code. So I think there is a real use for it. And somebody who had a blog post about TabFS mentioned that as one of the first things they wanted. 
+[24:10] **Omar**: There are extensions that do just that specific thing, right? Like where you can use vim to edit text areas. So you can write email in Gmail or you can use Emacs to edit text area. Like I've seen those and that's a whole extension to do this pull requests that's like five lines of code. So I think there is a real use for it. And somebody who had a blog post about TabFS mentioned that as one of the first things they wanted.
 
 [24:35] **Henry**: I was thinking it would be cool to have another view for your history.
 

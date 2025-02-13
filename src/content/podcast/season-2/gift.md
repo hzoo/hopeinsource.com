@@ -1,15 +1,18 @@
 ---
 title: "MA 11: Maggie Appleton on Open Source as a Gift Economy"
 season: 2
-date: "2020-03-05"
+date: 2020-03-05
 time: "55"
-description: "Is the open source community a gift economy? What even is a gift? Maggie Appleton joins Henry to discuss open source as a gift economy (versus a market economy), why we participate in open source and exchange gifts, rituals and habits, patronage and crowdfunding, quantified self and disembodiment, our role in tech"
-episodeLink: 0114ded5
-embedUrl: https://share.transistor.fm/e/9d389287
+description: Is the open source community a gift economy? What even is a gift?
+  Maggie Appleton joins Henry to discuss open source as a gift economy (versus a
+  market economy), why we participate in open source and exchange gifts, rituals
+  and habits, patronage and crowdfunding, quantified self and disembodiment, our
+  role in tech
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461884/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345855-44100-2-d1915b9be38241ee.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-11-Maggie-Appleton-on-Open-Source-as-a-Gift-Economy-e2su9js
 sidebar:
-    order: 11
+  order: 11
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/gift.md)

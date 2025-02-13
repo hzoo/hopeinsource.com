@@ -1,11 +1,11 @@
 ---
 title: "Managing Over-Participation (Working in Public)"
 season: 3
-date: "2020-08-04"
+date: 2020-08-04
 time: "47"
 description: "Is more (information, people, code) always better? Nadia Asparouhova joins Henry to chat about her new book, Working in Public: The Making and Maintenance of Open Source Software, a deep-dive into the of open source community and how it may paint a picture of online communities in general. They talk about her 2x2 model of communities, the public web (Twitter) to private groups (group chat), the turn to individual creators, and the importance of moderation and boundaries."
-episodeLink: "1735505a"
-embedUrl: https://share.transistor.fm/e/bd3ffd63
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461803/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345772-48000-1-21230558850f3f81.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Managing-Over-Participation-Working-in-Public-e2su9hb
 sidebar:
     order: 4
 ---

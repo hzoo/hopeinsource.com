@@ -1,15 +1,20 @@
 ---
 title: "MA 9: Wendy Hagenmaier on Preserving the (Digital) Past"
 season: 2
-date: "2019-07-08"
+date: 2019-07-08
 time: "42"
-description: "In our excitement to develop products for the future do we neglect the past? Wendy Hagenmaier (Georgia Tech) discusses with Henry on the importance of maintaining our history, especially in software itself. They chat all about archival: what is it, what should concern an archivist, differences b/t physical/digital, artifacts/process, value/worth of things to preserve, struggles, places where archival can happen (personal, libraries, companies, museums), and our shared responsibility and knowledge."
-episodeLink: bab7f1ad
-embedUrl: https://share.transistor.fm/e/68b9a175
+description: "In our excitement to develop products for the future do we neglect
+  the past? Wendy Hagenmaier (Georgia Tech) discusses with Henry on the
+  importance of maintaining our history, especially in software itself. They
+  chat all about archival: what is it, what should concern an archivist,
+  differences b/t physical/digital, artifacts/process, value/worth of things to
+  preserve, struggles, places where archival can happen (personal, libraries,
+  companies, museums), and our shared responsibility and knowledge."
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461519/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345479-44100-2-cc7635c1b19f23b7.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-9-Wendy-Hagenmaier-on-Preserving-the-Digital-Past-e2su98f
 sidebar:
-    order: 9
+  order: 9
 ---
-
 ### Links
 
 - [Wendy Hagenmaier](https://www.library.gatech.edu/wendy-hagenmaier)

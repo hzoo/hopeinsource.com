@@ -1,15 +1,20 @@
 ---
 title: "MA 16: Philip Gee (#3) on Life After Digital Death"
 season: 2
-date: "2020-09-23"
+date: 2020-09-23
 time: "33"
-description: "What's life after removing yourself from social media? Philip Gee joins Henry (the last in the trilogy) to chat about LAT, life after Twitter. We discuss being irrelevant, forcing yourself to think about different things, treating a newsletter like email, restraining your growth, moving to the digital suburbs, engaging with the past, directing your attention and production, being particular and local, making it normal again to not have to create. (recorded in July)"
-episodeLink: "aa1d84f7"
-embedUrl: https://share.transistor.fm/e/a2900112
+description: What's life after removing yourself from social media? Philip Gee
+  joins Henry (the last in the trilogy) to chat about LAT, life after Twitter.
+  We discuss being irrelevant, forcing yourself to think about different things,
+  treating a newsletter like email, restraining your growth, moving to the
+  digital suburbs, engaging with the past, directing your attention and
+  production, being particular and local, making it normal again to not have to
+  create. (recorded in July)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461572/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345534-48000-1-e63d690885260c06.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-16-Philip-Gee-3-on-Life-After-Digital-Death-e2su9a4
 sidebar:
-    order: 16
+  order: 16
 ---
-
 ### Links
 
 - [1: Growing Old with the Web](https://hopeinsource.com/growing-old)

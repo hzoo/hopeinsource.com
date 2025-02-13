@@ -1,15 +1,19 @@
 ---
-title: "Emotional Programming (Omar Rizwan)"
+title: Emotional Programming (Omar Rizwan)
 season: 3
-date: "2020-10-05"
+date: 2020-10-05
 time: "40"
-description: "What can we learn from someone's last tweets? Omar Rizwan joins Henry to chat about the Dynamicland way of thinking: communal, involving the whole person, user agency. We discuss user control, the problem of lists, industrial open source, materiality and embodiment, knowing through doing, and being aware of your emotions when programming. Also (of course) screenshots. (recorded in August)"
-episodeLink: "ca3e9f6c"
-embedUrl: https://share.transistor.fm/e/3120d5ff
+description: "What can we learn from someone's last tweets? Omar Rizwan joins
+  Henry to chat about the Dynamicland way of thinking: communal, involving the
+  whole person, user agency. We discuss user control, the problem of lists,
+  industrial open source, materiality and embodiment, knowing through doing, and
+  being aware of your emotions when programming. Also (of course) screenshots.
+  (recorded in August)"
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461695/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345662-48000-1-b815fb46b24f5b61.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Emotional-Programming-Omar-Rizwan-e2su9dv
 sidebar:
-    order: 6
+  order: 6
 ---
-
 ### Links
 
 - [Omar's Twitter](https://twitter.com/rsnous)

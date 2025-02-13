@@ -1,15 +1,18 @@
 ---
 title: "12: Haircut (Bonus)"
 season: 1
-date: "2020-02-14"
+date: 2020-02-14
 time: "27"
-description: Why not record an conversation while getting a haircut? Fellow friend and developer Jonathan Tsao cuts Henry's hair and they have a spontaneous conversation about a variety of topics covering faith and culture, living in NYC, creativitiy, narratives, sharing in vulnerability, and embodiment.
-episodeLink: "2ccde265"
-embedUrl: https://share.transistor.fm/e/5657c836
+description: Why not record an conversation while getting a haircut? Fellow
+  friend and developer Jonathan Tsao cuts Henry's hair and they have a
+  spontaneous conversation about a variety of topics covering faith and culture,
+  living in NYC, creativitiy, narratives, sharing in vulnerability, and
+  embodiment.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345703-44100-1-f7dbddbb72a179fb.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/12-Haircut-Bonus-e2su9et
 sidebar:
-    order: 12
+  order: 12
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/haircut.md)

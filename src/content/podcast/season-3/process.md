@@ -1,15 +1,20 @@
 ---
-title: "Technology as Process (Maggie Appleton)"
+title: Technology as Process (Maggie Appleton)
 season: 3
-date: "2020-11-02"
+date: 2020-11-02
 time: "33"
-description: "Is technology just of chips and gadgets? Maggie Appleton joins Henry again in a 2-part chat to discuss how tech isn't such a static thing, building off of Mcluhan's thought of media and Dan Wang's article, How Technology Grows. We cover how tech itself contains it's own process knowledge involving how it is used, built, and maintained as well as going into digital immortality and the protestant work ethic, and chat about how our cultures are intertwined with tech."
-episodeLink: "983762e4"
-embedUrl: https://share.transistor.fm/e/bb6e376b
+description: Is technology just of chips and gadgets? Maggie Appleton joins
+  Henry again in a 2-part chat to discuss how tech isn't such a static thing,
+  building off of Mcluhan's thought of media and Dan Wang's article, How
+  Technology Grows. We cover how tech itself contains it's own process knowledge
+  involving how it is used, built, and maintained as well as going into digital
+  immortality and the protestant work ethic, and chat about how our cultures are
+  intertwined with tech.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461690/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345661-48000-1-d4ae79c987b62c09.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Technology-as-Process-Maggie-Appleton-e2su9dq
 sidebar:
-    order: 10
+  order: 10
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/process.md)

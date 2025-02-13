@@ -1,15 +1,16 @@
 ---
 title: "06: Money"
 season: 1
-date: "2018-10-16"
+date: 2018-10-16
 time: "44"
-description: How do communities handle money? We talk about money and centralization, tithing systems, how much funding is too much, and when to contribute money versus time.
-episodeLink: "f1ade31a"
-embedUrl: https://share.transistor.fm/e/e4627cff
+description: How do communities handle money? We talk about money and
+  centralization, tithing systems, how much funding is too much, and when to
+  contribute money versus time.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461649/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345611-44100-1-6e760c3fed773e05.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/6-Money-e2su9ch
 sidebar:
-    order: 6
+  order: 6
 ---
-
 ### Links
 
 - Tithe: https://en.wikipedia.org/wiki/Tithe

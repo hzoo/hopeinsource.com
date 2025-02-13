@@ -1,15 +1,19 @@
 ---
 title: "MA 3: Stephanie Hurlburt on Perception of Value"
 season: 2
-date: "2019-04-19"
+date: 2019-04-19
 time: "55"
-description: "What do we treasure? Stephanie Hurlburt (Binomial) joins again to chat about inherent vs. perceived value, success breeding success, psychology around hiding information, code versus money, a holistic/explicit view of business, everything as marketing, confidence, money as idolatry, the nature of giving, our biases around people/status, people want to see you succeed, communicating how people can help you. (recorded in February)"
-episodeLink: 77418a33
-embedUrl: https://share.transistor.fm/e/6f127e1c
+description: What do we treasure? Stephanie Hurlburt (Binomial) joins again to
+  chat about inherent vs. perceived value, success breeding success, psychology
+  around hiding information, code versus money, a holistic/explicit view of
+  business, everything as marketing, confidence, money as idolatry, the nature
+  of giving, our biases around people/status, people want to see you succeed,
+  communicating how people can help you. (recorded in February)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461845/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345813-44100-2-2b8ef43c1fd33729.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-3-Stephanie-Hurlburt-on-the-Perception-of-Value-e2su9il
 sidebar:
-    order: 3
+  order: 3
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/value.md)

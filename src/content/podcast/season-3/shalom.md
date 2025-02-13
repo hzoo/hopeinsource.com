@@ -1,15 +1,19 @@
 ---
-title: "Towards Shalom (Nicole Williams)"
+title: Towards Shalom (Nicole Williams)
 season: 3
-date: "2020-07-08"
+date: 2020-07-08
 time: "56"
-description: What does flourishing look like? Nicole Williams joins Henry to chat about faith in a less reductive way (than many of us may of grown up with). On rationality, the Church as a body, education, liturgy, family, being productive, and simply doing things for it's own sake. Was rather hard to say what we were getting at until the very end, all tying back to a picture of shalom! (This was recorded in May)
-episodeLink: "b04b21c0"
-embedUrl: https://share.transistor.fm/e/b2b895b0
+description: What does flourishing look like? Nicole Williams joins Henry to
+  chat about faith in a less reductive way (than many of us may of grown up
+  with). On rationality, the Church as a body, education, liturgy, family, being
+  productive, and simply doing things for it's own sake. Was rather hard to say
+  what we were getting at until the very end, all tying back to a picture of
+  shalom! (This was recorded in May)
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461769/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345737-48000-1-ce5d87a151978fb6.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Towards-Shalom-Nicole-Williams-e2su9g9
 sidebar:
-    order: 2
+  order: 2
 ---
-
 ### Links
 
 - The Machine Stops (E. M. Forster)

@@ -1,11 +1,11 @@
 ---
 title: "Inhabiting Heritage (Bernardo Hidalgo, Marianita Palumbo)"
 season: 3
-date: "2020-08-28"
+date: 2020-08-28
 time: "43"
 description: "Do we think about how the places in which we live are passed down? Both Bernardo Robles Hidalgo (architect) and Marianita Palumbo (anthropologist) join Henry to chat about living as maintenance. We discuss Bosch, responsibility of taking care of the places we live in, on our desire for comfort, the right to repair, the aesthetic of maintenance, and communal living. (recorded in February)"
-episodeLink: "841541a0"
-embedUrl: https://share.transistor.fm/e/5c511f38
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461767/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345736-48000-1-d33593fa75175fa7.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Inhabiting-a-Space-Bernardo-Hidalgo--Marianita-Palumbo-e2su9g7
 sidebar:
     order: 5
 ---

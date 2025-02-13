@@ -1,15 +1,16 @@
 ---
 title: "02: Community Membership"
 season: 1
-date: "2018-10-16"
+date: 2018-10-16
 time: "34"
-description: What does it mean to join a community? We talk about casual versus committed membership, and how maintainers and leaders manage expectations around trust and collaboration.
-episodeLink: "892ed7d4"
-embedUrl: https://share.transistor.fm/e/1ca166c4
+description: What does it mean to join a community? We talk about casual versus
+  committed membership, and how maintainers and leaders manage expectations
+  around trust and collaboration.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461829/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345802-44100-1-b7bc68ab1cce235f.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/2-Community-Membership-e2su9i5
 sidebar:
-    order: 2
+  order: 2
 ---
-
 ### Links
 
 - [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)

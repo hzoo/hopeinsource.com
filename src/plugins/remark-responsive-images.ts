@@ -1,9 +1,9 @@
 import { visit } from 'unist-util-visit';
-import type { Image } from 'mdast';
+import type { Image, Root } from 'mdast';
 import type { Plugin } from 'unified';
 
-export const remarkResponsiveImages: Plugin = () => {
-  return (tree) => {
+export const remarkResponsiveImages: Plugin<[], Root> = () => {
+  return (tree: Root) => {
     visit(tree, 'image', (node: Image) => {
       // Add responsive image attributes
       node.data = node.data || {};

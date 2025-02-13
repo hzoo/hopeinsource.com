@@ -1,8 +1,7 @@
 ---
 import AudioPlayer from "@/components/AudioPlayer.astro";
-
-import Subscribe from "@/components/Subscribe.tsx";
-import Footer from "@/components/Footer.tsx";
+import Subscribe from "@/components/Subscribe.astro";
+import Footer from "@/components/Footer.astro";
 import { hisMetadata } from "@/metadata.ts";
 import BaseHead from "@/components/BaseHead.astro";
 
@@ -32,7 +31,11 @@ const { frontmatter, slug } = Astro.props;
             <Subscribe />
 
             <section class="episode-info text-sm text-gray-300">
-                {frontmatter.date}
+                {frontmatter.date.toLocaleDateString('en-US', {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric',
+                })}
                 {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
                 {frontmatter.season && ` • Season ${frontmatter.season}`}
             </section>
@@ -48,7 +51,7 @@ const { frontmatter, slug } = Astro.props;
             <Footer />
             <AudioPlayer
                 title={frontmatter.title}
-                src={`https://media.transistor.fm/${frontmatter.episodeLink}.mp3`}
+                src={frontmatter.episodeLink}
             />
         </div>
     </body>

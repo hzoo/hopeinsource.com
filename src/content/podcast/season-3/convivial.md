@@ -1,11 +1,11 @@
 ---
 title: "The Convivial Society (Michael Sacasas)"
 season: 3
-date: "2020-10-13"
+date: 2020-10-13
 time: "24"
 description: "What does a convivial society entail? Michael Sacasas joins Henry in the second part of a conversation about Illich and his views of the common good. We speak about Illich's critique against institutions, autonomy and interdependence, the story of the Good Samaritan, learning through apprenticeship and intimate participation, and outsourcing our choices"
-episodeLink: "65de5f7d"
-embedUrl: https://share.transistor.fm/e/34d485c0
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461827/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345810-48000-1-60194c61b5bbe378.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/The-Convivial-Society-L-M--Sacasas-e2su9i3
 sidebar:
     order: 8
 ---

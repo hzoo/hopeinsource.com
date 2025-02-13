@@ -1,15 +1,16 @@
 ---
 title: "10: Trust"
 season: 1
-date: "2018-10-16"
+date: 2018-10-16
 time: "34"
-description: Why do we trust anyone? We talk about trust as an act of faith, trusting people versus trusting code, and the relationship between trust and work.
-episodeLink: "5b9ca809"
-embedUrl: https://share.transistor.fm/e/30b20eda
+description: Why do we trust anyone? We talk about trust as an act of faith,
+  trusting people versus trusting code, and the relationship between trust and
+  work.
+episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461679/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345639-44100-1-b973f961d1402d9d.mp3
+embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/10-Trust-e2su9df
 sidebar:
-    order: 10
+  order: 10
 ---
-
 ### Transcript
 
 > Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/trust.md)
