@@ -52,7 +52,7 @@ const { slug, Content, headings, frontmatter } = Astro.props;
       {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
       {frontmatter.season && ` • Season ${frontmatter.season}`}
     </section>
-    <div class="mx-auto py-7 flex gap-12 flex-col lg:flex-row">
+    <div class="mx-auto py-7 flex lg:gap-12 flex-col lg:flex-row">
       <aside class="lg:w-[275px]">
         <TableOfContents headings={headings} />
       </aside>
