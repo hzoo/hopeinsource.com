@@ -37,37 +37,33 @@ const { slug, Content, headings, frontmatter } = Astro.props;
 ---
 
 <EpLayout frontmatter={frontmatter} slug={`/${slug}`}>
-  <div class="mx-auto px-5 py-7 flex flex-col lg:flex-row lg:max-w-6xl">
-    <div class="max-w-3xl mx-auto px-5 py-7">
-      <a href="/"><h3 class="m-0">← {hisMetadata.title}</h3></a>
-      <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
-      <Subscribe />
-
-      <section class="episode-info text-sm text-gray-300">
-        {
-          frontmatter.date.toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "long",
-            day: "numeric",
-          })
-        }
-        {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
-        {frontmatter.season && ` • Season ${frontmatter.season}`}
-      </section>
-
-      <blockquote class="text-sm leading-relaxed">
-        {frontmatter.description} ({frontmatter.time} min)
-      </blockquote>
-
-      <main>
+  <div class="mx-auto px-5 py-7 flex flex-col lg:max-w-6xl">
+    <a href="/"><h3 class="m-0">← {hisMetadata.title}</h3></a>
+    <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
+    <Subscribe />
+    <section class="episode-info text-sm text-gray-300">
+      {
+        frontmatter.date.toLocaleDateString("en-US", {
+          year: "numeric",
+          month: "long",
+          day: "numeric",
+        })
+      }
+      {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
+      {frontmatter.season && ` • Season ${frontmatter.season}`}
+    </section>
+    <div class="mx-auto px-5 py-7 flex space-x-12 flex-col lg:flex-row">
+      <aside>
+        <TableOfContents headings={headings} />
+      </aside>
+      <main class="flex-1">
+        <blockquote class="text-sm leading-relaxed">
+          {frontmatter.description} ({frontmatter.time} min)
+        </blockquote>
         <Content />
       </main>
-
-      <Footer />
-      <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
     </div>
-    <aside class="sidebar">
-      <TableOfContents headings={headings} />
-    </aside>
+    <Footer />
+    <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
   </div>
 </EpLayout>

@@ -234,17 +234,17 @@
 }
 
 @layer components {
-  .sidebar {
+  aside {
     @media (min-width: 1100px) {
       @apply flex-none w-[275px] ml-4;
     }
   }
 
-  .toc {
+  /* .toc {
     @media (min-width: 1100px) {
       @apply sticky top-8 max-h-[calc(100vh-4rem)] overflow-y-auto;
     }
-  }
+  } */
 
   .toc-link.active {
     @apply bg-[#4F5B66];
