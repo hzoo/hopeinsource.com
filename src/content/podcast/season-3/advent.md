@@ -18,7 +18,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/advent.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/advent.md)
 
 [00:00] **Henry**: Many of us in the tech world and love [Advent of Code](https://adventofcode.com), a calendar of yearly coding puzzles, started in order to save Christmas. But some of us may also wonder about what Advent itself is for. Well, Alex, my pastor friend, asked me if I wanted to have a Christmas episode, so I suggested we talk about this current season of Advent.
 

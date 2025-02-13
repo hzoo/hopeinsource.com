@@ -14,7 +14,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-4/protestant.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/protestant.md)
 
 [00:00] **Henry:** We were just talking about different ways of thinking about Christianity and how for us, as Protestants, we noticed that it doesn't seem like we care about the body as much, right?
 

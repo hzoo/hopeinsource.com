@@ -22,7 +22,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/preservation.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/preservation.md)
 
 [00:06] **Henry**: Today, I have with me, Wendy. She's the digital collections archivist at Georgia Tech Library. I thought that it would be cool to talk with her because archival in a way it seems to relate a lot to maintenance, especially with digital archiving, it's related to software. So yeah, thanks for joining with me today.
 

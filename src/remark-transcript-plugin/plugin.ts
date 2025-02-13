@@ -1,7 +1,7 @@
 import { visit } from "unist-util-visit";
 import { toString as toStringUtil } from "mdast-util-to-string";
 import type { Plugin } from "unified";
-import type { Root, Paragraph, Text, Strong, PhrasingContent, Link } from "mdast";
+import type { Root, Paragraph, Text, Strong, PhrasingContent, Link, Parent } from "mdast";
 
 const timestampRegex = /^\[(\d{2}:\d{2})\]/;
 
@@ -74,8 +74,11 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
   return (tree: Root) => {
     const speakerOrder: string[] = [];
     let speakerCount = 0;
+    let lastSpeaker: string | null = null;
 
-    visit(tree, "paragraph", (node: Paragraph) => {
+    visit(tree, "paragraph", (node: Paragraph, index?: number, parent?: Parent) => {
+      if (index === undefined || !parent) return;
+
       let timestamp: string | null = null;
       let speaker: string | null = null;
 
@@ -115,6 +118,21 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
 
       const timestampLink = createLink(`#t=${timestamp}`, [timestampText]);
 
+      // Check if next message is from the same speaker
+      const nextNode = parent.children[index + 1] as Paragraph | undefined;
+      const nextSpeaker = nextNode && (isTimestamp(nextNode) || isSpeaker(nextNode))
+        ? toStringUtil((nextNode.children[nextNode.children.length > 1 ? 1 : 0] as Strong))
+        : null;
+
+      // Determine consecutive message classes
+      const consecutiveClasses = [];
+      if (speaker === lastSpeaker) {
+        consecutiveClasses.push('consecutive');
+      }
+      if (speaker !== nextSpeaker && speaker === lastSpeaker) {
+        consecutiveClasses.push('consecutive-end');
+      }
+
       node.children = [messageSpan, timestampLink];
       node.data = {
         hName: "p",
@@ -123,10 +141,13 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
             wrapClass,
             speakerIndex === 0 ? "message-sent" :
             speakerIndex === 1 ? "message-received" :
-            "message-system"
+            "message-system",
+            ...consecutiveClasses
           ],
         },
       };
+
+      lastSpeaker = speaker;
     });
   };
 };

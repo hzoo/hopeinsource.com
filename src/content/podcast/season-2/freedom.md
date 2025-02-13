@@ -12,7 +12,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/freedom.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/freedom.md)
 
 [00:00] **Henry**: Today I have with me, Evan You. He's the creator of Vue.js. He has been working full-time for about three years, and I thought it'd be great to have him on since we tend to... I guess we tend to come up a lot when people are talking about open source.
 

@@ -16,7 +16,7 @@ sidebar:
 ---
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/tetris.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/tetris.md)
 
 #### The Software/Hardware Arms Race
 

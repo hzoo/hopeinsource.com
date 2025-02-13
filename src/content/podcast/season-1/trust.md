@@ -13,7 +13,7 @@ sidebar:
 ---
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/trust.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/trust.md)
 
 [00:00] **Nadia**: So, this is our last episode. And we figured for our last episode we would kinda get back to the definition of faith itself and talk about faith as an act of trust in other people. Um, which is something that is also super relevant to software both at the social level of open source being the act of trusting random people to submit code or whatever else to your project. Um, and then also even on a more technical level of how- what are ways that people sort of like try to enforce trust on the code level or not, and does that make sense. Um, but yeah kinda zooming out, I guess just to faith itself and how it relates to trust.
 

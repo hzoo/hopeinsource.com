@@ -19,7 +19,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-1/myth.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/myth.md)
 
 [00:00] **Nadia**: Today we're gonna talk about stories and myths and narratives and open source and how they build the history and community of our projects. And, I remember, when I first met you, Henry, you were talking about [Babel], and I think it was because I was asking you for an [interview](https://github.com/open-source/stories/hzoo) for GitHub and I asked you something about, like, what's something funny or memorable that happened in open source and you gave this story that, that was definitely more interesting than anyone (laughs), any other story I got.. about the whole like Guy Fieri thing and sort of like a, you know, [pull request](https://github.com/babel/babel/pull/3641) that went in and, uh, that was started as a joke and became a real thing, and then, like I don't know, there was like, a [sweater](https://twitter.com/jdan/status/819602334263152644) involved or something? It was just like a very elaborate story.
 

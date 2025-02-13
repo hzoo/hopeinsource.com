@@ -23,7 +23,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/unlisting.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/unlisting.md)
 
 [00:00] **Henry**: The last time we chatted for the podcast, we were just talking about whatever and to see what happens.
 

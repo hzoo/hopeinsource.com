@@ -15,7 +15,7 @@ sidebar:
 ---
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-3/disembodiment.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/disembodiment.md)
 
 [00:00] **Henry**: You were telling me earlier about going back to..
 

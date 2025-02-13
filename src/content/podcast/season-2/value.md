@@ -16,7 +16,7 @@ sidebar:
 ---
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/master/season-2/value.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/value.md)
 
 [00:06] **Stephanie**: We were talking about perceived value. We were talking about the idea that whenever you're talking to someone that's being interpreted. People value things in different ways. You can communicate value in different ways, and perceived value, the value that someone perceives something to be, can be much different than the inherent value you think it has. It's a very complicated topic in negotiation, and networking, and sales. And it's one that even applies to salary. So we were talking about that.
 

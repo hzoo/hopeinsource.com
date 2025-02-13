@@ -25,7 +25,7 @@ sidebar:
 
 ### Transcript
 
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/edit/main/season-4/feeling.md)
+> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/feeling.md)
 
 [00:00] **Sonya:** So Henry, I want to read Matthew 20, which is the parable of the workers in the vineyard. I actually read this last night because I'm reading through. And it really resonated with me and I felt like it was very relevant to our current cultural moment, at least in America, and maybe in other places too. So I'm just gonna go ahead and it's not very long, so I'll just read it and then we can talk about it and what it means. Oh, and this is Jesus speaking.
 
