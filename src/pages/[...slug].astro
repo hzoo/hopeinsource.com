@@ -37,7 +37,7 @@ const { slug, Content, headings, frontmatter } = Astro.props;
 ---
 
 <EpLayout frontmatter={frontmatter} slug={`/${slug}`}>
-  <div class="mx-auto px-5 py-7 flex flex-col lg:max-w-6xl">
+  <div class="mx-auto px-4 py-7 flex flex-col lg:max-w-6xl">
     <a href="/"><h3 class="m-0">← {hisMetadata.title}</h3></a>
     <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
     <Subscribe />
@@ -52,8 +52,8 @@ const { slug, Content, headings, frontmatter } = Astro.props;
       {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
       {frontmatter.season && ` • Season ${frontmatter.season}`}
     </section>
-    <div class="mx-auto px-5 py-7 flex space-x-12 flex-col lg:flex-row">
-      <aside class="flex-none lg:w-[275px]">
+    <div class="mx-auto py-7 flex gap-12 flex-col lg:flex-row">
+      <aside class="lg:w-[275px]">
         <TableOfContents headings={headings} />
       </aside>
       <main class="flex-1">

@@ -191,6 +191,10 @@
   body {
     @apply scroll-smooth bg-his-bg;
     @apply text-white antialiased text-base leading-relaxed font-sans;
+
+    @media (max-width: 768px) {
+      @apply text-sm leading-normal;
+    }
   }
 
   a {
