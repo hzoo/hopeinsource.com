@@ -1,12 +1,12 @@
 ---
-import { getCollection } from 'astro:content';
+import { getCollection, render } from 'astro:content';
 import HomeLayout from '../layouts/HomeLayout.astro';
 import EpLayout from '../layouts/EpLayout.astro';
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection('podcast');
   return podcastEntries.map(entry => {
-    const slug = entry.slug.split('/').pop();
+    const slug = entry.id.split('/').pop();
     return {
       params: { slug },
       props: { entry },
@@ -14,25 +14,22 @@ export async function getStaticPaths() {
   });
 }
 
-const { slug } = Astro.params;
 const { entry } = Astro.props;
-
-const { Content, headings } = await entry.render();
-
-const h4Headings = headings.filter(h => h.depth === 4);
+const { Content, headings } = await render(entry);
+const h4Headings = headings.filter((h: { depth: number }) => h.depth === 4);
 ---
 
 <HomeLayout>
 <div class="container">
     <div class="content-wrapper">
-        <EpLayout frontmatter={entry.data} slug={`/${entry.slug.split('/').pop()}`}>
+        <EpLayout frontmatter={entry.data} slug={`/${entry.id.split('/').pop()}`}>
             <Content />
         </EpLayout>
     </div>
     <aside class="sidebar">
         <nav class="toc">
             <ul>
-                {h4Headings.map(heading => (
+                {h4Headings.map((heading: { slug: string; text: string }) => (
                     <li>
                       <a href={`#${heading.slug}`} class="toc-link" data-heading-id={heading.slug}>{heading.text}</a>
                     </li>
@@ -67,6 +64,11 @@ const h4Headings = headings.filter(h => h.depth === 4);
   document.addEventListener('DOMContentLoaded', () => {
     const headings = document.querySelectorAll('h4');
     headings.forEach(heading => observer.observe(heading));
+  });
+  
+  // when to remove listeners
+  window.addEventListener('beforeunload', () => {
+    observer.disconnect();
   });
 </script>
 

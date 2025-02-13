@@ -1,20 +1,42 @@
 ---
-import HomeLayout from '@layouts/HomeLayout.astro';
-import '../styles/custom.css';
+import HomeLayout from "@/layouts/HomeLayout.astro";
+import "@/styles/tailwind.css";
 ---
 
 <HomeLayout>
-    <div class="flex flex-col items-center justify-center min-h-screen text-center">
-        <h1 class="text-6xl font-bold text-gray-200 mb-4">404</h1>
-        <p class="text-2xl text-gray-300 mb-8">Oops! Page not found</p>
-        <p class="text-lg text-gray-400 mb-8">
-        The page you are looking for may have been removed, renamed, or is temporarily unavailable.
-        </p>
-        <a
-        href="/"
-        class="px-6 py-3 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors"
-        >
-        Go Home
-        </a>
+    <div class="grid place-items-center min-h-screen bg-gray-900 px-6">
+        <div class="max-w-sm w-full mx-auto text-center">
+            <h1 class="mb-8 text-9xl font-black text-white/20">404</h1>
+
+            <div class="space-y-4">
+                <h2 class="text-3xl font-bold text-white">Page not found</h2>
+                <p class="text-lg text-gray-400">
+                    The page you're looking for doesn't exist or has been moved.
+                </p>
+
+                <a
+                    href="/"
+                    class="mt-8 inline-flex items-center gap-2 rounded-lg bg-white/10 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-white/20 hover:scale-105"
+                >
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="16"
+                        height="16"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="lucide lucide-home"
+                    >
+                        <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
+                        ></path>
+                        <polyline points="9 22 9 12 15 12 15 22"></polyline>
+                    </svg>
+                    Return Home
+                </a>
+            </div>
+        </div>
     </div>
 </HomeLayout>

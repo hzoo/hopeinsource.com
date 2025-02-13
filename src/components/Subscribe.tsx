@@ -1,4 +1,4 @@
-import {hisMetadata} from "../../metadata";
+import {hisMetadata} from "@/metadata.ts";
 
 export default function Subscribe() {
   return (

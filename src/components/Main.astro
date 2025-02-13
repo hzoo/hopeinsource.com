@@ -1,12 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
-import Testimonial from "@components/Testimonial.tsx";
-import Footer from "@components/Footer.tsx";
-import SEO from "@components/SEO.tsx";
-import Subscribe from "./Subscribe";
+import type {  InferEntrySchema } from 'astro:content';
+import Testimonial from "@/components/Testimonial.tsx";
+import Footer from "@/components/Footer.tsx";
+import SEO from "@/components/SEO.tsx";
+import Subscribe from "@/components/Subscribe.tsx";
 
 import { Image } from 'astro:assets';
-import his_cover from "../assets/his.jpg";
+import his_cover from "@/assets/his.jpg";
 
 const posts = (await getCollection('podcast', () => {
   return true;
@@ -26,7 +27,7 @@ const posts = (await getCollection('podcast', () => {
     return b.data.sidebar.order - a.data.sidebar.order;
 });
 
-function calculateEpisodeNumber(posts: any[], currentPost: any) {
+function calculateEpisodeNumber(posts: { id: string, data: InferEntrySchema<"podcast">; }[], currentPost: { id: string, data: InferEntrySchema<"podcast">; }) {
   const season = currentPost.data.season || 0;
   const episodesInSeason = posts
     .filter(p => p.data.season === season)
@@ -86,8 +87,8 @@ function calculateEpisodeNumber(posts: any[], currentPost: any) {
           return b.data.sidebar.order - a.data.sidebar.order;
       })
       .map((post) => {
-          const title = post.data.title || post.slug;
-          const newSlug = post.slug.split('/').pop();
+          const title = post.data.title || post.id;
+          const newSlug = post.id.split('/').pop();
           const episodeNumber = calculateEpisodeNumber(posts, post);
           return (
           <div>

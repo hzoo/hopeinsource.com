@@ -1,6 +1,6 @@
 import { Helmet } from "react-helmet";
-import his_cover from "../assets/his.jpg";
-import { hisMetadata } from "metadata";
+import his_cover from "@/assets/his.jpg";
+import { hisMetadata } from "@/metadata.ts";
 
 // props can be optional
 export default function SEO({

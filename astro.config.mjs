@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
 import react from "@astrojs/react";
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 
 import { remarkTranscriptPlugin } from "./src/remark-transcript-plugin/plugin";
 
@@ -9,11 +9,10 @@ export default defineConfig({
   publicDir: "public",
   integrations: [
     react(),
-    tailwind({
-      // Disable the default base styles:
-      applyBaseStyles: false,
-    }),
   ],
+  vite: {
+    plugins: [tailwindcss()],
+  },
   markdown: {
     remarkPlugins: [remarkTranscriptPlugin],
     extendDefaultPlugins: true,
