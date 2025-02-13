@@ -8,9 +8,7 @@ import { remarkResponsiveImages } from './src/plugins/remark-responsive-images';
 // https://astro.build/config
 export default defineConfig({
   publicDir: "public",
-  integrations: [
-    react(),
-  ],
+  integrations: [react()],
   vite: {
     plugins: [tailwindcss()],
   },

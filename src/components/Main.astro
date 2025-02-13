@@ -1,73 +1,63 @@
 ---
 import { getCollection } from "astro:content";
-import type { InferEntrySchema } from "astro:content";
-import Testimonial from "@/components/Testimonial.tsx";
-import Footer from "@/components/Footer.tsx";
-import Subscribe from "@/components/Subscribe.tsx";
-
+import type { PodcastEntry } from "@/types/podcast";
+import Testimonial from "@/components/Testimonial";
+import Footer from "@/components/Footer";
+import Subscribe from "@/components/Subscribe";
+import EpisodeList from "@/components/EpisodeList";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 
-const posts = (
-    await getCollection("podcast", () => {
-        return true;
-    })
-)
-    // sort by season, then by order
-    .sort((a, b) => {
-        // post.id format is: "season-1/authority.md"
-        const aSeason = a.data.season || 0;
-        const bSeason = b.data.season || 0;
+const rawPosts = await getCollection("podcast", () => true);
+const posts: PodcastEntry[] = rawPosts
+  .sort((a, b) => {
+    const aSeason = a.data.season || 0;
+    const bSeason = b.data.season || 0;
+    if (bSeason !== aSeason) {
+      return bSeason - aSeason;
+    }
+    return b.data.sidebar.order - a.data.sidebar.order;
+  })
+  .map(post => ({
+    ...post,
+    slug: post.id.split('/').pop() || ''
+  }));
 
-        // Sort by season in descending order
-        if (bSeason !== aSeason) {
-            return bSeason - aSeason;
-        }
+// Pre-compute episode grouping by season
+const episodesBySeasons = posts.reduce((acc, episode) => {
+  const season = episode.data.season || 0;
+  if (!acc[season]) {
+    acc[season] = [];
+  }
+  acc[season].push(episode);
+  return acc;
+}, {} as Record<number, PodcastEntry[]>);
 
-        // If seasons are the same, sort by order in descending order
-        return b.data.sidebar.order - a.data.sidebar.order;
-    });
+// Sort seasons in descending order
+const seasons = Object.keys(episodesBySeasons)
+  .map(Number)
+  .sort((a, b) => b - a);
 
-function calculateEpisodeNumber(
-    posts: { id: string; data: InferEntrySchema<"podcast"> }[],
-    currentPost: { id: string; data: InferEntrySchema<"podcast"> },
-) {
-    const season = currentPost.data.season || 0;
-    const episodesInSeason = posts
-        .filter((p) => p.data.season === season)
-        .sort((a, b) => b.data.sidebar.order - a.data.sidebar.order); // Sort in descending order
-    const episodeIndex = episodesInSeason.findIndex(
-        (p) => p.id === currentPost.id,
-    );
-    return episodesInSeason.length - episodeIndex; // This will make the latest episode have the highest number
-}
+const initialSeason = seasons[0];
 ---
 
-<div class="container">
-    <div class="hero-wrapper">
-        <div class="hero">
-            <div
-                style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    textAlign: "center",
-                    justifyContent: "center",
-                    alignItems: "center",
-                    maxWidth: "472px",
-                    margin: "0 auto",
-                }}
-            >
+<div class="wrapper mx-auto px-5 py-7 flex flex-col lg:flex-row lg:max-w-6xl">
+    <div class="lg:mr-4 flex-grow-0 flex-shrink-0 basis-[500px]">
+        <div class="lg:fixed lg:top-1/2 lg:-translate-y-1/2">
+            <div class="flex flex-col items-center text-center max-w-[472px] mx-auto">
                 <Image
-                    class="hero-image"
-                    width={472}
                     src={his_cover}
-                    alt={`Hope in Source Cover Art`}
+                    alt="Hope in Source Cover Art"
+                    class="w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]"
+                    loading="eager"
+                    format="webp"
+                    quality={90}
                 />
-                <p style={{ margin: 0, maxWidth: "75%" }}>
+                <p class="m-0 max-w-[75%]">
                     Join <a href="https://twitter.com/left_pad">Henry Zhu</a> for
                     an off-the-cuff conversation between friends.
                 </p>
-                <p style={{ marginTop: 0, fontSize: "0.9rem" }}>
+                <p class="mt-0 text-[0.9rem]">
                     (read the backstory from{" "}
                     <a href="https://henryzoo.com/living-out-in-faith">Henry</a>
                     and{" "}
@@ -77,63 +67,15 @@ function calculateEpisodeNumber(
             </div>
         </div>
     </div>
-    <div>
-        {
-            posts
-                // sort by season, then by order
-                .sort((a, b) => {
-                    // post.id format is: "season-1/authority.md"
-                    const aSeason = a.data.season || 0;
-                    const bSeason = b.data.season || 0;
-
-                    // Sort by season in descending order
-                    if (bSeason !== aSeason) {
-                        return bSeason - aSeason;
-                    }
-
-                    // If seasons are the same, sort by order in descending order
-                    return b.data.sidebar.order - a.data.sidebar.order;
-                })
-                .map((post) => {
-                    const title = post.data.title || post.id;
-                    const newSlug = post.id.split("/").pop();
-                    const episodeNumber = calculateEpisodeNumber(posts, post);
-                    return (
-                        <div>
-                            <h3 style={{ marginTop: 0 }}>
-                                <a href={`/${newSlug}`}>{title}</a>
-                            </h3>
-                            <small>
-                                {post.data.date}
-                                {post.data.time &&
-                                    ` • ${post.data.time} min 🎧`}
-                                {post.data.season &&
-                                    ` • Season ${post.data.season}, Episode ${episodeNumber}`}
-                            </small>
-                            <p set:html={post.data.description} />
-                        </div>
-                    );
-                })
-        }
-        <hr />
+    <div class="flex-1">
+        <EpisodeList 
+            episodesBySeasons={episodesBySeasons} 
+            seasons={seasons}
+            initialSeason={initialSeason}
+            client:load 
+        />
+        <hr class="my-8 border-his-hr" />
         <Testimonial />
         <Footer />
     </div>
 </div>
-
-<style>
-    .hero-image {
-        width: 100%;
-        max-width: 472px;
-        height: auto;
-        aspect-ratio: 1 / 1;
-        object-fit: contain;
-        margin-bottom: 1rem;
-    }
-
-    @media (max-width: 768px) {
-        .hero-image {
-            max-width: 90%;
-        }
-    }
-</style>

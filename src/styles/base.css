@@ -1,0 +1,227 @@
+@import "tailwindcss";
+
+/* Replace @theme with :root for defining custom properties */
+@theme {
+  --font-system: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Colors */
+  --color-his-green: oklch(0.88 0.12 142.49);
+  --color-his-bg: oklch(0.18 0.02 252.37);
+  --color-his-hr: oklch(1 0 0 / 0.2);
+  --color-his-chat-default: oklch(0.38 0.03 252.37);
+  --color-his-chat-blue: oklch(0.55 0.18 264.05);
+  --color-his-chat-other: oklch(0.38 0.03 140.00);
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    background-color: var(--color-his-bg);
+    @apply text-white antialiased text-base leading-relaxed font-sans;
+  }
+
+  a {
+    @apply text-his-green transition-colors duration-200;
+    
+    &:hover {
+      color: color-mix(in oklab, var(--color-his-green) 80%, black);
+    }
+  }
+
+  blockquote {
+    @apply my-4 pl-6 border-l-4 border-his-green italic opacity-80;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply mt-4;
+  }
+
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  h4 {
+    @apply text-lg uppercase font-bold leading-none tracking-wide mt-7 mb-7;
+  }
+
+  img {
+    @apply mb-7 m-0;
+  }
+
+  p {
+    @apply mb-4;
+    
+    & code {
+      @apply text-[1.1rem];
+    }
+    
+    & strong {
+      @apply text-[color:var(--color-his-green)];
+    }
+  }
+
+  ul {
+    @apply list-disc;
+  }
+}
+
+/* Merged components layer */
+@layer components {
+  .wrapper {
+    @apply flex flex-1 flex-col max-w-[42rem] mx-auto p-7;
+    
+    @media (min-width: 1100px) {
+      @apply max-w-[63rem] flex-row justify-between;
+    }
+  }
+
+  .hero-wrapper {
+    @media (min-width: 1100px) {
+      @apply flex-none w-[500px] mr-4;
+    }
+  }
+
+  .hero {
+    @media (min-width: 1100px) {
+      @apply fixed top-1/2 -translate-y-1/2;
+    }
+  }
+
+  .sidebar {
+    @media (min-width: 1100px) {
+      @apply flex-none w-[275px] ml-4;
+    }
+  }
+
+  .toc {
+    @apply bg-[color:color-mix(in_oklab,var(--color-his-chat-default)_10%,transparent)] rounded-lg p-4 mb-8;
+    
+    @media (min-width: 1100px) {
+      @apply sticky top-8 max-h-[calc(100vh-4rem)] overflow-y-auto;
+    }
+    
+    & h2 {
+      @apply text-lg mb-4;
+    }
+    
+    & ul {
+      @apply list-none p-0;
+    }
+    
+    & li {
+      @apply mb-2;
+    }
+    
+    & a {
+      @apply no-underline transition-colors duration-300 hover:text-[color:var(--color-his-green)];
+    }
+  }
+
+  .toc-link {
+    @apply p-1 rounded-md;
+  }
+
+  .toc-link.active {
+    @apply bg-[#4F5B66];
+  } 
+
+  .anchor {
+    @apply shadow-none;
+    
+    &.before {
+      @apply absolute top-0 left-0 -translate-x-full pr-1;
+    }
+
+    &.after {
+      @apply inline-block pl-1;
+    }
+
+    & svg {
+      @apply invisible;
+      
+      [aria-hidden="true"] {
+        @apply stroke-[color:var(--color-his-green)];
+      }
+    }
+  }
+
+  h1:hover .anchor svg,
+  h2:hover .anchor svg,
+  h3:hover .anchor svg,
+  h4:hover .anchor svg,
+  h5:hover .anchor svg,
+  h6:hover .anchor svg,
+  .anchor:focus svg {
+    @apply visible;
+  }
+
+  .timestamp {
+    @apply absolute -translate-x-full pr-[1.42188rem] shadow-none;
+  }
+
+  .wrap {
+    @apply flex;
+
+    &:hover .timestamp {
+      @apply text-[color:var(--color-his-green)];
+    }
+
+    &.right {
+      @apply justify-between;
+    }
+
+    & a {
+      @apply shadow-inherit text-inherit underline;
+    }
+  }
+
+  .text {
+    @apply p-2.5 rounded-[1.25rem] bg-[rgb(61,84,102)] max-w-[87.5%];
+  }
+
+  .wrap.right .text {
+    @apply bg-[rgb(29,161,242)];
+  }
+
+  .wrap.other .text {
+    @apply bg-[rgb(61,84,75)];
+  }
+
+  footer {
+    @apply pb-[70px];
+  }
+
+  /* Audio player styles */
+  .rhap_container {
+    @apply border-t border-[#3f3f3f] bg-[color:var(--color-his-bg)] fixed bottom-0 left-0 z-10 text-white;
+  }
+
+  .rhap_header {
+    @apply text-center;
+  }
+
+  .rhap_main-controls-button,
+  .rhap_time {
+    @apply text-white;
+  }
+
+  .rhap_current-time {
+    @apply text-[color:var(--color-his-green)];
+  }
+
+  .rhap_progress-indicator,
+  .rhap_progress-filled {
+    @apply bg-[color:var(--color-his-green)];
+  }
+
+  .rhap_controls-section {
+    @apply flex-none;
+  }
+} 

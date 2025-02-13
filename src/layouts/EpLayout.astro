@@ -1,59 +1,55 @@
 ---
-import AudioPlayer from '@/components/AudioPlayer.astro';
+import AudioPlayer from "@/components/AudioPlayer.astro";
 
-import Subscribe from '@/components/Subscribe.tsx';
-import Support from '@/components/Support.tsx';
-import Footer from '@/components/Footer.tsx';
+import Subscribe from "@/components/Subscribe.tsx";
+import Footer from "@/components/Footer.tsx";
 import { hisMetadata } from "@/metadata.ts";
-import BaseHead from '@/components/BaseHead.astro';
+import BaseHead from "@/components/BaseHead.astro";
 
-import '../styles/custom.css';
+import "../styles/base.css";
 
 const { frontmatter, slug } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <BaseHead
-      title={frontmatter.title}
-      description={frontmatter.description}
-      slug={slug}
-      embedUrl={frontmatter.embedUrl}
-    />
-  </head>
-  <body>
-    <div>
-      <h3 style={{margin: 0}}>
-          <a href="/">← {hisMetadata.title}</a>
-      </h3>
+    <head>
+        <BaseHead
+            title={frontmatter.title}
+            description={frontmatter.description}
+            slug={slug}
+            embedUrl={frontmatter.embedUrl}
+        />
+    </head>
+    <body>
+        <div class="max-w-3xl mx-auto px-5 py-7">
+            <a href="/"
+                ><h3 class="m-0">← {hisMetadata.title}</h3></a
+            >
 
-      <h2>{frontmatter.title}</h2>
+            <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
 
-      <Subscribe />
+            <Subscribe />
 
-      <section class="episode-info">
-          {frontmatter.date}
-          {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
-          {frontmatter.season && ` • Season ${frontmatter.season}`}
-      </section>
+            <section class="episode-info text-sm text-gray-300">
+                {frontmatter.date}
+                {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
+                {frontmatter.season && ` • Season ${frontmatter.season}`}
+            </section>
 
-      <blockquote>
-          {frontmatter.description} ({frontmatter.time} min)
-      </blockquote>
+            <blockquote class="text-sm leading-relaxed">
+                {frontmatter.description} ({frontmatter.time} min)
+            </blockquote>
 
-      <section class="content">
-          <slot />
-      </section>
+            <section class="prose prose-invert max-w-none">
+                <slot />
+            </section>
 
-      <Support />
-
-      <Footer />
-
-      <AudioPlayer
-          title={frontmatter.title}
-          src={`https://media.transistor.fm/${frontmatter.episodeLink}.mp3`}
-      />
-    </div>
-  </body>
+            <Footer />
+            <AudioPlayer
+                title={frontmatter.title}
+                src={`https://media.transistor.fm/${frontmatter.episodeLink}.mp3`}
+            />
+        </div>
+    </body>
 </html>

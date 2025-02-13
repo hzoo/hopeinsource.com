@@ -2,48 +2,63 @@
 import { hisMetadata } from "@/metadata.ts";
 import his_cover from "@/assets/his.jpg";
 
-interface Props {
-  title?: string;
-  description?: string;
-  slug?: string;
-  embedUrl?: string;
-}
-
 const { 
-  title, 
+  title = hisMetadata.title,
   description = hisMetadata.description,
   slug = '',
+  canonicalURL = `${hisMetadata.siteUrl}${slug}`,
+  type = 'website',
+  publishedTime,
+  modifiedTime,
+  author = 'Henry Zhu, Nadia Asparouhova',
   embedUrl,
 } = Astro.props;
 
-const url = `${hisMetadata.siteUrl}${slug}`;
-const pageTitle = title ? `${title} - ${hisMetadata.title}` : hisMetadata.title;
+const siteTitle = title === hisMetadata.title ? title : `${title} | ${hisMetadata.title}`;
 ---
 
+<!-- Global Metadata -->
 <meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" type="image/x-icon" href="/favicon.ico" />
-<title>{pageTitle}</title>
-<meta name="description" content={description} />
-<meta property="og:url" content={url} />
-<meta property="og:title" content={pageTitle} />
-<meta name="og:description" content={description} />
-<meta name="twitter:card" content={embedUrl ? "player" : "summary"} />
-<meta name="twitter:creator" content={hisMetadata.twitter} />
-<meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
 
-{embedUrl && (
-  <>
-    <meta name="twitter:player" content={embedUrl} />
-    <meta name="twitter:player:width" content="500" />
-    <meta name="twitter:player:height" content="180" />
-  </>
-)}
+<!-- Canonical URL -->
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Primary Meta Tags -->
+<title>{siteTitle}</title>
+<meta name="title" content={siteTitle} />
+<meta name="description" content={description} />
+<meta name="author" content={author} />
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={siteTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
+{publishedTime && <meta property="article:published_time" content={publishedTime} />}
+{modifiedTime && <meta property="article:modified_time" content={modifiedTime} />}
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:url" content={canonicalURL} />
+<meta property="twitter:title" content={siteTitle} />
+<meta property="twitter:description" content={description} />
+<meta property="twitter:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
+<meta name="twitter:creator" content="@left_pad" />
+<meta name="twitter:site" content="@left_pad" />
+
+<!-- RSS Feed -->
+<link rel="alternate" type="application/rss+xml" title={`${hisMetadata.title} RSS Feed`} href={hisMetadata.rss} />
+
+<!-- Podcast Embed -->
+{embedUrl && <meta property="og:video" content={embedUrl} />}
+{embedUrl && <meta property="og:video:secure_url" content={embedUrl} />}
+{embedUrl && <meta property="og:video:type" content="text/html" />}
 
 <meta name="apple-itunes-app" content="app-id=1437677655" />
-<link
-  rel="alternate"
-  type="application/rss+xml"
-  title={hisMetadata.title}
-  href={hisMetadata.rss}
-/> 
+
+<!-- Theme Color -->
+<meta name="theme-color" content="#1a1a1a" />

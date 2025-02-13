@@ -2,6 +2,7 @@
 import { getCollection, render } from 'astro:content';
 import HomeLayout from '../layouts/HomeLayout.astro';
 import EpLayout from '../layouts/EpLayout.astro';
+import TableOfContents from '../components/TableOfContents';
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection('podcast');
@@ -20,61 +21,14 @@ const h4Headings = headings.filter((h: { depth: number }) => h.depth === 4);
 ---
 
 <HomeLayout>
-<div class="container">
+<div class="wrapper">
     <div class="content-wrapper">
         <EpLayout frontmatter={entry.data} slug={`/${entry.id.split('/').pop()}`}>
             <Content />
         </EpLayout>
     </div>
     <aside class="sidebar">
-        <nav class="toc">
-            <ul>
-                {h4Headings.map((heading: { slug: string; text: string }) => (
-                    <li>
-                      <a href={`#${heading.slug}`} class="toc-link" data-heading-id={heading.slug}>{heading.text}</a>
-                    </li>
-                ))}
-            </ul>
-        </nav>
+        <TableOfContents headings={h4Headings} client:load />
     </aside>
 </div>
 </HomeLayout>
-
-<script>
-  let currentActiveLink: HTMLElement | null = null;
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        const id = entry.target.id;
-        const correspondingLink = document.querySelector(`.toc-link[data-heading-id="${id}"]`) as HTMLElement;
-
-        if (currentActiveLink) {
-          currentActiveLink.classList.remove('active');
-        }
-
-        if (correspondingLink) {
-          correspondingLink.classList.add('active');
-          currentActiveLink = correspondingLink;
-        }
-      }
-    });
-  }, { rootMargin: '-10% 0px -80% 0px' });
-
-  document.addEventListener('DOMContentLoaded', () => {
-    const headings = document.querySelectorAll('h4');
-    headings.forEach(heading => observer.observe(heading));
-  });
-  
-  // when to remove listeners
-  window.addEventListener('beforeunload', () => {
-    observer.disconnect();
-  });
-</script>
-
-<style>
-.toc-link.active {
-  font-weight: bold;
-  background-color: #4F5B66;
-}
-</style>
