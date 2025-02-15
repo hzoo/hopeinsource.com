@@ -65,7 +65,7 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
   const {
     timestampClass = "message-time",
     wrapClass = "message",
-    timestampEmoji = "🕐",
+    // timestampEmoji = "🕐",
     textClass = "message-bubble",
   } = options;
 
