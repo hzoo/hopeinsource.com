@@ -9,8 +9,8 @@
   --color-his-green: oklch(0.88 0.12 142.49);
   --color-his-bg: var(--color-flexoki-dark-bg);
   --color-his-hr: var(--color-flexoki-dark-ui-2);
-  --color-his-chat-default: var(--color-flexoki-dark-tx-2);
-  --color-his-chat-sent: oklch(0.4 0.06 142.49);
+  --color-his-chat-default: var(--color-flexoki-dark-tx-3);
+  --color-his-chat-sent: var(--color-flexoki-dark-bg-2);
   --color-his-chat-other: var(--color-flexoki-dark-bg-2);
 }
 
