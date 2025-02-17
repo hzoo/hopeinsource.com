@@ -66,18 +66,39 @@ const { src } = Astro.props;
 
   function seekToTimestamp() {
     const hash = window.location.hash;
-    if (!hash.startsWith('#t=')) return;
+    if (!hash) return;
 
-    const time = hash.slice(3);
-    const timestamp = time.match(/^(\d+):(\d+)(?::(\d+))?/);
+    let timestamp;
+    if (hash.startsWith('#t=')) {
+      timestamp = hash.slice(3);
+    } else if (hash.startsWith('#msg-')) {
+      const msgElement = document.querySelector(hash);
+      if (!msgElement) return;
+      
+      timestamp = msgElement.getAttribute('data-timestamp');
+      // Update URL to use #t= format when clicking messages
+      if (timestamp) {
+        history.replaceState(null, '', `#t=${timestamp}`);
+      }
+    }
+    
     if (!timestamp) return;
+    const timestampMatch = timestamp.match(/^(\d+):(\d+)(?::(\d+))?/);
+    if (!timestampMatch) return;
 
-    const hours = timestamp[3] ? Number(timestamp[1]) : 0;
-    const minutes = timestamp[3] ? Number(timestamp[2]) : Number(timestamp[1]);
-    const seconds = timestamp[3] ? Number(timestamp[3]) : Number(timestamp[2]);
+    const hours = timestampMatch[3] ? Number(timestampMatch[1]) : 0;
+    const minutes = timestampMatch[3] ? Number(timestampMatch[2]) : Number(timestampMatch[1]);
+    const seconds = timestampMatch[3] ? Number(timestampMatch[3]) : Number(timestampMatch[2]);
     
     const totalSeconds = (hours * 3600) + (minutes * 60) + seconds;
     loadAudioAndPlay(totalSeconds);
+
+    // Scroll message into view if we came from a timestamp
+    if (hash.startsWith('#t=')) {
+      const msgId = `msg-${timestamp.replace(':', '-')}`;
+      const msgElement = document.getElementById(msgId);
+      msgElement?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
   }
 
   function togglePlayPauseIcon(isPaused) {
@@ -138,6 +159,32 @@ const { src } = Astro.props;
         seekToTimestamp();
       }
     });
+  });
+
+  // Add double-click handler for messages
+  document.addEventListener('dblclick', (e) => {
+    const messageEl = e.target.closest('.message');
+    if (!messageEl) return;
+    
+    const timestamp = messageEl.getAttribute('data-timestamp');
+    if (!timestamp) return;
+
+    window.location.hash = `t=${timestamp}`;
+    seekToTimestamp();
+  });
+
+  // Add click handler for timestamps
+  document.addEventListener('click', (e) => {
+    const timeEl = e.target.closest('.message-time');
+    if (!timeEl) return;
+    
+    const messageEl = timeEl.closest('.message');
+    if (!messageEl) return;
+
+    const timestamp = messageEl.getAttribute('data-timestamp');
+    if (!timestamp) return;
+    
+    window.location.hash = `t=${timestamp}`;
   });
 </script>
 <style>

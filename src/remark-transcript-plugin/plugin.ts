@@ -107,16 +107,16 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         ? node.children.slice(2)
         : node.children.slice(1);
 
+      const messageId = `msg-${timestamp.replace(':', '-')}`;
+      
       const messageSpan = createSpan(textClass, [
         createStrong([createText(speaker)]),
+        createText(" "),
         ...content as PhrasingContent[],
+        createSpan(timestampClass, [
+          createText(timestamp),
+        ])
       ]);
-
-      const timestampText = createSpan(timestampClass, [
-        createText(timestamp),
-      ]);
-
-      const timestampLink = createLink(`#t=${timestamp}`, [timestampText]);
 
       // Check if next message is from the same speaker
       const nextNode = parent.children[index + 1] as Paragraph | undefined;
@@ -133,10 +133,11 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         consecutiveClasses.push('consecutive-end');
       }
 
-      node.children = [messageSpan, timestampLink];
+      node.children = [messageSpan];
       node.data = {
         hName: "p",
         hProperties: {
+          id: messageId,
           className: [
             wrapClass,
             speakerIndex === 0 ? "message-sent" :
@@ -144,6 +145,7 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
             "message-system",
             ...consecutiveClasses
           ],
+          "data-timestamp": timestamp
         },
       };
 
