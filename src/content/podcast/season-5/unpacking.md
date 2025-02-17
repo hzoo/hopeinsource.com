@@ -34,7 +34,7 @@ sidebar:
 
 [00:41] **Joseph:** I never know what to say. I was going to write this essay. But then as I wrote more notes, the more I uncovered of how much I don't know how to explain it! So every conversation I have with someone is another layer in potentially figuring that out.
 
-## Labels and Their Limits
+#### Labels and Their Limits
 
 [01:04] **Joseph:** Do you think that there's a benefit to labeling yourself?
 
@@ -61,7 +61,7 @@ sidebar:
 [04:01] **Henry:** that it's not about self-interest, but the interest of others. Putting others in front of your own interests, which is really hard to do. Because we're always thinking about how to like me, right? It relates to commitment because there's a lack of commitment in our modern society. and I would like to understand that.
 
 
-## The Trap of Infinite Options
+#### The Trap of Infinite Options
 
 [04:21] **Henry:** There's an essay I like citing, called _The Trouble with Optionality_. It's talking about this. We love options, both financially, but that has infected our way of thinking.
 
@@ -84,7 +84,7 @@ sidebar:
 [06:40] **Henry:** But this is a core value of faith because... it's funny how so many things are very fundamental. You either get used to it because you've been in church for a long time or it's just really hard to live out. Faith in anything is about commitment to what you believe in, whether it's yourself, a company, science, or God.
 
 
-## Beyond Idols
+#### Beyond Idols
 
 [07:06] **Henry:** A big part of the faith is idolatry, which is worshiping things that you think are God that are not.
 
@@ -103,7 +103,7 @@ sidebar:
 [09:35] **Joseph:** Why attach the Christian principle of commitment to who you decide to mate with?
 
 
-## Marriage as Compounding Interest
+#### Marriage as Compounding Interest
 
 [09:42] **Henry:** I try to use a theological reason for it. If I use the metaphor of Christ and the church, you could say it's monogamous because when we worship other gods, we are committing adultery or whatever you want to call it. And you can say it's a serious offense. And then if you apply that and he says, well this is how marriage is supposed to be, then I guess we should take marriage seriously too. That comes out of that reading of it.
 
@@ -128,7 +128,7 @@ sidebar:
 [12:43] **Joseph:** Right. It's like life itself. Temporary and voluntary, which makes it special. Yeah. Trust and connection. that's interesting. The real safety net is the really strong trust and connection. Bonds that you build with someone, with one spouse.
 
 
-## Reconciling Lenses on Truth
+#### Reconciling Lenses on Truth
 
 [13:06] **Joseph:** There's a meta conversation here where I'm like, I feel like what just happened is we were talking about the concept of commitment and paralysis of choices.
 
@@ -151,7 +151,7 @@ sidebar:
 [15:35] **Henry:** We tend to create a secular sacred divide. Is spiritual and this is not. So one example would be like the right thing to do is to become a missionary, quit your job and the other one is like make a lot of money at some place and you donate. It sounds like a very ea way of thinking about it. And for me, I don't really want to believe in that binary. There's a lot of options in between, you know, on what your calling is. If God is to God of creativity, I, I just don't know why we're, we're trying to fit into these boxes on that. It's not the same as believing that God is our savior and stuff like that.
 
 
-## Abundance as a Heavenly Mindset
+#### Abundance as a Heavenly Mindset
 
 [16:10] **Henry:** I guess personally, I don't want to think so economically, but I'm not opposed to using these metaphors. I'm trying to bring that into alignment with how I see the world through scripture and then how that relates. I think that economics is about, say, scarcity. Scarcity of resources, how we use them. Which is how the world works and that's how we should live. But that's not always the way I want to be thinking, but I'm not opposed to thinking that.
 
@@ -191,7 +191,7 @@ sidebar:
 
 [19:44] **Henry:** There's a tension there.
 
-## The Importance of Embodiment
+#### The Importance of Embodiment
 
 [19:45] **Henry:** Oh, okay. I think I want to relate that feeling of separation of the dichotomy with the lack of embodiment. That's a different word I would use.
 
@@ -224,7 +224,7 @@ sidebar:
 [22:47] **Henry:** What it just takes is a Christian that happens to like VRChat and they're already in a community, or they become a Christian later, they're like, I'm gonna do it. because no one else would do it. It makes sense that the younger people would do it because they think it's normal. And then older people would never do it because they don't know it exists or they think it's like from Satan or something. So yeah.
 
 
-## Pharisees to Heretics
+#### Pharisees to Heretics
 
 [23:07] **Joseph:** So what do you think about like, people that seem to... I guess that's different, like people that misrepresent the faith? I mean, I guess there's a difference between misrepresenting and like Like I, I would define misrepresenting as someone who is Christian, says they're Christian and maybe does Christian practices, but their character is not actually consistent with Jesus maybe versus someone whose character's very consistent, but just does, but just kind of like breaks the rules, like and does VRChat communion.
 
@@ -247,7 +247,7 @@ sidebar:
 [26:36] **Joseph:** My, my brain is like evolving as we speak. Um, ,I'm writing down all these notes, by the way. This is like really good stuff.
 
 
-## Parables, Miracles, and Game Theory
+#### Parables, Miracles, and Game Theory
 
 [26:45] **Joseph:** Okay, another thing, as we were talking about finding different justifications for the same truths. It kind of brings me back to why believe in the actual I guess I don't know what to call it historical slash literal slash religious stuff?
 
@@ -315,7 +315,7 @@ sidebar:
 
 [35:37] **Henry:** But I keep coming back. Maybe that is kind of like commitment too. I don't wanna take it too literally, but I don't know that I'm a foot in the body and I shouldn't be a hand, but I'm just saying that I feel like there's something there. We mentioned like the idea of spiritual gifts that have been given to us and trying to like hone in on those. Doesn't mean you can't do other things.
 
-## Organizational Structures
+#### Organizational Structures
 
 [35:54] **Joseph:** I'm curious about the political side, or not political, but forms of organization. So if you had a flat organization, let's say it's the 12 disciples, maybe it's a republic.
 
