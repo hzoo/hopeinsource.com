@@ -1,7 +1,7 @@
 import { visit } from "unist-util-visit";
 import { toString as toStringUtil } from "mdast-util-to-string";
 import type { Plugin } from "unified";
-import type { Root, Paragraph, Text, Strong, PhrasingContent, Parent } from "mdast";
+import type { Root, Paragraph, Text, Strong, PhrasingContent, Parent, RootContent, Heading } from "mdast";
 
 const timestampRegex = /^\[(\d{2}:\d{2})\]/;
 
@@ -24,6 +24,10 @@ function isTimestamp(node: Paragraph): boolean {
 
 function isSpeaker(node: Paragraph): boolean {
   return node.children.length > 0 && node.children[0].type === "strong";
+}
+
+function isHeading(node: RootContent): node is Heading {
+  return node.type === 'heading';
 }
 
 function createText(value: string): Text {
@@ -65,11 +69,8 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
   const {
     timestampClass = "message-time",
     wrapClass = "message",
-    // timestampEmoji = "🕐",
     textClass = "message-bubble",
   } = options;
-
-  console.log("remarkTranscriptPlugin", options);
 
   return (tree: Root) => {
     const speakerOrder: string[] = [];
@@ -78,6 +79,12 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
 
     visit(tree, "paragraph", (node: Paragraph, index?: number, parent?: Parent) => {
       if (index === undefined || !parent) return;
+
+      // Check if previous node was a heading
+      const prevNode = index > 0 ? parent.children[index - 1] : null;
+      if (prevNode && isHeading(prevNode)) {
+        lastSpeaker = null;
+      }
 
       let timestamp: string | null = null;
       let speaker: string | null = null;
@@ -107,32 +114,60 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         ? node.children.slice(2)
         : node.children.slice(1);
 
-      // Convert timestamp to seconds for both ID and data attribute
       const seconds = timeToSeconds(timestamp);
       const messageId = `msg-${seconds}`;
       
+      // Look ahead for next speaker
+      const nextNode = parent.children[index + 1] as RootContent;
+      let nextSpeaker = null;
+      
+      if (nextNode) {
+        if (isHeading(nextNode)) {
+          nextSpeaker = null;
+        } else if ((nextNode as Paragraph).children && (isTimestamp(nextNode as Paragraph) || isSpeaker(nextNode as Paragraph))) {
+          nextSpeaker = toStringUtil(((nextNode as Paragraph).children[(nextNode as Paragraph).children.length > 1 ? 1 : 0] as Strong));
+        }
+      }
+
+      // Handle consecutive messages
+      const isNextConsecutive = speaker === nextSpeaker;
+      const isPrevConsecutive = speaker === lastSpeaker;
+
       const messageSpan = createSpan(textClass, [
         createStrong([createText(speaker)]),
         createText(" "),
         ...content as PhrasingContent[],
         createSpan(timestampClass, [
-          createText(timestamp), // Keep human-readable format for display
+          createText(timestamp),
         ])
       ]);
 
-      // Check if next message is from the same speaker
-      const nextNode = parent.children[index + 1] as Paragraph | undefined;
-      const nextSpeaker = nextNode && (isTimestamp(nextNode) || isSpeaker(nextNode))
-        ? toStringUtil((nextNode.children[nextNode.children.length > 1 ? 1 : 0] as Strong))
-        : null;
+      // Determine message grouping
+      const classes = [wrapClass];
+      
+      // Add alignment class
+      classes.push(
+        speakerIndex === 0 ? "message-sent" :
+        speakerIndex === 1 ? "message-received" :
+        "message-system"
+      );
 
-      // Determine consecutive message classes
-      const consecutiveClasses = [];
-      if (speaker === lastSpeaker) {
-        consecutiveClasses.push('consecutive');
+      // Add consecutive classes
+      if (isPrevConsecutive || isNextConsecutive) {
+        classes.push('consecutive');
       }
-      if (speaker !== nextSpeaker && speaker === lastSpeaker) {
-        consecutiveClasses.push('consecutive-end');
+
+      if (isPrevConsecutive && !isNextConsecutive) {
+        classes.push('consecutive-end');
+      }
+
+      if (!isPrevConsecutive && isNextConsecutive) {
+        classes.push('consecutive-start');
+      }
+
+      // Add class to hide speaker name if it's a consecutive message (not start)
+      if (isPrevConsecutive) {
+        classes.push('hide-speaker');
       }
 
       node.children = [messageSpan];
@@ -140,14 +175,8 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         hName: "p",
         hProperties: {
           id: messageId,
-          className: [
-            wrapClass,
-            speakerIndex === 0 ? "message-sent" :
-            speakerIndex === 1 ? "message-received" :
-            "message-system",
-            ...consecutiveClasses
-          ],
-          "data-timestamp": String(seconds) // Store seconds instead of MM:SS format
+          className: classes,
+          "data-timestamp": String(seconds)
         },
       };
 

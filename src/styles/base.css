@@ -10,7 +10,7 @@
   --color-his-bg: var(--color-flexoki-dark-bg);
   --color-his-hr: var(--color-flexoki-dark-ui-2);
   --color-his-chat-default: var(--color-flexoki-dark-tx-2);
-  --color-his-chat-blue: var(--color-flexoki-dark-bl);
+  --color-his-chat-sent: oklch(0.4 0.06 142.49);
   --color-his-chat-other: var(--color-flexoki-dark-bg-2);
 }
 
@@ -247,17 +247,41 @@
   }
 
   .message {            
-    @apply flex flex-col m-0 relative max-w-[85%] md:max-w-[75%] mb-0.5 mt-1;
+    @apply flex flex-col relative max-w-[85%] md:max-w-[72%] mb-0;
     scroll-margin-top: 20px;
 
-    &.consecutive {
-      @apply mt-0;
+    /* Base message bubble style */
+    & .message-bubble {
+      @apply px-4 py-3 rounded-2xl bg-gray-800/40 break-words relative mb-1;
+    }
+
+    /* Hide speaker name in consecutive messages */
+    &.hide-speaker .message-bubble strong {
+      @apply hidden;
+    }
+
+    /* Consecutive message styles */
+    &.consecutive .message-bubble {
+      @apply mb-0 mt-[1px];
+    }
+
+    /* First message in a group */
+    &.consecutive-start .message-bubble {
+      @apply rounded-t-2xl rounded-b-none;
+    }
+
+    /* Middle messages in a group */
+    &.consecutive:not(.consecutive-start):not(.consecutive-end) .message-bubble {
+      @apply rounded-none py-1.5;
+    }
+
+    /* Last message in a group */
+    &.consecutive-end .message-bubble {
+      @apply rounded-b-2xl rounded-t-none mb-3;
     }
   }
 
   .message-bubble {
-    @apply px-4 py-3 rounded-[18px] bg-his-chat-default break-words relative;
-
     & strong {
       @apply mb-1 font-bold text-his-green;
     }
@@ -266,7 +290,7 @@
   .message-time {
     @apply text-xs text-gray-100 opacity-0 absolute top-1 right-2 font-mono 
            transition-all duration-200 cursor-pointer select-none z-10
-           bg-gray-800/90 px-1.5 py-0.5 rounded backdrop-blur-sm;
+           bg-gray-800/90 px-1.5 py-0.5 rounded;
 
     &:hover {
       @apply text-his-green;
@@ -282,21 +306,12 @@
     @apply ml-auto;
 
     & .message-bubble {
-      @apply rounded-[18px] rounded-br-[4px];
-    }
-
-    &.consecutive .message-bubble {
-      @apply rounded-[18px];
-    }
-
-    &.consecutive-end .message-bubble {
-      @apply rounded-[18px] rounded-br-[4px];
+      @apply bg-gray-800/60;
     }
   }
 
-  /* Color overrides for different message types */
   .message-sent .message-bubble {
-    @apply bg-his-chat-blue;
+    @apply bg-his-chat-sent;
   }
 
   .message-system .message-bubble {
@@ -308,15 +323,22 @@
     @apply mr-auto;
 
     & .message-bubble {
-      @apply bg-his-chat-other rounded-[18px] rounded-bl-[4px];
+      @apply bg-gray-800/40;
+    }
+  }
+
+  /* Adjust consecutive message styling */
+  .message.consecutive {
+    & .message-bubble::before {
+      @apply rounded-none;
     }
 
-    &.consecutive .message-bubble {
-      @apply rounded-[18px];
+    &:first-child .message-bubble::before {
+      @apply rounded-t-2xl;
     }
+  }
 
-    &.consecutive-end .message-bubble {
-      @apply rounded-[18px] rounded-bl-[4px];
-    }
+  .message.consecutive-end .message-bubble::before {
+    @apply rounded-b-2xl;
   }
 } 
