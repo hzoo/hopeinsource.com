@@ -222,6 +222,7 @@
   }
   h4 {
     @apply text-lg uppercase font-bold leading-none tracking-wide my-10;
+    scroll-margin-top: 20px;
   }
 
   img {
@@ -246,11 +247,12 @@
   }
 
   .message {            
-    @apply flex flex-col m-0 relative max-w-[85%] md:max-w-[75%] mb-0.5;
+    @apply flex flex-col m-0 relative max-w-[85%] md:max-w-[75%] mb-0.5 mt-1;
+    scroll-margin-top: 20px;
 
-    /* &.consecutive {
-      @apply mb-0.5;
-    } */
+    &.consecutive {
+      @apply mt-0;
+    }
   }
 
   .message-bubble {

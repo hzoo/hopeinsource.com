@@ -2,130 +2,262 @@
 const { src } = Astro.props;
 ---
 
-<div class="fixed bottom-4 left-1/2 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-gray-700/50 bg-gray-800/95 text-white shadow-xl backdrop-blur-sm">
+<div
+  class="fixed bottom-4 left-1/2 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-gray-700/50 bg-gray-800/95 text-white shadow-xl backdrop-blur-sm"
+>
   <div class="px-4 py-3">
     <div class="flex items-center gap-4">
-      <button 
-        id="play-pause" 
+      <button
+        id="play-pause"
         class="flex h-10 w-10 items-center justify-center rounded-xl bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
         aria-label="Play/Pause"
       >
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
+          ></path>
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
       </button>
-      <span id="current-time" class="w-12 text-sm font-mono text-gray-400">00:00</span>
+      <button
+        id="mute-button"
+        class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
+        aria-label="Mute"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="h-4 w-4"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z"
+          ></path>
+        </svg>
+      </button>
+      <span id="current-time" class="w-12 text-sm font-mono text-gray-400"
+        >00:00</span
+      >
       <div class="flex-grow relative h-2 group">
         <div class="absolute inset-0 rounded-full bg-gray-700/50"></div>
-        <div id="progress-bar" class="absolute inset-y-0 left-0 w-0 rounded-full bg-his-green/40 transition-all duration-100"></div>
-        <input 
-          type="range" 
-          id="seek-slider" 
-          class="absolute inset-0 h-full w-full cursor-pointer opacity-0 transition-opacity group-hover:opacity-100" 
-          min="0" 
-          max="100" 
-          value="0" 
-          disabled
+        <div
+          id="progress-bar"
+          class="absolute inset-y-0 left-0 w-0 rounded-full bg-his-green/40 transition-all duration-100"
         >
+        </div>
+        <input
+          type="range"
+          id="seek-slider"
+          class="absolute inset-0 h-full w-full cursor-pointer opacity-0 transition-opacity group-hover:opacity-100"
+          min="0"
+          max="100"
+          value="0"
+          disabled
+        />
       </div>
-      <span id="duration" class="w-12 text-sm font-mono text-gray-400">00:00</span>
+      <span id="duration" class="w-12 text-sm font-mono text-gray-400"
+        >00:00</span
+      >
+      <button
+        id="shortcuts-button"
+        class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
+        aria-label="Keyboard Shortcuts"
+      >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
+        <path fill-rule="evenodd" d="M7.84 1.804A1 1 0 0 1 8.82 1h2.36a1 1 0 0 1 .98.804l.331 1.652a6.993 6.993 0 0 1 1.929 1.115l1.598-.54a1 1 0 0 1 1.186.447l1.18 2.044a1 1 0 0 1-.205 1.251l-1.267 1.113a7.047 7.047 0 0 1 0 2.228l1.267 1.113a1 1 0 0 1 .206 1.25l-1.18 2.045a1 1 0 0 1-1.187.447l-1.598-.54a6.993 6.993 0 0 1-1.929 1.115l-.33 1.652a1 1 0 0 1-.98.804H8.82a1 1 0 0 1-.98-.804l-.331-1.652a6.993 6.993 0 0 1-1.929-1.115l-1.598.54a1 1 0 0 1-1.186-.447l-1.18-2.044a1 1 0 0 1 .205-1.251l1.267-1.114a7.05 7.05 0 0 1 0-2.227L1.821 7.773a1 1 0 0 1-.206-1.25l1.18-2.045a1 1 0 0 1 1.187-.447l1.598.54A6.992 6.992 0 0 1 7.51 3.456l.33-1.652ZM10 13a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" clip-rule="evenodd" />
+      </svg>
+      </button>
     </div>
   </div>
   <audio id="audio-element" preload="metadata"></audio>
 </div>
 
+<!-- Seek feedback popup -->
+<div
+  id="seek-feedback"
+  class="fixed left-1/2 -translate-x-1/2 bottom-32 bg-gray-800/95 text-white px-4 py-2 rounded-lg border border-gray-700/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none"
+>
+  <span class="text-sm font-mono"></span>
+</div>
+
+<!-- Keyboard shortcuts dialog -->
+<div
+  id="shortcuts-dialog"
+  class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center z-50"
+  aria-modal="true"
+>
+  <div
+    class="bg-gray-800/95 text-white p-6 rounded-xl border border-gray-700/50 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto"
+  >
+    <div class="flex justify-between items-center mb-4">
+      <div class="text-lg font-medium">Keyboard Shortcuts</div>
+      <button id="close-shortcuts" class="text-gray-400 hover:text-white">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="grid grid-cols-2 gap-4 text-sm">
+      <div>
+        <kbd class="px-2 py-1 bg-gray-700 rounded">space</kbd>
+        <span class="ml-2">Play/Pause</span>
+      </div>
+      <div>
+        <kbd class="px-2 py-1 bg-gray-700 rounded">m</kbd>
+        <span class="ml-2">Mute/Unmute</span>
+      </div>
+      <div>
+        <kbd class="px-2 py-1 bg-gray-700 rounded">←</kbd>
+        <span class="ml-2">Back 5 seconds</span>
+      </div>
+      <div>
+        <kbd class="px-2 py-1 bg-gray-700 rounded">→</kbd>
+        <span class="ml-2">Forward 5 seconds</span>
+      </div>
+      <div>
+        <kbd class="px-2 py-1 bg-gray-700 rounded">j</kbd>
+        <span class="ml-2">Back 10 seconds</span>
+      </div>
+      <div>
+        <kbd class="px-2 py-1 bg-gray-700 rounded">k</kbd>
+        <span class="ml-2">Forward 10 seconds</span>
+      </div>
+    </div>
+  </div>
+</div>
+
 <script define:vars={{ src }} is:inline>
-  const audio = document.getElementById('audio-element');
-  const playPauseButton = document.getElementById('play-pause');
-  const seekSlider = document.getElementById('seek-slider');
-  const currentTimeDisplay = document.getElementById('current-time');
-  const durationDisplay = document.getElementById('duration');
-  const progressBar = document.getElementById('progress-bar');
-  const playIcon = playPauseButton.querySelector('svg');
+  const audio = document.getElementById("audio-element");
+  const playPauseButton = document.getElementById("play-pause");
+  const seekSlider = document.getElementById("seek-slider");
+  const currentTimeDisplay = document.getElementById("current-time");
+  const durationDisplay = document.getElementById("duration");
+  const progressBar = document.getElementById("progress-bar");
+  const playIcon = playPauseButton.querySelector("svg");
+  const muteButton = document.getElementById("mute-button");
+  const shortcutsButton = document.getElementById("shortcuts-button");
+  const shortcutsDialog = document.getElementById("shortcuts-dialog");
+  const closeShortcuts = document.getElementById("close-shortcuts");
+  const seekFeedback = document.getElementById("seek-feedback");
+  let seekFeedbackTimeout;
 
   let isLoaded = false;
 
+  function timeToSeconds(timestamp) {
+    const parts = timestamp.split(":").map(Number);
+    if (parts.length === 3) {
+      return parts[0] * 3600 + parts[1] * 60 + parts[2];
+    }
+    return parts[0] * 60 + parts[1];
+  }
+
   function formatTime(seconds) {
-    if (!seconds || isNaN(seconds)) return '00:00';
-    const minutes = Math.floor(seconds / 60);
-    const remainingSeconds = Math.floor(seconds % 60);
-    return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    if (!seconds || isNaN(seconds)) return "00:00";
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = Math.floor(seconds % 60);
+    if (h > 0) {
+      return `${h}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+    }
+    return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
   }
 
   function updateTimeDisplay() {
     if (!audio.duration) return;
-    
+
     currentTimeDisplay.textContent = formatTime(audio.currentTime);
     durationDisplay.textContent = formatTime(audio.duration);
-    
+
     const percent = (audio.currentTime / audio.duration) * 100;
     seekSlider.value = String(percent);
     progressBar.style.width = `${percent}%`;
   }
 
-  function seekToTimestamp() {
+  function seekToTimestamp(playAudio = true) {
     const hash = window.location.hash;
     if (!hash) return;
 
-    let timestamp;
-    if (hash.startsWith('#t=')) {
-      timestamp = hash.slice(3);
-    } else if (hash.startsWith('#msg-')) {
-      const msgElement = document.querySelector(hash);
-      if (!msgElement) return;
-      
-      timestamp = msgElement.getAttribute('data-timestamp');
-      // Update URL to use #t= format when clicking messages
-      if (timestamp) {
-        history.replaceState(null, '', `#t=${timestamp}`);
-      }
-    }
-    
-    if (!timestamp) return;
-    const timestampMatch = timestamp.match(/^(\d+):(\d+)(?::(\d+))?/);
-    if (!timestampMatch) return;
+    let seconds;
+    if (hash.startsWith("#t=")) {
+      seconds = parseInt(hash.slice(3), 10);
+      if (isNaN(seconds)) return;
 
-    const hours = timestampMatch[3] ? Number(timestampMatch[1]) : 0;
-    const minutes = timestampMatch[3] ? Number(timestampMatch[2]) : Number(timestampMatch[1]);
-    const seconds = timestampMatch[3] ? Number(timestampMatch[3]) : Number(timestampMatch[2]);
-    
-    const totalSeconds = (hours * 3600) + (minutes * 60) + seconds;
-    loadAudioAndPlay(totalSeconds);
-
-    // Scroll message into view if we came from a timestamp
-    if (hash.startsWith('#t=')) {
-      const msgId = `msg-${timestamp.replace(':', '-')}`;
+      // Find corresponding message for scrolling
+      const msgId = `msg-${seconds}`;
       const msgElement = document.getElementById(msgId);
-      msgElement?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      if (msgElement) {
+        msgElement.scrollIntoView();
+      }
+    } else if (hash.startsWith("#msg-")) {
+      const msgElement = document.getElementById(hash.slice(1));
+      if (!msgElement) return;
+
+      const timestamp = msgElement.getAttribute("data-timestamp");
+      if (!timestamp) return;
+
+      seconds = timeToSeconds(timestamp);
+      // Update URL to use seconds
+      history.replaceState(null, "", `#t=${seconds}`);
     }
+
+    if (typeof seconds !== "number") return;
+
+    loadAudioAndPlay(seconds, playAudio);
   }
 
   function togglePlayPauseIcon(isPaused) {
-    playIcon.innerHTML = isPaused 
+    playIcon.innerHTML = isPaused
       ? `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`
       : `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />`;
   }
 
-  function loadAudioAndPlay(startTime = 0) {
+  function loadAudioAndPlay(startTime = 0, play = true) {
     if (!isLoaded) {
       audio.src = src;
-      audio.setAttribute('x-cache-control', 'max-age=31536000');
+      audio.setAttribute("x-cache-control", "max-age=31536000");
       audio.load();
       isLoaded = true;
     }
 
     audio.currentTime = startTime;
-    audio.play()
+    if (play) {
+      audio
+        .play()
       .then(() => {
         togglePlayPauseIcon(false);
         seekSlider.disabled = false;
-      })
-      .catch(error => console.error('Error playing audio:', error));
+        })
+        .catch((error) => console.error("Error playing audio:", error));
+    }
   }
 
-  playPauseButton?.addEventListener('click', () => {
+  function togglePlayPause() {
     if (!isLoaded) {
       loadAudioAndPlay();
     } else if (audio.paused) {
@@ -134,57 +266,140 @@ const { src } = Astro.props;
       audio.pause();
       togglePlayPauseIcon(true);
     }
+  }
+
+  function updateMuteIcon(isMuted) {
+    muteButton.innerHTML = isMuted
+      ? `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6 4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+</svg>
+`
+      : `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+</svg>
+`;
+  }
+
+  function showSeekFeedback(seconds) {
+    const direction = seconds > 0 ? "Forward" : "Back";
+    seekFeedback.querySelector("span").textContent =
+      `${direction} ${Math.abs(seconds)}s`;
+    seekFeedback.style.opacity = "1";
+
+    clearTimeout(seekFeedbackTimeout);
+    seekFeedbackTimeout = setTimeout(() => {
+      seekFeedback.style.opacity = "0";
+    }, 500);
+  }
+
+  function seekRelative(seconds) {
+    if (!audio.duration) return;
+    const newTime = Math.max(
+      0,
+      Math.min(audio.duration, audio.currentTime + seconds),
+    );
+    audio.currentTime = newTime;
+    showSeekFeedback(seconds);
+  }
+
+  // Keyboard controls
+  document.addEventListener("keydown", (e) => {
+    // Ignore if user is typing in an input or contenteditable element
+    if (e.target.matches('input, [contenteditable="true"]')) return;
+
+    switch (e.code) {
+      case "Space":
+        e.preventDefault();
+        togglePlayPause();
+        break;
+      case "ArrowLeft":
+        e.preventDefault();
+        seekRelative(-5); // 5 seconds back
+        break;
+      case "ArrowRight":
+        e.preventDefault();
+        seekRelative(5); // 5 seconds forward
+        break;
+      case "KeyJ":
+        e.preventDefault();
+        seekRelative(-10); // 10 seconds back
+        break;
+      case "KeyK":
+        e.preventDefault();
+        seekRelative(10); // 10 seconds forward
+        break;
+      case "KeyM":
+        e.preventDefault();
+        audio.muted = !audio.muted;
+        break;
+    }
   });
 
-  seekSlider?.addEventListener('input', () => {
+  playPauseButton?.addEventListener("click", togglePlayPause);
+
+  seekSlider?.addEventListener("input", () => {
     const seekTime = audio.duration * (Number(seekSlider.value) / 100);
     audio.currentTime = seekTime;
   });
 
-  audio.addEventListener('timeupdate', updateTimeDisplay);
-  audio.addEventListener('loadedmetadata', () => {
+  audio.addEventListener("timeupdate", updateTimeDisplay);
+  audio.addEventListener("loadedmetadata", () => {
     updateTimeDisplay();
     seekSlider.disabled = false;
   });
 
-  window.addEventListener('hashchange', seekToTimestamp);
+  window.addEventListener("hashchange", seekToTimestamp);
   seekToTimestamp();
 
-  document.querySelectorAll('a[href^="#"]').forEach(link => {
-    link.addEventListener('click', (e) => {
-      const href = link.getAttribute('href');
-      if (href?.startsWith('#t=')) {
+  document.querySelectorAll('a[href^="#"]').forEach((link) => {
+    link.addEventListener("click", (e) => {
+      const href = link.getAttribute("href");
+      if (href?.startsWith("#t=")) {
         e.preventDefault();
-        window.location.hash = href;
+        history.replaceState(null, "", href);
         seekToTimestamp();
       }
     });
   });
 
-  // Add double-click handler for messages
-  document.addEventListener('dblclick', (e) => {
-    const messageEl = e.target.closest('.message');
-    if (!messageEl) return;
-    
-    const timestamp = messageEl.getAttribute('data-timestamp');
-    if (!timestamp) return;
+  // Add click handler for timestamps
+  document.addEventListener("click", (e) => {
+    const timeEl = e.target.closest(".message-time");
+    if (!timeEl) return;
 
-    window.location.hash = `t=${timestamp}`;
-    seekToTimestamp();
+    const messageEl = timeEl.closest(".message");
+    if (!messageEl) return;
+
+    const seconds = parseInt(messageEl.getAttribute("data-timestamp"), 10);
+    if (isNaN(seconds)) return;
+
+    history.replaceState(null, "", `#t=${seconds}`);
+    seekToTimestamp(false);
   });
 
-  // Add click handler for timestamps
-  document.addEventListener('click', (e) => {
-    const timeEl = e.target.closest('.message-time');
-    if (!timeEl) return;
-    
-    const messageEl = timeEl.closest('.message');
-    if (!messageEl) return;
+  // Update mute button when audio mute state changes
+  audio.addEventListener("volumechange", () => {
+    updateMuteIcon(audio.muted);
+  });
 
-    const timestamp = messageEl.getAttribute('data-timestamp');
-    if (!timestamp) return;
-    
-    window.location.hash = `t=${timestamp}`;
+  // Mute button click handler
+  muteButton.addEventListener("click", () => {
+    audio.muted = !audio.muted;
+  });
+
+  // Shortcuts dialog handlers
+  shortcutsButton.addEventListener("click", () => {
+    shortcutsDialog.classList.remove("hidden");
+  });
+
+  closeShortcuts.addEventListener("click", () => {
+    shortcutsDialog.classList.add("hidden");
+  });
+
+  shortcutsDialog.addEventListener("click", (e) => {
+    if (e.target === shortcutsDialog) {
+      shortcutsDialog.classList.add("hidden");
+    }
   });
 </script>
 <style>

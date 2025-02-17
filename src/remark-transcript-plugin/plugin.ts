@@ -1,7 +1,7 @@
 import { visit } from "unist-util-visit";
 import { toString as toStringUtil } from "mdast-util-to-string";
 import type { Plugin } from "unified";
-import type { Root, Paragraph, Text, Strong, PhrasingContent, Link, Parent } from "mdast";
+import type { Root, Paragraph, Text, Strong, PhrasingContent, Parent } from "mdast";
 
 const timestampRegex = /^\[(\d{2}:\d{2})\]/;
 
@@ -51,12 +51,12 @@ function createStrong(children: Text[]): Strong {
   };
 }
 
-function createLink(url: string, children: PhrasingContent[]): Link {
-  return {
-    type: "link",
-    url,
-    children,
-  };
+function timeToSeconds(timestamp: string): number {
+  const parts = timestamp.split(':').map(Number);
+  if (parts.length === 3) {
+    return parts[0] * 3600 + parts[1] * 60 + parts[2];
+  }
+  return parts[0] * 60 + parts[1];
 }
 
 export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
@@ -107,14 +107,16 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         ? node.children.slice(2)
         : node.children.slice(1);
 
-      const messageId = `msg-${timestamp.replace(':', '-')}`;
+      // Convert timestamp to seconds for both ID and data attribute
+      const seconds = timeToSeconds(timestamp);
+      const messageId = `msg-${seconds}`;
       
       const messageSpan = createSpan(textClass, [
         createStrong([createText(speaker)]),
         createText(" "),
         ...content as PhrasingContent[],
         createSpan(timestampClass, [
-          createText(timestamp),
+          createText(timestamp), // Keep human-readable format for display
         ])
       ]);
 
@@ -145,7 +147,7 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
             "message-system",
             ...consecutiveClasses
           ],
-          "data-timestamp": timestamp
+          "data-timestamp": String(seconds) // Store seconds instead of MM:SS format
         },
       };
 
