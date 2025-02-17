@@ -211,7 +211,7 @@
   }
 
   h1, h2, h3, h4, h5, h6 {
-    @apply mt-4 mb-1;
+    @apply mt-4 mb-2;
   }
 
   h2 {
@@ -233,7 +233,10 @@
   }
 
   ul {
-    @apply list-disc list-inside;
+    @apply list-disc list-outside;
+  }
+  li {
+    @apply ml-4;
   }
 }
 
