@@ -103,10 +103,10 @@ const { src } = Astro.props;
 
 <!-- Seek feedback popup -->
 <div
-  id="seek-feedback"
-  class="fixed left-1/2 -translate-x-1/2 bottom-32 bg-gray-800/95 text-white px-4 py-2 rounded-lg border border-gray-700/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none"
+  id="player-feedback"
+  class="fixed left-1/2 -translate-x-1/2 bottom-32 bg-gray-800/95 text-white px-4 py-2 rounded-lg border border-gray-700/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none flex items-center gap-2"
 >
-  <span class="text-sm font-mono"></span>
+  <span id="feedback-text" class="text-sm"></span>
 </div>
 
 <!-- Keyboard shortcuts dialog -->
@@ -175,12 +175,13 @@ const { src } = Astro.props;
   const shortcutsButton = document.getElementById("shortcuts-button");
   const shortcutsDialog = document.getElementById("shortcuts-dialog");
   const closeShortcuts = document.getElementById("close-shortcuts");
-  const seekFeedback = document.getElementById("seek-feedback");
   const volumeSlider = document.getElementById("volume-slider");
   const volumePopup = document.getElementById("volume-popup");
   const volumeDisplay = document.getElementById("volume-display");
-  let seekFeedbackTimeout;
+  const playerFeedback = document.getElementById("player-feedback");
+  const feedbackText = document.getElementById("feedback-text");
   let volumePopupTimeout;
+  let feedbackTimeout;
 
   let isLoaded = false;
 
@@ -268,6 +269,7 @@ const { src } = Astro.props;
       .then(() => {
         togglePlayPauseIcon(false);
         seekSlider.disabled = false;
+        showFeedback('play');
         })
         .catch((error) => console.error("Error playing audio:", error));
     }
@@ -277,10 +279,14 @@ const { src } = Astro.props;
     if (!isLoaded) {
       loadAudioAndPlay();
     } else if (audio.paused) {
-      audio.play().then(() => togglePlayPauseIcon(false));
+      audio.play().then(() => {
+        togglePlayPauseIcon(false);
+        showFeedback('play');
+      });
     } else {
       audio.pause();
       togglePlayPauseIcon(true);
+      showFeedback('pause');
     }
   }
 
@@ -296,15 +302,38 @@ const { src } = Astro.props;
 `;
   }
 
-  function showSeekFeedback(seconds) {
-    const direction = seconds > 0 ? "Forward" : "Back";
-    seekFeedback.querySelector("span").textContent =
-      `${direction} ${Math.abs(seconds)}s`;
-    seekFeedback.style.opacity = "1";
+  function showFeedback(action, value = '') {
+    clearTimeout(feedbackTimeout);
+    
+    let text = '';
+    
+    switch (action) {
+      case 'seek':
+        const direction = value > 0 ? 'Forward' : 'Back';
+        text = `${direction} ${Math.abs(value)}s`;
+        break;
+      case 'play':
+        text = 'Playing';
+        break;
+      case 'pause':
+        text = 'Paused';
+        break;
+      case 'mute':
+        text = 'Muted';
+        break;
+      case 'unmute':
+        text = 'Unmuted';
+        break;
+      case 'volume': 
+        text = `Volume ${value}%`;
+        break;
+    }
 
-    clearTimeout(seekFeedbackTimeout);
-    seekFeedbackTimeout = setTimeout(() => {
-      seekFeedback.style.opacity = "0";
+    feedbackText.textContent = text;
+    playerFeedback.style.opacity = '1';
+
+    feedbackTimeout = setTimeout(() => {
+      playerFeedback.style.opacity = '0';
     }, 500);
   }
 
@@ -312,10 +341,10 @@ const { src } = Astro.props;
     if (!audio.duration) return;
     const newTime = Math.max(
       0,
-      Math.min(audio.duration, audio.currentTime + seconds),
+      Math.min(audio.duration, audio.currentTime + seconds)
     );
     audio.currentTime = newTime;
-    showSeekFeedback(seconds);
+    showFeedback('seek', seconds);
   }
 
   // Keyboard controls
@@ -347,6 +376,7 @@ const { src } = Astro.props;
       case "KeyM":
         e.preventDefault();
         audio.muted = !audio.muted;
+        showFeedback(audio.muted ? 'mute' : 'unmute');
         break;
     }
   });
@@ -402,11 +432,7 @@ const { src } = Astro.props;
     audio.muted = volumeValue === 0;
     volumeDisplay.textContent = `${volumeValue}%`;
     updateMuteIcon(audio.muted);
-  }
-
-  function showVolumePopup() {
-    clearTimeout(volumePopupTimeout);
-    volumePopup.classList.remove("hidden");
+    showFeedback('volume', volumeValue);
   }
 
   function hideVolumePopup() {
@@ -434,6 +460,7 @@ const { src } = Astro.props;
   // Mute button click handler
   muteButton.addEventListener("click", () => {
     audio.muted = !audio.muted;
+    showFeedback(audio.muted ? 'mute' : 'unmute');
     if (!audio.muted && audio.volume === 0) {
       audio.volume = 0.5;
       volumeSlider.value = "50";
