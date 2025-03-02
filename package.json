@@ -23,10 +23,10 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
-    "@astrojs/preact": "^4.0.4",
+    "@astrojs/preact": "4.0.5",
     "@astrojs/tailwind": "^6.0.0",
     "@preact/signals-core": "^1.8.0",
-    "astro": "5.3.0",
+    "astro": "5.4.1",
     "preact": "^10.25.4",
     "sharp": "^0.33.5",
     "tailwindcss": "^4.0.6"

@@ -32,26 +32,38 @@ const { src } = Astro.props;
             d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
         </svg>
       </button>
-      <button
-        id="mute-button"
-        class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
-        aria-label="Mute"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke-width="1.5"
-          stroke="currentColor"
-          class="h-4 w-4"
+      <div class="group flex items-center">
+        <button
+          id="mute-button"
+          class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
+          aria-label="Mute"
         >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z"
-          ></path>
-        </svg>
-      </button>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="h-4 w-4"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z"
+            ></path>
+          </svg>
+        </button>
+        <div class="w-0 overflow-hidden transition-all duration-200 group-hover:w-24 flex items-center">
+          <input
+            type="range"
+            id="volume-slider"
+            class="w-full h-2 mx-2 appearance-none bg-gray-700/50 rounded-full"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </div>
+      </div>
       <span id="current-time" class="w-12 text-sm font-mono text-gray-400"
         >00:00</span
       >
@@ -164,7 +176,11 @@ const { src } = Astro.props;
   const shortcutsDialog = document.getElementById("shortcuts-dialog");
   const closeShortcuts = document.getElementById("close-shortcuts");
   const seekFeedback = document.getElementById("seek-feedback");
+  const volumeSlider = document.getElementById("volume-slider");
+  const volumePopup = document.getElementById("volume-popup");
+  const volumeDisplay = document.getElementById("volume-display");
   let seekFeedbackTimeout;
+  let volumePopupTimeout;
 
   let isLoaded = false;
 
@@ -377,14 +393,59 @@ const { src } = Astro.props;
     seekToTimestamp(false);
   });
 
-  // Update mute button when audio mute state changes
+  // Set initial volume to 50%
+  audio.volume = 0.5;
+
+  function updateVolumeFromSlider() {
+    const volumeValue = Number(volumeSlider.value);
+    audio.volume = volumeValue / 100;
+    audio.muted = volumeValue === 0;
+    volumeDisplay.textContent = `${volumeValue}%`;
+    updateMuteIcon(audio.muted);
+  }
+
+  function showVolumePopup() {
+    clearTimeout(volumePopupTimeout);
+    volumePopup.classList.remove("hidden");
+  }
+
+  function hideVolumePopup() {
+    volumePopupTimeout = setTimeout(() => {
+      volumePopup.classList.add("hidden");
+    }, 2000); // Hide after 2 seconds of inactivity
+  }
+
+  // Volume slider event listeners
+  volumeSlider?.addEventListener("input", updateVolumeFromSlider);
+  volumeSlider?.addEventListener("mousedown", () => clearTimeout(volumePopupTimeout));
+  volumeSlider?.addEventListener("touchstart", () => clearTimeout(volumePopupTimeout));
+  volumeSlider?.addEventListener("mouseup", hideVolumePopup);
+  volumeSlider?.addEventListener("touchend", hideVolumePopup);
+
+  // Update volume slider when audio is muted/unmuted
   audio.addEventListener("volumechange", () => {
     updateMuteIcon(audio.muted);
+    if (!audio.muted) {
+      volumeSlider.value = String(Math.round(audio.volume * 100));
+      volumeDisplay.textContent = `${Math.round(audio.volume * 100)}%`;
+    }
   });
 
   // Mute button click handler
   muteButton.addEventListener("click", () => {
     audio.muted = !audio.muted;
+    if (!audio.muted && audio.volume === 0) {
+      audio.volume = 0.5;
+      volumeSlider.value = "50";
+      volumeDisplay.textContent = "50%";
+    }
+  });
+
+  // Close volume popup when clicking outside
+  document.addEventListener("click", (e) => {
+    if (!e.target.closest("#mute-button")) {
+      volumePopup.classList.add("hidden");
+    }
   });
 
   // Shortcuts dialog handlers
@@ -420,5 +481,42 @@ const { src } = Astro.props;
     background: white;
     cursor: pointer;
     border: none;
+  }
+
+  /* Volume slider styles */
+  #volume-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    margin-top: -4px;
+  }
+
+  #volume-slider::-moz-range-thumb {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background: white;
+    cursor: pointer;
+    border: none;
+  }
+
+  #volume-slider::-webkit-slider-runnable-track {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+  }
+
+  #volume-slider::-moz-range-track {
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 2px;
+  }
+
+  #volume-slider {
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0.2) 50%);
+    border-radius: 2px;
   }
 </style>
