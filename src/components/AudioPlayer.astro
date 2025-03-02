@@ -144,14 +144,6 @@ const { src } = Astro.props;
         <span class="ml-2">Mute/Unmute</span>
       </div>
       <div>
-        <kbd class="px-2 py-1 bg-gray-700 rounded">←</kbd>
-        <span class="ml-2">Back 5 seconds</span>
-      </div>
-      <div>
-        <kbd class="px-2 py-1 bg-gray-700 rounded">→</kbd>
-        <span class="ml-2">Forward 5 seconds</span>
-      </div>
-      <div>
         <kbd class="px-2 py-1 bg-gray-700 rounded">j</kbd>
         <span class="ml-2">Back 10 seconds</span>
       </div>
@@ -356,14 +348,6 @@ const { src } = Astro.props;
       case "Space":
         e.preventDefault();
         togglePlayPause();
-        break;
-      case "ArrowLeft":
-        e.preventDefault();
-        seekRelative(-5); // 5 seconds back
-        break;
-      case "ArrowRight":
-        e.preventDefault();
-        seekRelative(5); // 5 seconds forward
         break;
       case "KeyJ":
         e.preventDefault();
