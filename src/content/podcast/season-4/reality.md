@@ -27,7 +27,7 @@ sidebar:
 
 [00:11] **Esther:** And that's what I think you're saying you experience. I mean, what you've read of Polanyi and Newbigin and you're saying, well, this is just what I do in my job, you know? So you're working with real people in a convivial sort of way in GitHub, right.
 
-[00:31] **Esther:** And your _Hope in Source_ thing, that's your wonderful play on words. I mean, hope is a _personed _affair, right? And so you've rooted the open source in the person. So very cool.
+[00:31] **Esther:** And your _Hope in Source_ thing, that's your wonderful play on words. I mean, hope is a _personed_ affair, right? And so you've rooted the open source in the person. So very cool.
 
 [00:48] **Henry:** Thank you for that. It's good to kind of hear what you think about even the title itself and thinking like, the point of it is to say well, the source code is written by a person, right. And of course, as a Christian, you might say that like our hope is in a person as well, so it's not just like piece of text.
 

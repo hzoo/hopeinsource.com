@@ -3,7 +3,7 @@ import { toString as toStringUtil } from "mdast-util-to-string";
 import type { Plugin } from "unified";
 import type { Root, Paragraph, Text, Strong, PhrasingContent, Parent, RootContent, Heading } from "mdast";
 
-const timestampRegex = /^\[(\d{2}:\d{2})\]/;
+const timestampRegex = /^\[(\d{1,2}:\d{2})\]/;
 
 interface PluginOptions {
   timestampClass?: string;
@@ -72,10 +72,15 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
     textClass = "message-bubble",
   } = options;
 
-  return (tree: Root) => {
+  return (tree: Root, vfile) => {
+    const speakerConfig: Record<string, string> = (vfile.data?.astro?.frontmatter?.speakers as Record<string, string>) || {};
     const speakerOrder: string[] = [];
     let speakerCount = 0;
     let lastSpeaker: string | null = null;
+
+    // if (!vfile.basename?.includes("illich")) {
+    //   return;
+    // }
 
     visit(tree, "paragraph", (node: Paragraph, index?: number, parent?: Parent) => {
       if (index === undefined || !parent) return;
@@ -103,11 +108,27 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       }
 
       if (!timestamp || !speaker) return;
+      
+      // use frontmatter config if present, else fallback to original logic
+      let alignmentClass = "";
 
-      let speakerIndex = speakerOrder.indexOf(speaker);
-      if (speakerIndex === -1) {
-        speakerIndex = speakerCount++;
-        speakerOrder.push(speaker);
+      if (speaker.replace(/:$/, "") in speakerConfig) {
+        const order = speakerConfig[speaker.replace(/:$/, "")];
+        if (order === "left") {
+          alignmentClass = "message-sent";
+        } else if (order === "right") {
+          alignmentClass = "message-received";
+        } else {
+          alignmentClass = "message-system";
+        }
+      } else {
+        let speakerIndex = speakerOrder.indexOf(speaker);
+        if (speakerIndex === -1) {
+          speakerIndex = speakerCount++;
+          speakerOrder.push(speaker);
+        }
+        alignmentClass = speakerIndex === 0 ? "message-sent" :
+                         speakerIndex === 1 ? "message-received" : "message-system";
       }
 
       const content = isTimestamp(node)
@@ -120,7 +141,6 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       // Look ahead for next speaker
       const nextNode = parent.children[index + 1] as RootContent;
       let nextSpeaker = null;
-      
       if (nextNode) {
         if (isHeading(nextNode)) {
           nextSpeaker = null;
@@ -142,29 +162,17 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         ])
       ]);
 
-      // Determine message grouping
-      const classes = [wrapClass];
-      
-      // Add alignment class
-      classes.push(
-        speakerIndex === 0 ? "message-sent" :
-        speakerIndex === 1 ? "message-received" :
-        "message-system"
-      );
+      const classes = [wrapClass, alignmentClass];
 
-      // Add consecutive classes
       if (isPrevConsecutive || isNextConsecutive) {
         classes.push('consecutive');
       }
-
       if (isPrevConsecutive && !isNextConsecutive) {
         classes.push('consecutive-end');
       }
-
       if (!isPrevConsecutive && isNextConsecutive) {
         classes.push('consecutive-start');
       }
-
       // Add class to hide speaker name if it's a consecutive message (not start)
       if (isPrevConsecutive) {
         classes.push('hide-speaker');
