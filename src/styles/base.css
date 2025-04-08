@@ -8,10 +8,16 @@
   /* Colors */
   --color-his-green: oklch(0.88 0.12 142.49);
   --color-his-bg: var(--color-flexoki-dark-bg);
+  --color-his-text: var(--color-flexoki-paper);
+  --color-his-text-secondary: var(--color-flexoki-base-200);
+  --color-his-text-tertiary: var(--color-flexoki-base-400);
   --color-his-hr: var(--color-flexoki-dark-ui-2);
   --color-his-chat-default: var(--color-flexoki-dark-tx-3);
   --color-his-chat-sent: var(--color-flexoki-dark-bg-2);
   --color-his-chat-other: var(--color-flexoki-dark-bg-2);
+  --color-his-hover: var(--color-flexoki-dark-ui-2);
+  --color-his-active: var(--color-flexoki-base-800); /* Darker active state for dark mode */
+  --color-his-chat-bg: var(--color-flexoki-dark-ui-2);
 }
 
 @theme {
@@ -188,9 +194,29 @@
 }
 
 @layer base {
+  :root {
+    color-scheme: dark;
+  }
+
+  :root[data-theme="light"] {
+    color-scheme: light;
+    --color-his-bg: var(--color-flexoki-light-bg);
+    --color-his-text: var(--color-flexoki-black);
+    --color-his-text-secondary: var(--color-flexoki-base-700);
+    --color-his-text-tertiary: var(--color-flexoki-base-500);
+    --color-his-hr: var(--color-flexoki-light-ui-2);
+    --color-his-chat-default: var(--color-flexoki-light-tx-3);
+    --color-his-chat-sent: var(--color-flexoki-light-bg-2);
+    --color-his-chat-other: var(--color-flexoki-light-bg-2);
+    --color-his-hover: var(--color-flexoki-base-100);
+    --color-his-active: var(--color-flexoki-base-200); /* Lighter active state for light mode */
+    --color-his-green: oklch(0.45 0.12 142.49);
+    --color-his-chat-bg: var(--color-flexoki-base-50);
+  }
+
   body {
     @apply scroll-smooth bg-his-bg;
-    @apply text-white antialiased text-base leading-relaxed font-sans;
+    @apply text-his-text antialiased text-base leading-relaxed font-sans;
 
     @media (max-width: 768px) {
       @apply text-sm leading-normal;
@@ -243,7 +269,7 @@
 
 @layer components {
   .toc-link.active {
-    @apply bg-slate-600;
+    @apply bg-his-active;
   }
 
   .message {            
@@ -252,7 +278,7 @@
 
     /* Base message bubble style */
     & .message-bubble {
-      @apply px-4 py-3 rounded-2xl bg-gray-800/40 break-words relative mb-1;
+      @apply px-4 py-3 rounded-2xl bg-his-chat-bg/40 break-words relative mb-1;
     }
 
     /* Hide speaker name in consecutive messages */
@@ -306,7 +332,7 @@
     @apply ml-auto;
 
     & .message-bubble {
-      @apply bg-gray-800/60;
+      @apply bg-his-chat-bg/60;
     }
   }
 
@@ -323,7 +349,7 @@
     @apply mr-auto;
 
     & .message-bubble {
-      @apply bg-gray-800/40;
+      @apply bg-his-chat-bg/40;
     }
   }
 

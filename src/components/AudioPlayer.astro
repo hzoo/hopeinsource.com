@@ -3,7 +3,7 @@ const { src } = Astro.props;
 ---
 
 <div
-  class="fixed bottom-4 left-1/2 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-gray-700/50 bg-gray-800/95 text-white shadow-xl backdrop-blur-sm"
+  class="fixed bottom-4 left-1/2 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm"
 >
   <div class="px-4 py-3">
     <div class="flex items-center gap-4">
@@ -57,18 +57,18 @@ const { src } = Astro.props;
           <input
             type="range"
             id="volume-slider"
-            class="w-full h-2 mx-2 appearance-none bg-gray-700/50 rounded-full"
+            class="w-full h-2 mx-2 appearance-none bg-his-text-tertiary/50 rounded-full"
             min="0"
             max="100"
             value="50"
           />
         </div>
       </div>
-      <span id="current-time" class="w-12 text-sm font-mono text-gray-400"
+      <span id="current-time" class="w-12 text-sm font-mono text-his-text-secondary"
         >00:00</span
       >
       <div class="flex-grow relative h-2 group">
-        <div class="absolute inset-0 rounded-full bg-gray-700/50"></div>
+        <div class="absolute inset-0 rounded-full bg-his-text-tertiary/50"></div>
         <div
           id="progress-bar"
           class="absolute inset-y-0 left-0 w-0 rounded-full bg-his-green/40 transition-all duration-100"
@@ -84,7 +84,7 @@ const { src } = Astro.props;
           disabled
         />
       </div>
-      <span id="duration" class="w-12 text-sm font-mono text-gray-400"
+      <span id="duration" class="w-12 text-sm font-mono text-his-text-secondary"
         >00:00</span
       >
       <button
@@ -104,7 +104,7 @@ const { src } = Astro.props;
 <!-- Seek feedback popup -->
 <div
   id="player-feedback"
-  class="fixed left-1/2 -translate-x-1/2 bottom-32 bg-gray-800/95 text-white px-4 py-2 rounded-lg border border-gray-700/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none flex items-center gap-2"
+  class="fixed left-1/2 -translate-x-1/2 bottom-32 bg-his-hover/95 text-his-text px-4 py-2 rounded-lg border border-his-text-tertiary/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none flex items-center gap-2"
 >
   <span id="feedback-text" class="text-sm"></span>
 </div>
@@ -116,11 +116,11 @@ const { src } = Astro.props;
   aria-modal="true"
 >
   <div
-    class="bg-gray-800/95 text-white p-6 rounded-xl border border-gray-700/50 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto"
+    class="bg-his-hover/95 text-his-text p-6 rounded-xl border border-his-text-tertiary/50 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto"
   >
     <div class="flex justify-between items-center mb-4">
       <div class="text-lg font-medium">Keyboard Shortcuts</div>
-      <button id="close-shortcuts" class="text-gray-400 hover:text-white">
+      <button id="close-shortcuts" class="text-his-text-secondary hover:text-his-text">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5"
@@ -136,19 +136,19 @@ const { src } = Astro.props;
     </div>
     <div class="grid grid-cols-2 gap-4 text-sm">
       <div>
-        <kbd class="px-2 py-1 bg-gray-700 rounded">space</kbd>
+        <kbd class="px-2 py-1 bg-his-hover rounded">space</kbd>
         <span class="ml-2">Play/Pause</span>
       </div>
       <div>
-        <kbd class="px-2 py-1 bg-gray-700 rounded">m</kbd>
+        <kbd class="px-2 py-1 bg-his-hover rounded">m</kbd>
         <span class="ml-2">Mute/Unmute</span>
       </div>
       <div>
-        <kbd class="px-2 py-1 bg-gray-700 rounded">j</kbd>
+        <kbd class="px-2 py-1 bg-his-hover rounded">j</kbd>
         <span class="ml-2">Back 10 seconds</span>
       </div>
       <div>
-        <kbd class="px-2 py-1 bg-gray-700 rounded">k</kbd>
+        <kbd class="px-2 py-1 bg-his-hover rounded">k</kbd>
         <span class="ml-2">Forward 10 seconds</span>
       </div>
     </div>

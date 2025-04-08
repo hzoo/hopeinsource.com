@@ -1,5 +1,6 @@
 ---
 import BaseHead from "@/components/BaseHead.astro";
+import ThemeToggle from '@/components/ThemeToggle.astro';
 import "../styles/base.css";
 
 const { frontmatter, slug } = Astro.props;
@@ -16,6 +17,7 @@ const { frontmatter, slug } = Astro.props;
         />
     </head>
     <body>
+        <ThemeToggle />
         <slot />
     </body>
 </html>

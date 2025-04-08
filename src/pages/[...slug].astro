@@ -40,7 +40,7 @@ const { slug, Content, headings, frontmatter } = Astro.props;
     <a href="/"><h3 class="m-0">← {hisMetadata.title}</h3></a>
     <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
     <Subscribe />
-    <section class="episode-info text-sm text-gray-300">
+    <section class="episode-info text-sm text-his-text-secondary">
       {
         frontmatter.date.toLocaleDateString("en-US", {
           year: "numeric",
@@ -56,7 +56,7 @@ const { slug, Content, headings, frontmatter } = Astro.props;
         <TableOfContents headings={headings} />
       </aside>
       <main class="flex-1">
-        <blockquote class="text-sm leading-relaxed">
+        <blockquote class="text-sm leading-relaxed text-his-text-secondary">
           {frontmatter.description} ({frontmatter.time} min)
         </blockquote>
         <Content />

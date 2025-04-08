@@ -1,22 +1,22 @@
 ---
 import HomeLayout from "@/layouts/HomeLayout.astro";
-import "@/styles/tailwind.css";
+import "@/styles/base.css";
 ---
 
 <HomeLayout>
-    <div class="grid place-items-center min-h-screen bg-gray-900 px-6">
+    <div class="grid place-items-center min-h-screen bg-his-bg px-6">
         <div class="max-w-sm w-full mx-auto text-center">
-            <h1 class="mb-8 text-9xl font-black text-white/20">404</h1>
+            <h1 class="mb-8 text-9xl font-black text-his-text/20">404</h1>
 
             <div class="space-y-4">
-                <h2 class="text-3xl font-bold text-white">Page not found</h2>
-                <p class="text-lg text-gray-400">
+                <h2 class="text-3xl font-bold text-his-text">Page not found</h2>
+                <p class="text-lg text-his-text-secondary">
                     The page you're looking for doesn't exist or has been moved.
                 </p>
 
                 <a
                     href="/"
-                    class="mt-8 inline-flex items-center gap-2 rounded-lg bg-white/10 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-white/20 hover:scale-105"
+                    class="mt-8 inline-flex items-center gap-2 rounded-lg bg-his-text/10 px-6 py-3 text-sm font-medium text-his-text transition-all hover:bg-his-text/20 hover:scale-105"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"

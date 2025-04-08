@@ -75,19 +75,19 @@ const seasons = Object.keys(episodesBySeasons).map(Number).sort((a, b) => b - a)
                     )}
                     <div class="space-y-1">
                         {episodesBySeasons[season].map((episode) => (
-                            <article class="hover:bg-gray-800/50 px-2 rounded-lg transition-colors">
+                            <article class="hover:bg-his-hover px-2 rounded-lg transition-colors">
                                 <a href={`/${episode.slug}`} class="block group">
                                     <h3 class="text-xl font-semibold group-hover:text-his-green transition-colors">
                                         {episode.data.title}
                                     </h3>
-                                    <div class="text-sm text-gray-400 mt-1 space-x-2">
+                                    <div class="text-sm text-his-text-secondary mt-1 space-x-2">
                                         {episode.data.date.toLocaleDateString('en-US', {
                                           year: 'numeric',
                                           month: 'long',
                                           day: 'numeric',
                                         })} {episode.data.time && <span>• {episode.data.time} min 🎧</span>}
                                     </div>
-                                    <p class="mt-2 text-gray-300">{episode.data.description}</p>
+                                    <p class="mt-2 text-his-text-secondary">{episode.data.description}</p>
                                 </a>
                             </article>
                         ))}
