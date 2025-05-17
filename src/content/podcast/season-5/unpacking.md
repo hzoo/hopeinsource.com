@@ -26,7 +26,7 @@ sidebar:
 
 ### Transcript
 
-> Heavily edited this for reading ease. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-5/belief.md)
+> Edited this for ease of reading. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-5/belief.md)
 
 [00:00] **Joseph:** I wanted to talk to you to explore what I believe because I still don't really know. Over the past eight-ish years, I've been thinking more about things, but still haven't... I have this giant 40-page doc that I sent you.
 
