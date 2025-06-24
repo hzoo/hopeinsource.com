@@ -16,13 +16,12 @@ export default defineConfig({
     remarkPlugins: [remarkTranscriptPlugin, remarkResponsiveImages],
   },
   experimental: {
-    responsiveImages: true,
+    // headingIdCompat: true,
+    preserveScriptOrder: true,
   },
   image: {
-    // Default settings for images
-    experimentalLayout: 'responsive',
-    experimentalObjectFit: 'cover',
-    experimentalObjectPosition: 'center',
+    responsiveStyles: true,
+    layout: 'constrained',
     // Reasonable default widths for responsive images
     service: {
       entrypoint: 'astro/assets/services/sharp',
