@@ -273,12 +273,27 @@
   }
 
   .message {            
-    @apply flex flex-col relative max-w-[85%] md:max-w-[72%] mb-0;
+    @apply flex flex-col relative max-w-[90%] md:max-w-[85%] lg:max-w-[72%] mb-0 transition-colors duration-300;
     scroll-margin-top: 20px;
+
+    /* Better mobile spacing */
+    @media (max-width: 768px) {
+      @apply max-w-[95%];
+    }
 
     /* Base message bubble style */
     & .message-bubble {
-      @apply px-4 py-3 rounded-2xl bg-his-chat-bg/40 break-words relative mb-1;
+      @apply px-4 py-3 rounded-2xl bg-his-chat-bg/40 break-words relative mb-1 transition-colors duration-300;
+      
+      /* Better mobile touch targets */
+      @media (max-width: 768px) {
+        @apply px-3 py-2.5 text-sm;
+      }
+    }
+
+    /* Current message highlighting */
+    &.message-current .message-bubble {
+      @apply bg-his-green/10 border border-his-green/20;
     }
 
     /* Hide speaker name in consecutive messages */
@@ -311,6 +326,27 @@
     & strong {
       @apply mb-1 font-bold text-his-green;
     }
+
+    /* Better text spacing and readability */
+    @apply leading-relaxed;
+
+    /* Enable text selection */
+    user-select: text;
+    -webkit-user-select: text;
+    -moz-user-select: text;
+  }
+
+  /* Speaker name styling improvements */
+  .message-sent .message-bubble strong {
+    @apply text-his-green;
+  }
+
+  .message-received .message-bubble strong {
+    color: var(--color-flexoki-orange-400);
+  }
+
+  .message-system .message-bubble strong {
+    color: var(--color-flexoki-cyan-400);
   }
 
   .message-time {
@@ -321,11 +357,17 @@
     &:hover {
       @apply text-his-green;
     }
+
+    /* Hide timestamps on mobile */
+    @media (max-width: 768px) {
+      @apply hidden;
+    }
   }
 
   .message-bubble:hover .message-time {
     @apply opacity-100;
   }
+
 
   /* Right-aligned messages (sent & system) */
   .message-sent, .message-system {

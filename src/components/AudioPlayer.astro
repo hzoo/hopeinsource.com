@@ -205,6 +205,33 @@ const { src } = Astro.props;
     const percent = (audio.currentTime / audio.duration) * 100;
     seekSlider.value = String(percent);
     progressBar.style.width = `${percent}%`;
+
+    // Update current message highlighting
+    updateCurrentMessage();
+  }
+
+  function updateCurrentMessage() {
+    const currentTime = Math.floor(audio.currentTime);
+    const messages = document.querySelectorAll('.message');
+    let currentMessage = null;
+
+    // Find the message that should be highlighted based on current time
+    messages.forEach(message => {
+      const timestamp = parseInt(message.getAttribute('data-timestamp') || '0');
+      if (timestamp <= currentTime) {
+        currentMessage = message;
+      }
+    });
+
+    // Remove previous highlighting
+    document.querySelectorAll('.message-current').forEach(msg => {
+      msg.classList.remove('message-current');
+    });
+
+    // Add highlighting to current message
+    if (currentMessage) {
+      currentMessage.classList.add('message-current');
+    }
   }
 
   function seekToTimestamp(playAudio = true) {
@@ -473,6 +500,7 @@ const { src } = Astro.props;
       shortcutsDialog.classList.add("hidden");
     }
   });
+
 </script>
 <style>
   #seek-slider::-webkit-slider-thumb {

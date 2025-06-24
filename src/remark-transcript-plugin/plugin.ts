@@ -154,12 +154,12 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       const isPrevConsecutive = speaker === lastSpeaker;
 
       const messageSpan = createSpan(textClass, [
+        createSpan(timestampClass, [
+          createText(timestamp),
+        ]),
         createStrong([createText(speaker)]),
         createText(" "),
         ...content as PhrasingContent[],
-        createSpan(timestampClass, [
-          createText(timestamp),
-        ])
       ]);
 
       const classes = [wrapClass, alignmentClass];
