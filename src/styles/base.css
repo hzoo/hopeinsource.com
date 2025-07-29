@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
 @theme {
   --font-system: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
@@ -248,7 +253,7 @@
   }
   h4 {
     @apply text-lg uppercase font-bold leading-none tracking-wide my-10;
-    scroll-margin-top: 20px;
+    scroll-margin-top: 3rem;
   }
 
   img {
@@ -269,7 +274,7 @@
 
 @layer components {
   .toc-link.active {
-    @apply bg-his-active;
+    @apply bg-his-active text-his-text;
   }
 
   .message {            

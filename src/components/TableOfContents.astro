@@ -12,25 +12,64 @@ const { headings } = Astro.props;
 ---
 
 {headings.length > 0 && (
-  <nav class="rounded-lg p-4 mb-8 bg-his-chat-other lg:sticky lg:top-8">
-    <ul class="list-none p-0">
-      {headings.map((heading) => (
-        <li class="mb-2">
-          <a
-            href={`#${heading.slug}`}
-            class="toc-link rounded-md no-underline transition-colors duration-300 hover:opacity-80 p-1"
-            data-heading-id={heading.slug}
+  <>
+    <!-- Ruler button -->
+    <button
+      id="toc-toggle"
+      class="fixed left-4 top-1/2 -translate-y-1/2 w-1 h-24 bg-his-text-tertiary hover:bg-his-text-secondary transition-colors duration-150 rounded-full z-40"
+      aria-label="Toggle table of contents"
+    />
+    
+    <!-- Optional subtle backdrop -->
+    <div
+      id="toc-backdrop"
+      class="fixed inset-0 bg-black/20 opacity-0 invisible transition-opacity duration-150 z-40 lg:hidden"
+    />
+    
+    <!-- Table of contents overlay -->
+    <nav
+      id="toc-nav"
+      class="fixed left-8 top-1/2 -translate-y-1/2 w-64 max-h-[80vh] bg-his-bg border border-his-hr rounded-lg shadow-lg opacity-0 invisible transition-opacity duration-150 z-50 overflow-y-auto"
+    >
+      <div class="p-2">
+        <div class="flex items-center justify-between">
+          <h3 class="text-xs font-semibold uppercase tracking-wide text-his-text-secondary mt-2 mx-2.5">Contents</h3>
+          <button
+            id="toc-close"
+            class="text-his-text-tertiary hover:text-his-text transition-colors p-1 -mr-1"
+            aria-label="Close table of contents"
           >
-            {heading.text}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </nav>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M18 6L6 18M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <ul class="list-none p-0">
+          {headings.map((heading) => (
+            <li class="mb-1 ml-0">
+              <a
+                href={`#${heading.slug}`}
+                class="toc-link block rounded text-sm no-underline transition-colors duration-150 hover:bg-his-hover py-1.5 px-2"
+                data-heading-id={heading.slug}
+              >
+                {heading.text}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    </nav>
+  </>
 )}
 
 <script>
   let currentActiveLink: HTMLElement | null = null;
+  
+  const tocToggle = document.getElementById('toc-toggle');
+  const tocBackdrop = document.getElementById('toc-backdrop');
+  const tocNav = document.getElementById('toc-nav');
+  const tocClose = document.getElementById('toc-close');
+  const tocLinks = document.querySelectorAll('.toc-link');
 
   function setActiveLink(id: string) {
     const correspondingLink = document.querySelector(`.toc-link[data-heading-id="${id}"]`) as HTMLElement;
@@ -43,6 +82,68 @@ const { headings } = Astro.props;
     }
   }
 
+  function openTOC() {
+    // Only show backdrop on mobile
+    if (window.innerWidth < 1024) {
+      tocBackdrop?.classList.remove('invisible', 'opacity-0');
+      tocBackdrop?.classList.add('opacity-100');
+    }
+    tocNav?.classList.remove('invisible', 'opacity-0');
+    tocNav?.classList.add('opacity-100');
+  }
+
+  function closeTOC() {
+    tocBackdrop?.classList.remove('opacity-100');
+    tocBackdrop?.classList.add('invisible', 'opacity-0');
+    tocNav?.classList.remove('opacity-100');
+    tocNav?.classList.add('invisible', 'opacity-0');
+  }
+
+  // Toggle button click
+  tocToggle?.addEventListener('click', openTOC);
+
+  // Close button click
+  tocClose?.addEventListener('click', closeTOC);
+
+  // Backdrop click
+  tocBackdrop?.addEventListener('click', closeTOC);
+
+  // Click outside to close
+  document.addEventListener('click', (e) => {
+    if (tocNav?.classList.contains('opacity-100')) {
+      const target = e.target as HTMLElement;
+      if (!tocNav.contains(target) && !tocToggle?.contains(target)) {
+        closeTOC();
+      }
+    }
+  });
+
+  // Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && tocNav?.classList.contains('opacity-100')) {
+      closeTOC();
+    }
+  });
+
+  // Close on link click with smooth scroll
+  tocLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+      e.preventDefault();
+      const href = link.getAttribute('href');
+      if (href) {
+        const target = document.querySelector(href);
+        if (target) {
+          closeTOC();
+          // Small delay to allow the overlay to start closing
+          setTimeout(() => {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          }, 100);
+        }
+      }
+    });
+  });
+
+  // Intersection Observer for active heading
   const observer = new IntersectionObserver(
     (entries) => {
       for (const entry of entries) {

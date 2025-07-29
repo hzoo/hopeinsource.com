@@ -38,9 +38,8 @@ const { slug, Content, headings, frontmatter } = Astro.props;
 <EpLayout frontmatter={frontmatter} slug={`/${slug}`}>
   <div class="mx-auto px-4 py-7 flex flex-col lg:max-w-6xl">
     <a href="/"><h3 class="m-0">← {hisMetadata.title}</h3></a>
-    <h2 class="text-4xl mt-5">{frontmatter.title}</h2>
-    <Subscribe />
-    <section class="episode-info text-sm text-his-text-secondary">
+    <h2 class="text-3xl mt-5 text-center">{frontmatter.title}</h2>
+    <section class="episode-info text-sm text-his-text-secondary text-center">
       {
         frontmatter.date.toLocaleDateString("en-US", {
           year: "numeric",
@@ -51,12 +50,11 @@ const { slug, Content, headings, frontmatter } = Astro.props;
       {frontmatter.time && ` • ${frontmatter.time} min 🎧`}
       {frontmatter.season && ` • Season ${frontmatter.season}`}
     </section>
-    <div class="mx-auto py-7 flex lg:gap-12 flex-col lg:flex-row">
-      <aside class="lg:w-[275px]">
-        <TableOfContents headings={headings} />
-      </aside>
-      <main class="flex-1">
-        <blockquote class="text-sm leading-relaxed text-his-text-secondary">
+    <Subscribe />
+    <TableOfContents headings={headings} />
+    <div class="mx-auto max-w-3xl">
+      <main>
+        <blockquote class="text-sm leading-relaxed text-his-text-secondary max-w-xl mx-auto">
           {frontmatter.description} ({frontmatter.time} min)
         </blockquote>
         <Content />
