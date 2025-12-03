@@ -12,24 +12,12 @@ const { src } = Astro.props;
         class="flex h-10 w-10 items-center justify-center rounded-xl bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
         aria-label="Play/Pause"
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          class="h-5 w-5"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z"
-          ></path>
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </button>
       <div class="group flex items-center">
@@ -38,19 +26,11 @@ const { src } = Astro.props;
           class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
           aria-label="Mute"
         >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            class="h-4 w-4"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z"
-            ></path>
+          <svg id="volume-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
+          </svg>
+          <svg id="mute-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4 hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6 4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
           </svg>
         </button>
         <div class="w-0 overflow-hidden transition-all duration-200 group-hover:w-24 flex items-center">
@@ -162,18 +142,20 @@ const { src } = Astro.props;
   const currentTimeDisplay = document.getElementById("current-time");
   const durationDisplay = document.getElementById("duration");
   const progressBar = document.getElementById("progress-bar");
-  const playIcon = playPauseButton.querySelector("svg");
+  const playIcon = document.getElementById("play-icon");
+  const pauseIcon = document.getElementById("pause-icon");
   const muteButton = document.getElementById("mute-button");
+  const volumeIcon = document.getElementById("volume-icon");
+  const muteIcon = document.getElementById("mute-icon");
   const shortcutsButton = document.getElementById("shortcuts-button");
   const shortcutsDialog = document.getElementById("shortcuts-dialog");
   const closeShortcuts = document.getElementById("close-shortcuts");
   const volumeSlider = document.getElementById("volume-slider");
-  const volumePopup = document.getElementById("volume-popup");
-  const volumeDisplay = document.getElementById("volume-display");
   const playerFeedback = document.getElementById("player-feedback");
   const feedbackText = document.getElementById("feedback-text");
-  let volumePopupTimeout;
+  const allMessages = document.querySelectorAll('.message');
   let feedbackTimeout;
+  let lastHighlightedMessage = null;
 
   let isLoaded = false;
 
@@ -212,25 +194,25 @@ const { src } = Astro.props;
 
   function updateCurrentMessage() {
     const currentTime = Math.floor(audio.currentTime);
-    const messages = document.querySelectorAll('.message');
     let currentMessage = null;
 
     // Find the message that should be highlighted based on current time
-    messages.forEach(message => {
+    allMessages.forEach(message => {
       const timestamp = parseInt(message.getAttribute('data-timestamp') || '0');
       if (timestamp <= currentTime) {
         currentMessage = message;
       }
     });
 
-    // Remove previous highlighting
-    document.querySelectorAll('.message-current').forEach(msg => {
-      msg.classList.remove('message-current');
-    });
-
-    // Add highlighting to current message
-    if (currentMessage) {
-      currentMessage.classList.add('message-current');
+    // Only update DOM if the highlighted message changed
+    if (currentMessage !== lastHighlightedMessage) {
+      if (lastHighlightedMessage) {
+        lastHighlightedMessage.classList.remove('message-current');
+      }
+      if (currentMessage) {
+        currentMessage.classList.add('message-current');
+      }
+      lastHighlightedMessage = currentMessage;
     }
   }
 
@@ -267,16 +249,13 @@ const { src } = Astro.props;
   }
 
   function togglePlayPauseIcon(isPaused) {
-    playIcon.innerHTML = isPaused
-      ? `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
-         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />`
-      : `<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />`;
+    playIcon.classList.toggle('hidden', !isPaused);
+    pauseIcon.classList.toggle('hidden', isPaused);
   }
 
   function loadAudioAndPlay(startTime = 0, play = true) {
     if (!isLoaded) {
       audio.src = src;
-      audio.setAttribute("x-cache-control", "max-age=31536000");
       audio.load();
       isLoaded = true;
     }
@@ -310,15 +289,8 @@ const { src } = Astro.props;
   }
 
   function updateMuteIcon(isMuted) {
-    muteButton.innerHTML = isMuted
-      ? `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6 4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-</svg>
-`
-      : `<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M19.114 5.636a9 9 0 0 1 0 12.728M16.463 8.288a5.25 5.25 0 0 1 0 7.424M6.75 8.25l4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
-</svg>
-`;
+    volumeIcon.classList.toggle('hidden', isMuted);
+    muteIcon.classList.toggle('hidden', !isMuted);
   }
 
   function showFeedback(action, value = '') {
@@ -441,30 +413,18 @@ const { src } = Astro.props;
     const volumeValue = Number(volumeSlider.value);
     audio.volume = volumeValue / 100;
     audio.muted = volumeValue === 0;
-    volumeDisplay.textContent = `${volumeValue}%`;
     updateMuteIcon(audio.muted);
     showFeedback('volume', volumeValue);
   }
 
-  function hideVolumePopup() {
-    volumePopupTimeout = setTimeout(() => {
-      volumePopup.classList.add("hidden");
-    }, 2000); // Hide after 2 seconds of inactivity
-  }
-
-  // Volume slider event listeners
+  // Volume slider event listener
   volumeSlider?.addEventListener("input", updateVolumeFromSlider);
-  volumeSlider?.addEventListener("mousedown", () => clearTimeout(volumePopupTimeout));
-  volumeSlider?.addEventListener("touchstart", () => clearTimeout(volumePopupTimeout));
-  volumeSlider?.addEventListener("mouseup", hideVolumePopup);
-  volumeSlider?.addEventListener("touchend", hideVolumePopup);
 
   // Update volume slider when audio is muted/unmuted
   audio.addEventListener("volumechange", () => {
     updateMuteIcon(audio.muted);
     if (!audio.muted) {
       volumeSlider.value = String(Math.round(audio.volume * 100));
-      volumeDisplay.textContent = `${Math.round(audio.volume * 100)}%`;
     }
   });
 
@@ -475,14 +435,6 @@ const { src } = Astro.props;
     if (!audio.muted && audio.volume === 0) {
       audio.volume = 0.5;
       volumeSlider.value = "50";
-      volumeDisplay.textContent = "50%";
-    }
-  });
-
-  // Close volume popup when clicking outside
-  document.addEventListener("click", (e) => {
-    if (!e.target.closest("#mute-button")) {
-      volumePopup.classList.add("hidden");
     }
   });
 

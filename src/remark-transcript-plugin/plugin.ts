@@ -78,10 +78,6 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
     let speakerCount = 0;
     let lastSpeaker: string | null = null;
 
-    // if (!vfile.basename?.includes("illich")) {
-    //   return;
-    // }
-
     visit(tree, "paragraph", (node: Paragraph, index?: number, parent?: Parent) => {
       if (index === undefined || !parent) return;
 

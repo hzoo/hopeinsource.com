@@ -39,8 +39,10 @@ const episodesBySeasons = Object.fromEntries(
 
 const seasons = Object.keys(episodesBySeasons).map(Number).sort((a, b) => b - a);
 
-// Calculate the total number of episodes
-const totalEpisodes = posts.length;
+// Pre-compute episode numbers (slug -> episode number)
+const episodeNumbers = new Map(
+  posts.map((post, index) => [post.slug, posts.length - index])
+);
 
 ---
 
@@ -83,11 +85,8 @@ const totalEpisodes = posts.length;
                         <h2 class="text-2xl font-bold text-his-green">Season {season}</h2>
                     )}
                     <div class="space-y-1">
-                        {episodesBySeasons[season].map((episode, index) => {
-                            // Find the index of the current episode in the overall sorted posts array
-                            const overallIndex = posts.findIndex(p => p.slug === episode.slug);
-                            // Calculate the episode number (total - overallIndex)
-                            const epNumber = totalEpisodes - overallIndex;
+                        {episodesBySeasons[season].map((episode) => {
+                            const epNumber = episodeNumbers.get(episode.slug);
                             return (
                             <article class="hover:bg-his-hover px-2 rounded-lg transition-colors relative">
                                 <a href={`/${episode.slug}`} class="block group">
