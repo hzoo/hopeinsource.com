@@ -1,8 +1,8 @@
-import { test, expect } from "bun:test";
-import { unified } from "unified";
+import { expect, test } from "bun:test";
+import rehypeStringify from "rehype-stringify";
 import remarkParse from "remark-parse";
 import remarkRehype from "remark-rehype";
-import rehypeStringify from "rehype-stringify";
+import { unified } from "unified";
 
 import { remarkTranscriptPlugin } from "./plugin";
 
@@ -25,12 +25,31 @@ test("remarkTranscriptPlugin transforms markdown correctly", async () => {
 **Speaker 1**: This is a line without a timestamp.
 `;
 
-  const expectedOutput = `<p class="wrap right"><a href="#t=00:28"><span class="timestamp">00:28 🕐</span></a><span class="text"><strong>Speaker 1</strong>: Hello, this is a test.</span></p>
-<p class="wrap other"><a href="#t=01:15"><span class="timestamp">01:15 🕐</span></a><span class="text"><strong>Speaker 2</strong>: This is another test line.</span></p>
-<p class="wrap right"><a href="#t=00:00"><span class="timestamp">00:00 🕐</span></a><span class="text"><strong>Speaker 1</strong>: This is a line without a timestamp.</span></p>`;
-
   const result = await processMarkdown(input);
-  expect(result.trim()).toBe(expectedOutput.trim());
+  
+  expect(result).toContain('id="msg-28"');
+  expect(result).toContain('class="message message-sent"');
+  expect(result).toContain('data-timestamp="28"');
+  expect(result).toContain('<span class="message-time">00:28</span>');
+  expect(result).toContain('<strong>Speaker 1</strong>');
+
+  expect(result).toContain('id="msg-75"');
+  expect(result).toContain('class="message message-received"');
+  expect(result).toContain('data-timestamp="75"');
+  expect(result).toContain('<span class="message-time">01:15</span>');
+
+  expect(result).toContain('id="msg-0"');
+  expect(result).toContain('data-timestamp="0"');
+});
+
+test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () => {
+  const input = "[01:00:03] **Henry**: Yeah, always. Yeah.";
+  const result = await processMarkdown(input);
+  
+  expect(result).toContain('id="msg-3603"');
+  expect(result).toContain('data-timestamp="3603"');
+  expect(result).toContain('<span class="message-time">01:00:03</span>');
+  expect(result).toContain('<strong>Henry</strong>');
 });
 
 test("remarkTranscriptPlugin handles empty input", async () => {
@@ -42,7 +61,7 @@ test("remarkTranscriptPlugin handles empty input", async () => {
 test("remarkTranscriptPlugin ignores non-transcript paragraphs", async () => {
   const input = "This is a regular paragraph without timestamps or speakers.";
   const result = await processMarkdown(input);
-  expect(result).toBe("<p>" + input + "</p>");
+  expect(result).toBe(`<p>${input}</p>`);
 });
 
 test("remarkTranscriptPlugin handles custom options", async () => {
@@ -50,9 +69,8 @@ test("remarkTranscriptPlugin handles custom options", async () => {
 
   const result = await processMarkdown(input, {
     timestampClass: "custom-timestamp",
-    timestampEmoji: "⏰",
   });
 
   expect(result).toContain('class="custom-timestamp"');
-  expect(result).toContain("⏰");
+  expect(result).toContain("00:28");
 });

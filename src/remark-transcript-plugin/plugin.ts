@@ -1,9 +1,9 @@
-import { visit } from "unist-util-visit";
 import { toString as toStringUtil } from "mdast-util-to-string";
+import { visit } from "unist-util-visit";
+import type { Heading, Paragraph, Parent, PhrasingContent, Root, RootContent, Strong, Text } from "mdast";
 import type { Plugin } from "unified";
-import type { Root, Paragraph, Text, Strong, PhrasingContent, Parent, RootContent, Heading } from "mdast";
 
-const timestampRegex = /^\[(\d{1,2}:\d{2})\]/;
+const timestampRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]/;
 
 interface PluginOptions {
   timestampClass?: string;
@@ -91,7 +91,8 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       let speaker: string | null = null;
 
       if (isTimestamp(node)) {
-        const match = (node.children[0] as Text).value.match(timestampRegex);
+        const textValue = (node.children[0] as Text).value;
+        const match = textValue.match(timestampRegex);
         if (match) {
           timestamp = match[1];
           speaker = toStringUtil(node.children[1] as Strong);

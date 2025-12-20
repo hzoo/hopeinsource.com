@@ -18,7 +18,7 @@ const podcastSchema = z.object({
 const podcast = defineCollection({
   loader: glob({ 
     pattern: '**/[^_]*.md', 
-    base: './src/content/podcast' 
+    base: 'src/content/podcast' 
   }),
   schema: podcastSchema,
 });
