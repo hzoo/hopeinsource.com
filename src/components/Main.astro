@@ -78,33 +78,65 @@ const episodeNumbers = new Map(
         </div>
     </div>
     <div class="flex-1">
-        <div class="space-y-12">
+        <div class="space-y-8">
             {seasons.map((season) => (
-                <section class="space-y-6">
+                <section class="space-y-4">
                     {season !== 0 && (
-                        <h2 class="text-2xl font-bold text-his-green">Season {season}</h2>
+                        <div class="flex items-center gap-3 mb-4">
+                            <h2 class="text-xl font-semibold tracking-wide text-his-green">Season {season}</h2>
+                            <div class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></div>
+                        </div>
                     )}
-                    <div class="space-y-1">
+                    <div class="space-y-2">
                         {episodesBySeasons[season].map((episode) => {
                             const epNumber = episodeNumbers.get(episode.slug);
                             return (
-                            <article class="hover:bg-his-hover px-2 rounded-lg transition-colors relative">
-                                <a href={`/${episode.slug}`} class="block group">
-                                    <h3 class="text-xl font-semibold group-hover:text-his-green transition-colors">
+                            <article class="group relative px-4 py-3 rounded-xl border border-transparent hover:border-his-hr hover:bg-his-hover/50 transition-all duration-200">
+                                <a href={`/${episode.slug}`} class="block">
+                                    <h3 class="text-lg font-medium group-hover:text-his-green transition-colors pr-12">
                                         {episode.data.title}
                                     </h3>
-                                    <div class="text-sm text-his-text-secondary mt-1 space-x-2">
-                                        {episode.data.date.toLocaleDateString('en-US', {
+                                    <div class="flex items-center gap-2 text-sm text-his-text-secondary mt-1.5">
+                                        <span>{episode.data.date.toLocaleDateString('en-US', {
                                           year: 'numeric',
-                                          month: 'long',
+                                          month: 'short',
                                           day: 'numeric',
-                                        })} {episode.data.time && <span>• {episode.data.time} min 🎧</span>}
+                                        })}</span>
+                                        {episode.data.time && (
+                                            <>
+                                                <span class="text-his-text-tertiary">•</span>
+                                                <span>{episode.data.time} min</span>
+                                            </>
+                                        )}
                                     </div>
-                                    <p class="mt-2 text-his-text-secondary">{episode.data.description}</p>
+                                    {(() => {
+                                            const desc = episode.data.description;
+                                            const match = desc.match(/^([^?]+\?)\s*(.*)$/);
+                                            if (match) {
+                                              const [, firstSentence, rest] = match;
+                                              return (
+                                                <>
+                                                  <p class="mt-2 text-sm text-his-text font-medium leading-relaxed">
+                                                    {firstSentence}
+                                                  </p>
+                                                  {rest && (
+                                                    <p class="mt-1 text-sm text-his-text-secondary leading-relaxed line-clamp-3">
+                                                      {rest}
+                                                    </p>
+                                                  )}
+                                                </>
+                                              );
+                                            }
+                                            return (
+                                              <p class="mt-2 text-sm text-his-text-secondary leading-relaxed line-clamp-3">
+                                                {desc}
+                                              </p>
+                                            );
+                                          })()}
                                 </a>
-                                {/* Episode number at top right */}
-                                <span class="absolute top-2 right-2 text-xs font-bold text-his-text-secondary">
-                                    #{epNumber}
+                                {/* Episode number badge */}
+                                <span class="absolute top-4 right-4 text-xs font-mono text-his-text-tertiary bg-his-hover/50 px-2 py-0.5 rounded-full">
+                                    {epNumber}
                                 </span>
                             </article>
                             );

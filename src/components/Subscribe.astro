@@ -1,33 +1,65 @@
 ---
-import {hisMetadata} from "@/metadata.ts";
+import { hisMetadata } from "@/metadata.ts";
 ---
 
-<p class="text-center mt-2">
-  <a href={hisMetadata.apple} target="_blank" rel="noreferrer">
-    Apple
-  </a>{" "}
-  &bull;{" "}
-  <a href={hisMetadata.spotify} target="_blank" rel="noreferrer">
-    Spotify
-  </a>{" "}
-  &bull;{" "}
-  <a href={hisMetadata.youtube} target="_blank" rel="noreferrer">
-    Youtube
-  </a>{" "}
-  &bull;{" "}
+<nav class="flex flex-wrap justify-center gap-2 mt-4 mb-2" aria-label="Subscribe to podcast">
+  <a
+    href={hisMetadata.apple}
+    target="_blank"
+    rel="noreferrer"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-his-text-secondary rounded-full border border-his-hr transition-all duration-200 ease-out hover:border-his-green hover:text-his-green hover:bg-his-green/5 group"
+  >
+    <svg class="w-4 h-4 transition-transform duration-200 ease-out group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12.001 2C6.477 2 2 6.477 2 12c0 5.523 4.477 10 10.001 10 5.522 0 9.999-4.477 9.999-10 0-5.523-4.477-10-9.999-10zm0 3.75c1.24 0 2.25 1.01 2.25 2.25s-1.01 2.25-2.25 2.25-2.25-1.01-2.25-2.25 1.01-2.25 2.25-2.25zm3.75 10.5c0 .69-.56 1.25-1.25 1.25h-5c-.69 0-1.25-.56-1.25-1.25v-1.25c0-.34.28-.625.625-.625H9.5v-2.5c0-.345.28-.625.625-.625h.625v-.625c0-.69.56-1.25 1.25-1.25s1.25.56 1.25 1.25v.625h.625c.345 0 .625.28.625.625v2.5h.625c.345 0 .625.285.625.625v1.25z"/>
+    </svg>
+    <span>Apple</span>
+  </a>
+
+  <a
+    href={hisMetadata.spotify}
+    target="_blank"
+    rel="noreferrer"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-his-text-secondary rounded-full border border-his-hr transition-all duration-200 ease-out hover:border-his-green hover:text-his-green hover:bg-his-green/5 group"
+  >
+    <svg class="w-4 h-4 transition-transform duration-200 ease-out group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+    </svg>
+    <span>Spotify</span>
+  </a>
+
+  <a
+    href={hisMetadata.youtube}
+    target="_blank"
+    rel="noreferrer"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-his-text-secondary rounded-full border border-his-hr transition-all duration-200 ease-out hover:border-his-green hover:text-his-green hover:bg-his-green/5 group"
+  >
+    <svg class="w-4 h-4 transition-transform duration-200 ease-out group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+    </svg>
+    <span>YouTube</span>
+  </a>
+
   <a
     href={hisMetadata.rss}
     target="_blank"
     rel="noopener noreferrer"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-his-text-secondary rounded-full border border-his-hr transition-all duration-200 ease-out hover:border-his-green hover:text-his-green hover:bg-his-green/5 group"
   >
-    RSS
-  </a>{" "}
-  &bull;{" "}
+    <svg class="w-4 h-4 transition-transform duration-200 ease-out group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M6.503 20.752c0 1.794-1.456 3.248-3.251 3.248-1.796 0-3.252-1.454-3.252-3.248 0-1.794 1.456-3.248 3.252-3.248 1.795.001 3.251 1.454 3.251 3.248zm-6.503-12.572v4.811c6.05.062 10.96 4.966 11.022 11.009h4.817c-.062-8.71-7.118-15.758-15.839-15.82zm0-3.368c10.58.046 19.152 8.594 19.183 19.188h4.817c-.03-13.231-10.755-23.954-24-24v4.812z"/>
+    </svg>
+    <span>RSS</span>
+  </a>
+
   <a
     href={`https://github.com/${hisMetadata.gitOrg}/${hisMetadata.gitRepo}`}
     target="_blank"
     rel="noreferrer"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-his-text-secondary rounded-full border border-his-hr transition-all duration-200 ease-out hover:border-his-green hover:text-his-green hover:bg-his-green/5 group"
   >
-    GitHub
+    <svg class="w-4 h-4 transition-transform duration-200 ease-out group-hover:scale-110" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+    </svg>
+    <span>GitHub</span>
   </a>
-</p> 
+</nav>

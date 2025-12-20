@@ -3,9 +3,7 @@ title: "01: Faith and Open Source"
 season: 1
 date: 2018-10-16
 time: "33"
-description: We talk about our backgrounds and motivation for doing this
-  podcast, and why the practice of faith seems so prevalent among open source
-  developers.
+description: "Why does faith seem so prevalent among open source developers? We talk about our backgrounds and motivation for starting this podcast."
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461566/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345525-44100-1-5abf9413eccd4620.mp3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/1-Faith-and-Open-Source-e2su99u
 sidebar:
