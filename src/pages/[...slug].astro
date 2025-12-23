@@ -31,7 +31,7 @@ export async function getStaticPaths() {
   // Pre-render content at build time
   const pages = await Promise.all(
     podcastEntries.map(async (entry) => {
-      const slug = entry.id.split("/").pop();
+      const slug = entry.id.split("/").pop() || "";
       const { Content, headings } = await render(entry);
       const h4Headings = headings.filter((h) => h.depth === 4);
 
