@@ -1,6 +1,6 @@
 <button
   id="theme-toggle"
-  class="fixed top-4 right-4 p-2 rounded-lg bg-his-hover text-his-text-secondary hover:text-his-green transition-colors"
+  class="fixed top-4 right-4 z-50 p-2 rounded-lg bg-his-hover text-his-text-secondary hover:text-his-green transition-colors"
   aria-label="Toggle theme"
 >
   <svg id="theme-toggle-dark-icon" class="w-5 h-5 hidden" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -23,26 +23,32 @@
     }
   }
 
-  function updateTheme() {
+  function updateThemeIcons() {
     const theme = document.documentElement.getAttribute('data-theme');
     const isDark = theme === 'dark';
-    
+
     // Update button icons
     document.getElementById('theme-toggle-dark-icon')?.classList.toggle('hidden', isDark);
     document.getElementById('theme-toggle-light-icon')?.classList.toggle('hidden', !isDark);
   }
 
-  // Initial theme setup
-  if (localStorage.theme === 'dark' || localStorage.theme === 'light') {
-    setTheme(localStorage.theme);
-  } else {
-    setTheme('system');
+  function initThemeToggle() {
+    // Initial theme setup
+    if (localStorage.theme === 'dark' || localStorage.theme === 'light') {
+      setTheme(localStorage.theme);
+    } else {
+      setTheme('system');
+    }
+
+    // Update icons
+    updateThemeIcons();
   }
 
   // Listen for system theme changes
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
     if (!localStorage.theme) { // Only update if using system theme
       setTheme('system');
+      updateThemeIcons();
     }
   });
 
@@ -52,9 +58,12 @@
     const currentTheme = document.documentElement.getAttribute('data-theme');
     const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
     setTheme(newTheme);
-    updateTheme();
+    updateThemeIcons();
   });
 
-  // Initial update of the toggle button
-  updateTheme();
+  // Initial setup
+  initThemeToggle();
+
+  // Re-initialize after View Transitions
+  document.addEventListener('astro:after-swap', initThemeToggle);
 </script> 

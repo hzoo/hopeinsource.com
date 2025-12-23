@@ -1,5 +1,5 @@
 ---
-title: "03: Intrinsic Motivation"
+title: "Intrinsic Motivation"
 season: 1
 date: 2018-10-16
 time: "43"

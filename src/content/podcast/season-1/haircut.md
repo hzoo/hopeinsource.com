@@ -1,5 +1,5 @@
 ---
-title: "12: Haircut (Bonus)"
+title: "Haircut (Jonathan Tsao)"
 season: 1
 date: 2020-02-14
 time: "27"

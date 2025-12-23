@@ -1,5 +1,5 @@
 ---
-title: "MA 6: Jory Burson on the Significance of Standards"
+title: "The Significance of Standards (Jory Burson)"
 season: 2
 date: 2019-05-24
 time: "65"

@@ -1,5 +1,5 @@
 ---
-title: "11: City as Liturgy (Timothy Patitsas)"
+title: "City as Liturgy (Timothy Patitsas)"
 season: 1
 date: 2019-03-21
 time: "54"

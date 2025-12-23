@@ -1,5 +1,5 @@
 ---
-title: "MA 9: Wendy Hagenmaier on Preserving the (Digital) Past"
+title: "Preserving the (Digital) Past (Wendy Hagenmaier)"
 season: 2
 date: 2019-07-08
 time: "42"

@@ -1,5 +1,5 @@
 ---
-title: "01: Faith and Open Source"
+title: "Faith and Open Source"
 season: 1
 date: 2018-10-16
 time: "33"

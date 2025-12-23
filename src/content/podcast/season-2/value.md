@@ -1,5 +1,5 @@
 ---
-title: "MA 3: Stephanie Hurlburt on Perception of Value"
+title: "Perception of Value (Stephanie Hurlburt)"
 season: 2
 date: 2019-04-19
 time: "55"

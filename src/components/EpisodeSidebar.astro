@@ -1,0 +1,302 @@
+---
+import { getCollection } from "astro:content";
+import type { PodcastEntry } from "@/types/podcast";
+import { hisMetadata } from "@/metadata.ts";
+
+interface TOCHeading {
+  slug: string;
+  text: string;
+}
+
+interface Props {
+  currentSlug: string;
+  headings?: TOCHeading[];
+}
+
+const { currentSlug, headings = [] } = Astro.props;
+
+// Fetch and sort episodes (same logic as Main.astro)
+const rawPosts = await getCollection("podcast");
+const posts: PodcastEntry[] = rawPosts
+  .sort((a, b) => {
+    const aSeason = a.data.season || 0;
+    const bSeason = b.data.season || 0;
+    if (bSeason !== aSeason) {
+      return bSeason - aSeason;
+    }
+    return b.data.sidebar.order - a.data.sidebar.order;
+  })
+  .map(post => ({
+    ...post,
+    slug: post.id.split('/').pop() || ''
+  }));
+
+// Group by season
+const episodesBySeasons = Object.fromEntries(
+  Object.entries(
+    posts.reduce((acc, episode) => {
+      const season = episode.data.season || 0;
+      if (!acc[season]) {
+        acc[season] = [];
+      }
+      acc[season].push(episode);
+      return acc;
+    }, {} as Record<number, PodcastEntry[]>)
+  ).sort(([a], [b]) => Number(b) - Number(a))
+);
+
+const seasons = Object.keys(episodesBySeasons).map(Number).sort((a, b) => b - a);
+
+// Pre-compute episode numbers (same as Main.astro)
+const episodeNumbers = new Map(
+  posts.map((post, index) => [post.slug, posts.length - index])
+);
+
+// Parse title to separate episode name from guest name
+function parseTitle(title: string): { episodeTitle: string; guest: string | null } {
+  const match = title.match(/^(.+?)\s*\(([^)]+)\)$/);
+  if (match) {
+    return { episodeTitle: match[1].trim(), guest: match[2].trim() };
+  }
+  return { episodeTitle: title, guest: null };
+}
+---
+
+<!-- Mobile toggle button -->
+<button
+  id="sidebar-toggle"
+  class="lg:hidden fixed left-4 top-4 z-50 p-2.5 bg-his-bg border border-his-hr rounded-lg hover:bg-his-hover transition-colors"
+  aria-label="Toggle episode list"
+>
+  <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+  </svg>
+</button>
+
+<!-- Mobile backdrop -->
+<div
+  id="sidebar-backdrop"
+  class="lg:hidden fixed inset-0 bg-black/50 z-30 opacity-0 invisible transition-opacity duration-300"
+></div>
+
+<!-- Sidebar -->
+<aside
+  id="episode-sidebar"
+  class="fixed left-0 top-0 h-full w-80 bg-his-bg border-r border-his-hr z-40
+         transform -translate-x-full lg:translate-x-0 transition-transform duration-300
+         flex flex-col"
+>
+  <!-- Sidebar header -->
+  <div class="p-4 border-b border-his-hr flex items-center gap-3 flex-shrink-0">
+    <a
+      href="/"
+      class="flex items-center gap-2 text-his-text-secondary hover:text-his-green transition-colors"
+      data-astro-prefetch
+    >
+      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+      </svg>
+      <span class="text-sm font-medium">{hisMetadata.title}</span>
+    </a>
+  </div>
+
+  <!-- Scrollable content (hidden scrollbar) -->
+  <div class="overflow-y-auto flex-1 p-3 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+    <!-- Chapters section (mobile only) -->
+    {headings.length > 0 && (
+      <section class="mb-5 lg:hidden">
+        <button
+          id="chapters-toggle"
+          class="w-full flex items-center justify-between text-xs font-semibold text-his-green uppercase tracking-wider mb-2 px-2 py-1 hover:bg-his-hover/50 rounded"
+        >
+          <span>Chapters</span>
+          <svg id="chapters-arrow" class="w-4 h-4 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div id="chapters-list" class="space-y-0.5 hidden">
+          {headings.map((heading) => (
+            <a
+              href={`#${heading.slug}`}
+              class="chapter-link block py-2 px-3 rounded-lg text-sm text-his-text-secondary hover:bg-his-hover hover:text-his-text transition-colors"
+              data-heading-id={heading.slug}
+            >
+              <span class="line-clamp-2">{heading.text}</span>
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    <!-- Episodes list -->
+    {seasons.map((season) => (
+      <section class="mb-6">
+        {season !== 0 && (
+          <h3 class="text-[10px] font-bold text-his-green uppercase tracking-[0.2em] mb-3 px-3 flex items-center gap-2">
+            <span>{season === 2 ? "Maintainers Anonymous" : `Season ${season}`}</span>
+            <span class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></span>
+          </h3>
+        )}
+        <div class="space-y-0.5">
+          {episodesBySeasons[season].map((episode) => {
+            const isActive = episode.slug === currentSlug;
+            const epNumber = episodeNumbers.get(episode.slug);
+            const { episodeTitle, guest } = parseTitle(episode.data.title);
+            return (
+              <a
+                href={`/${episode.slug}`}
+                class:list={[
+                  "episode-link group relative block py-2.5 px-3 rounded-r-lg transition-all duration-200",
+                  "border-l-2",
+                  isActive
+                    ? "border-his-green bg-his-green/8 text-his-text"
+                    : "border-transparent hover:border-his-text-tertiary hover:bg-his-hover/50"
+                ]}
+                data-astro-prefetch="hover"
+                aria-current={isActive ? "page" : undefined}
+              >
+                <div class="flex items-start gap-2.5">
+                  <span class:list={[
+                    "flex-shrink-0 text-[10px] font-mono tabular-nums pt-0.5 transition-colors",
+                    isActive ? "text-his-green" : "text-his-text-tertiary group-hover:text-his-text-secondary"
+                  ]}>
+                    {epNumber}
+                  </span>
+                  <div class="flex-1 min-w-0">
+                    <span class:list={[
+                      "block text-sm leading-snug transition-colors",
+                      isActive ? "text-his-green font-medium" : "text-his-text-secondary group-hover:text-his-text"
+                    ]}>
+                      {episodeTitle}
+                    </span>
+                    {guest && (
+                      <span class:list={[
+                        "block text-xs mt-0.5 transition-colors",
+                        isActive ? "text-his-green/70" : "text-his-text-tertiary group-hover:text-his-text-secondary"
+                      ]}>
+                        {guest}
+                      </span>
+                    )}
+                  </div>
+                </div>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</aside>
+
+<script>
+  function initSidebar() {
+    const sidebar = document.getElementById('episode-sidebar');
+    const toggle = document.getElementById('sidebar-toggle');
+    const backdrop = document.getElementById('sidebar-backdrop');
+    const chaptersToggle = document.getElementById('chapters-toggle');
+    const chaptersList = document.getElementById('chapters-list');
+    const chaptersArrow = document.getElementById('chapters-arrow');
+    const chapterLinks = document.querySelectorAll('.chapter-link');
+
+    function openSidebar() {
+      sidebar?.classList.remove('-translate-x-full');
+      backdrop?.classList.remove('opacity-0', 'invisible');
+      backdrop?.classList.add('opacity-100');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeSidebar() {
+      sidebar?.classList.add('-translate-x-full');
+      backdrop?.classList.add('opacity-0', 'invisible');
+      backdrop?.classList.remove('opacity-100');
+      document.body.style.overflow = '';
+    }
+
+    // Chapters accordion toggle
+    chaptersToggle?.addEventListener('click', () => {
+      const isHidden = chaptersList?.classList.contains('hidden');
+      if (isHidden) {
+        chaptersList?.classList.remove('hidden');
+        chaptersArrow?.classList.add('rotate-180');
+      } else {
+        chaptersList?.classList.add('hidden');
+        chaptersArrow?.classList.remove('rotate-180');
+      }
+    });
+
+    // Chapter links - scroll to heading and close sidebar
+    chapterLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const href = link.getAttribute('href');
+        if (href) {
+          closeSidebar();
+          setTimeout(() => {
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+          }, 300);
+        }
+      });
+    });
+
+    // Event listeners
+    toggle?.addEventListener('click', openSidebar);
+    backdrop?.addEventListener('click', closeSidebar);
+
+    // Close on escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeSidebar();
+    });
+
+    // Swipe gesture for mobile drawer
+    let touchStartX = 0;
+    let touchStartY = 0;
+
+    document.addEventListener('touchstart', (e) => {
+      touchStartX = e.touches[0].clientX;
+      touchStartY = e.touches[0].clientY;
+    }, { passive: true });
+
+    document.addEventListener('touchend', (e) => {
+      const touchEndX = e.changedTouches[0].clientX;
+      const touchEndY = e.changedTouches[0].clientY;
+      const diffX = touchEndX - touchStartX;
+      const diffY = Math.abs(touchEndY - touchStartY);
+
+      // Only trigger if horizontal swipe is dominant
+      if (diffY < 100) {
+        // Swipe right from left edge to open
+        if (touchStartX < 30 && diffX > 80) {
+          openSidebar();
+        }
+        // Swipe left to close
+        else if (diffX < -80 && !sidebar?.classList.contains('-translate-x-full')) {
+          closeSidebar();
+        }
+      }
+    }, { passive: true });
+
+    // Scroll to active episode
+    const activeLink = sidebar?.querySelector('[aria-current="page"]');
+    if (activeLink) {
+      activeLink.scrollIntoView({ block: 'center', behavior: 'instant' });
+    }
+  }
+
+  // Initialize on first load
+  initSidebar();
+
+  // Re-initialize after View Transitions and close sidebar
+  document.addEventListener('astro:after-swap', () => {
+    initSidebar();
+    // Close mobile sidebar on navigation
+    const sidebar = document.getElementById('episode-sidebar');
+    const backdrop = document.getElementById('sidebar-backdrop');
+    sidebar?.classList.add('-translate-x-full');
+    backdrop?.classList.add('opacity-0', 'invisible');
+    backdrop?.classList.remove('opacity-100');
+    document.body.style.overflow = '';
+  });
+</script>

@@ -1,5 +1,5 @@
 ---
-title: "MA 8: Anthony Giovannetti on Mastery and Learning through Games"
+title: "Mastery and Learning through Games (Anthony Giovannetti)"
 season: 2
 date: 2019-06-21
 time: "57"

@@ -1,5 +1,5 @@
 ---
-title: "MA 1: Omnigamer on Speedrunning as Research"
+title: "Speedrunning as Research (Omnigamer)"
 season: 2
 date: 2019-04-10
 time: "87"

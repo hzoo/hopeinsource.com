@@ -1,5 +1,5 @@
 ---
-title: "MA 7: Philip Gee On Growing Old with the Web"
+title: "Growing Old with the Web (Philip Gee)"
 season: 2
 date: 2019-05-31
 time: "64"

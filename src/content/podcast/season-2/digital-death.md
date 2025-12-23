@@ -1,5 +1,5 @@
 ---
-title: "MA 16: Philip Gee (#3) on Life After Digital Death"
+title: "Life After Digital Death (Philip Gee)"
 season: 2
 date: 2020-09-23
 time: "33"

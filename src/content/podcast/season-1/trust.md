@@ -1,5 +1,5 @@
 ---
-title: "10: Trust"
+title: "Trust"
 season: 1
 date: 2018-10-16
 time: "34"

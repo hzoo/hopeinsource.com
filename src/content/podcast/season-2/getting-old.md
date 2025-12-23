@@ -1,5 +1,5 @@
 ---
-title: "MA 4: Mikeal Rogers on Getting Old in Open Source"
+title: "Getting Old in Open Source (Mikeal Rogers)"
 season: 2
 date: 2019-04-29
 time: "83"

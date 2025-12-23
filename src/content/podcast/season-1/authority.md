@@ -1,5 +1,5 @@
 ---
-title: "08: Authority and Leadership"
+title: "Authority and Leadership"
 season: 1
 date: 2018-10-16
 time: "26"

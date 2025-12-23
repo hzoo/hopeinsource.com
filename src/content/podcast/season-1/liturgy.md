@@ -1,5 +1,5 @@
 ---
-title: "09: Liturgy"
+title: "Liturgy"
 season: 1
 date: 2018-10-16
 time: "32"

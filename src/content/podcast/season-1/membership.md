@@ -1,5 +1,5 @@
 ---
-title: "02: Community Membership"
+title: "Community Membership"
 season: 1
 date: 2018-10-16
 time: "34"

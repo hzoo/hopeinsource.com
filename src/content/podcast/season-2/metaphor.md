@@ -1,5 +1,5 @@
 ---
-title: "MA 12: Maggie Appleton on Embodiment Through Metaphors"
+title: "Embodiment Through Metaphors (Maggie Appleton)"
 season: 2
 date: 2020-05-13
 time: "54"

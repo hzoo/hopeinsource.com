@@ -1,14 +1,32 @@
 ---
 import { getCollection, render } from "astro:content";
-import EpLayout from "../layouts/EpLayout.astro";
+import Layout from "@/layouts/Layout.astro";
+import EpisodeSidebar from "@/components/EpisodeSidebar.astro";
 import TableOfContents from "../components/TableOfContents.astro";
-import { hisMetadata } from "@/metadata.ts";
 import AudioPlayer from "@/components/AudioPlayer.astro";
 import Footer from "@/components/Footer.astro";
 import Subscribe from "@/components/Subscribe.astro";
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection("podcast");
+
+  // Sort episodes same as Main.astro/EpisodeSidebar.astro
+  const sortedEntries = [...podcastEntries].sort((a, b) => {
+    const aSeason = a.data.season || 0;
+    const bSeason = b.data.season || 0;
+    if (bSeason !== aSeason) {
+      return bSeason - aSeason;
+    }
+    return b.data.sidebar.order - a.data.sidebar.order;
+  });
+
+  // Compute episode numbers (last in sorted list = #1)
+  const episodeNumbers = new Map(
+    sortedEntries.map((entry, index) => {
+      const slug = entry.id.split("/").pop() || "";
+      return [slug, sortedEntries.length - index];
+    })
+  );
 
   // Pre-render content at build time
   const pages = await Promise.all(
@@ -24,6 +42,7 @@ export async function getStaticPaths() {
           Content,
           headings: h4Headings,
           frontmatter: entry.data,
+          episodeNumber: episodeNumbers.get(slug || "") || 0,
         },
       };
     }),
@@ -32,20 +51,15 @@ export async function getStaticPaths() {
   return pages;
 }
 
-const { slug, Content, headings, frontmatter } = Astro.props;
+const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
 ---
 
-<EpLayout frontmatter={frontmatter} slug={`/${slug}`}>
-  <div class="mx-auto px-4 py-8 flex flex-col lg:max-w-6xl">
-    {/* Back navigation */}
-    <a href="/" class="inline-flex items-center gap-1.5 text-sm text-his-text-secondary hover:text-his-green transition-colors w-fit mb-8">
-      <svg class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-      </svg>
-      <span>{hisMetadata.title}</span>
-    </a>
+<Layout frontmatter={frontmatter} slug={`/${slug}`}>
+  <EpisodeSidebar currentSlug={slug} headings={headings} />
 
-    {/* Episode header */}
+  <div class="lg:ml-80">
+    <div class="mx-auto px-4 py-8 flex flex-col lg:max-w-4xl">
+      {/* Episode header */}
     <header class="text-center mb-6">
       <h1 class="text-2xl md:text-3xl font-semibold mb-3">{frontmatter.title}</h1>
       <div class="flex items-center justify-center gap-3 text-sm text-his-text-secondary">
@@ -62,10 +76,10 @@ const { slug, Content, headings, frontmatter } = Astro.props;
             <span>{frontmatter.time} min</span>
           </>
         )}
-        {frontmatter.season && (
+        {episodeNumber > 0 && (
           <>
             <span class="text-his-text-tertiary">•</span>
-            <span class="text-his-green/80">Season {frontmatter.season}</span>
+            <span class="text-his-green/80">#{episodeNumber}</span>
           </>
         )}
       </div>
@@ -84,5 +98,6 @@ const { slug, Content, headings, frontmatter } = Astro.props;
     </div>
     <Footer />
     <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
+    </div>
   </div>
-</EpLayout>
+</Layout>

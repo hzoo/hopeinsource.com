@@ -3,7 +3,7 @@ const { src } = Astro.props;
 ---
 
 <div
-  class="fixed bottom-4 left-1/2 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm"
+  class="fixed bottom-4 left-1/2 lg:left-[calc(50%+160px)] z-40 w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm"
 >
   <div class="px-4 py-3">
     <div class="flex items-center gap-4">
@@ -84,7 +84,7 @@ const { src } = Astro.props;
 <!-- Seek feedback popup -->
 <div
   id="player-feedback"
-  class="fixed left-1/2 -translate-x-1/2 bottom-32 bg-his-hover/95 text-his-text px-4 py-2 rounded-lg border border-his-text-tertiary/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none flex items-center gap-2"
+  class="fixed left-1/2 -translate-x-1/2 bottom-32 z-40 bg-his-hover/95 text-his-text px-4 py-2 rounded-lg border border-his-text-tertiary/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none flex items-center gap-2"
 >
   <span id="feedback-text" class="text-sm"></span>
 </div>
@@ -450,6 +450,18 @@ const { src } = Astro.props;
   shortcutsDialog.addEventListener("click", (e) => {
     if (e.target === shortcutsDialog) {
       shortcutsDialog.classList.add("hidden");
+    }
+  });
+
+  // Reset state after View Transitions (new episode page)
+  document.addEventListener('astro:after-swap', () => {
+    // Reset loaded state for new episode
+    isLoaded = false;
+    lastHighlightedMessage = null;
+    // Clear any lingering audio
+    if (audio) {
+      audio.pause();
+      audio.src = '';
     }
   });
 

@@ -1,5 +1,5 @@
 ---
-title: "MA 13: Jordan Scales on Nostalgia and Not Taking Yourself Too Seriously"
+title: "Nostalgia and Not Taking Yourself Too Seriously (Jordan Scales)"
 season: 2
 date: 2020-05-26
 time: "76"

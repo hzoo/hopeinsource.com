@@ -1,5 +1,5 @@
 ---
-title: "05: Evangelism"
+title: "Evangelism"
 season: 1
 date: 2018-10-16
 time: "34"

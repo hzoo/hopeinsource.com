@@ -13,10 +13,10 @@ const { headings } = Astro.props;
 
 {headings.length > 0 && (
   <>
-    <!-- Scrubber toggle -->
+    <!-- Scrubber toggle (desktop only, right side) -->
     <div
       id="toc-scrubber"
-      class="fixed left-3 top-1/2 -translate-y-1/2 flex flex-col gap-1.5 p-2 z-40 group cursor-pointer"
+      class="hidden lg:flex fixed right-3 top-1/2 -translate-y-1/2 flex-col items-end gap-1.5 p-2 z-40 group cursor-pointer"
       aria-label="Table of contents"
     >
       {headings.map((heading) => (
@@ -27,17 +27,11 @@ const { headings } = Astro.props;
       ))}
     </div>
     
-    <!-- Optional subtle backdrop -->
-    <div
-      id="toc-backdrop"
-      class="fixed inset-0 bg-black/20 opacity-0 invisible transition-opacity duration-150 z-40 lg:hidden"
-    />
-    
-    <!-- Table of contents overlay -->
+    <!-- Table of contents overlay (opens to left of scrubber) -->
     <nav
       id="toc-nav"
-      class="fixed left-12 top-1/2 w-64 max-h-[80vh] bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-300 z-50 overflow-y-auto"
-      style="transform: translateY(-50%) translateX(-10px);"
+      class="hidden lg:block fixed right-12 top-1/2 w-64 max-h-[80vh] bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-300 z-50 overflow-y-auto"
+      style="transform: translateY(-50%) translateX(10px);"
     >
       <div class="p-2">
         <div class="flex items-center justify-between border-b border-his-hr/50 pb-2 mb-2">
@@ -72,9 +66,10 @@ const { headings } = Astro.props;
 
 <script>
   let currentActiveId: string | null = null;
-  
+  let isManuallyOpened = false;
+  let hoverTimeout: ReturnType<typeof setTimeout> | null = null;
+
   const tocScrubber = document.getElementById('toc-scrubber');
-  const tocBackdrop = document.getElementById('toc-backdrop');
   const tocNav = document.getElementById('toc-nav');
   const tocClose = document.getElementById('toc-close');
   const tocLinks = document.querySelectorAll('.toc-link');
@@ -112,30 +107,52 @@ const { headings } = Astro.props;
   }
 
   function openTOC() {
-    if (window.innerWidth < 1024) {
-      tocBackdrop?.classList.remove('invisible', 'opacity-0');
-      tocBackdrop?.classList.add('opacity-100');
-    }
     tocNav?.classList.remove('invisible', 'opacity-0');
     tocNav?.classList.add('opacity-100');
-    // Shift the nav in slightly
+    // Shift the nav in (from right side)
     tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(0)');
   }
 
   function closeTOC() {
-    tocBackdrop?.classList.remove('opacity-100');
-    tocBackdrop?.classList.add('invisible', 'opacity-0');
     tocNav?.classList.remove('opacity-100');
     tocNav?.classList.add('invisible', 'opacity-0');
-    tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(-10px)');
+    tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+    isManuallyOpened = false;
   }
 
-  // Toggle scrubber click
+  // Hover to expand
+  tocScrubber?.addEventListener('mouseenter', () => {
+    if (hoverTimeout) clearTimeout(hoverTimeout);
+    openTOC();
+  });
+
+  tocScrubber?.addEventListener('mouseleave', () => {
+    if (!isManuallyOpened) {
+      hoverTimeout = setTimeout(() => {
+        if (!tocNav?.matches(':hover')) {
+          closeTOC();
+        }
+      }, 300);
+    }
+  });
+
+  tocNav?.addEventListener('mouseenter', () => {
+    if (hoverTimeout) clearTimeout(hoverTimeout);
+  });
+
+  tocNav?.addEventListener('mouseleave', () => {
+    if (!isManuallyOpened) {
+      hoverTimeout = setTimeout(closeTOC, 300);
+    }
+  });
+
+  // Click to pin open
   tocScrubber?.addEventListener('click', () => {
-    if (tocNav?.classList.contains('opacity-100')) {
+    if (isManuallyOpened) {
       closeTOC();
     } else {
       openTOC();
+      isManuallyOpened = true;
     }
   });
 
@@ -144,9 +161,6 @@ const { headings } = Astro.props;
     e.stopPropagation();
     closeTOC();
   });
-
-  // Backdrop click
-  tocBackdrop?.addEventListener('click', closeTOC);
 
   // Click outside to close
   document.addEventListener('click', (e) => {
@@ -203,11 +217,27 @@ const { headings } = Astro.props;
   headingElements.forEach((heading) => observer.observe(heading));
 
   // Initialize active state based on current scroll position or hash
-  window.addEventListener('load', () => {
+  function initActiveState() {
     const hash = window.location.hash;
     if (hash) {
       const id = hash.replace('#', '');
       setActive(id);
     }
+  }
+
+  window.addEventListener('load', initActiveState);
+
+  // Re-initialize after View Transitions
+  document.addEventListener('astro:after-swap', () => {
+    // Re-observe headings on new page
+    const newHeadingElements = document.querySelectorAll('h4');
+    newHeadingElements.forEach((heading) => observer.observe(heading));
+
+    // Reset active state
+    currentActiveId = null;
+    initActiveState();
+
+    // Ensure TOC is closed on navigation
+    closeTOC();
   });
 </script> 

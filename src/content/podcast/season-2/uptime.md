@@ -1,5 +1,5 @@
 ---
-title: "MA 10: Jonathan Farbowitz on the Commitment to Infinite Uptime"
+title: "The Commitment to Infinite Uptime (Jonathan Farbowitz)"
 season: 2
 date: 2019-07-15
 time: "75"

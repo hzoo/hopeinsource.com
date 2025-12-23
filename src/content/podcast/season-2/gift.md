@@ -1,5 +1,5 @@
 ---
-title: "MA 11: Maggie Appleton on Open Source as a Gift Economy"
+title: "Open Source as a Gift Economy (Maggie Appleton)"
 season: 2
 date: 2020-03-05
 time: "55"

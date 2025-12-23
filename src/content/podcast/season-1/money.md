@@ -1,5 +1,5 @@
 ---
-title: "06: Money"
+title: "Money"
 season: 1
 date: 2018-10-16
 time: "44"

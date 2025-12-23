@@ -1,5 +1,5 @@
 ---
-title: "MA 5: Evan You on Funding One's Freedom"
+title: "Funding One's Freedom (Evan You)"
 season: 2
 date: 2019-05-06
 time: "86"

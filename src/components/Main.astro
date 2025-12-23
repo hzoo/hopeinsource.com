@@ -88,7 +88,9 @@ const episodeNumbers = new Map(
                 <section class="space-y-4">
                     {season !== 0 && (
                         <div class="flex items-center gap-3 mb-4">
-                            <h2 class="text-xl font-semibold tracking-wide text-his-green">Season {season}</h2>
+                            <h2 class="text-xl font-semibold tracking-wide text-his-green">
+                                {season === 2 ? "Maintainers Anonymous" : `Season ${season}`}
+                            </h2>
                             <div class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></div>
                         </div>
                     )}
@@ -97,7 +99,7 @@ const episodeNumbers = new Map(
                             const epNumber = episodeNumbers.get(episode.slug);
                             return (
                             <article class="group relative px-4 py-3 rounded-xl border border-transparent hover:border-his-hr hover:bg-his-hover/50 transition-all duration-200">
-                                <a href={`/${episode.slug}`} class="block">
+                                <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
                                     <h3 class="text-lg font-medium group-hover:text-his-green transition-colors pr-12">
                                         {episode.data.title}
                                     </h3>
