@@ -1,7 +1,6 @@
 ---
-import { getCollection } from "astro:content";
-import type { PodcastEntry } from "@/types/podcast";
 import { hisMetadata } from "@/metadata.ts";
+import { getEpisodeData } from "@/lib/episodes";
 
 interface TOCHeading {
   slug: string;
@@ -14,52 +13,7 @@ interface Props {
 }
 
 const { currentSlug, headings = [] } = Astro.props;
-
-// Fetch and sort episodes (same logic as Main.astro)
-const rawPosts = await getCollection("podcast");
-const posts: PodcastEntry[] = rawPosts
-  .sort((a, b) => {
-    const aSeason = a.data.season || 0;
-    const bSeason = b.data.season || 0;
-    if (bSeason !== aSeason) {
-      return bSeason - aSeason;
-    }
-    return b.data.sidebar.order - a.data.sidebar.order;
-  })
-  .map(post => ({
-    ...post,
-    slug: post.id.split('/').pop() || ''
-  }));
-
-// Group by season
-const episodesBySeasons = Object.fromEntries(
-  Object.entries(
-    posts.reduce((acc, episode) => {
-      const season = episode.data.season || 0;
-      if (!acc[season]) {
-        acc[season] = [];
-      }
-      acc[season].push(episode);
-      return acc;
-    }, {} as Record<number, PodcastEntry[]>)
-  ).sort(([a], [b]) => Number(b) - Number(a))
-);
-
-const seasons = Object.keys(episodesBySeasons).map(Number).sort((a, b) => b - a);
-
-// Pre-compute episode numbers (same as Main.astro)
-const episodeNumbers = new Map(
-  posts.map((post, index) => [post.slug, posts.length - index])
-);
-
-// Parse title to separate episode name from guest name
-function parseTitle(title: string): { episodeTitle: string; guest: string | null } {
-  const match = title.match(/^(.+?)\s*\(([^)]+)\)$/);
-  if (match) {
-    return { episodeTitle: match[1].trim(), guest: match[2].trim() };
-  }
-  return { episodeTitle: title, guest: null };
-}
+const { episodesBySeasons, seasons } = await getEpisodeData();
 ---
 
 <!-- Mobile toggle button -->
@@ -140,8 +94,6 @@ function parseTitle(title: string): { episodeTitle: string; guest: string | null
         <div class="space-y-0.5">
           {episodesBySeasons[season].map((episode) => {
             const isActive = episode.slug === currentSlug;
-            const epNumber = episodeNumbers.get(episode.slug);
-            const { episodeTitle, guest } = parseTitle(episode.data.title);
             return (
               <a
                 href={`/${episode.slug}`}
@@ -160,21 +112,26 @@ function parseTitle(title: string): { episodeTitle: string; guest: string | null
                     "flex-shrink-0 text-[10px] font-mono tabular-nums pt-0.5 transition-colors",
                     isActive ? "text-his-green" : "text-his-text-tertiary group-hover:text-his-text-secondary"
                   ]}>
-                    {epNumber}
+                    {episode.epNumber}
                   </span>
                   <div class="flex-1 min-w-0">
                     <span class:list={[
                       "block text-sm leading-snug transition-colors",
                       isActive ? "text-his-green font-medium" : "text-his-text-secondary group-hover:text-his-text"
                     ]}>
-                      {episodeTitle}
+                      {episode.episodeTitle}
                     </span>
-                    {guest && (
+                    {episode.guestDisplays.length > 0 && (
                       <span class:list={[
                         "block text-xs mt-0.5 transition-colors",
                         isActive ? "text-his-green/70" : "text-his-text-tertiary group-hover:text-his-text-secondary"
                       ]}>
-                        {guest}
+                        {episode.guestDisplays.map((g, i) => (
+                            <>
+                              {i > 0 && ", "}
+                              {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">×{g.count}</sup>}
+                            </>
+                          ))}
                       </span>
                     )}
                   </div>

@@ -1,49 +1,12 @@
 ---
-import { getCollection } from "astro:content";
-import type { PodcastEntry } from "@/types/podcast";
 import Testimonial from "@/components/Testimonial.astro";
 import Footer from "@/components/Footer.astro";
 import Subscribe from "@/components/Subscribe.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
+import { getEpisodeData } from "@/lib/episodes";
 
-// Move all data processing to build time
-const rawPosts = await getCollection("podcast");
-const posts: PodcastEntry[] = rawPosts
-  .sort((a, b) => {
-    const aSeason = a.data.season || 0;
-    const bSeason = b.data.season || 0;
-    if (bSeason !== aSeason) {
-      return bSeason - aSeason;
-    }
-    return b.data.sidebar.order - a.data.sidebar.order;
-  })
-  .map(post => ({
-    ...post,
-    slug: post.id.split('/').pop() || ''
-  }));
-
-// Pre-compute episodes by season at build time
-const episodesBySeasons = Object.fromEntries(
-  Object.entries(
-    posts.reduce((acc, episode) => {
-      const season = episode.data.season || 0;
-      if (!acc[season]) {
-        acc[season] = [];
-      }
-      acc[season].push(episode);
-      return acc;
-    }, {} as Record<number, PodcastEntry[]>)
-  ).sort(([a], [b]) => Number(b) - Number(a))
-);
-
-const seasons = Object.keys(episodesBySeasons).map(Number).sort((a, b) => b - a);
-
-// Pre-compute episode numbers (slug -> episode number)
-const episodeNumbers = new Map(
-  posts.map((post, index) => [post.slug, posts.length - index])
-);
-
+const { episodesBySeasons, seasons } = await getEpisodeData();
 ---
 
 <div class="mx-auto px-3 sm:px-5 py-5 sm:py-7 flex flex-col lg:flex-row lg:max-w-6xl">
@@ -95,14 +58,22 @@ const episodeNumbers = new Map(
                         </div>
                     )}
                     <div class="space-y-2">
-                        {episodesBySeasons[season].map((episode) => {
-                            const epNumber = episodeNumbers.get(episode.slug);
-                            return (
+                        {episodesBySeasons[season].map((episode) => (
                             <article class="group relative px-3 sm:px-4 py-3 rounded-xl border border-transparent hover:border-his-hr hover:bg-his-hover/50 transition-all duration-200">
                                 <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
                                     <h3 class="text-lg font-medium group-hover:text-his-green transition-colors pr-12">
-                                        {episode.data.title}
+                                        {episode.episodeTitle}
                                     </h3>
+                                    {episode.guestDisplays.length > 0 && (
+                                        <p class="text-sm text-his-text-secondary mt-0.5">
+                                            {episode.guestDisplays.map((g, i) => (
+                                                <>
+                                                    {i > 0 && ", "}
+                                                    {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">×{g.count}</sup>}
+                                                </>
+                                            ))}
+                                        </p>
+                                    )}
                                     <div class="flex items-center gap-2 text-sm text-his-text-secondary mt-1.5">
                                         <span>{episode.data.date.toLocaleDateString('en-US', {
                                           year: 'numeric',
@@ -143,11 +114,10 @@ const episodeNumbers = new Map(
                                 </a>
                                 {/* Episode number badge */}
                                 <span class="absolute top-4 right-4 text-xs font-mono text-his-text-tertiary bg-his-hover/50 px-2 py-0.5 rounded-full">
-                                    {epNumber}
+                                    {episode.epNumber}
                                 </span>
                             </article>
-                            );
-                        })}
+                        ))}
                     </div>
                 </section>
             ))}

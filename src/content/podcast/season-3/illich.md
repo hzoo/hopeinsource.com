@@ -1,9 +1,9 @@
 ---
-title: "Ivan Illich (Michael Sacasas)"
+title: "Ivan Illich (L.M. Sacasas)"
 season: 3
 date: 2021-06-18
 time: "50"
-description: "Why read Ivan Illich today? In this episode, Madhu Suri Prakash and Dana L. Stuchul of Penn State University interview Michael Sacasas on his work as being a sort of bridge or interlocutor of Illich's thoughts. They talk about schooling and inequality in COVID, ways of thinking about technology, a life of planning vs. gift, convivial tools, redemption of work, and more. (Recorded in December 2020)"
+description: "Why read Ivan Illich today? In this episode, Madhu Suri Prakash and Dana L. Stuchul of Penn State University interview L.M. Sacasas on his work as being a sort of bridge or interlocutor of Illich's thoughts. They talk about schooling and inequality in COVID, ways of thinking about technology, a life of planning vs. gift, convivial tools, redemption of work, and more. (Recorded in December 2020)"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461672/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345628-48000-1-79729c67884603ae.mp3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Ivan-Illich-L-M--Sacasas-e2su9d8
 sidebar:

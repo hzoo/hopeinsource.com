@@ -1,9 +1,9 @@
 ---
-title: "Attending to Silence (Michael Sacasas)"
+title: "Attending to Silence (L.M. Sacasas)"
 season: 3
 date: 2021-09-01
 time: "57"
-description: "How can we think about digital communication, let alone silence? Is it possible? Michael Sacasas is back to chat about a few of his last newsletter posts: the nature of silence, attention not as a resource, on hope vs. expectations, the arms race of escalation, manufactured needs, askesis or discipline, the commons vs. the public, and trustlessness and codes of law."
+description: "How can we think about digital communication, let alone silence? Is it possible? L.M. Sacasas is back to chat about a few of his last newsletter posts: the nature of silence, attention not as a resource, on hope vs. expectations, the arms race of escalation, manufactured needs, askesis or discipline, the commons vs. the public, and trustlessness and codes of law."
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461836/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345804-48000-1-0cf3d38cd693d9f6.mp3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Attending-to-Silence-L-M--Sacasas-e2su9ic
 sidebar:
