@@ -52,6 +52,17 @@ export async function getStaticPaths() {
 }
 
 const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
+
+// Parse title to separate episode name from guest
+function parseTitle(title: string): { episodeTitle: string; guest: string | null } {
+  const match = title.match(/^(.+?)\s*\(([^)]+)\)$/);
+  if (match) {
+    return { episodeTitle: match[1].trim(), guest: match[2].trim() };
+  }
+  return { episodeTitle: title, guest: null };
+}
+
+const { episodeTitle, guest } = parseTitle(frontmatter.title);
 ---
 
 <Layout frontmatter={frontmatter} slug={`/${slug}`}>
@@ -60,9 +71,10 @@ const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
   <div class="lg:ml-80">
     <div class="mx-auto px-3 sm:px-4 py-6 sm:py-8 flex flex-col lg:max-w-4xl">
       {/* Episode header */}
-    <header class="text-center mb-6">
-      <h1 class="text-2xl md:text-3xl font-semibold mb-3">{frontmatter.title}</h1>
-      <div class="flex items-center justify-center gap-3 text-sm text-his-text-secondary">
+    <header class="text-center mb-4">
+      <h1 class="text-2xl md:text-3xl font-semibold mb-1">{episodeTitle}</h1>
+      {guest && <p class="text-his-text-secondary mb-2">{guest}</p>}
+      <div class="flex items-center justify-center gap-2 text-sm text-his-text-tertiary">
         <time datetime={frontmatter.date.toISOString()}>
           {frontmatter.date.toLocaleDateString("en-US", {
             year: "numeric",
@@ -72,27 +84,33 @@ const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
         </time>
         {frontmatter.time && (
           <>
-            <span class="text-his-text-tertiary">•</span>
+            <span class="text-his-text-tertiary/50">·</span>
             <span>{frontmatter.time} min</span>
           </>
         )}
         {episodeNumber > 0 && (
           <>
-            <span class="text-his-text-tertiary">•</span>
-            <span class="text-his-green/80">#{episodeNumber}</span>
+            <span class="text-his-text-tertiary/50">·</span>
+            <span class="text-his-green/70">#{episodeNumber}</span>
           </>
         )}
       </div>
     </header>
 
-    <Subscribe />
+    {/* Description as the hook */}
+    <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-3 leading-relaxed">
+      {frontmatter.description}
+    </p>
+
+    {/* Subscribe as afterthought */}
+    <div class="mb-6">
+      <Subscribe />
+    </div>
+
     <TableOfContents headings={headings} />
 
     <div class="mx-auto max-w-3xl">
       <main>
-        <p class="text-sm leading-relaxed text-his-text-secondary max-w-xl mx-auto mb-6 sm:mb-8 px-2 sm:px-0">
-          {frontmatter.description}
-        </p>
         <Content />
       </main>
     </div>

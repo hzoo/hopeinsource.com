@@ -35,46 +35,53 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                         where word becomes flesh
                     </p>
                 </div>
-                <p class="mt-4 m-0 text-xs text-his-text-tertiary opacity-0 animate-[fadeIn_0.8s_ease_1.1s_forwards]">
-                    backstory:{" "}
-                    <a href="https://henryzoo.com/living-out-in-faith">Henry</a>
-                    {" "}·{" "}
-                    <a href="https://nadia.xyz/public-faith">Nadia</a>
-                </p>
-                <Subscribe />
+                <div class="mt-5 space-y-1.5 text-xs text-his-text-tertiary">
+                    <div class="opacity-0 animate-[fadeIn_0.8s_ease_1.1s_forwards]">
+                        <Subscribe />
+                    </div>
+                    <p class="m-0 opacity-0 animate-[fadeIn_0.8s_ease_1.3s_forwards]">
+                        with{" "}
+                        <a href="https://henryzoo.com/living-out-in-faith">Henry</a>
+                        {" "}&{" "}
+                        <a href="https://nadia.xyz/public-faith">Nadia</a>
+                    </p>
+                </div>
             </div>
         </div>
     </div>
     <div class="flex-1">
-        <div class="space-y-8">
+        <div class="space-y-6">
             {seasons.map((season) => (
-                <section class="space-y-4">
+                <section class="space-y-2">
                     {season !== 0 && (
-                        <div class="flex items-center gap-3 mb-4">
+                        <div class="flex items-center gap-3 mb-2">
                             <h2 class="text-xl font-semibold tracking-wide text-his-green">
                                 {season === 2 ? "Maintainers Anonymous" : `Season ${season}`}
                             </h2>
                             <div class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></div>
                         </div>
                     )}
-                    <div class="space-y-2">
+                    <div class="space-y-1">
                         {episodesBySeasons[season].map((episode) => (
-                            <article class="group relative px-3 sm:px-4 py-3 rounded-xl border border-transparent hover:border-his-hr hover:bg-his-hover/50 transition-all duration-200">
+                            <article class="group relative px-3 sm:px-4 py-2 rounded-lg border border-transparent hover:border-his-hr hover:bg-his-hover/50 transition-all duration-200">
                                 <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
                                     <h3 class="text-lg font-medium group-hover:text-his-green transition-colors pr-12">
                                         {episode.episodeTitle}
                                     </h3>
-                                    {episode.guestDisplays.length > 0 && (
-                                        <p class="text-sm text-his-text-secondary mt-0.5">
-                                            {episode.guestDisplays.map((g, i) => (
-                                                <>
-                                                    {i > 0 && ", "}
-                                                    {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">×{g.count}</sup>}
-                                                </>
-                                            ))}
-                                        </p>
-                                    )}
-                                    <div class="flex items-center gap-2 text-sm text-his-text-secondary mt-1.5">
+                                    <div class="flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary mt-0.5">
+                                        {episode.guestDisplays.length > 0 && (
+                                            <>
+                                                <span class="text-his-text-secondary">
+                                                    {episode.guestDisplays.map((g, i) => (
+                                                        <>
+                                                            {i > 0 && ", "}
+                                                            {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">×{g.count}</sup>}
+                                                        </>
+                                                    ))}
+                                                </span>
+                                                <span class="text-his-text-tertiary/50">·</span>
+                                            </>
+                                        )}
                                         <span>{episode.data.date.toLocaleDateString('en-US', {
                                           year: 'numeric',
                                           month: 'short',
@@ -82,7 +89,7 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                         })}</span>
                                         {episode.data.time && (
                                             <>
-                                                <span class="text-his-text-tertiary">•</span>
+                                                <span class="text-his-text-tertiary/50">·</span>
                                                 <span>{episode.data.time} min</span>
                                             </>
                                         )}
@@ -94,11 +101,11 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                               const [, firstSentence, rest] = match;
                                               return (
                                                 <>
-                                                  <p class="mt-2 text-sm text-his-text font-medium leading-relaxed">
+                                                  <p class="mt-1.5 text-sm text-his-text font-medium leading-relaxed">
                                                     {firstSentence}
                                                   </p>
                                                   {rest && (
-                                                    <p class="mt-1 text-sm text-his-text-secondary leading-relaxed line-clamp-3">
+                                                    <p class="mt-0.5 text-sm text-his-text-secondary leading-relaxed line-clamp-2">
                                                       {rest}
                                                     </p>
                                                   )}
@@ -106,14 +113,14 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                               );
                                             }
                                             return (
-                                              <p class="mt-2 text-sm text-his-text-secondary leading-relaxed line-clamp-3">
+                                              <p class="mt-1.5 text-sm text-his-text-secondary leading-relaxed line-clamp-2">
                                                 {desc}
                                               </p>
                                             );
                                           })()}
                                 </a>
                                 {/* Episode number badge */}
-                                <span class="absolute top-4 right-4 text-xs font-mono text-his-text-tertiary bg-his-hover/50 px-2 py-0.5 rounded-full">
+                                <span class="absolute top-2.5 right-3 text-xs font-mono text-his-text-tertiary">
                                     {episode.epNumber}
                                 </span>
                             </article>

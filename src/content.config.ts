@@ -12,6 +12,7 @@ const podcastSchema = z.object({
   sidebar: z.object({
     order: z.number(),
   }),
+  speakers: z.record(z.string(), z.enum(['left', 'right', 'other'])).optional(),
 });
 
 // Define the podcast collection
