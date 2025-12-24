@@ -58,7 +58,7 @@ const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
   <EpisodeSidebar currentSlug={slug} headings={headings} />
 
   <div class="lg:ml-80">
-    <div class="mx-auto px-4 py-8 flex flex-col lg:max-w-4xl">
+    <div class="mx-auto px-3 sm:px-4 py-6 sm:py-8 flex flex-col lg:max-w-4xl">
       {/* Episode header */}
     <header class="text-center mb-6">
       <h1 class="text-2xl md:text-3xl font-semibold mb-3">{frontmatter.title}</h1>
@@ -90,7 +90,7 @@ const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
 
     <div class="mx-auto max-w-3xl">
       <main>
-        <blockquote class="text-sm leading-relaxed text-his-text-secondary max-w-xl mx-auto mb-8">
+        <blockquote class="text-sm leading-relaxed text-his-text-secondary max-w-xl mx-auto mb-6 sm:mb-8 px-2 sm:px-0">
           {frontmatter.description}
         </blockquote>
         <Content />

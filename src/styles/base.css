@@ -282,22 +282,22 @@ html {
     @apply bg-his-active text-his-text;
   }
 
-  .message {            
-    @apply flex flex-col relative max-w-[90%] md:max-w-[85%] lg:max-w-[72%] mb-0 transition-colors duration-300;
+  .message {
+    @apply flex flex-col relative max-w-[92%] md:max-w-[85%] lg:max-w-[72%] mb-0 transition-colors duration-300;
     scroll-margin-top: 20px;
 
     /* Better mobile spacing */
-    @media (max-width: 768px) {
-      @apply max-w-[95%];
+    @media (max-width: 640px) {
+      @apply max-w-[96%];
     }
 
     /* Base message bubble style */
     & .message-bubble {
       @apply px-4 py-3 rounded-2xl bg-his-chat-bg/40 break-words relative mb-1 transition-colors duration-300;
-      
+
       /* Better mobile touch targets */
-      @media (max-width: 768px) {
-        @apply px-3 py-2.5 text-sm;
+      @media (max-width: 640px) {
+        @apply px-3 py-2 text-[0.9rem];
       }
     }
 
