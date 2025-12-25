@@ -27,7 +27,7 @@ sidebar:
 
 [00:09] **Nadia:** Okay. I still don't really know what [liturgy](https://en.wikipedia.org/wiki/Liturgy) is, so we should talk about what that is first.
 
-[00:15] **Henry:** So I think we've (laughing) chatted about it before, but I think one way of thinking about it- well it's- it's used in a religious context and so it's like practices or habits or things that uh you engage in as a group of people, um that uh- I don't know. I guess they could say like bringing you closer to God or something like that. But you can apply it more generally to be more just things that you do as a community that bring you towards like the goals or visions that you have of that group.
+[00:15] **Henry:** We've (laughing) chatted about it before, but one way of thinking about it- it's used in a religious context and it's practices or habits or things that you engage in as a group of people, that bring you closer to God or something like that. But you can apply it more generally to things that you do as a community that bring you towards the goals or visions that you have of that group.
 
 [00:47] **Nadia:** So what's the difference between liturgy and rituals?
 

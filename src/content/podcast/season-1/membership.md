@@ -21,17 +21,17 @@ sidebar:
 
 #### A Call to Commitment
 
-[00:00] **Nadia:** So today we're gonna be talking about the concept of membership in a church. What it means to commit or not commit to attending. I think that's it, right?
+[00:00] **Nadia:** Today we're gonna be talking about the concept of membership in a church. What it means to commit or not commit to attending. That's it, right?
 
-[00:13] **Henry:** Yeah, Sounds good. Or how that relates to how we might see that in open source.
+[00:13] **Henry:** Sounds good. Or how that relates to how we might see that in open source.
 
-[00:18] **Nadia:** So I was thinking about this topic because I was reading this book called Call to Commitment, about a church that kind of took the approach of drawing these very clear lines around who was a member of the church and who isn't.
+[00:18] **Nadia:** I was thinking about this topic because I was reading this book called Call to Commitment, about a church that took the approach of drawing very clear lines around who was a member of the church and who isn't.
 
 > [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) is by Elizabeth O'Connor, who wrote about her membership at [Church of the Saviour](<https://en.wikipedia.org/wiki/Church_of_the_Saviour_(Washington,_D.C.)>), with a focus on lay (not professional) ministry, accountability, and intimacy. They emphasized small groups over what has become mega churches, and influenced movements such as the emergent church.
 
-[00:33] **Nadia:** The idea being that if you wanna show up and attend, you're always welcome to attend, welcome to take part and enjoy the services. But if you really wanna be a part of the church, they wanna know that you're super, super committed. And that means saying no to people that might just sort of be casually committed. And just taught me about what it means to have a smaller group of people that are actually at that level of commitment.
+[00:33] **Nadia:** The idea being that if you wanna show up and attend, you're always welcome to attend, welcome to take part and enjoy the services. But if you really wanna be a part of the church, they wanna know that you're super committed. And that means saying no to people that might be casually committed. It taught me about what it means to have a smaller group of people that are actually at that level of commitment.
 
-[00:59] **Henry:** Yeah, I go to a church that has membership. And they're plenty of churches that don't. I think this is something that was traditionally implied already, that most churches have it. But then recently, I think there's been long trend of wanting church to be more friendly and welcoming people. They use the word "seeker-friendly". And what that means is that there's someone trying to seek God, and it's like, "Oh, we want to cater to that."
+[00:59] **Henry:** I go to a church that has membership. There are plenty of churches that don't. This is something that was traditionally implied already, that most churches have it. But recently, there's been a long trend of wanting church to be more friendly and welcoming. They use the word "seeker-friendly". That means there's someone trying to seek God, and "we want to cater to that."
 
 > "Seeker-friendly" can mean a positive emphasis on welcoming and inclusion, though I think it's tend to be used pejoratively to emphasize creating an overly watered-down environment that doesn't challenge, and rather caters to current tastes. It might be a change in aesthetics (form), so that it's music sounds more like pop music than hymns, the attire seems more casual rather than ornate, the sermon like a ted talk than convicting, or the building feels like a mall/concert instead of a cathedral. The idea of "meeting people where they are" can be helpful but sometimes it can remove the distinctives of what the church even represents. I think this kind of thinking believes that the content (Jesus) takes precendence over the medium to a fault, disregarding what might make church distinctive.
 
@@ -41,9 +41,9 @@ sidebar:
 
 #### Membership as an Affirmation
 
-[02:02] **Nadia:** So what does it mean to be a member? What do you get if you are a member? And also what do you have to give to be a member?
+[02:02] **Nadia:** What does it mean to be a member? What do you get if you are a member? And also what do you have to give to be a member?
 
-[02:08] **Henry:** Yeah, so I think for (laughs) a lot of places, I think the get is not like a material, well maybe they'll give you a certificate. Hey, you're a member now. But it's more of a sense of responsibility, it could be a lot of things. So like maybe you're expected to participate, or to be there every week for people to join a certain type of ministry to serve people in the skills that God is giving you.
+[02:08] **Henry:** For (laughs) a lot of places, the get is not material, well maybe they'll give you a certificate. Hey, you're a member now. But it's more of a sense of responsibility, it could be a lot of things. Maybe you're expected to participate, or to be there every week for people to join a certain type of ministry to serve people in the skills that God is giving you.
 
 [02:44] **Henry:** Or maybe it's tithing. Or maybe it's other kinds of responsibilities in the church. And I think the way a lot of people think about it is... my old pastor used the word, not like a Costco membership. Where you kind of pay a fee every year, and then you get these nice benefits or sales on things. No, you're committed. And I think even in the book, you're committed to this local group where you live for the foreseeable future. Instead of just like, I can come and go whenever I please, where people wanna know what's going on and you care about what's going on.
 
@@ -55,53 +55,53 @@ sidebar:
 
 [04:20] **Nadia:** Do you know if anyone have ever turned down someone who wanted to be a member, but they thought weren't ready for it?
 
-[04:28] **Henry:** Oh yeah. So you might have certain... you wouldn't call them hard requirements, but a lot of membership, they have like a class you have to take. Maybe every week, someone will teach something about what does this church believe, or what they do, or the history. So anything like that.
+[04:28] **Henry:** You might have certain... you wouldn't call them hard requirements, but a lot of membership, they have a class you have to take. Maybe every week, someone will teach something about what this church believes, or what they do, or the history.
 
-[04:49] **Henry:** So you know what you're getting into, and then at the end, maybe you have the interview with the pastor or the elders there, just to talk about why you're doing this and and where you can help out, that kind of thing.
+[04:49] **Henry:** You know what you're getting into, and then at the end, maybe you have the interview with the pastor or the elders there, to talk about why you're doing this and where you can help out.
 
-[05:03] **Henry:** So I don't know if people would necessarily reject someone. Because if you're gonna go through all those classes and all that, you get a really good sense of why they're doing this and what they're doing it for.
+[05:03] **Henry:** I don't know if people would necessarily reject someone. Because if you're gonna go through all those classes and all that, you get a really good sense of why they're doing this and what they're doing it for.
 
 #### Membership Composition
 
 [05:23] **Nadia:** And how many people are members versus how many people would just say, just attend a service and aren't members?
 
-[05:36] **Henry:** It could be like half. It kind of depends on the composition of the church. Maybe if it's you know... I guess it really depends.
+[05:36] **Henry:** It could be half. It depends on the composition of the church.
 
-[05:46] **Nadia:** But like, for your church.
+[05:46] **Nadia:** But for your church?
 
-[05:48] **Henry:** Yeah, I'd say like, half or so. Yeah. Does your church have a lot of families, or maybe it's like college students, or kids, all those things kind of change the composition too.
+[05:48] **Henry:** I'd say half or so. Does your church have a lot of families, or maybe it's college students, or kids, all those things change the composition too.
 
 #### From Contributor to Maintainer
 
-[06:06] **Nadia:** Interesting. So, we're talking about this in relation to open source, and the idea of casual contributors versus longer term contributors and maintainers, and how to create an environment where the casual contributor is welcome, or anyone who wants to participate or wants to do more, can do more. But doesn't necessarily just sort of jump and then say, I'm gonna be a long-term contributor. You kind of have to do certain things to show a level of dedication, but how do you do that without being like elitist about it, right?
+[06:06] **Nadia:** We're talking about this in relation to open source, and the idea of casual contributors versus longer term contributors and maintainers, and how to create an environment where the casual contributor is welcome, or anyone who wants to participate or wants to do more, can do more. But doesn't necessarily jump and then say, I'm gonna be a long-term contributor. You have to do certain things to show a level of dedication, but how do you do that without being elitist about it?
 
-[06:41] **Henry:** Yeah. I think it's weird with churches. You don't have to show anything about like how you know good you are at x, y, z, right? So it's different with open source. Our level of trust is like, we actually do wanna see that you committed code or reviewing pull requests kind of thing. But in church it's not like, "Oh, like read the Bible like five times a day or something," and then now you're a member, right. (Laughs) We're not looking for that kind of-
+[06:41] **Henry:** It's weird with churches. You don't have to show anything about how good you are at x, y, z. It's different with open source. Our level of trust is, we actually do wanna see that you committed code or reviewing pull requests. But in church it's not like, "Oh, read the Bible five times a day or something," and then now you're a member. (Laughs) We're not looking for that kind of-
 
-[07:07] **Nadia:** I think they are like sorta similar, though. Or, just in the sense that the goal is to not document, but like, you already are internally committed or interested, and you're kinda just like doing the thing that you normally would wanna do anyway. It's not about like a test or proving yourself, I think there's some way that you set up a level of expectation that, if you're this active or committed, you are doing this kind of work already.
+[07:07] **Nadia:** They are similar, though. The goal is to not document, but you already are internally committed or interested, and you're doing the thing that you normally would wanna do anyway. It's not about a test or proving yourself, there's some way that you set up a level of expectation that, if you're this active or committed, you are doing this kind of work already.
 
-[07:42] **Henry:** Yeah, exactly. I think that's a really good way of putting it. You're not taking a test or proving something. You've already done work or you've already shown something before, but you're telling the group of maintainers or the church, that you are committed now. It's kind of like, you might do volunteer work just because, but later it's like, "Oh, I am, I'm committing to this." Or even me, where I'm like, "Hey, I was already doing open source, and it's fine. But if I quit, and I say I'm doing this full time, I'm telling everybody that I'm committing to this." And it's kind of like a declaration to people, in public, in the community as a whole, that I'm doing this. Instead of just personally, or individually.
+[07:42] **Henry:** That's a really good way of putting it. You're not taking a test or proving something. You've already done work or you've already shown something before, but you're telling the group of maintainers or the church, that you are committed now. You might do volunteer work just because, but later it's like, "Oh, I'm committing to this." Or even me, "Hey, I was already doing open source, and it's fine. But if I quit, and I say I'm doing this full time, I'm telling everybody that I'm committing to this." It's a declaration to people, in public, in the community as a whole, that I'm doing this. Instead of just personally, or individually.
 
 [08:35] **Nadia:** Has that worked out in practice on Babel, in terms of like how maintainers became maintainers, or more active contributors?
 
-[08:49] **Henry:** So I definitely have not like made a... I've never really thought about what exactly it takes to do that. We don't definitely don't have like classes on it (laughs), being a maintainer. I don't even have the right thoughts for that right now, which I wanna do. It would be interesting to make that more formal. I feel like a lot of open source is very informal, especially if you're not like a huge project. With, a large company backing and they're all paid to do that. And you have people that are all thinking about organization, right?
+[08:49] **Henry:** I definitely have not... I've never really thought about what exactly it takes to do that. We don't have classes on it (laughs), being a maintainer. I don't even have the right thoughts for that right now, which I wanna do. It would be interesting to make that more formal. A lot of open source is very informal, especially if you're not a huge project. With a large company backing and they're all paid to do that. And you have people that are all thinking about organization.
 
-[09:24] **Henry:** But in open source, with just volunteers, they're maybe the ones doing it all, or one person's trying to think about that stuff. So it's more like, "Hey, I found this person that has been contributing for awhile, and they seem committed." You ask the rest of the group, and they're like, "Oh, that's cool," and then you add them. And that's it. And then you have to figure out what that onboarding looks like. You don't even have it all I think in most cases. So it would be better to make it more explicit.
+[09:24] **Henry:** But in open source, with just volunteers, they're maybe the ones doing it all, or one person's trying to think about that stuff. It's more like, "Hey, I found this person that has been contributing for awhile, and they seem committed." You ask the rest of the group, and they're like, "Oh, that's cool," and then you add them. And that's it. And then you have to figure out what that onboarding looks like. You don't even have it all in most cases. It would be better to make it more explicit.
 
 #### Definitions are Hard
 
-[09:56] **Nadia:** Yeah. So how does this play out with the sort of like, more casual or one-off contributors in terms of, making it seem obvious that they can join, but they can contribute however they want to contribute, but not necessarily... you serve them, but I guess in a different way than you would serve a fellow maintainer, right?
+[09:56] **Nadia:** How does this play out with more casual or one-off contributors in terms of making it seem obvious that they can join, but they can contribute however they want to contribute, but not necessarily... you serve them, but in a different way than you would serve a fellow maintainer, right?
 
-[10:22] **Henry:** Yeah, I guess it's almost like they might not even know they wanna be a maintainer, they don't know what it looks like. We should write down kind of what are the responsibilities of being a maintainer explicitly. What are the kind of things we, you should care about. And then that way they'll have a better sense of, "Oh, is this something I wanna move toward?" Same with mentorship. You'll find people, they're like, "Oh, you're a member," and say what does that mean? And you can talk about it in the same way. I'm just saying right now, maybe they don't even know that it's a thing, or it's very vague. It's like, "Oh, I'm a maintainer." Everyone has their own definition of what that means.
+[10:22] **Henry:** They might not even know they wanna be a maintainer, they don't know what it looks like. We should write down what are the responsibilities of being a maintainer explicitly. What are the things you should care about. That way they'll have a better sense of, "Oh, is this something I wanna move toward?" Same with mentorship. You'll find people, they're like, "Oh, you're a member," and say what does that mean? And you can talk about it in the same way. Right now, maybe they don't even know that it's a thing, or it's very vague. "Oh, I'm a maintainer." Everyone has their own definition of what that means.
 
 [11:03] **Nadia:** We were talking about this with church, right? Where I was like, I'd gone to church here and there, but I didn't even know there was a concept of (laughs) membership. I thought then everyone agrees to show up sometimes, and sometimes people were there more often than others. And if that is a thing, then it's interesting to think about. Oh, yeah I didn't even know that was possible, so maybe I do.
 
 #### Not Everyone Will Be a Member
 
-[11:26] **Nadia:** But I guess what I also would like is to call out that there are people who are just gonna be casual contributors, right? And there are people who are just gonna attend church every once in a while. And I've gotten very real pleasure out of attending church not as like, I am a member of this congreations or something, but just because it was exactly what I needed at that moment with my family or something like that.
+[11:26] **Nadia:** What I also would like is to call out that there are people who are just gonna be casual contributors. And there are people who are just gonna attend church every once in a while. And I've gotten very real pleasure out of attending church not as, I am a member of this congregation or something, but just because it was exactly what I needed at that moment with my family or something like that.
 
-[11:53] **Nadia:** And so there is like a separate experience to be had, where there is no expectation that you're gonna a member, but you still feel welcome just the same. I guess I'm wondering, like as a maintainer, how do you think about catering to that experience of like, we're just glad you're here, we're glad you're doing this once, but the level of maybe attention I'm gonna give you or level of commitment that I expect is just gonna be different. And how does that play out for you?
+[11:53] **Nadia:** There is a separate experience to be had, where there is no expectation that you're gonna be a member, but you still feel welcome just the same. As a maintainer, how do you think about catering to that experience of, we're just glad you're here, we're glad you're doing this once, but the level of attention I'm gonna give you or level of commitment that I expect is just gonna be different. How does that play out for you?
 
-[12:18] **Henry:** Yeah I guess, even with open source, my expectation on people becoming maintainers is a lot lower than I feel like at church, I guess there's a goal of making everyone a member. Even though you might not have to turn everyone.. you're not you're forcing people to turn into members or anything. But I feel like with open source, it's even more so it's like, "Oh, they're probably just gonna contribute. Maybe they don't wanna be on this project, and that's fine."
+[12:18] **Henry:** Even with open source, my expectation on people becoming maintainers is a lot lower than at church, where there's a goal of making everyone a member. Even though you're not forcing people to turn into members or anything. But with open source, it's even more, "Oh, they're probably just gonna contribute. Maybe they don't wanna be on this project, and that's fine."
 
 #### Beyond the In-Group
 
@@ -111,27 +111,27 @@ sidebar:
 
 [13:23] **Henry:** Yeah, 'cause maybe they're like, "Oh, I'm not into compilers, or maybe my language isn't JavaScript," so I could say, "Oh, like you should contribute to webpack or React or something else." Yeah, I've definitely done that before. And other people have done that for me as well.
 
-[13:41] **Nadia:** I'm curious, does that tend to happen within the context of the projects itself, or is that like a conversation at an event? Where does that sort of meta-conversation happen?
+[13:41] **Nadia:** I'm curious, does that tend to happen within the context of the projects itself, or is that a conversation at an event? Where does that meta-conversation happen?
 
-[13:53] **Henry:** Yeah, I think events definitely I think. 'Cause you know, people will come up and say, "Oh, I wanna contribute to open source, how do I get involved?" I'm not gonna assume that just 'cause they're talking to me that means they wanna contribute to Babel. Maybe it's just, about open source in general. Or if someone recommends someone that they wanna get involved in open source. In the same way, there's no like straight answer you can give them, "Oh, how you should get started." You have to really listen to what they're looking for. What is their commitment level, do they just wanna try it out, or do they have a specific thing in mind, all that kind of stuff.
+[13:53] **Henry:** Events definitely. People will come up and say, "Oh, I wanna contribute to open source, how do I get involved?" I'm not gonna assume that just 'cause they're talking to me that means they wanna contribute to Babel. Maybe it's about open source in general. Or if someone recommends someone that they wanna get involved in open source. In the same way, there's no straight answer you can give them, "Oh, how you should get started." You have to really listen to what they're looking for. What is their commitment level, do they just wanna try it out, or do they have a specific thing in mind, all that kind of stuff.
 
 [14:36] **Nadia:** How much... I don't really know how to ask this question, but to what extent do you think you should expect them to know and to learn that stuff themselves versus you're being helpful by giving them extra information?
 
-[14:53] **Henry:** Yeah, that's really hard. I can't say we should put all the burden on them, but then at the same time we can't really put the whole burden on us, too. I don't know, I think that's just where you have to work with somebody. And I feel it's so much easier in church, where it's like, they're coming and they usually have a reason for going, right? And you can talk to them about what's going on in their life, and it's also in person.
+[14:53] **Henry:** That's really hard. I can't say we should put all the burden on them, but at the same time we can't really put the whole burden on us, too. That's where you have to work with somebody. It's so much easier in church, where they're coming and they usually have a reason for going. You can talk to them about what's going on in their life, and it's also in person.
 
-[15:25] **Henry:** After the service or whatever you can get lunch with them, you can chat, you can talk, you can do activities, but in open source, it's kind of just like, oh they showed up and it's online. You have no idea about them, they have no idea about you either. Unless it's like at like a conference, I find myself not really (laughs) wanting to do all that work online just 'cause it doesn't feel effective.
+[15:25] **Henry:** After the service or whatever you can get lunch with them, you can chat, you can talk, you can do activities, but in open source, oh they showed up and it's online. You have no idea about them, they have no idea about you either. Unless it's at a conference, I find myself not really (laughs) wanting to do all that work online 'cause it doesn't feel effective.
 
-[15:53] **Nadia:** I feel like I've heard something like that from other people, that they'll sign future long-term contributors or maintainers by meeting them at an event first, whether it's like a workshop or a conference or whatever. I guess my theory on that would be that you just have more context for someone who took the time to go to a conference, then you have some level of interest, some level of buy-in that's higher than someone who just put the URL into their browser.
+[15:53] **Nadia:** I've heard something like that from other people, that they'll sign future long-term contributors or maintainers by meeting them at an event first, whether it's a workshop or a conference or whatever. My theory on that would be that you have more context for someone who took the time to go to a conference, then you have some level of interest, some level of buy-in that's higher than someone who just put the URL into their browser.
 
-[16:20] **Nadia:** And yeah, I was just trying to think what an extreme version of what would be like with church. I guess if some just sort of like walked into church, and was like, "What's this all about?" I'm guessing that people would talk to them, just because that would probably be a pretty rare circumstances.
+[16:20] **Nadia:** I was trying to think what an extreme version of that would be like with church. If someone just walked into church, and was like, "What's this all about?" I'm guessing that people would talk to them, just because that would probably be a pretty rare circumstance.
 
-[16:32] **Nadia:** Um, but if you'd had people coming into church like multiple times every few minutes, being like, "Hey, what's this all about?" You'd probably be like, all right, we need to put up a sign or something so people know what this church is about without disrupting our services.
+[16:32] **Nadia:** But if you'd had people coming into church multiple times every few minutes, being like, "Hey, what's this all about?" You'd probably be like, all right, we need to put up a sign or something so people know what this church is about without disrupting our services.
 
-[16:46] **Henry:** Right, well I'm on the welcoming team. And we switch off and all that stuff. And you'll have people at the front where you can greet people, and the hard part is that sometimes you don't know who's new (laughs), and so you have to like learn everyone's face and all that, and be like, "Oh, are you new?" And they'll be like, "No, I've been here for awhile," and say, "Oh, I guess this church is a lot bigger than I thought."
+[16:46] **Henry:** I'm on the welcoming team. We switch off and all that stuff. You'll have people at the front where you can greet people, and the hard part is that sometimes you don't know who's new (laughs), so you have to learn everyone's face and be like, "Oh, are you new?" And they'll be like, "No, I've been here for awhile," and say, "Oh, I guess this church is a lot bigger than I thought."
 
-[17:10] **Henry:** But you know, if you notice that they're kind of like looking around or something, then maybe they're new, and chat with them. I think it's different because when you're at church, there's a focused specific time to be there, right. And you know that they're coming, or at least you're open for it. But in open source it's funny, technically they could show up at any point in time, in any time zone, you might be sleeping, they show up. And that is a very different experience, right?
+[17:10] **Henry:** If you notice that they're looking around or something, then maybe they're new, and chat with them. It's different because when you're at church, there's a focused specific time to be there. You know that they're coming, or at least you're open for it. But in open source, technically they could show up at any point in time, in any time zone, you might be sleeping, they show up. That is a very different experience.
 
-[17:43] **Nadia:** Yeah, or if they're like, emailing you or tweeting at you, and yeah. (Laughs) It's much more personal space.
+[17:43] **Nadia:** Or if they're emailing you or tweeting at you. (Laughs) It's much more personal space.
 
 ### What Defines a Maintainer?
 
@@ -143,13 +143,13 @@ sidebar:
 
 [19:00] **Nadia:** Mm-hmm (affirmative). So we definitely struggled with this at GitHub, of trying to figure out how to define a maintainer, in a way that was fair and objective. And I think while I was there, I erred more on the side of.. I think the definition I was pretty much trying to work with was, if you're having to deal with non-code aspects of the project, you're probably a maintainer. Like if you're thinking about triaging issues, or reviewing people's codes, then you're probably a maintainer, or you've moved into some different realm there.
 
-[19:28] **Nadia:** But I don't actually think that definition holds, partly because there's such different sizes of projects, so that there might be a project where you do just kind of mostly write code all day. There can also be on the other spectrum, a really, really big project, where you just end up focusing on your specific area.
+[19:28] **Nadia:** But I don't actually think that definition holds, partly because there's such different sizes of projects, so there might be a project where you do just mostly write code all day. There can also be on the other spectrum, a really big project, where you just end up focusing on your specific area.
 
-[19:48] **Nadia:** And so we would get maintainers coming to GitHub who would say, "I'm a maintainer because I maintain the documentation of the project." And I think there is probably some realm where someone could say that, and also be a maintainer, but I don't think it's maintaining the documentation that makes them a maintainer, it's are you kind of like worried about the overall aspect of the project? (Laughs)
+[19:48] **Nadia:** We would get maintainers coming to GitHub who would say, "I'm a maintainer because I maintain the documentation of the project." There is probably some realm where someone could say that and also be a maintainer, but I don't think it's maintaining the documentation that makes them a maintainer, it's are you worried about the overall aspect of the project? (Laughs)
 
-[20:10] **Nadia:** If there are high level governmental decisions being made, would you feel like you had a really strong stake in them? Even that's like not a great definition, but there's something intangible about a maintainer, where I feel like your level of commitment is strong enough that you're going up or down with the ship.
+[20:10] **Nadia:** If there are high level governmental decisions being made, would you feel like you had a really strong stake in them? Even that's not a great definition, but there's something intangible about a maintainer, where your level of commitment is strong enough that you're going up or down with the ship.
 
-[20:26] **Nadia:** Whereas you could still be a very regular, active, and valuable contributor, but if you're only concerned about your one area, and like you were saying, you might ping someone if you had React questions, like a specific person, and they kind of come in and talk about that or work on that, or whatever. And they're otherwise not super involved. I don't know that I would call that person a maintainer.
+[20:26] **Nadia:** Whereas you could still be a very regular, active, and valuable contributor, but if you're only concerned about your one area, and like you were saying, you might ping someone if you had React questions, a specific person, and they come in and talk about that or work on that, or whatever. And they're otherwise not super involved. I don't know that I would call that person a maintainer.
 
 [20:49] **Henry:** Right. 'Cause it's just the one area, and especially if you're only pinging them for that one thing. I tend to think, are they thinking very high level and meta, also maybe when they think, when they see a PR, whatever it is, are they thinking of the greater whole or vision of the project, instead of just I wanna get this finished. 'Cause someone that makes a PR that they just want it to be in there, they might not be thinking, how does this relate to everything else.
 

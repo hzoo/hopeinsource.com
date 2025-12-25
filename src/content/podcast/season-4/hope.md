@@ -38,7 +38,7 @@ sidebar:
 
 [01:21] **Alex:** It's interesting that you bring up burnout because I've been reading a book by a youth pastor named Andrew Root. It's part of a series on basically applying Charles Taylor's book to church ministries, specifically youth ministry.
 
-[01:40] **Henry:** I forgot if I sent that to you.. I might have gave it to you..
+[01:40] **Henry:** I forget if I sent that to you.. I might have given it to you..
 
 [01:44] **Alex:** Honestly, it's probably a both and, knowing that we share a lot of ideas with each other. Yeah. I mean, I was reading it recently. His third book is about how the Church is affected by what Charles Taylor considers like _The Secular Age_.
 

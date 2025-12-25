@@ -28,7 +28,7 @@ sidebar:
 
 [00:48] **Omnigamer:** Oh it’s my pleasure thanks for having me Henry.
 
-[00:50] **Henry:** So I guess because most of my audience is going to be programmers, they might not understand what speeding running is. Maybe we should start with that. Would you want to maybe go into a high level view of what speedrunning is about?
+[00:50] **Henry:** Because most of my audience is going to be programmers, they might not understand what speedrunning is. Maybe we should start with that. Would you want to go into a high level view of what speedrunning is about?
 
 [01:04] **Omnigamer:** Sure. If you ask most people out there who watch on Twitch who try to do speedruns, it’s simply just playing a game with the intention of beating it as fast as possible. There’s a couple caveats to that, in particular, you set up the rules in advance. Those rules might not necessarily align with let’s say how the game was intentionally developed, what the developers actually wanted you to do with it. So it does involve often times exploiting some variety of glitches oversight, anything that wound up in this final product that shipped as a game.
 

@@ -26,7 +26,7 @@ sidebar:
 
 [00:00:00] **Jordan:** Hello, and welcome to Maintainers Anonymous. This is your guest Jordan Scales. Henry graciously allowed me to do the introduction. This is a podcast about software maintenance and anonymization. Henry, I don't know if that's correct.
 
-[00:00:13] **Henry:** That's a funny one, actually. I guess that's one way of putting it, but it was more trying to think about software maintenance on how it relates to other kinds of maintenance.
+[00:00:13] **Henry:** That's a funny one, actually. That's one way of putting it, but it was more trying to think about software maintenance on how it relates to other kinds of maintenance.
 
 [00:00:22] **Jordan:** Interesting.
 

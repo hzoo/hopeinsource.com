@@ -23,23 +23,23 @@ sidebar:
 
 [00:00] **Henry:** Alright, so in this episode, I wanted to talk about organizational health. Nadia just wrote a post about the health of an open source project and how we measure it, whether it's by contributors, activity, or output. It just got me thinking about how we measure that in a church. What's the relationship between church growth and health, the popularity of open source projects versus health or sustainability.
 
-[00:31] **Nadia:** It's interesting, 'cause even though I believe that we should be measuring a project's activity and output over number of contributors, it's just an easier thing to visualize when you talk about people coming to your project or leaving your project as a sign of health. We've talked about this with church stuff, of bringing people into your congregation and who's attending. How many people are there? It's such an easy visual to fall back on that. The stuff I was writing about was trying to make the case that number of contributors or attendees doesn't really matter. What matters more is what are you actually producing and putting out.
+[00:31] **Nadia:** It's interesting, even though I believe that we should be measuring a project's activity and output over number of contributors, it's an easier thing to visualize when you talk about people coming to your project or leaving your project as a sign of health. We've talked about this with church stuff, of bringing people into your congregation and who's attending. How many people are there? It's such an easy visual to fall back on. The stuff I was writing about was trying to make the case that number of contributors or attendees doesn't really matter. What matters more is what are you actually producing and putting out.
 
 #### What Is a Church's Output?
 
 [01:07] **Nadia:** Which actually relates to Call to Commitment. They purposely kept a really small congregation because they were like, "We don't need to inflate this with a bunch of fake numbers." But for church stuff, what would output even really be in a church if it's not the number of people attending?
 
-[01:29] **Henry:** Yeah. I guess they just cared a lot about the individual people. It's all about how well are they doing, mentally or spiritually. So we don't want shallowness or just numbers, what you said. Even though it's an easy way to think about it. "Oh, as long as we have more people, that means probably more people are tithing, and that means that we're gonna sustain this thing 'cause if we don't have money then it's not gonna work anymore."
+[01:29] **Henry:** They cared a lot about the individual people. It's all about how well are they doing, mentally or spiritually. We don't want shallowness or just numbers. Even though it's an easy way to think about it. "As long as we have more people, that means probably more people are tithing, and that means we're gonna sustain this thing 'cause if we don't have money then it's not gonna work anymore."
 
-[02:08] **Henry:** But I think for output, I think it's really hard to quantify, which is why I don't know if we can use attendance. Because people can go to church every week, that doesn't mean they're any closer to God or other people.
+[02:08] **Henry:** For output, it's really hard to quantify, which is why I don't know if we can use attendance. Because people can go to church every week, that doesn't mean they're any closer to God or other people.
 
 [02:28] **Nadia:** But what is a church's output? For an open source project it's easier to make the argument and say code is ultimately your output and that's why you can measure it based on PRs or commits versus number of people contributing. What's the equivalent that a church is trying to put out if not trying to, I don't know, touch people basically?
 
 [02:47] **Henry:** I mean, even with open source, just because we're adding more code doesn't mean... Well, I guess there's the mission of the project versus is it still going? We can make PRs all day that all they do is update dependencies and it looks like it's really active (laughs), but are people actually getting benefit from it? That's more of a measure of how useful something is. I don't know if those are conflated or it's hard to know the difference sometimes, and at church it's the same, where you would think that if there are more people coming then maybe that means that more people can serve or more people can help the community that that church is a part of.
 
-[03:26] **Henry:** I think our output is hard, because it shouldn't be about, "Oh, people attended this much, they gave this much money," 'cause then it becomes about themselves and how is it about helping others or how are they growing in Christ? So how do we differentiate between knowing God, an academic point of view versus actually knowing him from a relational view?
+[03:26] **Henry:** Our output is hard, because it shouldn't be about, "Oh, people attended this much, they gave this much money," 'cause then it becomes about themselves and how is it about helping others or how are they growing in Christ? How do we differentiate between knowing God, an academic point of view versus actually knowing him from a relational view?
 
-[03:59] **Henry:** And so the problem is it's hard to measure. Basically it's saying how well is your relationship with your church or God or other people and that's hard to measure in any relationship, right?
+[03:59] **Henry:** The problem is it's hard to measure. Basically it's saying how well is your relationship with your church or God or other people and that's hard to measure in any relationship.
 
 #### Latest Activity (Commit) As Heuristic
 
@@ -51,19 +51,19 @@ sidebar:
 
 #### Church Hopping: What's in It for Me?
 
-[05:22] **Henry:** It's weird because, (laughs) it kinda reminds me, now there's this term that people use called "church hopping", which is a negative term of people not being willing to commit to something 'cause it doesn't fit them.
+[05:22] **Henry:** It's weird because, (laughs) now there's this term that people use called "church hopping", which is a negative term of people not being willing to commit to something 'cause it doesn't fit them.
 
-[05:42] **Henry:** And not that trying to find a fit is bad, but it's really easy for people to say, "I don't think anywhere fits me, so I'm just gonna keep going place to place," and you're never actually committed to a local body. It's kinda just, "I want to keep getting from it," versus at that point you're probably not even thinking about, "How am I gonna give back?" It's just, "I need something that makes me feel good about myself."
+[05:42] **Henry:** Not that trying to find a fit is bad, but it's really easy for people to say, "I don't think anywhere fits me, so I'm just gonna keep going place to place," and you're never actually committed to a local body. It's, "I want to keep getting from it," versus at that point you're probably not even thinking about, "How am I gonna give back?" It's, "I need something that makes me feel good about myself."
 
 [06:09] **Nadia:** Is that a new behavior, church hopping?
 
-[06:11] **Henry:** I think the term is pretty relatively recent. I'm not gonna say last years or something. It's been for a little while.
+[06:11] **Henry:** The term is pretty recent. It's been for a little while.
 
-[06:20] **Nadia:** Like is it like trending towards more people doing it and if so.
+[06:20] **Nadia:** Is it trending towards more people doing it?
 
-[06:23] **Henry:** Especially if you're moving to a new city, but you should be diligent about finding a good church for you, maybe you go to one or two or three, but if it becomes a behavior of: this week, I'll go here and then (laughs) this week I'll go here, and you're doing that for like a whole year or something.
+[06:23] **Henry:** Especially if you're moving to a new city, you should be diligent about finding a good church for you, maybe you go to one or two or three, but if it becomes a behavior of: this week, I'll go here and then (laughs) this week I'll go here, and you're doing that for a whole year or something.
 
-[06:45] **Henry:** Maybe that's normal and I don't think it that's healthy, right? 'Cause that means that everyone is kinda loosely connected, and we're trying to find deeper connections with each other, the church, or open source project, and I think the symptom is this consumerist mentality, like joining a club, buying something, or going to the mall, those kind of ideas. And that kind of almost got caught up in the church where people are, "I do these things in my rest my life like this, and so at church I'm gonna do the same thing." Go here and there.
+[06:45] **Henry:** Maybe that's normal but I don't think that's healthy. That means everyone is loosely connected, and we're trying to find deeper connections with each other, the church, or open source project. The symptom is this consumerist mentality, like joining a club, buying something, or going to the mall. That kind of thinking got caught up in the church where people are, "I do these things in the rest of my life like this, so at church I'm gonna do the same thing." Go here and there.
 
 [07:24] **Nadia:** Yeah, I mean it feels like that's a thing that people are experiencing beyond church or open source, just sort of how does the world around you serve you versus how do you be a part of it or be an active participant in it? I think it's a really hard question everyone is grappling right now. We were talking about this a little bit.
 

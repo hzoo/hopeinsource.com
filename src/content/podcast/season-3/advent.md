@@ -98,7 +98,7 @@ sidebar:
 
 [11:13] **Henry:** I guess that's just like a general thing, how do we go about teaching people? You kinda need to say what's there, but they can't take it at face value. You should go through the motions, but eventually that's not enough. You have to move on to know like why are you doing this thing? Eventually you'll remove it later, because you're like, I don't actually know why I'm doing this.
 
-[11:32] **Alex:** Right. And I think that's actually part of the problem with a lot of our church Sunday schools: is simply that we never move past just teaching kids the answers, right.
+[11:32] **Alex:** And that's actually part of the problem with a lot of our church Sunday schools: we never move past just teaching kids the answers.
 
 [11:44] **Henry:** Catechism, right.
 

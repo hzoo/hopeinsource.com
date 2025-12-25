@@ -31,7 +31,7 @@ sidebar:
 
 [01:24] **Anthony:** Definitely.
 
-[01:26] **Henry:** Yeah. I guess maybe we should start off because not everyone is into games. Maybe we can start with just why people like games in general, and what makes them unique as opposed to I guess, different genres of communication and also entertainment.
+[01:26] **Henry:** Maybe we should start off because not everyone is into games. Why do people like games in general, and what makes them unique as opposed to different genres of communication and also entertainment.
 
 [01:43] **Anthony:** Sure. So what makes games fun is it's interesting because it's kind of a very large and hard to answer question. Right? And it's oftentimes different for different people. So there's a lot of factors that go into games and make them so compelling. And for me personally, the thing that I really like from games is that you're exploring these interactive systems and making interesting decisions and then developing mastery. That's the thing that I like about games. But then you might have other people who they really like games for their stories, they really like getting into maybe an old game like Planescape: Torment or something and just experiencing that story, or they're more about exploring or building a character that they identify with. So Games really offer a lot of different paths to enjoyment and fun.
 
