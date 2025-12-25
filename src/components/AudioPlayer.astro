@@ -238,7 +238,10 @@ const { src } = Astro.props;
       const timestamp = msgElement.getAttribute("data-timestamp");
       if (!timestamp) return;
 
-      seconds = timeToSeconds(timestamp);
+      // data-timestamp is already in seconds
+      seconds = parseInt(timestamp, 10);
+      if (isNaN(seconds)) return;
+
       // Update URL to use seconds
       history.replaceState(null, "", `#t=${seconds}`);
     }

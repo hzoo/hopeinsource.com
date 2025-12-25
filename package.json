@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build",
+    "build": "astro check && astro build && bun run scripts/build-search-index.ts",
     "preview": "astro preview",
     "astro": "astro",
     "deploy": "bun run build --force && wrangler pages deploy dist --project-name hopeinsource-com"
@@ -25,7 +25,8 @@
     "@astrojs/check": "0.9.6",
     "@astrojs/preact": "4.1.3",
     "astro": "5.16.6",
-    "astro-pagefind": "^1.8.5",
+    "gray-matter": "^4.0.3",
+    "pagefind": "^1.4.0",
     "preact": "^10.28.0",
     "tailwindcss": "^4.1.18"
   },

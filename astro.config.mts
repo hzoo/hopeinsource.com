@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 import tailwindcss from "@tailwindcss/vite";
 import preact from '@astrojs/preact';
-import pagefind from "astro-pagefind";
 
 import { remarkTranscriptPlugin } from "./src/remark-transcript-plugin/plugin";
 import { remarkResponsiveImages } from './src/plugins/remark-responsive-images';
@@ -9,7 +8,7 @@ import { remarkResponsiveImages } from './src/plugins/remark-responsive-images';
 // https://astro.build/config
 export default defineConfig({
   publicDir: "public",
-  integrations: [preact(), pagefind()],
+  integrations: [preact()],
   vite: {
     plugins: [tailwindcss()],
   },

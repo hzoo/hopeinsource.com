@@ -41,11 +41,11 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
          transform -translate-x-full lg:translate-x-0 transition-transform duration-300
          flex flex-col"
 >
-  <!-- Sidebar header with search -->
-  <div class="p-3 border-b border-his-hr flex items-center gap-2 flex-shrink-0">
+  <!-- Sidebar header with search (aligned with mobile hamburger: left-3 top-3) -->
+  <div class="px-3 py-3 border-b border-his-hr flex items-center gap-2 flex-shrink-0">
     <a
       href="/"
-      class="flex-shrink-0 p-1.5 rounded-lg text-his-text-secondary hover:text-his-green hover:bg-his-hover transition-colors"
+      class="flex-shrink-0 p-2 rounded-lg text-his-text-secondary hover:text-his-green hover:bg-his-hover transition-colors"
       data-astro-prefetch
       aria-label="Home"
       title={hisMetadata.title}
