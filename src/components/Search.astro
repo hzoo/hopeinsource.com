@@ -1,0 +1,292 @@
+---
+// Search with Spotlight-style modal (input inside modal)
+---
+
+<!-- Sidebar trigger button -->
+<button class="search-trigger" id="search-trigger" type="button" aria-label="Search transcripts">
+  <svg class="search-trigger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+    <circle cx="11" cy="11" r="8"/>
+    <path d="m21 21-4.35-4.35"/>
+  </svg>
+  <span class="search-trigger-text">Search</span>
+  <kbd class="search-trigger-kbd">/</kbd>
+</button>
+
+<script is:inline>
+(function() {
+  let pagefind = null;
+  let debounceTimer = null;
+  let selectedIndex = -1;
+  let backdrop = null;
+  let modal = null;
+  let input = null;
+  let resultsArea = null;
+
+  function createModal() {
+    if (modal) return;
+
+    // Backdrop
+    backdrop = document.createElement('div');
+    backdrop.className = 'search-backdrop';
+    document.body.appendChild(backdrop);
+
+    // Modal
+    modal = document.createElement('div');
+    modal.className = 'search-modal';
+    modal.innerHTML = `
+      <div class="search-input-row">
+        <svg class="search-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"/>
+          <path d="m21 21-4.35-4.35"/>
+        </svg>
+        <input
+          type="text"
+          class="search-modal-input"
+          placeholder="Search transcripts..."
+          autocomplete="off"
+          spellcheck="false"
+        />
+        <kbd class="search-esc-hint">esc</kbd>
+      </div>
+      <div class="search-results-area"></div>
+    `;
+    document.body.appendChild(modal);
+
+    input = modal.querySelector('.search-modal-input');
+    resultsArea = modal.querySelector('.search-results-area');
+
+    // Input handler
+    input.addEventListener('input', (e) => {
+      const query = e.target.value.trim();
+      clearTimeout(debounceTimer);
+
+      if (!query) {
+        resultsArea.innerHTML = '<div class="search-empty-state">Type to search transcripts</div>';
+        return;
+      }
+
+      debounceTimer = setTimeout(() => performSearch(query), 100);
+    });
+
+    // Keyboard navigation
+    input.addEventListener('keydown', (e) => {
+      const resultLinks = resultsArea.querySelectorAll('.search-result');
+
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        selectedIndex = Math.min(selectedIndex + 1, resultLinks.length - 1);
+        updateSelection(resultLinks);
+      } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        selectedIndex = Math.max(selectedIndex - 1, -1);
+        updateSelection(resultLinks);
+      } else if (e.key === 'Enter' && selectedIndex >= 0) {
+        e.preventDefault();
+        resultLinks[selectedIndex]?.click();
+      } else if (e.key === 'Escape') {
+        closeModal();
+      }
+    });
+
+    // Backdrop click
+    backdrop.addEventListener('click', closeModal);
+  }
+
+  async function initSearch() {
+    const trigger = document.getElementById('search-trigger');
+    if (!trigger) return;
+
+    createModal();
+
+    // Load Pagefind
+    try {
+      pagefind = await import('/pagefind/pagefind.js');
+    } catch (e) {
+      // Pagefind not available (dev mode)
+    }
+
+    // Trigger click
+    trigger.addEventListener('click', openModal);
+
+    // Global "/" shortcut
+    document.addEventListener('keydown', (e) => {
+      if (e.key === '/' && !e.target.matches('input, textarea, [contenteditable]')) {
+        e.preventDefault();
+        openModal();
+      }
+      if (e.key === 'Escape' && modal?.classList.contains('visible')) {
+        closeModal();
+      }
+    });
+  }
+
+  function openModal() {
+    if (!modal || !backdrop) return;
+    modal.classList.add('visible');
+    backdrop.classList.add('visible');
+    document.body.style.overflow = 'hidden';
+    input?.focus();
+    // Show initial state
+    if (!input?.value) {
+      resultsArea.innerHTML = '<div class="search-empty-state">Type to search transcripts</div>';
+    }
+  }
+
+  function closeModal() {
+    if (!modal || !backdrop) return;
+    modal.classList.remove('visible');
+    backdrop.classList.remove('visible');
+    document.body.style.overflow = '';
+    input.value = '';
+    resultsArea.innerHTML = '';
+    selectedIndex = -1;
+  }
+
+  async function performSearch(query) {
+    if (!pagefind || !resultsArea) return;
+
+    try {
+      const search = await pagefind.search(query);
+
+      if (search.results.length === 0) {
+        resultsArea.innerHTML = '<div class="search-no-results">No results found</div>';
+        return;
+      }
+
+      const results = await Promise.all(
+        search.results.slice(0, 8).map(r => r.data())
+      );
+      selectedIndex = -1;
+
+      // Debug: log sub_results
+      console.log('First result sub_results:', results[0]?.sub_results);
+
+      renderResults(results, search.results.length, query);
+    } catch (e) {
+      resultsArea.innerHTML = '<div class="search-no-results">Search error</div>';
+    }
+  }
+
+  function renderResults(results, totalCount, query) {
+    if (!resultsArea) return;
+
+    resultsArea.innerHTML = `
+      <div class="search-results-header">${totalCount} result${totalCount !== 1 ? 's' : ''}</div>
+      <div class="search-results-list">
+        ${results.map((result, i) => renderResult(result, i, query)).join('')}
+      </div>
+    `;
+  }
+
+  function renderResult(result, index, query) {
+    const title = result.meta?.title || 'Untitled';
+    const baseUrl = result.url;
+    const excerpt = result.excerpt || '';
+    const subResults = result.sub_results || [];
+
+    // Build URL with highlight param before any hash
+    function buildUrl(url) {
+      const hashIndex = url.indexOf('#');
+      if (hashIndex > -1) {
+        const path = url.slice(0, hashIndex);
+        const hash = url.slice(hashIndex);
+        return `${path}?highlight=${encodeURIComponent(query)}${hash}`;
+      }
+      return `${url}?highlight=${encodeURIComponent(query)}`;
+    }
+
+    // Render chapter sub-results as clickable tags
+    const chapters = subResults
+      .filter(s => s.url?.includes('#'))
+      .slice(0, 3)
+      .map(s => `<a href="${buildUrl(s.url)}" class="search-sub" onclick="event.stopPropagation()">${escapeHtml(s.title || 'Section')}</a>`)
+      .join('');
+
+    return `
+      <a href="${buildUrl(baseUrl)}"
+         class="search-result"
+         data-index="${index}"
+         style="animation-delay: ${index * 30}ms">
+        <div class="search-result-title">${escapeHtml(title)}</div>
+        ${excerpt ? `<div class="search-excerpt">${excerpt}</div>` : ''}
+        ${chapters ? `<div class="search-chapters">${chapters}</div>` : ''}
+      </a>
+    `;
+  }
+
+  function escapeHtml(str) {
+    const div = document.createElement('div');
+    div.textContent = str;
+    return div.innerHTML;
+  }
+
+  function updateSelection(resultLinks) {
+    resultLinks.forEach((link, i) => {
+      link.classList.toggle('selected', i === selectedIndex);
+    });
+    if (selectedIndex >= 0) {
+      resultLinks[selectedIndex]?.scrollIntoView({ block: 'nearest' });
+    }
+  }
+
+  // Initialize
+  initSearch();
+
+  // Re-init after View Transitions
+  document.addEventListener('astro:after-swap', () => {
+    // Remove old modal elements
+    backdrop?.remove();
+    modal?.remove();
+    backdrop = null;
+    modal = null;
+    input = null;
+    resultsArea = null;
+    initSearch();
+  });
+})();
+</script>
+
+<style>
+  /* Sidebar trigger button */
+  .search-trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+    padding: 0.375rem 0.625rem;
+    background: var(--color-his-hover);
+    border: 1px solid var(--color-his-hr);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.15s, border-color 0.15s;
+  }
+
+  .search-trigger:hover {
+    background: var(--color-his-active);
+    border-color: var(--color-his-text-tertiary);
+  }
+
+  .search-trigger-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    color: var(--color-his-text-tertiary);
+    flex-shrink: 0;
+  }
+
+  .search-trigger-text {
+    flex: 1;
+    text-align: left;
+    font-size: 0.8125rem;
+    color: var(--color-his-text-tertiary);
+  }
+
+  .search-trigger-kbd {
+    font-size: 0.625rem;
+    padding: 0.125rem 0.375rem;
+    border-radius: 4px;
+    background: var(--color-his-bg);
+    color: var(--color-his-text-tertiary);
+    font-family: ui-monospace, monospace;
+    border: 1px solid var(--color-his-hr);
+  }
+</style>

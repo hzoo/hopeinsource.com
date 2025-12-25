@@ -71,10 +71,14 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
   <div class="lg:ml-80">
     <div class="mx-auto px-3 sm:px-4 py-6 sm:py-8 flex flex-col lg:max-w-4xl">
       {/* Episode header */}
-    <header class="text-center mb-4">
+    {/* Hidden metadata for Pagefind */}
+    {guest && <span data-pagefind-meta="guest" class="hidden">{guest}</span>}
+    <span data-pagefind-meta="date" class="hidden">{frontmatter.date.toISOString().slice(0,10)}</span>
+
+    <header class="text-center mb-4" data-pagefind-body data-pagefind-weight="8">
       <h1 class="text-2xl md:text-3xl font-semibold mb-1">{episodeTitle}</h1>
       {guest && <p class="text-his-text-secondary mb-2">{guest}</p>}
-      <div class="flex items-center justify-center gap-2 text-sm text-his-text-tertiary">
+      <div class="flex items-center justify-center gap-2 text-sm text-his-text-tertiary" data-pagefind-ignore>
         <time datetime={frontmatter.date.toISOString()}>
           {frontmatter.date.toLocaleDateString("en-US", {
             year: "numeric",
@@ -98,24 +102,56 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
     </header>
 
     {/* Description as the hook */}
-    <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-3 leading-relaxed">
+    <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-3 leading-relaxed" data-pagefind-body data-pagefind-weight="4">
       {frontmatter.description}
     </p>
 
     {/* Subscribe as afterthought */}
-    <div class="mb-6">
+    <div class="mb-6" data-pagefind-ignore>
       <Subscribe />
     </div>
 
     <TableOfContents headings={headings} />
 
     <div class="mx-auto max-w-3xl">
-      <main>
+      <main data-pagefind-body>
         <Content />
       </main>
     </div>
-    <Footer />
+    <Footer data-pagefind-ignore />
     <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
     </div>
   </div>
+
+  {/* Scroll to first match when arriving from search */}
+  <script is:inline>
+    (function scrollToMatch() {
+      const params = new URLSearchParams(window.location.search);
+      const query = params.get('highlight');
+      if (!query) return;
+
+      // Find first message containing the search term
+      const messages = document.querySelectorAll('.message');
+      for (const msg of messages) {
+        if (msg.textContent.toLowerCase().includes(query.toLowerCase())) {
+          msg.scrollIntoView({ block: 'center' });
+          break;
+        }
+      }
+    })();
+
+    document.addEventListener('astro:after-swap', () => {
+      const params = new URLSearchParams(window.location.search);
+      const query = params.get('highlight');
+      if (!query) return;
+
+      const messages = document.querySelectorAll('.message');
+      for (const msg of messages) {
+        if (msg.textContent.toLowerCase().includes(query.toLowerCase())) {
+          msg.scrollIntoView({ block: 'center' });
+          break;
+        }
+      }
+    });
+  </script>
 </Layout>

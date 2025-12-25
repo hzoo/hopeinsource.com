@@ -36,23 +36,30 @@ function createText(value: string): Text {
 
 function createSpan(
   className: string,
-  children: PhrasingContent[]
+  children: PhrasingContent[],
+  extraProps?: Record<string, unknown>
 ): PhrasingContent {
   return {
     type: "span",
     data: {
       hName: "span",
-      hProperties: { className: [className] },
+      hProperties: { className: [className], ...extraProps },
     },
     children,
   } as unknown as PhrasingContent;
 }
 
-function createStrong(children: Text[]): Strong {
-  return {
+function createStrong(children: Text[], ignore = false): Strong {
+  const node: Strong = {
     type: "strong",
     children,
   };
+  if (ignore) {
+    (node as any).data = {
+      hProperties: { "data-pagefind-ignore": "all" }
+    };
+  }
+  return node;
 }
 
 function timeToSeconds(timestamp: string): number {
@@ -153,8 +160,8 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       const messageSpan = createSpan(textClass, [
         createSpan(timestampClass, [
           createText(timestamp),
-        ]),
-        createStrong([createText(speaker)]),
+        ], { "data-pagefind-ignore": "all" }),
+        createStrong([createText(speaker)], true),
         createText(" "),
         ...content as PhrasingContent[],
       ]);
