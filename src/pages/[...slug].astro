@@ -119,8 +119,39 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
     </div>
   </div>
 
-  {/* Handle message deep-linking with flash animation */}
+  {/* Handle message deep-linking with flash animation and play button */}
   <script is:inline>
+    let currentPlayButton = null;
+
+    function createPlayButton(messageEl) {
+      // Remove any existing play button
+      if (currentPlayButton) {
+        currentPlayButton.remove();
+        currentPlayButton = null;
+      }
+
+      const btn = document.createElement('button');
+      btn.className = 'msg-play-btn';
+      btn.innerHTML = `<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>`;
+      btn.setAttribute('aria-label', 'Play from here');
+
+      btn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const seconds = messageEl.getAttribute('data-timestamp');
+        if (seconds) {
+          // Navigate to #t= to trigger autoplay
+          window.location.hash = `t=${seconds}`;
+        }
+        btn.remove();
+        currentPlayButton = null;
+      });
+
+      messageEl.appendChild(btn);
+      currentPlayButton = btn;
+
+      return btn;
+    }
+
     function highlightMessage() {
       const hash = window.location.hash;
       if (!hash || !hash.startsWith('#msg-')) return;
@@ -131,9 +162,20 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
         setTimeout(() => {
           el.scrollIntoView({ block: 'center', behavior: 'smooth' });
           el.classList.add('highlight-flash');
-          // Remove class after animation completes
+
+          // Add play button
+          const btn = createPlayButton(el);
+
+          // Remove class and button after animation completes
           el.addEventListener('animationend', () => {
             el.classList.remove('highlight-flash');
+            // Keep button visible a bit longer, then fade out
+            setTimeout(() => {
+              if (btn.parentNode) {
+                btn.classList.add('fade-out');
+                btn.addEventListener('animationend', () => btn.remove(), { once: true });
+              }
+            }, 2000);
           }, { once: true });
         }, 100);
       }

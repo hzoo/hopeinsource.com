@@ -216,12 +216,24 @@ const { src } = Astro.props;
     }
   }
 
+  function prepAudioPosition(seconds) {
+    // Load audio and set position, but don't play
+    if (!isLoaded) {
+      audio.src = src;
+      audio.load();
+      isLoaded = true;
+    }
+    audio.currentTime = seconds;
+    seekSlider.disabled = false;
+  }
+
   function seekToTimestamp(playAudio = true) {
     const hash = window.location.hash;
     if (!hash) return;
 
     let seconds;
     if (hash.startsWith("#t=")) {
+      // Listening mode - autoplay
       seconds = parseInt(hash.slice(3), 10);
       if (isNaN(seconds)) return;
 
@@ -231,24 +243,24 @@ const { src } = Astro.props;
       if (msgElement) {
         msgElement.scrollIntoView();
       }
+
+      loadAudioAndPlay(seconds, playAudio);
+
     } else if (hash.startsWith("#msg-")) {
+      // Reading mode - scroll and highlight, NO autoplay
       const msgElement = document.getElementById(hash.slice(1));
       if (!msgElement) return;
 
       const timestamp = msgElement.getAttribute("data-timestamp");
       if (!timestamp) return;
 
-      // data-timestamp is already in seconds
       seconds = parseInt(timestamp, 10);
       if (isNaN(seconds)) return;
 
-      // Update URL to use seconds
-      history.replaceState(null, "", `#t=${seconds}`);
+      // Don't change URL, don't autoplay
+      // Just prep audio so space bar plays from here
+      prepAudioPosition(seconds);
     }
-
-    if (typeof seconds !== "number") return;
-
-    loadAudioAndPlay(seconds, playAudio);
   }
 
   function togglePlayPauseIcon(isPaused) {
