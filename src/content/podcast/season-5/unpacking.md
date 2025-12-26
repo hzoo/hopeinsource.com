@@ -43,7 +43,7 @@ sidebar:
 
 [01:52] **Henry:** It's almost like a faith that allows yourself to settle in this thing, not like you're permanently there. When you're too open, maybe that's why people feel lost. The opposite is like, I am this, and anyone that's not like this, you're stuck. So there's a fluidity to that.
 
-[02:10] **Joseph:** I like that spectrum you just drew, open versus closed. I think of about things in terms of personality theory a lot. So big five, ocean, openness. It seems like the act of labeling or committing to a tradition is more of a closed mindset.
+[02:10] **Joseph:** I like that spectrum you just drew, open versus closed. I think of about things in terms of personality theory a lot. So [big five, ocean](https://en.wikipedia.org/wiki/Big_Five_personality_traits), openness. It seems like the act of labeling or committing to a tradition is more of a closed mindset.
 
 [02:31] **Joseph:** And it feels weird to say that because closed has all these weird connotations, but I just purely mean it in a personality sense. Letting go of the fear of, oh, maybe I'll find something else. I don't know if I want to commit to all the negatives, and the positives.
 
@@ -251,7 +251,7 @@ sidebar:
 
 [28:33] **Joseph:** You could also believe in abundance through, through other means. Um, game theory, maybe, I don't know. I saw this YouTube video on game theory o of like lo long term game theory where tit for tat or whatever, like basically being more generous to a certain extent, actually benefits you and the entire world in the long term. So like you could, you know, maybe you could make that argument.
 
-[29:00] **Henry:** Yeah. Iterative prisoner dilemma. Scott Alexander had the thing about this. He was actually asking the question, why did Christianity like rise? Like why is it so popular? Why did it grow so fast? And think about like how to use that so that EA could become like Christianity.
+[29:00] **Henry:** Yeah. Iterative prisoner dilemma. [Scott Alexander](https://en.wikipedia.org/wiki/Scott_Alexander) had the thing about this. He was actually asking the question, why did Christianity like rise? Like why is it so popular? Why did it grow so fast? And think about like how to use that so that EA could become like Christianity.
 
 [29:16] **Henry:** Another thing was that Christianity would always choose to cooperate. Normally you would never do that because everyone always takes advantage of you, right? You always cooperate, they always defect. You always get the short end of the stick.
 
@@ -291,7 +291,7 @@ sidebar:
 
 [33:29] **Henry:** Kevin Kwak he has a thing, sending tweets or like a tuning fork into the universe, trying to find people that resonate with you.
 
-[33:35] **Joseph:** Interesting. This makes me just think of the concept of art in general. I think that, uh, Rick Rubin also said something about the tuning fork to the universe.
+[33:35] **Joseph:** Interesting. This makes me just think of the concept of art in general. I think that, uh, [Rick Rubin](https://en.wikipedia.org/wiki/Rick_Rubin) also said something about the tuning fork to the universe.
 
 [33:44] **Joseph:** But like, is that true? Is that really true? Like, I, like, in order to get the, well, actually, I. For Christianity. If the goal is to get the most number of people to truth, then how do you do that? Is it possible to do that by training up a thousand Visas? Maybe that's it. Maybe you train up a thousand Visas in all of their different verticals and niches and have them tweet niche tweets.
 
@@ -321,7 +321,7 @@ sidebar:
 
 [37:18] **Henry:** Catholic church for sure. I don't think that having flat is the way to go for everything. These small groups, they work because everyone's already on the same page. Once you bring in new people, and you open it up, they're not on the same page probably.
 
-[37:35] **Henry:** Or it takes time to onboard. Culturally too, not just, say it's a company, technically. What's it called, eternal September where they're talking about forums and new people come in, then they influence, say Reddit and it changes the whole culture and then everyone leaves after X years because the culture was not established and core enough to not change in a way that completely changed the whole thing.
+[37:35] **Henry:** Or it takes time to onboard. Culturally too, not just, say it's a company, technically. What's it called, [eternal September](https://en.wikipedia.org/wiki/Eternal_September) where they're talking about forums and new people come in, then they influence, say Reddit and it changes the whole culture and then everyone leaves after X years because the culture was not established and core enough to not change in a way that completely changed the whole thing.
 
 [38:01] **Henry:** Religions, I don't know if it's do a good job, I wouldn't use the word good. They're still there. Most of them have been around for a long time. So if we're talking about building institutions that last. That's one of them. And you can argue it's because it's about God, but maybe that is the reason. And, maybe that's what convinces all these tech people to try to make their own cults and religions. because they realize that, they want to influence.
 

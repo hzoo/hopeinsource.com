@@ -42,7 +42,7 @@ sidebar:
 
 [02:41] **Nadia:** I'm mixing all these terms of faith, spirituality, religion, and those are each different things, but the aspects of faith that are really present in open source are around community organizing, and also a sense of service, giving something to other people without expecting anything in return, for the benefit of some greater good.
 
-[03:08] **Henry:** Well I gave a talk on this in SF, at Zeit Day, but the way I got started in open source wasn't because I thought it was about community or serving people.
+[03:08] **Henry:** Well I gave a talk on this in SF, at [Zeit Day](https://zeit.co/day) (now [Vercel](https://vercel.com)), but the way I got started in open source wasn't because I thought it was about community or serving people.
 
 > [In Pursuit of Open Source](https://www.youtube.com/watch?v=9sPDcVYX3g8) - Henry's ZEIT Day talk
 
@@ -166,7 +166,7 @@ sidebar:
 
 [29:01] **Henry:** I don't know if that's true for open source for everyone, but I think it can be. Service is hard because sometimes the idea of serving versus serving itself, it competes. I have this really good quote. This is more really specific to faith but I think it's relevant. It says, "Beware of anything that competes with our loyalty to Jesus. The greatest comparator of true devotion to Jesus is the service we do for him. It's easier to serve than to pour out our lives for him. The goal of the call of God is the satisfaction, not simply that we should do something for him. We're not sent to do battle for God, but to be used by God in his battles. Are we more devoted to service than we are to Jesus himself?"
 
-> "Beware of anything that competes with your loyalty to Jesus Christ. The greatest competitor of true devotion to Jesus is the service we do for Him. It is easier to serve than to pour out our lives completely for Him." - Oswald Chambers, [It Is the Lord!](https://utmost.org/updated/it-is-the-lord/)
+> "Beware of anything that competes with your loyalty to Jesus Christ. The greatest competitor of true devotion to Jesus is the service we do for Him. It is easier to serve than to pour out our lives completely for Him." - [Oswald Chambers](https://en.wikipedia.org/wiki/Oswald_Chambers), [It Is the Lord!](https://utmost.org/updated/it-is-the-lord/)
 
 [29:58] **Henry:** And so for the faith thing, maybe serving becomes your own God, and feeling like you're so important and the sense of service trumps the point of faith in the first place. Which is interesting, where your work becomes your God, rather than working to serve because you already have God.
 
