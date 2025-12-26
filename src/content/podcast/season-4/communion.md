@@ -16,10 +16,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-
 sidebar:
   order: 4
 ---
-### Links
-
-- [Digital Communion (book)](https://www.fortresspress.com/store/product/9781506471143/Digital-Communion)
-- [Nick's site](https://nickripatrazone.com/)
 
 #### Layers of Language Meaning
 
@@ -27,7 +23,7 @@ sidebar:
 
 [00:11] **Henry:** So it's like in this backwards compatibility, because you don't even know what browser the user is using. But yeah, programming language translation.
 
-[00:19] **Henry:** And then you were saying that maybe _James Joyce_ has something to do with that.
+[00:19] **Henry:** And then you were saying that maybe [James Joyce](https://en.wikipedia.org/wiki/James_Joyce) has something to do with that.
 
 [00:24] **Henry:** Don't know a lot about him. I just heard, and even from your book that, he's really difficult to understand.
 
@@ -41,9 +37,9 @@ sidebar:
 
 [01:30] **Nick:** James Joyce, as a fiction writer, was writing at a time where there were changes in the way we think the brain works. And there was changes in terms of how newspapers were arranged, and advertising. And as I was saying about the advent of film.
 
-[01:45] **Nick:** So I think as a writer, his work has almost like a hyper textual kind of level to it. And if anyone sits down with his book, _Ulysses_, which is like the, almost the size of literally the Bible, and it's probably as inter-textual as that book.
+[01:45] **Nick:** So I think as a writer, his work has almost like a hyper textual kind of level to it. And if anyone sits down with his book, [Ulysses](https://en.wikipedia.org/wiki/Ulysses_(novel)), which is like the, almost the size of literally the Bible, and it's probably as inter-textual as that book.
 
-[02:02] **Nick:** That's what I was thinking of when you were talking about sort of translation, coding, layers to language, and pointing us to other things. And I think Joyce was someone who McLuhan was quite interested in for that ability, to have levels to his work, kind of both literal and metaphorical.
+[02:02] **Nick:** That's what I was thinking of when you were talking about sort of translation, coding, layers to language, and pointing us to other things. And I think Joyce was someone who [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan) was quite interested in for that ability, to have levels to his work, kind of both literal and metaphorical.
 
 [02:23] **Nick:** And that's like you say, he's kind of inscrutable for that reason. And I think that's kind of what appeals to me about him, because it is sort of a game to enter into his world and to try to deconstruct it and then find those like keys to read him.
 
@@ -57,7 +53,7 @@ sidebar:
 
 [03:48] **Henry:** That's really cool. Maybe getting an old copy of a book is way better than getting the new book, because it's like, you don't even know who that person is and you you're like having a conversation with them in some sense.
 
-[03:57] **Nick:** And I think, when we think of like the Bible as a text, even if we get a new copy of it, we're getting something that for the Old Testament through _Midrash_ and through engagement with exegesis of other parts of the Bible. Like it's just a text that has been so encountered so often over history. I feel like that spirit kind of lives in it.
+[03:57] **Nick:** And I think, when we think of like the Bible as a text, even if we get a new copy of it, we're getting something that for the Old Testament through [Midrash](https://en.wikipedia.org/wiki/Midrash) and through engagement with exegesis of other parts of the Bible. Like it's just a text that has been so encountered so often over history. I feel like that spirit kind of lives in it.
 
 [04:20] **Henry:** Yeah. I do like how people describe it as the book of books, right. As different genres.
 
@@ -73,7 +69,7 @@ sidebar:
 
 [05:26] **Nick:** In the one that you're describing is there not like footnotes at the bottom of the text? Is it more almost like just the narrative of the page and then there's no notation.
 
-[05:36] **Henry:** Yeah. It's like very plain in a way. It's just straight up, this is the text. There was a Kickstarter called Bibliotheca. The whole draw of this was like, let's get rid of all this.. I mean, you could call it excess or whatever, but like all this other stuff.
+[05:36] **Henry:** Yeah. It's like very plain in a way. It's just straight up, this is the text. There was a Kickstarter called [Bibliotheca](https://www.bibliotheca.co/). The whole draw of this was like, let's get rid of all this.. I mean, you could call it excess or whatever, but like all this other stuff.
 
 [05:49] **Nick:** That's so interesting to me because when I think of when I was like first kind of introduced to the Bible in the sense of literary study of it. And I still have, I don't know where it is in the house, but like my Catholic study Bible that I got when I was younger, like half of the page is footnotes.
 
@@ -85,9 +81,9 @@ sidebar:
 
 [06:56] **Henry:** Maybe that would prevent me from reading the whole thing or going into more depth, because having it on your phone, I just pull up the app and it just tells me, read this. The opposite would be not being able to relate to either people in your own community or people online.
 
-[07:11] **Nick:** Yeah because we're talking about Joyce. I mean _Finnigan's Wake_ is even more.. I don't feel especially confident wading through that book as anything more than just like trying to stay afloat.
+[07:11] **Nick:** Yeah because we're talking about Joyce. I mean [Finnegans Wake](https://en.wikipedia.org/wiki/Finnegans_Wake) is even more.. I don't feel especially confident wading through that book as anything more than just like trying to stay afloat.
 
-[07:23] **Nick:** I don't feel like I'm swimming with any true skill. It's more so I'm just trying to figure things out, whereas Ulysses is a little more decipherable. And it is beautifully written in certain places. In other places, I think it's meant to be obfuscating a little bit, like it's just meant to push us away.
+[07:23] **Nick:** I don't feel like I'm swimming with any true skill. It's more so I'm just trying to figure things out, whereas [Ulysses](https://en.wikipedia.org/wiki/Ulysses_(novel)) is a little more decipherable. And it is beautifully written in certain places. In other places, I think it's meant to be obfuscating a little bit, like it's just meant to push us away.
 
 [07:42] **Nick:** I mean, when I read the Old Testament, I feel tired. I feel like it's like I'm in the middle of a snowstorm. And then when I read the New Testament, there's like this razor kind of clarity that happens. So it's interesting to have that experiential kind of result.
 
@@ -113,7 +109,7 @@ sidebar:
 
 [10:38] **Nick:** It's impossible to imagine him as a writer without his religious background, which I think is true for a lot of the most kind of stylistically intense writers around. They seem to have that foundation, which I think speaks to the power of the foundation.
 
-[10:54] **Henry:** I feel like I can't appreciate modern art in the typical sense, because I'm trying to get, like, what is the point? I'm trying to figure out the answer, the solution, whatever. And I feel like I remember reading something from _The Medium and the Light_, about how that is the point in a way. You have to perceive the whole thing and I guess encounter it, feel it. And maybe that's how he saw religion in a way.
+[10:54] **Henry:** I feel like I can't appreciate modern art in the typical sense, because I'm trying to get, like, what is the point? I'm trying to figure out the answer, the solution, whatever. And I feel like I remember reading something from [The Medium and the Light](https://www.goodreads.com/book/show/25958.The_Medium_and_the_Light), about how that is the point in a way. You have to perceive the whole thing and I guess encounter it, feel it. And maybe that's how he saw religion in a way.
 
 [11:16] **Nick:** I think when you use the word perception or perceive, that is a central thing for him. His books are.. They're like mosaics, they're like collages rather than linear texts.
 
@@ -139,9 +135,9 @@ sidebar:
 
 [13:49] **Henry:** But with poetry, you can't really do a translation. And it's funny, I work on a translator. It's like, you can't really translate languages one to one. There are words that don't exist in other languages same thing with poetry then.
 
-[14:01] **Nick:** McLuhan, he grew up generally, I guess, Christian. You know, his family wasn't like ardently Christian, but you know, he went to church. And his mom was a believer for sure. But it wasn't until he read poetry specifically, Gerard Hopkins, who's this really kind of wild, not like as a person, but like sytactically wild, Jesuit priest.
+[14:12] **Nick:** McLuhan, he grew up generally, I guess, Christian. You know, his family wasn't like ardently Christian, but you know, he went to church. And his mom was a believer for sure. But it wasn't until he read poetry specifically, [Gerard Manley Hopkins](https://en.wikipedia.org/wiki/Gerard_Manley_Hopkins), who's this really kind of wild, not like as a person, but like sytactically wild, Jesuit priest.
 
-[14:25] **Nick:** And so McLuhan ended up going to Cambridge for his PhD, but he was riding his bicycle and he had like this book of poems with him. I think he was reading this poem _Pied Beauty_, by Hopkins.
+[14:25] **Nick:** And so McLuhan ended up going to Cambridge for his PhD, but he was riding his bicycle and he had like this book of poems with him. I think he was reading this poem [Pied Beauty](https://www.poetryfoundation.org/poems/44399/pied-beauty), by Hopkins.
 
 [14:36] **Nick:** And Hopkins is to me the most like radically innovative poet I've ever read, and was given to me in college by a professor who.. I think she was agnostic.
 
@@ -163,7 +159,7 @@ sidebar:
 
 [17:24] **Nick:** And in the parenthesis, he says, who knows how with a question mark, which feels like something that I would do in 2022. And he was doing in like 1878. And like, how could language have like such a direct line, you know? But it does.
 
-#### &quot;Coming on my Knees&quot;
+#### "Coming on my Knees"
 
 [17:41] **Nick:** So that was what McLuhan was reading. And he's like, wow, this makes a lot of sense to me. And that's what led ultimately to his conversion and sort of his very deep faith for the rest of his life.
 
@@ -225,7 +221,7 @@ sidebar:
 
 [24:44] **Henry:** Yeah. Oh yeah. I didn't even know until I like randomly went to Florida for vacation. And then that was one of the museums, having not known about him before.
 
-[24:54] **Nick:** yeah. And someone with a religious interest, for sure. He was another one of those kind of like _Andy Warhol_ an artist who is so profoundly religious.. The religious element is so foundational that it's almost like we don't even need to say it, you know? And therefore, by not saying it, then people sometimes forget that.
+[24:54] **Nick:** yeah. And someone with a religious interest, for sure. He was another one of those kind of like [Andy Warhol](https://en.wikipedia.org/wiki/Andy_Warhol) an artist who is so profoundly religious.. The religious element is so foundational that it's almost like we don't even need to say it, you know? And therefore, by not saying it, then people sometimes forget that.
 
 [25:13] **Henry:** Yeah. They're so infused with the religious element. Including McLuhan, he doesn't have to say it anymore. And I think that's the best thing. Like I don't have to tell everyone around me I'm Christian like that doesn't help. Ironically saying it is the distraction, but kind of because that maybe that's the point of the medium is message. I'm just telling them the message literally like I am Christian rather than living it out, right.
 
@@ -271,7 +267,7 @@ sidebar:
 
 [30:49] **Nick:** Well McLuhan thought that poets and artists were the key to really understanding what language is capable of, and where we are going with our methods of communication.
 
-[31:02] **Nick:** So his first book, _The Mechanical Bride_ from 1951 was a study of print advertising, but done with the care that you would apply to like a classic Renaissance piece of art. Like he paid like such close attention and probably like too much attention, he realized, to the nuances of the ads.
+[31:02] **Nick:** His first book, [The Mechanical Bride: Folklore of Industrial Man](https://en.wikipedia.org/wiki/The_Mechanical_Bride) from 1951 was a study of print advertising, but done with the care that you would apply to like a classic Renaissance piece of art. Like he paid like such close attention and probably like too much attention, he realized, to the nuances of the ads.
 
 [31:24] **Nick:** And it's weird because what happened was he realized you had to treat each text or work of art on its own and by its own rules while seeking patterns that transversed or went across multiple texts.
 
@@ -371,7 +367,7 @@ sidebar:
 
 [44:12] **Nick:** And it almost seems like too good to be true that that had happened. You know, and like, it qdidn't work out in part, I think of the bureaucracy, I think because of, they didn't realize how truly a visionary he was. But I think ultimately, the church of his generation was interested in the possibilities of television.
 
-[44:29] **Nick:** it was the time when, Clare of Assisi became the Patron Saint of TV. She was ill in her convent and wasn't able to attend mass. So she saw a vision of it projected on the wall of her, cloister and she actually could hear it and could see it. And it was like this crazy, just like amazing mystical moment.
+[44:29] **Nick:** it was the time when, [Clare of Assisi](https://en.wikipedia.org/wiki/Clare_of_Assisi) became the Patron Saint of TV. She was ill in her convent and wasn't able to attend mass. So she saw a vision of it projected on the wall of her, cloister and she actually could hear it and could see it. And it was like this crazy, just like amazing mystical moment.
 
 [44:53] **Nick:** And so I think in terms of like a real useful manner of this, the fact that online or digital life is another possible sphere of human existence. Like every sphere of human existence. If the church has the mission of connecting, communicating, and uplifting people, then that has to be another sphere in which it operates. It can't be just like this alleyway that they don't go down and they hope that it just like takes care of itself. because I think we know how well that will work out.
 

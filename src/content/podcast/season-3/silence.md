@@ -10,12 +10,6 @@ sidebar:
     order: 18
 ---
 
-### Links
-
-- [Impossible Silences](https://theconvivialsociety.substack.com/p/impossible-silences)
-- [Your Attention Is Not a Resource](https://theconvivialsociety.substack.com/p/your-attention-is-not-a-resource)
-- [Surviving the Show: Illich And The Case For An Askesis of Perception](https://theconvivialsociety.substack.com/p/surviving-the-show-the-case-for-an)
-
 #### Impossible Silences
 
 [00:00] **Henry:** Hey everyone, this is Henry, it's been a while since my last podcast, I think. But yeah, again, I have with me Michael Sacasas, and we're just gonna talk about his last newsletter posts from the last six months, and how they relate to Illich and his thinking around silence, attention, and some other topics, like hair of all things.
@@ -142,11 +136,11 @@ sidebar:
 
 [20:56] **Henry:** And because I didn't use it before, I would have ignored it. Maybe I thought was annoying. Or other people did it. I was like, oh, but I'm scared, you know, all these different ways of thinking about that thing. But then once I finally did it, I was like, wow, every time I noticed one, oh, maybe I should bike over here. It really changes your view of the city. But also like your life, like what you decide to do, may you spontaneously go somewhere else just because you can. So I think that really opens up things, because you decided look at it differently.
 
-[21:27] **Michael:** Right, right. A guy named Rob Walker, I think Rob Walker's his name, has an interesting newsletter called the art of noticing. And every newsletter is a exercise you might do. Not physical in the sense of, you know, activities you might undertake, you know, or prompts to get you, to see the world differently, or think about the world differently or to become attentive to the world in different ways. And yeah, I think that'd be a good thing, you know, for us to do, certainly to counteract the degree to which our attention does kind of get siphoned into our devices, right. So, you know, with smartphone in hand, I've much more tempted to become inattentive to my surroundings, right.
+[21:27] **Michael:** Right, right. A guy named [Rob Walker](https://robwalker.substack.com/), I think Rob Walker's his name, has an interesting newsletter called [The Art of Noticing](https://robwalker.substack.com/). And every newsletter is a exercise you might do. Not physical in the sense of, you know, activities you might undertake, you know, or prompts to get you, to see the world differently, or think about the world differently or to become attentive to the world in different ways. And yeah, I think that'd be a good thing, you know, for us to do, certainly to counteract the degree to which our attention does kind of get siphoned into our devices, right. So, you know, with smartphone in hand, I've much more tempted to become inattentive to my surroundings, right.
 
 [22:13] **Henry:** I think of walking on the street with your phone out, not looking at the road or anything. And then also this is related to sound, noise canceling headphones. I use those all the time now and it's like not just a safety concern, but it is interesting that you might not hear what's going on or just notice like things are going on. That's more of a recent thing I feel like too.
 
-[22:34] **Michael:** Yeah. It's interesting. So I really liked Fahrenheit 4 51 by Ray Bradbury. And I think the book is often just lumped into this sort of anti-censorship thing. I think there's a lot more going on there. It's really interesting. And there's this theme of people encasing themselves, in such a way that they have just lost touch with reality if you like or the world. And my understanding is, this is before headphones were a thing, Bradbury envisioned what he called in that story, seashells, he calls them, right. And so they're very familiar to us, you know, 70 years later, as earbuds that people would put in their years, but it would sort of block out the world, right. And so it was also a world in which people move very, very fast. And so speed becomes an impediment to noticing the world. It's the difference between walking and driving.
+[22:34] **Michael:** Yeah. It's interesting. So I really liked [*Fahrenheit 451*](https://en.wikipedia.org/wiki/Fahrenheit_451) by [Ray Bradbury](https://en.wikipedia.org/wiki/Ray_Bradbury). And I think the book is often just lumped into this sort of anti-censorship thing. I think there's a lot more going on there. It's really interesting. And there's this theme of people encasing themselves, in such a way that they have just lost touch with reality if you like or the world. And my understanding is, this is before headphones were a thing, Bradbury envisioned what he called in that story, seashells, he calls them, right. And so they're very familiar to us, you know, 70 years later, as earbuds that people would put in their years, but it would sort of block out the world, right. And so it was also a world in which people move very, very fast. And so speed becomes an impediment to noticing the world. It's the difference between walking and driving.
 
 #### Hope vs. Expectation
 
@@ -376,7 +370,7 @@ sidebar:
 
 [56:52] **Henry:** Yeah, I'd be happy to hear more of your thoughts as time goes on, or happy to share more. I think it's easy to conflate that with like this thing about trustlessness within crypto, and then whether that trustless is just means less trust.
 
-[57:09] **Henry:** So this guy Vitalik, he's the creator of Ethereum. I like what he has to say in a blog post. He says, "to me, the goal of crypto was never to remove the need for all trust." And all is emphasized. "Rather the goal of crypto is to give people access to building blocks that give people more choice in whom to trust. And then furthermore allow people to build more constrained forms of trust."
+[57:09] **Henry:** So this guy [Vitalik Buterin](https://en.wikipedia.org/wiki/Vitalik_Buterin), he's the creator of [Ethereum](https://en.wikipedia.org/wiki/Ethereum). I like what he has to say in a blog post. He says, "to me, the goal of crypto was never to remove the need for all trust." And all is emphasized. "Rather the goal of crypto is to give people access to building blocks that give people more choice in whom to trust. And then furthermore allow people to build more constrained forms of trust."
 
 [57:33] **Henry:** So I think that's a more nuanced take. It doesn't mean we replace all people with machines, but that maybe they didn't have a choice and maybe this gives them more options. And this is still about trusting people. So I think that's a better view of what this should be about rather than like, oh, let's get rid of all the middlemen.
 

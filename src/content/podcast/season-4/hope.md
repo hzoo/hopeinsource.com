@@ -31,11 +31,11 @@ sidebar:
 
 [01:16] **Henry:** Not that those things aren't important, but those other things didn't stop mattering when this new thing happened, right.
 
-[01:21] **Alex:** It's interesting that you bring up burnout because I've been reading a book by a youth pastor named Andrew Root. It's part of a series on basically applying Charles Taylor's book to church ministries, specifically youth ministry.
+[01:21] **Alex:** It's interesting that you bring up burnout because I've been reading a book by a youth pastor named [Andrew Root](https://andrewroot.org/). It's part of a series on basically applying [Charles Taylor](https://en.wikipedia.org/wiki/Charles_Taylor_(philosopher))'s book to church ministries, specifically youth ministry.
 
 [01:40] **Henry:** I forget if I sent that to you.. I might have given it to you..
 
-[01:44] **Alex:** Honestly, it's probably a both and, knowing that we share a lot of ideas with each other. Yeah. I mean, I was reading it recently. His third book is about how the Church is affected by what Charles Taylor considers like _The Secular Age_.
+[01:44] **Alex:** Honestly, it's probably a both and, knowing that we share a lot of ideas with each other. Yeah. I mean, I was reading it recently. His third book is about how the Church is affected by what Charles Taylor considers like [_The Secular Age_](https://en.wikipedia.org/wiki/A_Secular_Age).
 
 [02:03] **Alex:** And I guess, regardless of what you may believe personally in terms of your own values or your own religious thought, he does say that the fascinating aspect of our burnout is tied to our conception of time. Not having enough time.
 
@@ -45,7 +45,7 @@ sidebar:
 
 [02:54] **Alex:** And if we were to think about burnout and the sense of time and also identity..
 
-[03:00] **Alex:** I think in French it was like _La Fatigue d'être soi,_ or depression is the fatigue of being oneself.
+[03:00] **Alex:** I think in French it was like [_La Fatigue d'être soi_](https://en.wikipedia.org/wiki/Alain_Ehrenberg), or depression is the fatigue of being oneself.
 
 [03:08] **Alex:** Sometimes I wake up in the morning and I get that sense, right? Like, who am I, why do I feel? So burned out? Like, what do I need to do in order to be me today?
 
@@ -205,7 +205,7 @@ sidebar:
 
 [23:15] **Alex:** And one wonders, what's beyond this? And I think it's relevant to my ministry with everything that's going on internationally and also domestically.. and even seeing some of my students who are very much Gen Z. They're one of the more socially active generations that we know.
 
-[23:38] **Alex:** They are also very hopeless in their perception of the future. I would say that anti-natalists arguments are becoming a little bit more popular within their generation. For those who don't know what that is, it would be arguments against having children. They are very sensitive to climate change issues. And they're also a generation that is having less sex because of these issues as well.
+[23:38] **Alex:** They are also very hopeless in their perception of the future. I would say that [anti-natalist](https://en.wikipedia.org/wiki/Antinatalism) arguments are becoming a little bit more popular within their generation. For those who don't know what that is, it would be arguments against having children. They are very sensitive to climate change issues. And they're also a generation that is having less sex because of these issues as well.
 
 [24:15] **Alex:** And ultimately when you are to ask them of the reasons behind all this is that it's this deep sense of hopelessness in the future. Which I guess makes sense if you think that this world is going down the drain then why would you want to bring new life into the world, right. Why would you want to have them suffer to things that you are suffering and things like that?
 
@@ -245,7 +245,7 @@ sidebar:
 
 [29:09] **Henry:** Why did people choose to, if they even thought of it as a choice, to have kids or to continue living, right. It doesn't make me be like, oh my life is so much better or whatever, but I guess it even lengthens this time.
 
-[29:22] **Henry:** If you're familiar with Alan Jacobs, he has this phrase, temporal bandwidth.
+[29:22] **Henry:** If you're familiar with [Alan Jacobs](https://ayjay.org/), he has this phrase, [temporal bandwidth](https://en.wikipedia.org/wiki/Temporal_bandwidth).
 
 [29:26] **Henry:** We were talking about news before, right? Every minute there's a new thing happening and it makes your bandwidth really small. And when I see the past a little bit more, it gives me more, because I understand that people have gone through a lot of things too.
 
@@ -291,7 +291,7 @@ sidebar:
 
 #### Living Out a Seen Hope
 
-[36:02] **Alex:** If we were to appropriate one of the Greek philosophers and to use Plato's Allegory of the Cave.
+[36:02] **Alex:** If we were to appropriate one of the [Greek](https://en.wikipedia.org/wiki/Ancient_Greek_philosophy) philosophers and to use [Plato's Allegory of the Cave](https://en.wikipedia.org/wiki/Allegory_of_the_cave).
 
 [36:10] **Alex:** The philosopher who goes and sees the real world, freed from his or her chains and goes back to tell these cave dwellers about the real world and the elusiveness and the illusions that they were seeing in the shadow of these puppets.
 
@@ -315,9 +315,9 @@ sidebar:
 
 [39:24] **Henry:** The medium by which we talk about a message is the whole point. And if the message is a person or the medium is a person, then that's the thing that gives us hope. Just like we think that Jesus is our hope.
 
-[39:39] **Henry:** The medium of laws says something about what we think makes sense, or is important in the world. Not that they're not important, but we're maybe idolizing them. That we think that the way we can change the world is through laws. Like you said, those are the systems, but we haven't even changed ourselves, then it's not gonna be as effective. Taylor actually talks about law fetishism.
+[39:39] **Henry:** The medium of laws says something about what we think makes sense, or is important in the world. Not that they're not important, but we're maybe idolizing them. That we think that the way we can change the world is through laws. Like you said, those are the systems, but we haven't even changed ourselves, then it's not gonna be as effective. Taylor actually talks about [law fetishism](https://en.wikipedia.org/wiki/A_Secular_Age).
 
-[40:00] **Alex:** It's good that you brought up that thing a little earlier, because I think you're thinking about James Chapter 2, right? Suppose a brother or sister is without clothes and daily food. If one of you says to them , &quot;Go in peace; keep warm and well fed,&quot; but does nothing about their physical needs, what good is it?
+[40:00] **Alex:** It's good that you brought up that thing a little earlier, because I think you're thinking about [James Chapter 2](https://www.biblegateway.com/passage/?search=James+2&version=ESV), right? Suppose a brother or sister is without clothes and daily food. If one of you says to them , "Go in peace; keep warm and well fed," but does nothing about their physical needs, what good is it?
 
 [40:16] **Alex:** Of course that chapter is talking about faith and deeds and stuff like that, which we don't have to get into now, but yeah, in a real sense, like the medium is the message. And in the Christian faith, the medium is our humanity and the message or the Word is Jesus. So really God's word of peace and love to us is presented not incorporeally, but through our humanity.
 

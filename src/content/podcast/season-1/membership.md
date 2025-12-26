@@ -20,7 +20,7 @@ sidebar:
 
 [00:18] **Nadia:** I was thinking about this topic because I was reading this book called Call to Commitment, about a church that took the approach of drawing very clear lines around who was a member of the church and who isn't.
 
-> [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) is about [Church of the Saviour](https://en.wikipedia.org/wiki/Church_of_the_Saviour_(Washington,_D.C.)), a DC church that practiced covenant-based membership and mutual responsibility vs casual attendance, and influenced the emergent church movement.
+> [Call to Commitment](https://www.goodreads.com/book/show/1973101.Call_to_Commitment_) is about [Church of the Saviour](https://en.wikipedia.org/wiki/Church_of_the_Saviour_(Washington,_D.C.)), a DC church that practiced covenant-based membership and mutual responsibility vs casual attendance, and influenced the emergent church movement.
 
 [00:33] **Nadia:** The idea being that if you wanna show up and attend, you're always welcome to attend, welcome to take part and enjoy the services. But if you really wanna be a part of the church, they wanna know that you're super committed. And that means saying no to people that might be casually committed. It taught me about what it means to have a smaller group of people that are actually at that level of commitment.
 

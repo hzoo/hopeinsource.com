@@ -10,15 +10,6 @@ sidebar:
     order: 7
 ---
 
-### Links
-
-- Michael's [Twitter](https://twitter.com/lmsacasas)
-- Michael's Newsletter: [The Convivial Society](https://theconvivialsociety.substack.com/about?utm_source=menu-dropdown)
-- Newsletter: [Fortnite and the Good Life](https://theconvivialsociety.substack.com/p/the-convivial-society-no-15)
-- Newsletter: [Children and Technology](https://theconvivialsociety.substack.com/p/children-and-technology)
-- Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
-- Video version on [Youtube](https://www.youtube.com/watch?v=fojoWc1oCeQ)
-
 [00:00] **Henry:** So I have with me, [Michael Sacasas](https://thefrailestthing.com). He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, [The Convivial Society](https://theconvivialsociety.substack.com).
 
 #### Games and Virtue
@@ -41,7 +32,7 @@ sidebar:
 
 [00:53] **Michael:** Right. So that was generally the idea, right. That instead of focusing..
 
-[00:57] **Michael:** So I'm of the age where when I was gaming, Super Nintendo was the platform that was really popular, and Mortal Kombat had just come out. A lot of the same type of stuff was in the air about Mortal Kombat. it's violence, how graphic it was. And, you know, I played a good bit of it with my friends at the time. I never really felt tempted by violence.
+[00:57] **Michael:** So I'm of the age where when I was gaming, Super Nintendo was the platform that was really popular, and [Mortal Kombat](https://en.wikipedia.org/wiki/Mortal_Kombat) had just come out. A lot of the same type of stuff was in the air about Mortal Kombat. it's violence, how graphic it was. And, you know, I played a good bit of it with my friends at the time. I never really felt tempted by violence.
 
 [01:16] **Michael:** So I kind of get that idea that there's a tenuous connection here, and know there's a good bit of debate in the literature about whether there's any kind of causal relationship or not. But right, whether that can be established or not.
 
@@ -77,7 +68,7 @@ sidebar:
 
 [04:03] **Henry:** And eventually we had the internet. Everyone has their own console. You don't have to go to everyone's house. And now we have quarantine where like, even more so right? You are together, but in some sense you're not together.
 
-[04:14] **Henry:** Another point, there's been a resurgence in board games too, at least in the Western sphere. _Catan_ is super big. And that's replaced video games with board games.
+[04:14] **Henry:** Another point, there's been a resurgence in board games too, at least in the Western sphere. [_Catan_](https://en.wikipedia.org/wiki/Catan) is super big. And that's replaced video games with board games.
 
 [04:26] **Michael:** Right. The first trajectory outlined from the arcade, to the home with others, to being in the home, sort of physically isolated, but still connected online. Yeah, exploring what are the ramifications of those different modes of sociality, I think are valuable.
 
@@ -93,7 +84,7 @@ sidebar:
 
 [05:29] **Henry:** I think it speaks a lot to the idea of relationship. Going back to a video game analogy, is treating people like they're NPCs in a game where they have this set, rote thing, where if you say X and they say Y.
 
-[05:40] **Michael:** Right. Alison Gopnik wrote a book kind of developing that metaphor, and it struck me as a useful one. Because yeah, the difference is whether you see your child as something that you can fabricate, essentially to design in whatever shape or form you want them to come out as. And that's sort of the carpenter model where you have a piece of raw material and then you just apply your carpeting, you know, your parenting tools in this case. And out comes this product in the shape that you desire.
+[05:40] **Michael:** Right. [Alison Gopnik](https://en.wikipedia.org/wiki/Alison_Gopnik) wrote a [book](https://en.wikipedia.org/wiki/The_Gardener_and_the_Carpenter) kind of developing that metaphor, and it struck me as a useful one. Because yeah, the difference is whether you see your child as something that you can fabricate, essentially to design in whatever shape or form you want them to come out as. And that's sort of the carpenter model where you have a piece of raw material and then you just apply your carpeting, you know, your parenting tools in this case. And out comes this product in the shape that you desire.
 
 > "In the carpenter model, parents tend to view raising children as an engineering problem in which the trick is to apply the right techniques in order to achieve the optimal results. In this view, “parenting” is something you do. It is work." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
@@ -241,7 +232,7 @@ sidebar:
 
 > Also had a convo with Nadia on her book, [Managing Over-Participation](https://hopeinsource.com/overparticipation)
 
-[19:10] **Henry:** And I talked about this in [Nadia's book](https://www.amazon.com/Working-Public-Making-Maintenance-Software/dp/0578675862). Her book goes about open source, and how it's the same problems showing up there and how it reflects in our greater society. Of a neutral public square. Commenting on YouTube videos, anyone can do it, the same problem. Maybe we have too many people involved.
+[19:10] **Henry:** And I talked about this in [Nadia's book](https://press.stripe.com/working-in-public). Her book goes about open source, and how it's the same problems showing up there and how it reflects in our greater society. Of a neutral public square. Commenting on YouTube videos, anyone can do it, the same problem. Maybe we have too many people involved.
 
 [19:28] **Michael:** Yeah. The proposition that there should be limits is a kind of modern heresy. It goes against something I think, deeply ingrained in Western modernity. Not only with regards to its technological aspects. Although, again, increasingly these two things are so deeply intertwined. It's hard to pull them apart.
 
@@ -297,7 +288,7 @@ sidebar:
 
 [24:14] **Henry:** Yeah, it was interesting. The way we treat people that are dying is like, we just want quantity, which I guess is related to limitless. It's not really about quality. More of the same, right.
 
-> We’ve been wrong about what our job is in medicine. We think our job is to ensure health and survival. But really it is larger than that. It is to enable well-being." - [Atul Gawande](https://www.goodreads.com/quotes/6943479-we-ve-been-wrong-about-what-our-job-is-in-medicine)
+> We’ve been wrong about what our job is in medicine. We think our job is to ensure health and survival. But really it is larger than that. It is to enable well-being." - [Atul Gawande](https://en.wikipedia.org/wiki/Atul_Gawande)
 
 [24:23] **Michael:** Right, exactly. And, you know, again, I always try to make sure to strike a reasonable and nonjudgmental note of this, right. So I get it, right. If I have a loved one who is ill. Or I myself am ill, right. Life is precious, right. Life is good. And so to want to extend it, to want to try everything possible to extend it.
 
@@ -351,7 +342,7 @@ sidebar:
 
 [29:58] **Henry:** Yeah. I was thinking about how you said we don't really see it. And I was thinking, we don't really see it coming too in a way, because. People live in different places, the way you find out is like through a phone call or something. Whereas before if you were living together..
 
-[30:10] **Michael:** Right, right. Or even John Donne's famous poem, right, [For Whom the Bell Tolls](http://www.yourdailypoem.com/listpoem.jsp?poem_id=2118). The idea that in your community, there'll be a public announcement of the death of a member that everybody would sort of know that this had transpired.
+[30:10] **Michael:** Right, right. Or even [John Donne's](https://en.wikipedia.org/wiki/John_Donne) famous poem, right, [For Whom the Bell Tolls](http://www.yourdailypoem.com/listpoem.jsp?poem_id=2118). The idea that in your community, there'll be a public announcement of the death of a member that everybody would sort of know that this had transpired.
 
 > No man is an island,
 > Entire of itself.

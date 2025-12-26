@@ -14,9 +14,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Very-Onl
 sidebar:
   order: 3
 ---
-### Links
-
-- The book, [Strange Rites](https://www.publicaffairsbooks.com/titles/tara-isabella-burton/strange-rites/9781541762510/)
 
 #### Charles Taylor meets Marshall McLuhan
 
@@ -24,9 +21,9 @@ sidebar:
 
 [00:00:09] **Tara:** Well, thank you so much for having me. I'm delighted to be here.
 
-[00:00:12] **Henry:** So the book, it's called Strange Rites. I think you're trying to say that there's a certain view we have about religion. People think that everyone's becoming atheist, but you're saying that there's this swing between what you call intuitional versus institutional religion. One is about structures and one's about personal belief and it kind of goes back and forth.
+[00:00:12] **Henry:** So the book, it's called [Strange Rites](https://www.goodreads.com/book/show/52381797-strange-rites). I think you're trying to say that there's a certain view we have about religion. People think that everyone's becoming atheist, but you're saying that there's this swing between what you call intuitional versus institutional religion. One is about structures and one's about personal belief and it kind of goes back and forth.
 
-[00:00:31] **Henry:** But because of the internet, maybe this intuitional version is going to stay. So the two books that I kind of see are A Secular Age by Charles Taylor, and that meets McLuhan, The Medium is the Message. I don't know if that makes sense.
+[00:00:31] **Henry:** But because of the internet, maybe this intuitional version is going to stay. So the two books that I kind of see are [*A Secular Age*](https://en.wikipedia.org/wiki/A_Secular_Age) by [Charles Taylor](https://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)), and that meets [McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan), *The Medium is the Message*. I don't know if that makes sense.
 
 [00:00:45] **Tara:** Well, man, that is high compliments indeed. I'm a big fan of both. So I'll take it.
 
@@ -36,7 +33,7 @@ sidebar:
 
 [00:01:07] **Henry:** So my question is, who is your audience even?
 
-[00:01:09] **Tara:** Sure. So I used to work as a religion reporter for vox.com, which tended to be a sort of stereotypical, progressive, younger left-wing reader. But I also write, in the course of writing about religion, for sort of more explicitly religious audiences.
+[00:01:09] **Tara:** Sure. So I used to work as a religion reporter for [vox.com](https://www.vox.com), which tended to be a sort of stereotypical, progressive, younger left-wing reader. But I also write, in the course of writing about religion, for sort of more explicitly religious audiences.
 
 [00:01:25] **Tara:** I felt this challenge to write this book that could be read and deemed sort of respectful and fair both by a lot of the people written about in the book, which is to say you're kind of younger, spiritual, but not religious, urban millennial who's involved in witchcraft or who's part of a polyamorous triad, or who's really into wellness culture, but also be read by people who are kind of used to thinking about religion in different terms, who sort of think a lot about it and put that as a priority.
 
@@ -78,7 +75,7 @@ sidebar:
 
 [00:06:27] **Tara:** I think somewhat counter-intuitively, and that I think we hear a lot more about people who are driven out of religion because it is oppressive in some way. And certainly that is true, 46% of LGBTQ Americans are unaffiliated compared to just 24% of the average. But by and large, there's a huge bunch of people who are just like, "Oh, traditional religion. You know, it's not that important to our parents. But they still check the box, but we don't even feel the need to check the box."
 
-[00:06:53] **Tara:** So that's the profile of sort of what I grew up in and certainly I was one of those kids who was hungry and interested and was sort of involved at various points. You know, I did indeed have a relationship with witchcraft. I've written about that and various other phenomenon: book fandom, as I write myself in the book, a big fan of Sleep No More. Certainly others as well. And I think that while my path sort of took me, to sound all sort of little woo there, my path took me back to Christianity. That was not at all a given, especially not.. I'm in New York city, which is sort of a hotbed of pagan culture.
+[00:06:53] **Tara:** So that's the profile of sort of what I grew up in and certainly I was one of those kids who was hungry and interested and was sort of involved at various points. You know, I did indeed have a relationship with witchcraft. I've written about that and various other phenomenon: book fandom, as I write myself in the book, a big fan of [*Sleep No More*](https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)). Certainly others as well. And I think that while my path sort of took me, to sound all sort of little woo there, my path took me back to Christianity. That was not at all a given, especially not.. I'm in New York city, which is sort of a hotbed of pagan culture.
 
 [00:07:28] **Tara:** And I sort of wanted to look at it a little bit personally, even though there's not that much of my personal voice in the book, but to thank some of my best friends, similar upbringings to me, they're intensely practicing witches. I have people I'm really close to who feel very strongly about polyamory and are very much involved in that.
 
@@ -114,7 +111,7 @@ sidebar:
 
 #### Maybe not hexing Kavanaugh, but doing a meditation app
 
-[00:12:17] **Tara:** It very much isn't here are these people doing this new thing, and I think some attention in the book is, you know, you want to give examples that are illustrative. So you want to talk about Soul Cycle or Peter Thiel, these like very extreme people, who are extreme in one direction or another. Harry Potter fans who think that they're literally having sex with Severus Snape, witches who want to hex Brett Kavanaugh at Catland bookstore in Brooklyn.
+[00:12:17] **Tara:** It very much isn't here are these people doing this new thing, and I think some attention in the book is, you know, you want to give examples that are illustrative. So you want to talk about [Soul Cycle](https://en.wikipedia.org/wiki/SoulCycle) or [Peter Thiel](https://en.wikipedia.org/wiki/Peter_Thiel), these like very extreme people, who are extreme in one direction or another. Harry Potter fans who think that they're literally having sex with Severus Snape, witches who want to hex Brett Kavanaugh at Catland bookstore in Brooklyn.
 
 [00:12:41] **Tara:** All of those things, I won't say fringe in a weird way, but like perhaps extreme representations that are illustrative, yet so many more people, maybe they're not going to a pagan bookstore to cast a hex, but they're like Sage cleansing, they're lighting candles and doing a little ritual, they're doing a meditation app, doing yoga, and are still kind of caught up in the sort of broader cultural strokes, even if they're paradigmatic examples.
 
@@ -124,9 +121,9 @@ sidebar:
 
 #### On Escaping Our Givenness
 
-[00:13:59] **Henry:** Right. It kind of reminds me of David Foster Wallace, we're in the water and we don't really understand that. We can't feel it. Maybe it's like disembodiment or trying to escape history or the space and be like, I am objective, I am neutral, everyone is not, right.
+[00:13:59] **Henry:** Right. It kind of reminds me of [David Foster Wallace](https://en.wikipedia.org/wiki/David_Foster_Wallace), we're in the water and we don't really understand that. We can't feel it. Maybe it's like disembodiment or trying to escape history or the space and be like, I am objective, I am neutral, everyone is not, right.
 
-[00:14:13] **Tara:** I think that's something that people try to do. As I do in my piece recently for Comment magazine, this sort of late liberal, hyper liberal, you might say neoliberal, that one works too, that we are the possibility of the the neutral public square or the objective rational person.
+[00:14:13] **Tara:** I think that's something that people try to do. As I do in my piece recently for [*Comment* magazine](https://comment.org), this sort of late liberal, hyper liberal, you might say neoliberal, that one works too, that we are the possibility of the the neutral public square or the objective rational person.
 
 [00:14:32] **Tara:** I think that this is sort of a pleasant fiction that any of us can be, however rational we might try to be, however many cognitive biases we can learn and correct, that there is some version of us that is both social and bodily givenness. That there's even some truth that we could possibly apprehend.
 
@@ -138,7 +135,7 @@ sidebar:
 
 [00:15:30] **Tara:** And I think many of these groups that I profile, they're not all, are marked by a resistance to it in different ways. Which is to say, you know, the social justice movement, which I think has often been kind of maligned in certain ways, something that they do get at, which is actually not so different than some of the kind of more right wing groups that I profile, including those from modern atavists get at, is that: this idea of neutrality seems to be a sham. This liberal, neutral public square stuff. You know, it's not working. And that's something that the concepts of lived experience and concepts of the situatedness that comes from intersectionality are getting at.
 
-[00:16:11] **Tara:** But I think to the real fascination on the part of like, Jordan Peterson fans and those sort of more extreme to the right, are also talking about, you know, there is something about Nature, about what it means to be a man. Whether that's from an evo-psych perspective that shapes us in a certain way, and this is part of who we are. And we need to recognize that because capital N nature, in this almost as I argue, quasi pagan way is a force and, you know, I don't necessarily mean that pejoratively either. But I do think, it is its own ideology. and I think that, you know, it's worth paying attention to the fact that so many young political cultural movements are allied, however they might differ, wherever they might differ, in placing the problems of the world in a sense that the neoliberal world is a failed institution.
+[00:16:11] **Tara:** But I think to the real fascination on the part of like, [Jordan Peterson](https://en.wikipedia.org/wiki/Jordan_Peterson) fans and those sort of more extreme to the right, are also talking about, you know, there is something about Nature, about what it means to be a man. Whether that's from an evo-psych perspective that shapes us in a certain way, and this is part of who we are. And we need to recognize that because capital N nature, in this almost as I argue, quasi pagan way is a force and, you know, I don't necessarily mean that pejoratively either. But I do think, it is its own ideology. and I think that, you know, it's worth paying attention to the fact that so many young political cultural movements are allied, however they might differ, wherever they might differ, in placing the problems of the world in a sense that the neoliberal world is a failed institution.
 
 #### Struggling Against While Embodying Neoliberalism
 
@@ -296,7 +293,7 @@ sidebar:
 
 [00:44:24] **Henry:** So, is that what you mean by bad traditionalism?
 
-[00:44:27] **Tara:** When I talk about bad traditionalism in my piece of Commonweal, I don't mean all traditionalism. I don't actually even mean pure conservatives, conservative Christianity. I think that there are certainly people that I know that have more conservative views than I do. Who are Christians, who I absolutely do not think fall into this.
+[00:44:27] **Tara:** When I talk about bad traditionalism in my piece of [*Commonweal*](https://www.commonwealmagazine.org), I don't mean all traditionalism. I don't actually even mean pure conservatives, conservative Christianity. I think that there are certainly people that I know that have more conservative views than I do. Who are Christians, who I absolutely do not think fall into this.
 
 [00:44:45] **Tara:** What I see as bad traditionalism is a kind of alliance between Christian traditionalists who want to win the culture war and the kind of people I describe in my book as reactionary. Jordan Peterson being the first and most middle of the road example. But then the sort of like Deus vult, Which way, western man? meme posting crowd where Christian ideas of natural law are kind of perverted into evo psych tinged, survival of the fittest.
 
@@ -310,7 +307,7 @@ sidebar:
 
 [00:47:28] **Tara:** And what I want to preserve in my critique of that is that for me, Christianity is about the confusion of hierarchies, the subversion of binaries. There's plenty of medieval literature that describes Christ as a mother. That we, you know, suck the breasts of the mother Christ. There is the whole beatitudes, the veneration of the meek and the poor.
 
-[00:47:52] **Tara:** And I think the danger that what I call bad traditionalism falls into. It's not that I'm personally offended by the wearing of skirts, but rather that in order to win the culture wars, they're so focused on stamping out and specifically in seeing liberal choiciness gender things that don't conform to a certain model, that they're willing to basically make a kind of Nietzschean Christianity. And what I think is really worth pointing out here is that if you look at Nietzsche's criticisms of Christianity. Yeah the weak victim, obsessed with being victims, they just want to be oppressed. The kind of right-wing atavist critique of social justice culture.
+[00:47:52] **Tara:** And I think the danger that what I call bad traditionalism falls into. It's not that I'm personally offended by the wearing of skirts, but rather that in order to win the culture wars, they're so focused on stamping out and specifically in seeing liberal choiciness gender things that don't conform to a certain model, that they're willing to basically make a kind of [Nietzschean](https://en.wikipedia.org/wiki/Friedrich_Nietzsche) Christianity. And what I think is really worth pointing out here is that if you look at [Nietzsche's](https://en.wikipedia.org/wiki/Friedrich_Nietzsche) criticisms of Christianity. Yeah the weak victim, obsessed with being victims, they just want to be oppressed. The kind of right-wing atavist critique of social justice culture.
 
 [00:48:38] **Tara:** Like I want to do a Buzzfeed quiz, who said it, Nietzschean Christians or some men's rights activist on SJWs. And again, how they would call SJW, being a word they would use that as often not the preferred word by those in the movement, but the rhetoric is very, very similar.
 
@@ -330,7 +327,7 @@ sidebar:
 
 [00:50:39] **Tara:** For example, I think as I wrote in this piece for Comment, having questions about, is a neutral epistemology in this sort of liberal sense possible? Is a question that takes a lot of the language of lived experience, for example, which often can be more easily dismissed by those who are unsympathetic to it and been alright, what are we actually talking about? Is there such a thing as objective, disembodied knowledge, let's sort of work on this question a bit and then we can move on to like the specifics.
 
-[00:51:12] **Henry:** Yeah. On that particular note, I discovered this philosopher called Michael Polanyi. I don't know if you've heard of him before, but I feel like he's speaks to this directly in a way. He wrote this book, Personal Knowledge, and the subtitle's, post-critical philosophy. And critical meaning modernism. To me he was saying that modernism is about objectivity because of scientific method and technology. And postmodernism is admitting that we can't have truth. So he was trying to figure out how can we say that there is objective truth, but also acknowledge that individually, we see things from a certain perspective. And you can't necessarily be neutral because we all live in our own little world, essentially. He wasn't like a Christian, but he brought up Christianity a lot, in terms of thinking about how everything we do is an act of trust, act of faith, not necessarily in God, but he was pointing to that. That's how I kinda got into this epistemology stuff. You brought up in your article, Imago Dei and incarnation, right.
+[00:51:12] **Henry:** Yeah. On that particular note, I discovered this philosopher called [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi). I don't know if you've heard of him before, but I feel like he's speaks to this directly in a way. He wrote this book, [*Personal Knowledge*](https://en.wikipedia.org/wiki/Personal_Knowledge), and the subtitle's, post-critical philosophy. And critical meaning modernism. To me he was saying that modernism is about objectivity because of scientific method and technology. And postmodernism is admitting that we can't have truth. So he was trying to figure out how can we say that there is objective truth, but also acknowledge that individually, we see things from a certain perspective. And you can't necessarily be neutral because we all live in our own little world, essentially. He wasn't like a Christian, but he brought up Christianity a lot, in terms of thinking about how everything we do is an act of trust, act of faith, not necessarily in God, but he was pointing to that. That's how I kinda got into this epistemology stuff. You brought up in your article, Imago Dei and incarnation, right.
 
 #### Embodied Knowledge, Embodied Hope
 
@@ -344,7 +341,7 @@ sidebar:
 
 [00:53:32] **Henry:** I guess one other thing I was gonna bring up. How are ways that institutions, or the Church has tried to be intuitional itself? Cause one thing I see is, it's failing in the sense of how we have like seeker friendly churches? And that has good intentions. We want to get more people in, you know? But we kind of do the whole, let's turn worship into a concert because people like that stuff. And then we then we'll like do a bait and switch and be like, hey let's talk about God.
 
-[00:53:55] **Tara:** absolutely. The sort of Hillsongy model. That is I think very much falling into church as consumption in a way that I think is dangerous. Though there's a sort of other kind of intuitionalism that I think is just as prevalent. Some sort of more conservative thinkers have called it moral therapeutic deism.
+[00:53:55] **Tara:** absolutely. The sort of Hillsongy model. That is I think very much falling into church as consumption in a way that I think is dangerous. Though there's a sort of other kind of intuitionalism that I think is just as prevalent. Some sort of more conservative thinkers have called it [Moral Therapeutic Deism](https://en.wikipedia.org/wiki/Moral_therapeutic_deism).
 
 [00:54:13] **Tara:** And I think that's actually fair, that there's a sort of version of Christianity, worship, or Christian churches that basically were like, it's about community. So like, believe what you want. It doesn't really matter, like, be a good person.
 
@@ -388,9 +385,9 @@ sidebar:
 
 [01:00:43] **Tara:** But I also think that sort of tech revolutions may allow us to kind of, when paired with a concern for one another, create a more functional society. Like I said, my intuitions, are pretty leftist, but I'm also it works, if more people are getting fed, then great. And I'm kind of open to updating on that.
 
-[01:01:07] **Henry:** Yeah, I guess I've been thinking about how technology and technique leads to this feeling of wanting to control everything. I was reading from Michael Sacasas and he was writing about parenting. And how one way of looking at it is being a carpenter where you see the child like this object, right. To make them efficient, like a machine. And the other is like a gardener. And I think the analogy is interesting, cause we talked about this in terms of relationships with God, with evangelism. Right. We can't really control., We can't make them believe things or change them, but we can create an environment.
+[01:01:07] **Henry:** Yeah, I guess I've been thinking about how technology and technique leads to this feeling of wanting to control everything. I was reading from [Michael Sacasas](https://theconvivialsociety.substack.com) and he was writing about parenting. And how one way of looking at it is being a carpenter where you see the child like this object, right. To make them efficient, like a machine. And the other is like a gardener. And I think the analogy is interesting, cause we talked about this in terms of relationships with God, with evangelism. Right. We can't really control., We can't make them believe things or change them, but we can create an environment.
 
-[01:01:40] **Henry:** With technology, if everything is an object, then we can do something to it. There's this thing called the Whole Earth Catalog and the first thing in it says "we are as gods and might as well get good at it." And this happened before the internet, and influenced Steve jobs. There's this term called cybernetics about like loops and feedback. I think that speaks to a lot of like how we want to change the world.
+[01:01:40] **Henry:** With technology, if everything is an object, then we can do something to it. There's this thing called the [*Whole Earth Catalog*](https://en.wikipedia.org/wiki/Whole_Earth_Catalog) and the first thing in it says "we are as gods and might as well get good at it." And this happened before the internet, and influenced Steve jobs. There's this term called cybernetics about like loops and feedback. I think that speaks to a lot of like how we want to change the world.
 
 [01:02:03] **Tara:** Interesting. Generally, I think when we talk about ourselves as god's, my hackles get up. I think there might have been something in Genesis about that, that we avoid. But I think potential philosophy aside, one of the things that I think is an interesting point that comes up.
 

@@ -10,13 +10,11 @@ sidebar:
     order: 4
 ---
 
-### Links
-
-- Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
-
 #### Five Years Looking At Open Source Communities
 
-[00:00] **Henry:** It's actually been two years since we released Hope in Source. So yeah, I have Nadia again to talk about a new book that she's written, called Working In Public, about open source and community. I guess we could start off by just talking about what the thesis of the book is?
+[00:00] **Henry:** It's actually been two years since we released Hope in Source. So yeah, I have Nadia again to talk about a new book that she's written, called [Working In Public](https://www.goodreads.com/book/show/54140556-working-in-public), about open source and community. I guess we could start off by just talking about what the thesis of the book is?
+
+> Check out the [book](https://press.stripe.com/working-in-public)! 
 
 [00:17] **Nadia:** Yeah. To me, the book is sort of the combination of the last five years or so that I've spent looking at open source projects and communities. Some of which we explored even together on this podcast. But trying to make sense of an observation, I kind of been having over the course of that exploration.
 
@@ -170,7 +168,7 @@ sidebar:
 
 [20:45] **Nadia:** Yeah. I think like it's part ly to like why it is on GitHub or any other sort of infrastructure we can think about, supporting maintainers to help make this stuff easier to do. If you're a maintainer who does want to work more full time on a project and that understanding is not mutual between you and your users. And I don't know, people just don't necessarily understand those norms around, could a maintainer work on something full time.
 
-[21:12] **Nadia:** And so that's something, I explore it a little bit as well in the book of, GitHub released Sponsors last year, which I think is like a really great step in that direction of saying if you are a developer, you can and should get paid full time for your work or part time or whatever, but making it easier for people to do that versus before that people would go to Patreon or something. And there were a couple.. I mean, you were on Patreon, right? There were like a few open source developers that were doing that, but it was just sort of strange. I imagined for a lot of developers to be like, there aren't that many software projects on Patreon and it's a weird kind of side coupled thing, versus GitHub being like Sponsors is a native feature of our product.
+[21:12] **Nadia:** And so that's something, I explore it a little bit as well in the book of, [GitHub Sponsors](https://en.wikipedia.org/wiki/GitHub#GitHub_Sponsors) released last year, which I think is like a really great step in that direction of saying if you are a developer, you can and should get paid full time for your work or part time or whatever, but making it easier for people to do that versus before that people would go to [Patreon](https://en.wikipedia.org/wiki/Patreon) or something. And there were a couple.. I mean, you were on Patreon, right? There were like a few open source developers that were doing that, but it was just sort of strange. I imagined for a lot of developers to be like, there aren't that many software projects on Patreon and it's a weird kind of side coupled thing, versus GitHub being like Sponsors is a native feature of our product.
 
 [21:52] **Nadia:** It just is like a little bit more of a stamp of approval, but I feel like there's still like so much more that GitHub could be doing besides just offering this like payments aspects of it. But it's like everything that gets you up to that point as well. Like, you know, just making it more visible who is working on a project. Like, if you click on someone's GitHub profile, it should be really clear what they do all day. And right now, I mean, yeah, there's a contribution graph, but sometimes it's not easy to see, what are the projects that this person is best known for? So I think just like cultivating that sort of like reputation system around the sort of payments aspect is also so really important and something that I know GitHub was definitely working on and hopefully we'll make more progress on in the coming years.
 
@@ -216,7 +214,7 @@ sidebar:
 
 [28:40] **Henry:** I think that's weird because to me, seems to be at odds with the whole small groups, dark forest sort of thing, where you want to create this whole niche thing because you're getting higher interaction, but then the way you sustain yourself is through this general, try to cater to the average person sort of thing.
 
-[28:59] **Nadia:** Definitely. I see that tension in my day job now. Cause I work at Substack, which is a newsletter platform for independent writers, a place where you can write and then build your mailing list and your dedicated audience that you can speak to you directly. But growing that list still requires doing things in the broader public sphere. So you can think of like, my Substack work is like the quieter niche stuff that I'm doing in a corner with my true fans who are listening. But then in order to grow that smaller, true fan audience, I still have to do a lot of things that are.. I mean, every paid writer is also doing free public posts because those are the ones that can go viral and get shared around and serve as basically like a commercial for their paid work.
+[28:59] **Nadia:** Definitely. I see that tension in my day job now. Cause I work at [Substack](https://en.wikipedia.org/wiki/Substack), which is a newsletter platform for independent writers, a place where you can write and then build your mailing list and your dedicated audience that you can speak to you directly. But growing that list still requires doing things in the broader public sphere. So you can think of like, my Substack work is like the quieter niche stuff that I'm doing in a corner with my true fans who are listening. But then in order to grow that smaller, true fan audience, I still have to do a lot of things that are.. I mean, every paid writer is also doing free public posts because those are the ones that can go viral and get shared around and serve as basically like a commercial for their paid work.
 
 [29:43] **Nadia:** Not every writer, but a lot of writers that are doing well, came from say, building their audience on Twitter. And so it's not like they can just completely go dark and never do anything public again. They have to switch between these modes now where certain things are public and therefore growing your audience and getting a lot of like random new interests coming in. And then your newsletter can be a place to do things more quietly. Yeah, there's no way to really escape that if you are a creator of any sort, I think. And dealing with the idea that sometimes.. The things you care the most about are not the things that are going to go the most viral.
 
@@ -256,7 +254,7 @@ sidebar:
 
 [34:52] **Henry:** Your mouth moves.
 
-[34:53] **Nadia:** Yeah. Your mouth moves! That was what was cool about it, right. Cause I remember trying online town, where you're this little avatar figure that's running around a map and there's also a video underneath of you, but then it felt almost disconnected or disjointed.
+[34:53] **Nadia:** Yeah. Your mouth moves! That was what was cool about it, right. Cause I remember trying [online town](https://gather.town), where you're this little avatar figure that's running around a map and there's also a video underneath of you, but then it felt almost disconnected or disjointed.
 
 [35:06] **Nadia:** But I like that with cozyroom, when you're talking, your cartoon is talking, it's almost like I don't need the video to look like me, but I just want to see some representation when I'm saying something or whatever. Yeah, that was a fun one.
 
@@ -274,7 +272,7 @@ sidebar:
 
 [35:52] **Nadia:** I still don't understand why, like my grid it does not look the same as everyone else's grid on the same Zoom call. It seems like they always put you in like the top middle or something like that. Whoever you are. I guess it just changes for everyone else, but it can get very confusing where you're like, I want the sensation of let's go around the room, but my room doesn't even look like your room.
 
-[36:10] **Henry:** It's such a simple thing. It's funny that technology can do some such amazing things, but once you kind of veer off. Simple as like wanting to go in order, it doesn't work anymore. It does remind me of about Ivan Illich. He talks about Tools for Conviviality and this idea of tools versus apps. Apps are created by a designer that kind of forces you into their vision of what it is, I think that's similar to the grid thing. Versus a tool, where like you get to decide for yourself how you want to use it. You have the freedom to do that.
+[36:10] **Henry:** It's such a simple thing. It's funny that technology can do some such amazing things, but once you kind of veer off. Simple as like wanting to go in order, it doesn't work anymore. It does remind me of about [Ivan Illich](https://en.wikipedia.org/wiki/Ivan_Illich). He talks about [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality) and this idea of tools versus apps. Apps are created by a designer that kind of forces you into their vision of what it is, I think that's similar to the grid thing. Versus a tool, where like you get to decide for yourself how you want to use it. You have the freedom to do that.
 
 [36:42] **Nadia:** Yeah, I've talked about with friends, this issue with screen-sharing also where you show someone a presentation and then it's like me kind of pointing around with my mouse, but people sometimes understand your presentation better when they can poke around in it themselves. So there's a difference between, I have Google slides and then I put it on screen share on a zoom call. And then it's just you having to look at me go through the slides at my pace. Which is different from, I made my presentation and Figma and then I gave everyone a link to the Figma file. And if you do that, cause you can see people's cursors bouncing around in Figma, you can see like, everyone is kind of exploring the deck on their own while also listening to you explain it. And sometimes I think that can to better retention of what you're talking about because you're letting people touch the thing and play with the thing.
 
@@ -288,7 +286,7 @@ sidebar:
 
 [38:17] **Nadia:** And so I think about like getting a coffee with someone or going to the park with someone. It's not because we want to look at the park so badly that we're there. It's not because I need to drink a coffee that I'm there.
 
-[38:28] **Nadia:** There's this line, and this is a random reference, but in Good Will Hunting, where they talk about like chewing caramels and the idea that like chewing caramels is just as arbitrary as drinking coffee. The whole point is I just want to like hang out with you. And so how do we create the ideal like software or environment. Something where all I want is for you to facilitate the conversation I have with the other person, I don't want the environment to be the thing.
+[38:28] **Nadia:** There's this line, and this is a random reference, but in [*Good Will Hunting*](https://en.wikipedia.org/wiki/Good_Will_Hunting), where they talk about like chewing caramels and the idea that like chewing caramels is just as arbitrary as drinking coffee. The whole point is I just want to like hang out with you. And so how do we create the ideal like software or environment. Something where all I want is for you to facilitate the conversation I have with the other person, I don't want the environment to be the thing.
 
 [38:51] **Nadia:** Like if I were meeting with someone at a carnival, it would be a lot more distracting than meeting with someone at a park. And we might've had fun at the carnival, but then we never really went that deep with each other.
 

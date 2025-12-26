@@ -15,12 +15,6 @@ sidebar:
   order: 2
 ---
 
-### Links
-
-- The Machine Stops (E. M. Forster)
-- Tools for Conviviality (Ivan Illich)
-- Severance (Ling Ma)
-
 #### Faith in Public
 
 [00:00] **Nicole:** I think both of us found each other talking about religion and faith and that intersection with tech and our careers and our Twitter spheres. I think both of us share both Christian faith and also not having talked about that on Twitter for a long time and started to talk about that recently for a variety of reasons. Definitely interested in more about why that happened for you. But for me, it was normally.. These are not two popularly overlapping conversations that happen so.
@@ -29,7 +23,7 @@ sidebar:
 
 [00:28] **Henry:** Oh, I didn't even introduce each other, but I have Nicole with me on this podcast. And I guess I'll just start by saying how I found you. I think it was when you did the thread about faith, right? What was the thing called? Threadpalooza or something.
 
-[00:43] **Nicole:** VGR started Threadpalooza and you know, you like the tweet or whatever, and then he says, I'll give you one topic that he wants to hear you talk about or he thinks other people want to hear you talk about. And I got religion and you know, had never put all my views in one place, but had created a thread about just about everything else that I think about. So it was time.
+[00:43] **Nicole:** [VGR](https://twitter.com/vgr) (Venkatesh Rao) started Threadpalooza and you know, you like the tweet or whatever, and then he says, I'll give you one topic that he wants to hear you talk about or he thinks other people want to hear you talk about. And I got religion and you know, had never put all my views in one place, but had created a thread about just about everything else that I think about. So it was time.
 
 > "OK 1 like = 1 hot take on religion." - [Thread on religion](https://twitter.com/nwilliams030/status/1206634214558486528?s=20)
 
@@ -39,7 +33,7 @@ sidebar:
 
 [01:18] **Henry:** Yeah. I think it's sort of like things that people are thinking on their own, but they're afraid or it's not normal to bring it up. And so when you do say what people are actually thinking, they're super motivated and want to talk to you.
 
-[01:31] **Nicole:** Yeah, definitely. Do you follow Liz Brunig?
+[01:31] **Nicole:** Yeah, definitely. Do you follow [Liz Bruenig](https://en.wikipedia.org/wiki/Elizabeth_Bruenig)?
 
 [01:33] **Henry:** I don't think so.
 
@@ -51,13 +45,13 @@ sidebar:
 
 [02:16] **Nicole:** Yeah, yeah. I just saw a few hours ago, Sonya Mann was asking about whether she should write an article about her, I think reconversion to Christianity? And it sort of made me think about that too. I think, for a long time my aversion to talking about it on Twitter was honestly having gone through a Christian K-12 school where you have apologetics classes, you know, literally learning about how to argue for your faith.
 
-[02:39] **Nicole:** The biggest thing I realized coming out of that school was like nobody in the real world wants to just argue about the finer points of eschatology and you know theological doctrine. That's not how people really think about their faiths or like their lack of faith. So I think that that's why I'd always like shied away from that on Twitter. I just realized that well, I guessed very few people wanted to have a very public, but simultaneously very personal conversation in this space. But it turns out that wasn't true, so yeah.
+[02:39] **Nicole:** The biggest thing I realized coming out of that school was like nobody in the real world wants to just argue about the finer points of [eschatology](https://en.wikipedia.org/wiki/Eschatology) and you know theological doctrine. That's not how people really think about their faiths or like their lack of faith. So I think that that's why I'd always like shied away from that on Twitter. I just realized that well, I guessed very few people wanted to have a very public, but simultaneously very personal conversation in this space. But it turns out that wasn't true, so yeah.
 
 [03:04] **Henry:** Yeah, I guess that's like a very specific way of, either you want to call it evangelism or arguing for your faith. I mean, arguing in itself is, that's like a way of thinking about it. Like instead of a conversation or a dialogue or having it be like super intellectual versus like personal, right. We try to be more objective, like, Oh, this is true because XYZ science, faith, that kind of thing.
 
 [03:22] **Nicole:** I think you brought that up right after. I think the first time we talked face to face after sort of chatting via DMs for awhile, which is that like there's this interesting, very specific space discussion of faith is expected to occupy at this moment in time where often it's like specifically through the lens of rationality. People have sort of expected that to be the status quo and often that's not really both the place for it or a place where it's most powerful. I think we're seeing the window shift and throughout history the window has been very different. I don't really know why that is, but yeah.
 
-[03:57] **Henry:** There's a slate star codex article about secularism and like new.. What's it called? New Atheists? I already forgot what it's called. Richard Dawkins and that whole thing.
+[03:57] **Henry:** There's a [Slate Star Codex](https://en.wikipedia.org/wiki/Slate_Star_Codex) article about secularism and like new.. What's it called? New Atheists? I already forgot what it's called. [Richard Dawkins](https://en.wikipedia.org/wiki/Richard_Dawkins) and that whole thing.
 
 [04:06] **Nicole:** Oh yes, yeah.
 
@@ -236,11 +230,11 @@ sidebar:
 
 [32:35] **Henry:** That's an interesting conclusion. I mean like I guess I don't disagree, it's so true because otherwise our faith is reduced to feeling, like only feeling and emotion. And that means that anytime I'm not feeling, that I believe in God or, or just depressed or whatever, then you're like, Oh. Then it becomes about you again. You're like, Hey, I didn't give enough willpower to believe when in the end it's about faith. So it's like I'm supposed to surrender that willpower to believe, not try to muster up some kind of courage or strength to like still believe when I actually, clearly I don't, and admitting that should be the first step of that process.
 
-[33:11] **Nicole:** Yeah. It's interesting too, Aristotle kind of talks about this in Nicomachean Ethics with the whole idea of habituation, which is like, it's missing the God part, which is that ultimately God sort of sets the context for our mood and emotions throughout time. And I think habituation gets almost all the way there, which is if you just do something long enough, that faith will come, which is almost like a little bit more of a, I dunno, like more of an abstract thought without like that anchor of like why it will eventually come. Yeah. I find it, I find the idea that like anything through time and devotion, and even again, like whether it's work that you find very monotonous, becoming an act of worship, you can sort of set that apart as something sacred and something enjoyable and even beautiful. I think that's been saving my mind in quarantine more than anything else. Like if I can enjoy very like silly little tasks and make it something fun and beautiful and like a privilege to do. It just keeps me from going insane.
+[33:11] **Nicole:** Yeah. It's interesting too, [Aristotle](https://en.wikipedia.org/wiki/Aristotle) kind of talks about this in [*Nicomachean Ethics*](https://en.wikipedia.org/wiki/Nicomachean_Ethics) with the whole idea of habituation, which is like, it's missing the God part, which is that ultimately God sort of sets the context for our mood and emotions throughout time. And I think habituation gets almost all the way there, which is if you just do something long enough, that faith will come, which is almost like a little bit more of a, I dunno, like more of an abstract thought without like that anchor of like why it will eventually come. Yeah. I find it, I find the idea that like anything through time and devotion, and even again, like whether it's work that you find very monotonous, becoming an act of worship, you can sort of set that apart as something sacred and something enjoyable and even beautiful. I think that's been saving my mind in quarantine more than anything else. Like if I can enjoy very like silly little tasks and make it something fun and beautiful and like a privilege to do. It just keeps me from going insane.
 
 [34:10] **Henry:** Hmm. And just like being grateful for being able to do that. Maybe we were, we criticized it cause it feels mechanical. Like most people would criticize the idea of doing something over and over to feel it because they're like, aren't you just going through the motions? And that's usually negative, but, there is a sense that doing that can bring you back and especially in liturgy because you're doing it with others. The example would be that. You know, you show up at church anyway, even if you're not feeling it, but you see everyone around you, you hear everyone around you, they're all into it, and that will remind yourself Oh, this was me before. I think I can still be like this. Instead of just doing it by yourself, right.
 
-[34:47] **Nicole:** Definitely. Yeah. one of my favorite writers, GK Chesterton has this quote about monotony and doing things over and over again and talking about how basically like what if God is more like young children that we realized in his love for doing things over and over again and his appreciation for just like the beauty of the process. And in the same way a kid will ask you to do the same thing, read the same thing over and over again. Maybe that's the way we should understand monotony in our daily life with this sort of joy for living and joy for experiencing things in and of itself.
+[34:47] **Nicole:** Definitely. Yeah. one of my favorite writers, [GK Chesterton](https://en.wikipedia.org/wiki/G._K._Chesterton) has this quote about monotony and doing things over and over again and talking about how basically like what if God is more like young children that we realized in his love for doing things over and over again and his appreciation for just like the beauty of the process. And in the same way a kid will ask you to do the same thing, read the same thing over and over again. Maybe that's the way we should understand monotony in our daily life with this sort of joy for living and joy for experiencing things in and of itself.
 
 [35:22] **Henry:** Monotony. I haven't really thought about that much, I guess I'm reminded of, Narnia talks about, like at the end the inside is bigger than the outside.
 
@@ -282,7 +276,7 @@ sidebar:
 
 #### Learning is Autotelic
 
-[40:33] **Nicole:** Yeah. This might be a whole nother can of worms, honestly, we'll see. Well, like Lambda school, there's that, but also like, I mean, even just what you were saying now, right, where like. Sometimes for some people, the thought of just reading a book that is not super current is like a detractor from productivity. Like why would you choose something that's less applicable or people perceive as being less applicable to like right now in time, I guess. I think. The need for like liberal arts education broadly is kind of become a meme at this point. And I think it's, it's tough because I'm also a super strong advocate for optionality somewhere between academia and like a technical certificate. But on the other hand, if I lived in an ideal universe, I feel like everybody needs a chance to go through sort of like a liberal arts education. I think the ideal way to gain like robust context in the world, not even from like, I think a lot of people view it as like, Oh, looking at philosophy, it makes you better at computer science. That's the worst way to view it. Like philosophy is its own thing. Philosophy helps you be better at thinking philosophically, which like if you apply it to computer science or STEM, like that's cool, but you're also kind of missing the point. It's not about gaining utility.
+[40:33] **Nicole:** Yeah. This might be a whole nother can of worms, honestly, we'll see. Well, like [Lambda School](https://en.wikipedia.org/wiki/Lambda_School), there's that, but also like, I mean, even just what you were saying now, right, where like. Sometimes for some people, the thought of just reading a book that is not super current is like a detractor from productivity. Like why would you choose something that's less applicable or people perceive as being less applicable to like right now in time, I guess. I think. The need for like liberal arts education broadly is kind of become a meme at this point. And I think it's, it's tough because I'm also a super strong advocate for optionality somewhere between academia and like a technical certificate. But on the other hand, if I lived in an ideal universe, I feel like everybody needs a chance to go through sort of like a liberal arts education. I think the ideal way to gain like robust context in the world, not even from like, I think a lot of people view it as like, Oh, looking at philosophy, it makes you better at computer science. That's the worst way to view it. Like philosophy is its own thing. Philosophy helps you be better at thinking philosophically, which like if you apply it to computer science or STEM, like that's cool, but you're also kind of missing the point. It's not about gaining utility.
 
 [41:51] **Henry:** I still think that way. It's like, if I learn about this topic, whether it's anthropology or cities or philosophy, then I can like be a better programmer. I mean, that's fine that I think that way maybe, but like you were saying, we should still remember that those subjects in and of themselves are their own pursuit too.
 
@@ -324,13 +318,13 @@ sidebar:
 
 [49:55] **Nicole:** True. Decentralization is the future in every sense.
 
-[50:00] **Henry:** I know people have been telling me that Bitcoin has something called the Genesis block or something, and like how, maybe he was inspired by Luther, but the first decentralization was like the printing press and like all that stuff, the Reformation.
+[50:00] **Henry:** I know people have been telling me that Bitcoin has something called the Genesis block or something, and like how, maybe he was inspired by [Luther](https://en.wikipedia.org/wiki/Martin_Luther), but the first decentralization was like the printing press and like all that stuff, the Reformation.
 
 [50:13] **Nicole:** That's meta.
 
 #### Professionalization
 
-[50:14] **Henry:** I don't know if you've heard of Ivan Illich before.
+[50:14] **Henry:** I don't know if you've heard of [Ivan Illich](https://en.wikipedia.org/wiki/Ivan_Illich) before.
 
 [50:17] **Nicole:** Yes, The Deschooling Society?
 

@@ -14,12 +14,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Sacred-C
 sidebar:
   order: 9
 ---
-### Links
-
-- [Earning to Give](https://en.wikipedia.org/wiki/Earning_to_give)
-- [Manifund](https://manifund.org/)
-- [Purchase Fuzzies and Utilons Separately](https://www.lesswrong.com/posts/3p3CYauiX8oLjmwRF/purchase-fuzzies-and-utilons-separately)
-- [OSS lazy-loads governance](https://www.devonzuegel.com/post/oss-lazy-loads-governance)
 
 #### Jewish Culture and Rationalism
 
@@ -27,7 +21,7 @@ sidebar:
 
 [00:04] **Henry:** Because I assume that most people that are into EA are not religious people?
 
-[00:09] **Austin:** If anything, the religion that is more common among EA folks might be Judaism. There's a tradition of at least the rationalist community coming from people who are Jewish by background like Scott Alexander, Eliezer Yudkowsky, I think have some traditions from this culture. They are people who have written a lot and shape a lot of how the rationalist movement thinks, which then shapes a lot of how the EA movement thinks.
+[00:09] **Austin:** If anything, the religion that is more common among EA folks might be Judaism. There's a tradition of at least the rationalist community coming from people who are Jewish by background like [Scott Alexander](https://en.wikipedia.org/wiki/Scott_Alexander), [Eliezer Yudkowsky](https://en.wikipedia.org/wiki/Eliezer_Yudkowsky), I think have some traditions from this culture. They are people who have written a lot and shape a lot of how the [rationalist movement](https://en.wikipedia.org/wiki/Rationalist_movement) thinks, which then shapes a lot of how the [EA movement](https://en.wikipedia.org/wiki/Effective_altruism) thinks.
 
 [00:33] **Henry:** You think they're just key figures or is there something about jewish culture that relates?
 
@@ -35,7 +29,7 @@ sidebar:
 
 #### Growing up Tithing
 
-[00:57] **Austin:** So, I'm Catholic, I grew up Catholic. Both my parents are Catholic and they raised me in the tradition. and I think that had a pretty direct, line of, causality to how I ended up interested in the ideas of effective altruism. A core teaching of effective altruism is, where you give 10% of your income, if you take the giving what we can pledge towards effective charities and, a pretty core teaching of the Catholic Church is that it is important to donate back. I think the same figure, 10% actually.
+[00:57] **Austin:** So, I'm [Catholic](https://en.wikipedia.org/wiki/Catholic_Church), I grew up Catholic. Both my parents are Catholic and they raised me in the tradition. and I think that had a pretty direct, line of, causality to how I ended up interested in the ideas of [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism). A core teaching of effective altruism is, where you give 10% of your income, if you take the giving what we can pledge towards effective charities and, a pretty core teaching of the Catholic Church is that it is important to donate back. I think the same figure, 10% actually.
 
 [01:26] **Austin:** Growing up, I would go to church, with my mom and dad and my siblings, and they would hand over a $1 bill or a $5 bill for us every time the collections basket for church came around. And I guess that habituated me a little bit to the idea that like, oh, donating, giving money away to the church is a very reasonable thing to do. Specifically like, the money that we kind of have on earth is like, not just for us, it's also for, other things. It's to, give back. That made donating a very, normalized thing.
 
@@ -69,7 +63,7 @@ sidebar:
 
 [04:48] **Austin:** now I'd say we're like a little bit less like rooted again. and I think, it's a thing that kind of ebbs and flows. with the, upcoming birth of my, daughter. I expect, well, we wanna take her in for baptism and maybe a few years later, kind of, get her educated in the Catholic tradition as well. So, that might bring me closer with the church again.
 
-[05:05] **Austin:** but yeah, that I think occupies a small percentage of my waking life, and versus a large percentage of my waking life is thinking about effective altruism. I spend some of my like free time reading the EA forum for example, but also my work Manifund, is a lot around funding things in principles with the things that effective altruism thinks is valuable. I spend a lot of my time like talking to people in this space. so yeah, the, the balance of where my attention is has definitely shifted a lot.
+[05:05] **Austin:** but yeah, that I think occupies a small percentage of my waking life, and versus a large percentage of my waking life is thinking about effective altruism. I spend some of my like free time reading the [EA forum](https://forum.effectivealtruism.org/) for example, but also my work [Manifund](https://manifund.org/), is a lot around funding things in principles with the things that effective altruism thinks is valuable. I spend a lot of my time like talking to people in this space. so yeah, the, the balance of where my attention is has definitely shifted a lot.
 
 #### How far does a dolllar go
 
@@ -105,7 +99,7 @@ sidebar:
 
 [09:55] **Austin:** And then your second point. I think it is kind of hard, even if you agree that like, oh, you want to be like very effective with your donations. Kind of hard to know. Everyone's gonna tell you like, oh, we think our donations are very valuable. How do you know, which of these many different charities in the world do you choose between. And I think effective altruism has these like meta charities or charity evaluators.
 
-[10:16] **Austin:** One that I respect a lot is GiveWell, for example. they try to like talk to the charities and look over the reports and talk to other scientists and do things like this to kind of come up with a quantified of, for example, how many lives you can save per dollar, spent. Or how many dollars does it take to save a life, I guess is probably the easier way to think about it.
+[10:16] **Austin:** One that I respect a lot is [GiveWell](https://www.givewell.org/), for example. they try to like talk to the charities and look over the reports and talk to other scientists and do things like this to kind of come up with a quantified of, for example, how many lives you can save per dollar, spent. Or how many dollars does it take to save a life, I guess is probably the easier way to think about it.
 
 [10:33] **Austin:** I respect them a lot. I think they hire very, like smart people to, sit down and do these analysis. There are of course like all kinds of issues that they themselves will admit, like there are wide uncertainty bars on many kinds of the research that they do. And it is very sensitive to different assumptions.
 

@@ -24,41 +24,9 @@ Dr. Timothy Patitsas has been Assistant Professor of Orthodox Christian Ethics 
 since 2005. His dissertation, The King Returns to His City: An Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church,
 combined interests in complexity theory, liturgy, urbanism, and the economic and political writings of Jane Jacobs.
 
-### Links
+[00:00] **Henry:** All right. We decided to make a bonus episode. So Nadia wrote [a post a month ago](https://nadia.xyz/public-life) about her reading of a book called [The Death and Life of Great American Cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). It talks about cities and how that relates to open source and communities online, that open source is kind of like a digital city. Same with the internet.
 
-- ["The Death and Life of Great American Cities"] (Jane Jacobs)
-- Timothy's paper: ["The City as Liturgy"]
-- ["Reclaiming public life"](https://nadia.xyz/public-life): Nadia's post after reading Jane Jacobs' book on cities
-- ["After Writing"]: On the Liturgical Consummation of Philosophy (Catherine Pickstock). The article that linked liturgy with cities for Timothy. The author accused Descartes of substituting a "mode of knowing" that was impersonal, visual, timeless; similar to Jacobs' accusation of urban planners
-- [Cartesianism](https://en.wikipedia.org/wiki/Cartesianism): philsophy of René Descartes
-- ["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"]: Article about governance from a friend that Timothy recommends. Can't throw away hierarchy entirely, but it can be fractal
-- [Subsidiarity]
-- [_Governing The Commons_](https://www.amazon.com/Governing-Commons-Evolution-Institutions-Collective/dp/0521405998) by Elinor Ostrom
-- ["Governance without foundations"](https://nadia.xyz/foundations): Nadia's post on foundations
-- Organic order isn't known all at once, is recursive/algorithmic (think of our relationships)
-- We cope with perennial issues, like death, through liturgy (ritual)
-- ["Science and Complexity"](http://people.physics.anu.edu.au/~tas110/Teaching/Lectures/L1/Material/WEAVER1947.pdf) (Warren Weaver)
-- ["Letters to a Young Poet"]: Particularly Letter #4: "Don't search for the answers, which could not be given to you now, because you would not be able to live them."
-- [Desire lines]
-- ["The Cat and the Toaster"]: Living System Ministry in a Technological Age (book)
-  - Many references to the [church as a body](https://en.wikipedia.org/wiki/Body_of_Christ) (1 Corinthians 12:12-31), also reminded of being farmers/stewards/shepards.
-- _The Ethics of Beauty_: Timothy's upcoming new book
-- [paperclip maximization]
-
-["the death and life of great american cities"]: https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities
-["the city as liturgy"]: https://www.academia.edu/12035222/The_City_as_Liturgy_An_Orthodox_Theologian_Corresponds_with_Jane_Jacobs_About_a_Gentle_Reconciliation_of_Science_and_Religion
-["after writing"]: https://www.amazon.com/After-Writing-Liturgical-Cosummation-Philosophy/dp/0631206728
-[urban renewal act]: https://en.wikipedia.org/wiki/Housing_Act_of_1949
-["an exploration of hierarchy as fractal in the theology of dionysios the areopagite"]: https://academiccommons.columbia.edu/doi/10.7916/D832055Z
-[subsidiarity]: https://en.wikipedia.org/wiki/Subsidiarity_(Catholicism)
-["letters to a young poet"]: https://www.carrothers.com/rilke_main.htm
-[desire lines]: https://en.wikipedia.org/wiki/Desire_path
-["the cat and the toaster"]: https://www.amazon.com/Cat-Toaster-Living-Ministry-Technological/dp/1608992705
-[paperclip maximization]: https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer
-
-[00:00] **Henry:** All right. We decided to make a bonus episode. So Nadia wrote a post a month ago about her reading of a book called ["The Death and Life of Great American Cities"]. It talks about cities and how that relates to open source and communities online, that open source is kind of like a digital city. Same with the internet.
-
-[00:21] **Henry:** That got me looking into my own research on the topic. I found a paper called ["The City as Liturgy"]. And so I thought it'd be cool to bring on the author. So right now we have Dr. Timothy Patitsas, with us. He's a Assistant Professor of Orthodox Christian Ethics at Holy Cross Greek Orthodox School of Theology in Boston. And he wrote a dissertation called, "The King Returns to His City, an Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church". Thanks for joining us today.
+[00:21] **Henry:** That got me looking into my own research on the topic. I found a paper called [The City as Liturgy](https://www.academia.edu/12035222/The_City_as_Liturgy_An_Orthodox_Theologian_Corresponds_with_Jane_Jacobs_About_a_Gentle_Reconciliation_of_Science_and_Religion). And so I thought it'd be cool to bring on the author. So right now we have Dr. Timothy Patitsas, with us. He's a Assistant Professor of Orthodox Christian Ethics at Holy Cross Greek Orthodox School of Theology in Boston. And he wrote a dissertation called, "The King Returns to His City, an Interpretation of the Great Week and Bright Week Cycle of the Orthodox Church". Thanks for joining us today.
 
 [00:57] **Timothy:** Thank you, Henry. And thank you, Nadia. Thanks for bringing me on.
 
@@ -66,17 +34,19 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [01:19] **Timothy:** So to start with Jane Jacobs, she did not finish college. She did do a couple of years at Columbia in the 1930s. And when she got to a point where they insisted that she choose a major she quit. She wanted to be free to organize her education any way she saw fit. And I mean to follow the intellectual leads as they came to her.
 
-[01:44] **Timothy:** She was a journalist in New York City. And she covered the effects of the [Urban Renewal Act]. I think there's a more official name for it, of 1949, which really devastated American cities. It replaced what was the living order of the old city with this very abstract, very visual kind of formal, pretty order that was underneath all that was lifeless and dead.
+[01:44] **Timothy:** She was a journalist in New York City. And she covered the effects of the [Urban Renewal Act](https://en.wikipedia.org/wiki/Housing_Act_of_1949). I think there's a more official name for it, of 1949, which really devastated American cities. It replaced what was the living order of the old city with this very abstract, very visual kind of formal, pretty order that was underneath all that was lifeless and dead.
 
-[02:13] **Timothy:** In 1961 she published her book, ["The Death and Life of Great American Cities"]. It was an instant hit. I don't know how much impact it had on the field of urban planning initially or even still today. I certainly wish there was more evidence that what she wrote there is being followed.
+[02:13] **Timothy:** In 1961 she published her book, [The Death and Life of Great American Cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). It was an instant hit. I don't know how much impact it had on the field of urban planning initially or even still today. I certainly wish there was more evidence that what she wrote there is being followed.
 
 [02:33] **Timothy:** But I came to her book many years later just as a side thing while I was working on my dissertation in theology. And one day I just happened to notice, she was describing cities as if they were liturgies. So there's a book that helped me to understand Jane Jacobs.
 
 [02:50] **Timothy:** I mean of course, the moment I read The Death and Life of Great American Cities I was in love with that book. I was in love with just her writing style, her insight, and her rebellious nature against what was the accepted reasoning of the day. And also it's really a text about racial injustice because of the over 2,000 American city neighborhoods that were completely dynamited down to the rubble to make way for urban renewal. 1700 of them were largely African-American neighborhoods.
 
-[03:29] **Timothy:** So a huge blow to the African-American urban communities. And no one talks about that. Still today. There's like one other book you hear about. So on many levels I loved Death and Life. But there's another theologian in England named Catherine Pickstock. And she wrote a book called, ["After Writing"]. And the subtitle is On the Liturgical Consummation of Philosophy.
+[03:29] **Timothy:** So a huge blow to the African-American urban communities. And no one talks about that. Still today. There's like one other book you hear about. So on many levels I loved Death and Life. But there's another theologian in England named Catherine Pickstock. And she wrote a book called, [After Writing](https://www.goodreads.com/book/show/783914.After_Writing). And the subtitle is On the Liturgical Consummation of Philosophy.
 
 [03:56] **Timothy:** And I didn't read that book super closely 'cause it was kind of technical and dense. But, her basic point was that she thought that Descartes had aspired for, aspired to, to bring us to a mode of knowing that was impersonal and visual and outside of time. And, it was during actually my comprehensive exams for the dissertation at Catholic U in Washington that it just hit me that what Pickstock was accusing Descartes of doing, is what Jane Jacobs had accused the urban planners of her day of doing.
+
+> [Cartesianism](https://en.wikipedia.org/wiki/Cartesianism): the philosophy of René Descartes. After Writing accuses Descartes of substituting a "mode of knowing" that was impersonal, visual, timeless; similar to Jacobs' accusation of urban planners.
 
 [04:34] **Timothy:** They substituted a living, very sophisticated, rich and subtle order, with something that was visually flashy and comprehensible, but that was outside of time and therefore dead.
 
@@ -124,7 +94,7 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [15:29] **Nadia:** Yes.
 
-[15:29] **Timothy:** It's called, ["An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite"]. And it's by a friend of mine named Georgia J. Williams. Georgia Williams. And, this word hierarchy was first coined, I mean as a noun, a proper noun like that in maybe the 500s A.D.
+[15:29] **Timothy:** It's called, [An Exploration of Hierarchy as Fractal in the Theology of Dionysios the Areopagite](https://academiccommons.columbia.edu/doi/10.7916/D832055Z). And it's by a friend of mine named Georgia J. Williams. Georgia Williams. And, this word hierarchy was first coined, I mean as a noun, a proper noun like that in maybe the 500s A.D.
 
 [15:54] **Timothy:** And what it meant in the theology of this saint of the early church, Dionysius, was what we mean by fractal. So you kind of just have to read ... you can't dispense with hierarchy, but you have to understand it fractally. And I think, Henry, you were saying that that relates to this whole notion of subsidiarity, which I haven't really read about.
 
@@ -132,9 +102,9 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [16:53] **Timothy:** And so, this issue of how you get people involved, first of all, you have to empower them to get involved. You know, to control their own lives like right where they are. But, then of course they will be in these nested networks.
 
-[17:08] **Henry:** Yeah, speaking of [subsidiarity], it's a term from Catholic church. It says it's organizing principle that matters should be handled by the smallest or lowest, least centralized authority. And so all decisions should be taken at the local level if possible and kind of like moving up.
+[17:08] **Henry:** Yeah, speaking of [subsidiarity](https://en.wikipedia.org/wiki/Subsidiarity_(Catholicism)), it's a term from Catholic church. It says it's organizing principle that matters should be handled by the smallest or lowest, least centralized authority. And so all decisions should be taken at the local level if possible and kind of like moving up.
 
-[17:27] **Henry:** So it kind of reminds me of doing things only when necessary or like a lazy way of thinking where it's not everything has to be handled by the people that have the most context around what they're handling. And it even reminds me of a post that Nadia did about foundations and whether open source projects should join a foundation for their own governance and when to add more people and add governance. And it's kind of like do it when it requires it to be happening rather than beforehand.
+[17:27] **Henry:** So it kind of reminds me of doing things only when necessary or like a lazy way of thinking where it's not everything has to be handled by the people that have the most context around what they're handling. And it even reminds me of [a post that Nadia did about foundations](https://nadia.xyz/foundations) and whether open source projects should join a foundation for their own governance and when to add more people and add governance. And it's kind of like do it when it requires it to be happening rather than beforehand.
 
 [17:58] **Nadia:** It's very strange 'cause I get a lot of pushback on ... I have this sort of emerging view about governance related to that post I wrote about foundations that you should be attempting minimum viable governance, like don't over-engineer governance. Do the minimum amount that's necessary to prevent I guess like further conflict. And in some cases you might not actually need to formalize governance at all if everyone is ... if it's a small enough group and everyone's getting along great.
 
@@ -146,7 +116,9 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [19:53] **Timothy:** I think it takes work to preserve a genuine local ... and in any case maybe our political discussion in the United States is hopelessly broken because our economics is broken. And unless we really understood why local currencies in the Jane Jacobs vision are so crucial, well then we're really trying to govern ourselves in a vacuum independently of our economic lives and that just can't work.
 
-[20:35] **Nadia:** Right. This has a lot of crossover. Henry and I were talking about this with Elinor Ostrom's work. I don't know if you've also read her stuff.
+[20:35] **Nadia:** Right. This has a lot of crossover. Henry and I were talking about this with [Elinor Ostrom](https://en.wikipedia.org/wiki/Elinor_Ostrom)'s work. I don't know if you've also read her stuff.
+
+> [Governing the Commons](https://www.goodreads.com/book/show/1048424.Governing_the_Commons) by Elinor Ostrom - on how communities manage shared resources
 
 [20:46] **Timothy:** I've only heard of her from you guys. So that's ... Forgive me for that, yeah.
 
@@ -171,6 +143,8 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 [23:31] **Timothy:** Yeah. So, Jacobs starts, with the idea that for her modern science begins roughly around 1600 and the idea that we're gonna have generate falsifiable hypotheses and the experimental method, and really be dedicated to reality and reason. And she says just, the fact of it is that, in the first three centuries of science from 1600 to 1900 in her opinion ... well, I'll say where she gets that opinion from in a second, we could only be one of the three kinds of science and that was what she calls problems in simplicity, which are two variable problems where the dependence of one factor depends wholly on the dependence of some other single factor.
 
 [24:20] **Timothy:** And actually it's just serendipity that when she was writing her Death and Life, through this grant from the Rockefeller Foundation there was a guy there named Warren Weaver, who was retiring after 27, 28 years as head of kind of deciding who got the research money from Rockefeller. Warren Weaver wrote this report on what are these three kinds of science. And that's what she used. And she could show pretty clearly that her opponents were using the second kind of science, a statistical approach. And then looking for ways to reduce it to the first kind of science, the simplicity approach.
+
+> [Science and Complexity](https://fernandonogueiracosta.wordpress.com/wp-content/uploads/2015/08/warren-weaver-science-and-complexity-1948.pdf) (1948) by Warren Weaver - the foundational paper on organized complexity
 
 [25:05] **Timothy:** And she was, and she just said, it turns out, cities are something else. They're like biological life forms. And they're living organisms. And those two kinds of science are just not appropriate. When you're studying something living you have to use this third kind of science that's only been discovered in the last 30 years called the problem in organized complexity.
 
@@ -230,7 +204,7 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [35:30] **Henry:** Yeah. I think that kind of just ties back into liturgy itself. It's like, it's easy to tell people things that like the ideas in your mind, even if you say them it's do people actually understand what you're saying and I think living that out is a better way of understanding what they're getting at.
 
-[35:50] **Henry:** It kind of even reminds me of the ["Letters to a Young Poet"] that I sent you. Not being out, not being able to like live out the answers and so like the idea is to live out the questions. And I think that's hard for people because we just want an answer and we just wanna figure it out now.
+[35:50] **Henry:** It kind of even reminds me of the [Letters to a Young Poet](https://rilkepoetry.com/letters-to-a-young-poet/letter-four) that I sent you. Not being out, not being able to like live out the answers and so like the idea is to live out the questions. And I think that's hard for people because we just want an answer and we just wanna figure it out now.
 
 [36:09] **Henry:** And this idea of having patience, I think that's hard for people.
 
@@ -268,7 +242,7 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [42:37] **Nadia:** But like each of those pieces still exist as their own thing. Like a road is just a road. But a road when people are on it is now like, becomes a problem of organized complexity. Um, and so she's not saying that the artifact is transforming into something living, but more that it is now participating in a system that is a separate thing.
 
-[42:56] **Timothy:** That's a good point. Yeah. And now it's, and now it will ... like, I think sometimes they call 'em [desire lines] in cities [inaudible 00:43:05] purposes.
+[42:56] **Timothy:** That's a good point. Yeah. And now it's, and now it will ... like, I think sometimes they call 'em [desire lines](https://en.wikipedia.org/wiki/Desire_path) in cities [inaudible 00:43:05] purposes.
 
 [43:06] **Nadia:** Yes.
 
@@ -278,7 +252,9 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [43:52] **Timothy:** It just it's very hard to shift. You know, it's hard to invent something, a new ritual that will catch. And, um, so the sign that it should catch is usually that it has caught and, something ... it, you know, it's, it's kind of the collective affirmation around it that, you know, lets you know that, "Okay, this is ... I tried it and, uh, other people caught on and here we are."
 
-[44:21] **Timothy:** But, yeah, I think, yeah, that that feeling of antiquity ... By the way in Boston at the Emmanuel Gosp- , there's something called the Emmanuel Gospel Center and it is the do Urban Christian Ministry, but their whole approach is this, organized complexity approach and I'm trying to find ... oh, I just remembered the name of their book. It's something like, ["The Cat and the Toaster"]. And, it's or The Toaster and the Cat or one of those.
+[44:21] **Timothy:** But, yeah, I think, yeah, that that feeling of antiquity ... By the way in Boston at the Emmanuel Gosp- , there's something called the Emmanuel Gospel Center and it is the do Urban Christian Ministry, but their whole approach is this, organized complexity approach and I'm trying to find ... oh, I just remembered the name of their book. It's something like, [The Cat and the Toaster](https://www.goodreads.com/book/show/42601482-the-cat-and-the-toaster). And, it's or The Toaster and the Cat or one of those.
+
+> subtitle is *Living System Ministry in a Technological Age*! Also thinking of the metaphor of [church as a body](https://en.wikipedia.org/wiki/Body_of_Christ) (1 Corinthians 12:12-31).
 
 [44:51] **Timothy:** And it, the question is if you're dealing with are you dealing with a toaster or a cat? You know, ... and that has to do with time. Can you take it apart and put it back together? It's a toaster. If you take it apart are you, do you belong in jail? That's a cat.
 
@@ -294,7 +270,7 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 
 [46:07] **Timothy:** And, the thing about the antiquity of liturgies or rituals is that they are cats and not toasters. So the idea that you could take them apart and put them back together, unless in putting them back together you do hit up, hit upon the ancient patterns. I mean the perennial, not ancient in time, but the timeless forms. Just not gonna happen. You know, it just isn't gonna happen. They just, they won't, they won't survive the transition. You'll lose your, your church or religion if you do it wrong. It'll just, it'll just go away underneath you.
 
-[46:45] **Nadia:** Here's something I'm sort of wondering about. Going back to sort of like the recursive fractal nature of organized systems. There's this, I can't even really remember where it comes from. The whole idea of like paper, [paperclip maximization] where like you have a factory that's making paperclips and then all it knows is to make paperclips and then it sort of just like, it's so focused on the thing. (laughs). And you end up just sort of like destroying everything for the sake of paperclips.
+[46:45] **Nadia:** Here's something I'm sort of wondering about. Going back to sort of like the recursive fractal nature of organized systems. There's this, I can't even really remember where it comes from. The whole idea of like paper, [paperclip maximization](https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer) where like you have a factory that's making paperclips and then all it knows is to make paperclips and then it sort of just like, it's so focused on the thing. (laughs). And you end up just sort of like destroying everything for the sake of paperclips.
 
 [47:10] **Nadia:** Yeah just trying to think a little bit about that like maybe symbiotic relationship between systems of organized complexity but also respecting the more objective, and like how do you know when a system is trying to optimize for something and everyone is kind of talking it through and then but like it's taking us into like a worse direction in some shape or form.
 
@@ -327,6 +303,8 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 [51:15] **Timothy:** What is, what are the lay people doing and what role are they playing in their own religious life? And Printing Press and scripture and all those things. I mean, there was some kind of a sense now this, we can recapture the, the meaning of liturgy here.
 
 [51:34] **Timothy:** Of course, I'm sure when we Catholics look at it from a different perspective. But I'm just saying that it is, there's some commonality there. My book, The Ethics (laughs) of Beauty is coming out this summer from, St. Nicholas Press in Missouri and, the final chapter is the Jane Jacobs chapter. So you can skip the rest and go straight to that.
+
+> [The Ethics of Beauty](https://www.stnicholaspress.net/store/the-ethics-of-beauty)
 
 [51:59] **Timothy:** But, um-
 

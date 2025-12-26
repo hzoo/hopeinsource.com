@@ -15,38 +15,38 @@ sidebar:
 ---
 ### Show Notes
 
-- Building a Second Brain
-- Metaphors We Live By
-- Cognitive Metaphor Theory
-- Michael Polanyi, focal subsidiary integration
-- The Body Keeps the Score
-- Programming as Theory Building
+- [Building a Second Brain](https://www.buildingasecondbrain.com/)
+- [Metaphors We Live By](https://en.wikipedia.org/wiki/Metaphors_We_Live_By)
+- [Cognitive Metaphor Theory](https://en.wikipedia.org/wiki/Conceptual_metaphor)
+- [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi), [focal subsidiary integration](https://en.wikipedia.org/wiki/Michael_Polanyi#Tacit_knowledge)
+- [The Body Keeps the Score](https://en.wikipedia.org/wiki/The_Body_Keeps_the_Score)
+- [Programming as Theory Building](https://pages.cs.wisc.edu/~remzi/Naur.pdf)
 - [What Games Are Like For Someone Who Doesn't Play Games](https://www.youtube.com/watch?v=ax7f3JZJHSw)
-- Gonzo journalism
-- auto ethnography, etic, and emic
-- 20 Years of JavaScript
-- Purity and Danger
-- dead metaphors
+- [Gonzo journalism](https://en.wikipedia.org/wiki/Gonzo_journalism)
+- [auto ethnography](https://en.wikipedia.org/wiki/Autoethnography), [etic, and emic](https://en.wikipedia.org/wiki/Emic_and_etic)
+- [20 Years of JavaScript](https://bookbye.com/read/20-years-of-javascript/)
+- [Purity and Danger](https://en.wikipedia.org/wiki/Purity_and_Danger)
+- [dead metaphors](https://en.wikipedia.org/wiki/Dead_metaphor)
 - Tim Rohrer
-- The Medium is the Message
-- Natural Born Cyborgs (Andy Clark)
-- cybernetics
-- anthropomorphization
-- The Cat and The Toaster
-- The Death and Life of Great American Cities. So she uses the same kind
-- How to Talk About Books You Haven't Read
+- [The Medium is the Message](https://en.wikipedia.org/wiki/The_medium_is_the_message)
+- [Natural Born Cyborgs](https://maggieappleton.com/cyborg-history) ([Andy Clark](https://en.wikipedia.org/wiki/Andy_Clark))
+- [cybernetics](https://en.wikipedia.org/wiki/Cybernetics)
+- [anthropomorphization](https://en.wikipedia.org/wiki/Anthropomorphism)
+- [The Cat and The Toaster](https://www.goodreads.com/book/show/42601482-the-cat-and-the-toaster)
+- [The Death and Life of Great American Cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities)
+- [How to Talk About Books You Haven't Read](https://en.wikipedia.org/wiki/How_to_Talk_About_Books_You_Haven%27t_Read)
 
 [00:00] **Henry:** Hey everyone, this is Henry for the Maintainers Anonymous podcast. I have with me **Maggie Appleton**, again! And here we want to talk about this idea of metaphor, I think we mentioned that at the end of the last episode. And I know that Maggie, you just did like a talk about metaphors and embodiment.
 
 [00:14] **Maggie:** So, last time we chatted, we had mostly talked about **gift economies** in relationship to open source stuff, and then started to talk a bit about how metaphor and embodied metaphor relates to programming. And I, yeah, I had just done a talk the other week about how embodiment and metaphor relates to something called **Building a Second Brain**, which is a strange theory, which just essentially means being a nerdy, information collector, social community we have of people that are really into taking in notes and collecting everything that they research and turning it into useful output of some sort.
 
-[00:46] **Maggie:** And because it's called _Building a Second Brain_, I got a bit into where ideas of body and brain come from. And the history of **René Descartes**, who is a French philosopher kind of initiated the original idea that all minds and our bodies are separate, which more modern science has proven to not be completely true.
+[00:46] **Maggie:** And because it's called _Building a Second Brain_, I got a bit into where ideas of body and brain come from. And the history of [René Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes), who is a French philosopher kind of initiated the original idea that all minds and our bodies are separate, which more modern science has proven to not be completely true.
 
 [01:04] **Maggie:** And I think we all understand that, you know, that's problematic in lots of ways. There's all these ways that the body affects the brain and the brain affects the body, that they are perhaps not two separate entities connected, but are instead one cohesive system (laughs). But the historical legacy of that stays with us and it causes some problems.
 
 [01:20] **Maggie:** And I think this relates a lot to programming, cause it's such a cerebral process. And yet from my understanding of it, like the way that we program and build things is very physical and embodied, especially in the metaphors we use to work with it.
 
-[01:35] **Maggie:** So yes, we started to get into a bit a theory called **Metaphors We Live By**, which is a book that, **George Lakoff** wrote, and **Mark Johnson**, his coauthor, who probably doesn't get as much credit for it (laughs). He's always hidden. And yeah, so he came up with this theory, I think it was in 1991 this book was published? And it established a discipline called **Cognitive Metaphor Theory**, which is this idea that everything about the way we reason in the world, everything about the way we think, everything about the way we move is metaphorical.
+[01:35] **Maggie:** So yes, we started to get into a bit a theory called **Metaphors We Live By**, which is a book that, [George Lakoff](https://en.wikipedia.org/wiki/George_Lakoff) wrote, and [Mark Johnson](https://en.wikipedia.org/wiki/Mark_Johnson_(philosopher)), his coauthor, who probably doesn't get as much credit for it (laughs). He's always hidden. And yeah, so he came up with this theory, I think it was in 1991 this book was published? And it established a discipline called **Cognitive Metaphor Theory**, which is this idea that everything about the way we reason in the world, everything about the way we think, everything about the way we move is metaphorical.
 
 [02:06] **Maggie:** Which is a bit difficult to understand. So if we back it up a bit and talk a bit about metaphor, you know, it just simply means understanding one thing in terms of another, right? So that's like the very basic definition. And we usually think a metaphor is something that lives in like literature and poetry, right? Or it's like some fancy thing you put at the beginning of an article to make it more interesting than it is, right? Like every programming tutorial it goes, "Oh, well, here's how like RxJS is like a big pile of cars or something." And it seems very, you know fluffy and artistic and tangential to the point sometimes.
 
@@ -108,9 +108,9 @@ sidebar:
 
 [10:55] **Henry:** My equivalent was seeing how being skeptical of that is like, kind of not trusting other people or trusting yourself. That's kind of like the skepticism of Descartes, right? I can only discover truth by myself because I don't want to essentially take someone else's belief as fact or opinion.
 
-[11:11] **Maggie:** Cause yeah, the abstraction of course, it is necessary at some point, right? Like once you understand Redux, you don't need to constantly rebuild that. Every time you use it, you just know it. Like I know you're big on tacit knowledge and Karl Polanyi who I haven't heard as much of, but was your, in your talk, where you talking about that, understanding of certain code becomes tacit?
+[11:11] **Maggie:** Cause yeah, the abstraction of course, it is necessary at some point, right? Like once you understand Redux, you don't need to constantly rebuild that. Every time you use it, you just know it. Like I know you're big on tacit knowledge and [Karl Polanyi](https://en.wikipedia.org/wiki/Karl_Polanyi) who I haven't heard as much of, but was your, in your talk, where you talking about that, understanding of certain code becomes tacit?
 
-[11:29] **Henry:** Oh and first, it's **Michael Polanyi** because he has a brother Karl. They're both, he's a lot more well known actually. But yeah, I guess I was just saying that, my talk was more just this idea that I think that if we do use abstraction, rely on it, it might cause us to not think about who maintains the dependencies or the abstractions that we use.
+[11:29] **Henry:** Oh and first, it's [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) because he has a brother Karl. They're both, he's a lot more well known actually. But yeah, I guess I was just saying that, my talk was more just this idea that I think that if we do use abstraction, rely on it, it might cause us to not think about who maintains the dependencies or the abstractions that we use.
 
 [11:51] **Henry:** And obviously I'm trying to refer to open source maintainers, but you can apply that to everything, right. We were talking about, I mean, just what's happening right now, the environment. When we act simply as consumers of whatever it is, whether it's code..
 
@@ -174,7 +174,7 @@ sidebar:
 
 [19:25] **Maggie:** Uh, and there'd been quite a few books in that vein that have, I mean, anything, right? Like, psychosomatic medicine became very popular at some point, and they're all trying to get at the same thing. And yet at the same time, eh. All the ways we speak about, the brain and the body keep reinforcing **Cartesian dualism**, which was the original Descartes' theory. That mind and brain is separate substances. And I still see it, you know, and so much in programmer culture and the, yeah, the denial of the body in certain ways and the glorification of the mind. More than, more than other professions or communities. Programmers seemed very on board with that.
 
-[20:03] **Henry:** Yeah. The essay I mentioned in the talks I've been doing, it's called **Programming as Theory Building**. And in a way, theory building is just mental models. So there's just saying that too. That's Peter Naur. He wrote this in 1985, but essentially the first sentence..
+[20:03] **Henry:** Yeah. The essay I mentioned in the talks I've been doing, it's called [Programming as Theory Building](https://pages.cs.wisc.edu/~remzi/Naur.pdf). And in a way, theory building is just mental models. So there's just saying that too. That's [Peter Naur](https://en.wikipedia.org/wiki/Peter_Naur). He wrote this in 1985, but essentially the first sentence..
 
 [20:20] **Henry:** It was like, the common notion is that programming is about making programs or pieces of texts, right? Programs about the code. And later he says that, no, it's actually about the insight that you have, which is essentially the mental model. And then he goes into this idea that, you know, programs have a life cycle even. And that's why it's interesting to say that programs are living rather than dead, that there's like a life death, and like you could say rebirth and all that has to do with the people that made it.
 
@@ -280,9 +280,9 @@ sidebar:
 
 [30:59] **Maggie:** Yeah. I know. I also liked the fact that whoever it is, they're anonymous, just like this, you know, generic developer.
 
-[31:10] **Maggie:** We also wanted to talk about, well a book, but most also more of an idea. So there's this book called [Purity and Danger](https://maggieappleton.com/dirt) by an anthropologist called Mary Douglas. And she, I think she wrote this book in the 1960s, and it's essentially kind of the quintessential anthropological text about, ideas about purity, pollution, dirt, cleanliness and danger.
+[31:10] **Maggie:** We also wanted to talk about, well a book, but most also more of an idea. So there's this book called [Purity and Danger](https://en.wikipedia.org/wiki/Purity_and_Danger) by an anthropologist called [Mary Douglas](https://en.wikipedia.org/wiki/Mary_Douglas). And she, I think she wrote this book in the 1960s, and it's essentially kind of the quintessential anthropological text about, ideas about purity, pollution, dirt, cleanliness and danger.
 
-[31:33] **Maggie:** So how those ideas all relate to each other and they do quite strongly. This definitely maps onto programming because I mean, we very much talk about programming through bodily metaphors. And a lot of this book is about bodily pollution and our discomfort with the body and how we use pollution rules to sort of police and maintain the body in certain ways, which also can get a bit into **Michael Foucalt**. But he's a bit too much. I think we should rather leave him cause he's a deep one. Mary Douglas wrote this book, before Focault and so she starts out by defining dirt which seems kind of strange.
+[31:33] **Maggie:** So how those ideas all relate to each other and they do quite strongly. This definitely maps onto programming because I mean, we very much talk about programming through bodily metaphors. And a lot of this book is about bodily pollution and our discomfort with the body and how we use pollution rules to sort of police and maintain the body in certain ways, which also can get a bit into [Michel Foucault](https://en.wikipedia.org/wiki/Michel_Foucault). But he's a bit too much. I think we should rather leave him cause he's a deep one. Mary Douglas wrote this book, before Focault and so she starts out by defining dirt which seems kind of strange.
 
 [32:07] **Maggie:** You think, well, we all know what _dirt_ is, but when you really think about it, it's actually quite a flexible concept. So she says that it's anything that is matter out of place. So anytime we have something that we think should be in one place, but it isn't, we call it dirt.
 
@@ -346,7 +346,7 @@ sidebar:
 
 [40:17] **Henry:** Yeah. And I know in some games they'll, they'll show your hands, but they don't show your arms, so at least you have some anchor to see what you're doing. It kind of reminds me of, like **McLuhan** in my talk too, from **The Medium is the Message**. You know, he talks about how technologies are extensions of your physical and nervous system. Right. I think that's really interesting metaphor too.
 
-[40:41] **Maggie:** Yeah. Yeah. I had mentioned that a bit in the, in the other talk I'd done too, one of my favorite sort of philosopher anthropologists, is a guy called **Andy Clark**, and he wrote this book, [Natural Born Cyborgs](https://maggieappleton.com/cyborg-history), which argues to take cyborg, just to mean a blend of technology and human, that he says from the beginning, we are, have always been tool-based creatures and that the tools are extensions of ourselves.
+[40:41] **Maggie:** Yeah. Yeah. I had mentioned that a bit in the, in the other talk I'd done too, one of my favorite sort of philosopher anthropologists, is a guy called [Andy Clark](https://en.wikipedia.org/wiki/Andy_Clark), and he wrote this book, [Natural Born Cyborgs](https://maggieappleton.com/cyborg-history), which argues to take cyborg, just to mean a blend of technology and human, that he says from the beginning, we are, have always been tool-based creatures and that the tools are extensions of ourselves.
 
 [41:00] **Maggie:** And a digital tool is no different to a hammer or a cup. You know, and it can get a bit tricky with it if you want, you know, and to go into the whole world theory where you say, we are all one, you know, I am not different than the cup and the cup is, is part of me and I am part of the cup and that sort of thing.
 
@@ -428,7 +428,7 @@ sidebar:
 
 [52:15] **Henry:** Yeah I haven't either, I only read the last chapter!
 
-[52:19] **Maggie:** I think we talked, I forget if we mentioned this on the last one. My policy on books is always, there's a good book called **How to Talk About Books You Haven't Read**, where there's a strategic way to read books where like it's not traditional, like read, start at page one and you know, and last page, there's completely a way to read books where you strategically are like, okay, I'm gonna read the contents, the introduction, I'm going to skim the chapters that look important to me, I'm going to read the Wikipedia article, and for all intents and purposes, I have gotten what I need from that book. I'm allowed to revisit it in the future if I need to, but I'm allowed to now reference that thing because life is short.
+[52:19] **Maggie:** I think we talked, I forget if we mentioned this on the last one. My policy on books is always, there's a good book called [How to Talk About Books You Haven't Read](https://en.wikipedia.org/wiki/How_to_Talk_About_Books_You_Haven%27t_Read) by [Pierre Bayard](https://en.wikipedia.org/wiki/Pierre_Bayard), where there's a strategic way to read books where like it's not traditional, like read, start at page one and you know, and last page, there's completely a way to read books where you strategically are like, okay, I'm gonna read the contents, the introduction, I'm going to skim the chapters that look important to me, I'm going to read the Wikipedia article, and for all intents and purposes, I have gotten what I need from that book. I'm allowed to revisit it in the future if I need to, but I'm allowed to now reference that thing because life is short.
 
 [52:52] **Henry:** Yeah, and I've mentioned that too, cause I always have to tell people like, I haven't read these books, but I'm talking about them.
 

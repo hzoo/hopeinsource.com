@@ -14,7 +14,7 @@ sidebar:
 [00:00] **Henry:** All right. In this episode, we're going to be discussing ritual and liturgy and maybe the role that that has in faith and open source.
 
 [00:09] **Nadia:** Okay. I still don't really know what [liturgy](https://en.wikipedia.org/wiki/Liturgy) is, so we should talk about what that is first.
-> A liturgy is basically a ritual, specifically a public, communal, religious ritual. The etymology from greek means "work of the people". A book I read recently that I liked was [Liturgy of the Ordinary: Sacred Practices for Everyday Life](https://tishharrisonwarren.com/liturgy-of-the-ordinary). Also relevant is [You Are What you Love](https://bakerpublishinggroup.com/products/9781587433801_you-are-what-you-love)
+> A liturgy is basically a ritual, specifically a public, communal, religious ritual. The etymology from greek means "work of the people". A book I read recently that I liked was [Liturgy of the Ordinary: Sacred Practices for Everyday Life](https://tishharrisonwarren.com/liturgy-of-the-ordinary). Also relevant is [You Are What you Love](https://bakerpublishinggroup.com/products/9781587433801_you-are-what-you-love) by [James K.A. Smith](https://en.wikipedia.org/wiki/James_K._A._Smith).
 
 [00:15] **Henry:** We've (laughing) chatted about it before, but one way of thinking about it- it's used in a religious context and it's practices or habits or things that you engage in as a group of people, that bring you closer to God or something like that. But you can apply it more generally to things that you do as a community that bring you towards the goals or visions that you have of that group.
 

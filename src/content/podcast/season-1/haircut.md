@@ -140,7 +140,7 @@ sidebar:
 
 [14:50] **Jonathan:** I just don't want to cut you, you know.
 
-[14:53] **Henry:** Recently I've been thinking more about creativity. I don't see myself as an artist in the traditional sense of the word, but starting to read this book called [The Mind of the Maker](https://www.goodreads.com/book/show/782050.The_Mind_of_the_Maker). It's a book by Dorothy Sayers, and she's writing about the Trinity, about God the maker. And she's explaining the Trinity through creativity.
+[14:53] **Henry:** Recently I've been thinking more about creativity. I don't see myself as an artist in the traditional sense of the word, but starting to read this book called [The Mind of the Maker](https://en.wikipedia.org/wiki/The_Mind_of_the_Maker). It's a book by Dorothy Sayers, and she's writing about the Trinity, about God the maker. And she's explaining the Trinity through creativity.
 
 **Henry:** Oh, she was saying that the Trinity is one of the doctrines in Christianity that's the hardest to understand because there's no relation to reality, and we try to find metaphors because that's how we understand things.
 
@@ -192,7 +192,7 @@ sidebar:
 
 **Henry:** We want to treat everything like a robot or a program because it's easy to reason about those things. But reality is so complicated that it actually makes more sense to treat it as living
 
-**Henry:** This is like the book I was reading, [The Death and Life of Great American Cities](https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities). The last chapter is called "What kind of problem is the city"? She was saying in the book that if you approach a problem in the wrong way, then you won't be able to attempt to solve it. Treating it as a problem of simplicity will lead you in the wrong direction. Applying that to cities, Jane Jacobs, her thing was that the urban planners at that time, this was 1960s New York, they have a certain vision of what a city should look like. A vision is a fixed picture and usually your picture of what you think something should be become.
+**Henry:** This is like the book I was reading, [The Death and Life of Great American Cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). The last chapter is called "What kind of problem is the city"? She was saying in the book that if you approach a problem in the wrong way, then you won't be able to attempt to solve it. Treating it as a problem of simplicity will lead you in the wrong direction. Applying that to cities, Jane Jacobs, her thing was that the urban planners at that time, this was 1960s New York, they have a certain vision of what a city should look like. A vision is a fixed picture and usually your picture of what you think something should be become.
 
 **Henry:** Maybe that goes back to Christianity too, us imposing our view of what we think flourishing is. The problem is that if we don't accomplish that, you might be hard on yourself or other people for not stepping up.
 

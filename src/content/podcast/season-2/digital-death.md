@@ -224,7 +224,7 @@ sidebar:
 
 [17:57] **Philip:**And a lot of the thinking is about the present or the recent past. So again, it's like where you put your mind to, right. So if you cut off thinking about the present and you're deeply engaged with the distant past, that's obviously religion and philosophy and these, you know, ancient texts are very appealing, because of that reason, right. That it's the opposite of whatever's on Twitter today.
 
-[18:20] **Henry:** Yeah. That does remind me of a newsletter from Michael Sacasas. He was writing about free speech. We brought up books, right?
+[18:20] **Henry:** Yeah. That does remind me of a newsletter from [Michael Sacasas](https://theconvivialsociety.substack.com/). He was writing about free speech. We brought up books, right?
 
 [18:28] **Henry:** And a lot of these philosophy of tech people talk about the difference between different media, right? So like print media and digital media.
 

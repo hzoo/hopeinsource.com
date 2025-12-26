@@ -15,26 +15,24 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/History-
 sidebar:
   order: 3
 ---
-### Links
-
-- [David's website](https://www.davidcayley.com)
-- [Ivan Illich: An Intellectual Journey (book)](https://www.psupress.org/books/titles/978-0-271-08812-9.html)
 
 #### Recursive Publics or Enclosure of a New Commons?
 
 [00:00] **David:** So I really only know that you're a software engineer who knows his Illich.
 
+> [David's website](https://www.davidcayley.com) and his new Illich biography, [Ivan Illich: An Intellectual Journey](https://www.psupress.org/books/titles/978-0-271-08812-9.html)
+
 [00:04] **Henry:** I guess that's a good summary, honestly, at this point.. I think you mentioned you weren't familiar with the term open source?
 
-[00:13] **David:** Well, I'm a little bit familiar with it. It's through a book called _Two Bits_ by a guy called Kelty. He puts forward the idea of a _recursive public_, which I took to and found really interesting.
+[00:13] **David:** Well, I'm a little bit familiar with it. It's through a book called [_Two Bits_](https://en.wikipedia.org/wiki/Two_Bits_(book)) by a guy called [Christopher Kelty](https://en.wikipedia.org/wiki/Christopher_Kelty). He puts forward the idea of a _recursive public_, which I took to and found really interesting.
 
-[00:30] **David:** I'm in the middle of a book on the CBC, which is part memoir, part kind of attempt to understand. I see the CBC in both radio and television as being at a kind of cul-de-sac right. Not really knowing what it should be and flailing.
+[00:30] **David:** I'm in the middle of a book on the [CBC](https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation), which is part memoir, part kind of attempt to understand. I see the CBC in both radio and television as being at a kind of cul-de-sac right. Not really knowing what it should be and flailing.
 
 [00:49] **David:** So it's my attempt to suggest what the new world might look like and what a public broadcaster might do in it, given that it's not really broadcasting anymore in the old sense, and that it has no idea what the public means anymore in the old sense either.
 
 [01:07] **David:** So the idea of a recursive public is a public that in effect cares for its own media and arises as a reflection on its own media. Quite a thrilling idea in the context of media studies, right?
 
-[01:23] **David:** If you start from Innis and go through McLuhan and on into Baudrillard and Arendt and all the people who I have read and studied. Habermas, Charles Taylor, and so on. So I'm just preparing now this essay called _What is a Public_?
+[01:23] **David:** If you start from [Harold Innis](https://en.wikipedia.org/wiki/Harold_Innis) and go through [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan) and on into [Jean Baudrillard](https://en.wikipedia.org/wiki/Jean_Baudrillard) and [Hannah Arendt](https://en.wikipedia.org/wiki/Hannah_Arendt) and all the people who I have read and studied. [Jürgen Habermas](https://en.wikipedia.org/wiki/J%C3%BCrgen_Habermas), [Charles Taylor](https://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)), and so on. So I'm just preparing now this essay called _What is a Public_?
 
 [01:38] **Henry:** Yeah, that sounds awesome.
 
@@ -44,7 +42,7 @@ sidebar:
 
 [01:54] **David:** Do you mind if I interview you for a bit?
 
-[01:56] **Henry:** There's no right way or anything, but I think that there's this history and maybe this is in the book of what they called the free software movement. There's Richard Stallman and like, people like that. And they have this phrase like free as in beer, not free as in money.
+[01:56] **Henry:** There's no right way or anything, but I think that there's this history and maybe this is in the book of what they called the [free software movement](https://en.wikipedia.org/wiki/Free_software_movement). There's [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) and like, people like that. And they have this phrase like free as in beer, not free as in money.
 
 [02:10] **Henry:** There's like some story about a printer and how it didn't work or something. And he wasn't able to change the code to fix it himself because the code was not open, right. It was like proprietary, by the company that made the printer. And so he was like, my desire is that anyone should be able to like see the code so that they could change it so they can fix things themselves rather than depend on this company to fix it for him.
 
@@ -52,17 +50,17 @@ sidebar:
 
 [02:49] **Henry:** The license is kind of essentially saying, if you use my code and it's a copyleft license, if you use it, your code also has to be copyleft. And so it basically forces anyone that uses your code to also be open. Companies didn't like that obviously because it would mean that any code they write on top of that would have to be open. And they're afraid everyone's gonna copy it and they can't make money.
 
-[03:14] **Henry:** And so that led to the open source movement, which was more like, oh, no one's using our free software. So we rebranded to open source and say that it's good for companies, because we won't force you to make your code open. And so they have these new licenses, which are more permissive.
+[03:14] **Henry:** And so that led to the [open source movement](https://en.wikipedia.org/wiki/Open-source_software), which was more like, oh, no one's using our free software. So we rebranded to open source and say that it's good for companies, because we won't force you to make your code open. And so they have these new licenses, which are more permissive.
 
 [03:33] **Henry:** Companies embraced that because they're like, Hey, I can make profit. I don't have to pay developers to code their own thing. I can just use the thing someone else made, right. That saves like time and money. A lot of that thinking led to the big tech companies of our time. They can build their infrastructure and software on top of all these projects that people have done.
 
 [03:55] **Henry:** You could also say that they themselves contribute a lot of open source. So it's not like they're only taking away. But right now we're in a situation where open source was only for a few people.
 
-[04:07] **Henry:** And now it's democratized in a way. There's a website called GitHub, this is actually the logo that I'm wearing. It essentially hosts open source code for you like a Dropbox or Google Drive. I usually say it's like Wikipedia for code, right? Anyone can contribute to an article, to a project. And then there's admins; they approve things.
+[04:07] **Henry:** And now it's democratized in a way. There's a website called [GitHub](https://github.com/), this is actually the logo that I'm wearing. It essentially hosts open source code for you like a Dropbox or Google Drive. I usually say it's like [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) for code, right? Anyone can contribute to an article, to a project. And then there's admins; they approve things.
 
 [04:31] **Henry:** Open source before was like through emails and it's very technical. And now, because of things like GitHub, it's a lot more accessible to people, you just have to make an account. And so that leads to millions of people contributing to open source. Any of us could have just made a piece of code, like one line of code or one file uploaded to this thing and just say, this is open source.
 
-[04:53] **Henry:** And that's still open source, but there's also like Linux or even Chrome or Firefox, Android, all these things you've heard of that are really big and probably millions of lines of code.
+[04:53] **Henry:** And that's still open source, but there's also like [Linux](https://en.wikipedia.org/wiki/Linux) or even [Chrome](https://en.wikipedia.org/wiki/Google_Chrome) or [Firefox](https://en.wikipedia.org/wiki/Firefox), [Android](https://en.wikipedia.org/wiki/Android_(operating_system)), all these things you've heard of that are really big and probably millions of lines of code.
 
 [05:04] **Henry:** But the thing that people are concerned about now is this idea of sustainability. We're giving away our time, our efforts, for free, which I think is great. But what happens is like lots of people start using it. And that in itself is not bad, right? If people using it didn't lead to you spending more time or anything, then what's a big deal, right. You're giving away for free.
 
@@ -80,7 +78,7 @@ sidebar:
 
 [06:44] **Henry:** In terms of a book, you already read _Two Bits_. My friend, she wrote a book called _Working in Public_. Her name's Nadia. She used to work at GitHub and also like an independent researcher. The subtitle is the making and maintenance of open source software.
 
-[07:00] **Henry:** It's a little bit of history. She did a lot of interviews. This is similar to, I think what I like about Charles Taylor too. It's about phenomenology, what does like to be in a secular age? does it feel like to be an open source person rather than like.. She was reading all the stuff about open source, but it's all academic, it's all thinking about open source as they thought of it in like 1990 or whatever. I can keep going, but that's like..
+[07:00] **Henry:** It's a little bit of history. She did a lot of interviews. This is similar to, I think what I like about Charles Taylor too. It's about [phenomenology](https://en.wikipedia.org/wiki/Phenomenology_(philosophy)), what does like to be in a [secular age](https://en.wikipedia.org/wiki/A_Secular_Age)? does it feel like to be an open source person rather than like.. She was reading all the stuff about open source, but it's all academic, it's all thinking about open source as they thought of it in like 1990 or whatever. I can keep going, but that's like..
 
 [07:25] **David:** Okay. That is really interesting. Okay. So if I translate into familiar terms, all the big tech companies are built on this basis, to which they're contributors, as you've said, but they're affecting a kind of enclosure of the commons, right. And it's a kind of new commons.
 
@@ -148,7 +146,7 @@ sidebar:
 
 [16:30] **David:** And indeed to go a step further, as I said before, that's the only way you can understand. That all history is potentially present to us now as a kind of fluid resource may tend to make us lose the difference of the past. And then we lose that standpoint in history, right?
 
-[16:54] **David:** So the recovery of history, as something other than prologue, something other than resource, something that we can summon through our amazing techniques, is indispensable for him to understanding. Unless you can actually share the mind of Hugh of Saint Victor, you can't actually understand the present mind, as something limited, as something occurring within a horizon.
+[16:54] **David:** So the recovery of history, as something other than prologue, something other than resource, something that we can summon through our amazing techniques, is indispensable for him to understanding. Unless you can actually share the mind of [Hugh of Saint Victor](https://en.wikipedia.org/wiki/Hugh_of_Saint_Victor), you can't actually understand the present mind, as something limited, as something occurring within a horizon.
 
 [17:26] **Henry:** Because you'll always want to apply it to the past. You're always interpreting by the way you already interpret everything.
 
@@ -160,7 +158,7 @@ sidebar:
 
 [18:23] **David:** Well, that's how I interpret it, absolutely. Obviously, an image as mysterious ..You know, I mean, where, where is north of the future, right? It fundamentally mixes those different domains. We were talking about ontological difference.
 
-[18:40] **David:** Well he's projected a spacial metaphor on a time image, right. I've developed it as meaning north of the future can only lie in the past, right.
+[18:40] **David:** Well he's projected a spacial metaphor on a time image, right. I've developed it as meaning [_The Rivers North of the Future_](https://www.psupress.org/books/titles/0-271-02621-1.html) can only lie in the past, right.
 
 [18:52] **David:** It lies in recognizing that the past changes as we change and that we find new ways of thinking in the past. But also, if Illich is right, and that his fundamental thought throughout his career, but becoming explicit only towards the end, is that modernity itself, our world, is based on a misapprehension, a mistaking of the fundamental Christian revelation.
 
@@ -204,9 +202,9 @@ sidebar:
 
 [25:28] **David:** I think it is. And I mean, that was, that was the, one of the greatest gifts I ever received, and of a very practical benefit as well as I'll relate. But when I broadcast those shows that were published as _The Rivers North of the Future_, I was an _Idea _series called _The Corruption of Christianity_.
 
-[25:48] **David:** And while they were being broadcast, I got a call from Charles Taylor who I had known because I produced his _Massey Lectures_, which is our, in Canada, big prestigious lecture series, 10 years before.
+[25:31] **David:** And while they were being broadcast, I got a call from Charles Taylor who I had known because I produced his [_Massey Lectures_](https://en.wikipedia.org/wiki/Massey_Lectures), which is our, in Canada, big prestigious lecture series, 10 years before.
 
-[26:01] **David:** And he said, I mean, I find it remarkable how similar.. Because he had thought of Illich in a different way until he heard this, how close it was to what he had done in his _Gifford Lectures_ and would eventually publish in full in _A Secular Age_. So he immediately recognized how closely in parallel they were working.
+[26:01] **David:** And he said, I mean, I find it remarkable how similar.. Because he had thought of Illich in a different way until he heard this, how close it was to what he had done in his [_Gifford Lectures_](https://en.wikipedia.org/wiki/Gifford_Lectures) and would eventually publish in full in _A Secular Age_. So he immediately recognized how closely in parallel they were working.
 
 [26:24] **David:** And that then became hugely important to me when he agreed to contribute a preface to The Rivers North of the Future, because Illich was kind of a forgotten man at that point. I'll often cite it, but because it just sort of tells you how people thought when he died. The New York Times headline obituary was priest who appealed to baby boomers in the seventies, right. So he was a little bit forgotten and he hadn't tried to do much about it probably.
 
@@ -232,7 +230,7 @@ sidebar:
 
 #### Progress as the Myth of Our Civilization
 
-[29:53] **David:** I can remember when I was working on the Illich book, coming across in Wittgenstein, this is a paraphrase, _progress is not a thought of our civilization, it's the form of our civilization_. So it's not a content that we think about. It's the way that we think.
+[29:53] **David:** I can remember when I was working on the Illich book, coming across in [Wittgenstein](https://en.wikipedia.org/wiki/Ludwig_Wittgenstein), this is a paraphrase, _progress is not a thought of our civilization, it's the form of our civilization_. So it's not a content that we think about. It's the way that we think.
 
 [30:14] **David:** And progress in that sense stands for a monistic way of thinking or the thought of the unlimited. Nothing is opposing, There is no horizon. Nothing limits. It just goes on, right? So if the Internet is good and let's have more Internet, right.
 
@@ -246,9 +244,9 @@ sidebar:
 
 [32:12] **Henry:** Complimentary opposites, it reminds me of a term that I I found from someone in this group I'm in and they call it _quantum thought_, like kind of being able to go back and forth, from extremes.
 
-[32:23] **David:** Well, I think that's a huge source for this, I, think Niels Bohr's idea of complementarity, which Illich just brushes against it a little bit in Gender. And he says he makes some very pregnant remarks, in a footnote on complementary that this was the road not taken in social science. But he doesn't really develop that thought. And so those thoughts are developing in the quantum world, right.
+[32:23] **David:** Well, I think that's a huge source for this, I, think [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s idea of complementarity, which Illich just brushes against it a little bit in [_Gender_](https://en.wikipedia.org/wiki/Gender_(book)). And he says he makes some very pregnant remarks, in a footnote on complementary that this was the road not taken in social science. But he doesn't really develop that thought. And so those thoughts are developing in the quantum world, right.
 
-[32:52] **David:** I just finished a book by a guy called Frank Wilsack, who's a Nobel Laureate in physics, a book called _A Beautiful Question_, which is a kind of a popular account of the history of natural science from the perspective of beauty. He emphasizes symmetry, which is another form of complementarity as being absolutely fundamental.
+[32:52] **David:** I just finished a book by a guy called [Frank Wilczek](https://en.wikipedia.org/wiki/Frank_Wilczek), who's a Nobel Laureate in physics, a book called [_A Beautiful Question_](https://en.wikipedia.org/wiki/A_Beautiful_Question), which is a kind of a popular account of the history of natural science from the perspective of beauty. He emphasizes symmetry, which is another form of complementarity as being absolutely fundamental.
 
 [33:19] **Henry:** Talking about limits kind of makes me think.. Our imaginations can't even come up with an answer that is not more of something. Only through escalation, right. With war, we have to have more bombs or we need more weapons. Or maybe with code, we need more code. We just keep adding on more dependencies. We can't help ourselves.
 
@@ -258,7 +256,7 @@ sidebar:
 
 [34:07] **David:** To think the thought of renunciation, you have to go back to what he calls the criminalization of sin in the middle ages. That is the loss of sin as a glorious idea of, our capacity to keep together through a continuous practice of forgiveness.
 
-[34:32] **David:** It's what a theologian called James Alison calls _The Joy of Being Wrong,_ right? So sin as a glorious idea in the first Christian millennium, in Illich's understanding, becomes a repressive idea in the second Christian millennium through what he calls criminalization, which is actually the re-conception of the Church as a legal entity, enforcing legal codes and the priest actually as a judge, confession and so on.
+[34:32] **David:** It's what a theologian called [James Alison](https://en.wikipedia.org/wiki/James_Alison) calls [_The Joy of Being Wrong_](https://en.wikipedia.org/wiki/The_Joy_of_Being_Wrong), right? So sin as a glorious idea in the first Christian millennium, in Illich's understanding, becomes a repressive idea in the second Christian millennium through what he calls criminalization, which is actually the re-conception of the Church as a legal entity, enforcing legal codes and the priest actually as a judge, confession and so on.
 
 [35:06] **David:** The idea of sin is arguably an idea that has to be recovered in its joyous aspect for us to understand how renunciation could similarly be in the service of celebration rather than in the service of repression. But in any case, it's a crucial thought. The thought of slowing down, going backwards, of establishing limits.
 
@@ -268,9 +266,9 @@ sidebar:
 
 #### Promethean Man has Immunity from Surprise
 
-[36:08] **Henry:** That sounds his whole distinction of the Promethean and epithelian man man, right? Was it foresight and hindsight?
+[36:08] **Henry:** That sounds his whole distinction of the [Promethean and Epimethean](https://en.wikipedia.org/wiki/Rise_of_Epimethean_Man) man, right? Was it foresight and hindsight?
 
-[36:16] **David:** Yes, those are the literal meanings of the Greek words, as I understand it. Yeah, no, that's one of his most beautiful essays The Rise of Epimethean Man. Absolutely, Epimetheus is the after thinker and Prometheus is the before thinker. And we have an excess of forethought.
+[36:16] **David:** Yes, those are the literal meanings of the Greek words, as I understand it. Yeah, no, that's one of his most beautiful essays [_The Rise of Epimethean Man_](https://en.wikipedia.org/wiki/Rise_of_Epimethean_Man). Absolutely, [Epimetheus](https://en.wikipedia.org/wiki/Epimetheus) is the after thinker and [Prometheus](https://en.wikipedia.org/wiki/Prometheus) is the before thinker. And we have an excess of forethought.
 
 [36:33] **David:** If you look at what the pandemic has done, all these phrases that get into the people's vocabulary, the abundance of caution, the emphasis on modeling, it's almost as if people are living in the future and being punished for not living in the future, right?
 
@@ -314,9 +312,9 @@ sidebar:
 
 [41:28] **David:** Well, I mean, Ivan, he didn't write much about this. He wanted to give a series of lectures at the McCormick Theological seminary in Chicago, where he had lectured in the past on this new aestheticism, _askesis _as he called it. So we have only the outline that he made, right.
 
-[41:46] **David:** And he doesn't tell you a lot about what it would be, this joyful austerity as he calls it in, in tools for conviviality, but he is clear that it will be utterly different, right. That it will be utterly new.
+[41:46] **David:** And he doesn't tell you a lot about what it would be, this joyful austerity as he calls it in, in [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality), but he is clear that it will be utterly different, right. That it will be utterly new.
 
-[42:06] **David:** And this goes back to our old.. What we said about the pair of tradition and innovation. And clearly it will be celebratory cause celebration is always primary for him. I mean, _Celebration of Awareness_ is his first book and celebration is always the keynote, being here now and celebrating with one another.
+[42:06] **David:** And this goes back to our old.. What we said about the pair of tradition and innovation. And clearly it will be celebratory cause celebration is always primary for him. I mean, [_Celebration of Awareness_](https://en.wikipedia.org/wiki/Celebration_of_Awareness) is his first book and celebration is always the keynote, being here now and celebrating with one another.
 
 [42:34] **David:** And what that means by way of limits, it might be different for me and for you.
 

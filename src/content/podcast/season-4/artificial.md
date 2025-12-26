@@ -15,14 +15,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Artifici
 sidebar:
   order: 7
 ---
-### Links
-
-- [Worn Out (2021, *Real Life*)](https://reallifemag.com/worn-out/)
-- [Kneeling Bus substack](https://kneelingbus.substack.com)
-  - [Last Exit to Brooklyn (2021, *paid*)](https://kneelingbus.substack.com/p/last-exit-to-brooklyn) (on living in ny)
-  - [The Airport Lounge City (2021, *paid*)](https://kneelingbus.substack.com/p/the-airport-lounge-city) (airport lounges)
-  - [#168: Punks in the Beerlight, (2021)](https://kneelingbus.substack.com/p/168-punks-in-the-beerlight) (CDs, physical media)
-  - [Halfway to a Third Place (2024)](https://kneelingbus.substack.com/p/halfway-to-a-third-place)
 
 [00:00] **Henry:** Talking with Drew Austin. We're doing this in person, which is kind of new for me. And maybe for you too.
 
@@ -70,7 +62,7 @@ sidebar:
 
 [03:43] **Drew:** So like I think a lot of times we think Facebook is causing us to become bad people. But really like that way of being bad was something that we would've found a way to do before, and maybe we just haven't remembered what it used to be like. Or we've idealized the past. I mean, some people idealize the future.
 
-[04:01] **Drew:** That's what's kind of interesting about technology, thinking of it in terms of like the medium as Marshall McLuhan used it. It's just another place where people do human things.
+[04:01] **Drew:** That's what's kind of interesting about technology, thinking of it in terms of like the medium as [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan) used it. It's just another place where people do human things.
 
 [04:11] **Henry:** He was emphasizing the medium isn't just the way, but the environment. We are always thinking about how do we create tools and affect the world rather than the world affecting us.
 
@@ -86,7 +78,7 @@ sidebar:
 
 [05:29] **Henry:** All of us can use like GPS to like get anywhere we want. This is great for all of us individually, but then maybe before you would've asked for directions and that was like a small amount of trust for a stranger that we lost.
 
-[05:43] **Drew:** I noticed that pretty quickly when smartphones became pretty widespread 10 years ago or however long. One of the first apps I remember seeing on the iPhone that I thought was really amazing and kind of like the perfect indication of what the iPhone could do was Shazam.
+[05:43] **Drew:** I noticed that pretty quickly when smartphones became pretty widespread 10 years ago or however long. One of the first apps I remember seeing on the iPhone that I thought was really amazing and kind of like the perfect indication of what the iPhone could do was [Shazam](https://en.wikipedia.org/wiki/Shazam_(app)).
 
 [05:59] **Drew:** I remember pretty quickly after people started to use Shazam to identify music, that it became less acceptable to ask somebody what was if you went to a restaurant. And you liked the music that was playing. First of all, it's like, why are you, it would be, why are you asking me this? You can just Shazam it.
 
@@ -118,7 +110,7 @@ sidebar:
 
 [10:12] **Henry:** Right. Maybe Zoom is like the epitome of all this. So there's all these like gather, like these spatial apps where you can chat in a video game or people are using video games to have parties or birthdays.
 
-[10:21] **Drew:** Even clubhouse I thought was pretty spatial. I mean, I audio is inherently more spatial than a lot of the visual environments we have on the internet.
+[10:21] **Drew:** Even [Clubhouse](https://en.wikipedia.org/wiki/Clubhouse_(app)) I thought was pretty spatial. I mean, I audio is inherently more spatial than a lot of the visual environments we have on the internet.
 
 [10:30] **Drew:** But the way that like you would drift from room to room, it actually did seem to kind of simulate. Being at some social gathering or a place in its own kind of simplified way. A lot of what the physical world imposes on us is these constraints which are very fundamental to life in meet space. Like I have to travel across distance to get from my house to your house to record this podcast.
 
@@ -148,7 +140,7 @@ sidebar:
 
 [13:37] **Drew:** It would be like, where did Henry go? But in the physical world, you can be silent and present at the same time. And you know, we could be sitting in this room together, not talking, and there would be. Some benefit of shared human contact there, even though there was no quote unquote content.
 
-[13:55] **Henry:** So this reminds me of a game that I play a lot. It's called the Mind. You're supposed to be silent when you're playing it. In short, it's the numbers one through a hundred. It's a card game. And you need to play the numbers in ascending order. So like 1, 5, 23, and up. And it's a cooperative game..
+[13:55] **Henry:** So this reminds me of a game that I play a lot. It's called [The Mind](https://boardgamegeek.com/boardgame/244992/mind). You're supposed to be silent when you're playing it. In short, it's the numbers one through a hundred. It's a card game. And you need to play the numbers in ascending order. So like 1, 5, 23, and up. And it's a cooperative game..
 
 [14:11] **Henry:** The trick is that you're not allowed to communicate what number you have or anything. So you can only use like body language. And so that's a great game to show nonverbal communication.
 
@@ -166,7 +158,7 @@ sidebar:
 
 #### Worn Out: Fashion and Public Space
 
-[15:58] **Henry:** Should we talk about your post on Real Life? The title is called Worn Out.
+[15:58] **Henry:** Should we talk about your post on [Real Life](https://reallifemag.com/)? The title is called [Worn Out](https://reallifemag.com/worn-out/).
 
 [16:02] **Drew:** I wrote a piece for Real Life a month or two ago, so I became really interested in this idea of fashion as something that has a relationship to the public space and there's this reputation of. People in the Bay Area or Silicon Valley or in tech not dressing well and obviously in like New York would be the opposite end of the spectrum to that which kind of embodies everything that the Bay Area is not Culturally, people in New York are known for dressing well or trying to dress well or caring about that aspect of their self presentation, and I thought it was really interesting to kind of explore maybe the deeper reasons why.
 
@@ -212,7 +204,7 @@ sidebar:
 
 [22:53] **Drew:** Again, with crypto, I think some of that may have like converged again. The actual act of doing certain things in code is not necessarily functional except to like express some point or idea.
 
-[23:05] **Henry:** Yeah. My friend Angus, he has a book called, like if Hemingway wrote JavaScript, it's really cool.
+[23:05] **Henry:** Yeah. My friend [Angus Croll](https://twitter.com/angustweets), he has a book called, [If Hemingway Wrote JavaScript](https://nostarch.com/hemingway), it's really cool.
 
 [23:10] **Henry:** He just implements algorithms and then he'll write them in different authors like Hemingway or Shakespeare like, and he'll have like different ways of writing comments. So it's like showing you how aesthetic coding can be. It's also just writing.
 
@@ -230,7 +222,7 @@ sidebar:
 
 [25:14] **Henry:** That makes sense. You have a group of experts that kind of decide what goes in and our tool in a way, democratizes. That design because they can make their own things. Then maybe propose them to the committee and then they'll eventually get included in the standard, even though that might take like three years or something.
 
-[25:31] **Henry:** That gets into this whole philosophy around how do you design a language and what's good for people? Should there be one way of doing things or should they be many ways of doing things? And so there's this guy, Larry Wall, and he's the creator of Pearl. Okay. And he gave this talk, like he said, that Pearl is the first postmodern programming language.
+[25:31] **Henry:** That gets into this whole philosophy around how do you design a language and what's good for people? Should there be one way of doing things or should they be many ways of doing things? And so there's this guy, [Larry Wall](https://en.wikipedia.org/wiki/Larry_Wall), and he's the creator of [Perl](https://en.wikipedia.org/wiki/Perl). Okay. And he gave this talk, like he said, that Perl is the first postmodern programming language.
 
 [25:49] **Henry:** Wow. Which I think is an interesting concept from a functional utilitarian point of view. It's like, yeah, you should only have one way of doing something 'cause you're gonna confuse people.
 
@@ -372,7 +364,7 @@ sidebar:
 
 #### Reverse engineering bodegas
 
-[39:51] **Drew:** And I mean, there's more and more of the Amazon Go stores. It feels very weird and like bizarre every time I see one. Like I just walked past one the other day in Midtown. It's like sort of a AI generated like approximation of like what a store is. They are basically the product of, Amazon's data, about what types of things people want on a daily basis. That could be in like a bodega type setting. They just reverse engineered the corner store.
+[39:51] **Drew:** And I mean, there's more and more of the [Amazon Go](https://en.wikipedia.org/wiki/Amazon_Go) stores. It feels very weird and like bizarre every time I see one. Like I just walked past one the other day in Midtown. It's like sort of a AI generated like approximation of like what a store is. They are basically the product of, Amazon's data, about what types of things people want on a daily basis. That could be in like a bodega type setting. They just reverse engineered the corner store.
 
 [40:24] **Henry:** Yeah. That reminds me of when. People used to like ab test, like buttons and Yeah. The most trivial things.
 

@@ -20,7 +20,7 @@ sidebar:
 
 [00:20] **Henry:** Not that I didn't feel anything, but when I see other people expressing themselves by like kissing the ground or weeping.
 
-> Specifically what's the right posture to be placed towards our liturgies/rituals/actions and our beliefs? Protestant's (tend) to think more towards "faith alone/belief alone/bible alone" ala the "solas" and care less about anything else. This tendency in a way is caring about content in a way that is detrimental, and loses the idea of medium/form.
+> Specifically what's the right posture to be placed towards our liturgies/rituals/actions and our beliefs? Protestant's (tend) to think more towards "[faith alone](https://en.wikipedia.org/wiki/Sola_fide)/[belief alone](https://en.wikipedia.org/wiki/Sola_fide)/[bible alone](https://en.wikipedia.org/wiki/Sola_scriptura)" ala the "[solas](https://en.wikipedia.org/wiki/Five_solas)" and care less about anything else. This tendency in a way is caring about content in a way that is detrimental, and loses the idea of medium/form.
 
 [00:26] **Henry:** It makes me question, okay, what is the balance between how much.. What's the word? Emphasis, we wanna put on the materiality of things?
 
@@ -34,7 +34,7 @@ sidebar:
 
 [01:11] **Michael:** And so the faith becomes a much more cognitive affair. It's a matter of holding or asserting certain truths or ascending to certain truths or propositional beliefs.
 
-[01:25] **Michael:** And so the other end of that would be more liturgical traditions, whether it's Orthodox or Catholic or some segments of even the Episcopal or Anglican tradition, where the body is more engaged.
+[01:25] **Michael:** And so the other end of that would be more [liturgical](https://en.wikipedia.org/wiki/Liturgy) traditions, whether it's [Orthodox](https://en.wikipedia.org/wiki/Eastern_Orthodox_Church) or [Catholic](https://en.wikipedia.org/wiki/Catholic_Church) or some segments of even the [Episcopal](https://en.wikipedia.org/wiki/Episcopal_Church_(United_States)) or [Anglican](https://en.wikipedia.org/wiki/Anglican_Communion) tradition, where the body is more engaged.
 
 > I've noticed this as well in going to different worship services. High/low church is a thing, like high and lo-fi music which I talk about later.
 
@@ -80,11 +80,11 @@ sidebar:
 
 [05:23] **Michael:** Where did I get it? And even if I'm thinking of just the intellectual content of the book, it's presence in front of me, where I might kind of incidentally glance at it, just sitting here and be reminded of it's argument or it's central thesis or whatever.
 
-> "In other words, the presence of the book on a shelf recalls its contents to mind at a glance and also intertwines an assortment of memories into the backdrop of my day-to-day life. At the very least, it becomes an always available potential portal into my past." -[The Stuff of Life: Materiality and the Self](https://theconvivialsociety.substack.com/p/the-stuff-of-life-materiality-and)
+> "In other words, the presence of the book on a shelf recalls its contents to mind at a glance and also intertwines an assortment of memories into the backdrop of my day-to-day life. At the very least, it becomes an always available potential portal into my past." -[_The Stuff of Life: Materiality and the Self_](https://theconvivialsociety.substack.com/p/the-stuff-of-life-materiality-and)
 
 [05:41] **Michael:** It's physical presence matters, right.
 
-[05:43] **Michael:** Whereas if I do all my reading on a Kindle say, that material presence of the book kind of disappears, right? Because the e-reader presents the same material interface for every book I ever read, right.
+[05:43] **Michael:** Whereas if I do all my reading on a [Kindle](https://en.wikipedia.org/wiki/Amazon_Kindle) say, that material presence of the book kind of disappears, right? Because the e-reader presents the same material interface for every book I ever read, right.
 
 [05:58] **Michael:** And it has its advantages and all that is fine. And again, the point here is not to say e-readers are bad. It's simply to try to understand how they change the presence of just the materiality of the stuff around us. Right. And I think that that's not inconsequential.
 
@@ -96,7 +96,7 @@ sidebar:
 >
 > It's a Protestant sort of fixation, this "Is it a good or a bad thing?"
 >
-> Marshall McLuhan, "The Medium and the Light"
+> [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan), [_The Medium and the Light_](https://www.goodreads.com/book/show/1377849.The_Medium_and_the_Light)
 
 [06:20] **Henry:** Hmm. I love that. I read from McLuhan a while ago. Maybe that's what I mean by almost like this Protestant way of thinking. Is that the only question or answer we want is whether something is good or bad.
 
@@ -116,7 +116,7 @@ sidebar:
 
 [07:32] **Henry:** It's just that our interfaces also don't afford that naturally, right. Because like this bookshelf it's just there.
 
-[07:39] **Henry:** I think of the idea of say lossless compression and how when we put something in digital, we could just remove all the information that "doesn't matter", the sake of saving space. And we lose all this other stuff that like you said, it's not in inconsequential, but we kind of don't really focus on it. Maybe we could, if we wanted to.
+[07:39] **Henry:** I think of the idea of say [lossless compression](https://en.wikipedia.org/wiki/Lossless_compression) and how when we put something in digital, we could just remove all the information that "doesn't matter", the sake of saving space. And we lose all this other stuff that like you said, it's not in inconsequential, but we kind of don't really focus on it. Maybe we could, if we wanted to.
 
 [08:03] **Michael:** Right. I mean, what strikes me about that is precisely the difference between how in this just this very specific example we're talking about. I don't have to do anything more than use the book in its most natural way in order for these associations to gather around that, right.
 
@@ -166,11 +166,11 @@ sidebar:
 
 [11:48] **Henry:** If someone tries to bring up like, oh, well we lost this, then it's too easy to just be like, well, you're too focused on the past.
 
-[11:55] **Henry:** I also think of like, say like music. People want the physical vinyl. Even I feel like this, you've probably heard of like [lofi](https://en.wikipedia.org/wiki/Lofi_Girl) music. And it's interesting because they purposely make the music sound not bad, but like old, they put in the crackling sound.
+[11:55] **Henry:** I also think of like, say like music. People want the physical [vinyl](https://en.wikipedia.org/wiki/Phonograph_record). Even I feel like this, you've probably heard of like [lofi](https://en.wikipedia.org/wiki/Lofi_Girl) music. And it's interesting because they purposely make the music sound not bad, but like old, they put in the crackling sound.
 
 [12:12] **Henry:** It's gotten so popular where now we're generating.. So it's like we reverse it. We're just automating and optimizing that kind of sound. So that even that gets kind of lost.
 
-[12:24] **Michael:** Yeah. I can hear the kind of responses that you're aluding to, that this is kind of Luddite tendency or reactionary or romantic or some other adjective of that sort is always kinda used as a slur.
+[12:24] **Michael:** Yeah. I can hear the kind of responses that you're aluding to, that this is kind of [Luddite](https://en.wikipedia.org/wiki/Luddite) tendency or [reactionary](https://en.wikipedia.org/wiki/Reactionary) or [romantic](https://en.wikipedia.org/wiki/Romanticism) or some other adjective of that sort is always kinda used as a slur.
 
 [12:40] **Michael:** Even being able to mount a defense, to articulate why something like that matters without falling into a romanticism about the past or a kind of nost.. I'm looking for an adjective because I actually don't think all forms of nostalgia are bad.
 
@@ -230,7 +230,7 @@ sidebar:
 
 [16:28] **Henry:** Feel like it's a good metaphor.
 
-[16:29] **Michael:** Right, right. No, in fact, while you were writing that, I tracked down this blog post I wrote in 2011. The title was _A Frictionless Life is Also a Life Without Traction_. Near the end I talk about Albert Borgman here. I think Borgman is very good of philosophy of technology on these questions.
+[16:29] **Michael:** Right, right. No, in fact, while you were writing that, I tracked down this blog post I wrote in 2011. The title was [_A Frictionless Life is Also a Life Without Traction_](https://thefrailestthing.com/2011/05/05/a-frictionless-life-is-also-a-life-without-traction/). Near the end I talk about [Albert Borgmann](https://en.wikipedia.org/wiki/Albert_Borgmann) here. I think Borgmann is very good of philosophy of technology on these questions.
 
 > Removing all resistance removes all traction; and if everything is easy, in the end nothing may be satisfying or meaningful. This reminded me of philosopher of technology Albert Borgmann’s suggestion that we must make a distinction between “trouble we reject in principle and accept in practice and trouble we accept in practice and in principle.” - [A Frictionless Life](https://thefrailestthing.com/2011/05/05/a-frictionless-life-is-also-a-life-without-traction/)
 
@@ -320,9 +320,9 @@ sidebar:
 
 [21:58] **Michael:** The first of that trilogy books that he wrote. Yes.
 
-[22:02] **Henry:** Ties a lot into McLuhan. I kind of find everything going back to the medium is the message.
+[22:02] **Henry:** Ties a lot into [McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan). I kind of find everything going back to the [medium is the message](https://en.wikipedia.org/wiki/The_medium_is_the_message).
 
-> The section on "the medium is the message" can, perhaps, be clarified by pointing out that any technology gradually creates a totally new human environment. Environments are not passive wrappings but active processes. … “The medium is the message” means, in terms of the electronic age, that a totally new environment has been created. - Understanding Media
+> The section on "the medium is the message" can, perhaps, be clarified by pointing out that any technology gradually creates a totally new human environment. Environments are not passive wrappings but active processes. … “The medium is the message” means, in terms of the electronic age, that a totally new environment has been created. - [_Understanding Media_](https://en.wikipedia.org/wiki/Understanding_Media)
 
 [22:07] **Michael:** Mm-hmm. Yeah, yeah.
 
@@ -348,7 +348,7 @@ sidebar:
 
 [23:43] **Michael:** So there's no material trace that's left behind in a way that I can stumble upon it 10 years from an hour or whatever.
 
-[23:54] **Henry:** And like you said earlier, people are introducing that digitally, but it's just not the same. You could have a history of every ticket that you bought that's digital and you could put it on an NFT, all that stuff.
+[23:54] **Henry:** And like you said earlier, people are introducing that digitally, but it's just not the same. You could have a history of every ticket that you bought that's digital and you could put it on an [NFT](https://en.wikipedia.org/wiki/Non-fungible_token), all that stuff.
 
 [24:07] **Michael:** Right.
 
@@ -402,7 +402,7 @@ sidebar:
 
 [27:55] **Henry:** Thought that was so funny, but also in a way he is right. Maybe we feel like we can capture these moments in time. And we do feel like a picture captures a moment in time, but the picture will never bring you back to that moment.
 
-[28:09] **Henry:** What it was like. And we could try to simulate the sounds and the smells and all these things, just like we're trying to do with the metaverse, but it's not going to be the same, right.
+[28:09] **Henry:** What it was like. And we could try to simulate the sounds and the smells and all these things, just like we're trying to do with the [metaverse](https://en.wikipedia.org/wiki/Metaverse), but it's not going to be the same, right.
 
 [28:18] **Michael:** Yes. I mean that dynamic of trying to capture the moment, document the moment. Yeah, that that's so pervasive.
 
@@ -414,7 +414,7 @@ sidebar:
 
 #### Reality TV prepped us for the very online life
 
-[29:11] **Henry:** Everyone is trying to capture what's going on in their lives. And it's like, I watch Twitch, right? But one of the most popular categories, it's not video games. It's IRL, in real life.
+[29:11] **Henry:** Everyone is trying to capture what's going on in their lives. And it's like, I watch [Twitch](https://en.wikipedia.org/wiki/Twitch_(service)), right? But one of the most popular categories, it's not video games. It's [IRL](https://en.wikipedia.org/wiki/In_Real_Life), in real life.
 
 [29:22] **Henry:** And it's like these streamers, maybe they are famous through video games, but now they're just basically celebrities, like YouTubers. And they just stream them doing random stuff, being in their home, like cooking food or whatever. And that is their whole life.
 
@@ -440,7 +440,7 @@ sidebar:
 
 [31:23] **Michael:** Whereas now what's being captured, I think the focal point has shifted from the self as we capture it in a televisual way to the capturing of data, just data from all realms of our experience.
 
-[31:37] **Michael:** Whether it's data about the bodies that our Fitbits gather, ambient data about our consumption habits, the way a lot of smart devices, our designed to capture data about our consumption habits as well, to automate that consumption.
+[31:37] **Michael:** Whether it's data about the bodies that our [Fitbits](https://en.wikipedia.org/wiki/Fitbit) gather, ambient data about our consumption habits, the way a lot of smart devices, our designed to capture data about our consumption habits as well, to automate that consumption.
 
 [31:50] **Michael:** And so it's less about that older ideal. Cause I do think it's also the case that maybe even Gen X brings the old televisual ideals of the self as celebrity into the early social media world.
 
@@ -514,7 +514,7 @@ sidebar:
 
 #### On Loneliness and Making a Living
 
-[38:28] **Michael:** The third thing maybe is loneliness, right. You know, throughout the mid to late 20th century there's a lot of work done on the, the. The pervasive nature of loneliness, right? Anonymity, mass society, the individual is lost. You know, I think _Bowling Alone_ comes out in 2000.
+[38:28] **Michael:** The third thing maybe is loneliness, right. You know, throughout the mid to late 20th century there's a lot of work done on the, the. The pervasive nature of loneliness, right? Anonymity, mass society, the individual is lost. You know, I think [_Bowling Alone_](https://en.wikipedia.org/wiki/Bowling_Alone) comes out in 2000.
 
 [38:47] **Michael:** And so I think we bring an experience of loneliness and alienation also into that early social media period. And social media promises connection, right. Promises to alleviate that loneliness. To give us people who will hear us and listen to us tell our story or share our lives. I imagine there must be some solace in that.
 
@@ -564,7 +564,7 @@ sidebar:
 
 #### The Gradience of Relationality in Sidewalk Life
 
-[43:45] **Henry:** When you talk about private and public, I also think of Jane Jacobs' sidewalk life.
+[43:45] **Henry:** When you talk about private and public, I also think of [Jane Jacobs](https://en.wikipedia.org/wiki/Jane_Jacobs)' [sidewalk life](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities).
 
 [43:50] **Michael:** Mm-hmm. Yeah, kind of gradience of relationality between that spectrum of private and public, right?
 

@@ -14,15 +14,12 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/The-Dore
 sidebar:
   order: 1
 ---
-### Links
-
-- [The Dorean Principle (html book)](https://thedoreanprinciple.org/)
 
 #### Supporting Ministries with Co-Laborers
 
 [00:00] **Henry:** Maybe we could start with what is _The Dorean Principle_?
 
-[00:02] **Conley:** So, _Dorean_ is the Greek adverb that means freely. Jesus said in Matthew 10:8, "freely you've received, freely give". Or as the ESV says, "you receive without paying, give without pay". And then immediately after that, Jesus goes on and say, a worker is worthy of his food. So it's a book about how ministry ought to be supported, but not by exchanging the gospel for money as so often happens.
+[00:02] **Conley:** So, _Dorean_ is the Greek adverb that means freely. Jesus said in [Matthew 10:8](https://www.biblegateway.com/passage/?search=Matthew+10%3A8&version=ESV), "freely you've received, freely give". Or as the [ESV](https://www.esv.org/) says, "you receive without paying, give without pay". And then immediately after that, Jesus goes on and say, a worker is worthy of his food. So it's a book about how ministry ought to be supported, but not by exchanging the gospel for money as so often happens.
 
 [00:26] **Conley:** People wanna charge for biblical counseling. I was at a conference a few weeks ago where the presentations that were gospel oriented, they wanna charge you 14.99 to watch the live stream. There's just all kinds of examples of people exchanging the gospel for money, as opposed to having it funded by _co-laborers_ rather than customers.
 
@@ -42,9 +39,9 @@ sidebar:
 
 [02:22] **Henry:** Maybe we can go through.. why do you think Christianity became so opposite of this I guess?
 
-[02:29] **Conley:** So it is worth pointing out that, yeah, I'm not claiming that the church has gotten this wrong for so long and I'm now showing everyone what the Bible really said. I do think the church relatively followed this for a long time. There were periods of distraction. The whole Reformation was primarily started over in the sale of indulgences, right? And so Johan Tetzel, I forget what the exact jingle he would sing was, but "every time a coin in the coffer rings a soul from purgatory springs", something like that.
+[02:29] **Conley:** So it is worth pointing out that, yeah, I'm not claiming that the church has gotten this wrong for so long and I'm now showing everyone what the Bible really said. I do think the church relatively followed this for a long time. There were periods of distraction. The whole Reformation was primarily started over in the sale of indulgences, right? And so [Johan Tetzel](https://en.wikipedia.org/wiki/Johann_Tetzel), I forget what the exact jingle he would sing was, but "every time a coin in the coffer rings a soul from purgatory springs", something like that.
 
-[03:00] **Conley:** This catalyzed the largest change in Western culture. So there have been times when, things have gone asstray with this, but I think, primarily for our own time, it's just happened the past few hundred years with the advent of the modern publishing industry.
+[03:00] **Conley:** This catalyzed the largest change in Western culture. So there have been times when, things have gone asstray with this, but I think, primarily for our own time, it's just happened the past few hundred years with the advent of the modern [publishing industry](https://en.wikipedia.org/wiki/Publishing).
 
 [03:17] **Conley:** So how do you define the modern publishing industry? I don't know. I guess a lot of people would put a lot of emphasis on the Gutenberg press, things like that. But the way I think about it is, the more things have advanced, the more the physical product of a book and the content have been easily divorced, right?
 
@@ -72,9 +69,9 @@ sidebar:
 
 [06:29] **Conley:** Yeah. So that's a very good question. One way to think about it is obligation, right? So who is that person obligated to? One who, gives to the minister out of a felt obligation directly to him is very different than one who gives out a felt obligation to God.
 
-[06:48] **Conley:** So for example Paul says in 1 Corinthians 9, he likens the whole act of funding ministers to how the priests received their money and goods in general. The Lord said of the priests that he was their inheritance. And what that meant was that they received the ties and the offerings and sacrifices.
+[06:48] **Conley:** So for example Paul says in [1 Corinthians 9](https://www.biblegateway.com/passage/?search=1+Corinthians+9&version=ESV), he likens the whole act of funding ministers to how the priests received their money and goods in general. The Lord said of the priests that he was their inheritance. And what that meant was that they received the ties and the offerings and sacrifices.
 
-[07:07] **Conley:** Now we all know that when people were bringing the sacrifices, they weren't sacrificing to the priests, right. They were sacrificing to God. And so that makes all the difference in the world right? It's the difference between idolatry and right religion.
+[07:07] **Conley:** Now we all know that when people were bringing the sacrifices, they weren't sacrificing to the priests, right. They were sacrificing to God. And so that makes all the difference in the world right? It's the difference between [idolatry](https://en.wikipedia.org/wiki/Idolatry) and right religion.
 
 [07:20] **Conley:** Hophni and Phinehas, the sons of Samuel, they took the sacrifices directly rather than waiting for them to be offered to God. And so that would be a good example of an old violation of this principle, where they were considering the people directly obligated to them as opposed to being obligated to God.
 
@@ -114,7 +111,7 @@ sidebar:
 
 [11:47] **Conley:** As it is now, this principle isn't firmly understood and held, it can't function that way as this discerning factor to know whether or not a teacher is teaching truth. But it could be if more Christians began to embrace this.
 
-[12:01] **Conley:** There are other things, I go through just relevant things in the New Testament. I go through, the early history of the church. There are documents like the Didache written in the first century and other things, other extra biblical writings in the early several centuries where people very clearly, even quoting some of the verses I've been mentioning. It's clear that someone cannot teach for money or else they're a false teacher.
+[12:01] **Conley:** There are other things, I go through just relevant things in the New Testament. I go through, the early history of the church. There are documents like the [Didache](https://en.wikipedia.org/wiki/Didache) written in the first century and other things, other extra biblical writings in the early several centuries where people very clearly, even quoting some of the verses I've been mentioning. It's clear that someone cannot teach for money or else they're a false teacher.
 
 [12:24] **Conley:** Yeah and then after that I get into just what does this practically mean for us? What does this mean for church ministry?
 
@@ -152,7 +149,7 @@ sidebar:
 
 #### The Oddity of Christian Music Licensing
 
-[16:59] **Conley:** So you also asked about music. Yeah music is another thing that's very odd. There's this organization called the CCLI, right? Oh, I forget what that stands for. I think it's Christian Copyright Licensing Incorporated, something like that. Anyway most churches pay some yearly fee to CCLI in order to display worship music. So either streaming or printing it out, things like that.
+[16:59] **Conley:** So you also asked about music. Yeah music is another thing that's very odd. There's this organization called the [CCLI](https://us.ccli.com/), right? Christian Copyright Licensing International. Anyway most churches pay some yearly fee to CCLI in order to display worship music. So either streaming or printing it out, things like that.
 
 [17:24] **Conley:** But what's interesting about all this is that US copyright law also already has provisioned for religious entities. That in the course of a worship service, they can display perform copyrighted works without violating copyright law.
 
@@ -162,7 +159,7 @@ sidebar:
 
 [18:16] **Henry:** Right. I guess the question is.. I don't know how much money they're getting from that. And how much is it actually going to the artist versus the organization? And then if their music's gets popular, they're probably having like concerts or something.
 
-[18:28] **Conley:** Right. And the CCLI, it provides so little it doesn't give you the right to rearrange the tunes or anything. And if you think of Creative Commons hopefully some of the listeners are familiar with Creative Commons. It's kind of like still giving you a non derivative license. It's very locked down.
+[18:28] **Conley:** Right. And the CCLI, it provides so little it doesn't give you the right to rearrange the tunes or anything. And if you think of [Creative Commons](https://creativecommons.org/) hopefully some of the listeners are familiar with Creative Commons. It's kind of like still giving you a non derivative license. It's very locked down.
 
 [18:45] **Conley:** And once again, I'd love to see the Church change in this area. And this is also true for, for hymns. A lot of hymnals have been written within the time span of copyright law. So they're still under copyright and a lot of times they will have very small modifications of the original lyrics of the original tune. So that now you've got a new copyrighted work. And even though that song is hundreds and hundreds of years old, it's still considered copyrighted.
 
@@ -192,7 +189,7 @@ sidebar:
 
 [22:16] **Conley:** And then secondly, there's the more fundamental rights aspect of it does the copyright holder have a true absolute right, even outside of the construct of the government to control their work.
 
-[22:28] **Conley:** I would say no, given some of the reasoning and that Thomas Jefferson quote, what I was talking about, natural law. That God has set up things that are real inalienable rights. And the right is not the copyright holders as though this were physical property. The right is anyone to whom the idea comes because once it has entered their head, it is now their idea as well.
+[22:28] **Conley:** I would say no, given some of the reasoning and that [Thomas Jefferson](https://en.wikipedia.org/wiki/Thomas_Jefferson) quote, what I was talking about, natural law. That God has set up things that are real inalienable rights. And the right is not the copyright holders as though this were physical property. The right is anyone to whom the idea comes because once it has entered their head, it is now their idea as well.
 
 [22:50] **Henry:** Yeah, no, that makes sense. Feels very intuitive in the internet age where it's like, it's already so open. Like websites, you can look at the source code, you can copy it. The remixing of anything like a video or like on TikTok or music. And then also like fan fiction, right. They're technically extending something or they rewrite it. The death of the author, like does it even matter who wrote it if we want to claim that it's ours now. Feel like that kind of sentiment is already in the air.
 
@@ -242,7 +239,7 @@ sidebar:
 
 [27:25] **Conley:** I guess there's a more serious tie into the gospel. So if I can just read like part of the conclusion, of the book.
 
-[27:30] **Conley:** The prophet Isaiah describes salvation as water that is offered without money and without price, Isaiah 55:1. In the gospels, Jesus explains that he is the source of that living water, John 7:37. On the final pages of Scripture, John records the repeated assertion that the Lord offers this water freely, Revelation 21:6; 22:17. As we consider the relationship between money and ministry, there's nothing less at stake than the proper advancement of the gospel of Jesus.
+[27:30] **Conley:** The prophet Isaiah describes salvation as water that is offered without money and without price, [Isaiah 55:1](https://www.biblegateway.com/passage/?search=Isaiah+55%3A1&version=ESV). In the gospels, Jesus explains that he is the source of that living water, [John 7:37](https://www.biblegateway.com/passage/?search=John+7%3A37&version=ESV). On the final pages of Scripture, John records the repeated assertion that the Lord offers this water freely, [Revelation 21:6](https://www.biblegateway.com/passage/?search=Revelation+21%3A6&version=ESV); [22:17](https://www.biblegateway.com/passage/?search=Revelation+22%3A17&version=ESV). As we consider the relationship between money and ministry, there's nothing less at stake than the proper advancement of the gospel of Jesus.
 
 [27:58] **Conley:** So the gospel.. It's offered freely and that's kind of what makes it distinctive from what's offered in many religions of the world, right? By your own effort, you earn righteousness, but Christianity is unique in that what it offers is entirely free. And that needs to be reflected in how the gospel is promoted. If Christ is offering it freely, then his servant that's a messenger should not be then charging a premium.
 

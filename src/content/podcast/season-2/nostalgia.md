@@ -253,7 +253,7 @@ sidebar:
 
 **Henry:** And so you mentioned that you basically bought the Window reference manual to check this stuff.
 
-> [Microsoft Windows User Experience Reference Manual](https://www.amazon.com/Microsoft-Windows-Experience-Professional-Editions/dp/0735605661)
+> [Microsoft Windows User Experience Reference Manual](https://en.wikipedia.org/wiki/Human_interface_guidelines#Microsoft_Windows)
 
 **Jordan:** Yes. I bought it. Oh man. I don't want to say it's a year ago. Probably almost a year ago though. It was very cheap on Amazon, I got it used. Probably like 10 bucks. Huge, like 500 pages, big book. And I completely left this app before, but when I was first looking into the sort of staircase shadow, it turns out this is documented behavior. This is snaked out behavior from the Windows user experience guidelines.
 

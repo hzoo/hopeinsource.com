@@ -16,18 +16,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-10-Jo
 sidebar:
   order: 10
 ---
-### Links
-
-- [Jonathan](https://twitter.com/jfarbowitz)
-- [Guggenheim](https://twitter.com/Guggenheim)
-- [Unfolding Object](http://unfoldingobject.guggenheim.org), [(blog)](https://www.guggenheim.org/blogs/checklist/the-guggenheim-restores-john-f-simon-jr-early-web-artwork-unfolding-object) an artwork mentioned in the episode
-- [Guggenheim’s Conserving Computer-based Art initiative (CCBA)
-  ](https://www.guggenheim.org/blogs/checklist/how-the-guggenheim-and-nyu-are-conserving-computer-based-art-part-1)
-- [Fostering a Community of Practice: Software Preservation Project](https://www.softwarepreservationnetwork.org/fcop/) cohort that Jonathan and Wendy are a part of
-- [Emulation as a Service and EaaSI Project](https://www.softwarepreservationnetwork.org/eaasi)
-- [vrecord](https://github.com/amiaopensource/vrecord) (open source video digitization software)
-- [Rhizome’s Webrecorder](https://webrecorder.io)
-
 [00:08] **Henry:** Yeah, today I have with me Jonathan Farbowitz. He's a fellow in the conservation of computer-based art. He assists at Guggenheim's conservation department addressing preservation needs of computer-based works in the Guggenheim collection. He also supports the development of best practices for collecting these kinds of artworks. He's also worked on the restorations of Shu Lea Cheang's Brandon, which is from 1998-1999, and John F. Simon, Jr.'s Unfolding Object, which is in 2012. He holds an MA in moving archiving and preservation from NYU as well as a BA from Vassar College and also has previous experience in software development and testing. Thanks for joining me today, Jonathan.
 
 [00:51] **Jonathan:** Thank you for having me.
@@ -42,7 +30,7 @@ sidebar:
 
 [01:37] **Henry:** I think we should start off just some intro on what are the goals that you would say of museums and then what about Guggenheim specifically.
 
-[01:48] **Jonathan:** Sure, yeah. I just want to add quickly, Wendy and I are both part of the same cohort. It's the Fostering Community of Practice Software Preservation. It's an affiliated project of the Software Preservation Network. The Guggenheim, along with Georgia Tech, is also, we're part of the cohort.
+[01:48] **Jonathan:** Sure, yeah. I just want to add quickly, Wendy and I are both part of the same cohort. It's the [Fostering a Community of Practice: Software Preservation Project](https://www.softwarepreservationnetwork.org/fcop/). It's an affiliated project of the Software Preservation Network. The Guggenheim, along with Georgia Tech, is also, we're part of the cohort.
 
 [02:16] **Henry:** So a bunch of universities?
 
@@ -54,7 +42,7 @@ sidebar:
 
 [03:24] **Henry:** I guess based off that, has your position been around for a while and how long has it been-
 
-[03:30] **Jonathan:** My position is relatively new. I've been at the Guggenheim for about two and a half years through what we call the CCBA or the Conserving Computer-Based Art Initiative. That initiative began a little bit before I started, so it started around 2014. We had Joanna Phillips was the conservator of time-based media at the Guggenheim at that time, and she started collaborating with Deena Engel, who is a computer science professors at NYU. Joanna and Deena started looking at computer-based works in our collection.
+[03:30] **Jonathan:** My position is relatively new. I've been at the Guggenheim for about two and a half years through what we call the [CCBA or the Conserving Computer-Based Art Initiative](https://www.guggenheim.org/blogs/checklist/how-the-guggenheim-and-nyu-are-conserving-computer-based-art-part-1). That initiative began a little bit before I started, so it started around 2014. We had Joanna Phillips was the conservator of time-based media at the Guggenheim at that time, and she started collaborating with Deena Engel, who is a computer science professors at NYU. Joanna and Deena started looking at computer-based works in our collection.
 
 [04:19] **Henry:** So you already had computer-based art already.
 
@@ -128,7 +116,7 @@ sidebar:
 
 [12:27] **Henry:** Because a lot of times, all the developers I know just break the web and just get rid of all this stuff. People like to use the example of I think it was, I forgot but it was like NBA Jam or some website that they want to conserve.
 
-[12:41] **Jonathan:** Oh, Space Jam.
+[12:41] **Jonathan:** Oh, [Space Jam](https://www.spacejam.com/1996/).
 
 [12:42] **Henry:** Yeah, that's what it was.
 
@@ -204,7 +192,7 @@ sidebar:
 
 [24:50] **Jonathan:** Yeah, absolutely. That does happen sometimes. As conservators, it's our job to record as much as we can about that, about the changing of how the artist conceives it and things like that.
 
-[25:08] **Henry:** I mention this a lot on all the podcasts I'm on now, but I've been reading this work by a philosopher called Michael Polanyi and he has this book that he's written called Personal Knowledge. There's a lot of stuff he talks about, but he talks about this concept of tacit knowledge, which is knowledge that you can't express but you know it, and the importance of people in knowledge and learning. I think in our current culture there's a lot of talk about separating the facts from people, the idea that you can just learn something and just insert it into your brain kind of thing.
+[25:08] **Henry:** I mention this a lot on all the podcasts I'm on now, but I've been reading this work by a philosopher called [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) and he has this book that he's written called [Personal Knowledge](https://www.goodreads.com/book/show/567052.Personal_Knowledge). There's a lot of stuff he talks about, but he talks about this concept of tacit knowledge, which is knowledge that you can't express but you know it, and the importance of people in knowledge and learning. I think in our current culture there's a lot of talk about separating the facts from people, the idea that you can just learn something and just insert it into your brain kind of thing.
 
 [25:47] **Jonathan:** Like the Matrix or something.
 
@@ -350,7 +338,7 @@ sidebar:
 
 [48:51] **Henry:** Because we do that now for websites in general. That's one way people are trying to figure out. They changed some kind of UI button and then is it different, or is it expected for it to be this way, and stuff like that.
 
-[49:04] **Jonathan:** Great. What do you think about interactive artwork? Unfolding Object, I don't know if you played with it.
+[49:04] **Jonathan:** Great. What do you think about interactive artwork? [Unfolding Object](http://unfoldingobject.guggenheim.org), I don't know if you played with it.
 
 [49:12] **Henry:** I did.
 
@@ -436,7 +424,7 @@ sidebar:
 
 [59:25] **Henry:** That goes back to your bachelor's in film too.
 
-[59:29] **Jonathan:** Exactly, yeah. When I went into the program I thought I would be a video archivist. That was kind of the vision, but I started to get more and more pulled toward digital preservation. I even in one of my internships I worked on this open source video digitization software called Vrecord, which people still use to digitize videotapes, so I was part of this development project. That was also helping my coding skills improve as well. Yeah, I just started to get more and more interested in computer history and I wrote my thesis on preserving computer viruses and other malware.
+[59:29] **Jonathan:** Exactly, yeah. When I went into the program I thought I would be a video archivist. That was kind of the vision, but I started to get more and more pulled toward digital preservation. I even in one of my internships I worked on this open source video digitization software called [vrecord](https://github.com/amiaopensource/vrecord), which people still use to digitize videotapes, so I was part of this development project. That was also helping my coding skills improve as well. Yeah, I just started to get more and more interested in computer history and I wrote my thesis on preserving computer viruses and other malware.
 
 [01:00:17] **Henry:** Very interesting topic.
 
@@ -478,7 +466,7 @@ sidebar:
 
 [01:06:30] **Henry:** Because then the question is is it up to you and all the archivists to do all this work, or can people be involved? The question in open source is the same, where it's like as a maintainer is it our responsibility to provide this free software to all these developers and companies and do it for free?
 
-[01:06:50] **Jonathan:** Yeah, I think in my case we have to deal with what's in our collection in terms of preserving it. Other museums deal with their collections, and then there's also this organization, Rhizome, that has their collection of mostly net art, and they're actually developing a lot of really interesting software to deal with some of the problems of preserving that art in their collection. They came up with Webrecorder, which is a piece of open source software that allows for interactive web archiving. A lot of web archiving software, it's automated. It'll just go out and it'll bring in the pages but for the modern web, you have a lot of different interactive stuff.
+[01:06:50] **Jonathan:** Yeah, I think in my case we have to deal with what's in our collection in terms of preserving it. Other museums deal with their collections, and then there's also this organization, [Rhizome](https://rhizome.org/), that has their collection of mostly net art, and they're actually developing a lot of really interesting software to deal with some of the problems of preserving that art in their collection. They came up with [Webrecorder](https://webrecorder.net/), which is a piece of open source software that allows for interactive web archiving. A lot of web archiving software, it's automated. It'll just go out and it'll bring in the pages but for the modern web, you have a lot of different interactive stuff.
 
 [01:07:42] **Henry:** Oh, dynamic stuff you mean.
 
@@ -496,7 +484,7 @@ sidebar:
 
 [01:12:05] **Henry:** Yeah, I would like to talk to someone that does that. That's something I don't know a lot about.
 
-[01:12:09] **Jonathan:** Yeah, there's another big project called Emulation as a Service, or EaaS, and that's a really big project right now in archives and museums. There's this project called EaaSI, which is at Yale University currently, and it's a way of trying to make EaaS accessible to larger groups of people to mostly universities I think to try and use that emulation service to make different software they have in their collections accessible to the public or more generally accessible.
+[01:12:09] **Jonathan:** Yeah, there's another big project called Emulation as a Service, or EaaS, and that's a really big project right now in archives and museums. There's this project called [EaaSI](https://www.softwarepreservationnetwork.org/eaasi/), which is at Yale University currently, and it's a way of trying to make EaaS accessible to larger groups of people to mostly universities I think to try and use that emulation service to make different software they have in their collections accessible to the public or more generally accessible.
 
 [01:12:50] **Jonathan:** So EaaS, the idea, it's like cloud-based emulation, so you basically just point someone to a URL and then they're just going to that URL but in the background there's a server spinning up an emulator and it's going to run whatever software you have loaded on there. Then the user is just going to see things in the browser window and they don't really have to set up the emulator or anything like that. It's really great for making an artwork. Could be an artwork, could be someone's personal papers, it could be an emulator with somebody's old computer that you can browse the files. Any of those things. It could be an old CAD drawing of a building. But making all that accessible through cloud-based emulation seems like a great initiative for archives and museums.
 

@@ -10,10 +10,6 @@ sidebar:
     order: 5
 ---
 
-### Links
-
-- [MAMA](http://mama.brussels/)
-
 #### An Architect and Anthropologist
 
 [00:00] **Bernardo:** My name is Bernardo Robles.
@@ -52,11 +48,13 @@ sidebar:
 
 [01:24] **Bernardo:** How do we know each other?
 
-[01:25] **Bernardo:** So we met, we met in October, in a conference that took place in Washington. And we were invited to support the Maintainers III, which is a network of people trying to promote different fields to change.
+[01:25] **Bernardo:** So we met, we met in October, in a conference that took place in Washington. And we were invited to support the [Maintainers III](https://themaintainers.org/miii/), which is a network of people trying to promote different fields to change.
 
 [01:40] **Bernardo:** I was invited because I am co founder of MAMA, which is a practice that's trying to put the maintenance as a major point in the conception, production, and caring off buildings.
 
 [01:53] **Bernardo:** And you, why were you there?
+
+> [MAMA](http://mama.brussels/) is Bernardo's practice focused on maintenance in architecture
 
 [01:55] **Henry:** I guess someone invited me. I wasn't a speaker though, so I just attended.
 
@@ -72,7 +70,7 @@ sidebar:
 
 [02:41] **Bernardo:** And I invited you to come to to Brussels because I knew there were some interesting conference going on and you came, it was great.
 
-[02:50] **Henry:** Yeah. I went to Sustain Open Source. And then FOSDEM.
+[02:50] **Henry:** Yeah. I went to [Sustain Open Source](https://sustainoss.org/). And then [FOSDEM](https://en.wikipedia.org/wiki/FOSDEM).
 
 #### Bosch, a Co-housing project in Brussels
 

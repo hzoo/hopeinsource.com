@@ -16,7 +16,7 @@ sidebar:
 
 #### TabFS or BrowserFS?
 
-[0:00] **Omar:** It's funny. You know, one thing that I thought was interesting. This is something that [Andy said](https://twitter.com/andy_matuschak/status/1348744953334153216?s=20) is that like, I don't have much of a use for the project, cause I'm not a big tab user. And I think it's funny how many people have sort of glommed onto this idea that this is about tab management.
+[0:00] **Omar:** It's funny. You know, one thing that I thought was interesting. This is something that [Andy](https://andymatuschak.org/) said is that like, I don't have much of a use for the project, cause I'm not a big tab user. And I think it's funny how many people have sort of glommed onto this idea that this is about tab management.
 
 [0:14] **Omar:** It's like I have a hundred tabs open and I need this tool to help me manage tabs. When I think that's almost just a historical accident, coincidence, that the name of the project is to have a fast and that the early examples are about managing tabs because that was not my intent when I started and that's not really my long-term, I mean, it's certainly part of the system, but it is not really the things that excited me the most about it.
 
@@ -54,7 +54,7 @@ sidebar:
 
 [3:45] **Omar:** Yeah. That's one framing that I think is pretty compelling, but I don't have any good examples for it yet. Unless you count the tab things. If you were really masochistic about writing an extension to close all your stack overflow tabs.
 
-[3:59] **Omar:** It's interesting cause it's like very much a different way of thinking about programming your computer. And it's sort of in line with some of the Dynamicland stuff, where you just sketch something out and that's a program. And it can like talk to all of this other stuff that you already have in your environment. In terms of really lightweight programming, in terms of having this space, the file system or the real world, where you have all these operations that you already know, you can just kind of reuse them now applied to new stuff.
+[3:59] **Omar:** It's interesting cause it's like very much a different way of thinking about programming your computer. And it's sort of in line with some of the [Dynamicland](https://dynamicland.org/) stuff, where you just sketch something out and that's a program. And it can like talk to all of this other stuff that you already have in your environment. In terms of really lightweight programming, in terms of having this space, the file system or the real world, where you have all these operations that you already know, you can just kind of reuse them now applied to new stuff.
 
 [4:28] **Henry:** This kind of stuff let's you have the mindset of like exploration and play, I suppose. It's like kind of, you don't really care. Just make it happen.
 
@@ -98,7 +98,7 @@ sidebar:
 
 [8:06] **Omar:** It's interesting in the case of TabFS, because part of the reason that it took me a few years to really finish this project is that I spent a while playing with different frameworks and different languages. There was a file system that was written in go. And then there was a browser extension that was written in TypeScript with Webpack and all this other stuff. And then over time, I just got more and more fed up with the dependencies and with like trying to write wrappers so that TypeScript would accept the weird things I was doing. All of these things that are pretty much incidental to the thing that I'm actually trying to do.
 
-[8:40] **Omar:** And so now it is basically pure C and pure JavaScript. There's no like package manager. There's no build step. The browser extension is one JavaScript file. And it's just plain ES6. And the C file system half, which is the half that talks to your operating system.. You do have to compile it, but it's just one C file. And it only depends on FUSE, which is the module that you need to, to make file systems for your computer.
+[8:40] **Omar:** And so now it is basically pure C and pure JavaScript. There's no like package manager. There's no build step. The browser extension is one JavaScript file. And it's just plain ES6. And the C file system half, which is the half that talks to your operating system.. You do have to compile it, but it's just one C file. And it only depends on [FUSE](https://en.wikipedia.org/wiki/Filesystem_in_Userspace), which is the module that you need to, to make file systems for your computer.
 
 [9:05] **Henry:** I wonder if there's like this progression of starting with as many dependencies as possible and then slowly getting rid of all of them until there's only like one or two left out of frustration.
 
@@ -152,7 +152,7 @@ sidebar:
 
 [14:33] **Henry:** Hmm, instead of just a CVE?
 
-[14:36] **Omar:** Yeah, I guess, right? Like that's definitely a new phenomenon where you have, heart bleed or a shell shock. Some of these other things where they do get a nice domain and have a nice landing page. I feel like maybe the culture of JavaScript in particular has kind of encouraged a lot of
+[14:36] **Omar:** Yeah, I guess, right? Like that's definitely a new phenomenon where you have, [heartbleed](https://en.wikipedia.org/wiki/Heartbleed) or a [shellshock](https://en.wikipedia.org/wiki/Shellshock_(software_bug)). Some of these other things where they do get a nice domain and have a nice landing page. I feel like maybe the culture of JavaScript in particular has kind of encouraged a lot of
 
 [14:52] **Henry:** Throughout the whole development community.
 
@@ -198,11 +198,11 @@ sidebar:
 
 [19:53] **Omar:** Yeah. I, I want to do more of that. This would be a cool area to do some stuff in where you can like hop between your browser world and your graphical file Explorer world. And there's links you can click that go from one to the other. Because that's stuff that when you think about it, it's kind of obvious, but nobody really does it. I think partly because of the communications overhead of like, just implementing all this stuff. But with the file system, it's really easy.
 
-[20:16] **Omar:** It's also gets at some of the stuff from Acme Plan 9 editor. It sort of provided these hypertext system where if you had a text file and it had the name of another file in it, you could click on that and it would hop you to that file. Or you could put a line number after that and you could hop to that line number. So you could kind of build this hypertext network of stuff you were working on just in the plain text.
+[20:16] **Omar:** It's also gets at some of the stuff from [Acme](https://en.wikipedia.org/wiki/Acme_(text_editor)) [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) editor. It sort of provided these hypertext system where if you had a text file and it had the name of another file in it, you could click on that and it would hop you to that file. Or you could put a line number after that and you could hop to that line number. So you could kind of build this hypertext network of stuff you were working on just in the plain text.
 
 #### Taking Phrases Seriously
 
-[20:37] **Henry:** I don't actually know much about Plan 9. Apparently in that everything is a file, but I guess you said that you explored that before, and this is something similar.
+[20:37] **Henry:** I don't actually know much about [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs). Apparently in that everything is a file, but I guess you said that you explored that before, and this is something similar.
 
 [20:45] **Omar:** Yeah, I think that this is taking some of the ideas and trying to modernize them. Well, I mean, everything is a file. That's a phrase that goes back to the original Unix. Today, even if you take like an operating systems class, like I TA'd operating systems in college at Stanford.
 

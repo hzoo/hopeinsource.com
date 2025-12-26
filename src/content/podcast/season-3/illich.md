@@ -15,10 +15,6 @@ speakers:
     Madhu: left
 ---
 
-### Links
-
-- [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies)
-
 [00:00] **Henry:** I know it's been a while since the last podcast, but I've been reading a lot of Ivan Illich over the last few years. And I figured it was worth hosting a guest podcast about his work. And so on this next episode, I have Michael Sacasas. But he's being interviewed by Madhu and Dana of Penn State University. They're also the editors of [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies). You had a really fascinating conversation with Michael about his work in trying to bring to light Illich's thoughts around the pandemic, institutions and modern life. I hope you enjoy the conversation.
 
 [00:33] **Dana:** Michael, would you remind me what your work is and is about?
@@ -67,7 +63,7 @@ speakers:
 
 [05:58] **Michael:** And so it also gave the reader complete freedom to discard, to delete, to read again, to open when they want. And so I thought that there was something attractive about that particular medium. And to know that I wasn't just sort of writing into the ether of the internet, but to a neatly circumscribed community of people.
 
-[06:17] **Michael:** I didn't know everybody on the list of course, but it still gave me a sense of writing to an audience that I had, in Walter Ong's phrase, less trouble fictionalizing. So it was a slightly more concrete audience. And it was a self-regulating audience; you might get a couple of issues and decide this isn't for me, then you just sort of unsubscribe. And so the relationship between the reader and the audience gets calibrated over time in a way that I thought was interesting and good. I enjoyed that.
+[06:17] **Michael:** I didn't know everybody on the list of course, but it still gave me a sense of writing to an audience that I had, in [Walter Ong's](https://en.wikipedia.org/wiki/Walter_J._Ong) phrase, less trouble fictionalizing. So it was a slightly more concrete audience. And it was a self-regulating audience; you might get a couple of issues and decide this isn't for me, then you just sort of unsubscribe. And so the relationship between the reader and the audience gets calibrated over time in a way that I thought was interesting and good. I enjoyed that.
 
 [06:45] **Michael:** So I've continued to write it. The pace has slackened a little bit of late, because as you mentioned I sometimes find myself writing at 1:00 AM in the morning, which is not greatly conducive to a clarity of thought and expression. There's been a lot going on, but I continue to do it because I do enjoy it. And have enjoyed the responses I get from readers, whether that's email exchanges or even this conversation we're having now, which I could not have predicted going into this year. And so it's one great fruit, I think, in my own life. And I found it very enriching for me personally.
 
@@ -117,13 +113,13 @@ speakers:
 
 [15:40] **Michael:** And those ends may be very diverse. They may depend upon one's you know, sort of cultural or religious background and upbringing and assumptions. But regardless of what those happened to be the tools in a modern society are still kind of intersecting with those desires and aspirations.
 
-[15:55] **Michael:** And so to try to understand the nature of that intersection, especially where that material technological infrastructure is actually undermining our desires and our efforts to be the sorts of people we want to be, to have the kind of communities we aspire to have. Those are the kinds of questions that are very usefully illuminated by the work of the Ivan and Jaques Ellul, who I've been writing again a little bit about recently.
+[15:55] **Michael:** And so to try to understand the nature of that intersection, especially where that material technological infrastructure is actually undermining our desires and our efforts to be the sorts of people we want to be, to have the kind of communities we aspire to have. Those are the kinds of questions that are very usefully illuminated by the work of the Ivan and [Jacques Ellul](https://en.wikipedia.org/wiki/Jacques_Ellul), who I've been writing again a little bit about recently.
 
-[16:22] **Michael:** I think of my own influences as sort of having two separate traditions of technological criticism that come to bear on it. One is sort of the media ecological tradition where Marshall McLuhan and Walter Ong and Neil Postman have been very prominent.
+[16:22] **Michael:** I think of my own influences as sort of having two separate traditions of technological criticism that come to bear on it. One is sort of the media ecological tradition where [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan) and [Walter Ong](https://en.wikipedia.org/wiki/Walter_J._Ong) and [Neil Postman](https://en.wikipedia.org/wiki/Neil_Postman) have been very prominent.
 
-[16:35] **Michael:** And where I think Ivan, especially towards the 1980s and then even the nineties within The Vineyard of the Text is in conversation with that tradition. And then what I think of as sort of the more traditional, especially the mid 20th century technology criticism that Ellul and Illich in that phase represent. And Lewis Mumford comes to mind as well.
+[16:35] **Michael:** And where I think Ivan, especially towards the 1980s and then even the nineties within The Vineyard of the Text is in conversation with that tradition. And then what I think of as sort of the more traditional, especially the mid 20th century technology criticism that Ellul and Illich in that phase represent. And [Lewis Mumford](https://en.wikipedia.org/wiki/Lewis_Mumford) comes to mind as well.
 
-[16:58] **Michael:** And then there are more academically traditional philosophers of technology like Carl and Albert Borgmann as well. So in some respects, these are sort of three traditions through the lens of which I try to perceive the role that technology plays in our lives with a view to this larger question of how we live well. How we live lives that we can think of as flourishing lives and how we sustain communities that empower human flourishing. And I feel like that's very long winded answer to the question.
+[16:58] **Michael:** And then there are more academically traditional philosophers of technology like Carl Mitcham and [Albert Borgmann](https://en.wikipedia.org/wiki/Albert_Borgmann) as well. So in some respects, these are sort of three traditions through the lens of which I try to perceive the role that technology plays in our lives with a view to this larger question of how we live well. How we live lives that we can think of as flourishing lives and how we sustain communities that empower human flourishing. And I feel like that's very long winded answer to the question.
 
 #### Resisting the frame of control and embracing gift
 
@@ -135,7 +131,7 @@ speakers:
 
 [18:56] **Michael:** Yeah. One of the things that comes to my mind along these lines. Let me back up a little bit. At the end of *Deschooling Society*, Illich draws upon the myth of Prometheus and that opposition between a life that seeks to plan and control, as opposed to receiving as a gift, right? So that frame of mind that the reality that we experience is a gift and is given and for which we have responsibilities which does not belong to us as it were.
 
-[19:25] **Michael:** Especially as I think about this in a distinctively theological vein with people like Illich or even Wendell Berry who has this wonderful line about how we live the given life, not the planned in one of his Sabbath poems. And that succinctly captures something that is very important to me.
+[19:25] **Michael:** Especially as I think about this in a distinctively theological vein with people like Illich or even [Wendell Berry](https://en.wikipedia.org/wiki/Wendell_Berry) who has this wonderful line about how we live the given life, not the planned in one of his Sabbath poems. And that succinctly captures something that is very important to me.
 
 [19:42] **Michael:** How do I refuse the framing that modern technological culture offers to me, of being the one who will master and control the world. The one who sees the world as raw material for my own projects. And rather see the world and other living things, right?
 
@@ -167,7 +163,9 @@ speakers:
 
 [24:47] **Michael:** And so there's a way of construing the necessity of limits in a way that hopefully clothes them in their proper beauty so that they become attractive to us again. I think a lot of people would acknowledge that we don't find satisfaction in our way of life for all of our material abundance.
 
-[25:06] **Michael:** The way I've thought of it lately is, you know, Simone Weil talks about the need for roots. She talks about the needs of the soul and distinguishes between material and material needs. And certainly from a certain perspective for a certain class of people, industrial society has provided for material needs by certain measures, but perhaps at the cost of ignoring the non-material needs that are often as important for human flourishing as the material needs.
+[25:33] **Michael:** And so there's a way of construing the necessity of limits in a way that hopefully clothes them in their proper beauty so that they become attractive to us again. I think a lot of people would acknowledge that we don't find satisfaction in our way of life for all of our material abundance.
+
+[25:06] **Michael:** The way I've thought of it lately is, you know, [Simone Weil](https://en.wikipedia.org/wiki/Simone_Weil) talks about the [need for roots](https://en.wikipedia.org/wiki/The_Need_for_Roots). She talks about the needs of the soul and distinguishes between material and material needs. And certainly from a certain perspective for a certain class of people, industrial society has provided for material needs by certain measures, but perhaps at the cost of ignoring the non-material needs that are often as important for human flourishing as the material needs.
 
 [25:33] **Michael:** And so instead of imagining that the answer is always more of something, but rather to consider that perhaps the answer is less. A different way of life. A smaller scale, a more humane scale for our technologies, for our communities. And that there are satisfactions in that, that we have lost sight of. And that might more readily provide us with joy and and a sense of meaning that we encounter these limits, not as something to be transcended, but rather as essential to, I think Berry puts it as "invitations to elaboration" within those limits that provide a wonderful fund of endless satisfactions. That's I think also an important part of this.
 
@@ -259,7 +257,7 @@ speakers:
 
 [40:43] **Madhu:** Much as we love Ilich, much as I have labored hard to include him in my classes. I have to contend with the fact that many of our friends and kindred spirits, scholars, non scholars, poets, and others find Illich hard to study and read. Inaccessible, not because that's what he intended. But he had his own skillset and is accessible to a very, very small studious group of people. Is your initiative and attempt to make him more accessible? His ideas, whether it's counter-productivity, friendship, or conviviality. More available to people who are not textual?
 
-[41:37] **Dana:** And I'll just add. Our beloved friend Gustavo Esteva tells story after story of the aha effect experienced by indigenous peoples who upon conversing about an Illich derived idea, say, Oh, of course. That's true. We know that. So the juxtaposition of people you might say of our class or of our education, who find Illich out of reach, or even more troubling conclusion, in contrast to people among the so-called grassroots.
+[41:37] **Dana:** And I'll just add. Our beloved friend [Gustavo Esteva](https://en.wikipedia.org/wiki/Gustavo_Esteva) tells story after story of the aha effect experienced by indigenous peoples who upon conversing about an Illich derived idea, say, Oh, of course. That's true. We know that. So the juxtaposition of people you might say of our class or of our education, who find Illich out of reach, or even more troubling conclusion, in contrast to people among the so-called grassroots.
 
 [42:12] **Michael:** No, right. One of the most joy giving messages that I receive is when somebody says, I've been reading your newsletter for a while, and so I finally picked up *Tools for Conviviality* or Deschooling Society or whatever it may be. And I actually have often framed, especially when I began writing online, part of what I was doing at least to myself as an effort to translate. I certainly hope it was never a question of simplifying, but translating and interpreting the work that is happening in more sort of academic circles, whether that's in the philosophy of technology.
 
@@ -296,6 +294,8 @@ speakers:
 [47:27] **Michael:** And so that seems to actually be rather fitting, right, so much Ivan's labor involved gathering people together face to face around the table in conversation. So that it ends up being that when we get a glimpse of that, when we get a little taste of that, even if it's in the transcribed format, that we really see the passion, the energy. The vibrant quality of his thought come across in a way that's very compelling. Where I grant that the pros can sometimes be very dense and difficult at times now.
 
 [48:01] **Madhu:** Yes. I love that interview too. And it's in Jerry Brown's book, *Dialogues*, I think.
+
+> [Dialogues](https://www.goodreads.com/book/show/1107404-dialogues) by Jerry Brown - A collection of interviews from his radio show.
 
 [48:09] **Michael:** Okay. Yeah. I found that online, David Apple or something, he has a kind of a archive and I think that's where I first encountered him.
 

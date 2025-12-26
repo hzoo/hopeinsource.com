@@ -46,7 +46,7 @@ sidebar:
 
 [03:45] **Henry:** I don't want to speculate on the way, but malaise is a good word. There's this book called [A Secular Age](https://en.wikipedia.org/wiki/A_Secular_Age) by Charles Taylor. Taylor is a Catholic and he was talking about the secularization thesis, which was kind of saying something like the more scientific a country is, they will become more atheist. And he was saying that that's not true. The way people express their spirituality is different, but the amount of spirituality might be actually the same as before.
 
-[04:08] **Henry:** You can see this now where even in tech, people love meditation. People love their fan fiction. There's fan clubs. There's CrossFit, SoulCycle, all these things.. They're not really religion, but if you want to define religion more generally, they are. There's a community. There's a sense of purpose.
+[04:08] **Henry:** You can see this now where even in tech, people love meditation. People love their fan fiction. There's fan clubs. There's [CrossFit](https://en.wikipedia.org/wiki/CrossFit), [SoulCycle](https://en.wikipedia.org/wiki/SoulCycle), all these things.. They're not really religion, but if you want to define religion more generally, they are. There's a community. There's a sense of purpose.
 
 > "There are layers of meaning to calling a company a cult. Many successful companies are culty in one way or another—the Apple blog “Cult of Mac” was not named entirely tongue-in-cheek. Some companies are cultish with respect to customers, like Peloton, which literally sells access to a scheduled ritual that makes participants more virtuous." - [Palantir: On Business, Cults, and Politics](https://diff.substack.com/p/palantir-on-business-cults-and-politics)
 
@@ -58,7 +58,7 @@ sidebar:
 
 [04:53]  **Henry:** And faith means that there's an aspect of surrender and giving up. Faith is not about me and how certain I am, but rather what you put your faith in, having the faith of a mustard seed to move mountains.
 
-[05:07] **Sonya:** You reminded me of what one of the lessons that is often drawn out of the book of Job. If you thank God for the blessings, will you not maintain your faith and keep the faith really during times of suffering? If you truly give yourself over to God's will then either of those things, you have to live through.
+[05:07] **Sonya:** You reminded me of what one of the lessons that is often drawn out of the [book of Job](https://en.wikipedia.org/wiki/Book_of_Job). If you thank God for the blessings, will you not maintain your faith and keep the faith really during times of suffering? If you truly give yourself over to God's will then either of those things, you have to live through.
 
 [05:25] **Sonya:** And I guess I sort of feel that way a little bit about doubt. You know, if I'm able to take refuge and to take joy in faith, there's something that sort of feels almost fair about, well, I'm also going to have to go through the doubt. And I don't know, maybe I can also dedicate my doubt to God and try to find a way to use doubt to come closer?
 
@@ -186,7 +186,7 @@ sidebar:
 
 [21:17] **Henry:** The catechism, the chief end of man. We want to be free from people telling us what to do, but then we have to come up with what the purpose is ourselves. I guess that's existentialism.
 
-[21:27] **Sonya:** I like existentialist Christianity a lot. Maybe because it mirrors like my own experience? Where I had this kind of like, go down into nihilism and then come back up. And I liked the existentialism frame where it says like, no, this is your choice. Like you have to choose to accept this framework this way. And I see that as compatible with like this being the true way.
+[21:27] **Sonya:** I like existentialist Christianity a lot. Maybe because it mirrors like my own experience? Where I had this kind of like, go down into [nihilism](https://en.wikipedia.org/wiki/Nihilism) and then come back up. And I liked the existentialism frame where it says like, no, this is your choice. Like you have to choose to accept this framework this way. And I see that as compatible with like this being the true way.
 
 #### Truth and Fact
 
@@ -266,17 +266,17 @@ sidebar:
 
 #### Happeningness
 
-[31:19] **Sonya:** I think in addition to existentialism, I think that Buddhism actually has a fair bit of correspondence with Christianity. There are a lot of the same concepts. Oh the idea of the self being illusory. I thought of this because of your point about embodiedness, the idea of the self is like something that is produced by your whole being, but it's not your whole being. You know, it's the voice in your head or like a psychological construct. I mean, it doesn't encompass all of our decision making. It doesn't encompass all of our faculties, which is interesting and weird. I wonder how that meshes with the, in his image aspect.
+[31:19] **Sonya:** I think in addition to existentialism, I think that [Buddhism](https://en.wikipedia.org/wiki/Buddhism) actually has a fair bit of correspondence with Christianity. There are a lot of the same concepts. Oh the idea of the self being illusory. I thought of this because of your point about embodiedness, the idea of the self is like something that is produced by your whole being, but it's not your whole being. You know, it's the voice in your head or like a psychological construct. I mean, it doesn't encompass all of our decision making. It doesn't encompass all of our faculties, which is interesting and weird. I wonder how that meshes with the, in his image aspect.
 
 [31:58] **Henry:** Our stance towards identity, I guess it is very existential. Everything's on you. And I guess my pushback is like, where does the created in his image part come in? Some part of it is not really something we choose. So I don't want to reduce that to biology cause like some people do that, right? You are this and you can't do anything about it or whatever. It's just like this tension between what I feel and want to believe and my free will, but also like some part of, a new word I liked was a givenness. Interesting word. I don't even know what it means. It's like something that's like already there. It's just part of me, right.
 
 [32:33] **Sonya:** I really like phenomenology as a lens. Like givenness makes me think of happeningness. I feel like you might be into it. Like emergent things. That something can exist because of the interaction of various processes. And then it becomes sort of more than the sum of the parts.
 
-[32:50] **Henry:** I have been reading one person in particular that talks about emergence, Michael Polanyi. I don't know if you're familiar.
+[32:50] **Henry:** I have been reading one person in particular that talks about emergence, [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi). I don't know if you're familiar.
 
 [32:58] **Sonya:** Yeah, I haven't read him personally, but I have heard the name.
 
-[33:02] **Henry:** His famous book is called Personal Knowledge. He's the one that kind of popularized the term, tacit knowledge. We were talking about conversion, right. He actually said that knowledge in its true form, I guess, is a conversion. The eureka moment or the epiphany, right. When I really learn something new, it literally reshapes the whole world.  My reality is different because I interpret it differently.
+[33:02] **Henry:** His famous book is called [Personal Knowledge](https://press.uchicago.edu/ucp/books/book/chicago/P/bo19722848.html). He's the one that kind of popularized the term, tacit knowledge. We were talking about conversion, right. He actually said that knowledge in its true form, I guess, is a conversion. The eureka moment or the epiphany, right. When I really learn something new, it literally reshapes the whole world. My reality is different because I interpret it differently.
 
 [33:23] **Sonya:** That's another more than the sum of its parts kind of thing. Where you think like, Oh, I'm just slotting in this additional fact, but it can reorder the entire whole.
 

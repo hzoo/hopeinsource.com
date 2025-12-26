@@ -17,14 +17,7 @@ sidebar:
   order: 8
 ---
 
-### Links
-
-- [Matthew 20: Parable of the Workers in the Vineyard](https://en.wikipedia.org/wiki/Parable_of_the_Workers_in_the_Vineyard)
-- [Matthew 25: Parable of the Talents](https://en.wikipedia.org/wiki/Parable_of_the_Talents)
-- [Luke 15: Parable of the Prodigal Son](https://en.wikipedia.org/wiki/Parable_of_the_Prodigal_Son)
-- [The Woodcarver: A parable, of sorts](https://www.reddit.com/r/latterdaysaints/comments/75wvcx/the_woodcarver_a_parable_of_sorts/)
-
-[00:00] **Sonya:** So Henry, I want to read Matthew 20, which is the parable of the workers in the vineyard. I actually read this last night because I'm reading through. And it really resonated with me and I felt like it was very relevant to our current cultural moment, at least in America, and maybe in other places too. So I'm just gonna go ahead and it's not very long, so I'll just read it and then we can talk about it and what it means. Oh, and this is Jesus speaking.
+[00:00] **Sonya:** So Henry, I want to read [Matthew 20](https://www.biblegateway.com/passage/?search=Matthew+20&version=ESV), which is the parable of the workers in the vineyard. I actually read this last night because I'm reading through. And it really resonated with me and I felt like it was very relevant to our current cultural moment, at least in America, and maybe in other places too. So I'm just gonna go ahead and it's not very long, so I'll just read it and then we can talk about it and what it means. Oh, and this is Jesus speaking.
 
 [00:27] **Sonya:** For the Kingdom of Heaven is like a landowner who went out early in the morning to hire laborers for his vineyard. Now when he had agreed with the laborers for a denarius a day, he sent them into his vineyard and he went about the third hour and saw others standing idle in the marketplace and said to them, you also go into the vineyard and whatever is right, I will give to you. So they went. Again, he went out about the sixth and the ninth hour and did likewise. And about the 11th hour, he went out and found others standing idle and said to them, why have you been standing here idle all day? They said to him, because no one hired us. He said to them, you also go into the vineyard and whatever is right, you will receive.
 
@@ -36,7 +29,7 @@ sidebar:
 
 [02:09] **Henry:** What translation was that?
 
-[02:10] **Sonya:** That's the new King James version. I love the poetry of the King James version, but the new one is definitely a little bit easier to understand, I guess, to a modern reader. In the original King James, they say a penny instead of a denarius. So there's also some like translation update stuff.
+[02:10] **Sonya:** That's the [new King James version](https://en.wikipedia.org/wiki/New_King_James_Version). I love the poetry of the [King James version](https://en.wikipedia.org/wiki/King_James_Version), but the new one is definitely a little bit easier to understand, I guess, to a modern reader. In the original King James, they say a penny instead of a [denarius](https://en.wikipedia.org/wiki/Denarius). So there's also some like translation update stuff.
 
 #### Come to the table: God's generosity
 
@@ -48,11 +41,11 @@ sidebar:
 
 [03:38] **Sonya:** And this is a theme that comes up in multiple parables. You wanna mention the one that came to mind for you?
 
-[03:44] **Henry:** Oh, I guess another one of these garden metaphors, the parable of the talents, and it was talking about how a master gave a bunch of people a different amount of money and then one of them kind of buried it in the ground 'cause he wanted to keep it for himself instead of using it to multiply.
+[03:44] **Henry:** Oh, I guess another one of these garden metaphors, the parable of the [talents](https://www.biblegateway.com/passage/?search=Matthew+25%3A14-30&version=ESV), and it was talking about how a master gave a bunch of people a different amount of money and then one of them kind of buried it in the ground 'cause he wanted to keep it for himself instead of using it to multiply.
 
 [04:00] **Henry:** So that's more about like stewardship of your actual money or of your gifts and skills. They're not taking advantage of your potential. So in some sense it's people that could have been more ambitious, where you're like, oh, I don't want to do anything great. But within you, there's potential to do something, but you're kind of squandering that.
 
-[04:19] **Sonya:** There's also the prodigal son. It often circles back to like personal responsibility and attending to whatever your own obligations are. Like, envy. Mm-Hmm. I, I read it as, as warning is probably not the right word. Like a reminder to not the spec in your brother's eye, but the plank. It's such a weird metaphor.
+[04:19] **Sonya:** There's also the [prodigal son](https://www.biblegateway.com/passage/?search=Luke+15%3A11-32&version=ESV). It often circles back to like personal responsibility and attending to whatever your own obligations are. Like, envy. Mm-Hmm. I, I read it as, as warning is probably not the right word. Like a reminder to not the [spec in your brother's eye, but the plank](https://www.biblegateway.com/passage/?search=Matthew+7%3A3-5&version=ESV). It's such a weird metaphor.
 
 [04:39] **Henry:** You don't notice the huge log in your eye. That's how bad that you don't even realize your own problems. Also, like self-awareness too of your own sin in comparison to other people.
 
@@ -70,7 +63,7 @@ sidebar:
 
 [06:18] **Henry:** But then the older brother was the one that was doing everything right. Every day he would do his labor, all that stuff. But then his true colors show up when the younger brother comes back and he's not happy that there's that party for him. And so clearly he was doing it for a different reason. Right? He is like, how come you didn't give me a feast?
 
-[06:37] **Sonya:** Yeah, and this also recalls another metaphor that Jesus uses, I think multiple times, is that of the lost sheep, that you have a flock and you know, you here kind of standing in for Jesus himself and you're happy that all of your sheep are there. But if one of your sheep wanders off and falls into a crack, or is missing. You're going to want to go look for that sheep, and you're going to be really overjoyed when you find it. Or if the sheep comes and wanders back, you're going to be delighted, that your lost sheep has returned. And I think the point being that, you know, the other members of the flock are not less valuable per se. It's just really exciting and wonderful when someone who is lost returns to the fold.
+[06:37] **Sonya:** Yeah, and this also recalls another metaphor that Jesus uses, I think multiple times, is that of the [lost sheep](https://www.biblegateway.com/passage/?search=Matthew+18%3A12-14&version=ESV), that you have a flock and you know, you here kind of standing in for Jesus himself and you're happy that all of your sheep are there. But if one of your sheep wanders off and falls into a crack, or is missing. You're going to want to go look for that sheep, and you're going to be really overjoyed when you find it. Or if the sheep comes and wanders back, you're going to be delighted, that your lost sheep has returned. And I think the point being that, you know, the other members of the flock are not less valuable per se. It's just really exciting and wonderful when someone who is lost returns to the fold.
 
 [07:20] **Henry:** Yeah, I mean, even that behavior can seem weird if we're thinking more utilitarian, right? It's like, oh, it's just one sheep. I have 99. Do I really need another one? Or whatever. And I think that shows that God is a personal God that cares for each person, at least in this scenario.
 
@@ -118,7 +111,7 @@ sidebar:
 
 [13:02] **Sonya:** Specifically, although I think there's a definite Christian strain, but in ritual in things that are the non-material realm, I guess both in terms of interchange but also to some extent the supernatural. There are even people who are going in a more like occult direction, but dissatisfaction with, you know, your sort of lay scientific consensus, which is not to say that people are really rejecting science, but it's like looking for more, what else is there?
 
-[13:31] **Sonya:** And for me, that was definitely part of why and how I came to Christianity was part of this questing. I really felt that rationalism was insufficient for a good life. And I still like rationalism. I think there's a lot of value there. I guess for me personally, I feel like it's necessary but not sufficient.
+[13:31] **Sonya:** And for me, that was definitely part of why and how I came to Christianity was part of this questing. I really felt that [rationalism](https://en.wikipedia.org/wiki/Rationalism) was insufficient for a good life. And I still like rationalism. I think there's a lot of value there. I guess for me personally, I feel like it's necessary but not sufficient.
 
 [13:52] **Sonya:** One thing in retrospect is that it doesn't really ask a lot of you, like it asks you to try to be correct, I guess. I don't feel like that's enough responsibility or enough obligation to call people to become their best selves.
 
@@ -134,9 +127,9 @@ sidebar:
 
 #### The freedom of the woodcarver
 
-[15:41] **Sonya:** The freedom thing makes me think of. There's a Reddit post that I really like, which is the parable of the wood carver. I'll try to find a link later and send it to you, but I'll briefly summarize it.
+[15:41] **Sonya:** The freedom thing makes me think of. There's a Reddit post that I really like, which is the [parable of the wood carver](https://www.reddit.com/r/slatestarcodex/comments/47z07a/the_fable_of_the_woodcarver/). I'll try to find a link later and send it to you, but I'll briefly summarize it.
 
-[15:52] **Sonya:** What the post is about is a contrast between freedom from and freedom to, as in like external influence or freedom from constraints imposed on you by others and tracingwoodgrains is their username. Used to be a Mormon but is no longer, so this is like in a Mormon context, but it's not very like Mormon specific.
+[15:52] **Sonya:** What the post is about is a contrast between freedom from and freedom to, as in like external influence or freedom from constraints imposed on you by others and [tracingwoodgrains](https://www.tracingwoodgrains.com/) is their username. Used to be a Mormon but is no longer, so this is like in a Mormon context, but it's not very like Mormon specific.
 
 [16:12] **Sonya:** He talks about how you can have this freedom from, but there's, it's also important to have freedom too, which is the freedom of capability. And he gives the metaphor of a wood carver where if you put wood carving tools into my hands, or presumably your hands, unless you're secretly a master wood carver, and I don't know.
 
@@ -146,7 +139,7 @@ sidebar:
 
 [17:16] **Sonya:** I think the freedom of the Kingdom of Heaven, perhaps. I don't know that we can necessarily really access that on earth in our mortal lives, maybe, I don't know. It's kind of debatable, but that kind of freedom is something that I think naive utilitarianism doesn't necessarily call you. In the same way to pursuing that kind of freedom.
 
-[17:36] **Sonya:** Maybe that's a little overstating. Things like, I don't wanna say that utilitarians don't do anything, and I think there are utilitarians who feel their moral obligations really strongly like the effect of altruism movement. Mm-hmm is an example. I wouldn't be surprised if there are fair few effective altruist Christians who see it as a kind of natural marriage.
+[17:36] **Sonya:** Maybe that's a little overstating. Things like, I don't wanna say that utilitarians don't do anything, and I think there are utilitarians who feel their moral obligations really strongly like the [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism) movement. Mm-hmm is an example. I wouldn't be surprised if there are fair few effective altruist Christians who see it as a kind of natural marriage.
 
 [17:57] **Sonya:** Because, I mean, it's all about wanting to help people. To the maximum extent possible according to a certain definition. And that's always the tricky part is like, how do we define the good?
 
@@ -186,7 +179,7 @@ sidebar:
 
 #### integrating with tradition, Christian art, Kanye
 
-[22:37] **Henry:** Yeah, that might be an appealing thing too, regarding like ritual, right? Not to mean that old things necessarily have to be right or or good like the Lindy effect where old things that last longer will last even longer. But there's something that is unique to any old religion where like seeing hymns that other people have sung for thousands of years, that's like pretty amazing.
+[22:37] **Henry:** Yeah, that might be an appealing thing too, regarding like ritual, right? Not to mean that old things necessarily have to be right or or good like the [Lindy effect](https://en.wikipedia.org/wiki/Lindy_effect) where old things that last longer will last even longer. But there's something that is unique to any old religion where like seeing hymns that other people have sung for thousands of years, that's like pretty amazing.
 
 [22:59] **Henry:** Some people are trying to turn back to like old. Ways of doing liturgy and worship. The opposite is taking the content of Christianity or the message, I guess, and putting it in the medium of whatever happens to be popular at the moment. Livestream, church, pop worship music. Which is all good, but..
 
@@ -196,7 +189,7 @@ sidebar:
 
 [23:36] **Sonya:** Yeah, I guess I, I have a sort of both perspective on that. Like I think that, yeah, it's important to sustain and revive the, the older way as. That have kind of fallen off.
 
-[23:48] **Sonya:** But I also like, I really like Kanye West and actually some of Kanye's more recent work has been specifically Christian music. Right. But you know, in like rap form or kind of both rap and gospel, like he weaves it together. That's good too. You know, there is something though where it's like you want it to be.
+[23:48] **Sonya:** But I also like, I really like [Kanye West](https://en.wikipedia.org/wiki/Kanye_West) and actually some of Kanye's more recent work has been specifically Christian music. Right. But you know, in like rap form or kind of both rap and gospel, like he weaves it together. That's good too. You know, there is something though where it's like you want it to be.
 
 [24:07] **Sonya:** For lack of a better word, authentic, because it feels like there's a difference between kind of like grafting it on and kind of like trying to make it, it's like a, how do you do fellow kids thing? Like is it being used as like a marketing technique or is it a, this is the form through which the spirit flowed?
 
@@ -248,7 +241,7 @@ sidebar:
 
 [28:50] **Sonya:** It's something that people really want, like this crisis of meaning is something that people have been talking about a lot. There's like something missing in our culture. And I guess I think what's missing is God.
 
-[29:01] **Henry:** Sarah of Ribbonfarm had a post like ambiguity as meaning, something like that. A lot of meaning comes outta the fact we don't know specifically.
+[29:01] **Henry:** [Sarah Perry](https://twitter.com/sarahdoingthing) of [Ribbonfarm](https://www.ribbonfarm.com/) had a post like [ambiguity as meaning](https://www.ribbonfarm.com/2012/11/27/meaning-in-ambiguity/), something like that. A lot of meaning comes outta the fact we don't know specifically.
 
 [29:09] **Sonya:** Yeah. It's so hard to talk about this because I feel like, and maybe that's a feature, not a bug, that it's hard to talk about talk. It feels like language doesn't really encompass it.
 
@@ -262,7 +255,7 @@ sidebar:
 
 #### Auras: acceptable woo and phenomelogy
 
-[30:18] **Henry:** I was reading a book called In The Vineyard of the Text, and it's also by Ivan Illich. A lot of murals and paintings in like cathedrals, they have those halos on top of the saints heads, right. And it's like that gold color that like glitters when you're looking at it. And in this passage it says that the painter. They represent the world as if all beings contain their own source of light. Light is imminent in the world of medieval things, so basically everything gives off its own light.
+[30:18] **Henry:** I was reading a book called [In the Vineyard of the Text](https://en.wikipedia.org/wiki/In_the_Vineyard_of_the_Text), and it's also by [Ivan Illich](https://en.wikipedia.org/wiki/Ivan_Illich). A lot of murals and paintings in like cathedrals, they have those halos on top of the saints heads, right. And it's like that gold color that like glitters when you're looking at it. And in this passage it says that the painter. They represent the world as if all beings contain their own source of light. Light is imminent in the world of medieval things, so basically everything gives off its own light.
 
 [30:48] **Henry:** It says you feel that if their luminosity were extinguished. What is in the picture will not cease to be visible, but also cease to exist altogether. But for us, we, we know we're shining a light on things that exist. If there's no light, obviously those things still exist. But in that world, like the way they put it makes it look like all things have their own light and they're giving off light to our eyes.
 
@@ -326,9 +319,9 @@ sidebar:
 
 [37:51] **Sonya:** I feel like praise is something that the, like modern kind of secular mind, what is the equivalent of praise for secular people? And I don't know that there really is one? Not like glorification? And I think it can come across as like pretty weird actually without being inside Christianity.
 
-[38:10] **Sonya:** Especially like the idea of.. Say like Job, you know, Job in the midst of his torment. The idea you could go through stuff like that or that anyone could go through stuff like that and then praise the creator. You don't necessarily expect to get anything out of praise, right? That's not really like the point, I guess. Praise coexisting with suffering is like from a utilitarian perspective, weird.
+[38:10] **Sonya:** Especially like the idea of.. Say like [Job](https://www.biblegateway.com/passage/?search=Job+1&version=ESV), you know, Job in the midst of his torment. The idea you could go through stuff like that or that anyone could go through stuff like that and then praise the creator. You don't necessarily expect to get anything out of praise, right? That's not really like the point, I guess. Praise coexisting with suffering is like from a utilitarian perspective, weird.
 
-[38:34] **Henry:** I was reminded of a quote from CS Lewis talking about praise in general, that you said something like, we delight to praise what we enjoy and who we like because it doesn't just express what we like, but also completes the enjoyment. It is it's appointed consummation, so telling people that you like them, it's a good thing for you. We praise people all the time. Our friends, celebrities, people that we like online, you know, we go out of our way to tell them like, good job. Why wouldn't we do that with God of all people? Right.
+[38:34] **Henry:** I was reminded of a quote from [C.S. Lewis](https://en.wikipedia.org/wiki/C._S._Lewis) talking about praise in general, that you said something like, we delight to praise what we enjoy and who we like because it doesn't just express what we like, but also completes the enjoyment. It is it's appointed consummation, so telling people that you like them, it's a good thing for you. We praise people all the time. Our friends, celebrities, people that we like online, you know, we go out of our way to tell them like, good job. Why wouldn't we do that with God of all people? Right.
 
 [39:04] **Sonya:** I like that. That's a great quote. It's like a fulfillment.
 
@@ -336,7 +329,7 @@ sidebar:
 
 [39:24] **Sonya:** That makes me think of how nature is sort of awe-inspiring in its own right, but it also helps people, including myself, connect with God that the mm-Hmm. Yeah. And I love the way that you put it, that it's so wonderful, how could you help but, say something.
 
-[39:38] **Henry:** I think in the quote he was saying, that there's like an author that you like and you just need to tell everyone how amazing this person is. And another one he said was a good joke. That goes back to the chief end of man, is to glorify God and enjoy him. So that ties together what our purpose is and that we actually want to do that.
+[39:38] **Henry:** I think in the quote he was saying, that there's like an author that you like and you just need to tell everyone how amazing this person is. And another one he said was a good joke. That goes back to the [chief end of man](https://en.wikipedia.org/wiki/Westminster_Shorter_Catechism), is to glorify God and enjoy him. So that ties together what our purpose is and that we actually want to do that.
 
 [39:53] **Henry:** It's not like, well, why does God want us to tell him how amazing he is? Isn't that like a megalomaniac. The only reason why this is okay is because he deserves it. Why would I wanna praise someone that doesn't?
 
@@ -360,11 +353,11 @@ sidebar:
 
 [41:45] **Sonya:** No.
 
-[41:46] **Henry:** Dietrich Bonhoeffer, he has two books that are pretty well known. One is called Life Together, about community. And the other one is called The Cost of Discipleship. Hmm. I, I think the first two words in that book is Cheap Grace, and he was talking about how we basically tape grace for granted in that sense. And I actually, we were talking about obligation that grace, even though it is free from God, that it's.
+[41:46] **Henry:** [Dietrich Bonhoeffer](https://en.wikipedia.org/wiki/Dietrich_Bonhoeffer), he has two books that are pretty well known. One is called [Life Together](https://en.wikipedia.org/wiki/Life_Together_(book)), about community. And the other one is called [The Cost of Discipleship](https://en.wikipedia.org/wiki/The_Cost_of_Discipleship). Hmm. I, I think the first two words in that book is [Cheap Grace](https://en.wikipedia.org/wiki/Cheap_grace), and he was talking about how we basically tape grace for granted in that sense. And I actually, we were talking about obligation that grace, even though it is free from God, that it's.
 
 [42:08] **Henry:** Something we don't deserve. It is something that does require us to do something right after it's given to us. There's a responsibility, and I guess not taking on that responsibility is the insult. Mm-hmm. To the grace that has been given to you.
 
-[42:21] **Sonya:** Yeah. Oh, that reminds me of another parable. The one of the wedding, or I'm, there are multiple wedding scenarios. Yeah.
+[42:21] **Sonya:** Yeah. Oh, that reminds me of another parable. The one of the [wedding](https://www.biblegateway.com/passage/?search=Matthew+22%3A1-14&version=ESV), or I'm, there are multiple wedding scenarios. Yeah.
 
 [42:28] **Sonya:** But the one I'm thinking of specifically is there's a man who, I think it's his son, he wants to hold a wedding for, I'm not positive, but he sends out his servants to invite people to the wedding, and the people don't wanna go to the wedding and they treat his servants badly, and I think they kill one of them.
 
@@ -382,7 +375,7 @@ sidebar:
 
 [44:09] **Henry:** And I think the wedding metaphor is really good. Actually, in the House church thing, I really appreciated my friend that was trying to do this mini sermon thing.
 
-[44:16] **Henry:** He talked about the different wedding, basically Jesus's first miracle, which is the Cana, so his. Mom was like, can you turn the water into wine? So that was his first miracle. And why was it at a wedding and why was it turning water into wine? And he also talks about how Genesis, in some sense, is a wedding, right?
+[44:16] **Henry:** He talked about the different wedding, basically Jesus's first miracle, which is the [Cana](https://www.biblegateway.com/passage/?search=John+2%3A1-11&version=ESV), so his. Mom was like, can you turn the water into wine? So that was his first miracle. And why was it at a wedding and why was it turning water into wine? And he also talks about how Genesis, in some sense, is a wedding, right?
 
 [44:34] **Henry:** Adam and Eve. And at the end, in Revelation, when we're in heaven, that is also depicted as a wedding. The wedding feast of when everyone comes and we're all eating bread together, right? Same with communion. Hmm. So that's a interesting parallel of like the beginning and the end. And this part, and I guess our lives is a preparation for that wedding feast.
 

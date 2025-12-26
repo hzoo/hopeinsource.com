@@ -127,7 +127,7 @@ sidebar:
 
 #### Individuation
 
-[14:23] **Sonya:** I'm just interested in this idea right now so it always pops up whenever I'm talking about something, is the Jungian idea of [individuation](https://en.wikipedia.org/wiki/Individuation)? Did I mention this before?
+[14:23] **Sonya:** I'm just interested in this idea right now so it always pops up whenever I'm talking about something, is the [Jungian](https://en.wikipedia.org/wiki/Carl_Jung) idea of [individuation](https://en.wikipedia.org/wiki/Individuation)? Did I mention this before?
 
 [14:33] **Sonya:** So Jung is all about these archetypes. Or this is like one aspect of Jung, I shouldn't overstate things. There's the like wise old person. And then there's the male aspect of that and the female aspect. And there's the young seeker. And there are all these different archetypes that manifest. And actually this is to a large extent, true. Like you see different archetypes that come up in culture after culture after culture.
 
@@ -141,7 +141,7 @@ sidebar:
 
 [16:20] **Sonya:** Could a soul have different faces? I don't know.
 
-[16:23] **Henry:** And you could say there's also stages or it's still the same.. Then you can get into the ship of Theseus, right. You're changing over time, are you still the same thing? What is identity? All that. I guess a Christian point of view would say it's from God, it's a gift. It also doesn't change. And that's also why we can have hope because if our identity is chosen by you and you change your mind then are you not the same person anymore? Like, how does it affect you, your circumstance?
+[16:23] **Henry:** And you could say there's also stages or it's still the same.. Then you can get into the [ship of Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus), right. You're changing over time, are you still the same thing? What is identity? All that. I guess a Christian point of view would say it's from God, it's a gift. It also doesn't change. And that's also why we can have hope because if our identity is chosen by you and you change your mind then are you not the same person anymore? Like, how does it affect you, your circumstance?
 
 [16:46] **Henry:** And so we would like to say God has chosen me and then my identity is rooted in that and that hasn't changed. How do we realize that and understand that fact, if that is reality, how do I live it out so that I can remember that when I go through suffering.
 
@@ -193,7 +193,7 @@ sidebar:
 
 [23:54] **Sonya:** It feels really important, like the nestedness, the like fractalness of reality feels really important to me. It shows up everywhere. There are all these patterns that have the small and the big. It's almost like they radiate.
 
-[24:06] **Henry:** Yeah. This is like in a lot of different places. So like urban planning. Jane Jacobs talks about like complexity theory in the death and life of great American cities. The way she thinks of a city is that it's an organism, right?
+[24:06] **Henry:** Yeah. This is like in a lot of different places. So like urban planning. [Jane Jacobs](https://en.wikipedia.org/wiki/Jane_Jacobs) talks about like complexity theory in [the death and life of great American cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). The way she thinks of a city is that it's an organism, right?
 
 [24:19] **Henry:** And her whole issue with the high modernist people that were trying to plan a city was because they thought of the city as  just the land or the buildings, right. It's not the whole ecosystem of people and the wildlife and the environment and all these things. And so we would want to see that in our society, in church. Is the church the people? Is it the building? Is it the land? We can't meet in person. What is it now?
 

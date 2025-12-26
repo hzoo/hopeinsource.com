@@ -10,15 +10,6 @@ sidebar:
     order: 8
 ---
 
-### Links
-
-- Video version on [Youtube](https://www.youtube.com/watch?v=fojoWc1oCeQ)
-- Part 1: [Natural Limits](https://hopeinsource.com/limits/)
-- Michael's [Twitter](https://twitter.com/lmsacasas)
-- Michael's Newsletter: [The Convivial Society](https://theconvivialsociety.substack.com/about?utm_source=menu-dropdown)
-- Newsletter: [A Theory of Zoom Fatigue](https://theconvivialsociety.substack.com/p/a-theory-of-zoom-fatigue)
-- Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
-
 #### Conviviality as Autonomy
 
 [00:00] **Henry:** I was thinking we could just talk about Illich, which is funny. I didn't even know how to say his name. I thought it was like Illich or something. I heard you say that in your conversation with Carl Micham, right?
@@ -159,6 +150,8 @@ sidebar:
 
 [15:42] **Michael:** It's actually that you see them. In a new way, right. Or see them period, right. This is a remarkable thing, right. That I think appears to you, in a way that they wouldn't have simply because you have learned to name them and to recognize them. And so in that sense, you know, they become real to you. You have access to reality. Of course it was always there before you. But the kind of creatures that we are, to simply look at the world is not to see it. And so we need to learn to see, and part of that I think involves the learning to name the world.
 
+> [Richard Wilbur](https://en.wikipedia.org/wiki/Richard_Wilbur) was an American poet known for his elegant, formally precise verse
+
 [16:17] **Henry:** I think that's exactly his thinking. Knowing itself is a skill that you have to develop. And this relates to this idea of personal knowledge, right? If that's true, then the person is so important to the act of knowledge. And not trying to distance ourselves. And we've been talking a lot about distance, right.
 
 [16:34] **Michael:** Yeah. You know, when I think of that idea of the personal dimension of knowledge, part of where my mind goes this Augustinian view that you have to be prepared for to receive certain kinds of knowledge.
@@ -171,7 +164,7 @@ sidebar:
 
 [17:28] **Michael:** We have to be trained to perceive certain facets of reality. We have to submit ourselves to the patient work of attending to certain realities in order to allow them to emerge fully before our intellect. And these all, I think, do reflect this question of the person, right? Have we become the sort of person that is able to receive? the particular kind of knowledge that we're, that that is in view here?
 
-[17:53] **Henry:** I think that gets into this fancy term he uses to explain knowledge, subsidiary focal integration. I mean, there's a lot of fancy words, but subsidiary is the environment. It's the things in your periphery. And then focal is the thing that you're putting your attention on. So I thought that tacit knowledge would mean like implicit versus explicit. But it's the integration of both of those things together.
+[17:53] **Henry:** I think that gets into this fancy term he uses to explain knowledge, [subsidiary-focal integration](https://en.wikipedia.org/wiki/Tacit_knowledge#Tacit_knowing). I mean, there's a lot of fancy words, but subsidiary is the environment. It's the things in your periphery. And then focal is the thing that you're putting your attention on. So I thought that tacit knowledge would mean like implicit versus explicit. But it's the integration of both of those things together.
 
 [18:17] **Henry:** So piano is like a really simple example of like, I'm playing the notes. My body has learned to play the piano, right. And I can focus on the piece, the actual music itself. The subsidiary is like the notes that we're playing. But if I started focusing on the notes, then I won't be able to concentrate on the music itself and then probably start playing badly.
 

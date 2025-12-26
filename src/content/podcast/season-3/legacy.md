@@ -15,9 +15,7 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Legacy-T
 sidebar:
   order: 1
 ---
-### Links
 
-- [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)
 
 #### I'm from there 7,000 years ago
 
@@ -29,7 +27,7 @@ sidebar:
 
 **Henry:** That's not something you would expect to hear
 
-**Timothy:** from your fishmonger. That's an old word. But anyway, yes. So tell me all about that. And he said. Well, we're Palestinian. And was it Sampson slew the Philistines? It's the same word the F and the pH. He says, but were Minoan civilization from Crete, which I think is older than the Greek civilization, it's not Greek. The European peoples all came from the North shores of the Caucasus flexi area, kind of Ukraine, Russia. Then the Greeks came through Hungary and then they came down and different waves and each wave spoke a different dialect and settled in different parts of Greece. And they learn from what was left of Minoan life and civilization. But that locked them into a conversation with the really old civilizations in the middle East. But yeah it was incredible that in that part of the world, somebody wants to locate their identity 7,000 years ago,
+**Timothy:** from your fishmonger. That's an old word. But anyway, yes. So tell me all about that. And he said. Well, we're Palestinian. And was it Sampson slew the Philistines? It's the same word the F and the pH. He says, but were [Minoan civilization](https://en.wikipedia.org/wiki/Minoan_civilization) from Crete, which I think is older than the Greek civilization, it's not Greek. The European peoples all came from the North shores of the Caucasus flexi area, kind of Ukraine, Russia. Then the Greeks came through Hungary and then they came down and different waves and each wave spoke a different dialect and settled in different parts of Greece. And they learn from what was left of Minoan life and civilization. But that locked them into a conversation with the really old civilizations in the middle East. But yeah it was incredible that in that part of the world, somebody wants to locate their identity 7,000 years ago,
 
 **Henry:** Hmm that they would even think that way. That's true.
 
@@ -43,13 +41,15 @@ sidebar:
 
 #### Legibility and Fractal Societies
 
-**Henry:** There's a concept called legibility that I've been learning about recently. There's a book called seeing like a state. Um, and the concept is viewing culture, society from the state, the government point of view and how that causes them to create policies or just act in a way that is in their interest, so that it's easier to see things from a big picture, but might not be always good. It's just one view of how society works.
+**Henry:** There's a concept called legibility that I've been learning about recently. There's a book called [*Seeing Like a State*](https://en.wikipedia.org/wiki/Seeing_Like_a_State). Um, and the concept is viewing culture, society from the state, the government point of view and how that causes them to create policies or just act in a way that is in their interest, so that it's easier to see things from a big picture, but might not be always good. It's just one view of how society works.
+
+> [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)
 
 **Henry:** And so one of the examples, I think it was talking about the forestry industry, getting wood from the trees. In the regular forest, there's like a diversity of different tree types, plants, animals and the whole ecosystem. Then you get the wood from that, but then from an engineering point of view because it made it efficient to get the wood, oh, what if we started planting trees in a grid or something? This is similar to like the high modernist view of cities. But it was not very resilient because some disease happened and all the tree, cause they were the same type of tree, they all died.
 
 **Henry:** It doesn't mean it has to be a machine. Sort of like in the last podcast City as Liturgy, right? As a biological, dynamic thing versus a static.
 
-**Timothy:** I've heard that about Turkey. At a Turks, the father of modern Turkey that he aspired to create the first truly modern state in the world, by which my professor meant there'd be no fractal quality to society.
+**Timothy:** I've heard that about Turkey. [Ataturk](https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk), the father of modern Turkey that he aspired to create the first truly modern state in the world, by which my professor meant there'd be no fractal quality to society.
 
 **Timothy:** There would just be the individual and the state. Yeah, no middle layers. And so of course the big act there was to abolish the use of an Arabic style script for the writing of Turkish. Cause that meant with a stroke of an act of the parliament, all subsequent Turks could not read anything of their own historical inheritance.
 
@@ -63,7 +63,7 @@ sidebar:
 
 **Henry:** Going back to this thing of legacy, right?
 
-**Timothy:** Yeah. Like the seed bank up in Norway or something like that. The Lake Toba eruptions in 75,000 years ago, when they say produced this a thousand years of global cooling and almost exterminated homosapiens down like a thousand of us in Africa, and they broken into groups, didn't know about each other and all that.
+**Timothy:** Yeah. Like the seed bank up in Norway or something like that. The [Lake Toba eruptions](https://en.wikipedia.org/wiki/Toba_catastrophe_theory) in 75,000 years ago, when they say produced this a thousand years of global cooling and almost exterminated homosapiens down like a thousand of us in Africa, and they broken into groups, didn't know about each other and all that.
 
 **Timothy:** But just even from that point till now, it took us 75,000 years to develop those 20,000 languages and they're going to be wiped out. And Marx was very wise on this. He saw this would be this extrapation of human cultural diversity and through capitalism.
 
@@ -89,7 +89,7 @@ sidebar:
 
 #### Responding to Fences
 
-**Henry:** But I also read that the legibility concept doesn't have to be applying to state. It could be applied to a market or anything. Another concept that I've liked is Chesterton's Fence. So Chesterton wrote about this idea that you can apply it to any tradition or just something that was already there, like the fence.
+**Henry:** But I also read that the legibility concept doesn't have to be applying to state. It could be applied to a market or anything. Another concept that I've liked is [Chesterton's Fence](https://en.wikipedia.org/wiki/G._K._Chesterton#Chesterton's_fence). So Chesterton wrote about this idea that you can apply it to any tradition or just something that was already there, like the fence.
 
 **Henry:** It's kind of like you're trying to go forward and you see there's a fence in your way. You just go through it, right? Why is this fence here? And so his point is that when you want to reform something, institution or culture, instead of simply getting rid of it, you should understand why it was put there in the first place before you get rid of it.
 
@@ -135,7 +135,7 @@ sidebar:
 
 #### Outsourcing our thinking to data
 
-**Timothy:** Reading this Edwin Friedman, A Failure of Nerve. He says, what we're addicted to, what we're hiding behind, so we don't confront ourselves is data and information. We want more information to make the decision for us.
+**Timothy:** Reading this [Edwin Friedman](https://en.wikipedia.org/wiki/Edwin_Friedman), [*A Failure of Nerve*](https://www.goodreads.com/book/show/1301820.A_Failure_of_Nerve). He says, what we're addicted to, what we're hiding behind, so we don't confront ourselves is data and information. We want more information to make the decision for us.
 
 **Henry:** That's funny. I've been thinking about that a lot too
 
@@ -171,7 +171,7 @@ sidebar:
 
 **Henry:** Oh, that's interesting. People are bored all the time now still. So you'd think that there is literally an infinite amount of things to see or even just learn, right. And yet people don't know what to do.
 
-**Henry:** My friend was reading a book, it's called amusing ourselves to death. And it was mentioning in 1984 and brave new world. And how both of those things happened where we have this influence of information and not knowing what truth is, because everyone's broadcasting everything. So there's abundance of data and then lack due to censorship.
+**Henry:** My friend was reading a book, it's called [*Amusing Ourselves to Death*](https://en.wikipedia.org/wiki/Amusing_Ourselves_to_Death). And it was mentioning [*1984*](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four) and [*Brave New World*](https://en.wikipedia.org/wiki/Brave_New_World). And how both of those things happened where we have this influence of information and not knowing what truth is, because everyone's broadcasting everything. So there's abundance of data and then lack due to censorship.
 
 **Timothy:** By the way, those two books. A student in mind pointed out that they illustrate Jane Jacobs understanding of the tripartite society very well. One is a dystopia where society becomes nothing but guardian control. The state is everywhere. And then brave new world is the opposite dystopia where pleasure and self-gratification has absorbed everything. There is no state in a way. There is even room for research and brave new world you can, let's sort of move to Iceland or something if you want to think freely, but everyone else is slave to the pleasure.
 
@@ -179,7 +179,7 @@ sidebar:
 
 **Timothy:** So the two basic parts that she noticed are, she called the trader syndrome. Yeah, the commercial syndrome of innovation, and in a world that's not perfect, decisions are made consensually.
 
-**Timothy:** And then the other is the guardian world where it is a realm of force and hierarchy and tradition and authority and Solzhenitsyn in his, a Harvard address in 1978. He had a similar idea. He thought that mid evil Roman Catholic civilization had become accessibly guardian ISED and that since before the reformation we'd gone to the other extreme of, anything that's consensual is moral.
+**Timothy:** And then the other is the guardian world where it is a realm of force and hierarchy and tradition and authority and [Solzhenitsyn](https://en.wikipedia.org/wiki/Aleksandr_Solzhenitsyn) in his, [Harvard address](https://www.solzhenitsyncenter.org/a-world-split-apart) in 1978. He had a similar idea. He thought that mid evil Roman Catholic civilization had become accessibly guardian ISED and that since before the reformation we'd gone to the other extreme of, anything that's consensual is moral.
 
 **Timothy:** Whereas, the guardian view of morality is no, it's the law. Jacobs thought that you need in some form these two realms, these two syndromes. The definition of a civilization is just a reasonable kind of symbiosis of these two worlds, a functioning government, a functioning Commercial sector that was not starving to death. She thought they could only be reconciled under the influence of love, the third force. She used words like art, gift, or creativity for that.
 
@@ -257,7 +257,7 @@ sidebar:
 
 **Henry:** Not looking for what's next. Where's your hope coming from? Right? Why don't you wake up every day, those questions.
 
-**Timothy:** So I, I think, I think Hanukkah, the first Sonic Kevin, whenever that was one 87 BC, one 70 I don't know that the years there, but you know, it was, it was the Greeks that, that. Yeah. Since the time of Alexander had controlled Palestine and Hellenized everything, and lots and lots of people spoke Greek and the elites were becoming, I mean, they said even in a time of Christ, that in Copernum they were doing the plays of ESCO and stuff like that.
+**Timothy:** So I, I think, I think [Hanukkah](https://en.wikipedia.org/wiki/Hanukkah), the [Maccabean Revolt](https://en.wikipedia.org/wiki/Maccabean_Revolt) in whenever that was one 87 BC, one 70 I don't know that the years there, but you know, it was, it was the Greeks that, that. Yeah. Since the time of Alexander had controlled Palestine and Hellenized everything, and lots and lots of people spoke Greek and the elites were becoming, I mean, they said even in a time of Christ, that in Copernum they were doing the plays of ESCO and stuff like that.
 
 **Timothy:** And it was so Hellenized and, and then, and tigers, whoever it was, he turned his ticket all the way just completely obliterate the local worship and people. What if they hadn't rebelled. What if they hadn't where would the Messiah come from? And if you didn't, if you had Greeks working in, produced the Messiah.
 

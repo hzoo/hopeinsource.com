@@ -20,7 +20,7 @@ sidebar:
 
 [00:00] **Henry:** We wanted to extend upon our last conversation into tech as a process, rather than tech as an artifact. So how it's like dynamic versus static.
 
-[00:09] **Maggie:** Yeah. Cause we got quite big onto metaphors and Lakoff. And we had started to say that definitions of technology are always fascinating. Especially when you start really reading the people who have taken on the topic of really trying to define it. And then you look at how we use it in modern culture to say things, like "the tech industry" or "I'm in tech", that none of it matches up. Cause what does that mean?
+[00:09] **Maggie:** Yeah. Cause we got quite big onto metaphors and [Lakoff](https://en.wikipedia.org/wiki/George_Lakoff). And we had started to say that definitions of technology are always fascinating. Especially when you start really reading the people who have taken on the topic of really trying to define it. And then you look at how we use it in modern culture to say things, like "the tech industry" or "I'm in tech", that none of it matches up. Cause what does that mean?
 
 [00:32] **Henry:** I kind of feel like tech is a very specific type of thing, it's like the computer or phone. And when we read the philosophers, I get the sense that it's a lot more broad. McLuhan talks this idea of technology as an extension of your body. It shows that any tool can be a technology, even writing itself. It's not just this literal, physical thing.
 
@@ -136,7 +136,7 @@ sidebar:
 
 #### The Denial of Death
 
-[15:14] **Maggie:** Yeah. Makes me think back to.. Have you ever heard of a book called [The Denial of Death](https://en.wikipedia.org/wiki/The_Denial_of_Death)? Oh, who wrote it? Ernest? I read it as, as like maybe an 18 year old. And it really was one of those books where it just sort of shifts your whole world view. One of those you sort of live with the book for awhile.
+[15:14] **Maggie:** Yeah. Makes me think back to.. Have you ever heard of a book called [The Denial of Death](https://en.wikipedia.org/wiki/The_Denial_of_Death)? Oh, who wrote it? [Ernest Becker](https://en.wikipedia.org/wiki/Ernest_Becker)? I read it as, as like maybe an 18 year old. And it really was one of those books where it just sort of shifts your whole world view. One of those you sort of live with the book for awhile.
 
 [15:29] **Maggie:** I think that the guy who wrote it might've been more of a psychologist, but really it's philosophy. He had this theory that what makes us uncomfortable is that we're both gods and worms. That we have this like physical body that we have to deal with. And he doesn't put it in those terms, but that's the implication. That this physicality that we will eventually rot and be eaten by worms.
 
@@ -146,7 +146,7 @@ sidebar:
 
 [16:19] **Henry:** I think that's interesting. That even the mental is associated with the God world and the physical is associated with the animal side.
 
-[16:27] **Maggie:** Yeah, Cartesian dualism is always to blame, whenever it comes down to these debates. Descartes ruined everything is like my line for everything.
+[16:27] **Maggie:** Yeah, Cartesian dualism is always to blame, whenever it comes down to these debates. [Descartes](https://en.wikipedia.org/wiki/Ren%C3%A9_Descartes) ruined everything is like my line for everything.
 
 [16:35] **Henry:** That's exactly what I was reading from McLuhan where he was saying Protestants ruined everything because their thinking is tied to that.
 
@@ -156,7 +156,7 @@ sidebar:
 
 [17:02] **Henry:** Yeah, can you go into more detail?
 
-[17:03] **Maggie:** Oh gosh. Now let's try and test my history knowledge of where the Protestant work ethic came from. What is it like, 16th century? Max actually, that's funny. I just heard a podcast, it would have been his hundredth birthday and he died in the last flu pandemic. Very like fitting. I think he must've been in his late thirties, early forties. Anyway, before his time. Max Weber was the famous sociologist who had written about the Protestant work ethic, where at some point in Protestant history, there started to be this association with working hard will help you achieve salvation.
+[17:03] **Maggie:** Oh gosh. Now let's try and test my history knowledge of where the Protestant work ethic came from. What is it like, 16th century? Max actually, that's funny. I just heard a podcast, it would have been his hundredth birthday and he died in the last flu pandemic. Very like fitting. I think he must've been in his late thirties, early forties. Anyway, before his time. [Max Weber](https://en.wikipedia.org/wiki/Max_Weber) was the famous sociologist who had written about the Protestant work ethic, where at some point in Protestant history, there started to be this association with working hard will help you achieve salvation.
 
 [17:36] **Maggie:** So he had kind of brought in more of an economic side of looking at it where a group of Protestants who ended up doing very well under capitalism because they had this belief that you should both had an obligation to work for God and should also be very frugal and not indulge in bodily indulgences, you shouldn't overeat, you shouldn't have too much comfort, you should really sort of engage in life's suffering and in an embodied way more.
 
@@ -214,7 +214,7 @@ sidebar:
 
 [24:30] **Maggie:** Yeah, cause that is interesting. Then when you get into scale, in terms of like economics with the internet. When we're talking about sustaining projects that require financial support, it does need to be the many, because how else do you get.. It's interesting where we're seeing the rise of sponsorships and the \$5 a month for everyone.
 
-[24:51] **Maggie:** But in order for that to be sustainable, then you do need as much spread as possible. Kevin Kelly was the original with the thousand true fans to give you a hundred dollars a year, you have a living. But then all the variations of that of course.
+[24:51] **Maggie:** But in order for that to be sustainable, then you do need as much spread as possible. [Kevin Kelly](https://en.wikipedia.org/wiki/Kevin_Kelly_(editor)) was the original with the [thousand true fans](https://kk.org/thetechnium/1000-true-fans/) to give you a hundred dollars a year, you have a living. But then all the variations of that of course.
 
 #### Over-participation
 

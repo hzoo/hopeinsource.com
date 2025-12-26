@@ -14,9 +14,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Emotiona
 sidebar:
   order: 6
 ---
-### Links
-
-- [Omar's Twitter](https://twitter.com/rsnous)
 
 #### That's a Dynamicland sort of thought
 
@@ -48,7 +45,7 @@ sidebar:
 
 > "I wonder if I could have an email inbox that's like a desktop, where each email is an icon or something. spatial. so I can drag & cluster emails about an upcoming conference together in one corner, newsletters I want to read at the bottom edge, work emails in another corner, etc" - [Omar](https://twitter.com/rsnous/status/1251249279718420481)
 
-> "thinking about how the Apple Lisa let you have multiple files with the same name in the same folder. because why not? you can distinguish them by putting them in different spots in the folder!" - [Omar](https://twitter.com/rsnous/status/1215391056667299841)
+> "thinking about how the [Apple Lisa](https://en.wikipedia.org/wiki/Apple_Lisa) let you have multiple files with the same name in the same folder. because why not? you can distinguish them by putting them in different spots in the folder!" - [Omar](https://twitter.com/rsnous/status/1215391056667299841)
 
 #### What's Wrong with Lists?
 
@@ -256,7 +253,7 @@ sidebar:
 
 [17:17] **Omar:** I thought that was a really nice bit of history. I'm sort of interested in these rituals and like the way that solving a problem in a particular context can kind of turn into this cultural thing.
 
-[17:28] **Omar:** This is actually a kind of relevant to current events. There are these famous modernists, Le Corbusier and others, who in the early 20th century proposed all these new apartment complexes with the sort of towers in the park, if you've seen public housing like that, where there has to be a certain amount of light and open space and stuff.
+[17:28] **Omar:** This is actually a kind of relevant to current events. There are these famous modernists, [Le Corbusier](https://en.wikipedia.org/wiki/Le_Corbusier) and others, who in the early 20th century proposed all these new apartment complexes with the sort of towers in the park, if you've seen public housing like that, where there has to be a certain amount of light and open space and stuff.
 
 [17:47] **Omar:** So people go back and kind of criticize that architectural history, or they say it's like weird that he calculated the exact amount of light and space that somebody would need. But it turns out that a big part of the reason that they designed the buildings this way was so that there would be ventilation, because they didn't have antibiotics at the time. So it was kind of an anti disease thing.
 
@@ -284,7 +281,7 @@ sidebar:
 
 > "I also wonder if code encourages thinking in features: because 'adding' a 'feature' mostly involves adding extra code onto your program, you assume the resulting experience is also additive (but it isn't! you're changing the whole program's experience, not only the new piece)" - [Omar](https://twitter.com/rsnous/status/1287275307200688128)
 
-[20:06] **Henry:** Yeah, I think so. Something I was thinking about was like how religious institutions see technology. I was reading about Marshall McLuhan, and he had a lot of warnings about technology and how a lot of church people would just embrace it wholeheartedly, rather than kind of analyzing how that changes the experience of being in a building.
+[20:06] **Henry:** Yeah, I think so. Something I was thinking about was like how religious institutions see technology. I was reading about [Marshall McLuhan](https://en.wikipedia.org/wiki/Marshall_McLuhan), and he had a lot of warnings about technology and how a lot of church people would just embrace it wholeheartedly, rather than kind of analyzing how that changes the experience of being in a building.
 
 [20:26] **Omar:** Right, almost even like treating technology as like this separate category from rituals, or art, or culture. Like almost that alone, there's already something there where you can feel like you either have to adopt it wholeheartedly or reject it wholeheartedly.
 
@@ -292,7 +289,7 @@ sidebar:
 
 #### Skeuomorphism to Flat: Building Off of Digital Literacy
 
-[20:52] **Omar:** I have a friend \[[John Backus](https://twitter.com/backus)\] who talks about how using BitTorrent to pirate movies or music or whatever, it was only practical after people had already used Napster and Kazaa and these other services to pirate stuff. Because the audience had to learn these interactions and these way of doing things before you could introduce this BitTorrent way, which builds on the knowledge of the existing way.
+[20:52] **Omar:** I have a friend \[[John Backus](https://twitter.com/backus)\] who talks about how using [BitTorrent](https://en.wikipedia.org/wiki/BitTorrent) to pirate movies or music or whatever, it was only practical after people had already used [Napster](https://en.wikipedia.org/wiki/Napster) and [Kazaa](https://en.wikipedia.org/wiki/Kazaa) and these other services to pirate stuff. Because the audience had to learn these interactions and these way of doing things before you could introduce this BitTorrent way, which builds on the knowledge of the existing way.
 
 [21:15] **Omar:** Another example, is if you remember computers in like the late 1990s, early two thousands, all the buttons were like 3d. They like stuck out of the toolbar, right. And then, you know, once people learned what things you could click on, they didn't have to be 3d anymore. Like now most of the buttons on your computer, they don't have those bezels.
 
@@ -326,7 +323,7 @@ sidebar:
 
 [24:44] **Henry:** Yeah, I think that speaks to Michael Polanyi's thinking around tacit knowledge. He's basically saying knowing is an act of trust. You learn to be able to express, but even when you don't have no words for it, there's something that you know, right.
 
-[24:58] **Omar:** Yeah. A lot of the original work on smalltalk sort of came out of this idea of constructivist education. Where the idea is, to learn something, you kind of have to build it yourself in your head. You know, making programming tools so that people can build the stuff they're learning about.
+[24:58] **Omar:** Yeah. A lot of the original work on [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) sort of came out of this idea of constructivist education. Where the idea is, to learn something, you kind of have to build it yourself in your head. You know, making programming tools so that people can build the stuff they're learning about.
 
 [25:13] **Omar:** And I think it's a similar idea. Even if you're writing down a tutorial or a textbook, and that's the way you're communicating it, it's not like the knowledge is being transferred through that. People are using that to build their own version of the knowledge of their own heads.
 

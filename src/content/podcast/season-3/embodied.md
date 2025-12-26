@@ -17,7 +17,7 @@ sidebar:
 
 #### Indwelling
 
-> I've mentioned Polanyi many times throughout this podcast, so maybe it's either annoying or it's like, what are you even talking about? So it's good to do a whole episode around his thinking.
+> I've mentioned Polanyi many times throughout this podcast, so maybe you might be wondering, who are you even talking about? So it's good to do a whole episode around his thinking.
 
 [00:00] **Maggie:** So I know you'd been reading more about (Michael) Polanyi, but I haven't fully read his book, [Personal Knowledge](https://press.uchicago.edu/ucp/books/book/chicago/P/bo19722848.html) as much. I was curious to hear what you'd been thinking about around him.
 
@@ -79,7 +79,7 @@ sidebar:
 
 [05:58] **Henry:** Yeah, I guess we'd like to think we can be more creative, but that's just what you turn to. It's the same with a Hacker News clone.
 
-[06:06] **Maggie:** It requires a balance, right? Cause we can't check out all previous norms. Cause our users won't know what they're looking at or what to do with it. I imagine this is where the Dynamicland stuff would relate a lot. Like whatever they're doing there sounds really cool. Of course it's all very mysterious and we're not quite sure what they're doing. But it seems like, we can't even fathom what they're making, because it seems like it's going to be so different from what we're used to using.
+[06:06] **Maggie:** It requires a balance, right? Cause we can't check out all previous norms. Cause our users won't know what they're looking at or what to do with it. I imagine this is where the [Dynamicland](https://dynamicland.org/) stuff would relate a lot. Like whatever they're doing there sounds really cool. Of course it's all very mysterious and we're not quite sure what they're doing. But it seems like, we can't even fathom what they're making, because it seems like it's going to be so different from what we're used to using.
 
 [06:32] **Henry:** Actually that's a good point. I think that might be a reason why it's hard to fund that or because they are going for something so out there, thinking years ahead, then practically speaking, it is research and it might not be as practical. Maybe there are people that are inspired by things that they do, and they try to make it very practical. But then in a way, they're just kind of doing the same thing as before with a different like skin, like the same list idea.
 
@@ -139,7 +139,7 @@ sidebar:
 
 [11:55] **Maggie:** And I do like that approach too, cause it's different to what I would maybe think of as the popular understanding of how your quote unquote supposed to study or consume someone's.. consume even oh that word.. but read someone's work currently, right.
 
-[12:11] **Maggie:** You're supposed to like sit down and you're like super focused mode and take really great notes into your digital Zettelkasten system. And take out all the highlights and automate the process and tweet about it. It's a very specific way of interacting with knowledge, as opposed to coming to it in bits and pieces and revisiting it in small chunks over time, and not turning it into some sort of information filtering system.
+[12:11] **Maggie:** You're supposed to like sit down and you're like super focused mode and take really great notes into your digital [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) system. And take out all the highlights and automate the process and tweet about it. It's a very specific way of interacting with knowledge, as opposed to coming to it in bits and pieces and revisiting it in small chunks over time, and not turning it into some sort of information filtering system.
 
 [12:36] **Henry:** We said this before, but that is the whole reductionist view of information, that you can just download it.
 

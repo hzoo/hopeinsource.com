@@ -12,13 +12,12 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Approach
 sidebar:
   order: 11
 ---
-### Links
 
-- Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels_Message-Gabriel.html))
+> Opening Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels_Message-Gabriel.html))
 
 [00:00] **Henry:** Many of us in the tech world and love [Advent of Code](https://adventofcode.com), a calendar of yearly coding puzzles, started in order to save Christmas. But some of us may also wonder about what Advent itself is for. Well, Alex, my pastor friend, asked me if I wanted to have a Christmas episode, so I suggested we talk about this current season of Advent.
 
-[00:18] **Henry:** That it's a time of preparation and waiting, as is Lent. It's common to just go to church or just go through the motions of any ritual. Even as such liturgy is meaningful in its action alone, it can be just as important to understand why we do what we do.
+[00:18] **Henry:** That it's a time of preparation and waiting, as is [Lent](https://en.wikipedia.org/wiki/Lent). It's common to just go to church or just go through the motions of any ritual. Even as such liturgy is meaningful in its action alone, it can be just as important to understand why we do what we do.
 
 [00:33] **Henry:** So we found ourselves in a discussion about the struggles of maintaining, as well as adapting, our traditions and rituals, whether in the faith or in any community. Is it inevitable to lose our collective memory, even as we participate in these rites? Do we stop or continue something just because it's always been this way? Or if it's never been done before? These are all good questions to explore as we continue old traditions and start new ones in this difficult year. Here's our chat.
 
@@ -82,7 +81,7 @@ sidebar:
 
 [07:57] **Alex:** Even if the priests or bishops who would conduct these activities try to teach the meaning behind it.. I think you may know a couple of friends, not just in Roman Catholic or Eastern Orthodox circles, but also a lot of Protestant circles as well, who just kind of go to church. Oftentimes the people who participated in them, they go through to liturgy and they're not really cognizant of what they're doing. So a lot of the meaning, I think was lost to the average person. Imagine also the religious language of the West being Latin and your average person would not have necessarily been educated with that language.
 
-[08:39] **Alex:** So along come the Protestant reformers. And they look at all of this stuff. And you also have to remember that, I think a lot of these festivities were also rites of obligation. So it's something that you would kind of have to do. As a Christian, as a member of the church. And I think with the Protestant ideas, starting with Martin Luther and all of the others who came later, and their reaction to a works based approach to the faith, sort of made them really skeptical and suspicious of these festivities. Now what's interesting is that it wasn't a wholesale rejection of it. That sort of develops later as more and more people started to reject these ideas, especially within Puritan circles.
+[08:39] **Alex:** So along come the Protestant reformers. And they look at all of this stuff. And you also have to remember that, I think a lot of these festivities were also rites of obligation. So it's something that you would kind of have to do. As a Christian, as a member of the church. And I think with the Protestant ideas, starting with [Martin Luther](https://en.wikipedia.org/wiki/Martin_Luther) and all of the others who came later, and their reaction to a works based approach to the faith, sort of made them really skeptical and suspicious of these festivities. Now what's interesting is that it wasn't a wholesale rejection of it. That sort of develops later as more and more people started to reject these ideas, especially within Puritan circles.
 
 [09:34] **Alex:** And interesting enough, the two major Holy days that were really difficult to get rid of entirely were Easter and Christmas. America, still stayed relatively Protestant. So when they did keep these holidays, they didn't have the sense of obligation to it. It became more of something nice to do in commemoration.
 
@@ -220,7 +219,7 @@ sidebar:
 
 [26:32] **Alex:** And I just listened to that and I'm just like, man, part of that is me going up, right. I didn't want to do what my parents wanted me to do. Part of them probably wanted to live vicariously through me, but I look back and I'm like, man, I actually kind of wish I learned my violin better, right. It'll be a nice skill to have, regardless of what my intention or what my parents intentions might've been.
 
-[26:56] **Alex:** But what I think is hilarious is that he says that he liked the honor of the victory of matches, right. And I look at that and I go, yeah, me too. I'd rather play video games and make sure my enemies were destroyed and they bow and worship my APM on StarCraft.
+[26:56] **Alex:** But what I think is hilarious is that he says that he liked the honor of the victory of matches, right. And I look at that and I go, yeah, me too. I'd rather play video games and make sure my enemies were destroyed and they bow and worship my APM on [StarCraft](https://en.wikipedia.org/wiki/StarCraft).
 
 [27:13] **Alex:** But I think it's so true. Part of the thing is like, as long as we don't tap into the traditions that we have, we isolate ourselves and we start to get this sort of, not necessarily arrogance, but we sort of get this understanding that we are just experiencing everything new, detached from the corporate human experience.
 
@@ -244,7 +243,7 @@ sidebar:
 
 [28:59] **Alex:** Yeah, you have to open. You have to do the risky act of opening up your life to them.
 
-[29:04] **Henry:** And you can apply that to not just people, but everything. And we're doing that in this season then, right? I'm thinking of like Charles Taylor again, being porous, right. Being able to be affected, by the external world instead of putting up a shield, right.
+[29:04] **Henry:** And you can apply that to not just people, but everything. And we're doing that in this season then, right? I'm thinking of like [Charles Taylor](https://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)) again, being porous, right. Being able to be affected, by the external world instead of putting up a shield, right.
 
 [29:19] **Alex:** Right. Yeah. I mean, you can try to put a shield up all you want. But I think the reality is much closer to the fact that an arrow or two will find its way around your shield. I think that's just how we are. You can't completely isolate yourself. You will inevitably be affected by something.
 

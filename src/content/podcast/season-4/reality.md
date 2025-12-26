@@ -13,16 +13,14 @@ sidebar:
   order: 2
 ---
 
-### Links
-
-- [Esther's website](https://www.estherlightcapmeek.com)
-- [A Little Manual for Knowing (book)](https://www.estherlightcapmeek.com/little-manual-lm.html)
 
 #### Hope as a Person
 
 [00:00] **Esther:** In our conversation just now, you were making the point that there's this irreducible.. I hate even to use the word, contribution of the person. Everything's interpersonally rooted.
 
-[00:11] **Esther:** And that's what I think you're saying you experience. I mean, what you've read of Polanyi and Newbigin and you're saying, well, this is just what I do in my job, you know? So you're working with real people in a convivial sort of way in GitHub, right.
+> [Esther's website](https://www.estherlightcapmeek.com)
+
+[00:11] **Esther:** And that's what I think you're saying you experience. I mean, what you've read of [Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) and [Newbigin](https://en.wikipedia.org/wiki/Lesslie_Newbigin) and you're saying, well, this is just what I do in my job, you know? So you're working with real people in a convivial sort of way in GitHub, right.
 
 [00:31] **Esther:** And your _Hope in Source_ thing, that's your wonderful play on words. I mean, hope is a _personed_ affair, right? And so you've rooted the open source in the person. So very cool.
 
@@ -59,6 +57,8 @@ sidebar:
 [04:21] **Esther:** Have you read.. I dunno how much you think about artistry or the arts.. So I'm writing a book on that right now with regard to my philosophy. And so I've been reading books by artists on art and kind of incorporating that into my proposals.
 
 [04:40] **Esther:** But there's this one classic book, it's classic now, called _The Gift_. And it's by Louis Hyde. Have you heard of this book?
+
+> [The Gift: Imagination and the Erotic Life of Property](https://en.wikipedia.org/wiki/The_Gift:_Imagination_and_the_Erotic_Life_of_Property)
 
 [04:50] **Henry:** I haven't gotten a chance to read it. Happy to hear more about it.
 
@@ -118,7 +118,7 @@ sidebar:
 
 [12:52] **Esther:** I wanna say that the relatedness between those two is inter-person like, and it's intrinsically covenantal because you've got a promise to love, honor, and obey what you do not yet know, if you're gonna invite it to self disclose. So that's kind of the the key to what I mean by covenant epistemology.
 
-[13:12] **Esther:** And I would say that I got kind of the nugget of that from reading Annie Dillard's _Pilgrim at Tinker Creek_, where she talks about stalking muskrats. And what you have to do, if you wanna invite a muskrat to self disclose, and what that involves is you've gotta surrender your dignity and sit very still and not scratch your nose for a really, really long time, which sounds like covenantal behavior to me.
+[13:12] **Esther:** And I would say that I got kind of the nugget of that from reading [Annie Dillard](https://en.wikipedia.org/wiki/Annie_Dillard)'s [_Pilgrim at Tinker Creek_](https://en.wikipedia.org/wiki/Pilgrim_at_Tinker_Creek), where she talks about stalking muskrats. And what you have to do, if you wanna invite a muskrat to self disclose, and what that involves is you've gotta surrender your dignity and sit very still and not scratch your nose for a really, really long time, which sounds like covenantal behavior to me.
 
 [13:38] **Esther:** But also embedded in covenant epistemology is always going to be what I call a Polanyian component. So Michael Polanyi, your listeners are already familiar with. And he has just a myriad of incredible insights and ideas, but one of them was that all knowing is _subsidiary focal integration_.
 
@@ -232,7 +232,7 @@ sidebar:
 
 [28:26] **Esther:** And so the gaze of the other, that torpedoes this observation scrutiny thing. And again, back to the modernist mindset, where we think that only focal information is knowledge. That automatically deals in this observational, voyeuristic sort of a thing. Control, power, manipulation modification, all that stuff, all that baggage is connected to this defective modernist, epistemology and so..
 
-[29:01] **Esther:** Okay, epistemology is what I do, so I think it's the cause of everything. No wonder that we've had the horrific things happen just like think of _Black Lives Matter_. That's somebody finally speaking up about abuse of power, right? Well, the abuse of power just goes with the modernist epistemology. You know, human mastery over nature. That's what Francis Bacon wanted. If you start with knowledge is power, you end up with power.
+[29:01] **Esther:** Okay, epistemology is what I do, so I think it's the cause of everything. No wonder that we've had the horrific things happen just like think of _Black Lives Matter_. That's somebody finally speaking up about abuse of power, right? Well, the abuse of power just goes with the modernist epistemology. You know, human mastery over nature. That's what [Francis Bacon](https://en.wikipedia.org/wiki/Francis_Bacon) wanted. If you start with knowledge is power, you end up with power.
 
 [29:34] **Henry:** Where do we end up with knowledge as dance?
 
@@ -284,7 +284,7 @@ sidebar:
 
 [35:29] **Esther:** You've gotta say yes to the authoritative guide. Who's trying to teach you to ride the bike or you'll never get it. So my students, when they came to class, I would say, look, your consent is absolutely critical to this. And you know, I hand you your syllabus. Somehow inside you, you've gotta say, okay, I'm gonna do what she says. I'm gonna trust that if I say yes to what she's asking me to do to these assignments that I'll get where I need to go.
 
-[36:01] **Esther:** And I would argue that modernity is characterized by saying no, where we need to say yes. And actually there's a term for that. It's _acedia_, which is one of the seven deadly sins. It's often known as slothfulness or laziness. But one philosopher, Joseph Pieper, has defined acedia as refusal to consent to being or to the real. And so what you've got in modernity is effectively a living out of a big fat no to the real.
+[36:01] **Esther:** And I would argue that modernity is characterized by saying no, where we need to say yes. And actually there's a term for that. It's _acedia_, which is one of the seven deadly sins. It's often known as slothfulness or laziness. But one philosopher, [Joseph Pieper](https://en.wikipedia.org/wiki/Josef_Pieper), has defined acedia as refusal to consent to being or to the real. And so what you've got in modernity is effectively a living out of a big fat no to the real.
 
 [36:38] **Esther:** What we have to start to do is have the humility and and the risk taking responsibility to say yes to say I do, right. To give our consent for the real, so commitment and consent are huge. And they're not particularly essentially religious. Obviously you've gotta consent to God, but you've gotta consent to your garden, if you're gonna grow flowers, so you gotta give yourself and trust, but there's this kind of, yes, I'm gonna reciprocate.
 
@@ -292,7 +292,7 @@ sidebar:
 
 [37:12] **Esther:** And I've actually felt in my past and have read about this too, that some people you can see, they're so struggling with themselves. It's like they are living out one big no to themselves.
 
-[37:25] **Esther:** Okay, here's a movie that I saw a long time ago, which was filmed in Pittsburgh. That _Joker_ was living out one big no. I mean, he was, he was obviously just like a tissue of no to everything, right. And, and that's what made him such a despicable character. Philosopher Eleonore Stump has coined the term _willed loneliness_, and that's what's going on with Joker, you know? And you know, all of us can have periods in our life where we have got to retrain ourselves to say yes, when our typical response to that point has been to say no. But knowing requires that you have got to give yourself to the prospect of college education, if you're going to get it. Or you've gotta give yourself to whatever your job is for you to get somewhere with that.
+[37:25] **Esther:** Okay, here's a movie that I saw a long time ago, which was filmed in Pittsburgh. That _Joker_ was living out one big no. I mean, he was, he was obviously just like a tissue of no to everything, right. And, and that's what made him such a despicable character. Philosopher [Eleonore Stump](https://en.wikipedia.org/wiki/Eleonore_Stump) has coined the term _willed loneliness_, and that's what's going on with Joker, you know? And you know, all of us can have periods in our life where we have got to retrain ourselves to say yes, when our typical response to that point has been to say no. But knowing requires that you have got to give yourself to the prospect of college education, if you're going to get it. Or you've gotta give yourself to whatever your job is for you to get somewhere with that.
 
 [38:25] **Henry:** I think of other words, like humility. Kind of laying down, like a surrender to something, which is, I guess it doesn't have to be faith in God, but just trust. I guess that is the opposite of control. Knowing that I can't guarantee it's not certain. Having confidence. It might not happen. And actually taking a risk, but I'm still willing to go outta my way to like to try this thing. And serendipity, right?
 
@@ -300,11 +300,11 @@ sidebar:
 
 #### Have Your Hands Out
 
-[39:47] **Esther:** It's like you have to have your hands out to receive a gift. And it's that gesture that opens you up to a reality that's far beyond what you might even have been dreaming of. I've worked a lot with James Loder's book, _The Transforming Moment_. And what he argues in there is that ordinary acts of knowing have this structure, just like I'm describing it. And then in his account of the convicting presence of the Holy Spirit, like God showing up, you know. So ordinary acts of knowing that's kind of like the grammar or the alphabet, and sometimes the Holy Spirit commandeers that. And the Lord comes. So the Emmaus road would be like that.
+[39:47] **Esther:** It's like you have to have your hands out to receive a gift. And it's that gesture that opens you up to a reality that's far beyond what you might even have been dreaming of. I've worked a lot with [James Loder](https://en.wikipedia.org/wiki/James_E._Loder)'s book, [_The Transforming Moment_](https://www.goodreads.com/book/show/285551.The_Transforming_Moment). And what he argues in there is that ordinary acts of knowing have this structure, just like I'm describing it. And then in his account of the convicting presence of the Holy Spirit, like God showing up, you know. So ordinary acts of knowing that's kind of like the grammar or the alphabet, and sometimes the Holy Spirit commandeers that. And the Lord comes. So the Emmaus road would be like that.
 
 [40:35] **Esther:** It's an ordinary act of knowing, but the one who is revealed changes everything, right? So that's an experience of the convicting presence of God. Which we all have at some time or other, I pray.
 
-[40:49] **Henry:** I really like this quote from Augustine, which I'm sure you've mentioned many times, but the whole, believing first in order to understand. And that's it's so I remember hearing that the first time I was like, that doesn't make any sense, you know? Of course I have to know it and then I'll believe it. That's just the modern epistemology. And that's just so counter, I guess that has to click too.
+[40:49] **Henry:** I really like this quote from [Augustine](https://en.wikipedia.org/wiki/Augustine_of_Hippo), which I'm sure you've mentioned many times, but the whole, believing first in order to understand. And that's it's so I remember hearing that the first time I was like, that doesn't make any sense, you know? Of course I have to know it and then I'll believe it. That's just the modern epistemology. And that's just so counter, I guess that has to click too.
 
 [41:10] **Esther:** Well, and I like to help people think about riding bikes, because then the believe in order to understand is essential. You cannot ride a bike, if you do not exercise trust, you can't. You've gotta trust your authoritative guide. You've gotta trust the bike. You gotta trust the world. You've gotta trust your body which is what take some doing. Trust is of a piece with rationality. It's not opposed to, it. You can't have rationality, if you don't trust.
 
