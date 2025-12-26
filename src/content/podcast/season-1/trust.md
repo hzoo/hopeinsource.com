@@ -176,7 +176,7 @@ sidebar:
 
 [19:15] **Henry:** And usually, maybe they're just you know, mad or angry and it's like, okay if you're not gonna have like a civil discussion about this change, then we're not going to do it. Um, and I think it's people that can stick through that, um ... It's just I guess, maybe up- up front they kinda expect like, oh they're asking for help, and I made a PR, so then you kind of have to merge it for me or something.
 
-[19:38] **Henry:** And then this is very true in anything, and especially in, I was just thinking about like [TC39](https://github.com/tc39). So like, the standards committee for JavaScript and like moving those syntax proposals forward. And like I think if you wanna do that, you might expect to spend like maybe you know, two years of your life trying to like make one of those things merge.
+[19:38] **Henry:** And then this is very true in anything, and especially in, I was just thinking about like [TC39](https://tc39.es). So like, the standards committee for JavaScript and like moving those syntax proposals forward. And like I think if you wanna do that, you might expect to spend like maybe you know, two years of your life trying to like make one of those things merge.
 
 [19:59] **Henry:** But, if you told someone that upfront, then I think no one would wanna do it, because they're like, "That's a really, really long time." But, if you're able to explain like the process and then also that language, like it's 20 years old. You know, two years out of 20 years is not quote/unquote that bad. And how long is JavaScript gonna stay around? And like, and languages in general, right?
 

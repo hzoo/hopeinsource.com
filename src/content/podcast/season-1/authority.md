@@ -12,11 +12,6 @@ sidebar:
   order: 8
 ---
 
-## Links
-
-- Universal Priesthood: https://en.wikipedia.org/wiki/Priesthood_of_all_believers
-- Exit, Voice, and Loyalty: https://www.amazon.com/Exit-Voice-Loyalty-Responses-Organizations/dp/0674276604
-
 [00:00] **Henry:** Alright, this podcast, we're gonna be talking about governance, leaderships, authority. And I know the [last podcast](/myth) we talked a bit about narrative and it ended up being a discussion about people and kind of the stories that we talk about for people, it was interesting. Just think about maybe the role of authority in general, especially in terms of faith. I think it's interesting, 'cause in, in most religions you know, you're submitting to you know, not just maybe it's rules but you know, a God or a person and that's inherently about the authority.
 
 [00:31] **Nadia:** We just started talking about this and realized we have different views on the role of authority in religion. My closest interactions with religion have been [Quakerism](https://en.wikipedia.org/wiki/Quakers), and Quakerism is weird within Christianity, if I understand correctly, in that it is a little bit more anti-authority. My takeaway from having spent time in Quaker communities has been question authority (laughs) and trust yourself, a very [Socratic way](https://en.wikipedia.org/wiki/Socratic_method) of looking at the world.
@@ -127,4 +122,6 @@ sidebar:
 
 [25:01] **Henry:** Yeah. And I think it's like you know, I could be wrong and then I could be right and I think having this I feel like if you're going for the long term, then you're willing to work with that person. Like, if you, if they are family then you're willing to work through that whatever that issue is, right? Otherwise, you would just cut off or or something.
 
-[25:24] **Nadia:** This actually reminds me of the uh, what's his name? The [exit versus voice thing](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty). It's kinda this, right, like you can ... in, in any like political organization or society, I guess but this also applies to everything else we've been talking about. You can either yeah, use your voice to affect change internally or you can exit if you're unhappy. Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com]
+[25:24] **Nadia:** This actually reminds me of the uh, what's his name? The exit versus voice thing. It's kinda this, right, like you can ... in, in any like political organization or society, I guess but this also applies to everything else we've been talking about. You can either yeah, use your voice to affect change internally or you can exit if you're unhappy. Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com]
+
+> [Exit, Voice, and Loyalty: Responses to Decline in Firms, Organizations, and States](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty) (1970) is by Albert O. Hirschman, a framework for consumers in the face of deteriorating quality of goods and services: either exit or voice.

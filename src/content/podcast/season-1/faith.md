@@ -84,7 +84,7 @@ sidebar:
 
 [11:51] **Henry:** I was talking more from a personal point of view of what you were saying about a discipline in giving. We have habits that affect how we actually live and what we believe, and sometimes what we think we believe isn't what we end up doing because we don't practice it. Even what you're doing with the [grant](https://www.heliumgrant.org), it's a really cool way of doing it. You could talk all day about giving, but if we're not actually doing it in the day-to-day, that might lead us away, and then you find out maybe years later, "Oh, I've lost that sense," if you even realize that.
 
-> Nadia's Helium Grants: https://www.heliumgrant.org
+> [Helium Grants](https://www.heliumgrant.org) - Nadia's experimental grants for early-stage ideas
 
 [12:35] **Nadia:** Giving in really small ways every day is a really important practice.
 
