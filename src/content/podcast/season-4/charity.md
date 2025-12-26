@@ -21,10 +21,6 @@ sidebar:
 - [Purchase Fuzzies and Utilons Separately](https://www.lesswrong.com/posts/3p3CYauiX8oLjmwRF/purchase-fuzzies-and-utilons-separately)
 - [OSS lazy-loads governance](https://www.devonzuegel.com/post/oss-lazy-loads-governance)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/charity.md)
-
 #### Jewish Culture and Rationalism
 
 [00:00] **Austin:** I think the EA to Catholicism lens is probably very fruitful. I can start there.
@@ -37,7 +33,6 @@ sidebar:
 
 [00:38] **Austin:** I think there's probably something about Jewish culture. The elevation of argumentation, among Jewish people, debates, proper reasoning, verbalizing your thoughts and figure out disagreement. There's something there. I'm not an expert in any of this. I can probably speak the most my own faith actually. So we'll talk about instead.
 
-
 #### Growing up Tithing
 
 [00:57] **Austin:** So, I'm Catholic, I grew up Catholic. Both my parents are Catholic and they raised me in the tradition. and I think that had a pretty direct, line of, causality to how I ended up interested in the ideas of effective altruism. A core teaching of effective altruism is, where you give 10% of your income, if you take the giving what we can pledge towards effective charities and, a pretty core teaching of the Catholic Church is that it is important to donate back. I think the same figure, 10% actually.
@@ -47,7 +42,6 @@ sidebar:
 [01:53] **Austin:** I mean beyond the giving money in churches, lots of like teachings of course of the Catholic church, about how like you are on earth to help out other people and do what you can, for other people. That's, I think been very important to me, very ingrained in me. And, that's how I like, started with the idea that like, I should be giving away some of my income and trying to help other people.
 
 [02:12] **Austin:** Where EA entered the picture, is a little bit interesting.
-
 
 #### Car washing for missions to earn to give
 
@@ -60,7 +54,6 @@ sidebar:
 [03:18] **Austin:** That kind of thinking got made me very predisposed to the idea of earning to give much later in, I don't know, the early 2010 when I heard about the whole effective altruism movement. I was like, yes, the idea of, you should just go work in like an investment bank or as a software engineer or do something and make a bunch of money and give that away that is much better than volunteering. If you have the ability to make a lot of money, that always just made a bunch of sense to me.
 
 [03:42] **Austin:** So that's, kind of another way in which my early Catholic church group, led me closer to, effective altruism.
-
 
 #### Ebbs and Flows
 
@@ -77,7 +70,6 @@ sidebar:
 [04:48] **Austin:** now I'd say we're like a little bit less like rooted again. and I think, it's a thing that kind of ebbs and flows. with the, upcoming birth of my, daughter. I expect, well, we wanna take her in for baptism and maybe a few years later, kind of, get her educated in the Catholic tradition as well. So, that might bring me closer with the church again.
 
 [05:05] **Austin:** but yeah, that I think occupies a small percentage of my waking life, and versus a large percentage of my waking life is thinking about effective altruism. I spend some of my like free time reading the EA forum for example, but also my work Manifund, is a lot around funding things in principles with the things that effective altruism thinks is valuable. I spend a lot of my time like talking to people in this space. so yeah, the, the balance of where my attention is has definitely shifted a lot.
-
 
 #### How far does a dolllar go
 
@@ -99,7 +91,6 @@ sidebar:
 
 [08:13] **Henry:** Then someone else gave a presentation whose an economist, kind of measuring interventions. There's like bad water supply in a certain country in Africa and how they marked a pipe with red to tell everyone don't use that water. And then it ended up making it worse because the other water sources were even worse than the one that they picked that were bad. I guess the point was that something in theory that was obvious, sometimes it's not. And I guess it's worth putting in this kind of effort to figure out whether it was effective. But I don't think anyone would argue that the general idea of wanting to understand that output that we were talking about previously, that that seems like a good thing.
 
-
 #### Separate your utilons and fuzzies
 
 [08:49] **Austin:** I think many people from the computer science or techie people kind of feel like, oh, this does seem kind of obvious. I don't think it's that obvious to everyone. I think a lot of people feel strongly that, for example, the local university or the local theater troupe, art museum, you know, it's also very valuable and worth donating to. And I have actually some amount of belief in this as well.
@@ -109,7 +100,6 @@ sidebar:
 [09:27] **Austin:** But I do think that if you are the kind of person who is in the position of making a lot of money and able to donate lots of it, you might want to think about the good that you do in the world, in the kind of a separate category.
 
 [09:37] **Austin:** There's a classic essay on this, which is you should consider purchasing your Utilons and your fuzzies in different buckets, which is to say like your utilons, the amount of utility you effect upon the world, the amount of people you're able to help, you should try and do very rigorously. And then for purchases that are in support of things that you like, you don't want to apply this level of rigor to.
-
 
 #### Assumptions in value
 
@@ -122,7 +112,6 @@ sidebar:
 [10:50] **Austin:** For example, the baseline assumption of like, do you think human people alive today are the thing that is very important that you want to save? Or do you think animals might matter? Do you think that like preventing the torture of chickens in a factory farm, is that important to your moral calculus?
 
 [11:05] **Austin:** And then, do you think in the future, people who live a hundred or a thousand or a million years from now matter, and if so what does that mean about how you try to help those people? There are lots of like questions like this that effective altruism, people in the community wrestle with, and I don't think they're like easy answers. I guess many people have like come on their own, like, this is what I believe.
-
 
 #### EA as at it's best a meta-framework?
 
@@ -137,7 +126,6 @@ sidebar:
 [12:42] **Austin:** And definitely like the different factions of EA I think there are some kinds of consensus around like, what is the best way to help animals or specifically even to help chickens? If you think like there are underserved, and these are people who take funding within EA and talk to each other.
 
 [12:57] **Henry:** I think I would agree with that. If EA was a movement where it just helps you enhance or promote those own values rather than, it feels like EA itself has its own values that it's almost trying to get you to agree with, which you might not like. These are the set of assumptions that matter. Or even the way you check if something's effective, do you have to do this randomized controlled trial, stuff like that.
-
 
 #### Friends vs Movements
 
@@ -154,7 +142,6 @@ sidebar:
 [15:03] **Austin:** Universal. Exactly. That unity I think very much distinguishes at least my experience of being in the Catholic Church from my experience being in EA. I think this is probably less true of other Christian sects depending on which Christian Branch you're talking about. I'm curious, like what was your background?
 
 [15:20] **Henry:** I grew up atheist. Parents didn't believe in anything. Ultimately the reason why I decided to accept Christ is through various health issues that I've dealt with throughout my life. Long story short would be that I didn't really have any hope other than in that. It's like hope for a future, and then hope in this life. Why I would wanna wake up every day, kind of thing.
-
 
 #### Continual commitment
 
@@ -178,7 +165,6 @@ sidebar:
 
 [18:13] **Austin:** Hmm. I think I often do get into conversations with my wife, who is not Catholic, or other people in the EA or rationality space around belief in a way that is kind of a fun debate. Not necessarily even that core, but things like what does it mean to have a heaven? Is that consistent with what a lot of non-religious people believe about AI for example. And I think it actually can be. Many analogies. I think one very likely way we get to heaven is where we're all like eventually uploaded we're in utopia of some kind or another. But with some kind of value judgment based on what you did a long time ago. So definitely ways to bridge the gap or talk about things in a way where people from Catholic backgrounds and people of the more rationalist ea background and can find some agreement.
 
-
 #### Babel and Pentecost
 
 [18:56] **Henry:** I've had this thought recently. It's funny. I worked on a project called Babel, and it's like negative thing in the Bible, right? Building this tower. It kind of feels like AI is a Tower of Babel that we're creating. People were melting down their jewelry and their metal into this golden calf. And it feels like we're melting our silicon into GPUs and turned into this AI that we're gonna worship.
@@ -190,7 +176,6 @@ sidebar:
 [19:45] **Henry:** It's the same things about language, right? In Pentecost, holy Spirit came, and then everyone was able to hear each other in their own language. Maybe AI feels like that because it can translate for you actually. But I wonder, people have that critique of just it feels like we are gonna become a slave to the technology versus this idea of working with the technology.
 
 [20:04] **Austin:** Yeah, it's possible that the Catholic orientation towards God provides some useful clues for non-believers that how they should orient to the AI or orient to transhumanist future roughly.
-
 
 #### The Mystical Body and Taco Tuesdays
 
@@ -222,7 +207,6 @@ sidebar:
 
 [24:13] **Henry:** Focusing on the word liturgy, right? This repeated process that happens continuously, you're right. Really important.
 
-
 #### Agentic or Salvific
 
 [24:23] **Henry:** A different thing in faith that we emphasize is prayer. I think a big part of prayer is a vulnerability of letting go, knowing that I cannot fix everything.
@@ -240,7 +224,6 @@ sidebar:
 [25:57] **Henry:** I'm in the same circle, too engineered mindset. Everything's about predicting.. Prediction markets, all these things.
 
 [26:03] **Henry:** Maybe that's my draw towards art where it feels like there's no measurement there. And I don't want it to be like, oh, it's just all fuzzy.
-
 
 #### Humility of Sabbath
 
@@ -262,7 +245,6 @@ sidebar:
 
 [27:58] **Austin:** Like, in some sense, like I feel so brainwashed that like I have a hard time trying to understand the benefit. With the sleep thing, I do have a bit of the impulse where it's like trying to minimize sleep. I've taken things like caffeine or other drugs, modafinil to try and you know, stay awake more and be able to be more productive. And insofar as people you know, rest it's easy to just justify like, oh, I rest now so I can be productive later. But maybe that's the wrong altar to be worshiping on, you know.
 
-
 #### Efficiency and Waiting
 
 [28:22] **Henry:** It's funny the AI feel more human than me. It's like I'm the one trying to optimize life much possible. I don't know if that's the right approach. Oh, something I really liked, this is actually from sermon I heard, and they were giving an example of pokemon. They call it Holy Inefficiency. When you're playing in the beginning, everything is fun, 'cause it's for the first time. I don't think you're thinking about the motto, catch em all. Kind of enjoying every moment.
@@ -276,7 +258,6 @@ sidebar:
 [29:39] **Austin:** Is a time of waiting, yes.
 
 [29:40] **Henry:** Lent. These are all rituals that were created to instill a sense of waiting. And I think that there's like nothing in our society now that does that.
-
 
 #### Hope is trusting in people
 
@@ -295,7 +276,6 @@ sidebar:
 [31:30] **Austin:** I have to like put a lot of trust that they will come and like show up and deliver and present a talk that the audience will learn a lot from and enjoy and things like that. There's a piece of that I like a lot. It's very different than me like writing code for Manifold, right? Which is much more like deterministic. You're working with things that just run again and again and again. And you can kinda like model out all those pieces and I enjoy that a lot. I love software engineering, but I, I think I'm also growing to like the, just like talking with people like trusting in them.
 
 [31:57] **Henry:** Not that, you know, everything should be one or the other. It's more just like we should be better at determining when things can be systematized when they maybe they shouldn't.
-
 
 #### Knowledge Progression, Loose Structure
 

@@ -9,10 +9,7 @@ embedUrl: https://creators.spotify.com/pod/show/hopeinsource/episodes/An-Ordinar
 sidebar:
   order: 3
 ---
-### Links
 
 Check out a custom site I made just for this: https://sauntercast.henryzoo.com!
-
-### Transcript
 
 WIP, the audio didn't really come out the greatest so need to clean it up the transcript!

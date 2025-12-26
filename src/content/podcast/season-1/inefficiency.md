@@ -11,13 +11,10 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/4-Holy-I
 sidebar:
   order: 4
 ---
+
 ### Links
 
 - Nadia's post: [Methodologies for measuring project health](https://nadia.xyz/project-health)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/inefficiency.md)
 
 #### What makes an organization healthy?
 

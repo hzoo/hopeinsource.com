@@ -10,10 +10,6 @@ sidebar:
   order: 15
 ---
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/tetris.md)
-
 #### The Software/Hardware Arms Race
 
 > "Do increased performance and functionality keep pace with the increased demand for resources? Mostly the answer is no." - Niklaus Wirth ([A Plea for Lean Software](https://cr.yp.to/bib/1995/wirth.pdf))

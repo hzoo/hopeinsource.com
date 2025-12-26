@@ -19,10 +19,6 @@ sidebar:
 - Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 - Video version on [Youtube](https://www.youtube.com/watch?v=fojoWc1oCeQ)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/limits.md)
-
 [00:00] **Henry:** So I have with me, [Michael Sacasas](https://thefrailestthing.com). He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, [The Convivial Society](https://theconvivialsociety.substack.com).
 
 #### Games and Virtue

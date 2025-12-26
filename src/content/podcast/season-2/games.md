@@ -15,9 +15,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-8-Ant
 sidebar:
   order: 8
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/games.md)
 
 [00:06] **Henry:** Today I have with me to talk about game design, community building, and Indie game development, one of the co-founders of the Seattle based Indie game studio MegaCrit. I have the the GM here with me, Anthony Giovannetti. With Casey Yano, he started the install team to create this game, Slay the Spire. It's a single player roguelike deck builder Video game, has overwhelmingly positive rating on steam with over 25,000 reviews, and just got a Nintendo switch release, which I just got. I think I played about over a hundred dollars on steam version. So yeah, thanks for joining the show.
 

@@ -18,10 +18,6 @@ sidebar:
 
 - [The Dorean Principle (html book)](https://thedoreanprinciple.org/)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/dorean.md)
-
 #### Supporting Ministries with Co-Laborers
 
 [00:00] **Henry:** Maybe we could start with what is _The Dorean Principle_?

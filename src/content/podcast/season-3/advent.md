@@ -16,10 +16,6 @@ sidebar:
 
 - Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels_Message-Gabriel.html))
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/advent.md)
-
 [00:00] **Henry:** Many of us in the tech world and love [Advent of Code](https://adventofcode.com), a calendar of yearly coding puzzles, started in order to save Christmas. But some of us may also wonder about what Advent itself is for. Well, Alex, my pastor friend, asked me if I wanted to have a Christmas episode, so I suggested we talk about this current season of Advent.
 
 [00:18] **Henry:** That it's a time of preparation and waiting, as is Lent. It's common to just go to church or just go through the motions of any ritual. Even as such liturgy is meaningful in its action alone, it can be just as important to understand why we do what we do.

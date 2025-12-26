@@ -14,10 +14,6 @@ sidebar:
 
 - Buy the book, [Working in Public](https://www.amazon.com/dp/0578675862)!
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/overparticipation.md)
-
 #### Five Years Looking At Open Source Communities
 
 [00:00] **Henry:** It's actually been two years since we released Hope in Source. So yeah, I have Nadia again to talk about a new book that she's written, called Working In Public, about open source and community. I guess we could start off by just talking about what the thesis of the book is?

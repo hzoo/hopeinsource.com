@@ -16,16 +16,13 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Right-Fe
 sidebar:
   order: 8
 ---
+
 ### Links
 
 - [Matthew 20: Parable of the Workers in the Vineyard](https://en.wikipedia.org/wiki/Parable_of_the_Workers_in_the_Vineyard)
 - [Matthew 25: Parable of the Talents](https://en.wikipedia.org/wiki/Parable_of_the_Talents)
 - [Luke 15: Parable of the Prodigal Son](https://en.wikipedia.org/wiki/Parable_of_the_Prodigal_Son)
 - [The Woodcarver: A parable, of sorts](https://www.reddit.com/r/latterdaysaints/comments/75wvcx/the_woodcarver_a_parable_of_sorts/)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/feeling.md)
 
 [00:00] **Sonya:** So Henry, I want to read Matthew 20, which is the parable of the workers in the vineyard. I actually read this last night because I'm reading through. And it really resonated with me and I felt like it was very relevant to our current cultural moment, at least in America, and maybe in other places too. So I'm just gonna go ahead and it's not very long, so I'll just read it and then we can talk about it and what it means. Oh, and this is Jesus speaking.
 
@@ -40,7 +37,6 @@ sidebar:
 [02:09] **Henry:** What translation was that?
 
 [02:10] **Sonya:** That's the new King James version. I love the poetry of the King James version, but the new one is definitely a little bit easier to understand, I guess, to a modern reader. In the original King James, they say a penny instead of a denarius. So there's also some like translation update stuff.
-
 
 #### Come to the table: God's generosity
 
@@ -63,7 +59,6 @@ sidebar:
 [04:48] **Sonya:** Mm-Hmm. Yeah. I've always really liked. This aspect of, of how it works, I guess, that everyone is eligible. No matter where you are in life, you can come, sort of come to the table.
 
 [05:00] **Sonya:** The landowner is very generous and as you said, this is a persistent metaphor across various parables like the garden or the farm context, where God is the landowner, is the person who sort of oversees all of it, but you also have responsibilities in terms of how you engage and what you do with your labor.
-
 
 #### Orthopathos: a change of heart
 
@@ -88,7 +83,6 @@ sidebar:
 [08:32] **Sonya:** Yeah. And especially with healing, I think, at least the translation that I'm reading. Always puts it as, you know, he was moved with compassion. It's like he meets someone individually. It's almost like the love flows out of him.
 
 [08:45] **Henry:** Even that itself can seem weird. Mm-Hmm. Why would God feel something? Whatever our assumptions about who God is, you know, when we kind of read that stuff.
-
 
 #### Freedom and Responsibility within the Body
 
@@ -118,7 +112,6 @@ sidebar:
 
 [12:37] **Henry:** I think that context was a, Pharisee was asking what is the greatest commandment?
 
-
 #### On obligation: asking something of you
 
 [12:42] **Sonya:** Hmm. That's what it is. So something that listeners, I'm gonna review for you, Henry and I, one of the things that we've been wanting to talk about is in the kind of online subcultural circles that I run in, there's been a burgeoning interest in, I guess spirituality, not so much Christianity.
@@ -138,7 +131,6 @@ sidebar:
 [15:02] **Henry:** Yeah, there's a lot there. Obligation is interesting. Maybe that's really on point, where a lot of religions try to tie what is true with what is moral.
 
 [15:12] **Henry:** And I think Rationalism tries to separate those two things, or don't even bring up that idea at all. Christianity is about saying that truth is a person and truth involves action as well. And maybe that relates to how we conceive freedom, where freedom is free from people telling me what to do. But now it feels like there's a point where you might say like, oh, I want someone to tell me what to do. And that burden that I have of like, what is my meaning and what I should do is too much.
-
 
 #### The freedom of the woodcarver
 
@@ -163,7 +155,6 @@ sidebar:
 [18:15] **Henry:** Well, if you're free from everything, what now? That's the beginning of it. Now I can do anything, but I think for most people we don't have a good direction. We're lost. You're in the wilderness, so maybe not anymore, but you go on a plane, you go travel somewhere and try to like find yourself, right.
 
 [18:31] **Henry:** Belonging or something. You find where you're supposed to be in some kind of community.
-
 
 #### formative moments of intimacy
 
@@ -193,7 +184,6 @@ sidebar:
 
 [22:15] **Sonya:** That's my. Attempt to unify, you know, our sort of material history and our science with what the Bible teaches us and with the continuing practice of Christianity teaches us. So that's another thing that's really beautiful. It's the, the apostolic church, you know, it passes from person to person all the way back to Christ when he was here on earth.
 
-
 #### integrating with tradition, Christian art, Kanye
 
 [22:37] **Henry:** Yeah, that might be an appealing thing too, regarding like ritual, right? Not to mean that old things necessarily have to be right or or good like the Lindy effect where old things that last longer will last even longer. But there's something that is unique to any old religion where like seeing hymns that other people have sung for thousands of years, that's like pretty amazing.
@@ -216,7 +206,6 @@ sidebar:
 
 [25:06] **Sonya:** There are so many beautiful old monasteries and old cathedrals, some of which still have services or still have people living there who are keeping the faith. And I find that really beautiful and I, I agree with you that it's not like old things are like automatically good, but there is still the things that have survived through the ages. So for a reason by some mechanism, like there's something there, like they wouldn't survive if there wasn't some like there, there, and it's worth going to look for it.
 
-
 #### Archaic on the outside, Alive inside
 
 [25:37] **Sonya:** Christianity itself could be looked at from that lens. Something that can seem kind of quaint and archaic from the outside, but from the inside it's just as fresh and alive as ever. I think.
@@ -236,7 +225,6 @@ sidebar:
 [27:04] **Sonya:** You have to decide like this particular thing. Yes. It's like you find a way to say yes without having I, I don't know, like a double blind experiment or something. 'cause it's not that kind of thing. I guess it would be like trying to, trying to say that some historical event is like proofed by math or something. It's like the wrong kind of evidence.
 
 [27:24] **Henry:** That's, I mean that's what faith is. Sort of why I feel like that kind of apologetics was just already admitting that we failed. Like our lives should be the argument for Christ in some sense actually.
-
 
 #### Fruits: the form of faith
 
@@ -272,7 +260,6 @@ sidebar:
 
 [30:16] **Henry:** Well, that can't be the first reason.
 
-
 #### Auras: acceptable woo and phenomelogy
 
 [30:18] **Henry:** I was reading a book called In The Vineyard of the Text, and it's also by Ivan Illich. A lot of murals and paintings in like cathedrals, they have those halos on top of the saints heads, right. And it's like that gold color that like glitters when you're looking at it. And in this passage it says that the painter. They represent the world as if all beings contain their own source of light. Light is imminent in the world of medieval things, so basically everything gives off its own light.
@@ -298,7 +285,6 @@ sidebar:
 [32:55] **Sonya:** And I don't think that's necess, I don't think it's wrong, but I guess I would call it again, insufficient. I'm big on phenomenology. I really like the sort of the experience and beingness happening. This as a way of exploring the nature of things. Our sensing apparatus is so powerful. It's super powerful.
 
 [33:16] **Sonya:** Intuition is amazing. Instinct is amazing. I, I guess I do see those things as sacred. They're emanating from our spirit in some way.
-
 
 #### Sacredness as a mode of being
 
@@ -332,7 +318,6 @@ sidebar:
 
 [37:11] **Sonya:** Oh, that's interesting. Yeah, being on video is something that people have been talking about, like zoom fatigue. It's, it's almost like physically weird. There was something else that I wanted to say about religion that I've now forgotten. Oh, community. Something you brought up earlier.
 
-
 #### Communities of praise
 
 [37:26] **Sonya:** We all do have our own path, but community is important.
@@ -355,7 +340,6 @@ sidebar:
 
 [39:53] **Henry:** It's not like, well, why does God want us to tell him how amazing he is? Isn't that like a megalomaniac. The only reason why this is okay is because he deserves it. Why would I wanna praise someone that doesn't?
 
-
 #### One can't help but laugh
 
 [40:05] **Sonya:** I really like a good joke also because it's like asking, why did you laugh at a joke? You know? And there's a sense in which you can sort of dissect that. But really the reason is because it was funny. So it's like the same thing with God. It's like, why would you praise God? Okay, I can deconstruct some reasons, but the main one is because he is glorious.
@@ -367,7 +351,6 @@ sidebar:
 [41:03] **Sonya:** Actually. I feel like that helps with the, how can this coexist with suffering, right. Or how can you, you know, feel for the terrible situations that other people are in and still glorify God.
 
 [41:13] **Sonya:** And I love laughter as a way.. Like gallows humor is a thing, right? Like when you're in the depths of despair, humor can be one of the things that sustains you. Mm-Hmm. And I think it's similar with faith and with glorification, that it's not an impulse that goes away because of those circumstances. And it's not a mode that is like turned off.
-
 
 #### cheap grace, coming prepared for the wedding
 
@@ -394,7 +377,6 @@ sidebar:
 [43:35] **Sonya:** It's very harsh. But I think it is, at least my reading of it, is that it's about this, do you come prepared? Do you come ready to celebrate? Are, are you transformed? Are you just responding to the invitation or are you really becoming a guest? Hmm. I guess that is another obligation, you know, to treat it with the sincerity and with the, the seriousness that it merits.
 
 [43:59] **Henry:** You come as you are, but then once you have encountered Jesus, our life is that process of continual transformation to become like him.
-
 
 #### A vibration throughout the whole stack
 

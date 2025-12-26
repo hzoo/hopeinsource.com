@@ -19,10 +19,6 @@ sidebar:
 - Newsletter: [A Theory of Zoom Fatigue](https://theconvivialsociety.substack.com/p/a-theory-of-zoom-fatigue)
 - Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/convivial.md)
-
 #### Conviviality as Autonomy
 
 [00:00] **Henry:** I was thinking we could just talk about Illich, which is funny. I didn't even know how to say his name. I thought it was like Illich or something. I heard you say that in your conversation with Carl Micham, right?

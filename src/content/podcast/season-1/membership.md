@@ -11,13 +11,10 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/2-Commun
 sidebar:
   order: 2
 ---
+
 ### Links
 
 - [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/membership.md)
 
 #### A Call to Commitment
 

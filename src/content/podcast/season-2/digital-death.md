@@ -15,14 +15,11 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-16-Ph
 sidebar:
   order: 16
 ---
+
 ### Links
 
 - [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
 - [2: Unlisiting Yourself](https://hopeinsource.com/growing-old)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/digital-death.md)
 
 #### The Trilogy
 

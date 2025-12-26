@@ -16,10 +16,6 @@ sidebar:
 - [Your Attention Is Not a Resource](https://theconvivialsociety.substack.com/p/your-attention-is-not-a-resource)
 - [Surviving the Show: Illich And The Case For An Askesis of Perception](https://theconvivialsociety.substack.com/p/surviving-the-show-the-case-for-an)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/silence.md)
-
 #### Impossible Silences
 
 [00:00] **Henry:** Hey everyone, this is Henry, it's been a while since my last podcast, I think. But yeah, again, I have with me Michael Sacasas, and we're just gonna talk about his last newsletter posts from the last six months, and how they relate to Illich and his thinking around silence, attention, and some other topics, like hair of all things.

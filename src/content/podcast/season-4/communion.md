@@ -21,10 +21,6 @@ sidebar:
 - [Digital Communion (book)](https://www.fortresspress.com/store/product/9781506471143/Digital-Communion)
 - [Nick's site](https://nickripatrazone.com/)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/communion.md)
-
 #### Layers of Language Meaning
 
 [00:00] **Henry:** Thanks Nick for joining me for this chat. I was just explaining to you my background and how I work on this project called Babel. And it translates JavaScript, which is a language in the browser, to an older version of JavaScript.

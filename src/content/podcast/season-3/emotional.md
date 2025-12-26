@@ -18,10 +18,6 @@ sidebar:
 
 - [Omar's Twitter](https://twitter.com/rsnous)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/emotional.md)
-
 #### That's a Dynamicland sort of thought
 
 [00:00] **Henry:** So I have Omar with me. I was like, Oh, I think your tweets are interesting and it maybe interesting to almost like analyze them. Cause I think you said you were planning on doing that for yourself to see what comes up, right?

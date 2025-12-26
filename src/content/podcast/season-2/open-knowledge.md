@@ -14,13 +14,10 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-14-Sh
 sidebar:
   order: 14
 ---
+
 ### Links
 
 - [Shawn's blog](https://www.swyx.io)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/open-knowledge.md)
 
 #### Tumbling as an Alternative to Community Manager
 

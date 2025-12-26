@@ -282,6 +282,10 @@ html {
     @apply bg-his-active text-his-text;
   }
 
+  #msg-0 {
+    @apply mt-8;
+  }
+
   .message {
     @apply flex flex-col relative max-w-[92%] md:max-w-[85%] lg:max-w-[72%] mb-0 transition-colors duration-300;
     scroll-margin-top: 20px;

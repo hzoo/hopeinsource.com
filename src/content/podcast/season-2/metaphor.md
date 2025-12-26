@@ -36,10 +36,6 @@ sidebar:
 - The Death and Life of Great American Cities. So she uses the same kind
 - How to Talk About Books You Haven't Read
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/metaphor.md)
-
 [00:00] **Henry:** Hey everyone, this is Henry for the Maintainers Anonymous podcast. I have with me **Maggie Appleton**, again! And here we want to talk about this idea of metaphor, I think we mentioned that at the end of the last episode. And I know that Maggie, you just did like a talk about metaphors and embodiment.
 
 [00:14] **Maggie:** So, last time we chatted, we had mostly talked about **gift economies** in relationship to open source stuff, and then started to talk a bit about how metaphor and embodied metaphor relates to programming. And I, yeah, I had just done a talk the other week about how embodiment and metaphor relates to something called **Building a Second Brain**, which is a strange theory, which just essentially means being a nerdy, information collector, social community we have of people that are really into taking in notes and collecting everything that they research and turning it into useful output of some sort.

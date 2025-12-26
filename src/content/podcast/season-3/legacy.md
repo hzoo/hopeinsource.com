@@ -19,10 +19,6 @@ sidebar:
 
 - [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/legacy.md)
-
 #### I'm from there 7,000 years ago
 
 **Timothy:** Yesterday was, the day after Julian calendar Christmas, so called old calendar, which is still the calendar kept in Bethlehem. So that's where they're celebrating Christmas. And I happened to be at the star market here and the guy behind the fish counter was chatting with me. It was very friendly. I said, where are you from? He said, where are you from? So my dad's from Greece. He said, I'm from there 7,000 years ago.

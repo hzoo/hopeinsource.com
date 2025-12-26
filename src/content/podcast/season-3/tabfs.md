@@ -13,9 +13,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/TabFS-Om
 sidebar:
   order: 14
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/tabfs.md)
 
 #### TabFS or BrowserFS?
 

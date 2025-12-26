@@ -13,9 +13,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-11-Ma
 sidebar:
   order: 11
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/gift.md)
 
 [00:09] **Henry:** All right. Hey, this is Henry and this is the Maintainers Anonymous Podcast. I have with me and Maggie Appleton. I don't know, I forgot how we met each other but I know that you had a background in anthropology and also studying open source and now you're, I think pretty involved in the AJAX JavaScript and tech industry in general. So I thought it'd be cool to kind of talk about maybe how you perceive open source before and then now how you see it, being a part of it now.
 

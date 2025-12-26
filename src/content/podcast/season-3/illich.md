@@ -19,10 +19,6 @@ speakers:
 
 - [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/illich.md)
-
 [00:00] **Henry:** I know it's been a while since the last podcast, but I've been reading a lot of Ivan Illich over the last few years. And I figured it was worth hosting a guest podcast about his work. And so on this next episode, I have Michael Sacasas. But he's being interviewed by Madhu and Dana of Penn State University. They're also the editors of [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies). You had a really fascinating conversation with Michael about his work in trying to bring to light Illich's thoughts around the pandemic, institutions and modern life. I hope you enjoy the conversation.
 
 [00:33] **Dana:** Michael, would you remind me what your work is and is about?

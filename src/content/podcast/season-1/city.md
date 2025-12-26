@@ -17,6 +17,7 @@ speakers:
   Nadia: right
   Timothy: left
 ---
+
 ### Guest
 
 Dr. Timothy Patitsas has been Assistant Professor of Orthodox Christian Ethics at the Holy Cross Greek Orthodox School of Theology in Boston, Massachusetts
@@ -54,10 +55,6 @@ combined interests in complexity theory, liturgy, urbanism, and the economic and
 [desire lines]: https://en.wikipedia.org/wiki/Desire_path
 ["the cat and the toaster"]: https://www.amazon.com/Cat-Toaster-Living-Ministry-Technological/dp/1608992705
 [paperclip maximization]: https://en.wikipedia.org/wiki/Instrumental_convergence#Paperclip_maximizer
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/city.md)
 
 [00:00] **Henry:** All right. We decided to make a bonus episode. So Nadia wrote a post a month ago about her reading of a book called ["The Death and Life of Great American Cities"]. It talks about cities and how that relates to open source and communities online, that open source is kind of like a digital city. Same with the internet.
 

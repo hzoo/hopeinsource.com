@@ -1,5 +1,4 @@
 ---
-import { hisMetadata } from "@/metadata.ts";
 import { getEpisodeData } from "@/lib/episodes";
 import Search from "./Search.astro";
 
@@ -17,20 +16,6 @@ const { currentSlug, headings = [] } = Astro.props;
 const { episodesBySeasons, seasons } = await getEpisodeData();
 ---
 
-<!-- Mobile toggle button -->
-<button
-  id="sidebar-toggle"
-  class="lg:hidden fixed left-3 top-3 z-50 p-2 rounded-lg text-his-text-secondary hover:text-his-green hover:bg-his-hover transition-colors"
-  aria-label="Toggle episode list"
->
-  <svg id="hamburger-icon" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-  </svg>
-  <svg id="close-icon" class="w-5 h-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
-  </svg>
-</button>
-
 <!-- Mobile backdrop -->
 <div
   id="sidebar-backdrop"
@@ -45,18 +30,7 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
          flex flex-col"
 >
   <!-- Sidebar header with search -->
-  <div class="pl-12 pr-3 py-3 lg:px-3 border-b border-his-hr flex items-center gap-2 flex-shrink-0">
-    <a
-      href="/"
-      class="flex-shrink-0 p-2 rounded-lg text-his-text-secondary hover:text-his-green hover:bg-his-hover transition-colors"
-      data-astro-prefetch
-      aria-label="Home"
-      title={hisMetadata.title}
-    >
-      <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-      </svg>
-    </a>
+  <div class="px-3 py-3 border-b border-his-hr flex-shrink-0">
     <Search />
   </div>
 
@@ -104,11 +78,10 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
               <a
                 href={`/${episode.slug}`}
                 class:list={[
-                  "episode-link group relative block py-2.5 px-3 rounded-r-lg transition-all duration-200",
-                  "border-l-2",
+                  "episode-link group relative block py-2.5 px-3 rounded-lg transition-all duration-200",
                   isActive
-                    ? "border-his-green bg-his-green/8 text-his-text"
-                    : "border-transparent hover:border-his-text-tertiary hover:bg-his-hover/50"
+                    ? "bg-his-green/12 ring-1 ring-his-green/25"
+                    : "hover:bg-his-hover/60"
                 ]}
                 data-astro-prefetch="hover"
                 aria-current={isActive ? "page" : undefined}
@@ -121,15 +94,22 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                     {episode.epNumber}
                   </span>
                   <div class="flex-1 min-w-0">
-                    <span class:list={[
-                      "block text-sm leading-snug transition-colors",
-                      isActive ? "text-his-green font-medium" : "text-his-text-secondary group-hover:text-his-text"
-                    ]}>
-                      {episode.episodeTitle}
-                    </span>
+                    <div class="flex items-baseline justify-between gap-2">
+                      <span class:list={[
+                        "text-sm leading-snug transition-colors truncate",
+                        isActive ? "text-his-green font-medium" : "text-his-text-secondary group-hover:text-his-text"
+                      ]}>
+                        {episode.episodeTitle}
+                      </span>
+                      <span class="flex-shrink-0 text-[10px] font-mono tabular-nums text-his-text-tertiary whitespace-nowrap">
+                        {episode.data.date.getFullYear() === new Date().getFullYear()
+                          ? episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+                          : `${episode.data.date.toLocaleDateString('en-US', { month: 'short' })} '${String(episode.data.date.getFullYear()).slice(-2)}`}
+                      </span>
+                    </div>
                     {episode.guestDisplays.length > 0 && (
                       <span class:list={[
-                        "block text-xs mt-0.5 transition-colors",
+                        "block text-xs mt-0.5 transition-colors truncate",
                         isActive ? "text-his-green/70" : "text-his-text-tertiary group-hover:text-his-text-secondary"
                       ]}>
                         {episode.guestDisplays.map((g, i) => (
@@ -154,7 +134,7 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
 <script>
   function initSidebar() {
     const sidebar = document.getElementById('episode-sidebar');
-    const toggle = document.getElementById('sidebar-toggle');
+    const toggle = document.getElementById('header-sidebar-toggle'); // Now in chat header
     const backdrop = document.getElementById('sidebar-backdrop');
     const chaptersToggle = document.getElementById('chapters-toggle');
     const chaptersList = document.getElementById('chapters-list');
@@ -166,9 +146,6 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
       backdrop?.classList.remove('opacity-0', 'invisible');
       backdrop?.classList.add('opacity-100');
       document.body.style.overflow = 'hidden';
-      // Toggle icons
-      document.getElementById('hamburger-icon')?.classList.add('hidden');
-      document.getElementById('close-icon')?.classList.remove('hidden');
     }
 
     function closeSidebar() {
@@ -176,9 +153,6 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
       backdrop?.classList.add('opacity-0', 'invisible');
       backdrop?.classList.remove('opacity-100');
       document.body.style.overflow = '';
-      // Toggle icons
-      document.getElementById('hamburger-icon')?.classList.remove('hidden');
-      document.getElementById('close-icon')?.classList.add('hidden');
     }
 
     // Chapters accordion toggle

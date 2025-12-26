@@ -21,10 +21,6 @@ sidebar:
 - [3: Life After Digital Death)(https://hopeinsource.com/digital-death)
 - [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/unlisting.md)
-
 [00:00] **Henry:** The last time we chatted for the podcast, we were just talking about whatever and to see what happens.
 
 [00:05] **Philip:** It was randomness and it was also this theme of growing old on the web, right.

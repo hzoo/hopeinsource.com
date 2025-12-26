@@ -11,13 +11,10 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/6-Money-
 sidebar:
   order: 6
 ---
+
 ### Links
 
 - Tithe: https://en.wikipedia.org/wiki/Tithe
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/money.md)
 
 [00:00] **Nadia:** This episode, we're gonna talk about money and there's a lot of crossover between open source and religion when it comes to money, because religion is this inherently decentralized concept. Anyone can participate, get up and leave, there's no central person organizing whether you choose to be religious or not but, churches would be examples of a more centralized organization within religion that helps enable people to do more things with it. I wanna talk about when is money needed in a decentralized context and how do you know that money is necessary or not? Why can't people just practice religion by themselves and not have resources for anything?
 

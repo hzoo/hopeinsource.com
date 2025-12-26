@@ -11,14 +11,11 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/8-Author
 sidebar:
   order: 8
 ---
+
 ## Links
 
 - Universal Priesthood: https://en.wikipedia.org/wiki/Priesthood_of_all_believers
 - Exit, Voice, and Loyalty: https://www.amazon.com/Exit-Voice-Loyalty-Responses-Organizations/dp/0674276604
-
-## Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/authority.md)
 
 [00:00] **Henry:** Alright, this podcast, we're gonna be talking about governance, leaderships, authority. And I know the [last podcast](/myth) we talked a bit about narrative and it ended up being a discussion about people and kind of the stories that we talk about for people, it was interesting. Just think about maybe the role of authority in general, especially in terms of faith. I think it's interesting, 'cause in, in most religions you know, you're submitting to you know, not just maybe it's rules but you know, a God or a person and that's inherently about the authority.
 

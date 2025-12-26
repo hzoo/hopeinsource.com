@@ -14,15 +14,12 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-13-Jo
 sidebar:
   order: 13
 ---
+
 ### Links
 
 - [98.css](https://jdan.github.io/98.css/)
 - [Jordan's 98.css Blog Post](https://thatjdanisso.cool/98-dot-css)
 - [Microsoft Windows User Experience Reference Manual](https://www.amazon.com/Microsoft-Windows-Experience-Professional-Editions/dp/0735605661)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/nostalgia.md)
 
 [00:00:00] **Jordan:** Hello, and welcome to Maintainers Anonymous. This is your guest Jordan Scales. Henry graciously allowed me to do the introduction. This is a podcast about software maintenance and anonymization. Henry, I don't know if that's correct.
 

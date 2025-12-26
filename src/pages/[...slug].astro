@@ -5,7 +5,7 @@ import EpisodeSidebar from "@/components/EpisodeSidebar.astro";
 import TableOfContents from "../components/TableOfContents.astro";
 import AudioPlayer from "@/components/AudioPlayer.astro";
 import Footer from "@/components/Footer.astro";
-import Subscribe from "@/components/Subscribe.astro";
+import { hisMetadata } from "@/metadata.ts";
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection("podcast");
@@ -68,44 +68,94 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
 <Layout frontmatter={frontmatter} slug={`/${slug}`}>
   <EpisodeSidebar currentSlug={slug} headings={headings} />
 
-  <div class="lg:ml-80">
-    <div class="mx-auto px-3 sm:px-4 py-6 sm:py-8 flex flex-col lg:max-w-4xl">
-      {/* Episode header */}
-    <header class="text-center mb-4">
-      <h1 class="text-2xl md:text-3xl font-semibold mb-1">{episodeTitle}</h1>
-      {guest && <p class="text-his-text-secondary mb-2">{guest}</p>}
-      <div class="flex items-center justify-center gap-2 text-sm text-his-text-tertiary">
-        <time datetime={frontmatter.date.toISOString()}>
-          {frontmatter.date.toLocaleDateString("en-US", {
-            year: "numeric",
-            month: "short",
-            day: "numeric",
-          })}
-        </time>
-        {frontmatter.time && (
-          <>
-            <span class="text-his-text-tertiary/50">·</span>
-            <span>{frontmatter.time} min</span>
-          </>
-        )}
-        {episodeNumber > 0 && (
-          <>
-            <span class="text-his-text-tertiary/50">·</span>
-            <span class="text-his-green/70">#{episodeNumber}</span>
-          </>
-        )}
+  <div class="lg:ml-80 flex flex-col h-screen">
+    {/* Sticky chat header - like DM conversation header */}
+    <header id="chat-header" class="sticky top-0 z-20 bg-his-bg/95 backdrop-blur-sm border-b border-his-hr px-4 py-3 flex items-center gap-3 transition-shadow duration-200">
+      {/* Sidebar toggle (mobile/tablet) / Home link (desktop) */}
+      <button
+        id="header-sidebar-toggle"
+        class="lg:hidden w-9 h-9 rounded-full bg-his-hover/80 hover:bg-his-green/15 border border-his-hr hover:border-his-green/30 flex items-center justify-center flex-shrink-0 transition-colors"
+        aria-label="Toggle episode list"
+      >
+        <svg class="w-4 h-4 text-his-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+      <a
+        href="/"
+        class="hidden lg:flex w-9 h-9 rounded-full bg-his-hover/80 hover:bg-his-green/15 border border-his-hr hover:border-his-green/30 items-center justify-center flex-shrink-0 transition-colors"
+        aria-label="Home"
+      >
+        <svg class="w-4 h-4 text-his-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+        </svg>
+      </a>
+      <div class="flex-1 min-w-0">
+        <h1 class="text-sm font-semibold truncate">{episodeTitle}</h1>
+        <div class="flex items-center gap-1.5 text-xs text-his-text-tertiary">
+          {guest && <span class="truncate">{guest}</span>}
+          {guest && <span class="text-his-text-tertiary/50">·</span>}
+          <span class="text-his-green/70">#{episodeNumber}</span>
+          <span class="text-his-text-tertiary/50">·</span>
+          <time datetime={frontmatter.date.toISOString()}>
+            {frontmatter.date.toLocaleDateString("en-US", {
+              month: "short",
+              day: "numeric",
+              year: "numeric",
+            })}
+          </time>
+          {frontmatter.time && (
+            <>
+              <span class="text-his-text-tertiary/50">·</span>
+              <span>{frontmatter.time}m</span>
+            </>
+          )}
+        </div>
       </div>
+      {/* Platform links + theme toggle */}
+      <nav class="flex items-center gap-0.5 flex-shrink-0" aria-label="Listen on">
+        <a href={hisMetadata.apple} target="_blank" rel="noreferrer" class="hidden sm:flex p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors" title="Apple Podcasts">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M5.34 0A5.328 5.328 0 000 5.34v13.32A5.328 5.328 0 005.34 24h13.32A5.328 5.328 0 0024 18.66V5.34A5.328 5.328 0 0018.66 0zm6.525 2.568c2.336 0 4.448.902 6.056 2.587 1.224 1.272 1.912 2.619 2.264 4.392.12.59.12 2.2.007 2.864a8.506 8.506 0 01-3.24 5.296c-.608.46-2.096 1.261-2.336 1.261-.088 0-.096-.091-.056-.46.072-.592.144-.715.48-.856.536-.224 1.448-.874 2.008-1.435a7.644 7.644 0 002.008-3.536c.208-.824.184-2.656-.048-3.504-.728-2.696-2.928-4.792-5.624-5.352-.784-.16-2.208-.16-3 0-2.728.56-4.984 2.76-5.672 5.528-.184.752-.184 2.584 0 3.336.456 1.832 1.64 3.512 3.192 4.512.304.2.672.408.824.472.336.144.408.264.472.856.04.36.03.464-.056.464-.056 0-.464-.176-.896-.384l-.04-.03c-2.472-1.216-4.056-3.274-4.632-6.012-.144-.706-.168-2.392-.03-3.04.36-1.74 1.048-3.1 2.192-4.304 1.648-1.737 3.768-2.656 6.128-2.656zm.134 2.81c.409.004.803.04 1.106.106 2.784.62 4.76 3.408 4.376 6.174-.152 1.114-.536 2.03-1.216 2.88-.336.43-1.152 1.15-1.296 1.15-.023 0-.048-.272-.048-.603v-.605l.416-.496c1.568-1.878 1.456-4.502-.256-6.224-.664-.67-1.432-1.064-2.424-1.246-.64-.118-.776-.118-1.448-.008-1.02.167-1.81.562-2.512 1.256-1.72 1.704-1.832 4.342-.264 6.222l.413.496v.608c0 .336-.027.608-.06.608-.03 0-.264-.16-.512-.36l-.034-.011c-.832-.664-1.568-1.842-1.872-2.997-.184-.698-.184-2.024.008-2.72.504-1.878 1.888-3.335 3.808-4.019.41-.145 1.133-.22 1.814-.211zm-.13 2.99c.31 0 .62.06.844.178.488.253.888.745 1.04 1.259.464 1.578-1.208 2.96-2.72 2.254h-.015c-.712-.331-1.096-.956-1.104-1.77 0-.733.408-1.371 1.112-1.745.224-.117.534-.176.844-.176zm-.011 4.728c.988-.004 1.706.349 1.97.97.198.464.124 1.932-.218 4.302-.232 1.656-.36 2.074-.68 2.356-.44.39-1.064.498-1.656.288h-.003c-.716-.257-.87-.605-1.164-2.644-.341-2.37-.416-3.838-.218-4.302.262-.616.974-.966 1.97-.97z"/>
+          </svg>
+        </a>
+        <a href={hisMetadata.spotify} target="_blank" rel="noreferrer" class="hidden sm:flex p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors" title="Spotify">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
+          </svg>
+        </a>
+        <a href={hisMetadata.rss} target="_blank" rel="noopener noreferrer" class="hidden sm:flex p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors" title="RSS Feed">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/>
+          </svg>
+        </a>
+        <a href={`https://github.com/${hisMetadata.gitOrg}/${hisMetadata.gitRepo}`} target="_blank" rel="noreferrer" class="hidden sm:flex p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors" title="GitHub">
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
+          </svg>
+        </a>
+        {/* Inline theme toggle */}
+        <button
+          id="header-theme-toggle"
+          class="p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors"
+          aria-label="Toggle theme"
+        >
+          <svg id="header-theme-dark-icon" class="w-4 h-4 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+          </svg>
+          <svg id="header-theme-light-icon" class="w-4 h-4 hidden" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path>
+          </svg>
+        </button>
+      </nav>
     </header>
 
-    {/* Description as the hook */}
-    <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-3 leading-relaxed">
+    <div class="flex-1 overflow-y-auto">
+    <div class="mx-auto px-3 sm:px-4 py-6 sm:py-8 flex flex-col lg:max-w-4xl">
+      {/* Description as the hook */}
+    <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-6 leading-relaxed">
       {frontmatter.description}
     </p>
-
-    {/* Subscribe as afterthought */}
-    <div class="mb-6">
-      <Subscribe />
-    </div>
 
     <TableOfContents headings={headings} />
 
@@ -115,9 +165,54 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
       </main>
     </div>
     <Footer />
-    <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
     </div>
+    </div>
+    <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
   </div>
+
+  {/* Chat header scroll shadow + theme toggle */}
+  <script is:inline>
+    function initChatHeader() {
+      const header = document.getElementById('chat-header');
+      const scrollContainer = header?.nextElementSibling;
+      if (!header || !scrollContainer) return;
+
+      scrollContainer.addEventListener('scroll', () => {
+        if (scrollContainer.scrollTop > 10) {
+          header.classList.add('shadow-md', 'shadow-black/10');
+        } else {
+          header.classList.remove('shadow-md', 'shadow-black/10');
+        }
+      }, { passive: true });
+
+      // Hide the fixed theme toggle since we have inline one
+      const fixedToggle = document.getElementById('theme-toggle');
+      if (fixedToggle) fixedToggle.style.display = 'none';
+
+      // Theme toggle
+      const toggle = document.getElementById('header-theme-toggle');
+      const darkIcon = document.getElementById('header-theme-dark-icon');
+      const lightIcon = document.getElementById('header-theme-light-icon');
+
+      function updateIcons() {
+        const isDark = document.documentElement.getAttribute('data-theme') === 'dark';
+        darkIcon?.classList.toggle('hidden', isDark);
+        lightIcon?.classList.toggle('hidden', !isDark);
+      }
+
+      toggle?.addEventListener('click', () => {
+        const newTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.theme = newTheme;
+        updateIcons();
+      });
+
+      updateIcons();
+    }
+
+    initChatHeader();
+    document.addEventListener('astro:after-swap', initChatHeader);
+  </script>
 
   {/* Handle message deep-linking with flash animation and play button */}
   <script is:inline>

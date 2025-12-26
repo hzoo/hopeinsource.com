@@ -13,9 +13,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Reconver
 sidebar:
   order: 12
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/reconversion.md)
 
 [00:00] **Henry:** Hey, everyone! I'm talking with Sonya Mann, sonyasupposedly on social media. After my chat with Nicole Williams, she mentioned that Sonya had relatively recently reconverted to Christianity and it might be an interesting conversation. So please enjoy our chat, where we just talk out loud about how she sees the world with this new lens.
 

@@ -13,9 +13,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-4-Mik
 sidebar:
   order: 4
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/getting-old.md)
 
 [00:07] **Henry:** Yeah, today, I have with me Mikeal Rogers. I feel like Mikeal's been around for a pretty long time, especially in open source. I don't remember where I first met you or heard about you. But I mean I definitely knew that you worked on Node. And then probably feel like I talked to you a lot more after you made RFC with Nadia.
 

@@ -14,10 +14,6 @@ sidebar:
 
 - [MAMA](http://mama.brussels/)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/overparticipation.md)
-
 #### An Architect and Anthropologist
 
 [00:00] **Bernardo:** My name is Bernardo Robles.

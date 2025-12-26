@@ -10,6 +10,7 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/11-City-
 sidebar:
   order: 9
 ---
+
 ### Links
 
 - Liturgy: https://en.wikipedia.org/wiki/Liturgy
@@ -18,10 +19,6 @@ sidebar:
 - The Medium is the Message: https://en.wikipedia.org/wiki/The_medium_is_the_message
 - Liturgy of the Ordinary: https://www.amazon.com/Liturgy-Ordinary-Sacred-Practices-Everyday/dp/0830846239
 - You Are What You Love: https://www.amazon.com/You-Are-What-Love-Spiritual/dp/158743380X
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/liturgy.md)
 
 [00:00] **Henry:** All right. In this episode, we're going to be discussing ritual and liturgy and maybe the role that that has in faith and open source.
 

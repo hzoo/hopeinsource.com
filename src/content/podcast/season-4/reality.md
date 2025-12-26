@@ -12,14 +12,11 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Reality-
 sidebar:
   order: 2
 ---
+
 ### Links
 
 - [Esther's website](https://www.estherlightcapmeek.com)
 - [A Little Manual for Knowing (book)](https://www.estherlightcapmeek.com/little-manual-lm.html)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/dorean.md)
 
 #### Hope as a Person
 

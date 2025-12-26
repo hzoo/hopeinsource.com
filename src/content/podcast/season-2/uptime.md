@@ -28,10 +28,6 @@ sidebar:
 - [vrecord](https://github.com/amiaopensource/vrecord) (open source video digitization software)
 - [Rhizome’s Webrecorder](https://webrecorder.io)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/conservation.md)
-
 [00:08] **Henry:** Yeah, today I have with me Jonathan Farbowitz. He's a fellow in the conservation of computer-based art. He assists at Guggenheim's conservation department addressing preservation needs of computer-based works in the Guggenheim collection. He also supports the development of best practices for collecting these kinds of artworks. He's also worked on the restorations of Shu Lea Cheang's Brandon, which is from 1998-1999, and John F. Simon, Jr.'s Unfolding Object, which is in 2012. He holds an MA in moving archiving and preservation from NYU as well as a BA from Vassar College and also has previous experience in software development and testing. Thanks for joining me today, Jonathan.
 
 [00:51] **Jonathan:** Thank you for having me.

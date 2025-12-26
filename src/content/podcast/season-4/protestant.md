@@ -10,12 +10,6 @@ sidebar:
     order: 6
 ---
 
-### Links
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/protestant.md)
-
 [00:00] **Henry:** We were just talking about different ways of thinking about Christianity and how for us, as Protestants, we noticed that it doesn't seem like we care about the body as much, right?
 
 > "For just as each of us has one body with many members, and these members do not all have the same function, so in Christ we, though many, form one body, and each member belongs to all the others." - Romans 12:4-5 (NIV)

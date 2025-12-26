@@ -18,10 +18,6 @@ sidebar:
 
 - The book, [Strange Rites](https://www.publicaffairsbooks.com/titles/tara-isabella-burton/strange-rites/9781541762510/)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/online.md)
-
 #### Charles Taylor meets Marshall McLuhan
 
 [00:00:00] **Henry:** I just read an awesome book and I figured maybe I'd reach out to the author to see if we could talk about it? So today I have with me Tara Isabella Burton. Thanks for joining today.

@@ -12,9 +12,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-6-Jor
 sidebar:
   order: 6
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/standards.md)
 
 [00:07] **Henry:** Today I have with me Jory Burson. She's been involved in standards for a really long time. I met her through TC39. Thanks for joining today.
 

@@ -13,9 +13,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-
 sidebar:
   order: 16
 ---
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/disembodiment.md)
 
 [00:00] **Henry:** You were telling me earlier about going back to..
 

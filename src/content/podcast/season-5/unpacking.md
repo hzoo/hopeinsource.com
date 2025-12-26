@@ -9,6 +9,7 @@ embedUrl: https://creators.spotify.com/pod/show/hopeinsource/embed/episodes/Unpa
 sidebar:
   order: 1
 ---
+
 ### Links
 
 - Concepts
@@ -23,10 +24,6 @@ sidebar:
   - [Feeding the 5000](https://en.wikipedia.org/wiki/Feeding_the_5000) - miracle story
   - [Golden Calf](https://en.wikipedia.org/wiki/Golden_Calf) - idolatry example
   - ["I never knew you"](https://www.biblegateway.com/passage/?search=Matthew%207:21-23&version=ESV) - Matthew 7:23
-
-### Transcript
-
-> Edited this for ease of reading. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-5/belief.md)
 
 [00:00] **Joseph:** I wanted to talk to you to explore what I believe because I still don't really know. Over the past eight-ish years, I've been thinking more about things, but still haven't... I have this giant 40-page doc that I sent you.
 
@@ -60,7 +57,6 @@ sidebar:
 
 [04:01] **Henry:** that it's not about self-interest, but the interest of others. Putting others in front of your own interests, which is really hard to do. Because we're always thinking about how to like me, right? It relates to commitment because there's a lack of commitment in our modern society. and I would like to understand that.
 
-
 #### The Trap of Infinite Options
 
 [04:21] **Henry:** There's an essay I like citing, called _The Trouble with Optionality_. It's talking about this. We love options, both financially, but that has infected our way of thinking.
@@ -83,7 +79,6 @@ sidebar:
 
 [06:40] **Henry:** But this is a core value of faith because... it's funny how so many things are very fundamental. You either get used to it because you've been in church for a long time or it's just really hard to live out. Faith in anything is about commitment to what you believe in, whether it's yourself, a company, science, or God.
 
-
 #### Beyond Idols
 
 [07:06] **Henry:** A big part of the faith is idolatry, which is worshiping things that you think are God that are not.
@@ -101,7 +96,6 @@ sidebar:
 [09:00] **Joseph:** But if you're choosing one other thing, that's not necessarily true anymore, like if you're choosing one spouse, or one career path or whatever else. Do you think that there's, maybe it goes back to the balance thing you were talking about, but I guess marriage is pertinent because Christians believe in monogamy, which is interesting.
 
 [09:35] **Joseph:** Why attach the Christian principle of commitment to who you decide to mate with?
-
 
 #### Marriage as Compounding Interest
 
@@ -127,7 +121,6 @@ sidebar:
 
 [12:43] **Joseph:** Right. It's like life itself. Temporary and voluntary, which makes it special. Yeah. Trust and connection. that's interesting. The real safety net is the really strong trust and connection. Bonds that you build with someone, with one spouse.
 
-
 #### Reconciling Lenses on Truth
 
 [13:06] **Joseph:** There's a meta conversation here where I'm like, I feel like what just happened is we were talking about the concept of commitment and paralysis of choices.
@@ -149,7 +142,6 @@ sidebar:
 [15:03] **Henry:** I don't know if I'm actively trying to, and you could say that I think as a Christian you want, the point of being a Christian is simple. It can be simplified to just be, you want to be like Jesus, to think like Jesus. So, yeah, you can bring in The Bible or various theology or whatever. and maybe it's related to the idol ideology thing is, I don't want to be convinced because, some other reason, but that doesn't mean that that other reason isn't spiritual.
 
 [15:35] **Henry:** We tend to create a secular sacred divide. Is spiritual and this is not. So one example would be like the right thing to do is to become a missionary, quit your job and the other one is like make a lot of money at some place and you donate. It sounds like a very ea way of thinking about it. And for me, I don't really want to believe in that binary. There's a lot of options in between, you know, on what your calling is. If God is to God of creativity, I, I just don't know why we're, we're trying to fit into these boxes on that. It's not the same as believing that God is our savior and stuff like that.
-
 
 #### Abundance as a Heavenly Mindset
 
@@ -223,7 +215,6 @@ sidebar:
 
 [22:47] **Henry:** What it just takes is a Christian that happens to like VRChat and they're already in a community, or they become a Christian later, they're like, I'm gonna do it. because no one else would do it. It makes sense that the younger people would do it because they think it's normal. And then older people would never do it because they don't know it exists or they think it's like from Satan or something. So yeah.
 
-
 #### Pharisees to Heretics
 
 [23:07] **Joseph:** So what do you think about like, people that seem to... I guess that's different, like people that misrepresent the faith? I mean, I guess there's a difference between misrepresenting and like Like I, I would define misrepresenting as someone who is Christian, says they're Christian and maybe does Christian practices, but their character is not actually consistent with Jesus maybe versus someone whose character's very consistent, but just does, but just kind of like breaks the rules, like and does VRChat communion.
@@ -245,7 +236,6 @@ sidebar:
 [26:18] **Henry:** Yeah. Middle is like golden mean middle. I think that's Aristotle. It's not like 50%. You can't really measure that. What does it mean to be courageous versus like reckless? Virtue involves people, right? And that involves character. And it probably involves looking at their whole life.
 
 [26:36] **Joseph:** My, my brain is like evolving as we speak. Um, ,I'm writing down all these notes, by the way. This is like really good stuff.
-
 
 #### Parables, Miracles, and Game Theory
 

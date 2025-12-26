@@ -9,11 +9,6 @@ embedUrl: https://creators.spotify.com/pod/show/hopeinsource/episodes/The-Faade-
 sidebar:
   order: 2
 ---
-### Links
-
-### Transcript
-
-> Edited this for ease of reading. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-5/facade.md)
 
 #### Intro
 

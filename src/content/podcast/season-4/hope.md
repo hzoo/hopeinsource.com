@@ -14,11 +14,6 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Finding-
 sidebar:
   order: 5
 ---
-### Links
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/hope.md)
 
 #### La Fatigue d'être soi (Weariness of the Self)
 

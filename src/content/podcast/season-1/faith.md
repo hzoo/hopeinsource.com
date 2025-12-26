@@ -9,14 +9,11 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/1-Faith-
 sidebar:
   order: 1
 ---
+
 ### Links
 
 - Henry's ZEIT Day talk: [In Pursuit of Open Source](https://www.youtube.com/watch?v=9sPDcVYX3g8)
 - Nadia's Grant: [Helium Grant](https://www.heliumgrant.org)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-1/faith.md)
 
 #### What is your faith background?
 

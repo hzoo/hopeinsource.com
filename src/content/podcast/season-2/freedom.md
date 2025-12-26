@@ -10,10 +10,6 @@ sidebar:
     order: 5
 ---
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-2/freedom.md)
-
 [00:00] **Henry:** Today I have with me, Evan You. He's the creator of Vue.js. He has been working full-time for about three years, and I thought it'd be great to have him on since we tend to... I guess we tend to come up a lot when people are talking about open source.
 
 [00:21] **Henry:** And it's funny, my first time meeting Evan, it was funny because I remember I went to JSConf Last Call, and it was the first conference I've ever been to. And then he randomly come out to me, like, "Henry?" I was like, "What?" And then he's like, "Any effects just like, Babel, runtime, bug with like version six or something?" I was like, "What are you talking about?" I just thought that was funny. That's the first thing that we interacted on.

@@ -24,16 +24,11 @@ sidebar:
   - [#168: Punks in the Beerlight, (2021)](https://kneelingbus.substack.com/p/168-punks-in-the-beerlight) (CDs, physical media)
   - [Halfway to a Third Place (2024)](https://kneelingbus.substack.com/p/halfway-to-a-third-place)
 
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-4/artificial.md)
-
 [00:00] **Henry:** Talking with Drew Austin. We're doing this in person, which is kind of new for me. And maybe for you too.
 
 [00:05] **Drew:** In person podcasting is back!
 
 [00:07] **Henry:** Yeah, I hope so.
-
 
 #### So what's the weather in New York?
 
@@ -53,7 +48,6 @@ sidebar:
 
 [01:51] **Drew:** That's also really important to me. I love not owning a car and I will try to not have a car as long as possible.
 
-
 #### Even a pandemic becomes about NYC
 
 [01:58] **Drew:** I think I've written about this a lot over the last year and a half since the pandemic started. The pandemic is obviously like a very physical problem in many ways, requiring us to isolate social distance being transmitted by people being close together.
@@ -67,7 +61,6 @@ sidebar:
 [03:03] **Henry:** Maybe it's self-fulfilling prophecy that maybe that's, I was thinking just memes in general, like the whole GameStop thing.
 
 [03:07] **Drew:** Yeah, and I mean that definitely seems to be borne out by the fact that I, I haven't checked lately, but just I know that the GameStop stock price is still like way, way above.
-
 
 #### We behave the same, online or in a city
 
@@ -85,7 +78,6 @@ sidebar:
 
 [04:28] **Henry:** He's known for saying like it's an extension of our body, but then we forget the second part of it, which is like, it can easily do the opposite, which is remove our senses or remove the need for our senses.
 
-
 #### Technology, Memory, and Depersonalization
 
 [04:39] **Drew:** You can see things like certain types of memory. You can see it in our culture that other ways of doing those things have atrophied. Memory is sort of like a complicated thing, but right now nobody feels like they're not gonna have most of the information they need at their fingertips. So it becomes less urgent. It almost feels pedantic to even.. I, I'm not complaining about that. I feel like it can be kind of missing the point if you complain about the fact that nobody has to remember facts anymore because they can look them up.
@@ -101,7 +93,6 @@ sidebar:
 [06:16] **Drew:** But secondly, a lot of times people wouldn't even know what was playing because they were just playing like a Pandora or like algorithmic playlist. The person both doesn't need to talk to you about what it is and doesn't know. So they've been removed from the whole process.
 
 [06:30] **Henry:** Yeah. Impersonal. I guess like they might even feel offended that you're asking at all. 'cause like everyone knows at this point you're supposed to just search Shazam it maybe eventually. Like there's no name to the music. It's just like all Yeah, like real time generated from like code or something.
-
 
 #### Lofi, CDs, and Artifical Physicality
 
@@ -149,7 +140,6 @@ sidebar:
 
 [13:01] **Drew:** Like most of the people that you see in your Twitter feed aren't actually on Twitter right now. They're probably like doing something else. It's pretty clear if you have an opportunity to find out how many people are online at one time. There are also a lot of eyeballs on the screen at any given moment.
 
-
 #### From Sharing Silence to gm
 
 [13:19] **Henry:** Yeah. I found myself like not using it much anymore. Sacasas was saying how like there's no way to be silent. Mm-Hmm. Online.
@@ -173,7 +163,6 @@ sidebar:
 [15:27] **Henry:** Yeah, that sounds like the YO app.
 
 [15:29] **Drew:** It's just that reappearing. I mean, I've seen it in like discord rooms where everyone's just saying GM and that's the only message that's being exchanged in the room. And obviously the app that was made recently. But all that stuff, I think it speaks to some. I mean, that's also just kind of a joke. I can't really like assess whether it speaks to some deeper need, but it does seem to be like kind of an example of something that's not like content in the way that we normally experience it.
-
 
 #### Worn Out: Fashion and Public Space
 
@@ -212,7 +201,6 @@ sidebar:
 [21:06] **Drew:** All of culture I think could be said to be a version of that. Like music is often clearly, even great music is clearly deriving tons of its characteristics from what's come before it. Any art, I would say there's a version of that happening. It's very natural and it's what we should want because once somebody comes up with something that works, everyone else can adopt it.
 
 [21:32] **Henry:** The style of it, it's like UI is just fashion of like software or something. Maybe tech cares too much about function.
-
 
 #### Modernist architecture and postmodernist software
 
@@ -264,7 +252,6 @@ sidebar:
 
 [27:23] **Henry:** People are more wary of tech values. It's a very broad statement. I guess my concern, that's someone that's sympathetic to it, bringing in old values back into the new medium, right? It's so easy to do that by accident. The artifacts that we make, embody our values whether we want to or not.
 
-
 #### Code isn't just code
 
 [27:41] **Henry:** If you have a different mental model of how the code works than them, that's why you can't understand it, because they are thinking from a certain viewpoint, and it's like if you can buy into that viewpoint, it'll be easier to go through the, say the tutorial or whatever on how it works.
@@ -278,7 +265,6 @@ sidebar:
 [28:58] **Henry:** One way of thinking about it is just trying to be aware of the fact that like everything can have bugs. My code can have bugs, like my program, but then the browser that I use can have bugs, which it does. And then even the program language itself. Yeah, that can have bugs. And then the CPU that you use can have bugs like all the way down.
 
 [29:16] **Henry:** So it's not that predictable. So they have to have error correcting, like built in to be resilient to like these kinds of random fluctuations of electricity or something.
-
 
 #### Infrastructure requires resilience
 
@@ -295,7 +281,6 @@ sidebar:
 [30:54] **Drew:** I also think one of the best and like most time honored sources of resilience in different areas of society is just more people having agency and more people being empowered.
 
 [31:06] **Drew:** And instead of having a more top-down system, having a lot of that agency sort of at the lower levels, what I think you could see that in terms of like communities, small businesses, the more of those types of things you have, the more resilient society usually is. The more consolidation happens, the more likely it is to be not resilient.
-
 
 #### The commons as customs
 
@@ -326,7 +311,6 @@ sidebar:
 [33:33] **Drew:** there would be a protocol. Yeah. That was easy for everybody to follow and understand.
 
 [33:39] **Henry:** And maybe that inherently means that it has to be local and like Yeah. Not really scalable.
-
 
 #### Airport Lounge-ification of Cities
 
@@ -366,7 +350,6 @@ sidebar:
 
 [36:41] **Drew:** In different sectors like gyms or WeWorks, there's all these different versions of spaces where you're kind of buying a membership to a desirable space and then you have unlimited access to it. And that's kind of the product, is just being in the space and that's what you're paying for, rather than getting any specific good or service. It's more about just existing within the brand.
 
-
 #### McDonalds as the only third place
 
 [37:03] **Henry:** And making it more like part of your day to day or just make it feel like it's just normal. Yeah, well, everyone goes to Starbucks, so it's like you go there to work. It's not even about coffee anymore. I think did, did they change the policy where like you could like just sit there or something?
@@ -387,7 +370,6 @@ sidebar:
 
 [39:38] **Drew:** That's pretty interesting. I think it's in New York. I think it's gonna be a coffee shop or cafe or something. Anytime something I think of is an app like suddenly has a physical presence in the world, it always makes me laugh.
 
-
 #### Reverse engineering bodegas
 
 [39:51] **Drew:** And I mean, there's more and more of the Amazon Go stores. It feels very weird and like bizarre every time I see one. Like I just walked past one the other day in Midtown. It's like sort of a AI generated like approximation of like what a store is. They are basically the product of, Amazon's data, about what types of things people want on a daily basis. That could be in like a bodega type setting. They just reverse engineered the corner store.
@@ -401,7 +383,6 @@ sidebar:
 [40:55] **Drew:** You know, there'll be a fiction section. There'll be, you know, poetry, like then all the different categories of nonfiction. In the Amazon store, it just felt, it actually felt like the physical manifestation of like the Netflix home screen where it's just rows of content filed according to different categories. Right. But they're not mutually exclusive. I can't even begin to like, yeah, yeah.
 
 [41:17] **Henry:** Well they're all like the most popular things, right? I wanna be able to feel like I can create my own serendipity, but they kind of force it on you and they're kind of ruins the joy of just finding something new 'cause of the algorithm.
-
 
 #### Fake serendipity vs the city
 
@@ -422,7 +403,6 @@ sidebar:
 [43:52] **Henry:** It's like a side effect where you can't.. Can't make it happen, but if you have those other things in place, then it'll go through.
 
 [44:00] **Drew:** It's like an outcome of a very intricately constructive environment that can only really arise over time with the ingredients being in place or the right characteristics of the place allowing. Things like serendipity to happen. It just means that it's a well-made environment.
-
 
 #### Can digital environments enable serendipity?
 
@@ -446,7 +426,6 @@ sidebar:
 
 [46:59] **Drew:** On a piece of paper, if something's been rubbed out and rewritten, there's more evidence of that. That's like a narrow example, but I think the physical world tends to just leave more traces.
 
-
 #### Leaving a trace, a legacy, provenance
 
 [47:12] **Henry:** Traces, yeah.
@@ -460,7 +439,6 @@ sidebar:
 [47:40] **Drew:** The idea that like the providence of an NFT can be or anything on the blockchain, you know? Yeah. That actually leaves a. Trail immutable, like trail like I think that's the type of thing where we're reacting to some of the problems with earlier versions of, of software or, or the digital world.
 
 [48:00] **Henry:** Is it good to create that water cooler type place? You coming here is like you had to. Take time to go A to B, and then everything online's instant. So it's like, yeah, the waiting room, whatever that means, so that people have a space where they can stop.
-
 
 #### Twitter as a waiting room
 

@@ -14,15 +14,12 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Towards-
 sidebar:
   order: 2
 ---
+
 ### Links
 
 - The Machine Stops (E. M. Forster)
 - Tools for Conviviality (Ivan Illich)
 - Severance (Ling Ma)
-
-### Transcript
-
-> Conversations may be edited for clarity. [(edit)](https://github.com/hzoo/hopeinsource.com/blob/main/src/content/podcast/season-3/shalom.md)
 
 #### Faith in Public
 
