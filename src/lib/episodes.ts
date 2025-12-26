@@ -1,5 +1,8 @@
-import { getCollection } from "astro:content";
-import type { PodcastEntry } from "@/types/podcast";
+import { getCollection, type CollectionEntry } from "astro:content";
+
+export type PodcastEntry = CollectionEntry<'podcast'> & {
+  slug: string;
+};
 
 // Parse title to separate episode name from guest name(s)
 function parseTitle(title: string): { episodeTitle: string; guests: string[] } {
