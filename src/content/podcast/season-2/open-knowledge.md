@@ -5,7 +5,7 @@ date: 2020-09-02
 time: "54"
 description: What does it mean to be code adjacent? Shawn Wang joins Henry to
   chat about not just open code but open thinking with his experience in
-  community managing, the idea of tumbling, moderating /r/reactjs, starting the
+  community managing, the idea of tummling, moderating /r/reactjs, starting the
   Svelete Society meetup, documenting and learning in public, being historians
   of our field, fresh notes vs. awesome lists, the meta language, and adoption
   curves. (recorded in June)
@@ -15,15 +15,11 @@ sidebar:
   order: 14
 ---
 
-### Links
+#### Tummling as an Alternative to Community Manager
 
-- [Shawn's blog](https://www.swyx.io)
+[00:00] **Henry:** Hey, this is Henry. I have with me, [Shawn](https://www.swyx.io).
 
-#### Tumbling as an Alternative to Community Manager
-
-[00:00] **Henry:** Hey, this is Henry. I have with me, Shawn.
-
-[00:02] **Henry:** Tumbling. You just mentioned this to me. Do you want to explain what that is?
+[00:02] **Henry:** Tummling. You just mentioned this to me. Do you want to explain what that is?
 
 [00:05] **Shawn:** Yeah, okay. So hi and thanks for having me on.
 
@@ -37,13 +33,15 @@ sidebar:
 
 [00:42] **Shawn:** And every time you like try to put together something for the community, they might participate, but then they don't seem to really carry on that momentum. It's up to you again and again, and again, to get things going.
 
-[00:54] **Shawn:** So Alex Hillman, who wrote this blog post, was trying to popularize this idea of an alternative, which is tumbling.
+[00:54] **Shawn:** So Alex Hillman, who wrote this blog post, was trying to popularize this idea of an alternative, which is tummling.
+
+> [Tummling as an Alternative to Community Manager](https://dangerouslyawesome.com/2014/04/community-management-tummling-a-tale-of-two-mindsets/)
 
 [00:59] **Shawn:** He also made the analogy, if you're community manager, you're like a cruise director and a single point of failure.
 
 [01:04] **Shawn:** Everything relies on you to get going. Everything relies on you to start and to organize schedules and stuff like that.
 
-[01:10] **Shawn:** Whereas, his idea of a tumbler is a person who makes things happen.
+[01:10] **Shawn:** Whereas, his idea of a tummler is a person who makes things happen.
 
 [01:13] **Shawn:** In particular, a professional entertainer, a comedian whose function is to encourage an audience, guests at a resort, to participate in the entertainment activities.
 
@@ -55,7 +53,7 @@ sidebar:
 
 [01:34] **Shawn:** So it really takes some talent in terms of community management to kickstart a many to many conversation, instead of many to one conversation with the community manager in the center of everything.
 
-[01:46] **Shawn:** So this idea of tumbling. I think it's an interesting word. That's why it catches attention. It doesn't really tell you how to do it. I mean, it'd be a good idea.
+[01:46] **Shawn:** So this idea of tummling. I think it's an interesting word. That's why it catches attention. It doesn't really tell you how to do it. I mean, it'd be a good idea.
 
 [01:54] **Shawn:** I think it's a good goal though. For example, one actionable step is to remove yourself from being a blocker on things, right? Let people self-organize. Give them the power and trust them with the responsibility.
 
@@ -130,6 +128,8 @@ sidebar:
 #### Becoming a Moderator for /r/reactjs
 
 [06:12] **Shawn:** Yeah. Okay, so we can talk about the subreddit thing. So for those who don't know, I am one of the moderators of the /r/reactjs subreddit.
+
+> [/r/reactjs](https://www.reddit.com/r/reactjs/)
 
 [06:21] **Shawn:** I joined when we were maybe 30, 40,000 people, and now it's coming up to 200,000.
 
@@ -369,7 +369,7 @@ sidebar:
 
 [18:22] **Shawn:** A typical like production repo would have like 10 different config files in the top level of the repo. The VS Code won't really work super well with Prettier, with Babel and ESLint.
 
-[18:31] **Shawn:** So to kind of bring it back to like the community thing, JavaScript doesn't really have a community manager or a tumbler. It just is this mess. Like maybe we should have one.
+[18:31] **Shawn:** So to kind of bring it back to like the community thing, JavaScript doesn't really have a community manager or a tummler. It just is this mess. Like maybe we should have one.
 
 [18:41] **Henry:** Yeah. I think about that too. It's not really about your individual tool because in the end, no one's going to use it by itself. So you kind of do have to know about every other tool anyway, no matter what you maintain.
 

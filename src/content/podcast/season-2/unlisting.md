@@ -16,10 +16,8 @@ embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-15-Ph
 sidebar:
   order: 15
 ---
-### Links
 
-- [3: Life After Digital Death)(https://hopeinsource.com/digital-death)
-- [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
+> See also: [1: Growing Old with the Web](/growing-old) and [3: Life After Digital Death](/digital-death)
 
 [00:00] **Henry:** The last time we chatted for the podcast, we were just talking about whatever and to see what happens.
 
