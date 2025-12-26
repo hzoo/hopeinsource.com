@@ -3,7 +3,7 @@
 ---
 
 <!-- Sidebar trigger button -->
-<button class="search-trigger" id="search-trigger" type="button" aria-label="Search transcripts">
+<button class="search-trigger" id="search-trigger" type="button" aria-label="Search transcripts" data-dev={import.meta.env.DEV ? "true" : undefined}>
   <svg class="search-trigger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
     <circle cx="11" cy="11" r="8"/>
     <path d="m21 21-4.35-4.35"/>
@@ -98,11 +98,13 @@
 
     createModal();
 
-    // Load Pagefind
-    try {
-      pagefind = await import('/pagefind/pagefind.js');
-    } catch (e) {
-      // Pagefind not available (dev mode)
+    // Load Pagefind (skip in dev mode to avoid 404 warnings)
+    if (!trigger.dataset.dev) {
+      try {
+        pagefind = await import('/pagefind/pagefind.js');
+      } catch (e) {
+        // Pagefind not available
+      }
     }
 
     // Trigger click
@@ -128,7 +130,8 @@
     input?.focus();
     // Show initial state
     if (!input?.value) {
-      resultsArea.innerHTML = '<div class="search-empty-state">Type to search transcripts</div>';
+      const msg = pagefind ? 'Type to search transcripts' : 'Search available after build (run preview)';
+      resultsArea.innerHTML = `<div class="search-empty-state">${msg}</div>`;
     }
   }
 
