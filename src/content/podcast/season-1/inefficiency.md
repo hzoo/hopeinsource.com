@@ -12,13 +12,11 @@ sidebar:
   order: 4
 ---
 
-### Links
-
-- Nadia's post: [Methodologies for measuring project health](https://nadia.xyz/project-health)
-
 #### What makes an organization healthy?
 
 [00:00] **Henry:** Alright, so in this episode, I wanted to talk about organizational health. Nadia just wrote a post about the health of an open source project and how we measure it, whether it's by contributors, activity, or output. It just got me thinking about how we measure that in a church. What's the relationship between church growth and health, the popularity of open source projects versus health or sustainability.
+
+> [Methodologies for measuring project health](https://nadia.xyz/project-health)
 
 [00:31] **Nadia:** It's interesting, even though I believe that we should be measuring a project's activity and output over number of contributors, it's an easier thing to visualize when you talk about people coming to your project or leaving your project as a sign of health. We've talked about this with church stuff, of bringing people into your congregation and who's attending. How many people are there? It's such an easy visual to fall back on. The stuff I was writing about was trying to make the case that number of contributors or attendees doesn't really matter. What matters more is what are you actually producing and putting out.
 
@@ -202,6 +200,8 @@ earlier open source and now.
 #### Intimacy with Martha and Mary
 
 [29:58] **Henry:** I think there are multiple parts to it. He used this passage where it's talking about Mary and Martha, and so one of them washing the dishes basically and the other one was washing Jesus's feet. And so she was like, "Hey, why don't you help me in the kitchen 'cause we have to like get stuff done?" And the other person is just being with Jesus, like in relationship.
+
+> "Martha, Martha, you are worried and upset about many things, but few things are needed—or indeed only one. Mary has chosen what is better, and it will not be taken away from her." - [Luke 10:41-42](https://www.biblegateway.com/passage/?search=Luke+10:41-42)
 
 [30:21] **Henry:** And so his point was that, you can spend your whole life, this is for spirituality. You can go to a seminary and study about God, you can read about God, you can listen to podcasts about God, you can talk about it, all these things. And yet in the end, you might not actually know him at all, because you turned it into this kind of game where there's a number attached to it versus like washing someone's feet, that's a very like different thing from accomplishing all these things.
 

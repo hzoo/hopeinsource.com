@@ -52,7 +52,7 @@ sidebar:
 
 [02:47] **Jonathan:** Yeah, it's really interesting too because it's back in the time when Jesus was, there were a lot of different people like the Roman government or just the culture that they lived in. There are people who isolate from society because of being incredibly hopeless with whatever God was calling them to live in accordance to. Then there are other people who are like, I'm just going to give up and follow whatever people around me are doing. And there are people who are like really fiery, the zealots, right? They would resort to violence, to means that really go against how God calls us to live, to love other people.
 
-**Jonathan:** And it's so interesting because I was reading The Creative Minority by John Tyson. A lot of people see the religious group of ISIS trying to take control by force. What they find to be correct, what they find to be true. And they're trying to take back their culture. and it's interesting cause us as Christians, when we get really frustrated, we feel like we have to win our culture back and we have that mentality. He drew really interesting parallels, right? And it's not every day when people make comparisons with the modern church and ISIS, right.
+**Jonathan:** And it's so interesting because I was reading [A Creative Minority](https://www.goodreads.com/book/show/32934494-a-creative-minority) by Jon Tyson. A lot of people see the religious group of ISIS trying to take control by force. What they find to be correct, what they find to be true. And they're trying to take back their culture. and it's interesting cause us as Christians, when we get really frustrated, we feel like we have to win our culture back and we have that mentality. He drew really interesting parallels, right? And it's not every day when people make comparisons with the modern church and ISIS, right.
 
 **Jonathan:** But the church, they shy away from these problems or try to almost be more silent because they don't want to be seen in that light. How do you participate in this community while also living out your faith and showing people, wow, this is the greatest thing that's ever happened to me.
 
@@ -120,7 +120,7 @@ sidebar:
 
 **Henry:** I was really internally motivated to work on stuff. That's why I was so into programming cause I made my own projects and I went to hackathons or whatever was interesting. I just did it. I'm trying to learn how to be more, experimental or spontaneous in having ideas and just trying them out and not being so scared.
 
-**Henry:** I think one thing that we all could be better at is having the confidence to execute on our imagination. I remember reading this book recently called Art and Fear, and one of quotes was saying:
+**Henry:** I think one thing that we all could be better at is having the confidence to execute on our imagination. I remember reading this book recently called [Art and Fear](https://www.goodreads.com/book/show/187633.Art_and_Fear), and one of quotes was saying:
 
 **Henry:** "Your imagination is always going to be like ahead of what you can do, your execution."
 
@@ -140,7 +140,7 @@ sidebar:
 
 [14:50] **Jonathan:** I just don't want to cut you, you know.
 
-[14:53] **Henry:** Recently I've been thinking more about creativity. I don't see myself as an artist in the traditional sense of the word, but starting to read this book called The Mind of the Maker. It's a book by Dorothy Sayers, and she's writing about the Trinity, about God the maker. And she's explaining the Trinity through creativity.
+[14:53] **Henry:** Recently I've been thinking more about creativity. I don't see myself as an artist in the traditional sense of the word, but starting to read this book called [The Mind of the Maker](https://www.goodreads.com/book/show/782050.The_Mind_of_the_Maker). It's a book by Dorothy Sayers, and she's writing about the Trinity, about God the maker. And she's explaining the Trinity through creativity.
 
 **Henry:** Oh, she was saying that the Trinity is one of the doctrines in Christianity that's the hardest to understand because there's no relation to reality, and we try to find metaphors because that's how we understand things.
 
@@ -192,7 +192,7 @@ sidebar:
 
 **Henry:** We want to treat everything like a robot or a program because it's easy to reason about those things. But reality is so complicated that it actually makes more sense to treat it as living
 
-**Henry:** This is like the book I was reading, The Death and Life of Great American Cities. The last chapter is called "What kind of problem is the city"? She was saying in the book that if you approach a problem in the wrong way, then you won't be able to attempt to solve it. Treating it as a problem of simplicity will lead you in the wrong direction. Applying that to cities, Jane Jacobs, her thing was that the urban planners at that time, this was 1960s New York, they have a certain vision of what a city should look like. A vision is a fixed picture and usually your picture of what you think something should be become.
+**Henry:** This is like the book I was reading, [The Death and Life of Great American Cities](https://www.goodreads.com/book/show/30833.The_Death_and_Life_of_Great_American_Cities). The last chapter is called "What kind of problem is the city"? She was saying in the book that if you approach a problem in the wrong way, then you won't be able to attempt to solve it. Treating it as a problem of simplicity will lead you in the wrong direction. Applying that to cities, Jane Jacobs, her thing was that the urban planners at that time, this was 1960s New York, they have a certain vision of what a city should look like. A vision is a fixed picture and usually your picture of what you think something should be become.
 
 **Henry:** Maybe that goes back to Christianity too, us imposing our view of what we think flourishing is. The problem is that if we don't accomplish that, you might be hard on yourself or other people for not stepping up.
 

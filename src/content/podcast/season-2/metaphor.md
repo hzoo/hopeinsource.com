@@ -280,7 +280,7 @@ sidebar:
 
 [30:59] **Maggie:** Yeah. I know. I also liked the fact that whoever it is, they're anonymous, just like this, you know, generic developer.
 
-[31:10] **Maggie:** We also wanted to talk about, well a book, but most also more of an idea. So there's this book called **Purity and Danger** by an anthropologist called Mary Douglas. And she, I think she wrote this book in the 1960s, and it's essentially kind of the quintessential anthropological text about, ideas about purity, pollution, dirt, cleanliness and danger.
+[31:10] **Maggie:** We also wanted to talk about, well a book, but most also more of an idea. So there's this book called [Purity and Danger](https://maggieappleton.com/dirt) by an anthropologist called Mary Douglas. And she, I think she wrote this book in the 1960s, and it's essentially kind of the quintessential anthropological text about, ideas about purity, pollution, dirt, cleanliness and danger.
 
 [31:33] **Maggie:** So how those ideas all relate to each other and they do quite strongly. This definitely maps onto programming because I mean, we very much talk about programming through bodily metaphors. And a lot of this book is about bodily pollution and our discomfort with the body and how we use pollution rules to sort of police and maintain the body in certain ways, which also can get a bit into **Michael Foucalt**. But he's a bit too much. I think we should rather leave him cause he's a deep one. Mary Douglas wrote this book, before Focault and so she starts out by defining dirt which seems kind of strange.
 
@@ -346,7 +346,7 @@ sidebar:
 
 [40:17] **Henry:** Yeah. And I know in some games they'll, they'll show your hands, but they don't show your arms, so at least you have some anchor to see what you're doing. It kind of reminds me of, like **McLuhan** in my talk too, from **The Medium is the Message**. You know, he talks about how technologies are extensions of your physical and nervous system. Right. I think that's really interesting metaphor too.
 
-[40:41] **Maggie:** Yeah. Yeah. I had mentioned that a bit in the, in the other talk I'd done too, one of my favorite sort of philosopher anthropologists, is a guy called **Andy Clark**, and he wrote this book, **Natural Born Cyborgs**, which argues to take cyborg, just to mean a blend of technology and human, that he says from the beginning, we are, have always been tool-based creatures and that the tools are extensions of ourselves.
+[40:41] **Maggie:** Yeah. Yeah. I had mentioned that a bit in the, in the other talk I'd done too, one of my favorite sort of philosopher anthropologists, is a guy called **Andy Clark**, and he wrote this book, [Natural Born Cyborgs](https://maggieappleton.com/cyborg-history), which argues to take cyborg, just to mean a blend of technology and human, that he says from the beginning, we are, have always been tool-based creatures and that the tools are extensions of ourselves.
 
 [41:00] **Maggie:** And a digital tool is no different to a hammer or a cup. You know, and it can get a bit tricky with it if you want, you know, and to go into the whole world theory where you say, we are all one, you know, I am not different than the cup and the cup is, is part of me and I am part of the cup and that sort of thing.
 

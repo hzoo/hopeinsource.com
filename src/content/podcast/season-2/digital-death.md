@@ -16,11 +16,6 @@ sidebar:
   order: 16
 ---
 
-### Links
-
-- [1: Growing Old with the Web](https://hopeinsource.com/growing-old)
-- [2: Unlisiting Yourself](https://hopeinsource.com/growing-old)
-
 #### The Trilogy
 
 [00:00] **Henry:** I have Phillip Gee with me, again. The second podcast we just did was about wanting to leave the public internet. And then now it's sort of like what happens after?
@@ -31,7 +26,11 @@ sidebar:
 
 [00:25] **Philip:** Just feeding into my narcissism and Messiah complex here. Just terrible!
 
-[00:31] **Philip:** So the recap is we did one podcast, like a year ago, and it was about growing old with the web. And that I've maintained a personal website for over 20 years and this Python tutor software for over 10 years. And just thinking about long term sustainability of maintaining an online public presence over decades.
+[00:31] **Philip:** So the recap is we did one podcast, like a year ago, and it was about growing old with the web.
+
+> Previous episodes: [1: Growing Old with the Web](/growing-old) and [2: Unlisting Yourself](/unlisting)
+
+**Philip:** And that I've maintained a personal website for over 20 years and this Python tutor software for over 10 years. And just thinking about long term sustainability of maintaining an online public presence over decades.
 
 [00:51] **Philip:** And the second one was about a month ago, when you found out that I started taking some of my stuff off YouTube. And you email me, Oh, what's up with you taking stuff off. And then we did a podcast, just brainstorming my plans to kind of quit the public internet.
 

@@ -12,10 +12,6 @@ sidebar:
   order: 2
 ---
 
-### Links
-
-- [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)
-
 #### A Call to Commitment
 
 [00:00] **Nadia:** Today we're gonna be talking about the concept of membership in a church. What it means to commit or not commit to attending. That's it, right?
@@ -24,7 +20,7 @@ sidebar:
 
 [00:18] **Nadia:** I was thinking about this topic because I was reading this book called Call to Commitment, about a church that took the approach of drawing very clear lines around who was a member of the church and who isn't.
 
-> [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) is by Elizabeth O'Connor, who wrote about her membership at [Church of the Saviour](<https://en.wikipedia.org/wiki/Church_of_the_Saviour_(Washington,_D.C.)>), with a focus on lay (not professional) ministry, accountability, and intimacy. They emphasized small groups over what has become mega churches, and influenced movements such as the emergent church.
+> [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) is about [Church of the Saviour](https://en.wikipedia.org/wiki/Church_of_the_Saviour_(Washington,_D.C.)), a DC church that practiced covenant-based membership and mutual responsibility vs casual attendance, and influenced the emergent church movement.
 
 [00:33] **Nadia:** The idea being that if you wanna show up and attend, you're always welcome to attend, welcome to take part and enjoy the services. But if you really wanna be a part of the church, they wanna know that you're super committed. And that means saying no to people that might be casually committed. It taught me about what it means to have a smaller group of people that are actually at that level of commitment.
 
@@ -156,7 +152,7 @@ sidebar:
 
 [21:55] **Henry:** Yeah, which is really hard to do (laughs).
 
-[21:57] **Nadia:** (Laughs) I'm trying to do that in my head right now. And I think the reason I think we're talking about this is just the idea that, at least I feel like there's sort of been this historical.. in the early days of source there was very much this focus on a BDFL, benevolent dictator for life, and the maintainer was the authority, and then there was kind of this swing in a different direction more recently around going very far to the other side of being super sort of welcoming, and bringing everyone in. Everyone can participate however they wanna participate. And I'm struggling to find that like happy medium between the two, because there are tradeoffs on both, right?
+[21:57] **Nadia:** (Laughs) I'm trying to do that in my head right now. And I think the reason I think we're talking about this is just the idea that, at least I feel like there's sort of been this historical.. in the early days of source there was very much this focus on a [BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), benevolent dictator for life, and the maintainer was the authority, and then there was kind of this swing in a different direction more recently around going very far to the other side of being super sort of welcoming, and bringing everyone in. Everyone can participate however they wanna participate. And I'm struggling to find that like happy medium between the two, because there are tradeoffs on both, right?
 
 [22:37] **Nadia:** When you're too authoritarian, then people are unhappy (laughs). They don't enjoy working on the project, everyone's in this very, difficult situation where it's just like not at all democratic. But then if you go too far on the other side, you find that it becomes really overwhelming to cater to the needs to lots of people who might not necessarily be that committed.
 
@@ -176,7 +172,7 @@ sidebar:
 
 [25:09] **Henry:** Then with church it's like, you know, we have whether it's this prayer meeting, or on Friday nights I have Bible study, at the end we talk about what's going on in your life, and you're sharing, being able to talk about the issues that you're dealing with.
 
-[25:28] **Henry:** And even with open source, we have like the "maintainers" repo, but that's just a repo. And maybe you don't really know everyone that well. And having events, I forgot the name of the event, like Maintainerati or those kind of things. I think those could be, I haven't been to any of them, but those seem pretty useful. So just be able to be with people that are maybe dealing with the same issues.
+[25:28] **Henry:** And even with open source, we have like the "maintainers" repo, but that's just a repo. And maybe you don't really know everyone that well. And having events, I forgot the name of the event, like [Maintainerati](https://maintainerati.org) or those kind of things. I think those could be, I haven't been to any of them, but those seem pretty useful. So just be able to be with people that are maybe dealing with the same issues.
 
 [25:57] **Nadia:** Yeah, within projects too, right. There's so many maintainers I've talked to who've like never met their fellow maintainers, which I just think is really funny. It's just like internet friends.
 

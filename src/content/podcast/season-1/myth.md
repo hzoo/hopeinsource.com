@@ -12,13 +12,11 @@ sidebar:
   order: 7
 ---
 
-### Links
-
-- Babel and Guy Fieri ("Favorite Moments" section): https://github.com/open-source/stories/hzoo#favorite-moments
-- On Fairy Stories (Tolkien): https://en.wikipedia.org/wiki/On_Fairy-Stories
-- "Time to Leave" blog post: https://medium.com/@mikeal/time-to-leave-a68294ccb2af
+> In [On Fairy-Stories](https://en.wikipedia.org/wiki/On_Fairy-Stories), Tolkien argues that fairy tales offer "recovery" (seeing your world from a new perspective), "escape", and "consolation" through the happy ending he calls "eucatastrophe". He connects this to Christianity: "The Gospels contain a fairy-story, or a story of a larger kind which embraces all the essence of fairy-stories."
 
 [00:00] **Nadia:** Today we're gonna talk about stories and myths and narratives and open source and how they build the history and community of our projects. And, I remember, when I first met you, Henry, you were talking about [Babel], and I think it was because I was asking you for an [interview](https://github.com/open-source/stories/hzoo) for GitHub and I asked you something about, like, what's something funny or memorable that happened in open source and you gave this story that, that was definitely more interesting than anyone (laughs), any other story I got.. about the whole like Guy Fieri thing and sort of like a, you know, [pull request](https://github.com/babel/babel/pull/3641) that went in and, uh, that was started as a joke and became a real thing, and then, like I don't know, there was like, a [sweater](https://twitter.com/jdan/status/819602334263152644) involved or something? It was just like a very elaborate story.
+
+> See the [Favorite Moments](https://github.com/open-source/stories/hzoo#favorite-moments) section of the interview for the full Guy Fieri story.
 
 [00:50] **Nadia:** I remember thinking when I heard that story, "Wow, Babel is a really interesting project (laughs), or a really interesting community." The role of stories as a way of socializing people into what a culture is like very quickly.
 
@@ -126,6 +124,8 @@ sidebar:
 [22:49] **Nadia:** ... an open source maintainer. I think, I think it was Mikeal that like wrote a response to that being like, "You just gotta step down (laughs) if you're feeling it." Um.
 
 [22:57] **Henry:** Yeah, I think I read that. He said that, yeah.
+
+> [Time to Leave](https://medium.com/@mikeal/time-to-leave-a68294ccb2af) - Mikeal Rogers on stepping down as a maintainer
 
 [23:00] **Nadia:** Yeah and he was like, "You just need to trust that like someone is gonna take up the mantle." But yeah. That's a very scary thing where it's like, it seems like a really nice sweet spot is that time where you were sort of talking about, where you're sort of like defective, haven't even been involved for a while, so it's easy to kind of be like, "I'm not even doing anything. Like I've kind of been silently fading into the background. You're gonna be fine without me."
 

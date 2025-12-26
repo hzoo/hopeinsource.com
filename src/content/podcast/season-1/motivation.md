@@ -12,10 +12,6 @@ sidebar:
   order: 3
 ---
 
-### Links
-
-- [Call to Commitment](https://www.amazon.com/Call-commitment-Church-Saviour-Washington/dp/B0006AYJSS) (book)
-
 #### Finding Your Inner Quiet
 
 [00:00] **Henry:** So, in this episode, I want to bring up topics around work, burnout, and why we do what we do. And motivations and goals that we have when we're working in open source or anything in life.
@@ -155,6 +151,8 @@ sidebar:
 [24:11] **Nadia:** Yeah. That is what open source actually is.
 
 [24:15] **Henry:** And so I'm not opposed to "putting barriers", not because I don't want people to be in, but it's like the fact that we allow everyone just means everyone has a bad experience. So for our own sake and for new people's sakes, so that they don't leave, we should figure out a way ... kind of like what we said last episode about finding committed people that wanna be a part of this project in depth versus some surface-level thing.
+
+> See the previous episode on [Community Membership](/membership) for more on committed vs casual contributors.
 
 [24:47] **Nadia:** Right. Actually, I just had a conversation with someone else about that. I was like, what are your heuristics for being able to tell when someone is not just in it ... they're not just gonna peace out for the project, but they're actually a little bit more interested in sticking around.
 

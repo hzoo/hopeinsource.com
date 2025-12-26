@@ -16,12 +16,9 @@ sidebar:
   order: 9
 ---
 
-### Links
-
-- [Wendy Hagenmaier](https://www.library.gatech.edu/wendy-hagenmaier)
-- [Fostering Communities of Practice](https://www.softwarepreservationnetwork.org/fcop) (part of [Software Preservation Network](https://www.softwarepreservationnetwork.org))
-
 [00:06] **Henry:** Today, I have with me, Wendy. She's the digital collections archivist at Georgia Tech Library. I thought that it would be cool to talk with her because archival in a way it seems to relate a lot to maintenance, especially with digital archiving, it's related to software. So yeah, thanks for joining with me today.
+
+> [Wendy Hagenmaier](https://www.library.gatech.edu/wendy-hagenmaier)   
 
 [00:24] **Wendy:** Yeah. Thanks so much, Henry. I originally emailed you because I have been thinking a lot about software preservation and software archives lately. And at the same time, a lot of archivists have been talking about and getting involved with maintainer communities. And one of my archivist colleagues saw one of your tweets about your maintainers podcast and passed along your contact. So yeah, I'm really excited to talk with you today.
 
@@ -144,5 +141,7 @@ sidebar:
 [40:52] **Henry:** Yeah. Yeah. Exactly. Yeah. I think that would be a good place to stop. Would you like to ... If people want to catch up with what you're working on, how should they check out your work online?
 
 [41:02] **Wendy:** I guess maybe if we could refer people to the software preservation cohort, the fostering community of practice, that might be good. People could get from there to wherever if they want to know more about our specific organizations.
+
+> [Fostering Communities of Practice](https://www.softwarepreservationnetwork.org/fcop) (part of [Software Preservation Network](https://www.softwarepreservationnetwork.org))
 
 [41:18] **Henry:** Thanks for listening. Check out our website, maintainersanonymous.com for show notes and transcripts. If you have any feedback, ideas or guest suggestions, you can reach me on Twitter @left_pad. If you'd like to support the show, you can visit patrion.com/henryzhu.

@@ -10,11 +10,6 @@ sidebar:
   order: 1
 ---
 
-### Links
-
-- Henry's ZEIT Day talk: [In Pursuit of Open Source](https://www.youtube.com/watch?v=9sPDcVYX3g8)
-- Nadia's Grant: [Helium Grant](https://www.heliumgrant.org)
-
 #### What is your faith background?
 
 [00:00] **Nadia:** So we decided to start recording some conversations about open source and faith, because both of us have noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, Christian faith.
@@ -31,7 +26,7 @@ sidebar:
 
 [01:05] **Nadia:** I'm not religious, but I've had an academic interest in it for as long as I can remember.
 
-[01:15] **Nadia:** I went to a Quaker high school, which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
+[01:15] **Nadia:** I went to a [Quaker](https://en.wikipedia.org/wiki/Quakers) high school, which was definitely really influential for me. Quakers have a really strong background in public service, community service, activism, and things like that. So that definitely has fed into my understanding of faith and religion and community.
 
 #### Faith as restorative
 
@@ -48,6 +43,8 @@ sidebar:
 [02:41] **Nadia:** I'm mixing all these terms of faith, spirituality, religion, and those are each different things, but the aspects of faith that are really present in open source are around community organizing, and also a sense of service, giving something to other people without expecting anything in return, for the benefit of some greater good.
 
 [03:08] **Henry:** Well I gave a talk on this in SF, at Zeit Day, but the way I got started in open source wasn't because I thought it was about community or serving people.
+
+> [In Pursuit of Open Source](https://www.youtube.com/watch?v=9sPDcVYX3g8) - Henry's ZEIT Day talk
 
 [03:19] **Henry:** I thought it was just cool that people are working together and I use stuff and it would be nice to be able say that you worked on some project. So it came from a pretty selfish point of view of wanting to be involved in something bigger.
 
@@ -86,6 +83,8 @@ sidebar:
 [10:49] **Nadia:** Within the concept of spiritual practice, there's a lot of overlap here. There are religions that are based around mega-churches and are all about fundraising, selling some sort of a product, or a promise to people. And there's also faith that's extremely personal and private and sometimes it's not even connected to community at all but is about yourself and your own self-discovery. The money question is a separate thing from your personal level or connection to whatever you practice. Within open source there's a million different reasons how you might end up sustaining it or not, but that doesn't invalidate the underlying motivation.
 
 [11:51] **Henry:** I was talking more from a personal point of view of what you were saying about a discipline in giving. We have habits that affect how we actually live and what we believe, and sometimes what we think we believe isn't what we end up doing because we don't practice it. Even what you're doing with the [grant](https://www.heliumgrant.org), it's a really cool way of doing it. You could talk all day about giving, but if we're not actually doing it in the day-to-day, that might lead us away, and then you find out maybe years later, "Oh, I've lost that sense," if you even realize that.
+
+> Nadia's Helium Grants: https://www.heliumgrant.org
 
 [12:35] **Nadia:** Giving in really small ways every day is a really important practice.
 
@@ -166,6 +165,8 @@ sidebar:
 [28:21] **Henry:** That could be for a lot of reasons. I also have a bible study or small group on Fridays. After work, every Friday I would go there. Maybe I'm super tired from work and everyone else is too, but I'm going there to be renewed and restored. Not because I'm tired and "Oh, I don't want to go anymore." It's something completely different from work and we're able to share with one another the struggles or encourage one another and the things that's happening in our lives. That's where the church is.
 
 [29:01] **Henry:** I don't know if that's true for open source for everyone, but I think it can be. Service is hard because sometimes the idea of serving versus serving itself, it competes. I have this really good quote. This is more really specific to faith but I think it's relevant. It says, "Beware of anything that competes with our loyalty to Jesus. The greatest comparator of true devotion to Jesus is the service we do for him. It's easier to serve than to pour out our lives for him. The goal of the call of God is the satisfaction, not simply that we should do something for him. We're not sent to do battle for God, but to be used by God in his battles. Are we more devoted to service than we are to Jesus himself?"
+
+> "Beware of anything that competes with your loyalty to Jesus Christ. The greatest competitor of true devotion to Jesus is the service we do for Him. It is easier to serve than to pour out our lives completely for Him." - Oswald Chambers, [It Is the Lord!](https://utmost.org/updated/it-is-the-lord/)
 
 [29:58] **Henry:** And so for the faith thing, maybe serving becomes your own God, and feeling like you're so important and the sense of service trumps the point of faith in the first place. Which is interesting, where your work becomes your God, rather than working to serve because you already have God.
 

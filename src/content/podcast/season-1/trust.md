@@ -286,6 +286,8 @@ sidebar:
 
 [30:11] **Henry:** And so, this is an example that talks about how like if you have the faith of a mustard seed, which is a very small little, tiny thing. Um, even that amount of faith can move mountains. And the reason why you can say that is, because it's not because of you, it's the thing that you're trusting in. And so, if you believe in a God that is powerful, then even the smallest amount of trust means something to you.
 
+> He replied, "Because you have so little faith. Truly I tell you, if you have faith as small as a mustard seed, you can say to this mountain, 'Move from here to there,' and it will move. Nothing will be impossible for you." - [Matthew 17:20 (NIV)](https://www.biblegateway.com/passage/?search=Matthew+17:20)
+
 [30:33] **Henry:** Um, and this is- I guess this is true for in other aspects as well. Like um, you know, when you're going on a- a plane ride to fly somewhere, you're trusting that the pilot knows what he's doing, or he or she, and then like the plane itself is gonna work and all that stuff. Or you go to the dentist, and you- you- you like, maybe you're really trusting that they're not gonna screw up everything. Um, and maybe you don't trust 'em a lot, right? (laughs) But, uh, but you know like, oh okay (laughs) they- they got a degree in whatever it is. Um, yeah.
 
 [31:09] **Nadia:** It's sorta crazy to think about like ... You're describing as a mustard seed, but as (laughs) you're going through those kinds of examples like pilots and dentist and stuff, it's kinda like everything we're doing is ... Like you really just don't know anything (laughs) about anything.

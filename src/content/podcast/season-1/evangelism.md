@@ -12,10 +12,6 @@ sidebar:
   order: 5
 ---
 
-### Links
-
-- 2017 Open Source Survey: http://opensourcesurvey.org/
-
 [00:00] **Henry:** I think we mentioned evangelism in the last episode, so we thought it would be a good idea to go into that topic in more detail. About how evangelism in the faith context might not be that different in open source ‘cause we're also trying to get people to either do open source as a whole or get involved in your project.
 
 [00:22] **Nadia:** I was talking to a friend about this who pointed out that the term evangelism in tech is like evangelism from religion which sounds obvious but I hadn't really thought of before. That's kind of weird that we use this term evangelism, which has a religious context to it. So yeah, we're gonna talk about the relationship between the two.
@@ -88,11 +84,15 @@ sidebar:
 
 [16:12] **Nadia:** Yeah, I, I was thinking about this, in relation to like community values. Like we're talking about as like an individual but also sort of like how does a community embody values and how does, yeah, how does the community collectively evangelize I guess. And I was thinking about this open source survey we did at GitHub I think two years ago now and one of the things we had found- we were sort of like randomly sampling people on, on GitHub who were on open source repositories about their behavior and, and things they witnessed and one of the things that came out of it was a lot of people had witnessed a negative interaction on a project and that made them not wanna participate.
 
+> [2017 Open Source Survey](http://opensourcesurvey.org/)
+
 [16:58] **Nadia:** And I guess the insight being that it's not even about whether you're … It wasn't even about whether someone did something negative to you but even if you witnessed a negative interaction happen, it would make people wanna leave. And the takeaway for me on that was like it's really important for a community to act as though everyone is watching because like you don' know who might have stumbled upon your project and was thinking about contributing and then they saw something and then it just put them off and then they left.
 
 [17:29] **Nadia:** And yeah I guess it's, it goes back to this idea of like it's not even about who you're directly interacting with but it's about like living through example or, um, yeah just being em- embodying like whatever it is you wanna embody all the time when people are watching or when you're in public and, and people will pick up on that and choose to sort of engage or not engage.
 
-[17:56] **Henry:** Yeah, that is, uh, too real (laughs). I feel that so much in, well, both in my faith and in open source because I think the problem is you know that's true but then that also may lead to like a sense of, you know, anxiousness ‘cause you know that everyone's watching. Um, and that's just the, the issue with doing anything in public, um, and even as people of faith, you're called to, yeah, it says in the Bible that we're called to be ambassadors for Christ and witnesses. I think those are good words to explain that, you know, it's not what we believe or our story but it's like God's story of how we should act and we shouldn't, you know, you know, cater to in necessarily like dumb it down kind of thing but like represent what that is and we can't compromise on that either.
+[17:56] **Henry:** Yeah, that is, uh, too real (laughs). I feel that so much in, well, both in my faith and in open source because I think the problem is you know that's true but then that also may lead to like a sense of, you know, anxiousness 'cause you know that everyone's watching. Um, and that's just the, the issue with doing anything in public, um, and even as people of faith, you're called to, yeah, it says in the Bible that we're called to be ambassadors for Christ and witnesses. I think those are good words to explain that, you know, it's not what we believe or our story but it's like God's story of how we should act and we shouldn't, you know, you know, cater to in necessarily like dumb it down kind of thing but like represent what that is and we can't compromise on that either.
+
+> "We are therefore Christ’s ambassadors, as though God were making his appeal through us. We implore you on Christ’s behalf: Be reconciled to God." - [2 Corinthians 5:20](https://www.biblegateway.com/passage/?search=2+Corinthians+5:20)
 
 [18:51] **Henry:** And that's what makes it, uh, so hard because it's so easy for you to just say things right, but to live it out is, is different and I don't, yeah, like I wanna be a person of integrity and to not be a hypocrite but like what you said, anyone that says they are part of your group and they do something quote, bad or wrong and then it makes like the trust and all of it worse for everyone. And so like when you see like people calling out maintainers or saying they, they're bad and all that stuff, you feel really bad ‘cause you know that it's not just that person getting mad or that person feeling bad but everyone that sees him, that could be so many people.
 
@@ -117,6 +117,8 @@ sidebar:
 [23:33] **Nadia:** It becomes a sort of like downward spiral into, I don't know. It maybe goes back to what I was saying about the witnessing community interactions, like when you feel like that behavior is okay then you kind of engage more deeply in that negative behavior and then it kind of spirals down which I think makes it all the more important that people try to go higher instead of lower.
 
 [23:54] **Henry:** Yeah, I know sort of like the whole mob mentality of like oh, this person sucks so I'm gonna also say they suck and then like you're not ever looking at yourself to see if you're, they, you know, having those same behaviors and it actually reminds me of that quote from Batman about how like, what was it, like you die a hero or you live long enough to see yourself become the villain. Um, I think that's pretty applicable in a lot of areas.
+
+> "You either die a hero or you live long enough to see yourself become the villain." - Harvey Dent, [The Dark Knight](https://en.wikipedia.org/wiki/The_Dark_Knight)
 
 [24:30] **Nadia:** Work (laughs). I guess I was just wondering of like, I mean I, I just kind of, this may be a cheesy thought but just like everyone in some sense is evangelizing something, right and so it was sort of odd to me I guess that like religious evangelism gets a bad rep. I think maybe because there are people who have done it in more extreme ways that is like not desirable, but in the end like sort of I guess the way we described it like it doesn't seem any different to me than like how anyone is trying to live their life and be a positive example for others, right? Like is there some other piece of it that I'm missing or is it really just no different from any other kind of evangelism?
 
