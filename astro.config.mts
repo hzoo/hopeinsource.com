@@ -4,6 +4,7 @@ import preact from '@astrojs/preact';
 
 import { remarkTranscriptPlugin } from "./src/remark-transcript-plugin/plugin";
 import { remarkResponsiveImages } from './src/plugins/remark-responsive-images';
+import { remarkLinksExtractor } from './src/plugins/remark-links-extractor';
 
 // https://astro.build/config
 export default defineConfig({
@@ -13,7 +14,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   markdown: {
-    remarkPlugins: [remarkTranscriptPlugin, remarkResponsiveImages],
+    remarkPlugins: [remarkLinksExtractor, remarkTranscriptPlugin, remarkResponsiveImages],
   },
   experimental: {
     // headingIdCompat: true,

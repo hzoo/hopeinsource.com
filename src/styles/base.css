@@ -734,3 +734,24 @@ html {
     transform: translateY(-50%) scale(0.8);
   }
 }
+
+/* Reference blockquote highlight animation */
+.ref-highlight {
+  animation: ref-flash 1.5s ease-out;
+}
+
+@keyframes ref-flash {
+  0%, 30% {
+    background: color-mix(in oklab, var(--color-his-green) 20%, transparent);
+    box-shadow: 0 0 0 4px color-mix(in oklab, var(--color-his-green) 15%, transparent);
+  }
+  100% {
+    background: transparent;
+    box-shadow: none;
+  }
+}
+
+/* Reference blocks in transcript */
+.reference-block {
+  scroll-margin-top: 80px;
+}

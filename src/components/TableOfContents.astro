@@ -1,4 +1,6 @@
 ---
+import type { ExtractedLink } from "@/plugins/remark-links-extractor";
+
 interface TOCHeading {
   slug: string;
   text: string;
@@ -6,52 +8,59 @@ interface TOCHeading {
 
 interface Props {
   headings: TOCHeading[];
+  extractedLinks?: ExtractedLink[];
 }
 
-const { headings } = Astro.props;
+const { headings, extractedLinks = [] } = Astro.props;
+const hasContent = headings.length > 0 || extractedLinks.length > 0;
 ---
 
-{headings.length > 0 && (
+{hasContent && (
   <>
-    <!-- Scrubber toggle (desktop only, right side) -->
+    <!-- Scrubber (tablet+, right side) -->
     <div
       id="toc-scrubber"
-      class="hidden lg:flex fixed right-3 top-1/2 -translate-y-1/2 flex-col items-end gap-1.5 p-2 z-40 group cursor-pointer"
+      class="hidden md:flex fixed right-3 top-1/2 -translate-y-1/2 flex-col items-end gap-1.5 p-2 z-40"
       aria-label="Table of contents"
     >
-      {headings.map((heading) => (
-        <div
-          class="toc-scrubber-bar w-3 h-0.5 bg-his-text-tertiary transition-all duration-300 rounded-full group-hover:bg-his-text-secondary"
-          data-scrubber-id={heading.slug}
-        />
-      ))}
-    </div>
-    
-    <!-- Table of contents overlay (opens to left of scrubber) -->
-    <nav
-      id="toc-nav"
-      class="hidden lg:block fixed right-12 top-1/2 w-64 max-h-[80vh] bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-300 z-50 overflow-y-auto"
-      style="transform: translateY(-50%) translateX(10px);"
-    >
-      <div class="p-2">
-        <div class="flex items-center justify-between border-b border-his-hr/50 pb-2 mb-2">
-          <h3 class="text-[10px] font-bold uppercase tracking-[0.2em] text-his-text-tertiary px-2.5">Contents</h3>
-          <button
-            id="toc-close"
-            class="text-his-text-tertiary hover:text-his-text transition-colors p-1"
-            aria-label="Close table of contents"
-          >
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
-              <path d="M18 6L6 18M6 6l12 12" />
-            </svg>
-          </button>
-        </div>
-        <ul class="list-none p-0">
+      {/* Section bars */}
+      {headings.length > 0 && (
+        <div id="toc-bars" class="flex flex-col items-end gap-1.5 cursor-pointer group">
           {headings.map((heading) => (
-            <li class="mb-0.5">
+            <div
+              class="toc-scrubber-bar w-4 h-1 bg-his-text-tertiary transition-all duration-300 rounded-full group-hover:bg-his-text-secondary"
+              data-scrubber-id={heading.slug}
+            />
+          ))}
+        </div>
+      )}
+      {/* Reference count badge - vertical layout */}
+      {extractedLinks.length > 0 && (
+        <div
+          id="ref-badge"
+          class="mt-3 flex flex-col items-center gap-0.5 text-[10px] text-his-text-tertiary hover:text-his-green transition-colors cursor-pointer"
+        >
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
+          </svg>
+          <span class="font-medium">{extractedLinks.length}</span>
+        </div>
+      )}
+    </div>
+
+    <!-- TOC popover (sections) -->
+    {headings.length > 0 && (
+      <nav
+        id="toc-nav"
+        class="hidden md:block fixed right-12 top-1/2 w-64 max-h-[70vh] bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 z-50"
+        style="transform: translateY(-50%) translateX(10px);"
+      >
+        <ul class="list-none p-2 space-y-0.5 overflow-y-auto max-h-[70vh] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          {headings.map((heading) => (
+            <li>
               <a
                 href={`#${heading.slug}`}
-                class="toc-link block rounded-md text-sm no-underline transition-all duration-200 hover:bg-his-hover py-2 px-2.5 text-his-text-secondary hover:text-his-text"
+                class="toc-link block rounded-md text-sm no-underline transition-all duration-200 hover:bg-his-hover py-2 px-2.5 text-his-text-secondary hover:text-his-text font-medium"
                 data-heading-id={heading.slug}
               >
                 {heading.text}
@@ -59,185 +68,193 @@ const { headings } = Astro.props;
             </li>
           ))}
         </ul>
+      </nav>
+    )}
+
+    <!-- References popover -->
+    {extractedLinks.length > 0 && (
+      <div
+        id="ref-popover"
+        class="hidden md:block fixed right-12 top-[calc(50%+80px)] w-72 max-h-[60vh] overflow-hidden bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 z-50"
+        style="transform: translateY(-50%) translateX(10px);"
+      >
+        <div class="p-1.5 overflow-y-auto max-h-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+          {extractedLinks.map((link) => (
+            <div
+              class="ref-popover-item py-2 px-2 rounded-md hover:bg-his-hover/50 cursor-pointer transition-colors"
+              data-ref-id={`ref-${link.blockquoteIndex}`}
+            >
+              {link.quoteText && (
+                <p class="text-sm text-his-text-secondary leading-relaxed mb-1 line-clamp-2">
+                  {link.quoteText.slice(0, 120)}{link.quoteText.length > 120 ? '...' : ''}
+                </p>
+              )}
+              <a
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-1 text-xs text-his-green hover:underline"
+                onclick="event.stopPropagation();"
+              >
+                <svg class="w-3 h-3 flex-shrink-0 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+                <span>{link.text}</span>
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
-    </nav>
+    )}
   </>
 )}
 
 <script>
-  let currentActiveId: string | null = null;
-  let isManuallyOpened = false;
-  let hoverTimeout: ReturnType<typeof setTimeout> | null = null;
+  function initTOC() {
+    let currentActiveId: string | null = null;
+    let tocOpen = false;
+    let refOpen = false;
 
-  const tocScrubber = document.getElementById('toc-scrubber');
-  const tocNav = document.getElementById('toc-nav');
-  const tocClose = document.getElementById('toc-close');
-  const tocLinks = document.querySelectorAll('.toc-link');
-  const scrubberBars = document.querySelectorAll('.toc-scrubber-bar');
+    const tocBars = document.getElementById('toc-bars');
+    const tocNav = document.getElementById('toc-nav');
+    const tocLinks = document.querySelectorAll('.toc-link');
+    const scrubberBars = document.querySelectorAll('.toc-scrubber-bar');
 
-  function setActive(id: string) {
-    if (currentActiveId === id) return;
-    currentActiveId = id;
+    const refBadge = document.getElementById('ref-badge');
+    const refPopover = document.getElementById('ref-popover');
+    const refPopoverItems = document.querySelectorAll('.ref-popover-item');
 
-    // Update overlay links
-    tocLinks.forEach(link => {
-      const linkId = link.getAttribute('data-heading-id');
-      if (linkId === id) {
-        link.classList.add('active');
-        link.classList.add('text-his-green');
-      } else {
-        link.classList.remove('active');
-        link.classList.remove('text-his-green');
-      }
+    // Add IDs to blockquotes
+    document.querySelectorAll('main blockquote').forEach((bq, index) => {
+      bq.id = `ref-${index}`;
+      bq.classList.add('reference-block');
     });
 
-    // Update scrubber bars
-    scrubberBars.forEach(bar => {
-      const barId = bar.getAttribute('data-scrubber-id');
-      if (barId === id) {
-        bar.classList.add('bg-his-green');
-        bar.classList.add('w-5');
-        bar.classList.remove('bg-his-text-tertiary');
-      } else {
-        bar.classList.remove('bg-his-green');
-        bar.classList.remove('w-5');
-        bar.classList.add('bg-his-text-tertiary');
-      }
-    });
-  }
+    function setActive(id: string) {
+      if (currentActiveId === id) return;
+      currentActiveId = id;
 
-  function openTOC() {
-    tocNav?.classList.remove('invisible', 'opacity-0');
-    tocNav?.classList.add('opacity-100');
-    // Shift the nav in (from right side)
-    tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(0)');
-  }
+      tocLinks.forEach(link => {
+        const linkId = link.getAttribute('data-heading-id');
+        link.classList.toggle('active', linkId === id);
+        link.classList.toggle('text-his-green', linkId === id);
+      });
 
-  function closeTOC() {
-    tocNav?.classList.remove('opacity-100');
-    tocNav?.classList.add('invisible', 'opacity-0');
-    tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
-    isManuallyOpened = false;
-  }
-
-  // Hover to expand
-  tocScrubber?.addEventListener('mouseenter', () => {
-    if (hoverTimeout) clearTimeout(hoverTimeout);
-    openTOC();
-  });
-
-  tocScrubber?.addEventListener('mouseleave', () => {
-    if (!isManuallyOpened) {
-      hoverTimeout = setTimeout(() => {
-        if (!tocNav?.matches(':hover')) {
-          closeTOC();
-        }
-      }, 300);
+      scrubberBars.forEach(bar => {
+        const barId = bar.getAttribute('data-scrubber-id');
+        const isActive = barId === id;
+        bar.classList.toggle('bg-his-green', isActive);
+        bar.classList.toggle('w-6', isActive);
+        bar.classList.toggle('bg-his-text-tertiary', !isActive);
+      });
     }
-  });
 
-  tocNav?.addEventListener('mouseenter', () => {
-    if (hoverTimeout) clearTimeout(hoverTimeout);
-  });
-
-  tocNav?.addEventListener('mouseleave', () => {
-    if (!isManuallyOpened) {
-      hoverTimeout = setTimeout(closeTOC, 300);
+    function openTOC() {
+      closeRefPopover();
+      tocNav?.classList.remove('invisible', 'opacity-0');
+      tocNav?.classList.add('opacity-100');
+      tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(0)');
+      tocOpen = true;
     }
-  });
 
-  // Click to pin open
-  tocScrubber?.addEventListener('click', () => {
-    if (isManuallyOpened) {
+    function closeTOC() {
+      tocNav?.classList.remove('opacity-100');
+      tocNav?.classList.add('invisible', 'opacity-0');
+      tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+      tocOpen = false;
+    }
+
+    function openRefPopover() {
       closeTOC();
-    } else {
-      openTOC();
-      isManuallyOpened = true;
+      refPopover?.classList.remove('invisible', 'opacity-0');
+      refPopover?.classList.add('opacity-100');
+      refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(0)');
+      refOpen = true;
     }
-  });
 
-  // Close button click
-  tocClose?.addEventListener('click', (e) => {
-    e.stopPropagation();
-    closeTOC();
-  });
+    function closeRefPopover() {
+      refPopover?.classList.remove('opacity-100');
+      refPopover?.classList.add('invisible', 'opacity-0');
+      refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+      refOpen = false;
+    }
 
-  // Click outside to close
-  document.addEventListener('click', (e) => {
-    const target = e.target as HTMLElement;
-    if (tocNav?.classList.contains('opacity-100')) {
-      if (!tocNav.contains(target) && !tocScrubber?.contains(target)) {
+    // Click to toggle TOC
+    tocBars?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      tocOpen ? closeTOC() : openTOC();
+    });
+
+    // Click to toggle refs
+    refBadge?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      refOpen ? closeRefPopover() : openRefPopover();
+    });
+
+    // Click outside to close
+    document.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      if (tocOpen && !tocNav?.contains(target) && !tocBars?.contains(target)) {
         closeTOC();
       }
-    }
-  });
-
-  // Escape key
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && tocNav?.classList.contains('opacity-100')) {
-      closeTOC();
-    }
-  });
-
-  // Smooth scroll for links
-  tocLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-      const href = link.getAttribute('href');
-      if (href) {
-        const target = document.querySelector(href);
-        if (target) {
-          closeTOC();
-          setTimeout(() => {
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-          }, 100);
-        }
+      if (refOpen && !refPopover?.contains(target) && !refBadge?.contains(target)) {
+        closeRefPopover();
       }
     });
-  });
 
-  // Intersection Observer for active heading
-  // Use a different root margin to detect when the heading reaches the top
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          setActive(entry.target.id);
+    // Escape to close
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeTOC();
+        closeRefPopover();
+      }
+    });
+
+    // TOC links - scroll to section
+    tocLinks.forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const href = link.getAttribute('href');
+        if (href) {
+          const target = document.querySelector(href);
+          if (target) {
+            closeTOC();
+            setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+          }
         }
       });
-    },
-    { 
-      // Look for headings in the top 20% of the viewport
-      rootMargin: '-10% 0px -70% 0px',
-      threshold: 0
-    }
-  );
+    });
 
-  const headingElements = document.querySelectorAll('h4');
-  headingElements.forEach((heading) => observer.observe(heading));
+    // Ref items - scroll to blockquote (keep popover open)
+    refPopoverItems.forEach(item => {
+      item.addEventListener('click', (e) => {
+        if ((e.target as HTMLElement).tagName === 'A') return;
+        const refId = item.getAttribute('data-ref-id');
+        if (refId) {
+          const target = document.getElementById(refId);
+          if (target) {
+            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            target.classList.add('ref-highlight');
+            setTimeout(() => target.classList.remove('ref-highlight'), 1500);
+          }
+        }
+      });
+    });
 
-  // Initialize active state based on current scroll position or hash
-  function initActiveState() {
+    // Intersection Observer for active heading
+    const observer = new IntersectionObserver(
+      (entries) => entries.forEach((entry) => {
+        if (entry.isIntersecting) setActive(entry.target.id);
+      }),
+      { rootMargin: '-10% 0px -70% 0px', threshold: 0 }
+    );
+    document.querySelectorAll('h4').forEach((h) => observer.observe(h));
+
+    // Init from hash
     const hash = window.location.hash;
-    if (hash) {
-      const id = hash.replace('#', '');
-      setActive(id);
-    }
+    if (hash) setActive(hash.replace('#', ''));
   }
 
-  window.addEventListener('load', initActiveState);
-
-  // Re-initialize after View Transitions
-  document.addEventListener('astro:after-swap', () => {
-    // Re-observe headings on new page
-    const newHeadingElements = document.querySelectorAll('h4');
-    newHeadingElements.forEach((heading) => observer.observe(heading));
-
-    // Reset active state
-    currentActiveId = null;
-    initActiveState();
-
-    // Ensure TOC is closed on navigation
-    closeTOC();
-  });
-</script> 
+  initTOC();
+  document.addEventListener('astro:after-swap', initTOC);
+</script>

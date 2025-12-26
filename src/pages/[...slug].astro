@@ -6,6 +6,7 @@ import TableOfContents from "../components/TableOfContents.astro";
 import AudioPlayer from "@/components/AudioPlayer.astro";
 import Footer from "@/components/Footer.astro";
 import { hisMetadata } from "@/metadata.ts";
+import type { ExtractedLink } from "@/plugins/remark-links-extractor";
 
 export async function getStaticPaths() {
   const podcastEntries = await getCollection("podcast");
@@ -32,8 +33,9 @@ export async function getStaticPaths() {
   const pages = await Promise.all(
     podcastEntries.map(async (entry) => {
       const slug = entry.id.split("/").pop() || "";
-      const { Content, headings } = await render(entry);
+      const { Content, headings, remarkPluginFrontmatter } = await render(entry);
       const h4Headings = headings.filter((h) => h.depth === 4);
+      const extractedLinks = (remarkPluginFrontmatter?.extractedLinks || []) as ExtractedLink[];
 
       return {
         params: { slug },
@@ -43,6 +45,7 @@ export async function getStaticPaths() {
           headings: h4Headings,
           frontmatter: entry.data,
           episodeNumber: episodeNumbers.get(slug || "") || 0,
+          extractedLinks,
         },
       };
     }),
@@ -51,7 +54,7 @@ export async function getStaticPaths() {
   return pages;
 }
 
-const { slug, Content, headings, frontmatter, episodeNumber } = Astro.props;
+const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks } = Astro.props;
 
 // Parse title to separate episode name from guest
 function parseTitle(title: string): { episodeTitle: string; guest: string | null } {
@@ -66,7 +69,7 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
 ---
 
 <Layout frontmatter={frontmatter} slug={`/${slug}`}>
-  <EpisodeSidebar currentSlug={slug} headings={headings} />
+  <EpisodeSidebar currentSlug={slug} />
 
   <div class="lg:ml-80 flex flex-col h-screen">
     {/* Sticky chat header - like DM conversation header */}
@@ -157,7 +160,7 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
       {frontmatter.description}
     </p>
 
-    <TableOfContents headings={headings} />
+    <TableOfContents headings={headings} extractedLinks={extractedLinks} />
 
     <div class="mx-auto max-w-3xl">
       <main>
