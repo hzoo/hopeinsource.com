@@ -1,11 +1,11 @@
 /**
  * Custom Pagefind indexing script
  *
- * Indexes each transcript message as its own search result with:
- * - Direct URL: /{slug}/#msg-{seconds}
- * - Content: Speaker: message text
- * - Metadata: title, speaker, timestamp
- * - Filters: episode, speaker
+ * Indexes transcripts in 5-minute chunks to reduce file count.
+ * Embeds [MM:SS] timestamps in content so client can extract exact anchors.
+ * - Direct URL: /{slug} (base, client rewrites to exact anchor)
+ * - Content: [MM:SS] Speaker: text...
+ * - Metadata: title, speakers
  */
 
 import * as pagefind from "pagefind";
@@ -15,9 +15,12 @@ import matter from "gray-matter";
 
 const CONTENT_DIR = "src/content/podcast";
 const OUTPUT_DIR = "dist/pagefind";
+const BUCKET_SIZE_SECONDS = 120; // 2 minutes
 
 // Match: [00:31] **Nadia:** Text here...
-const timestampRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s*\*\*([^*]+)\*\*:?\s*([\s\S]*)/;
+const timestampRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s*\*\*([^*]+)\*\*:?\s*(.*)/;
+// Match: **Nadia:** Text here... (No timestamp)
+const speakerRegex = /^\*\*([^*]+)\*\*:?\s*(.*)/;
 
 interface Message {
   seconds: number;
@@ -41,24 +44,63 @@ function parseTimestamp(timestamp: string): number {
   return parts[0] * 60 + parts[1];
 }
 
+function formatTimestamp(seconds: number): string {
+  const mins = Math.floor(seconds / 60);
+  const secs = seconds % 60;
+  return `${String(mins).padStart(2, "0")}:${String(secs).padStart(2, "0")}`;
+}
+
 function parseTranscriptMessages(markdown: string): Message[] {
-  // Normalize line endings (CRLF -> LF)
   const normalized = markdown.replace(/\r\n/g, "\n");
-  const paragraphs = normalized.split("\n\n");
+  const lines = normalized.split("\n");
   const messages: Message[] = [];
 
-  for (const para of paragraphs) {
-    const trimmed = para.trim();
-    const match = trimmed.match(timestampRegex);
-    if (match) {
-      const [, timestamp, speaker, text] = match;
-      messages.push({
-        seconds: parseTimestamp(timestamp),
+  let currentMessage: Message | null = null;
+  let lastSeconds = 0;
+  let lastTimestamp = "00:00";
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (!trimmed) continue;
+
+    const tsMatch = trimmed.match(timestampRegex);
+    const speakerMatch = trimmed.match(speakerRegex);
+
+    if (tsMatch) {
+      if (currentMessage) messages.push(currentMessage);
+
+      const [, timestamp, speaker, text] = tsMatch;
+      const seconds = parseTimestamp(timestamp);
+
+      lastSeconds = seconds;
+      lastTimestamp = timestamp;
+
+      currentMessage = {
+        seconds,
         timestamp,
         speaker: speaker.replace(/:$/, "").trim(),
-        text: text.trim().replace(/\n/g, " "),
-      });
+        text: text.trim(),
+      };
+    } else if (speakerMatch) {
+      if (currentMessage) messages.push(currentMessage);
+
+      const [, speaker, text] = speakerMatch;
+
+      currentMessage = {
+        seconds: lastSeconds,
+        timestamp: lastTimestamp,
+        speaker: speaker.replace(/:$/, "").trim(),
+        text: text.trim(),
+      };
+    } else if (currentMessage) {
+      if (!trimmed.startsWith("#") && !trimmed.startsWith("---")) {
+        currentMessage.text += " " + trimmed;
+      }
     }
+  }
+
+  if (currentMessage) {
+    messages.push(currentMessage);
   }
 
   return messages;
@@ -84,13 +126,12 @@ async function getEpisodeFiles(): Promise<string[]> {
 }
 
 function getSlugFromPath(filePath: string): string {
-  // src/content/podcast/season-1/authority.md -> authority (just the filename)
   const filename = filePath.split("/").pop() || "";
   return filename.replace(/\.md$/, "");
 }
 
 async function main() {
-  console.log("Building search index...");
+  console.log("Building search index with 2-minute buckets...");
 
   const { index } = await pagefind.createIndex();
   if (!index) {
@@ -101,48 +142,43 @@ async function main() {
   const files = await getEpisodeFiles();
   console.log(`Found ${files.length} episode files`);
 
+  let totalBuckets = 0;
   let totalMessages = 0;
-  const speakers = new Set<string>();
 
   for (const filePath of files) {
     const content = await readFile(filePath, "utf-8");
     const { data, content: body } = matter(content);
     const frontmatter = data as EpisodeFrontmatter;
-
     const slug = getSlugFromPath(filePath);
-    const messages = parseTranscriptMessages(body);
 
-    console.log(`  ${slug}: ${messages.length} messages`);
+    const messages = parseTranscriptMessages(body);
+    totalMessages += messages.length;
+
+    console.log(`  ${slug}: ${messages.length} msgs`);
+
+    let currentBucketEnd = BUCKET_SIZE_SECONDS;
+    let currentBucketMessages: Message[] = [];
 
     for (const msg of messages) {
-      speakers.add(msg.speaker);
+      if (msg.seconds >= currentBucketEnd && currentBucketMessages.length > 0) {
+        await indexBucket(index, slug, frontmatter, currentBucketMessages);
+        totalBuckets++;
 
-      const result = await index.addCustomRecord({
-        url: `/${slug}#msg-${msg.seconds}`,
-        content: `${msg.speaker}: ${msg.text}`,
-        language: "en",
-        meta: {
-          title: frontmatter.title,
-          speaker: msg.speaker,
-          timestamp: msg.timestamp,
-        },
-        filters: {
-          episode: [slug],
-          speaker: [msg.speaker],
-        },
-      });
-
-      if (result.errors?.length) {
-        console.error(`  Error indexing message:`, result.errors);
+        currentBucketMessages = [];
+        while (msg.seconds >= currentBucketEnd) {
+          currentBucketEnd += BUCKET_SIZE_SECONDS;
+        }
       }
+      currentBucketMessages.push(msg);
     }
 
-    totalMessages += messages.length;
+    if (currentBucketMessages.length > 0) {
+      await indexBucket(index, slug, frontmatter, currentBucketMessages);
+      totalBuckets++;
+    }
   }
 
-  console.log(`\nIndexed ${totalMessages} messages`);
-  console.log(`Speakers: ${[...speakers].join(", ")}`);
-
+  console.log(`\nIndexed ${totalMessages} messages into ${totalBuckets} buckets`);
   console.log(`\nWriting index to ${OUTPUT_DIR}...`);
   const writeResult = await index.writeFiles({ outputPath: OUTPUT_DIR });
 
@@ -155,6 +191,48 @@ async function main() {
   await pagefind.close();
 
   console.log("Search index built successfully!");
+}
+
+async function indexBucket(
+  index: any,
+  slug: string,
+  frontmatter: EpisodeFrontmatter,
+  messages: Message[]
+) {
+  if (messages.length === 0) return;
+
+  const startMsg = messages[0];
+  const uniqueSpeakers = [...new Set(messages.map(m => m.speaker))];
+
+  // IMPORTANT: Embed [MM:SS] in content so Pagefind excerpts include timestamps
+  // This allows client-side extraction of exact anchor
+  const fullText = messages.map(m =>
+    `[${m.timestamp}] ${m.speaker}: ${m.text}`
+  ).join("\n\n");
+
+  // URL needs unique anchor so Pagefind doesn't deduplicate buckets
+  // Client will rewrite to precise #msg-{seconds} based on excerpt
+  const url = `/${slug}#bucket-${startMsg.seconds}`;
+  const bucketTitle = `${frontmatter.title} (${startMsg.timestamp})`;
+
+  const result = await index.addCustomRecord({
+    url,
+    content: fullText,
+    language: "en",
+    meta: {
+      title: bucketTitle,
+      speakers: uniqueSpeakers.join(", "),
+      timestamp: startMsg.timestamp,
+    },
+    filters: {
+      episode: [slug],
+      speaker: uniqueSpeakers,
+    },
+  });
+
+  if (result.errors?.length) {
+    console.error(`  Error indexing bucket ${slug} at ${startMsg.timestamp}:`, result.errors);
+  }
 }
 
 main().catch((err) => {

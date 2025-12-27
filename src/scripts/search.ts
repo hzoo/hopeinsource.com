@@ -20,6 +20,35 @@ interface Pagefind {
     search: (query: string) => Promise<{ results: PagefindResult[] }>;
 }
 
+/**
+ * Extract the first timestamp [MM:SS] from an HTML excerpt and convert to seconds.
+ * This allows us to construct precise #msg-{seconds} anchors even when indexing by bucket.
+ */
+function extractTimestampSeconds(excerpt: string): number | null {
+    // Pagefind may wrap matches in <mark>, so we need to strip HTML first
+    const textOnly = excerpt.replace(/<[^>]*>/g, '');
+
+    // Look for patterns like [00:31] or [1:05:30]
+    const timestampMatch = textOnly.match(/\[(\d{1,2}):(\d{2})(?::(\d{2}))?\]/);
+    if (!timestampMatch) return null;
+
+    const [, first, second, third] = timestampMatch;
+    if (third !== undefined) {
+        // Format is HH:MM:SS
+        return parseInt(first) * 3600 + parseInt(second) * 60 + parseInt(third);
+    }
+    // Format is MM:SS
+    return parseInt(first) * 60 + parseInt(second);
+}
+
+/**
+ * Extract seconds from bucket URL like /slug#bucket-123
+ */
+function extractBucketSeconds(url: string): number | null {
+    const match = url.match(/#bucket-(\d+)/);
+    return match ? parseInt(match[1]) : null;
+}
+
 let pagefind: Pagefind | null = null;
 let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 let selectedIndex = -1;
@@ -28,8 +57,82 @@ let modal: HTMLDivElement | null = null;
 let input: HTMLInputElement | null = null;
 let resultsArea: HTMLDivElement | null = null;
 let currentSearch: { results: PagefindResult[] } | null = null;
-let loadedCount = 0;
-const PAGE_SIZE = 15;
+// Load up to 500 results to ensure we can group them properly by episode
+const MAX_RESULTS = 500;
+
+// Quotes from the podcast for the empty state
+const SEARCH_QUOTES = [
+    {
+        text: "Hope is not something that should be deprived from anyone. We want people to have hope. We all want a better world.",
+        author: "Alex Kim",
+        url: "/hope#msg-2601" // [43:21]
+    },
+    {
+        text: "Hope is a personed affair, right? And so you've rooted the open source in the person.",
+        author: "Esther",
+        url: "/reality#msg-31" // [00:31]
+    },
+    {
+        text: "If I give you a gift, the point is not really the object moving from me to you. It's more that it establishes a social bond between us.",
+        author: "Maggie Appleton",
+        url: "/gift#msg-256" // [04:16]
+    },
+    {
+        text: "We've lost that understanding of what it means for it to be a gift economy.",
+        author: "Maggie Appleton",
+        url: "/metaphor#msg-791" // [13:11]
+    },
+    {
+        text: "Code itself is just an artifact. But when we think of code as infrastructure... suddenly there's a relationship.",
+        author: "Nadia Asparouhova",
+        url: "/city#msg-2327" // [38:47]
+    },
+    {
+        text: "Inhabiting is the best way to maintain a building alive.",
+        author: "Marianita Palumbo",
+        url: "/heritage#msg-324" // [05:24]
+    },
+    {
+        text: "Open source is actually making the opposite, making the maintenance of it the front line, by exposing all of this.",
+        author: "Bernardo Robles Hidalgo",
+        url: "/heritage#msg-2009" // [33:29]
+    },
+    {
+        text: "One of the ways that we tell our testimony is just like, sharing with people all the ways that I am broken.",
+        author: "Jonathan Tsao",
+        url: "/haircut#msg-1206" // [20:06]
+    },
+    {
+        text: "Trust is about not fully knowing the other person... and just sort of accepting that things might go in different ways.",
+        author: "Nadia Asparouhova",
+        url: "/trust#msg-1579" // [26:19]
+    }
+];
+
+function getEmptyStateHtml(): string {
+    const quote = SEARCH_QUOTES[Math.floor(Math.random() * SEARCH_QUOTES.length)];
+    return `
+    <div class="search-splash">
+      <div class="search-splash-icon">✦</div>
+      <div class="search-splash-hint">Search transcripts</div>
+      <a href="${quote.url}" class="search-splash-quote-link">
+        <blockquote class="search-splash-quote">
+            <p>"${quote.text}"</p>
+            <cite>— ${quote.author}</cite>
+        </blockquote>
+      </a>
+    </div>
+  `;
+}
+
+function getLoadingHtml(): string {
+    return `
+    <div class="search-loading">
+      <div class="search-loading-spinner"></div>
+      <span>Searching...</span>
+    </div>
+  `;
+}
 
 function createModal() {
     if (modal) return;
@@ -72,7 +175,7 @@ function createModal() {
         if (debounceTimer) clearTimeout(debounceTimer);
 
         if (!query) {
-            resultsArea!.innerHTML = '<div class="search-empty-state">Type to search transcripts</div>';
+            resultsArea!.innerHTML = getEmptyStateHtml();
             return;
         }
 
@@ -101,6 +204,42 @@ function createModal() {
 
     // Backdrop click
     backdrop.addEventListener('click', closeModal);
+
+    // Handle search result clicks - close modal and navigate to hash (delegated)
+    resultsArea.addEventListener('click', (e) => {
+        // Handle both search results and splash quote links
+        const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('.search-result, .search-splash-quote-link');
+
+        if (link) {
+            e.preventDefault();
+            const url = new URL(link.href, window.location.origin);
+            const hash = url.hash;
+
+            closeModal();
+
+            // If same page, manually scroll to hash target
+            if (url.pathname === window.location.pathname && hash) {
+                const targetId = hash.slice(1); // Remove #
+                const target = document.getElementById(targetId);
+                if (target) {
+                    // Small delay to let modal close animation complete
+                    setTimeout(() => {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                        // Trigger highlight animation if message
+                        if (target.classList.contains('message')) {
+                            target.classList.add('highlight-flash');
+                            setTimeout(() => target.classList.remove('highlight-flash'), 1500);
+                        }
+                    }, 100);
+                }
+                // Update URL hash
+                history.pushState(null, '', hash);
+            } else {
+                // Different page - do normal navigation
+                window.location.href = link.href;
+            }
+        }
+    });
 }
 
 function handleGlobalKeydown(e: KeyboardEvent) {
@@ -132,8 +271,7 @@ async function openModal() {
     input?.focus();
 
     if (!input?.value && resultsArea) {
-        const msg = pagefind ? 'Type to search transcripts' : 'Search available after build (run preview)';
-        resultsArea.innerHTML = `<div class="search-empty-state">${msg}</div>`;
+        resultsArea.innerHTML = pagefind ? getEmptyStateHtml() : '<div class="search-empty-state">Search available after build</div>';
     }
 }
 
@@ -152,84 +290,151 @@ async function performSearch(query: string) {
 
     try {
         currentSearch = await pagefind.search(query);
-        loadedCount = 0;
 
         if (!currentSearch || currentSearch.results.length === 0) {
             resultsArea.innerHTML = '<div class="search-no-results">No results found</div>';
             return;
         }
 
-        selectedIndex = -1;
-        await loadMoreResults();
+        // Load ALL results (up to MAX_RESULTS) so we can group effectively
+        resultsArea.innerHTML = getLoadingHtml();
+
+        const allResults: PagefindData[] = [];
+        const resultsToLoad = Math.min(currentSearch.results.length, MAX_RESULTS);
+
+        // Load in batches of 20 concurrently
+        const batchSize = 20;
+        for (let i = 0; i < resultsToLoad; i += batchSize) {
+            const batch = currentSearch.results.slice(i, i + batchSize);
+            const data = await Promise.all(batch.map(r => r.data()));
+            allResults.push(...data);
+        }
+
+        renderGroupedResults(allResults);
     } catch (e) {
         resultsArea.innerHTML = '<div class="search-no-results">Search error</div>';
     }
 }
 
-async function loadMoreResults() {
-    if (!currentSearch || !resultsArea) return;
-
-    const total = currentSearch.results.length;
-    const nextBatch = currentSearch.results.slice(loadedCount, loadedCount + PAGE_SIZE);
-    const results = await Promise.all(nextBatch.map(r => r.data()));
-    const startIndex = loadedCount;
-    loadedCount += results.length;
-
-    renderResults(results, total, startIndex);
-}
-
-function renderResults(results: PagefindData[], totalCount: number, startIndex: number) {
+// Replaced loadMoreResults/renderResults with renderGroupedResults
+function renderGroupedResults(results: PagefindData[]) {
     if (!resultsArea) return;
 
-    const hasMore = loadedCount < totalCount;
-    const resultsHtml = results.map((result, i) => renderResult(result, startIndex + i)).join('');
+    // Group results by episode (base URL without anchor)
+    const grouped = new Map<string, { title: string; results: Array<{ result: PagefindData; index: number }> }>();
 
-    if (startIndex === 0) {
-        resultsArea.innerHTML = `
-      <div class="search-results-header">${totalCount} result${totalCount !== 1 ? 's' : ''}</div>
-      <div class="search-results-list">${resultsHtml}</div>
-      ${hasMore ? '<button class="search-load-more">Load more</button>' : ''}
-    `;
-    } else {
-        const list = resultsArea.querySelector('.search-results-list');
-        if (list) list.insertAdjacentHTML('beforeend', resultsHtml);
+    results.forEach((result, i) => {
+        const baseUrl = result.url.split('#')[0];
+        // Extract clean episode title
+        const rawTitle = result.meta?.title || 'Untitled';
+        const cleanTitle = rawTitle.replace(/\s*\(\d{1,2}:\d{2}(?::\d{2})?\)\s*$/, '');
 
-        const btn = resultsArea.querySelector<HTMLButtonElement>('.search-load-more');
-        if (btn) {
-            if (hasMore) {
-                btn.textContent = 'Load more';
-            } else {
-                btn.remove();
-            }
+        if (!grouped.has(baseUrl)) {
+            grouped.set(baseUrl, { title: cleanTitle, results: [] });
         }
+        grouped.get(baseUrl)!.results.push({ result, index: i });
+    });
+
+    // 1. Sort matches within each group by timestamp/seconds
+    for (const group of grouped.values()) {
+        group.results.sort((a, b) => {
+            const timeA = extractTimestampSeconds(a.result.excerpt || '') ?? extractBucketSeconds(a.result.url) ?? 0;
+            const timeB = extractTimestampSeconds(b.result.excerpt || '') ?? extractBucketSeconds(b.result.url) ?? 0;
+            return timeA - timeB;
+        });
     }
 
-    const loadMoreBtn = resultsArea.querySelector<HTMLButtonElement>('.search-load-more');
-    if (loadMoreBtn) {
-        loadMoreBtn.onclick = () => loadMoreResults();
-    }
+    // 2. Sort episodes by relevance (number of matches)
+    const sortedGroups = Array.from(grouped.entries()).sort((a, b) => {
+        return b[1].results.length - a[1].results.length;
+    });
+
+    const resultsHtml = sortedGroups.map(([baseUrl, group]) =>
+        renderEpisodeGroup(baseUrl, group.title, group.results)
+    ).join('');
+
+    resultsArea.innerHTML = `
+      <div class="search-results-header">${results.length} result${results.length !== 1 ? 's' : ''}</div>
+      <div class="search-results-list">${resultsHtml}</div>
+    `;
 }
 
-function renderResult(result: PagefindData, index: number) {
-    const episodeTitle = result.meta?.title || 'Untitled';
-    const speaker = result.meta?.speaker || '';
-    const timestamp = result.meta?.timestamp || '';
-    const url = result.url;
+function renderEpisodeGroup(baseUrl: string, title: string, results: Array<{ result: PagefindData; index: number }>) {
+    const matchesHtml = results.map(({ result, index }) => renderMatch(result, index, baseUrl)).join('');
+
+    return `
+    <div class="search-episode-group">
+      <div class="search-episode-header">
+        <a href="${baseUrl}" class="search-episode-title">${escapeHtml(title)}</a>
+        <span class="search-episode-count">${results.length} match${results.length !== 1 ? 'es' : ''}</span>
+      </div>
+      <div class="search-episode-matches">${matchesHtml}</div>
+    </div>
+  `;
+}
+
+function renderMatch(result: PagefindData, index: number, baseUrl: string) {
     const excerpt = result.excerpt || '';
+
+    // Extract precise timestamp from excerpt for deep linking
+    // Fall back to bucket seconds from URL if excerpt doesn't have timestamp
+    let seconds = extractTimestampSeconds(excerpt);
+    if (seconds === null) {
+        seconds = extractBucketSeconds(result.url);
+    }
+
+    const url = seconds !== null
+        ? `${baseUrl}#msg-${seconds}`
+        : baseUrl;
+
+    // Format timestamp for display
+    const displayTime = formatSecondsToTime(seconds);
+
+    // Clean up the excerpt for display
+    const cleanedExcerpt = cleanExcerpt(excerpt);
 
     return `
     <a href="${url}"
        class="search-result"
        data-index="${index}"
-       style="animation-delay: ${index * 30}ms">
-      <div class="search-result-meta">
-        <span class="search-result-speaker">${escapeHtml(speaker)}</span>
-        <span class="search-result-timestamp">${escapeHtml(timestamp)}</span>
-      </div>
-      ${excerpt ? `<div class="search-excerpt">${excerpt}</div>` : ''}
-      <div class="search-result-episode">${escapeHtml(episodeTitle)}</div>
+       style="animation-delay: ${Math.min(index, 10) * 20}ms">
+      <span class="search-result-time">${displayTime}</span>
+      <div class="search-excerpt">${cleanedExcerpt}</div>
     </a>
   `;
+}
+
+/**
+ * Clean up excerpt text for display:
+ * - Remove timestamps like [MM:SS] or [HH:MM:SS]
+ * - Convert markdown links [text](url) to just text
+ * - Remove markdown bold (**text** or __text__) and italics (*text* or _text_)
+ * - Remove speaker prefixes like "Speaker:" anywhere in text
+ */
+function cleanExcerpt(excerpt: string): string {
+    return excerpt
+        // Remove timestamps [MM:SS] or [HH:MM:SS] (may be wrapped in <mark>)
+        .replace(/\[(?:<[^>]*>)?(\d{1,2}):(\d{2})(?::(\d{2}))?(?:<[^>]*>)?\]\s*/g, '')
+        // Convert markdown links [text](url) to just text
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        // Remove markdown bold **text** or __text__
+        .replace(/\*\*([^*]+)\*\*/g, '$1')
+        .replace(/__([^_]+)__/g, '$1')
+        // Remove markdown italics *text* or _text_ (be careful not to match already-processed bold)
+        .replace(/\*([^*]+)\*/g, '$1')
+        .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '$1')
+        // Remove speaker names like "Name:" or "Name: " anywhere in text
+        .replace(/\b[A-Z][a-z]+:\s*/g, '')
+        // Clean up any double spaces
+        .replace(/\s{2,}/g, ' ')
+        .trim();
+}
+
+function formatSecondsToTime(seconds: number | null): string {
+    if (seconds === null) return '';
+    const mins = Math.floor(seconds / 60);
+    const secs = seconds % 60;
+    return `${mins}:${String(secs).padStart(2, '0')}`;
 }
 
 function escapeHtml(str: string) {
