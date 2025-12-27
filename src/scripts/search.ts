@@ -114,7 +114,6 @@ function getEmptyStateHtml(): string {
     return `
     <div class="search-splash">
       <div class="search-splash-icon">✦</div>
-      <div class="search-splash-hint">Search transcripts</div>
       <a href="${quote.url}" class="search-splash-quote-link">
         <blockquote class="search-splash-quote">
             <p>"${quote.text}"</p>

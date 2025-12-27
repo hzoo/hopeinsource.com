@@ -601,14 +601,6 @@ html {
   opacity: 0.6;
 }
 
-.search-splash-hint {
-  font-size: 0.875rem;
-  color: var(--color-his-text-tertiary);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-
 .search-splash-quote-link {
   text-decoration: none;
   display: block;
