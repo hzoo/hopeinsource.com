@@ -256,8 +256,9 @@ async function openModal() {
     const trigger = document.getElementById('search-trigger');
     if (!pagefind && !trigger?.dataset.dev) {
         try {
-            // @ts-ignore - Dynamic import of Pagefind, escaped from Vite analysis via string template
-            pagefind = await import(/* @vite-ignore */ `/pagefind/` + `pagefind.js`);
+            // @ts-ignore - Dynamic import of Pagefind, escaped from Vite analysis via dynamic path
+            const p = 'pagefind';
+            pagefind = await import(/* @vite-ignore */ `/${p}/${p}.js`);
         } catch (e) {
             console.warn('Pagefind not found. Search will be available after build.');
         }

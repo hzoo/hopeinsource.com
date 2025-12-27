@@ -3,12 +3,14 @@
  */
 
 function initSidebar() {
-    const sidebar = document.getElementById('episode-sidebar');
-    const toggle = document.getElementById('header-sidebar-toggle');
-    const backdrop = document.getElementById('sidebar-backdrop');
-    const triggers = document.querySelectorAll('.sidebar-trigger'); // Alternative triggers
+    // Helper to get elements lazily
+    const getSidebar = () => document.getElementById('episode-sidebar');
+    const getBackdrop = () => document.getElementById('sidebar-backdrop');
 
     function openSidebar() {
+        const sidebar = getSidebar();
+        const backdrop = getBackdrop();
+
         sidebar?.classList.remove('-translate-x-full');
         backdrop?.classList.remove('opacity-0', 'invisible');
         backdrop?.classList.add('opacity-100');
@@ -16,19 +18,44 @@ function initSidebar() {
     }
 
     function closeSidebar() {
+        const sidebar = getSidebar();
+        const backdrop = getBackdrop();
+
         sidebar?.classList.add('-translate-x-full');
         backdrop?.classList.add('opacity-0', 'invisible');
         backdrop?.classList.remove('opacity-100');
         document.body.style.overflow = '';
     }
 
-    // Event listeners
-    toggle?.addEventListener('click', () => {
-        sidebar?.classList.contains('-translate-x-full') ? openSidebar() : closeSidebar();
-    });
+    // Global click delegation
+    function handleClick(e: MouseEvent) {
+        const target = e.target as HTMLElement;
 
-    triggers.forEach(t => t.addEventListener('click', openSidebar));
-    backdrop?.addEventListener('click', closeSidebar);
+        // Toggle button
+        if (target.closest('#header-sidebar-toggle')) {
+            const sidebar = getSidebar();
+            if (sidebar?.classList.contains('-translate-x-full')) {
+                openSidebar();
+            } else {
+                closeSidebar();
+            }
+            return;
+        }
+
+        // Alternative triggers (open only)
+        if (target.closest('.sidebar-trigger')) {
+            openSidebar();
+            return;
+        }
+
+        // Backdrop click (close)
+        if (target.id === 'sidebar-backdrop') {
+            closeSidebar();
+            return;
+        }
+    }
+
+    document.addEventListener('click', handleClick);
 
     // Global listeners - will be cleaned up by cleanupSidebar
     function handleGlobalKeydown(e: KeyboardEvent) {
@@ -46,6 +73,7 @@ function initSidebar() {
     }
 
     function handleTouchEnd(e: TouchEvent) {
+        const sidebar = getSidebar();
         const touchEndX = e.changedTouches[0].clientX;
         const touchEndY = e.changedTouches[0].clientY;
         const diffX = touchEndX - touchStartX;
@@ -61,6 +89,7 @@ function initSidebar() {
     document.addEventListener('touchend', handleTouchEnd, { passive: true });
 
     // Scroll to active episode
+    const sidebar = getSidebar();
     const activeLink = sidebar?.querySelector('[aria-current="page"]');
     if (activeLink) {
         activeLink.scrollIntoView({ block: 'center', behavior: 'instant' });
@@ -68,6 +97,7 @@ function initSidebar() {
 
     // Return cleanup function
     return () => {
+        document.removeEventListener('click', handleClick);
         document.removeEventListener('keydown', handleGlobalKeydown);
         document.removeEventListener('touchstart', handleTouchStart);
         document.removeEventListener('touchend', handleTouchEnd);
