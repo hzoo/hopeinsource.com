@@ -13,6 +13,8 @@ const {
   author = 'Henry Zhu, Nadia Asparouhova',
 } = Astro.props;
 
+import { ClientRouter } from 'astro:transitions';
+
 const siteTitle = title === hisMetadata.title ? title : `${title}`;
 const isMainPage = slug === '';
 ---
@@ -63,3 +65,4 @@ const isMainPage = slug === '';
 
 <!-- Theme Color -->
 <meta name="theme-color" content="#1a1a1a" />
+<ClientRouter />

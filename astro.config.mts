@@ -12,6 +12,14 @@ export default defineConfig({
   integrations: [preact()],
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      rollupOptions: {
+        external: ['/pagefind/pagefind.js'],
+      },
+    },
+    optimizeDeps: {
+      exclude: ['/pagefind/pagefind.js'],
+    },
   },
   markdown: {
     remarkPlugins: [remarkLinksExtractor, remarkTranscriptPlugin, remarkResponsiveImages],

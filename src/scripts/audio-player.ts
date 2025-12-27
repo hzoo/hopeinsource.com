@@ -1,0 +1,351 @@
+/**
+ * Audio Player functionality
+ */
+
+let audio: HTMLAudioElement | null = null;
+let playPauseButton: HTMLElement | null = null;
+let seekSlider: HTMLInputElement | null = null;
+let currentTimeDisplay: HTMLElement | null = null;
+let durationDisplay: HTMLElement | null = null;
+let progressBar: HTMLElement | null = null;
+let playIcon: HTMLElement | null = null;
+let pauseIcon: HTMLElement | null = null;
+let muteButton: HTMLElement | null = null;
+let volumeIcon: HTMLElement | null = null;
+let muteIcon: HTMLElement | null = null;
+let shortcutsButton: HTMLElement | null = null;
+let shortcutsDialog: HTMLElement | null = null;
+let closeShortcuts: HTMLElement | null = null;
+let volumeSlider: HTMLInputElement | null = null;
+let playerFeedback: HTMLElement | null = null;
+let feedbackText: HTMLElement | null = null;
+
+let allMessages: NodeListOf<HTMLElement>;
+let feedbackTimeout: ReturnType<typeof setTimeout>;
+let lastHighlightedMessage: HTMLElement | null = null;
+let isLoaded = false;
+let src = '';
+
+function formatTime(seconds: number) {
+    if (!seconds || isNaN(seconds)) return "00:00";
+    const h = Math.floor(seconds / 3600);
+    const m = Math.floor((seconds % 3600) / 60);
+    const s = Math.floor(seconds % 60);
+    if (h > 0) {
+        return `${h}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+    }
+    return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
+}
+
+function updateTimeDisplay() {
+    if (!audio || !audio.duration || !currentTimeDisplay || !durationDisplay || !seekSlider || !progressBar) return;
+
+    currentTimeDisplay.textContent = formatTime(audio.currentTime);
+    durationDisplay.textContent = formatTime(audio.duration);
+
+    const percent = (audio.currentTime / audio.duration) * 100;
+    seekSlider.value = String(percent);
+    progressBar.style.width = `${percent}%`;
+
+    updateCurrentMessage();
+}
+
+function updateCurrentMessage() {
+    if (!audio) return;
+    const currentTime = Math.floor(audio.currentTime);
+    let currentMessage: HTMLElement | null = null;
+
+    allMessages.forEach(message => {
+        const timestamp = parseInt(message.getAttribute('data-timestamp') || '0');
+        if (timestamp <= currentTime) {
+            currentMessage = message;
+        }
+    });
+
+    if (currentMessage !== lastHighlightedMessage) {
+        if (lastHighlightedMessage) {
+            (lastHighlightedMessage as HTMLElement).classList.remove('message-current');
+        }
+        if (currentMessage) {
+            (currentMessage as HTMLElement).classList.add('message-current');
+        }
+        lastHighlightedMessage = currentMessage;
+    }
+}
+
+function prepAudioPosition(seconds: number) {
+    if (!audio) return;
+    if (!isLoaded) {
+        audio.src = src;
+        audio.load();
+        isLoaded = true;
+    }
+    audio.currentTime = seconds;
+    if (seekSlider) seekSlider.disabled = false;
+}
+
+function seekToTimestamp(playAudio = true) {
+    const hash = window.location.hash;
+    if (!hash) return;
+
+    let seconds: number;
+    if (hash.startsWith("#t=")) {
+        seconds = parseInt(hash.slice(3), 10);
+        if (isNaN(seconds)) return;
+
+        const msgId = `msg-${seconds}`;
+        const msgElement = document.getElementById(msgId);
+        if (msgElement) {
+            msgElement.scrollIntoView();
+        }
+
+        loadAudioAndPlay(seconds, playAudio);
+
+    } else if (hash.startsWith("#msg-")) {
+        const msgElement = document.getElementById(hash.slice(1));
+        if (!msgElement) return;
+
+        const timestamp = msgElement.getAttribute("data-timestamp");
+        if (!timestamp) return;
+
+        seconds = parseInt(timestamp, 10);
+        if (isNaN(seconds)) return;
+
+        prepAudioPosition(seconds);
+    }
+}
+
+function togglePlayPauseIcon(isPaused: boolean) {
+    if (!playIcon || !pauseIcon) return;
+    playIcon.classList.toggle('hidden', !isPaused);
+    pauseIcon.classList.toggle('hidden', isPaused);
+}
+
+function loadAudioAndPlay(startTime = 0, play = true) {
+    if (!audio) return;
+    if (!isLoaded) {
+        audio.src = src;
+        audio.load();
+        isLoaded = true;
+    }
+
+    audio.currentTime = startTime;
+    if (play) {
+        audio.play()
+            .then(() => {
+                togglePlayPauseIcon(false);
+                if (seekSlider) seekSlider.disabled = false;
+                showFeedback('play');
+            })
+            .catch((error) => console.error("Error playing audio:", error));
+    }
+}
+
+function togglePlayPause() {
+    if (!audio) return;
+    if (!isLoaded) {
+        loadAudioAndPlay();
+    } else if (audio.paused) {
+        audio.play().then(() => {
+            togglePlayPauseIcon(false);
+            showFeedback('play');
+        });
+    } else {
+        audio.pause();
+        togglePlayPauseIcon(true);
+        showFeedback('pause');
+    }
+}
+
+function updateMuteIcon(isMuted: boolean) {
+    if (!volumeIcon || !muteIcon) return;
+    volumeIcon.classList.toggle('hidden', isMuted);
+    muteIcon.classList.toggle('hidden', !isMuted);
+}
+
+function showFeedback(action: string, value: string | number = '') {
+    if (!feedbackText || !playerFeedback) return;
+    clearTimeout(feedbackTimeout);
+
+    let text = '';
+    switch (action) {
+        case 'seek':
+            const direction = (value as number) > 0 ? 'Forward' : 'Back';
+            text = `${direction} ${Math.abs(value as number)}s`;
+            break;
+        case 'play': text = 'Playing'; break;
+        case 'pause': text = 'Paused'; break;
+        case 'mute': text = 'Muted'; break;
+        case 'unmute': text = 'Unmuted'; break;
+        case 'volume': text = `Volume ${value}%`; break;
+    }
+
+    feedbackText.textContent = text;
+    playerFeedback.style.opacity = '1';
+
+    feedbackTimeout = setTimeout(() => {
+        if (playerFeedback) playerFeedback.style.opacity = '0';
+    }, 500);
+}
+
+function seekRelative(seconds: number) {
+    if (!audio || !audio.duration) return;
+    const newTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
+    audio.currentTime = newTime;
+    showFeedback('seek', seconds);
+}
+
+function handleAudioKeydown(e: KeyboardEvent) {
+    if ((e.target as HTMLElement).matches('input, [contenteditable="true"]')) return;
+    if (!audio) return;
+
+    switch (e.code) {
+        case "Space":
+            e.preventDefault();
+            togglePlayPause();
+            break;
+        case "KeyJ":
+            e.preventDefault();
+            seekRelative(-10);
+            break;
+        case "KeyK":
+            e.preventDefault();
+            seekRelative(10);
+            break;
+        case "KeyM":
+            e.preventDefault();
+            audio.muted = !audio.muted;
+            showFeedback(audio.muted ? 'mute' : 'unmute');
+            break;
+    }
+}
+
+function initAudioPlayer() {
+    audio = document.getElementById("audio-element") as HTMLAudioElement;
+    playPauseButton = document.getElementById("play-pause");
+    seekSlider = document.getElementById("seek-slider") as HTMLInputElement;
+    currentTimeDisplay = document.getElementById("current-time");
+    durationDisplay = document.getElementById("duration");
+    progressBar = document.getElementById("progress-bar");
+    playIcon = document.getElementById("play-icon");
+    pauseIcon = document.getElementById("pause-icon");
+    muteButton = document.getElementById("mute-button");
+    volumeIcon = document.getElementById("volume-icon");
+    muteIcon = document.getElementById("mute-icon");
+    shortcutsButton = document.getElementById("shortcuts-button");
+    shortcutsDialog = document.getElementById("shortcuts-dialog");
+    closeShortcuts = document.getElementById("close-shortcuts");
+    volumeSlider = document.getElementById("volume-slider") as HTMLInputElement;
+    playerFeedback = document.getElementById("player-feedback");
+    feedbackText = document.getElementById("feedback-text");
+
+    const container = document.getElementById("audio-player-container");
+    src = container?.dataset.src || '';
+    allMessages = document.querySelectorAll('.message');
+
+    if (!audio) return;
+
+    // Listeners
+    playPauseButton?.addEventListener("click", togglePlayPause);
+
+    seekSlider?.addEventListener("input", () => {
+        if (audio && audio.duration) {
+            const seekTime = audio.duration * (Number(seekSlider?.value) / 100);
+            audio.currentTime = seekTime;
+        }
+    });
+
+    audio.addEventListener("timeupdate", updateTimeDisplay);
+    audio.addEventListener("loadedmetadata", () => {
+        updateTimeDisplay();
+        if (seekSlider) seekSlider.disabled = false;
+    });
+
+    volumeSlider?.addEventListener("input", () => {
+        if (audio && volumeSlider) {
+            const val = Number(volumeSlider.value);
+            audio.volume = val / 100;
+            audio.muted = val === 0;
+            updateMuteIcon(audio.muted);
+            showFeedback('volume', val);
+        }
+    });
+
+    audio.addEventListener("volumechange", () => {
+        if (!audio) return;
+        updateMuteIcon(audio.muted);
+        if (!audio.muted && volumeSlider) {
+            volumeSlider.value = String(Math.round(audio.volume * 100));
+        }
+    });
+
+    muteButton?.addEventListener("click", () => {
+        if (!audio) return;
+        audio.muted = !audio.muted;
+        showFeedback(audio.muted ? 'mute' : 'unmute');
+        if (!audio.muted && audio.volume === 0) {
+            audio.volume = 0.5;
+            if (volumeSlider) volumeSlider.value = "50";
+        }
+    });
+
+    shortcutsButton?.addEventListener("click", () => shortcutsDialog?.classList.remove("hidden"));
+    closeShortcuts?.addEventListener("click", () => shortcutsDialog?.classList.add("hidden"));
+    shortcutsDialog?.addEventListener("click", (e) => {
+        if (e.target === shortcutsDialog) shortcutsDialog?.classList.add("hidden");
+    });
+
+    document.addEventListener("keydown", handleAudioKeydown);
+
+    // Timestamp links
+    document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((link) => {
+        link.addEventListener("click", (e) => {
+            const href = link.getAttribute("href");
+            if (href?.startsWith("#t=")) {
+                e.preventDefault();
+                history.replaceState(null, "", href);
+                seekToTimestamp();
+            }
+        });
+    });
+
+    document.addEventListener("click", (e) => {
+        const timeEl = (e.target as HTMLElement).closest(".message-time");
+        if (!timeEl) return;
+
+        const messageEl = timeEl.closest(".message");
+        if (!messageEl) return;
+
+        const seconds = parseInt(messageEl.getAttribute("data-timestamp") || '', 10);
+        if (isNaN(seconds)) return;
+
+        history.replaceState(null, "", `#t=${seconds}`);
+        seekToTimestamp(false);
+    });
+
+    window.addEventListener("hashchange", () => seekToTimestamp());
+
+    audio.volume = 0.5;
+    seekToTimestamp();
+}
+
+function cleanupAudioPlayer() {
+    if (audio) {
+        audio.pause();
+        audio.src = '';
+    }
+    isLoaded = false;
+    lastHighlightedMessage = null;
+    document.removeEventListener("keydown", handleAudioKeydown);
+}
+
+function setupAudioPlayer() {
+    cleanupAudioPlayer();
+    initAudioPlayer();
+}
+
+document.addEventListener('astro:page-load', setupAudioPlayer);
+
+if (document.readyState === 'complete') {
+    setupAudioPlayer();
+}
