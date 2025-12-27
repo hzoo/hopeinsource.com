@@ -22,7 +22,7 @@ const { src } = Astro.props;
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       </button>
-      <div class="group flex items-center">
+      <div class="hidden sm:flex group items-center">
         <button
           id="mute-button"
           class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
@@ -71,7 +71,7 @@ const { src } = Astro.props;
       >
       <button
         id="shortcuts-button"
-        class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
+        class="hidden sm:flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
         aria-label="Keyboard Shortcuts"
       >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
