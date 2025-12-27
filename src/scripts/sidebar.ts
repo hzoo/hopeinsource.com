@@ -31,8 +31,8 @@ function initSidebar() {
     function handleClick(e: MouseEvent) {
         const target = e.target as HTMLElement;
 
-        // Toggle button
-        if (target.closest('#header-sidebar-toggle')) {
+        // Toggle button or Sidebar close button
+        if (target.closest('#header-sidebar-toggle') || target.closest('#sidebar-close')) {
             const sidebar = getSidebar();
             if (sidebar?.classList.contains('-translate-x-full')) {
                 openSidebar();

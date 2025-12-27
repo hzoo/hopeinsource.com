@@ -19,13 +19,24 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
 <!-- Sidebar -->
 <aside
   id="episode-sidebar"
-  class="fixed left-0 top-0 h-full w-80 bg-his-bg border-r border-his-hr z-40
+  class="fixed left-0 top-0 h-full w-[280px] sm:w-80 max-w-[calc(100vw-3rem)] bg-his-bg border-r border-his-hr z-40
          transform -translate-x-full lg:translate-x-0 transition-transform duration-300
          flex flex-col"
 >
-  <!-- Sidebar header with search -->
-  <div class="px-3 py-3 border-b border-his-hr flex-shrink-0">
-    <Search />
+  <!-- Sidebar header with search and mobile close -->
+  <div class="px-3 py-3 border-b border-his-hr flex-shrink-0 flex items-center gap-2">
+    <div class="flex-1">
+      <Search />
+    </div>
+    <button
+      id="sidebar-close"
+      class="lg:hidden w-9 h-9 flex items-center justify-center rounded-lg hover:bg-his-hover text-his-text-tertiary transition-colors"
+      aria-label="Close sidebar"
+    >
+      <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+      </svg>
+    </button>
   </div>
 
   <!-- Scrollable content (hidden scrollbar) -->

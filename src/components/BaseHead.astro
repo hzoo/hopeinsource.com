@@ -29,7 +29,7 @@ const isMainPage = slug === '';
 <link rel="preconnect" href="https://anchor.fm" />
 
 <!-- Preload critical assets -->
-{isMainPage && 
+{isMainPage &&
   <link rel="preload" href={`${hisMetadata.siteUrl}${his_cover.src}`} as="image" type="image/webp" fetchpriority="high" />
 }
 
