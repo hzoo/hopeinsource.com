@@ -28,11 +28,6 @@ const isMainPage = slug === '';
 <!-- Preconnect to external domains -->
 <link rel="preconnect" href="https://anchor.fm" />
 
-<!-- Preload critical assets -->
-{isMainPage &&
-  <link rel="preload" href={`${hisMetadata.siteUrl}${his_cover.src}`} as="image" type="image/webp" fetchpriority="high" />
-}
-
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
