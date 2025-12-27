@@ -110,11 +110,50 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 )}
 
 <script>
-  function initTOC() {
-    let currentActiveId: string | null = null;
-    let tocOpen = false;
-    let refOpen = false;
+  let currentActiveId: string | null = null;
+  let tocOpen = false;
+  let refOpen = false;
+  let observer: IntersectionObserver | null = null;
 
+  function handleTOCClick(e: MouseEvent) {
+    const target = e.target as HTMLElement;
+    const tocNav = document.getElementById('toc-nav');
+    const tocBars = document.getElementById('toc-bars');
+    const refPopover = document.getElementById('ref-popover');
+    const refBadge = document.getElementById('ref-badge');
+
+    if (tocOpen && !tocNav?.contains(target) && !tocBars?.contains(target)) {
+      closeTOC();
+    }
+    if (refOpen && !refPopover?.contains(target) && !refBadge?.contains(target)) {
+      closeRefPopover();
+    }
+  }
+
+  function handleTOCKeyDown(e: KeyboardEvent) {
+    if (e.key === 'Escape') {
+      closeTOC();
+      closeRefPopover();
+    }
+  }
+
+  function closeTOC() {
+    const tocNav = document.getElementById('toc-nav');
+    tocNav?.classList.remove('opacity-100');
+    tocNav?.classList.add('invisible', 'opacity-0');
+    tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+    tocOpen = false;
+  }
+
+  function closeRefPopover() {
+    const refPopover = document.getElementById('ref-popover');
+    refPopover?.classList.remove('opacity-100');
+    refPopover?.classList.add('invisible', 'opacity-0');
+    refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+    refOpen = false;
+  }
+
+  function initTOC() {
     const tocBars = document.getElementById('toc-bars');
     const tocNav = document.getElementById('toc-nav');
     const tocLinks = document.querySelectorAll('.toc-link');
@@ -157,13 +196,6 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       tocOpen = true;
     }
 
-    function closeTOC() {
-      tocNav?.classList.remove('opacity-100');
-      tocNav?.classList.add('invisible', 'opacity-0');
-      tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
-      tocOpen = false;
-    }
-
     function openRefPopover() {
       closeTOC();
       refPopover?.classList.remove('invisible', 'opacity-0');
@@ -172,42 +204,16 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       refOpen = true;
     }
 
-    function closeRefPopover() {
-      refPopover?.classList.remove('opacity-100');
-      refPopover?.classList.add('invisible', 'opacity-0');
-      refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
-      refOpen = false;
-    }
-
-    // Click to toggle TOC
+    // Toggle TOC
     tocBars?.addEventListener('click', (e) => {
       e.stopPropagation();
       tocOpen ? closeTOC() : openTOC();
     });
 
-    // Click to toggle refs
+    // Toggle refs
     refBadge?.addEventListener('click', (e) => {
       e.stopPropagation();
       refOpen ? closeRefPopover() : openRefPopover();
-    });
-
-    // Click outside to close
-    document.addEventListener('click', (e) => {
-      const target = e.target as HTMLElement;
-      if (tocOpen && !tocNav?.contains(target) && !tocBars?.contains(target)) {
-        closeTOC();
-      }
-      if (refOpen && !refPopover?.contains(target) && !refBadge?.contains(target)) {
-        closeRefPopover();
-      }
-    });
-
-    // Escape to close
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape') {
-        closeTOC();
-        closeRefPopover();
-      }
     });
 
     // TOC links - scroll to section
@@ -225,36 +231,55 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       });
     });
 
-    // Ref items - scroll to blockquote (keep popover open)
+    // Ref items - scroll to blockquote
     refPopoverItems.forEach(item => {
       item.addEventListener('click', (e) => {
-        if ((e.target as HTMLElement).tagName === 'A') return;
+        const target = e.target as HTMLElement;
+        if (target.tagName === 'A') return;
         const refId = item.getAttribute('data-ref-id');
         if (refId) {
-          const target = document.getElementById(refId);
-          if (target) {
-            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            target.classList.add('ref-highlight');
-            setTimeout(() => target.classList.remove('ref-highlight'), 1500);
+          const bq = document.getElementById(refId);
+          if (bq) {
+            bq.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            bq.classList.add('ref-highlight');
+            setTimeout(() => bq.classList.remove('ref-highlight'), 1500);
           }
         }
       });
     });
 
-    // Intersection Observer for active heading
-    const observer = new IntersectionObserver(
+    // Intersection Observer
+    observer = new IntersectionObserver(
       (entries) => entries.forEach((entry) => {
         if (entry.isIntersecting) setActive(entry.target.id);
       }),
       { rootMargin: '-10% 0px -70% 0px', threshold: 0 }
     );
-    document.querySelectorAll('h4').forEach((h) => observer.observe(h));
+    document.querySelectorAll('h4').forEach((h) => observer?.observe(h));
+
+    // Global listeners
+    document.addEventListener('click', handleTOCClick);
+    document.addEventListener('keydown', handleTOCKeyDown);
 
     // Init from hash
     const hash = window.location.hash;
     if (hash) setActive(hash.replace('#', ''));
   }
 
-  initTOC();
-  document.addEventListener('astro:after-swap', initTOC);
+  function cleanupTOC() {
+    if (observer) {
+      observer.disconnect();
+      observer = null;
+    }
+    document.removeEventListener('click', handleTOCClick);
+    document.removeEventListener('keydown', handleTOCKeyDown);
+    tocOpen = false;
+    refOpen = false;
+    currentActiveId = null;
+  }
+
+  document.addEventListener('astro:page-load', () => {
+    cleanupTOC();
+    initTOC();
+  });
 </script>

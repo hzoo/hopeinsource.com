@@ -220,6 +220,39 @@ function handleAudioKeydown(e: KeyboardEvent) {
     }
 }
 
+function handleGlobalClick(e: MouseEvent) {
+    const target = e.target as HTMLElement;
+
+    // Handle hash links (#t=)
+    const link = target.closest<HTMLAnchorElement>('a[href^="#t="]');
+    if (link) {
+        e.preventDefault();
+        const href = link.getAttribute("href");
+        if (href) {
+            history.replaceState(null, "", href);
+            seekToTimestamp();
+        }
+        return;
+    }
+
+    // Handle message time clicks
+    const timeEl = target.closest(".message-time");
+    if (timeEl) {
+        const messageEl = timeEl.closest(".message");
+        if (messageEl) {
+            const seconds = parseInt(messageEl.getAttribute("data-timestamp") || '', 10);
+            if (!isNaN(seconds)) {
+                history.replaceState(null, "", `#t=${seconds}`);
+                seekToTimestamp(false);
+            }
+        }
+    }
+}
+
+function handleHashChange() {
+    seekToTimestamp();
+}
+
 function initAudioPlayer() {
     audio = document.getElementById("audio-element") as HTMLAudioElement;
     playPauseButton = document.getElementById("play-pause");
@@ -297,33 +330,8 @@ function initAudioPlayer() {
 
     document.addEventListener("keydown", handleAudioKeydown);
 
-    // Timestamp links
-    document.querySelectorAll<HTMLAnchorElement>('a[href^="#"]').forEach((link) => {
-        link.addEventListener("click", (e) => {
-            const href = link.getAttribute("href");
-            if (href?.startsWith("#t=")) {
-                e.preventDefault();
-                history.replaceState(null, "", href);
-                seekToTimestamp();
-            }
-        });
-    });
-
-    document.addEventListener("click", (e) => {
-        const timeEl = (e.target as HTMLElement).closest(".message-time");
-        if (!timeEl) return;
-
-        const messageEl = timeEl.closest(".message");
-        if (!messageEl) return;
-
-        const seconds = parseInt(messageEl.getAttribute("data-timestamp") || '', 10);
-        if (isNaN(seconds)) return;
-
-        history.replaceState(null, "", `#t=${seconds}`);
-        seekToTimestamp(false);
-    });
-
-    window.addEventListener("hashchange", () => seekToTimestamp());
+    document.addEventListener("click", handleGlobalClick);
+    window.addEventListener("hashchange", handleHashChange);
 
     audio.volume = 0.5;
     seekToTimestamp();
@@ -337,6 +345,8 @@ function cleanupAudioPlayer() {
     isLoaded = false;
     lastHighlightedMessage = null;
     document.removeEventListener("keydown", handleAudioKeydown);
+    document.removeEventListener("click", handleGlobalClick);
+    window.removeEventListener("hashchange", handleHashChange);
 }
 
 function setupAudioPlayer() {
