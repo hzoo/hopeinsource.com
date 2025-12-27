@@ -1,18 +1,12 @@
-# [hopeinsource.com](https://hopeinsource.com)
+# hopeinsource.com
 
-![Episode Preview](https://i.imgur.com/RYYduIQ.png)
+Source code for [hopeinsource.com](https://hopeinsource.com).
 
-## Edit Transcripts
+![Episode Preview](https://github.com/user-attachments/assets/b561c9f8-77df-451a-a5f3-0bbe0a2028d4)
 
-- Season 1 (Nadia): https://github.com/hzoo/hopeinsource.com/tree/master/src/content/podcast/season-1
-- Season 2 (Maintainers Anonymous): https://github.com/hzoo/hopeinsource.com/tree/master/src/content/podcast/season-2
-- Season 3 (Interviews): https://github.com/hzoo/hopeinsource.com/tree/master/src/content/podcast/season-3
-- Season 4: https://github.com/hzoo/hopeinsource.com/tree/master/src/content/podcast/season-4
+## Features
 
-## Preview
-
-```sh
-bun install
-bun run dev
-open https://localhost:4321
-```
+- **Full Transcripts**: Read along while listening.
+- **Transcript Search**: Find any quote across all episodes.
+- **Continuous Playback**: Keep listening while browsing the site.
+- **Shareable Timestamps**: Link to specific moments in an episode.
