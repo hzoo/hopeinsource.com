@@ -178,7 +178,7 @@ function createModal() {
             return;
         }
 
-        debounceTimer = setTimeout(() => performSearch(query), 100);
+        debounceTimer = setTimeout(() => performSearch(query), 250);
     });
 
     // Keyboard navigation
