@@ -92,20 +92,9 @@
     backdrop.addEventListener('click', closeModal);
   }
 
-  async function initSearch() {
+  function initSearch() {
     const trigger = document.getElementById('search-trigger');
     if (!trigger) return;
-
-    createModal();
-
-    // Load Pagefind (skip in dev mode to avoid 404 warnings)
-    if (!trigger.dataset.dev) {
-      try {
-        pagefind = await import('/pagefind/pagefind.js');
-      } catch (e) {
-        // Pagefind not available
-      }
-    }
 
     // Trigger click
     trigger.addEventListener('click', openModal);
@@ -122,7 +111,22 @@
     });
   }
 
-  function openModal() {
+  async function openModal() {
+    // Lazy load DOM
+    if (!modal) {
+      createModal();
+    }
+    
+    // Lazy load Pagefind
+    const trigger = document.getElementById('search-trigger');
+    if (!pagefind && !trigger.dataset.dev) {
+      try {
+        pagefind = await import('/pagefind/pagefind.js');
+      } catch (e) {
+        // Pagefind not available
+      }
+    }
+
     if (!modal || !backdrop) return;
     modal.classList.add('visible');
     backdrop.classList.add('visible');
