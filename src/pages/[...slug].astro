@@ -1,5 +1,5 @@
 ---
-import { getCollection, render } from "astro:content";
+import { render } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import EpisodeSidebar from "@/components/EpisodeSidebar.astro";
 import TableOfContents from "../components/TableOfContents.astro";
@@ -7,45 +7,29 @@ import AudioPlayer from "@/components/AudioPlayer.astro";
 import Footer from "@/components/Footer.astro";
 import { hisMetadata } from "@/metadata.ts";
 import type { ExtractedLink } from "@/plugins/remark-links-extractor";
+import { getEpisodeData } from "@/lib/episodes";
 
 export async function getStaticPaths() {
-  const podcastEntries = await getCollection("podcast");
-
-  // Sort episodes same as Main.astro/EpisodeSidebar.astro
-  const sortedEntries = [...podcastEntries].sort((a, b) => {
-    const aSeason = a.data.season || 0;
-    const bSeason = b.data.season || 0;
-    if (bSeason !== aSeason) {
-      return bSeason - aSeason;
-    }
-    return b.data.sidebar.order - a.data.sidebar.order;
-  });
-
-  // Compute episode numbers (last in sorted list = #1)
-  const episodeNumbers = new Map(
-    sortedEntries.map((entry, index) => {
-      const slug = entry.id.split("/").pop() || "";
-      return [slug, sortedEntries.length - index];
-    })
-  );
+  const { episodes } = await getEpisodeData();
 
   // Pre-render content at build time
   const pages = await Promise.all(
-    podcastEntries.map(async (entry) => {
-      const slug = entry.id.split("/").pop() || "";
-      const { Content, headings, remarkPluginFrontmatter } = await render(entry);
+    episodes.map(async (episode) => {
+      const { Content, headings, remarkPluginFrontmatter } = await render(episode);
       const h4Headings = headings.filter((h) => h.depth === 4);
       const extractedLinks = (remarkPluginFrontmatter?.extractedLinks || []) as ExtractedLink[];
 
       return {
-        params: { slug },
+        params: { slug: episode.slug },
         props: {
-          slug,
+          slug: episode.slug,
           Content,
           headings: h4Headings,
-          frontmatter: entry.data,
-          episodeNumber: episodeNumbers.get(slug || "") || 0,
+          frontmatter: episode.data,
+          episodeNumber: episode.epNumber,
           extractedLinks,
+          episodeTitle: episode.episodeTitle,
+          guests: episode.guests,
         },
       };
     }),
@@ -54,18 +38,7 @@ export async function getStaticPaths() {
   return pages;
 }
 
-const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks } = Astro.props;
-
-// Parse title to separate episode name from guest
-function parseTitle(title: string): { episodeTitle: string; guest: string | null } {
-  const match = title.match(/^(.+?)\s*\(([^)]+)\)$/);
-  if (match) {
-    return { episodeTitle: match[1].trim(), guest: match[2].trim() };
-  }
-  return { episodeTitle: title, guest: null };
-}
-
-const { episodeTitle, guest } = parseTitle(frontmatter.title);
+const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, episodeTitle, guests } = Astro.props;
 ---
 
 <Layout frontmatter={frontmatter} slug={`/${slug}`}>
@@ -96,8 +69,12 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
       <div class="flex-1 min-w-0">
         <h1 class="text-sm font-semibold truncate">{episodeTitle}</h1>
         <div class="flex items-center gap-1.5 text-xs text-his-text-tertiary">
-          {guest && <span class="truncate">{guest}</span>}
-          {guest && <span class="text-his-text-tertiary/50">·</span>}
+          {guests.length > 0 && (
+            <>
+              <span class="truncate">{guests.join(", ")}</span>
+              <span class="text-his-text-tertiary/50">·</span>
+            </>
+          )}
           <span class="text-his-green/70">#{episodeNumber}</span>
           <span class="text-his-text-tertiary/50">·</span>
           <time datetime={frontmatter.date.toISOString()}>
@@ -289,3 +266,4 @@ const { episodeTitle, guest } = parseTitle(frontmatter.title);
     window.addEventListener('hashchange', highlightMessage);
   </script>
 </Layout>
+
