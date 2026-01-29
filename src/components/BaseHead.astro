@@ -60,4 +60,21 @@ const isMainPage = slug === '';
 
 <!-- Theme Color -->
 <meta name="theme-color" content="#1a1a1a" />
+
+<!-- Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify({
+  "@context": "https://schema.org",
+  "@type": "PodcastSeries",
+  "name": "Hope in Source",
+  "url": "https://hopeinsource.com",
+  "description": hisMetadata.description,
+  "author": [
+    {
+      "@type": "Person",
+      "name": "Henry Zhu",
+      "url": "https://henryzoo.com"
+    }
+  ]
+})} />
+
 <ClientRouter />
