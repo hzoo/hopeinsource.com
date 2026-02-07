@@ -50,20 +50,20 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
         </div>
     </div>
     <div class="flex-1">
-        <div class="space-y-5">
+        <div class="space-y-16">
             {seasons.map((season) => (
-                <section class="space-y-1">
+                <section>
                     {season !== 0 && (
-                        <div class="flex items-center gap-3 mb-2">
+                        <div class="flex items-center gap-3 mb-4">
                             <h2 class="text-xl font-semibold tracking-wide text-his-green">
-                                {season === 2 ? "Maintainers Anonymous" : `Season ${season}`}
+                                {season === 6 ? "Internet Checkpoint" : season === 2 ? "Maintainers Anonymous" : `Season ${season}`}
                             </h2>
-                            <div class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></div>
+                            <div class="flex-1 h-px bg-gradient-to-r from-his-hr/20 to-transparent"></div>
                         </div>
                     )}
-                    <div class="space-y-1">
+                    <div class="space-y-0.5">
                         {episodesBySeasons[season].map((episode) => (
-                            <article class="group relative px-3 sm:px-4 py-1.5 rounded-lg border border-transparent hover:border-his-hr hover:bg-his-hover/50 transition-all duration-200">
+                            <article class="episode-card group relative px-3 sm:px-4 py-4 rounded-lg border-l-2 border-l-transparent hover:border-l-his-green/60 hover:bg-his-hover/30 transition-all duration-200">
                                 <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
                                     <h3 class="text-lg font-medium group-hover:text-his-green transition-colors pr-12">
                                         {episode.episodeTitle}
@@ -101,11 +101,11 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                               const [, firstSentence, rest] = match;
                                               return (
                                                 <>
-                                                  <p class="mt-1 text-sm text-his-text font-medium leading-relaxed">
+                                                  <p class="mt-1.5 text-sm text-his-text font-medium leading-relaxed">
                                                     {firstSentence}
                                                   </p>
                                                   {rest && (
-                                                    <p class="mt-0.5 text-sm text-his-text-secondary leading-relaxed line-clamp-2">
+                                                    <p class="mt-0.5 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
                                                       {rest}
                                                     </p>
                                                   )}
@@ -113,7 +113,7 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                               );
                                             }
                                             return (
-                                              <p class="mt-1 text-sm text-his-text-secondary leading-relaxed line-clamp-2">
+                                              <p class="mt-1.5 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
                                                 {desc}
                                               </p>
                                             );
@@ -129,8 +129,9 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                 </section>
             ))}
         </div>
-        <hr class="mt-16 mb-24 border-his-hr/30" />
-        <Testimonial />
+        <div class="mt-28 rounded-2xl bg-his-hover/15 px-4 sm:px-6 py-2 -mx-2 sm:-mx-3">
+            <Testimonial />
+        </div>
         <Footer />
     </div>
 </div>
