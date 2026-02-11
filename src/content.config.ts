@@ -11,6 +11,7 @@ const podcastSchema = z.object({
   embedUrl: z.string(),
   video: z.object({
     url: z.string().url(),
+    offsetSeconds: z.number().int().nonnegative().optional(),
     summary: z.string().optional(),
     recordedOn: z.string().optional(),
     chapters: z.array(

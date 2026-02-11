@@ -50,32 +50,30 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
         </div>
     </div>
     <div class="flex-1">
-        <div class="space-y-16">
+        <div class="space-y-7 sm:space-y-8">
             {seasons.map((season) => (
                 <section>
                     {season !== 0 && (
-                        <div class="flex items-center gap-3 mb-4">
+                        <div class="mb-2.5">
                             <h2 class="text-xl font-semibold tracking-wide text-his-green">
                                 {season === 6 ? "Internet Checkpoint" : season === 2 ? "Maintainers Anonymous" : `Season ${season}`}
                             </h2>
-                            <div class="flex-1 h-px bg-gradient-to-r from-his-hr/20 to-transparent"></div>
                         </div>
                     )}
                     <div class="space-y-0.5">
                         {episodesBySeasons[season].map((episode) => (
-                            <article class="episode-card group relative px-3 sm:px-4 py-4 rounded-lg border-l-2 border-l-transparent hover:border-l-his-green/60 hover:bg-his-hover/30 transition-all duration-200">
+                            <article
+                                class="episode-card group relative px-3 sm:px-4 py-3.5 rounded-lg border-l-2 border-l-transparent hover:border-l-his-green/60 hover:bg-his-hover/30 transition-all duration-200"
+                                title={episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                            >
                                 <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
-                                    <div class="flex items-start gap-2 pr-12">
-                                        <h3 class="text-lg font-medium group-hover:text-his-green transition-colors flex-1">
-                                            {episode.episodeTitle}
-                                        </h3>
-                                        {episode.data.video?.url && (
-                                            <span class="mt-0.5 inline-flex items-center rounded-full border border-his-green/30 bg-his-green/10 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-[0.12em] text-his-green">
-                                                Video
-                                            </span>
-                                        )}
-                                    </div>
-                                    <div class="flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary mt-0.5">
+                                    <h3 class="text-lg font-medium leading-snug group-hover:text-his-green transition-colors min-w-0">
+                                        {episode.episodeTitle}
+                                        <span class="ml-1 font-mono text-[0.68rem] leading-none text-his-text-tertiary/75 whitespace-nowrap align-middle">
+                                            #{episode.epNumber}
+                                        </span>
+                                    </h3>
+                                    <div class="flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary mt-0">
                                         {episode.guestDisplays.length > 0 && (
                                             <>
                                                 <span class="text-his-text-secondary">
@@ -89,15 +87,24 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                                 <span class="text-his-text-tertiary/50">·</span>
                                             </>
                                         )}
-                                        <span>{episode.data.date.toLocaleDateString('en-US', {
-                                          year: 'numeric',
-                                          month: 'short',
-                                          day: 'numeric',
-                                        })}</span>
-                                        {episode.data.time && (
+                                        <span>{episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
+                                        {(episode.data.video?.url || episode.data.time) && (
                                             <>
                                                 <span class="text-his-text-tertiary/50">·</span>
-                                                <span>{episode.data.time} min</span>
+                                                <span class="inline-flex items-center gap-1.5">
+                                                    {episode.data.video?.url && (
+                                                        <span
+                                                            class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
+                                                            title="Video episode"
+                                                        >
+                                                            <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                                                <path d="M8 5v14l11-7z" />
+                                                            </svg>
+                                                            <span class="sr-only">Video episode</span>
+                                                        </span>
+                                                    )}
+                                                    {episode.data.time && <span>{episode.data.time} min</span>}
+                                                </span>
                                             </>
                                         )}
                                     </div>
@@ -126,10 +133,6 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                                             );
                                           })()}
                                 </a>
-                                {/* Episode number badge */}
-                                <span class="absolute top-2 right-3 text-xs font-mono text-his-text-tertiary">
-                                    {episode.epNumber}
-                                </span>
                             </article>
                         ))}
                     </div>

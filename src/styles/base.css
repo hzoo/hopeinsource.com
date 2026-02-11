@@ -299,6 +299,39 @@ html {
     @apply bg-his-active text-his-text;
   }
 
+  #chat-header #episode-video-shell {
+    overflow: hidden;
+    max-height: min(58vh, 560px);
+    opacity: 1;
+    margin-top: 0;
+    transition: max-height 220ms ease, opacity 180ms ease, margin-top 220ms ease;
+  }
+
+  #chat-header[data-video-mode="read"] #episode-video-shell {
+    max-height: 0;
+    opacity: 0;
+    margin-top: -0.4rem;
+    pointer-events: none;
+  }
+
+  #video-mode-toggle .video-mode-button {
+    @apply text-his-text-secondary;
+  }
+
+  #video-mode-toggle .video-mode-button:hover {
+    @apply text-his-text;
+  }
+
+  #video-mode-toggle .video-mode-button[aria-pressed="true"] {
+    @apply bg-his-green/20 text-his-green;
+  }
+
+  #episode-content-shell[data-video-layout="true"][data-video-mode="watch"] #toc-scrubber,
+  #episode-content-shell[data-video-layout="true"][data-video-mode="watch"] #toc-nav,
+  #episode-content-shell[data-video-layout="true"][data-video-mode="watch"] #ref-popover {
+    display: none !important;
+  }
+
   #msg-0 {
     @apply mt-8;
   }

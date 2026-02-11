@@ -8,6 +8,8 @@ interface MessagePoint {
     el: HTMLElement;
 }
 
+type VideoMode = "watch" | "read";
+
 declare global {
     interface Window {
         YT?: {
@@ -41,6 +43,24 @@ let messagePoints: MessagePoint[] = [];
 let listenerAbort: AbortController | null = null;
 let tickInterval: ReturnType<typeof setInterval> | null = null;
 let lastHighlightedMessage: HTMLElement | null = null;
+let mode: VideoMode = "watch";
+let contentShell: HTMLElement | null = null;
+let headerShell: HTMLElement | null = null;
+let modeWatchButton: HTMLButtonElement | null = null;
+let modeReadButton: HTMLButtonElement | null = null;
+let followResumeButton: HTMLButtonElement | null = null;
+let scrollContainerEl: HTMLElement | null = null;
+let videoOffsetSeconds = 0;
+let followTranscript = true;
+let ignoreScrollEventsUntil = 0;
+
+function isPlayerPlaying(): boolean {
+    return Boolean(
+        player &&
+        window.YT?.PlayerState &&
+        player.getPlayerState() === window.YT.PlayerState.PLAYING,
+    );
+}
 
 function findMessageIndex(seconds: number): number {
     let low = 0;
@@ -61,24 +81,30 @@ function findMessageIndex(seconds: number): number {
 }
 
 function scrollMessageIntoView(message: HTMLElement) {
-    const scrollContainer = document.getElementById("episode-scroll-container");
+    const scrollContainer = scrollContainerEl ?? document.getElementById("episode-scroll-container");
     if (!scrollContainer) {
-        message.scrollIntoView({ block: "center", behavior: "smooth" });
+        message.scrollIntoView({ block: "start", behavior: "smooth" });
         return;
     }
 
     const containerRect = scrollContainer.getBoundingClientRect();
     const messageRect = message.getBoundingClientRect();
-    const topThreshold = containerRect.top + containerRect.height * 0.2;
-    const bottomThreshold = containerRect.top + containerRect.height * 0.8;
-    const isOutsideFocusBand = messageRect.top < topThreshold || messageRect.bottom > bottomThreshold;
+    const topInset = 20;
 
-    if (isOutsideFocusBand) {
-        message.scrollIntoView({ block: "center", behavior: "smooth" });
+    const currentTop = scrollContainer.scrollTop;
+    const messageTop = currentTop + (messageRect.top - containerRect.top);
+    const targetTop = Math.max(0, messageTop - topInset);
+
+    if (Math.abs(targetTop - currentTop) > 8) {
+        ignoreScrollEventsUntil = Date.now() + 600;
+        scrollContainer.scrollTo({
+            top: targetTop,
+            behavior: "smooth",
+        });
     }
 }
 
-function updateTranscriptAtTime(seconds: number) {
+function updateTranscriptAtTime(seconds: number, shouldAutoScroll: boolean) {
     if (messagePoints.length === 0) return;
 
     const currentIndex = findMessageIndex(Math.floor(seconds));
@@ -90,17 +116,53 @@ function updateTranscriptAtTime(seconds: number) {
         }
         if (currentMessage) {
             currentMessage.classList.add("message-current");
-            scrollMessageIntoView(currentMessage);
+            if (shouldAutoScroll) {
+                scrollMessageIntoView(currentMessage);
+            }
         }
         lastHighlightedMessage = currentMessage;
     }
 }
 
+function updateModeButtons() {
+    const isWatch = mode === "watch";
+    modeWatchButton?.setAttribute("aria-pressed", String(isWatch));
+    modeReadButton?.setAttribute("aria-pressed", String(!isWatch));
+}
+
+function updateFollowControls() {
+    const showResume = mode === "watch" && !followTranscript;
+    followResumeButton?.classList.toggle("hidden", !showResume);
+}
+
+function setFollowEnabled(enabled: boolean) {
+    followTranscript = enabled;
+    updateFollowControls();
+}
+
+function setMode(nextMode: VideoMode) {
+    mode = nextMode;
+    contentShell?.setAttribute("data-video-mode", nextMode);
+    headerShell?.setAttribute("data-video-mode", nextMode);
+    updateModeButtons();
+
+    if (nextMode === "read") {
+        player?.pauseVideo();
+        setFollowEnabled(false);
+        return;
+    }
+
+    setFollowEnabled(true);
+    updatePlayerUi();
+}
+
 function updatePlayerUi() {
     if (!player) return;
 
-    const currentTime = player.getCurrentTime();
-    updateTranscriptAtTime(currentTime);
+    const videoTime = player.getCurrentTime();
+    const transcriptTime = videoTime - videoOffsetSeconds;
+    const shouldAutoScroll = mode === "watch" && followTranscript;
+    updateTranscriptAtTime(transcriptTime, shouldAutoScroll);
 }
 
 function startTicker() {
@@ -120,7 +182,8 @@ function stopTicker() {
 function seekToTime(seconds: number, shouldPlay: boolean) {
     if (!player || !Number.isFinite(seconds) || seconds < 0) return;
 
-    player.seekTo(seconds, true);
+    const videoTime = Math.max(0, seconds + videoOffsetSeconds);
+    player.seekTo(videoTime, true);
     if (shouldPlay) {
         player.playVideo();
     }
@@ -180,8 +243,50 @@ async function initVideoPlayer() {
     listenerAbort = new AbortController();
     const { signal } = listenerAbort;
 
+    const root = document.getElementById("episode-video-sync");
     const iframe = document.getElementById("episode-youtube-player");
-    if (!iframe) return;
+    if (!root || !iframe) return;
+
+    const parsedOffset = parseInt(root.getAttribute("data-video-offset-seconds") || "0", 10);
+    videoOffsetSeconds = Number.isNaN(parsedOffset) ? 0 : Math.max(0, parsedOffset);
+
+    contentShell = document.getElementById("episode-content-shell");
+    headerShell = document.getElementById("chat-header");
+    modeWatchButton = document.getElementById("video-mode-watch") as HTMLButtonElement | null;
+    modeReadButton = document.getElementById("video-mode-read") as HTMLButtonElement | null;
+    followResumeButton = document.getElementById("video-follow-resume") as HTMLButtonElement | null;
+    scrollContainerEl = document.getElementById("episode-scroll-container");
+
+    mode = "watch";
+    setFollowEnabled(true);
+    contentShell?.setAttribute("data-video-mode", "watch");
+    headerShell?.setAttribute("data-video-mode", "watch");
+    updateModeButtons();
+
+    modeWatchButton?.addEventListener("click", () => {
+        setMode("watch");
+    }, { signal });
+
+    modeReadButton?.addEventListener("click", () => {
+        setMode("read");
+    }, { signal });
+
+    followResumeButton?.addEventListener("click", () => {
+        setFollowEnabled(true);
+        updatePlayerUi();
+    }, { signal });
+
+    const pauseFollowOnManualScroll = () => {
+        if (mode !== "watch" || !followTranscript || !isPlayerPlaying()) return;
+        setFollowEnabled(false);
+    };
+
+    scrollContainerEl?.addEventListener("wheel", pauseFollowOnManualScroll, { passive: true, signal });
+    scrollContainerEl?.addEventListener("touchstart", pauseFollowOnManualScroll, { passive: true, signal });
+    scrollContainerEl?.addEventListener("scroll", () => {
+        if (Date.now() < ignoreScrollEventsUntil) return;
+        pauseFollowOnManualScroll();
+    }, { passive: true, signal });
 
     messagePoints = Array.from(document.querySelectorAll<HTMLElement>(".message"))
         .map((message) => ({
@@ -203,6 +308,10 @@ async function initVideoPlayer() {
     player = new window.YT.Player("episode-youtube-player", {
         events: {
             onReady: () => {
+                setMode("watch");
+                if (!window.location.hash && videoOffsetSeconds > 0) {
+                    player?.seekTo(videoOffsetSeconds, true);
+                }
                 updatePlayerUi();
                 startTicker();
                 handleHashSeek(false);
@@ -222,6 +331,8 @@ async function initVideoPlayer() {
             const href = timestampLink.getAttribute("href");
             if (!href) return;
             history.replaceState(null, "", href);
+            setMode("watch");
+            setFollowEnabled(true);
             handleHashSeek(true);
             return;
         }
@@ -234,10 +345,16 @@ async function initVideoPlayer() {
         const seconds = parseInt(timestamp, 10);
         if (Number.isNaN(seconds)) return;
         history.replaceState(null, "", `#t=${seconds}`);
+        setMode("watch");
+        setFollowEnabled(true);
         seekToTime(seconds, true);
     }, { signal });
 
     window.addEventListener("hashchange", () => {
+        if (window.location.hash.startsWith("#t=") || window.location.hash.startsWith("#msg-")) {
+            setMode("watch");
+            setFollowEnabled(true);
+        }
         handleHashSeek(true);
     }, { signal });
 }
@@ -257,6 +374,16 @@ function cleanupVideoPlayer() {
         lastHighlightedMessage = null;
     }
 
+    mode = "watch";
+    videoOffsetSeconds = 0;
+    followTranscript = true;
+    ignoreScrollEventsUntil = 0;
+    contentShell = null;
+    headerShell = null;
+    modeWatchButton = null;
+    modeReadButton = null;
+    followResumeButton = null;
+    scrollContainerEl = null;
     messagePoints = [];
 }
 

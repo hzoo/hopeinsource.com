@@ -8,6 +8,7 @@ episodeLink: "https://anchor.fm/s/ff707650/podcast/play/115176730/https%3A%2F%2F
 embedUrl: "https://creators.spotify.com/pod/show/hopeinsource/episodes/Internet-Checkpoint-Melody-Kim-e3epdqq/a-acf8l35"
 video:
   url: "https://www.youtube.com/watch?v=UQWoucxYK64"
+  offsetSeconds: 35
   recordedOn: "Feb 6, 2026"
   summary: "What is all this talk about Claude Code? Will we get replaced by AI? What changes when anyone can build?"
   chapters:
