@@ -12,9 +12,18 @@
 </button>
 
 <script is:inline>
+  const THEME_CONTROLLER_KEY = '__hisThemeToggleController';
+  const existingController = window[THEME_CONTROLLER_KEY];
+  if (existingController?.cleanup) {
+    existingController.cleanup();
+  }
+
+  const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  let toggle = null;
+
   function setTheme(theme) {
     if (theme === 'system') {
-      const systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+      const systemTheme = mediaQuery.matches ? 'dark' : 'light';
       document.documentElement.setAttribute('data-theme', systemTheme);
       localStorage.removeItem('theme');
     } else {
@@ -32,6 +41,26 @@
     document.getElementById('theme-toggle-light-icon')?.classList.toggle('hidden', !isDark);
   }
 
+  function handleSystemThemeChange() {
+    if (!localStorage.theme) { // Only update if using system theme
+      setTheme('system');
+      updateThemeIcons();
+    }
+  }
+
+  function handleToggleClick() {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+    updateThemeIcons();
+  }
+
+  function bindToggleClick() {
+    toggle?.removeEventListener('click', handleToggleClick);
+    toggle = document.getElementById('theme-toggle');
+    toggle?.addEventListener('click', handleToggleClick);
+  }
+
   function initThemeToggle() {
     // Initial theme setup
     if (localStorage.theme === 'dark' || localStorage.theme === 'light') {
@@ -42,28 +71,25 @@
 
     // Update icons
     updateThemeIcons();
+    bindToggleClick();
   }
 
-  // Listen for system theme changes
-  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
-    if (!localStorage.theme) { // Only update if using system theme
-      setTheme('system');
-      updateThemeIcons();
-    }
-  });
-
-  // When the toggle is clicked
-  const toggle = document.getElementById('theme-toggle');
-  toggle?.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    setTheme(newTheme);
-    updateThemeIcons();
-  });
+  function cleanupThemeToggle() {
+    toggle?.removeEventListener('click', handleToggleClick);
+    mediaQuery.removeEventListener('change', handleSystemThemeChange);
+    document.removeEventListener('astro:after-swap', initThemeToggle);
+  }
 
   // Initial setup
   initThemeToggle();
 
+  // Listen for system theme changes
+  mediaQuery.addEventListener('change', handleSystemThemeChange);
+
   // Re-initialize after View Transitions
   document.addEventListener('astro:after-swap', initThemeToggle);
+
+  window[THEME_CONTROLLER_KEY] = {
+    cleanup: cleanupThemeToggle,
+  };
 </script> 

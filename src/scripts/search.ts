@@ -57,6 +57,9 @@ let modal: HTMLDivElement | null = null;
 let input: HTMLInputElement | null = null;
 let resultsArea: HTMLDivElement | null = null;
 let currentSearch: { results: PagefindResult[] } | null = null;
+let initAbort: AbortController | null = null;
+let modalAbort: AbortController | null = null;
+let activeSearchId = 0;
 // Load up to 500 results to ensure we can group them properly by episode
 const MAX_RESULTS = 500;
 
@@ -135,6 +138,9 @@ function getLoadingHtml(): string {
 
 function createModal() {
     if (modal) return;
+    modalAbort?.abort();
+    modalAbort = new AbortController();
+    const { signal } = modalAbort;
 
     // Backdrop
     backdrop = document.createElement('div');
@@ -172,14 +178,16 @@ function createModal() {
     input.addEventListener('input', (e) => {
         const query = (e.target as HTMLInputElement).value.trim();
         if (debounceTimer) clearTimeout(debounceTimer);
+        selectedIndex = -1;
 
         if (!query) {
+            activeSearchId++;
             resultsArea!.innerHTML = getEmptyStateHtml();
             return;
         }
 
         debounceTimer = setTimeout(() => performSearch(query), 250);
-    });
+    }, { signal });
 
     // Keyboard navigation
     input.addEventListener('keydown', (e) => {
@@ -199,10 +207,10 @@ function createModal() {
         } else if (e.key === 'Escape') {
             closeModal();
         }
-    });
+    }, { signal });
 
     // Backdrop click
-    backdrop.addEventListener('click', closeModal);
+    backdrop.addEventListener('click', closeModal, { signal });
 
     // Handle search result clicks - close modal and navigate to hash (delegated)
     resultsArea.addEventListener('click', (e) => {
@@ -238,13 +246,20 @@ function createModal() {
                 window.location.href = link.href;
             }
         }
-    });
+    }, { signal });
 }
 
 function handleGlobalKeydown(e: KeyboardEvent) {
-    if (e.key === '/' && !(e.target as HTMLElement).matches('input, textarea, [contenteditable]')) {
+    const isTyping = (e.target as HTMLElement).matches('input, textarea, [contenteditable]');
+
+    if (e.key === 'Escape' && modal?.classList.contains('visible')) {
+        closeModal();
+        return;
+    }
+
+    if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey && !isTyping) {
         e.preventDefault();
-        openModal();
+        void openModal();
     }
 }
 
@@ -277,6 +292,7 @@ async function openModal() {
 
 function closeModal() {
     if (!modal || !backdrop || !input || !resultsArea) return;
+    activeSearchId++;
     modal.classList.remove('visible');
     backdrop.classList.remove('visible');
     document.body.style.overflow = '';
@@ -287,9 +303,12 @@ function closeModal() {
 
 async function performSearch(query: string) {
     if (!pagefind || !resultsArea) return;
+    const searchId = ++activeSearchId;
+    selectedIndex = -1;
 
     try {
         currentSearch = await pagefind.search(query);
+        if (searchId !== activeSearchId) return;
 
         if (!currentSearch || currentSearch.results.length === 0) {
             resultsArea.innerHTML = '<div class="search-no-results">No results found</div>';
@@ -307,11 +326,14 @@ async function performSearch(query: string) {
         for (let i = 0; i < resultsToLoad; i += batchSize) {
             const batch = currentSearch.results.slice(i, i + batchSize);
             const data = await Promise.all(batch.map(r => r.data()));
+            if (searchId !== activeSearchId) return;
             allResults.push(...data);
         }
 
+        if (searchId !== activeSearchId) return;
         renderGroupedResults(allResults);
     } catch (e) {
+        if (searchId !== activeSearchId) return;
         resultsArea.innerHTML = '<div class="search-no-results">Search error</div>';
     }
 }
@@ -456,18 +478,34 @@ function initSearch() {
     const trigger = document.getElementById('search-trigger');
     if (!trigger) return;
 
-    trigger.addEventListener('click', openModal);
-    document.addEventListener('keydown', handleGlobalKeydown);
+    initAbort?.abort();
+    initAbort = new AbortController();
+    const { signal } = initAbort;
+
+    trigger.addEventListener('click', () => { void openModal(); }, { signal });
+    document.addEventListener('keydown', handleGlobalKeydown, { signal });
 }
 
 function cleanupSearch() {
+    activeSearchId++;
+    initAbort?.abort();
+    initAbort = null;
+    modalAbort?.abort();
+    modalAbort = null;
+    if (debounceTimer) {
+        clearTimeout(debounceTimer);
+        debounceTimer = null;
+    }
+
     backdrop?.remove();
     modal?.remove();
     backdrop = null;
     modal = null;
     input = null;
     resultsArea = null;
-    document.removeEventListener('keydown', handleGlobalKeydown);
+    currentSearch = null;
+    selectedIndex = -1;
+    document.body.style.overflow = '';
 }
 
 // Initialize and handle cleanup on every page load (including navigations)

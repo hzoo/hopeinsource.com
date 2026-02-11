@@ -73,18 +73,30 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                     {episode.epNumber}
                   </span>
                   <div class="flex-1 min-w-0">
-                    <div class="flex items-baseline justify-between gap-2">
+                    <div class="flex items-baseline gap-2">
                       <span class:list={[
-                        "text-sm leading-snug transition-colors truncate",
+                        "text-sm leading-snug transition-colors truncate flex-1 min-w-0",
                         isActive ? "text-his-green font-medium" : "text-his-text-secondary group-hover:text-his-text"
                       ]}>
                         {episode.episodeTitle}
                       </span>
-                      <span class="flex-shrink-0 text-[10px] font-mono tabular-nums text-his-text-tertiary whitespace-nowrap">
-                        {episode.data.date.getFullYear() === new Date().getFullYear()
-                          ? episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
-                          : `${episode.data.date.toLocaleDateString('en-US', { month: 'short' })} '${String(episode.data.date.getFullYear()).slice(-2)}`}
-                      </span>
+                      <div class="flex items-center gap-1.5 flex-shrink-0">
+                        {episode.data.video?.url && (
+                          <span class:list={[
+                            "rounded-full border px-1.5 py-0.5 text-[9px] font-semibold uppercase tracking-[0.1em]",
+                            isActive
+                              ? "border-his-green/40 bg-his-green/15 text-his-green"
+                              : "border-his-hr bg-his-hover/60 text-his-text-tertiary group-hover:text-his-green group-hover:border-his-green/30"
+                          ]}>
+                            video
+                          </span>
+                        )}
+                        <span class="text-[10px] font-mono tabular-nums text-his-text-tertiary whitespace-nowrap">
+                          {episode.data.date.getFullYear() === new Date().getFullYear()
+                            ? episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' })
+                            : `${episode.data.date.toLocaleDateString('en-US', { month: 'short' })} '${String(episode.data.date.getFullYear()).slice(-2)}`}
+                        </span>
+                      </div>
                     </div>
                     {episode.guestDisplays.length > 0 && (
                       <span class:list={[

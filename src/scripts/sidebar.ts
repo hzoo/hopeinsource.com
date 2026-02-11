@@ -6,6 +6,7 @@ function initSidebar() {
     // Helper to get elements lazily
     const getSidebar = () => document.getElementById('episode-sidebar');
     const getBackdrop = () => document.getElementById('sidebar-backdrop');
+    if (!getSidebar() || !getBackdrop()) return null;
 
     function openSidebar() {
         const sidebar = getSidebar();
@@ -101,6 +102,7 @@ function initSidebar() {
         document.removeEventListener('keydown', handleGlobalKeydown);
         document.removeEventListener('touchstart', handleTouchStart);
         document.removeEventListener('touchend', handleTouchEnd);
+        document.body.style.overflow = '';
     };
 }
 

@@ -7,15 +7,17 @@
 function initChatHeader() {
     const header = document.getElementById('chat-header');
     const scrollContainer = header?.nextElementSibling as HTMLElement | null;
-    if (!header || !scrollContainer) return;
+    if (!header || !scrollContainer) return null;
 
-    scrollContainer.addEventListener('scroll', () => {
+    const onScroll = () => {
         if (scrollContainer.scrollTop > 10) {
             header.classList.add('shadow-md', 'shadow-black/10');
         } else {
             header.classList.remove('shadow-md', 'shadow-black/10');
         }
-    }, { passive: true });
+    };
+
+    scrollContainer.addEventListener('scroll', onScroll, { passive: true });
 
     // Hide the fixed theme toggle since we have inline one
     const fixedToggle = document.getElementById('theme-toggle');
@@ -32,19 +34,28 @@ function initChatHeader() {
         lightIcon?.classList.toggle('hidden', !isDark);
     }
 
-    toggle?.addEventListener('click', () => {
+    const onToggleClick = () => {
         const newTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
         document.documentElement.setAttribute('data-theme', newTheme);
         localStorage.theme = newTheme;
         updateIcons();
-    });
+    };
+
+    toggle?.addEventListener('click', onToggleClick);
 
     updateIcons();
+
+    return () => {
+        scrollContainer.removeEventListener('scroll', onScroll);
+        toggle?.removeEventListener('click', onToggleClick);
+        if (fixedToggle) fixedToggle.style.display = '';
+    };
 }
 
 // --- Message Deep-linking Logic ---
 
 let currentPlayButton: HTMLButtonElement | null = null;
+let chatHeaderCleanup: (() => void) | null = null;
 
 function createPlayButton(messageEl: HTMLElement) {
     // Remove any existing play button
@@ -107,13 +118,15 @@ function highlightMessage() {
 }
 
 function initEpisode() {
-    initChatHeader();
+    chatHeaderCleanup = initChatHeader();
     highlightMessage();
     // Handle hash changes individually (like clicking TOC links)
     window.addEventListener('hashchange', highlightMessage);
 }
 
 function cleanupEpisode() {
+    chatHeaderCleanup?.();
+    chatHeaderCleanup = null;
     if (currentPlayButton) {
         currentPlayButton.remove();
         currentPlayButton = null;

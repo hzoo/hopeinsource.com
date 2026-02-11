@@ -20,11 +20,17 @@ let volumeSlider: HTMLInputElement | null = null;
 let playerFeedback: HTMLElement | null = null;
 let feedbackText: HTMLElement | null = null;
 
-let allMessages: NodeListOf<HTMLElement>;
-let feedbackTimeout: ReturnType<typeof setTimeout>;
+interface MessagePoint {
+    time: number;
+    el: HTMLElement;
+}
+
+let messagePoints: MessagePoint[] = [];
+let feedbackTimeout: ReturnType<typeof setTimeout> | null = null;
 let lastHighlightedMessage: HTMLElement | null = null;
 let isLoaded = false;
 let src = '';
+let listenerAbort: AbortController | null = null;
 
 function formatTime(seconds: number) {
     if (!seconds || isNaN(seconds)) return "00:00";
@@ -51,26 +57,38 @@ function updateTimeDisplay() {
 }
 
 function updateCurrentMessage() {
-    if (!audio) return;
+    if (!audio || messagePoints.length === 0) return;
     const currentTime = Math.floor(audio.currentTime);
-    let currentMessage: HTMLElement | null = null;
-
-    allMessages.forEach(message => {
-        const timestamp = parseInt(message.getAttribute('data-timestamp') || '0');
-        if (timestamp <= currentTime) {
-            currentMessage = message;
-        }
-    });
+    const currentIndex = findMessageIndex(currentTime);
+    const currentMessage = currentIndex >= 0 ? messagePoints[currentIndex].el : null;
 
     if (currentMessage !== lastHighlightedMessage) {
         if (lastHighlightedMessage) {
-            (lastHighlightedMessage as HTMLElement).classList.remove('message-current');
+            lastHighlightedMessage.classList.remove('message-current');
         }
         if (currentMessage) {
-            (currentMessage as HTMLElement).classList.add('message-current');
+            currentMessage.classList.add('message-current');
         }
         lastHighlightedMessage = currentMessage;
     }
+}
+
+function findMessageIndex(seconds: number): number {
+    let low = 0;
+    let high = messagePoints.length - 1;
+    let best = -1;
+
+    while (low <= high) {
+        const mid = Math.floor((low + high) / 2);
+        if (messagePoints[mid].time <= seconds) {
+            best = mid;
+            low = mid + 1;
+        } else {
+            high = mid - 1;
+        }
+    }
+
+    return best;
 }
 
 function prepAudioPosition(seconds: number) {
@@ -165,7 +183,9 @@ function updateMuteIcon(isMuted: boolean) {
 
 function showFeedback(action: string, value: string | number = '') {
     if (!feedbackText || !playerFeedback) return;
-    clearTimeout(feedbackTimeout);
+    if (feedbackTimeout) {
+        clearTimeout(feedbackTimeout);
+    }
 
     let text = '';
     switch (action) {
@@ -254,6 +274,10 @@ function handleHashChange() {
 }
 
 function initAudioPlayer() {
+    listenerAbort?.abort();
+    listenerAbort = new AbortController();
+    const { signal } = listenerAbort;
+
     audio = document.getElementById("audio-element") as HTMLAudioElement;
     playPauseButton = document.getElementById("play-pause");
     seekSlider = document.getElementById("seek-slider") as HTMLInputElement;
@@ -274,25 +298,31 @@ function initAudioPlayer() {
 
     const container = document.getElementById("audio-player-container");
     src = container?.dataset.src || '';
-    allMessages = document.querySelectorAll('.message');
+    messagePoints = Array.from(document.querySelectorAll<HTMLElement>('.message'))
+        .map((message) => ({
+            time: parseInt(message.getAttribute('data-timestamp') || '', 10),
+            el: message,
+        }))
+        .filter(({ time }) => !isNaN(time))
+        .sort((a, b) => a.time - b.time);
 
     if (!audio) return;
 
     // Listeners
-    playPauseButton?.addEventListener("click", togglePlayPause);
+    playPauseButton?.addEventListener("click", togglePlayPause, { signal });
 
     seekSlider?.addEventListener("input", () => {
         if (audio && audio.duration) {
             const seekTime = audio.duration * (Number(seekSlider?.value) / 100);
             audio.currentTime = seekTime;
         }
-    });
+    }, { signal });
 
-    audio.addEventListener("timeupdate", updateTimeDisplay);
+    audio.addEventListener("timeupdate", updateTimeDisplay, { signal });
     audio.addEventListener("loadedmetadata", () => {
         updateTimeDisplay();
         if (seekSlider) seekSlider.disabled = false;
-    });
+    }, { signal });
 
     volumeSlider?.addEventListener("input", () => {
         if (audio && volumeSlider) {
@@ -302,7 +332,7 @@ function initAudioPlayer() {
             updateMuteIcon(audio.muted);
             showFeedback('volume', val);
         }
-    });
+    }, { signal });
 
     audio.addEventListener("volumechange", () => {
         if (!audio) return;
@@ -310,7 +340,7 @@ function initAudioPlayer() {
         if (!audio.muted && volumeSlider) {
             volumeSlider.value = String(Math.round(audio.volume * 100));
         }
-    });
+    }, { signal });
 
     muteButton?.addEventListener("click", () => {
         if (!audio) return;
@@ -320,33 +350,44 @@ function initAudioPlayer() {
             audio.volume = 0.5;
             if (volumeSlider) volumeSlider.value = "50";
         }
-    });
+    }, { signal });
 
-    shortcutsButton?.addEventListener("click", () => shortcutsDialog?.classList.remove("hidden"));
-    closeShortcuts?.addEventListener("click", () => shortcutsDialog?.classList.add("hidden"));
+    shortcutsButton?.addEventListener("click", () => shortcutsDialog?.classList.remove("hidden"), { signal });
+    closeShortcuts?.addEventListener("click", () => shortcutsDialog?.classList.add("hidden"), { signal });
     shortcutsDialog?.addEventListener("click", (e) => {
         if (e.target === shortcutsDialog) shortcutsDialog?.classList.add("hidden");
-    });
+    }, { signal });
 
-    document.addEventListener("keydown", handleAudioKeydown);
+    document.addEventListener("keydown", handleAudioKeydown, { signal });
 
-    document.addEventListener("click", handleGlobalClick);
-    window.addEventListener("hashchange", handleHashChange);
+    document.addEventListener("click", handleGlobalClick, { signal });
+    window.addEventListener("hashchange", handleHashChange, { signal });
 
     audio.volume = 0.5;
     seekToTimestamp();
 }
 
 function cleanupAudioPlayer() {
+    listenerAbort?.abort();
+    listenerAbort = null;
+
     if (audio) {
         audio.pause();
         audio.src = '';
     }
+
+    if (lastHighlightedMessage) {
+        lastHighlightedMessage.classList.remove('message-current');
+    }
+
+    if (feedbackTimeout) {
+        clearTimeout(feedbackTimeout);
+        feedbackTimeout = null;
+    }
+
+    messagePoints = [];
     isLoaded = false;
     lastHighlightedMessage = null;
-    document.removeEventListener("keydown", handleAudioKeydown);
-    document.removeEventListener("click", handleGlobalClick);
-    window.removeEventListener("hashchange", handleHashChange);
 }
 
 function setupAudioPlayer() {
@@ -359,3 +400,5 @@ document.addEventListener('astro:page-load', setupAudioPlayer);
 if (document.readyState === 'complete') {
     setupAudioPlayer();
 }
+
+export {};

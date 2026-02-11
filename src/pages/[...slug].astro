@@ -39,6 +39,35 @@ export async function getStaticPaths() {
 }
 
 const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, episodeTitle, guests } = Astro.props;
+
+const videoUrl = frontmatter.video?.url ?? null;
+
+function getYouTubeVideoId(url: string): string | null {
+  try {
+    const parsed = new URL(url);
+    if (parsed.hostname === "youtu.be") {
+      return parsed.pathname.slice(1) || null;
+    }
+    if (parsed.hostname.includes("youtube.com")) {
+      return parsed.searchParams.get("v");
+    }
+  } catch {
+    return null;
+  }
+  return null;
+}
+
+const videoEmbedUrl = (() => {
+  if (!videoUrl) return null;
+  const videoId = getYouTubeVideoId(videoUrl);
+  if (!videoId) return null;
+  return `https://www.youtube.com/embed/${videoId}`;
+})();
+
+const videoEmbedSrc = videoEmbedUrl
+  ? `${videoEmbedUrl}?enablejsapi=1&playsinline=1&rel=0`
+  : null;
+const hasVideoPlayback = Boolean(videoEmbedSrc && videoUrl);
 ---
 
 <Layout frontmatter={frontmatter} slug={`/${slug}`}>
@@ -104,6 +133,13 @@ const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, epi
             <path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/>
           </svg>
         </a>
+        {videoUrl && (
+          <a href={videoUrl} target="_blank" rel="noreferrer" class="hidden sm:flex p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors" title="YouTube">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.5 6.2a3.02 3.02 0 00-2.12-2.14C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.38.56A3.02 3.02 0 00.5 6.2 31.1 31.1 0 000 12a31.1 31.1 0 00.5 5.8 3.02 3.02 0 002.12 2.14c1.88.56 9.38.56 9.38.56s7.5 0 9.38-.56a3.02 3.02 0 002.12-2.14A31.1 31.1 0 0024 12a31.1 31.1 0 00-.5-5.8zM9.55 15.57V8.43L15.82 12l-6.27 3.57z"/>
+            </svg>
+          </a>
+        )}
         <a href={hisMetadata.rss} target="_blank" rel="noopener noreferrer" class="hidden sm:flex p-2 rounded-lg text-his-text-tertiary hover:text-his-green hover:bg-his-hover transition-colors" title="RSS Feed">
           <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
             <path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"/>
@@ -130,12 +166,32 @@ const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, epi
       </nav>
     </header>
 
-    <div class="flex-1 overflow-y-auto">
+    <div id="episode-scroll-container" class="flex-1 overflow-y-auto">
     <div class="mx-auto px-3 sm:px-4 pt-6 pb-28 sm:pt-8 sm:pb-32 flex flex-col lg:max-w-4xl">
       {/* Description as the hook */}
     <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-6 leading-relaxed">
       {frontmatter.description}
     </p>
+
+    {videoEmbedUrl && videoUrl && (
+      <section
+        id="episode-video-sync"
+        class="mx-auto w-full max-w-3xl mb-8 rounded-2xl border border-his-hr bg-gradient-to-br from-his-hover/45 to-his-hover/10 p-3 sm:p-4"
+      >
+        <div class="relative w-full overflow-hidden rounded-xl border border-his-hr bg-black aspect-video">
+          <iframe
+            id="episode-youtube-player"
+            class="absolute inset-0 h-full w-full"
+            src={videoEmbedSrc}
+            title={`${episodeTitle} - YouTube`}
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          />
+        </div>
+      </section>
+    )}
 
     <TableOfContents headings={headings} extractedLinks={extractedLinks} />
 
@@ -147,9 +203,9 @@ const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, epi
     <Footer />
     </div>
     </div>
-    <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />
+    {!hasVideoPlayback && <AudioPlayer title={frontmatter.title} src={frontmatter.episodeLink} />}
   </div>
 
+  {hasVideoPlayback && <script src="../scripts/video-player.ts"></script>}
   <script src="../scripts/episode.ts"></script>
 </Layout>
-

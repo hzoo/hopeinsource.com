@@ -114,6 +114,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   let tocOpen = false;
   let refOpen = false;
   let observer: IntersectionObserver | null = null;
+  let tocAbort: AbortController | null = null;
 
   function handleTOCClick(e: MouseEvent) {
     const target = e.target as HTMLElement;
@@ -154,6 +155,10 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   }
 
   function initTOC() {
+    tocAbort?.abort();
+    tocAbort = new AbortController();
+    const { signal } = tocAbort;
+
     const tocBars = document.getElementById('toc-bars');
     const tocNav = document.getElementById('toc-nav');
     const tocLinks = document.querySelectorAll('.toc-link');
@@ -208,13 +213,13 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     tocBars?.addEventListener('click', (e) => {
       e.stopPropagation();
       tocOpen ? closeTOC() : openTOC();
-    });
+    }, { signal });
 
     // Toggle refs
     refBadge?.addEventListener('click', (e) => {
       e.stopPropagation();
       refOpen ? closeRefPopover() : openRefPopover();
-    });
+    }, { signal });
 
     // TOC links - scroll to section
     tocLinks.forEach(link => {
@@ -228,7 +233,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
             setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
           }
         }
-      });
+      }, { signal });
     });
 
     // Ref items - scroll to blockquote
@@ -245,7 +250,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
             setTimeout(() => bq.classList.remove('ref-highlight'), 1500);
           }
         }
-      });
+      }, { signal });
     });
 
     // Intersection Observer
@@ -258,8 +263,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     document.querySelectorAll('h4').forEach((h) => observer?.observe(h));
 
     // Global listeners
-    document.addEventListener('click', handleTOCClick);
-    document.addEventListener('keydown', handleTOCKeyDown);
+    document.addEventListener('click', handleTOCClick, { signal });
+    document.addEventListener('keydown', handleTOCKeyDown, { signal });
 
     // Init from hash
     const hash = window.location.hash;
@@ -267,19 +272,26 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   }
 
   function cleanupTOC() {
+    tocAbort?.abort();
+    tocAbort = null;
+
     if (observer) {
       observer.disconnect();
       observer = null;
     }
-    document.removeEventListener('click', handleTOCClick);
-    document.removeEventListener('keydown', handleTOCKeyDown);
     tocOpen = false;
     refOpen = false;
     currentActiveId = null;
   }
 
-  document.addEventListener('astro:page-load', () => {
+  function setupTOC() {
     cleanupTOC();
     initTOC();
-  });
+  }
+
+  document.addEventListener('astro:page-load', setupTOC);
+
+  if (document.readyState === 'complete') {
+    setupTOC();
+  }
 </script>
