@@ -12,6 +12,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461749/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/TabFS-Omar-Rizwan-e2su9fl
 sidebar:
   order: 14
+quotes:
+  - text: "A good project idea comes out of some kind of personal history or personal relationship that you have with the concepts or with the system. It's something that not anybody could just come up with and try."
+    speaker: "Omar"
+    timestamp: "10:54"
+    topic: "Knowledge & Embodiment"
 ---
 
 #### TabFS or BrowserFS?

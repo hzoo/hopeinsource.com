@@ -12,6 +12,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461825/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-4-Mikeal-Rogers-on-Getting-Old-in-Open-Source-e2su9i1
 sidebar:
   order: 4
+quotes:
+  - text: "Open source is a really organic process that seems to mostly be working. People seem to get things done. They seem to communicate. It's definitely better than it's ever been."
+    speaker: "Mikeal"
+    timestamp: "24:03"
+    topic: "Community & Belonging"
 ---
 
 [00:07] **Henry:** Yeah, today, I have with me Mikeal Rogers. I feel like Mikeal's been around for a pretty long time, especially in open source. I don't remember where I first met you or heard about you. But I mean I definitely knew that you worked on Node. And then probably feel like I talked to you a lot more after you made RFC with Nadia.

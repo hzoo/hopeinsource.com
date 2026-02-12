@@ -13,6 +13,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461695/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Emotional-Programming-Omar-Rizwan-e2su9dv
 sidebar:
   order: 6
+quotes:
+  - text: "I think emotions are a big deal in programming. Like I think most of the work in programming is managing your own feelings about it."
+    speaker: "Omar"
+    timestamp: "06:02"
+    topic: "Knowledge & Embodiment"
+  - text: "Content and presentation are always inseparable. And often when you do this naive translation of stuff that's in a physical medium into your computer screen, you lose a lot of important parts of the presentation."
+    speaker: "Omar"
+    timestamp: "15:23"
+    topic: "Technology & Limits"
 ---
 
 #### That's a Dynamicland sort of thought

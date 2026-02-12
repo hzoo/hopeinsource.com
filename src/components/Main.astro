@@ -5,143 +5,384 @@ import Subscribe from "@/components/Subscribe.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { getEpisodeData } from "@/lib/episodes";
+import { shuffle } from "@/lib/shuffle";
+import { HOME_LAYOUTS, type HomeLayout } from "@/lib/home-layouts";
+import {
+  deriveTopics,
+  extractQuestions,
+  timestampToSeconds,
+} from "@/lib/content-extraction";
 
-const { episodesBySeasons, seasons } = await getEpisodeData();
+const { episodes, episodesBySeasons, seasons } = await getEpisodeData();
+
+const rawFiles = import.meta.glob<string>(
+  "/src/content/podcast/**/*.md",
+  { query: "?raw", import: "default", eager: true },
+);
+const bodyMap_ = new Map<string, string>();
+for (const [path, content] of Object.entries(rawFiles)) {
+  const slug = path.split("/").pop()?.replace(".md", "") ?? "";
+  const bodyStart = content.indexOf("---", 3);
+  const body = bodyStart >= 0 ? content.slice(bodyStart + 3).trim() : content;
+  bodyMap_.set(slug, body);
+}
+
+const episodeBodies = episodes.map((ep) => ({
+  slug: ep.slug,
+  body: bodyMap_.get(ep.slug) ?? "",
+  episodeTitle: ep.episodeTitle,
+  description: ep.data.description,
+}));
+
+const allQuotes = episodes.flatMap((ep) =>
+  (ep.data.quotes ?? []).map((q) => ({
+    ...q,
+    seconds: timestampToSeconds(q.timestamp),
+    slug: ep.slug,
+    episodeTitle: ep.episodeTitle,
+    year: ep.data.date.getFullYear(),
+  })),
+);
+
+const wallQuotes = (() => {
+  const byEp = new Map<string, (typeof allQuotes)[number][]>();
+  for (const q of allQuotes) {
+    const arr = byEp.get(q.slug) ?? [];
+    arr.push(q);
+    byEp.set(q.slug, arr);
+  }
+
+  // Keep guest-forward by default, with an occasional Henry anchor.
+  const cadence = 5;
+  const offset = Math.floor(Math.random() * cadence);
+  const shuffledEpisodes = shuffle([...byEp.values()]);
+  return shuffledEpisodes.map((qs, index) => {
+    const guest = qs.find((q) => q.speaker !== "Henry");
+    const henry = qs.find((q) => q.speaker === "Henry");
+    const useHenry = ((index + offset) % cadence === 0) && Boolean(henry);
+    return useHenry ? (henry ?? guest ?? qs[0]) : (guest ?? qs[0]);
+  });
+})();
+
+const conversationQuotes = (() => {
+  const pool = shuffle([...allQuotes]);
+  const result: typeof pool = [];
+  let lastSpeaker = "";
+  const remaining = [...pool];
+  while (remaining.length > 0) {
+    const idx = remaining.findIndex((q) => q.speaker !== lastSpeaker);
+    if (idx === -1) {
+      result.push(...remaining);
+      break;
+    }
+    const [picked] = remaining.splice(idx, 1);
+    result.push(picked);
+    lastSpeaker = picked.speaker;
+  }
+  return result;
+})();
+
+const bodyMap = new Map(episodeBodies.map(({ slug, body }) => [slug, body]));
+const topicClusters = shuffle(deriveTopics(episodes, bodyMap));
+
+const allQuestions = shuffle(
+  episodeBodies.flatMap(({ slug, episodeTitle, description }) =>
+    extractQuestions(slug, episodeTitle, description),
+  ),
+);
+
+const epMap = new Map(episodes.map((e) => [e.slug, e]));
+const iconByLayout: Record<HomeLayout["icon"], string> = {
+  list: "[]",
+  grid: "##",
+  chat: "><",
+  hash: "#",
+  question: "?",
+};
+const latestSeason = seasons[0] ?? 0;
+
+function seasonTitle(season: number): string {
+  if (season === 6) return "Internet Checkpoint";
+  if (season === 2) return "Maintainers Anonymous";
+  if (season === 0) return "Early Episodes";
+  return `Season ${season}`;
+}
 ---
 
-<div class="mx-auto px-3 sm:px-5 py-5 sm:py-7 flex flex-col lg:flex-row lg:max-w-6xl">
-    <div class="lg:mr-4 flex-grow-0 flex-shrink-0 basis-[500px]">
-        <div class="lg:fixed lg:top-1/2 lg:-translate-y-1/2">
-            <div class="flex flex-col items-center text-center max-w-[472px] mx-auto">
-                <Image
-                    src={his_cover}
-                    alt="Hope in Source Cover Art"
-                    class="w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]"
-                    loading="eager"
-                    format="webp"
-                    quality={90}
-                />
-                <div class="taglines text-center space-y-1">
-                    <p class="m-0 text-lg font-medium tracking-wide opacity-0 animate-[fadeIn_0.8s_ease_0.2s_forwards]">
-                        off-the-cuff conversations between friends
-                    </p>
-                    <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.5s_forwards]">
-                        finding the sacred in the ordinary
-                    </p>
-                    <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.7s_forwards]">
-                        universal within the particular
-                    </p>
-                    <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.9s_forwards]">
-                        where word becomes flesh
-                    </p>
-                </div>
-                <div class="mt-5 space-y-1.5 text-xs text-his-text-tertiary">
-                    <div class="opacity-0 animate-[fadeIn_0.8s_ease_1.1s_forwards]">
-                        <Subscribe />
-                    </div>
-                    <p class="m-0 opacity-0 animate-[fadeIn_0.8s_ease_1.3s_forwards]">
-                        with{" "}
-                        <a href="https://henryzoo.com/living-out-in-faith">Henry</a>
-                        {" "}&{" "}
-                        <a href="https://nadia.xyz/public-faith">Nadia</a>
-                    </p>
-                </div>
-            </div>
+<div
+  id="home-layout-root"
+  class="home-root"
+  data-active-layout="A"
+>
+  <section id="home-brand">
+    <div class="brand-inner">
+      <div class="brand-content flex flex-col items-center text-center max-w-[472px] mx-auto">
+        <h1 class="brand-title m-0">Hope in Source</h1>
+        <Image
+          src={his_cover}
+          alt="Hope in Source Cover Art"
+          class="brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]"
+          loading="eager"
+          format="webp"
+          quality={90}
+        />
+        <div class="brand-taglines text-center space-y-1">
+          <p class="m-0 text-lg font-medium tracking-wide opacity-0 animate-[fadeIn_0.8s_ease_0.2s_forwards]">
+            off-the-cuff conversations between friends
+          </p>
+          <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.5s_forwards]">
+            finding the sacred in the ordinary
+          </p>
+          <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.7s_forwards]">
+            universal within the particular
+          </p>
+          <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.9s_forwards]">
+            where word becomes flesh
+          </p>
         </div>
+        <div class="brand-meta mt-5 space-y-1.5 text-xs text-his-text-tertiary">
+          <div class="opacity-0 animate-[fadeIn_0.8s_ease_1.1s_forwards]">
+            <Subscribe />
+          </div>
+          <p class="m-0 opacity-0 animate-[fadeIn_0.8s_ease_1.3s_forwards]">
+            with <a href="https://henryzoo.com/living-out-in-faith">Henry</a> & <a href="https://nadia.xyz/public-faith">Nadia</a>
+          </p>
+        </div>
+      </div>
     </div>
-    <div class="flex-1">
+  </section>
+
+  <section id="home-layout-toggle" aria-label="Homepage layout switcher">
+    <div
+      id="home-layout-controls"
+      class="layout-toggle-list"
+      role="toolbar"
+      aria-label="Select homepage layout"
+    >
+      {HOME_LAYOUTS.map((layout) => (
+        <button
+          type="button"
+          class="layout-toggle-button"
+          data-layout-toggle
+          data-layout={layout.id}
+          aria-label={layout.label}
+          title={layout.label}
+          aria-pressed={layout.id === "A" ? "true" : "false"}
+          aria-controls={`home-layout-${layout.id}`}
+        >
+          <span class="layout-toggle-icon" aria-hidden="true">{iconByLayout[layout.icon]}</span>
+        </button>
+      ))}
+    </div>
+  </section>
+
+  <div id="home-layout-stage">
+    <section id="home-layout-A" data-layout-section="A" aria-label="Archive layout">
+      <div id="home-archive">
         <div class="space-y-7 sm:space-y-8">
-            {seasons.map((season) => (
-                <section>
-                    {season !== 0 && (
-                        <div class="mb-2.5">
-                            <h2 class="text-xl font-semibold tracking-wide text-his-green">
-                                {season === 6 ? "Internet Checkpoint" : season === 2 ? "Maintainers Anonymous" : `Season ${season}`}
-                            </h2>
+          {seasons.map((season) => {
+            const seasonEpisodes = episodesBySeasons[season];
+            return (
+              <details
+                id={`season-${season}`}
+                class="season-block"
+                open={season === latestSeason}
+              >
+                <summary class="season-heading season-summary">
+                  <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{seasonTitle(season)}</h2>
+                  <div class="season-summary-meta">
+                    <span class="season-count">{seasonEpisodes.length}</span>
+                    <span class="season-caret" aria-hidden="true">+</span>
+                  </div>
+                </summary>
+                <div class="season-episodes space-y-0.5">
+                  {seasonEpisodes.map((episode) => (
+                    <article
+                      class="episode-card group relative px-3 sm:px-4 py-2.5 rounded-lg border-l-2 border-l-transparent hover:border-l-his-green/60 hover:bg-his-hover/20 transition-all duration-200"
+                      data-layout="A"
+                      data-slug={episode.slug}
+                      title={episode.data.date.toLocaleDateString("en-US", {
+                        month: "short",
+                        day: "numeric",
+                        year: "numeric",
+                      })}
+                    >
+                      <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
+                        <h3 class="card-title text-lg font-medium leading-snug group-hover:text-his-green transition-colors min-w-0">
+                          {episode.episodeTitle}
+                          <span class="card-epnum ml-1 font-mono text-[0.68rem] leading-none text-his-text-tertiary/75 whitespace-nowrap align-middle">
+                            #{episode.epNumber}
+                          </span>
+                        </h3>
+                        <div class="card-meta flex flex-wrap md:flex-nowrap items-center gap-x-2 text-sm text-his-text-tertiary mt-0.5">
+                          {episode.guestDisplays.length > 0 && (
+                            <>
+                              <span class="text-his-text-secondary">
+                                {episode.guestDisplays.map((g, i) => (
+                                  <>
+                                    {i > 0 && ", "}
+                                    {g.name}
+                                    {g.count > 1 && (
+                                      <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">&times;{g.count}</sup>
+                                    )}
+                                  </>
+                                ))}
+                              </span>
+                              <span class="text-his-text-tertiary/50">&middot;</span>
+                            </>
+                          )}
+                          <span>
+                            {episode.data.date.toLocaleDateString("en-US", {
+                              month: "short",
+                              day: "numeric",
+                              year: "numeric",
+                            })}
+                          </span>
+                          {(episode.data.video?.url || episode.data.time) && (
+                            <>
+                              <span class="text-his-text-tertiary/50">&middot;</span>
+                              <span class="inline-flex items-center gap-1.5">
+                                {episode.data.video?.url && (
+                                  <span
+                                    class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
+                                    title="Video episode"
+                                  >
+                                    <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                      <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    <span class="sr-only">Video episode</span>
+                                  </span>
+                                )}
+                                {episode.data.time && <span>{episode.data.time} min</span>}
+                              </span>
+                            </>
+                          )}
                         </div>
-                    )}
-                    <div class="space-y-0.5">
-                        {episodesBySeasons[season].map((episode) => (
-                            <article
-                                class="episode-card group relative px-3 sm:px-4 py-3.5 rounded-lg border-l-2 border-l-transparent hover:border-l-his-green/60 hover:bg-his-hover/30 transition-all duration-200"
-                                title={episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
-                            >
-                                <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
-                                    <h3 class="text-lg font-medium leading-snug group-hover:text-his-green transition-colors min-w-0">
-                                        {episode.episodeTitle}
-                                        <span class="ml-1 font-mono text-[0.68rem] leading-none text-his-text-tertiary/75 whitespace-nowrap align-middle">
-                                            #{episode.epNumber}
-                                        </span>
-                                    </h3>
-                                    <div class="flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary mt-0">
-                                        {episode.guestDisplays.length > 0 && (
-                                            <>
-                                                <span class="text-his-text-secondary">
-                                                    {episode.guestDisplays.map((g, i) => (
-                                                        <>
-                                                            {i > 0 && ", "}
-                                                            {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">×{g.count}</sup>}
-                                                        </>
-                                                    ))}
-                                                </span>
-                                                <span class="text-his-text-tertiary/50">·</span>
-                                            </>
-                                        )}
-                                        <span>{episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</span>
-                                        {(episode.data.video?.url || episode.data.time) && (
-                                            <>
-                                                <span class="text-his-text-tertiary/50">·</span>
-                                                <span class="inline-flex items-center gap-1.5">
-                                                    {episode.data.video?.url && (
-                                                        <span
-                                                            class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
-                                                            title="Video episode"
-                                                        >
-                                                            <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                                                <path d="M8 5v14l11-7z" />
-                                                            </svg>
-                                                            <span class="sr-only">Video episode</span>
-                                                        </span>
-                                                    )}
-                                                    {episode.data.time && <span>{episode.data.time} min</span>}
-                                                </span>
-                                            </>
-                                        )}
-                                    </div>
-                                    {(() => {
-                                            const desc = episode.data.description;
-                                            const match = desc.match(/^([^?]+\?)\s*(.*)$/);
-                                            if (match) {
-                                              const [, firstSentence, rest] = match;
-                                              return (
-                                                <>
-                                                  <p class="mt-1.5 text-sm text-his-text font-medium leading-relaxed">
-                                                    {firstSentence}
-                                                  </p>
-                                                  {rest && (
-                                                    <p class="mt-0.5 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
-                                                      {rest}
-                                                    </p>
-                                                  )}
-                                                </>
-                                              );
-                                            }
-                                            return (
-                                              <p class="mt-1.5 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
-                                                {desc}
-                                              </p>
-                                            );
-                                          })()}
-                                </a>
-                            </article>
-                        ))}
-                    </div>
-                </section>
-            ))}
+                        {(() => {
+                          const desc = episode.data.description;
+                          const match = desc.match(/^([^?]+\?)\s*(.*)$/);
+                          if (match) {
+                            const [, firstSentence, rest] = match;
+                            return (
+                              <div class="card-description">
+                                <p class="mt-1 text-sm text-his-text font-medium leading-relaxed line-clamp-2">{firstSentence}</p>
+                                {rest && (
+                                  <p class="mt-0.5 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
+                                    {rest}
+                                  </p>
+                                )}
+                              </div>
+                            );
+                          }
+                          return (
+                            <div class="card-description">
+                              <p class="mt-1 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
+                                {desc}
+                              </p>
+                            </div>
+                          );
+                        })()}
+                      </a>
+                    </article>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
         </div>
-        <div class="mt-28 rounded-2xl bg-his-hover/15 px-4 sm:px-6 py-2 -mx-2 sm:-mx-3">
-            <Testimonial />
+      </div>
+    </section>
+
+    <section id="home-layout-B" data-layout-section="B" aria-label="Wall layout">
+      <div id="home-wall">
+        {wallQuotes.map((ex) => (
+          <a
+            href={`/${ex.slug}#t=${ex.seconds}`}
+            class="wall-fragment"
+            data-astro-prefetch="hover"
+          >
+            <p class="wall-quote m-0">&ldquo;{ex.text}&rdquo;</p>
+            <span class="wall-cite">&mdash; {ex.speaker}, {ex.episodeTitle}</span>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section id="home-layout-C" data-layout-section="C" aria-label="Conversation layout">
+      <div id="home-dialogue">
+        <div class="convo-flow">
+          {conversationQuotes.map((q) => {
+            const isHost = q.speaker === "Henry";
+            return (
+              <div class={`convo-line ${isHost ? "convo-sent" : "convo-received"}`}>
+                <div class="convo-meta">
+                  <span class="convo-speaker">{q.speaker}</span>
+                  <span class="convo-source">{q.episodeTitle}</span>
+                </div>
+                <a href={`/${q.slug}#t=${q.seconds}`} class="convo-bubble" data-astro-prefetch="hover">
+                  <p class="m-0">{q.text}</p>
+                </a>
+              </div>
+            );
+          })}
         </div>
-        <Footer />
-    </div>
+      </div>
+    </section>
+
+    <section id="home-layout-G" data-layout-section="G" aria-label="Topics layout">
+      <div id="home-topics">
+        {topicClusters.map((cluster) => {
+          const rep = allQuotes.find((q) => q.topic === cluster.topic);
+          return (
+            <div class="topic-cluster">
+              <h3 class="topic-name">{cluster.topic}</h3>
+              {rep && <p class="topic-excerpt">&ldquo;{rep.text}&rdquo;</p>}
+              <div class="topic-chips">
+                {cluster.episodeSlugs.map((s) => {
+                  const ep = epMap.get(s);
+                  return ep ? (
+                    <a
+                      href={`/${s}`}
+                      class="topic-chip"
+                      data-astro-prefetch="hover"
+                    >
+                      {ep.episodeTitle}
+                    </a>
+                  ) : null;
+                })}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+
+    <section id="home-layout-I" data-layout-section="I" aria-label="Questions layout">
+      <div id="home-questions">
+        {allQuestions.map((q, i) => {
+          const wc = q.question.split(/\s+/).length;
+          const len = wc <= 8 ? "short" : wc >= 18 ? "long" : "medium";
+          return (
+            <a
+              href={`/${q.slug}`}
+              class="question-item"
+              data-astro-prefetch="hover"
+              data-len={len}
+              style={`animation-delay: ${Math.min(i * 0.05, 2)}s`}
+            >
+              <p class="question-text m-0">{q.question}</p>
+              <span class="question-source">{q.episodeTitle}</span>
+            </a>
+          );
+        })}
+      </div>
+    </section>
+  </div>
+
+  <section id="home-footer">
+    <Testimonial />
+    <Footer />
+  </section>
 </div>
+
+<script src="../scripts/home-layout-lab.ts"></script>

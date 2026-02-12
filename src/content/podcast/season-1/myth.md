@@ -10,6 +10,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461661/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/7-Mythology-and-Symbolism-e2su9ct
 sidebar:
   order: 7
+quotes:
+  - text: "I think a lot of being in a faith community is about being a part of community. Especially in our current age where it's a lot of focus on individualism and everything that we do in our lives is like kind of making us forced to think about ourselves more."
+    speaker: "Henry"
+    timestamp: "12:03"
+    topic: "Community & Belonging"
+  - text: "Tradition is also like participatory. You have to connect to it or else it doesn't really work. It's more that you're joining a long line of people that are doing this thing versus you're not just aping whatever someone did 300 years ago."
+    speaker: "Nadia"
+    timestamp: "32:40"
+    topic: "Time & Memory"
 ---
 
 > In [On Fairy-Stories](https://en.wikipedia.org/wiki/On_Fairy-Stories), Tolkien argues that fairy tales offer "recovery" (seeing your world from a new perspective), "escape", and "consolation" through the happy ending he calls "eucatastrophe". He connects this to Christianity: "The Gospels contain a fairy-story, or a story of a larger kind which embraces all the essence of fairy-stories."

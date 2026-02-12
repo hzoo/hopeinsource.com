@@ -12,6 +12,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461725/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/12-Haircut-Bonus-e2su9et
 sidebar:
   order: 12
+quotes:
+  - text: "We want to treat everything like a robot or a program because it's easy to reason about those things. But reality is so complicated that it actually makes more sense to treat it as living."
+    speaker: "Henry"
+    timestamp: "22:04"
+    topic: "Technology & Limits"
 ---
 
 [00:00] **Henry:** So this podcast, I have a special bonus episode with my friend Jonathan. We recorded this podcast earlier this year in April, on Holy Saturday, which is the day before Easter. I thought it'd be fun to record a podcast while he was cutting my hair. So the kind of topics that we talked about are pretty varied. Just to give you a summary of what we talked about: the relationship between faith and the world and culture, how we should engage living in New York, worklife balance, serendipity, thinking about communities, creativity and how it relates to God, the importance of testimony and of stories, seeing God as a person, and the importance of bodies. Let us know what you think and enjoy the conversation.

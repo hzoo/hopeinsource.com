@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461836/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Attending-to-Silence-L-M--Sacasas-e2su9ic
 sidebar:
     order: 18
+quotes:
+  - text: "Silence is a critical part of human communication. It's meaningful. Two bodies in proximity being silent before one another are still having a kind of meaningful exchange as it were between the two of them."
+    speaker: "Michael"
+    timestamp: "00:30"
+    topic: "Language & Meaning"
+  - text: "Do I live in such a way that I am prepared to be surprised? By my circumstances, by the world, by people. If I only ever think about my self given goals, I'm inhabiting the world in such a way that I'm not able to see what may be there."
+    speaker: "Michael"
+    timestamp: "24:25"
+    topic: "Time & Memory"
 ---
 
 #### Impossible Silences

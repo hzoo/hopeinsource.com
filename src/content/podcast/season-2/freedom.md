@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461807/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-5-Evan-You-on-Funding-Ones-Freedom-e2su9hf
 sidebar:
     order: 5
+quotes:
+  - text: "The nice thing about it being an open source project is we don't really have a burn rate, we don't have a runway. That relieves us from having to always rush."
+    speaker: "Evan"
+    timestamp: "43:48"
+    topic: "Gift & Economy"
+  - text: "When you are working on something that has no history burden, there's no obligation or anything, you're much more free to just let your creativity lead to whatever you want, where it wants to go."
+    speaker: "Evan"
+    timestamp: "01:10:10"
+    topic: "Technology & Limits"
 ---
 
 [00:00] **Henry:** Today I have with me, Evan You. He's the creator of Vue.js. He has been working full-time for about three years, and I thought it'd be great to have him on since we tend to... I guess we tend to come up a lot when people are talking about open source.

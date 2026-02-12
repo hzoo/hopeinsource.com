@@ -13,6 +13,15 @@ speakers:
     Michael: right
     Dana: left
     Madhu: left
+quotes:
+  - text: "How do I refuse the framing that modern technological culture offers to me, of being the one who will master and control the world. The one who sees the world as raw material for my own projects."
+    speaker: "Michael"
+    timestamp: "19:42"
+    topic: "Gift & Economy"
+  - text: "Maybe the answer is not more, but less. Or differently configured."
+    speaker: "Michael"
+    timestamp: "24:23"
+    topic: "Technology & Limits"
 ---
 
 [00:00] **Henry:** I know it's been a while since the last podcast, but I've been reading a lot of Ivan Illich over the last few years. And I figured it was worth hosting a guest podcast about his work. And so on this next episode, I have Michael Sacasas. But he's being interviewed by Madhu and Dana of Penn State University. They're also the editors of [The International Journal of Illich Studies](https://journals.psu.edu/illichstudies). You had a really fascinating conversation with Michael about his work in trying to bring to light Illich's thoughts around the pandemic, institutions and modern life. I hope you enjoy the conversation.

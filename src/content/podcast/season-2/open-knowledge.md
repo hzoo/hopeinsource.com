@@ -13,6 +13,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461898/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-14-Shawn-Wang-on-Open-Knowledge-e2su9ka
 sidebar:
   order: 14
+quotes:
+  - text: "Open source code is better than closed source code because there's more people looking at it. It's easy to contribute. But the way that we treat our knowledge is very close source."
+    speaker: "Shawn"
+    timestamp: "22:55"
+    topic: "Knowledge & Embodiment"
+  - text: "People don't know that git is only 15 years old. There was a time before git. But it also means that five and 15 years from now, we would be doing completely different things."
+    speaker: "Shawn"
+    timestamp: "09:46"
+    topic: "Time & Memory"
 ---
 
 #### Tummling as an Alternative to Community Manager

@@ -12,6 +12,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461588/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-12-Maggie-Appleton-on-Embodiment-Through-Metaphors-e2su9ak
 sidebar:
   order: 12
+quotes:
+  - text: "When the program dies, it's not when the program doesn't work, it's when the people don't understand how it works."
+    speaker: "Henry"
+    timestamp: "20:50"
+    topic: "Knowledge & Embodiment"
+  - text: "All dirt is contextual. It all just depends on where we draw the boundaries."
+    speaker: "Maggie"
+    timestamp: "32:59"
+    topic: "Language & Meaning"
 ---
 ### Show Notes
 

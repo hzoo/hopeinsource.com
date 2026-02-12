@@ -15,6 +15,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461731/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Right-Feeling-Sonya-Mann-e2su9f3
 sidebar:
   order: 8
+quotes:
+  - text: "Christianity itself could be looked at from that lens. Something that can seem kind of quaint and archaic from the outside, but from the inside it's just as fresh and alive as ever."
+    speaker: "Sonya"
+    timestamp: "25:37"
+    topic: "Faith & Practice"
+  - text: "We delight to praise what we enjoy because it doesn't just express what we like, but also completes the enjoyment. It is its appointed consummation."
+    speaker: "Henry"
+    timestamp: "38:34"
+    topic: "Faith & Practice"
 ---
 
 [00:00] **Sonya:** So Henry, I want to read [Matthew 20](https://www.biblegateway.com/passage/?search=Matthew+20&version=ESV), which is the parable of the workers in the vineyard. I actually read this last night because I'm reading through. And it really resonated with me and I felt like it was very relevant to our current cultural moment, at least in America, and maybe in other places too. So I'm just gonna go ahead and it's not very long, so I'll just read it and then we can talk about it and what it means. Oh, and this is Jesus speaking.

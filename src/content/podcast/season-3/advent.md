@@ -11,6 +11,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461564/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Approaching-Advent-Alex-Kim-e2su99s
 sidebar:
   order: 11
+quotes:
+  - text: "These rituals again, they're not things that we just do alongside our active remembrance. They themselves are the remembrance. It's a memorial that causes us to remember."
+    speaker: "Alex"
+    timestamp: "06:24"
+    topic: "Time & Memory"
+  - text: "Christian history and Christian conceptions of time is both cyclical and linear. It's a spiral."
+    speaker: "Alex"
+    timestamp: "18:26"
+    topic: "Faith & Practice"
 ---
 
 > Opening Music: Gabriels Message (via [Open Hymnal](http://openhymnal.org/Lyrics/Gabriels_Message-Gabriel.html))

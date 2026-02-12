@@ -48,6 +48,15 @@ video:
       title: "the checkpoint"
 sidebar:
   order: 1
+quotes:
+  - text: "The seed needs to be extremely high quality. The seed of the idea, and then it'll produce the fruit of your project."
+    speaker: "Melody"
+    timestamp: "30:17"
+    topic: "Knowledge & Embodiment"
+  - text: "There is no inevitability as long as there's a willingness to understand what is happening."
+    speaker: "Henry"
+    timestamp: "42:59"
+    topic: "Technology & Limits"
 ---
 
 [00:00] **Melody:** Internet checkpoint.

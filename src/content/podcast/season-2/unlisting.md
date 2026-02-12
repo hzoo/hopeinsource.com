@@ -15,6 +15,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461920/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-15-Philip-Gee-2-on-Unlisting-Yourself-e2su9l0
 sidebar:
   order: 15
+quotes:
+  - text: "By just kind of quitting you just free up your mind. They were known for Seinfeld obviously, but they also had a bunch of stuff afterwards. So I find that's pretty admirable."
+    speaker: "Philip"
+    timestamp: "29:14"
+    topic: "Time & Memory"
 ---
 
 > See also: [1: Growing Old with the Web](/growing-old) and [3: Life After Digital Death](/digital-death)

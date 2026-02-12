@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/98595589/https%3A%2F%2Fd3
 embedUrl: https://creators.spotify.com/pod/show/hopeinsource/embed/episodes/Unpacking-Belief-Joseph-Choi-e2uvda5/a-abpkt2u
 sidebar:
   order: 1
+quotes:
+  - text: "We feel safe when we have a lot of options, but the safest thing is committing, which is scary."
+    speaker: "Henry"
+    timestamp: "04:49"
+    topic: "Faith & Practice"
+  - text: "Faith in anything is about commitment to what you believe in, whether it's yourself, a company, science, or God."
+    speaker: "Henry"
+    timestamp: "06:40"
+    topic: "Faith & Practice"
 ---
 
 ### Links

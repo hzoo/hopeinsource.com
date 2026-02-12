@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461566/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/1-Faith-and-Open-Source-e2su99u
 sidebar:
   order: 1
+quotes:
+  - text: "It feels like all this stuff in technology's about making things better for yourself or making money, and just very materialistic and robotic, in a sense. And yet this is more about helping others, and not necessarily thinking about yourself."
+    speaker: "Henry"
+    timestamp: "04:51"
+    topic: "Gift & Economy"
+  - text: "We have habits that affect how we actually live and what we believe, and sometimes what we think we believe isn't what we end up doing because we don't practice it."
+    speaker: "Henry"
+    timestamp: "11:51"
+    topic: "Knowledge & Embodiment"
 ---
 
 #### What is your faith background?

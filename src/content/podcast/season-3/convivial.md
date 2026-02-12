@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461827/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/The-Convivial-Society-L-M--Sacasas-e2su9i3
 sidebar:
     order: 8
+quotes:
+  - text: "One of the threats of modern tools and modern institutions is that they teach us to depend upon the products that they offer or the services they render, instead of our neighbor."
+    speaker: "Michael"
+    timestamp: "02:41"
+    topic: "Technology & Limits"
+  - text: "To simply look at the world is not to see it. And so we need to learn to see, and part of that I think involves the learning to name the world."
+    speaker: "Michael"
+    timestamp: "15:42"
+    topic: "Language & Meaning"
 ---
 
 #### Conviviality as Autonomy

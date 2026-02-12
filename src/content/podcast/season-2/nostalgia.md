@@ -13,6 +13,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461585/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-13-Jordan-Scales-on-Nostalgia-and-Not-Taking-Yourself-Too-Seriously-e2su9ah
 sidebar:
   order: 13
+quotes:
+  - text: "It is a celebration, if you will, of retro computing. I was born in the early '90s. So I grew up playing games on Windows 98. Really, my first time on the computer was Windows 98."
+    speaker: "Jordan"
+    timestamp: "00:00:43"
+    topic: "Time & Memory"
 ---
 
 [00:00:00] **Jordan:** Hello, and welcome to Maintainers Anonymous. This is your guest Jordan Scales. Henry graciously allowed me to do the introduction. This is a podcast about software maintenance and anonymization. Henry, I don't know if that's correct.

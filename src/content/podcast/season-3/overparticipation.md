@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461803/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Managing-Over-Participation-Working-in-Public-e2su9hb
 sidebar:
     order: 4
+quotes:
+  - text: "Imagine trying to collaborate with your comment section is kind of like at the heart of why this stuff is so challenging."
+    speaker: "Nadia"
+    timestamp: "10:06"
+    topic: "Community & Belonging"
+  - text: "There's always going to be this cycle of some things becoming more institutionalized and then people kind of pushing again to the fringes and making new things. And I think that's just like a really beautiful dance that we all kind of go through."
+    speaker: "Nadia"
+    timestamp: "45:50"
+    topic: "Community & Belonging"
 ---
 
 #### Five Years Looking At Open Source Communities

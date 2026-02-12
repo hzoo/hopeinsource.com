@@ -10,6 +10,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461679/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/10-Trust-e2su9df
 sidebar:
   order: 10
+quotes:
+  - text: "The secret to a very long-lasting relationship is having some part of that person that you don't fully know."
+    speaker: "Nadia"
+    timestamp: "07:50"
+    topic: "Faith & Practice"
+  - text: "You have people that are unpaid, that probably most maintainers are accidental. They didn't have experience in maintaining before. And yet, somehow you actually are able to make things happen. And in that sense this is almost surreal in a way."
+    speaker: "Henry"
+    timestamp: "34:18"
+    topic: "Community & Belonging"
 ---
 
 [00:00] **Nadia:** This is our last episode. We figured for our last episode we would get back to the definition of faith itself and talk about faith as an act of trust in other people. Which is something that is also super relevant to software both at the social level of open source being the act of trusting random people to submit code or whatever else to your project. And then also on a more technical level of what are ways that people try to enforce trust on the code level or not. But yeah, zooming out to faith itself and how it relates to trust.

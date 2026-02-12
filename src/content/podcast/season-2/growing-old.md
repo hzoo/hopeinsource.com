@@ -16,6 +16,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461646/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-7-Philip-Gee-1-On-Growing-Old-with-the-Web-e2su9ce
 sidebar:
   order: 7
+quotes:
+  - text: "If you read, you have no idea what someone is like. You might get some sense by how they write and what they choose to write about, but you're often surprised when you see them in person."
+    speaker: "Philip"
+    timestamp: "13:46"
+    topic: "Language & Meaning"
+  - text: "I think developing these core skills opens up new things. It pushes the frontier outward of what the possibilities of what you can possibly do."
+    speaker: "Philip"
+    timestamp: "27:26"
+    topic: "Knowledge & Embodiment"
 ---
 
 [00:00] **Henry:** All right, today I have with me Philip Gee. I don't remember how we first got in contact, but I actually heard of you a long time ago because my roommate in college, I think he read your post about doing a PhD or something like that.

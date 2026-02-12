@@ -11,6 +11,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461861/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Reality-is-Personal-Esther-Meek-e2su9j5
 sidebar:
   order: 2
+quotes:
+  - text: "It's not so much that reality answers your questions as that it explodes them. Reality really is in the driver's seat. So it walks in and takes over."
+    speaker: "Esther"
+    timestamp: "17:18"
+    topic: "Knowledge & Embodiment"
+  - text: "Modernity is characterized by saying no, where we need to say yes. And actually there's a term for that. It's acedia, which is one of the seven deadly sins."
+    speaker: "Esther"
+    timestamp: "36:01"
+    topic: "Faith & Practice"
 ---
 
 

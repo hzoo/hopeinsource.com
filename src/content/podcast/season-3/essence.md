@@ -13,6 +13,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461700/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Essence-Sonya-Mann-e2su9e4
 sidebar:
   order: 13
+quotes:
+  - text: "The concepts that we use to understand the world. And it almost like changes the shape of how you see the world."
+    speaker: "Sonya"
+    timestamp: "0:27"
+    topic: "Language & Meaning"
+  - text: "I don't think of a material reality as being like distinct from religious reality. It's just all the same thing. Maybe that's one of the things that is so intoxicating about Christianity and about faith is like becoming part of this integrated whole."
+    speaker: "Sonya"
+    timestamp: "39:33"
+    topic: "Faith & Practice"
 ---
 
 #### Microsoft Word as Worldview

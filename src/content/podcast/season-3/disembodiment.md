@@ -12,6 +12,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461722/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-Disembodiment-Maggie-Appleton-e2su9eq
 sidebar:
   order: 16
+quotes:
+  - text: "Ideally, we would know ourselves, like when we feel anything. When I feel emotions, when I feel like my body needs food or whatever. And then you could see a moment where like the app will tell me everything and then I won't need to rely on my own sense of feeling."
+    speaker: "Henry"
+    timestamp: "10:46"
+    topic: "Knowledge & Embodiment"
+  - text: "We have no affordances that suggest presence without noise."
+    speaker: "Maggie"
+    timestamp: "22:48"
+    topic: "Technology & Limits"
 ---
 
 [00:00] **Henry:** You were telling me earlier about going back to..

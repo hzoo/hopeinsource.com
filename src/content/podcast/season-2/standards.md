@@ -11,6 +11,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461850/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-6-Jory-Burson-on-the-Significance-of-Standards-e2su9iq
 sidebar:
   order: 6
+quotes:
+  - text: "The state that we're in today is a function of decisions that were made 20 years ago."
+    speaker: "Jory"
+    timestamp: "19:45"
+    topic: "Time & Memory"
+  - text: "People are the hardest part of software. The way I have been thinking about this for a while now is like, how can we solve the human interoperability problem, which will help improve a lot of our technical interoperability problems."
+    speaker: "Jory"
+    timestamp: "55:34"
+    topic: "Community & Belonging"
 ---
 
 [00:07] **Henry:** Today I have with me Jory Burson. She's been involved in standards for a really long time. I met her through TC39. Thanks for joining today.

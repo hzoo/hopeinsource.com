@@ -25,6 +25,14 @@ const podcastSchema = z.object({
     order: z.number(),
   }),
   speakers: z.record(z.string(), z.enum(['left', 'right', 'other'])).optional(),
+  quotes: z.array(
+    z.object({
+      text: z.string(),
+      speaker: z.string(),
+      timestamp: z.string(),
+      topic: z.string().optional(),
+    })
+  ).max(2).optional(),
 });
 
 // Define the podcast collection

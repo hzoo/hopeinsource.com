@@ -10,6 +10,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461649/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/6-Money-e2su9ch
 sidebar:
   order: 6
+quotes:
+  - text: "The point of the tithing is to help people but it's also to help yourself whether you're like, it's an opportunity for you to kind of act out that belief that, you know, your money is not yours."
+    speaker: "Henry"
+    timestamp: "15:48"
+    topic: "Gift & Economy"
+  - text: "You could have all the money in the world but you're one person, like, that's also, like, you just can't even deliver on all the things you wanna do. So you need other people to help out."
+    speaker: "Nadia"
+    timestamp: "31:54"
+    topic: "Gift & Economy"
 ---
 
 [00:00] **Nadia:** This episode, we're gonna talk about money and there's a lot of crossover between open source and religion when it comes to money, because religion is this inherently decentralized concept. Anyone can participate, get up and leave, there's no central person organizing whether you choose to be religious or not but, churches would be examples of a more centralized organization within religion that helps enable people to do more things with it. I wanna talk about when is money needed in a decentralized context and how do you know that money is necessary or not? Why can't people just practice religion by themselves and not have resources for anything?

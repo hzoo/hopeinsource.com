@@ -13,6 +13,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461771/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Finding-Hope-Amid-Burnout-Alex-Kim-e2su9gb
 sidebar:
   order: 5
+quotes:
+  - text: "Part of the reason why you may feel burnout is, everything becomes kind of a task. You're really no longer in the moment. And it's almost like you are outside of your body."
+    speaker: "Alex"
+    timestamp: "09:23"
+    topic: "Time & Memory"
+  - text: "How can the Church sort of be the kind of wire cutters for this chain linked fence that we call hopelessness?"
+    speaker: "Alex"
+    timestamp: "33:09"
+    topic: "Community & Belonging"
 ---
 
 #### La Fatigue d'être soi (Weariness of the Self)

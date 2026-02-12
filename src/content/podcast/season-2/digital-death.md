@@ -14,6 +14,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461572/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-16-Philip-Gee-3-on-Life-After-Digital-Death-e2su9a4
 sidebar:
   order: 16
+quotes:
+  - text: "I purposely want it so that between episodes, people have that context. So it almost feels like episodes of a TV show where you're assuming that people for the most part have read the previous one."
+    speaker: "Philip"
+    timestamp: "05:27"
+    topic: "Community & Belonging"
+  - text: "I talked to family and friends who aren't online. For them the small scale is the only scale. So I'm like, let me go back to doing that. It's like, wait, nobody says I can't go back to doing that."
+    speaker: "Philip"
+    timestamp: "29:51"
+    topic: "Technology & Limits"
 ---
 
 #### The Trilogy

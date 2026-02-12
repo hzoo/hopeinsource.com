@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461667/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Software-Tetris-Stephen-Kell-e2su9d3
 sidebar:
   order: 15
+quotes:
+  - text: "Losing at Tetris is basically the state of software right now where blocks are just falling into place. We don't have time, we don't have the resources to put them in the right place, so they just kind of pile up."
+    speaker: "Stephen"
+    timestamp: "3:04"
+    topic: "Technology & Limits"
+  - text: "We sort of deliberately create a sort of shifting sands that we then build on. It's kind of hilarious when you look at it from that distance."
+    speaker: "Stephen"
+    timestamp: "21:12"
+    topic: "Technology & Limits"
 ---
 
 #### The Software/Hardware Arms Race

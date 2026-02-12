@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461767/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Inhabiting-a-Space-Bernardo-Hidalgo--Marianita-Palumbo-e2su9g7
 sidebar:
     order: 5
+quotes:
+  - text: "Inhabiting is the best way to maintain a building alive."
+    speaker: "Marianita"
+    timestamp: "05:24"
+    topic: "Community & Belonging"
+  - text: "We deny completely the dimension of taking care the space we live. In a daily scale, we don't make it visible. We don't look for it. It's this blurry part of life on which we all depend."
+    speaker: "Marianita"
+    timestamp: "21:45"
+    topic: "Technology & Limits"
 ---
 
 #### An Architect and Anthropologist

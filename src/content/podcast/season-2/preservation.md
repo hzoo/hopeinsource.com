@@ -14,6 +14,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461519/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-9-Wendy-Hagenmaier-on-Preserving-the-Digital-Past-e2su98f
 sidebar:
   order: 9
+quotes:
+  - text: "That emotional reaction to technology, whether it's a digital file or a piece of software or a piece of hardware or whatever is really fascinating. It makes me hopeful, I think, for the future of how people will value their archives."
+    speaker: "Wendy"
+    timestamp: "32:23"
+    topic: "Time & Memory"
+  - text: "In archives, it's often materials that only exist in this single place, in this single instance. So it's that uniqueness and the rare quality of things that makes them particularly special."
+    speaker: "Wendy"
+    timestamp: "03:29"
+    topic: "Knowledge & Embodiment"
 ---
 
 [00:06] **Henry:** Today, I have with me, Wendy. She's the digital collections archivist at Georgia Tech Library. I thought that it would be cool to talk with her because archival in a way it seems to relate a lot to maintenance, especially with digital archiving, it's related to software. So yeah, thanks for joining with me today.

@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461809/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Everyone-is-Protestant-Online-L-M--Sacasas-e2su9h
 sidebar:
     order: 6
+quotes:
+  - text: "When we go for the most efficient method or tool or device or whatever, there's often no way of even accounting for what you're losing."
+    speaker: "Michael"
+    timestamp: "10:36"
+    topic: "Technology & Limits"
+  - text: "A frictionless life may promise ease in a certain security, but also leaves us adrift chasing one superficial pleasure after another, never satisfied because we never experienced a struggle against resistance that is essential to a sense of accomplishment."
+    speaker: "Michael"
+    timestamp: "16:44"
+    topic: "Technology & Limits"
 ---
 
 [00:00] **Henry:** We were just talking about different ways of thinking about Christianity and how for us, as Protestants, we noticed that it doesn't seem like we care about the body as much, right?

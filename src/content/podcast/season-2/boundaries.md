@@ -11,6 +11,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461579/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-2-Stephanie-Hurlburt-on-Boundaries-e2su9ab
 sidebar:
   order: 2
+quotes:
+  - text: "Being firm allows you to not have that pent up aggression and be kinder overall."
+    speaker: "Stephanie"
+    timestamp: "16:07"
+    topic: "Community & Belonging"
+  - text: "Boundaries are always most compassionate if set early."
+    speaker: "Stephanie"
+    timestamp: "44:23"
+    topic: "Faith & Practice"
 ---
 
 [00:07] **Henry:** Today, I have with me Stephanie Hurlburt. She is a developer, but also does a lot of work on the business side. I'd like to talk to her about open source and her experience with networking, sales. A lot of things that I think a lot of open source developers don't have a lot of experience with, or even almost a willingness to learn. Thanks for joining me today.

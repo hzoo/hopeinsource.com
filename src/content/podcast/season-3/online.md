@@ -13,6 +13,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461664/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Very-Online-Strange-Rites-e2su9d0
 sidebar:
   order: 3
+quotes:
+  - text: "The sort of turn, which I think is phenomenologically true, towards a kind of intuitional model of understanding. Sort of trusting your gut, rejecting external, believing that your desires are kind of ontologically good."
+    speaker: "Tara"
+    timestamp: "00:03:43"
+    topic: "Faith & Practice"
 ---
 
 #### Charles Taylor meets Marshall McLuhan

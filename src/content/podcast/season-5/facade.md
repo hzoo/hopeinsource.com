@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/102440505/https%3A%2F%2Fd
 embedUrl: https://creators.spotify.com/pod/show/hopeinsource/episodes/The-Faade-of-Control-Melody-Kim-e32ko3p
 sidebar:
   order: 2
+quotes:
+  - text: "It's this idea that technology gives us this illusion of control, and we're continuing to move in that direction. But much of being a Christian is about the giving up of control."
+    speaker: "Melody"
+    timestamp: "20:38"
+    topic: "Technology & Limits"
+  - text: "Our reason to make all this technology is because we're unable to have real community. We scale our lack of character and humanity by scaling technology instead of ourselves."
+    speaker: "Henry"
+    timestamp: "28:59"
+    topic: "Technology & Limits"
 ---
 
 #### Intro

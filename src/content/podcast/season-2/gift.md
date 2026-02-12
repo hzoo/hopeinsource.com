@@ -12,6 +12,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461884/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-11-Maggie-Appleton-on-Open-Source-as-a-Gift-Economy-e2su9js
 sidebar:
   order: 11
+quotes:
+  - text: "If the thing that makes gift exchange means something to us, if we lose that direct social relationship, that's what threatens it maybe. That's what makes the economy not quite function the way we wish it would."
+    speaker: "Maggie"
+    timestamp: "07:05"
+    topic: "Gift & Economy"
+  - text: "Patreon in a way is running under the guise of being a gift economy. All their marketing language and the way they pitch themselves is very much that we are supporting the new internet gift economy, but on the actual functional level they are pure market economy."
+    speaker: "Maggie"
+    timestamp: "35:44"
+    topic: "Gift & Economy"
 ---
 
 [00:09] **Henry:** All right. Hey, this is Henry and this is the Maintainers Anonymous Podcast. I have with me and Maggie Appleton. I don't know, I forgot how we met each other but I know that you had a background in anthropology and also studying open source and now you're, I think pretty involved in the AJAX JavaScript and tech industry in general. So I thought it'd be cool to kind of talk about maybe how you perceive open source before and then now how you see it, being a part of it now.

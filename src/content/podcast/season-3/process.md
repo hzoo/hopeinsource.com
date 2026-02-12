@@ -14,6 +14,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461690/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Technology-as-Process-Maggie-Appleton-e2su9dq
 sidebar:
   order: 10
+quotes:
+  - text: "A pot and a pan suggests how you should use it if it's designed well. So it has both embodied knowledge and external knowledge in it. The artifact teaches you how to use itself in a certain way."
+    speaker: "Maggie"
+    timestamp: "02:33"
+    topic: "Knowledge & Embodiment"
+  - text: "In the capitalist cosmology of this system, the reward is money instead of salvation. If we're going to call American capitalism a religious belief system in itself, which wouldn't be too difficult to argue, it is that your eternal salvation is you become a millionaire and buy a Ferrari."
+    speaker: "Maggie"
+    timestamp: "20:29"
+    topic: "Gift & Economy"
 ---
 
 #### Technology is Dynamic

@@ -15,6 +15,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461773/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-Communion-Nick-Ripatrazone-e2su9gd
 sidebar:
   order: 4
+quotes:
+  - text: "What we think is clarity and accuracy is sometimes neutering the messiness of everything."
+    speaker: "Nick"
+    timestamp: "09:35"
+    topic: "Language & Meaning"
+  - text: "Authentic religion is full of ambiguity. It's full of the unknown."
+    speaker: "Nick"
+    timestamp: "38:48"
+    topic: "Faith & Practice"
 ---
 
 #### Layers of Language Meaning

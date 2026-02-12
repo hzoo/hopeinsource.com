@@ -13,6 +13,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461845/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-3-Stephanie-Hurlburt-on-the-Perception-of-Value-e2su9il
 sidebar:
   order: 3
+quotes:
+  - text: "If what you care about is having a big impact on the world, the business skills arguably did that just as much as the code. People don't just use things because they're out there."
+    speaker: "Stephanie"
+    timestamp: "14:41"
+    topic: "Gift & Economy"
+  - text: "People want to help you. It's not like you're trying to force people to do something they don't want to do. They want to help."
+    speaker: "Stephanie"
+    timestamp: "48:51"
+    topic: "Gift & Economy"
 ---
 
 [00:06] **Stephanie:** We were talking about perceived value. We were talking about the idea that whenever you're talking to someone that's being interpreted. People value things in different ways. You can communicate value in different ways, and perceived value, the value that someone perceives something to be, can be much different than the inherent value you think it has. It's a very complicated topic in negotiation, and networking, and sales. And it's one that even applies to salary. So we were talking about that.

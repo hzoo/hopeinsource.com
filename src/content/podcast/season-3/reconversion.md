@@ -12,6 +12,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461693/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Reconversion-Sonya-Mann-e2su9dt
 sidebar:
   order: 12
+quotes:
+  - text: "A not insignificant part of coming back to religion for me was feeling this like insufficiency of rationalism, where I felt like it really wasn't actually answering all of my questions or some of the answers felt really like incomplete, unsatisfying."
+    speaker: "Sonya"
+    timestamp: "29:25"
+    topic: "Faith & Practice"
+  - text: "I see reality overall as being kind of fractal, where you have patterns that repeat on every scale. And that's kind of how I think of the core symbolism of Christianity."
+    speaker: "Sonya"
+    timestamp: "14:20"
+    topic: "Language & Meaning"
 ---
 
 [00:00] **Henry:** Hey, everyone! I'm talking with Sonya Mann, sonyasupposedly on social media. After my chat with Nicole Williams, she mentioned that Sonya had relatively recently reconverted to Christianity and it might be an interesting conversation. So please enjoy our chat, where we just talk out loud about how she sees the world with this new lens.

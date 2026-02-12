@@ -9,6 +9,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461808/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/11-City-as-Liturgy-Bonus-e2su9hg
 sidebar:
   order: 9
+quotes:
+  - text: "The act of doing that thing will make you want to do it more. In open source, we have this initial motivation to contribute, but the only way that's sustained is if you're continuing to do it. Through the practice of doing open source I learned to love it more."
+    speaker: "Henry"
+    timestamp: "16:49"
+    topic: "Knowledge & Embodiment"
+  - text: "A liturgy or habit is a practice that helps you embody the value you believe in."
+    speaker: "Henry"
+    timestamp: "24:48"
+    topic: "Faith & Practice"
 ---
 
 [00:00] **Henry:** All right. In this episode, we're going to be discussing ritual and liturgy and maybe the role that that has in faith and open source.

@@ -14,6 +14,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461613/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Artificial-Physicality-Drew-Austin-e2su9bd
 sidebar:
   order: 7
+quotes:
+  - text: "A city is a medium, but the internet is a different medium where it just happens to be one of the primary theaters where human nature plays out today."
+    speaker: "Drew"
+    timestamp: "03:18"
+    topic: "Technology & Limits"
+  - text: "In the physical world, you can be silent and present at the same time. We could be sitting in this room together, not talking, and there would be some benefit of shared human contact there, even though there was no quote unquote content."
+    speaker: "Drew"
+    timestamp: "13:37"
+    topic: "Community & Belonging"
 ---
 
 [00:00] **Henry:** Talking with Drew Austin. We're doing this in person, which is kind of new for me. And maybe for you too.

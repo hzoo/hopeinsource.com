@@ -14,6 +14,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461697/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/History-is-Necromancy-David-Cayley-e2su9e1
 sidebar:
   order: 3
+quotes:
+  - text: "Progress is not a thought of our civilization, it's the form of our civilization. So it's not a content that we think about. It's the way that we think."
+    speaker: "David"
+    timestamp: "29:53"
+    topic: "Technology & Limits"
+  - text: "Surprises is what you can't see coming. It comes from beyond the horizon that you inevitably will establish. And if you can't be surprised, that's really the end."
+    speaker: "David"
+    timestamp: "37:24"
+    topic: "Faith & Practice"
 ---
 
 #### Recursive Publics or Enclosure of a New Commons?

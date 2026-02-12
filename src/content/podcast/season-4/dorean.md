@@ -13,6 +13,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461745/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/The-Dorean-Principle-Conley-Owens-e2su9fh
 sidebar:
   order: 1
+quotes:
+  - text: "If ministry ought to be offered freely, and not given with reciprocity, expecting something in return, then it ought to be offered with a free license, provided that someone is conscious enough to think about licensing."
+    speaker: "Conley"
+    timestamp: "01:13"
+    topic: "Gift & Economy"
+  - text: "The gospel is offered freely and that's kind of what makes it distinctive from what's offered in many religions of the world. By your own effort, you earn righteousness, but Christianity is unique in that what it offers is entirely free."
+    speaker: "Conley"
+    timestamp: "27:58"
+    topic: "Gift & Economy"
 ---
 
 #### Supporting Ministries with Co-Laborers

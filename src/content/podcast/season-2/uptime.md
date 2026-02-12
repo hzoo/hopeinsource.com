@@ -15,6 +15,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461852/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-10-Jonathan-Farbowitz-on-the-Commitment-to-Infinite-Uptime-e2su9is
 sidebar:
   order: 10
+quotes:
+  - text: "As conservators and archivists, we're kind of tethered to these technologies that we don't have much control over. We can't tell Firefox, don't deprecate this thing because this artwork depends on it."
+    speaker: "Jonathan"
+    timestamp: "11:15"
+    topic: "Technology & Limits"
+  - text: "Our purpose is not to make something better. It's to make it as faithful to the original as possible."
+    speaker: "Jonathan"
+    timestamp: "44:35"
+    topic: "Time & Memory"
 ---
 [00:08] **Henry:** Yeah, today I have with me Jonathan Farbowitz. He's a fellow in the conservation of computer-based art. He assists at Guggenheim's conservation department addressing preservation needs of computer-based works in the Guggenheim collection. He also supports the development of best practices for collecting these kinds of artworks. He's also worked on the restorations of Shu Lea Cheang's Brandon, which is from 1998-1999, and John F. Simon, Jr.'s Unfolding Object, which is in 2012. He holds an MA in moving archiving and preservation from NYU as well as a BA from Vassar College and also has previous experience in software development and testing. Thanks for joining me today, Jonathan.
 

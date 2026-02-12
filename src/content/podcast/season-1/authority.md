@@ -10,6 +10,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461929/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/8-Authority-and-Leadership-e2su9l9
 sidebar:
   order: 8
+quotes:
+  - text: "Being guided by your own intrinsic motivation to contribute at whatever level feels right is sort of like, the ultimate authority that you're submitting to or letting yourself be guided by."
+    speaker: "Nadia"
+    timestamp: "06:49"
+    topic: "Faith & Practice"
+  - text: "People don't really understand why they believe what they believe, or they forgot about it because it becomes just like a what you do."
+    speaker: "Henry"
+    timestamp: "19:16"
+    topic: "Knowledge & Embodiment"
 ---
 
 [00:00] **Henry:** Alright, this podcast, we're gonna be talking about governance, leaderships, authority. And I know the [last podcast](/myth) we talked a bit about narrative and it ended up being a discussion about people and kind of the stories that we talk about for people, it was interesting. Just think about maybe the role of authority in general, especially in terms of faith. I think it's interesting, 'cause in, in most religions you know, you're submitting to you know, not just maybe it's rules but you know, a God or a person and that's inherently about the authority.

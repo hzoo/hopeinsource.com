@@ -13,6 +13,11 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461841/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-1-Omnigamer-on-Speedrunning-as-Research-e2su9ih
 sidebar:
   order: 1
+quotes:
+  - text: "You have a game that's kind of its own scientific field, where it's completely unknown at the start, it's a black box, but you can gradually start to pick away and find out what's going on with it."
+    speaker: "Omnigamer"
+    timestamp: "04:03"
+    topic: "Knowledge & Embodiment"
 ---
 
 [00:00] **Henry:** Alright today I have joining with me Omnigamer, he was involved in the early competitive Super Smash Bros community and he's currently a computer science researcher at MIT. He also just announced the release of a new book on speedrunning called "Speedrun Science." This is how I found out about him, I watched a talk from the YouTube channel "Talks at Google." And then personally I'm pretty into video games myself and watching speedruns on Twitch, so it felt like Omni would be the perfect guest to at least talk about how speedrunning and open source and programming are related. Thanks for being on the show with me.

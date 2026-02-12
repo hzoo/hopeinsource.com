@@ -8,6 +8,15 @@ episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461732/https%3A%2F%2Fd3
 embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Natural-Limits-L-M--Sacasas-e2su9f4
 sidebar:
     order: 7
+quotes:
+  - text: "The proposition that there should be limits is a kind of modern heresy. It goes against something deeply ingrained in Western modernity."
+    speaker: "Michael"
+    timestamp: "19:28"
+    topic: "Technology & Limits"
+  - text: "We are kind of asking the question constantly, not is this one thing right or wrong necessarily, but what kind of person am I becoming?"
+    speaker: "Michael"
+    timestamp: "01:29"
+    topic: "Faith & Practice"
 ---
 
 [00:00] **Henry:** So I have with me, [Michael Sacasas](https://thefrailestthing.com). He's been writing about philosophy of technology and ethics for over 10 years, right. And right now you have a newsletter, [The Convivial Society](https://theconvivialsociety.substack.com).
