@@ -40,29 +40,10 @@ const allQuotes = episodes.flatMap((ep) =>
     seconds: timestampToSeconds(q.timestamp),
     slug: ep.slug,
     episodeTitle: ep.episodeTitle,
+    epNumber: ep.epNumber,
     year: ep.data.date.getFullYear(),
   })),
 );
-
-const wallQuotes = (() => {
-  const byEp = new Map<string, (typeof allQuotes)[number][]>();
-  for (const q of allQuotes) {
-    const arr = byEp.get(q.slug) ?? [];
-    arr.push(q);
-    byEp.set(q.slug, arr);
-  }
-
-  // Keep guest-forward by default, with an occasional Henry anchor.
-  const cadence = 5;
-  const offset = Math.floor(Math.random() * cadence);
-  const shuffledEpisodes = shuffle([...byEp.values()]);
-  return shuffledEpisodes.map((qs, index) => {
-    const guest = qs.find((q) => q.speaker !== "Henry");
-    const henry = qs.find((q) => q.speaker === "Henry");
-    const useHenry = ((index + offset) % cadence === 0) && Boolean(henry);
-    return useHenry ? (henry ?? guest ?? qs[0]) : (guest ?? qs[0]);
-  });
-})();
 
 const conversationQuotes = (() => {
   const pool = shuffle([...allQuotes]);
@@ -94,7 +75,6 @@ const allQuestions = shuffle(
 const epMap = new Map(episodes.map((e) => [e.slug, e]));
 const iconByLayout: Record<HomeLayout["icon"], string> = {
   list: "[]",
-  grid: "##",
   chat: "><",
   hash: "#",
   question: "?",
@@ -107,12 +87,27 @@ function seasonTitle(season: number): string {
   if (season === 0) return "Early Episodes";
   return `Season ${season}`;
 }
+
+function stableHash(value: string): number {
+  let hash = 2166136261;
+  for (let i = 0; i < value.length; i += 1) {
+    hash ^= value.charCodeAt(i);
+    hash = Math.imul(hash, 16777619);
+  }
+  return hash >>> 0;
+}
+
+function convoSide(speaker: string, slug: string, seconds: number): "sent" | "received" {
+  const seed = stableHash(`${speaker}:${slug}:${seconds}`) / 4294967295;
+  if (speaker === "Henry") return seed < 0.82 ? "sent" : "received";
+  return seed < 0.72 ? "received" : "sent";
+}
 ---
 
 <div
   id="home-layout-root"
   class="home-root"
-  data-active-layout="A"
+  data-active-layout="C"
 >
   <section id="home-brand">
     <div class="brand-inner">
@@ -165,9 +160,9 @@ function seasonTitle(season: number): string {
           class="layout-toggle-button"
           data-layout-toggle
           data-layout={layout.id}
+          data-label={layout.label}
           aria-label={layout.label}
-          title={layout.label}
-          aria-pressed={layout.id === "A" ? "true" : "false"}
+          aria-pressed={layout.id === "C" ? "true" : "false"}
           aria-controls={`home-layout-${layout.id}`}
         >
           <span class="layout-toggle-icon" aria-hidden="true">{iconByLayout[layout.icon]}</span>
@@ -293,28 +288,16 @@ function seasonTitle(season: number): string {
       </div>
     </section>
 
-    <section id="home-layout-B" data-layout-section="B" aria-label="Wall layout">
-      <div id="home-wall">
-        {wallQuotes.map((ex) => (
-          <a
-            href={`/${ex.slug}#t=${ex.seconds}`}
-            class="wall-fragment"
-            data-astro-prefetch="hover"
-          >
-            <p class="wall-quote m-0">&ldquo;{ex.text}&rdquo;</p>
-            <span class="wall-cite">&mdash; {ex.speaker}, {ex.episodeTitle}</span>
-          </a>
-        ))}
-      </div>
-    </section>
-
     <section id="home-layout-C" data-layout-section="C" aria-label="Conversation layout">
-      <div id="home-dialogue">
+      <div id="home-dialogue" data-convo-stream>
         <div class="convo-flow">
           {conversationQuotes.map((q) => {
-            const isHost = q.speaker === "Henry";
+            const side = convoSide(q.speaker, q.slug, q.seconds);
             return (
-              <div class={`convo-line ${isHost ? "convo-sent" : "convo-received"}`}>
+              <div
+                class={`convo-line ${side === "sent" ? "convo-sent" : "convo-received"}`}
+                data-convo-item
+              >
                 <div class="convo-meta">
                   <span class="convo-speaker">{q.speaker}</span>
                   <span class="convo-source">{q.episodeTitle}</span>
@@ -325,6 +308,9 @@ function seasonTitle(season: number): string {
               </div>
             );
           })}
+        </div>
+        <div class="convo-more-wrap">
+          <button type="button" class="convo-show-more" data-convo-show-more>show more</button>
         </div>
       </div>
     </section>

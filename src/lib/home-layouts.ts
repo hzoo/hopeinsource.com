@@ -5,11 +5,6 @@ export const HOME_LAYOUTS = [
     icon: "list",
   },
   {
-    id: "B",
-    label: "Quotes",
-    icon: "grid",
-  },
-  {
     id: "C",
     label: "Conversation",
     icon: "chat",

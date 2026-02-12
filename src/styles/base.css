@@ -965,14 +965,14 @@ html {
   border: 1px solid color-mix(in oklab, var(--color-his-hr) 82%, transparent);
   box-shadow: 0 2px 10px color-mix(in oklab, var(--color-his-bg) 60%, transparent);
   backdrop-filter: blur(4px);
-  overflow: hidden;
+  overflow: visible;
 }
 
 .layout-toggle-list {
   display: inline-flex;
   gap: 0;
   align-items: center;
-  overflow: hidden;
+  overflow: visible;
   white-space: nowrap;
 }
 
@@ -980,6 +980,7 @@ html {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  position: relative;
   gap: 0;
   border: 0;
   border-radius: 0;
@@ -995,9 +996,37 @@ html {
   border-radius: 6px;
 }
 
+.layout-toggle-button::after {
+  content: attr(data-label);
+  position: absolute;
+  top: calc(100% + 0.28rem);
+  left: 50%;
+  transform: translate(-50%, -3px);
+  opacity: 0;
+  pointer-events: none;
+  white-space: nowrap;
+  font-size: 0.62rem;
+  line-height: 1;
+  letter-spacing: 0.05em;
+  text-transform: lowercase;
+  color: var(--color-his-text);
+  background: color-mix(in oklab, var(--color-his-bg) 88%, var(--color-his-hover) 12%);
+  border: 1px solid color-mix(in oklab, var(--color-his-hr) 80%, transparent);
+  border-radius: 999px;
+  padding: 0.2rem 0.46rem;
+  z-index: 2;
+  transition: opacity 0.14s ease, transform 0.14s ease;
+}
+
 .layout-toggle-button:hover {
   color: var(--color-his-green);
   background: color-mix(in oklab, var(--color-his-hover) 55%, transparent);
+}
+
+.layout-toggle-button:hover::after,
+.layout-toggle-button:focus-visible::after {
+  opacity: 1;
+  transform: translate(-50%, 0);
 }
 
 .layout-toggle-button[data-active="true"] {
@@ -1094,10 +1123,6 @@ html {
 }
 
 [data-active-layout="A"] [data-layout-section="A"] {
-  display: block;
-}
-
-[data-active-layout="B"] [data-layout-section="B"] {
   display: block;
 }
 
@@ -1356,6 +1381,26 @@ html {
   font-size: 0.66rem;
   color: var(--color-his-text-tertiary);
   font-style: italic;
+}
+
+.convo-more-wrap {
+  margin-top: 1.05rem;
+}
+
+.convo-show-more {
+  border: 0;
+  background: transparent;
+  color: var(--color-his-text-secondary);
+  font-size: 0.77rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0;
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.convo-show-more:hover {
+  color: var(--color-his-green);
 }
 
 #home-topics {
