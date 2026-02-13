@@ -1,7 +1,26 @@
-<footer class="pt-24 sm:pt-32 pb-24 sm:pb-[100px] text-center">
-  <div class="max-w-xl mx-auto px-3 sm:px-6">
+---
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props as Props;
+
+const footerClass = compact
+  ? "pt-10 sm:pt-12 pb-10 sm:pb-12 text-center"
+  : "pt-24 sm:pt-32 pb-24 sm:pb-[100px] text-center";
+const containerClass = compact
+  ? "max-w-lg mx-auto px-3 sm:px-5"
+  : "max-w-xl mx-auto px-3 sm:px-6";
+const sproutWrapClass = compact ? "mb-6 flex justify-center" : "mb-8 flex justify-center";
+const binaryClass = compact
+  ? "mt-8 opacity-40 hover:opacity-80 transition-opacity duration-500 flex justify-center gap-5 text-[9px] font-mono text-his-text-tertiary tracking-[0.2em] uppercase select-none pointer-events-none"
+  : "mt-14 opacity-40 hover:opacity-80 transition-opacity duration-500 flex justify-center gap-5 text-[9px] font-mono text-his-text-tertiary tracking-[0.2em] uppercase select-none pointer-events-none";
+---
+
+<footer class={footerClass}>
+  <div class={containerClass}>
     <!-- Sprout Motif -->
-    <div class="mb-8 flex justify-center">
+    <div class={sproutWrapClass}>
       <svg class="w-12 h-12 text-his-green opacity-80 transition-opacity hover:opacity-100 duration-500" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M100 160V100" stroke="currentColor" stroke-width="6" stroke-linecap="round"/>
         <path d="M100 100C100 100 100 60 140 60C140 60 150 100 100 100Z" fill="currentColor" fill-opacity="0.2" stroke="currentColor" stroke-width="4"/>
@@ -42,7 +61,7 @@
 
     <!-- Binary Detail (Subtle nod to the logo) -->
     <!-- Encodes "Logos" in ASCII binary: L=01001100, o=01101111, g=01100111, o=01101111, s=01110011 -->
-    <div class="mt-14 opacity-40 hover:opacity-80 transition-opacity duration-500 flex justify-center gap-5 text-[9px] font-mono text-his-text-tertiary tracking-[0.2em] uppercase select-none pointer-events-none">
+    <div class={binaryClass}>
       <span>01001100</span>
       <span>01101111</span>
       <span>01100111</span>

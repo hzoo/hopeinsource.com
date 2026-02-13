@@ -6,14 +6,14 @@ import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { getEpisodeData } from "@/lib/episodes";
 import { shuffle } from "@/lib/shuffle";
-import { HOME_LAYOUTS, type HomeLayout } from "@/lib/home-layouts";
+import { HOME_LAYOUTS } from "@/lib/home-layouts";
 import {
   deriveTopics,
   extractQuestions,
   timestampToSeconds,
 } from "@/lib/content-extraction";
 
-const { episodes, episodesBySeasons, seasons } = await getEpisodeData();
+const { episodes } = await getEpisodeData();
 
 const rawFiles = import.meta.glob<string>(
   "/src/content/podcast/**/*.md",
@@ -40,7 +40,6 @@ const allQuotes = episodes.flatMap((ep) =>
     seconds: timestampToSeconds(q.timestamp),
     slug: ep.slug,
     episodeTitle: ep.episodeTitle,
-    epNumber: ep.epNumber,
     year: ep.data.date.getFullYear(),
   })),
 );
@@ -73,20 +72,6 @@ const allQuestions = shuffle(
 );
 
 const epMap = new Map(episodes.map((e) => [e.slug, e]));
-const iconByLayout: Record<HomeLayout["icon"], string> = {
-  list: "[]",
-  chat: "><",
-  hash: "#",
-  question: "?",
-};
-const latestSeason = seasons[0] ?? 0;
-
-function seasonTitle(season: number): string {
-  if (season === 6) return "Internet Checkpoint";
-  if (season === 2) return "Maintainers Anonymous";
-  if (season === 0) return "Early Episodes";
-  return `Season ${season}`;
-}
 
 function stableHash(value: string): number {
   let hash = 2166136261;
@@ -147,156 +132,36 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
     </div>
   </section>
 
-  <section id="home-layout-toggle" aria-label="Homepage layout switcher">
-    <div
-      id="home-layout-controls"
-      class="layout-toggle-list"
-      role="toolbar"
-      aria-label="Select homepage layout"
-    >
-      {HOME_LAYOUTS.map((layout) => (
-        <button
-          type="button"
-          class="layout-toggle-button"
-          data-layout-toggle
-          data-layout={layout.id}
-          data-label={layout.label}
-          aria-label={layout.label}
-          aria-pressed={layout.id === "C" ? "true" : "false"}
-          aria-controls={`home-layout-${layout.id}`}
-        >
-          <span class="layout-toggle-icon" aria-hidden="true">{iconByLayout[layout.icon]}</span>
-        </button>
-      ))}
+  <section id="home-top-controls" aria-label="Homepage controls">
+    <div class="home-controls-inner">
+      <div class="home-view-list" role="toolbar" aria-label="Switch homepage view">
+        {HOME_LAYOUTS.map((layout) => (
+          <button
+            type="button"
+            class="home-view-button"
+            data-layout-toggle
+            data-layout={layout.id}
+            aria-label={layout.label}
+            aria-pressed={layout.id === "C" ? "true" : "false"}
+            aria-controls={`home-layout-${layout.id}`}
+          >
+            {layout.label}
+          </button>
+        ))}
+      </div>
+      <a href="/episodes" class="convo-more-link" data-astro-prefetch="hover">browse episodes</a>
     </div>
   </section>
 
   <div id="home-layout-stage">
-    <section id="home-layout-A" data-layout-section="A" aria-label="Archive layout">
-      <div id="home-archive">
-        <div class="space-y-7 sm:space-y-8">
-          {seasons.map((season) => {
-            const seasonEpisodes = episodesBySeasons[season];
-            return (
-              <details
-                id={`season-${season}`}
-                class="season-block"
-                open={season === latestSeason}
-              >
-                <summary class="season-heading season-summary">
-                  <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{seasonTitle(season)}</h2>
-                  <div class="season-summary-meta">
-                    <span class="season-count">{seasonEpisodes.length}</span>
-                    <span class="season-caret" aria-hidden="true">+</span>
-                  </div>
-                </summary>
-                <div class="season-episodes space-y-0.5">
-                  {seasonEpisodes.map((episode) => (
-                    <article
-                      class="episode-card group relative px-3 sm:px-4 py-2.5 rounded-lg border-l-2 border-l-transparent hover:border-l-his-green/60 hover:bg-his-hover/20 transition-all duration-200"
-                      data-layout="A"
-                      data-slug={episode.slug}
-                      title={episode.data.date.toLocaleDateString("en-US", {
-                        month: "short",
-                        day: "numeric",
-                        year: "numeric",
-                      })}
-                    >
-                      <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
-                        <h3 class="card-title text-lg font-medium leading-snug group-hover:text-his-green transition-colors min-w-0">
-                          {episode.episodeTitle}
-                          <span class="card-epnum ml-1 font-mono text-[0.68rem] leading-none text-his-text-tertiary/75 whitespace-nowrap align-middle">
-                            #{episode.epNumber}
-                          </span>
-                        </h3>
-                        <div class="card-meta flex flex-wrap md:flex-nowrap items-center gap-x-2 text-sm text-his-text-tertiary mt-0.5">
-                          {episode.guestDisplays.length > 0 && (
-                            <>
-                              <span class="text-his-text-secondary">
-                                {episode.guestDisplays.map((g, i) => (
-                                  <>
-                                    {i > 0 && ", "}
-                                    {g.name}
-                                    {g.count > 1 && (
-                                      <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">&times;{g.count}</sup>
-                                    )}
-                                  </>
-                                ))}
-                              </span>
-                              <span class="text-his-text-tertiary/50">&middot;</span>
-                            </>
-                          )}
-                          <span>
-                            {episode.data.date.toLocaleDateString("en-US", {
-                              month: "short",
-                              day: "numeric",
-                              year: "numeric",
-                            })}
-                          </span>
-                          {(episode.data.video?.url || episode.data.time) && (
-                            <>
-                              <span class="text-his-text-tertiary/50">&middot;</span>
-                              <span class="inline-flex items-center gap-1.5">
-                                {episode.data.video?.url && (
-                                  <span
-                                    class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
-                                    title="Video episode"
-                                  >
-                                    <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                      <path d="M8 5v14l11-7z" />
-                                    </svg>
-                                    <span class="sr-only">Video episode</span>
-                                  </span>
-                                )}
-                                {episode.data.time && <span>{episode.data.time} min</span>}
-                              </span>
-                            </>
-                          )}
-                        </div>
-                        {(() => {
-                          const desc = episode.data.description;
-                          const match = desc.match(/^([^?]+\?)\s*(.*)$/);
-                          if (match) {
-                            const [, firstSentence, rest] = match;
-                            return (
-                              <div class="card-description">
-                                <p class="mt-1 text-sm text-his-text font-medium leading-relaxed line-clamp-2">{firstSentence}</p>
-                                {rest && (
-                                  <p class="mt-0.5 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
-                                    {rest}
-                                  </p>
-                                )}
-                              </div>
-                            );
-                          }
-                          return (
-                            <div class="card-description">
-                              <p class="mt-1 text-sm text-his-text-secondary/80 leading-relaxed line-clamp-2 group-hover:text-his-text-secondary transition-colors">
-                                {desc}
-                              </p>
-                            </div>
-                          );
-                        })()}
-                      </a>
-                    </article>
-                  ))}
-                </div>
-              </details>
-            );
-          })}
-        </div>
-      </div>
-    </section>
-
     <section id="home-layout-C" data-layout-section="C" aria-label="Conversation layout">
-      <div id="home-dialogue" data-convo-stream>
+      <div id="home-dialogue">
         <div class="convo-flow">
           {conversationQuotes.map((q) => {
             const side = convoSide(q.speaker, q.slug, q.seconds);
             return (
               <div
                 class={`convo-line ${side === "sent" ? "convo-sent" : "convo-received"}`}
-                data-convo-item
               >
                 <div class="convo-meta">
                   <span class="convo-speaker">{q.speaker}</span>
@@ -308,9 +173,6 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
               </div>
             );
           })}
-        </div>
-        <div class="convo-more-wrap">
-          <button type="button" class="convo-show-more" data-convo-show-more>show more</button>
         </div>
       </div>
     </section>
@@ -345,7 +207,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
 
     <section id="home-layout-I" data-layout-section="I" aria-label="Questions layout">
       <div id="home-questions">
-        {allQuestions.map((q, i) => {
+        {allQuestions.map((q) => {
           const wc = q.question.split(/\s+/).length;
           const len = wc <= 8 ? "short" : wc >= 18 ? "long" : "medium";
           return (
@@ -354,7 +216,6 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
               class="question-item"
               data-astro-prefetch="hover"
               data-len={len}
-              style={`animation-delay: ${Math.min(i * 0.05, 2)}s`}
             >
               <p class="question-text m-0">{q.question}</p>
               <span class="question-source">{q.episodeTitle}</span>
@@ -367,7 +228,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
 
   <section id="home-footer">
     <Testimonial />
-    <Footer />
+    <Footer compact />
   </section>
 </div>
 

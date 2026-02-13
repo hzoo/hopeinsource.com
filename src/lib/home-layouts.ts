@@ -1,12 +1,7 @@
 export const HOME_LAYOUTS = [
   {
-    id: "A",
-    label: "Archive",
-    icon: "list",
-  },
-  {
     id: "C",
-    label: "Conversation",
+    label: "Chat",
     icon: "chat",
   },
   {
@@ -16,7 +11,7 @@ export const HOME_LAYOUTS = [
   },
   {
     id: "I",
-    label: "Questions",
+    label: "Qs",
     icon: "question",
   },
 ] as const;
