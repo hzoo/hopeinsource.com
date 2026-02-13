@@ -1076,16 +1076,16 @@ html {
   flex-wrap: wrap;
 }
 
-.home-controls-inner .convo-more-link {
-  margin-left: auto;
-}
-
 #home-layout-stage {
   width: 100%;
 }
 
 [data-layout-section] {
   display: none;
+}
+
+[data-active-layout="A"] [data-layout-section="A"] {
+  display: block;
 }
 
 [data-active-layout="C"] [data-layout-section="C"] {
@@ -1353,6 +1353,7 @@ html {
 
 .convo-bubble {
   display: block;
+  position: relative;
   padding: 0.75rem 1rem;
   border-radius: 12px;
   background: var(--color-his-chat-bg);
@@ -1377,6 +1378,25 @@ html {
   font-size: 0.9375rem;
   color: var(--color-his-text);
   line-height: 1.55;
+}
+
+.convo-open-indicator {
+  position: absolute;
+  top: 0.38rem;
+  right: 0.48rem;
+  font-size: 0.68rem;
+  line-height: 1;
+  color: var(--color-his-text-tertiary);
+  opacity: 0;
+  transform: translateY(-1px);
+  transition: opacity 0.15s ease, transform 0.15s ease, color 0.15s ease;
+}
+
+.convo-bubble:hover .convo-open-indicator,
+.convo-bubble:focus-visible .convo-open-indicator {
+  opacity: 1;
+  transform: translateY(0);
+  color: var(--color-his-green);
 }
 
 .convo-source {

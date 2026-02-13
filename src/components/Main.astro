@@ -13,7 +13,7 @@ import {
   timestampToSeconds,
 } from "@/lib/content-extraction";
 
-const { episodes } = await getEpisodeData();
+const { episodes, episodesBySeasons, seasons } = await getEpisodeData();
 
 const rawFiles = import.meta.glob<string>(
   "/src/content/podcast/**/*.md",
@@ -72,6 +72,14 @@ const allQuestions = shuffle(
 );
 
 const epMap = new Map(episodes.map((e) => [e.slug, e]));
+const latestSeason = seasons[0] ?? 0;
+
+function seasonTitle(season: number): string {
+  if (season === 6) return "Internet Checkpoint";
+  if (season === 2) return "Maintainers Anonymous";
+  if (season === 0) return "Early Episodes";
+  return `Season ${season}`;
+}
 
 function stableHash(value: string): number {
   let hash = 2166136261;
@@ -149,11 +157,129 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
           </button>
         ))}
       </div>
-      <a href="/episodes" class="convo-more-link" data-astro-prefetch="hover">browse episodes</a>
     </div>
   </section>
 
   <div id="home-layout-stage">
+    <section id="home-layout-A" data-layout-section="A" aria-label="Episodes layout">
+      <div id="home-archive">
+        <div class="space-y-7 sm:space-y-8">
+          {seasons.map((season) => {
+            const seasonEpisodes = episodesBySeasons[season];
+            return (
+              <details
+                id={`home-season-${season}`}
+                class="season-block"
+                open={season === latestSeason}
+              >
+                <summary class="season-heading season-summary">
+                  <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{seasonTitle(season)}</h2>
+                  <div class="season-summary-meta">
+                    <span class="season-count">{seasonEpisodes.length}</span>
+                    <span class="season-caret" aria-hidden="true">+</span>
+                  </div>
+                </summary>
+
+                <div class="season-episodes space-y-0.5">
+                  {seasonEpisodes.map((episode) => (
+                    <article
+                      class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-2.5 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
+                      title={episode.data.date.toLocaleDateString("en-US", {
+                        month: "short",
+                        day: "numeric",
+                        year: "numeric",
+                      })}
+                    >
+                      <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
+                        <h3 class="card-title min-w-0 text-lg font-medium leading-snug transition-colors group-hover:text-his-green">
+                          {episode.episodeTitle}
+                          <span class="card-epnum ml-1 align-middle font-mono text-[0.68rem] leading-none whitespace-nowrap text-his-text-tertiary/75">
+                            #{episode.epNumber}
+                          </span>
+                        </h3>
+
+                        <div class="card-meta mt-0.5 flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary md:flex-nowrap">
+                          {episode.guestDisplays.length > 0 && (
+                            <>
+                              <span class="text-his-text-secondary">
+                                {episode.guestDisplays.map((g, i) => (
+                                  <>
+                                    {i > 0 && ", "}
+                                    {g.name}
+                                    {g.count > 1 && (
+                                      <sup class="ml-0.5 text-[0.65em] font-normal text-his-green/50">&times;{g.count}</sup>
+                                    )}
+                                  </>
+                                ))}
+                              </span>
+                              <span class="text-his-text-tertiary/50">&middot;</span>
+                            </>
+                          )}
+
+                          <span>
+                            {episode.data.date.toLocaleDateString("en-US", {
+                              month: "short",
+                              day: "numeric",
+                              year: "numeric",
+                            })}
+                          </span>
+
+                          {(episode.data.video?.url || episode.data.time) && (
+                            <>
+                              <span class="text-his-text-tertiary/50">&middot;</span>
+                              <span class="inline-flex items-center gap-1.5">
+                                {episode.data.video?.url && (
+                                  <span
+                                    class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
+                                    title="Video episode"
+                                  >
+                                    <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                      <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                    <span class="sr-only">Video episode</span>
+                                  </span>
+                                )}
+                                {episode.data.time && <span>{episode.data.time} min</span>}
+                              </span>
+                            </>
+                          )}
+                        </div>
+
+                        {(() => {
+                          const desc = episode.data.description;
+                          const match = desc.match(/^([^?]+\?)\s*(.*)$/);
+                          if (match) {
+                            const [, firstSentence, rest] = match;
+                            return (
+                              <div class="card-description">
+                                <p class="mt-1 line-clamp-2 text-sm font-medium leading-relaxed text-his-text">{firstSentence}</p>
+                                {rest && (
+                                  <p class="mt-0.5 line-clamp-2 text-sm leading-relaxed text-his-text-secondary/80 transition-colors group-hover:text-his-text-secondary">
+                                    {rest}
+                                  </p>
+                                )}
+                              </div>
+                            );
+                          }
+                          return (
+                            <div class="card-description">
+                              <p class="mt-1 line-clamp-2 text-sm leading-relaxed text-his-text-secondary/80 transition-colors group-hover:text-his-text-secondary">
+                                {desc}
+                              </p>
+                            </div>
+                          );
+                        })()}
+                      </a>
+                    </article>
+                  ))}
+                </div>
+              </details>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+
     <section id="home-layout-C" data-layout-section="C" aria-label="Conversation layout">
       <div id="home-dialogue">
         <div class="convo-flow">
@@ -168,6 +294,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
                   <span class="convo-source">{q.episodeTitle}</span>
                 </div>
                 <a href={`/${q.slug}#t=${q.seconds}`} class="convo-bubble" data-astro-prefetch="hover">
+                  <span class="convo-open-indicator" aria-hidden="true">↗</span>
                   <p class="m-0">{q.text}</p>
                 </a>
               </div>

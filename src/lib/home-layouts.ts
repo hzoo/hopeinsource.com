@@ -1,5 +1,10 @@
 export const HOME_LAYOUTS = [
   {
+    id: "A",
+    label: "Episodes",
+    icon: "list",
+  },
+  {
     id: "C",
     label: "Quotes",
     icon: "chat",
@@ -11,7 +16,7 @@ export const HOME_LAYOUTS = [
   },
   {
     id: "I",
-    label: "Qs",
+    label: "Questions",
     icon: "question",
   },
 ] as const;
