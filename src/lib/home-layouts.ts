@@ -1,7 +1,7 @@
 export const HOME_LAYOUTS = [
   {
     id: "C",
-    label: "Chat",
+    label: "Quotes",
     icon: "chat",
   },
   {

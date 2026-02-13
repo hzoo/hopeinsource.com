@@ -1383,27 +1383,6 @@ html {
   font-size: 0.66rem;
   color: var(--color-his-text-tertiary);
   font-style: italic;
-  max-width: 0;
-  overflow: hidden;
-  opacity: 0;
-  white-space: nowrap;
-  transform: translateX(-0.2rem);
-  transition: opacity 0.16s ease, max-width 0.22s ease, transform 0.22s ease;
-}
-
-.convo-line:hover .convo-source,
-.convo-line:focus-within .convo-source {
-  max-width: 28rem;
-  opacity: 1;
-  transform: translateX(0);
-}
-
-@media (hover: none), (pointer: coarse) {
-  .convo-source {
-    max-width: 28rem;
-    opacity: 1;
-    transform: translateX(0);
-  }
 }
 
 .convo-more-link {

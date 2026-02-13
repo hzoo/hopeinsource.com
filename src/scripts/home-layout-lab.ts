@@ -2,6 +2,7 @@ import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
 
 const VALID: Set<HomeLayoutId> = new Set(HOME_LAYOUTS.map((layout) => layout.id));
 const DEFAULT_LAYOUT: HomeLayoutId = "C";
+const RANDOM_START_LAYOUTS: HomeLayoutId[] = ["C", "I"];
 
 function isValidLayout(value: string | undefined | null): value is HomeLayoutId {
   if (!value) return false;
@@ -22,11 +23,16 @@ function applyLayout(root: HTMLElement, layoutId: HomeLayoutId): void {
   updateToggleState(root, layoutId);
 }
 
+function pickRandomStartLayout(): HomeLayoutId {
+  const index = Math.floor(Math.random() * RANDOM_START_LAYOUTS.length);
+  return RANDOM_START_LAYOUTS[index] ?? DEFAULT_LAYOUT;
+}
+
 function init(): void {
   const root = document.getElementById("home-layout-root") as HTMLElement | null;
   if (!root) return;
 
-  applyLayout(root, DEFAULT_LAYOUT);
+  applyLayout(root, pickRandomStartLayout());
 
   const toggles = root.querySelectorAll<HTMLButtonElement>("[data-layout-toggle]");
   for (const toggle of toggles) {
