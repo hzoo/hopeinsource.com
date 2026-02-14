@@ -5,7 +5,6 @@ import Subscribe from "@/components/Subscribe.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { getEpisodeData } from "@/lib/episodes";
-import { shuffle } from "@/lib/shuffle";
 import { HOME_LAYOUTS } from "@/lib/home-layouts";
 import {
   deriveTopics,
@@ -45,7 +44,7 @@ const allQuotes = episodes.flatMap((ep) =>
 );
 
 const conversationQuotes = (() => {
-  const pool = shuffle([...allQuotes]);
+  const pool = [...allQuotes];
   const result: typeof pool = [];
   let lastSpeaker = "";
   const remaining = [...pool];
@@ -63,12 +62,10 @@ const conversationQuotes = (() => {
 })();
 
 const bodyMap = new Map(episodeBodies.map(({ slug, body }) => [slug, body]));
-const topicClusters = shuffle(deriveTopics(episodes, bodyMap));
+const topicClusters = deriveTopics(episodes, bodyMap);
 
-const allQuestions = shuffle(
-  episodeBodies.flatMap(({ slug, episodeTitle, description }) =>
-    extractQuestions(slug, episodeTitle, description),
-  ),
+const allQuestions = episodeBodies.flatMap(({ slug, episodeTitle, description }) =>
+  extractQuestions(slug, episodeTitle, description),
 );
 
 const epMap = new Map(episodes.map((e) => [e.slug, e]));
@@ -288,6 +285,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
             return (
               <div
                 class={`convo-line ${side === "sent" ? "convo-sent" : "convo-received"}`}
+                data-session-key={`${q.slug}:${q.seconds}:${q.speaker}`}
               >
                 <div class="convo-meta">
                   <span class="convo-speaker">{q.speaker}</span>
@@ -309,7 +307,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
         {topicClusters.map((cluster) => {
           const rep = allQuotes.find((q) => q.topic === cluster.topic);
           return (
-            <div class="topic-cluster">
+            <div class="topic-cluster" data-session-key={cluster.topic}>
               <h3 class="topic-name">{cluster.topic}</h3>
               {rep && <p class="topic-excerpt">&ldquo;{rep.text}&rdquo;</p>}
               <div class="topic-chips">
@@ -343,6 +341,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
               class="question-item"
               data-astro-prefetch="hover"
               data-len={len}
+              data-session-key={`${q.slug}:${q.question}`}
             >
               <p class="question-text m-0">{q.question}</p>
               <span class="question-source">{q.episodeTitle}</span>
