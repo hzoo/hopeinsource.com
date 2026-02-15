@@ -62,12 +62,10 @@ function reorderContainer(
   const container = root.querySelector<HTMLElement>(containerSelector);
   if (!container) return;
 
-  const items = Array.from(container.children).filter(
-    (child): child is HTMLElement => child instanceof HTMLElement && child.matches(itemSelector),
-  );
+  const items = container.querySelectorAll<HTMLElement>(itemSelector);
   if (items.length < 2) return;
 
-  const ranked = items
+  const ranked = Array.from(items)
     .map((item, index) => {
       const key = item.dataset.sessionKey ?? `${item.tagName}:${index}`;
       return {
@@ -78,25 +76,51 @@ function reorderContainer(
     })
     .sort((a, b) => a.score - b.score || a.index - b.index);
 
-  for (const { item } of ranked) {
-    container.appendChild(item);
-  }
+  const frag = document.createDocumentFragment();
+  for (const { item } of ranked) frag.appendChild(item);
+  container.appendChild(frag);
 }
 
-function applySessionShuffle(root: HTMLElement): void {
+interface ShuffleTarget {
+  layout: HomeLayoutId;
+  container: string;
+  item: string;
+}
+
+const SHUFFLE_TARGETS: ShuffleTarget[] = [
+  { layout: "B", container: "#home-dialogue .convo-flow", item: ".convo-line" },
+  { layout: "D", container: "#home-questions", item: ".question-item" },
+  { layout: "G", container: "#home-assertions", item: ".assertion-item" },
+  { layout: "I", container: "#home-open-loops", item: ".loop-item" },
+  { layout: "J", container: "#home-lexicon", item: ".lexicon-row" },
+];
+
+function createShuffler(root: HTMLElement): {
+  shuffleFor: (layoutId: HomeLayoutId) => void;
+} {
   const seed = getSessionSeed();
-  reorderContainer(root, "#home-dialogue .convo-flow", ".convo-line", seed);
-  reorderContainer(root, "#home-questions", ".question-item", seed);
-  reorderContainer(root, "#home-assertions", ".assertion-item", seed);
-  reorderContainer(root, "#home-open-loops", ".loop-item", seed);
-  reorderContainer(root, "#home-lexicon", ".lexicon-row", seed);
+  const shuffled = new Set<HomeLayoutId>();
+
+  return {
+    shuffleFor(layoutId: HomeLayoutId) {
+      for (const t of SHUFFLE_TARGETS) {
+        if (t.layout === layoutId && !shuffled.has(layoutId)) {
+          reorderContainer(root, t.container, t.item, seed);
+          shuffled.add(layoutId);
+        }
+      }
+    },
+  };
 }
 
 function init(): void {
   const root = document.getElementById("home-layout-root") as HTMLElement | null;
   if (!root) return;
 
-  applySessionShuffle(root);
+  const shuffler = createShuffler(root);
+
+  // Shuffle only the default layout eagerly; others on first reveal
+  shuffler.shuffleFor(DEFAULT_LAYOUT);
   applyLayout(root, DEFAULT_LAYOUT);
 
   const toggles = root.querySelectorAll<HTMLButtonElement>("[data-layout-toggle]");
@@ -105,6 +129,7 @@ function init(): void {
       const layoutId = toggle.dataset.layout;
       if (!isValidLayout(layoutId)) return;
       if (root.dataset.activeLayout === layoutId) return;
+      shuffler.shuffleFor(layoutId);
       applyLayout(root, layoutId);
       window.scrollTo({ top: 0, left: 0, behavior: "auto" });
     });
