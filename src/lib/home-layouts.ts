@@ -3,21 +3,37 @@ export const HOME_LAYOUTS = [
     id: "A",
     label: "Episodes",
     icon: "list",
+    group: "core",
   },
   {
-    id: "C",
+    id: "B",
     label: "Quotes",
     icon: "chat",
+    group: "core",
+  },
+{
+    id: "D",
+    label: "Questions",
+    icon: "question",
+    group: "core",
   },
   {
     id: "G",
-    label: "Topics",
-    icon: "hash",
+    label: "Assertions",
+    icon: "bolt",
+    group: "lab",
   },
   {
     id: "I",
-    label: "Questions",
-    icon: "question",
+    label: "Wonderings",
+    icon: "loop",
+    group: "lab",
+  },
+  {
+    id: "J",
+    label: "Words",
+    icon: "seed",
+    group: "lab",
   },
 ] as const;
 

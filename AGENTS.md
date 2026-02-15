@@ -6,6 +6,7 @@
 - Primary artifact: transcript.
 - Annotation layer: secondary, anchored to canonical transcript/heading IDs.
 - Experiments: allowed by default when intent and rollback are explicit.
+- Transcript text should remain verbatim in meaning: readability cleanup is allowed, but no paraphrase, summary, or semantic rewrite.
 
 <project_theory>
   <metaphor>
