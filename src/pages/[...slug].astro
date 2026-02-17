@@ -19,6 +19,16 @@ export async function getStaticPaths() {
       const h4Headings = headings.filter((h) => h.depth === 4);
       const extractedLinks = (remarkPluginFrontmatter?.extractedLinks || []) as ExtractedLink[];
 
+      // Find other episodes by the same guest(s)
+      const relatedByGuest = episode.guests
+        .map(guest => ({
+          guest,
+          episodes: episodes
+            .filter(ep => ep.slug !== episode.slug && ep.guests.includes(guest))
+            .map(ep => ({ slug: ep.slug, title: ep.episodeTitle, epNumber: ep.epNumber }))
+        }))
+        .filter(g => g.episodes.length > 0);
+
       return {
         params: { slug: episode.slug },
         props: {
@@ -30,6 +40,7 @@ export async function getStaticPaths() {
           extractedLinks,
           episodeTitle: episode.episodeTitle,
           guests: episode.guests,
+          relatedByGuest,
         },
       };
     }),
@@ -38,7 +49,7 @@ export async function getStaticPaths() {
   return pages;
 }
 
-const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, episodeTitle, guests } = Astro.props;
+const { slug, Content, headings, frontmatter, episodeNumber, extractedLinks, episodeTitle, guests, relatedByGuest } = Astro.props;
 
 const videoUrl = frontmatter.video?.url ?? null;
 const videoOffsetSeconds = frontmatter.video?.offsetSeconds ?? 0;
@@ -102,16 +113,14 @@ const hasVideoPlayback = Boolean(videoEmbedSrc && videoUrl);
           </svg>
         </a>
         <div class="flex-1 min-w-0">
-          <h1 class="text-sm font-semibold truncate">{episodeTitle}</h1>
-          <div class="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-xs text-his-text-tertiary leading-tight">
+          <h1 class="text-base font-semibold truncate leading-tight">{episodeTitle}</h1>
+          <div class="flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-xs text-his-text-tertiary leading-tight mt-0.5">
             {guests.length > 0 && (
-              <>
-                <span class="truncate">{guests.join(", ")}</span>
-                <span class="text-his-text-tertiary/50">·</span>
-              </>
+              <span class="truncate text-his-text-secondary">{guests.join(", ")}</span>
             )}
-            <span class="text-his-green/70">#{episodeNumber}</span>
-            <span class="text-his-text-tertiary/50">·</span>
+            {guests.length > 0 && <span class="text-his-text-tertiary/40">·</span>}
+            <span class="ep-badge">{episodeNumber}</span>
+            <span class="text-his-text-tertiary/40">·</span>
             <time datetime={frontmatter.date.toISOString()}>
               {frontmatter.date.toLocaleDateString("en-US", {
                 month: "short",
@@ -121,7 +130,7 @@ const hasVideoPlayback = Boolean(videoEmbedSrc && videoUrl);
             </time>
             {frontmatter.time && (
               <>
-                <span class="text-his-text-tertiary/50">·</span>
+                <span class="text-his-text-tertiary/40">·</span>
                 <span>{frontmatter.time}m</span>
               </>
             )}
@@ -233,6 +242,24 @@ const hasVideoPlayback = Boolean(videoEmbedSrc && videoUrl);
       <p class="text-center text-sm text-his-text-secondary max-w-xl mx-auto mb-6 leading-relaxed">
         {frontmatter.description}
       </p>
+    )}
+
+    {relatedByGuest.length > 0 && (
+      <div class="text-center text-xs text-his-text-tertiary mb-4 space-y-1">
+        {relatedByGuest.map(({ guest, episodes: related }) => (
+          <p>
+            More with {guest.split(" ")[0]}{" · "}
+            {related.map((ep, i) => (
+              <>
+                {i > 0 && " · "}
+                <a href={`/${ep.slug}`} class="text-his-text-secondary hover:text-his-green transition-colors">
+                  {ep.title}
+                </a>
+              </>
+            ))}
+          </p>
+        ))}
+      </div>
     )}
 
     <TableOfContents headings={headings} extractedLinks={extractedLinks} />

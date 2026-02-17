@@ -392,6 +392,10 @@ html {
       @apply mb-1 font-bold text-his-green;
     }
 
+    & a {
+      @apply underline decoration-his-green/30 underline-offset-2 hover:decoration-his-green transition-colors;
+    }
+
     /* Better text spacing and readability */
     @apply leading-relaxed;
 
@@ -1662,21 +1666,45 @@ html {
 
 .lab-show-more {
   display: block;
-  margin: 2rem auto 0;
-  padding: 0.5rem 1.5rem;
+  margin: 2.5rem auto 0;
+  padding: 0.6rem 2rem;
   background: none;
-  border: 1px solid var(--color-his-text-tertiary);
+  border: 1.5px solid var(--color-his-green);
   border-radius: 2rem;
-  color: var(--color-his-text-tertiary);
-  font-size: 0.78rem;
-  letter-spacing: 0.06em;
+  color: var(--color-his-green);
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
   cursor: pointer;
   transition: all 0.15s ease;
 }
 
 .lab-show-more:hover {
-  color: var(--color-his-green);
+  background: color-mix(in oklch, var(--color-his-green) 10%, transparent);
+}
+
+.testimonial-card {
+  border: 1px solid color-mix(in oklab, var(--color-his-hr) 60%, transparent);
+  background: color-mix(in oklab, var(--color-his-hover) 20%, transparent);
+}
+
+.sponsor-pill {
+  border: 1.5px solid color-mix(in oklch, var(--color-his-green) 30%, transparent);
+  background: color-mix(in oklch, var(--color-his-green) 10%, transparent);
+}
+.sponsor-pill:hover {
   border-color: var(--color-his-green);
+  background: color-mix(in oklch, var(--color-his-green) 18%, transparent);
+}
+
+.ep-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.1em 0.5em;
+  border-radius: 999px;
+  font-size: 0.75em;
+  font-variant-numeric: tabular-nums;
+  background: color-mix(in oklab, var(--color-his-hover) 80%, transparent);
+  color: var(--color-his-text-tertiary);
 }
 
 .lab-empty-state {

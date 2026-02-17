@@ -249,10 +249,10 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
                   </div>
                 </summary>
 
-                <div class="season-episodes space-y-0.5">
+                <div class="season-episodes divide-y divide-his-hr/30">
                   {seasonEpisodes.map((episode) => (
                     <article
-                      class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-2.5 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
+                      class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-3 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
                       title={episode.data.date.toLocaleDateString("en-US", {
                         month: "short",
                         day: "numeric",
@@ -262,8 +262,8 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
                       <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
                         <h3 class="card-title min-w-0 text-lg font-medium leading-snug transition-colors group-hover:text-his-green">
                           {episode.episodeTitle}
-                          <span class="card-epnum ml-1 align-middle font-mono text-[0.68rem] leading-none whitespace-nowrap text-his-text-tertiary/75">
-                            #{episode.epNumber}
+                          <span class="ep-badge ml-1.5 align-middle">
+                            {episode.epNumber}
                           </span>
                         </h3>
 
@@ -373,7 +373,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
         </div>
         {conversationQuotes.length > 6 && (
           <button type="button" class="lab-show-more" data-expand="#home-dialogue .convo-flow">
-            show more
+            show {conversationQuotes.length - 6} more
           </button>
         )}
       </div>
@@ -400,7 +400,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
       </div>
       {allQuestions.length > 9 && (
         <button type="button" class="lab-show-more" data-expand="#home-questions">
-          show more
+          show {allQuestions.length - 9} more
         </button>
       )}
     </section>
@@ -421,7 +421,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
       </div>
       {vividCards.length > 5 && (
         <button type="button" class="lab-show-more" data-expand="#home-assertions">
-          show more
+          show {vividCards.length - 5} more
         </button>
       )}
     </section>
@@ -442,7 +442,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
       </div>
       {openLoopCards.length > 5 && (
         <button type="button" class="lab-show-more" data-expand="#home-open-loops">
-          show more
+          show {openLoopCards.length - 5} more
         </button>
       )}
     </section>
@@ -471,7 +471,7 @@ function convoSide(speaker: string, slug: string, seconds: number): "sent" | "re
       </div>
       {groupedLexicon.length > 15 && (
         <button type="button" class="lab-show-more" data-expand="#home-lexicon">
-          show more
+          show {groupedLexicon.length - 15} more
         </button>
       )}
     </section>

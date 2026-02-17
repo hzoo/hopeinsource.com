@@ -9,7 +9,7 @@ import { remarkLinksExtractor } from './src/plugins/remark-links-extractor';
 // https://astro.build/config
 export default defineConfig({
   publicDir: "public",
-  integrations: [preact()],
+  integrations: [preact({ compat: true })],
   vite: {
     plugins: [tailwindcss()],
     build: {

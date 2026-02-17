@@ -62,8 +62,8 @@ function seasonTitle(season: number): string {
                     <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
                       <h3 class="card-title min-w-0 text-lg font-medium leading-snug transition-colors group-hover:text-his-green">
                         {episode.episodeTitle}
-                        <span class="card-epnum ml-1 align-middle font-mono text-[0.68rem] leading-none whitespace-nowrap text-his-text-tertiary/75">
-                          #{episode.epNumber}
+                        <span class="ep-badge ml-1.5 align-middle">
+                          {episode.epNumber}
                         </span>
                       </h3>
 

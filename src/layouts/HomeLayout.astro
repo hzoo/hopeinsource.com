@@ -1,6 +1,7 @@
 ---
 import BaseHead from '@/components/BaseHead.astro';
 import ThemeToggle from '@/components/ThemeToggle.astro';
+import AgentationToolbar from '@/components/AgentationToolbar';
 import '../styles/base.css';
 ---
 
@@ -11,5 +12,6 @@ import '../styles/base.css';
   <body>
     <ThemeToggle />
     <slot />
+    {import.meta.env.DEV && <AgentationToolbar client:only="preact" />}
   </body>
 </html>

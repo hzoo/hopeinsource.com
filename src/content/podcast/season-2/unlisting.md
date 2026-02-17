@@ -22,8 +22,6 @@ quotes:
     topic: "Time & Memory"
 ---
 
-> See also: [1: Growing Old with the Web](/growing-old) and [3: Life After Digital Death](/digital-death)
-
 [00:00] **Henry:** The last time we chatted for the podcast, we were just talking about whatever and to see what happens.
 
 [00:05] **Philip:** It was randomness and it was also this theme of growing old on the web, right.
