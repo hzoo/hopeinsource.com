@@ -1,0 +1,49 @@
+---
+import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
+import { getEpisodeData } from "@/lib/episodes";
+import { timestampToSeconds } from "@/lib/content-extraction";
+import { convoSide } from "@/lib/home-data";
+
+const { episodes } = await getEpisodeData();
+
+const allQuotes = episodes.flatMap((ep) =>
+  (ep.data.quotes ?? []).map((q) => ({
+    ...q,
+    seconds: timestampToSeconds(q.timestamp),
+    slug: ep.slug,
+    episodeTitle: ep.episodeTitle,
+  })),
+);
+---
+
+<HomeContentLayout activeLayout="B" title="Quotes" description="Memorable quotes from Hope in Source episodes.">
+  <section aria-label="Quotes">
+    <div id="home-dialogue">
+      <div class="convo-flow" data-collapsed="true">
+        {allQuotes.map((q) => {
+          const side = convoSide(q.speaker, q.slug, q.seconds);
+          return (
+            <div
+              class={`convo-line ${side === "sent" ? "convo-sent" : "convo-received"}`}
+              data-session-key={`${q.slug}:${q.seconds}:${q.speaker}`}
+            >
+              <div class="convo-meta">
+                <span class="convo-speaker">{q.speaker}</span>
+                <span class="convo-source">{q.episodeTitle}</span>
+              </div>
+              <a href={`/${q.slug}#t=${q.seconds}`} class="convo-bubble">
+                <span class="convo-open-indicator" aria-hidden="true">&nearr;</span>
+                <p class="m-0">{q.text}</p>
+              </a>
+            </div>
+          );
+        })}
+      </div>
+      {allQuotes.length > 6 && (
+        <button type="button" class="lab-show-more" data-expand="#home-dialogue .convo-flow">
+          show {allQuotes.length - 6} more
+        </button>
+      )}
+    </div>
+  </section>
+</HomeContentLayout>

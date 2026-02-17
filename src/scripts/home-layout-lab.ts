@@ -1,27 +1,4 @@
-import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
-
-const VALID: Set<HomeLayoutId> = new Set(HOME_LAYOUTS.map((layout) => layout.id));
-const DEFAULT_LAYOUT: HomeLayoutId = "D";
 const SESSION_SEED_KEY = "his-home-session-seed-v1";
-
-function isValidLayout(value: string | undefined | null): value is HomeLayoutId {
-  if (!value) return false;
-  return VALID.has(value as HomeLayoutId);
-}
-
-function updateToggleState(root: HTMLElement, activeLayout: HomeLayoutId): void {
-  const buttons = root.querySelectorAll<HTMLButtonElement>("[data-layout-toggle]");
-  for (const button of buttons) {
-    const active = button.dataset.layout === activeLayout;
-    button.dataset.active = active ? "true" : "false";
-    button.setAttribute("aria-pressed", active ? "true" : "false");
-  }
-}
-
-function applyLayout(root: HTMLElement, layoutId: HomeLayoutId): void {
-  root.dataset.activeLayout = layoutId;
-  updateToggleState(root, layoutId);
-}
 
 function fnv32(value: string): number {
   let hash = 2166136261;
@@ -54,12 +31,11 @@ function getSessionSeed(): string {
 }
 
 function reorderContainer(
-  root: HTMLElement,
   containerSelector: string,
   itemSelector: string,
   seed: string,
 ): void {
-  const container = root.querySelector<HTMLElement>(containerSelector);
+  const container = document.querySelector<HTMLElement>(containerSelector);
   if (!container) return;
 
   const items = container.querySelectorAll<HTMLElement>(itemSelector);
@@ -81,66 +57,27 @@ function reorderContainer(
   container.appendChild(frag);
 }
 
-interface ShuffleTarget {
-  layout: HomeLayoutId;
-  container: string;
-  item: string;
-}
-
-const SHUFFLE_TARGETS: ShuffleTarget[] = [
-  { layout: "B", container: "#home-dialogue .convo-flow", item: ".convo-line" },
-  { layout: "D", container: "#home-questions", item: ".question-item" },
-  { layout: "G", container: "#home-assertions", item: ".assertion-item" },
-  { layout: "I", container: "#home-open-loops", item: ".loop-item" },
-  { layout: "J", container: "#home-lexicon", item: ".lexicon-row" },
+const SHUFFLE_TARGETS = [
+  { container: "#home-dialogue .convo-flow", item: ".convo-line" },
+  { container: "#home-questions", item: ".question-item" },
+  { container: "#home-assertions", item: ".assertion-item" },
+  { container: "#home-open-loops", item: ".loop-item" },
+  { container: "#home-lexicon", item: ".lexicon-row" },
 ];
 
-function createShuffler(root: HTMLElement): {
-  shuffleFor: (layoutId: HomeLayoutId) => void;
-} {
-  const seed = getSessionSeed();
-  const shuffled = new Set<HomeLayoutId>();
-
-  return {
-    shuffleFor(layoutId: HomeLayoutId) {
-      for (const t of SHUFFLE_TARGETS) {
-        if (t.layout === layoutId && !shuffled.has(layoutId)) {
-          reorderContainer(root, t.container, t.item, seed);
-          shuffled.add(layoutId);
-        }
-      }
-    },
-  };
-}
-
 function init(): void {
-  const root = document.getElementById("home-layout-root") as HTMLElement | null;
-  if (!root) return;
+  const seed = getSessionSeed();
 
-  const shuffler = createShuffler(root);
-
-  // Shuffle only the default layout eagerly; others on first reveal
-  shuffler.shuffleFor(DEFAULT_LAYOUT);
-  applyLayout(root, DEFAULT_LAYOUT);
-
-  const toggles = root.querySelectorAll<HTMLButtonElement>("[data-layout-toggle]");
-  for (const toggle of toggles) {
-    toggle.addEventListener("click", () => {
-      const layoutId = toggle.dataset.layout;
-      if (!isValidLayout(layoutId)) return;
-      if (root.dataset.activeLayout === layoutId) return;
-      shuffler.shuffleFor(layoutId);
-      applyLayout(root, layoutId);
-      window.scrollTo({ top: 0, left: 0, behavior: "auto" });
-    });
+  for (const t of SHUFFLE_TARGETS) {
+    reorderContainer(t.container, t.item, seed);
   }
 
-  const showMoreButtons = root.querySelectorAll<HTMLButtonElement>(".lab-show-more");
+  const showMoreButtons = document.querySelectorAll<HTMLButtonElement>(".lab-show-more");
   for (const btn of showMoreButtons) {
     btn.addEventListener("click", () => {
       const target = btn.dataset.expand;
       if (!target) return;
-      const container = root.querySelector<HTMLElement>(target);
+      const container = document.querySelector<HTMLElement>(target);
       if (!container) return;
       container.dataset.collapsed = "false";
       btn.style.display = "none";

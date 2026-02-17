@@ -1,0 +1,55 @@
+---
+import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
+import { getEpisodeData } from "@/lib/episodes";
+import { parseTranscript } from "@/lib/content-extraction";
+import { HOME_LAB_CURATION_BY_SLUG } from "@/lib/home-lab-curation";
+import { buildBodyMap, nearestTranscriptLine } from "@/lib/home-data";
+
+const { episodes } = await getEpisodeData();
+
+const rawFiles = import.meta.glob<string>(
+  "/src/content/podcast/**/*.md",
+  { query: "?raw", import: "default", eager: true },
+);
+const bodyMap = buildBodyMap(rawFiles);
+
+const episodeTranscripts = episodes.map((ep) => ({
+  slug: ep.slug,
+  episodeTitle: ep.episodeTitle,
+  lines: parseTranscript(bodyMap.get(ep.slug) ?? ""),
+}));
+
+const openLoopCards = episodeTranscripts.flatMap((entry) => {
+  const curated = HOME_LAB_CURATION_BY_SLUG.get(entry.slug)?.openLoop;
+  if (!curated) return [];
+  const line = nearestTranscriptLine(entry.lines, curated.at);
+  if (!line) return [];
+  return [{
+    slug: entry.slug,
+    episodeTitle: entry.episodeTitle,
+    line: curated.text ? { ...line, text: curated.text } : line,
+  }];
+});
+---
+
+<HomeContentLayout activeLayout="I" title="Wonderings" description="Open questions and suspended thoughts from Hope in Source.">
+  <section aria-label="Wonderings">
+    <div id="home-open-loops" data-collapsed="true">
+      {openLoopCards.map((card) => (
+        <a
+          href={`/${card.slug}#t=${card.line.seconds}`}
+          class="loop-item"
+          data-session-key={`${card.slug}:${card.line.seconds}`}
+        >
+          <p class="loop-text m-0">{card.line.text}</p>
+          <span class="loop-source">{card.line.speaker} &mdash; {card.episodeTitle}</span>
+        </a>
+      ))}
+    </div>
+    {openLoopCards.length > 5 && (
+      <button type="button" class="lab-show-more" data-expand="#home-open-loops">
+        show {openLoopCards.length - 5} more
+      </button>
+    )}
+  </section>
+</HomeContentLayout>

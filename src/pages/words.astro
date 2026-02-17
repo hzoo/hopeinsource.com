@@ -1,0 +1,61 @@
+---
+import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
+import { getEpisodeData } from "@/lib/episodes";
+import { HOME_LAB_CURATION_BY_SLUG } from "@/lib/home-lab-curation";
+
+const { episodes } = await getEpisodeData();
+
+const lexiconCards = episodes.flatMap((ep) => {
+  const curatedLexicon = HOME_LAB_CURATION_BY_SLUG.get(ep.slug)?.lexicon;
+  if (!curatedLexicon || curatedLexicon.length === 0) return [];
+  const terms = curatedLexicon
+    .filter((seed) => seed.anchors[0] !== undefined)
+    .map((seed) => ({ term: seed.term, seconds: seed.anchors[0]! }));
+  if (terms.length === 0) return [];
+  return [{ slug: ep.slug, episodeTitle: ep.episodeTitle, terms }];
+});
+
+const allLexiconTerms = lexiconCards
+  .flatMap((card) => card.terms.map((t) => ({ ...t, slug: card.slug, episodeTitle: card.episodeTitle })))
+  .sort((a, b) => a.term.localeCompare(b.term));
+
+const groupedLexicon = allLexiconTerms.reduce<
+  { term: string; episodes: { slug: string; episodeTitle: string; seconds: number }[] }[]
+>((acc, t) => {
+  const existing = acc.find((g) => g.term === t.term);
+  if (existing) {
+    existing.episodes.push({ slug: t.slug, episodeTitle: t.episodeTitle, seconds: t.seconds });
+  } else {
+    acc.push({ term: t.term, episodes: [{ slug: t.slug, episodeTitle: t.episodeTitle, seconds: t.seconds }] });
+  }
+  return acc;
+}, []);
+---
+
+<HomeContentLayout activeLayout="J" title="Words" description="A living glossary of terms from Hope in Source.">
+  <section aria-label="Words">
+    <div id="home-lexicon" data-collapsed="true">
+      {groupedLexicon.map((group) => (
+        <div class="lexicon-row">
+          <span class="lexicon-row-term">{group.term}</span>
+          <span class="lexicon-row-dots" aria-hidden="true"></span>
+          <span class="lexicon-row-episodes">
+            {group.episodes.map((ep, i) => (
+              <>
+                {i > 0 && <span class="lexicon-sep">{" · "}</span>}
+                <a href={`/${ep.slug}#t=${ep.seconds}`}>
+                  {ep.episodeTitle}
+                </a>
+              </>
+            ))}
+          </span>
+        </div>
+      ))}
+    </div>
+    {groupedLexicon.length > 15 && (
+      <button type="button" class="lab-show-more" data-expand="#home-lexicon">
+        show {groupedLexicon.length - 15} more
+      </button>
+    )}
+  </section>
+</HomeContentLayout>

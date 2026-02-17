@@ -1,0 +1,89 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Testimonial from "@/components/Testimonial.astro";
+import Footer from "@/components/Footer.astro";
+import Subscribe from "@/components/Subscribe.astro";
+import { Image } from "astro:assets";
+import his_cover from "@/assets/his.jpg";
+import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
+
+interface Props {
+  activeLayout: HomeLayoutId;
+  title?: string;
+  description?: string;
+}
+
+const { activeLayout, title, description } = Astro.props;
+const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
+const slug = currentLayout?.href ?? "/";
+---
+
+<Layout frontmatter={{ title, description }} slug={slug}>
+  <div id="home-layout-root" class="home-root">
+    <section id="home-brand">
+      <div class="brand-inner">
+        <div class="brand-content flex flex-col items-center text-center max-w-[472px] mx-auto">
+          <h1 class="brand-title m-0">Hope in Source</h1>
+          <Image
+            src={his_cover}
+            alt="Hope in Source Cover Art"
+            class="brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]"
+            loading="eager"
+            format="webp"
+            quality={90}
+          />
+          <div class="brand-taglines text-center space-y-1">
+            <p class="m-0 text-lg font-medium tracking-wide opacity-0 animate-[fadeIn_0.8s_ease_0.2s_forwards]">
+              off-the-cuff conversations between friends
+            </p>
+            <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.5s_forwards]">
+              finding the sacred in the ordinary
+            </p>
+            <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.7s_forwards]">
+              universal within the particular
+            </p>
+            <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.9s_forwards]">
+              where word becomes flesh
+            </p>
+          </div>
+          <div class="brand-meta mt-5 space-y-1.5 text-xs text-his-text-tertiary">
+            <div class="opacity-0 animate-[fadeIn_0.8s_ease_1.1s_forwards]">
+              <Subscribe />
+            </div>
+            <p class="m-0 opacity-0 animate-[fadeIn_0.8s_ease_1.3s_forwards]">
+              with <a href="https://henryzoo.com/living-out-in-faith">Henry</a> & <a href="https://nadia.xyz/public-faith">Nadia</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav id="home-top-controls" aria-label="Site navigation">
+      <div class="home-controls-inner">
+        <div class="home-view-list">
+          {HOME_LAYOUTS.map((layout) => (
+            <a
+              href={layout.href}
+              class="home-view-button"
+              data-active={layout.id === activeLayout ? "true" : "false"}
+              aria-current={layout.id === activeLayout ? "page" : undefined}
+            >
+              {layout.label}
+            </a>
+          ))}
+        </div>
+      </div>
+    </nav>
+
+    <div id="home-layout-stage">
+      <slot />
+    </div>
+
+    <section id="home-footer">
+      <Testimonial />
+      <Footer compact />
+    </section>
+  </div>
+
+  <script src="../scripts/home-layout-lab.ts"></script>
+</Layout>

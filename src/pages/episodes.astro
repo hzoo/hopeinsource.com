@@ -1,6 +1,5 @@
 ---
-import Layout from "@/layouts/Layout.astro";
-import Footer from "@/components/Footer.astro";
+import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
 import { getEpisodeData } from "@/lib/episodes";
 
 const { episodesBySeasons, seasons } = await getEpisodeData();
@@ -14,142 +13,121 @@ function seasonTitle(season: number): string {
 }
 ---
 
-<Layout
-  frontmatter={{
-    title: "All Episodes",
-    description: "Browse every Hope in Source episode by season.",
-  }}
-  slug="/episodes"
->
-  <main class="mx-auto w-full max-w-[52rem] px-4 pb-16 pt-20 sm:px-6 sm:pt-24">
-    <header class="mb-4 sm:mb-5">
-      <a
-        href="/"
-        class="inline-flex items-center rounded-full border border-his-hr px-3 py-1 text-xs text-his-text-tertiary hover:border-his-green/40 hover:text-his-green transition-colors"
-      >
-        Home
-      </a>
-    </header>
+<HomeContentLayout activeLayout="A" title="All Episodes" description="Browse every Hope in Source episode by season.">
+  <section id="home-archive" aria-label="Episodes by season">
+    <div class="space-y-7 sm:space-y-8">
+      {seasons.map((season) => {
+        const seasonEpisodes = episodesBySeasons[season];
+        return (
+          <details
+            id={`home-season-${season}`}
+            class="season-block"
+            open={season === latestSeason}
+          >
+            <summary class="season-heading season-summary">
+              <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{seasonTitle(season)}</h2>
+              <div class="season-summary-meta">
+                <span class="season-count">{seasonEpisodes.length}</span>
+                <span class="season-caret" aria-hidden="true">+</span>
+              </div>
+            </summary>
 
-    <section id="home-archive" aria-label="Episodes by season">
-      <div class="space-y-7 sm:space-y-8">
-        {seasons.map((season) => {
-          const seasonEpisodes = episodesBySeasons[season];
-          return (
-            <details
-              id={`episodes-season-${season}`}
-              class="season-block"
-              open={season === latestSeason}
-            >
-              <summary class="season-heading season-summary">
-                <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{seasonTitle(season)}</h2>
-                <div class="season-summary-meta">
-                  <span class="season-count">{seasonEpisodes.length}</span>
-                  <span class="season-caret" aria-hidden="true">+</span>
-                </div>
-              </summary>
+            <div class="season-episodes divide-y divide-his-hr/30">
+              {seasonEpisodes.map((episode) => (
+                <article
+                  class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-3 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
+                  title={episode.data.date.toLocaleDateString("en-US", {
+                    month: "short",
+                    day: "numeric",
+                    year: "numeric",
+                  })}
+                >
+                  <a href={`/${episode.slug}`} class="block">
+                    <h3 class="card-title min-w-0 text-lg font-medium leading-snug transition-colors group-hover:text-his-green">
+                      {episode.episodeTitle}
+                      <span class="ep-badge ml-1.5 align-middle">
+                        {episode.epNumber}
+                      </span>
+                    </h3>
 
-              <div class="season-episodes space-y-0.5">
-                {seasonEpisodes.map((episode) => (
-                  <article
-                    class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-2.5 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
-                    title={episode.data.date.toLocaleDateString("en-US", {
-                      month: "short",
-                      day: "numeric",
-                      year: "numeric",
-                    })}
-                  >
-                    <a href={`/${episode.slug}`} class="block" data-astro-prefetch="hover">
-                      <h3 class="card-title min-w-0 text-lg font-medium leading-snug transition-colors group-hover:text-his-green">
-                        {episode.episodeTitle}
-                        <span class="ep-badge ml-1.5 align-middle">
-                          {episode.epNumber}
-                        </span>
-                      </h3>
+                    <div class="card-meta mt-0.5 flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary md:flex-nowrap">
+                      {episode.guestDisplays.length > 0 && (
+                        <>
+                          <span class="text-his-text-secondary">
+                            {episode.guestDisplays.map((g, i) => (
+                              <>
+                                {i > 0 && ", "}
+                                {g.name}
+                                {g.count > 1 && (
+                                  <sup class="ml-0.5 text-[0.65em] font-normal text-his-green/50">&times;{g.count}</sup>
+                                )}
+                              </>
+                            ))}
+                          </span>
+                          <span class="text-his-text-tertiary/50">&middot;</span>
+                        </>
+                      )}
 
-                      <div class="card-meta mt-0.5 flex flex-wrap items-center gap-x-2 text-sm text-his-text-tertiary md:flex-nowrap">
-                        {episode.guestDisplays.length > 0 && (
-                          <>
-                            <span class="text-his-text-secondary">
-                              {episode.guestDisplays.map((g, i) => (
-                                <>
-                                  {i > 0 && ", "}
-                                  {g.name}
-                                  {g.count > 1 && (
-                                    <sup class="ml-0.5 text-[0.65em] font-normal text-his-green/50">&times;{g.count}</sup>
-                                  )}
-                                </>
-                              ))}
-                            </span>
-                            <span class="text-his-text-tertiary/50">&middot;</span>
-                          </>
-                        )}
+                      <span>
+                        {episode.data.date.toLocaleDateString("en-US", {
+                          month: "short",
+                          day: "numeric",
+                          year: "numeric",
+                        })}
+                      </span>
 
-                        <span>
-                          {episode.data.date.toLocaleDateString("en-US", {
-                            month: "short",
-                            day: "numeric",
-                            year: "numeric",
-                          })}
-                        </span>
+                      {(episode.data.video?.url || episode.data.time) && (
+                        <>
+                          <span class="text-his-text-tertiary/50">&middot;</span>
+                          <span class="inline-flex items-center gap-1.5">
+                            {episode.data.video?.url && (
+                              <span
+                                class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
+                                title="Video episode"
+                              >
+                                <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                                  <path d="M8 5v14l11-7z" />
+                                </svg>
+                                <span class="sr-only">Video episode</span>
+                              </span>
+                            )}
+                            {episode.data.time && <span>{episode.data.time} min</span>}
+                          </span>
+                        </>
+                      )}
+                    </div>
 
-                        {(episode.data.video?.url || episode.data.time) && (
-                          <>
-                            <span class="text-his-text-tertiary/50">&middot;</span>
-                            <span class="inline-flex items-center gap-1.5">
-                              {episode.data.video?.url && (
-                                <span
-                                  class="inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border border-his-green/40 bg-his-green/15 text-his-green"
-                                  title="Video episode"
-                                >
-                                  <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
-                                    <path d="M8 5v14l11-7z" />
-                                  </svg>
-                                  <span class="sr-only">Video episode</span>
-                                </span>
-                              )}
-                              {episode.data.time && <span>{episode.data.time} min</span>}
-                            </span>
-                          </>
-                        )}
-                      </div>
-
-                      {(() => {
-                        const desc = episode.data.description;
-                        const match = desc.match(/^([^?]+\?)\s*(.*)$/);
-                        if (match) {
-                          const [, firstSentence, rest] = match;
-                          return (
-                            <div class="card-description">
-                              <p class="mt-1 line-clamp-2 text-sm font-medium leading-relaxed text-his-text">{firstSentence}</p>
-                              {rest && (
-                                <p class="mt-0.5 line-clamp-2 text-sm leading-relaxed text-his-text-secondary/80 transition-colors group-hover:text-his-text-secondary">
-                                  {rest}
-                                </p>
-                              )}
-                            </div>
-                          );
-                        }
+                    {(() => {
+                      const desc = episode.data.description;
+                      const match = desc.match(/^([^?]+\?)\s*(.*)$/);
+                      if (match) {
+                        const [, firstSentence, rest] = match;
                         return (
                           <div class="card-description">
-                            <p class="mt-1 line-clamp-2 text-sm leading-relaxed text-his-text-secondary/80 transition-colors group-hover:text-his-text-secondary">
-                              {desc}
-                            </p>
+                            <p class="mt-1 line-clamp-2 text-sm font-medium leading-relaxed text-his-text">{firstSentence}</p>
+                            {rest && (
+                              <p class="mt-0.5 line-clamp-2 text-sm leading-relaxed text-his-text-secondary/80 transition-colors group-hover:text-his-text-secondary">
+                                {rest}
+                              </p>
+                            )}
                           </div>
                         );
-                      })()}
-                    </a>
-                  </article>
-                ))}
-              </div>
-            </details>
-          );
-        })}
-      </div>
-    </section>
-  </main>
-
-  <section class="mx-auto w-full max-w-[52rem] px-4 pb-12 sm:px-6">
-    <Footer />
+                      }
+                      return (
+                        <div class="card-description">
+                          <p class="mt-1 line-clamp-2 text-sm leading-relaxed text-his-text-secondary/80 transition-colors group-hover:text-his-text-secondary">
+                            {desc}
+                          </p>
+                        </div>
+                      );
+                    })()}
+                  </a>
+                </article>
+              ))}
+            </div>
+          </details>
+        );
+      })}
+    </div>
   </section>
-</Layout>
+</HomeContentLayout>

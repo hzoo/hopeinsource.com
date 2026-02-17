@@ -964,14 +964,13 @@ html {
 }
 
 .home-view-button {
-  border: 0;
   background: transparent;
   color: var(--color-his-text-secondary);
   font-size: 0.72rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   padding: 0;
-  cursor: pointer;
+  text-decoration: none;
   transition: color 0.15s ease;
 }
 
@@ -1083,33 +1082,6 @@ html {
   width: 100%;
 }
 
-[data-layout-section] {
-  display: none;
-}
-
-[data-active-layout="A"] [data-layout-section="A"] {
-  display: block;
-}
-
-[data-active-layout="B"] [data-layout-section="B"] {
-  display: block;
-}
-
-[data-active-layout="D"] [data-layout-section="D"] {
-  display: block;
-}
-
-[data-active-layout="G"] [data-layout-section="G"] {
-  display: block;
-}
-
-[data-active-layout="I"] [data-layout-section="I"] {
-  display: block;
-}
-
-[data-active-layout="J"] [data-layout-section="J"] {
-  display: block;
-}
 
 @media (min-width: 1200px) {
   .home-root {
@@ -1447,7 +1419,7 @@ html {
   position: relative;
 }
 
-[data-active-layout="D"] #home-questions::before {
+#home-questions::before {
   content: "?";
   position: absolute;
   top: -1rem;
