@@ -2,6 +2,8 @@
  * Audio Player functionality
  */
 
+import { parseTimeHash } from "./time-hash";
+
 let audio: HTMLAudioElement | null = null;
 let playPauseButton: HTMLElement | null = null;
 let seekSlider: HTMLInputElement | null = null;
@@ -120,10 +122,12 @@ function seekToTimestamp(playAudio = true) {
     const hash = window.location.hash;
     if (!hash) return;
 
-    let seconds: number;
-    if (hash.startsWith("#t=")) {
-        seconds = parseInt(hash.slice(3), 10);
-        if (isNaN(seconds)) return;
+    const parsedTimeHash = parseTimeHash(hash);
+    if (parsedTimeHash) {
+        const seconds = parsedTimeHash.seconds;
+        if (hash !== parsedTimeHash.canonicalHash) {
+            history.replaceState(null, "", parsedTimeHash.canonicalHash);
+        }
 
         const msgId = `msg-${seconds}`;
         const msgElement = document.getElementById(msgId);
@@ -132,15 +136,19 @@ function seekToTimestamp(playAudio = true) {
         }
 
         loadAudioAndPlay(seconds, playAudio);
+        return;
+    }
 
-    } else if (hash.startsWith("#msg-")) {
+    if (hash.startsWith("#t=")) return;
+
+    if (hash.startsWith("#msg-")) {
         const msgElement = document.getElementById(hash.slice(1));
         if (!msgElement) return;
 
         const timestamp = msgElement.getAttribute("data-timestamp");
         if (!timestamp) return;
 
-        seconds = parseInt(timestamp, 10);
+        const seconds = parseInt(timestamp, 10);
         if (isNaN(seconds)) return;
 
         prepAudioPosition(seconds);

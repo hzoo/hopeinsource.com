@@ -3,6 +3,8 @@
  * Keeps transcript highlighting and timestamp navigation transcript-first.
  */
 
+import { parseTimeHash } from "./time-hash";
+
 interface MessagePoint {
     time: number;
     el: HTMLElement;
@@ -206,13 +208,16 @@ function handleHashSeek(autoplay: boolean) {
     const hash = window.location.hash;
     if (!hash) return;
 
-    if (hash.startsWith("#t=")) {
-        const seconds = parseInt(hash.slice(3), 10);
-        if (!Number.isNaN(seconds)) {
-            seekToTime(seconds, autoplay);
+    const parsedTimeHash = parseTimeHash(hash);
+    if (parsedTimeHash) {
+        if (hash !== parsedTimeHash.canonicalHash) {
+            history.replaceState(null, "", parsedTimeHash.canonicalHash);
         }
+        seekToTime(parsedTimeHash.seconds, autoplay);
         return;
     }
+
+    if (hash.startsWith("#t=")) return;
 
     if (!hash.startsWith("#msg-")) return;
     const msg = document.getElementById(hash.slice(1));

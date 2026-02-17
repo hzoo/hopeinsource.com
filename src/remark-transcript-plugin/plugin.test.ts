@@ -30,16 +30,19 @@ test("remarkTranscriptPlugin transforms markdown correctly", async () => {
   expect(result).toContain('id="msg-28"');
   expect(result).toContain('class="message message-sent"');
   expect(result).toContain('data-timestamp="28"');
+  expect(result).toContain('data-msg-occurrence="1"');
   expect(result).toContain('<span class="message-time">00:28</span>');
   expect(result).toContain('<strong>Speaker 1</strong>');
 
   expect(result).toContain('id="msg-75"');
   expect(result).toContain('class="message message-received"');
   expect(result).toContain('data-timestamp="75"');
+  expect(result).toContain('data-msg-occurrence="1"');
   expect(result).toContain('<span class="message-time">01:15</span>');
 
   expect(result).toContain('id="msg-0"');
   expect(result).toContain('data-timestamp="0"');
+  expect(result).toContain('data-msg-occurrence="1"');
 });
 
 test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () => {
@@ -48,8 +51,28 @@ test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () =>
   
   expect(result).toContain('id="msg-3603"');
   expect(result).toContain('data-timestamp="3603"');
+  expect(result).toContain('data-msg-occurrence="1"');
   expect(result).toContain('<span class="message-time">01:00:03</span>');
   expect(result).toContain('<strong>Henry</strong>');
+});
+
+test("remarkTranscriptPlugin disambiguates duplicate same-second message ids", async () => {
+  const input = `
+[00:28] **Speaker 1**: First line.
+
+[00:28] **Speaker 2**: Second line same second.
+
+[00:28] **Speaker 1**: Third line same second.
+`;
+
+  const result = await processMarkdown(input);
+
+  expect(result).toContain('id="msg-28"');
+  expect(result).toContain('id="msg-28-2"');
+  expect(result).toContain('id="msg-28-3"');
+  expect(result).toContain('data-msg-occurrence="1"');
+  expect(result).toContain('data-msg-occurrence="2"');
+  expect(result).toContain('data-msg-occurrence="3"');
 });
 
 test("remarkTranscriptPlugin handles empty input", async () => {

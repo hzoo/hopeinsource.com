@@ -25,26 +25,38 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     >
       {/* Section bars */}
       {headings.length > 0 && (
-        <div id="toc-bars" class="flex flex-col items-end gap-1.5 cursor-pointer group">
+        <button
+          id="toc-bars"
+          type="button"
+          class="flex flex-col items-end gap-1.5 cursor-pointer group rounded-md p-0 bg-transparent border-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+          aria-label="Toggle table of contents"
+          aria-controls="toc-nav"
+          aria-expanded="false"
+        >
           {headings.map((heading) => (
-            <div
+            <span
               class="toc-scrubber-bar w-4 h-1 bg-his-text-tertiary transition-all duration-300 rounded-full group-hover:bg-his-text-secondary"
               data-scrubber-id={heading.slug}
+              aria-hidden="true"
             />
           ))}
-        </div>
+        </button>
       )}
       {/* Reference count badge - vertical layout */}
       {extractedLinks.length > 0 && (
-        <div
+        <button
           id="ref-badge"
-          class="mt-3 flex flex-col items-center gap-0.5 text-[10px] text-his-text-tertiary hover:text-his-green transition-colors cursor-pointer"
+          type="button"
+          class="mt-3 flex flex-col items-center gap-0.5 text-[10px] text-his-text-tertiary hover:text-his-green transition-colors cursor-pointer rounded-md p-0 bg-transparent border-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+          aria-label="Toggle references"
+          aria-controls="ref-popover"
+          aria-expanded="false"
         >
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
           </svg>
           <span class="font-medium">{extractedLinks.length}</span>
-        </div>
+        </button>
       )}
     </div>
 
@@ -142,17 +154,21 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
   function closeTOC() {
     const tocNav = document.getElementById('toc-nav');
+    const tocBars = document.getElementById('toc-bars');
     tocNav?.classList.remove('opacity-100');
     tocNav?.classList.add('invisible', 'opacity-0');
     tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+    tocBars?.setAttribute('aria-expanded', 'false');
     tocOpen = false;
   }
 
   function closeRefPopover() {
     const refPopover = document.getElementById('ref-popover');
+    const refBadge = document.getElementById('ref-badge');
     refPopover?.classList.remove('opacity-100');
     refPopover?.classList.add('invisible', 'opacity-0');
     refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
+    refBadge?.setAttribute('aria-expanded', 'false');
     refOpen = false;
   }
 
@@ -201,6 +217,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       tocNav?.classList.remove('invisible', 'opacity-0');
       tocNav?.classList.add('opacity-100');
       tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(0)');
+      tocBars?.setAttribute('aria-expanded', 'true');
       tocOpen = true;
     }
 
@@ -209,6 +226,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       refPopover?.classList.remove('invisible', 'opacity-0');
       refPopover?.classList.add('opacity-100');
       refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(0)');
+      refBadge?.setAttribute('aria-expanded', 'true');
       refOpen = true;
     }
 
