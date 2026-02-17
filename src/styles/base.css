@@ -13,7 +13,6 @@
 }
 
 html {
-  scroll-behavior: smooth;
   scroll-padding-top: 2rem;
   scrollbar-gutter: stable;
 }
@@ -494,8 +493,7 @@ html {
 .search-backdrop {
   position: fixed;
   inset: 0;
-  background: rgba(16, 15, 15, 0.75);
-  backdrop-filter: blur(8px);
+  background: oklch(0.15 0 0 / 0.85);
   z-index: 999;
   opacity: 0;
   pointer-events: none;
