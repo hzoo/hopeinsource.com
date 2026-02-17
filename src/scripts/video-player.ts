@@ -149,11 +149,13 @@ function setMode(nextMode: VideoMode) {
     if (nextMode === "read") {
         player?.pauseVideo();
         setFollowEnabled(false);
+        stopTicker();
         return;
     }
 
     setFollowEnabled(true);
     updatePlayerUi();
+    syncTickerToPlaybackState();
 }
 
 function updatePlayerUi() {
@@ -179,6 +181,14 @@ function stopTicker() {
     }
 }
 
+function syncTickerToPlaybackState() {
+    if (mode !== "watch" || !isPlayerPlaying()) {
+        stopTicker();
+        return;
+    }
+    startTicker();
+}
+
 function seekToTime(seconds: number, shouldPlay: boolean) {
     if (!player || !Number.isFinite(seconds) || seconds < 0) return;
 
@@ -186,7 +196,10 @@ function seekToTime(seconds: number, shouldPlay: boolean) {
     player.seekTo(videoTime, true);
     if (shouldPlay) {
         player.playVideo();
+        return;
     }
+    updatePlayerUi();
+    syncTickerToPlaybackState();
 }
 
 function handleHashSeek(autoplay: boolean) {
@@ -312,12 +325,13 @@ async function initVideoPlayer() {
                 if (!window.location.hash && videoOffsetSeconds > 0) {
                     player?.seekTo(videoOffsetSeconds, true);
                 }
-                updatePlayerUi();
-                startTicker();
                 handleHashSeek(false);
+                updatePlayerUi();
+                syncTickerToPlaybackState();
             },
             onStateChange: () => {
                 updatePlayerUi();
+                syncTickerToPlaybackState();
             },
         },
     });

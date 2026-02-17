@@ -1,5 +1,6 @@
 /**
- * Search functionality with Spotlight-style modal
+ * Search functionality with Spotlight-style modal.
+ * Loaded on demand via search-entry.ts.
  */
 
 interface PagefindResult {
@@ -18,6 +19,14 @@ interface PagefindData {
 
 interface Pagefind {
     search: (query: string) => Promise<{ results: PagefindResult[] }>;
+}
+
+interface SearchSession {
+    id: number;
+    results: PagefindResult[];
+    hydratedResults: PagefindData[];
+    nextIndex: number;
+    total: number;
 }
 
 /**
@@ -56,12 +65,15 @@ let backdrop: HTMLDivElement | null = null;
 let modal: HTMLDivElement | null = null;
 let input: HTMLInputElement | null = null;
 let resultsArea: HTMLDivElement | null = null;
-let currentSearch: { results: PagefindResult[] } | null = null;
-let initAbort: AbortController | null = null;
 let modalAbort: AbortController | null = null;
 let activeSearchId = 0;
-// Load up to 500 results to ensure we can group them properly by episode
-const MAX_RESULTS = 500;
+let searchSession: SearchSession | null = null;
+let isHydratingMore = false;
+
+// Keep initial search render cheap, then hydrate more on demand.
+const INITIAL_RESULTS_TO_HYDRATE = 60;
+const LOAD_MORE_RESULTS_STEP = 40;
+const HYDRATE_BATCH_SIZE = 20;
 
 // Quotes from the podcast for the empty state
 const SEARCH_QUOTES = [
@@ -182,11 +194,15 @@ function createModal() {
 
         if (!query) {
             activeSearchId++;
+            searchSession = null;
+            isHydratingMore = false;
             resultsArea!.innerHTML = getEmptyStateHtml();
             return;
         }
 
-        debounceTimer = setTimeout(() => performSearch(query), 250);
+        debounceTimer = setTimeout(() => {
+            void performSearch(query);
+        }, 250);
     }, { signal });
 
     // Keyboard navigation
@@ -212,8 +228,15 @@ function createModal() {
     // Backdrop click
     backdrop.addEventListener('click', closeModal, { signal });
 
-    // Handle search result clicks - close modal and navigate to hash (delegated)
+    // Delegated clicks in search area
     resultsArea.addEventListener('click', (e) => {
+        const loadMoreButton = (e.target as HTMLElement).closest<HTMLButtonElement>('#search-load-more');
+        if (loadMoreButton) {
+            e.preventDefault();
+            void loadMoreResults();
+            return;
+        }
+
         // Handle both search results and splash quote links
         const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('.search-result, .search-splash-quote-link');
 
@@ -249,20 +272,6 @@ function createModal() {
     }, { signal });
 }
 
-function handleGlobalKeydown(e: KeyboardEvent) {
-    const isTyping = (e.target as HTMLElement).matches('input, textarea, [contenteditable]');
-
-    if (e.key === 'Escape' && modal?.classList.contains('visible')) {
-        closeModal();
-        return;
-    }
-
-    if (e.key === '/' && !e.metaKey && !e.ctrlKey && !e.altKey && !isTyping) {
-        e.preventDefault();
-        void openModal();
-    }
-}
-
 async function openModal() {
     if (!modal) {
         createModal();
@@ -274,7 +283,7 @@ async function openModal() {
             // @ts-ignore - Dynamic import of Pagefind, escaped from Vite analysis via dynamic path
             const p = 'pagefind';
             pagefind = await import(/* @vite-ignore */ `/${p}/${p}.js`);
-        } catch (e) {
+        } catch {
             console.warn('Pagefind not found. Search will be available after build.');
         }
     }
@@ -293,6 +302,8 @@ async function openModal() {
 function closeModal() {
     if (!modal || !backdrop || !input || !resultsArea) return;
     activeSearchId++;
+    searchSession = null;
+    isHydratingMore = false;
     modal.classList.remove('visible');
     backdrop.classList.remove('visible');
     document.body.style.overflow = '';
@@ -301,45 +312,113 @@ function closeModal() {
     selectedIndex = -1;
 }
 
+async function hydrateResults(
+    results: PagefindResult[],
+    startIndex: number,
+    count: number,
+    searchId: number,
+): Promise<PagefindData[] | null> {
+    const hydrated: PagefindData[] = [];
+    const endIndex = Math.min(startIndex + count, results.length);
+
+    for (let i = startIndex; i < endIndex; i += HYDRATE_BATCH_SIZE) {
+        const batch = results.slice(i, Math.min(i + HYDRATE_BATCH_SIZE, endIndex));
+        const data = await Promise.all(batch.map((r) => r.data()));
+        if (searchId !== activeSearchId) return null;
+        hydrated.push(...data);
+    }
+
+    return hydrated;
+}
+
 async function performSearch(query: string) {
     if (!pagefind || !resultsArea) return;
+
     const searchId = ++activeSearchId;
     selectedIndex = -1;
+    searchSession = null;
+    isHydratingMore = false;
 
     try {
-        currentSearch = await pagefind.search(query);
+        const resultSet = await pagefind.search(query);
         if (searchId !== activeSearchId) return;
 
-        if (!currentSearch || currentSearch.results.length === 0) {
+        if (!resultSet || resultSet.results.length === 0) {
             resultsArea.innerHTML = '<div class="search-no-results">No results found</div>';
             return;
         }
 
-        // Load ALL results (up to MAX_RESULTS) so we can group effectively
         resultsArea.innerHTML = getLoadingHtml();
 
-        const allResults: PagefindData[] = [];
-        const resultsToLoad = Math.min(currentSearch.results.length, MAX_RESULTS);
+        const hydratedResults = await hydrateResults(
+            resultSet.results,
+            0,
+            INITIAL_RESULTS_TO_HYDRATE,
+            searchId,
+        );
+        if (!hydratedResults || searchId !== activeSearchId) return;
 
-        // Load in batches of 20 concurrently
-        const batchSize = 20;
-        for (let i = 0; i < resultsToLoad; i += batchSize) {
-            const batch = currentSearch.results.slice(i, i + batchSize);
-            const data = await Promise.all(batch.map(r => r.data()));
-            if (searchId !== activeSearchId) return;
-            allResults.push(...data);
-        }
+        searchSession = {
+            id: searchId,
+            results: resultSet.results,
+            hydratedResults,
+            nextIndex: hydratedResults.length,
+            total: resultSet.results.length,
+        };
 
-        if (searchId !== activeSearchId) return;
-        renderGroupedResults(allResults);
-    } catch (e) {
+        renderSearchSession();
+    } catch {
         if (searchId !== activeSearchId) return;
         resultsArea.innerHTML = '<div class="search-no-results">Search error</div>';
     }
 }
 
-// Replaced loadMoreResults/renderResults with renderGroupedResults
-function renderGroupedResults(results: PagefindData[]) {
+async function loadMoreResults() {
+    if (!searchSession || !resultsArea || isHydratingMore) return;
+    if (searchSession.nextIndex >= searchSession.total) return;
+
+    isHydratingMore = true;
+
+    const loadMoreButton = resultsArea.querySelector<HTMLButtonElement>('#search-load-more');
+    if (loadMoreButton) {
+        loadMoreButton.disabled = true;
+        loadMoreButton.textContent = 'Loading...';
+    }
+
+    const nextHydrated = await hydrateResults(
+        searchSession.results,
+        searchSession.nextIndex,
+        LOAD_MORE_RESULTS_STEP,
+        searchSession.id,
+    );
+
+    if (!nextHydrated) {
+        isHydratingMore = false;
+        return;
+    }
+
+    if (!searchSession || searchSession.id !== activeSearchId) {
+        isHydratingMore = false;
+        return;
+    }
+
+    searchSession.hydratedResults.push(...nextHydrated);
+    searchSession.nextIndex += nextHydrated.length;
+    isHydratingMore = false;
+
+    renderSearchSession();
+}
+
+function renderSearchSession() {
+    if (!searchSession) return;
+    renderGroupedResults(
+        searchSession.hydratedResults,
+        searchSession.total,
+        searchSession.nextIndex < searchSession.total,
+    );
+}
+
+function renderGroupedResults(results: PagefindData[], totalResults: number, hasMore: boolean) {
     if (!resultsArea) return;
 
     // Group results by episode (base URL without anchor)
@@ -372,12 +451,21 @@ function renderGroupedResults(results: PagefindData[]) {
     });
 
     const resultsHtml = sortedGroups.map(([baseUrl, group]) =>
-        renderEpisodeGroup(baseUrl, group.title, group.results)
+        renderEpisodeGroup(baseUrl, group.title, group.results),
     ).join('');
 
+    const headerText = hasMore
+        ? `${results.length} of ${totalResults} results`
+        : `${totalResults} result${totalResults !== 1 ? 's' : ''}`;
+
+    const loadMoreHtml = hasMore
+        ? '<button id="search-load-more" class="search-load-more" type="button">Load more results</button>'
+        : '';
+
     resultsArea.innerHTML = `
-      <div class="search-results-header">${results.length} result${results.length !== 1 ? 's' : ''}</div>
+      <div class="search-results-header">${headerText}</div>
       <div class="search-results-list">${resultsHtml}</div>
+      ${loadMoreHtml}
     `;
 }
 
@@ -474,49 +562,8 @@ function updateSelection(resultLinks: NodeListOf<HTMLAnchorElement>) {
     }
 }
 
-function initSearch() {
-    const trigger = document.getElementById('search-trigger');
-    if (!trigger) return;
-
-    initAbort?.abort();
-    initAbort = new AbortController();
-    const { signal } = initAbort;
-
-    trigger.addEventListener('click', () => { void openModal(); }, { signal });
-    document.addEventListener('keydown', handleGlobalKeydown, { signal });
+export async function openSearchModal() {
+    await openModal();
 }
 
-function cleanupSearch() {
-    activeSearchId++;
-    initAbort?.abort();
-    initAbort = null;
-    modalAbort?.abort();
-    modalAbort = null;
-    if (debounceTimer) {
-        clearTimeout(debounceTimer);
-        debounceTimer = null;
-    }
-
-    backdrop?.remove();
-    modal?.remove();
-    backdrop = null;
-    modal = null;
-    input = null;
-    resultsArea = null;
-    currentSearch = null;
-    selectedIndex = -1;
-    document.body.style.overflow = '';
-}
-
-// Initialize and handle cleanup on every page load (including navigations)
-function setupSearch() {
-    cleanupSearch();
-    initSearch();
-}
-
-document.addEventListener('astro:page-load', setupSearch);
-
-// Fallback for initial load if not using View Transitions or if script loads after astro:page-load
-if (document.readyState === 'complete') {
-    setupSearch();
-}
+export {};

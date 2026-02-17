@@ -13,10 +13,7 @@ const {
   author = 'Henry Zhu',
 } = Astro.props;
 
-import { ClientRouter } from 'astro:transitions';
-
 const siteTitle = title === hisMetadata.title ? title : `${title}`;
-const isMainPage = slug === '';
 ---
 
 <!-- Global Metadata -->
@@ -73,5 +70,3 @@ const isMainPage = slug === '';
     }
   ]
 })} />
-
-<ClientRouter />

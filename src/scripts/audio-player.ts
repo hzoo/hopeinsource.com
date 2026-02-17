@@ -26,11 +26,24 @@ interface MessagePoint {
 }
 
 let messagePoints: MessagePoint[] = [];
+let messagePointsReady = false;
 let feedbackTimeout: ReturnType<typeof setTimeout> | null = null;
 let lastHighlightedMessage: HTMLElement | null = null;
 let isLoaded = false;
 let src = '';
 let listenerAbort: AbortController | null = null;
+
+function ensureMessagePoints() {
+    if (messagePointsReady) return;
+    messagePoints = Array.from(document.querySelectorAll<HTMLElement>('.message'))
+        .map((message) => ({
+            time: parseInt(message.getAttribute('data-timestamp') || '', 10),
+            el: message,
+        }))
+        .filter(({ time }) => !isNaN(time))
+        .sort((a, b) => a.time - b.time);
+    messagePointsReady = true;
+}
 
 function formatTime(seconds: number) {
     if (!seconds || isNaN(seconds)) return "00:00";
@@ -57,6 +70,7 @@ function updateTimeDisplay() {
 }
 
 function updateCurrentMessage() {
+    ensureMessagePoints();
     if (!audio || messagePoints.length === 0) return;
     const currentTime = Math.floor(audio.currentTime);
     const currentIndex = findMessageIndex(currentTime);
@@ -298,14 +312,6 @@ function initAudioPlayer() {
 
     const container = document.getElementById("audio-player-container");
     src = container?.dataset.src || '';
-    messagePoints = Array.from(document.querySelectorAll<HTMLElement>('.message'))
-        .map((message) => ({
-            time: parseInt(message.getAttribute('data-timestamp') || '', 10),
-            el: message,
-        }))
-        .filter(({ time }) => !isNaN(time))
-        .sort((a, b) => a.time - b.time);
-
     if (!audio) return;
 
     // Listeners
@@ -386,6 +392,7 @@ function cleanupAudioPlayer() {
     }
 
     messagePoints = [];
+    messagePointsReady = false;
     isLoaded = false;
     lastHighlightedMessage = null;
 }
