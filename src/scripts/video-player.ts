@@ -408,7 +408,9 @@ function setupVideoPlayer() {
 
 document.addEventListener("astro:page-load", setupVideoPlayer);
 
-if (document.readyState === "complete") {
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupVideoPlayer, { once: true });
+} else {
     setupVideoPlayer();
 }
 

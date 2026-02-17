@@ -56,7 +56,9 @@ function setupSearchBootstrap() {
 
 document.addEventListener('astro:page-load', setupSearchBootstrap);
 
-if (document.readyState === 'complete') {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupSearchBootstrap, { once: true });
+} else {
     setupSearchBootstrap();
 }
 

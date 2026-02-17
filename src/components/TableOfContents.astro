@@ -328,7 +328,9 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
   document.addEventListener('astro:page-load', setupTOC);
 
-  if (document.readyState === 'complete') {
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupTOC, { once: true });
+  } else {
     setupTOC();
   }
 </script>

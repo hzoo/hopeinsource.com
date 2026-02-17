@@ -142,6 +142,8 @@ function setupEpisode() {
 // Module script initialization on every load/nav
 document.addEventListener('astro:page-load', setupEpisode);
 
-if (document.readyState === 'complete') {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupEpisode, { once: true });
+} else {
     setupEpisode();
 }

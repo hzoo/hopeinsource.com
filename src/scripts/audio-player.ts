@@ -404,7 +404,9 @@ function setupAudioPlayer() {
 
 document.addEventListener('astro:page-load', setupAudioPlayer);
 
-if (document.readyState === 'complete') {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupAudioPlayer, { once: true });
+} else {
     setupAudioPlayer();
 }
 

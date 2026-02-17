@@ -17,6 +17,11 @@ html {
   scrollbar-gutter: stable;
 }
 
+/* Episode pages have an inline header theme control; avoid overlap with fixed toggle. */
+body:has(#chat-header) #theme-toggle {
+  display: none;
+}
+
 @theme {
   --font-system: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,

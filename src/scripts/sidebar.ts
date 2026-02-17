@@ -115,6 +115,8 @@ function setupSidebar() {
 
 document.addEventListener('astro:page-load', setupSidebar);
 
-if (document.readyState === 'complete') {
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', setupSidebar, { once: true });
+} else {
     setupSidebar();
 }
