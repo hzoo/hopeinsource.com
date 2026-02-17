@@ -339,6 +339,8 @@ html {
   .message {
     @apply flex flex-col relative max-w-[92%] md:max-w-[85%] lg:max-w-[72%] mb-0 transition-colors duration-300;
     scroll-margin-top: 20px;
+    content-visibility: auto;
+    contain-intrinsic-size: 96px;
 
     /* Better mobile spacing */
     @media (max-width: 640px) {
@@ -383,6 +385,12 @@ html {
     /* Last message in a group */
     &.consecutive-end .message-bubble {
       @apply rounded-b-2xl rounded-t-none mb-3;
+    }
+
+    &.message-current,
+    &.highlight-flash,
+    &:target {
+      content-visibility: visible;
     }
   }
 

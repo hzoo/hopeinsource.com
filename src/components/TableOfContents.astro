@@ -115,6 +115,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   let refOpen = false;
   let observer: IntersectionObserver | null = null;
   let tocAbort: AbortController | null = null;
+  let tocBootstrapAbort: AbortController | null = null;
+  let tocInitialized = false;
 
   function handleTOCClick(e: MouseEvent) {
     const target = e.target as HTMLElement;
@@ -155,6 +157,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   }
 
   function initTOC() {
+    tocInitialized = true;
     tocAbort?.abort();
     tocAbort = new AbortController();
     const { signal } = tocAbort;
@@ -271,9 +274,42 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     if (hash) setActive(hash.replace('#', ''));
   }
 
+  function initTOCLazyBootstrap() {
+    tocBootstrapAbort?.abort();
+    tocBootstrapAbort = new AbortController();
+    const { signal } = tocBootstrapAbort;
+
+    const tocBars = document.getElementById('toc-bars');
+    const refBadge = document.getElementById('ref-badge');
+    const scrollContainer = document.getElementById('episode-scroll-container');
+
+    const warmInit = () => {
+      if (tocInitialized) return;
+      initTOC();
+    };
+
+    const handleFirstControlClick = (e: Event) => {
+      const control = e.currentTarget as HTMLElement | null;
+      if (!control) return;
+      e.preventDefault();
+      e.stopImmediatePropagation();
+      warmInit();
+      queueMicrotask(() => control.click());
+    };
+
+    tocBars?.addEventListener('click', handleFirstControlClick, { signal, capture: true, once: true });
+    refBadge?.addEventListener('click', handleFirstControlClick, { signal, capture: true, once: true });
+    scrollContainer?.addEventListener('scroll', warmInit, { signal, passive: true, once: true });
+    if (!scrollContainer) {
+      window.addEventListener('scroll', warmInit, { signal, passive: true, once: true });
+    }
+  }
+
   function cleanupTOC() {
     tocAbort?.abort();
     tocAbort = null;
+    tocBootstrapAbort?.abort();
+    tocBootstrapAbort = null;
 
     if (observer) {
       observer.disconnect();
@@ -282,11 +318,12 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     tocOpen = false;
     refOpen = false;
     currentActiveId = null;
+    tocInitialized = false;
   }
 
   function setupTOC() {
     cleanupTOC();
-    initTOC();
+    initTOCLazyBootstrap();
   }
 
   document.addEventListener('astro:page-load', setupTOC);

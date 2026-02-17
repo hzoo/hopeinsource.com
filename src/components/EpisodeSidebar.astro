@@ -62,7 +62,6 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                     ? "bg-his-green/12 ring-1 ring-his-green/25"
                     : "hover:bg-his-hover/60"
                 ]}
-                data-astro-prefetch="hover"
                 aria-current={isActive ? "page" : undefined}
                 title={episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
               >
