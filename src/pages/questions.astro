@@ -1,0 +1,38 @@
+---
+import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
+import { getEpisodeData } from "@/lib/episodes";
+import { extractQuestions } from "@/lib/content-extraction";
+
+const { episodes } = await getEpisodeData();
+
+const allQuestions = episodes.flatMap((ep) =>
+  extractQuestions(ep.slug, ep.episodeTitle, ep.data.description),
+);
+---
+
+<HomeContentLayout activeLayout="D">
+  <section aria-label="Questions">
+    <div id="home-questions" data-collapsed="true">
+      {allQuestions.map((q) => {
+        const wc = q.question.split(/\s+/).length;
+        const len = wc <= 8 ? "short" : wc >= 18 ? "long" : "medium";
+        return (
+          <a
+            href={`/${q.slug}`}
+            class="question-item"
+            data-len={len}
+            data-session-key={`${q.slug}:${q.question}`}
+          >
+            <p class="question-text m-0">{q.question}</p>
+            <span class="question-source">{q.episodeTitle}</span>
+          </a>
+        );
+      })}
+    </div>
+    {allQuestions.length > 9 && (
+      <button type="button" class="lab-show-more" data-expand="#home-questions">
+        show {allQuestions.length - 9} more
+      </button>
+    )}
+  </section>
+</HomeContentLayout>
