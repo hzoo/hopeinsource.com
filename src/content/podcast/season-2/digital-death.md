@@ -67,7 +67,7 @@ quotes:
 
 #### Forcing Your Own Hand
 
-[03:07] **Philip:** Yeah. I think that's a big part of it. I mean, all this stuff is extra curricular. You know, if someone forced me to quit all of this against my own will, it would still be fine because my livelihood doesn't depend on it, right. So all of the online activities are all for fun or entertainment or for helping others or whatever, right.
+[03:07] **Philip:** Yeah. I think that's a big part of it. All this stuff is extra curricular. If someone forced me to quit all of this against my own will, it would still be fine because my livelihood doesn't depend on it, right. So all of the online activities are all for fun or entertainment or for helping others or whatever, right.
 
 [03:25] **Philip:** So given that framing, the status quo is I just keep everything up, keep doing stuff maybe at a lesser rate. And the most extreme is to delete everything. And I'm kind of near that extreme there. And I think one advantage of thinking about that extreme is that it kind of frees up my mind to think, okay, what else can I do in the future?
 
@@ -75,7 +75,7 @@ quotes:
 
 #### Email Is a Newsletter without an Archive
 
-[03:54] **Philip:** And, you know, by forcing myself to be more semi-private, the one main benefit right now is that the newsletter that I have, which also is not public. So people wouldn't know what I'm talking about. I focus much more of my efforts on that, right.
+[03:54] **Philip:** And by forcing myself to be more semi-private, the one main benefit right now is that the newsletter that I have, which also is not public. So people wouldn't know what I'm talking about. I focus much more of my efforts on that, right.
 
 [04:12] **Philip:** I'm thinking about what does it mean to distribute something in someone's inbox? And I've been sending out semi-private email news groups as well, and like focusing on targeting that message better rather than just broadcasting to the general public.
 
@@ -123,9 +123,9 @@ quotes:
 
 [07:51] **Philip:** Yeah. You know, in the early days of say movie file sharing, when Netflix or iTunes, whoever started coming by, you're right. It was absolutely a convenience thing.
 
-[07:59] **Philip:** So if you're a kid and you had plenty of time, you could just stay up all night, looking on BitTorrent or Kazaa and Limewire, all those services, you know, trying to reconnect and download something. It takes forever because your internet was slow then, and they would like break after, you know, 95%. You wake up in the morning and like the movies corrupt, or you download the whole movie, and you start watching it and it's like corrupted or something, right. If you're a kid, it's fine. You're tying up your parents' internet or whatever. So they're mad, but whatever you're a kid, you have plenty of time.
+[07:59] **Philip:** So if you're a kid and you had plenty of time, you could just stay up all night, looking on BitTorrent or Kazaa and Limewire, all those services, trying to reconnect and download something. It takes forever because your internet was slow then, and they would break after 95%. You wake up in the morning and the movies corrupt, or you download the whole movie, and you start watching it and it's like corrupted or something, right. If you're a kid, it's fine. You're tying up your parents' internet or whatever. So they're mad, but whatever you're a kid, you have plenty of time.
 
-[08:29] **Philip:** But that's like when you're an adult, I'll just pay \$3. That sort of calculation really flips because it's absolutely a convenience thing. When you're an adult, you don't want to just spend all this time tinkering around. Unless, you know, it's your hobby, right? If it's your hobby to play with this technology, that's fine. But for most people they make it so easy, to do the right thing in a sense.
+[08:29] **Philip:** But that's like when you're an adult, I'll just pay \$3. That sort of calculation really flips because it's absolutely a convenience thing. When you're an adult, you don't want to just spend all this time tinkering around. Unless it's your hobby, right? If it's your hobby to play with this technology, that's fine. But for most people they make it so easy, to do the right thing in a sense.
 
 [08:48] **Henry:** Yeah. I also think about how it's so easy to re-upload stuff. So say you wanted to listen to some music. You could just watch the YouTube video.
 
@@ -135,7 +135,7 @@ quotes:
 
 [09:25] **Philip:** And there's all this brouhaha in the YouTube world, right. Of what it means to have music, right. So if you just have two seconds of some song, your whole video is going to be flagged and that record company is going to get all your profits, right. Or you have to demonetize your videos. So the music industry and movie industries are still very strong, right, in terms of lobbying for copyright and everything. That's a whole other issue.
 
-[09:44] **Henry:** Yeah. I mean the whole governance by algorithm. Yeah. I think we got off track a little bit.
+[09:44] **Henry:** Yeah. The whole governance by algorithm. Yeah. I think we got off track a little bit.
 
 [09:49] **Philip:** That's the point of these, you know, off-track.
 
@@ -145,15 +145,15 @@ quotes:
 
 [09:57] **Henry:** You said that it's been two weeks. I guess a simple question is like, how are you feeling?
 
-[10:01] **Philip:** Yeah, no, this is good. I mean, the meandering is good. The podcast benefits.
+[10:01] **Philip:** Yeah, no, this is good. The meandering is good. The podcast benefits.
 
 [10:06] **Philip:** You know, I made the announcement quote, unquote, on the newsletter, July 1st, even though I had taken myself offline a little before. But that newsletter kind of laid out the rationale, right. And I won't repeat it here because either people have read it or they haven't so whatever.
 
-[10:20] **Philip:** But because of that, right, even though I said in the newsletter, I'd rather have this not be public or whatever, you know, it was the first time I announced it so that understandably people were interested in it.
+[10:20] **Philip:** But because of that, right, even though I said in the newsletter, I'd rather have this not be public or whatever, it was the first time I announced it so that understandably people were interested in it.
 
-[10:31] **Philip:** So some people email me personally about it. I kind of talked to them a little more. And then other people unsurprisingly took to Twitter and kind of talked about how I was so active on Twitter and now all of a sudden off, and then there's this like brouhaha pretty much where like.
+[10:31] **Philip:** So some people email me personally about it. I kind of talked to them a little more. And then other people unsurprisingly took to Twitter and kind of talked about how I was so active on Twitter and now all of a sudden off, and then there's this brouhaha pretty much where.
 
-[10:46] **Philip:** I mean, I haven't been on Twitter in months, right. I deleted my account. But then like, people were just emailing me. I think there were threads going down speculating on like, did he say something terrible on the internet and stuff? Or who did he get in a fight with? Did you get canceled? Was there some like controversy? And I think some people deleted their tweets afterwards because I had told them I wanted this to be a private thing.
+[10:46] **Philip:** I haven't been on Twitter in months, right. I deleted my account. But then people were just emailing me. I think there were threads going down speculating on, did he say something terrible on the internet and stuff? Or who did he get in a fight with? Did you get canceled? Was there some controversy? And I think some people deleted their tweets afterwards because I had told them I wanted this to be a private thing.
 
 [11:06] **Philip:** So if I hadn't made an announcement in the newsletter, and I just went away quietly then I don't think any of that would have happened.
 
@@ -163,13 +163,13 @@ quotes:
 
 #### From City to Suburbs
 
-[11:38] **Philip:** I guess the feeling has just been kind of this quiet. There is this sort of, you know, I don't know if it's like a FOMO, but it's a feeling that this sort of low grade stimulation and gossip and activity is kind of like a background noise in our lives. And without that, it does feel kind of eerily quiet, right?
+[11:38] **Philip:** I guess the feeling has just been kind of this quiet. There is this sort of, I don't know if it's a FOMO, but it's a feeling that this sort of low grade stimulation and gossip and activity is kind of like a background noise in our lives. And without that, it does feel kind of eerily quiet, right?
 
 [11:57] **Philip:** You're used to being in a city, right? It's like you're living in New York City or whatever. You always hear a background hum, of cars and honking and whatever. If all that was suddenly gone, you'd be like, well, it's kind of weirdly quiet. That's I think the feeling,
 
 [12:08] **Henry:** Okay. So it's like an awareness. I felt that when I went back home, but now I'm back in New York.
 
-[12:15] **Philip:** Now there's a bustle. And then just like that sense of.. I don't know. it's a relief, but there's a sense that I didn't have to think about making new content on a regular basis. And that sense that given these tools were taken away or I took them away from myself, so I wouldn't be able to write tweets or make YouTube videos.
+[12:15] **Philip:** Now there's a bustle. And then just that sense of.. I don't know. it's a relief, but there's a sense that I didn't have to think about making new content on a regular basis. And that sense that given these tools were taken away or I took them away from myself, so I wouldn't be able to write tweets or make YouTube videos.
 
 [12:33] **Philip:** Before I left, I was making daily vlogs for like several months since the quarantine. There were just five minute little things, right. They weren't edited at all, they're very impromptu. But still, it was like everyday I have to think of something to talk about. Or I would think, what should I write for my website or let's record a podcast.
 
@@ -211,7 +211,7 @@ quotes:
 
 [15:54] **Philip:** That's right. I feel even like, I can't even get back on that. If like tomorrow I had to get back on social media and post a bunch of stuff, I would probably be quote unquote bad at it, right. Because I just don't know what happened in the last few weeks.
 
-[16:07] **Henry:** Yeah. I mean, it doesn't even have to be that long. I feel like if you're not on Twitter for like one day. This also depends on who you follow and who follows you, but I'm actually not really on as much either. I didn't remove anything and I'm still trying to post things.
+[16:07] **Henry:** Yeah. I mean, it doesn't even have to be that long. I feel like if you're not on Twitter for one day. This also depends on who you follow and who follows you, but I'm actually not really on as much either. I didn't remove anything and I'm still trying to post things.
 
 [16:23] **Philip:** I think these semi-private formats, these small group chats, you know, a lot of the old school stuff, right, that is less than the view of declaring public. Again, all this stuff has been well-trodden ground before.
 
@@ -227,11 +227,11 @@ quotes:
 
 [17:30] **Philip:** Yeah. Engaging with the present versus engaging with a past.
 
-[17:33] **Philip:** I like this framing that, you know, when you're reading books, you're engaging with the past, right. And also things that have probably lived on longer, right?
+[17:33] **Philip:** I like this framing that when you're reading books, you're engaging with the past, right. And also things that have probably lived on longer, right?
 
-[17:39] **Philip:** There were a bunch of terrible books written 50 years ago, but the ones that lived on, you know, they had impact and they had some kind of longevity. Whereas if you're on social media or just engaging with the present. Literally watching the news, right. Social media is very much news driven. You're literally engaging with the present all the time.
+[17:39] **Philip:** There were a bunch of terrible books written 50 years ago, but the ones that lived on, they had impact and they had some kind of longevity. Whereas if you're on social media or just engaging with the present. Literally watching the news, right. Social media is very much news driven. You're literally engaging with the present all the time.
 
-[17:57] **Philip:**And a lot of the thinking is about the present or the recent past. So again, it's like where you put your mind to, right. So if you cut off thinking about the present and you're deeply engaged with the distant past, that's obviously religion and philosophy and these, you know, ancient texts are very appealing, because of that reason, right. That it's the opposite of whatever's on Twitter today.
+[17:57] **Philip:**And a lot of the thinking is about the present or the recent past. So again, it's like where you put your mind to, right. So if you cut off thinking about the present and you're deeply engaged with the distant past, that's obviously religion and philosophy and these ancient texts are very appealing, because of that reason, right. That it's the opposite of whatever's on Twitter today.
 
 [18:20] **Henry:** Yeah. That does remind me of a newsletter from [Michael Sacasas](https://theconvivialsociety.substack.com/). He was writing about free speech. We brought up books, right?
 
@@ -267,7 +267,7 @@ quotes:
 
 [21:01] The typical thing here is that the etiquette for texting is you have to be more enthusiastic or use more exclamation marks. Oh my God, is this guy mad or something. He just flat out said no with a period.
 
-[21:11] **Henry:** There's that whole thing about like, how many exclamation points mean what? Yeah, and I guess the less that you've want to be online, then the more you're not going to be in tune with how people usually like to interpret those.
+[21:11] **Henry:** There's that whole thing about like, how many exclamation points mean what? Yeah, and I guess the less that you want to be online, then the more you're not going to be in tune with how people usually like to interpret those.
 
 [21:25] **Philip:** That's right. The tuneness, it's a big thing. Obviously if you're in the public sphere with. Facebook or Twitter, I feel you have to be very in tune because as your audience size grows, if you're not in tune, then you are more likely to commit just weird faux pas, right. It's a big deal to whatever fraction of your audience.
 
@@ -301,7 +301,7 @@ quotes:
 
 [24:00] **Henry:** And I guess that just means like, it's just a problem of communication in the end, right? It's like, how do we make sure that people actually understand what you're saying? On your end and their end.
 
-[24:09] **Philip:** Yeah, one way is to scale this down. I felt like one of the issues with being public so much is that you're just kind of spewing out stuff undirected, right? It's like you're a, you know, oil fountain or gusher, whatever, it's just going everywhere, right.
+[24:09] **Philip:** Yeah, one way is to scale this down. I felt like one of the issues with being public so much is that you're just kind of spewing out stuff undirected, right? It's like you're an oil fountain or gusher, whatever, it's just going everywhere, right.
 
 [24:23] **Philip:** And it's like, some people might catch some oil or whatever. Bad analogy, but it's undirected, it's completely undirected. And because of that one, maybe the people who really would benefit from it, don't find it, right.
 
@@ -359,7 +359,7 @@ quotes:
 
 [28:50] **Philip:** But if you're performing in a giant stadium performance, it's like a stage show, right? It's very choreographed. You can't have that sort of personalization. Just totally sacreligious making all these different analogies, but people just want this sort of connection.
 
-[29:06] **Philip:** You know, people can have that sort of collective experience, right? It is cool to go to a mega church or a Taylor Swift concert, because you, you experienced this with thousands of other people who are like minded and you get into this sort of state, right. And when you're five people, you can get into a very different kind of engaged state as well. They both can be good.
+[29:06] **Philip:** You know, people can have that sort of collective experience, right? It is cool to go to a mega church or a Taylor Swift concert, because you experienced this with thousands of other people who are like minded and you get into this sort of state, right. And when you're five people, you can get into a very different kind of engaged state as well. They both can be good.
 
 [29:23] **Henry:** Right. It could be a football game, I guess there's like burning man, all that stuff, right. Maybe I do feel like we are tending toward the general case. The Internet is sort of like that where we're kind of all trying to become the same thing.
 
@@ -381,7 +381,7 @@ quotes:
 
 [31:01] **Henry:** For sure. I guess I'm sympathetic to the idea, but because we're in this environment, I'm not going to just run away from it. Because I want to criticize the way we live now, it doesn't mean that people that are saying something different about technology are Luddites and don't want to use technology. It's just we are questioning the current thinking around it.
 
-[31:23] **Philip:** Yeah. And bringing it back to, you know, life after digital death or whatever. If I frame it in terms of me getting off social media, everyone understands that there. It totally makes sense.
+[31:23] **Philip:** Yeah. And bringing it back to life after digital death or whatever. If I frame it in terms of me getting off social media, everyone understands that there. It totally makes sense.
 
 #### It's Not Weird To Not Make Anything
 

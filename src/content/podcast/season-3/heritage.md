@@ -265,7 +265,7 @@ quotes:
 
 [19:53] **Marianita:** In the opening? The opening of a new building?
 
-[19:56] **Bernardo:** Yeah, when you see images of buildings, you know, they don't show you the building in 30 years. They show you the buildings brand new, shiny..
+[19:56] **Bernardo:** Yeah, when you see images of buildings, they don't show you the building in 30 years. They show you the buildings brand new, shiny..
 
 [20:04] **Marianita:** That will last for one day. If it will exist, it will exist only for one day.
 
@@ -463,7 +463,7 @@ quotes:
 
 [39:48] **Bernardo:** Replace a bit the owner, things are far more formalized. So for us, again, this informal aspect is important.
 
-[39:55] **Henry:** We were talking about before this, but I was gonna ask about like, how do you fund the space? So this is free for people to use. They can sign up to do like, you know, sewing. They don't have to pay, you're not asking for anything. Right?
+[39:55] **Henry:** We were talking about before this, but I was gonna ask about like, how do you fund the space? So this is free for people to use. They can sign up to do like sewing. They don't have to pay, you're not asking for anything. Right?
 
 [40:09] **Bernardo:** They have not asked for any money. We have workshops where they suggest a payment, for example, yoga. And yoga says you have to pay minimum one euro.
 

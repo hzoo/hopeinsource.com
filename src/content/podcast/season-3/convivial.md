@@ -27,9 +27,9 @@ quotes:
 
 [00:23] **Henry:** I figured we should talk about just the word conviviality. Because we've been talking about living within bounds and what that means to Illich.
 
-[00:31] **Michael:** Right. And I think one of the things that I've appreciated reading through, Tools for Conviviality, and I skimmed it just again this morning, you know, getting ready to talk to you about Illich, are these two sides of one coin for him.
+[00:31] **Michael:** Right. And I think one of the things that I've appreciated reading through, Tools for Conviviality, and I skimmed it just again this morning, getting ready to talk to you about Illich, are these two sides of one coin for him.
 
-[00:44] **Michael:** And this sort of gets at the level of the ultimate values that I think are sort of driving.. Although I don't think he would have liked the language of values necessarily right, but these ultimate goods that are driving his writing, his theorizing.
+[00:44] **Michael:** And this gets at the level of the ultimate values that I think are driving.. Although I don't think he would have liked the language of values necessarily right, but these ultimate goods that are driving his writing, his theorizing.
 
 > "He moved away from the language of “values”, which he had used in earlier writings, and began to speak simply of the good. The good, as he came to understand it, is what is uniquely and incomparably appropriate in a given setting. It observes a certain scale, displays a certain proportion. It fits, and the sense can recognize this fit, just as they can recognize what is out of tune. Values, on the other hand, are a universal coin without a proper place or an inherent limit. They rank and compare all things according to their utility or their relative scarcity." - David Cayley, The Rivers North of the Future, page 25
 
@@ -51,7 +51,7 @@ quotes:
 
 > People with rediscover the value of joyful sobriety and liberating austerity only if they relearn to depend on each other rather than on energy slaves. - Tools for Conviviality
 
-[03:10] **Michael:** And so I think at one level, you know, the convivial society is a society that enables individuals to have a degree of freedom and autonomy. To be self directed, we might say, especially in their work. But then also to learn to depend upon one another, to learn, to turn towards each other, rather than towards an institution or a professional for support in the work of living, right. In the caring of our lives together.
+[03:10] **Michael:** And so I think at one level, the convivial society is a society that enables individuals to have a degree of freedom and autonomy. To be self directed, we might say, especially in their work. But then also to learn to depend upon one another, to learn, to turn towards each other, rather than towards an institution or a professional for support in the work of living, right. In the caring of our lives together.
 
 [03:44] **Henry:** So that's why he has a critique against like experts. Also, I guess, related to industrialization, commodifying everything into products. And then everything's about products.
 
@@ -59,13 +59,13 @@ quotes:
 
 #### Schooling and Credentialism
 
-[04:07] **Michael:** And the critique of schooling. You know what I love about Illich, you know, there are lots of critics of modernity, but very few of them sort of take on schooling and medicine, which, you know, I think the majority of people would sort of agree these are the great boons of Western society. And Illich says, no, not exactly, at least not past a certain threshold, right.
+[04:07] **Michael:** And the critique of schooling. What I love about Illich, there are lots of critics of modernity, but very few of them take on schooling and medicine, which I think the majority of people would agree these are the great boons of Western society. And Illich says, no, not exactly, at least not past a certain threshold, right.
 
-[04:27] **Michael:** And I should say too, most of my professional life has been teaching in schools, right. So I am not by any means, you know, anti teachers.
+[04:27] **Michael:** And I should say too, most of my professional life has been teaching in schools, right. So I am not by any means anti teachers.
 
-[04:35] **Michael:** But I think that Illich's point about what he would think of as schooling, not just learning. Because of course he understands, we have to learn. The question is, whether the institution of schooling empowers us in the way that it claims to. And then he also begins to note the diminishing returns in universal education, not just in public schools, but in the ideal of universal education and the diminishing returns that begin to be perceived in the 1970s.
+[04:35] **Michael:** But I think that Illich's point about what he would think of as schooling, not just learning. Because of course he understands, we have to learn. The question is, whether the institution of schooling empowers us in the way that it claims to. And he also begins to note the diminishing returns in universal education, not just in public schools, but in the ideal of universal education and the diminishing returns that begin to be perceived in the 1970s.
 
-[05:03] **Michael:** And he talks about the various remedies, which sound very familiar, right? On one hand sort of independent or free schools, or the deployment of technology. And so these, the public schools, independent schools, and then the arrival of technology to facilitate learning.
+[05:03] **Michael:** And he talks about the various remedies, which sound very familiar, right? On one hand sort of independent or free schools, or the deployment of technology. So the public schools, independent schools, and then the arrival of technology to facilitate learning.
 
 [05:21] **Michael:** For him, all three of them still take for granted the basic institutional structure of education that is professionalized. Where you are put through a sort of an age based curriculum. And part of Illich's critique is that you are made dependent upon a need that is created by the institution for its own sake.
 
@@ -79,7 +79,7 @@ quotes:
 
 [06:51] **Michael:** So there are various ways to become capable, right? There are various ways to learn. Illich also says that most learning doesn't happen through teaching. I don't know if there's any way to quantify this. Right. But I think he's onto something, right. If we think about how we learned to do most things in life.
 
-[07:08] **Michael:** We may not necessarily have been taught those things and we also tend to recognize that most of the things we were taught as far as content anyway, we tend to forget, you know, a day after the test, right. You know? And so he's onto something, he recognizes that there are various ways in which we can facilitate learning that don't require the institution of the modern Western school. Which for his part generally just created dependencies that were unnecessary and counterproductive.
+[07:08] **Michael:** We may not necessarily have been taught those things and we also tend to recognize that most of the things we were taught as far as content anyway, we tend to forget a day after the test, right. And so he's onto something, he recognizes that there are various ways in which we can facilitate learning that don't require the institution of the modern Western school. Which for his part generally just created dependencies that were unnecessary and counterproductive.
 
 [07:39] **Henry:** Was it credentialism?
 
@@ -95,7 +95,7 @@ quotes:
 
 [08:08] **Michael:** Right. And I think Illich holds those two together, right. And we do a bad job of that.
 
-[08:13] **Michael:** You know, we tend to either swerve towards a kind of radical individualism where we just sort of take care of ourselves and we were self-made or pull ourselves up by our bootstraps and we have that kind of strand. And then maybe we have a kind of collectivist strand where the individual that exists for the sake of the collective, right. And I think Illich manages to recognize that they exist in their best form only to the degree that they exist together, right.
+[08:13] **Michael:** We tend to either swerve towards a kind of radical individualism where we just sort of take care of ourselves and we were self-made or pull ourselves up by our bootstraps and we have that kind of strand. And then maybe we have a kind of collectivist strand where the individual that exists for the sake of the collective, right. And I think Illich manages to recognize that they exist in their best form only to the degree that they exist together, right.
 
 #### The Good Samaritan
 
@@ -157,23 +157,23 @@ quotes:
 
 [15:21] **Michael:** And birds were a category, right? The Cardinals stood out, but beyond that, right, I couldn't identify the Robin and the Mockingbird and all of that. But once you learn to name those aspects, it's not just that you, you know, can show off and say, Oh look, you know, that's a Sparrow and that's this particular kind of tree.
 
-[15:42] **Michael:** It's actually that you see them. In a new way, right. Or see them period, right. This is a remarkable thing, right. That I think appears to you, in a way that they wouldn't have simply because you have learned to name them and to recognize them. And so in that sense, you know, they become real to you. You have access to reality. Of course it was always there before you. But the kind of creatures that we are, to simply look at the world is not to see it. And so we need to learn to see, and part of that I think involves the learning to name the world.
+[15:42] **Michael:** It's actually that you see them. In a new way, right. Or see them period, right. This is a remarkable thing, right. That I think appears to you, in a way that they wouldn't have simply because you have learned to name them and to recognize them. And so in that sense, they become real to you. You have access to reality. Of course it was always there before you. But the kind of creatures that we are, to simply look at the world is not to see it. And so we need to learn to see, and part of that I think involves the learning to name the world.
 
 > [Richard Wilbur](https://en.wikipedia.org/wiki/Richard_Wilbur) was an American poet known for his elegant, formally precise verse
 
 [16:17] **Henry:** I think that's exactly his thinking. Knowing itself is a skill that you have to develop. And this relates to this idea of personal knowledge, right? If that's true, then the person is so important to the act of knowledge. And not trying to distance ourselves. And we've been talking a lot about distance, right.
 
-[16:34] **Michael:** Yeah. You know, when I think of that idea of the personal dimension of knowledge, part of where my mind goes this Augustinian view that you have to be prepared for to receive certain kinds of knowledge.
+[16:34] **Michael:** Yeah. When I think of that idea of the personal dimension of knowledge, part of where my mind goes this Augustinian view that you have to be prepared for to receive certain kinds of knowledge.
 
 #### Capacity for Attention
 
 [16:47] **Michael:** Right. To come back to the idea of attention, right? Your capacity for attention, your willingness in humility to attend to the world, right? To see what is there, right. To acknowledge your ignorance in order to be prepared to receive the knowledge that that is there for you.
 
-[17:04] **Michael:** These are all sort of traits of the human being. Even in the question of seeing, when I talk about the difference between just looking and seeing. Maybe even in which technological practices shape the way we think about these things. Our minds are not cameras, right, that just kind of click the world, right. And sort of everything that is there to be seen as is perceived by our minds, right. Our perception is intended, right. We direct it.
+[17:04] **Michael:** These are all traits of the human being. Even in the question of seeing, when I talk about the difference between just looking and seeing. Maybe even in which technological practices shape the way we think about these things. Our minds are not cameras, right, that just click the world, right. And everything that is there to be seen as is perceived by our minds, right. Our perception is intended, right. We direct it.
 
 [17:28] **Michael:** We have to be trained to perceive certain facets of reality. We have to submit ourselves to the patient work of attending to certain realities in order to allow them to emerge fully before our intellect. And these all, I think, do reflect this question of the person, right? Have we become the sort of person that is able to receive? the particular kind of knowledge that we're, that that is in view here?
 
-[17:53] **Henry:** I think that gets into this fancy term he uses to explain knowledge, [subsidiary-focal integration](https://en.wikipedia.org/wiki/Tacit_knowledge#Tacit_knowing). I mean, there's a lot of fancy words, but subsidiary is the environment. It's the things in your periphery. And then focal is the thing that you're putting your attention on. So I thought that tacit knowledge would mean like implicit versus explicit. But it's the integration of both of those things together.
+[17:53] **Henry:** I think that gets into this fancy term he uses to explain knowledge, [subsidiary-focal integration](https://en.wikipedia.org/wiki/Tacit_knowledge#Tacit_knowing). There's a lot of fancy words, but subsidiary is the environment. It's the things in your periphery. And then focal is the thing that you're putting your attention on. So I thought that tacit knowledge would mean like implicit versus explicit. But it's the integration of both of those things together.
 
 [18:17] **Henry:** So piano is like a really simple example of like, I'm playing the notes. My body has learned to play the piano, right. And I can focus on the piece, the actual music itself. The subsidiary is like the notes that we're playing. But if I started focusing on the notes, then I won't be able to concentrate on the music itself and then probably start playing badly.
 
@@ -209,11 +209,11 @@ quotes:
 
 [22:18] **Henry:** I guess you could argue that there was never a time you could really experience it for yourself because you're always influenced by other people. But I think the keyword is over where it's like so much. So you don't even feel like you have any sense of self thinking around that idea.
 
-[22:35] **Michael:** Yeah, I guess the word I'm thinking of is like serendipity then, right? It's like stumbling upon something that you weren't intending to. You have a goal of certain things, but you weren't thinking of that specific thing.
+[22:35] **Michael:** Yeah, I guess the word I'm thinking of is serendipity then, right? It's like stumbling upon something that you weren't intending to. You have a goal of certain things, but you weren't thinking of that specific thing.
 
 [22:48] **Michael:** Right, right. And I think that that kind of describes Percy's description of how you kind of actually get to see the Canyon. Are you serendipitously sorta come upon it before you realize it?
 
-[22:57] **Michael:** It reminds me of being in Florence and knowing that I'm working my way towards [El Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), the famous orange brick building that you see in all the pictures of Florence, right. It's the cathedral and has a tower next to it. But the streets are so narrow. And it's a huge building, but you don't see it, until you.. Well in my case, turn a corner, and there it is, you know, right before you. And it does, it catches you off guard. And at least it was a great experience for me, right. That kind of, I know I'm going here to see this, but at that moment I wasn't ready to see it. And so it struck me in a unique way.
+[22:57] **Michael:** It reminds me of being in Florence and knowing that I'm working my way towards [El Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), the famous orange brick building that you see in all the pictures of Florence, right. It's the cathedral and has a tower next to it. But the streets are so narrow. And it's a huge building, but you don't see it, until you.. Well in my case, turn a corner, and there it is, you know, right before you. And it does, it catches you off guard. And it was a great experience for me, right. I know I'm going here to see this, but at that moment I wasn't ready to see it. And so it struck me in a unique way.
 
 [23:33] **Henry:** Okay. Awesome, everyone should check out the [newsletter](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)! Whenever that comes out.
 

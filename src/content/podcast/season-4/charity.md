@@ -40,9 +40,9 @@ quotes:
 
 [00:57] **Austin:** So, I'm [Catholic](https://en.wikipedia.org/wiki/Catholic_Church), I grew up Catholic. Both my parents are Catholic and they raised me in the tradition. and I think that had a pretty direct, line of, causality to how I ended up interested in the ideas of [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism). A core teaching of effective altruism is, where you give 10% of your income, if you take the giving what we can pledge towards effective charities and, a pretty core teaching of the Catholic Church is that it is important to donate back. I think the same figure, 10% actually.
 
-[01:26] **Austin:** Growing up, I would go to church, with my mom and dad and my siblings, and they would hand over a $1 bill or a $5 bill for us every time the collections basket for church came around. And I guess that habituated me a little bit to the idea that like, oh, donating, giving money away to the church is a very reasonable thing to do. Specifically like, the money that we kind of have on earth is like, not just for us, it's also for, other things. It's to, give back. That made donating a very, normalized thing.
+[01:26] **Austin:** Growing up, I would go to church, with my mom and dad and my siblings, and they would hand over a $1 bill or a $5 bill for us every time the collections basket for church came around. And I guess that habituated me a little bit to the idea that like, oh, donating, giving money away to the church is a very reasonable thing to do. Specifically like, the money that we have on earth is not just for us, it's also for, other things. It's to, give back. That made donating a very, normalized thing.
 
-[01:53] **Austin:** I mean beyond the giving money in churches, lots of like teachings of course of the Catholic church, about how like you are on earth to help out other people and do what you can, for other people. That's, I think been very important to me, very ingrained in me. And, that's how I like, started with the idea that like, I should be giving away some of my income and trying to help other people.
+[01:53] **Austin:** Beyond the giving money in churches, lots of teachings of course of the Catholic church, about how you are on earth to help out other people and do what you can, for other people. That's, I think been very important to me, very ingrained in me. And, that's how I started with the idea that I should be giving away some of my income and trying to help other people.
 
 [02:12] **Austin:** Where EA entered the picture, is a little bit interesting.
 
@@ -50,9 +50,9 @@ quotes:
 
 [02:16] **Austin:** When I was in middle school, our church ran this event. This kind of mission trip where they send a bunch of, middle schoolers down to Tijuana, Mexico to construct a house for a poor family there. I think that's relatively standard in many churches in America.
 
-[02:32] **Austin:** One thing that stood out to me, when we were fundraising for this trip, is that the students decided, oh, we're going to pull together like a car wash fundraiser. That's like a pretty common thing. We're going to go out and like find a empty gas station and then put out signs and tell people, come over, we'll wash your car for like $10 or something like that, or a donation for your choice. And we like worked pretty hard at this and had a bunch of students and adults over helping to oversee this whole operation.
+[02:32] **Austin:** One thing that stood out to me, when we were fundraising for this trip, is that the students decided, oh, we're going to pull together like a car wash fundraiser. That's like a pretty common thing. We're going to go out and like find a empty gas station and then put out signs and tell people, come over, we'll wash your car for like $10 or something like that, or a donation for your choice. And we worked pretty hard at this and had a bunch of students and adults over helping to oversee this whole operation.
 
-[02:59] **Austin:** And I think I sat down and at the end of this whole thing I calculated, we made much, much less the minimum wage. We made something like, I don't know, $5 an hour say, doing all of this, car washing by hand. So a part of me, in middle school, just went like, you know, what I could have done instead is just go and gone to work at McDonald's and then use that money to quote unquote fundraise for, this mission trip that we had.
+[02:59] **Austin:** And I think I sat down and at the end of this whole thing I calculated, we made much, much less the minimum wage. We made something like, I don't know, $5 an hour say, doing all of this, car washing by hand. So a part of me, in middle school, just went, what I could have done instead is just go and gone to work at McDonald's and then use that money to quote unquote fundraise for, this mission trip that we had.
 
 [03:18] **Austin:** That kind of thinking got made me very predisposed to the idea of earning to give much later in, I don't know, the early 2010 when I heard about the whole effective altruism movement. I was like, yes, the idea of, you should just go work in like an investment bank or as a software engineer or do something and make a bunch of money and give that away that is much better than volunteering. If you have the ability to make a lot of money, that always just made a bunch of sense to me.
 
@@ -60,9 +60,9 @@ quotes:
 
 #### Ebbs and Flows
 
-[03:49] **Austin:** From where I'm standing now, I probably spend a lot more of my time thinking about EA concepts, EA principles, and being as part of the EA community, than I do think about like the church, Catholicism.
+[03:49] **Austin:** From where I'm standing now, I probably spend a lot more of my time thinking about EA concepts, EA principles, and being as part of the EA community, than I do think about the church, Catholicism.
 
-[03:59] **Austin:** And that's kind of a reverse of 10 15 years ago where I was very devoutly, Catholic and didn't know much about EA and didn't know anybody in the movement at all. I have some thoughts about, the ways these different movements are structured or like what it kind of feels like to be a member in the things like that. I'm happy to go any direction.
+[03:59] **Austin:** And that's kind of a reverse of 10 15 years ago where I was very devoutly, Catholic and didn't know much about EA and didn't know anybody in the movement at all. I have some thoughts about, the ways these different movements are structured or what it feels like to be a member in the things like that. I'm happy to go any direction.
 
 [04:16] **Henry:** Are you still attending mass? Is that a thing? Or is it just more your thinking you're saying is devoted more towards..
 
@@ -114,13 +114,13 @@ quotes:
 
 [10:50] **Austin:** For example, the baseline assumption of like, do you think human people alive today are the thing that is very important that you want to save? Or do you think animals might matter? Do you think that like preventing the torture of chickens in a factory farm, is that important to your moral calculus?
 
-[11:05] **Austin:** And then, do you think in the future, people who live a hundred or a thousand or a million years from now matter, and if so what does that mean about how you try to help those people? There are lots of like questions like this that effective altruism, people in the community wrestle with, and I don't think they're like easy answers. I guess many people have like come on their own, like, this is what I believe.
+[11:05] **Austin:** And then, do you think in the future, people who live a hundred or a thousand or a million years from now matter, and if so what does that mean about how you try to help those people? There are lots of like questions like this that effective altruism, people in the community wrestle with, and I don't think they're like easy answers. I guess many people have come on their own, like, this is what I believe.
 
 #### EA as at it's best a meta-framework?
 
 [11:24] **Henry:** Maybe those assumptions are clear, but I guess as an outsider, I think the distance thing and the time thing. A person that's right next to me, I think most people would be more willing to help that person when they're literally their neighbor versus.. Is it our responsibility to help everyone? It's a moral imperative, like you said, different assumptions. To me it seems kind of absurd that someone that potentially will live a million years from now matters the same as someone that's literally in front of me.
 
-[11:52] **Austin:** I think those are pretty strong intuitions among many people. And I actually, also share a lot of these? I, I think, the taking the assumption that somebody who will live a thousand or a million years in the future matters as much as today is somewhat trendy in certain circles under the, what's called long-termism. If you could prove to me that both of these people were going to live, for sure, nothing bad happened to humanity or something like that, I, I might buy that assumption. But I could get into a very long I guess question back and forth about this.
+[11:52] **Austin:** I think those are pretty strong intuitions among many people. And I actually, also share a lot of these? I think the taking the assumption that somebody who will live a thousand or a million years in the future matters as much as today is somewhat trendy in certain circles under the, what's called long-termism. If you could prove to me that both of these people were going to live, for sure, nothing bad happened to humanity or something like that, I might buy that assumption. But I could get into a very long I guess question back and forth about this.
 
 [12:21] **Austin:** Maybe taking a step back, I think the EA movement, the best version of movement doesn't try and like persuade you, at least too much, about one set of assumptions over the other.
 
@@ -186,9 +186,9 @@ quotes:
 
 [20:35] **Henry:** The church is the body of Christ, right? And then Christ is the head. In Catholicism, he uses a phrase specifically the mystical body of Christ.
 
-[20:43] **Henry:** He says the electric age connects us right in a certain way. I just think about we're connected online right now. And it makes us feel like we're connected, a body. And so he says that this is almost like a false body that is created through connecting us on digitally. He uses the word facsimile, a fake representation of the body. Uh, He says, the prince of this world, Satan, is a great electrical engineer. It's like a really funny statement.
+[20:43] **Henry:** He says the electric age connects us right in a certain way. I just think about we're connected online right now. And it makes us feel like we're connected, a body. And so he says that this is almost like a false body that is created through connecting us on digitally. He uses the word facsimile, a fake representation of the body. He says, the prince of this world, Satan, is a great electrical engineer. It's like a really funny statement.
 
-[21:09] **Austin:** I very much hesitate to be the kind of person who instinctively says, oh, you know, this new technology is bad. I mean, I'm a software developer. Most of my living is from connecting people over the internet. I do think that there's something to the effect of.. The structures of the Catholic Church and Christianity more broadly. The mass service of bringing people together once a week to talk to each other and like learn and share food and like become just brothers and sisters in Christ.
+[21:09] **Austin:** I very much hesitate to be the kind of person who instinctively says, oh, this new technology is bad. I'm a software developer. Most of my living is from connecting people over the internet. I do think that there's something to the effect of.. The structures of the Catholic Church and Christianity more broadly. The mass service of bringing people together once a week to talk to each other and like learn and share food and like become just brothers and sisters in Christ.
 
 [21:34] **Austin:** I think that's very important social technology that I don't think the internet age has quite like replicated yet. For example, recently my parents have been calling into mass a little bit more because of Covid, a lot of the churches have gone done this live streaming. Now they don't have to get off their butts and get into a car. They can just like watch it at home.
 
@@ -234,7 +234,7 @@ quotes:
 
 [26:22] **Henry:** That's one of the most interesting things about faith, is that God, who supposedly is all powerful decides to spend one day just for rest. He doesn't even have to rest. So how does that fit into how we think about being effective?
 
-[26:34] **Henry:** Another issue would be this feeling of guilt that I felt a lot with open source. I have to help everyone, everyone that sends an issue, I'll work on the weekend. I had to learn to say no. My own boundaries. So I don't get burnt out. Maybe that's a big issue in ea. Like, if every dollar needs to be effective, then also every moment in my life might need to feel effective. I.. I don't know.
+[26:34] **Henry:** Another issue would be this feeling of guilt that I felt a lot with open source. I have to help everyone, everyone that sends an issue, I'll work on the weekend. I had to learn to say no. My own boundaries. So I don't get burnt out. Maybe that's a big issue in ea. Like, if every dollar needs to be effective, then also every moment in my life might need to feel effective. I don't know.
 
 [26:54] **Austin:** Yeah, absolutely. I think this is a thing that many people in the community will call out, the sense of demandingness, the sense that yeah, every dollar and every moment needs to be, you know, optimized for. And I think many leaders of the movement try to disavow this.
 
@@ -270,13 +270,13 @@ quotes:
 
 [30:13] **Henry:** And hope he says is trust in a person. You obviously want that thing to happen, but you're okay if it doesn't. And expectations like, no, this has to happen, because of whatever system I've made. His point is that we've created such a world that feels like everything has to be engineered and there's no other way to do it. Versus this idea of trusting in people. Because we're also flawed and we're gonna make mistakes and we can't guarantee certain outcomes, but it feels like we're trying so hard to become this other thing. And like, how do you balance?
 
-[30:45] **Austin:** One idea that sparks, uh, in me the difference between trusting in people and expecting kind of engineering like things for the world is that people are just individually irreplaceable. Like special, different, unique.
+[30:45] **Austin:** One idea that sparks in me the difference between trusting in people and expecting kind of engineering like things for the world is that people are just individually irreplaceable. Like special, different, unique.
 
 [30:57] **Austin:** Engineering is about like kinda getting rid of those differences in some sense. When you engineer a system, you try to make it like replicable. You try to use pieces that are interchangeable. Try to have the output be consistent, deterministic all the time. And I guess I see like differences here a lot.
 
 [31:14] **Austin:** Like right now I'm organizing this conference Manifest and the process of organizing a conference is a lot of talking to many, many, many people and trying to like understand who they are and like what they want. And if they're a speaker, what are they going to talk about? And they are very much not replaceable. They are very much unique.
 
-[31:30] **Austin:** I have to like put a lot of trust that they will come and like show up and deliver and present a talk that the audience will learn a lot from and enjoy and things like that. There's a piece of that I like a lot. It's very different than me like writing code for Manifold, right? Which is much more like deterministic. You're working with things that just run again and again and again. And you can kinda like model out all those pieces and I enjoy that a lot. I love software engineering, but I, I think I'm also growing to like the, just like talking with people like trusting in them.
+[31:30] **Austin:** I have to like put a lot of trust that they will come and like show up and deliver and present a talk that the audience will learn a lot from and enjoy and things like that. There's a piece of that I like a lot. It's very different than me like writing code for Manifold, right? Which is much more like deterministic. You're working with things that just run again and again and again. And you can kinda like model out all those pieces and I enjoy that a lot. I love software engineering, but I think I'm also growing to like the, just talking with people, trusting in them.
 
 [31:57] **Henry:** Not that, you know, everything should be one or the other. It's more just like we should be better at determining when things can be systematized when they maybe they shouldn't.
 

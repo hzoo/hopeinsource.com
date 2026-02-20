@@ -35,7 +35,7 @@ quotes:
 
 [00:13] **David:** Well, I'm a little bit familiar with it. It's through a book called [_Two Bits_](https://en.wikipedia.org/wiki/Two_Bits_(book)) by a guy called [Christopher Kelty](https://en.wikipedia.org/wiki/Christopher_Kelty). He puts forward the idea of a _recursive public_, which I took to and found really interesting.
 
-[00:30] **David:** I'm in the middle of a book on the [CBC](https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation), which is part memoir, part kind of attempt to understand. I see the CBC in both radio and television as being at a kind of cul-de-sac right. Not really knowing what it should be and flailing.
+[00:30] **David:** I'm in the middle of a book on the [CBC](https://en.wikipedia.org/wiki/Canadian_Broadcasting_Corporation), which is part memoir, part attempt to understand. I see the CBC in both radio and television as being at a kind of cul-de-sac right. Not really knowing what it should be and flailing.
 
 [00:49] **David:** So it's my attempt to suggest what the new world might look like and what a public broadcaster might do in it, given that it's not really broadcasting anymore in the old sense, and that it has no idea what the public means anymore in the old sense either.
 
@@ -51,47 +51,47 @@ quotes:
 
 [01:54] **David:** Do you mind if I interview you for a bit?
 
-[01:56] **Henry:** There's no right way or anything, but I think that there's this history and maybe this is in the book of what they called the [free software movement](https://en.wikipedia.org/wiki/Free_software_movement). There's [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) and like, people like that. And they have this phrase like free as in beer, not free as in money.
+[01:56] **Henry:** There's no right way or anything, but I think that there's this history and maybe this is in the book of what they called the [free software movement](https://en.wikipedia.org/wiki/Free_software_movement). There's [Richard Stallman](https://en.wikipedia.org/wiki/Richard_Stallman) and people like that. And they have this phrase, free as in beer, not free as in money.
 
-[02:10] **Henry:** There's like some story about a printer and how it didn't work or something. And he wasn't able to change the code to fix it himself because the code was not open, right. It was like proprietary, by the company that made the printer. And so he was like, my desire is that anyone should be able to like see the code so that they could change it so they can fix things themselves rather than depend on this company to fix it for him.
+[02:10] **Henry:** There's some story about a printer and how it didn't work or something. And he wasn't able to change the code to fix it himself because the code was not open, right. It was proprietary, by the company that made the printer. And so his desire is that anyone should be able to see the code so that they could change it so they can fix things themselves rather than depend on this company to fix it for him.
 
-[02:33] **Henry:** I think from that he created the beginning of the free software movement, where it was like, oh, all codes should be like this where nothing should be closed. And they had like these legal licenses. There's like copyright, and now there's also this thing called copyleft.
+[02:33] **Henry:** I think from that he created the beginning of the free software movement, where it was like, oh, all code should be like this where nothing should be closed. And they had these legal licenses. There's copyright, and now there's also this thing called copyleft.
 
-[02:49] **Henry:** The license is kind of essentially saying, if you use my code and it's a copyleft license, if you use it, your code also has to be copyleft. And so it basically forces anyone that uses your code to also be open. Companies didn't like that obviously because it would mean that any code they write on top of that would have to be open. And they're afraid everyone's gonna copy it and they can't make money.
+[02:49] **Henry:** The license is essentially saying, if you use my code and it's a copyleft license, if you use it, your code also has to be copyleft. And so it forces anyone that uses your code to also be open. Companies didn't like that obviously because it would mean that any code they write on top of that would have to be open. And they're afraid everyone's gonna copy it and they can't make money.
 
-[03:14] **Henry:** And so that led to the [open source movement](https://en.wikipedia.org/wiki/Open-source_software), which was more like, oh, no one's using our free software. So we rebranded to open source and say that it's good for companies, because we won't force you to make your code open. And so they have these new licenses, which are more permissive.
+[03:14] **Henry:** That led to the [open source movement](https://en.wikipedia.org/wiki/Open-source_software), which was more like, oh, no one's using our free software. So we rebranded to open source and say that it's good for companies, because we won't force you to make your code open. And so they have these new licenses, which are more permissive.
 
-[03:33] **Henry:** Companies embraced that because they're like, Hey, I can make profit. I don't have to pay developers to code their own thing. I can just use the thing someone else made, right. That saves like time and money. A lot of that thinking led to the big tech companies of our time. They can build their infrastructure and software on top of all these projects that people have done.
+[03:33] **Henry:** Companies embraced that because they're like, Hey, I can make profit. I don't have to pay developers to code their own thing. I can just use the thing someone else made, right. That saves time and money. A lot of that thinking led to the big tech companies of our time. They can build their infrastructure and software on top of all these projects that people have done.
 
 [03:55] **Henry:** You could also say that they themselves contribute a lot of open source. So it's not like they're only taking away. But right now we're in a situation where open source was only for a few people.
 
 [04:07] **Henry:** And now it's democratized in a way. There's a website called [GitHub](https://github.com/), this is actually the logo that I'm wearing. It essentially hosts open source code for you like a Dropbox or Google Drive. I usually say it's like [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) for code, right? Anyone can contribute to an article, to a project. And then there's admins; they approve things.
 
-[04:31] **Henry:** Open source before was like through emails and it's very technical. And now, because of things like GitHub, it's a lot more accessible to people, you just have to make an account. And so that leads to millions of people contributing to open source. Any of us could have just made a piece of code, like one line of code or one file uploaded to this thing and just say, this is open source.
+[04:31] **Henry:** Open source before was through emails and it's very technical. And now, because of things like GitHub, it's a lot more accessible to people, you just have to make an account. And so that leads to millions of people contributing to open source. Any of us could have just made a piece of code, like one line of code or one file uploaded to this thing and just say, this is open source.
 
-[04:53] **Henry:** And that's still open source, but there's also like [Linux](https://en.wikipedia.org/wiki/Linux) or even [Chrome](https://en.wikipedia.org/wiki/Google_Chrome) or [Firefox](https://en.wikipedia.org/wiki/Firefox), [Android](https://en.wikipedia.org/wiki/Android_(operating_system)), all these things you've heard of that are really big and probably millions of lines of code.
+[04:53] **Henry:** And that's still open source, but there's also [Linux](https://en.wikipedia.org/wiki/Linux) or even [Chrome](https://en.wikipedia.org/wiki/Google_Chrome) or [Firefox](https://en.wikipedia.org/wiki/Firefox), [Android](https://en.wikipedia.org/wiki/Android_(operating_system)), all these things you've heard of that are really big and probably millions of lines of code.
 
-[05:04] **Henry:** But the thing that people are concerned about now is this idea of sustainability. We're giving away our time, our efforts, for free, which I think is great. But what happens is like lots of people start using it. And that in itself is not bad, right? If people using it didn't lead to you spending more time or anything, then what's a big deal, right. You're giving away for free.
+[05:04] **Henry:** But the thing that people are concerned about now is this idea of sustainability. We're giving away our time, our efforts, for free, which I think is great. But what happens is lots of people start using it. And that in itself is not bad, right? If people using it didn't lead to you spending more time or anything, then what's a big deal, right. You're giving away for free.
 
-[05:26] **Henry:** But what happens is people start asking for help. They're complaining, they'll say you gotta fix this bug for me, stuff like that. And then you feel a little bit of obligation to help, I don't know, thousands of people, that you don't even know, that could be all around the world at any point in time, right.
+[05:26] **Henry:** But what happens is people start asking for help. They're complaining, they'll say you gotta fix this bug for me, stuff like that. And then you feel a little bit of obligation to help, thousands of people, that you don't even know, that could be all around the world at any point in time, right.
 
-[05:42] **Henry:** And it's like, you didn't sign up for that because you want the freedom to just like post, code that you wrote, and hope someone will use it. At the beginning, it's fun. A few people ask for like fixes or whatever you, you do that.
+[05:42] **Henry:** And it's like, you didn't sign up for that because you want the freedom to just post code that you wrote, and hope someone will use it. At the beginning, it's fun. A few people ask for fixes or whatever, you do that.
 
-[05:55] **Henry:** But once it gets to the point where there's like hundreds of people.. And the big companies, they're all using it too. And then their employees are telling you, you gotta fix this bug because I have this problem at work. And it's like, well, you're not getting paid to do that.
+[05:55] **Henry:** But once it gets to the point where there's hundreds of people.. And the big companies, they're all using it too. And then their employees are telling you, you gotta fix this bug because I have this problem at work. And it's like, well, you're not getting paid to do that.
 
-[06:07] **Henry:** And at this point, it might not even be fun anymore, right? So you don't wanna charge for it. So then the only thing you do is like ask for donations or you do consulting all these different things.
+[06:07] **Henry:** And at this point, it might not even be fun anymore, right? So you don't wanna charge for it. So then the only thing you do is ask for donations or you do consulting all these different things.
 
-[06:17] **Henry:** But this is the kind of the problem where it's like, a lot of our software is being built on these lego blocks, I guess you could call them. And then this program is built on this program and it's like all the way down.
+[06:17] **Henry:** But this is the problem where a lot of our software is being built on these lego blocks, I guess you could call them. And then this program is built on this program and it's all the way down.
 
-[06:28] **Henry:** What happens if there's a bug in one of the programs at the bottom layer, and it affects everyone at the top? And like maybe there's only one person working on it. Maybe they retire. Maybe they have kids. Maybe they're just busy all this stuff and it has this cascade of effects.
+[06:28] **Henry:** What happens if there's a bug in one of the programs at the bottom layer, and it affects everyone at the top? And maybe there's only one person working on it. Maybe they retire. Maybe they have kids. Maybe they're just busy all this stuff and it has this cascade of effects.
 
-[06:44] **Henry:** In terms of a book, you already read _Two Bits_. My friend, she wrote a book called _Working in Public_. Her name's Nadia. She used to work at GitHub and also like an independent researcher. The subtitle is the making and maintenance of open source software.
+[06:44] **Henry:** In terms of a book, you already read _Two Bits_. My friend, she wrote a book called _Working in Public_. Her name's Nadia. She used to work at GitHub and also as an independent researcher. The subtitle is the making and maintenance of open source software.
 
-[07:00] **Henry:** It's a little bit of history. She did a lot of interviews. This is similar to, I think what I like about Charles Taylor too. It's about [phenomenology](https://en.wikipedia.org/wiki/Phenomenology_(philosophy)), what does like to be in a [secular age](https://en.wikipedia.org/wiki/A_Secular_Age)? does it feel like to be an open source person rather than like.. She was reading all the stuff about open source, but it's all academic, it's all thinking about open source as they thought of it in like 1990 or whatever. I can keep going, but that's like..
+[07:00] **Henry:** It's a little bit of history. She did a lot of interviews. This is similar to, I think what I like about Charles Taylor too. It's about [phenomenology](https://en.wikipedia.org/wiki/Phenomenology_(philosophy)), what does it feel like to be in a [secular age](https://en.wikipedia.org/wiki/A_Secular_Age)? What does it feel like to be an open source person? She was reading all the stuff about open source, but it's all academic, it's all thinking about open source as they thought of it in 1990 or whenever. I can keep going, but that's..
 
 [07:25] **David:** Okay. That is really interesting. Okay. So if I translate into familiar terms, all the big tech companies are built on this basis, to which they're contributors, as you've said, but they're affecting a kind of enclosure of the commons, right. And it's a kind of new commons.
 
-[07:47] **David:** And, I mean, where it fits with public broadcasting is obviously public broadcasting is, free and supposedly free from commercial constraint. Although in fact, in Canada, it's always been hammed in by commercial broadcasters who set the terms on which the business is conducted. So it's never really been that in fact. But still there's an analogy here, right.
+[07:47] **David:** And where it fits with public broadcasting is obviously public broadcasting is, free and supposedly free from commercial constraint. Although in fact, in Canada, it's always been hammed in by commercial broadcasters who set the terms on which the business is conducted. So it's never really been that in fact. But still there's an analogy here, right.
 
 [08:15] **David:** But there you have state support. It's different in that way, but obviously it's highly relevant to what I'm trying to understand. So have you written about this, things you could send me? I would really like to learn about this.
 
@@ -99,15 +99,15 @@ quotes:
 
 [08:48] **Henry:** Doing things you want versus what the audience wants from you. Maybe you got popular for one type of music and suddenly you want to do something else, but then you're like, oh, I won't make any more money because my audience wants the old thing.
 
-[09:01] **Henry:** But the main difference I think with software, which makes it a lot harder, is actually simply the idea of dependencies. If someone makes a YouTube video and they're really famous and they stop making videos, I mean, it would be really sad. But no, one's like literally depending on that person, right, for their livelihood.
+[09:01] **Henry:** But the main difference I think with software, which makes it a lot harder, is actually simply the idea of dependencies. If someone makes a YouTube video and they're really famous and they stop making videos, I mean, it would be really sad. But no one's literally depending on that person, right, for their livelihood.
 
-[09:20] **Henry:** But if you work on a project, software that deals with security, and there's like one person working on or three people working on it and they retire and nobody works on it anymore. Then it's like a big deal if there's a bug, right. Which has happened in the past.
+[09:20] **Henry:** But if you work on a project, software that deals with security, and there's one person working on it or three people working on it and they retire and nobody works on it anymore. Then it's a big deal if there's a bug, right. Which has happened in the past.
 
-[09:33] **Henry:** And then there's all this blame that's passed around where it's like, is it the responsibility of that person? Even if it's like their volunteer effort or is it the company's fault because they're the ones that rely on it, but they're not paying for it.
+[09:33] **Henry:** And then there's all this blame that's passed around. Is it the responsibility of that person? Even if it's their volunteer effort, or is it the company's fault because they're the ones that rely on it, but they're not paying for it.
 
-[09:49] **Henry:** Or they're not understanding what we call a dependency tree. One dependency could have 10 dependencies and those 10 dependencies could have their own dependencies. It's kind of like inevitable that a bug will happen, right? And when that happens, how do we deal with it? If you just think about Illich, he would have a lot to say about dependencies in general, right?
+[09:49] **Henry:** Or they're not understanding what we call a dependency tree. One dependency could have 10 dependencies and those 10 dependencies could have their own dependencies. It's kind of inevitable that a bug will happen, right? And when that happens, how do we deal with it? If you just think about Illich, he would have a lot to say about dependencies in general, right?
 
-[10:06] **David:** Well, I think with Illich, I mean, two things come to mind.
+[10:06] **David:** Well, I think with Illich, two things come to mind.
 
 [10:10] **David:** One is that he wasn't frightened of technology and he wasn't frightened of mathematics. He had been a student of crystalography as a young man. So immediately, he understood a lot more than most of the people around him.
 
@@ -115,7 +115,7 @@ quotes:
 
 [10:46] **David:** He says this in various interviews with me that the assumptions underlying his institutional critiques of the 1970s were in a sense that there was a stable public that he was addressing which stood apart from these engineered tools as he called them, and could conceivably change them, right.
 
-[11:12] **David:** So when he grasped the recursive character of the new world, I think he was in some difficulty.. I mean, he said many, many interesting and stimulating things in his last 20 years, but I think his posture was fundamentally one of withdrawal and renunciation.
+[11:12] **David:** So when he grasped the recursive character of the new world, I think he was in some difficulty.. He said many, many interesting and stimulating things in his last 20 years, but I think his posture was fundamentally one of withdrawal and renunciation.
 
 [11:32] **David:** So there's a lot of guidance he doesn't give for you or I trying to face this thing, right. Which has completely engulfed broadcasting as I would've understood it when I set out.
 
@@ -123,7 +123,7 @@ quotes:
 
 #### Deaf to the Divine
 
-[12:03] **David:** I mean, to take one example of a completely apocalyptic statement, he presumes that the greatest thing one could know is the Incarnation. That what people call God has become available to us through one another, to put it very simply. But that implies a certain kind of embodiment, right?
+[12:03] **David:** To take one example of a completely apocalyptic statement, he presumes that the greatest thing one could know is the Incarnation. That what people call God has become available to us through one another, to put it very simply. But that implies a certain kind of embodiment, right?
 
 [12:29] **David:** He says explicitly in the interviews with me that are in _The Rivers North of the Future_, that he thinks a lot of the people he has recently met and knows, don't have that kind of a body anymore.
 
@@ -133,7 +133,7 @@ quotes:
 
 [13:26] **David:** And therefore he appreciates very much this quality in the younger people who surrounded him in his old age, maybe including me. But I don't think he knows quite how to face the new age, the thing that you're facing and I gather trying to bring his thought to bear on it.
 
-[13:48] **Henry:** I'm immersed in not just the tech industry, but like a certain way of thinking, right. It's like that joke that, and maybe it's real, if you're like tech person, you think all of our solutions are like, oh, there's an app for that. Or I'll make an app for that.
+[13:48] **Henry:** I'm immersed in not just the tech industry, but a certain way of thinking, right. It's that joke that, and maybe it's real, if you're a tech person, you think all of our solutions are, oh, there's an app for that. Or I'll make an app for that.
 
 #### History as a Place to Stand
 
@@ -161,33 +161,33 @@ quotes:
 
 [17:33] **David:** Yeah. You remain within your taken for granted horizon, as the certainties, as the real horizon, the actual horizon, as opposed to all of the illusory horizons, people used to think they lived with it. It's a deep kind of bracketing.
 
-[17:50] **David:** And he even in a wonderful passage, calls it _necromancy _at one point, the summoning of the dead, right. And portrays himself as a _magus_, as a teacher of history, which is kind of a beautiful passage. It's also in _Ivan Illich in Conversation,_ a crucial example of that kind of deep or ontological difference.
+[17:50] **David:** And he even in a wonderful passage, calls it _necromancy _at one point, the summoning of the dead, right. And portrays himself as a _magus_, as a teacher of history, which is a beautiful passage. It's also in _Ivan Illich in Conversation,_ a crucial example of that kind of deep or ontological difference.
 
 [18:12] **Henry:** That's what you were referring to in _Rivers North of the Future_, right? Like the title, like the idea that it's to help us point to potential futures that could have existed that didn't.
 
-[18:23] **David:** Well, that's how I interpret it, absolutely. Obviously, an image as mysterious ..You know, I mean, where, where is north of the future, right? It fundamentally mixes those different domains. We were talking about ontological difference.
+[18:23] **David:** Well, that's how I interpret it, absolutely. Obviously, an image as mysterious ..Where is north of the future, right? It fundamentally mixes those different domains. We were talking about ontological difference.
 
-[18:40] **David:** Well he's projected a spacial metaphor on a time image, right. I've developed it as meaning [_The Rivers North of the Future_](https://www.psupress.org/books/titles/0-271-02621-1.html) can only lie in the past, right.
+[18:40] **David:** Well he's projected a spatial metaphor on a time image, right. I've developed it as meaning [_The Rivers North of the Future_](https://www.psupress.org/books/titles/0-271-02621-1.html) can only lie in the past, right.
 
 [18:52] **David:** It lies in recognizing that the past changes as we change and that we find new ways of thinking in the past. But also, if Illich is right, and that his fundamental thought throughout his career, but becoming explicit only towards the end, is that modernity itself, our world, is based on a misapprehension, a mistaking of the fundamental Christian revelation.
 
 [19:31] **David:** Then where will we correct the error? You can't correct the error in the present, unless we can find it in the past, unless we can recover the inspiration, the road not taken, the future we didn't have because we had this future.
 
-[19:51] **David:** That's all found in the past, but obviously you can immediately get that idea wrong by thinking.. You know, I mean, every thinker that I cherish has at some point been told that he's the finest mind of the 12th century or something, right. Illich was told that Carl Jung was told that Charles Taylor was told that...
+[19:51] **David:** That's all found in the past, but obviously you can immediately get that idea wrong by thinking.. Every thinker that I cherish has at some point been told that he's the finest mind of the 12th century or something, right. Illich was told that Carl Jung was told that Charles Taylor was told that...
 
 [20:13] **David:** The fundamental critics of modernity always said to want to go back to the past, right. They would've been happier in the middle ages. So there's obviously something to understand about how to live in history while living in the present that we really don't have as a possibility.
 
-[20:34] **Henry:** I guess that's the balance. If one does like a surface level reading of Illich or any of the critics of modernity, you might think that they do want to go to the past, and obviously no one will accept that. These people are traditionalists or they just want to like make everything as it was when there was a lot of other issues.
+[20:34] **Henry:** I guess that's the balance. If one does a surface level reading of Illich or any of the critics of modernity, you might think that they do want to go to the past, and obviously no one will accept that. These people are traditionalists or they just want to make everything as it was when there was a lot of other issues.
 
 #### Tradition and Innovation as Inseparable Pairs
 
 [20:52] **David:** Right from the beginning in the writings he did in the early fifties, under a pseudonym when he was an assistant parish preach priest in Washington Heights. And he wrote under the name of Peter Cannon for a little journal called _Integrity_. But he insisted from the very beginning, that tradition and innovation were an inseparable pair.
 
-[21:15] **David:** So that gets us back to this same idea of, of facing opposing domains, right? That these opposites are a married couple. They can't live without each other for a minute without going wrong. And that was what he always insisted.
+[21:15] **David:** So that gets us back to this same idea of facing opposing domains, right? That these opposites are a married couple. They can't live without each other for a minute without going wrong. And that was what he always insisted.
 
 [21:36] **David:** That his position looked avant garde, looked adventurous, looked radical because it was so deeply confidently rooted in a tradition that it would not be separated from.
 
-[21:55] **David:** But that mandated nothing like what looked like traditional necessarily, but that it made him utterly free as long as he didn't lose that root in tradition. You know, that was always his view, I think, that you just cannot separate.
+[21:55] **David:** But that mandated nothing like what looked like traditional necessarily, but that it made him utterly free as long as he didn't lose that root in tradition. That was always his view, I think, that you just cannot separate.
 
 [22:14] **David:** And that was a view that couldn't be understood, I think, right. So the church eventually rejected him and put him under inquisition as a dangerous radical of some kind, right. Subversive opinions and so on, right.
 
@@ -197,7 +197,7 @@ quotes:
 
 #### Administring The Kingdom
 
-[23:12] **Henry:** We can get into that too. I think that relates to his whole notion around like the Church as she and it right. And even like, what does he mean by the powerless church?
+[23:12] **Henry:** We can get into that too. I think that relates to his whole notion around the Church as she and it, right. And what does he mean by the powerless church?
 
 [23:23] **David:** The powerless church, he had a whole understanding of that, that developed in the sixties that the church was increasingly from the time of the late Roman empire onward laden with administrative and social control functions. So it was the primary agent of social control in many places, bishops became magistrates after Constantine's time and so on.
 
@@ -207,13 +207,13 @@ quotes:
 
 [24:45] **David:** All those images of discovering a different way of seeing the world rather than a different way of controlling it or running it. So yeah, everything turns on this fundamental misunderstanding of whether the kingdom can be administered.
 
-[25:06] **Henry:** Right. I'm reading _A Secular Age_ with some people right now. Not the easiest book. Taylor's notion of secularization and how a lot of it has to do with reform and like wanting everyone to be good, whether it's the people in the church or people outside the church. I guess it's the same thing as Illich where it's like..
+[25:06] **Henry:** Right. I'm reading _A Secular Age_ with some people right now. Not the easiest book. Taylor's notion of secularization and how a lot of it has to do with reform and wanting everyone to be good, whether it's the people in the church or people outside the church. I guess it's the same thing as Illich..
 
-[25:28] **David:** I think it is. And I mean, that was, that was the, one of the greatest gifts I ever received, and of a very practical benefit as well as I'll relate. But when I broadcast those shows that were published as _The Rivers North of the Future_, I was an _Idea _series called _The Corruption of Christianity_.
+[25:28] **David:** I think it is. And that was one of the greatest gifts I ever received, and of a very practical benefit as well as I'll relate. But when I broadcast those shows that were published as _The Rivers North of the Future_, I was an _Idea _series called _The Corruption of Christianity_.
 
 [25:31] **David:** And while they were being broadcast, I got a call from Charles Taylor who I had known because I produced his [_Massey Lectures_](https://en.wikipedia.org/wiki/Massey_Lectures), which is our, in Canada, big prestigious lecture series, 10 years before.
 
-[26:01] **David:** And he said, I mean, I find it remarkable how similar.. Because he had thought of Illich in a different way until he heard this, how close it was to what he had done in his [_Gifford Lectures_](https://en.wikipedia.org/wiki/Gifford_Lectures) and would eventually publish in full in _A Secular Age_. So he immediately recognized how closely in parallel they were working.
+[26:01] **David:** And he said, I find it remarkable how similar.. Because he had thought of Illich in a different way until he heard this, how close it was to what he had done in his [_Gifford Lectures_](https://en.wikipedia.org/wiki/Gifford_Lectures) and would eventually publish in full in _A Secular Age_. So he immediately recognized how closely in parallel they were working.
 
 [26:24] **David:** And that then became hugely important to me when he agreed to contribute a preface to The Rivers North of the Future, because Illich was kind of a forgotten man at that point. I'll often cite it, but because it just sort of tells you how people thought when he died. The New York Times headline obituary was priest who appealed to baby boomers in the seventies, right. So he was a little bit forgotten and he hadn't tried to do much about it probably.
 
@@ -221,21 +221,21 @@ quotes:
 
 [27:20] **David:** So his endorsement of Illich was I think absolutely crucial in getting that book noticed and read by people who I was very happy to have reading it, yeah.
 
-[27:35] **David:** So yes, the idea of the Reform master narrative, which you referred to, I mean, hugely fleshes out what Ivan only hinted that, right. I don't think he had any idea at the time. He says in _The Rivers North of the Future_, that this is his research hypothesis from which he won't be deflected, he says, but he would need an army of graduates.
+[27:35] **David:** So yes, the idea of the Reform master narrative, which you referred to, hugely fleshes out what Ivan only hinted that, right. I don't think he had any idea at the time. He says in _The Rivers North of the Future_, that this is his research hypothesis from which he won't be deflected, he says, but he would need an army of graduates.
 
-[27:58] **David:** And he doesn't say that, something like that to, to work all this out. And I don't think he really knew at the time how many others were thinking along those tracks or actually working it out. So a great deal of what's in _A Secular Age_, I think works out in rich detail Illich's fundamental insight. Yeah.
+[27:58] **David:** And he doesn't say that, something like that, to work all this out. And I don't think he really knew at the time how many others were thinking along those tracks or actually working it out. So a great deal of what's in _A Secular Age_, I think works out in rich detail Illich's fundamental insight. Yeah.
 
-[28:22] **Henry:** You know, in his preface to your book, he was like people that like Christianity think it's like the epitome of modernity and then people that don't like Christianity think it's the antithesis right.
+[28:22] **Henry:** In his preface to your book, he was saying people that like Christianity think it's the epitome of modernity and then people that don't like Christianity think it's the antithesis, right.
 
 [28:32] **David:** Right.
 
-[28:33] **Henry:** But then Illich thinks it's the corruption of Christianity. The way Illich uses a lot of his words are always like, I guess the archaic old ways of thinking about a word. Like, if you say the word corruption in this time, people think it's about like bad people, right, doing bad things. Yeah. Rather than just that it's fundamentally not what it is and it could be from good people, right.
+[28:33] **Henry:** But then Illich thinks it's the corruption of Christianity. The way Illich uses a lot of his words are always like, I guess the archaic old ways of thinking about a word. If you say the word corruption in this time, people think it's about bad people, right, doing bad things. Rather than just that it's fundamentally not what it is and it could be from good people, right.
 
 [29:00] **David:** Yes. And is notably from good people. What Ivan calls, brutal earnestness. There's certainly an excess of goodness, an excess of positivity, inability to see the shadow.
 
 [29:17] **Henry:** That seems really hard to understand. For me too. I remember when I was reading, the speech that he gave which people call _To Hell With Good Intentions._ And see, it's funny because that reminds me of our conversation earlier about open source. It's sort of like why wouldn't I want to help all these people that are using my software for free.
 
-[29:37] **Henry:** And then you feel this sort of, I don't know if you're the savior or you feel guilt and like all these things. And it's just like a lot of emotions around, like, why do I feel like I have to do this instead of being able to like step away or take a break. You know, not work on the weekend.
+[29:37] **Henry:** And then you feel this sort of, I don't know if you're the savior or you feel guilt and all these things. And it's a lot of emotions around, why do I feel like I have to do this instead of being able to step away or take a break. Not work on the weekend.
 
 #### Progress as the Myth of Our Civilization
 
@@ -243,7 +243,7 @@ quotes:
 
 [30:14] **David:** And progress in that sense stands for a monistic way of thinking or the thought of the unlimited. Nothing is opposing, There is no horizon. Nothing limits. It just goes on, right? So if the Internet is good and let's have more Internet, right.
 
-[30:33] **David:** The thought of the unlimited is so deeply in us that I don't know how else you can ex.. I mean, I was a young man when _Limits to Growth_ was published right by the Club of Rome, 1970 I'm guessing it was.
+[30:33] **David:** The thought of the unlimited is so deeply in us that I don't know how else you can ex.. I was a young man when _Limits to Growth_ was published right by the Club of Rome, 1970 I'm guessing it was.
 
 [30:56] **David:** The thought was there, right. It was widely disseminated. And it was perfectly obvious to anybody who thought for two minutes that you could not have unlimited growth, right.
 
@@ -251,17 +251,17 @@ quotes:
 
 [31:32] **David:** But deeper in your thinking is the unlimited, right? So you really have no way out, how else could we have justice, except through growth, right? It's very difficult to escape that thought. And that's where it seems to me the dual or complementarity or opposing domain, that other way of thinking is indispensable. It's the only foundation on which I can see rehabilitation, recovery taking place.
 
-[32:12] **Henry:** Complimentary opposites, it reminds me of a term that I I found from someone in this group I'm in and they call it _quantum thought_, like kind of being able to go back and forth, from extremes.
+[32:12] **Henry:** Complementary opposites, it reminds me of a term that I found from someone in this group I'm in and they call it _quantum thought_, like being able to go back and forth, from extremes.
 
-[32:23] **David:** Well, I think that's a huge source for this, I, think [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s idea of complementarity, which Illich just brushes against it a little bit in [_Gender_](https://en.wikipedia.org/wiki/Gender_(book)). And he says he makes some very pregnant remarks, in a footnote on complementary that this was the road not taken in social science. But he doesn't really develop that thought. And so those thoughts are developing in the quantum world, right.
+[32:23] **David:** Well, I think that's a huge source for this, I think [Niels Bohr](https://en.wikipedia.org/wiki/Niels_Bohr)'s idea of complementarity, which Illich just brushes against it a little bit in [_Gender_](https://en.wikipedia.org/wiki/Gender_(book)). And he says he makes some very pregnant remarks, in a footnote on complementary that this was the road not taken in social science. But he doesn't really develop that thought. And so those thoughts are developing in the quantum world, right.
 
 [32:52] **David:** I just finished a book by a guy called [Frank Wilczek](https://en.wikipedia.org/wiki/Frank_Wilczek), who's a Nobel Laureate in physics, a book called [_A Beautiful Question_](https://en.wikipedia.org/wiki/A_Beautiful_Question), which is a kind of a popular account of the history of natural science from the perspective of beauty. He emphasizes symmetry, which is another form of complementarity as being absolutely fundamental.
 
-[33:19] **Henry:** Talking about limits kind of makes me think.. Our imaginations can't even come up with an answer that is not more of something. Only through escalation, right. With war, we have to have more bombs or we need more weapons. Or maybe with code, we need more code. We just keep adding on more dependencies. We can't help ourselves.
+[33:19] **Henry:** Talking about limits makes me think.. Our imaginations can't even come up with an answer that is not more of something. Only through escalation, right. With war, we have to have more bombs or we need more weapons. Or maybe with code, we need more code. We just keep adding on more dependencies. We can't help ourselves.
 
 #### Recoving Renunciation
 
-[33:39] **David:** It's certainly true that in Illich, the thought of renunciation is.. Which is probably a pretty problematic word for a lot of people because it, it's pretty hard to get the associations of the hair shirt out of it, right. And to therefore invoke, or reinvoke some kind of repression, right.
+[33:39] **David:** It's certainly true that in Illich, the thought of renunciation is.. Which is probably a pretty problematic word for a lot of people because it's pretty hard to get the associations of the hair shirt out of it, right. And to therefore invoke, or reinvoke some kind of repression, right.
 
 [34:07] **David:** To think the thought of renunciation, you have to go back to what he calls the criminalization of sin in the middle ages. That is the loss of sin as a glorious idea of, our capacity to keep together through a continuous practice of forgiveness.
 
@@ -269,7 +269,7 @@ quotes:
 
 [35:06] **David:** The idea of sin is arguably an idea that has to be recovered in its joyous aspect for us to understand how renunciation could similarly be in the service of celebration rather than in the service of repression. But in any case, it's a crucial thought. The thought of slowing down, going backwards, of establishing limits.
 
-[35:33] **David:** Which again must relate to our orientation to the past, which is backwards from our straight ahead. I mean, what is the most common verbal amoeba in our world is going forward, right?
+[35:33] **David:** Which again must relate to our orientation to the past, which is backwards from our straight ahead. What is the most common verbal amoeba in our world? Going forward, right?
 
 [35:52] **David:** If you turn on the radio and there's a politician on there, he'll certainly be going forward and he'll be thinking about what to do going forward. So you're constantly reiterating this out of going forward and therefore putting going backward in the shade.
 
@@ -281,53 +281,53 @@ quotes:
 
 [36:33] **David:** If you look at what the pandemic has done, all these phrases that get into the people's vocabulary, the abundance of caution, the emphasis on modeling, it's almost as if people are living in the future and being punished for not living in the future, right?
 
-[36:53] **Henry:** Yeah, is a big part of of it. The hottest thing in our space is machine learning, prediction models, AI, right.
+[36:53] **Henry:** Yeah, that is a big part of it. The hottest thing in our space is machine learning, prediction models, AI, right.
 
 [37:01] **David:** So the end of that game is a kind of pseudo eternity, right? Where you have control of the future. You have control of the past. You're as immune as possible from surprise. And Illich's ordinary language for the messianic is always surprise, right?
 
 [37:24] **David:** Surprises is what you can't see coming. It comes from beyond the horizon that you inevitably will establish. And if you can't be surprised, that's really the end.
 
-[37:40] **Henry:** And I mean, I guess surprise is fundamentally what faith is in a way. I can't rely on myself. I'm relying on someone outside of me.
+[37:40] **Henry:** And I guess surprise is fundamentally what faith is in a way. I can't rely on myself. I'm relying on someone outside of me.
 
 [37:49] **David:** Maybe you're gonna turn up. Or for you, maybe I'm gonna turn up. I mean, you can't really foresee it.
 
 #### Value has no Opposite
 
-[37:56] **Henry:** Something I thought was really interesting was around like limits and I guess that relates to like complementary too. This notion of what we call value and good. Or the good.
+[37:56] **Henry:** Something I thought was really interesting was around limits and I guess that relates to complementary too. This notion of what we call value and good. Or the good.
 
-[38:06] **Henry:** So it seems like value, has no opposite, right? So that way you can continue to increase it, whether it's money or just utility. And then the good is like that _golden mean_ idea, right. Where it's like two two extremes.
+[38:06] **Henry:** So it seems like value, has no opposite, right? So that way you can continue to increase it, whether it's money or just utility. And then the good is like that _golden mean_ idea, right. Where it's two extremes.
 
-[38:23] **David:** I think that's a beautifully said, because I mean, Ivan explores this in one of his essays. And he says, you, can say disvalue, but you're still on a sliding scale, when values turn negative, but you're still within a monochrome or a monotone reality.
+[38:23] **David:** I think that's a beautifully said, because Ivan explores this in one of his essays. And he says, you can say disvalue, but you're still on a sliding scale, when values turn negative, but you're still within a monochrome or a monotone reality.
 
 [38:44] **David:** Whereas yes, I think good implies opposites that are, sustained, that you hold the middle. It's a very important point in Illich. Very important point for me.
 
-[38:58] **David:** I mean, in journalism, a certain kind of mediocrity. It was always preached, which was if the left and the right are both against us, we must be doing it right. And that's just splitting the difference, right. That's just that's mediocrity, right?
+[38:58] **David:** In journalism, a certain kind of mediocrity. It was always preached, which was if the left and the right are both against us, we must be doing it right. And that's just splitting the difference, right. That's mediocrity, right?
 
-[39:18] **David:** Actually sustaining the middle.. Walking the watershed as Ivan says, holding the opposites intention as Carl Jung says. That's the very opposite of mediocrity, right. That's the Razor's edge. That that's the most difficult place to keep your balance. So it's very important to distinguish that middle way from any idea of mediocrity or, just a kind of compromise.
+[39:18] **David:** Actually sustaining the middle.. Walking the watershed as Ivan says, holding the opposites intention as Carl Jung says. That's the very opposite of mediocrity, right. That's the Razor's edge. That's the most difficult place to keep your balance. So it's very important to distinguish that middle way from any idea of mediocrity or, just a kind of compromise.
 
 [39:51] **Henry:** That makes me think of the whole, we want tools to work with us, not for us. The industrial tool is like you're depending on it entirely, but then you're also like, I don't want to live in a world where I have to do everything myself. And that's obviously not realistic in this age either.
 
-[40:07] **Henry:** I feel like I talk to friends and they'll be like, well you're not expecting me you know, make my own house or walk everywhere, right. I guess everyone has to find out what that balance is for themselves. I'm not trying to to impose anything on anyone either because that would defeat the purpose.
+[40:07] **Henry:** I feel like I talk to friends and they'll be like, well you're not expecting me to make my own house or walk everywhere, right. I guess everyone has to find out what that balance is for themselves. I'm not trying to impose anything on anyone either because that would defeat the purpose.
 
 [40:22] **David:** Yeah, and he says that, right? In _Tools for Conviviality_, the human equilibrium he says is open. You have to have the idea of the point of balance, but you can't specify the point of balance in this situation until you know this situation. Yeah, exactly.
 
-[40:43] **Henry:** That sounds very much like virtue ethics in general, right? It's about someone's character and you can't evaluate based on one event where like this was bad or good versus deontology and utility it's like, either either a rule or obviously this thing is really good.
+[40:43] **Henry:** That sounds very much like virtue ethics in general, right? It's about someone's character and you can't evaluate based on one event where this was bad or good versus deontology and utility, it's either a rule or obviously this thing is really good.
 
 [40:59] **David:** Yeah, no, I think that's exactly right. Yeah.
 
 #### Askesis: A New Aestheticism
 
-[41:02] **Henry:** I kind of wanted to get your thoughts on, like, what do you think like this kind of aestheticism would even look like in today's day? Because I feel like if you mentioned like monks or people going off to the forest. I don't think everyone's gonna go to a monastery or leave the world. I also think of that saying for Christians, we're supposed to be in the world, but not of the world something, right? Yeah.
+[41:02] **Henry:** I wanted to get your thoughts on what this aestheticism would look like today. Because if you mentioned monks or people going off to the forest, I don't think everyone's gonna go to a monastery or leave the world. I also think of that saying for Christians, we're supposed to be in the world, but not of the world, right?
 
-[41:28] **David:** Well, I mean, Ivan, he didn't write much about this. He wanted to give a series of lectures at the McCormick Theological seminary in Chicago, where he had lectured in the past on this new aestheticism, _askesis _as he called it. So we have only the outline that he made, right.
+[41:28] **David:** Well, Ivan didn't write much about this. He wanted to give a series of lectures at the McCormick Theological seminary in Chicago, where he had lectured in the past on this new aestheticism, _askesis _as he called it. So we have only the outline that he made, right.
 
-[41:46] **David:** And he doesn't tell you a lot about what it would be, this joyful austerity as he calls it in, in [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality), but he is clear that it will be utterly different, right. That it will be utterly new.
+[41:46] **David:** And he doesn't tell you a lot about what it would be, this joyful austerity as he calls it in [_Tools for Conviviality_](https://en.wikipedia.org/wiki/Tools_for_Conviviality), but he is clear that it will be utterly different, right. That it will be utterly new.
 
-[42:06] **David:** And this goes back to our old.. What we said about the pair of tradition and innovation. And clearly it will be celebratory cause celebration is always primary for him. I mean, [_Celebration of Awareness_](https://en.wikipedia.org/wiki/Celebration_of_Awareness) is his first book and celebration is always the keynote, being here now and celebrating with one another.
+[42:06] **David:** And this goes back to our old.. What we said about the pair of tradition and innovation. And clearly it will be celebratory cause celebration is always primary for him. [_Celebration of Awareness_](https://en.wikipedia.org/wiki/Celebration_of_Awareness) is his first book and celebration is always the keynote, being here now and celebrating with one another.
 
 [42:34] **David:** And what that means by way of limits, it might be different for me and for you.
 
-[42:41] **David:** I mean, I, I have not made myself subject to a smartphone. I'm also old and retired and have and luxury. And I know lots of younger people who do not have that luxury and could not have made a living without.
+[42:41] **David:** I have not made myself subject to a smartphone. I'm also old and retired and have that luxury. And I know lots of younger people who do not have that luxury and could not have made a living without.
 
 [42:59] **David:** So then I think it becomes a question of.. Is there some way to discipline your use of it, right. I find it hard to see how it can be a convivial tool. If every single person is a broadcasting station, it defeats my imagination to think about the kind of ethics that could keep people grounded, in that situation.
 
@@ -337,7 +337,7 @@ quotes:
 
 #### Risk Awareness as Ideology
 
-[44:01] **David:** Well, that's a good example to take. Cause Ivan says that risk awareness is the most powerful, the most something religiously celebrated ideology today. That's quite a statement, right. But I think he's right. And what is at play for him is people's inability to distinguish themselves, this concrete me embodiment from my statistical doppelganger, who has certain risks.
+[44:01] **David:** Well, that's a good example to take. Cause Ivan says that risk awareness is the most powerful, the most religiously celebrated ideology today. That's quite a statement, right. But I think he's right. And what is at play for him is people's inability to distinguish themselves, this concrete me embodiment from my statistical doppelganger, who has certain risks.
 
 [44:36] **Henry:** Even though that's not a real person, it's like the average of a
 
@@ -347,17 +347,17 @@ quotes:
 
 [45:14] **David:** It's just not a surprising finding. I think most people confused themselves with their statistical doppelganger. To get those two separated, that's a practical example of the kind of a askesis that I think is ncessary right? Where you could draw the limits would occur after once you learn to think accurately, right?
 
-[45:43] **David:** So, I mean, that's my faith anyway, that accurate thinking, that's not an expression I'd wanna be tied to, but clear thinking.. That's better. Clear thinking is possible, which is definitely a form of faith. But that that would be prior to establishing limits, right. To actually creating what Ivan calls limits to tools.
+[45:43] **David:** So that's my faith anyway, that accurate thinking, that's not an expression I'd wanna be tied to, but clear thinking.. That's better. Clear thinking is possible, which is definitely a form of faith. But that that would be prior to establishing limits, right. To actually creating what Ivan calls limits to tools.
 
-[46:10] **Henry:** It makes me think of your genes and how people will say like, oh, my family has a history of XYZ disease, diabetes or heart disease, whatever. I mean, I don't have to like, literally believe that you thinking that will lead to that happening more.
+[46:10] **Henry:** It makes me think of your genes and how people will say, oh, my family has a history of XYZ disease, diabetes or heart disease, whatever. I don't have to literally believe that you thinking that will lead to that happening more.
 
-[46:26] **Henry:** But I think most people would agree if you keep thinking that all the time, it preoccupies your thoughts. Something about you will change. And it doesn't have to be like a new age, mind is making my body turn into like this. But like, I'm sure that sort of thinking..
+[46:26] **Henry:** But I think most people would agree if you keep thinking that all the time, it preoccupies your thoughts. Something about you will change. And it doesn't have to be a new age, mind is making my body turn into this. But I'm sure that sort of thinking..
 
-[46:40] **David:** I mean, what is, what is the biggest scandal in medicine? It's the placebo effect, right?
+[46:40] **David:** What is the biggest scandal in medicine? It's the placebo effect, right?
 
 [46:47] **Henry:** Oh, right.
 
-[46:48] **David:** I mean, and very well documented, right? So it's not fanciful to think by thinking of myself in a certain way, I, to a degree become that. I mean, Silja Samerski, a friend of mine, who so influenced Ivan by her study of how women were reacting to genetic counseling in Germany, went on to study what she called the _pop gene,_ what a well defined scientific construct in becomes in popular consciousness, right? My genes, right. As some sort of little things that are inside me. That bleeding from science into every day talk.. Is another, it would be another crucial example of the askesis that's necessary, right.
+[46:48] **David:** And very well documented, right? So it's not fanciful to think by thinking of myself in a certain way, I to a degree become that. Silja Samerski, a friend of mine, who so influenced Ivan by her study of how women were reacting to genetic counseling in Germany, went on to study what she called the _pop gene,_ what a well defined scientific construct becomes in popular consciousness, right? My genes, right. As some sort of little things that are inside me. That bleeding from science into every day talk.. Is another crucial example of the askesis that's necessary, right.
 
 #### The Myth About Science
 
@@ -369,13 +369,13 @@ quotes:
 
 [48:49] **David:** When I opened my computer this morning, I was invited to read a article, why science tells you to get out of that dead end relationship. The confusion of domains is right there in front of your eyes, right? What could science tell you about that, right.
 
-[49:05] **David:** I mean, I'm working up to an answer to your question, I guess.
+[49:05] **David:** I'm working up to an answer to your question, I guess.
 
 [49:08] **David:** How someone's gonna live with their cell phone is something I can't say, but this, pardon the fancy word, epistemological cases is something I can imagine. I can begin to think about how more careful thinking might help.
 
-[49:28] **Henry:** Okay. Illich seems like in the past or even seems like anti-tech. I think I recall, I don't know where I read it, but he was obviously riding against against like cars and stuff like that, but he still used planes.
+[49:28] **Henry:** Okay. Illich seems like in the past or even seems anti-tech. I think I recall, I don't know where I read it, but he was obviously railing against cars and stuff like that, but he still used planes.
 
-[49:41] **Henry:** And I think he was saying the reason why I like them is just so I can see you, right, whoever the person was. He's willing to say, I have a good reason for why I'm willing to use the technology, which is to get closer to someone person.
+[49:41] **Henry:** And I think he was saying the reason why I like them is just so I can see you, right, whoever the person was. He's willing to say, I have a good reason for why I'm willing to use the technology, which is to get closer to someone.
 
 [49:54] **David:** So he says that, right. I make my rules so I can break my rules. It's not that he thinks you can make a rule and that's all. But the breaking of the rule only makes sense if there is also the rule.
 

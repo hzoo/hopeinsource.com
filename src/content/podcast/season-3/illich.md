@@ -44,7 +44,7 @@ quotes:
 
 [01:44] **Dana:** Would you consider this work to be a perfect place for you to be, knowing yourself and your interests?
 
-[01:51] **Michael:** It was a really nice fit. I've only been here for a year and a half. And it definitely gave me an opportunity, having not ever completed a PhD. And so not having that more traditional academic path open to me. And frankly, at this later stage of my life, not entirely sure that I would've wanted it.
+[01:51] **Michael:** It was a really nice fit. I've only been here for a year and a half. And it definitely gave me an opportunity, having not ever completed a PhD. Not having that more traditional academic path open to me. And frankly, at this later stage of my life, not entirely sure that I would've wanted it.
 
 [02:08] **Michael:** This setting gives me a great deal of freedom to explore my own interests: to teach, but not grade, to not have any administrative labors except of course administrating our program. But were a relatively small institution, so it's not a great deal of bureaucratic red tape that we have to go through. All that to say, yes, I'm actually quite delighted to be here and it was really fantastic to land here.
 
@@ -66,7 +66,7 @@ quotes:
 
 [04:48] **Michael:** And so I continued to do that even after I was unable to complete the dissertation after I finished ABD. And in that time period, I had cultivated a little bit of an audience. I never had any great audience, but enough of an audience in a sense of community with readers over a period of time to keep me motivated to do that. And honestly, even absent to that, I probably would have kept doing it because I enjoyed the process of clarifying thoughts with the work of writing.
 
-[05:16] **Michael:** And so I did have some frustrations with the ways in which one tries to sustain an audience in an era of social media and was not really happy with any of the options. Right now, I think we're sort of in a boom of newsletters. And so I'd like to say a little prior to that boom, the newsletter option became something that some writers were turning towards.
+[05:16] **Michael:** And so I did have some frustrations with the ways in which one tries to sustain an audience in an era of social media and was not really happy with any of the options. Right now, I think we're sort of in a boom of newsletters. I'd like to say a little prior to that boom, the newsletter option became something that some writers were turning towards.
 
 [05:36] **Michael:** I described it as a rather convivial tool in the sense that it liberated one from the temporal patterns of social media, right? So if something is delivered to one's inbox it, it doesn't exist in a kind of temporal horizon where you have to sort of catch it or else we find yourself as the producer having to repeat yourself all the time on social media in order to capture somebody's attention.
 
@@ -88,7 +88,7 @@ quotes:
 
 #### Inequality in COVID
 
-[09:00] **Madhu:** It's actually a reiteration of something COVID has brought to everyone's attention. That is the horrific inequalities in our society in terms of death rates, sickness rates. I mean, as you know, medicine and schooling are supposed to be the great contemporary panaceas right. And so there is a sense that people like you and others of our ilk have access to technology. And there are young children of all ages who do not have that access to Zoom classes and technological help of other kinds.
+[09:00] **Madhu:** It's actually a reiteration of something COVID has brought to everyone's attention. That is the horrific inequalities in our society in terms of death rates, sickness rates. As you know, medicine and schooling are supposed to be the great contemporary panaceas right. And so there is a sense that people like you and others of our ilk have access to technology. And there are young children of all ages who do not have that access to Zoom classes and technological help of other kinds.
 
 [09:45] **Madhu:** And so they are the ones being starved of learning opportunities. And then you compound that with handicap people with just different disorders, ADHD, and so on and so forth who are suffering. Just as there's immense suffering amongst people of color in terms of infection and death. So in that spirit, it's dragged in as one more horrible inequality in our society. Thoughts on that as a lover of Illich or a friend of Illich.
 
@@ -120,7 +120,7 @@ quotes:
 
 [15:04] **Michael:** They don't necessarily have a very great bearing on our our moral or communal or social lives. And so recognizing through the work of Ivan and others, that this is not the case. That the tools that we use have a profound impact on how we conduct our lives, how we imagine the social sphere, then then to ask questions of those systems and tools and artifacts, and try to understand how they impact our efforts to live the kinds of lives that we want to live.
 
-[15:40] **Michael:** And those ends may be very diverse. They may depend upon one's you know, sort of cultural or religious background and upbringing and assumptions. But regardless of what those happened to be the tools in a modern society are still kind of intersecting with those desires and aspirations.
+[15:40] **Michael:** And those ends may be very diverse. They may depend upon one's cultural or religious background and upbringing and assumptions. But regardless of what those happened to be the tools in a modern society are still kind of intersecting with those desires and aspirations.
 
 [15:55] **Michael:** And so to try to understand the nature of that intersection, especially where that material technological infrastructure is actually undermining our desires and our efforts to be the sorts of people we want to be, to have the kind of communities we aspire to have. Those are the kinds of questions that are very usefully illuminated by the work of the Ivan and [Jacques Ellul](https://en.wikipedia.org/wiki/Jacques_Ellul), who I've been writing again a little bit about recently.
 
@@ -128,7 +128,7 @@ quotes:
 
 [16:35] **Michael:** And where I think Ivan, especially towards the 1980s and then even the nineties within The Vineyard of the Text is in conversation with that tradition. And then what I think of as sort of the more traditional, especially the mid 20th century technology criticism that Ellul and Illich in that phase represent. And [Lewis Mumford](https://en.wikipedia.org/wiki/Lewis_Mumford) comes to mind as well.
 
-[16:58] **Michael:** And then there are more academically traditional philosophers of technology like Carl Mitcham and [Albert Borgmann](https://en.wikipedia.org/wiki/Albert_Borgmann) as well. So in some respects, these are sort of three traditions through the lens of which I try to perceive the role that technology plays in our lives with a view to this larger question of how we live well. How we live lives that we can think of as flourishing lives and how we sustain communities that empower human flourishing. And I feel like that's very long winded answer to the question.
+[16:58] **Michael:** And then there are more academically traditional philosophers of technology like Carl Mitcham and [Albert Borgmann](https://en.wikipedia.org/wiki/Albert_Borgmann) as well. So in some respects, these are sort of three traditions through the lens of which I try to perceive the role that technology plays in our lives with a view to this larger question of how we live well. How we live lives that we can think of as flourishing lives and how we sustain communities that empower human flourishing. That's a very long winded answer to the question.
 
 #### Resisting the frame of control and embracing gift
 
@@ -162,7 +162,7 @@ quotes:
 
 [22:36] **Dana:** Because I see that response as a problem. But that example is illustrative of an approach to technology and technological solutions to the many crises that I think Illich has something to say about.
 
-[22:53] **Michael:** No. Yeah. That gesture that there is this one still future or still developing technology that will be the solution to all of the problems with the prior configuration of technology has caused.
+[22:53] **Michael:** Yeah. That gesture that there is this one still future or still developing technology that will be the solution to all of the problems with the prior configuration of technology has caused.
 
 [23:03] **Michael:** On the one hand, I don't want to suggest that it is impossible. You know, one of the things I've been thinking of late is that when one sort of writes in this vein it, it's very common to sort of hear the rejoinder. Well are you just anti-technology? And I think one of the wonderful things about Illich, especially in *Tools for Conviviality*, it's not about, anti-technology about finding the right technology, the technology that is conducive towards human flourishing right. There are no illusions in Illich's work about a return to some sort of state of nature or anything of that sort, but it is about finding tools that are appropriate.
 
@@ -186,7 +186,7 @@ quotes:
 
 [26:29] **Dana:** Can I ask a question about Ivan's ideas that challenge you or to live them out or to imagine them manifest in the world or other interpretations too?
 
-[26:43] **Michael:** Yeah. It is challenging to think about, what is a need? What do I consider a need? What do I feel that I need? What has fabricated that sense of need in me? And that exploration, that is in part generated from Ivan's work, I think is something that I think all of us would find relatively challenging. What do I feel that I need? And what do I sacrifice in order to meet these needs? And are they in fact needs in the way that we think that they are? And so to constantly sort of think about that and examine my own life, my own practices, the allocation of my time. I wouldn't say that that's troubling, but it is challenging to live with that question in view.
+[26:43] **Michael:** Yeah. It is challenging to think about, what is a need? What do I consider a need? What do I feel that I need? What has fabricated that sense of need in me? And that exploration, that is in part generated from Ivan's work, I think is something that I think all of us would find relatively challenging. What do I feel that I need? And what do I sacrifice in order to meet these needs? And are they in fact needs in the way that we think that they are? And so to constantly think about that and examine my own life, my own practices, the allocation of my time. I wouldn't say that that's troubling, but it is challenging to live with that question in view.
 
 [27:20] **Michael:** Again, to imagine that there is a kind of austerity that.. And austerity now has become such a politically loaded word. But I think Ivan doesn't use it with regards to what at least since 2008 been seen as especially sort of neo-liberal approach to finance, but rather of personal austerity and an aesthetic practice that is aimed not simply at saying no, but having the capacity to say yes to the things that we truly value and would be truly satisfying in own lives and so that, that, that idea of, of re-examining needs of recognizing the importance of a certain form of austerity or aesthetism in our own lives, these are things that I want to allow to constantly sort of challenge how I live in my assumptions.
 
@@ -208,13 +208,13 @@ quotes:
 
 [30:24] **Madhu:** I have two questions. If we were lucky face to face with Ivan, to be able to ask him questions, what questions would you ask him? And related to that since he was a guy who celebrated eutrapelia, playfulness, how are you bringing those into your life as a really serious dedicated student of Ivan?
 
-[30:52] **Michael:** That idea of the questions that we bring. I try to think of the places where I find that Ivan's work would be especially valuable in ongoing conversations. And I think we've had a lot of discussions and debates about the role of work in a society that is increasingly automated. So wanting Ivan to speak to those questions is how I'm sort of getting to that right.
+[30:52] **Michael:** That idea of the questions that we bring. I try to think of the places where I find that Ivan's work would be especially valuable in ongoing conversations. And I think we've had a lot of discussions and debates about the role of work in a society that is increasingly automated. So wanting Ivan to speak to those questions is how I'm getting to that.
 
 [31:14] **Michael:** To think about the challenges posed by the automation of labor, not only what we would think of as sort of industrial labor, but now even increasingly white collar jobs. And that the options that are often considered along those lines are the introduction of something like a universal basic income because there will inevitably people who are sort of chased out of the labor market. Kind of the reality of technological unemployment and its scope and scale.
 
 [31:40] **Michael:** But it seems relatively evident to me that there are those whose work will be displaced. So the solution is either UBI in some circles or learn to code and others which seems to me incredibly inadequate in both cases in part, because it treats work as something that as long as we sort of got the wages, but lost the work, everything would be okay.
 
-[32:05] **Michael:** And it seems to me that, that, you know, you bond sees that, that there's an important problem with that. And that is that there is something about doing work, work that is humane, work that is dictated to some degree by the individual that is satisfying and important. And this trend towards, obviously a kind of a sufficient lack of satisfaction with life as we're living it, that drives up suicide rates and places that have been devastated by a lack of useful work or meaningful work.
+[32:05] **Michael:** And it seems to me that Ivan sees that there's an important problem with that. And that is that there is something about doing work, work that is humane, work that is dictated to some degree by the individual that is satisfying and important. And this trend towards, obviously a kind of a sufficient lack of satisfaction with life as we're living it, that drives up suicide rates and places that have been devastated by a lack of useful work or meaningful work.
 
 [32:41] **Michael:** So that sort of nexus of questions around the role of work in an individual's life and what dignified the labor might look like. Or how we might find that or how we might navigate the kinds of, challenges posed by automated automation technology with regards to labor and work.
 

@@ -54,7 +54,7 @@ quotes:
 
 [02:42] **Henry:** So when you use the word inter-textual, you're saying this is of multiple levels of meaning, but also references in between each other?
 
-[02:48] **Nick:** Yeah. I think, I mean, the Bible to me is such an incredible text in terms of it's narrative modes. It's linguistic moves. It's mixture of symbol and metaphor and poetry and history. It's just so much going on. And it's often described in reductive ways. And yet it's just a heavy text.
+[02:48] **Nick:** Yeah. I think the Bible to me is such an incredible text in terms of it's narrative modes. It's linguistic moves. It's mixture of symbol and metaphor and poetry and history. It's just so much going on. And it's often described in reductive ways. And yet it's just a heavy text.
 
 [03:15] **Nick:** And I feel like with Joyce, I remember my copy of Ulysses in graduate school. I bought at a used bookstore in Newark. I went to Rutgers Newark. So it came pre annotated for me, but I didn't know if the annotations were correct or not.
 
@@ -78,7 +78,7 @@ quotes:
 
 [05:26] **Nick:** In the one that you're describing is there not like footnotes at the bottom of the text? Is it more almost like just the narrative of the page and then there's no notation.
 
-[05:36] **Henry:** Yeah. It's like very plain in a way. It's just straight up, this is the text. There was a Kickstarter called [Bibliotheca](https://www.bibliotheca.co/). The whole draw of this was like, let's get rid of all this.. I mean, you could call it excess or whatever, but like all this other stuff.
+[05:36] **Henry:** Yeah. It's like very plain in a way. It's just straight up, this is the text. There was a Kickstarter called [Bibliotheca](https://www.bibliotheca.co/). The whole draw of this was like, let's get rid of all this.. You could call it excess or whatever, but all this other stuff.
 
 [05:49] **Nick:** That's so interesting to me because when I think of when I was like first kind of introduced to the Bible in the sense of literary study of it. And I still have, I don't know where it is in the house, but like my Catholic study Bible that I got when I was younger, like half of the page is footnotes.
 
@@ -90,13 +90,13 @@ quotes:
 
 [06:56] **Henry:** Maybe that would prevent me from reading the whole thing or going into more depth, because having it on your phone, I just pull up the app and it just tells me, read this. The opposite would be not being able to relate to either people in your own community or people online.
 
-[07:11] **Nick:** Yeah because we're talking about Joyce. I mean [Finnegans Wake](https://en.wikipedia.org/wiki/Finnegans_Wake) is even more.. I don't feel especially confident wading through that book as anything more than just like trying to stay afloat.
+[07:11] **Nick:** Yeah because we're talking about Joyce. [Finnegans Wake](https://en.wikipedia.org/wiki/Finnegans_Wake) is even more.. I don't feel especially confident wading through that book as anything more than just like trying to stay afloat.
 
 [07:23] **Nick:** I don't feel like I'm swimming with any true skill. It's more so I'm just trying to figure things out, whereas [Ulysses](https://en.wikipedia.org/wiki/Ulysses_(novel)) is a little more decipherable. And it is beautifully written in certain places. In other places, I think it's meant to be obfuscating a little bit, like it's just meant to push us away.
 
 [07:42] **Nick:** I mean, when I read the Old Testament, I feel tired. I feel like it's like I'm in the middle of a snowstorm. And then when I read the New Testament, there's like this razor kind of clarity that happens. So it's interesting to have that experiential kind of result.
 
-[07:56] **Henry:** Right, a lot of people feel that way. You know, I feel like a lot of old Testament is like a lot of history. And also, I mean, they're all in the past, but I almost feel like that the New Testament just feels more relatable. Like there's a lot more letters writing directly to people, or just literally what Jesus says and that just seems like good advice versus in the Old Testament. There's a lot of like suffering in war and a lot of negative things.
+[07:56] **Henry:** Right, a lot of people feel that way. You know, I feel like a lot of old Testament is like a lot of history. And also, they're all in the past, but I almost feel like that the New Testament just feels more relatable. Like there's a lot more letters writing directly to people, or just literally what Jesus says and that just seems like good advice versus in the Old Testament. There's a lot of like suffering in war and a lot of negative things.
 
 [08:21] **Henry:** And I think a lot of people dismiss that because they're like, well why would that be in the Bible? But it's just depicting reality in a way, you could say. Like if there was none of that, it would be kind of weird if it didn't, because we have that now. And that's what we had before.
 
@@ -112,7 +112,7 @@ quotes:
 
 [09:35] **Nick:** But I think what Joyce, as a writer, kind of demonstrates is, as you discuss, that what we think is clarity and accuracy is sometimes neutering the messiness of everything. So I think Joyce sort of recognized a lot of discord in life and even in like domestic situations, just like a lot of frenetic kind of things.
 
-[10:00] **Nick:** And so therefore in his language, especially in a book like Ulysses, it's almost like we're looking at this kind of like Cubist representation of something. Like it at first looks like it's all over the place, but then we're sort of allowing ourself to see the world through his eyes.
+[10:00] **Nick:** Therefore in his language, especially in a book like Ulysses, it's almost like we're looking at this kind of like Cubist representation of something. Like it at first looks like it's all over the place, but then we're sort of allowing ourself to see the world through his eyes.
 
 [10:16] **Nick:** And yeah, that's kind of why I am so interested in him as a writer because I think Joyce was someone who was very, very much trained in the Bible, going to Jesuit schools and having the Bible as a story, as a intellectual text, as something as part of his existence.
 
@@ -126,11 +126,11 @@ quotes:
 
 [11:37] **Nick:** And I think some interviewers tried to like bring him to the more centering discussion, but McLuhan didn't think life or the brain or language work in those ways.
 
-[11:50] **Nick:** And when you mention the medium is the message, which is something that I'm fascinated by as like a cultural saying, because it's something that we've heard a bunch of times and even people for whom don't know who he is.. Like they probably have heard that saying.
+[11:50] **Nick:** And when you mention the medium is the message, which is something that I'm fascinated by as like a cultural saying, because it's something that we've heard a bunch of times and even people for whom don't know who he is.. They probably have heard that saying.
 
-[12:07] **Nick:** I guess it means almost like two things. In the pop culture way, it sort of means like the fact that you and I are speaking right now, we're speaking through a particular medium. And that medium, perhaps its importance as like a tool transcends maybe the minutiae of like what we're actually saying. Like it's more revolutionary perhaps that we're communicating in that manner versus like what we're saying.
+[12:07] **Nick:** I guess it means almost like two things. In the pop culture way, it sort of means like the fact that you and I are speaking right now, we're speaking through a particular medium. And that medium, perhaps its importance as a tool transcends maybe the minutiae of what we're actually saying. Like it's more revolutionary perhaps that we're communicating in that manner versus like what we're saying.
 
-[12:32] **Nick:** So I think McLuhan was both okay with that meaning being out there, but also clarified it to say that the medium is a message for him means that the environment, the media through which we communicate, transform us. Like those environments, just like preternaturally like make us different, which to me is like a more religious and spiritual way of reading that saying. That's what I'm most attracted to for him.
+[12:32] **Nick:** So I think McLuhan was both okay with that meaning being out there, but also clarified it to say that the medium is a message for him means that the environment, the media through which we communicate, transform us. Those environments just preternaturally make us different, which to me is a more religious and spiritual way of reading that saying. That's what I'm most attracted to for him.
 
 #### Incarnational Poetry
 
@@ -194,11 +194,11 @@ quotes:
 
 [20:28] **Henry:** Maybe with the internet, you could say that stuff like emojis and memes and slang, are ways of making language. So people are stretching language all the time, and they're lay people. And I think it's same with coding. People are using these syntax in all these different ways.
 
-[20:46] **Henry:** I feel like there are a lot of people in tech that really like philosophy, they're writers themselves, right. It's just interesting because you might think that wouldn't be the case. There's this like stereotype, oh it's about like math. We're just like kind of creating these separate spheres when maybe they're not that different.
+[20:46] **Henry:** I feel like there are a lot of people in tech that really like philosophy, they're writers themselves, right. It's just interesting because you might think that wouldn't be the case. There's this stereotype, oh it's about math. We're just like kind of creating these separate spheres when maybe they're not that different.
 
 [21:03] **Nick:** If you think back to your edu, when you were studying these things, do you feel like that was how it was presented to you or implied?
 
-[21:11] **Henry:** That's a good question. I mean, even say math itself, .People think that they need to have a certain mindset like stem, like you have to be an engineer. I just don't believe that, anyone can understand logic and systems.
+[21:11] **Henry:** That's a good question. Even say math itself. People think that they need to have a certain mindset like stem, like you have to be an engineer. I just don't believe that, anyone can understand logic and systems.
 
 [21:24] **Henry:** Whatever field you end up working in is a system and you know that domain better than anyone else. The cool part is when they're able to kind of figure out for themselves which parts are like related.
 
@@ -218,15 +218,15 @@ quotes:
 
 [23:39] **Nick:** Like when I have to explain to people in the writing world that I'm a teacher. I tend not to, or I intend not to say it even anymore, because when I used to, they would ask all these like kind of strange questions as follow ups.
 
-[23:54] **Nick:** And I'm just like, I don't really wanna talk with anymore. So I just kind of said that I'm a writer and editor and then leave the other stuff out. But yeah, I agree with you that people who have tech inclinations or interests, there's I think a pretty smooth transition to the world of philosophy and art.
+[23:54] **Nick:** And I'm just like, I don't really wanna talk about that anymore. So I just kind of said that I'm a writer and editor and then leave the other stuff out. But yeah, I agree with you that people who have tech inclinations or interests, there's I think a pretty smooth transition to the world of philosophy and art.
 
 [24:11] **Henry:** Well, I guess maybe I wanna do that in a way!
 
 #### In Art, Faith is Perception
 
-[24:14] **Nick:** Yeah. Yeah. I mean, visual art, I feel like knowing that the internet is a thing that exists helps me understand that art better, which is a weird kind of osmosis. Like, for example Dali's creations about Christ on the Cross.
+[24:14] **Nick:** Yeah. Visual art, I feel like knowing that the internet is a thing that exists helps me understand that art better, which is a weird kind of osmosis. Like, for example Dali's creations about Christ on the Cross.
 
-[24:30] **Nick:** When I look at the rendering of the St. John on the cross kind of vision, like looking down and like there's Jesus on the cross. And there's like the cosmos, like below him. And then looking at that, like Cubist representation of him on like this.. Like levitating.
+[24:30] **Nick:** When I look at the rendering of the St. John on the cross kind of vision, like looking down and like there's Jesus on the cross. And there's the cosmos below him. And then looking at that, like Cubist representation of him on like this.. Like levitating.
 
 [24:44] **Henry:** Yeah. Oh yeah. I didn't even know until I like randomly went to Florida for vacation. And then that was one of the museums, having not known about him before.
 
@@ -268,7 +268,7 @@ quotes:
 
 [29:58] **Henry:** And I just like, as a Protestant, just want to know what it's like you know, liturgy. Maybe because it was a 6:00 PM service like, I didn't have a sense of community per se, but I got a sense of very solemn, holiness. Obviously the medium of like the building being beautiful and then the hymns. It definitely felt more like somber, that kind of feeling.
 
-[30:19] **Nick:** Yeah, I think solemnity is a good way to think about it. There's like almost like a melancholic kind of touch to it. I guess if like you think of an artist and the things that tend to generate art for them, those tend to be the kind of sources a lot of Like the contemplative, that sort of like solemn space. And that would be consistent with McLean for sure.
+[30:19] **Nick:** Yeah, I think solemnity is a good way to think about it. There's almost like a melancholic touch to it. I guess if you think of an artist and the things that tend to generate art for them, those tend to be the kind of sources. The contemplative, that solemn space. And that would be consistent with McLean for sure.
 
 #### Art as the Boundaries of Language
 
@@ -306,9 +306,9 @@ quotes:
 
 [34:34] **Nick:** It was better for him to, as you noted before, to perceive and to document and to describe, and then in those transmutation sort of try to find God present. So for me the Jesuit vision of finding God in all things applies to the fact that if he believed that God was everywhere, that God was in the global village, even in his worst moments.
 
-[35:00] **Nick:** Like, he of course didn't use the word internet, but he thought that with the ability to instantly connect and communicate, that we would not be very good at turning that off or knowing when, to not like, I guess like punish ourself, like through like our equivalent of dooms scrolling and stuff like that.
+[35:00] **Nick:** Like, he of course didn't use the word internet, but he thought that with the ability to instantly connect and communicate, that we would not be very good at turning that off or knowing when, to not like, I guess like punish ourself, like through like our equivalent of doom scrolling and stuff like that.
 
-[35:22] **Nick:** So he knew that we would go there. And of course we do, like all time, like we can't kind of stop. Like he actually wrote to a French philosopher he said something like the _Prince of darkness is like a great electrical engineer_, was kinda like a McLuhan-esque sort of thing.
+[35:22] **Nick:** So he knew that we would go there. And of course we do, like all time, like we can't kind of stop. Like he actually wrote to a French philosopher he said something like the _Prince of darkness is like a great electrical engineer_, was a McLuhan-esque sort of thing.
 
 [35:37] **Nick:** The danger here is when there's a true disembodiment, like when there's no physical corporal sense. And I think that ties to the metaphor of the mystical body of Christ. Like it's really important of course, for Christians, like the idea of the bodily resurrection. That's essential. Like that there's a physical corporal resurrection and an ascension.
 
@@ -316,7 +316,7 @@ quotes:
 
 [36:16] **Nick:** If I spend too much time online, I'm not happy. And I don't think it's simply just because like I'm not like in the world, like I just feel like there's something about that aesthetic experience that just like can hurt. So McLuhan saw ahead of that.
 
-[36:34] **Henry:** Yeah, I was actually gonna ask about the quote. You already brought it up, that's awesome. There's a longer part of the quote talking about how the things are invisible, right? Which is the environment. In the end, I feel like his thing is about like what changes us and the things that change us are things that we don't recognize, and we need to be aware.
+[36:34] **Henry:** Yeah, I was actually gonna ask about the quote. You already brought it up, that's awesome. There's a longer part of the quote talking about how the things are invisible, right? Which is the environment. In the end, I feel like his thing is about what changes us and the things that change us are things that we don't recognize, and we need to be aware.
 
 [36:56] **Henry:** And so the only way to do that is to understand the environment. Andrew McLuhan, his grandson, he sent me an article about environment and anti-environment. And the idea is like we don't know who discovered water, but it wasn't a fish, right. I was like, oh, that makes sense.
 
@@ -336,13 +336,13 @@ quotes:
 
 [38:48] **Nick:** And that's great to hear. And I think part of it could be from the fact that authentic religion is full of ambiguity, right? It's full of the unknown yeah, like, so that's the stuff that appeals to, I think, a lot of people, for sure.
 
-[39:06] **Henry:** Yeah. Going back to the idea of like the world is messy, he can considered himself an explorer, right? He was always talking about probes, which is a word, because I feel like we don't use that word. I think that he's not judging anything. He's not casting his own opinions. He's just saying like, I'm just trying to like, see what's going on. And I feel like people like that, because you're not like you need to be like defensive or something.
+[39:06] **Henry:** Yeah. Going back to the idea of like the world is messy, he can considered himself an explorer, right? He was always talking about probes, which is a word, because I feel like we don't use that word. I think that he's not judging anything. He's not casting his own opinions. He's just saying, I'm just trying to see what's going on. And I feel like people like that, because you're not like you need to be like defensive or something.
 
 [39:28] **Henry:** Yeah. I guess it's like meeting people where they are, being able to have a shared language. If I use the word like sin or God, like it doesn't mean anything to people anymore. And so maybe we need to use different language so that it actually makes sense to people. So for some people it would be like psychology or psycho-analysis like that kind of language makes sense to people live.
 
 #### What is Sin Really?
 
-[39:52] A word like sin, is so contextual and layered and kind of presupposes a moral vision of something, if the sin is considered the aberration or the divergence. I guess I'm kind of interested.. What is the equivalent to the word sin for a secular person?
+[39:52] A word like sin, is so contextual and layered and kind of presupposes a moral vision of something, if the sin is considered the aberration or the divergence. I guess I'm interested.. What is the equivalent to the word sin for a secular person?
 
 [40:15] **Nick:** I use the word reflexively, like the locution of like a venial sin versus a mortal sin, like that predates my life. That's something really that the Catholic Church uses, but I'll because I come from that tradition I'll use that like in a kind of jocular manner in spaces where I'm not with like Christians. It's a little thing to just like eat too much dessert or something like that.
 

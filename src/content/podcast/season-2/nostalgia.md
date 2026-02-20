@@ -132,7 +132,7 @@ quotes:
 
 **Jordan:** Now, it sort of follows my personality, my career, which is that like, the code for 98.css, it's not good. There are a couple of build scripts in there that are disgusting. They work and I'm really proud of them because they work. And I'm more proud of the fact that I got this thing up and running and people are like talking about how cool it is, rather than just looking at it and My code is good, therefore, I'm a good developer. Now it's people are saying nice things about this thing that I put out in the world, therefore I did the right thing.
 
-**Jordan:** So it's shifted, right? It used to be a code-quality thing. I really don't care about code quality. And you know, we could talk about this too-
+**Jordan:** So it's shifted, right? It used to be a code-quality thing. I really don't care about code quality. And we could talk about this too-
 
 **Henry:** Yeah we should yeah.
 
@@ -164,7 +164,7 @@ quotes:
 
 **Jordan:** Yeah. Right.
 
-**Jordan:** I think another half of it is that I don't know what clean CSS looks like. People have tried really hard and you know, this is another entire podcast episode. I used to be super into CSS and JS. I'm not so much anymore because Stripe has a literally world-class component library.
+**Jordan:** I think another half of it is that I don't know what clean CSS looks like. People have tried really hard and this is another entire podcast episode. I used to be super into CSS and JS. I'm not so much anymore because Stripe has a literally world-class component library.
 
 **Jordan:** I don't write CSS in my day job anymore. I just use the components like-
 
@@ -252,7 +252,7 @@ quotes:
 
 **Jordan:** A lot of people talk about how there's just this wall of even though they have a one line change for library, they don't want to go through the hoops. So what if those switches did exist for 98.css? What if I, two years from now, had six people that I've added as contributors because they've given me PRs and someone writes in says, "Hey, this checkbox bug is happening again." And then they just merge it. That would be, I think, successful for me.
 
-**Henry:** Another thing I wanted to bring up was you mentioned pixel perfect and sort of this weird uncanny valley of you know what it should look like, and then someone else did it. So like kind of right. What do we call it? Almost like anti-aliasing, by doing the 45 degree.
+**Henry:** Another thing I wanted to bring up was you mentioned pixel perfect and sort of this weird uncanny valley of what it should look like, and then someone else did it. So like kind of right. What do we call it? Almost like anti-aliasing, by doing the 45 degree.
 
 **Jordan:** Yes. Absolutely.
 

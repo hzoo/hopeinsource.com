@@ -179,7 +179,7 @@ quotes:
 
 [24:58] **Henry:** But it's still not as personalized as it is in church. It's like, I'm not like doing video calls with people all the time on how's it going. I mean, maybe I'd like to, I don't know if they'd want to do that (laughs).
 
-[25:09] **Henry:** Then with church it's like, you know, we have whether it's this prayer meeting, or on Friday nights I have Bible study, at the end we talk about what's going on in your life, and you're sharing, being able to talk about the issues that you're dealing with.
+[25:09] **Henry:** Then with church it's like, we have whether it's this prayer meeting, or on Friday nights I have Bible study, at the end we talk about what's going on in your life, and you're sharing, being able to talk about the issues that you're dealing with.
 
 [25:28] **Henry:** And even with open source, we have like the "maintainers" repo, but that's just a repo. And maybe you don't really know everyone that well. And having events, I forgot the name of the event, like [Maintainerati](https://maintainerati.org) or those kind of things. I think those could be, I haven't been to any of them, but those seem pretty useful. So just be able to be with people that are maybe dealing with the same issues.
 
@@ -231,7 +231,7 @@ quotes:
 
 [33:40] **Nadia:** Yeah. I think that's a nice thing about church being a place where you can bring your truest self, or your problems or whatever. But, but you're all kind of there, focused on something greater than just yourself, which I think is the nice thing about God being part of that conversation.
 
-[34:02] **Henry:** Yeah, 'cause it, it's, and also that you know, it's not just, maybe we're all feeling that we can't do anything, but it's kind of the whole point, where it's not you internally figuring it all out. But you're learning something about who you are and all that stuff. So, it's way more encouraging than just like, oh, it's gonna work out. It's like where is the specifics and where is it all going?
+[34:02] **Henry:** Yeah, 'cause it's, and also that it's not just, maybe we're all feeling that we can't do anything, but it's kind of the whole point, where it's not you internally figuring it all out. But you're learning something about who you are and all that stuff. So, it's way more encouraging than just like, oh, it's gonna work out. It's like where is the specifics and where is it all going?
 
 [34:28] **Nadia:** Yeah.
 

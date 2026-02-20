@@ -188,7 +188,7 @@ earlier open source and now.
 
 #### Holy Inefficiency: A Pokémon Story
 
-[27:16] **Henry:** It kinda reminds me, I heard this sermon in our church like two weeks ago, the title was actually Holy Inefficiency, which is a really interesting title. But it was just talking about in our current age it's all about information, you know notifications and overload of too much information, not too less.
+[27:16] **Henry:** It kinda reminds me, I heard this sermon in our church like two weeks ago, the title was actually Holy Inefficiency, which is a really interesting title. But it was just talking about in our current age it's all about information, notifications and overload of too much information, not too less.
 
 [27:35] **Henry:** And so there's a rush to know everything and we kind of lost a sense of what does it mean to rest and to take breaks, to just enjoy being alive and learning things? In the process of all this efficiency and doing things with an algorithmic way, it almost feels non-human, like we're trying to into robots.
 
@@ -240,7 +240,7 @@ earlier open source and now.
 
 [35:26] **Henry:** Yeah, that's really cool. We want to learn to push back on this sense of hustling and especially in a city like New York or San Francisco. But in the startup culture it's all about doing all this stuff, and in open source it might not be like that from other people but internally it might be like, "Oh, I need to keep moving forward."
 
-[35:56] **Henry:** I remember when I was doing it outside of work, for some reason I always felt like it was another job to me. I have a certain expectation for how this should move forward. Even though I obviously knew that I didn't have a lot of time. I don't know why I just felt like I assumed I had like eight hours a day to do it, and that we're not getting there so I always had to push myself. So it's not bad to wanna move forward and you know professionism and all that stuff can be helpful, but when it turns into just restlessness, I think that can be really detrimental and that's why we have burnout and all that.
+[35:56] **Henry:** I remember when I was doing it outside of work, for some reason I always felt like it was another job to me. I have a certain expectation for how this should move forward. Even though I obviously knew that I didn't have a lot of time. I don't know why I just felt like I assumed I had like eight hours a day to do it, and that we're not getting there so I always had to push myself. So it's not bad to wanna move forward and professionism and all that stuff can be helpful, but when it turns into just restlessness, I think that can be really detrimental and that's why we have burnout and all that.
 
 [36:42] **Henry:** I think what you said, learning to not do anything is good. And it really is a skill, especially in our day where if you're in line for something or you're on subway, you always have to do something, learn something, get better at something, but maybe we should get better at not doing anything.
 

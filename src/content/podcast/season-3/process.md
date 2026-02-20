@@ -33,9 +33,9 @@ quotes:
 
 [00:32] **Henry:** I kind of feel like tech is a very specific type of thing, it's like the computer or phone. And when we read the philosophers, I get the sense that it's a lot more broad. McLuhan talks this idea of technology as an extension of your body. It shows that any tool can be a technology, even writing itself. It's not just this literal, physical thing.
 
-[00:53] **Maggie:** Right. The definition of tool is probably more contextual. I do wonder what people used to use the word for, before digital mediums came up? So if you used the word technology in the 1920s, before computation, cause now we use it interchangeably with that, right. Well, like anything that involves a digital microchip must be technology.
+[00:53] **Maggie:** Right. The definition of tool is probably more contextual. I do wonder what people used to use the word for, before digital mediums came up? So if you used the word technology in the 1920s, before computation, cause now we use it interchangeably with that, right. Well, anything that involves a digital microchip must be technology.
 
-[01:15] **Maggie:** I mean, people call writing a technology or they'll call language a technology, but in the broader philosophical context, we don't really think of it that way. So to broaden it back out to what it may be used to mean.
+[01:15] **Maggie:** People call writing a technology or they'll call language a technology, but in the broader philosophical context, we don't really think of it that way. So to broaden it back out to what it may be used to mean.
 
 [01:28] **Henry:** In the day to day life, you don't really recognize it as such. And that's the influence that it has on us.
 
@@ -45,13 +45,13 @@ quotes:
 
 > "The goal of both pieces is to broaden the terms in which we discuss “technology.”" - How Technology Grows
 
-[01:46] **Maggie:** But he had this point in the beginning about technology as a process. Or like three different kinds, right. Technology as tools, technology as instructions, and technology as process knowledge. So tacit knowledge, you know, embodied knowledge, but sort of at a community scale, how do a whole group of people hold communal knowledge together.
+[01:46] **Maggie:** But he had this point in the beginning about technology as a process. Or like three different kinds, right. Technology as tools, technology as instructions, and technology as process knowledge. So tacit knowledge, embodied knowledge, but sort of at a community scale, how do a whole group of people hold communal knowledge together.
 
 [02:05] **Henry:** Right. Tools are like our pots and pans. I guess he's using a food analogy. So then the instructions are like your recipes, but then you can have the best tools, right, just like we talked about previously with code editors. If you don't know how to use the tools or understand what the documentation is about, then it doesn't really matter. And that's the embodied part of, we would say that you need experience or someone to help you through that.
 
 > "You can give someone a well-equipped kitchen and an extraordinarily detailed recipe, but unless he already has some cooking experience, we shouldn’t expect him to prepare a great dish." - How Technology Grows
 
-[02:33] **Maggie:** I love that idea. And maybe he had a line. I'm not gonna be able to say it as perfectly, but that a pot and a pan suggests how you should use it if it's designed well. So it has both embodied knowledge and external knowledge in it, right? So it's an artifact, but the artifact teaches you how to use itself in a certain way. Right, like the door knob asks to be turned by the way it's designed. And so our physical tools, compel us into certain performances or certain processes with them.
+[02:33] **Maggie:** I love that idea. And maybe he had a line. I'm not gonna be able to say it as perfectly, but that a pot and a pan suggests how you should use it if it's designed well. So it has both embodied knowledge and external knowledge in it, right? So it's an artifact, but the artifact teaches you how to use itself in a certain way. Right, like the door knob asks to be turned by the way it's designed. Our physical tools compel us into certain performances or certain processes with them.
 
 [03:03] **Maggie:** I was thinking about documents really on the web, and the affordances of using websites. So the physical affordance of a computer mouse, is that really different to the affordance of a documentation website. Cause I would want to assume that the physical object has more embodied knowledge in it. Easier to figure out how to use it, versus the web medium feels less like it has embodied knowledge in it, but I might be making assumptions.
 
@@ -59,13 +59,13 @@ quotes:
 
 #### You can't hide the age of physical objects
 
-[03:50] **Henry:** We were talking about earlier this idea that Aaron brought up about: how come like sites that are old, [you can't really tell that it's old](https://twitter.com/aaronzlewis/status/1290920665026039808?s=20), unless someone puts a date. Like the content literally says this is old, but then in a old book, you can tell it's been used, it has markings on it. There's a stain from like coffee or whatever, but we don't put that in our website because that's the medium. We'd rather just tell you.
+[03:50] **Henry:** We were talking about earlier this idea that Aaron brought up about: how come sites that are old, [you can't really tell that it's old](https://twitter.com/aaronzlewis/status/1290920665026039808?s=20), unless someone puts a date. Like the content literally says this is old, but then in a old book, you can tell it's been used, it has markings on it. There's a stain from like coffee or whatever, but we don't put that in our website because that's the medium. We'd rather just tell you.
 
 [04:16] **Maggie:** Yeah. I do like that idea too. You can't hide the age of physical objects as well. Like if a book is old, it's difficult to make it look new. You'd have to really put effort in right. That's archival work.
 
-[04:27] **Maggie:** Whereas a website, if it was built in 1995, unless they've kept the graphic design the same. And I do love the idea that.. I mean, the primary way we are able to tacitly tell the age of a website is through visual design. Like you can look at that in websites and go, okay, no one has touched this in 1994. It's wonderfully retro. But if, you know, they just threw bootstrap on it, suddenly all of that timeline knowledge would disappear.
+[04:27] **Maggie:** Whereas a website, if it was built in 1995, unless they've kept the graphic design the same. And I do love the idea that.. The primary way we are able to tacitly tell the age of a website is through visual design. Like you can look at that in websites and go, okay, no one has touched this in 1994. It's wonderfully retro. But if, you know, they just threw bootstrap on it, suddenly all of that timeline knowledge would disappear.
 
-[04:56] **Maggie:** And what if, I mean, this is so speculative, you know, if the web had been built where there were visual requirements for ages of websites, some sort of way you could confirm how old something was, because if you can't, I mean, I don't know if it really does matter that much, but it just gives us less information about it and gives us less context for where it came from and who wrote it in one.
+[04:56] **Maggie:** And what if, this is so speculative, if the web had been built where there were visual requirements for ages of websites, some sort of way you could confirm how old something was, because if you can't, I mean, I don't know if it really does matter that much, but it just gives us less information about it and gives us less context for where it came from and who wrote it in one.
 
 [05:18] **Henry:** Yeah, I think not thinking about that makes the content that much more important. When you're reading, the only thing that matters is like what you're reading. And you can still infer based on like, Oh, they use certain words. We don't use it anymore, right.
 
@@ -83,7 +83,7 @@ quotes:
 
 [07:27] **Maggie:** If you're just trying to make sure you're this ever growing, you know, past self is getting caught up.
 
-[07:35] **Henry:** Oh, that's so funny. Cause that is really making me think like, I mean, I guess it's based on the term digital gardening, it is a maintenance thing. And it's like, I wonder when we're going to start seeing burn out on digital gardening, because it's such a fun thing now, but are you responsible?
+[07:35] **Henry:** Oh, that's so funny. Cause that is really making me think, I guess it's based on the term digital gardening, it is a maintenance thing. And it's like, I wonder when we're going to start seeing burn out on digital gardening, because it's such a fun thing now, but are you responsible?
 
 [07:52] **Henry:** Well, you wrote this on this day and that was recent, so you still think that. Makes you more accountable, which is good, but I think those are things that you didn't have to worry about.
 
@@ -99,7 +99,7 @@ quotes:
 
 [09:37] **Henry:** Yeah, cryogenics.
 
-[09:39] **Maggie:** Cryogenics. Mmm. I mean, they're a fascinating group because it's fulfilling this dream of we'll never die, and we'll just get to live. Yeah. Avoiding the fear of death. But I had never made that connection before, when I think about our obsession with saving everything and data centers and everything in the cloud forever and nothing being deleted. And that's funny, that could be some sort of extension of us wanting to live forever.
+[09:39] **Maggie:** Cryogenics. Mmm. They're a fascinating group because it's fulfilling this dream of we'll never die, and we'll just get to live. Yeah. Avoiding the fear of death. But I had never made that connection before, when I think about our obsession with saving everything and data centers and everything in the cloud forever and nothing being deleted. And that's funny, that could be some sort of extension of us wanting to live forever.
 
 [10:03] **Maggie:** And now that there's this new movement of exploring different ways of being on the internet with personal blogs. Maybe that's striking too high of a chord with digital gardening. But that we have the chance to sort of reinvent our assumptions about how digital medium should work and that we can choose to have websites die.
 
@@ -129,15 +129,15 @@ quotes:
 
 [12:26] **Maggie:** This idea of the dream of generalized AI is in many ways that the language talks about it sounds like it's trying to recreate a kind of God for people who maybe are from a nonreligious background. And I've been curious about the whole thing because there's no sense of embodiment in any of the AI discussion.
 
-[12:42] **Maggie:** It's just like, okay, we're going to build a brain in the machine. And it's really funny, like reading people like Polanyi, or everything we've been talking about about embodied knowledge. If you have a brain in a machine, how does it know what up and down is? And left and right, and front and back, and heavy and light? And the experience of having a body? If it doesn't have that, like it isn't capable of understanding human thought and rationality and cognition like on a fundamental level. That's a conversation that never happens in AI.
+[12:42] **Maggie:** It's like, okay, we're going to build a brain in the machine. And it's really funny, like reading people like Polanyi, or everything we've been talking about about embodied knowledge. If you have a brain in a machine, how does it know what up and down is? And left and right, and front and back, and heavy and light? And the experience of having a body? If it doesn't have that, like it isn't capable of understanding human thought and rationality and cognition like on a fundamental level. That's a conversation that never happens in AI.
 
-[13:13] **Maggie:** So I mean, now I'm appreciating so much this concept that in traditional Christian thought, like you're saying there's no escape from the body. That's not the dream. That there's still some form of body that is always assumed to be there. And yet that isn't carrying over into more modern forms of ideas of higher being.
+[13:13] **Maggie:** So now I'm appreciating so much this concept that in traditional Christian thought, like you're saying there's no escape from the body. That's not the dream. That there's still some form of body that is always assumed to be there. And yet that isn't carrying over into more modern forms of ideas of higher being.
 
 [13:29] **Henry:** Yeah. And not just that it's important, but that the body is a good thing. And I think that's hard to remember. This is hard to talk about, but like a theology of suffering, a theology of a body. What is the point of disease, and going through all these struggles, and the fact that we're not perfect, and we decay and die. And I think in a non theistic view, how can those things be good? And so comfort is our greatest aspiration. And you know, and it's hard. I don't want to say suffering is all good. It's not. People that are suffering from a chronic disease, how do we think about these people? Why do we think that these people are important? And I think that if we're trying to get rid of the body, you're implicitly saying that they have less worth.
 
 [14:12] **Maggie:** Right. Right. I don't want to have to say the efficacy of suffering, the practicality of it. There's so many traditions that have pointed out how there is a purpose to suffering, it can be good in lots of ways and has an important role to play.
 
-[14:27] **Maggie:** I mean, all this is the entire Buddhism, right? Like life is suffering. Or, you know, stoicism, right. Goes on about this a lot, that you're supposed to do engage in certain degrees of suffering to teach yourself that it's inevitable and you can withstand it. And it's not the worst thing in the world to feel discomfort. And it has important things to teach you. I really love that line of thinking a lot.
+[14:27] **Maggie:** All this is the entire Buddhism, right? Life is suffering. Or, stoicism, right. Goes on about this a lot, that you're supposed to do engage in certain degrees of suffering to teach yourself that it's inevitable and you can withstand it. And it's not the worst thing in the world to feel discomfort. And it has important things to teach you. I really love that line of thinking a lot.
 
 [14:46] **Maggie:** But then maybe only because so much of dominant culture now denies that, that it is like the pursuit of comfort, the pursuit of escaping the body. You try to avoid pain, decay and, eventual death. Fear of sprinting away from death at all cost like the kind of MO of modern culture.
 
@@ -181,7 +181,7 @@ quotes:
 
 #### Capitalist cosmology and self-help
 
-[19:50] **Maggie:** Yeah. I mean, I do love all the ways that it shows up in modern culture outside of any religious connotation. I mean, when you talk about the self help industry or especially the obsession around habit forming. You know, the behavioral sciences.
+[19:50] **Maggie:** Yeah. I mean, I do love all the ways that it shows up in modern culture outside of any religious connotation. When you talk about the self help industry or especially the obsession around habit forming. You know, the behavioral sciences.
 
 [20:04] **Henry:** Yeah, all the books that came out.
 
@@ -199,7 +199,7 @@ quotes:
 
 [21:04] **Henry:** Yeah. I think this work ethic is related around just the idea of doing, instead of the idea of being. And I think it's so hard because like you said, the capitalist environment and thinking, how can you not be that way? We are people that buy things or do things for the sake of money, and it's hard to get out of that mindset.
 
-[21:26] **Maggie:** This is probably more specific to maybe the culture we're part of. Part of quote, unquote, the tech industry, people thinking online, how even now, like money's being kind of flipped out.. like intellectual clout. Where now the thing that gains you status and value in certain online communities is having a really thoughtful blog and writing a lot and tweeting clever things. No one's as concerned about whether you display wealth, but you have to display like intellectual prowess as your currency.
+[21:26] **Maggie:** This is probably more specific to maybe the culture we're part of. Part of quote, unquote, the tech industry, people thinking online, how even now, money's being kind of flipped out.. intellectual clout. Where now the thing that gains you status and value in certain online communities is having a really thoughtful blog and writing a lot and tweeting clever things. No one's as concerned about whether you display wealth, but you have to display like intellectual prowess as your currency.
 
 #### Doing the One to Many for the One to One
 
@@ -227,7 +227,7 @@ quotes:
 
 #### Over-participation
 
-[25:03] **Maggie:** I mean, Babel of course is like something you will thought about this so much. I mean, do you really feel the obligation to really like cast the net wider, like bring in a larger group of people, even though you're also struggling with what Nadia called [the stadium issue](https://twitter.com/Daniel_E_Davies/status/1289948204994158592?s=20) where you have too many people wanting to contribute? And you can't. It's the overwhelm of like, okay, not this many people can try to contribute one small thing. We need a smaller core group who have more context to do it.
+[25:03] **Maggie:** I mean, Babel of course is like something you will thought about this so much. I mean, do you really feel the obligation to really like cast the net wider, bring in a larger group of people, even though you're also struggling with what Nadia called [the stadium issue](https://twitter.com/Daniel_E_Davies/status/1289948204994158592?s=20) where you have too many people wanting to contribute? And you can't. It's the overwhelm of like, okay, not this many people can try to contribute one small thing. We need a smaller core group who have more context to do it.
 
 [25:32] **Henry:** Yeah. So the desire for getting as many people as possible thing. That's always there and trying not to think that way, but it's hard not to, because that's just our culture. Her point about over participation is real.
 
@@ -269,6 +269,6 @@ quotes:
 
 [31:51] **Maggie:** And it was most of the documentaries is this very odd funny story of this factory in Detroit. People come in who have to redesign a whole buildings because the Feng Shui is off, cause it's going into the cultural differences and having like the American managers go to China. And there's some great scenes of even the Chinese workers who have to come over and being given lessons on what Americans are like. It's just great. Cause it's just like makes it very explicit what the culture looks like.
 
-[32:15] **Maggie:** But this just reminds me of that so much. That there was all this tacit knowledge. The Americans didn't know how to handle the glass without breaking it. And they didn't know how to efficiently do it without it leading to injuries. And they couldn't just learn it, the factory was a mess for years and they had to like do all this cultural exchange work for it to finally like get up and running..
+[32:15] **Maggie:** But this just reminds me of that so much. That there was all this tacit knowledge. The Americans didn't know how to handle the glass without breaking it. And they didn't know how to efficiently do it without it leading to injuries. And they couldn't just learn it, the factory was a mess for years and they had to do all this cultural exchange work for it to finally get up and running..
 
 [32:34] **Henry:** Thanks for listening to this episode of Hope in Source. If you'd like to continue the conversation, you can join our discord, or find me on Twitter @left_pad. If you'd like to check out the transcript with links and references, please visit hopeinsource.com.

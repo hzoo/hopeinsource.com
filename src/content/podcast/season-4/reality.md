@@ -29,25 +29,25 @@ quotes:
 
 > [Esther's website](https://www.estherlightcapmeek.com)
 
-[00:11] **Esther:** And that's what I think you're saying you experience. I mean, what you've read of [Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) and [Newbigin](https://en.wikipedia.org/wiki/Lesslie_Newbigin) and you're saying, well, this is just what I do in my job, you know? So you're working with real people in a convivial sort of way in GitHub, right.
+[00:11] **Esther:** And that's what I think you're saying you experience. What you've read of [Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) and [Newbigin](https://en.wikipedia.org/wiki/Lesslie_Newbigin) and you're saying, well, this is just what I do in my job. So you're working with real people in a convivial sort of way in GitHub, right.
 
-[00:31] **Esther:** And your _Hope in Source_ thing, that's your wonderful play on words. I mean, hope is a _personed_ affair, right? And so you've rooted the open source in the person. So very cool.
+[00:31] **Esther:** And your _Hope in Source_ thing, that's your wonderful play on words. Hope is a _personed_ affair, right? So you've rooted the open source in the person. Very cool.
 
-[00:48] **Henry:** Thank you for that. It's good to kind of hear what you think about even the title itself and thinking like, the point of it is to say well, the source code is written by a person, right. And of course, as a Christian, you might say that like our hope is in a person as well, so it's not just like piece of text.
+[00:48] **Henry:** Thank you for that. It's good to hear what you think about even the title itself and thinking, the point of it is to say well, the source code is written by a person, right. And of course, as a Christian, you might say that our hope is in a person as well, so it's not just a piece of text.
 
-[01:05] **Henry:** I guess that's a really underlying point is that in my community of programmers, the people matter. It's like a stereotype to think that what matters is the code that you write? This is something I struggle with.
+[01:05] **Henry:** That's a really underlying point is that in my community of programmers, the people matter. It's like a stereotype to think that what matters is the code that you write? This is something I struggle with.
 
-[01:16] **Henry:** Thinking that my worth as a person or programmer, especially on like GitHub is how many lines of code that you wrote, right? And I guess in academia it could be like, how many papers or books you wrote. It's like very similar kind of measuring. And how do you kind of fight that?
+[01:16] **Henry:** Thinking that my worth as a person or programmer, especially on GitHub is how many lines of code that you wrote, right? And in academia it could be how many papers or books you wrote. Very similar kind of measuring. And how do you fight that?
 
 #### Creative Subsidiary Scrambling
 
 [01:33] **Esther:** I think what you've got going on in there is what I would say is _creative subsidiary scrabbling_. Which is what ensembles do together to invite a larger real. So it's very interpersonal. It's generous, it's creative, it's making. And because that's your job, you just feel naturally at home in that. And I don't think you feel alone.
 
-[02:00] **Esther:** And I think we all struggle with temptations to think, okay, am I keeping up or am I worth my salt.. But I don't think it's any different in your job than it is in mine and anybody else's, you know. We have to combat kind of that looking elsewhere and just kind of keep our own creativity in our own collaborative mutuality. It takes trust.
+[02:00] **Esther:** And I think we all struggle with temptations to think, okay, am I keeping up or am I worth my salt.. But I don't think it's any different in your job than it is in mine and anybody else's, you know. We have to combat that looking elsewhere and just keep our own creativity in our own collaborative mutuality. It takes trust.
 
-[02:26] **Henry:** Going into trust. Open source is interesting because like a church, you're asking people to serve or volunteer. There's a few things you're trusting. If you're the one using open source, you're trusting that the person that wrote their code didn't do something bad or maybe I guess there's bugs in it. But you're trusting that they're doing a good job. And then if you're asking someone to help, you're trusting that they have good faith too.
+[02:26] **Henry:** Going into trust. Open source is interesting because like a church, you're asking people to serve or volunteer. There's a few things you're trusting. If you're the one using open source, you're trusting that the person that wrote their code didn't do something bad or maybe there's bugs in it. But you're trusting that they're doing a good job. And then if you're asking someone to help, you're trusting that they have good faith too.
 
-[02:50] **Henry:** I like I guess ideally that open source doesn't necessarily have to be about money. You're not paying someone to do it. They're just doing it because they want to.. Well, I mean, it could be a part of the job. And that's why we're basically living off of donations, but then it gets kind of tricky.. Well kind of the crux of it is that the billion dollar tech companies that we all know, maybe not love anymore, the Googles and the Facebooks, they're using this open source and they don't have to give back. I mean, that's kind of the whole point. And so sometimes there's this kind of feeling of should they give back
+[02:50] **Henry:** I think ideally open source doesn't necessarily have to be about money. You're not paying someone to do it. They're just doing it because they want to.. Well, it could be a part of the job. And that's why we're living off of donations, but then it gets tricky.. The crux of it is that the billion dollar tech companies that we all know, maybe not love anymore, the Googles and the Facebooks, they're using this open source and they don't have to give back. That's the whole point. And so sometimes there's this feeling of should they give back
 
 [03:25] **Esther:** So how do you think oughta happen about that?
 
@@ -63,7 +63,7 @@ quotes:
 
 #### The Gift
 
-[04:21] **Esther:** Have you read.. I dunno how much you think about artistry or the arts.. So I'm writing a book on that right now with regard to my philosophy. And so I've been reading books by artists on art and kind of incorporating that into my proposals.
+[04:21] **Esther:** Have you read.. I dunno how much you think about artistry or the arts.. So I'm writing a book on that right now with regard to my philosophy. And so I've been reading books by artists on art and incorporating that into my proposals.
 
 [04:40] **Esther:** But there's this one classic book, it's classic now, called _The Gift_. And it's by Louis Hyde. Have you heard of this book?
 
@@ -85,21 +85,21 @@ quotes:
 
 [06:32] **Esther:** Yep. That's right. So he writes the Logic_ of Liberty_, but he spends a lot of time in _Personal Knowledge_ on just how the scientific community works. And he liked that phrase, the society of explorers. And that actually is what the title of the _Polanyi Society_ originally was, was _The Society of Explorers_. So that's why we're so cool.
 
-[06:56] **Henry:** I think there's a lot of parallels then, because it's like science is a _public good_, a word we use now in the market I guess. It's like non-excludable and non-rivalrous. You can't prevent anyone from using your idea, science is just ideas.
+[06:56] **Henry:** I think there's a lot of parallels then, because science is a _public good_, a word we use now in the market. It's like non-excludable and non-rivalrous. You can't prevent anyone from using your idea, science is just ideas.
 
-[07:09] **Henry:** Just like open source, once it's out there. I can't like prevent anyone from using it, whether I don't like them. It kind of feels like the water, air sort of thing. And I think science is the same way. And then how do you fund that? I guess our only default option is government grants or like some rich person gives us money because they're a patron.
+[07:09] **Henry:** Just like open source, once it's out there. I can't like prevent anyone from using it, whether I don't like them. It kind of feels like the water, air sort of thing. And I think science is the same way. And then how do you fund that? Our only default option is government grants or some rich person gives us money because they're a patron.
 
 [07:29] **Esther:** So you make a product and then you sell your product. Like for me, as a scholar and an author, I would be effectively doing the same thing because you can tap anybody's work with a footnote, right. And then you hope you can sell your books, and then maybe you trust that somebody will invite you to come and speak.
 
 [07:51] **Esther:** There's no exchange of of money going on in this yet. I value the opportunity to talk with not only you for the first time, but your audience and that's kind how that goes too. And you know, our real goal in life, I think, is making a difference in the world. So, obviously there's reward in that, but you gotta eat!
 
-[08:16] **Henry:** No, exactly. And if you're able to eat, then you are willing to do things for free or just because you want to, right. Everyone naturally wants to help people. And it's just that we all face this kind of like, this tension. I don't always wanna calculate, oh, is this worth it? Or like how much money am I gonna make on this? Or like this kind of thing. Be more generous, right?
+[08:16] **Henry:** No, exactly. And if you're able to eat, then you are willing to do things for free or just because you want to, right. Everyone naturally wants to help people. And it's just that we all face this tension. I don't always wanna calculate, oh, is this worth it? Or how much money am I gonna make on this? Be more generous, right?
 
 [08:36] **Esther:** Yeah. I think there's something to anticipating that as you are generous, there will be fruit for you. There's some Bible about that. It's not the stingy person who is rewarded so in the larger scheme of how reality works, cool things come your way, as you bless others.
 
 #### Polanyi's Interpersonal View of Reality
 
-[09:03] **Henry:** I wanna talk more about Polanyi, so I think that could be a good segue. I feel like there's something there around seeking out, I guess, truth or whatever it is. And it kind of what, talks back to you? You've said like how knowing is like a dance. I like these bodily metaphors.
+[09:03] **Henry:** I wanna talk more about Polanyi, so I think that could be a good segue. I feel like there's something there around seeking out truth or whatever it is. And it talks back to you? You've said like how knowing is like a dance. I like these bodily metaphors.
 
 [09:19] **Esther:** Yeah. And interpersonal ones too. Thinking about my own proposals about how knowing works and now I'm also trying to write about the real. I really in a key way take my original orientation from some of Polanyi's ideas. But I've augmented them creatively to really feature the interpersonal as maybe the fundamental dynamic of reality.
 
@@ -115,7 +115,7 @@ quotes:
 
 [11:31] **Esther:** Then I will know that I am known. And I've suggested in my own work that we already know, as we are known. It's just that it's gonna be really cleaned up, when we get glory. But you know, we have communion face to face now. And I would say we only know as we're known now. That's part of my _covenant epistemology_, is to say that to know is also to be known.
 
-[11:58] **Henry:** I guess we can go into that. We used a lot of words that people aren't probably familiar with.
+[11:58] **Henry:** We can go into that. We used a lot of words that people aren't probably familiar with.
 
 #### Covenant Epistemology
 
@@ -133,7 +133,7 @@ quotes:
 
 [14:00] **Esther:** And what he means by that is that, all of our knowing has a two level structure of _attending from_ and _attending to._ So relying on clues or skills or powers to attend to, to find, to shape a transformative integrative pattern.
 
-[14:22] **Esther:** And I think we all know kind of the experience of having an aha moment where, where things that didn't add up, suddenly coalesce and everything gets transformed. We even call it an _epiphany_, right. That little moment of insight really is the key to seeing what Polanyi has in mind by subsidiary focal integration.
+[14:22] **Esther:** And I think we all know the experience of having an aha moment where things that didn't add up, suddenly coalesce and everything gets transformed. We even call it an _epiphany_, right. That little moment of insight really is the key to seeing what Polanyi has in mind by subsidiary focal integration.
 
 [14:46] **Esther:** So if you're learning a skill, I talk about bike riding a lot, or reading a book or whatever. You can remember what it was like beforehand, when things did not add up. So you're fixating on the bike. Your body is not working out for you. You're sure you're gonna die by you know..
 
@@ -153,7 +153,7 @@ quotes:
 
 [16:42] **Esther:** You have an unspecified sense of future prospects that you can't even name. So there's always this sense of future possibilities. And that's what confirms to you in the moment that you've had the aha moment.
 
-[16:58] **Esther:** So in other words, every pronouncement, when you make a discovery and say, oh, da, da, da, da. What that does is it kind of opens the world to you. And that as I've written about that over the years, which that actually was what I wrote my dissertation on, was this contact with reality, that started seemed to me to be person like.
+[16:58] **Esther:** So in other words, every pronouncement, when you make a discovery and say, oh, da, da, da, da. What that does is it kind of opens the world to you. And that as I've written about that over the years, which that actually was what I wrote my dissertation on, was this contact with reality, that started to seem to me to be person like.
 
 [17:18] **Esther:** So in a first book I wrote called _Longing to Know_. I said, it's not so much that reality answers your questions as that it explodes them. Reality really is in the driver's seat. So it walks in and takes over.
 
@@ -221,9 +221,9 @@ quotes:
 
 [25:30] **Esther:** So in this new place where I live, it's an old place and it's like the first ever time in my life I've had a real front porch. And to have somebody over to have cup of tea is quite doable. I think the colder, weather's probably good for us anyway, to get that face to face thing is just really, really important.
 
-[25:50] **Esther:** But I'm in no way gonna despise Zoom and Twitter. I mean, Henry, I'm just getting the privilege of meeting you and you live in New York. How could I ever have gotten to you? So you settle for Zoom, if that's what you got. And actually it offers some other possibilities, like you can connect with audiences that otherwise in person would be costly and dangerous and all that kind of stuff.
+[25:50] **Esther:** But I'm in no way gonna despise Zoom and Twitter. I mean, Henry, I'm just getting the privilege of meeting you and you live in New York. How could I ever have gotten to you? So you settle for Zoom, if that's what you got. And actually it offers some other possibilities, you can connect with audiences that otherwise in person would be costly and dangerous and all that.
 
-[26:17] **Henry:** I guess if the goal would be to yeah, meet in person, if it was possible.
+[26:17] **Henry:** If the goal would be to meet in person, if it was possible.
 
 [26:22] **Esther:** You know, one reason I moved so merrily and I don't move easily, let me tell you. But I moved because I was isolated, and, as a mom, there's one move to make and that's to be near your daughter. You know what I'm saying? So that's like, all I need, I don't even need to see her. I just need to know she's down there where I could get to her if I needed.
 
@@ -237,7 +237,7 @@ quotes:
 
 [27:46] **Henry:** I think so. You can compare that to the modern epistemology. You are the detached observer, you're focused on looking at other people. And if you think you're this disembodied entity, you're not even realizing you could be someone that could be looked at and known. Like this whole one way versus two way.
 
-[28:04] **Esther:** Yep. Plus what we're so good at in modernity is voyeurism. So we've got this objective observation. I mean, yay, the observation word, but that is so not the kind of scrutiny you want. That's not the thing that's going to make you be you. What's gonna make you be you is the loving regard of the other.
+[28:04] **Esther:** Yep. Plus what we're so good at in modernity is voyeurism. So we've got this objective observation. Yay, the observation word, but that is so not the kind of scrutiny you want. That's not the thing that's going to make you be you. What's gonna make you be you is the loving regard of the other.
 
 [28:26] **Esther:** And so the gaze of the other, that torpedoes this observation scrutiny thing. And again, back to the modernist mindset, where we think that only focal information is knowledge. That automatically deals in this observational, voyeuristic sort of a thing. Control, power, manipulation modification, all that stuff, all that baggage is connected to this defective modernist, epistemology and so..
 
@@ -273,7 +273,7 @@ quotes:
 
 #### Commitment
 
-[32:45] **Henry:** Another thing I wanted to talk about was maybe like _commitment_ and how that relates to Polanyi. I mean, just generally it's hard to commit to things. Given like open source, like why would I want to put myself out there to join a project or do something when I know I might not get anything back. So there's an aspect of like faith and trust.,
+[32:45] **Henry:** Another thing I wanted to talk about was _commitment_ and how that relates to Polanyi. Just generally it's hard to commit to things. Given open source, why would I want to put myself out there to join a project or do something when I know I might not get anything back. So there's an aspect of faith and trust.
 
 [33:05] **Esther:** Okay. Commitment. That's a great one. And I'd also like to add the word _consent_.
 
@@ -303,7 +303,7 @@ quotes:
 
 [37:25] **Esther:** Okay, here's a movie that I saw a long time ago, which was filmed in Pittsburgh. That _Joker_ was living out one big no. I mean, he was, he was obviously just like a tissue of no to everything, right. And, and that's what made him such a despicable character. Philosopher [Eleonore Stump](https://en.wikipedia.org/wiki/Eleonore_Stump) has coined the term _willed loneliness_, and that's what's going on with Joker, you know? And you know, all of us can have periods in our life where we have got to retrain ourselves to say yes, when our typical response to that point has been to say no. But knowing requires that you have got to give yourself to the prospect of college education, if you're going to get it. Or you've gotta give yourself to whatever your job is for you to get somewhere with that.
 
-[38:25] **Henry:** I think of other words, like humility. Kind of laying down, like a surrender to something, which is, I guess it doesn't have to be faith in God, but just trust. I guess that is the opposite of control. Knowing that I can't guarantee it's not certain. Having confidence. It might not happen. And actually taking a risk, but I'm still willing to go outta my way to like to try this thing. And serendipity, right?
+[38:25] **Henry:** I think of other words, like humility. Laying down, a surrender to something, which doesn't have to be faith in God, but just trust. That is the opposite of control. Knowing that I can't guarantee it's not certain. Having confidence. It might not happen. And actually taking a risk, but I'm still willing to go outta my way to like to try this thing. And serendipity, right?
 
 [38:49] **Esther:** And so, in my approach to philosophizing, I really like to spend a whole lot of time talking about ordinary acts of knowing. But I feel like every ordinary act of knowing has this kind of silent witness to the reality of God. And so it's like intrinsically.. For you to love a garden well, or to be an artist or to do the work that you're doing. You know, there is this surrender, this commitment. And then this sense that when you have a discovery, it's a gift from on high. The whole thing is so naturally open to the gracious in breaking, coming of God. You know, which I'll leave to him to do, but I feel as if every act of knowing bear's witness to that.
 

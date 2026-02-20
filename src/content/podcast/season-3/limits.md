@@ -31,7 +31,7 @@ quotes:
 
 > "I'm not entirely sure what my beat is, but it's not gaming" - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
-[00:24] **Henry:** Maybe a common view of gaming, especially for people that don't necessarily play games, is something like: a lot of video games are violent and that's not good for you, so video games are bad. And it's very like a simple view of gaming, right?
+[00:24] **Henry:** Maybe a common view of gaming, especially for people that don't necessarily play games, is something like: a lot of video games are violent and that's not good for you, so video games are bad. And it's a very simple view of gaming, right?
 
 > "When parents and other concerned adults—recall Hillary Clinton's mid-2000s criticism of Grand Theft Auto—worry about games they are usually worried about violent or sexualized content."
 
@@ -41,7 +41,7 @@ quotes:
 
 [00:53] **Michael:** Right. So that was generally the idea, right. That instead of focusing..
 
-[00:57] **Michael:** So I'm of the age where when I was gaming, Super Nintendo was the platform that was really popular, and [Mortal Kombat](https://en.wikipedia.org/wiki/Mortal_Kombat) had just come out. A lot of the same type of stuff was in the air about Mortal Kombat. it's violence, how graphic it was. And, you know, I played a good bit of it with my friends at the time. I never really felt tempted by violence.
+[00:57] **Michael:** So I'm of the age where when I was gaming, Super Nintendo was the platform that was really popular, and [Mortal Kombat](https://en.wikipedia.org/wiki/Mortal_Kombat) had just come out. A lot of the same type of stuff was in the air about Mortal Kombat. it's violence, how graphic it was. And I played a good bit of it with my friends at the time. I never really felt tempted by violence.
 
 [01:16] **Michael:** So I kind of get that idea that there's a tenuous connection here, and know there's a good bit of debate in the literature about whether there's any kind of causal relationship or not. But right, whether that can be established or not.
 
@@ -51,7 +51,7 @@ quotes:
 
 [01:49] **Michael:** And then we're also sort of asking, not just am I avoiding bad things, but am I pursuing good things, virtuous things. So that's a frame that doesn't offer a simplistic answer. You don't just sort of insert Fortnite into that and come out with a yes, play it; no, don't play it, kind of response, right.
 
-[02:07] **Michael:** But I think it helps fill out.. give more thickness to the moral reflection that might be involved, right. So it complicates it and highlights some ways about thinking about the problem, which are not, you know, again, easily reducible to a set of rules: just play for 20 minutes a day and you'll be okay.
+[02:07] **Michael:** But I think it helps fill out.. give more thickness to the moral reflection that might be involved, right. So it complicates it and highlights some ways about thinking about the problem, which are not, again, easily reducible to a set of rules: just play for 20 minutes a day and you'll be okay.
 
 > "..with regards to both gaming and other forms of technology, I'm chiefly struck by the limited scope of our moral reasoning. As with so many discussions about the moral or ethical status of technology, we are focused on questions of harm Indeed, we might even say that we are focused on questions of measurable harm. In this way, debates of this sort already play out on ground circumscribed by a certain technocratic vision."
 
@@ -67,13 +67,13 @@ quotes:
 
 > "Let us quickly acknowledge that playing Fortnite is not a disembodied experience." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
-[03:24] **Michael:** You know, we were all there in a room playing together and it was a kind of artifact around which a certain kind of social interaction formed.
+[03:24] **Michael:** We were all there in a room playing together and it was a kind of artifact around which a certain kind of social interaction formed.
 
 [03:31] **Michael:** Now that social interaction is happening in a different mode and a different shape. And I think asking the question, what are the outcomes of this? What are the differences? And paying close attention to, as you say, how this is being used, I think is always important.
 
 > "We're left needing to pay close attention to how playing Fornite is a differently embodied experience than gathering at the mall or attending a church service or dropping in at a cocktail party, and then determining the significance of that difference." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
-[03:46] **Henry:** There was a trend of like this idea of couch play. Oh, actually before that would have been like arcades, right? And that was a certain experience where you had to go somewhere and actually a place to meet people. And eventually, we had home consoles where you would have LAN parties where you bring your computers. That was a communal experience.
+[03:46] **Henry:** There was a trend of this idea of couch play. Oh, actually before that would have been like arcades, right? And that was a certain experience where you had to go somewhere and actually a place to meet people. And eventually, we had home consoles where you would have LAN parties where you bring your computers. That was a communal experience.
 
 [04:03] **Henry:** And eventually we had the internet. Everyone has their own console. You don't have to go to everyone's house. And now we have quarantine where like, even more so right? You are together, but in some sense you're not together.
 
@@ -81,9 +81,9 @@ quotes:
 
 [04:26] **Michael:** Right. The first trajectory outlined from the arcade, to the home with others, to being in the home, sort of physically isolated, but still connected online. Yeah, exploring what are the ramifications of those different modes of sociality, I think are valuable.
 
-[04:42] **Michael:** And yeah, you know, that's funny. I have Catan on my shelf somewhere. It's been a little while now where we played with friends, before kids, as you know, people may age want to say.
+[04:42] **Michael:** And yeah, that's funny. I have Catan on my shelf somewhere. It's been a little while now where we played with friends, before kids, as people my age want to say.
 
-[04:49] **Michael:** So that space and that kind of activity reverts to an analog medium, in that context. Yeah. I don't have any more thoughts on that at the moment, except maybe to connect with the trend towards vinyl records as a medium of choice for some people. Just interesting ways in which, you know, analog kind of reappears, yeah.
+[04:49] **Michael:** So that space and that kind of activity reverts to an analog medium, in that context. Yeah. I don't have any more thoughts on that at the moment, except maybe to connect with the trend towards vinyl records as a medium of choice for some people. Just interesting ways in which analog reappears, yeah.
 
 #### Gardeners and Carpenters
 
@@ -93,7 +93,7 @@ quotes:
 
 [05:29] **Henry:** I think it speaks a lot to the idea of relationship. Going back to a video game analogy, is treating people like they're NPCs in a game where they have this set, rote thing, where if you say X and they say Y.
 
-[05:40] **Michael:** Right. [Alison Gopnik](https://en.wikipedia.org/wiki/Alison_Gopnik) wrote a [book](https://en.wikipedia.org/wiki/The_Gardener_and_the_Carpenter) kind of developing that metaphor, and it struck me as a useful one. Because yeah, the difference is whether you see your child as something that you can fabricate, essentially to design in whatever shape or form you want them to come out as. And that's sort of the carpenter model where you have a piece of raw material and then you just apply your carpeting, you know, your parenting tools in this case. And out comes this product in the shape that you desire.
+[05:40] **Michael:** Right. [Alison Gopnik](https://en.wikipedia.org/wiki/Alison_Gopnik) wrote a [book](https://en.wikipedia.org/wiki/The_Gardener_and_the_Carpenter) kind of developing that metaphor, and it struck me as a useful one. Because yeah, the difference is whether you see your child as something that you can fabricate, essentially to design in whatever shape or form you want them to come out as. And that's sort of the carpenter model where you have a piece of raw material and then you just apply your parenting tools in this case. And out comes this product in the shape that you desire.
 
 > "In the carpenter model, parents tend to view raising children as an engineering problem in which the trick is to apply the right techniques in order to achieve the optimal results. In this view, “parenting” is something you do. It is work." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
@@ -101,7 +101,7 @@ quotes:
 
 > "The focus isn’t on “parenting” as an activity, but on being a parent as a relationship structured by love." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
-[06:22] **Michael:** So there's a limit to your ability to generate the product that you desire here. Even using that language, I think, betrays the temptation. And so understanding that, you know, you can care for and provide an environment conducive to their flourishing, speaking of children now, just as you would for a plant. That's a very different kind of way of thinking about the child.
+[06:22] **Michael:** So there's a limit to your ability to generate the product that you desire here. Even using that language, I think, betrays the temptation. And so understanding that you can care for and provide an environment conducive to their flourishing, speaking of children now, just as you would for a plant. That's a very different kind of way of thinking about the child.
 
 [06:43] **Michael:** It goes back to the division that's really fundamental. I think we talked about this last time we talked. This fundamental sort of division between what you receive as a gift and what you only experience as something that you made, that you control, that you master. That divide, I think, runs through those two kinds of modes of parenting as well. Yeah.
 
@@ -109,9 +109,9 @@ quotes:
 
 #### Technocratic Parenting
 
-[07:07] **Henry:** I think that relates a lot to the views of Illich, we're talking about treating people as commodities. In our computer age, you know, we like to think of everything as a machine.
+[07:07] **Henry:** I think that relates a lot to the views of Illich, we're talking about treating people as commodities. In our computer age, we like to think of everything as a machine.
 
-[07:17] **Michael:** Yeah. And I will say that sort of machine metaphor goes back much further. There's a rather well known French text from the 1700s called [Man as Machine](https://en.wikipedia.org/wiki/Man_a_Machine). And that metaphor is persistent to today and, you know, sort of changed in some respects under the old days we might have called cybernetic conditions.
+[07:17] **Michael:** Yeah. And I will say that sort of machine metaphor goes back much further. There's a rather well known French text from the 1700s called [Man as Machine](https://en.wikipedia.org/wiki/Man_a_Machine). And that metaphor is persistent to today and changed in some respects under the old days we might have called cybernetic conditions.
 
 > "The human body is a machine which winds its own springs." - [Man a Machine](http://bactra.org/LaMettrie/Machine/)
 
@@ -123,21 +123,21 @@ quotes:
 
 [08:09] **Michael:** Right, some variation. And that happens then through our use of those tools, which is perhaps the most obvious ways in which that happens. So then what I'm suggesting is that it may happen in even more subtle ways when the tools become metaphors.
 
-[08:21] **Michael:** And to go back to the parenting question, right? So I wrote that newsletter in part, because, you know, as I mentioned in there, I get asked this question a lot and for a while, I didn't like to answer it because I didn't have kids. And, and I thought, well, you know, I'm not about to lecture parents about something I have very little experience with, or no experience with. But I felt a little bit of liberty now that I've got two of my own.
+[08:21] **Michael:** And to go back to the parenting question, right? So I wrote that newsletter in part, because, as I mentioned in there, I get asked this question a lot and for a while, I didn't like to answer it because I didn't have kids. And I thought, well, I'm not about to lecture parents about something I have very little experience with, or no experience with. But I felt a little bit of liberty now that I've got two of my own.
 
 > "Having now been a parent for nearly five years... of course, the questions have also taken on a more personal and urgent quality." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
-[08:41] **Michael:** But often what people want to know are very straightforward things. This goes back to the gaming question, even right. Just should I do it or not? You know, should I ban this game from my child's life? If I let them play, how many hours a day do I let them play right.
+[08:41] **Michael:** But often what people want to know are very straightforward things. This goes back to the gaming question, even right. Just should I do it or not? Should I ban this game from my child's life? If I let them play, how many hours a day do I let them play right.
 
 > "“Too much” implies a relative standard. Relative to what, then? Is there also “too little”? What would “just right” look like? I don’t believe it’s possible to answer those questions, or questions like them, in the abstract." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
-[08:54] **Michael:** They're all very sort of pragmatic, rule oriented questions. And that's fine. You know, I understand the need for practical considerations of that sort.
+[08:54] **Michael:** They're all very sort of pragmatic, rule oriented questions. And that's fine. I understand the need for practical considerations of that sort.
 
 [09:04] **Michael:** But the deeper stuff is often going on at another level and another dimension. So when we think about children and technology, the screen time question now really dominates that discourse.
 
 [09:16] **Michael:** So what I tried to do in the newsletter is start at a much different place, which is to say that technology as a kind of metaphor that underlies our thinking about human beings and how we become the sorts of people that we are, that's already sort of operating at the level of how we even conceive of the task of parenting, right. Apart from whatever individual choices or specific choices we make about this, that, or the other device in our child's life.
 
-[09:43] **Michael:** Are we approaching the task of raising children from a technocratic mindset, right. From a technocratic frame. And so that's a level at which I think, you know, most parents aren't often thinking, but I think it's an important one as well.
+[09:43] **Michael:** Are we approaching the task of raising children from a technocratic mindset, right. From a technocratic frame. And so that's a level at which I think most parents aren't often thinking, but I think it's an important one as well.
 
 #### Capability and Responsibility
 
@@ -147,15 +147,15 @@ quotes:
 
 [10:23] **Henry:** So in that case, I'm basically being the same person. I'm trying to be the controlling person. Don't watch this. Don't look at this sort of thing. And I have to learn to let go. Well, they're going to do it anyway, if I tell them, right. And it's like, how do I really engage in that?
 
-[10:37] **Michael:** Yeah. That is interesting. And the impulse in cases like that is to make that very bright line, right. Just don't watch this, right. Don't look at this. And I think there's a place for that, you know, especially with young children. A lot of it I think comes down to this question of responsibility and capability, right?
+[10:37] **Michael:** Yeah. That is interesting. And the impulse in cases like that is to make that very bright line, right. Just don't watch this, right. Don't look at this. And I think there's a place for that, especially with young children. A lot of it I think comes down to this question of responsibility and capability, right?
 
-[10:56] **Michael:** What are young children capable of processing? And again, note the technological metaphor there for an essentially emotional work. So with older parents, obviously it's different to some degree, you know, they're not children per se, right. Although, I mean, I don't know here, I feel like, ugh, it's hard to even talk about this in a generic abstract way. Every case is different, but all that to say that, yeah, I see the similarity there.
+[10:56] **Michael:** What are young children capable of processing? And again, note the technological metaphor there for an essentially emotional work. So with older parents, obviously it's different to some degree, they're not children per se, right. Although, I mean, I don't know here, I feel like, ugh, it's hard to even talk about this in a generic abstract way. Every case is different, but all that to say that, yeah, I see the similarity there.
 
 [11:21] **Michael:** And ideally you want to, at least the way I think about, it is to help them mature into the kind of person that can wisely adjudicate these questions of what is good. How should I spend my time?
 
 > "Infants and toddlers won’t be able to deliberate about such matters with you, but my sense is that the sooner you’re able to bring children into some meaningful conversation about this kind of thing the better. Invite them to pursue the good and teach them by example to subject their use of any tool or device to that higher end." - [Michael](https://theconvivialsociety.substack.com/p/children-and-technology)
 
-[11:33] **Michael:** To be able to encounter material that we don't just have to say is taboo, but we can say here are some of the issues with it and allow them to think responsibly through that. And that's obviously, you know, it has its own challenges.
+[11:33] **Michael:** To be able to encounter material that we don't just have to say is taboo, but we can say here are some of the issues with it and allow them to think responsibly through that. And obviously it has its own challenges.
 
 [11:48] **Michael:** And then there's a question about whether that kind of approach is adequate in the conditions of digital media, right? Where there is just this overwhelming flood of information. We're just sort of swimming in it. It's disorienting.
 
@@ -163,7 +163,7 @@ quotes:
 
 [12:02] **Michael:** So yeah, these are challenging questions, both for the child and as you say even maybe for older adults, who are to some degree, apparently quite susceptible to some of the more prominent kinds of conspiracy theorizing that's capturing our political sphere.
 
-[12:18] **Henry:** Yeah, I guess it's a problem for all of us, I guess, because none of us have really figured out how to manage our attention and just what is going on. You've talked about this a lot, this impulse to want to be online and for me, even to be informed and to say something. And not being able to step away from it all, especially now, right? Yeah.
+[12:18] **Henry:** Yeah, I guess it's a problem for all of us, because none of us have really figured out how to manage our attention and just what is going on. You've talked about this a lot, this impulse to want to be online and for me, even to be informed and to say something. And not being able to step away from it all, especially now, right? Yeah.
 
 [12:45] **Michael:** Right. And I'm glad you made that point right, because I'm here talking about young children and adults, as if they are the ones with the problems, right. But no that's absolutely right. All of this.. As a human being you're in this world. At different stages of life, maybe the challenge presents itself differently, right. But we all struggle with this in one way, shape, or form.
 
@@ -173,11 +173,11 @@ quotes:
 
 > Newsletter: [Care, Friendship, Hospitality](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 
-[13:03] **Michael:** And the connection to Ilich, just to kind of sneak him in at the moment. I think, you know, Illich was preoccupied, especially, through the seventies with the question of [limits](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections) and scale and threshold, right.
+[13:03] **Michael:** And the connection to Ilich, just to kind of sneak him in at the moment. I think Illich was preoccupied, especially, through the seventies with the question of [limits](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections) and scale and threshold, right.
 
 [13:14] **Michael:** And I think this is really an essential point. It's one that I think is critical, the question of scale. Where the approach that you might take to consider the information ecosystem, Right? So in a pre-modern setting without the printing press site, right.
 
-[13:30] **Michael:** You're likely to encounter, you know, very discrete amounts of textual information, right. Or coded information, right. You encounter information all the time in reading, you know, where the wind is blowing or the cloud formations to determine whether it's going to rain right there. We live in an information rich environment.
+[13:30] **Michael:** You're likely to encounter very discrete amounts of textual information, right. Or coded information, right. You encounter information all the time in reading where the wind is blowing or the cloud formations to determine whether it's going to rain right there. We live in an information rich environment.
 
 [13:47] **Michael:** And so even in a pre-modern context, right. You're deciphering information of a sort. But thinking about kind of symbolic, human made information that's encoded in some way, shape or form in alphabetic symbols. And so a simple book is a precious commodity, right? Most people wouldn't necessarily even own a single book.
 
@@ -191,7 +191,7 @@ quotes:
 
 #### Two Thresholds, Accelerating Harms
 
-[15:10] **Michael:** But there is a question of whether you've not passed through a certain threshold, right. So, you know, Illich talks about how there are these two thresholds in medicine, for example. He begins [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality) with this.
+[15:10] **Michael:** But there is a question of whether you've not passed through a certain threshold, right. So, Illich talks about how there are these two thresholds in medicine, for example. He begins [Tools for Conviviality](https://en.wikipedia.org/wiki/Tools_for_Conviviality) with this.
 
 > "... opens with a discussion of what Illich called “two watersheds” in medicine" - [Michael](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)
 
@@ -199,7 +199,7 @@ quotes:
 
 [15:40] **Michael:** But then there's another threshold where the institution of medicine, when it kind of becomes institutionalized, begins now to reverse its gains in some respects, right.
 
-[15:51] **Michael:** And this is contested territory. I think a lot of people would have various opinions about how we think about these gains, right. But for Illich the prospects, for example, of having his life extended by a couple of years, but at the great cost to his quality of life or to his mobility or to his ability to be with friends and family. To be sort of, as we sometimes say, kind of "hooked up to a machine" just for a few more months of life. To him, that was an anathema.
+[15:51] **Michael:** And this is contested territory. I think a lot of people would have various opinions about how we think about these gains, right. But for Illich the prospects, for example, of having his life extended by a couple of years, but at the great cost to his quality of life or to his mobility or to his ability to be with friends and family. To be, as we sometimes say, "hooked up to a machine" just for a few more months of life. To him, that was an anathema.
 
 > ".. I do not think any weighing-up of risks entered into Illich's thinking. Indeed, he believed that the ever-growing emphasis on risk calculation in medicine constitues the ultimate disembodiment, because it invites people to think of thmselves not as unique persons but as members of an abstract class for which probilities can be calculated." - [Rivers North of the Future, pg 39](https://www.goodreads.com/book/show/253075.The_Rivers_North_of_the_Future)
 
@@ -213,7 +213,7 @@ quotes:
 
 #### Escalation as Default
 
-[16:59] **Michael:** You know, more of the same as a way of curing what is being caused by the thing you're applying, right? The application of the thing is the problem. And the only thing you know, to do is apply more of it. And so that dynamic, that principle that there's a point through which you cross a threshold and there is no adequate solution beyond that. Or at least nothing that sort of solves the problem you're facing, right.
+[16:59] **Michael:** More of the same as a way of curing what is being caused by the thing you're applying, right? The application of the thing is the problem. And the only thing to do is apply more of it. And so that dynamic, that principle that there's a point through which you cross a threshold and there is no adequate solution beyond that. Or at least nothing that sort of solves the problem you're facing, right.
 
 > "Solving a crisis by escalation seems not to have gone out of fashion. It signals, of course, a failure of imagination, but also an institutional imperative. What can an institution possibly offer you except more of itself?" - [Michael](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections))
 
@@ -233,7 +233,7 @@ quotes:
 
 [18:46] **Henry:** That's true because startup culture is scale. Getting as many users as possible. Engagement. And I think we're all slowly realizing that, yeah, we are hitting this threshold of a lot of things.
 
-[18:58] **Henry:** You know, like Facebook's goal is to connect everyone. It just seemed weird to say something like, maybe we shouldn't connect everyone. Maybe you shouldn't have Twitter. Even open source. It shouldn't be as open.
+[18:58] **Henry:** Facebook's goal is to connect everyone. It just seemed weird to say something like, maybe we shouldn't connect everyone. Maybe you shouldn't have Twitter. Even open source. It shouldn't be as open.
 
 > "For example, the one remedy for the problems it has unleashed that Facebook cannot contemplate is suspending operations. What is never questioned is the underlying ideology that connection is an unalloyed good and we always need more of it." - [Michael](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections))
 
@@ -253,17 +253,17 @@ quotes:
 
 [20:17] **Michael:** Are you talking about the limits that society places on the capacity of women to participate in the civic square, for example, or the public square, or are you talking about limits that essentially become prejudicial with respect to certain people. Also the question of who gets to pick these limits? What are they, how are they imposed, et cetera?
 
-[20:37] **Michael:** So it's a thorny question. To simply say, you know, we should recognize that limits are good. I think that's true. But obviously that doesn't solve the matter, because a lot of debate needs to follow from that.
+[20:37] **Michael:** So it's a thorny question. To simply say we should recognize that limits are good. I think that's true. But obviously that doesn't solve the matter, because a lot of debate needs to follow from that.
 
 [20:50] **Michael:** But this refusal.. I tend to come back to, our limits are sort of a given part of our humanity, right. That I am only body in one place. That I inhabit one moment in time as it were, right. That these temporal and spatial limits, they are fundamentally good.
 
 #### Attractive Limits
 
-[21:11] **Michael:** And **Wendell Berry**, who, you know, obviously has written a great deal about the temptation of limitlessness and it's ills, but he has this wonderful passage where he talks about whether we see limits as an inducement to elaboration.
+[21:11] **Michael:** And **Wendell Berry**, who obviously has written a great deal about the temptation of limitlessness and it's ills, but he has this wonderful passage where he talks about whether we see limits as an inducement to elaboration.
 
 > "… our human and earthly limits, properly understood, are not confinements but rather inducements to formal elaboration and elegance, to fullness of relationship and meaning. Perhaps our most serious cultural loss in recent centuries is the knowledge that some things, though limited, are inexhaustible … A small place, as I know from my own experience, can provide opportunities of work and learning, and a fund of beauty, solace, and pleasure—in addition to its difficulties—that cannot be exhausted in a lifetime or in generations." - Wendell Berry
 
-[21:23] **Michael:** You know, he says as a farmer, right, that one plot of land worked well and carefully and responsibly can be sustained for generations, right. It will provide it's fund of riches. But you have to recognize its own unique limits and work within those limits.
+[21:23] **Michael:** He says as a farmer, right, that one plot of land worked well and carefully and responsibly can be sustained for generations, right. It will provide it's fund of riches. But you have to recognize its own unique limits and work within those limits.
 
 [21:41] **Michael:** Any artist or anybody who works within the constraints of a genre or a particular tradition of dance, or even an athlete, you excel it at these differently. In their own ways beautiful human activities. By working within the limits that are imposed, right?
 
@@ -279,19 +279,19 @@ quotes:
 
 [22:56] **Henry:** Yeah. I was just thinking. We use this term like diminishing returns, but the threshold is saying that there's a point where it's not just diminishing returns, where it's negative returns, right.
 
-[23:05] **Michael:** Right, right, exactly. You know, and I'm obviously not a medical doctor. So I'll just offer this as what Illich argues, that passed the second threshold, he places that somewhere in the mid 20th century, we then begin to get the generation.. I forget the technical term for this, but of diseases that are caused by the medical profession, right.
+[23:05] **Michael:** Right, right, exactly. And I'm obviously not a medical doctor. So I'll just offer this as what Illich argues, that passed the second threshold, he places that somewhere in the mid 20th century, we then begin to get the generation.. I forget the technical term for this, but of diseases that are caused by the medical profession, right.
 
 > Thanks to a comment on [YouTube](https://www.youtube.com/watch?v=fojoWc1oCeQ&lc=UgyfXEtjjz2kI9Ad7114AaABAg) for pointing out the word, [iatrogenesis](https://en.wikipedia.org/wiki/Iatrogenesis), as a negative condition resulting from further medical intervention. (aka when the cure becomes it's own problem)
 
 [23:24] **Michael:** One example that he gives is the radiation that frequent x-rays would have generated, until that got figured out. It is just not a question of diminishing returns, it is a question of harms caused by the application of that technique past a certain threshold. Yeah.
 
-[23:41] **Henry:** Right. I know that the term he was using was like counterproductivity or something.
+[23:41] **Henry:** Right. I know that the term he was using was counterproductivity or something.
 
 [23:45] **Michael:** Yes. In terms of the general principle, right. I was trying to remember the term for when the application of medicine becomes harmful, right. The work of doctors itself becomes harmful.
 
 #### Being Mortal
 
-[23:53] **Henry:** I think your point about extending life, I think is really interesting. There was a book I also didn't finish reading, called [Being Mortal](http://atulgawande.com/book/being-mortal/). And it talks about the same issue, essentially we are really good at extending life and like letting people live longer, but we don't know how to die well.
+[23:53] **Henry:** I think your point about extending life, I think is really interesting. There was a book I also didn't finish reading, called [Being Mortal](http://atulgawande.com/book/being-mortal/). And it talks about the same issue, essentially we are really good at extending life and letting people live longer, but we don't know how to die well.
 
 [24:11] **Michael:** Yes. This is Atul Gawande right?
 
@@ -299,35 +299,35 @@ quotes:
 
 > We’ve been wrong about what our job is in medicine. We think our job is to ensure health and survival. But really it is larger than that. It is to enable well-being." - [Atul Gawande](https://en.wikipedia.org/wiki/Atul_Gawande)
 
-[24:23] **Michael:** Right, exactly. And, you know, again, I always try to make sure to strike a reasonable and nonjudgmental note of this, right. So I get it, right. If I have a loved one who is ill. Or I myself am ill, right. Life is precious, right. Life is good. And so to want to extend it, to want to try everything possible to extend it.
+[24:23] **Michael:** Right, exactly. And I always try to make sure to strike a reasonable and nonjudgmental note of this, right. So I get it, right. If I have a loved one who is ill. Or I myself am ill, right. Life is precious, right. Life is good. And so to want to extend it, to want to try everything possible to extend it.
 
-[24:47] **Michael:** I understand, you know, I think I understand where that comes from. And so it's not as if I just want to say, you know, look, dude, sorry, you're gonna die. So just give it up at this point and make it seem as this sort of easy move to make psychologically, emotionally whatnot.
+[24:47] **Michael:** I think I understand where that comes from. And so it's not as if I just want to say, look, dude, sorry, you're gonna die. So just give it up at this point and make it seem as this sort of easy move to make psychologically, emotionally whatnot.
 
 [25:01] **Michael:** But that idea. There used to be, right, this tradition, the art of dying, right? It was a way of.. you live in such a way so that you're prepared to die well. That whole way of thinking about mortality, and I've only read some bits of Gawande's book, but that whole way of thinking about mortality is lost to us.
 
 [25:22] **Michael:** And I wonder to what degree, to reflect on this from a theological perspective, if that is a function of just coming to see that this is sort of it, right? This is the one shot you get at life. And so the only thing to do is to extend it indefinitely. And I don't know if that's part of the picture as well. Although I will say this attitude isn't just limited to secular society, right. I think you're as likely to see it within the churches without, and then we get into all sorts of other questions there.
 
-[25:52] **Henry:** Yeah. I think you were the one that pointed me to like, see us C.S. Lewis' thinking. I forgot the title of what he wrote.
+[25:52] **Henry:** Yeah. I think you were the one that pointed me to C.S. Lewis' thinking. I forgot the title of what he wrote.
 
 [25:58] **Michael:** Is it [Learning in Wartime](https://bradleyggreen.com/attachments/Lewis.Learning%20in%20War-Time.pdf)?
 
 [25:59] **Henry:** Yeah, cause there's two of them actually.
 
-[26:01] **Michael:** That's right. There was the other one about [Living in A Nuclear Age](https://static1.squarespace.com/static/5ae75f34e74940380c1926c3/t/5e7d10d2e673e149c64d162f/1585254611117/C.S.+Lewis+-+Living+in+a+Nuclear+Age.pdf). Yeah. I think that towards the end of that essay, which is part of what I quoted in the newsletter, this past summer. There's this realization that yes, you're, you're going to die.
+[26:01] **Michael:** That's right. There was the other one about [Living in A Nuclear Age](https://static1.squarespace.com/static/5ae75f34e74940380c1926c3/t/5e7d10d2e673e149c64d162f/1585254611117/C.S.+Lewis+-+Living+in+a+Nuclear+Age.pdf). Yeah. I think that towards the end of that essay, which is part of what I quoted in the newsletter, this past summer. There's this realization that yes, you're going to die.
 
 > "In other words, do not let us begin by exaggerating the novelty of our situation. Believe me, dear sir or madam, you and all whom you love were already sentenced to death before the atomic bomb was invented: and quite a high percentage of us were going to die in unpleasant ways." - C.S. Lewis
 
 #### Death as a Technical Problem
 
-[26:14] **Michael:** Maybe it's some war, maybe it's, you know, in a hospital bed. Death is a reality that we face. And so, you know, the desire to extend our lives indefinitely tends to.. It comes at a cost, right? It comes at a cost, psychologically and emotionally.
+[26:14] **Michael:** Maybe it's some war, maybe it's in a hospital bed. Death is a reality that we face. And so the desire to extend our lives indefinitely tends to.. It comes at a cost, right? It comes at a cost, psychologically and emotionally.
 
 [26:35] **Michael:** And it's interesting because there is this increasingly non fringe movement around radical [life extension](https://en.wikipedia.org/wiki/Life_extension), and even the language or the idea of approaching death as a technical problem, right? It's an engineering problem. We just have to apply the appropriate technique and we can overcome death.
 
-[26:55] **Michael:** You know, needless to say, I tend to think this is a fundamentally mistaken way of perceiving it, but it is wrapped up with this modern technological project, right. It's something you find the seeds of even in Descartes and Bacon.
+[26:55] **Michael:** Needless to say, I tend to think this is a fundamentally mistaken way of perceiving it, but it is wrapped up with this modern technological project, right. It's something you find the seeds of even in Descartes and Bacon.
 
-[27:08] **Henry:** Right. And I guess, modern society helps us forget that we are mortal, I guess. In this pandemic time, it's like a reminder that, Hey, this is possible and this will happen. And I think it's a good thing in the sense to realize that maybe we haven't thought about these greater questions of life.
+[27:08] **Henry:** Right. And I guess modern society helps us forget that we are mortal. In this pandemic time, it's like a reminder that, Hey, this is possible and this will happen. And I think it's a good thing in the sense to realize that maybe we haven't thought about these greater questions of life.
 
-[27:25] **Henry:** I keep pointing this out, but my old roommate just randomly messaged me in the pandemic. And he was like, Hey, I've been thinking about heaven and just like what that means. And I was like, well, it's, it felt like, kind of out of nowhere.
+[27:25] **Henry:** I keep pointing this out, but my old roommate just randomly messaged me in the pandemic. And he was like, Hey, I've been thinking about heaven and what that means. And I was like, well, it felt kind of out of nowhere.
 
 [27:38] **Michael:** Right. Yeah. I mean, there was this little school of art, the [vanitas](https://en.wikipedia.org/wiki/Vanitas) tradition, right? So it draws on the idea of vanity, right. Vanities of vanities, all is vanity, which is the old rendering of that famous passage in Ecclesiastes. And so you have this tradition of painting in, I think it's in the Baroque period where it's especially popular, where it's just a scene of things like, an hourglass, a skull, other symbolic representations of your mortality, right.
 
@@ -343,7 +343,7 @@ quotes:
 
 [29:06] **Michael:** And so you saw death, right? This is the point, right. Death was amongst you, right? Now we cordon it off, right? It happens out of sight. There's a kind of taboo to it, and we have, I think, a difficult time reckoning with its presence emotionally, psychologically in our lives.
 
-[29:27] **Michael:** And Hannah Arendt talks about this too, how in the modern world, biological life becomes the highest value. And it basically trumps everything, every other value. So there are a lot of different theoretical strands that kind of land at the same place, which is, you know, that we now view biological life as this thing to be preserved at all costs, right. And that this is a, in some respects, a uniquely modern attitude.
+[29:27] **Michael:** And Hannah Arendt talks about this too, how in the modern world, biological life becomes the highest value. And it basically trumps everything, every other value. So there are a lot of different theoretical strands that kind of land at the same place, which is that we now view biological life as this thing to be preserved at all costs, right. And that this is a, in some respects, a uniquely modern attitude.
 
 > "We saw before that in the rise of society it was ultimately the life of the species which asserted itself." - Hannah Arendt, The Human Condition pg 321
 
@@ -370,7 +370,7 @@ quotes:
 >
 > For Whom the Bell Tolls
 
-[30:22] **Henry:** Oh, that's interesting. So this sort of reminds me of when people leave their job or they leave the city. It's not always announced. People just kind of like leave and then you find out a few months later, like, Oh, what happened to this person? And they're like, Oh yeah, they left.
+[30:22] **Henry:** Oh, that's interesting. So this sort of reminds me of when people leave their job or they leave the city. It's not always announced. People just kind of leave and then you find out a few months later, like, Oh, what happened to this person? And they're like, Oh yeah, they left.
 
 [30:33] **Henry:** But at the same time we have the opposite thing. Well, I know exactly what someone's tweeting or taking an Instagram photo of their food, but like not these things.
 

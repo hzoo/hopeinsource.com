@@ -27,7 +27,7 @@ quotes:
 
 [0:27] **Henry:** And when you mean verification, do you mean proving that it's right?
 
-[0:31] **Stephen:** Yeah, exactly. So formal verification. There's lots of different techniques. People do pen and paper proof sometimes. They're actually quite good for humans, but they are sometimes wrong or don't actually correspond to the software that people really run. And then there's more machine checkable and other techniques like [model checking](https://en.wikipedia.org/wiki/Model_checking) or [symbolic execution](https://en.wikipedia.org/wiki/Symbolic_execution). And they all have scalability problems of different kinds. I just sort of started to think, well, software keeps getting bigger. This isn't good. And..
+[0:31] **Stephen:** Yeah, exactly. So formal verification. There's lots of different techniques. People do pen and paper proof sometimes. They're actually quite good for humans, but they are sometimes wrong or don't actually correspond to the software that people really run. And then there's more machine checkable and other techniques like [model checking](https://en.wikipedia.org/wiki/Model_checking) or [symbolic execution](https://en.wikipedia.org/wiki/Symbolic_execution). And they all have scalability problems of different kinds. I started to think, well, software keeps getting bigger. This isn't good. And..
 
 [0:54] **Henry:** Is there an end?
 
@@ -47,7 +47,7 @@ quotes:
 
 [3:37] **Henry:** If we talk about [Illich](https://en.wikipedia.org/wiki/Ivan_Illich) and this kind of thinking, it doesn't mean we don't think that technology has good parts and that we should get rid of it entirely.
 
-[3:45] **Stephen:** Right. So what do we want to say about Illich? So I chanced upon Ivan Illich because I like riding my bike, and I get around by bike. And I have a sort of another Twitter account where I just follow kind of random stuff, including a lot of things about cycling. And someone just tweeted this a link to a passage from one of his books, [Energy and Equity](http://debate.uvm.edu/asnider/Ivan_Illich/Ivan%20Illich_Energy%20and%20Equity.pdf). And I was just.. Immediately I read this and I was transfixed because I thought.. This is talking about software.
+[3:45] **Stephen:** Right. So what do we want to say about Illich? So I chanced upon Ivan Illich because I like riding my bike, and I get around by bike. And I have another Twitter account where I just follow random stuff, including a lot of things about cycling. And someone just tweeted this a link to a passage from one of his books, [Energy and Equity](http://debate.uvm.edu/asnider/Ivan_Illich/Ivan%20Illich_Energy%20and%20Equity.pdf). And immediately I read this and I was transfixed because I thought.. This is talking about software.
 
 [4:11] **Stephen:** It wasn't talking about software. But it could have been talking about software, cause it was written during the oil crisis in the seventies. He was debunking the idea that the problem in society was somehow a shortage of energy.
 
@@ -57,13 +57,13 @@ quotes:
 
 > "Large-system programming has over the past decades been such a tar pit, and many great and powerful beasts have thrashed violently in it. Most have emerged with running systems--few have met goals, schedules, and budgets. Large and small, massive or wiry, team after team has become entangled in the tar. No one thing seems to cause the difficulty--any particular paw can be pulled away. But the accumulation of simultaneous and interacting factors brings slower and slower motion. Everyone seems to have been surprised by the stickiness of the problem, and it is hard to discern the nature of it. But we must try to understand it if we are to solve it." - The Tar Pit, Chapter 1 of The Mythical Man-Month
 
-[4:43] **Stephen:** And, you know, somehow yeah, the next system will make some things better, but it will make some things worse. And it will be more complex than the old system. And somehow there'll be more costs associated with it. It's almost like [Fred Brooks](https://en.wikipedia.org/wiki/Fred_Brooks)' tarpit, he was talking about a single project where if you don't take care of your technical debt, then you try and put one foot forward, but you're just sinking into the tarpit. And eventually you're stuck. But I think a tarpit on a sort of society-wide scale is really both what Illich was talking about and also what is happening with software.
+[4:43] **Stephen:** And somehow yeah, the next system will make some things better, but it will make some things worse. And it will be more complex than the old system. And somehow there'll be more costs associated with it. It's almost like [Fred Brooks](https://en.wikipedia.org/wiki/Fred_Brooks)' tarpit, he was talking about a single project where if you don't take care of your technical debt, then you try and put one foot forward, but you're just sinking into the tarpit. And eventually you're stuck. But I think a tarpit on a sort of society-wide scale is really both what Illich was talking about and also what is happening with software.
 
-[5:16] **Henry:** Almost to the point where he was saying that like anything faster than a bike, we shouldn't even.. Not that we shouldn't have, because clearly he also took flights and stuff. But that if everyone had a bike, that's different from everyone having a car. And he'll bring up like traffic jams. So.. wondering the equivalent of traffic jams?
+[5:16] **Henry:** Almost to the point where he was saying that anything faster than a bike, we shouldn't even.. Not that we shouldn't have, because clearly he also took flights and stuff. But that if everyone had a bike, that's different from everyone having a car. And he'll bring up traffic jams. So.. wondering the equivalent of traffic jams?
 
 #### The All-consuming Tech Industry
 
-[5:31] **Stephen:** Well it's an ever bigger and more all consuming tech industry. It's kind of fascinating. I really hate the word tech actually. It's only really come on the scene in the last few years. And I wish we could expunge it from our vocabulary. It's interesting how so many businesses, you know, Uber is some kind of taxi service, but it's tech. And everyone is kind of anxious to be tech, but not to be a part of the domain.
+[5:31] **Stephen:** Well it's an ever bigger and more all consuming tech industry. It's kind of fascinating. I really hate the word tech actually. It's only really come on the scene in the last few years. And I wish we could expunge it from our vocabulary. It's interesting how so many businesses, Uber is some kind of taxi service, but it's tech. And everyone is kind of anxious to be tech, but not to be a part of the domain.
 
 [5:53] **Stephen:** It's a complex phenomenon and I don't want to reduce it to something simple, but it's a sign that technology is kind of starting to dominate the human activity if you like. When people talk about, automation will take over in a lot of sectors, and so there'll be fewer jobs of actually doing the baseline work. But there'll be more tech jobs to sort of be behind the scenes, actually running things. Running all this infrastructure, keeping all the software up to date, dealing with change in the software that's caused by other changes in software in other places and so on and so on. And, well, is it necessarily a better world?
 
@@ -75,7 +75,7 @@ quotes:
 
 [7:06] **Stephen:** And that's a fascinating idea and that's very much the core of Illich's work, certainly his sort of 1970s work. He sort of applied this idea in three different contexts, really. One was schooling, so organized education. Another was health care and the other was transport.
 
-[7:23] **Stephen:** And it's kind of fascinating that he takes aim.. You know, we get used to modern healthcare. We say, of course that keeps us alive. You know, how can this be a bad thing? And he was arguing well, yes, it does. But how do we add up the negatives, right? It basically allows us to be kept alive in an increasingly unhealthy society. So how do we add up the negatives?
+[7:23] **Stephen:** And it's kind of fascinating that he takes aim.. We get used to modern healthcare. We say, of course that keeps us alive. How can this be a bad thing? And he was arguing well, yes, it does. But how do we add up the negatives, right? It basically allows us to be kept alive in an increasingly unhealthy society. So how do we add up the negatives?
 
 [7:41] **Stephen:** And he has this passage that I quoted in my talk about how "society can have no quantitative standards by which to add up the illusion, social control, prolonged suffering, loneliness, genetic deterioration, and frustration produced by medical treatment". He doesn't mean all medical treatment. He means that the full machine, if you like, of modern medicine, applied at the society-wide scale.
 
@@ -89,7 +89,7 @@ quotes:
 
 #### The Politics of Open Source
 
-[9:37] **Stephen:** And that's a sort of political angle to Illich's thinking, which is that he was definitely inclined towards socialism, but not in a typical way at all. There are both elements of libertarianism and of socialism in which his writing and it's fascinating to sort of tease those out.
+[9:37] **Stephen:** And that's a political angle to Illich's thinking, which is that he was definitely inclined towards socialism, but not in a typical way at all. There are both elements of libertarianism and of socialism in which his writing and it's fascinating to sort of tease those out.
 
 [9:52] **Henry:** He feels like he's a "both and" sort of thing, when he brings up this word conviviality, right. Each individual person is unable to kind of pursue their own creative ideas because of dependencies on institutions and services, right. Because you outsource what you could do for other people. And so he wants this kind of autonomy and that's kind of that libertarian part. But then also don't forget that we all live in a society together and that we should be interdependent. And so how do we have both of those?
 
@@ -99,7 +99,7 @@ quotes:
 
 [11:06] **Henry:** It's always been interesting for anyone, including myself, that's gotten into software and open source later and just not even knowing the history, right. We're kind of facing the consequences of that in terms of people getting burnt out doing things for free.
 
-[11:22] **Stephen:** Yep. And it's very interesting how one of the sort of mantras open source is, Oh, well, you know, if you don't like it, just fork the code base and do whatever else you want to do. And that's always a very naive sort of argument because software projects are political entities and you need people to follow you in order for your efforts to sort of be useful and to be amplified. So it's kind of the mythical freedom. There's often a lot of political reasons why that's not going to get you the outcome that you want.
+[11:22] **Stephen:** Yep. And it's very interesting how one of the mantras of open source is, Oh, well, if you don't like it, just fork the code base and do whatever else you want to do. And that's always a very naive sort of argument because software projects are political entities and you need people to follow you in order for your efforts to sort of be useful and to be amplified. So it's kind of the mythical freedom. There's often a lot of political reasons why that's not going to get you the outcome that you want.
 
 [11:50] **Henry:** Right. It's more like a legal freedom, like you're allowed to. But it kind of implies that you don't have to put in the time to actually maintain it. Or even that you're choosing to take the code and then never contribute it back. But you have to interact with those people. Even the idea of forking sends a message. And it's like, do you really want to do that? You're right, it is very political and involves people. You're allowed to isolate code, but you can't do that in society.
 
@@ -109,7 +109,7 @@ quotes:
 
 #### Software Convergence to Pi
 
-[13:06] **Stephen:** Yep. It's really interesting that people take activity as a good thing. I guess there are some exceptions to that. The one I always think of is TeX, the typesetting engine because [Don Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) arranged that the version number is converging on pi. You know, I just love that idea that it's not about endless forward progress. It's about achieving a particular result and just converging on exactly that thing.
+[13:06] **Stephen:** Yep. It's really interesting that people take activity as a good thing. I guess there are some exceptions to that. The one I always think of is TeX, the typesetting engine because [Don Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) arranged that the version number is converging on pi. I just love that idea that it's not about endless forward progress. It's about achieving a particular result and just converging on exactly that thing.
 
 [13:28] **Henry:** Wow. That's a really good way to put it.
 
@@ -119,7 +119,7 @@ quotes:
 
 [14:07] **Henry:** I mean, you could argue that that need was always there, but the person that made it wasn't aware of that. This is interesting too, whether it's a good thing to kind of incorporate those needs into the existing product, or if it's so different, maybe it needs to be a new project. Is it better to call it a new name or just call it a new version?
 
-[14:27] **Stephen:** Yeah, no, it was a great question. It's definitely one of the themes of software. I guess it's sort of perceived that making a new thing is free. And we often think that progress happens by somebody designing a new system, which makes the old one obsolete. And so everyone switches over.
+[14:27] **Stephen:** Yeah, it's a great question. It's definitely one of the themes of software. I guess it's perceived that making a new thing is free. And we often think that progress happens by somebody designing a new system, which makes the old one obsolete. And so everyone switches over.
 
 #### Never Obsolete
 
@@ -137,7 +137,7 @@ quotes:
 
 #### Communicating with Aliens
 
-[16:59] **Stephen:** But there are some other niches where we don't do it. So when I started out in research, my PhD was actually about how to translate between different interfaces. So you have some software that uses one interface, but I want to migrate to using a different library, but that's got a totally different interface. So how can I link my old code with that? And yeah, you could just change all your code and just change the whole thing, port it to this totally different API, but that's going to be too much work. And so can we come up with a better way. And that problem, I didn't make that much of a dent in it. I got one reasonable publication and some smaller ones, but it's very much a problem that is not really on the radar of research at large. And even though it's kind of really old problem, so [JCR Licklider](https://en.wikipedia.org/wiki/J.C.R._Licklider), one of the early visionaries of ARPA talked about this communicating with aliens problem.
+[16:59] **Stephen:** But there are some other niches where we don't do it. So when I started out in research, my PhD was actually about how to translate between different interfaces. You have some software that uses one interface, but I want to migrate to using a different library, but that's got a totally different interface. So how can I link my old code with that? Yeah, you could just change all your code and port it to this totally different API, but that's going to be too much work. So can we come up with a better way. And that problem, I didn't make that much of a dent in it. I got one reasonable publication and some smaller ones, but it's very much a problem that is not really on the radar of research at large. Even though it's a really old problem -- [JCR Licklider](https://en.wikipedia.org/wiki/J.C.R._Licklider), one of the early visionaries of ARPA, talked about this communicating with aliens problem.
 
 [17:47] **Stephen:** And it's one that [Alan Kay](https://en.wikipedia.org/wiki/Alan_Kay) likes to talk about and [Bret Victor](https://bretvictor.com/) likes to talk about. I didn't know this at the time, but it's exactly what I was interested in during my PhD. But it really remains a weirdly niche thing. I wish I understood why it doesn't have more currency? I'm not sure.
 
@@ -149,13 +149,13 @@ quotes:
 
 [18:50] **Stephen:** Exactly. So then you say, Oh, well, how do we actually make this so that people could work at this level? And then you say, Oh, well, a human has to go in and they write all the glue code kind of by hand. So you write a translation layer, but it's very much a labor-intensive process for doing that.
 
-[19:06] So sort of finding a happy medium between those two extremes has been a pattern that my work has revisited from time to time, but there's an awful lot more work to be done in that space. But I feel like it's kind of like an instance of playing Tetris. It's like trying to find the right infrastructure that will make some of the complexity less visible.
+[19:06] Finding a happy medium between those two extremes has been a pattern that my work has revisited from time to time, but there's an awful lot more work to be done in that space. But I feel like it's kind of like an instance of playing Tetris. It's like trying to find the right infrastructure that will make some of the complexity less visible.
 
 #### The Radical Monopoly of the Recent
 
 [19:25] **Henry:** Yeah. I think you kind of talked about the concept without mentioning his term, but like radical monopoly. Actually, you said, tech has been slowly encroaching over everything.
 
-[19:35] **Stephen:** Yeah so it's this fascinating idea of radical monopoly. It definitely spoke to me when I read it in Tools for Conviviality. And he talked about how in the sort of seventies United States, there was a radical monopoly of the car, in that society was designed so that you had to use a car to get around and it was kind of impractical to survive without one. You could do it, but you confined yourself to the fringes. You weren't a full participant.
+[19:35] **Stephen:** Yeah so it's this fascinating idea of radical monopoly. It definitely spoke to me when I read it in Tools for Conviviality. And he talked about how in the seventies United States, there was a radical monopoly of the car, in that society was designed so that you had to use a car to get around and it was kind of impractical to survive without one. You could do it, but you confined yourself to the fringes. You weren't a full participant.
 
 [20:02] **Stephen:** So I thought what's the equivalent in software. And what I came up with was this idea of change, right. Always working with the latest thing. That's that's to me the most equivalent concept in software, because it's like the monopoly of the recent. If you want to use some old piece of software that you happen to know does what you want. And maybe it's simpler or performs better than some newer version. Yeah, you can do that, but you're confining yourself to the fringes, right? Because suddenly you need to install the old versions of a dozen other things, and suddenly you've got security problems to contend with maybe. Because everything is so interconnected, you've confined yourself to not being a real participant in the software community anymore. So that's this idea that the recent is a kind of monopoly.
 
@@ -175,7 +175,7 @@ quotes:
 
 [21:53] **Henry:** It's true at a like operating system level too. Say Mac has a new version, I never want to be on the new version.
 
-[21:59] **Stephen:** Yup. I don't even use a Mac, but you know, every time they release a new version, I get dozens of friends complaining on all kinds of social media about how their machine is broken and everything is terrible. Which is kind of funny. I shouldn't laugh. Sorry. I really sympathize with their difficulties. Because what normally happens with me as I don't reboot my machine for ages, and then I've accidentally installed some new package. I didn't mean to install new things, but I had to install some new thing as a consequence of some other thing. And then everything seems fine, but then I reboot and then nothing works.
+[21:59] **Stephen:** Yup. I don't even use a Mac, but every time they release a new version, I get dozens of friends complaining on all kinds of social media about how their machine is broken and everything is terrible. Which is kind of funny. I shouldn't laugh. Sorry. I really sympathize with their difficulties. Because what normally happens with me as I don't reboot my machine for ages, and then I've accidentally installed some new package. I didn't mean to install new things, but I had to install some new thing as a consequence of some other thing. And then everything seems fine, but then I reboot and then nothing works.
 
 [22:25] **Henry:** I'm also reminded of like every desktop program that you have, it's giving you a pop up to tell you to update, right. You have to always click on remind me later. It's like, what if every update we're making just makes things worse? But the assumption, like you said, in the back of our head is that we need to continue moving forward.
 
@@ -287,7 +287,7 @@ quotes:
 
 [38:50] Actually later in his life Illich got really interested in doing research into the history of the senses, like our taste and our smell. And how the book changed, how people read, And so how has the screen changed how we read.
 
-[39:05] **Stephen:** Yeah, no, I see this sort of effect a lot, where things are designed to be read in the medium that they're presented in. And that can have a radical effect on how they're written.
+[39:05] **Stephen:** Yeah, I see this effect a lot, where things are designed to be read in the medium that they're presented in. And that can have a radical effect on how they're written.
 
 [39:14] **Henry:** And he brought up monastic reading versus scholastic reading and how even in the book, it treats the words as isolated things. Versus before people read in prayer, in meditation, out loud even. Reading was a way of life for them even. And now it's just like a way to get information. It's funny cause I see a little bit of interest in that again.
 

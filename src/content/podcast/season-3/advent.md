@@ -46,13 +46,13 @@ quotes:
 
 [02:01] **Henry:** Yeah. I know you're talking about.
 
-[02:02] **Alex:** Pray to baby Jesus. But I think that's unfortunate because it really misses out on kind of the broader themes that the church is trying to instill during the season.
+[02:02] **Alex:** Pray to baby Jesus. But I think that's unfortunate because it really misses out on the broader themes that the church is trying to instill during the season.
 
 #### A Season of Double Vision
 
-[02:13] **Alex:** So I read an article recently. I forgot where it was, but it was talking about how advent is a season of double vision, where you're seeing like two different time periods at once. You're looking at the past and you're also looking into the future. And one could even sort of argue that Christmas is kind of the ultimate expression of God's arrival and coming.
+[02:13] **Alex:** So I read an article recently. I forgot where it was, but it was talking about how advent is a season of double vision, where you're seeing two different time periods at once. You're looking at the past and you're also looking into the future. And one could even argue that Christmas is the ultimate expression of God's arrival and coming.
 
-[02:40] **Alex:** Which, in another sense, is almost like a foretaste of Christ coming in full glory to judge the living and the dead, as you know our creed says. Many of the youth at my church recite every Sunday morning, to the extent that I think a lot of them are starting to remember it. But the question is like, did they really understand the full import of those words?
+[02:40] **Alex:** Which, in another sense, is almost like a foretaste of Christ coming in full glory to judge the living and the dead, as you know our creed says. Many of the youth at my church recite every Sunday morning, to the extent that I think a lot of them are starting to remember it. But the question is, did they really understand the full import of those words?
 
 [03:04] **Henry:** Wait, which creed?
 
@@ -84,7 +84,7 @@ quotes:
 
 [06:40] **Alex:** We already talked about this in prior conversations, but about the idea that you can remember something that you've never experienced. But it is such a part of who you are that you can even say that you remember it collectively as a people. And I think that's partially what memorials are for, to kind of perpetuate a collective memory and to pass it down through tradition, which is essentially what the church calendar is. It's helpful tradition.
 
-[07:16] **Henry:** So why don't a lot American churches participate in the calendar or not even participate, but like don't even know about it? A lot of people don't know what liturgy even means. Why do I need a calendar for it?
+[07:16] **Henry:** So why don't a lot American churches participate in the calendar or not even participate, but don't even know about it? A lot of people don't know what liturgy even means. Why do I need a calendar for it?
 
 [07:27] **Alex:** Hmm. Yeah. And that's mostly because of the Protestant history in the US. So what you have to remember is a lot of these church calendar activities, especially as they grew out of the budding Christian movements in the West and also in the East. These feasts start to become more elaborate, more complex, especially with meaning.
 
@@ -100,17 +100,17 @@ quotes:
 
 #### Being Cognizantly Ritualistic
 
-[11:13] **Henry:** I guess that's just like a general thing, how do we go about teaching people? You kinda need to say what's there, but they can't take it at face value. You should go through the motions, but eventually that's not enough. You have to move on to know like why are you doing this thing? Eventually you'll remove it later, because you're like, I don't actually know why I'm doing this.
+[11:13] **Henry:** I guess that's just like a general thing, how do we go about teaching people? You kinda need to say what's there, but they can't take it at face value. You should go through the motions, but eventually that's not enough. You have to move on to know why are you doing this thing? Eventually you'll remove it later, because you're like, I don't actually know why I'm doing this.
 
 [11:32] **Alex:** And that's actually part of the problem with a lot of our church Sunday schools: we never move past just teaching kids the answers.
 
 [11:44] **Henry:** Catechism, right.
 
-[11:44] **Alex:** Quote, unquote answers. Through catechism, through books that you would buy off of like Crossway, any kind of VBS material. You know, that's why in the church we sort of make fun of that, what we call like a Sunday school answer, right. It's like, it's just so cookie cutter. There's no depth. There's no complexity. There's no like real thought behind it. Is it wrong? No, not necessarily, right. But we don't prepare our students to actually think through complicated world issues,
+[11:44] **Alex:** Quote, unquote answers. Through catechism, through books that you would buy off of like Crossway, any kind of VBS material. You know, that's why in the church we sort of make fun of that, what we call like a Sunday school answer, right. It's like, it's just so cookie cutter. There's no depth. There's no complexity. There's no real thought behind it. Is it wrong? No, not necessarily, right. But we don't prepare our students to actually think through complicated world issues,
 
 [12:16] **Henry:** Exactly. It's all theoretical then, because it doesn't apply to your life and to the current moment. True understanding lets you to think different questions and answer other questions because of what you really know.
 
-[12:29] **Alex:** Yeah. And it's interesting that you say theoretical. Because in my mind, and this may be just how I'm looking at it, but theoretical almost assumes you understand, at least at a minimum, the abstract. But I think for most of the people who go through church Sunday school, they don't even understand theory, right. It's more like they're just being taught data points. Like just memorize these. And if someone asks you this question, just spit out this line of data or whatever. They still don't understand why all of this is kind of all encompassing. Like forget about practical application, you know, like we're not even there.
+[12:29] **Alex:** Yeah. And it's interesting that you say theoretical. Because in my mind, and this may be just how I'm looking at it, but theoretical almost assumes you understand, at least at a minimum, the abstract. But I think for most of the people who go through church Sunday school, they don't even understand theory, right. It's more that they're just being taught data points. Just memorize these. And if someone asks you this question, just spit out this line of data or whatever. They still don't understand why all of this is kind of all encompassing. Forget about practical application, you know, like we're not even there.
 
 [13:11] **Henry:** It's not even shallow. Each thing should kind of build on itself. You should be able to kind of make the connections in your mind.
 
@@ -230,7 +230,7 @@ quotes:
 
 [26:56] **Alex:** But what I think is hilarious is that he says that he liked the honor of the victory of matches, right. And I look at that and I go, yeah, me too. I'd rather play video games and make sure my enemies were destroyed and they bow and worship my APM on [StarCraft](https://en.wikipedia.org/wiki/StarCraft).
 
-[27:13] **Alex:** But I think it's so true. Part of the thing is like, as long as we don't tap into the traditions that we have, we isolate ourselves and we start to get this sort of, not necessarily arrogance, but we sort of get this understanding that we are just experiencing everything new, detached from the corporate human experience.
+[27:13] **Alex:** But I think it's so true. As long as we don't tap into the traditions that we have, we isolate ourselves and we start to get this sort of, not necessarily arrogance, but we sort of get this understanding that we are just experiencing everything new, detached from the corporate human experience.
 
 [27:37] **Henry:** The memory of others.
 
@@ -266,7 +266,7 @@ quotes:
 
 #### For Whom Should We Open Up To?
 
-[30:20] **Alex:** And this is not.. I'll put this out there as a minister and as a pastor, I know like asking someone to open up their lives to others.. I'm not saying that it's super beautiful with no negative things. Like, no, it's a risk. Like we all know it's a risk.
+[30:20] **Alex:** And this is not.. I'll put this out there as a minister and as a pastor, I know asking someone to open up their lives to others.. I'm not saying that it's super beautiful with no negative things. Like, no, it's a risk. Like we all know it's a risk.
 
 [30:42] **Alex:** And the question is always going to be is, is it worth taking that risk? And there's always the other question for who should we take that risk? Definitely would not advise opening up your life to serial abusers if you know them.
 
@@ -288,7 +288,7 @@ quotes:
 
 [34:05] **Henry:** We reciprocate that.
 
-[34:06] **Alex:** We participate in it. I do want to break one, not really myth, but one misconception I think it might be fun for the listeners. But Christmas, I was looking, I think it was Google search or something online. And they were talking about how like there's 25 days of Christmas. No, they're not 25 days of Christmas. There are four weeks of advent, which ends with Christmas. And Christmas is not one day. Christmas is 12 days. We have a song for this. It's called the 12 days of Christmas.
+[34:06] **Alex:** We participate in it. I do want to break one, not really myth, but one misconception I think it might be fun for the listeners. But Christmas, I was looking, I think it was Google search or something online. And they were talking about how there's 25 days of Christmas. No, they're not 25 days of Christmas. There are four weeks of advent, which ends with Christmas. And Christmas is not one day. Christmas is 12 days. We have a song for this. It's called the 12 days of Christmas.
 
 [34:44] **Alex:** And it ends with epiphany really. The introduction of the epiphany tide or to season of epiphany. And then we have a few days in between, and then we hit Lent. And start entering into the holiest part of the a Christian year. Yeah, good Friday and resurrection Sunday, but no one cares about the Saturday in between, which is like, just as important. Yeah. But we'll get there. We'll talk about that in a few months. All right. Thank you, Henry.
 

@@ -41,17 +41,17 @@ sidebar:
 
 #### Legibility and Fractal Societies
 
-**Henry:** There's a concept called legibility that I've been learning about recently. There's a book called [*Seeing Like a State*](https://en.wikipedia.org/wiki/Seeing_Like_a_State). Um, and the concept is viewing culture, society from the state, the government point of view and how that causes them to create policies or just act in a way that is in their interest, so that it's easier to see things from a big picture, but might not be always good. It's just one view of how society works.
+**Henry:** There's a concept called legibility that I've been learning about recently. There's a book called [*Seeing Like a State*](https://en.wikipedia.org/wiki/Seeing_Like_a_State). The concept is viewing culture, society from the state, the government point of view and how that causes them to create policies or just act in a way that is in their interest, so that it's easier to see things from a big picture, but might not be always good. It's just one view of how society works.
 
 > [Seeing Like a State](https://en.wikipedia.org/wiki/Seeing_Like_a_State)
 
-**Henry:** And so one of the examples, I think it was talking about the forestry industry, getting wood from the trees. In the regular forest, there's like a diversity of different tree types, plants, animals and the whole ecosystem. Then you get the wood from that, but then from an engineering point of view because it made it efficient to get the wood, oh, what if we started planting trees in a grid or something? This is similar to like the high modernist view of cities. But it was not very resilient because some disease happened and all the tree, cause they were the same type of tree, they all died.
+**Henry:** One of the examples, I think it was talking about the forestry industry, getting wood from the trees. In the regular forest, there's like a diversity of different tree types, plants, animals and the whole ecosystem. Then you get the wood from that, but then from an engineering point of view because it made it efficient to get the wood, oh, what if we started planting trees in a grid or something? This is similar to like the high modernist view of cities. But it was not very resilient because some disease happened and all the tree, cause they were the same type of tree, they all died.
 
 **Henry:** It doesn't mean it has to be a machine. Sort of like in the last podcast City as Liturgy, right? As a biological, dynamic thing versus a static.
 
 **Timothy:** I've heard that about Turkey. [Ataturk](https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk), the father of modern Turkey that he aspired to create the first truly modern state in the world, by which my professor meant there'd be no fractal quality to society.
 
-**Timothy:** There would just be the individual and the state. Yeah, no middle layers. And so of course the big act there was to abolish the use of an Arabic style script for the writing of Turkish. Cause that meant with a stroke of an act of the parliament, all subsequent Turks could not read anything of their own historical inheritance.
+**Timothy:** There would just be the individual and the state. Yeah, no middle layers. Of course the big act there was to abolish the use of an Arabic style script for the writing of Turkish. Cause that meant with a stroke of an act of the parliament, all subsequent Turks could not read anything of their own historical inheritance.
 
 **Timothy:** Even to this day, when I'm in Turkey with my students and we have a local Turkish guide, although he's a Orthodox Christian, when we're in ancient cemeteries, simple Turks from the hinterlands will come to him plaintively and say, can you help us read what's on these tombstones?
 
@@ -119,11 +119,11 @@ sidebar:
 
 **Timothy:** We'll see. So yeah, these things are gone now, and in what sense are we better off? You know, it's hard to say.
 
-**Henry:** I used to, it's easy to see things always black and white, but even the changes that have occurred in society, there's always finding that reason, not that it's, everything's always all good or all bad, but trying to present a positive approach forward. Cause we can't really go back to the past, right. Like technology, even though a lot of us are realizing kind of the down sides of it, it doesn't mean we should like get rid of it entirely. In some sense we can't, it's all there. In infrastructure, in our minds, in our habits, and how we use it in daily life. Do we need to help people develop better self-control, discipline, virtue that thing? Or do we create technologies that help us not use technology? Um, maybe we need all those approaches.
+**Henry:** I used to, it's easy to see things always black and white, but even the changes that have occurred in society, there's always finding that reason, not that it's, everything's always all good or all bad, but trying to present a positive approach forward. Cause we can't really go back to the past, right. Like technology, even though a lot of us are realizing kind of the down sides of it, it doesn't mean we should like get rid of it entirely. In some sense we can't, it's all there. In infrastructure, in our minds, in our habits, and how we use it in daily life. Do we need to help people develop better self-control, discipline, virtue that thing? Or do we create technologies that help us not use technology? Maybe we need all those approaches.
 
-**Timothy:** Traditionally Christians have had, whether they were Calvinists or certainly Roman Catholics or Orthodox Christians, to go back Lutherans, they had, whether or not they use the word, asceticism. Everyone knew that you had to train yourself in self-denial and self-restraint. You would just shipwreck if you didn't. Um, where is that training to come from?
+**Timothy:** Traditionally Christians have had, whether they were Calvinists or certainly Roman Catholics or Orthodox Christians, to go back Lutherans, they had, whether or not they use the word, asceticism. Everyone knew that you had to train yourself in self-denial and self-restraint. You would just shipwreck if you didn't. Where is that training to come from?
 
-**Henry:** It is very difficult now cause there's the aspect of do what you want to do, which is good, the freedom to choose. Um, but then that has its own anxiety. There's so many choices, you don't know what to do and then you don't do anything. You get paralyzed. Maybe it's just hard to think about what self-improvement means in this modern life.
+**Henry:** It is very difficult now cause there's the aspect of do what you want to do, which is good, the freedom to choose. But then that has its own anxiety. There's so many choices, you don't know what to do and then you don't do anything. You get paralyzed. Maybe it's just hard to think about what self-improvement means in this modern life.
 
 **Timothy:** Or repentance. But certainly parents and educators, we're not looking at these things in the abstract. We just know that if they cannot discipline themselves and that they will just, they'll crack up.
 
@@ -143,7 +143,7 @@ sidebar:
 
 **Henry:** We see this in this internet age. We have these recommendation systems from all the companies. Netflix, like every movie we watch, it helps the algorithm tell us what to watch next. It's like, are we even making the decision at that point? That's kind of legibility too. It's like they only know what movies we watched. That doesn't mean they know us. Does that represent who we are? Over time, everything is just a recommendation. They were doing that before, but now it's what we feel like is some extreme.
 
-**Timothy:** So they're not even showing me the movies that I might be interested in because the algorithm, Netflix is junk. But it's funny though, how I will find surprising things. Like I have this turn about spies in the American war of revolution. It wasn't recommended to me, but there it was and I just couldn't stop, it was great. And then I just binge watched recently cheer about this community college. Um. 10 time national champion, collegiate cheering squad.
+**Timothy:** So they're not even showing me the movies that I might be interested in because the algorithm, Netflix is junk. But it's funny though, how I will find surprising things. Like I have this turn about spies in the American war of revolution. It wasn't recommended to me, but there it was and I just couldn't stop, it was great. And then I just binge watched recently cheer about this community college. 10 time national champion, collegiate cheering squad.
 
 **Timothy:** The legibility obstacle there is, I would have to not only watch that, but sort of explain what I'm seeing. To me, it's a drama about kids, families of origins, and it's a story about discipline. It's a story about leadership. But someone else might think, has an interest in cheerleading or something.
 
@@ -229,13 +229,13 @@ sidebar:
 
 **Timothy:** It wasn't inventing a new religion, but he was trying to recover something that. Well, from an Orthodox Christian perspective, we would say really was sort of being in danger of being on us. You know, we certainly thought there was something going on over there in the Latin church, so it was just become unmoored.
 
-**Timothy:** Um, but forgive me, Roman Catholic listeners, but yeah, so, but, but that's, I guess it's. I think, I think for that, for tradition to mean something, there has to be a personal experience that that repentance is, is both a return and a Prague. A progression that, that you know that, okay, here I am at age, whatever I am now and and in repenting of my sins today are my sins this past year.
+**Timothy:** But forgive me, Roman Catholic listeners. I think for tradition to mean something, there has to be a personal experience that that repentance is, is both a return and a Prague. A progression that, that you know that, okay, here I am at age, whatever I am now and and in repenting of my sins today are my sins this past year.
 
 **Timothy:** Then in a sense, I'm recovering some purity I had a year ago. But I'm also now that's but now I'm also developing, I'm maturing and I'm ready for the next adventure. Whereas if I don't so I think people need to have that existential experience that, right. Yeah. That repentance is somehow the path forward, that there's, there's some development possible, you know.
 
 **Henry:** Yeah, like the saintification I guess
 
-**Timothy:** signification. Certainly um you develop wisdom, you develop better instincts in your spiritual life. You develop, you have experience, and you know, that you didn't have, and
+**Timothy:** Sanctification. Certainly you develop wisdom, you develop better instincts in your spiritual life. You develop, you have experience, and you know, that you didn't have, and
 
 **Henry:** yeah. And it's, I think it's like the narrowing of theory and practice
 
@@ -245,13 +245,11 @@ sidebar:
 
 **Henry:** Yeah. Like what does maturity look like where it's me talking about like having weight, but also having traveling faith, but then. Being mature and not needing the spiritual milk, whatever. So yeah, cause I, I don't know, I think about how when you get older, any, any sense of that where you get jaded, right? So like,
 
-**Timothy:** um,
-
 **Henry:** I gave a talk here in Boston with some college students and it's like really great to talk to younger people just because they see the opportunities, right? They are. Motivated and like excited
 
 **Timothy:** and just
 
-**Henry:** full of like wanting to learn. Um, and you can say that's like naive or something, but like that's one of the JD point.
+**Henry:** full of like wanting to learn. And you can say that's naive or something, but that's one of the key points.
 
 **Henry:** It's like I'm thinking it's important to kind of remember that cause like after you, I just, I don't know, you work or you are in school for a long time and then everyone around you just doesn't want to do anything anymore.
 
@@ -273,9 +271,9 @@ sidebar:
 
 **Henry:** itself is dependence on the spirit anyway, so it's like it makes sense and maybe all the gifts we've been given, everything reminds us that is telling us that we can be self sufficient, I guess. Right. But with technology, you're going back to technology makes us limitless, right?
 
-**Henry:** Um, we can get whatever you want, so all your desires are answered in that way. But then, but then I guess because of all the issues that we have, like we have everything and then we still feel empty. And I guess that's where there's something there is that, I mean, I'm sure people would talk about like, the.
+**Henry:** We can get whatever you want, so all your desires are answered in that way. But then, but then I guess because of all the issues that we have, like we have everything and then we still feel empty. And I guess that's where there's something there is that, I mean, I'm sure people would talk about like, the.
 
-**Henry:** Yeah, I guess me might say there's that God shaped hole in their heart. Right. Um,
+**Henry:** Yeah, I guess me might say there's that God shaped hole in their heart. Right.
 
 **Timothy:** look, I think this is the, this is the been the mistake in apologetics. The mistake has been that we are trying to
 
@@ -315,7 +313,7 @@ sidebar:
 
 **Henry:** certain meaninglessness and yeah.
 
-**Timothy:** And so, or you have this adventure that you know, and that produces, that produces all these crazy paradoxes like unity and diversity, like freedom and obedience, like, um to be, to find your feet and your total freedom at the same
+**Timothy:** And so, or you have this adventure that you know, and that produces, that produces all these crazy paradoxes like unity and diversity, like freedom and obedience, to find your feet and your total freedom at the same
 
 **Henry:** time, responsibility.
 
@@ -331,7 +329,7 @@ sidebar:
 
 **Henry:** And so maybe that's similar thing. It's like, well, I mean, you can literally have the conversion where it's like, Oh, I, I now I know God is, and then now I can see life and like my life and the universe differently. But just learning something new, right? Discovering something has that similar kind of feeling potentially.
 
-**Henry:** Um, and then someone else said that that also. Link. It's similar to also getting a joke too, like before those words that someone said, it's just a bunch of words. When once you understand that Joanie place, it means something. Right. Wow. Right. Before you can also, you can't go back to, you can't really, you can't be like, Oh, I don't get it and say, no, you just get it now.
+**Henry:** And then someone else said that that also. Link. It's similar to also getting a joke too, like before those words that someone said, it's just a bunch of words. When once you understand that Joanie place, it means something. Right. Wow. Right. Before you can also, you can't go back to, you can't really, you can't be like, Oh, I don't get it and say, no, you just get it now.
 
 **Henry:** Right. You can't not see it that way.
 
@@ -353,7 +351,7 @@ sidebar:
 
 **Timothy:** But our German scientists are smarter than their German side,
 
-**Timothy:** you know, because it, it kind of by making light of this, I mean, talk about existential struggle. I mean, we were threatening to destroy all life on earth with all these tens of thousands of nuclear warheads each reach at 20,000 or a heads. I mean it's. Um, it's, it's humbling these two big
+**Timothy:** you know, because it, it kind of by making light of this, I mean, talk about existential struggle. I mean, we were threatening to destroy all life on earth with all these tens of thousands of nuclear warheads each reach at 20,000 or a heads. It's humbling these two big
 
 **Henry:** powers
 
@@ -367,7 +365,7 @@ sidebar:
 
 **Timothy:** Yes.
 
-**Henry:** Um, that I lot of times don't appreciate, but then like we are very vulnerable. We can't do anything of knowing what's going on.
+**Henry:** That I lot of times don't appreciate, but then like we are very vulnerable. We can't do anything of knowing what's going on.
 
 **Timothy:** and just have to just hope that
 
@@ -387,11 +385,11 @@ sidebar:
 
 **Henry:** too connected or loud or whatever it is.
 
-**Henry:** Um, and sleep is.
+**Henry:** And sleep is.
 
 **Timothy:** Oh, is there, would you, what do you think is it that makes people not, why do people not conceive a faith as an adventure, or do they? Hmm. Why, why
 
-**Henry:** is it good? Um,
+**Henry:** is it good?
 
 **Timothy:** I mean, in, in, in contemporary Orthodox you have this concept of if an elder or someone who, some Holy person, and so you're like, Oh, that person has.
 
@@ -439,7 +437,7 @@ sidebar:
 
 **Henry:** It's like when you meet, I mean, you meet someone and you realize how like just different, or I want to say like they're hiring, but just like how far apart you are and you could translate that to wholly and to gardens and stuff. Right? It's like when we finally realize how far we are from God, it's like any, you could say, I mean, you might say like, Oh, then you'll run away.
 
-**Henry:** But like in this case. It causes us to run toward that, right? That we want to understand them more or be liked and to imitate them, whatever it is, even though we know we can't attain it. Um, so somehow the difference in character, whatever it is, causes us to desire and
+**Henry:** But like in this case. It causes us to run toward that, right? That we want to understand them more or be liked and to imitate them, whatever it is, even though we know we can't attain it. So somehow the difference in character, whatever it is, causes us to desire and
 
 **Timothy:** sort of funny to go full circle to this question of genealogy.
 
@@ -449,7 +447,7 @@ sidebar:
 
 **Timothy:** You know, like I feel certainly about my father that I will never equal him like that. That it's, I, I've done, I've made too many mistakes and miss too many opportunities to ever kind of be the man that he is.
 
-**Timothy:** Um, and also I live in different circumstances. I mean, he was born in the depression. I think he was five on the Nazis occupied, occupied his village in Greece. I mean, that's a whole nother world. yeah. Yeah. So, so I think that's one reason why a person wants to think that, Oh, we Palestinians came from. You know, the Minoan civilization 7,000 years ago.
+**Timothy:** And also I live in different circumstances. I mean, he was born in the depression. I think he was five on the Nazis occupied, occupied his village in Greece. I mean, that's a whole nother world. yeah. Yeah. So, so I think that's one reason why a person wants to think that, Oh, we Palestinians came from. You know, the Minoan civilization 7,000 years ago.
 
 **Timothy:** They want to have some sense that, I mean, I don't even know where the man picked up that 7,000 or I'm just saying, because
 
@@ -469,7 +467,7 @@ sidebar:
 
 **Henry:** Maybe if you know, and then my grandparents, if they're not around, then I can only know about them through my parents essentially. And then if I don't talk about this recorded save, it's like we're never going to get it. And just personally, it'd be good for me to have it, even if it doesn't get shared or anything.
 
-**Henry:** Um, and yeah, I guess knowing where you come from is humbling. It's like, good. And yeah. And then we were depending on them, like we wouldn't be here if it wasn't from the tip. So regardless of how they are now. Yeah.
+**Henry:** And yeah, I guess knowing where you come from is humbling. It's like, good. And yeah. And then we were depending on them, like we wouldn't be here if it wasn't from the tip. So regardless of how they are now. Yeah.
 
 **Timothy:** And what if it turns out that one of your ancestors was a fee for it.
 

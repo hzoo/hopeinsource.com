@@ -32,17 +32,17 @@ quotes:
 
 > "Hence the wide scope of this book and hence also the coining of the new term I have used for my title: Personal Knowledge. The two words may seem to contradict each other: for true knowledge is deemed impersonal, universally established, objective. But the seeming contradiction is resolved by modifying the conception of knowing." - Personal Knowledge, preface
 
-[00:10] **Henry:** So Polanyi has this idea called indwelling. He's saying indwelling is an active process that we all partake in. As people, as knowers, when we integrate the clues in the world to determine certain ideas about reality. It's related to a lot of embodied terms like, filling ourselves up. These are all like bodily ideas about knowledge, right?
+[00:10] **Henry:** So Polanyi has this idea called indwelling. He's saying indwelling is an active process that we all partake in. As people, as knowers, when we integrate the clues in the world to determine certain ideas about reality. It's related to a lot of embodied terms like, filling ourselves up. These are all bodily ideas about knowledge, right?
 
 > The Oxford definition of indwelling (within a theological context): "be permanently present in (someone's soul or mind); possess spiritually."
 
-[00:33] **Henry:** And I think that is an aspect of perception and awareness. There's a sense that we are blind because like we can see things with our eyes, but if our minds don't see the pattern that's there, they won't show up. And so he was saying the body is actually something we always indwell, meaning we always are relying on our body. We can't focus on our body, cause we live through our body. We are, like we said, embodied beings.
+[00:33] **Henry:** And I think that is an aspect of perception and awareness. There's a sense that we are blind because like we can see things with our eyes, but if our minds don't see the pattern that's there, they won't show up. He was saying the body is actually something we always indwell, meaning we always are relying on our body. We can't focus on our body, cause we live through our body. We are, like we said, embodied beings.
 
 > "And our body is the only aggregate of things of which we are aware almost exclusively in such a subsidiary manner." - [Polanyi, The Structure of Consciousness](http://www.polanyisociety.org/mp-structure.htm)
 
 [00:57] **Maggie:** Yeah. Did we talk last time about directionality in cultures and intuitively knowing what direction you're facing.
 
-[01:05] **Henry:** Yeah, I think you mentioned like the whole behind and forward in terms of time, yeah.
+[01:05] **Henry:** Yeah, I think you mentioned the whole behind and forward in terms of time, yeah.
 
 > "They talk about the past as being in front of them because they can see what's happened and the future is behind them because they can't see it." [Maggie, metaphor episode](https://hopeinsource.com/metaphor/#t=14:44)
 
@@ -50,11 +50,11 @@ quotes:
 
 [01:42] **Maggie:** They just know because the technology of their language has given them this bodily understanding of directionality in a way that we don't have, right. If someone asks us where Northwest is and we're inside the house, most of us who speak English would just have no clue.
 
-[01:59] **Henry:** It's not something that people ask, so you wouldn't even have an answer. You just like Google it or something. Yeah.
+[01:59] **Henry:** It's not something that people ask, so you wouldn't even have an answer. You just Google it or something. Yeah.
 
 #### Ambient Technology
 
-[02:05] **Maggie:** Yeah. And I love this idea of indwelling, of like ambient technology that takes more advantage or is more entwined with our bodily experience in the world. I know that Google is doing work on trying to put [wearables into clothing](https://atap.google.com/jacquard/), but we use very little haptic feedback in our current technical systems. I always think of fitness trackers, especially.
+[02:05] **Maggie:** Yeah. And I love this idea of indwelling, of ambient technology that takes more advantage or is more entwined with our bodily experience in the world. I know that Google is doing work on trying to put [wearables into clothing](https://atap.google.com/jacquard/), but we use very little haptic feedback in our current technical systems. I always think of fitness trackers, especially.
 
 [02:25] **Maggie:** So vibrating certain parts of the body to give information. It doesn't take a lot of cognitive ability to clock something like that. And we rely so much on visuals right now. So if you get a notification, right, it's some popup in your sidebar, or it's on your phone and it has to make a noise and it interrupts your cognitive flow in a more explicit way.
 
@@ -66,11 +66,11 @@ quotes:
 
 #### Digital Affordances
 
-[03:28] **Maggie:** I mean, it gets us back to the technology as tools with like the affordances baked in, that because we've all been handed the web and our digital mediums from this historical legacy of being visual first and text first. That we don't have the design patents for embodiment or using light or sound in different ways with them, even if we now have more of the material infrastructure to be able to do that.. Or kind of, I mean, most of us can't actually hack together a raspberry PI system that has like cool led lights that communicate things to us or haptic feedback stuff, right.
+[03:28] **Maggie:** I mean, it gets us back to the technology as tools with the affordances baked in, that because we've all been handed the web and our digital mediums from this historical legacy of being visual first and text first. That we don't have the design patents for embodiment or using light or sound in different ways with them, even if we now have more of the material infrastructure to be able to do that.. Most of us can't actually hack together a raspberry PI system that has cool led lights that communicate things to us or haptic feedback stuff, right.
 
 [04:05] **Maggie:** We can build an app in React, but you know, we can't build things into our house that are more just like inventive technology processes. Or it takes a lot of work to, or at least I've tried Googling it and it's harder than I can figure out.
 
-[04:19] **Henry:** It might be just, we kind of reflect the kind of programming that we do. When we're writing code, we're using like lists and maps. Basically we see all these lists, so we just assume that it's going to be like a feed or in Zoom it's a box. We don't know how to think spatially, so it's just not what we turn to.
+[04:19] **Henry:** It might be just, we kind of reflect the kind of programming that we do. When we're writing code, we're using lists and maps. We see all these lists, so we just assume that it's going to be like a feed or in Zoom it's a box. We don't know how to think spatially, so it's just not what we turn to.
 
 #### Paperclip Thought Experiment
 
@@ -90,9 +90,9 @@ quotes:
 
 [06:06] **Maggie:** It requires a balance, right? Cause we can't check out all previous norms. Cause our users won't know what they're looking at or what to do with it. I imagine this is where the [Dynamicland](https://dynamicland.org/) stuff would relate a lot. Like whatever they're doing there sounds really cool. Of course it's all very mysterious and we're not quite sure what they're doing. But it seems like, we can't even fathom what they're making, because it seems like it's going to be so different from what we're used to using.
 
-[06:32] **Henry:** Actually that's a good point. I think that might be a reason why it's hard to fund that or because they are going for something so out there, thinking years ahead, then practically speaking, it is research and it might not be as practical. Maybe there are people that are inspired by things that they do, and they try to make it very practical. But then in a way, they're just kind of doing the same thing as before with a different like skin, like the same list idea.
+[06:32] **Henry:** Actually that's a good point. I think that might be a reason why it's hard to fund that or because they are going for something so out there, thinking years ahead, then practically speaking, it is research and it might not be as practical. Maybe there are people that are inspired by things that they do, and they try to make it very practical. But then in a way, they're just doing the same thing as before with a different skin, the same list idea.
 
-[06:59] **Henry:** And I think maybe some people might even think we need to start over. I tend to not want to do that in general. Because of the idea of tradition. There's all these things that were encoded in what we do that have benefits. Yeah, that's just the whole tension between like revolution and incremental change. And how do we handle both of these things?
+[06:59] **Henry:** And I think maybe some people might even think we need to start over. I tend to not want to do that in general. Because of the idea of tradition. There's all these things that were encoded in what we do that have benefits. Yeah, that's just the whole tension between revolution and incremental change. And how do we handle both of these things?
 
 [07:21] **Maggie:** Right. Yeah. The answer is rarely burn it all down. You know, that's rarely the right move.
 
@@ -116,7 +116,7 @@ quotes:
 
 > It seems to be very common to mix the two, as Karl Polanyi is also well known for his book, [The Great Transformation](<https://en.wikipedia.org/wiki/The_Great_Transformation_(book)>), and people just refer to either by their last name.
 
-[08:36] **Henry:** He was a physical chemist. He was super into like the actual practice of science until he decided to essentially switch.
+[08:36] **Henry:** He was a physical chemist. He was super into the actual practice of science until he decided to essentially switch.
 
 [08:44] **Maggie:** Because I found him fascinating that he had come from this more hard science background and everything he was writing to me read just like a postmodern anthropological take.
 
@@ -164,7 +164,7 @@ quotes:
 
 [13:37] **Henry:** And I think that represents a good way of thinking about how we might want to relate to knowledge too, even though it's not a real person, we personify. And that's why it's personal, right? Any topic that you care a lot about, you're obviously gonna put your whole body, mind, and soul into this thing.
 
-[13:56] **Maggie:** Yeah. I liked that so much, that idea of yeah putting like the embodied action investment into, when you care about something to try and be part of it. I'm now thinking about when someone gets really into a theory or an author, and they want to go do something like a pilgrimage to where that person maybe used to live or they, or they'll buy a really nice copy of the hardback edition of one of their books, right.
+[13:56] **Maggie:** Yeah. I liked that so much, that idea of putting the embodied action investment into, when you care about something to try and be part of it. I'm now thinking about when someone gets really into a theory or an author, and they want to go do something like a pilgrimage to where that person maybe used to live or they, or they'll buy a really nice copy of the hardback edition of one of their books, right.
 
 [14:22] **Maggie:** And what they're seeking is some sort of meaningful embodied experience with what so far has just being more of a detached mental experience. Maybe just text on a page. I was thinking of this because all around London, we're sort of getting allowed to go around a bit more again, with locked down lifting.
 
@@ -210,9 +210,9 @@ quotes:
 
 [19:41] **Maggie:** And in my head, I'm just finding it an interesting contrast to what I would maybe think of as I want to call it like the digital religion, but, you know, the transhumanist ideal that is a little bit religious in many ways. It's ideal is to escape embodiment, right?
 
-[19:55] **Maggie:** Like all the rhetoric around, well, not just living in the cloud, but not caring as much about your body or it being a burden or weight. You have to like upkeep it. It's talked about as this inconvenient thing. Yeah, it doesn't allow you to just like fly through cyberspace, right?
+[19:55] **Maggie:** Like all the rhetoric around, well, not just living in the cloud, but not caring as much about your body or it being a burden or weight. You have to upkeep it. It's talked about as this inconvenient thing. Yeah, it doesn't allow you to just like fly through cyberspace, right?
 
-[20:12] **Maggie:** Like is like the VR dream of everyone wanting to just put on headsets and not have to deal with like that physicality. That's funny. I hadn't ever thought of, of the contrast between those two. And I wonder if then transhumanism is some sort of reaction to maybe some of the more traditional religious beliefs.
+[20:12] **Maggie:** Like is like the VR dream of everyone wanting to just put on headsets and not have to deal with that physicality. That's funny. I hadn't ever thought of, of the contrast between those two. And I wonder if then transhumanism is some sort of reaction to maybe some of the more traditional religious beliefs.
 
 [20:30] **Henry:** Yeah. Actually, even in revelation, when Christ comes back, we talk about this idea of new heavens and new earth. And we will all have new bodies. And so whatever that means, there is a belief that we will still have a body, we're not just a spirit, right.
 
@@ -240,7 +240,7 @@ quotes:
 
 [23:49] **Henry:** Yeah, it's so fascinating to me to read this. It validates my thinking, but then I was like, Oh, validates, all of us. It's just like learning to empathize with people, just like other people are doing with me.
 
-[24:02] **Maggie:** Yeah. Yeah. Cause yeah, I mean I'm in the same boat. Telling someone they're wrong is like the worst possible way to convince anyone of anything, right. And yet, yeah, to be able to make space for like multiple truths and ways of seeing the world and not just shutting people down because there's a different to yours. Yeah. I don't know if there's as much validity to just, you know, anyone's saying like, okay, like this is, this is my truth and I get to believe it.
+[24:02] **Maggie:** Yeah. Yeah. Cause yeah, I mean I'm in the same boat. Telling someone they're wrong is like the worst possible way to convince anyone of anything, right. And yet, yeah, to be able to make space for multiple truths and ways of seeing the world and not just shutting people down because there's a different to yours. Yeah. I don't know if there's as much validity to just, you know, anyone's saying like, okay, like this is, this is my truth and I get to believe it.
 
 [24:27] **Henry:** I guess it's just, we can say that abstractly, but when, when we find something that we think is just completely right or completely wrong.. And like we said before, there's nothing we can be certain about. I say that. But yet we all believe in certain things that we think are just, that's just how it is.
 

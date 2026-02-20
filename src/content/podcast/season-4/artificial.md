@@ -39,29 +39,29 @@ quotes:
 
 [00:37] **Henry:** Everyone knows what's up in New York, but then we might not know..
 
-[00:40] **Drew:** The internet is so like central to that, but other media I guess also broadcast the activities of New York to the rest of the country and the world.
+[00:40] **Drew:** The internet is so central to that, but other media also broadcast the activities of New York to the rest of the country and the world.
 
-[00:48] **Drew:** So everybody I joked, has to know what the weather's like in New York, if there's an extreme weather event, my mom knows if it's snowing here. And I've always thought that was kind of silly, but that's also.. Whatever the New Yorker like identity is. I feel like that's such a big part of it. Like you have to hear what I'm doing, but I don't care what you're doing. That's the provincial New Yorker looking out at the rest of the world.
+[00:48] **Drew:** So everybody I joked, has to know what the weather's like in New York, if there's an extreme weather event, my mom knows if it's snowing here. And I've always thought that was kind of silly, but that's also.. Whatever the New Yorker identity is. I feel like that's such a big part of it. You have to hear what I'm doing, but I don't care what you're doing. That's the provincial New Yorker looking out at the rest of the world.
 
-[01:11] **Drew:** But I mean, I don't like to think that I've internalized that attitude, but it is just being here I think gives you a lot of food for thought if you care about cities in the built environment. I mean, I'm really happy to be here and I think it gives me a lot of ideas that I wouldn't necessarily have if I lived somewhere else.
+[01:11] **Drew:** I don't like to think that I've internalized that attitude, but just being here gives you a lot of food for thought if you care about cities in the built environment. I'm really happy to be here and I think it gives me a lot of ideas that I wouldn't necessarily have if I lived somewhere else.
 
-[01:32] **Henry:** I've been here, I guess like six years, so it's long enough I suppose. Yeah. I don't think I feel like a New Yorker either, but there's a certain ethos or culture to the city that you can't get in a lot of places. When I first moved, I didn't want to be here, but then I realized how much I hated driving. Seems like the only city that you can just take a subway, right? In the US.
+[01:32] **Henry:** I've been here like six years, so it's long enough I suppose. Yeah. I don't think I feel like a New Yorker either, but there's a certain ethos or culture to the city that you can't get in a lot of places. When I first moved, I didn't want to be here, but then I realized how much I hated driving. Seems like the only city that you can just take a subway, right? In the US.
 
 [01:51] **Drew:** That's also really important to me. I love not owning a car and I will try to not have a car as long as possible.
 
 #### Even a pandemic becomes about NYC
 
-[01:58] **Drew:** I think I've written about this a lot over the last year and a half since the pandemic started. The pandemic is obviously like a very physical problem in many ways, requiring us to isolate social distance being transmitted by people being close together.
+[01:58] **Drew:** I think I've written about this a lot over the last year and a half since the pandemic started. The pandemic is obviously a very physical problem in many ways, requiring us to isolate social distance being transmitted by people being close together.
 
-[02:14] **Drew:** And how it's kind of been both in the middle of last year and now post vaccine, it seems like New York's like role in, I guess like having a dense urban environment or just being like the American dense city. Everything that's happened with the pandemic seems to be this referendum on New York.
+[02:14] **Drew:** And how it's kind of been both in the middle of last year and now post vaccine, it seems like New York's role in having a dense urban environment or just being the American dense city. Everything that's happened with the pandemic seems to be this referendum on New York.
 
-[02:32] **Drew:** So last year everyone was very eager to declare that like New York was dead and now everyone kind of has like swung completely to the opposite direction. And everyone thinks New York is is where you where you want to be right now because you can do things again.
+[02:32] **Drew:** So last year everyone was very eager to declare that New York was dead and now everyone has swung completely to the opposite direction. And everyone thinks New York is where you want to be right now because you can do things again.
 
-[02:48] **Drew:** And it's funny how in both situations. It somehow becomes more about New York than you would expect and. I mean this is also like a very, again, like, yeah, New York centric thing to say, to like assume that everyone is thinking about New York. But it does feel that way sometimes.
+[02:48] **Drew:** And it's funny how in both situations. It somehow becomes more about New York than you would expect. And this is also a very New York centric thing to say, to assume that everyone is thinking about New York. But it does feel that way sometimes.
 
 [03:03] **Henry:** Maybe it's self-fulfilling prophecy that maybe that's, I was thinking just memes in general, like the whole GameStop thing.
 
-[03:07] **Drew:** Yeah, and I mean that definitely seems to be borne out by the fact that I, I haven't checked lately, but just I know that the GameStop stock price is still like way, way above.
+[03:07] **Drew:** Yeah, and that definitely seems to be borne out by the fact that I haven't checked lately, but I know that the GameStop stock price is still way, way above.
 
 #### We behave the same, online or in a city
 
@@ -81,11 +81,11 @@ quotes:
 
 #### Technology, Memory, and Depersonalization
 
-[04:39] **Drew:** You can see things like certain types of memory. You can see it in our culture that other ways of doing those things have atrophied. Memory is sort of like a complicated thing, but right now nobody feels like they're not gonna have most of the information they need at their fingertips. So it becomes less urgent. It almost feels pedantic to even.. I, I'm not complaining about that. I feel like it can be kind of missing the point if you complain about the fact that nobody has to remember facts anymore because they can look them up.
+[04:39] **Drew:** You can see things like certain types of memory. You can see it in our culture that other ways of doing those things have atrophied. Memory is sort of like a complicated thing, but right now nobody feels like they're not gonna have most of the information they need at their fingertips. So it becomes less urgent. It almost feels pedantic to even.. I'm not complaining about that. I feel like it can be kind of missing the point if you complain about the fact that nobody has to remember facts anymore because they can look them up.
 
-[05:11] **Drew:** Right? Like that's great. I'm happy to not have my head full of useless facts. But there again, like you were kind of alluding to earlier, there's so many like knock on effects and a lot of them are. Fairly unpredictable and we kind of realized that there are problems once something has already disappeared.
+[05:11] **Drew:** Right? Like that's great. I'm happy to not have my head full of useless facts. But there again, like you were kind of alluding to earlier, there's so many knock on effects and a lot of them are. Fairly unpredictable and we kind of realized that there are problems once something has already disappeared.
 
-[05:29] **Henry:** All of us can use like GPS to like get anywhere we want. This is great for all of us individually, but then maybe before you would've asked for directions and that was like a small amount of trust for a stranger that we lost.
+[05:29] **Henry:** All of us can use GPS to get anywhere we want. This is great for all of us individually, but then maybe before you would've asked for directions and that was a small amount of trust for a stranger that we lost.
 
 [05:43] **Drew:** I noticed that pretty quickly when smartphones became pretty widespread 10 years ago or however long. One of the first apps I remember seeing on the iPhone that I thought was really amazing and kind of like the perfect indication of what the iPhone could do was [Shazam](https://en.wikipedia.org/wiki/Shazam_(app)).
 
@@ -93,13 +93,13 @@ quotes:
 
 [06:16] **Drew:** But secondly, a lot of times people wouldn't even know what was playing because they were just playing like a Pandora or like algorithmic playlist. The person both doesn't need to talk to you about what it is and doesn't know. So they've been removed from the whole process.
 
-[06:30] **Henry:** Yeah. Impersonal. I guess like they might even feel offended that you're asking at all. 'cause like everyone knows at this point you're supposed to just search Shazam it maybe eventually. Like there's no name to the music. It's just like all Yeah, like real time generated from like code or something.
+[06:30] **Henry:** Yeah. Impersonal. I guess they might even feel offended that you're asking at all. 'cause everyone knows at this point you're supposed to just Shazam it. Maybe eventually there's no name to the music. It's just all real time generated from code or something.
 
 #### Lofi, CDs, and Artifical Physicality
 
-[06:46] **Drew:** Which I is in a way it happening now because so much music is made to like be lo-fi basically. Yeah. Lo-fi or like Monday moods or whatever. Yeah. And it's kind of not actually even really meant to be thought of as made by a, an artist. It's just almost an engineered product. But I think that's actually like, I mean, directions is also like a good, it's an opportunity to help somebody directly, like on the street.
+[06:46] **Drew:** Which is in a way happening now because so much music is made to be lo-fi. Lo-fi or Monday moods or whatever. And it's kind of not actually even really meant to be thought of as made by a, an artist. It's just almost an engineered product. But directions is also a good example, it's an opportunity to help somebody directly on the street.
 
-[07:12] **Drew:** With music, it feels even more tragic to me because asking somebody what music they chose to play is such a great opportunity to talk about something interesting that you both are excited about. And I mean, we can go do that on Twitter or social media or whatever now, but it's just one little thing that has gone away, and I think it's kind of not perceptible to a lot of people.
+[07:12] **Drew:** With music, it feels even more tragic to me because asking somebody what music they chose to play is such a great opportunity to talk about something interesting that you both are excited about. And we can go do that on Twitter or social media or whatever now, but it's just one little thing that has gone away, and I think it's kind of not perceptible to a lot of people.
 
 [07:36] **Henry:** I think one of your posts mentioned that too, like when you're driving with someone?
 
@@ -107,25 +107,25 @@ quotes:
 
 [07:56] **Drew:** Most people who like books still have bookshelves, although that's also kind of going in the same direction with ebook and stuff like that. Again, there's a way of talking about this that can feel like it's kind of trivial. How much do you really need?
 
-[08:12] **Drew:** And I actually am like, happy to have more space in my apartment that's not taken up by huge piles of CDs. But it is like something that I don't think that for my generation, there's an adequate replacement for it. And I mentioned in the post part of it's just that I've gotten older, so like music and showing off what music you like as you as central to my life as it would've been when I was in my early twenties or teenager. It's still like, you know, a way to learn a lot about somebody.
+[08:12] **Drew:** And I'm actually happy to have more space in my apartment that's not taken up by huge piles of CDs. But it is like something that I don't think that for my generation, there's an adequate replacement for it. And I mentioned in the post part of it's just that I've gotten older, so like music and showing off what music you like as you as central to my life as it would've been when I was in my early twenties or teenager. It's still like, you know, a way to learn a lot about somebody.
 
 [08:39] **Henry:** Yeah, we're in my room. It's like what's in here? Yeah. Maybe. Well, I put the books in a box, but otherwise what are we showing off anymore? Yeah. And maybe that if it's all online, it's like, you could have just looked it up or something.
 
-[08:53] **Drew:** Well, I think social media or there's, there's an effort to kind of give us artificial ways to recreate those types of things in purely digital environments. Like in theory, social media should be a way to like. Show everybody else what you are. But the way that it's done in those media are like, it kind of just feels like everyone's shouting at each other at the same time.
+[08:53] **Drew:** Well, I think social media or there's an effort to kind of give us artificial ways to recreate those types of things in purely digital environments. Like in theory, social media should be a way to like. Show everybody else what you are. But the way that it's done in those media are like, it kind of just feels like everyone's shouting at each other at the same time.
 
-[09:15] **Drew:** So you're thinking a lot more about what you're putting out than what other people are are showing or like, I mean, I think actually an interesting example of this is NFTs, the technologies for displaying your NFTs, which are still pretty rudimentary, but. I think that's actually filling the void of something like having a record collection that is a sign of like who you are.
+[09:15] **Drew:** So you're thinking a lot more about what you're putting out than what other people are showing. I think actually an interesting example of this is NFTs, the technologies for displaying your NFTs, which are still pretty rudimentary, but. I think that's actually filling the void of something like having a record collection that is a sign of who you are.
 
-[09:38] **Drew:** I'm not that deep in NFTs. I don't own any, so I can't imagine using an NFT to like show anything about myself. But I know that people seem to be trying to do that and are probably getting some value out of that. And what, what's interesting to me about that is at some point it feels like the last era of the internet or of computers was kind of eliminating all these things from the physical world and putting them in pure information formats online. And now we've completely finished that process and now we're trying to re recreate these physical environments that we've stripped of all of their purpose.
+[09:38] **Drew:** I'm not that deep in NFTs. I don't own any, so I can't imagine using an NFT to like show anything about myself. But I know that people seem to be trying to do that and are probably getting some value out of that. And what's interesting to me about that is at some point it feels like the last era of the internet or of computers was kind of eliminating all these things from the physical world and putting them in pure information formats online. And now we've completely finished that process and now we're trying to re recreate these physical environments that we've stripped of all of their purpose.
 
 [10:12] **Henry:** Right. Maybe Zoom is like the epitome of all this. So there's all these like gather, like these spatial apps where you can chat in a video game or people are using video games to have parties or birthdays.
 
-[10:21] **Drew:** Even [Clubhouse](https://en.wikipedia.org/wiki/Clubhouse_(app)) I thought was pretty spatial. I mean, I audio is inherently more spatial than a lot of the visual environments we have on the internet.
+[10:21] **Drew:** Even [Clubhouse](https://en.wikipedia.org/wiki/Clubhouse_(app)) I thought was pretty spatial. Audio is inherently more spatial than a lot of the visual environments we have on the internet.
 
 [10:30] **Drew:** But the way that like you would drift from room to room, it actually did seem to kind of simulate. Being at some social gathering or a place in its own kind of simplified way. A lot of what the physical world imposes on us is these constraints which are very fundamental to life in meet space. Like I have to travel across distance to get from my house to your house to record this podcast.
 
 [10:57] **Drew:** And kind of the magic of technology is that it eliminates those constraints. So it's interesting that we feel the need to reproduce them. It may be suggests to me that we've sort of given these digital technologies too many chores to do or too many tasks that maybe not all of them are best done online or in purely digital forms.
 
-[11:16] **Drew:** If we find something lacking when everything is online it means that we've moved too many things out of the physical world. But that's a, I mean, that's a huge, I don't know. I feel like that's all. You could write a whole book about it.
+[11:16] **Drew:** If we find something lacking when everything is online it means that we've moved too many things out of the physical world. But that's huge. You could write a whole book about it.
 
 [11:30] **Henry:** On a website, it's like actually too fast on the server side. So they purposely make it slower so that it feels like something's being done, but in reality it's actually an instant. They need people to perceive that like work is quote unquote being done.
 
@@ -133,7 +133,7 @@ quotes:
 
 [11:54] **Henry:** I don't think you would wanna have to walk to a Zoom room. You still would just teleport. We always recreate. Yeah. The same thing in the new medium and we can't help but do that. We don't really know how to imagine something really different.
 
-[12:05] **Drew:** Yeah, assuming that Clubhouse is not at all what it was six months ago. I think that was one of its big downfalls was that it took most of the social media that we use is asynchronous and it imposed a synchronous quality on how we communicate digitally. And it only worked because it was this special moment in human history when everybody was isolated and at home and had a lot of free time.
+[12:05] **Drew:** Yeah, assuming that Clubhouse is not at all what it was six months ago. I think that was one of its big downfalls. Most of the social media that we use is asynchronous and it imposed a synchronous quality on how we communicate digitally. And it only worked because it was this special moment in human history when everybody was isolated and at home and had a lot of free time.
 
 [12:31] **Drew:** So every evening when people weren't working anymore, like they would all be on Clubhouse. But you, I think you could, and you saw it kind of start to wane once people started going back out and getting vaccinated and stuff. So I think it was an unnecessary constraint that we've already kind of figured out ways to bypass using the internet.
 
@@ -143,7 +143,7 @@ quotes:
 
 #### From Sharing Silence to gm
 
-[13:19] **Henry:** Yeah. I found myself like not using it much anymore. Sacasas was saying how like there's no way to be silent. Mm-Hmm. Online.
+[13:19] **Henry:** Yeah. I found myself not using it much anymore. Sacasas was saying how there's no way to be silent. Mm-Hmm. Online.
 
 [13:27] **Drew:** And there's no like silence paired with presence. It's like people would notice if you, if you were silent and on Twitter, then it would be perceived as an absence.
 
@@ -159,7 +159,7 @@ quotes:
 
 [14:53] **Henry:** Is that even something we want to. Introduce into digital space, or is it just like not a thing? There's live streams and discords where people join and they just study together and nobody is talking.
 
-[15:06] **Drew:** I think in a way actually that, um, the GM meme is kind of that too, even though it is a thing. But because it's just the same thing being said over and over again, it kind of loses its. It's content and it just becomes this statement between two people without any real message. Like a nod.
+[15:06] **Drew:** I think in a way actually the GM meme is kind of that too, even though it is a thing. But because it's just the same thing being said over and over again, it kind of loses its. It's content and it just becomes this statement between two people without any real message. Like a nod.
 
 [15:27] **Henry:** Yeah, that sounds like the YO app.
 
@@ -183,7 +183,7 @@ quotes:
 
 [18:41] **Drew:** Yeah. And you are saying, I never cared about what I wore, and then in some ways still don't? I probably dress nicer than I did before I moved to New York, just because the bar is higher for like, what, I guess like what's acceptable. But I think about it more now, and I acknowledge that I gather a lot of information about other people by what they're wearing, not in a judgmental way.
 
-[19:08] **Drew:** Just there's a lot that you kind of gather right off the bat if you see somebody and see how they're dressed. And I, I've come to like, not only be aware of that, but to actually appreciate it. I think it's just really fascinating to see what you get, what you learned about somebody in that way.
+[19:08] **Drew:** Just there's a lot that you kind of gather right off the bat if you see somebody and see how they're dressed. And I've come to not only be aware of that, but to actually appreciate it. I think it's just really fascinating to see what you get, what you learned about somebody in that way.
 
 [19:28] **Drew:** And I don't think it's about a competition. I don't think people are trying, there are situations where that's true, but it's not like someone's trying to be better than everybody else in the room. I think there is just pure self-expression happening in many cases.
 
@@ -207,23 +207,23 @@ quotes:
 
 [21:39] **Drew:** Yeah. I think that's actually a really good way of putting it. This connects back to architecture because in modernist architecture there was this idea, of form following function. The shape of something or the form of something should be a pure expression of its purpose. There was an idea that if something was perfectly engineered to fulfill its function, then there was an inevitable way they would have to look. And modernism kind of contradicted itself by not actually adhering to its own ideas.
 
-[22:05] **Drew:** Because a lot of modernist architecture was just this like style that kind of got applied to everything in a non-functional way, but the idea was pretty compelling. And I think I see a lot of that in, in tech and how, how software is approached that if, you know, if something's not contributing to the functional purpose of the software, then it's excess and it doesn't really need to be there.
+[22:05] **Drew:** Because a lot of modernist architecture was just this style that got applied to everything in a non-functional way, but the idea was pretty compelling. And I think I see a lot of that in tech and how software is approached. If something's not contributing to the functional purpose of the software, then it's excess and it doesn't really need to be there.
 
-[22:32] **Drew:** It's like a completely different medium to think about that in, because code is inherently functional and it's not really visible. So like aesthetics get layered on top. And there might be a example of that that I'm like missing. But I think aesthetics always seem to come like after the, the underlying code.
+[22:32] **Drew:** It's like a completely different medium to think about that in, because code is inherently functional and it's not really visible. So like aesthetics get layered on top. And there might be an example of that that I'm missing. But I think aesthetics always seem to come after the underlying code.
 
-[22:53] **Drew:** Again, with crypto, I think some of that may have like converged again. The actual act of doing certain things in code is not necessarily functional except to like express some point or idea.
+[22:53] **Drew:** Again, with crypto, I think some of that may have converged again. The actual act of doing certain things in code is not necessarily functional except to express some point or idea.
 
 [23:05] **Henry:** Yeah. My friend [Angus Croll](https://twitter.com/angustweets), he has a book called, [If Hemingway Wrote JavaScript](https://nostarch.com/hemingway), it's really cool.
 
 [23:10] **Henry:** He just implements algorithms and then he'll write them in different authors like Hemingway or Shakespeare like, and he'll have like different ways of writing comments. So it's like showing you how aesthetic coding can be. It's also just writing.
 
-[23:21] **Henry:** One of the first things I worked on was what's called a code linter. And you know, like linting your clothes, like get off like, you know, hair or whatever. And so we have that, which is essentially just spell check for coding, but it's only aesthetic. So it's like you need a space here. You, you need to change your name and your variable.
+[23:21] **Henry:** One of the first things I worked on was what's called a code linter. Like linting your clothes, get off the hair or whatever. And so we have that, which is essentially just spell check for coding, but it's only aesthetic. So it's like you need a space here. You need to change your name and your variable.
 
 [23:37] **Henry:** It's really helpful on a team where you have like a hundred people, you wanna make sure that. Everyone's on the same page. So we have a standard. But the problem with standards is that it removes the ability of people to express themselves. And so some people might protest against the use of a linter, at least on your personal project. Just let me do whatever I want.
 
-[23:55] **Drew:** Well, that's really interesting. And I, as a non programmer, it's interesting to me that there is, you know, like that there would be like a desire for expression just in the way the code is written and like how it raises the question of how much flexibility should there be?
+[23:55] **Drew:** Well, that's really interesting. And as a non programmer, it's interesting to me that there would be a desire for expression just in the way the code is written and how it raises the question of how much flexibility should there be?
 
-[24:10] **Drew:** I was thinking as you were describing that there, it's code is weird in that you consume it two different ways. You can actually read the code as it's written or you encounter it as a user who is experiencing the, the results of the code. And like the latter is obviously much more common and something you don't really need any literacy in engineering to do. It's actually the purpose of it to be something that people can engage with without understanding the underlying code. But I don't, I guess there's a version of that with reading a book. Like you could read the book or you could experience the second order effects of the book as it disseminates through the world and affects culture.
+[24:10] **Drew:** I was thinking as you were describing that, code is weird in that you consume it two different ways. You can actually read the code as it's written or you encounter it as a user who is experiencing the results of the code. And the latter is obviously much more common and something you don't really need any literacy in engineering to do. It's actually the purpose of it to be something that people can engage with without understanding the underlying code. But I don't, I guess there's a version of that with reading a book. Like you could read the book or you could experience the second order effects of the book as it disseminates through the world and affects culture.
 
 [24:55] **Drew:** But with code, I think that loop is much tighter. The relationship between what's written and what the effect of what was written is a very direct and predictable relationship.
 
@@ -257,7 +257,7 @@ quotes:
 
 [27:41] **Henry:** If you have a different mental model of how the code works than them, that's why you can't understand it, because they are thinking from a certain viewpoint, and it's like if you can buy into that viewpoint, it'll be easier to go through the, say the tutorial or whatever on how it works.
 
-[27:57] **Henry:** Instead of just pretending that like, code is code, you know, people say it all the time, unless you understand why they said something. You're just doing what I, I call like archeology, trying to figure out like a mystery. Like how do they do this?
+[27:57] **Henry:** Instead of just pretending that code is code, people say it all the time, unless you understand why they said something. You're just doing what I call archeology, trying to figure out like a mystery. Like how do they do this?
 
 [28:09] **Drew:** That's actually.. As someone who, what you just described, I would say I've dabbled in coding, but I definitely am no expert and, certainly don't do it professionally at all. Actually, that's not even totally true.
 
@@ -347,19 +347,19 @@ quotes:
 
 [36:27] **Henry:** Instead of like a gym where you.. I don't know if you can see through..
 
-[36:30] **Drew:** Yeah. Well, a lot of gyms have big glass floor to ceiling windows, so you can see, I don't know, I don't know if that makes them seem more enticing or not, but I do feel like the Equinox brand is pretty like powerful.
+[36:30] **Drew:** Yeah. Well, a lot of gyms have big glass floor to ceiling windows, so you can see, I don't know if that makes them seem more enticing or not, but I do feel like the Equinox brand is pretty like powerful.
 
 [36:41] **Drew:** In different sectors like gyms or WeWorks, there's all these different versions of spaces where you're kind of buying a membership to a desirable space and then you have unlimited access to it. And that's kind of the product, is just being in the space and that's what you're paying for, rather than getting any specific good or service. It's more about just existing within the brand.
 
 #### McDonalds as the only third place
 
-[37:03] **Henry:** And making it more like part of your day to day or just make it feel like it's just normal. Yeah, well, everyone goes to Starbucks, so it's like you go there to work. It's not even about coffee anymore. I think did, did they change the policy where like you could like just sit there or something?
+[37:03] **Henry:** And making it more like part of your day to day or just make it feel like it's just normal. Yeah, well, everyone goes to Starbucks, so it's like you go there to work. It's not even about coffee anymore. I think did they change the policy where you could just sit there or something?
 
-[37:17] **Drew:** I think there's been some different eras of that because there was a whole thing with.. I remember it came up last year during Black Lives Matter. Somebody got kicked out of a Starbucks and, um, they were forced to change their policy and allow people to be in..
+[37:17] **Drew:** I think there's been some different eras of that because there was a whole thing with.. I remember it came up last year during Black Lives Matter. Somebody got kicked out of a Starbucks and they were forced to change their policy and allow people to be in..
 
 [37:31] **Drew:** I think the question was whether or not the person had bought coffee. And I think now they've pulled back on that. You can be in there no matter what. I've always assumed that that was the case with any fast food type place. I always kind of thought that you could go in McDonald's and nobody would ever question what you were doing there. And actually McDonald's, I think has become one of the main public spaces that people use in different types of urban environments. Smaller towns that don't really have other third places, mcDonald's sort of fulfills that role, which is kind of a, a sad statement.
 
-[38:02] **Drew:** And it's so like your presence in a place like Starbucks is still so compromised, but it feels public just because it is more public than most of the other environments we have access to. And I mean, it's kind of this consistent branded environment that appears around the world now, and you can find it. In any, like, pretty much any big city in the world and know exactly where you're getting what to expect inside. And I think that consistency makes it more desirable for people to like, or in certain situations people like welcome that familiarity, but it's not, I feel like a very small part of that is about the coffee.
+[38:02] **Drew:** And your presence in a place like Starbucks is still so compromised, but it feels public just because it is more public than most of the other environments we have access to. And it's kind of this consistent branded environment that appears around the world now, and you can find it in pretty much any big city in the world and know exactly where you're getting what to expect inside. And I think that consistency makes it more desirable for people to like, or in certain situations people like welcome that familiarity, but it's not, I feel like a very small part of that is about the coffee.
 
 [38:43] **Henry:** It is interesting that it's like, that's like where the corporate side is becoming the commons because the common is that knowing that we've all been to Starbucks.
 
@@ -373,15 +373,15 @@ quotes:
 
 #### Reverse engineering bodegas
 
-[39:51] **Drew:** And I mean, there's more and more of the [Amazon Go](https://en.wikipedia.org/wiki/Amazon_Go) stores. It feels very weird and like bizarre every time I see one. Like I just walked past one the other day in Midtown. It's like sort of a AI generated like approximation of like what a store is. They are basically the product of, Amazon's data, about what types of things people want on a daily basis. That could be in like a bodega type setting. They just reverse engineered the corner store.
+[39:51] **Drew:** And there's more and more of the [Amazon Go](https://en.wikipedia.org/wiki/Amazon_Go) stores. It feels very weird and bizarre every time I see one. I just walked past one the other day in Midtown. It's sort of an AI generated approximation of what a store is. They are basically the product of, Amazon's data, about what types of things people want on a daily basis. That could be in a bodega type setting. They just reverse engineered the corner store.
 
-[40:24] **Henry:** Yeah. That reminds me of when. People used to like ab test, like buttons and Yeah. The most trivial things.
+[40:24] **Henry:** Yeah. That reminds me of when people used to ab test buttons and the most trivial things.
 
 [40:30] **Drew:** Actually when I went, have you been in one of the Amazon physical bookstores?
 
-[40:35] **Drew:** Yeah, I did. Yeah. I went in one of those a while back and I remember just thinking the same thing. It felt like the organization of the store was completely chaotic and not based on any traditional notion of how you should organize a bookstore. You know, like there's very, like, familiar conventions. If you go into a bookstore about.
+[40:35] **Drew:** Yeah, I did. Yeah. I went in one of those a while back and I remember just thinking the same thing. It felt like the organization of the store was completely chaotic and not based on any traditional notion of how you should organize a bookstore. There's very familiar conventions. If you go into a bookstore.
 
-[40:55] **Drew:** You know, there'll be a fiction section. There'll be, you know, poetry, like then all the different categories of nonfiction. In the Amazon store, it just felt, it actually felt like the physical manifestation of like the Netflix home screen where it's just rows of content filed according to different categories. Right. But they're not mutually exclusive. I can't even begin to like, yeah, yeah.
+[40:55] **Drew:** There'll be a fiction section. There'll be poetry, then all the different categories of nonfiction. In the Amazon store, it actually felt like the physical manifestation of the Netflix home screen where it's just rows of content filed according to different categories. Right. But they're not mutually exclusive. I can't even begin to.. yeah.
 
 [41:17] **Henry:** Well they're all like the most popular things, right? I wanna be able to feel like I can create my own serendipity, but they kind of force it on you and they're kind of ruins the joy of just finding something new 'cause of the algorithm.
 
@@ -411,7 +411,7 @@ quotes:
 
 [44:21] **Drew:** I think it can, but I think the physical environments are so complicated and the ones that we've like, like a city for example, or a town, there's just so much going on there it's very difficult to build every quality of that into a digital environment. So I think you can definitely enhance digital environments and give them better qualities over time and fix things and tweak things and make them better and make them more human. But I think that just because the nature of digital space is so fundamentally different from physical space, you're gonna end up with a different outcome.
 
-[44:56] **Drew:** And anytime you try to simulate something that is present in the physical world, it's harder to faithfully reproduce it. I think you look at, like, I've, I keep referring to Twitter because that's where I spend the most time online. There's a whole different set of norms that exists on non-spatial digital environment like Twitter.
+[44:56] **Drew:** And anytime you try to simulate something that is present in the physical world, it's harder to faithfully reproduce it. I keep referring to Twitter because that's where I spend the most time online. There's a whole different set of norms that exists on non-spatial digital environment like Twitter.
 
 [45:16] **Drew:** That is like, there are moments on Twitter that feel like serendipity, but it's a completely different type of serendipity than the type that you get in the physical world. It's just a different type of environment.
 
@@ -419,7 +419,7 @@ quotes:
 
 [45:56] **Drew:** but just the way that we relate to like the information in front of our faces in an environment like Twitter, I think is so different. The idea of like a tweet being kind of like fully flexible and being changeable via the edit button, like the way that we. Would engage with, with that type of information is different than in the physical world when there's more of like, if something gets changed, there's more evidence that it was changed.
 
-[46:22] **Drew:** All this like fake news stuff that keeps coming up on Facebook or every, every website or, or platform, like, I just think a lot of it stems from the fact that we don't have as much context. On the internet and like we could, a lot of like what people want from environments that feel more spatial is just more context.
+[46:22] **Drew:** All this fake news stuff that keeps coming up on Facebook or every website or platform, I just think a lot of it stems from the fact that we don't have as much context. On the internet. A lot of what people want from environments that feel more spatial is just more context.
 
 [46:45] **Drew:** And I think the physical world's very good at providing context and it doesn't come naturally to digital environments.
 
@@ -435,9 +435,9 @@ quotes:
 
 [47:14] **Henry:** And it's maybe that goes all the way back to this whole program language thing. It's like that's not something someone thought of. They're not like, oh. Let's make it easier to track like what happened in the past or whatever.
 
-[47:23] **Drew:** Yeah. And again, I mean that to, to bring up, like NFTs again, that is like a, that's the type of like feature that I think is being sort of copied from pre-digital, like modes of existence and being replicated or like artificially introduced.
+[47:23] **Drew:** Yeah. And to bring up NFTs again, that's the type of feature that I think is being copied from pre-digital modes of existence and being replicated or artificially introduced.
 
-[47:40] **Drew:** The idea that like the providence of an NFT can be or anything on the blockchain, you know? Yeah. That actually leaves a. Trail immutable, like trail like I think that's the type of thing where we're reacting to some of the problems with earlier versions of, of software or, or the digital world.
+[47:40] **Drew:** The idea that the provenance of an NFT or anything on the blockchain actually leaves an immutable trail. I think that's the type of thing where we're reacting to some of the problems with earlier versions of software or the digital world.
 
 [48:00] **Henry:** Is it good to create that water cooler type place? You coming here is like you had to. Take time to go A to B, and then everything online's instant. So it's like, yeah, the waiting room, whatever that means, so that people have a space where they can stop.
 
@@ -457,7 +457,7 @@ quotes:
 
 [49:16] **Drew:** I kind of said this a different way earlier, but I do think Twitter is interesting, and you could say the same of Instagram or Facebook, but it's this massive body of work that's being completely produced by mostly people that are in the middle of doing something else or like waiting for something real to happen, or like taking a break from like talking to somebody.
 
-[49:38] **Drew:** I feel like all of my Twitter behavior is just in these tiny little moments between things that I would consider like real activities, and now I've tweeted like thousands of times and it, it's just like all the product of these weird fragments of time when I was like distracted from something else.
+[49:38] **Drew:** I feel like all of my Twitter behavior is just in these tiny little moments between things that I would consider like real activities, and now I've tweeted thousands of times and it's just all the product of these weird fragments of time when I was distracted from something else.
 
 [49:59] **Henry:** Well, the way you use it is definitely reflective of that then, which I appreciate, but I don't know what I would say.
 

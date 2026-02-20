@@ -47,11 +47,11 @@ quotes:
 
 > I've noticed this as well in going to different worship services. High/low church is a thing, like high and lo-fi music which I talk about later.
 
-[01:38] **Michael:** It's more of a part of what you do in worship, and even in your sort of daily private practice of piety. And so I've noticed that in my own experience kind of interacting with these various communities and traditions.
+[01:38] **Michael:** It's more of a part of what you do in worship, and even in your sort of daily private practice of piety. I've noticed that in my own experience interacting with these various communities and traditions.
 
-[01:56] **Michael:** And right, I think my sense has been that to completely abstract the body from the experience of one's faith is probably a mistake. But I know they're kind of delicate kind of theological currents to navigate there amongst the various traditions.
+[01:56] **Michael:** And right, I think my sense has been that to completely abstract the body from the experience of one's faith is probably a mistake. But I know they're delicate theological currents to navigate there amongst the various traditions.
 
-[02:15] **Michael:** But that the idea that online, we are also kind of trading in abstractions, or trading in virtual differently embodied spaces, right. I mean, I've made the argument, at least once that our online experience isn't really disembodied.
+[02:15] **Michael:** But that the idea that online, we are also kind of trading in abstractions, or trading in virtual differently embodied spaces, right. I've made the argument, at least once that our online experience isn't really disembodied.
 
 [02:33] **Michael:** You know, here I am, right.
 
@@ -69,7 +69,7 @@ quotes:
 
 [03:36] **Henry:** And it has nothing to do with like what you do, how you live your life. It is kind of like this reductionism at the extreme. And then the other side might be like, wow, it looks like they're emphasizing these practices too much, there's too much action and not enough belief.
 
-[03:51] **Michael:** Yeah. And I think the more nuanced representatives both poles of that would probably maybe be closer than what that kind of kind of points to. But I think there are tendencies in those directions. Definitely.
+[03:51] **Michael:** Yeah. And I think the more nuanced representatives both poles of that would probably be closer than what that kind of points to. But I think there are tendencies in those directions. Definitely.
 
 [04:06] **Michael:** And that has been an interest of mine. To examine not just what we do with our tools, right?
 
@@ -79,7 +79,7 @@ quotes:
 
 > ...we can begin to look not only for discrete and quantifiable effects, but for more evasive patterns, changes to what we might call the texture of our experience or its meaning. I’m especially taken by the idea of exploring how material culture changes the texture of our experience because the phrase itself points us toward a more tactile mode of exploration. It suggests that the self and its relation to the world is not merely a mental phenomenon. It has a sensual, embodied, and material dimension, and changes, even subtle ones, to the texture our experience can have profound consequences. -[The Stuff of Life: Materiality and the Self](https://theconvivialsociety.substack.com/p/the-stuff-of-life-materiality-and)
 
-[04:33] **Michael:** And yeah so in that last post that I've put up in the newsletter, wanted to think a little bit more just not about what we're doing with it, but thinking about technology, not just in terms of our devices that empower our actions, but sort of the texture, the material culture that we kind of just live in day to day and how that shapes us maybe in subtle ways.
+[04:33] **Michael:** In that last post that I've put up in the newsletter, wanted to think a little bit more just not about what we're doing with it, but thinking about technology, not just in terms of our devices that empower our actions, but sort of the texture, the material culture that we kind of just live in day to day and how that shapes us maybe in subtle ways.
 
 [04:56] **Michael:** I was thinking, I use the example of the difference between an e-reader and a physical book, right? I'm staring at some shelves now that have some books that I've accumulated over the years.
 
@@ -145,11 +145,11 @@ quotes:
 
 - [tweet](https://twitter.com/andreyzagoruiko/status/1552086187489107969?s=20)
 
-[09:27] **Henry:** And then one in the middle, it's like all the different type like Notion and OneNote and whatever. All don't even remember all the names, Roam. And I've used all those things in the middle a lot.
+[09:27] **Henry:** And then one in the middle, it's like all the different types, Notion and OneNote and whatever. All don't even remember all the names, Roam. And I've used all those things in the middle a lot.
 
-[09:38] **Henry:** And I come back to like, I don't wanna like set up anything. I just wanna like jot something down. And I might not ever look at it again. I just need that the minimal amount of effort.
+[09:38] **Henry:** And I come back to, I don't wanna set up anything. I just wanna jot something down. And I might not ever look at it again. I just need that the minimal amount of effort.
 
-[09:49] **Michael:** Right. No, that's a great example. In fact, what did I recently download, uh, Craft. So I haven't used it yet, which says a lot.
+[09:49] **Michael:** Right. No, that's a great example. In fact, what did I recently download, Craft. So I haven't used it yet, which says a lot.
 
 [09:57] **Michael:** But anyway, I've attempted some of these online note taking kind of systems. At the end of the day, yeah, I just don't stick with it because the simplicity of having a little notebook that I carry around and jotting stuff down. It doesn't.. I don't know.
 
@@ -319,7 +319,7 @@ quotes:
 
 [21:37] **Henry:** I'm happy to just spend some time thinking about too.. With podcasts, we always wanna say immediately what I'm thinking.
 
-[21:42] **Michael:** No, no, but you're right. I mean, it's fine, fine to try to hash it out. I just don't want to give you nothing. Yeah. I mean, if you wanna start off and tell me some of what you were thinking you know, along those lines, I'm happy think out loud with you.
+[21:42] **Michael:** No, no, but you're right. I mean, it's fine, fine to try to hash it out. I just don't want to give you nothing. Yeah. I mean, if you wanna start off and tell me some of what you were thinking along those lines, I'm happy think out loud with you.
 
 #### Liturgies and Mediums
 

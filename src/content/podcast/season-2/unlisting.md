@@ -26,7 +26,7 @@ quotes:
 
 [00:05] **Philip:** It was randomness and it was also this theme of growing old on the web, right.
 
-[00:09] **Philip:** I made my first webpage at 97. I mean, it wasn't anything amazing. So it was weird that I'm in that generation where as a kid I've made the early webpages.
+[00:09] **Philip:** I made my first webpage at 97. It wasn't anything amazing. So it was weird that I'm in that generation where as a kid I've made the early webpages.
 
 [00:18] **Philip:** I wasn't around the beginning of the internet or beginning of computing. I'm not that old. But you know, I'm old enough in web years.
 
@@ -46,11 +46,11 @@ quotes:
 
 [01:11] **Henry:** Yeah. You mentioned this in the video, it's not like a sudden thing. You've been thinking about this for a while anyway, right.
 
-[01:17] **Philip:** Yeah. I mean, the only YouTube video on my channel is..
+[01:17] **Philip:** Yeah. The only YouTube video on my channel is..
 
 [01:21] **Philip:** It's like the stereotypical thing where people quit YouTube. It wasn't even meant as clickbait, but I didn't explain anything. It wasn't like a long video. I needed a placeholder there, just so people don't freak out that my channel is gone, right. They think I like freaked out.
 
-[01:36] **Philip:** And then I just basically linked to my newsletter and decided, if you really want more content like this, just subscribe. I'm trying to play with this more private format.
+[01:36] **Philip:** And then I just linked to my newsletter and decided, if you really want more content like this, just subscribe. I'm trying to play with this more private format.
 
 #### A Long Time Coming
 
@@ -68,15 +68,15 @@ quotes:
 
 [02:32] **Philip:** And then I think it deleted LinkedIn also, which I didn't really use. It was just kind of there.
 
-[02:37] **Philip:** So that was kind of the start of the end. I mean that was February this year, and even before, maybe a year or two before, I decided to not have anything on my phone.
+[02:37] **Philip:** So that was kind of the start of the end. That was February this year, and even before, maybe a year or two before, I decided to not have anything on my phone.
 
 [02:47] **Philip:** So I try to get email off my phone and social media.
 
 [02:52] **Philip:** I actually never bothered to install the Facebook app. Public social media, it was just Twitter on the phone, but that's already pretty addictive because it's public, it's pretty engaging.
 
-[03:00] **Philip:** If you're on the phone, you just check it a lot and reply to people and post stuff. So I got that off my phone a few years ago, so that, you know, was already one half there.
+[03:00] **Philip:** If you're on the phone, you just check it a lot and reply to people and post stuff. So I got that off my phone a few years ago, so that was already one half there.
 
-[03:11] **Philip:** And then I tried to like, get email off my phone unsuccessfully. I've tried to hide the app or not have an email app and just use the browser. And then I would just always find myself clicking the browser, clicking on Gmail or whatever.
+[03:11] **Philip:** And then I tried to get email off my phone unsuccessfully. I've tried to hide the app or not have an email app and just use the browser. And then I would just always find myself clicking the browser, clicking on Gmail or whatever.
 
 [03:23] **Philip:** So just not using social media or posting stuff on mobile already kind of slowed things down a lot.
 
@@ -98,15 +98,15 @@ quotes:
 
 [04:09] **Philip:** So basically I wanted to make it so that my public web presence was just minimal. And I think the biggest thing that we can talk about, beyond just YouTube, which I had like hundreds of videos out, was just my website, which had hundreds of articles.
 
-[04:24] **Philip:** And I decided to basically get rid of them.
+[04:24] **Philip:** And I decided to get rid of them.
 
-[04:26] **Philip:** So now my website is just one page. My publications and my professional info. It's like very vestigial.
+[04:26] **Philip:** So now my website is just one page. My publications and my professional info. It's very vestigial.
 
 [04:32] **Philip:** It has some links to like FAQs, so the articles kind of live on in some ways.
 
 [04:37] **Philip:** The interesting thing is that because I've been accumulating all this stuff on the web for decades, there's sort of a responsibility in a way not to just ditch everything.
 
-[04:45] **Philip:** It's kinda like if you just like pulled all your code offline. Yeah you could do that, but that's kind of like an asshole move if people were relying on it.
+[04:45] **Philip:** It's kinda like if you just pulled all your code offline. Yeah you could do that, but that's kind of like an asshole move if people were relying on it.
 
 [04:51] **Henry:** Well, that's funny. Cause that actually..
 
@@ -134,15 +134,15 @@ quotes:
 
 [05:46] **Philip:** So if people really want it, they could go to the internet archive and look at my websites.
 
-[05:50] **Philip:** That's fine. Like I'm okay with that. I'm not like I'm not trying to like erase myself completely, right.
+[05:50] **Philip:** That's fine. I'm okay with that. I'm not trying to erase myself completely, right.
 
 [05:55] **Philip:** Because in practical terms, there's internet archive and there's other caches and people might take snippets of your articles.
 
-[06:02] **Philip:** I mean, you obviously can't control stuff you put out, but to the greatest extent possible, I felt like that was like a reasonable design.
+[06:02] **Philip:** You obviously can't control stuff you put out, but to the greatest extent possible, I felt like that was a reasonable design.
 
 [06:11] **Philip:** And we can go to the details, but that's like the nuts and bolts of it. I guess from here on out at this point, I would not want to write new stuff as much publicly.
 
-[06:21] **Philip:** But for the old stuff, I basically took as much of a down as possible. And then I kept the links alive for the most popular ones.
+[06:21] **Philip:** But for the old stuff, I took as much of it down as possible. And then I kept the links alive for the most popular ones.
 
 #### Unlisting Yourself
 
@@ -162,19 +162,19 @@ quotes:
 
 [07:15] **Philip:** But the stuff that has been viewed the most that I want to keep up, they're basically unlisted.
 
-[07:19] **Philip:** And also like the pages themselves, I put no index, so that in theory, the search engines would not crawl or make snippets of it.
+[07:19] **Philip:** And also the pages themselves, I put no index, so that in theory, the search engines would not crawl or make snippets of it.
 
 [07:26] **Philip:** So it's not discoverable by new people, but if old people already have links to it, it's fine.
 
 [07:31] **Philip:** It's not like they're secrets or anything.
 
-[07:34] **Henry:** Yeah. I think that's a like important distinction because I feel like the first question that people are going to ask is just why.
+[07:34] **Henry:** Yeah. I think that's an important distinction because I feel like the first question that people are going to ask is just why.
 
 [07:40] **Henry:** But it's just not what you might initially think of. I don't want to get rid of my presence on the internet, but I don't want to introduce new things, but the things that are already there, I don't want it to break.
 
 [07:52] **Henry:** Also if you really want to dig into it, letting them.. In a way you kind of have to, because it's already on the archive.
 
-[07:59] **Henry:** So you're not gonna like, make it harder for people that really want to know who you are.
+[07:59] **Henry:** So you're not gonna make it harder for people that really want to know who you are.
 
 [08:04] **Henry:** Which I think is good because those people are putting in the time to want to look into it. So it's like, I guess, go ahead.
 
@@ -184,23 +184,23 @@ quotes:
 
 [08:12] **Philip:** The people who are the most bad or the most good.
 
-[08:14] **Philip:** Yeah. I mean, this is all good brainstorming.
+[08:14] **Philip:** Yeah. This is all good brainstorming.
 
-[08:16] **Philip:** I talked to Nadia about this, kind of. I actually talked to her right before I did all the deletion and that episode hasn't aired yet.
+[08:16] **Philip:** I talked to Nadia about this. I actually talked to her right before I did all the deletion and that episode hasn't aired yet.
 
 [08:24] **Philip:** And I'll have to think about how do I air these episodes now that I don't have anything.
 
-[08:26] **Philip:** I mean, I think what I do is on my homepage, I still list the podcasts.
+[08:26] **Philip:** I think what I do is on my homepage, I still list the podcasts.
 
 [08:30] **Philip:** Because that's something I still want to share. I just list them so that people can direct click on them. And then if you want to share, it's fine. It's totally okay.
 
 [08:37] **Philip:** So what I'm saying is we have one model.
 
-[08:39] **Philip:** I mean, this whole brainstorming is good for me now. Cause I want to write this up in a newsletter of like, what is the whole point of this? So you're helping me brainstorm.
+[08:39] **Philip:** This whole brainstorming is good for me now. Cause I want to write this up in a newsletter of like, what is the whole point of this? So you're helping me brainstorm.
 
 #### When I was young, I was in a rock band
 
-[08:47] **Philip:** I guess one thing is like, there was a moment in time, not moment, a phase I had in my life, right? Like, let's say the past decade, right?
+[08:47] **Philip:** I guess one thing is, there was a moment in time, not moment, a phase I had in my life, right? Like, let's say the past decade, right?
 
 [08:55] **Philip:** I've been more visible online. I've done more stuff openly online.
 
@@ -230,7 +230,7 @@ quotes:
 
 [10:23] **Henry:** A lot of us just go with the flow, or just what you're used to, or what everyone else does.
 
-[10:28] **Philip:** Yeah. You know, there are things that are like good forcing functions, right? Barring a forcing function for anything, some people just transition out of it right.
+[10:28] **Philip:** Yeah. There are things that are good forcing functions, right? Barring a forcing function for anything, some people just transition out of it right.
 
 [10:37] **Philip:** For example, use is a good example, right? There was no real turning point or anything. I started on Facebook very early, right. Cause I'm of the age where it started in my junior year of college and February, 2004 was when it started Harvard and MIT.
 
@@ -238,29 +238,29 @@ quotes:
 
 [11:04] **Philip:** Throughout college and grad school, more and more people are on it. And it was very active, right. We're all students, it was very active. And it was the place to be. And then eventually when people graduated, got jobs, had kids, started families, it became less active, right. At least for my crowd.
 
-[11:19] **Philip:** Of course people use it a lot, right. I mean, parents use it to share pictures of kids, extended family, blah, blah. I mean obviously billions of people use it. But so for my kind of peer group, we just kind of gradually leveled out of it and didn't use it as much.
+[11:19] **Philip:** Of course people use it a lot, right. Parents use it to share pictures of kids, extended family, blah, blah. Obviously billions of people use it. But so for my kind of peer group, we just kind of gradually leveled out of it and didn't use it as much.
 
 [11:31] **Philip:** And it made sense to just delete it or if I didn't do it, it's fine. It didn't have a noticeable impact on my life. So it kind of gradually went out.
 
-[11:40] **Philip:** There are other things that have a more discreet thing. So for example, if something really bad happens to you online, then that might be a cause for like, okay, I got to like quit this or whatever, right.
+[11:40] **Philip:** There are other things that have a more discreet thing. So for example, if something really bad happens to you online, then that might be a cause for like, okay, I got to quit this or whatever, right.
 
 [11:50] **Philip:** In all sorts of settings, so I never really had one of those.
 
 [11:54] **Philip:** But then, like you were kind of alluding to, if you don't have a sudden event, then you could just kind of drag on with the status quo for awhile. Is this really what I want? I don't know, but let's just keep going.
 
-[12:04] **Philip:** So I decided that, I feel like this was a good time, I guess, by the time we air this or whatever.
+[12:04] **Philip:** So I decided that, I feel like this was a good time, by the time we air this.
 
 [12:10] **Philip:** So I've been now on this career path for six years, right, as an assistant professor.
 
 #### Tenure as a forcing function
 
-[12:16] **Philip:** So recently, I mean, it's not public yet until July. But I recently got tenure, which is very good.
+[12:16] **Philip:** So recently, it's not public yet until July. But I recently got tenure, which is very good.
 
 [12:22] **Philip:** Thank you. Officially happens July 1st. So I felt like that was a good milestone, right? Okay. This is a new career phase. And I want to think about not just starting from scratch. I still have my same job.
 
 [12:34] **Philip:** But I feel like, there was a very discrete point here that I'm like, let's just reboot. And let's just clear this out.
 
-[12:41] **Philip:** Not that there's any like, correlation between that and deleting my website, but this is a good check point in my career.
+[12:41] **Philip:** Not that there's any correlation between that and deleting my website, but this is a good check point in my career.
 
 [12:47] **Philip:** And it means that I'm more established now my career. I don't necessarily need to publicize or do the public stuff as much. Not that I actually needed to, but I think you get what I mean.
 
@@ -276,13 +276,13 @@ quotes:
 
 [13:20] **Philip:** That's actually a pretty good analogy. Or when you graduate college, you start your first job. Like these really discreet things.
 
-[13:26] **Philip:** I mean, I guess the other thing that's related now that I'm also getting a bit older, too.
+[13:26] **Philip:** I guess the other thing that's related now that I'm also getting a bit older, too.
 
 [13:30] **Philip:** So with tenure and with me being in my late thirties now. I guess the way to think about it, is this thought experiment for like, how much longer do I keep going forward in that sense, right?
 
 [13:38] **Philip:** Do I just keep doing videos, web stuff, social media stuff?
 
-[13:42] **Philip:** It's fine. I mean, people can do it if, if they keep doing it.
+[13:42] **Philip:** It's fine. I mean, people can do it if they keep doing it.
 
 #### Out of Touch
 
@@ -348,15 +348,15 @@ quotes:
 
 [17:11] **Henry:** Yeah, I was going to ask you that.
 
-[17:12] **Henry:** It reminds me of the fact that like, we probably signed up for like hundreds of websites and services all the time and we just forget about them. And even if I don't have data on there, it's more of I don't want to get hacked.
+[17:12] **Henry:** It reminds me of the fact that like, we probably signed up for hundreds of websites and services all the time and we just forget about them. And even if I don't have data on there, it's more of I don't want to get hacked.
 
 [17:25] **Philip:** So I'm not doing a full digital scrub, right? I mean, this really isn't for like privacy as much, right. The full digital scrub is like every random account you've had. And then they probably sold your thing or the company got acquired, right.
 
-[17:39] **Philip:** You know, really interesting stories are from people who are transgendered, right? They change their gender, so they change their name everywhere online. So I know some people who have done that and people've talked about that.
+[17:39] **Philip:** Really interesting stories are from people who are transgendered, right? They change their gender, so they change their name everywhere online. So I know some people who have done that and people've talked about that.
 
-[17:49] **Philip:** And this goes into this whole issue of name policies and just account information, right? If you change your, you know, not just change your gender, but just changing your name, that's just a general form, right? If you want to change your name for whatever reason, whether it's a gender transition or other identity transitions, you have to change your name everywhere.
+[17:49] **Philip:** And this goes into this whole issue of name policies and just account information, right? If you change your, not just change your gender, but just changing your name, that's just a general form, right? If you want to change your name for whatever reason, whether it's a gender transition or other identity transitions, you have to change your name everywhere.
 
-[18:07] **Philip:** You know, in legal documents and all your accounts in like, you know, Google. I heard it's really hard to change your Google name or something like that. And some places, make it easier than others, right. And so that's much harder. So for me, it was a very lightweight sort of, I'm just going to take down whatever I can and whatever I can't it's fine.
+[18:07] **Philip:** In legal documents and all your accounts in Google. I heard it's really hard to change your Google name or something like that. And some places, make it easier than others, right. And so that's much harder. So for me, it was a very lightweight sort of, I'm just going to take down whatever I can and whatever I can't it's fine.
 
 #### Posting about Quitting
 
@@ -380,7 +380,7 @@ quotes:
 
 [19:25] **Henry:** Right. Especially now.
 
-[19:26] **Philip:** Especially now. But you know, all throughout the last five years, you know, there's kind of a getting off of Facebook or social media sort of thing.
+[19:26] **Philip:** Especially now. But you know, all throughout the last five years, there's kind of a getting off of Facebook or social media sort of thing.
 
 #### No One's Going to Cry
 
@@ -396,7 +396,7 @@ quotes:
 
 [20:24] **Henry:** Yeah, it's interesting cause like that's an argument for people to not make YouTube videos because they think there's so many. But that's when they're getting started.
 
-[20:32] **Philip:** Yeah. I mean, that's a distinction we talked about that like, I think that the stuff I would suggest for someone to get started is very different than someone like me who's been doing it for a long time, right.
+[20:32] **Philip:** Yeah. I mean, that's a distinction we talked about that, I think the stuff I would suggest for someone to get started is very different than someone like me who's been doing it for a long time, right.
 
 [20:42] **Philip:** So another reason that I guess I don't care as much anymore about this is that I don't really care as much about making quote unquote introductory content anymore, right. Because I've seen so much of it. I've done so much of it.
 
@@ -412,7 +412,7 @@ quotes:
 
 [21:29] **Philip:** I don't want to be like, Oh, don't make introductory stuff, cause there's so much of it.
 
-[21:33] **Henry:** Yeah, I guess the caveat with all this is like, you're from the point of view saying I've been doing this for awhile, I'm in a different place now.
+[21:33] **Henry:** Yeah, I guess the caveat with all this is, you're from the point of view saying I've been doing this for awhile, I'm in a different place now.
 
 #### More Beginners in a Growing Field
 
@@ -476,7 +476,7 @@ quotes:
 
 [25:42] **Henry:** I mean, we all know that cause of marketing, the whole industry, but you don't want to turn into a marketing person if you don't want that. I keep saying that the more I think about marketing and money, the more I focus on it. And then eventually I'm not even doing the work I wanted to.
 
-[25:56] **Philip:** Yeah, no, that's huge. That's the kind of old Paul Graham I saved, The Top Thing in Your Mind, right? The top thought in your head.
+[25:56] **Philip:** Yeah, no, that's huge. That's the old Paul Graham essay, The Top Thing in Your Mind, right? The top thought in your head.
 
 [26:02] **Philip:** He was talking in the context of early stage startup founders, right. If you're just two people hacking away, anytime you think about fundraising is time you're not thinking about building your product, right? So when money is on the back of your head, it easily creeps up to that you're staying up at night dreaming about like, Oh yeah, what if I do this thing for fundraising or whatever.
 
@@ -530,7 +530,7 @@ quotes:
 
 [29:31] **Philip:** If they just kept trying to ride Seinfeld for a bit longer, maybe they would have not thought about these opportunities. They would've been kind of washed up old stars. Oh yeah. I had this great show in the nineties, I haven't done anything.
 
-[29:41] **Philip:** But by just kind of quitting you just free up your mind. Larry David did Curb Your Enthusiasm. Julia Lou Dreyfus, she did Veep and other shows. They all have thriving careers afterwards. They were known for Seinfeld obviously, but they also had a bunch of stuff afterwards. So I find it that's pretty admirable.
+[29:41] **Philip:** But by just kind of quitting you just free up your mind. Larry David did Curb Your Enthusiasm. Julia Lou Dreyfus, she did Veep and other shows. They all have thriving careers afterwards. They were known for Seinfeld obviously, but they also had a bunch of stuff afterwards. So I find that's pretty admirable.
 
 [29:56] **Philip:** Oh yeah this is obviously all very first world and then Ninja thing also, it's all very first world problem, right.They're all wealthy.
 
@@ -538,7 +538,7 @@ quotes:
 
 [30:06] **Philip:** Are you willing to step away when you're on top? You have all this momentum.
 
-[30:09] **Philip:** Seinfeld in the late nineties, they were on top of the world, right. So that discipline to be like, no, that's enough. Let's let's just think about the next phase. That's really cool.
+[30:09] **Philip:** Seinfeld in the late nineties, they were on top of the world, right. So that discipline to be like, no, that's enough. Let's just think about the next phase. That's really cool.
 
 [30:18] **Henry:** No, that resonates a lot. I think about me quitting my stable Adobe job to do this. It makes sense Nadia would bring this up because she was in VC, and then she went to open source, and then she left open source essentially, right.
 
@@ -608,7 +608,7 @@ quotes:
 
 [34:33] **Henry:** I think that on the surface, it's really, it sucks.
 
-[34:37] **Henry:** But I think it helps us to question a little bit deeper. Like my roommate. It was so interesting. He kind of messaged me. He's like, we should talk about like heaven.
+[34:37] **Henry:** But I think it helps us to question a little bit deeper. Like my roommate. It was so interesting. He kind of messaged me. He's like, we should talk about heaven.
 
 [34:44] **Henry:** And I was like, woah, why did that come out? And I was like, why did you even think of that? And he was like, because of the time I was just thinking, what is the meaning of life and where are we going? And I was like, that's interesting that that would cause you to think that way.
 
@@ -666,13 +666,13 @@ quotes:
 
 #### Intentionality
 
-[38:57] **Henry:** Intentionality is like lacking in almost everything that we have, and that has a lot to do with like habits.
+[38:57] **Henry:** Intentionality is lacking in almost everything that we have, and that has a lot to do with like habits.
 
 [39:03] **Henry:** And you brought up sugar. Same with like alcohol or coffee,
 
 [39:06] **Philip:** I had a conversation with another podcast guest. We didn't record that one, it was just a conversation. I think this word intentional, she brought up and I think I'll use that in the newsletter.
 
-[39:15] **Philip:** The other thing about putting all this stuff online was that I wasn't very intentional about it, right. It was cool because I could just make videos or write articles or stuff on my mind. It was all like informative and it was all around certain themes, but I would just put us a lot of stuff out there and I didn't really think about a target audience as much.
+[39:15] **Philip:** The other thing about putting all this stuff online was that I wasn't very intentional about it, right. It was cool because I could just make videos or write articles or stuff on my mind. It was all like informative and it was all around certain themes, but I would just put a lot of stuff out there and I didn't really think about a target audience as much.
 
 [39:33] **Philip:** Again, I think it's great for beginners to do this because you know, when you're a beginner producing content, the goal is just volume, right.
 
@@ -718,7 +718,7 @@ quotes:
 
 [42:22] **Henry:** Like you said it doesn't stop you from doing those kinds of experiments when you're older, it's just that kind of your main thing, you might have a specific goal in mind or something, right?
 
-[42:33] **Philip:** Yeah. And I guess like to kind of wrap off that wrap up the hour, I haven't really thought about a really clear mission statement, whatever yet.
+[42:33] **Philip:** Yeah. And I guess to wrap up the hour, I haven't really thought about a really clear mission statement, whatever yet.
 
 [42:39] **Philip:** But the content I want to produce is going to be longer form, right. So I think these podcasts are great. These long form sorts of thought out things.
 

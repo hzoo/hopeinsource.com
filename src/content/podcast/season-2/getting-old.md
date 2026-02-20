@@ -355,7 +355,7 @@ quotes:
 
 [01:02:13] **Mikeal:** Mm-hmm (affirmative), yeah, yeah. Definitely. Yeah. It's a fun time. I don't know. I still like writing code. I keep writing code as a developer even though a lot of what I do for work now is people pulling other skill sets out of me. But I have cut out enough time to keep writing code because I really enjoy it. And, yeah, those new communities are always just so fun. They're such a good time.
 
-[01:02:45] **Henry:** Yeah, I guess people are ... If it's something new, you know everyone's super incentivized to get involved versus all these other things that maybe it just feels like everything's maintenance and legacy stuff. And I feel like all people don't want to do that anyways.
+[01:02:45] **Henry:** Yeah, I guess people are ... If it's something new, everyone's super incentivized to get involved versus all these other things that maybe it just feels like everything's maintenance and legacy stuff. And I feel like all people don't want to do that anyways.
 
 [01:03:02] **Mikeal:** And so many people have preexisting relationships that you're sort of like ... I don't know. We don't talk about the people aspects of this enough. That was one thing that we were talking about a lot 10 years ago actually was the people part of open source and all of that. I do miss that a little bit. We were talking a lot more about just how to make nice spaces and stuff, I think because Rails became such a toxic place for a little while that a lot of us were talking about, "Okay, how do we do nice spaces for nice people, and how do we keep it nice?"
 

@@ -233,7 +233,7 @@ quotes:
 
 [25:41] **Henry:** So say I took communion. We're all on zoom and we're all eating our piece of bread and we all do it together. Some people would say that the wine is literally his body or something. So there's this spectrum of that thought. Because we could all just have virtual VR church and that's all we need.
 
-[25:56] **Sonya:** Yeah. And that all, you know, that also brings up the theme of sacrifice. Sort of almost like how much trouble are we required to go to for this to work. I don't really have an answer to that question either. I think it's a very interesting one though.
+[25:56] **Sonya:** Yeah. And that also brings up the theme of sacrifice. Sort of almost like how much trouble are we required to go to for this to work. I don't really have an answer to that question either. I think it's a very interesting one though.
 
 [26:10] **Henry:** I keep saying I was going to do this, but looking back at history of people have gone through pandemics before and what did they do?
 

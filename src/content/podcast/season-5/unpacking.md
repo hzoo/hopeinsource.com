@@ -116,7 +116,7 @@ quotes:
 
 [10:48] **Joseph:** Mm. So just to aggressively play devil's advocate here. So if you're checking out other churches... I don't think it'd be wrong for you to go to one of those churches and switch, right? If you had a good reason or you felt compelled to. Same with career. but it kind of breaks when you talk about marriage, right? Why is that?
 
-[11:14] **Joseph:** Not even the edge cases, but even more zoomed out from that. Just monogamy in general. Like why? But I guess that's just, I mean, I know Jesus said it and that's why Christians believe it, but I wonder why. Yeah.
+[11:14] **Joseph:** Not even the edge cases, but even more zoomed out from that. Just monogamy in general. Like why? But I guess that's just, I know Jesus said it and that's why Christians believe it, but I wonder why. Yeah.
 
 [11:29] **Henry:** It's like where is our safety net? Is it in the fact that I have all these options, I can go to anyone at any point? Or is it that you picked one and that's what's safe?
 
@@ -150,7 +150,7 @@ quotes:
 
 [15:03] **Henry:** I don't know if I'm actively trying to, and you could say that I think as a Christian you want, the point of being a Christian is simple. It can be simplified to just be, you want to be like Jesus, to think like Jesus. So, yeah, you can bring in The Bible or various theology or whatever. and maybe it's related to the idol ideology thing is, I don't want to be convinced because, some other reason, but that doesn't mean that that other reason isn't spiritual.
 
-[15:35] **Henry:** We tend to create a secular sacred divide. Is spiritual and this is not. So one example would be like the right thing to do is to become a missionary, quit your job and the other one is like make a lot of money at some place and you donate. It sounds like a very ea way of thinking about it. And for me, I don't really want to believe in that binary. There's a lot of options in between, you know, on what your calling is. If God is to God of creativity, I, I just don't know why we're, we're trying to fit into these boxes on that. It's not the same as believing that God is our savior and stuff like that.
+[15:35] **Henry:** We tend to create a secular sacred divide. Is spiritual and this is not. So one example would be like the right thing to do is to become a missionary, quit your job and the other one is like make a lot of money at some place and you donate. It sounds like a very ea way of thinking about it. And for me, I don't really want to believe in that binary. There's a lot of options in between, you know, on what your calling is. If God is to God of creativity, I just don't know why we're trying to fit into these boxes on that. It's not the same as believing that God is our savior and stuff like that.
 
 #### Abundance as a Heavenly Mindset
 
@@ -164,7 +164,7 @@ quotes:
 
 [16:58] **Henry:** I default to thinking scarcity based, because that's just like our whole world, right? When we think the same way, we're not really gonna get anywhere. So I want to think differently, change it up to see where that would lead to. I don't necessarily know what that looks like.
 
-[17:11] **Henry:** As an example, like Jesus miracles with feeding the 5,000 or whatever, right? It's like, what does that even mean? He could just multiply a bunch of stuff? Was it there a mindset thing? The kid had a lot of faith or something? There's a lot of ways to think through that too.
+[17:11] **Henry:** As an example, like Jesus miracles with feeding the 5,000 or whatever, right? It's like, what does that even mean? He could just multiply a bunch of stuff? Was there a mindset thing? The kid had a lot of faith or something? There's a lot of ways to think through that too.
 
 [17:24] **Henry:** I don't think open source was a Christian thing. it wasn't started by Christians per se, but maybe they were influenced by Christian principles, whether they believe that or not. I mean, that's just how I'm seeing it. Most of the time you're like, well, if you do something and you give it away for free, why would you do that?
 
@@ -188,7 +188,7 @@ quotes:
 
 [19:25] **Henry:** I think that it kind of lends itself to that thinking.
 
-[19:28] **Joseph:** What do you think about that? Is that just yet another spectrum? Dualism to non-dualism. It's like somewhere in the middle, like they're both val because like, you could definitely view Christianity through both lenses, I feel like, and it's probably issues with both, maybe?
+[19:28] **Joseph:** What do you think about that? Is that just yet another spectrum? Dualism to non-dualism. It's like somewhere in the middle, they're both valid because you could definitely view Christianity through both lenses, I feel like, and it's probably issues with both, maybe?
 
 [19:44] **Henry:** There's a tension there.
 
@@ -218,23 +218,23 @@ quotes:
 
 [22:01] **Henry:** During Covid, I think there was like some funny meme about . I think they're baptizing kids using like a water gun because of like social distancing, like stuff like that. So I'm like, I don't know, do we just like, because of the situation, we changed it anyway. So it's like things that we thought were like so important, we changed them.
 
-[22:20] **Joseph:** Hmm. Interesting. Yeah, I guess that's the tension. There'll always be, I dunno, I, I feel like we're gonna be all right.
+[22:20] **Joseph:** Hmm. Interesting. Yeah, I guess that's the tension. There'll always be, I feel like we're gonna be all right.
 
-[22:29] **Joseph:** I feel like there's always people on both sides of this that are like the Luddites versus the innovators, and you are like, we end up landing somewhere in the middle. I mean, in the end, you end up adapting. And changing, like, both sides are always, I feel like the world is always changing, so maybe VRChat communion actually is..
+[22:29] **Joseph:** There's always people on both sides of this, the Luddites versus the innovators, and we end up landing somewhere in the middle. In the end, you end up adapting. And changing, like, both sides are always, I feel like the world is always changing, so maybe VRChat communion actually is..
 
 [22:47] **Henry:** What it just takes is a Christian that happens to like VRChat and they're already in a community, or they become a Christian later, they're like, I'm gonna do it. because no one else would do it. It makes sense that the younger people would do it because they think it's normal. And then older people would never do it because they don't know it exists or they think it's like from Satan or something. So yeah.
 
 #### Pharisees to Heretics
 
-[23:07] **Joseph:** So what do you think about like, people that seem to... I guess that's different, like people that misrepresent the faith? I mean, I guess there's a difference between misrepresenting and like Like I, I would define misrepresenting as someone who is Christian, says they're Christian and maybe does Christian practices, but their character is not actually consistent with Jesus maybe versus someone whose character's very consistent, but just does, but just kind of like breaks the rules, like and does VRChat communion.
+[23:07] **Joseph:** So what do you think about like, people that seem to... I guess that's different, people that misrepresent the faith? I guess there's a difference between misrepresenting and... I would define misrepresenting as someone who is Christian, says they're Christian and maybe does Christian practices, but their character is not actually consistent with Jesus maybe versus someone whose character's very consistent, but just kind of breaks the rules, and does VRChat communion.
 
 [23:45] **Henry:** That is a great question. I don't know where to start with that. You could argue for both. Jesus was challenging the people of that time. The Pharisees, they were the ones that followed the rules. They knew the Bible, the Old Testament. And they did not know God.
 
-[24:01] **Henry:** So that's actually something that any Christian should be asking themselves, like, am I gonna be the Pharisee. Right now, and at the end of my life when like, you know, if you believe that, and then God is like, you know, there's that, there's a verse where it's like, um, they're like, um, we perform miracles in your name. So literally they were doing miracles. You know, we cast out demons, all these crazy things, and God's like, I never knew you. I mean, that would be I horrible to think, right? God's like, no, I didn't know who you were like at all.
+[24:01] **Henry:** So that's actually something that any Christian should be asking themselves, like, am I gonna be the Pharisee. Right now, and at the end of my life when like, you know, if you believe that, and then God is like, you know, there's a verse where they're like, we perform miracles in your name. So literally they were doing miracles. You know, we cast out demons, all these crazy things, and God's like, I never knew you. I mean, that would be I horrible to think, right? God's like, no, I didn't know who you were like at all.
 
 [24:30] **Henry:** I really like this sermon I listened to and it was like, we're always trying to do things for God, but we should think about doing things with God. So this might go back to idolatry and commitment. I think I know what God wants, right? So I did this thing for, I gave you this gift, and at the end of your life he's like, I didn't know who you were. So you think you know God, but does God know you? And that's like the real question.
 
-[24:52] **Henry:** And there's a lot to say about that. It's like, what does that even mean? How would I know? And this gets into this aspect of like what we would call like discernment, which is like whether you should make a decision or not, right? But then also our intimacy, which is another word in Christianity, with God.
+[24:52] **Henry:** And there's a lot to say about that. It's like, what does that even mean? How would I know? And this gets into this aspect of what we would call discernment, which is like whether you should make a decision or not, right? But then also our intimacy, which is another word in Christianity, with God.
 
 [25:08] **Henry:** And I think that this is very hard to do in practice and I can talk about all day and I, you know, that doesn't mean I'm being close to you. You could be a pastor, you could be a missionary, and you're not close to God because you're just following these habits. Going to church in the Bible. All good things. But it's funny how you can miss the whole point even doing all those things, right? Not that we shouldn't do those things, it's just that sometimes those things, and go back to idolatry, those could become the idols. That doesn't mean they are  per se, right?
 
@@ -244,7 +244,7 @@ quotes:
 
 [26:18] **Henry:** Yeah. Middle is like golden mean middle. I think that's Aristotle. It's not like 50%. You can't really measure that. What does it mean to be courageous versus like reckless? Virtue involves people, right? And that involves character. And it probably involves looking at their whole life.
 
-[26:36] **Joseph:** My, my brain is like evolving as we speak. Um, ,I'm writing down all these notes, by the way. This is like really good stuff.
+[26:36] **Joseph:** My brain is like evolving as we speak. I'm writing down all these notes, by the way. This is like really good stuff.
 
 #### Parables, Miracles, and Game Theory
 
@@ -254,11 +254,11 @@ quotes:
 
 [27:44] **Joseph:** I feel like your faith is just, has to change like the, the way that it looks. It just has to end up looking different.
 
-[27:54] **Joseph:** And then I was also just thinking.. You could even view it through an elitist lens. Like, is Christianity for the masses in a way, or is religion for the masses? Like if you . If you know that there are certain truths about the world and you feel close to God, um, but you're trying to figure out a way to get everyone to see that truth, how do you do that?
+[27:54] **Joseph:** And then I was also just thinking.. You could even view it through an elitist lens. Like, is Christianity for the masses in a way, or is religion for the masses? Like if you . If you know that there are certain truths about the world and you feel close to God, but you're trying to figure out a way to get everyone to see that truth, how do you do that?
 
 [28:22] **Joseph:** Well, the way that Jesus did it was parables. And like, if you want to, if you want people to believe in abundance, then I don't know, maybe perform a Miracle. Feed the 5,000.
 
-[28:33] **Joseph:** You could also believe in abundance through, through other means. Um, game theory, maybe, I don't know. I saw this YouTube video on game theory o of like lo long term game theory where tit for tat or whatever, like basically being more generous to a certain extent, actually benefits you and the entire world in the long term. So like you could, you know, maybe you could make that argument.
+[28:33] **Joseph:** You could also believe in abundance through, through other means. Game theory, maybe, I don't know. I saw this YouTube video on game theory of long term game theory where tit for tat or whatever, being more generous to a certain extent, actually benefits you and the entire world in the long term. So like you could, you know, maybe you could make that argument.
 
 [29:00] **Henry:** Yeah. Iterative prisoner dilemma. [Scott Alexander](https://en.wikipedia.org/wiki/Scott_Alexander) had the thing about this. He was actually asking the question, why did Christianity like rise? Like why is it so popular? Why did it grow so fast? And think about like how to use that so that EA could become like Christianity.
 
@@ -274,7 +274,7 @@ quotes:
 
 [30:29] **Joseph:** Do church, do pastors? I don't know. And maybe that's the reason why pastors lose their faith because they, they feel too burdened by like, here's, here's what I know about church history and anthropology or whatever. And I'm just speaking in a way that feels inauthentic to my church.
 
-[30:51] **Henry:** Great question. And then there's over reliance on pastors. Should we even have a pastor? Or just like, what, what does a pastor even mean? Or what is the future of what a pastor is?
+[30:51] **Henry:** Great question. And then there's over reliance on pastors. Should we even have a pastor? Or just like, what does a pastor even mean? Or what is the future of what a pastor is?
 
 [31:03] **Henry:** That might be more palatable way of putting it is like, do we have to do things the same way as before? Why are we relying on professional pastor versus lay people? And that depends on how you govern yourselves. Maybe I want more lay people or maybe I want a smaller church. Maybe I don't believe that megachurches are good for the faith.
 
@@ -286,11 +286,11 @@ quotes:
 
 [32:10] **Henry:** And I see that in open source too. The huge corporate open source, like Google has Chrome, right? And I think we talked about this earlier. And then like your side project and like everything in between.
 
-[32:19] **Joseph:** This is so fascinating. This is a marketing funnel. Like you bring in, like, you, like the message always has to be diluted.
+[32:19] **Joseph:** This is so fascinating. This is a marketing funnel. You bring in, the message always has to be diluted.
 
 [32:26] **Joseph:** If I write a tweet that's specifically talking to this tam of 10,000 people, the algo is gonna make it reach 10,000 people.
 
-[32:36] **Joseph:** And, and the purpose of that is just to get attention. But then if I actually want to talk, like, have nuance, if I put that out into the void, it's not gonna get any views because it, it doesn't have that mimetic kind of legs.
+[32:36] **Joseph:** And the purpose of that is just to get attention. But then if I actually want to talk, like, have nuance, if I put that out into the void, it's not gonna get any views because it, it doesn't have that mimetic kind of legs.
 
 [32:53] **Henry:** The only counterpoint is that. It does seem like the nuance and niche can do really well too. You just slowly grow. I think Visa has a post, I think it was called like... Most people wait. Everyone's always talking about catering to most people.
 
@@ -300,9 +300,9 @@ quotes:
 
 [33:29] **Henry:** Kevin Kwak he has a thing, sending tweets or like a tuning fork into the universe, trying to find people that resonate with you.
 
-[33:35] **Joseph:** Interesting. This makes me just think of the concept of art in general. I think that, uh, [Rick Rubin](https://en.wikipedia.org/wiki/Rick_Rubin) also said something about the tuning fork to the universe.
+[33:35] **Joseph:** Interesting. This makes me just think of the concept of art in general. I think [Rick Rubin](https://en.wikipedia.org/wiki/Rick_Rubin) also said something about the tuning fork to the universe.
 
-[33:44] **Joseph:** But like, is that true? Is that really true? Like, I, like, in order to get the, well, actually, I. For Christianity. If the goal is to get the most number of people to truth, then how do you do that? Is it possible to do that by training up a thousand Visas? Maybe that's it. Maybe you train up a thousand Visas in all of their different verticals and niches and have them tweet niche tweets.
+[33:44] **Joseph:** But is that true? Is that really true? For Christianity. If the goal is to get the most number of people to truth, then how do you do that? Is it possible to do that by training up a thousand Visas? Maybe that's it. Maybe you train up a thousand Visas in all of their different verticals and niches and have them tweet niche tweets.
 
 [34:18] **Henry:** I mean, it started with the 12 disciples, right? So, so there's that, but there's also like, what is our role as Christians?
 
@@ -338,7 +338,7 @@ quotes:
 
 [38:47] **Joseph:** How do you organize people? Do you sort them by small groups? Do you sort the small groups by industry? Function? Stage of maturity like you would for different age groups in a church?
 
-[38:58] **Joseph:** And then for culture? I think there's implicit things that I, I've noticed the evolution, my first cohort of 50 people joined, they had a certain culture, and then the next a hundred people joined, slightly different. And I'm starting to feel the shift and I feel like I don't have, actually don't have a ton of control over it.
+[38:58] **Joseph:** And then for culture? I think there's implicit things that I've noticed the evolution, my first cohort of 50 people joined, they had a certain culture, and then the next a hundred people joined, slightly different. And I'm starting to feel the shift and I feel like I don't have, actually don't have a ton of control over it.
 
 [39:17] **Joseph:** I vet the members, but even me getting the inbounds of the applications is just, I'm just subjecting myself to the market itself. Like what kinds of people are out there and what they feel and what they need.
 
@@ -354,7 +354,7 @@ quotes:
 
 [40:39] **Henry:** That doesn't mean we give up. I'm just saying that, there's no a hundred percent, if that makes sense. And I find that we do, that we can't help but think that way. Outsourcing everything until what are we even doing? Before it could be as simple as math on the calculator. But now we're outsourcing our thinking, our imagination, and maybe our morality. Our ability to even make choices and a judgment. That's finally related to optionality too, I'm not even making a choice anymore because the AI will do it for me. What am I at that point?
 
-[41:12] **Joseph:** What do you think you're, what part of the body are you, I'm just curious. Like in the because like you, you, you seem to, you know a lot about . . I mean, you're teaching me now about community business. I'm the one who's trying to build this like online community as my main business. And you kind of know a lot of the, you like understand the principles behind it. Um, I'm just thinking like, what is like...
+[41:12] **Joseph:** What do you think you're, what part of the body are you, I'm just curious. Like in the because you seem to know a lot about... I mean, you're teaching me now about community business. I'm the one who's trying to build this online community as my main business. And you understand the principles behind it. I'm just thinking, what is...
 
 [41:40] **Henry:** I can say a lot of stuff and it sounds nice, but reality is messy. There's drama in open source, there's drama in the church. That doesn't mean we can't use these principles, it's just that it'll hit reality and we have to readjust. And I do have a lot of experience from doing these things too. Both good and bad, which has shaped how I think about it.
 
