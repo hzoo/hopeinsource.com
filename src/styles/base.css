@@ -1077,6 +1077,49 @@ body:has(#chat-header) #theme-toggle {
   letter-spacing: 0.01em;
 }
 
+#home-brand .brand-latest {
+  width: min(18rem, 88%);
+  margin-top: 0.95rem;
+  padding-top: 0.7rem;
+  border-top: 1px solid color-mix(in oklab, var(--color-his-hr) 72%, transparent);
+}
+
+#home-brand .brand-latest-meta {
+  margin: 0;
+  font-size: 0.66rem;
+  line-height: 1.45;
+  color: var(--color-his-text-tertiary);
+  letter-spacing: 0.02em;
+}
+
+#home-brand .brand-latest-link {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.28rem;
+  color: var(--color-his-text);
+  font-size: 0.88rem;
+  line-height: 1.35;
+  text-decoration: none;
+}
+
+#home-brand .brand-latest-link:hover {
+  color: var(--color-his-green);
+}
+
+#home-brand .brand-latest-arrow {
+  font-size: 0.72rem;
+  color: var(--color-his-text-tertiary);
+}
+
+#home-brand .brand-latest-meta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.35rem;
+  margin-top: 0.18rem;
+}
+
 #home-top-controls {
   max-width: 52rem;
   margin: 0 auto;
@@ -1150,6 +1193,10 @@ body:has(#chat-header) #theme-toggle {
 
   #home-brand .brand-meta {
     width: min(14rem, 68%);
+  }
+
+  #home-brand .brand-latest {
+    width: min(16rem, 72%);
   }
 
   #home-top-controls,
