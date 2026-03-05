@@ -10,7 +10,6 @@ description: "What happens to our religions when they meet the Internet? Tara
   consumerism infects all of life, on embodiment and givenness, and most
   importantly, what is our freedom even for?"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461664/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345615-48000-1-402d5f8709904360.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Very-Online-Strange-Rites-e2su9d0
 sidebar:
   order: 3
 quotes:

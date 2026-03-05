@@ -10,7 +10,6 @@ description: Why attempt to faithfully recreate the past? Jordan Scales joins
   and even how Babel's Guy Fieri meme could of been Jeff Goldblum in another
   universe.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461585/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345529-44100-1-176923435cef5a06.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-13-Jordan-Scales-on-Nostalgia-and-Not-Taking-Yourself-Too-Seriously-e2su9ah
 sidebar:
   order: 13
 quotes:

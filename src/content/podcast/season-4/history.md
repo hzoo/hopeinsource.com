@@ -11,7 +11,6 @@ description: "What is the place of history in our society? Who was Ivan Illich
   tradition and change are intertwined, the many myths/idols of society, on good
   vs. value, aestheticism, and much more. (Recorded in January 2022)"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461697/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345644-44100-1-f7137d7ed739e2ba.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/History-is-Necromancy-David-Cayley-e2su9e1
 sidebar:
   order: 3
 quotes:

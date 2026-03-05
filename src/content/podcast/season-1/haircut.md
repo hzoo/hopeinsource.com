@@ -9,7 +9,6 @@ description: Why not record an conversation while getting a haircut? Fellow
   living in NYC, creativitiy, narratives, sharing in vulnerability, and
   embodiment.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461725/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345703-44100-1-f7dbddbb72a179fb.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/12-Haircut-Bonus-e2su9et
 sidebar:
   order: 12
 quotes:

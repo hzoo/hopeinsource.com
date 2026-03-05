@@ -5,7 +5,6 @@ date: 2021-03-09
 time: "42"
 description: What is the state of modern software now, and how is it like losing at Tetris? Stephen Kell joins Henry to chat about Ivan Illich's thought (counter-productivity, radical monopoly, critique of institutions) applied to software! We talk about the software/hardware arms race, how our default is more is better, tech being all-consuming, tyranny of updates. (recorded in Dec 2020)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461667/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345626-48000-1-abff2867c3c045e8.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Software-Tetris-Stephen-Kell-e2su9d3
 sidebar:
   order: 15
 quotes:

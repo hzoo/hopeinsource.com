@@ -12,7 +12,6 @@ description: Can our digitally mediated environment be spiritual? Nick
   ambuigity and paradox, and McLuhan's famous phrase the medium is the message.
   (Recorded April 2022)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461773/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345726-44100-1-94d784ec0db0a456.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-Communion-Nick-Ripatrazone-e2su9gd
 sidebar:
   order: 4
 quotes:

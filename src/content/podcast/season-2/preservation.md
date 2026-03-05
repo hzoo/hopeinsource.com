@@ -11,7 +11,6 @@ description: "In our excitement to develop products for the future do we neglect
   preserve, struggles, places where archival can happen (personal, libraries,
   companies, museums), and our shared responsibility and knowledge."
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461519/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345479-44100-2-cc7635c1b19f23b7.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-9-Wendy-Hagenmaier-on-Preserving-the-Digital-Past-e2su98f
 sidebar:
   order: 9
 quotes:

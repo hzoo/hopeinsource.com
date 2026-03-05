@@ -8,7 +8,6 @@ description: What is Advent anyway? Alex Kim joins Henry to chat about the
   ritual as meaningful, a Christian conception of time, and opening ourselves up
   to hope.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461564/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345528-48000-1-e515ef3139540164.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Approaching-Advent-Alex-Kim-e2su99s
 sidebar:
   order: 11
 quotes:

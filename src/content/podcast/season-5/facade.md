@@ -5,7 +5,6 @@ date: 2025-05-09
 time: "46"
 description: "Does technology give us control or the illusion of it? We explore how societal expectations, the nature of work, and AI challenge what it means to be human, contrasting the allure of self-sufficiency with the call to vulnerability."
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/102440505/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-4-9%2F3b4295ae-9b07-75cc-fdf4-475fb9781355.mp3
-embedUrl: https://creators.spotify.com/pod/show/hopeinsource/episodes/The-Faade-of-Control-Melody-Kim-e32ko3p
 sidebar:
   order: 2
 quotes:

@@ -9,7 +9,6 @@ description: How does the digital life shape our perceptions of ourselves?
   somehow bringing us further towards our thoughts on time and space? (Recorded
   in November 2020)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461722/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345704-48000-1-5c7cc18ec401648a.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Digital-Disembodiment-Maggie-Appleton-e2su9eq
 sidebar:
   order: 16
 quotes:

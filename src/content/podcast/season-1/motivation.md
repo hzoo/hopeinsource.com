@@ -7,7 +7,6 @@ description: Why do we do what we do? We talk about intrinsic motivation, the
   role it plays in creative work with uncertain outcomes, motivating new
   contributors, and sustaining motivation over time.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461711/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345671-44100-1-f6e5db06bdd412f5.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/3-Intrinsic-Motivation-e2su9ef
 sidebar:
   order: 3
 quotes:

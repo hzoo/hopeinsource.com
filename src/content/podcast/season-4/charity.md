@@ -10,7 +10,6 @@ description: How does rationality/ea and faith intersect? Austin Chen joins me
   being agentic and the savior complex, on rest and waiting, and seeing the
   uniqueness of each person amidst the systems we create. (Recorded May 2024)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461815/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345789-44100-1-72366bae49ef9518.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Sacred-Charity-Austin-Chen-e2su9hn
 sidebar:
   order: 9
 quotes:

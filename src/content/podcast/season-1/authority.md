@@ -7,7 +7,6 @@ description: Does authority have a place in religion? We talk about authority in
   decentralized organizations, listening to others versus trying something new,
   and when to fork or leave a community.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461929/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345916-44100-1-7735a58f9f70350e.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/8-Authority-and-Leadership-e2su9l9
 sidebar:
   order: 8
 quotes:

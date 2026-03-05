@@ -12,7 +12,6 @@ description: Why would you choose to leave the public internet on your own
   of touch, freeing your mind for the next thing, not being ashamed of previous
   work, taking time to reflect, and friction. (recorded in May)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461920/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345904-48000-1-a29616055886675f.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-15-Philip-Gee-2-on-Unlisting-Yourself-e2su9l0
 sidebar:
   order: 15
 quotes:

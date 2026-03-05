@@ -10,7 +10,6 @@ description: "What can we learn from someone's last tweets? Omar Rizwan joins
   being aware of your emotions when programming. Also (of course) screenshots.
   (recorded in August)"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461695/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345662-48000-1-b815fb46b24f5b61.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Emotional-Programming-Omar-Rizwan-e2su9dv
 sidebar:
   order: 6
 quotes:

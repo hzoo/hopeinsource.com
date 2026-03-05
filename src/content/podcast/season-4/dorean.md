@@ -10,7 +10,6 @@ description: Why is Christianity so commercialized? Conley shares about The
   creative commons, and how it all relates to an open source ethos. (recorded in
   October 2021)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461745/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345710-44100-1-c64105af7fb6d324.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/The-Dorean-Principle-Conley-Owens-e2su9fh
 sidebar:
   order: 1
 quotes:

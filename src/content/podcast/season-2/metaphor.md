@@ -9,7 +9,6 @@ description: Is programming all digital or do we still have embodied roots? How
   about mental models and abstraction, Polanyi, Cartesian dualism, auto
   ethnography, knowledge, cats!
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461588/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345541-44100-1-fd19bf89100978a9.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-12-Maggie-Appleton-on-Embodiment-Through-Metaphors-e2su9ak
 sidebar:
   order: 12
 quotes:

@@ -8,7 +8,6 @@ description: What is the nature of reality? Esther Lightcap Meek warmly speaks
   is a sort of scrabbling together of clues, gift economies, covenant
   epistemology, on commitment, consent, belonging. (Recorded in November 2021)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461861/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345835-44100-1-56af80bd20ed514d.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Reality-is-Personal-Esther-Meek-e2su9j5
 sidebar:
   order: 2
 quotes:

@@ -10,7 +10,6 @@ description: Where can hope be found? Alex Kim joins again to open up questions
   Charles Taylor through Andrew Root, work/play, and living out in hope. Maybe
   it's what this podcast is attempting to work towards! (Recorded June 2022)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461771/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345732-44100-1-0d46c8f889476f09.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Finding-Hope-Amid-Burnout-Alex-Kim-e2su9gb
 sidebar:
   order: 5
 quotes:

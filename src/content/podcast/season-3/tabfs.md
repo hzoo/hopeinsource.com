@@ -9,7 +9,6 @@ description: What happens when we open up browser APIs like a filesystem? Omar
   it yourself, few dependencies, determining your 1.0, literate documentation,
   and maintaining a newly popular open source project!
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461749/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345721-48000-1-5943dd07847ccba7.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/TabFS-Omar-Rizwan-e2su9fl
 sidebar:
   order: 14
 quotes:
