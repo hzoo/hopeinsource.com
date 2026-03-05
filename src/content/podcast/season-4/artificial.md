@@ -11,7 +11,6 @@ description: "Why does everyone care about New York? Drew Austin explores the
   commons as customs, postmodernist software, leaving a trace, Twitter as a
   waiting room. (Recorded October 2021)"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461613/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345566-44100-1-be625077806e3ef0.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Artificial-Physicality-Drew-Austin-e2su9bd
 sidebar:
   order: 7
 quotes:

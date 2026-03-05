@@ -13,7 +13,6 @@ description: Do we learn in a vacuum, or does it involve our whole selves?
   spontaneity and cities, understanding our bodies and mortality and it's
   relation to our digital lives and rest.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461646/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345603-44100-2-0f358c314d81ded6.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-7-Philip-Gee-1-On-Growing-Old-with-the-Web-e2su9ce
 sidebar:
   order: 7
 quotes:

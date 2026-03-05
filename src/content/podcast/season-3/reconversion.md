@@ -9,7 +9,6 @@ description: How does one come to faith, let alone come back to it? Sonya Mann
   malaise, the phenomenology of faith, fractal reality, happeningness. (Recorded
   in September)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461693/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345666-48000-1-19ea19586d1579eb.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Reconversion-Sonya-Mann-e2su9dt
 sidebar:
   order: 12
 quotes:

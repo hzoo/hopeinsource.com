@@ -11,7 +11,6 @@ description: Why do we so easily forget where we come from? Dr. Timothy Patitsas
   which wants to preserve a fund of personal knowledge must submit to
   tradition".
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461717/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345681-44100-2-d54e56ee8c8de539.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Legacy-Timothy-Patitsis-e2su9el
 sidebar:
   order: 1
 ---

@@ -7,7 +7,6 @@ description: How do we evangelize our ideas? We talk about evangelism in
   religion and tech, meeting people where they're at, living one's values in
   public, and maintaining humility in the face of conviction.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461897/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345878-44100-1-d76d75774223896a.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/5-Evangelism-e2su9k9
 sidebar:
   order: 5
 quotes:

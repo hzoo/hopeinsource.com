@@ -12,7 +12,6 @@ description: How should we think about saving something forever? Jonathan
   discussion about an art's 'dependencies', possibly adding automated testing,
   and deprecations/breakages in environments/standards.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461852/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345811-44100-2-0239b07cde78fc95.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-10-Jonathan-Farbowitz-on-the-Commitment-to-Infinite-Uptime-e2su9is
 sidebar:
   order: 10
 quotes:

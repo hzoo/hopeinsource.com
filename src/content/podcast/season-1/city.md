@@ -9,7 +9,6 @@ description: Is the city a toaster (an object) or a cat (a living organism)? We
   discuss science as organized complexity, the meaning of knowledge, recursive
   societies, fractal hierarchies, and implications for governance.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461808/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345769-44100-1-f3634ed400746825.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/11-City-as-Liturgy-Bonus-e2su9hg
 sidebar:
   order: 11
 speakers:

@@ -8,18 +8,9 @@ const podcastSchema = z.object({
   time: z.string(),
   description: z.string(),
   episodeLink: z.string(),
-  embedUrl: z.string(),
   video: z.object({
     url: z.string().url(),
     offsetSeconds: z.number().int().nonnegative().optional(),
-    summary: z.string().optional(),
-    recordedOn: z.string().optional(),
-    chapters: z.array(
-      z.object({
-        time: z.string(),
-        title: z.string(),
-      }),
-    ).optional(),
   }).optional(),
   sidebar: z.object({
     order: z.number(),

@@ -9,7 +9,6 @@ description: How old is open source anyway? Mikeal Rogers (Protocol Labs) joins
   source, deprecating packages and ecosystem health, new ideas and becoming a
   maintainer by being the 'first', and parenting!
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461825/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345777-44100-2-af1bf9b27fb3c3dc.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-4-Mikeal-Rogers-on-Getting-Old-in-Open-Source-e2su9i1
 sidebar:
   order: 4
 quotes:

@@ -6,7 +6,6 @@ time: "32"
 description: How do our rituals shape us? We talk about where habits come from,
   why we use them, and whether they strengthen our belief systems.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461808/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345769-44100-1-f3634ed400746825.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/11-City-as-Liturgy-Bonus-e2su9hg
 sidebar:
   order: 9
 quotes:

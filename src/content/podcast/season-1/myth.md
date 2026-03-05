@@ -7,7 +7,6 @@ description: How do symbols and stories foster culture? We talk about stories as
   a way to onboard new contributors, the mythology of leadership, when leaders
   step down, and how traditions evolve over time.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461661/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345620-44100-1-87530fa9986f90c4.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/7-Mythology-and-Symbolism-e2su9ct
 sidebar:
   order: 7
 quotes:

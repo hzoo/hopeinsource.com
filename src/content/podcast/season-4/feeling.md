@@ -12,7 +12,6 @@ description: "How does faith call us to both right action and right emotion?
   weddings, viserality and the flesh, specificity, sacred modes, acceptable woo,
   cheap grace. (Recorded October 2020)"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461731/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345696-44100-1-3355e22e1c4ba09c.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Right-Feeling-Sonya-Mann-e2su9f3
 sidebar:
   order: 8
 quotes:

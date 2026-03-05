@@ -10,7 +10,6 @@ description: What does flourishing look like? Nicole Williams joins Henry to
   what we were getting at until the very end, all tying back to a picture of
   shalom! (This was recorded in May)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461769/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345737-48000-1-ce5d87a151978fb6.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Towards-Shalom-Nicole-Williams-e2su9g9
 sidebar:
   order: 2
 quotes:

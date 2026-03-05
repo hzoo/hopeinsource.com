@@ -9,7 +9,6 @@ description: Is the open source community a gift economy? What even is a gift?
   and habits, patronage and crowdfunding, quantified self and disembodiment, our
   role in tech
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461884/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345855-44100-2-d1915b9be38241ee.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-11-Maggie-Appleton-on-Open-Source-as-a-Gift-Economy-e2su9js
 sidebar:
   order: 11
 quotes:

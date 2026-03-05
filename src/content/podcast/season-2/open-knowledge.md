@@ -10,7 +10,6 @@ description: What does it mean to be code adjacent? Shawn Wang joins Henry to
   of our field, fresh notes vs. awesome lists, the meta language, and adoption
   curves. (recorded in June)
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461898/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345870-48000-1-abccd8a63b7b2f2e.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/MA-14-Shawn-Wang-on-Open-Knowledge-e2su9ka
 sidebar:
   order: 14
 quotes:

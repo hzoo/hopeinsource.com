@@ -5,7 +5,6 @@ date: 2025-02-17
 time: "44"
 description: "What does it really mean to call yourself anything? Joseph Choi begins to explore his ongoing journey of faith deconstruction, reconstruction, and whatever it is now. But we end up through about the anxieties around labeling one's beliefs, between commitment and optionality, and abundance and scarcity mindsets"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/98595589/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2025-1-17%2F46db500c-1797-156c-62c0-3bd6efbfc03d.mp3
-embedUrl: https://creators.spotify.com/pod/show/hopeinsource/embed/episodes/Unpacking-Belief-Joseph-Choi-e2uvda5/a-abpkt2u
 sidebar:
   order: 1
 quotes:

@@ -10,7 +10,6 @@ description: "How do we think about ourselves and the communities we move into?
   essence and discovering yourself, hierarchies of reality, interwoven
   histories. (Recorded in September)"
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461700/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345665-48000-1-9667406fff269907.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Essence-Sonya-Mann-e2su9e4
 sidebar:
   order: 13
 quotes:

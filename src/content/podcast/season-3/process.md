@@ -11,7 +11,6 @@ description: Is technology just of chips and gadgets? Maggie Appleton joins
   immortality and the protestant work ethic, and chat about how our cultures are
   intertwined with tech.
 episodeLink: https://anchor.fm/s/ff707650/podcast/play/96461690/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2024-11-31%2F392345661-48000-1-d4ae79c987b62c09.mp3
-embedUrl: https://podcasters.spotify.com/pod/show/hopeinsource/episodes/Technology-as-Process-Maggie-Appleton-e2su9dq
 sidebar:
   order: 10
 quotes:
