@@ -6,6 +6,7 @@ import Subscribe from "@/components/Subscribe.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
+import { getEpisodeData } from "@/lib/episodes";
 
 interface Props {
   activeLayout: HomeLayoutId;
@@ -16,6 +17,27 @@ interface Props {
 const { activeLayout, title, description } = Astro.props;
 const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
 const slug = currentLayout?.href ?? "/";
+const { episodes } = await getEpisodeData();
+const latestEpisode = episodes[0];
+
+function formatCalendarDate(date: Date): string {
+  return date.toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
+function formatRelativeDate(date: Date): string {
+  const today = new Date();
+  const currentDay = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+  const episodeDay = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+  const diffDays = Math.round((currentDay.getTime() - episodeDay.getTime()) / 86_400_000);
+
+  if (diffDays <= 0) return "today";
+  if (diffDays === 1) return "1 day ago";
+  return `${diffDays} days ago`;
+}
 ---
 
 <Layout frontmatter={{ title, description }} slug={slug}>
@@ -54,6 +76,21 @@ const slug = currentLayout?.href ?? "/";
               with <a href="https://henryzoo.com/living-out-in-faith">Henry</a> & <a href="https://nadia.xyz/public-faith">Nadia</a>
             </p>
           </div>
+          {latestEpisode && (
+            <div class="brand-latest">
+              <a href={`/${latestEpisode.slug}`} class="brand-latest-link">
+                {latestEpisode.episodeTitle}
+                <span aria-hidden="true" class="brand-latest-arrow">&nearr;</span>
+              </a>
+              <p class="brand-latest-meta">
+                <time datetime={latestEpisode.data.date.toISOString()}>
+                  {formatCalendarDate(latestEpisode.data.date)}
+                </time>
+                <span aria-hidden="true">&middot;</span>
+                <span>{formatRelativeDate(latestEpisode.data.date)}</span>
+              </p>
+            </div>
+          )}
         </div>
       </div>
     </section>

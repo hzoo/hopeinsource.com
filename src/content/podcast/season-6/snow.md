@@ -3,7 +3,7 @@ title: "Snow is a Commons (Melody Kim)"
 season: 6
 date: 2026-03-05
 time: "80"
-description: "What does snow have to do with open source? Melody and I walked through Prospect Park the day after a blizzard and talked about open source as a commons, the OpenClaw explosion and eternal September, why Spotify broke the album into background slop, striving versus being, wu wei, audience of one, and why two weeks offline didn't matter at all. Recorded February 24, 2026."
+description: "Can snow itself be like open source? Just a fun thought while walking around talking about openclaw and seeing everyone's creations.. all on a impromptu prospect park sauntercast with Melody after last week's blizzard! (titled after Illich's essay, Silence is a Commons) Recorded February 24, 2026."
 episodeLink: "https://anchor.fm/s/ff707650/podcast/play/116442718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-5%2F419357018-44100-2-9ad10cbcf344f.mp3"
 video:
   url: "https://www.youtube.com/watch?v=TWG3p8fVuZU"
