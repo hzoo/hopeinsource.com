@@ -1,5 +1,6 @@
 ---
 import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
+import { formatEpisodeDate } from "@/lib/dates";
 import { getEpisodeData } from "@/lib/episodes";
 
 const { episodesBySeasons, seasons } = await getEpisodeData();
@@ -36,11 +37,7 @@ function seasonTitle(season: number): string {
               {seasonEpisodes.map((episode) => (
                 <article
                   class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-3 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
-                  title={episode.data.date.toLocaleDateString("en-US", {
-                    month: "short",
-                    day: "numeric",
-                    year: "numeric",
-                  })}
+                  title={formatEpisodeDate(episode.data.date)}
                 >
                   <a href={`/${episode.slug}`} class="block">
                     <h3 class="card-title min-w-0 text-lg font-medium leading-snug transition-colors group-hover:text-his-green">
@@ -69,11 +66,7 @@ function seasonTitle(season: number): string {
                       )}
 
                       <span>
-                        {episode.data.date.toLocaleDateString("en-US", {
-                          month: "short",
-                          day: "numeric",
-                          year: "numeric",
-                        })}
+                        {formatEpisodeDate(episode.data.date)}
                       </span>
 
                       {(episode.data.video?.url || episode.data.time) && (

@@ -1,4 +1,5 @@
 ---
+import { formatEpisodeDate } from "@/lib/dates";
 import { getEpisodeData } from "@/lib/episodes";
 import Search from "./Search.astro";
 
@@ -63,7 +64,7 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
                     : "hover:bg-his-hover/60"
                 ]}
                 aria-current={isActive ? "page" : undefined}
-                title={episode.data.date.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}
+                title={formatEpisodeDate(episode.data.date)}
               >
                 <div class="flex items-start gap-2.5">
                   <span class:list={[

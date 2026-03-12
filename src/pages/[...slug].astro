@@ -7,6 +7,7 @@ import AudioPlayer from "@/components/AudioPlayer.astro";
 import Footer from "@/components/Footer.astro";
 import { hisMetadata } from "@/metadata.ts";
 import type { ExtractedLink } from "@/plugins/remark-links-extractor";
+import { formatEpisodeDate, formatEpisodeDateValue } from "@/lib/dates";
 import { getEpisodeData } from "@/lib/episodes";
 
 export async function getStaticPaths() {
@@ -121,12 +122,8 @@ const hasVideoPlayback = Boolean(videoEmbedSrc && videoUrl);
             {guests.length > 0 && <span class="text-his-text-tertiary/40">·</span>}
             <span class="ep-badge">{episodeNumber}</span>
             <span class="text-his-text-tertiary/40">·</span>
-            <time datetime={frontmatter.date.toISOString()}>
-              {frontmatter.date.toLocaleDateString("en-US", {
-                month: "short",
-                day: "numeric",
-                year: "numeric",
-              })}
+            <time datetime={formatEpisodeDateValue(frontmatter.date)}>
+              {formatEpisodeDate(frontmatter.date)}
             </time>
             {frontmatter.time && (
               <>
