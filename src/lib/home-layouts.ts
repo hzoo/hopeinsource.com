@@ -1,5 +1,5 @@
 export const HOME_LAYOUTS = [
-  { id: "B", label: "Quotes", icon: "chat", group: "core", href: "/" },
+  { id: "B", label: "Excerpts", icon: "chat", group: "core", href: "/" },
   { id: "D", label: "Questions", icon: "question", group: "core", href: "/questions" },
   { id: "A", label: "Episodes", icon: "list", group: "core", href: "/episodes" },
   { id: "G", label: "Assertions", icon: "bolt", group: "lab", href: "/assertions" },

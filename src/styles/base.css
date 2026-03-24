@@ -1120,6 +1120,34 @@ body:has(#chat-header) #theme-toggle {
   margin-top: 0.18rem;
 }
 
+#home-brand .brand-season-links {
+  width: min(18rem, 88%);
+  margin-top: 0.65rem;
+  padding-top: 0.65rem;
+  border-top: 1px solid color-mix(in oklab, var(--color-his-hr) 72%, transparent);
+}
+
+#home-brand .brand-season-link {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.18rem 0;
+  color: var(--color-his-text-secondary);
+  font-size: 0.76rem;
+  line-height: 1.45;
+  text-decoration: none;
+}
+
+#home-brand .brand-season-link:hover {
+  color: var(--color-his-green);
+}
+
+#home-brand .brand-season-count {
+  color: var(--color-his-text-tertiary);
+  white-space: nowrap;
+}
+
 #home-top-controls {
   max-width: 52rem;
   margin: 0 auto;
@@ -1196,6 +1224,10 @@ body:has(#chat-header) #theme-toggle {
   }
 
   #home-brand .brand-latest {
+    width: min(16rem, 72%);
+  }
+
+  #home-brand .brand-season-links {
     width: min(16rem, 72%);
   }
 

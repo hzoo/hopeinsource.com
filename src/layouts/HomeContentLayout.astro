@@ -22,8 +22,13 @@ interface Props {
 const { activeLayout, title, description } = Astro.props;
 const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
 const slug = currentLayout?.href ?? "/";
-const { episodes } = await getEpisodeData();
+const { episodes, archiveGroups } = await getEpisodeData();
 const latestEpisode = episodes[0];
+const seasonLinks = archiveGroups.map((group) => ({
+  href: `/episodes#home-season-${group.id}`,
+  label: group.label,
+  count: group.episodes.length,
+}));
 ---
 
 <Layout frontmatter={{ title, description }} slug={slug}>
@@ -78,6 +83,16 @@ const latestEpisode = episodes[0];
                 </span>
               </p>
             </div>
+          )}
+          {seasonLinks.length > 0 && (
+            <nav class="brand-season-links" aria-label="Season archive">
+              {seasonLinks.map((season) => (
+                <a href={season.href} class="brand-season-link">
+                  <span>{season.label}</span>
+                  <span class="brand-season-count">{season.count} eps</span>
+                </a>
+              ))}
+            </nav>
           )}
         </div>
       </div>

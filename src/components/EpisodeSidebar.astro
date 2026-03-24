@@ -8,7 +8,7 @@ interface Props {
 }
 
 const { currentSlug } = Astro.props;
-const { episodesBySeasons, seasons } = await getEpisodeData();
+const { archiveGroups } = await getEpisodeData();
 ---
 
 <!-- Mobile backdrop -->
@@ -43,16 +43,16 @@ const { episodesBySeasons, seasons } = await getEpisodeData();
   <!-- Scrollable content (hidden scrollbar) -->
   <div class="overflow-y-auto flex-1 p-3 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
     <!-- Episodes list -->
-    {seasons.map((season) => (
+    {archiveGroups.map((group) => (
       <section class="mb-6">
-        {season !== 0 && (
+        {group.id !== "0" && (
           <h3 class="text-[10px] font-bold text-his-green uppercase tracking-[0.2em] mb-3 px-3 flex items-center gap-2">
-            <span>{season === 6 ? "Internet Checkpoint" : season === 2 ? "Maintainers Anonymous" : `Season ${season}`}</span>
+            <span>{group.label}</span>
             <span class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></span>
           </h3>
         )}
         <div class="space-y-0.5">
-          {episodesBySeasons[season].map((episode) => {
+          {group.episodes.map((episode) => {
             const isActive = episode.slug === currentSlug;
             return (
               <a

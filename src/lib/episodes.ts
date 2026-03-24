@@ -31,6 +31,26 @@ export interface EpisodeData {
   episodesBySeasons: Record<number, EnrichedEpisode[]>;
   seasons: number[];
   guestCounts: Map<string, number>;
+  archiveGroups: EpisodeArchiveGroup[];
+}
+
+export interface EpisodeArchiveGroup {
+  id: string;
+  label: string;
+  episodes: EnrichedEpisode[];
+}
+
+function archiveGroupIdForSeason(season: number): string {
+  if (season === 4 || season === 5) return "4-5";
+  return String(season);
+}
+
+function archiveGroupLabel(groupId: string): string {
+  if (groupId === "6") return "Internet Checkpoint";
+  if (groupId === "2") return "Maintainers Anonymous";
+  if (groupId === "4-5") return "Season 4/5";
+  if (groupId === "0") return "Early Episodes";
+  return `Season ${groupId}`;
 }
 
 export async function getEpisodeData(): Promise<EpisodeData> {
@@ -95,5 +115,23 @@ export async function getEpisodeData(): Promise<EpisodeData> {
     .map(Number)
     .sort((a, b) => b - a);
 
-  return { episodes, episodesBySeasons, seasons, guestCounts };
+  const archiveGroupMap = new Map<string, EpisodeArchiveGroup>();
+  for (const episode of episodes) {
+    const season = episode.data.season || 0;
+    const groupId = archiveGroupIdForSeason(season);
+    const existing = archiveGroupMap.get(groupId);
+    if (existing) {
+      existing.episodes.push(episode);
+      continue;
+    }
+    archiveGroupMap.set(groupId, {
+      id: groupId,
+      label: archiveGroupLabel(groupId),
+      episodes: [episode],
+    });
+  }
+
+  const archiveGroups = Array.from(archiveGroupMap.values());
+
+  return { episodes, episodesBySeasons, seasons, guestCounts, archiveGroups };
 }

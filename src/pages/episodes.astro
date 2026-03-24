@@ -3,30 +3,22 @@ import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
 import { formatEpisodeDate } from "@/lib/dates";
 import { getEpisodeData } from "@/lib/episodes";
 
-const { episodesBySeasons, seasons } = await getEpisodeData();
-const latestSeason = seasons[0] ?? 0;
-
-function seasonTitle(season: number): string {
-  if (season === 6) return "Internet Checkpoint";
-  if (season === 2) return "Maintainers Anonymous";
-  if (season === 0) return "Early Episodes";
-  return `Season ${season}`;
-}
+const { archiveGroups } = await getEpisodeData();
 ---
 
 <HomeContentLayout activeLayout="A" title="All Episodes" description="Browse every Hope in Source episode by season.">
   <section id="home-archive" aria-label="Episodes by season">
     <div class="space-y-7 sm:space-y-8">
-      {seasons.map((season) => {
-        const seasonEpisodes = episodesBySeasons[season];
+      {archiveGroups.map((group) => {
+        const seasonEpisodes = group.episodes;
         return (
           <details
-            id={`home-season-${season}`}
+            id={`home-season-${group.id}`}
             class="season-block"
-            open={season === latestSeason}
+            open
           >
             <summary class="season-heading season-summary">
-              <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{seasonTitle(season)}</h2>
+              <h2 class="m-0 text-xl font-semibold tracking-wide text-his-green">{group.label}</h2>
               <div class="season-summary-meta">
                 <span class="season-count">{seasonEpisodes.length}</span>
                 <span class="season-caret" aria-hidden="true">+</span>
