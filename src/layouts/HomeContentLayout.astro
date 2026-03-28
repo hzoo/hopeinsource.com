@@ -23,7 +23,7 @@ const { activeLayout, title, description } = Astro.props;
 const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
 const slug = currentLayout?.href ?? "/";
 const { episodes, archiveGroups } = await getEpisodeData();
-const latestEpisode = episodes[0];
+const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
 const seasonLinks = archiveGroups.map((group) => ({
   href: `/episodes#home-season-${group.id}`,
   label: group.label,
