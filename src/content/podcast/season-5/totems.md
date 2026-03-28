@@ -13,11 +13,13 @@ quotes:
     speaker: "Xiq"
     timestamp: "25:39"
     topic: "Language & Meaning"
-  - text: "Thinking heaven is boring is a failure of the imagination."
+  - text: "So thinking heaven is boring is a failure of the imagination?"
     speaker: "Xiq"
     timestamp: "30:22"
     topic: "Faith & Imagination"
 ---
+
+#### Cherry Blossoms
 
 [00:00:00] **Henry:** Where do we want to go?
 
@@ -41,7 +43,7 @@ quotes:
 
 [00:00:46] **Henry:** It feels very walkable here.
 
-[00:00:50] **Xiq:** I like that they have a bunch of statues that feel native, cloths.
+[00:00:50] **Xiq:** I like that they have a bunch of statues that feel native.
 
 [00:00:57] **Henry:** Even in the airport. When you walk in, I was like, wow. You hear all the, they put fake sounds or something of birds and there's water when we walked in. There's this giant eagle and stuff. I mean, that's interesting, it's like...
 
