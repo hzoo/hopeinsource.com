@@ -6,7 +6,7 @@ time: "119"
 description: "What makes something call out to us? Sonya and I explore how prayer transforms perception — ceaseless prayer, the felt body, sacred patterns, remembrance in communion, the invisible church spread through all time, and the holy mystery we're part of. (Recorded October 2020)"
 episodeLink: "https://anchor.fm/s/ff707650/podcast/play/115186075/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-1-8%2F4828cfd0-5c62-ca19-5410-e6b853491749.mp3"
 sidebar:
-  order: 5
+  order: 4
 quotes:
   - text: "I see patterns often in that light as being a way to speak to the universe or a way for the universe to speak to us, in the patterns."
     speaker: "Sonya"

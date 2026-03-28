@@ -5,6 +5,7 @@ date: 2026-03-05
 time: "80"
 description: "Can snow itself be like open source? Just a fun thought while walking around talking about openclaw and seeing everyone's creations.. all on a impromptu prospect park sauntercast with Melody after last week's blizzard! (titled after Illich's essay, Silence is a Commons) Recorded February 24, 2026."
 episodeLink: "https://anchor.fm/s/ff707650/podcast/play/116442718/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-5%2F419357018-44100-2-9ad10cbcf344f.mp3"
+sauntercast: true
 video:
   url: "https://www.youtube.com/watch?v=TWG3p8fVuZU"
   offsetSeconds: 0

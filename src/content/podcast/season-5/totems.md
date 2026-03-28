@@ -5,8 +5,18 @@ date: 2026-03-27
 time: "54"
 description: "What happens when we treat language as a historical totem? Xiq walks with me at UBC campus for atmosphereconf.org! We discuss swarms of AI fairies, openness and game theory, hyperstition and psychomagic, the Sapir-Whorf hypothesis, and why thinking heaven is boring is a failure of imagination and misunderstanding of the infinite."
 episodeLink: "https://anchor.fm/s/ff707650/podcast/play/117587498/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-2-28%2F6e370a70-e1b1-facc-4dab-0603a70752ed.mp3"
+sauntercast: true
 sidebar:
   order: 6
+quotes:
+  - text: "Words are totems. If you know the etymology. If you don't, you're just looking at the top of the totem."
+    speaker: "Xiq"
+    timestamp: "25:39"
+    topic: "Language & Meaning"
+  - text: "Thinking heaven is boring is a failure of the imagination."
+    speaker: "Xiq"
+    timestamp: "30:22"
+    topic: "Faith & Imagination"
 ---
 
 [00:00:00] **Henry:** Where do we want to go?
@@ -45,21 +55,15 @@ sidebar:
 
 [00:01:28] **Xiq:** That's cool.
 
-[00:01:30] **Henry:** A, B, C. Wow.
+[00:01:30] **Henry:** Let me see. Wow.
 
 [00:01:36] **Xiq:** Cool. So how's the conference so far?
 
 [00:01:39] **Henry:** It's good. It's good to meet different kinds of people working on stuff. We have goals for, no, not really. You could just meet some people. I honestly, like we said, I'm enjoying the nature. I kind of wanna just go on walks with some people and then talk and see what happens.
 
-[00:02:01] **Xiq:** Get food?
+[00:02:01] **Xiq:** Get food? I get food some point too.
 
-[00:02:03] **Xiq:** I get food some point too.
-
-[00:02:05] **Henry:** Yeah. We could do that too. That's part of it, the walk.
-
-[00:02:10] **Henry:** It's just like, if you find something then just go.
-
-[00:02:14] **Henry:** Did you have any goals that you had?
+[00:02:05] **Henry:** Yeah. We could do that too. That's part of it, the walk. It's just like, if you find something then just go. Did you have any goals that you had?
 
 [00:02:18] **Xiq:** Do I have any goals? I think my main goal is to get a sense for what's happening in AT Proto. And I think I'm succeeding. I think basically I just need to pay a lot more attention to AT Proto than I am currently.
 
@@ -113,11 +117,7 @@ sidebar:
 
 [00:05:54] **Henry:** I guess funny 'cause I've heard a lot of people do this and want, and I think that there's a lot of potential. It's just funny that we, it's implied that we should just give all our data to the AI. And that's fine. It's just kind of funny.
 
-[00:06:10] **Xiq:** You can have the AI be like a model you run.
-
-[00:06:14] **Xiq:** Right. Ideally, your AI determines what to expose to the other AI.
-
-[00:06:19] **Xiq:** Exactly. And that's where the permission data comes in, right. Ideally you have lists, maybe you have roles, right? You have your friends and you have your family, and you have your partner. And ideally the AI is good enough at knowing what's appropriate to share with whom.
+[00:06:10] **Xiq:** You can have the AI be like a model you run. Right. Ideally, your AI determines what to expose to the other AI. Exactly. And that's where the permission data comes in, right. Ideally you have lists, maybe you have roles, right? You have your friends and you have your family, and you have your partner. And ideally the AI is good enough at knowing what's appropriate to share with whom.
 
 [00:06:43] **Henry:** Right. And I guess it's okay at this point to extrapolate at how much better it will get, because I wouldn't have thought that last year, but then now I'm like, okay, it's already really good. I do think it's gonna get better. And then the whole Claude thing or whatever. So I guess you can try to rely on it more. Think about future things now.
 
@@ -133,9 +133,7 @@ sidebar:
 
 [00:07:25] **Henry:** My camera's not working or something.
 
-[00:07:27] **Xiq:** I'll take a picture.
-
-[00:07:29] **Xiq:** Oh. Should have taken a picture of the other one.
+[00:07:27] **Xiq:** I'll take a picture. Oh. Should have taken a picture of the other one.
 
 [00:07:31] **Henry:** Oh. Yeah, I'll go back.
 
@@ -149,19 +147,13 @@ sidebar:
 
 [00:08:20] **Henry:** It's kind of interesting because I also think of markets, the whole point of market to bring people together that needs something and this other person needs something. But then this is with information. It doesn't really cost anything. Like you said about, I need a sofa, and then they need a whatever. It's more just building community and stuff, potentially.
 
-[00:08:46] **Xiq:** Yeah. I think what you get is a network of trust, right? You have your friends and you have certain policies about who you share what with, right.
-
-[00:08:59] **Xiq:** You formalize trust and clearance between people and there's a graph, right? There's a graph and you can't see the whole graph. 'Cause not everyone trusts you. Right. But maybe you can see your friends and your friend's friends, right.
+[00:08:46] **Xiq:** Yeah. I think what you get is a network of trust, right? You have your friends and you have certain policies about who you share what with, right. You formalize trust and clearance between people and there's a graph, right? There's a graph and you can't see the whole graph. 'Cause not everyone trusts you. Right. But maybe you can see your friends and your friend's friends, right.
 
 #### Openness and Game Theory
 
 [00:09:16] **Henry:** And now I'm thinking of, when you meet someone. You're trying to figure out who they are and they're trying to figure out who you are, like strangers. Then this whole thing of, if you're vulnerable first and you're willing to take that step, maybe they'll be vulnerable back. So then I'm like, it'd be funny if the agents are doing that too. It's like, oh, I think this person has high potential to be good alpha or whatever. So then I'm gonna say something, see what they say. And then I'm like, wow, this is game theory stuff, like prisoner's dilemma or something. But for this,
 
-[00:09:52] **Xiq:** I think we run some amount of game theory automatically.
-
-[00:09:57] **Xiq:** You probably don't think about it in terms of game theory explicitly, but I think if your brain isn't doing that, then you're exposing yourself to vulnerabilities.
-
-[00:10:08] **Xiq:** You're taking risks, undue risks.
+[00:09:52] **Xiq:** I think we run some amount of game theory automatically. You probably don't think about it in terms of game theory explicitly, but I think if your brain isn't doing that, then you're exposing yourself to vulnerabilities. You're taking risks, undue risks.
 
 [00:10:11] **Henry:** I'm definitely more on the open side though.
 
@@ -181,9 +173,7 @@ sidebar:
 
 [00:12:07] **Henry:** How do you think about it? Your openness, I mean.
 
-[00:12:15] **Xiq:** I don't think about it in terms of benefiting directly, or at least I'm not consciously making that calculus, although I'm sure it happens at some level. I think often I just want to be seen or something.
-
-[00:12:33] **Xiq:** And I think I value openness almost as an end in itself. Or I just think it's healthy. I will say something about my emotions that might be a little embarrassing, but it's like having open source code. It's like I don't have anything to hide. You can know how I work, and that lets you trust me more, right?
+[00:12:15] **Xiq:** I don't think about it in terms of benefiting directly, or at least I'm not consciously making that calculus, although I'm sure it happens at some level. I think often I just want to be seen or something. And I think I value openness almost as an end in itself. Or I just think it's healthy. I will say something about my emotions that might be a little embarrassing, but it's like having open source code. It's like I don't have anything to hide. You can know how I work, and that lets you trust me more, right?
 
 [00:13:09] **Henry:** I like that. Yeah. You don't have to second guess it. Well, I also think it just makes things simpler. Like, all right, here's the totem pole.
 
@@ -225,9 +215,7 @@ sidebar:
 
 [00:15:22] **Henry:** Side by side.
 
-[00:15:26] **Xiq:** Alright. Cool. I'm glad they inject the indigenous flavors back into the...
-
-[00:15:41] **Xiq:** But it feels, it feels almost like beating a dead horse. No. 'cause there's so few indigenous people.
+[00:15:26] **Xiq:** Alright. Cool. I'm glad they inject the indigenous flavors back into the... But it feels, it feels almost like beating a dead horse. No. 'cause there's so few indigenous people.
 
 [00:15:48] **Henry:** Oh, I see.
 
@@ -236,8 +224,6 @@ sidebar:
 [00:15:53] **Henry:** Mm. In the same way it was.
 
 [00:15:58] **Xiq:** I think great to remember it and to try to make it part of your DNA, but it's hard, right? It's like something really awful and atrocious happened at some point, and how you need to find the least bad way of dealing with it.
-
-#### Grieving Without Ritual
 
 [00:16:20] **Henry:** Yeah. I guess it's kind of like, well, it's funny I was talking about grieving and mourning. And then it's like, and maybe it's part of it, it's like what does it mean to remember what happened in the past? To not forget it, but to not try to go back to the past or to make people do anything. What does it mean to respect that culture or what was lost? I was talking with someone, it was like, we didn't even grieve COVID in a way, like it just ended, but we didn't, no one said it was over. And then there's this underlying fear in everyone.
 
@@ -251,9 +237,7 @@ sidebar:
 
 [00:17:48] **Henry:** Why is it called psychomagic? That's interesting.
 
-[00:17:50] **Xiq:** I'm not sure why psychomagic. It comes from Alejandro Jodorowsky, who's a Chilean filmmaker.
-
-[00:18:03] **Xiq:** He was supposed to make the Dune movie and he's really eccentric and really esoteric. Anyway, my point, I think it's like psycho, obviously 'cause you're moving your psychology, and then magic. I always think of magic as pointing to hyperstition, right? So it's like manifesting, kind of acting as if. And the thing you're acting as if is true becomes more likely to be true.
+[00:17:50] **Xiq:** I'm not sure why psychomagic. It comes from Alejandro Jodorowsky, who's a Chilean filmmaker. He was supposed to make the Dune movie and he's really eccentric and really esoteric. Anyway, my point, I think it's like psycho, obviously 'cause you're moving your psychology, and then magic. I always think of magic as pointing to hyperstition, right? So it's like manifesting, kind of acting as if. And the thing you're acting as if is true becomes more likely to be true.
 
 [00:18:42] **Henry:** More true. Like you believe something into existence. Okay. That's interesting. It is funny 'cause normally people just use the word self-fulfilling prophecy, right? But then hyperstition seems like a new word that is coming about.
 
@@ -261,17 +245,13 @@ sidebar:
 
 [00:19:10] **Henry:** No, no, no. I think every generation has their version of the same stuff, so it's like, but for now, it feels more resonant, right?
 
-[00:19:20] **Xiq:** The word. Hyperstition.
-
-[00:19:23] **Xiq:** And you have lots of synonyms that have slightly different meanings.
+[00:19:20] **Xiq:** The word. Hyperstition. And you have lots of synonyms that have slightly different meanings.
 
 [00:19:29] **Henry:** Like in the Borges video when he was talking about English, Germanic roots versus.
 
 [00:19:36] **Henry:** Like rectangle. Yeah.
 
-#### Cairns and Simulacra
-
-[00:19:39] **Xiq:** You can see his hit box, this thing here. It's a big rock. A cairn actually.
+[00:19:39] **Xiq:** This thing here. It's a big rock. A cairn actually.
 
 [00:19:50] **Henry:** Engineering department.
 
@@ -355,9 +335,7 @@ sidebar:
 
 [00:26:32] **Xiq:** And you can have two attitudes, once you realize that. One is it's too much work to keep it in mind, 'cause it's so much, but actually it's less work than it seems.
 
-[00:26:55] **Xiq:** Because you can never have a map that comprehends the whole territory. But there are highly efficient compression algorithms. That you can use to understand, do the 80/20 for understanding history and where things come from and so on. And the more you learn, the more things fit together.
-
-[00:27:22] **Xiq:** So if you learn about world history or, I don't know, there's this knowledge graph that keeps rolling and that as you add things, you get more references and they point to each other more.
+[00:26:55] **Xiq:** Because you can never have a map that comprehends the whole territory. But there are highly efficient compression algorithms. That you can use to understand, do the 80/20 for understanding history and where things come from and so on. And the more you learn, the more things fit together. So if you learn about world history or, I don't know, there's this knowledge graph that keeps rolling and that as you add things, you get more references and they point to each other more.
 
 [00:27:38] **Henry:** I mean, it should be fun. Ultimately.
 
@@ -385,9 +363,7 @@ sidebar:
 
 [00:31:49] **Xiq:** Well, but you could argue this is the most important moment in history. If AI turns us into a spacefaring civilization, or even ends humans and replaces them with silicon-based life or something. And then they go off to the stars and they colonize millions and billions of planets and stars, and it all starts from here.
 
-[00:32:16] **Xiq:** That's kind of what I'm pointing at when I say leverage.
-
-[00:32:21] **Xiq:** Yeah, I don't know. I also don't think this is the juiciest topic. I wanted to make the joke.
+[00:32:16] **Xiq:** That's kind of what I'm pointing at when I say leverage. Yeah, I don't know. I also don't think this is the juiciest topic. I wanted to make the joke.
 
 [00:32:27] **Henry:** Yeah. Or the Calvinism.
 
@@ -501,9 +477,7 @@ sidebar:
 
 [00:40:28] **Henry:** This is the David Chapman thing. Yeah. Okay.
 
-[00:40:34] **Xiq:** Cluster B personalities. Man, I have so much Tpot knowledge in my head.
-
-[00:40:45] **Xiq:** And I don't want to write it all. The thing I wrote is so short. Not even 5%. It's a tiny amount of all the detail that I could give. But then you don't wanna make a map the size of the territory once again.
+[00:40:34] **Xiq:** Cluster B personalities. Man, I have so much Tpot knowledge in my head. And I don't want to write it all. The thing I wrote is so short. Not even 5%. It's a tiny amount of all the detail that I could give. But then you don't wanna make a map the size of the territory once again.
 
 [00:41:05] **Henry:** Right. You gotta refine. Okay. I mean, we can talk about that too. I don't know if you want to, but...
 
@@ -515,9 +489,7 @@ sidebar:
 
 [00:41:43] **Henry:** Why? I mean, I know your audience, it is people in it, but I guess it's why would someone care about this? Basically.
 
-[00:41:54] **Xiq:** Yeah. And I think I answer that to some extent.
-
-[00:41:58] **Xiq:** I think I could present a lot more evidence, for example. But I at least described the core mechanism and I give a couple examples.
+[00:41:54] **Xiq:** Yeah. And I think I answer that to some extent. I think I could present a lot more evidence, for example. But I at least described the core mechanism and I give a couple examples.
 
 [00:42:07] **Henry:** No, it smashed it out my head because I think anyone that's in it, they don't know what it is. It's always like, I don't know what I would say either, or what it is or what it does.
 
@@ -559,11 +531,7 @@ sidebar:
 
 [00:46:36] **Xiq:** But it's a spiral 'cause you come back with more perspective, more knowledge, and more meta-cognizance.
 
-[00:46:44] **Xiq:** Okay. Let me see if we can find any food. I think Jill recommended some food.
-
-[00:47:00] **Xiq:** Down Low Chicken has great fried chicken. Alright.
-
-[00:47:05] **Xiq:** Let me see. Down Low Chicken. Oh, 400 meters. This way.
+[00:46:44] **Xiq:** Okay. Let me see if we can find any food. I think Jill recommended some food. Down Low Chicken has great fried chicken. Alright. Let me see. Oh, 400 meters. This way.
 
 [00:47:16] **Henry:** We probably are over there.
 
@@ -577,9 +545,7 @@ sidebar:
 
 [00:47:23] **Henry:** Oh, okay. Perfect. Nice. I feel like the midwit meme always comes up for this because you start off, say you think that people that believe in God are really dumb. I don't think so, but low IQ, whatever. And then you're like, oh, I'm smart now, I'm atheist, rationalist. But then later you go back to it. But like you said, you had this greater understanding of it.
 
-[00:47:50] **Xiq:** Yeah. So I'm having this image of taking the midwit meme, stretching it out.
-
-[00:47:58] **Xiq:** And turning it into a spiral. Right. So you're at the top, then you flip because you become the midwit again, and you realize there's more to learn. So you go around. It's a spiral. And that's the hero's journey also. The hero's journey is also a spiral. Because you start at home, you get disrupted, you have a hard time, you learn, and then you bring it back home. You come back home with what you learned. So now you're smarter and more capable. And then you're home again until next time you're disrupted and need to do the whole journey again. So everything is secretly the same thing.
+[00:47:50] **Xiq:** Yeah. So I'm having this image of taking the midwit meme, stretching it out. And turning it into a spiral. Right. So you're at the top, then you flip because you become the midwit again, and you realize there's more to learn. So you go around. It's a spiral. And that's the hero's journey also. The hero's journey is also a spiral. Because you start at home, you get disrupted, you have a hard time, you learn, and then you bring it back home. You come back home with what you learned. So now you're smarter and more capable. And then you're home again until next time you're disrupted and need to do the whole journey again. So everything is secretly the same thing.
 
 [00:48:42] **Henry:** Or like the matrix or something, you're trying to get out, but then you're just in another one. So I think it's similar to saying that there's no frame that you can, or there's no non-frame, I guess.
 
@@ -603,9 +569,7 @@ sidebar:
 
 [00:49:53] **Xiq:** It's like there is an underlying reality, but not from where you are. You won't know for sure.
 
-[00:50:06] **Xiq:** Ivan was talking about this the other day.
-
-[00:50:10] **Xiq:** I think Mike Johnson said this to him, basically, 'cause I think Ivan was treating lots of different perspectives as they were equally valid. And I guess something in the conversation made Mike realize, maybe Ivan was overlooking that there is an underlying
+[00:50:06] **Xiq:** Ivan was talking about this the other day. I think Mike Johnson said this to him, basically, 'cause I think Ivan was treating lots of different perspectives as they were equally valid. And I guess something in the conversation made Mike realize, maybe Ivan was overlooking that there is an underlying
 
 [00:50:29] **Henry:** Oh, I see, I see. Reality. Yeah.
 

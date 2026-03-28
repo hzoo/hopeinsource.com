@@ -274,6 +274,29 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       }, { signal });
     });
 
+    // Enrich TOC links with timestamps from adjacent messages
+    document.querySelectorAll('h4').forEach((h4) => {
+      let el = h4.nextElementSibling;
+      while (el && !el.matches('[data-timestamp]') && !el.matches('h4')) {
+        el = el.nextElementSibling;
+      }
+      if (el?.matches('[data-timestamp]')) {
+        const seconds = parseInt(el.getAttribute('data-timestamp') || '0', 10);
+        const mins = Math.floor(seconds / 60);
+        const secs = seconds % 60;
+        const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
+
+        const tocLink = document.querySelector(`.toc-link[data-heading-id="${h4.id}"]`);
+        if (tocLink && !tocLink.querySelector('.toc-time')) {
+          const timeSpan = document.createElement('span');
+          timeSpan.className = 'toc-time text-his-text-tertiary text-xs font-normal ml-auto pl-2 tabular-nums';
+          timeSpan.textContent = timeStr;
+          tocLink.classList.add('flex', 'items-baseline', 'justify-between');
+          tocLink.appendChild(timeSpan);
+        }
+      }
+    });
+
     // Intersection Observer
     observer = new IntersectionObserver(
       (entries) => entries.forEach((entry) => {

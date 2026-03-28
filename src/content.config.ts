@@ -8,6 +8,7 @@ const podcastSchema = z.object({
   time: z.string(),
   description: z.string(),
   episodeLink: z.string(),
+  sauntercast: z.boolean().optional(),
   video: z.object({
     url: z.string().url(),
     offsetSeconds: z.number().int().nonnegative().optional(),

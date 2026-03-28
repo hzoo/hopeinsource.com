@@ -238,7 +238,7 @@ function seekRelative(seconds: number) {
 }
 
 function handleAudioKeydown(e: KeyboardEvent) {
-    if ((e.target as HTMLElement).matches('input, [contenteditable="true"]')) return;
+    if ((e.target as HTMLElement).matches('input, textarea, select, [contenteditable="true"]')) return;
     if (!audio) return;
 
     switch (e.code) {
