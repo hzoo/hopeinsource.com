@@ -1719,7 +1719,6 @@ body:has(#chat-header) #theme-toggle {
 
 /* Collapse: per-view thresholds */
 
-[data-collapsed="true"] > .convo-line:nth-child(n + 7) { display: none; }
 [data-collapsed="true"] > .question-item:nth-child(n + 10) { display: none; }
 [data-collapsed="true"] > .assertion-item:nth-child(n + 6) { display: none; }
 [data-collapsed="true"] > .loop-item:nth-child(n + 6) { display: none; }
@@ -1727,7 +1726,10 @@ body:has(#chat-header) #theme-toggle {
 
 
 .lab-show-more {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
   margin: 2.5rem auto 0;
   padding: 0.6rem 2rem;
   background: none;
@@ -1737,6 +1739,7 @@ body:has(#chat-header) #theme-toggle {
   font-size: 0.85rem;
   letter-spacing: 0.04em;
   cursor: pointer;
+  text-decoration: none;
   transition: all 0.15s ease;
 }
 

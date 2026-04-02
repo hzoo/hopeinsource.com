@@ -37,6 +37,7 @@ function reorderContainer(
 ): void {
   const container = document.querySelector<HTMLElement>(containerSelector);
   if (!container) return;
+  if (container.dataset.sessionOrderSeed === seed) return;
 
   const items = container.querySelectorAll<HTMLElement>(itemSelector);
   if (items.length < 2) return;
@@ -55,6 +56,7 @@ function reorderContainer(
   const frag = document.createDocumentFragment();
   for (const { item } of ranked) frag.appendChild(item);
   container.appendChild(frag);
+  container.dataset.sessionOrderSeed = seed;
 }
 
 const SHUFFLE_TARGETS = [
@@ -74,6 +76,8 @@ function init(): void {
 
   const showMoreButtons = document.querySelectorAll<HTMLButtonElement>(".lab-show-more");
   for (const btn of showMoreButtons) {
+    if (btn.dataset.boundShowMore === "true") continue;
+    btn.dataset.boundShowMore = "true";
     btn.addEventListener("click", () => {
       const target = btn.dataset.expand;
       if (!target) return;

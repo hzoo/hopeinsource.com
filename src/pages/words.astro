@@ -3,7 +3,8 @@ import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
 import { getEpisodeData } from "@/lib/episodes";
 import { HOME_LAB_CURATION_BY_SLUG } from "@/lib/home-lab-curation";
 
-const { episodes } = await getEpisodeData();
+const episodeData = await getEpisodeData();
+const { episodes } = episodeData;
 
 const lexiconCards = episodes.flatMap((ep) => {
   const curatedLexicon = HOME_LAB_CURATION_BY_SLUG.get(ep.slug)?.lexicon;
@@ -32,7 +33,7 @@ const groupedLexicon = allLexiconTerms.reduce<
 }, []);
 ---
 
-<HomeContentLayout activeLayout="J" title="Words" description="A living glossary of terms from Hope in Source.">
+<HomeContentLayout activeLayout="J" title="Words" description="A living glossary of terms from Hope in Source." episodeData={episodeData}>
   <section aria-label="Words">
     <div id="home-lexicon" data-collapsed="true">
       {groupedLexicon.map((group) => (

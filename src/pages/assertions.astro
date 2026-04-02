@@ -5,7 +5,8 @@ import { parseTranscript } from "@/lib/content-extraction";
 import { HOME_LAB_CURATION_BY_SLUG } from "@/lib/home-lab-curation";
 import { buildBodyMap, nearestTranscriptLine } from "@/lib/home-data";
 
-const { episodes } = await getEpisodeData();
+const episodeData = await getEpisodeData();
+const { episodes } = episodeData;
 
 const rawFiles = import.meta.glob<string>(
   "/src/content/podcast/**/*.md",
@@ -34,7 +35,7 @@ const vividCards = episodeTranscripts.flatMap((entry) => {
 });
 ---
 
-<HomeContentLayout activeLayout="G" title="Assertions" description="Bold declarations from Hope in Source conversations.">
+<HomeContentLayout activeLayout="G" title="Assertions" description="Bold declarations from Hope in Source conversations." episodeData={episodeData}>
   <section aria-label="Assertions">
     <div id="home-assertions" data-collapsed="true">
       {vividCards.map((card) => (

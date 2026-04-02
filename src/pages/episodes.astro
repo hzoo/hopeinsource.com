@@ -3,10 +3,11 @@ import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
 import { formatEpisodeDate } from "@/lib/dates";
 import { getEpisodeData } from "@/lib/episodes";
 
-const { archiveGroups } = await getEpisodeData();
+const episodeData = await getEpisodeData();
+const { archiveGroups } = episodeData;
 ---
 
-<HomeContentLayout activeLayout="A" title="All Episodes" description="Browse every Hope in Source episode by season.">
+<HomeContentLayout activeLayout="A" title="All Episodes" description="Browse every Hope in Source episode by season." episodeData={episodeData}>
   <section id="home-archive" aria-label="Episodes by season">
     <div class="space-y-7 sm:space-y-8">
       {archiveGroups.map((group) => {
@@ -28,7 +29,7 @@ const { archiveGroups } = await getEpisodeData();
             <div class="season-episodes divide-y divide-his-hr/30">
               {seasonEpisodes.map((episode) => (
                 <article
-                  class="episode-card group relative rounded-lg border-l-2 border-l-transparent px-3 py-3 transition-all duration-200 hover:border-l-his-green/60 hover:bg-his-hover/20 sm:px-4"
+                  class="episode-card group rounded-lg px-3 py-3 transition-colors duration-200 hover:bg-his-hover/20 sm:px-4"
                   title={formatEpisodeDate(episode.data.date)}
                 >
                   <a href={`/${episode.slug}`} class="block">

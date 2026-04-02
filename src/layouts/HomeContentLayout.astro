@@ -6,7 +6,7 @@ import Subscribe from "@/components/Subscribe.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
-import { getEpisodeData } from "@/lib/episodes";
+import { getEpisodeData, type EpisodeData } from "@/lib/episodes";
 import {
   formatEpisodeDate,
   formatEpisodeDateValue,
@@ -17,12 +17,13 @@ interface Props {
   activeLayout: HomeLayoutId;
   title?: string;
   description?: string;
+  episodeData?: EpisodeData;
 }
 
-const { activeLayout, title, description } = Astro.props;
+const { activeLayout, title, description, episodeData } = Astro.props;
 const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
 const slug = currentLayout?.href ?? "/";
-const { episodes, archiveGroups } = await getEpisodeData();
+const { episodes, archiveGroups } = episodeData ?? await getEpisodeData();
 const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
 const seasonLinks = archiveGroups.map((group) => ({
   href: `/episodes#home-season-${group.id}`,

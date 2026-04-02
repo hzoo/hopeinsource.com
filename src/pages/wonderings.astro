@@ -5,7 +5,8 @@ import { parseTranscript } from "@/lib/content-extraction";
 import { HOME_LAB_CURATION_BY_SLUG } from "@/lib/home-lab-curation";
 import { buildBodyMap, nearestTranscriptLine } from "@/lib/home-data";
 
-const { episodes } = await getEpisodeData();
+const episodeData = await getEpisodeData();
+const { episodes } = episodeData;
 
 const rawFiles = import.meta.glob<string>(
   "/src/content/podcast/**/*.md",
@@ -32,7 +33,7 @@ const openLoopCards = episodeTranscripts.flatMap((entry) => {
 });
 ---
 
-<HomeContentLayout activeLayout="I" title="Wonderings" description="Open questions and suspended thoughts from Hope in Source.">
+<HomeContentLayout activeLayout="I" title="Wonderings" description="Open questions and suspended thoughts from Hope in Source." episodeData={episodeData}>
   <section aria-label="Wonderings">
     <div id="home-open-loops" data-collapsed="true">
       {openLoopCards.map((card) => (

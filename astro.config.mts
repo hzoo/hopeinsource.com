@@ -11,7 +11,7 @@ export default defineConfig({
   publicDir: "public",
   integrations: [preact({ compat: true })],
   vite: {
-    plugins: [tailwindcss()],
+    plugins: [tailwindcss() as never],
     build: {
       rollupOptions: {
         external: ['/pagefind/pagefind.js'],
@@ -25,9 +25,6 @@ export default defineConfig({
     remarkPlugins: [remarkLinksExtractor, remarkTranscriptPlugin, remarkResponsiveImages],
   },
   experimental: {
-    // headingIdCompat: true,
-    preserveScriptOrder: true,
-    staticImportMetaEnv: true,
     chromeDevtoolsWorkspace: true,
   },
   image: {

@@ -1,4 +1,5 @@
-import { defineCollection, z } from 'astro:content';
+import { defineCollection } from 'astro:content';
+import { z } from 'astro/zod';
 import { glob } from 'astro/loaders';
 
 const podcastSchema = z.object({
@@ -10,7 +11,7 @@ const podcastSchema = z.object({
   episodeLink: z.string(),
   sauntercast: z.boolean().optional(),
   video: z.object({
-    url: z.string().url(),
+    url: z.url(),
     offsetSeconds: z.number().int().nonnegative().optional(),
   }).optional(),
   sidebar: z.object({

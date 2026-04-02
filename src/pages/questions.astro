@@ -3,14 +3,15 @@ import HomeContentLayout from "@/layouts/HomeContentLayout.astro";
 import { getEpisodeData } from "@/lib/episodes";
 import { extractQuestions } from "@/lib/content-extraction";
 
-const { episodes } = await getEpisodeData();
+const episodeData = await getEpisodeData();
+const { episodes } = episodeData;
 
 const allQuestions = episodes.flatMap((ep) =>
   extractQuestions(ep.slug, ep.episodeTitle, ep.data.description),
 );
 ---
 
-<HomeContentLayout activeLayout="D">
+<HomeContentLayout activeLayout="D" episodeData={episodeData}>
   <section aria-label="Questions">
     <div id="home-questions" data-collapsed="true">
       {allQuestions.map((q) => {

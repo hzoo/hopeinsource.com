@@ -4,7 +4,8 @@ import { getEpisodeData } from "@/lib/episodes";
 import { timestampToSeconds } from "@/lib/content-extraction";
 import { convoSide } from "@/lib/home-data";
 
-const { episodes } = await getEpisodeData();
+const episodeData = await getEpisodeData();
+const { episodes } = episodeData;
 
 const allExcerpts = episodes.flatMap((ep) =>
   (ep.data.quotes ?? []).map((q) => ({
@@ -16,10 +17,10 @@ const allExcerpts = episodes.flatMap((ep) =>
 );
 ---
 
-<HomeContentLayout activeLayout="B" title="Excerpts" description="Selected excerpts from Hope in Source episodes.">
+<HomeContentLayout activeLayout="B" title="Excerpts" description="Selected excerpts from Hope in Source episodes." episodeData={episodeData}>
   <section aria-label="Excerpts">
     <div id="home-dialogue">
-      <div class="convo-flow" data-collapsed="true">
+      <div class="convo-flow">
         {allExcerpts.map((q) => {
           const side = convoSide(q.speaker, q.slug, q.seconds);
           return (
@@ -39,11 +40,6 @@ const allExcerpts = episodes.flatMap((ep) =>
           );
         })}
       </div>
-      {allExcerpts.length > 6 && (
-        <button type="button" class="lab-show-more" data-expand="#home-dialogue .convo-flow">
-          show {allExcerpts.length - 6} more
-        </button>
-      )}
     </div>
   </section>
 </HomeContentLayout>
