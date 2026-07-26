@@ -1,6 +1,6 @@
 import { defineConfig } from "astro/config";
+import { unified } from "@astrojs/markdown-remark";
 import tailwindcss from "@tailwindcss/vite";
-import preact from '@astrojs/preact';
 
 import { remarkTranscriptPlugin } from "./src/remark-transcript-plugin/plugin";
 import { remarkResponsiveImages } from './src/plugins/remark-responsive-images';
@@ -9,9 +9,9 @@ import { remarkLinksExtractor } from './src/plugins/remark-links-extractor';
 // https://astro.build/config
 export default defineConfig({
   publicDir: "public",
-  integrations: [preact({ compat: true })],
+  compressHTML: true,
   vite: {
-    plugins: [tailwindcss() as never],
+    plugins: [tailwindcss()],
     build: {
       rollupOptions: {
         external: ['/pagefind/pagefind.js'],
@@ -22,7 +22,9 @@ export default defineConfig({
     },
   },
   markdown: {
-    remarkPlugins: [remarkLinksExtractor, remarkTranscriptPlugin, remarkResponsiveImages],
+    processor: unified({
+      remarkPlugins: [remarkLinksExtractor, remarkTranscriptPlugin, remarkResponsiveImages],
+    }),
   },
   experimental: {
     chromeDevtoolsWorkspace: true,
@@ -30,14 +32,5 @@ export default defineConfig({
   image: {
     responsiveStyles: true,
     layout: 'constrained',
-    // Reasonable default widths for responsive images
-    service: {
-      entrypoint: 'astro/assets/services/sharp',
-      config: {
-        quality: 90,
-        formats: ['webp'],
-        widths: [640, 750, 828, 1080, 1200, 1920],
-      },
-    },
   },
 });

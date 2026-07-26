@@ -1,7 +1,7 @@
 export const HOME_LAYOUTS = [
-  { id: "B", label: "Excerpts", icon: "chat", group: "core", href: "/" },
+  { id: "A", label: "Episodes", icon: "list", group: "core", href: "/" },
+  { id: "B", label: "Excerpts", icon: "chat", group: "core", href: "/quotes" },
   { id: "D", label: "Questions", icon: "question", group: "core", href: "/questions" },
-  { id: "A", label: "Episodes", icon: "list", group: "core", href: "/episodes" },
   { id: "G", label: "Assertions", icon: "bolt", group: "lab", href: "/assertions" },
   { id: "I", label: "Wonderings", icon: "loop", group: "lab", href: "/wonderings" },
   { id: "J", label: "Words", icon: "seed", group: "lab", href: "/words" },

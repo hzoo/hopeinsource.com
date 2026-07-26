@@ -26,7 +26,7 @@ const slug = currentLayout?.href ?? "/";
 const { episodes, archiveGroups } = episodeData ?? await getEpisodeData();
 const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
 const seasonLinks = archiveGroups.map((group) => ({
-  href: `/episodes#home-season-${group.id}`,
+  href: `/#home-season-${group.id}`,
   label: group.label,
   count: group.episodes.length,
 }));
@@ -45,7 +45,7 @@ const seasonLinks = archiveGroups.map((group) => ({
             height={472}
             widths={[320, 472, 944]}
             class="brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]"
-            loading="eager"
+            priority
             format="webp"
             quality={90}
           />
@@ -129,6 +129,6 @@ const seasonLinks = archiveGroups.map((group) => ({
     </section>
   </div>
 
-  <script src="../scripts/home-layout-lab.ts"></script>
+  {activeLayout !== "A" && <script src="../scripts/home-layout-lab.ts"></script>}
   <script src="../scripts/relative-dates.ts"></script>
 </Layout>
