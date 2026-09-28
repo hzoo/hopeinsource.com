@@ -45,7 +45,7 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             ? <h1 class="brand-title m-0">Hope in Source</h1>
             : <span class="brand-title m-0">Hope in Source</span>}
           <picture class="contents">
-            <source media="(min-width: 1200px)" type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
+            <source media={isHome ? "(min-width: 1120px)" : "(min-width: 1200px)"} type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
             <img
               src={isHome ? smallCover : emptyImage}
               alt="Hope in Source Cover Art"

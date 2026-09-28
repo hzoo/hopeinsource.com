@@ -1182,7 +1182,7 @@ body:has(#home-layout-root) #theme-toggle {
   width: 100%;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1120px) {
   #home-top-controls {
     padding-right: 3rem;
   }
@@ -1243,8 +1243,7 @@ body:has(#home-layout-root) #theme-toggle {
   }
 }
 
-
-@media (min-width: 1200px) {
+@media (min-width: 1120px) {
   .home-secondary #home-footer {
     display: none;
   }
@@ -1341,6 +1340,28 @@ body:has(#home-layout-root) #theme-toggle {
       color-mix(in oklab, var(--color-his-bg) 96%, transparent) 72%,
       transparent
     );
+  }
+}
+
+@media (min-width: 1120px) and (max-width: 1199px) {
+  .home-secondary.home-root {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 2rem;
+  }
+
+  .home-secondary #home-top-controls {
+    position: static;
+    padding-top: 0;
+    padding-right: 0;
+    background: none;
+  }
+
+  .home-secondary #home-footer {
+    display: block;
+    max-width: 46rem;
+    margin: 0 auto;
   }
 }
 
