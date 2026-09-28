@@ -449,6 +449,10 @@ body:has(#home-layout-root) #theme-toggle {
   }
 
   @media (max-width: 767px) {
+    #episode-content-shell h4 {
+      scroll-margin-top: 4rem;
+    }
+
     #episode-content-shell .mobile-chapters ~ div h4:first-child {
       margin-top: 1rem;
     }
