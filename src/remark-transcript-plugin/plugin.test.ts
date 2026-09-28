@@ -31,18 +31,20 @@ test("remarkTranscriptPlugin transforms markdown correctly", async () => {
   expect(result).toContain('class="message message-sent"');
   expect(result).toContain('data-timestamp="28"');
   expect(result).toContain('data-msg-occurrence="1"');
-  expect(result).toContain('<span class="message-time">00:28</span>');
-  expect(result).toContain('<strong>Speaker 1</strong>');
+  expect(result).toContain('<span class="message-speaker"><strong>Speaker 1</strong></span>');
+  expect(result).toContain('<span class="message-text">');
+  expect(result).toContain('<a href="#t=28" class="message-time" aria-label="Listen from 00:28">0:28</a>');
 
   expect(result).toContain('id="msg-75"');
   expect(result).toContain('class="message message-received"');
   expect(result).toContain('data-timestamp="75"');
   expect(result).toContain('data-msg-occurrence="1"');
-  expect(result).toContain('<span class="message-time">01:15</span>');
+  expect(result).toContain('<a href="#t=75" class="message-time" aria-label="Listen from 01:15">1:15</a>');
 
   expect(result).toContain('id="msg-0"');
   expect(result).toContain('data-timestamp="0"');
   expect(result).toContain('data-msg-occurrence="1"');
+  expect(result).not.toContain('href="#t=0"');
 });
 
 test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () => {
@@ -52,8 +54,23 @@ test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () =>
   expect(result).toContain('id="msg-3603"');
   expect(result).toContain('data-timestamp="3603"');
   expect(result).toContain('data-msg-occurrence="1"');
-  expect(result).toContain('<span class="message-time">01:00:03</span>');
+  expect(result).toContain('<a href="#t=3603" class="message-time" aria-label="Listen from 01:00:03">1:00:03</a>');
   expect(result).toContain('<strong>Henry</strong>');
+});
+
+test("remarkTranscriptPlugin groups consecutive speaker-only messages", async () => {
+  const result = await processMarkdown(`
+[00:28] **Henry:** First thought.
+
+**Henry:** Second thought with **emphasis**.
+
+[00:30] **Xiq:** Reply.
+`);
+
+  expect(result).toContain('class="message message-sent consecutive consecutive-start"');
+  expect(result).toContain('class="message message-sent consecutive consecutive-end hide-speaker"');
+  expect(result).toContain('<span class="message-speaker"><strong>Henry</strong></span>');
+  expect(result).toContain('<span class="message-text"> Second thought with <strong>emphasis</strong>.</span>');
 });
 
 test("remarkTranscriptPlugin disambiguates duplicate same-second message ids", async () => {
@@ -95,5 +112,5 @@ test("remarkTranscriptPlugin handles custom options", async () => {
   });
 
   expect(result).toContain('class="custom-timestamp"');
-  expect(result).toContain("00:28");
+  expect(result).toContain("0:28");
 });

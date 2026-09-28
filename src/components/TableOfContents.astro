@@ -17,10 +17,42 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
 {hasContent && (
   <>
+    {headings.length > 0 && (
+      <details
+        id="mobile-chapters"
+        class="mobile-chapters sticky top-2 z-[45] mb-5 rounded-xl border border-his-hr bg-his-bg/95 shadow-sm backdrop-blur-sm md:hidden"
+      >
+        <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 rounded-xl px-3 text-sm font-medium text-his-text-secondary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60">
+          <span class="min-w-0 truncate">
+            <span class="text-his-text-tertiary">Chapters</span>
+            <span aria-hidden="true"> · </span>
+            <span id="mobile-chapters-current">{headings[0].text}</span>
+          </span>
+          <span class="flex-shrink-0 text-xs tabular-nums text-his-text-tertiary">{headings.length}</span>
+        </summary>
+        <nav aria-label="Episode chapters" class="max-h-[min(50vh,24rem)] overflow-y-auto border-t border-his-hr p-1.5">
+          <ul class="list-none space-y-0.5">
+            {headings.map((heading) => (
+              <li class="m-0">
+                <a
+                  href={`#${heading.slug}`}
+                  class="toc-link chapter-link flex min-h-11 items-center rounded-lg px-2.5 text-sm font-medium text-his-text-secondary no-underline transition-[color,background-color] duration-200 hover:bg-his-hover hover:text-his-text"
+                  data-heading-id={heading.slug}
+                >
+                  <span class="toc-title min-w-0">{heading.text}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+      </details>
+    )}
+
     <!-- Scrubber (tablet+, right side) -->
     <div
       id="toc-scrubber"
       class="hidden md:flex fixed right-3 top-1/2 -translate-y-1/2 flex-col items-end gap-1.5 p-2 z-40"
+      role="navigation"
       aria-label="Table of contents"
     >
       {/* Section bars */}
@@ -28,14 +60,15 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         <button
           id="toc-bars"
           type="button"
-          class="flex flex-col items-end gap-1.5 cursor-pointer group rounded-md p-0 bg-transparent border-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+          class="flex min-h-11 min-w-11 flex-col items-end justify-center gap-1.5 cursor-pointer group rounded-md p-2 bg-transparent border-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
           aria-label="Toggle table of contents"
+          title="Chapters"
           aria-controls="toc-nav"
           aria-expanded="false"
         >
           {headings.map((heading) => (
             <span
-              class="toc-scrubber-bar w-4 h-1 bg-his-text-tertiary transition-all duration-300 rounded-full group-hover:bg-his-text-secondary"
+              class="toc-scrubber-bar w-4 h-1 bg-his-text-tertiary transition-[width,background-color] duration-300 rounded-full group-hover:bg-his-text-secondary"
               data-scrubber-id={heading.slug}
               aria-hidden="true"
             />
@@ -47,7 +80,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         <button
           id="ref-badge"
           type="button"
-          class="mt-3 flex flex-col items-center gap-0.5 text-[10px] text-his-text-tertiary hover:text-his-green transition-colors cursor-pointer rounded-md p-0 bg-transparent border-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+          class="mt-2 flex min-h-10 min-w-10 flex-col items-center justify-center gap-0.5 text-[10px] text-his-text-tertiary hover:text-his-green transition-colors cursor-pointer rounded-md p-1 bg-transparent border-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
           aria-label="Toggle references"
           aria-controls="ref-popover"
           aria-expanded="false"
@@ -64,18 +97,18 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     {headings.length > 0 && (
       <nav
         id="toc-nav"
-        class="hidden md:block fixed right-12 top-1/2 w-64 max-h-[70vh] bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 z-50"
+        class="hidden md:block fixed right-12 top-1/2 w-[min(18rem,calc(100vw-5rem))] max-h-[82vh] bg-his-bg border border-his-hr rounded-xl opacity-0 invisible transition-[opacity,transform,visibility] duration-200 z-50"
         style="transform: translateY(-50%) translateX(10px);"
       >
-        <ul class="list-none p-2 space-y-0.5 overflow-y-auto max-h-[70vh] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <ul class="toc-panel-list list-none overflow-y-auto max-h-[82vh] [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {headings.map((heading) => (
-            <li>
+            <li class="m-0">
               <a
                 href={`#${heading.slug}`}
-                class="toc-link block rounded-md text-sm no-underline transition-all duration-200 hover:bg-his-hover py-2 px-2.5 text-his-text-secondary hover:text-his-text font-medium"
+                class="toc-link chapter-link toc-panel-link no-underline transition-colors duration-150"
                 data-heading-id={heading.slug}
               >
-                {heading.text}
+                <span class="toc-title">{heading.text}</span>
               </a>
             </li>
           ))}
@@ -87,7 +120,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     {extractedLinks.length > 0 && (
       <div
         id="ref-popover"
-        class="hidden md:block fixed right-12 top-[calc(50%+80px)] w-72 max-h-[60vh] overflow-hidden bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-all duration-200 z-50"
+        class="hidden md:block fixed right-12 top-[calc(50%+80px)] w-72 max-h-[60vh] overflow-hidden bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-[opacity,transform,visibility] duration-200 z-50"
         style="transform: translateY(-50%) translateX(10px);"
       >
         <div class="p-1.5 overflow-y-auto max-h-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
@@ -186,6 +219,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     const refBadge = document.getElementById('ref-badge');
     const refPopover = document.getElementById('ref-popover');
     const refPopoverItems = document.querySelectorAll('.ref-popover-item');
+    const mobileChapters = document.getElementById('mobile-chapters') as HTMLDetailsElement | null;
+    const mobileChaptersCurrent = document.getElementById('mobile-chapters-current');
 
     // Add IDs to blockquotes
     document.querySelectorAll('main blockquote').forEach((bq, index) => {
@@ -196,11 +231,21 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     function setActive(id: string) {
       if (currentActiveId === id) return;
       currentActiveId = id;
+      const currentHeading = document.getElementById(id);
+      if (mobileChaptersCurrent && currentHeading?.textContent) {
+        mobileChaptersCurrent.textContent = currentHeading.textContent.trim();
+      }
 
       tocLinks.forEach(link => {
         const linkId = link.getAttribute('data-heading-id');
-        link.classList.toggle('active', linkId === id);
-        link.classList.toggle('text-his-green', linkId === id);
+        const isActive = linkId === id;
+        link.classList.toggle('active', isActive);
+        link.classList.toggle('text-his-green', isActive);
+        if (isActive) {
+          link.setAttribute('aria-current', 'location');
+        } else {
+          link.removeAttribute('aria-current');
+        }
       });
 
       scrubberBars.forEach(bar => {
@@ -244,14 +289,16 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
     // TOC links - scroll to section
     tocLinks.forEach(link => {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
+      link.addEventListener('click', () => {
         const href = link.getAttribute('href');
         if (href) {
           const target = document.querySelector(href);
           if (target) {
             closeTOC();
-            setTimeout(() => target.scrollIntoView({ behavior: 'smooth', block: 'start' }), 100);
+            mobileChapters?.removeAttribute('open');
+            setActive(href.slice(1));
+            (target as HTMLElement).tabIndex = -1;
+            requestAnimationFrame(() => (target as HTMLElement).focus({ preventScroll: true }));
           }
         }
       }, { signal });
@@ -286,14 +333,15 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         const secs = seconds % 60;
         const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
 
-        const tocLink = document.querySelector(`.toc-link[data-heading-id="${h4.id}"]`);
-        if (tocLink && !tocLink.querySelector('.toc-time')) {
-          const timeSpan = document.createElement('span');
-          timeSpan.className = 'toc-time text-his-text-tertiary text-xs font-normal ml-auto pl-2 tabular-nums';
+        const matchingLinks = document.querySelectorAll(`.toc-link[data-heading-id="${h4.id}"]`);
+        matchingLinks.forEach((tocLink) => {
+          if (tocLink.querySelector('.toc-time')) return;
+          const timeSpan = document.createElement('time');
+          timeSpan.className = 'toc-time';
+          timeSpan.dateTime = `PT${seconds}S`;
           timeSpan.textContent = timeStr;
-          tocLink.classList.add('flex', 'items-baseline', 'justify-between');
           tocLink.appendChild(timeSpan);
-        }
+        });
       }
     });
 
@@ -322,6 +370,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
     const tocBars = document.getElementById('toc-bars');
     const refBadge = document.getElementById('ref-badge');
+    const mobileChapters = document.getElementById('mobile-chapters');
     const scrollContainer = document.getElementById('episode-scroll-container');
 
     const warmInit = () => {
@@ -340,6 +389,20 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
     tocBars?.addEventListener('click', handleFirstControlClick, { signal, capture: true, once: true });
     refBadge?.addEventListener('click', handleFirstControlClick, { signal, capture: true, once: true });
+    mobileChapters?.addEventListener('toggle', () => {
+      warmInit();
+      if ((mobileChapters as HTMLDetailsElement).open) {
+        const scrollContainer = document.getElementById('episode-scroll-container');
+        if (!scrollContainer) return;
+        const containerRect = scrollContainer.getBoundingClientRect();
+        const detailsRect = mobileChapters.getBoundingClientRect();
+        const targetTop = Math.max(
+          0,
+          scrollContainer.scrollTop + detailsRect.top - containerRect.top - 8,
+        );
+        scrollContainer.scrollTo({ top: targetTop, behavior: 'smooth' });
+      }
+    }, { signal });
     scrollContainer?.addEventListener('scroll', warmInit, { signal, passive: true, once: true });
     if (!scrollContainer) {
       window.addEventListener('scroll', warmInit, { signal, passive: true, once: true });

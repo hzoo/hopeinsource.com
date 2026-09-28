@@ -1,20 +1,28 @@
 ---
-const { src } = Astro.props;
+interface Props {
+  src: string;
+  title: string;
+}
+
+const { src, title } = Astro.props;
 ---
 
 <div
-  class="fixed bottom-3 sm:bottom-4 left-1/2 lg:left-[calc(50%+160px)] z-40 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm"
+  class="fixed bottom-3 sm:bottom-4 left-1/2 lg:left-[calc(50%+160px)] z-40 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm transition-[opacity,transform] duration-200"
   id="audio-player-container"
   data-src={src}
+  role="region"
+  aria-label={`${title} audio player`}
 >
+  <span class="sr-only">{title}</span>
   <div class="px-3 sm:px-4 py-2.5 sm:py-3">
     <div class="flex items-center gap-2 sm:gap-4">
       <button
         id="play-pause"
-        class="flex h-10 w-10 items-center justify-center rounded-xl bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
-        aria-label="Play/Pause"
+        class="flex h-11 w-11 flex-shrink-0 items-center justify-center rounded-xl bg-his-green/10 text-his-green transition-[color,background-color,transform] duration-200 hover:bg-his-green/20 active:scale-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+        aria-label="Play episode"
       >
-        <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <svg id="play-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 translate-x-px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
@@ -25,7 +33,7 @@ const { src } = Astro.props;
       <div class="hidden sm:flex group items-center">
         <button
           id="mute-button"
-          class="flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
+          class="flex h-10 w-10 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-[color,background-color] duration-200 hover:bg-his-green/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
           aria-label="Mute"
         >
           <svg id="volume-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="h-4 w-4">
@@ -35,43 +43,47 @@ const { src } = Astro.props;
             <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 9.75 19.5 12m0 0 2.25 2.25M19.5 12l2.25-2.25M19.5 12l-2.25 2.25m-10.5-6 4.72-4.72a.75.75 0 0 1 1.28.53v15.88a.75.75 0 0 1-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.009 9.009 0 0 1 2.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75Z" />
           </svg>
         </button>
-        <div class="w-0 overflow-hidden transition-all duration-200 group-hover:w-24 flex items-center">
+        <div class="w-0 overflow-hidden transition-[width] duration-200 group-hover:w-24 group-focus-within:w-24 flex items-center">
           <input
             type="range"
             id="volume-slider"
             class="w-full h-2 mx-2 appearance-none bg-his-text-tertiary/50 rounded-full"
+            aria-label="Episode volume"
+            aria-valuetext="50 percent"
             min="0"
             max="100"
             value="50"
           />
         </div>
       </div>
-      <span id="current-time" class="w-12 text-sm font-mono text-his-text-secondary"
+      <span id="current-time" class="w-11 text-sm font-mono tabular-nums text-his-text-secondary"
         >00:00</span
       >
-      <div class="flex-grow relative h-2 group">
-        <div class="absolute inset-0 rounded-full bg-his-text-tertiary/50"></div>
+      <div class="flex-grow relative h-10 group">
+        <div class="absolute inset-x-0 top-1/2 h-2 -translate-y-1/2 rounded-full bg-his-text-tertiary/50"></div>
         <div
           id="progress-bar"
-          class="absolute inset-y-0 left-0 w-0 rounded-full bg-his-green/40 transition-all duration-100"
+          class="absolute left-0 top-1/2 h-2 w-0 -translate-y-1/2 rounded-full bg-his-green/40 transition-[width] duration-100"
         >
         </div>
         <input
           type="range"
           id="seek-slider"
-          class="absolute inset-0 h-full w-full cursor-pointer opacity-0 transition-opacity group-hover:opacity-100"
+          class="absolute inset-0 h-full w-full cursor-pointer opacity-0 transition-opacity group-hover:opacity-100 focus:opacity-100"
+          aria-label="Episode position"
+          aria-valuetext="00:00 of 00:00"
           min="0"
           max="100"
           value="0"
           disabled
         />
       </div>
-      <span id="duration" class="w-12 text-sm font-mono text-his-text-secondary"
+      <span id="duration" class="w-11 text-right text-sm font-mono tabular-nums text-his-text-secondary"
         >00:00</span
       >
       <button
         id="shortcuts-button"
-        class="hidden sm:flex h-8 w-8 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-all duration-200 hover:bg-his-green/20 hover:opacity-80 focus:outline-none"
+        class="hidden sm:flex h-10 w-10 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-[color,background-color] duration-200 hover:bg-his-green/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
         aria-label="Keyboard Shortcuts"
       >
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-4 h-4">
@@ -80,13 +92,15 @@ const { src } = Astro.props;
       </button>
     </div>
   </div>
-  <audio id="audio-element" preload="metadata"></audio>
+  <audio id="audio-element" preload="none"></audio>
 </div>
 
 <!-- Seek feedback popup -->
 <div
   id="player-feedback"
   class="fixed left-1/2 -translate-x-1/2 bottom-32 z-40 bg-his-hover/95 text-his-text px-4 py-2 rounded-lg border border-his-text-tertiary/50 backdrop-blur-sm opacity-0 transition-opacity duration-200 pointer-events-none flex items-center gap-2"
+  role="status"
+  aria-live="polite"
 >
   <span id="feedback-text" class="text-sm"></span>
 </div>
@@ -95,14 +109,17 @@ const { src } = Astro.props;
 <div
   id="shortcuts-dialog"
   class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center z-50"
+  role="dialog"
+  aria-label="Keyboard shortcuts"
   aria-modal="true"
+  aria-hidden="true"
 >
   <div
     class="bg-his-hover/95 text-his-text p-6 rounded-xl border border-his-text-tertiary/50 w-full max-w-md mx-4 max-h-[90vh] overflow-y-auto"
   >
     <div class="flex justify-between items-center mb-4">
       <div class="text-lg font-medium">Keyboard Shortcuts</div>
-      <button id="close-shortcuts" class="text-his-text-secondary hover:text-his-text">
+      <button id="close-shortcuts" class="flex h-10 w-10 items-center justify-center rounded-lg text-his-text-secondary hover:bg-his-hover hover:text-his-text" aria-label="Close keyboard shortcuts">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           class="h-5 w-5"

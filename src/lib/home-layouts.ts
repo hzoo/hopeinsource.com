@@ -8,4 +8,3 @@ export const HOME_LAYOUTS = [
 ] as const;
 
 export type HomeLayoutId = (typeof HOME_LAYOUTS)[number]["id"];
-export type HomeLayout = (typeof HOME_LAYOUTS)[number];

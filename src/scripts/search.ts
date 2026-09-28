@@ -89,6 +89,7 @@ let modal: HTMLDivElement | null = null;
 let input: HTMLInputElement | null = null;
 let resultsArea: HTMLDivElement | null = null;
 let modalAbort: AbortController | null = null;
+let returnFocusTo: HTMLElement | null = null;
 let activeSearchId = 0;
 let searchSession: SearchSession | null = null;
 let isHydratingMore = false;
@@ -180,11 +181,17 @@ function createModal() {
     // Backdrop
     backdrop = document.createElement('div');
     backdrop.className = 'search-backdrop';
+    backdrop.setAttribute('aria-hidden', 'true');
     document.body.appendChild(backdrop);
 
     // Modal
     modal = document.createElement('div');
     modal.className = 'search-modal';
+    modal.setAttribute('role', 'dialog');
+    modal.setAttribute('aria-modal', 'true');
+    modal.setAttribute('aria-label', 'Search transcripts');
+    modal.setAttribute('inert', '');
+    modal.setAttribute('aria-hidden', 'true');
     modal.innerHTML = `
     <div class="search-input-row">
       <svg class="search-input-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -194,11 +201,15 @@ function createModal() {
       <input
         type="text"
         class="search-modal-input"
+        aria-label="Search transcripts"
         placeholder="Search transcripts..."
         autocomplete="off"
         spellcheck="false"
       />
-      <kbd class="search-esc-hint">esc</kbd>
+      <button class="search-esc-hint" type="button" aria-label="Close search">
+        <span class="search-esc-label">esc</span>
+        <span class="search-close-label" aria-hidden="true">×</span>
+      </button>
     </div>
     <div class="search-results-area"></div>
   `;
@@ -243,13 +254,30 @@ function createModal() {
         } else if (e.key === 'Enter' && selectedIndex >= 0) {
             e.preventDefault();
             resultLinks[selectedIndex]?.click();
-        } else if (e.key === 'Escape') {
+        }
+    }, { signal });
+
+    modal.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            e.preventDefault();
             closeModal();
+        } else if (e.key === 'Tab') {
+            const focusable = Array.from(modal!.querySelectorAll<HTMLElement>('input, button, a[href]'));
+            const first = focusable[0];
+            const last = focusable[focusable.length - 1];
+            if (e.shiftKey && document.activeElement === first) {
+                e.preventDefault();
+                last?.focus();
+            } else if (!e.shiftKey && document.activeElement === last) {
+                e.preventDefault();
+                first?.focus();
+            }
         }
     }, { signal });
 
     // Backdrop click
     backdrop.addEventListener('click', closeModal, { signal });
+    modal.querySelector('.search-esc-hint')?.addEventListener('click', closeModal, { signal });
 
     // Delegated clicks in search area
     resultsArea.addEventListener('click', (e) => {
@@ -312,6 +340,20 @@ async function openModal() {
     }
 
     if (!modal || !backdrop) return;
+    if (modal.classList.contains('visible')) {
+        input?.focus();
+        return;
+    }
+    returnFocusTo = document.activeElement instanceof HTMLElement
+        && document.activeElement !== document.body
+        && !modal.contains(document.activeElement)
+        ? document.activeElement
+        : trigger;
+    if (returnFocusTo?.closest('#episode-sidebar') && window.matchMedia('(max-width: 1023px)').matches) {
+        returnFocusTo = document.getElementById('header-sidebar-toggle');
+    }
+    modal.removeAttribute('inert');
+    modal.setAttribute('aria-hidden', 'false');
     modal.classList.add('visible');
     backdrop.classList.add('visible');
     document.body.style.overflow = 'hidden';
@@ -327,7 +369,11 @@ function closeModal() {
     activeSearchId++;
     searchSession = null;
     isHydratingMore = false;
+    returnFocusTo?.focus();
+    returnFocusTo = null;
     modal.classList.remove('visible');
+    modal.setAttribute('inert', '');
+    modal.setAttribute('aria-hidden', 'true');
     backdrop.classList.remove('visible');
     document.body.style.overflow = '';
     input.value = '';

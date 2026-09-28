@@ -26,7 +26,6 @@ const allExcerpts = episodes.flatMap((ep) =>
           return (
             <div
               class={`convo-line ${side === "sent" ? "convo-sent" : "convo-received"}`}
-              data-session-key={`${q.slug}:${q.seconds}:${q.speaker}`}
             >
               <div class="convo-meta">
                 <span class="convo-speaker">{q.speaker}</span>

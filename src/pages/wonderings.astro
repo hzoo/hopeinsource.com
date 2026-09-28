@@ -40,7 +40,6 @@ const openLoopCards = episodeTranscripts.flatMap((entry) => {
         <a
           href={`/${card.slug}#t=${card.line.seconds}`}
           class="loop-item"
-          data-session-key={`${card.slug}:${card.line.seconds}`}
         >
           <p class="loop-text m-0">{card.line.text}</p>
           <span class="loop-source">{card.line.speaker} &mdash; {card.episodeTitle}</span>
@@ -48,7 +47,7 @@ const openLoopCards = episodeTranscripts.flatMap((entry) => {
       ))}
     </div>
     {openLoopCards.length > 5 && (
-      <button type="button" class="lab-show-more" data-expand="#home-open-loops">
+      <button type="button" class="home-show-more" data-expand="#home-open-loops">
         show {openLoopCards.length - 5} more
       </button>
     )}

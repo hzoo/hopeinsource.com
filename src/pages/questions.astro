@@ -22,7 +22,6 @@ const allQuestions = episodes.flatMap((ep) =>
             href={`/${q.slug}`}
             class="question-item"
             data-len={len}
-            data-session-key={`${q.slug}:${q.question}`}
           >
             <p class="question-text m-0">{q.question}</p>
             <span class="question-source">{q.episodeTitle}</span>
@@ -31,7 +30,7 @@ const allQuestions = episodes.flatMap((ep) =>
       })}
     </div>
     {allQuestions.length > 9 && (
-      <button type="button" class="lab-show-more" data-expand="#home-questions">
+      <button type="button" class="home-show-more" data-expand="#home-questions">
         show {allQuestions.length - 9} more
       </button>
     )}

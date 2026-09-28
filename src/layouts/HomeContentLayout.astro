@@ -1,8 +1,8 @@
 ---
 import Layout from "@/layouts/Layout.astro";
-import Testimonial from "@/components/Testimonial.astro";
 import Footer from "@/components/Footer.astro";
 import Subscribe from "@/components/Subscribe.astro";
+import Search from "@/components/Search.astro";
 import { Image } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
@@ -23,21 +23,18 @@ interface Props {
 const { activeLayout, title, description, episodeData } = Astro.props;
 const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
 const slug = currentLayout?.href ?? "/";
-const { episodes, archiveGroups } = episodeData ?? await getEpisodeData();
+const { episodes } = episodeData ?? await getEpisodeData();
 const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
-const seasonLinks = archiveGroups.map((group) => ({
-  href: `/#home-season-${group.id}`,
-  label: group.label,
-  count: group.episodes.length,
-}));
 ---
 
 <Layout frontmatter={{ title, description }} slug={slug}>
-  <div id="home-layout-root" class="home-root">
-    <section id="home-brand">
+  <div id="home-layout-root" class:list={["home-root", activeLayout !== "A" && "home-secondary"]}>
+    <header id="home-brand">
       <div class="brand-inner">
         <div class="brand-content flex flex-col items-center text-center max-w-[472px] mx-auto">
-          <h1 class="brand-title m-0">Hope in Source</h1>
+          {activeLayout === "A"
+            ? <h1 class="brand-title m-0">Hope in Source</h1>
+            : <span class="brand-title m-0">Hope in Source</span>}
           <Image
             src={his_cover}
             alt="Hope in Source Cover Art"
@@ -50,24 +47,24 @@ const seasonLinks = archiveGroups.map((group) => ({
             quality={90}
           />
           <div class="brand-taglines text-center space-y-1">
-            <p class="m-0 text-lg font-medium tracking-wide opacity-0 animate-[fadeIn_0.8s_ease_0.2s_forwards]">
+            <p class="m-0 text-lg font-medium tracking-wide">
               off-the-cuff conversations between friends
             </p>
-            <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.5s_forwards]">
+            <p class="m-0 text-[0.85rem] text-his-text-secondary italic">
               finding the sacred in the ordinary
             </p>
-            <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.7s_forwards]">
+            <p class="m-0 text-[0.85rem] text-his-text-secondary italic">
               universal within the particular
             </p>
-            <p class="m-0 text-[0.85rem] text-his-text-secondary italic opacity-0 animate-[fadeIn_0.8s_ease_0.9s_forwards]">
+            <p class="m-0 text-[0.85rem] text-his-text-secondary italic">
               where word becomes flesh
             </p>
           </div>
           <div class="brand-meta mt-5 space-y-1.5 text-xs text-his-text-tertiary">
-            <div class="opacity-0 animate-[fadeIn_0.8s_ease_1.1s_forwards]">
+            <div>
               <Subscribe />
             </div>
-            <p class="m-0 opacity-0 animate-[fadeIn_0.8s_ease_1.3s_forwards]">
+            <p class="m-0">
               with <a href="https://henryzoo.com/living-out-in-faith">Henry</a> & <a href="https://nadia.xyz/public-faith">Nadia</a>
             </p>
           </div>
@@ -88,22 +85,13 @@ const seasonLinks = archiveGroups.map((group) => ({
               </p>
             </div>
           )}
-          {seasonLinks.length > 0 && (
-            <nav class="brand-season-links" aria-label="Season archive">
-              {seasonLinks.map((season) => (
-                <a href={season.href} class="brand-season-link">
-                  <span>{season.label}</span>
-                  <span class="brand-season-count">{season.count} eps</span>
-                </a>
-              ))}
-            </nav>
-          )}
         </div>
       </div>
-    </section>
+    </header>
 
     <nav id="home-top-controls" aria-label="Site navigation">
       <div class="home-controls-inner">
+        {activeLayout !== "A" && <a href="/" class="home-compact-link">Hope in Source</a>}
         <div class="home-view-list">
           {HOME_LAYOUTS.map((layout) => (
             <a
@@ -116,19 +104,20 @@ const seasonLinks = archiveGroups.map((group) => ({
             </a>
           ))}
         </div>
+        <Search compact />
       </div>
     </nav>
 
-    <div id="home-layout-stage">
+    <main id="home-layout-stage">
+      {activeLayout !== "A" && <h1 class="sr-only">{currentLayout?.label}</h1>}
       <slot />
-    </div>
+    </main>
 
-    <section id="home-footer">
-      <Testimonial />
+    <div id="home-footer">
       <Footer compact />
-    </section>
+    </div>
   </div>
 
-  {activeLayout !== "A" && <script src="../scripts/home-layout-lab.ts"></script>}
+  {activeLayout !== "A" && <script src="../scripts/home-show-more.ts"></script>}
   <script src="../scripts/relative-dates.ts"></script>
 </Layout>

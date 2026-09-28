@@ -1,409 +1,179 @@
 /**
- * YouTube player + transcript sync for video episodes.
- * Keeps transcript highlighting and timestamp navigation transcript-first.
+ * Opt-in YouTube playback.
+ *
+ * Read stays request-free. Watch assigns the known-working embed URL directly
+ * to the iframe without making the separate YouTube iframe API a dependency.
  */
 
 import { parseTimeHash } from "./time-hash";
 
-interface MessagePoint {
-    time: number;
-    el: HTMLElement;
-}
+type VideoMode = "read" | "watch";
 
-type VideoMode = "watch" | "read";
-
-declare global {
-    interface Window {
-        YT?: {
-            Player: new (element: string | HTMLElement, config: {
-                events?: {
-                    onReady?: () => void;
-                    onStateChange?: (event: { data: number }) => void;
-                };
-            }) => YouTubePlayer;
-            PlayerState: {
-                PLAYING: number;
-            };
-        };
-        onYouTubeIframeAPIReady?: () => void;
-        __hisYouTubeApiPromise?: Promise<void>;
-    }
-}
-
-interface YouTubePlayer {
-    playVideo: () => void;
-    pauseVideo: () => void;
-    seekTo: (seconds: number, allowSeekAhead?: boolean) => void;
-    getCurrentTime: () => number;
-    getDuration: () => number;
-    getPlayerState: () => number;
-    destroy: () => void;
-}
-
-let player: YouTubePlayer | null = null;
-let messagePoints: MessagePoint[] = [];
 let listenerAbort: AbortController | null = null;
-let tickInterval: ReturnType<typeof setInterval> | null = null;
-let lastHighlightedMessage: HTMLElement | null = null;
-let mode: VideoMode = "watch";
+let mode: VideoMode = "read";
+let episodeShell: HTMLElement | null = null;
 let contentShell: HTMLElement | null = null;
 let headerShell: HTMLElement | null = null;
 let modeWatchButton: HTMLButtonElement | null = null;
 let modeReadButton: HTMLButtonElement | null = null;
-let followResumeButton: HTMLButtonElement | null = null;
-let scrollContainerEl: HTMLElement | null = null;
+let videoRoot: HTMLElement | null = null;
+let videoIframe: HTMLIFrameElement | null = null;
+let videoEmbedSrc = "";
 let videoOffsetSeconds = 0;
-let followTranscript = true;
-let ignoreScrollEventsUntil = 0;
+let requestedTranscriptTime = 0;
 
-function isPlayerPlaying(): boolean {
-    return Boolean(
-        player &&
-        window.YT?.PlayerState &&
-        player.getPlayerState() === window.YT.PlayerState.PLAYING,
-    );
-}
-
-function findMessageIndex(seconds: number): number {
-    let low = 0;
-    let high = messagePoints.length - 1;
-    let best = -1;
-
-    while (low <= high) {
-        const mid = Math.floor((low + high) / 2);
-        if (messagePoints[mid].time <= seconds) {
-            best = mid;
-            low = mid + 1;
-        } else {
-            high = mid - 1;
-        }
+function timeFromHash(): number | null {
+    const hash = window.location.hash;
+    const parsed = parseTimeHash(hash);
+    if (parsed) {
+        if (hash !== parsed.canonicalHash) history.replaceState(null, "", parsed.canonicalHash);
+        return parsed.seconds;
     }
 
-    return best;
+    if (!hash.startsWith("#msg-")) return null;
+    const message = document.getElementById(hash.slice(1));
+    const seconds = parseInt(message?.dataset.timestamp || "", 10);
+    return Number.isNaN(seconds) ? null : seconds;
 }
 
-function scrollMessageIntoView(message: HTMLElement) {
-    const scrollContainer = scrollContainerEl ?? document.getElementById("episode-scroll-container");
-    if (!scrollContainer) {
-        message.scrollIntoView({ block: "start", behavior: "smooth" });
-        return;
-    }
-
-    const containerRect = scrollContainer.getBoundingClientRect();
-    const messageRect = message.getBoundingClientRect();
-    const topInset = 20;
-
-    const currentTop = scrollContainer.scrollTop;
-    const messageTop = currentTop + (messageRect.top - containerRect.top);
-    const targetTop = Math.max(0, messageTop - topInset);
-
-    if (Math.abs(targetTop - currentTop) > 8) {
-        ignoreScrollEventsUntil = Date.now() + 600;
-        scrollContainer.scrollTo({
-            top: targetTop,
-            behavior: "smooth",
-        });
-    }
-}
-
-function updateTranscriptAtTime(seconds: number, shouldAutoScroll: boolean) {
-    if (messagePoints.length === 0) return;
-
-    const currentIndex = findMessageIndex(Math.floor(seconds));
-    const currentMessage = currentIndex >= 0 ? messagePoints[currentIndex].el : null;
-
-    if (currentMessage !== lastHighlightedMessage) {
-        if (lastHighlightedMessage) {
-            lastHighlightedMessage.classList.remove("message-current");
-        }
-        if (currentMessage) {
-            currentMessage.classList.add("message-current");
-            if (shouldAutoScroll) {
-                scrollMessageIntoView(currentMessage);
-            }
-        }
-        lastHighlightedMessage = currentMessage;
-    }
-}
-
-function updateModeButtons() {
+function updateModeUi() {
     const isWatch = mode === "watch";
     modeWatchButton?.setAttribute("aria-pressed", String(isWatch));
     modeReadButton?.setAttribute("aria-pressed", String(!isWatch));
+    episodeShell?.setAttribute("data-video-mode", mode);
+    contentShell?.setAttribute("data-video-mode", mode);
+    headerShell?.setAttribute("data-video-mode", mode);
+
+    const videoShell = document.getElementById("episode-video-shell");
+    videoShell?.setAttribute("aria-hidden", String(!isWatch));
+    if (isWatch) {
+        videoShell?.removeAttribute("inert");
+    } else {
+        videoShell?.setAttribute("inert", "");
+    }
 }
 
-function updateFollowControls() {
-    const showResume = mode === "watch" && !followTranscript;
-    followResumeButton?.classList.toggle("hidden", !showResume);
+function embedUrlAt(seconds: number, shouldPlay: boolean): string {
+    const url = new URL(videoEmbedSrc);
+    const videoSeconds = Math.max(0, Math.floor(seconds + videoOffsetSeconds));
+
+    if (videoSeconds > 0) {
+        url.searchParams.set("start", String(videoSeconds));
+    } else {
+        url.searchParams.delete("start");
+    }
+
+    if (shouldPlay) {
+        url.searchParams.set("autoplay", "1");
+    } else {
+        url.searchParams.delete("autoplay");
+    }
+
+    return url.toString();
 }
 
-function setFollowEnabled(enabled: boolean) {
-    followTranscript = enabled;
-    updateFollowControls();
+function loadVideoAt(seconds: number, shouldPlay: boolean) {
+    if (!videoIframe || !videoEmbedSrc || !Number.isFinite(seconds) || seconds < 0) return;
+    requestedTranscriptTime = seconds;
+    const src = embedUrlAt(seconds, shouldPlay);
+    if (videoIframe.getAttribute("src") === src) return;
+    videoIframe.src = src;
+}
+
+function unloadVideo() {
+    if (!videoIframe?.hasAttribute("src")) return;
+    videoIframe.src = "about:blank";
+    videoIframe.removeAttribute("src");
 }
 
 function setMode(nextMode: VideoMode) {
-    mode = nextMode;
-    contentShell?.setAttribute("data-video-mode", nextMode);
-    headerShell?.setAttribute("data-video-mode", nextMode);
-    updateModeButtons();
-
     if (nextMode === "read") {
-        player?.pauseVideo();
-        setFollowEnabled(false);
-        stopTicker();
+        mode = "read";
+        unloadVideo();
+        updateModeUi();
         return;
     }
 
-    setFollowEnabled(true);
-    updatePlayerUi();
-    syncTickerToPlaybackState();
+    const audio = document.getElementById("audio-element") as HTMLAudioElement | null;
+    const audioTime = audio?.currentSrc && Number.isFinite(audio.currentTime)
+        ? audio.currentTime
+        : null;
+    const resumeTime = audioTime ?? timeFromHash() ?? requestedTranscriptTime;
+
+    document.dispatchEvent(new CustomEvent("his:watch-intent"));
+    mode = "watch";
+    updateModeUi();
+    loadVideoAt(resumeTime, false);
 }
 
-function updatePlayerUi() {
-    if (!player) return;
-
-    const videoTime = player.getCurrentTime();
-    const transcriptTime = videoTime - videoOffsetSeconds;
-    const shouldAutoScroll = mode === "watch" && followTranscript;
-    updateTranscriptAtTime(transcriptTime, shouldAutoScroll);
-}
-
-function startTicker() {
-    stopTicker();
-    tickInterval = setInterval(() => {
-        updatePlayerUi();
-    }, 250);
-}
-
-function stopTicker() {
-    if (tickInterval) {
-        clearInterval(tickInterval);
-        tickInterval = null;
-    }
-}
-
-function syncTickerToPlaybackState() {
-    if (mode !== "watch" || !isPlayerPlaying()) {
-        stopTicker();
-        return;
-    }
-    startTicker();
-}
-
-function seekToTime(seconds: number, shouldPlay: boolean) {
-    if (!player || !Number.isFinite(seconds) || seconds < 0) return;
-
-    const videoTime = Math.max(0, seconds + videoOffsetSeconds);
-    player.seekTo(videoTime, true);
-    if (shouldPlay) {
-        player.playVideo();
-        return;
-    }
-    updatePlayerUi();
-    syncTickerToPlaybackState();
-}
-
-function handleHashSeek(autoplay: boolean) {
-    const hash = window.location.hash;
-    if (!hash) return;
-
-    const parsedTimeHash = parseTimeHash(hash);
-    if (parsedTimeHash) {
-        if (hash !== parsedTimeHash.canonicalHash) {
-            history.replaceState(null, "", parsedTimeHash.canonicalHash);
-        }
-        seekToTime(parsedTimeHash.seconds, autoplay);
-        return;
-    }
-
-    if (hash.startsWith("#t=")) return;
-
-    if (!hash.startsWith("#msg-")) return;
-    const msg = document.getElementById(hash.slice(1));
-    const timestamp = msg?.getAttribute("data-timestamp");
-    if (!timestamp) return;
-    const seconds = parseInt(timestamp, 10);
-    if (!Number.isNaN(seconds)) {
-        seekToTime(seconds, autoplay);
-    }
-}
-
-function loadYouTubeApi(): Promise<void> {
-    if (window.YT?.Player) return Promise.resolve();
-    if (window.__hisYouTubeApiPromise) return window.__hisYouTubeApiPromise;
-
-    window.__hisYouTubeApiPromise = new Promise<void>((resolve, reject) => {
-        const existingScript = document.querySelector<HTMLScriptElement>(
-            'script[src="https://www.youtube.com/iframe_api"]',
-        );
-
-        const previousReady = window.onYouTubeIframeAPIReady;
-        window.onYouTubeIframeAPIReady = () => {
-            previousReady?.();
-            resolve();
-        };
-
-        if (existingScript) return;
-
-        const script = document.createElement("script");
-        script.src = "https://www.youtube.com/iframe_api";
-        script.async = true;
-        script.onerror = () => reject(new Error("Failed to load YouTube iframe API"));
-        document.head.appendChild(script);
-    });
-
-    return window.__hisYouTubeApiPromise;
-}
-
-async function initVideoPlayer() {
+function initVideoPlayer() {
     listenerAbort?.abort();
     listenerAbort = new AbortController();
     const { signal } = listenerAbort;
 
-    const root = document.getElementById("episode-video-sync");
-    const iframe = document.getElementById("episode-youtube-player");
-    if (!root || !iframe) return;
+    videoRoot = document.getElementById("episode-video-sync");
+    videoIframe = document.getElementById("episode-youtube-player") as HTMLIFrameElement | null;
+    if (!videoRoot || !videoIframe) return;
 
-    const parsedOffset = parseInt(root.getAttribute("data-video-offset-seconds") || "0", 10);
+    videoEmbedSrc = videoRoot.dataset.videoSrc || "";
+    const parsedOffset = parseInt(videoRoot.dataset.videoOffsetSeconds || "0", 10);
     videoOffsetSeconds = Number.isNaN(parsedOffset) ? 0 : Math.max(0, parsedOffset);
+    requestedTranscriptTime = timeFromHash() ?? 0;
 
+    episodeShell = document.getElementById("episode-shell");
     contentShell = document.getElementById("episode-content-shell");
     headerShell = document.getElementById("chat-header");
     modeWatchButton = document.getElementById("video-mode-watch") as HTMLButtonElement | null;
     modeReadButton = document.getElementById("video-mode-read") as HTMLButtonElement | null;
-    followResumeButton = document.getElementById("video-follow-resume") as HTMLButtonElement | null;
-    scrollContainerEl = document.getElementById("episode-scroll-container");
 
-    mode = "watch";
-    setFollowEnabled(true);
-    contentShell?.setAttribute("data-video-mode", "watch");
-    headerShell?.setAttribute("data-video-mode", "watch");
-    updateModeButtons();
+    mode = "read";
+    unloadVideo();
+    updateModeUi();
 
-    modeWatchButton?.addEventListener("click", () => {
-        setMode("watch");
+    modeWatchButton?.addEventListener("click", () => setMode("watch"), { signal });
+    modeReadButton?.addEventListener("click", () => setMode("read"), { signal });
+    document.addEventListener("his:audio-intent", () => setMode("read"), { signal });
+    document.addEventListener("his:timestamp-intent", (event) => {
+        if (mode !== "watch") return;
+        const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
+        if (!Number.isFinite(seconds)) return;
+        loadVideoAt(seconds, true);
     }, { signal });
 
-    modeReadButton?.addEventListener("click", () => {
-        setMode("read");
-    }, { signal });
+    document.addEventListener("click", (event) => {
+        if (mode !== "watch") return;
+        const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#t="]');
+        const href = link?.getAttribute("href");
+        const parsed = href ? parseTimeHash(href) : null;
+        if (!link || !parsed) return;
 
-    followResumeButton?.addEventListener("click", () => {
-        setFollowEnabled(true);
-        updatePlayerUi();
-    }, { signal });
-
-    const pauseFollowOnManualScroll = () => {
-        if (mode !== "watch" || !followTranscript || !isPlayerPlaying()) return;
-        setFollowEnabled(false);
-    };
-
-    scrollContainerEl?.addEventListener("wheel", pauseFollowOnManualScroll, { passive: true, signal });
-    scrollContainerEl?.addEventListener("touchstart", pauseFollowOnManualScroll, { passive: true, signal });
-    scrollContainerEl?.addEventListener("scroll", () => {
-        if (Date.now() < ignoreScrollEventsUntil) return;
-        pauseFollowOnManualScroll();
-    }, { passive: true, signal });
-
-    messagePoints = Array.from(document.querySelectorAll<HTMLElement>(".message"))
-        .map((message) => ({
-            time: parseInt(message.getAttribute("data-timestamp") || "", 10),
-            el: message,
-        }))
-        .filter(({ time }) => !Number.isNaN(time))
-        .sort((a, b) => a.time - b.time);
-
-    try {
-        await loadYouTubeApi();
-    } catch (error) {
-        console.error(error);
-        return;
-    }
-
-    if (!window.YT?.Player) return;
-
-    player = new window.YT.Player("episode-youtube-player", {
-        events: {
-            onReady: () => {
-                setMode("watch");
-                if (!window.location.hash && videoOffsetSeconds > 0) {
-                    player?.seekTo(videoOffsetSeconds, true);
-                }
-                handleHashSeek(false);
-                updatePlayerUi();
-                syncTickerToPlaybackState();
-            },
-            onStateChange: () => {
-                updatePlayerUi();
-                syncTickerToPlaybackState();
-            },
-        },
-    });
-
-    document.addEventListener("click", (e) => {
-        const target = e.target as HTMLElement;
-
-        const timestampLink = target.closest<HTMLAnchorElement>('a[href^="#t="]');
-        if (timestampLink) {
-            e.preventDefault();
-            const href = timestampLink.getAttribute("href");
-            if (!href) return;
-            history.replaceState(null, "", href);
-            setMode("watch");
-            setFollowEnabled(true);
-            handleHashSeek(true);
-            return;
-        }
-
-        const messageTime = target.closest(".message-time");
-        if (!messageTime) return;
-        const message = messageTime.closest<HTMLElement>(".message");
-        const timestamp = message?.getAttribute("data-timestamp");
-        if (!timestamp) return;
-        const seconds = parseInt(timestamp, 10);
-        if (Number.isNaN(seconds)) return;
-        history.replaceState(null, "", `#t=${seconds}`);
-        setMode("watch");
-        setFollowEnabled(true);
-        seekToTime(seconds, true);
+        event.preventDefault();
+        history.replaceState(null, "", parsed.canonicalHash);
+        loadVideoAt(parsed.seconds, true);
     }, { signal });
 
     window.addEventListener("hashchange", () => {
-        if (window.location.hash.startsWith("#t=") || window.location.hash.startsWith("#msg-")) {
-            setMode("watch");
-            setFollowEnabled(true);
-        }
-        handleHashSeek(true);
+        if (mode !== "watch") return;
+        const seconds = timeFromHash();
+        if (seconds !== null) loadVideoAt(seconds, false);
     }, { signal });
 }
 
 function cleanupVideoPlayer() {
     listenerAbort?.abort();
     listenerAbort = null;
-    stopTicker();
-
-    if (player) {
-        player.destroy();
-        player = null;
-    }
-
-    if (lastHighlightedMessage) {
-        lastHighlightedMessage.classList.remove("message-current");
-        lastHighlightedMessage = null;
-    }
-
-    mode = "watch";
-    videoOffsetSeconds = 0;
-    followTranscript = true;
-    ignoreScrollEventsUntil = 0;
+    unloadVideo();
+    mode = "read";
+    episodeShell = null;
     contentShell = null;
     headerShell = null;
     modeWatchButton = null;
     modeReadButton = null;
-    followResumeButton = null;
-    scrollContainerEl = null;
-    messagePoints = [];
+    videoRoot = null;
+    videoIframe = null;
+    videoEmbedSrc = "";
+    videoOffsetSeconds = 0;
+    requestedTranscriptTime = 0;
 }
 
 function setupVideoPlayer() {
@@ -418,5 +188,3 @@ if (document.readyState === "loading") {
 } else {
     setupVideoPlayer();
 }
-
-export {};

@@ -1,9 +1,14 @@
 ---
 // Search with Spotlight-style modal (input inside modal)
+interface Props {
+  compact?: boolean;
+}
+
+const { compact = false } = Astro.props;
 ---
 
 <!-- Sidebar trigger button -->
-<button class="search-trigger" id="search-trigger" type="button" aria-label="Search transcripts" data-dev={import.meta.env.DEV ? "true" : undefined}>
+<button class:list={["search-trigger", compact && "search-trigger-compact"]} id="search-trigger" type="button" aria-label="Search transcripts" data-dev={import.meta.env.DEV ? "true" : undefined}>
   <svg class="search-trigger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
     <circle cx="11" cy="11" r="8"/>
     <path d="m21 21-4.35-4.35"/>
@@ -35,10 +40,28 @@
     border-color: var(--color-his-text-tertiary);
   }
 
+  .search-trigger.search-trigger-compact {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    justify-content: center;
+    flex: none;
+  }
+
+  .search-trigger-compact .search-trigger-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  .search-trigger-compact .search-trigger-text,
+  .search-trigger-compact .search-trigger-kbd {
+    display: none;
+  }
+
   .search-trigger-icon {
     width: 0.875rem;
     height: 0.875rem;
-    color: var(--color-his-text-tertiary);
+    color: var(--color-his-text-secondary);
     flex-shrink: 0;
   }
 
@@ -46,7 +69,7 @@
     flex: 1;
     text-align: left;
     font-size: 0.8125rem;
-    color: var(--color-his-text-tertiary);
+    color: var(--color-his-text-secondary);
   }
 
   .search-trigger-kbd {

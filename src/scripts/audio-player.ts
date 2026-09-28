@@ -1,11 +1,17 @@
 /**
- * Audio Player functionality
+ * Lazy native audio playback for every episode.
+ * Audio owns timestamps in Read view; video owns them in Watch view.
  */
 
 import { parseTimeHash } from "./time-hash";
 
+interface MessagePoint {
+    time: number;
+    el: HTMLElement;
+}
+
 let audio: HTMLAudioElement | null = null;
-let playPauseButton: HTMLElement | null = null;
+let playPauseButton: HTMLButtonElement | null = null;
 let seekSlider: HTMLInputElement | null = null;
 let currentTimeDisplay: HTMLElement | null = null;
 let durationDisplay: HTMLElement | null = null;
@@ -21,34 +27,40 @@ let closeShortcuts: HTMLElement | null = null;
 let volumeSlider: HTMLInputElement | null = null;
 let playerFeedback: HTMLElement | null = null;
 let feedbackText: HTMLElement | null = null;
-
-interface MessagePoint {
-    time: number;
-    el: HTMLElement;
-}
-
 let messagePoints: MessagePoint[] = [];
 let messagePointsReady = false;
 let feedbackTimeout: ReturnType<typeof setTimeout> | null = null;
 let lastHighlightedMessage: HTMLElement | null = null;
 let isLoaded = false;
-let src = '';
+let pendingTime = 0;
+let src = "";
 let listenerAbort: AbortController | null = null;
+let shortcutReturnFocus: HTMLElement | null = null;
+
+function isWatchView(): boolean {
+    return document.getElementById("episode-shell")?.dataset.videoMode === "watch";
+}
+
+function enterReadView() {
+    if (isWatchView()) {
+        document.dispatchEvent(new CustomEvent("his:audio-intent"));
+    }
+}
 
 function ensureMessagePoints() {
     if (messagePointsReady) return;
-    messagePoints = Array.from(document.querySelectorAll<HTMLElement>('.message'))
+    messagePoints = Array.from(document.querySelectorAll<HTMLElement>(".message"))
         .map((message) => ({
-            time: parseInt(message.getAttribute('data-timestamp') || '', 10),
+            time: parseInt(message.dataset.timestamp || "", 10),
             el: message,
         }))
-        .filter(({ time }) => !isNaN(time))
+        .filter(({ time }) => !Number.isNaN(time))
         .sort((a, b) => a.time - b.time);
     messagePointsReady = true;
 }
 
 function formatTime(seconds: number) {
-    if (!seconds || isNaN(seconds)) return "00:00";
+    if (!seconds || Number.isNaN(seconds)) return "00:00";
     const h = Math.floor(seconds / 3600);
     const m = Math.floor((seconds % 3600) / 60);
     const s = Math.floor(seconds % 60);
@@ -56,37 +68,6 @@ function formatTime(seconds: number) {
         return `${h}:${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
     }
     return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
-}
-
-function updateTimeDisplay() {
-    if (!audio || !audio.duration || !currentTimeDisplay || !durationDisplay || !seekSlider || !progressBar) return;
-
-    currentTimeDisplay.textContent = formatTime(audio.currentTime);
-    durationDisplay.textContent = formatTime(audio.duration);
-
-    const percent = (audio.currentTime / audio.duration) * 100;
-    seekSlider.value = String(percent);
-    progressBar.style.width = `${percent}%`;
-
-    updateCurrentMessage();
-}
-
-function updateCurrentMessage() {
-    ensureMessagePoints();
-    if (!audio || messagePoints.length === 0) return;
-    const currentTime = Math.floor(audio.currentTime);
-    const currentIndex = findMessageIndex(currentTime);
-    const currentMessage = currentIndex >= 0 ? messagePoints[currentIndex].el : null;
-
-    if (currentMessage !== lastHighlightedMessage) {
-        if (lastHighlightedMessage) {
-            lastHighlightedMessage.classList.remove('message-current');
-        }
-        if (currentMessage) {
-            currentMessage.classList.add('message-current');
-        }
-        lastHighlightedMessage = currentMessage;
-    }
 }
 
 function findMessageIndex(seconds: number): number {
@@ -107,192 +88,199 @@ function findMessageIndex(seconds: number): number {
     return best;
 }
 
-function prepAudioPosition(seconds: number) {
-    if (!audio) return;
-    if (!isLoaded) {
-        audio.src = src;
-        audio.load();
-        isLoaded = true;
-    }
-    audio.currentTime = seconds;
-    if (seekSlider) seekSlider.disabled = false;
+function highlightTime(seconds: number) {
+    ensureMessagePoints();
+    const currentIndex = findMessageIndex(Math.floor(seconds));
+    const currentMessage = currentIndex >= 0 ? messagePoints[currentIndex].el : null;
+
+    if (currentMessage === lastHighlightedMessage) return;
+    lastHighlightedMessage?.classList.remove("message-current");
+    currentMessage?.classList.add("message-current");
+    lastHighlightedMessage = currentMessage;
 }
 
-function seekToTimestamp(playAudio = true) {
+function updateTimeDisplay() {
+    if (!audio || !audio.duration || !currentTimeDisplay || !durationDisplay || !seekSlider || !progressBar) return;
+
+    currentTimeDisplay.textContent = formatTime(audio.currentTime);
+    durationDisplay.textContent = formatTime(audio.duration);
+    const percent = (audio.currentTime / audio.duration) * 100;
+    seekSlider.value = String(percent);
+    seekSlider.setAttribute(
+        "aria-valuetext",
+        `${formatTime(audio.currentTime)} of ${formatTime(audio.duration)}`,
+    );
+    progressBar.style.width = `${percent}%`;
+    highlightTime(audio.currentTime);
+}
+
+function setPlaybackUi(isPaused: boolean) {
+    playIcon?.classList.toggle("hidden", !isPaused);
+    pauseIcon?.classList.toggle("hidden", isPaused);
+    playPauseButton?.setAttribute("aria-label", isPaused ? "Play episode" : "Pause episode");
+}
+
+function ensureAudioLoaded() {
+    if (!audio || isLoaded || !src) return;
+    audio.src = src;
+    audio.load();
+    isLoaded = true;
+}
+
+function setAudioPosition(seconds: number) {
+    if (!Number.isFinite(seconds) || seconds < 0) return;
+    pendingTime = seconds;
+    if (isLoaded && audio) audio.currentTime = seconds;
+    if (currentTimeDisplay) currentTimeDisplay.textContent = formatTime(seconds);
+    seekSlider?.setAttribute("aria-valuetext", `${formatTime(seconds)} of ${durationDisplay?.textContent || "00:00"}`);
+    highlightTime(seconds);
+}
+
+function playFrom(seconds = pendingTime) {
+    if (!audio) return;
+    enterReadView();
+    ensureAudioLoaded();
+    audio.currentTime = seconds;
+    pendingTime = seconds;
+    void audio.play().catch((error) => {
+        if (error instanceof DOMException && (error.name === "AbortError" || error.name === "NotAllowedError")) {
+            return;
+        }
+        console.error("Error playing audio:", error);
+    });
+}
+
+function togglePlayPause() {
+    if (!audio) return;
+    enterReadView();
+    if (!isLoaded || audio.paused) {
+        playFrom(isLoaded ? audio.currentTime : pendingTime);
+    } else {
+        audio.pause();
+    }
+}
+
+function stageHashTime(options: { scroll: boolean }) {
     const hash = window.location.hash;
     if (!hash) return;
 
     const parsedTimeHash = parseTimeHash(hash);
     if (parsedTimeHash) {
-        const seconds = parsedTimeHash.seconds;
         if (hash !== parsedTimeHash.canonicalHash) {
             history.replaceState(null, "", parsedTimeHash.canonicalHash);
         }
-
-        const msgId = `msg-${seconds}`;
-        const msgElement = document.getElementById(msgId);
-        if (msgElement) {
-            msgElement.scrollIntoView();
+        setAudioPosition(parsedTimeHash.seconds);
+        if (options.scroll) {
+            document.getElementById(`msg-${parsedTimeHash.seconds}`)?.scrollIntoView({ block: "start" });
         }
-
-        loadAudioAndPlay(seconds, playAudio);
         return;
     }
 
-    if (hash.startsWith("#t=")) return;
-
-    if (hash.startsWith("#msg-")) {
-        const msgElement = document.getElementById(hash.slice(1));
-        if (!msgElement) return;
-
-        const timestamp = msgElement.getAttribute("data-timestamp");
-        if (!timestamp) return;
-
-        const seconds = parseInt(timestamp, 10);
-        if (isNaN(seconds)) return;
-
-        prepAudioPosition(seconds);
-    }
-}
-
-function togglePlayPauseIcon(isPaused: boolean) {
-    if (!playIcon || !pauseIcon) return;
-    playIcon.classList.toggle('hidden', !isPaused);
-    pauseIcon.classList.toggle('hidden', isPaused);
-}
-
-function loadAudioAndPlay(startTime = 0, play = true) {
-    if (!audio) return;
-    if (!isLoaded) {
-        audio.src = src;
-        audio.load();
-        isLoaded = true;
-    }
-
-    audio.currentTime = startTime;
-    if (play) {
-        audio.play()
-            .then(() => {
-                togglePlayPauseIcon(false);
-                if (seekSlider) seekSlider.disabled = false;
-                showFeedback('play');
-            })
-            .catch((error) => console.error("Error playing audio:", error));
-    }
-}
-
-function togglePlayPause() {
-    if (!audio) return;
-    if (!isLoaded) {
-        loadAudioAndPlay();
-    } else if (audio.paused) {
-        audio.play().then(() => {
-            togglePlayPauseIcon(false);
-            showFeedback('play');
-        });
-    } else {
-        audio.pause();
-        togglePlayPauseIcon(true);
-        showFeedback('pause');
-    }
+    if (!hash.startsWith("#msg-")) return;
+    const message = document.getElementById(hash.slice(1));
+    const seconds = parseInt(message?.dataset.timestamp || "", 10);
+    if (!Number.isNaN(seconds)) setAudioPosition(seconds);
 }
 
 function updateMuteIcon(isMuted: boolean) {
-    if (!volumeIcon || !muteIcon) return;
-    volumeIcon.classList.toggle('hidden', isMuted);
-    muteIcon.classList.toggle('hidden', !isMuted);
+    volumeIcon?.classList.toggle("hidden", isMuted);
+    muteIcon?.classList.toggle("hidden", !isMuted);
+    muteButton?.setAttribute("aria-label", isMuted ? "Unmute episode" : "Mute episode");
 }
 
-function showFeedback(action: string, value: string | number = '') {
+function showFeedback(action: "seek" | "play" | "pause" | "mute" | "unmute" | "volume" | "error", value: string | number = "") {
     if (!feedbackText || !playerFeedback) return;
-    if (feedbackTimeout) {
-        clearTimeout(feedbackTimeout);
-    }
+    if (feedbackTimeout) clearTimeout(feedbackTimeout);
 
-    let text = '';
-    switch (action) {
-        case 'seek':
-            const direction = (value as number) > 0 ? 'Forward' : 'Back';
-            text = `${direction} ${Math.abs(value as number)}s`;
-            break;
-        case 'play': text = 'Playing'; break;
-        case 'pause': text = 'Paused'; break;
-        case 'mute': text = 'Muted'; break;
-        case 'unmute': text = 'Unmuted'; break;
-        case 'volume': text = `Volume ${value}%`; break;
-    }
+    const feedback = {
+        play: "Playing",
+        pause: "Paused",
+        mute: "Muted",
+        unmute: "Unmuted",
+        volume: `Volume ${value}%`,
+        seek: `${Number(value) > 0 ? "Forward" : "Back"} ${Math.abs(Number(value))}s`,
+        error: "Audio could not play",
+    };
 
-    feedbackText.textContent = text;
-    playerFeedback.style.opacity = '1';
-
+    feedbackText.textContent = feedback[action];
+    playerFeedback.style.opacity = "1";
     feedbackTimeout = setTimeout(() => {
-        if (playerFeedback) playerFeedback.style.opacity = '0';
+        if (playerFeedback) playerFeedback.style.opacity = "0";
     }, 500);
 }
 
 function seekRelative(seconds: number) {
-    if (!audio || !audio.duration) return;
-    const newTime = Math.max(0, Math.min(audio.duration, audio.currentTime + seconds));
-    audio.currentTime = newTime;
-    showFeedback('seek', seconds);
+    if (!audio || !isLoaded) return;
+    const duration = Number.isFinite(audio.duration) ? audio.duration : Infinity;
+    audio.currentTime = Math.max(0, Math.min(duration, audio.currentTime + seconds));
+    showFeedback("seek", seconds);
 }
 
-function handleAudioKeydown(e: KeyboardEvent) {
-    if ((e.target as HTMLElement).matches('input, textarea, select, [contenteditable="true"]')) return;
-    if (!audio) return;
-
-    switch (e.code) {
-        case "Space":
-            e.preventDefault();
-            togglePlayPause();
-            break;
-        case "KeyJ":
-            e.preventDefault();
-            seekRelative(-10);
-            break;
-        case "KeyK":
-            e.preventDefault();
-            seekRelative(10);
-            break;
-        case "KeyM":
-            e.preventDefault();
-            audio.muted = !audio.muted;
-            showFeedback(audio.muted ? 'mute' : 'unmute');
-            break;
-    }
-}
-
-function handleGlobalClick(e: MouseEvent) {
-    const target = e.target as HTMLElement;
-
-    // Handle hash links (#t=)
-    const link = target.closest<HTMLAnchorElement>('a[href^="#t="]');
-    if (link) {
-        e.preventDefault();
-        const href = link.getAttribute("href");
-        if (href) {
-            history.replaceState(null, "", href);
-            seekToTimestamp();
+function handleAudioKeydown(event: KeyboardEvent) {
+    if (shortcutsDialog && !shortcutsDialog.classList.contains("hidden")) {
+        if (event.key === "Escape") {
+            event.preventDefault();
+            closeShortcutsDialog();
+        } else if (event.key === "Tab") {
+            event.preventDefault();
+            closeShortcuts?.focus();
         }
         return;
     }
 
-    // Handle message time clicks
-    const timeEl = target.closest(".message-time");
-    if (timeEl) {
-        const messageEl = timeEl.closest(".message");
-        if (messageEl) {
-            const seconds = parseInt(messageEl.getAttribute("data-timestamp") || '', 10);
-            if (!isNaN(seconds)) {
-                history.replaceState(null, "", `#t=${seconds}`);
-                seekToTimestamp(false);
-            }
-        }
+    if ((event.target as HTMLElement).matches("input, textarea, select, button, a, [role='button'], [contenteditable='true']")) return;
+    if (!audio || isWatchView()) return;
+
+    switch (event.code) {
+        case "Space":
+            event.preventDefault();
+            togglePlayPause();
+            break;
+        case "KeyJ":
+            event.preventDefault();
+            seekRelative(-10);
+            break;
+        case "KeyK":
+            event.preventDefault();
+            seekRelative(10);
+            break;
+        case "KeyM":
+            event.preventDefault();
+            audio.muted = !audio.muted;
+            showFeedback(audio.muted ? "mute" : "unmute");
+            break;
     }
 }
 
-function handleHashChange() {
-    seekToTimestamp();
+function openShortcutsDialog() {
+    if (!shortcutsDialog) return;
+    shortcutReturnFocus = document.activeElement as HTMLElement | null;
+    shortcutsDialog.classList.remove("hidden");
+    shortcutsDialog.setAttribute("aria-hidden", "false");
+    closeShortcuts?.focus();
+}
+
+function closeShortcutsDialog() {
+    if (!shortcutsDialog || shortcutsDialog.classList.contains("hidden")) return;
+    shortcutsDialog.classList.add("hidden");
+    shortcutsDialog.setAttribute("aria-hidden", "true");
+    shortcutReturnFocus?.focus();
+    shortcutReturnFocus = null;
+}
+
+function handleGlobalClick(event: MouseEvent) {
+    if (isWatchView()) return;
+    const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#t="]');
+    if (!link) return;
+
+    const href = link.getAttribute("href");
+    const parsed = href ? parseTimeHash(href) : null;
+    if (!href || !parsed) return;
+
+    event.preventDefault();
+    history.replaceState(null, "", parsed.canonicalHash);
+    setAudioPosition(parsed.seconds);
+    playFrom(parsed.seconds);
 }
 
 function initAudioPlayer() {
@@ -300,9 +288,9 @@ function initAudioPlayer() {
     listenerAbort = new AbortController();
     const { signal } = listenerAbort;
 
-    audio = document.getElementById("audio-element") as HTMLAudioElement;
-    playPauseButton = document.getElementById("play-pause");
-    seekSlider = document.getElementById("seek-slider") as HTMLInputElement;
+    audio = document.getElementById("audio-element") as HTMLAudioElement | null;
+    playPauseButton = document.getElementById("play-pause") as HTMLButtonElement | null;
+    seekSlider = document.getElementById("seek-slider") as HTMLInputElement | null;
     currentTimeDisplay = document.getElementById("current-time");
     durationDisplay = document.getElementById("duration");
     progressBar = document.getElementById("progress-bar");
@@ -314,40 +302,48 @@ function initAudioPlayer() {
     shortcutsButton = document.getElementById("shortcuts-button");
     shortcutsDialog = document.getElementById("shortcuts-dialog");
     closeShortcuts = document.getElementById("close-shortcuts");
-    volumeSlider = document.getElementById("volume-slider") as HTMLInputElement;
+    volumeSlider = document.getElementById("volume-slider") as HTMLInputElement | null;
     playerFeedback = document.getElementById("player-feedback");
     feedbackText = document.getElementById("feedback-text");
 
     const container = document.getElementById("audio-player-container");
-    src = container?.dataset.src || '';
+    src = container?.dataset.src || "";
     if (!audio) return;
 
-    // Listeners
     playPauseButton?.addEventListener("click", togglePlayPause, { signal });
-
     seekSlider?.addEventListener("input", () => {
-        if (audio && audio.duration) {
-            const seekTime = audio.duration * (Number(seekSlider?.value) / 100);
-            audio.currentTime = seekTime;
-        }
+        if (!audio?.duration || !seekSlider) return;
+        audio.currentTime = audio.duration * (Number(seekSlider.value) / 100);
     }, { signal });
 
     audio.addEventListener("timeupdate", updateTimeDisplay, { signal });
     audio.addEventListener("loadedmetadata", () => {
-        updateTimeDisplay();
+        if (!audio) return;
+        if (pendingTime > 0) audio.currentTime = pendingTime;
         if (seekSlider) seekSlider.disabled = false;
+        updateTimeDisplay();
+    }, { signal });
+    audio.addEventListener("play", () => {
+        setPlaybackUi(false);
+        showFeedback("play");
+    }, { signal });
+    audio.addEventListener("pause", () => {
+        setPlaybackUi(true);
+        if (isLoaded) showFeedback("pause");
+    }, { signal });
+    audio.addEventListener("error", () => {
+        setPlaybackUi(true);
+        showFeedback("error");
     }, { signal });
 
     volumeSlider?.addEventListener("input", () => {
-        if (audio && volumeSlider) {
-            const val = Number(volumeSlider.value);
-            audio.volume = val / 100;
-            audio.muted = val === 0;
-            updateMuteIcon(audio.muted);
-            showFeedback('volume', val);
-        }
+        if (!audio || !volumeSlider) return;
+        const value = Number(volumeSlider.value);
+        audio.volume = value / 100;
+        audio.muted = value === 0;
+        volumeSlider.setAttribute("aria-valuetext", `${value} percent`);
+        showFeedback("volume", value);
     }, { signal });
-
     audio.addEventListener("volumechange", () => {
         if (!audio) return;
         updateMuteIcon(audio.muted);
@@ -355,54 +351,59 @@ function initAudioPlayer() {
             volumeSlider.value = String(Math.round(audio.volume * 100));
         }
     }, { signal });
-
     muteButton?.addEventListener("click", () => {
         if (!audio) return;
         audio.muted = !audio.muted;
-        showFeedback(audio.muted ? 'mute' : 'unmute');
-        if (!audio.muted && audio.volume === 0) {
-            audio.volume = 0.5;
-            if (volumeSlider) volumeSlider.value = "50";
-        }
+        if (!audio.muted && audio.volume === 0) audio.volume = 0.5;
+        showFeedback(audio.muted ? "mute" : "unmute");
     }, { signal });
 
-    shortcutsButton?.addEventListener("click", () => shortcutsDialog?.classList.remove("hidden"), { signal });
-    closeShortcuts?.addEventListener("click", () => shortcutsDialog?.classList.add("hidden"), { signal });
-    shortcutsDialog?.addEventListener("click", (e) => {
-        if (e.target === shortcutsDialog) shortcutsDialog?.classList.add("hidden");
+    shortcutsButton?.addEventListener("click", openShortcutsDialog, { signal });
+    closeShortcuts?.addEventListener("click", closeShortcutsDialog, { signal });
+    shortcutsDialog?.addEventListener("click", (event) => {
+        if (event.target === shortcutsDialog) closeShortcutsDialog();
     }, { signal });
 
     document.addEventListener("keydown", handleAudioKeydown, { signal });
-
     document.addEventListener("click", handleGlobalClick, { signal });
-    window.addEventListener("hashchange", handleHashChange, { signal });
+    window.addEventListener("hashchange", () => stageHashTime({ scroll: true }), { signal });
+    document.addEventListener("his:watch-intent", () => audio?.pause(), { signal });
+    document.addEventListener("his:timestamp-intent", (event) => {
+        if (isWatchView()) return;
+        const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
+        if (!Number.isFinite(seconds)) return;
+        setAudioPosition(seconds);
+        playFrom(seconds);
+    }, { signal });
+    document.addEventListener("his:video-position", (event) => {
+        const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
+        if (Number.isFinite(seconds)) setAudioPosition(seconds);
+    }, { signal });
 
     audio.volume = 0.5;
-    seekToTimestamp();
+    setPlaybackUi(true);
+    stageHashTime({ scroll: true });
 }
 
 function cleanupAudioPlayer() {
     listenerAbort?.abort();
     listenerAbort = null;
-
     if (audio) {
         audio.pause();
-        audio.src = '';
+        audio.removeAttribute("src");
+        audio.load();
     }
+    lastHighlightedMessage?.classList.remove("message-current");
+    if (feedbackTimeout) clearTimeout(feedbackTimeout);
 
-    if (lastHighlightedMessage) {
-        lastHighlightedMessage.classList.remove('message-current');
-    }
-
-    if (feedbackTimeout) {
-        clearTimeout(feedbackTimeout);
-        feedbackTimeout = null;
-    }
-
+    audio = null;
     messagePoints = [];
     messagePointsReady = false;
     isLoaded = false;
+    pendingTime = 0;
     lastHighlightedMessage = null;
+    feedbackTimeout = null;
+    shortcutReturnFocus = null;
 }
 
 function setupAudioPlayer() {
@@ -410,10 +411,10 @@ function setupAudioPlayer() {
     initAudioPlayer();
 }
 
-document.addEventListener('astro:page-load', setupAudioPlayer);
+document.addEventListener("astro:page-load", setupAudioPlayer);
 
-if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setupAudioPlayer, { once: true });
+if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", setupAudioPlayer, { once: true });
 } else {
     setupAudioPlayer();
 }

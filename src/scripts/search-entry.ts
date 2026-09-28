@@ -23,6 +23,7 @@ function loadSearchModule(): Promise<SearchModule> {
 }
 
 async function openSearch() {
+    document.dispatchEvent(new Event('his:search-open'));
     const module = await loadSearchModule();
     await module.openSearchModal();
 }

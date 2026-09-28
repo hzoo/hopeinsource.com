@@ -14,24 +14,35 @@ const { archiveGroups } = await getEpisodeData();
 <!-- Mobile backdrop -->
 <div
   id="sidebar-backdrop"
-  class="lg:hidden fixed inset-0 bg-black/50 z-30 opacity-0 invisible transition-opacity duration-300"
+  class="lg:hidden fixed inset-0 bg-black/50 z-[45] opacity-0 invisible transition-opacity duration-300"
 ></div>
 
 <!-- Sidebar -->
 <aside
   id="episode-sidebar"
-  class="fixed left-0 top-0 h-full w-[280px] sm:w-80 max-w-[calc(100vw-3rem)] bg-his-bg border-r border-his-hr z-40
+  aria-label="Episode browser"
+  class="fixed left-0 top-0 h-full w-[280px] sm:w-80 max-w-[calc(100vw-3rem)] bg-his-bg border-r border-his-hr z-50
          transform -translate-x-full lg:translate-x-0 transition-transform duration-300
          flex flex-col"
 >
-  <!-- Sidebar header with search and mobile close -->
-  <div class="px-3 py-3 border-b border-his-hr flex-shrink-0 flex items-center gap-2">
-    <div class="flex-1">
+  <!-- Sidebar header with search, home, and mobile close -->
+  <div class="px-3 py-3 flex-shrink-0 flex items-center gap-2">
+    <div class="flex-1 min-w-0">
       <Search />
     </div>
+    <a
+      href="/"
+      class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg text-his-text-secondary no-underline transition-colors hover:bg-his-hover hover:text-his-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+      aria-label="All episodes"
+      title="All episodes"
+    >
+      <svg class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+      </svg>
+    </a>
     <button
       id="sidebar-close"
-      class="lg:hidden w-9 h-9 flex items-center justify-center rounded-lg hover:bg-his-hover text-his-text-tertiary transition-colors"
+      class="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-his-hover text-his-text-tertiary transition-colors"
       aria-label="Close sidebar"
     >
       <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -46,10 +57,7 @@ const { archiveGroups } = await getEpisodeData();
     {archiveGroups.map((group) => (
       <section class="mb-6">
         {group.id !== "0" && (
-          <h3 class="text-[10px] font-bold text-his-green uppercase tracking-[0.2em] mb-3 px-3 flex items-center gap-2">
-            <span>{group.label}</span>
-            <span class="flex-1 h-px bg-gradient-to-r from-his-green/30 to-transparent"></span>
-          </h3>
+          <h3 class="mb-3 px-3 text-[10px] font-bold uppercase tracking-[0.2em] text-his-green">{group.label}</h3>
         )}
         <div class="space-y-0.5">
           {group.episodes.map((episode) => {
@@ -58,7 +66,7 @@ const { archiveGroups } = await getEpisodeData();
               <a
                 href={`/${episode.slug}`}
                 class:list={[
-                  "episode-link group relative block py-2.5 px-3 rounded-lg transition-all duration-200",
+                  "episode-link group relative block py-2.5 px-3 rounded-lg transition-[color,background-color,box-shadow] duration-200",
                   isActive
                     ? "bg-his-green/12 ring-1 ring-his-green/25"
                     : "hover:bg-his-hover/60"
@@ -117,12 +125,12 @@ const { archiveGroups } = await getEpisodeData();
                     {episode.guestDisplays.length > 0 && (
                       <span class:list={[
                         "block text-xs mt-0.5 transition-colors truncate",
-                        isActive ? "text-his-green/70" : "text-his-text-tertiary group-hover:text-his-text-secondary"
+                        isActive ? "text-his-green" : "text-his-text-tertiary group-hover:text-his-text-secondary"
                       ]}>
                         {episode.guestDisplays.map((g, i) => (
                             <>
                               {i > 0 && ", "}
-                              {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green/50 font-normal">×{g.count}</sup>}
+                              {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green font-normal">×{g.count}</sup>}
                             </>
                           ))}
                       </span>

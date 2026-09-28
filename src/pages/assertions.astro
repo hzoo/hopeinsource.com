@@ -42,7 +42,6 @@ const vividCards = episodeTranscripts.flatMap((entry) => {
         <a
           href={`/${card.slug}#t=${card.seconds}`}
           class="assertion-item"
-          data-session-key={`${card.slug}:${card.seconds}:${card.speaker}`}
         >
           <p class="assertion-text m-0">{card.text}</p>
           <span class="assertion-source">{card.speaker} &mdash; {card.episodeTitle}</span>
@@ -50,7 +49,7 @@ const vividCards = episodeTranscripts.flatMap((entry) => {
       ))}
     </div>
     {vividCards.length > 5 && (
-      <button type="button" class="lab-show-more" data-expand="#home-assertions">
+      <button type="button" class="home-show-more" data-expand="#home-assertions">
         show {vividCards.length - 5} more
       </button>
     )}

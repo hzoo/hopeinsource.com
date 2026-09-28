@@ -1,9 +1,8 @@
 ---
-import HomeLayout from "@/layouts/HomeLayout.astro";
-import "@/styles/base.css";
+import Layout from "@/layouts/Layout.astro";
 ---
 
-<HomeLayout>
+<Layout>
     <div class="grid place-items-center min-h-screen bg-his-bg px-6">
         <div class="max-w-sm w-full mx-auto text-center">
             <h1 class="mb-8 text-9xl font-black text-his-text/20">404</h1>
@@ -16,7 +15,7 @@ import "@/styles/base.css";
 
                 <a
                     href="/"
-                    class="mt-8 inline-flex items-center gap-2 rounded-lg bg-his-text/10 px-6 py-3 text-sm font-medium text-his-text transition-all hover:bg-his-text/20 hover:scale-105"
+                    class="mt-8 inline-flex items-center gap-2 rounded-lg bg-his-text/10 px-6 py-3 text-sm font-medium text-his-text transition-[background-color,scale] hover:bg-his-text/20 hover:scale-105"
                 >
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -39,4 +38,4 @@ import "@/styles/base.css";
             </div>
         </div>
     </div>
-</HomeLayout>
+</Layout>

@@ -1,6 +1,6 @@
 import { toString as toStringUtil } from "mdast-util-to-string";
 import { visit } from "unist-util-visit";
-import type { Heading, Paragraph, Parent, PhrasingContent, Root, RootContent, Strong, Text } from "mdast";
+import type { Heading, Link, Paragraph, Parent, PhrasingContent, Root, RootContent, Strong, Text } from "mdast";
 import type { Plugin } from "unified";
 
 const timestampRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]/;
@@ -55,12 +55,39 @@ function createStrong(children: Text[]): Strong {
   };
 }
 
+function createTimestampLink(
+  className: string,
+  timestamp: string,
+  seconds: number,
+): Link {
+  return {
+    type: "link",
+    url: `#t=${seconds}`,
+    data: {
+      hProperties: {
+        className: [className],
+        "aria-label": `Listen from ${timestamp}`,
+      },
+    },
+    children: [createText(formatTimestamp(timeToSeconds(timestamp)))],
+  };
+}
+
 function timeToSeconds(timestamp: string): number {
   const parts = timestamp.split(':').map(Number);
   if (parts.length === 3) {
     return parts[0] * 3600 + parts[1] * 60 + parts[2];
   }
   return parts[0] * 60 + parts[1];
+}
+
+function formatTimestamp(seconds: number): string {
+  const hours = Math.floor(seconds / 3600);
+  const minutes = Math.floor((seconds % 3600) / 60);
+  const remainder = String(seconds % 60).padStart(2, "0");
+  return hours > 0
+    ? `${hours}:${String(minutes).padStart(2, "0")}:${remainder}`
+    : `${minutes}:${remainder}`;
 }
 
 export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
@@ -91,7 +118,8 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       let timestamp: string | null = null;
       let speaker: string | null = null;
 
-      if (isTimestamp(node)) {
+      const hasExplicitTimestamp = isTimestamp(node);
+      if (hasExplicitTimestamp) {
         const textValue = (node.children[0] as Text).value;
         const match = textValue.match(timestampRegex);
         if (match) {
@@ -129,7 +157,7 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
                          speakerIndex === 1 ? "message-received" : "message-system";
       }
 
-      const content = isTimestamp(node)
+      const content = hasExplicitTimestamp
         ? node.children.slice(2)
         : node.children.slice(1);
 
@@ -146,8 +174,10 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       if (nextNode) {
         if (isHeading(nextNode)) {
           nextSpeaker = null;
-        } else if ((nextNode as Paragraph).children && (isTimestamp(nextNode as Paragraph) || isSpeaker(nextNode as Paragraph))) {
-          nextSpeaker = toStringUtil(((nextNode as Paragraph).children[(nextNode as Paragraph).children.length > 1 ? 1 : 0] as Strong));
+        } else if (nextNode.type === "paragraph" && isTimestamp(nextNode)) {
+          nextSpeaker = toStringUtil(nextNode.children[1] as Strong);
+        } else if (nextNode.type === "paragraph" && isSpeaker(nextNode)) {
+          nextSpeaker = toStringUtil(nextNode.children[0] as Strong);
         }
       }
 
@@ -155,14 +185,13 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       const isNextConsecutive = speaker === nextSpeaker;
       const isPrevConsecutive = speaker === lastSpeaker;
 
-      const messageSpan = createSpan(textClass, [
-        createSpan(timestampClass, [
-          createText(timestamp),
-        ]),
-        createStrong([createText(speaker)]),
-        createText(" "),
-        ...content as PhrasingContent[],
-      ]);
+      const messageChildren: PhrasingContent[] = [
+        createSpan("message-text", content as PhrasingContent[]),
+      ];
+      if (hasExplicitTimestamp) {
+        messageChildren.push(createTimestampLink(timestampClass, timestamp, seconds));
+      }
+      const messageSpan = createSpan(textClass, messageChildren);
 
       const classes = [wrapClass, alignmentClass];
 
@@ -180,7 +209,10 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         classes.push('hide-speaker');
       }
 
-      node.children = [messageSpan];
+      node.children = [
+        createSpan("message-speaker", [createStrong([createText(speaker.replace(/:$/, ""))])]),
+        messageSpan,
+      ];
       node.data = {
         hName: "p",
         hProperties: {
