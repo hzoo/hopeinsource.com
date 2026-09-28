@@ -36,7 +36,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
           </a>
         )}
         <a
-          class:list={["home-moment-link", "message", moment.side === "sent" ? "message-sent" : "message-received"]}
+          class:list={["home-moment-link", "message", moment.side === "sent" ? "message-sent" : "message-received", moment.context?.before.speaker === moment.speaker && "hide-speaker"]}
           href={`/${moment.slug}#msg-${moment.seconds}`}
           aria-label={`${moment.speaker} in ${moment.episodeTitle}: ${moment.text} At ${moment.time}.`}
           tabindex={index === 0 ? undefined : -1}
@@ -46,7 +46,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
         </a>
         {moment.context && (
           <a
-            class:list={["home-moment-context", "message", moment.context.after.side === "sent" ? "message-sent" : "message-received"]}
+            class:list={["home-moment-context", "message", moment.context.after.side === "sent" ? "message-sent" : "message-received", moment.context.after.speaker === moment.speaker && "hide-speaker"]}
             href={`/${moment.slug}#msg-${moment.context.after.seconds}`}
             tabindex={index === 0 ? undefined : -1}
           >
@@ -111,9 +111,9 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     place-items: center;
     width: 100%;
     max-width: 52rem;
-    min-height: 38rem;
+    min-height: 40rem;
     margin: 0 auto;
-    padding-block: 5rem;
+    padding-block: 3rem;
     overflow: hidden;
   }
 
@@ -138,13 +138,11 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
   .home-moment-context { display: none; }
   .home-moment[data-slot="focus"] .home-moment-context {
     display: flex;
-    max-width: 88%;
-    opacity: 0.72;
+    max-width: 94%;
   }
   .home-moment[data-slot="focus"] .home-moment-context .message-bubble {
-    font-size: 0.875rem;
+    font-size: 0.94rem;
   }
-  .home-moment[data-slot="focus"] .home-moment-context:hover { opacity: 1; }
   .home-moment[data-slot="focus"] .home-moment-link {
     position: relative;
     z-index: 1;
@@ -165,7 +163,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
   .home-moment[data-slot="focus"] {
     position: relative;
     z-index: 2;
-    width: min(30rem, 84%);
+    width: min(36rem, 90%);
     opacity: 1;
   }
   .home-moment[data-slot="focus"] .home-moment-source { display: block; align-self: flex-end; }
@@ -185,10 +183,10 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
   }
 
   .home-moment[data-slot="upper-left"] {
-    top: 4%; left: 5%; max-width: 17rem;
+    top: 1%; left: 5%; max-width: 17rem;
   }
   .home-moment[data-slot="lower-right"] {
-    bottom: 4%; right: 1%; max-width: 17rem;
+    bottom: 1%; right: 1%; max-width: 17rem;
   }
 
   .home-moment :is(.home-moment-link, .home-moment-context):focus-visible { outline: none; }
@@ -197,9 +195,9 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
   }
 
   @media (max-width: 767px) {
-    #home-moments { min-height: 0; padding-block: 2.5rem 1.5rem; }
+    #home-moments { min-height: 0; padding-block: 0.75rem 1.5rem; }
     .home-moment .message-bubble { font-size: 0.94rem; }
-    .home-moment[data-slot="focus"] { width: 92%; }
+    .home-moment[data-slot="focus"] { width: 96%; }
     .home-moment:not([data-slot="focus"]) { display: none; }
   }
 </style>

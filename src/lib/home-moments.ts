@@ -21,14 +21,14 @@ interface HomeMomentLine {
 // original message even when the visible sentence is only part of that message.
 export const HOME_MOMENTS: HomeMoment[] = [
   {
-    slug: "totems",
-    seconds: 1529,
-    speaker: "Xiq",
-    text: "Words are totems. Yes. Yes, yes, yes.",
-    side: "sent",
+    slug: "overparticipation",
+    seconds: 606,
+    speaker: "Nadia",
+    text: "Like, if you were to publish something online or even if you're just like reading news articles or whatever. I mean, we're all familiar with this idea that, \"don't read the comments section\" and you see just sort of all sorts of people come out of the woodwork in the comment section.",
+    side: "received",
     context: {
-      before: { seconds: 1515, speaker: "Henry", text: "But it's literally a totem. Words work like that too.", side: "received" },
-      after: { seconds: 1532, speaker: "Henry", text: "Oh, that's a good one.", side: "received" },
+      before: { seconds: 583, speaker: "Henry", text: "I liked your point about the whole post comment model of social media, every single website essentially has that.", side: "sent" },
+      after: { seconds: 641, speaker: "Henry", text: "We're kind of facing the fact that being open kind of needs its own limits, that more is not always better.", side: "sent" },
     },
   },
   {
@@ -66,19 +66,19 @@ export const HOME_MOMENTS: HomeMoment[] = [
     text: "But in the physical world, you can be silent and present at the same time.",
     side: "received",
     context: {
-      before: { seconds: 807, speaker: "Drew", text: "And there's no like silence paired with presence.", side: "received" },
-      after: { seconds: 835, speaker: "Henry", text: "So this reminds me of a game that I play a lot. It's called The Mind.", side: "sent" },
+      before: { seconds: 807, speaker: "Drew", text: "And there's no like silence paired with presence. It's like people would notice if you, if you were silent and on Twitter, then it would be perceived as an absence.", side: "received" },
+      after: { seconds: 835, speaker: "Henry", text: "So this reminds me of a game that I play a lot. It's called The Mind. You're supposed to be silent when you're playing it.", side: "sent" },
     },
   },
   {
     slug: "emotional",
     seconds: 362,
     speaker: "Omar",
-    text: "I think emotions are a big deal in programming.",
-    side: "sent",
+    text: "And I think often there are these aesthetic choices or there are these emotional choices or there are different goals people have. I think emotions are a big deal in programming. I think most of the work in programming is managing your own feelings about it.",
+    side: "received",
     context: {
-      before: { seconds: 352, speaker: "Omar", text: "we're just trying to find the right answer to do things.", side: "sent" },
-      after: { seconds: 375, speaker: "Henry", text: "Yeah. So it kinda makes me think of how in tech, I guess maybe the dominant thinking is sort of assumed to be the right way or the neutral thing.", side: "received" },
+      before: { seconds: 352, speaker: "Omar", text: "Often one of the problems I have with a lot of discussion of programming languages or libraries or whatever, is this idea that we're just trying to find the right answer to do things.", side: "received" },
+      after: { seconds: 375, speaker: "Henry", text: "Yeah. So it kinda makes me think of how in tech, I guess maybe the dominant thinking is sort of assumed to be the right way or the neutral thing.", side: "sent" },
     },
   },
   {
@@ -120,7 +120,7 @@ export const HOME_MOMENTS: HomeMoment[] = [
     slug: "silence",
     seconds: 30,
     speaker: "Michael",
-    text: "I was struck by the fact that silence is a critical part of human communication.",
+    text: "Various things have led me over the years to think about silence. And in this particular case, I was struck by the fact that silence is a critical part of human communication. It's meaningful. This is I think the important word, right?",
     side: "received",
     context: {
       before: { seconds: 26, speaker: "Henry", text: "Maybe we can start with one of your posts called Impossible Silences.", side: "sent" },
