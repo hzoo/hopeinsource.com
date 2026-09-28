@@ -21,11 +21,19 @@ function initChatHeader() {
 
 }
 
-// --- Message Deep-linking Logic ---
+// --- Transcript Deep-linking Logic ---
 
-function highlightMessage() {
+function handleDeepLink() {
     const hash = window.location.hash;
-    if (!hash || !hash.startsWith('#msg-')) return;
+    if (!hash) return;
+
+    const target = document.getElementById(hash.slice(1));
+    if (target?.matches('#episode-content-shell h4')) {
+        setTimeout(() => target.scrollIntoView({ block: 'start' }), 100);
+        return;
+    }
+
+    if (!hash.startsWith('#msg-')) return;
 
     const el = document.getElementById(hash.slice(1));
     if (el) {
@@ -43,9 +51,8 @@ function highlightMessage() {
 
 function initEpisode() {
     initChatHeader();
-    highlightMessage();
-    // Handle hash changes individually (like clicking TOC links)
-    window.addEventListener('hashchange', highlightMessage);
+    handleDeepLink();
+    window.addEventListener('hashchange', handleDeepLink);
 }
 
 if (document.readyState === 'loading') {
