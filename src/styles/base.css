@@ -687,40 +687,21 @@ body:has(#home-layout-root) #theme-toggle {
   color: var(--color-his-text-tertiary);
 }
 
-.search-esc-hint {
+.search-close-button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   min-width: 40px;
   min-height: 40px;
-  font-size: 0.5625rem;
-  font-family: ui-monospace, monospace;
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--color-his-text-tertiary);
+  font-size: 1.25rem;
+  line-height: 1;
+  color: var(--color-his-text-secondary);
   padding: 0.1875rem 0.375rem;
   background: var(--color-his-hover);
   border: 1px solid var(--color-his-hr);
   border-radius: 4px;
   flex-shrink: 0;
   cursor: pointer;
-}
-
-.search-close-label {
-  display: none;
-}
-
-@media (max-width: 640px) {
-  .search-esc-label {
-    display: none;
-  }
-
-  .search-close-label {
-    display: inline;
-    font-family: sans-serif;
-    font-size: 1.25rem;
-    line-height: 1;
-  }
 }
 
 /* Results area */
@@ -1144,6 +1125,12 @@ body:has(#home-layout-root) #theme-toggle {
   font-size: 0.66rem;
   color: var(--color-his-text-tertiary);
   letter-spacing: 0.01em;
+}
+
+#home-brand .brand-meta p a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
 }
 
 #home-brand .brand-latest {

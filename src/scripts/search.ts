@@ -204,9 +204,8 @@ function createModal() {
         autocomplete="off"
         spellcheck="false"
       />
-      <button class="search-esc-hint" type="button" aria-label="Close search">
-        <span class="search-esc-label">esc</span>
-        <span class="search-close-label" aria-hidden="true">×</span>
+      <button class="search-close-button" type="button" aria-label="Close search">
+        <span aria-hidden="true">×</span>
       </button>
     </div>
     <div class="search-results-area"></div>
@@ -275,7 +274,7 @@ function createModal() {
 
     // Backdrop click
     backdrop.addEventListener('click', closeModal);
-    modal.querySelector('.search-esc-hint')?.addEventListener('click', closeModal);
+    modal.querySelector('.search-close-button')?.addEventListener('click', closeModal);
 
     // Delegated clicks in search area
     resultsArea.addEventListener('click', (e) => {
