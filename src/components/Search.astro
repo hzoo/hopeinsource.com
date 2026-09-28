@@ -1,14 +1,14 @@
 ---
 // Search with Spotlight-style modal (input inside modal)
 interface Props {
-  compact?: boolean;
+  variant?: "full" | "compact" | "sidebar";
 }
 
-const { compact = false } = Astro.props;
+const { variant = "full" } = Astro.props;
 ---
 
 <!-- Sidebar trigger button -->
-<button class:list={["search-trigger", compact && "search-trigger-compact"]} id="search-trigger" type="button" aria-label="Search transcripts" data-dev={import.meta.env.DEV ? "true" : undefined}>
+<button class:list={["search-trigger", variant !== "full" && `search-trigger-${variant}`]} id="search-trigger" type="button" aria-label="Search transcripts" data-dev={import.meta.env.DEV ? "true" : undefined}>
   <svg class="search-trigger-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
     <circle cx="11" cy="11" r="8"/>
     <path d="m21 21-4.35-4.35"/>
@@ -38,6 +38,32 @@ const { compact = false } = Astro.props;
   .search-trigger:hover {
     background: var(--color-his-active);
     border-color: var(--color-his-text-tertiary);
+  }
+
+  .search-trigger:focus-visible {
+    outline: 2px solid var(--color-his-green);
+    outline-offset: 2px;
+  }
+
+  .search-trigger.search-trigger-sidebar {
+    width: auto;
+    min-height: 40px;
+    padding-inline: 0.625rem;
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .search-trigger-sidebar:hover {
+    background: var(--color-his-hover);
+    border-color: transparent;
+  }
+
+  .search-trigger-sidebar .search-trigger-text {
+    flex: none;
+  }
+
+  .search-trigger-sidebar .search-trigger-kbd {
+    display: none;
   }
 
   .search-trigger.search-trigger-compact {
