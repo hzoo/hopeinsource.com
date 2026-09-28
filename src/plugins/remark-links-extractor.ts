@@ -24,6 +24,13 @@ export const remarkLinksExtractor: Plugin<[], Root> = () => {
     let refIndex = 0;
 
     visit(tree, "blockquote", (node: Blockquote) => {
+      node.data = node.data || {};
+      node.data.hProperties = {
+        ...node.data.hProperties,
+        id: `ref-${refIndex}`,
+        className: ["reference-block"],
+      };
+
       // Get the full text of the blockquote for context
       const quoteText = toString(node);
 

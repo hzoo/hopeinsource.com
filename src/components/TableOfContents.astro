@@ -126,20 +126,19 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         <div class="p-1.5 overflow-y-auto max-h-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
           {extractedLinks.map((link) => (
             <div
-              class="ref-popover-item py-2 px-2 rounded-md hover:bg-his-hover/50 cursor-pointer transition-colors"
-              data-ref-id={`ref-${link.blockquoteIndex}`}
+              class="ref-popover-item py-2 px-2 rounded-md hover:bg-his-hover/50 transition-colors"
             >
-              {link.quoteText && (
-                <p class="text-sm text-his-text-secondary leading-relaxed mb-1 line-clamp-2">
-                  {link.quoteText.slice(0, 120)}{link.quoteText.length > 120 ? '...' : ''}
-                </p>
-              )}
+              <a
+                href={`#ref-${link.blockquoteIndex}`}
+                class="ref-passage-link block rounded-sm text-sm text-his-text-secondary leading-relaxed mb-1 line-clamp-2 no-underline hover:text-his-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+              >
+                {link.quoteText?.slice(0, 120) || "Passage"}{link.quoteText && link.quoteText.length > 120 ? '...' : ''}
+              </a>
               <a
                 href={link.url}
                 target="_blank"
                 rel="noopener noreferrer"
                 class="inline-flex items-center gap-1 text-xs text-his-green hover:underline"
-                onclick="arguments[0].stopPropagation();"
               >
                 <svg class="w-3 h-3 flex-shrink-0 opacity-60" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
@@ -211,15 +210,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
     const refBadge = document.getElementById('ref-badge');
     const refPopover = document.getElementById('ref-popover');
-    const refPopoverItems = document.querySelectorAll('.ref-popover-item');
     const mobileChapters = document.getElementById('mobile-chapters') as HTMLDetailsElement | null;
     const mobileChaptersCurrent = document.getElementById('mobile-chapters-current');
-
-    // Add IDs to blockquotes
-    document.querySelectorAll('main blockquote').forEach((bq, index) => {
-      bq.id = `ref-${index}`;
-      bq.classList.add('reference-block');
-    });
 
     function setActive(id: string) {
       if (currentActiveId === id) return;
@@ -297,21 +289,16 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       });
     });
 
-    // Ref items - scroll to blockquote
-    refPopoverItems.forEach(item => {
-      item.addEventListener('click', (e) => {
-        const target = e.target as HTMLElement;
-        if (target.tagName === 'A') return;
-        const refId = item.getAttribute('data-ref-id');
-        if (refId) {
-          const bq = document.getElementById(refId);
-          if (bq) {
-            bq.scrollIntoView({ behavior: 'smooth', block: 'start' });
-            bq.classList.add('ref-highlight');
-            setTimeout(() => bq.classList.remove('ref-highlight'), 1500);
-          }
-        }
-      });
+    refPopover?.addEventListener('click', (event) => {
+      const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('.ref-passage-link');
+      if (!link) return;
+      closeRefPopover();
+      const passage = document.getElementById(link.hash.slice(1));
+      if (!passage) return;
+      passage.classList.add('ref-highlight');
+      passage.tabIndex = -1;
+      requestAnimationFrame(() => passage.focus({ preventScroll: true }));
+      setTimeout(() => passage.classList.remove('ref-highlight'), 1500);
     });
 
     // Enrich TOC links with timestamps from adjacent messages
