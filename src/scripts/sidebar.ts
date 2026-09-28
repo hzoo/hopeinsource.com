@@ -8,7 +8,7 @@ function initSidebar() {
     const getBackdrop = () => document.getElementById('sidebar-backdrop');
     const getToggle = () => document.getElementById('header-sidebar-toggle');
     const desktopQuery = window.matchMedia('(min-width: 1024px)');
-    if (!getSidebar() || !getBackdrop()) return null;
+    if (!getSidebar() || !getBackdrop()) return;
 
     function setSidebarAccessible(isAccessible: boolean) {
         const sidebar = getSidebar();
@@ -72,12 +72,6 @@ function initSidebar() {
             return;
         }
 
-        // Alternative triggers (open only)
-        if (target.closest('.sidebar-trigger')) {
-            openSidebar();
-            return;
-        }
-
         // Backdrop click (close)
         if (target.id === 'sidebar-backdrop') {
             closeSidebar(true);
@@ -92,9 +86,10 @@ function initSidebar() {
     };
     document.addEventListener('his:search-open', closeForSearch);
 
-    // Global listeners - will be cleaned up by cleanupSidebar
     function handleGlobalKeydown(e: KeyboardEvent) {
-        if (e.key === 'Escape') closeSidebar(true);
+        if (e.key === 'Escape' && !getSidebar()?.classList.contains('-translate-x-full')) {
+            closeSidebar(true);
+        }
     }
     document.addEventListener('keydown', handleGlobalKeydown);
 
@@ -148,30 +143,10 @@ function initSidebar() {
     desktopQuery.addEventListener('change', syncResponsiveAccessibility);
     syncResponsiveAccessibility();
 
-    // Return cleanup function
-    return () => {
-        document.removeEventListener('click', handleClick);
-        document.removeEventListener('his:search-open', closeForSearch);
-        document.removeEventListener('keydown', handleGlobalKeydown);
-        document.removeEventListener('touchstart', handleTouchStart);
-        document.removeEventListener('touchend', handleTouchEnd);
-        desktopQuery.removeEventListener('change', syncResponsiveAccessibility);
-        document.body.style.overflow = '';
-        document.getElementById('episode-shell')?.removeAttribute('inert');
-    };
 }
-
-let sidebarCleanup: (() => void) | null = null;
-
-function setupSidebar() {
-    if (sidebarCleanup) sidebarCleanup();
-    sidebarCleanup = initSidebar();
-}
-
-document.addEventListener('astro:page-load', setupSidebar);
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setupSidebar, { once: true });
+    document.addEventListener('DOMContentLoaded', initSidebar, { once: true });
 } else {
-    setupSidebar();
+    initSidebar();
 }

@@ -9,7 +9,6 @@ import { parseTimeHash } from "./time-hash";
 
 type VideoMode = "read" | "watch";
 
-let listenerAbort: AbortController | null = null;
 let mode: VideoMode = "read";
 let episodeShell: HTMLElement | null = null;
 let contentShell: HTMLElement | null = null;
@@ -107,10 +106,6 @@ function setMode(nextMode: VideoMode) {
 }
 
 function initVideoPlayer() {
-    listenerAbort?.abort();
-    listenerAbort = new AbortController();
-    const { signal } = listenerAbort;
-
     videoRoot = document.getElementById("episode-video-sync");
     videoIframe = document.getElementById("episode-youtube-player") as HTMLIFrameElement | null;
     if (!videoRoot || !videoIframe) return;
@@ -130,15 +125,15 @@ function initVideoPlayer() {
     unloadVideo();
     updateModeUi();
 
-    modeWatchButton?.addEventListener("click", () => setMode("watch"), { signal });
-    modeReadButton?.addEventListener("click", () => setMode("read"), { signal });
-    document.addEventListener("his:audio-intent", () => setMode("read"), { signal });
+    modeWatchButton?.addEventListener("click", () => setMode("watch"));
+    modeReadButton?.addEventListener("click", () => setMode("read"));
+    document.addEventListener("his:audio-intent", () => setMode("read"));
     document.addEventListener("his:timestamp-intent", (event) => {
         if (mode !== "watch") return;
         const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
         if (!Number.isFinite(seconds)) return;
         loadVideoAt(seconds, true);
-    }, { signal });
+    });
 
     document.addEventListener("click", (event) => {
         if (mode !== "watch") return;
@@ -150,41 +145,17 @@ function initVideoPlayer() {
         event.preventDefault();
         history.replaceState(null, "", parsed.canonicalHash);
         loadVideoAt(parsed.seconds, true);
-    }, { signal });
+    });
 
     window.addEventListener("hashchange", () => {
         if (mode !== "watch") return;
         const seconds = timeFromHash();
         if (seconds !== null) loadVideoAt(seconds, false);
-    }, { signal });
+    });
 }
-
-function cleanupVideoPlayer() {
-    listenerAbort?.abort();
-    listenerAbort = null;
-    unloadVideo();
-    mode = "read";
-    episodeShell = null;
-    contentShell = null;
-    headerShell = null;
-    modeWatchButton = null;
-    modeReadButton = null;
-    videoRoot = null;
-    videoIframe = null;
-    videoEmbedSrc = "";
-    videoOffsetSeconds = 0;
-    requestedTranscriptTime = 0;
-}
-
-function setupVideoPlayer() {
-    cleanupVideoPlayer();
-    initVideoPlayer();
-}
-
-document.addEventListener("astro:page-load", setupVideoPlayer);
 
 if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setupVideoPlayer, { once: true });
+    document.addEventListener("DOMContentLoaded", initVideoPlayer, { once: true });
 } else {
-    setupVideoPlayer();
+    initVideoPlayer();
 }

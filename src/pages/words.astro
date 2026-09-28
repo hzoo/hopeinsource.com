@@ -33,7 +33,7 @@ const groupedLexicon = allLexiconTerms.reduce<
 }, []);
 ---
 
-<HomeContentLayout activeLayout="J" title="Words" description="A living glossary of terms from Hope in Source." episodeData={episodeData}>
+<HomeContentLayout activeLayout="words" title="Words" description="A living glossary of terms from Hope in Source." episodeData={episodeData}>
   <section aria-label="Words">
     <div id="home-lexicon" data-collapsed="true">
       {groupedLexicon.map((group) => (

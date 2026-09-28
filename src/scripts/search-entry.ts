@@ -7,7 +7,6 @@ type SearchModule = {
     openSearchModal: () => Promise<void>;
 };
 
-let initAbort: AbortController | null = null;
 let searchModulePromise: Promise<SearchModule> | null = null;
 
 function isTypingTarget(target: EventTarget | null): boolean {
@@ -37,30 +36,20 @@ function handleGlobalKeydown(e: KeyboardEvent) {
 }
 
 function initSearchBootstrap() {
-    initAbort?.abort();
-    initAbort = new AbortController();
-    const { signal } = initAbort;
-
     const trigger = document.getElementById('search-trigger');
     if (!trigger) return;
 
     trigger.addEventListener('click', () => {
         void openSearch();
-    }, { signal });
+    });
 
-    document.addEventListener('keydown', handleGlobalKeydown, { signal });
+    document.addEventListener('keydown', handleGlobalKeydown);
 }
-
-function setupSearchBootstrap() {
-    initSearchBootstrap();
-}
-
-document.addEventListener('astro:page-load', setupSearchBootstrap);
 
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setupSearchBootstrap, { once: true });
+    document.addEventListener('DOMContentLoaded', initSearchBootstrap, { once: true });
 } else {
-    setupSearchBootstrap();
+    initSearchBootstrap();
 }
 
 export {};

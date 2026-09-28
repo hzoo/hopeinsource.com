@@ -7,7 +7,7 @@
 function initChatHeader() {
     const header = document.getElementById('chat-header');
     const scrollContainer = header?.nextElementSibling as HTMLElement | null;
-    if (!header || !scrollContainer) return null;
+    if (!header || !scrollContainer) return;
 
     const onScroll = () => {
         if (scrollContainer.scrollTop > 10) {
@@ -19,14 +19,9 @@ function initChatHeader() {
 
     scrollContainer.addEventListener('scroll', onScroll, { passive: true });
 
-    return () => {
-        scrollContainer.removeEventListener('scroll', onScroll);
-    };
 }
 
 // --- Message Deep-linking Logic ---
-
-let chatHeaderCleanup: (() => void) | null = null;
 
 function highlightMessage() {
     const hash = window.location.hash;
@@ -47,28 +42,14 @@ function highlightMessage() {
 }
 
 function initEpisode() {
-    chatHeaderCleanup = initChatHeader();
+    initChatHeader();
     highlightMessage();
     // Handle hash changes individually (like clicking TOC links)
     window.addEventListener('hashchange', highlightMessage);
 }
 
-function cleanupEpisode() {
-    chatHeaderCleanup?.();
-    chatHeaderCleanup = null;
-    window.removeEventListener('hashchange', highlightMessage);
-}
-
-function setupEpisode() {
-    cleanupEpisode();
-    initEpisode();
-}
-
-// Module script initialization on every load/nav
-document.addEventListener('astro:page-load', setupEpisode);
-
 if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setupEpisode, { once: true });
+    document.addEventListener('DOMContentLoaded', initEpisode, { once: true });
 } else {
-    setupEpisode();
+    initEpisode();
 }

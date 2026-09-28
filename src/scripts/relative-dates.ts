@@ -14,8 +14,6 @@ function updateRelativeDates() {
   });
 }
 
-document.addEventListener("astro:page-load", updateRelativeDates);
-
 if (document.readyState === "loading") {
   document.addEventListener("DOMContentLoaded", updateRelativeDates, { once: true });
 } else {

@@ -11,7 +11,7 @@ const allQuestions = episodes.flatMap((ep) =>
 );
 ---
 
-<HomeContentLayout activeLayout="D" episodeData={episodeData}>
+<HomeContentLayout activeLayout="questions" episodeData={episodeData}>
   <section aria-label="Questions">
     <div id="home-questions" data-collapsed="true">
       {allQuestions.map((q) => {

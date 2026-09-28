@@ -158,9 +158,6 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   let currentActiveId: string | null = null;
   let tocOpen = false;
   let refOpen = false;
-  let observer: IntersectionObserver | null = null;
-  let tocAbort: AbortController | null = null;
-  let tocBootstrapAbort: AbortController | null = null;
   let tocInitialized = false;
 
   function handleTOCClick(e: MouseEvent) {
@@ -207,10 +204,6 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
   function initTOC() {
     tocInitialized = true;
-    tocAbort?.abort();
-    tocAbort = new AbortController();
-    const { signal } = tocAbort;
-
     const tocBars = document.getElementById('toc-bars');
     const tocNav = document.getElementById('toc-nav');
     const tocLinks = document.querySelectorAll('.toc-link');
@@ -279,13 +272,13 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     tocBars?.addEventListener('click', (e) => {
       e.stopPropagation();
       tocOpen ? closeTOC() : openTOC();
-    }, { signal });
+    });
 
     // Toggle refs
     refBadge?.addEventListener('click', (e) => {
       e.stopPropagation();
       refOpen ? closeRefPopover() : openRefPopover();
-    }, { signal });
+    });
 
     // TOC links - scroll to section
     tocLinks.forEach(link => {
@@ -301,7 +294,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
             requestAnimationFrame(() => (target as HTMLElement).focus({ preventScroll: true }));
           }
         }
-      }, { signal });
+      });
     });
 
     // Ref items - scroll to blockquote
@@ -318,7 +311,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
             setTimeout(() => bq.classList.remove('ref-highlight'), 1500);
           }
         }
-      }, { signal });
+      });
     });
 
     // Enrich TOC links with timestamps from adjacent messages
@@ -346,17 +339,17 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     });
 
     // Intersection Observer
-    observer = new IntersectionObserver(
+    const observer = new IntersectionObserver(
       (entries) => entries.forEach((entry) => {
         if (entry.isIntersecting) setActive(entry.target.id);
       }),
       { rootMargin: '-10% 0px -70% 0px', threshold: 0 }
     );
-    document.querySelectorAll('h4').forEach((h) => observer?.observe(h));
+    document.querySelectorAll('h4').forEach((h) => observer.observe(h));
 
     // Global listeners
-    document.addEventListener('click', handleTOCClick, { signal });
-    document.addEventListener('keydown', handleTOCKeyDown, { signal });
+    document.addEventListener('click', handleTOCClick);
+    document.addEventListener('keydown', handleTOCKeyDown);
 
     // Init from hash
     const hash = window.location.hash;
@@ -364,10 +357,6 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
   }
 
   function initTOCLazyBootstrap() {
-    tocBootstrapAbort?.abort();
-    tocBootstrapAbort = new AbortController();
-    const { signal } = tocBootstrapAbort;
-
     const tocBars = document.getElementById('toc-bars');
     const refBadge = document.getElementById('ref-badge');
     const mobileChapters = document.getElementById('mobile-chapters');
@@ -387,8 +376,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       queueMicrotask(() => control.click());
     };
 
-    tocBars?.addEventListener('click', handleFirstControlClick, { signal, capture: true, once: true });
-    refBadge?.addEventListener('click', handleFirstControlClick, { signal, capture: true, once: true });
+    tocBars?.addEventListener('click', handleFirstControlClick, { capture: true, once: true });
+    refBadge?.addEventListener('click', handleFirstControlClick, { capture: true, once: true });
     mobileChapters?.addEventListener('toggle', () => {
       warmInit();
       if ((mobileChapters as HTMLDetailsElement).open) {
@@ -402,39 +391,16 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         );
         scrollContainer.scrollTo({ top: targetTop, behavior: 'smooth' });
       }
-    }, { signal });
-    scrollContainer?.addEventListener('scroll', warmInit, { signal, passive: true, once: true });
+    });
+    scrollContainer?.addEventListener('scroll', warmInit, { passive: true, once: true });
     if (!scrollContainer) {
-      window.addEventListener('scroll', warmInit, { signal, passive: true, once: true });
+      window.addEventListener('scroll', warmInit, { passive: true, once: true });
     }
   }
-
-  function cleanupTOC() {
-    tocAbort?.abort();
-    tocAbort = null;
-    tocBootstrapAbort?.abort();
-    tocBootstrapAbort = null;
-
-    if (observer) {
-      observer.disconnect();
-      observer = null;
-    }
-    tocOpen = false;
-    refOpen = false;
-    currentActiveId = null;
-    tocInitialized = false;
-  }
-
-  function setupTOC() {
-    cleanupTOC();
-    initTOCLazyBootstrap();
-  }
-
-  document.addEventListener('astro:page-load', setupTOC);
 
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', setupTOC, { once: true });
+    document.addEventListener('DOMContentLoaded', initTOCLazyBootstrap, { once: true });
   } else {
-    setupTOC();
+    initTOCLazyBootstrap();
   }
 </script>

@@ -12,6 +12,7 @@ interface PagefindData {
     excerpt: string;
     plain_excerpt?: string;
     raw_content?: string;
+    locations?: number[];
     meta: {
         title: string;
         speaker?: string;
@@ -29,6 +30,7 @@ interface SearchSession {
     hydratedResults: PagefindData[];
     nextIndex: number;
     total: number;
+    query: string;
 }
 
 /**
@@ -88,7 +90,6 @@ let backdrop: HTMLDivElement | null = null;
 let modal: HTMLDivElement | null = null;
 let input: HTMLInputElement | null = null;
 let resultsArea: HTMLDivElement | null = null;
-let modalAbort: AbortController | null = null;
 let returnFocusTo: HTMLElement | null = null;
 let activeSearchId = 0;
 let searchSession: SearchSession | null = null;
@@ -174,9 +175,6 @@ function getLoadingHtml(): string {
 
 function createModal() {
     if (modal) return;
-    modalAbort?.abort();
-    modalAbort = new AbortController();
-    const { signal } = modalAbort;
 
     // Backdrop
     backdrop = document.createElement('div');
@@ -237,11 +235,11 @@ function createModal() {
         debounceTimer = setTimeout(() => {
             void performSearch(query);
         }, 250);
-    }, { signal });
+    });
 
     // Keyboard navigation
     input.addEventListener('keydown', (e) => {
-        const resultLinks = resultsArea!.querySelectorAll<HTMLAnchorElement>('.search-result');
+        const resultLinks = resultsArea!.querySelectorAll<HTMLAnchorElement>('.search-result, .search-episode-title[data-keyboard-result]');
 
         if (e.key === 'ArrowDown') {
             e.preventDefault();
@@ -251,11 +249,11 @@ function createModal() {
             e.preventDefault();
             selectedIndex = Math.max(selectedIndex - 1, -1);
             updateSelection(resultLinks);
-        } else if (e.key === 'Enter' && selectedIndex >= 0) {
+        } else if (e.key === 'Enter' && (selectedIndex >= 0 || resultLinks.length === 1)) {
             e.preventDefault();
-            resultLinks[selectedIndex]?.click();
+            resultLinks[selectedIndex >= 0 ? selectedIndex : 0]?.click();
         }
-    }, { signal });
+    });
 
     modal.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
@@ -273,11 +271,11 @@ function createModal() {
                 first?.focus();
             }
         }
-    }, { signal });
+    });
 
     // Backdrop click
-    backdrop.addEventListener('click', closeModal, { signal });
-    modal.querySelector('.search-esc-hint')?.addEventListener('click', closeModal, { signal });
+    backdrop.addEventListener('click', closeModal);
+    modal.querySelector('.search-esc-hint')?.addEventListener('click', closeModal);
 
     // Delegated clicks in search area
     resultsArea.addEventListener('click', (e) => {
@@ -320,7 +318,7 @@ function createModal() {
                 window.location.href = link.href;
             }
         }
-    }, { signal });
+    });
 }
 
 async function openModal() {
@@ -433,6 +431,7 @@ async function performSearch(query: string) {
             hydratedResults,
             nextIndex: hydratedResults.length,
             total: resultSet.results.length,
+            query,
         };
 
         renderSearchSession();
@@ -482,16 +481,48 @@ function renderSearchSession() {
     if (!searchSession) return;
     renderGroupedResults(
         searchSession.hydratedResults,
-        searchSession.total,
+        searchSession.query,
         searchSession.nextIndex < searchSession.total,
     );
 }
 
-function renderGroupedResults(results: PagefindData[], totalResults: number, hasMore: boolean) {
+const SEARCH_FILLER_WORDS = new Set([
+    'a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from',
+    'in', 'is', 'it', 'of', 'on', 'or', 'the', 'to', 'with',
+]);
+
+function searchTerms(query: string): string[] {
+    const words = query.toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [];
+    const meaningful = words.filter((word) => !SEARCH_FILLER_WORDS.has(word));
+    return meaningful.length ? meaningful : words;
+}
+
+function transcriptMatches(result: PagefindData, terms: string[], hasMultipleWords: boolean): boolean {
+    // Metadata matches have no transcript locations. Do not turn them into timed links.
+    if (result.locations?.length === 0) return false;
+    if (!hasMultipleWords) return (result.locations?.length ?? 0) > 0 || /<mark>/i.test(result.excerpt);
+
+    const words = (result.raw_content ?? result.plain_excerpt ?? '')
+        .toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? [];
+    const matchesTerm = (word: string, term: string) => {
+        if (word === term) return true;
+        const stem = term.replace(/(?:ing|ed|s)$/, '');
+        return stem.length >= 4 && word.startsWith(stem);
+    };
+    const markedWords = [...result.excerpt.matchAll(/<mark>(.*?)<\/mark>/gi)]
+        .flatMap((match) => match[1].toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []);
+
+    return terms.every((term) => words.some((word) => matchesTerm(word, term)))
+        && terms.some((term) => markedWords.some((word) => matchesTerm(word, term)));
+}
+
+function renderGroupedResults(results: PagefindData[], query: string, hasMore: boolean) {
     if (!resultsArea) return;
 
+    const terms = searchTerms(query);
+    const hasMultipleWords = (query.match(/[\p{L}\p{N}]+/gu)?.length ?? 0) > 1;
     // Group results by episode (base URL without anchor)
-    const grouped = new Map<string, { title: string; results: Array<{ result: PagefindData; index: number }> }>();
+    const grouped = new Map<string, { title: string; titleMatch: boolean; results: Array<{ result: PagefindData; index: number }> }>();
 
     results.forEach((result, i) => {
         const baseUrl = result.url.split('#')[0];
@@ -499,11 +530,19 @@ function renderGroupedResults(results: PagefindData[], totalResults: number, has
         const rawTitle = result.meta?.title || 'Untitled';
         const cleanTitle = rawTitle.replace(/\s*\(\d{1,2}:\d{2}(?::\d{2})?\)\s*$/, '');
 
+        const titleWords = new Set(cleanTitle.toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []);
+        const titleMatch = terms.length > 0 && terms.every((term) => titleWords.has(term));
         if (!grouped.has(baseUrl)) {
-            grouped.set(baseUrl, { title: cleanTitle, results: [] });
+            grouped.set(baseUrl, { title: cleanTitle, titleMatch, results: [] });
         }
-        grouped.get(baseUrl)!.results.push({ result, index: i });
+        if (transcriptMatches(result, terms, hasMultipleWords)) {
+            grouped.get(baseUrl)!.results.push({ result, index: i });
+        }
     });
+
+    for (const [baseUrl, group] of grouped) {
+        if (!group.titleMatch && group.results.length === 0) grouped.delete(baseUrl);
+    }
 
     // 1. Sort matches within each group by timestamp/seconds
     for (const group of grouped.values()) {
@@ -523,16 +562,17 @@ function renderGroupedResults(results: PagefindData[], totalResults: number, has
         renderEpisodeGroup(baseUrl, group.title, group.results),
     ).join('');
 
-    const headerText = hasMore
-        ? `${results.length} of ${totalResults} results`
-        : `${totalResults} result${totalResults !== 1 ? 's' : ''}`;
-
     const loadMoreHtml = hasMore
         ? '<button id="search-load-more" class="search-load-more" type="button">Load more results</button>'
         : '';
 
+    if (!sortedGroups.length && !hasMore) {
+        resultsArea.innerHTML = '<div class="search-no-results">No results found</div>';
+        return;
+    }
+
     resultsArea.innerHTML = `
-      <div class="search-results-header">${headerText}</div>
+      <div class="search-results-header">Search results</div>
       <div class="search-results-list">${resultsHtml}</div>
       ${loadMoreHtml}
     `;
@@ -544,8 +584,8 @@ function renderEpisodeGroup(baseUrl: string, title: string, results: Array<{ res
     return `
     <div class="search-episode-group">
       <div class="search-episode-header">
-        <a href="${baseUrl}" class="search-episode-title">${escapeHtml(title)}</a>
-        <span class="search-episode-count">${results.length} match${results.length !== 1 ? 'es' : ''}</span>
+        <a href="${baseUrl}" class="search-episode-title" ${results.length ? '' : 'data-keyboard-result=""'}>${escapeHtml(title)}</a>
+        <span class="search-episode-count">${results.length ? `${results.length} match${results.length !== 1 ? 'es' : ''}` : 'Episode'}</span>
       </div>
       <div class="search-episode-matches">${matchesHtml}</div>
     </div>

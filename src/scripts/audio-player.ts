@@ -34,7 +34,6 @@ let lastHighlightedMessage: HTMLElement | null = null;
 let isLoaded = false;
 let pendingTime = 0;
 let src = "";
-let listenerAbort: AbortController | null = null;
 let shortcutReturnFocus: HTMLElement | null = null;
 
 function isWatchView(): boolean {
@@ -122,6 +121,7 @@ function setPlaybackUi(isPaused: boolean) {
 
 function ensureAudioLoaded() {
     if (!audio || isLoaded || !src) return;
+    document.getElementById("audio-player-container")?.setAttribute("data-audio-state", "active");
     audio.src = src;
     audio.load();
     isLoaded = true;
@@ -284,10 +284,6 @@ function handleGlobalClick(event: MouseEvent) {
 }
 
 function initAudioPlayer() {
-    listenerAbort?.abort();
-    listenerAbort = new AbortController();
-    const { signal } = listenerAbort;
-
     audio = document.getElementById("audio-element") as HTMLAudioElement | null;
     playPauseButton = document.getElementById("play-pause") as HTMLButtonElement | null;
     seekSlider = document.getElementById("seek-slider") as HTMLInputElement | null;
@@ -310,31 +306,31 @@ function initAudioPlayer() {
     src = container?.dataset.src || "";
     if (!audio) return;
 
-    playPauseButton?.addEventListener("click", togglePlayPause, { signal });
+    playPauseButton?.addEventListener("click", togglePlayPause);
     seekSlider?.addEventListener("input", () => {
         if (!audio?.duration || !seekSlider) return;
         audio.currentTime = audio.duration * (Number(seekSlider.value) / 100);
-    }, { signal });
+    });
 
-    audio.addEventListener("timeupdate", updateTimeDisplay, { signal });
+    audio.addEventListener("timeupdate", updateTimeDisplay);
     audio.addEventListener("loadedmetadata", () => {
         if (!audio) return;
         if (pendingTime > 0) audio.currentTime = pendingTime;
         if (seekSlider) seekSlider.disabled = false;
         updateTimeDisplay();
-    }, { signal });
+    });
     audio.addEventListener("play", () => {
         setPlaybackUi(false);
         showFeedback("play");
-    }, { signal });
+    });
     audio.addEventListener("pause", () => {
         setPlaybackUi(true);
         if (isLoaded) showFeedback("pause");
-    }, { signal });
+    });
     audio.addEventListener("error", () => {
         setPlaybackUi(true);
         showFeedback("error");
-    }, { signal });
+    });
 
     volumeSlider?.addEventListener("input", () => {
         if (!audio || !volumeSlider) return;
@@ -343,80 +339,52 @@ function initAudioPlayer() {
         audio.muted = value === 0;
         volumeSlider.setAttribute("aria-valuetext", `${value} percent`);
         showFeedback("volume", value);
-    }, { signal });
+    });
     audio.addEventListener("volumechange", () => {
         if (!audio) return;
         updateMuteIcon(audio.muted);
         if (!audio.muted && volumeSlider) {
             volumeSlider.value = String(Math.round(audio.volume * 100));
         }
-    }, { signal });
+    });
     muteButton?.addEventListener("click", () => {
         if (!audio) return;
         audio.muted = !audio.muted;
         if (!audio.muted && audio.volume === 0) audio.volume = 0.5;
         showFeedback(audio.muted ? "mute" : "unmute");
-    }, { signal });
+    });
 
-    shortcutsButton?.addEventListener("click", openShortcutsDialog, { signal });
-    closeShortcuts?.addEventListener("click", closeShortcutsDialog, { signal });
+    shortcutsButton?.addEventListener("click", openShortcutsDialog);
+    closeShortcuts?.addEventListener("click", closeShortcutsDialog);
     shortcutsDialog?.addEventListener("click", (event) => {
         if (event.target === shortcutsDialog) closeShortcutsDialog();
-    }, { signal });
+    });
 
-    document.addEventListener("keydown", handleAudioKeydown, { signal });
-    document.addEventListener("click", handleGlobalClick, { signal });
-    window.addEventListener("hashchange", () => stageHashTime({ scroll: true }), { signal });
-    document.addEventListener("his:watch-intent", () => audio?.pause(), { signal });
+    document.addEventListener("keydown", handleAudioKeydown);
+    document.addEventListener("click", handleGlobalClick);
+    window.addEventListener("hashchange", () => stageHashTime({ scroll: true }));
+    document.addEventListener("his:watch-intent", () => audio?.pause());
     document.addEventListener("his:timestamp-intent", (event) => {
         if (isWatchView()) return;
         const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
         if (!Number.isFinite(seconds)) return;
         setAudioPosition(seconds);
         playFrom(seconds);
-    }, { signal });
+    });
     document.addEventListener("his:video-position", (event) => {
         const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
         if (Number.isFinite(seconds)) setAudioPosition(seconds);
-    }, { signal });
+    });
 
     audio.volume = 0.5;
     setPlaybackUi(true);
     stageHashTime({ scroll: true });
 }
 
-function cleanupAudioPlayer() {
-    listenerAbort?.abort();
-    listenerAbort = null;
-    if (audio) {
-        audio.pause();
-        audio.removeAttribute("src");
-        audio.load();
-    }
-    lastHighlightedMessage?.classList.remove("message-current");
-    if (feedbackTimeout) clearTimeout(feedbackTimeout);
-
-    audio = null;
-    messagePoints = [];
-    messagePointsReady = false;
-    isLoaded = false;
-    pendingTime = 0;
-    lastHighlightedMessage = null;
-    feedbackTimeout = null;
-    shortcutReturnFocus = null;
-}
-
-function setupAudioPlayer() {
-    cleanupAudioPlayer();
-    initAudioPlayer();
-}
-
-document.addEventListener("astro:page-load", setupAudioPlayer);
-
 if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", setupAudioPlayer, { once: true });
+    document.addEventListener("DOMContentLoaded", initAudioPlayer, { once: true });
 } else {
-    setupAudioPlayer();
+    initAudioPlayer();
 }
 
 export {};

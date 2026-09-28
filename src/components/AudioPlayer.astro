@@ -11,6 +11,7 @@ const { src, title } = Astro.props;
   class="fixed bottom-3 sm:bottom-4 left-1/2 lg:left-[calc(50%+160px)] z-40 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm transition-[opacity,transform] duration-200"
   id="audio-player-container"
   data-src={src}
+  data-audio-state="idle"
   role="region"
   aria-label={`${title} audio player`}
 >
@@ -29,8 +30,9 @@ const { src, title } = Astro.props;
         <svg id="pause-icon" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 9v6m4-6v6m7-3a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
+        <span id="play-label" class="text-sm font-medium">Listen</span>
       </button>
-      <div class="hidden sm:flex group items-center">
+      <div id="mute-controls" class="hidden sm:flex group items-center">
         <button
           id="mute-button"
           class="flex h-10 w-10 items-center justify-center rounded-lg bg-his-green/10 text-his-green transition-[color,background-color] duration-200 hover:bg-his-green/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
@@ -59,7 +61,7 @@ const { src, title } = Astro.props;
       <span id="current-time" class="w-11 text-sm font-mono tabular-nums text-his-text-secondary"
         >00:00</span
       >
-      <div class="flex-grow relative h-10 group">
+      <div id="seek-controls" class="flex-grow relative h-10 group">
         <div class="absolute inset-x-0 top-1/2 h-2 -translate-y-1/2 rounded-full bg-his-text-tertiary/50"></div>
         <div
           id="progress-bar"
@@ -157,6 +159,27 @@ const { src, title } = Astro.props;
 <script src="../scripts/audio-player.ts"></script>
 
 <style>
+  #audio-player-container[data-audio-state="idle"] {
+    width: max-content;
+    border-radius: 999px;
+  }
+
+  #audio-player-container[data-audio-state="idle"] > div {
+    padding: 0.3rem;
+  }
+
+  #audio-player-container[data-audio-state="idle"] #play-pause {
+    width: auto;
+    gap: 0.4rem;
+    padding-inline: 0.75rem;
+    border-radius: 999px;
+  }
+
+  #audio-player-container[data-audio-state="idle"] :is(#mute-controls, #current-time, #seek-controls, #duration, #shortcuts-button),
+  #audio-player-container[data-audio-state="active"] #play-label {
+    display: none;
+  }
+
   #seek-slider::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 12px;

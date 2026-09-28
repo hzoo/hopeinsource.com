@@ -57,7 +57,7 @@ const { archiveGroups } = await getEpisodeData();
     {archiveGroups.map((group) => (
       <section class="mb-6">
         {group.id !== "0" && (
-          <h3 class="mb-3 px-3 text-[10px] font-bold uppercase tracking-[0.2em] text-his-green">{group.label}</h3>
+          <h3 class="mb-3 px-3 text-xs font-semibold uppercase tracking-[0.14em] text-his-green">{group.label}</h3>
         )}
         <div class="space-y-0.5">
           {group.episodes.map((episode) => {
@@ -66,7 +66,7 @@ const { archiveGroups } = await getEpisodeData();
               <a
                 href={`/${episode.slug}`}
                 class:list={[
-                  "episode-link group relative block py-2.5 px-3 rounded-lg transition-[color,background-color,box-shadow] duration-200",
+                  "episode-link group relative block rounded-lg px-3 py-2.5 transition-[color,background-color,box-shadow] duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60",
                   isActive
                     ? "bg-his-green/12 ring-1 ring-his-green/25"
                     : "hover:bg-his-hover/60"
@@ -76,8 +76,8 @@ const { archiveGroups } = await getEpisodeData();
               >
                 <div class="flex items-start gap-2.5">
                   <span class:list={[
-                    "flex-shrink-0 text-[10px] font-mono tabular-nums pt-0.5 transition-colors",
-                    isActive ? "text-his-green" : "text-his-text-tertiary group-hover:text-his-text-secondary"
+                    "flex-shrink-0 pt-0.5 font-mono text-xs tabular-nums transition-colors",
+                    isActive ? "text-his-green" : "text-his-text-secondary"
                   ]}>
                     {episode.epNumber}
                   </span>
@@ -85,8 +85,8 @@ const { archiveGroups } = await getEpisodeData();
                     <div class="flex items-baseline gap-2">
                       <div class="flex items-center gap-1.5 flex-1 min-w-0">
                         <span class:list={[
-                          "text-sm leading-snug transition-colors truncate flex-1 min-w-0",
-                          isActive ? "text-his-green font-medium" : "text-his-text-secondary group-hover:text-his-text"
+                          "min-w-0 flex-1 text-sm font-normal leading-snug transition-colors",
+                          isActive ? "font-semibold text-his-green" : "text-his-text"
                         ]}>
                           {episode.episodeTitle}
                         </span>
@@ -95,12 +95,12 @@ const { archiveGroups } = await getEpisodeData();
                         <div class="flex items-center gap-1 flex-shrink-0">
                           {episode.data.sauntercast && (
                             <span class:list={[
-                              "inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border flex-shrink-0",
+                              "inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full border",
                               isActive
                                 ? "border-his-green/40 bg-his-green/15 text-his-green"
-                                : "border-his-hr bg-his-hover/60 text-his-text-tertiary group-hover:text-his-green group-hover:border-his-green/30"
+                                : "border-his-hr bg-his-hover/60 text-his-text-secondary group-hover:border-his-green/30 group-hover:text-his-green"
                             ]} title="Sauntercast">
-                              <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                              <svg class="h-3 w-3" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M13.5 5.5c1.1 0 2-.9 2-2s-.9-2-2-2-2 .9-2 2 .9 2 2 2zM9.8 8.9L7 23h2.1l1.8-8 2.1 2v6h2v-7.5l-2.1-2 .6-3C14.8 12 16.8 13 19 13v-2c-1.9 0-3.5-1-4.3-2.4l-1-1.6c-.4-.6-1-1-1.7-1-.3 0-.5.1-.8.1L6 8.3V13h2V9.6l1.8-.7" />
                               </svg>
                               <span class="sr-only">Sauntercast</span>
@@ -108,12 +108,12 @@ const { archiveGroups } = await getEpisodeData();
                           )}
                           {episode.data.video?.url && (
                             <span class:list={[
-                              "inline-flex h-3.5 w-3.5 items-center justify-center rounded-full border flex-shrink-0",
+                              "inline-flex h-4 w-4 flex-shrink-0 items-center justify-center rounded-full border",
                               isActive
                                 ? "border-his-green/40 bg-his-green/15 text-his-green"
-                                : "border-his-hr bg-his-hover/60 text-his-text-tertiary group-hover:text-his-green group-hover:border-his-green/30"
+                                : "border-his-hr bg-his-hover/60 text-his-text-secondary group-hover:border-his-green/30 group-hover:text-his-green"
                             ]} title="Video episode">
-                              <svg class="h-2.5 w-2.5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                              <svg class="h-3 w-3" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
                                 <path d="M8 5v14l11-7z" />
                               </svg>
                               <span class="sr-only">Video episode</span>
@@ -123,14 +123,11 @@ const { archiveGroups } = await getEpisodeData();
                       )}
                     </div>
                     {episode.guestDisplays.length > 0 && (
-                      <span class:list={[
-                        "block text-xs mt-0.5 transition-colors truncate",
-                        isActive ? "text-his-green" : "text-his-text-tertiary group-hover:text-his-text-secondary"
-                      ]}>
+                      <span class="mt-0.5 block text-[13px] leading-snug text-his-text-secondary transition-colors group-hover:text-his-text">
                         {episode.guestDisplays.map((g, i) => (
                             <>
                               {i > 0 && ", "}
-                              {g.name}{g.count > 1 && <sup class="ml-0.5 text-[0.65em] text-his-green font-normal">×{g.count}</sup>}
+                              {g.name}{g.count > 1 && <sup class="ml-0.5 text-[10px] font-medium text-his-green">×{g.count}</sup>}
                             </>
                           ))}
                       </span>

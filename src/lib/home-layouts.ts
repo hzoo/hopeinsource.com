@@ -1,10 +1,10 @@
 export const HOME_LAYOUTS = [
-  { id: "A", label: "Episodes", icon: "list", group: "core", href: "/" },
-  { id: "B", label: "Excerpts", icon: "chat", group: "core", href: "/quotes" },
-  { id: "D", label: "Questions", icon: "question", group: "core", href: "/questions" },
-  { id: "G", label: "Assertions", icon: "bolt", group: "lab", href: "/assertions" },
-  { id: "I", label: "Wonderings", icon: "loop", group: "lab", href: "/wonderings" },
-  { id: "J", label: "Words", icon: "seed", group: "lab", href: "/words" },
+  { id: "episodes", label: "Episodes", group: "core", href: "/" },
+  { id: "excerpts", label: "Excerpts", group: "core", href: "/quotes" },
+  { id: "questions", label: "Questions", group: "core", href: "/questions" },
+  { id: "assertions", label: "Assertions", group: "lab", href: "/assertions" },
+  { id: "wonderings", label: "Wonderings", group: "lab", href: "/wonderings" },
+  { id: "words", label: "Words", group: "lab", href: "/words" },
 ] as const;
 
 export type HomeLayoutId = (typeof HOME_LAYOUTS)[number]["id"];

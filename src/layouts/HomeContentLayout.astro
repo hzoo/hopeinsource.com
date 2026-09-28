@@ -3,7 +3,7 @@ import Layout from "@/layouts/Layout.astro";
 import Footer from "@/components/Footer.astro";
 import Subscribe from "@/components/Subscribe.astro";
 import Search from "@/components/Search.astro";
-import { Image } from "astro:assets";
+import { getImage } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
 import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
 import { getEpisodeData, type EpisodeData } from "@/lib/episodes";
@@ -21,31 +21,45 @@ interface Props {
 }
 
 const { activeLayout, title, description, episodeData } = Astro.props;
+const isEpisodeArchive = activeLayout === "episodes";
 const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
 const slug = currentLayout?.href ?? "/";
 const { episodes } = episodeData ?? await getEpisodeData();
 const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
+const cover = await getImage({
+  src: his_cover,
+  width: 472,
+  height: 472,
+  widths: [128, 472, 944],
+  format: "webp",
+  quality: 90,
+});
+const smallCover = cover.srcSet.values.find((value) => value.descriptor === "128w")?.url ?? cover.src;
+const coverClass = "brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]";
+const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 ---
 
 <Layout frontmatter={{ title, description }} slug={slug}>
-  <div id="home-layout-root" class:list={["home-root", activeLayout !== "A" && "home-secondary"]}>
+  <div id="home-layout-root" class:list={["home-root", !isEpisodeArchive && "home-secondary"]}>
     <header id="home-brand">
       <div class="brand-inner">
         <div class="brand-content flex flex-col items-center text-center max-w-[472px] mx-auto">
-          {activeLayout === "A"
+          {isEpisodeArchive
             ? <h1 class="brand-title m-0">Hope in Source</h1>
             : <span class="brand-title m-0">Hope in Source</span>}
-          <Image
-            src={his_cover}
-            alt="Hope in Source Cover Art"
-            width={472}
-            height={472}
-            widths={[320, 472, 944]}
-            class="brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]"
-            priority
-            format="webp"
-            quality={90}
-          />
+          <picture class="contents">
+            <source media="(min-width: 1200px)" type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
+            <img
+              src={isEpisodeArchive ? smallCover : emptyImage}
+              alt="Hope in Source Cover Art"
+              width="472"
+              height="472"
+              class={coverClass}
+              loading={isEpisodeArchive ? "eager" : "lazy"}
+              fetchpriority={isEpisodeArchive ? "high" : undefined}
+              decoding="async"
+            />
+          </picture>
           <div class="brand-taglines text-center space-y-1">
             <p class="m-0 text-lg font-medium tracking-wide">
               off-the-cuff conversations between friends
@@ -91,17 +105,21 @@ const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data
 
     <nav id="home-top-controls" aria-label="Site navigation">
       <div class="home-controls-inner">
-        {activeLayout !== "A" && <a href="/" class="home-compact-link">Hope in Source</a>}
+        {!isEpisodeArchive && <a href="/" class="home-compact-link">Hope in Source</a>}
         <div class="home-view-list">
-          {HOME_LAYOUTS.map((layout) => (
-            <a
-              href={layout.href}
-              class="home-view-button"
-              data-active={layout.id === activeLayout ? "true" : "false"}
-              aria-current={layout.id === activeLayout ? "page" : undefined}
-            >
-              {layout.label}
-            </a>
+          {(["core", "lab"] as const).map((group) => (
+            <span class="home-view-group">
+              {HOME_LAYOUTS.filter((layout) => layout.group === group).map((layout) => (
+                <a
+                  href={layout.href}
+                  class="home-view-button"
+                  data-active={layout.id === activeLayout ? "true" : "false"}
+                  aria-current={layout.id === activeLayout ? "page" : undefined}
+                >
+                  {layout.label}
+                </a>
+              ))}
+            </span>
           ))}
         </div>
         <Search compact />
@@ -109,7 +127,7 @@ const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data
     </nav>
 
     <main id="home-layout-stage">
-      {activeLayout !== "A" && <h1 class="sr-only">{currentLayout?.label}</h1>}
+      {!isEpisodeArchive && <h1 class="sr-only">{currentLayout?.label}</h1>}
       <slot />
     </main>
 
@@ -118,6 +136,6 @@ const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data
     </div>
   </div>
 
-  {activeLayout !== "A" && <script src="../scripts/home-show-more.ts"></script>}
+  {!isEpisodeArchive && <script src="../scripts/home-show-more.ts"></script>}
   <script src="../scripts/relative-dates.ts"></script>
 </Layout>
