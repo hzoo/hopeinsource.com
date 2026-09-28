@@ -5,25 +5,22 @@ import Subscribe from "@/components/Subscribe.astro";
 import Search from "@/components/Search.astro";
 import { getImage } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
-import { HOME_LAYOUTS, type HomeLayoutId } from "@/lib/home-layouts";
 import { getEpisodeData, type EpisodeData } from "@/lib/episodes";
 import {
   formatEpisodeDate,
   formatEpisodeDateValue,
-  formatEpisodeRelativeDate,
 } from "@/lib/dates";
 
 interface Props {
-  activeLayout: HomeLayoutId;
+  page: "home" | "episodes";
   title?: string;
   description?: string;
   episodeData?: EpisodeData;
 }
 
-const { activeLayout, title, description, episodeData } = Astro.props;
-const isEpisodeArchive = activeLayout === "episodes";
-const currentLayout = HOME_LAYOUTS.find((l) => l.id === activeLayout);
-const slug = currentLayout?.href ?? "/";
+const { page, title, description, episodeData } = Astro.props;
+const isHome = page === "home";
+const slug = isHome ? "/" : "/episodes";
 const { episodes } = episodeData ?? await getEpisodeData();
 const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
 const cover = await getImage({
@@ -40,23 +37,23 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 ---
 
 <Layout frontmatter={{ title, description }} slug={slug}>
-  <div id="home-layout-root" class:list={["home-root", !isEpisodeArchive && "home-secondary"]}>
+  <div id="home-layout-root" class:list={["home-root", !isHome && "home-secondary"]}>
     <header id="home-brand">
       <div class="brand-inner">
         <div class="brand-content flex flex-col items-center text-center max-w-[472px] mx-auto">
-          {isEpisodeArchive
+          {isHome
             ? <h1 class="brand-title m-0">Hope in Source</h1>
             : <span class="brand-title m-0">Hope in Source</span>}
           <picture class="contents">
             <source media="(min-width: 1200px)" type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
             <img
-              src={isEpisodeArchive ? smallCover : emptyImage}
+              src={isHome ? smallCover : emptyImage}
               alt="Hope in Source Cover Art"
               width="472"
               height="472"
               class={coverClass}
-              loading={isEpisodeArchive ? "eager" : "lazy"}
-              fetchpriority={isEpisodeArchive ? "high" : undefined}
+              loading={isHome ? "eager" : "lazy"}
+              fetchpriority={isHome ? "high" : undefined}
               decoding="async"
             />
           </picture>
@@ -92,10 +89,6 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
                 <time datetime={formatEpisodeDateValue(latestEpisode.data.date)}>
                   {formatEpisodeDate(latestEpisode.data.date)}
                 </time>
-                <span aria-hidden="true">&middot;</span>
-                <span data-relative-date={formatEpisodeDateValue(latestEpisode.data.date)}>
-                  {formatEpisodeRelativeDate(latestEpisode.data.date)}
-                </span>
               </p>
             </div>
           )}
@@ -105,29 +98,21 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 
     <nav id="home-top-controls" aria-label="Site navigation">
       <div class="home-controls-inner">
-        {!isEpisodeArchive && <a href="/" class="home-compact-link">Hope in Source</a>}
+        {!isHome && <a href="/" class="home-compact-link">Hope in Source</a>}
         <div class="home-view-list">
-          {(["core", "lab"] as const).map((group) => (
-            <span class="home-view-group">
-              {HOME_LAYOUTS.filter((layout) => layout.group === group).map((layout) => (
-                <a
-                  href={layout.href}
-                  class="home-view-button"
-                  data-active={layout.id === activeLayout ? "true" : "false"}
-                  aria-current={layout.id === activeLayout ? "page" : undefined}
-                >
-                  {layout.label}
-                </a>
-              ))}
-            </span>
-          ))}
+          <a
+            href="/episodes"
+            class="home-view-button"
+            data-active={!isHome ? "true" : "false"}
+            aria-current={!isHome ? "page" : undefined}
+          >Episodes</a>
         </div>
         <Search variant="compact" />
       </div>
     </nav>
 
     <main id="home-layout-stage">
-      {!isEpisodeArchive && <h1 class="sr-only">{currentLayout?.label}</h1>}
+      {!isHome && <h1 class="sr-only">Episodes</h1>}
       <slot />
     </main>
 
@@ -135,7 +120,4 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
       <Footer compact />
     </div>
   </div>
-
-  {!isEpisodeArchive && <script src="../scripts/home-show-more.ts"></script>}
-  <script src="../scripts/relative-dates.ts"></script>
 </Layout>

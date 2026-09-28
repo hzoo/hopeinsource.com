@@ -78,6 +78,7 @@ const videoEmbedSrc = videoId
   : null;
 const hasVideoPlayback = Boolean(videoEmbedSrc && videoUrl);
 const audioSource = getEpisodeAudioSource(frontmatter.episodeLink);
+const hasLongDescription = hasBody && frontmatter.description.length > 135;
 ---
 
 <Layout frontmatter={frontmatter} slug={`/${slug}`}>
@@ -245,7 +246,18 @@ const audioSource = getEpisodeAudioSource(frontmatter.episodeLink);
       data-video-layout={hasVideoPlayback ? "true" : "false"}
       data-video-mode={hasVideoPlayback ? "read" : undefined}
     >
-    <p class="mx-auto mb-4 w-full max-w-[600px] text-[15px] leading-relaxed text-his-text-secondary">
+    {hasLongDescription && (
+      <details class="episode-description-disclosure mx-auto mb-4 w-full max-w-[600px] sm:hidden">
+        <summary>
+          <span class="episode-description-copy block text-[15px] leading-relaxed text-his-text-secondary">
+            {frontmatter.description}
+          </span>
+          <span class="episode-description-more mt-0.5 block text-xs text-his-green">More</span>
+          <span class="episode-description-less mt-0.5 hidden text-xs text-his-green">Less</span>
+        </summary>
+      </details>
+    )}
+    <p class:list={["mx-auto mb-4 w-full max-w-[600px] text-[15px] leading-relaxed text-his-text-secondary", hasLongDescription && "hidden sm:block"]}>
       {frontmatter.description}
     </p>
 
@@ -282,3 +294,36 @@ const audioSource = getEpisodeAudioSource(frontmatter.episodeLink);
   {hasVideoPlayback && <script src="../scripts/video-player.ts"></script>}
   <script src="../scripts/episode.ts"></script>
 </Layout>
+
+<style>
+  .episode-description-disclosure summary {
+    list-style: none;
+    cursor: pointer;
+  }
+
+  .episode-description-disclosure summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .episode-description-disclosure:not([open]) .episode-description-copy {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  .episode-description-disclosure[open] .episode-description-more,
+  .episode-description-disclosure:not([open]) .episode-description-less {
+    display: none;
+  }
+
+  .episode-description-disclosure[open] .episode-description-less {
+    display: block;
+  }
+
+  .episode-description-disclosure summary:focus-visible {
+    outline: 2px solid var(--color-his-green);
+    outline-offset: 3px;
+    border-radius: 2px;
+  }
+</style>
