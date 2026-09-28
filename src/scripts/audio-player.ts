@@ -364,13 +364,6 @@ function initAudioPlayer() {
     document.addEventListener("click", handleGlobalClick);
     window.addEventListener("hashchange", () => stageHashTime({ scroll: true }));
     document.addEventListener("his:watch-intent", () => audio?.pause());
-    document.addEventListener("his:timestamp-intent", (event) => {
-        if (isWatchView()) return;
-        const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
-        if (!Number.isFinite(seconds)) return;
-        setAudioPosition(seconds);
-        playFrom(seconds);
-    });
     document.addEventListener("his:video-position", (event) => {
         const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
         if (Number.isFinite(seconds)) setAudioPosition(seconds);

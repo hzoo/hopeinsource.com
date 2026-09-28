@@ -74,6 +74,7 @@ function embedUrlAt(seconds: number, shouldPlay: boolean): string {
 function loadVideoAt(seconds: number, shouldPlay: boolean) {
     if (!videoIframe || !videoEmbedSrc || !Number.isFinite(seconds) || seconds < 0) return;
     requestedTranscriptTime = seconds;
+    document.dispatchEvent(new CustomEvent("his:video-position", { detail: { seconds } }));
     const src = embedUrlAt(seconds, shouldPlay);
     if (videoIframe.getAttribute("src") === src) return;
     videoIframe.src = src;
@@ -128,13 +129,6 @@ function initVideoPlayer() {
     modeWatchButton?.addEventListener("click", () => setMode("watch"));
     modeReadButton?.addEventListener("click", () => setMode("read"));
     document.addEventListener("his:audio-intent", () => setMode("read"));
-    document.addEventListener("his:timestamp-intent", (event) => {
-        if (mode !== "watch") return;
-        const seconds = (event as CustomEvent<{ seconds: number }>).detail?.seconds;
-        if (!Number.isFinite(seconds)) return;
-        loadVideoAt(seconds, true);
-    });
-
     document.addEventListener("click", (event) => {
         if (mode !== "watch") return;
         const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#t="]');
