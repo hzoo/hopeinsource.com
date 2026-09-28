@@ -429,10 +429,8 @@ body:has(#home-layout-root) #theme-toggle {
     display: none !important;
   }
 
-  #episode-shell[data-video-mode="watch"] #audio-player-container {
-    visibility: hidden;
-    opacity: 0;
-    pointer-events: none;
+  #episode-shell[data-video-mode="watch"] .audio-player-dock {
+    display: none;
   }
 
   #msg-0 {
@@ -1260,6 +1258,10 @@ body:has(#home-layout-root) #theme-toggle {
 
 
 @media (min-width: 1200px) {
+  .home-secondary #home-footer {
+    display: none;
+  }
+
   .home-root {
     display: grid;
     grid-template-columns: minmax(18rem, 32rem) minmax(0, 1fr);

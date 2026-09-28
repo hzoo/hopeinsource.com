@@ -8,7 +8,7 @@ const { src, title } = Astro.props;
 ---
 
 <div
-  class="fixed bottom-3 sm:bottom-4 left-1/2 lg:left-[calc(50%+160px)] z-40 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2rem)] max-w-xl -translate-x-1/2 rounded-2xl border border-his-text-tertiary/50 bg-his-hover/95 text-his-text backdrop-blur-sm transition-[opacity,transform] duration-200"
+  class="relative z-40 mx-auto my-2 w-[calc(100%-1.5rem)] sm:w-[calc(100%-2rem)] max-w-xl rounded-2xl border border-his-text-tertiary/50 bg-his-hover text-his-text"
   id="audio-player-container"
   data-src={src}
   data-audio-state="idle"

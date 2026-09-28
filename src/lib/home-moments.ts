@@ -4,11 +4,33 @@ export interface HomeMoment {
   speaker: string;
   text: string;
   side: "sent" | "received";
+  context?: {
+    before: HomeMomentLine;
+    after: HomeMomentLine;
+  };
+}
+
+interface HomeMomentLine {
+  seconds: number;
+  speaker: string;
+  text: string;
+  side: "sent" | "received";
 }
 
 // Exact sentences from the linked transcript messages. Keep the anchor at the
 // original message even when the visible sentence is only part of that message.
 export const HOME_MOMENTS: HomeMoment[] = [
+  {
+    slug: "totems",
+    seconds: 1529,
+    speaker: "Xiq",
+    text: "Words are totems. Yes. Yes, yes, yes.",
+    side: "sent",
+    context: {
+      before: { seconds: 1515, speaker: "Henry", text: "But it's literally a totem. Words work like that too.", side: "received" },
+      after: { seconds: 1532, speaker: "Henry", text: "Oh, that's a good one.", side: "received" },
+    },
+  },
   {
     slug: "totems",
     seconds: 230,
@@ -43,6 +65,10 @@ export const HOME_MOMENTS: HomeMoment[] = [
     speaker: "Drew",
     text: "But in the physical world, you can be silent and present at the same time.",
     side: "received",
+    context: {
+      before: { seconds: 807, speaker: "Drew", text: "And there's no like silence paired with presence.", side: "received" },
+      after: { seconds: 835, speaker: "Henry", text: "So this reminds me of a game that I play a lot. It's called The Mind.", side: "sent" },
+    },
   },
   {
     slug: "emotional",
@@ -50,6 +76,10 @@ export const HOME_MOMENTS: HomeMoment[] = [
     speaker: "Omar",
     text: "I think emotions are a big deal in programming.",
     side: "sent",
+    context: {
+      before: { seconds: 352, speaker: "Omar", text: "we're just trying to find the right answer to do things.", side: "sent" },
+      after: { seconds: 375, speaker: "Henry", text: "Yeah. So it kinda makes me think of how in tech, I guess maybe the dominant thinking is sort of assumed to be the right way or the neutral thing.", side: "received" },
+    },
   },
   {
     slug: "snow",
@@ -80,13 +110,6 @@ export const HOME_MOMENTS: HomeMoment[] = [
     side: "received",
   },
   {
-    slug: "totems",
-    seconds: 1529,
-    speaker: "Xiq",
-    text: "Words are totems. Yes. Yes, yes, yes.",
-    side: "sent",
-  },
-  {
     slug: "salience",
     seconds: 2288,
     speaker: "Sonya",
@@ -99,6 +122,10 @@ export const HOME_MOMENTS: HomeMoment[] = [
     speaker: "Michael",
     text: "I was struck by the fact that silence is a critical part of human communication.",
     side: "received",
+    context: {
+      before: { seconds: 26, speaker: "Henry", text: "Maybe we can start with one of your posts called Impossible Silences.", side: "sent" },
+      after: { seconds: 45, speaker: "Michael", text: "Two bodies in proximity being silent before one another are still having a kind of meaningful exchange as it were between the two of them.", side: "received" },
+    },
   },
 ];
 

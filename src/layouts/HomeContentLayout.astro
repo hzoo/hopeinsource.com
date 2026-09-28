@@ -76,8 +76,12 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
               <Subscribe />
             </div>
             <p class="m-0">
-              with <a href="https://henryzoo.com/living-out-in-faith">Henry</a> & <a href="https://nadia.xyz/public-faith">Nadia</a>
+              Hosts <a href="https://nadia.xyz/public-faith">Nadia</a> & <a href="https://henryzoo.com/living-out-in-faith">Henry</a>
             </p>
+            <p class="m-0">
+              Art Jessica Han <span aria-hidden="true">·</span> Music <a href="https://twitter.com/kenwheeler">Ken Wheeler</a>
+            </p>
+            <p class="m-0"><a href="https://github.com/sponsors/hzoo">Sponsor</a></p>
           </div>
           {latestEpisode && (
             <div class="brand-latest">
@@ -116,8 +120,6 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
       <slot />
     </main>
 
-    <div id="home-footer">
-      <Footer compact />
-    </div>
+    {!isHome && <div id="home-footer"><Footer compact /></div>}
   </div>
 </Layout>

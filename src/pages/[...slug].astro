@@ -242,7 +242,7 @@ const hasLongDescription = hasBody && frontmatter.description.length > 135;
     <div id="episode-scroll-container" class="flex-1 overflow-y-auto">
     <main
       id="episode-content-shell"
-      class="mx-auto px-3 sm:px-4 pt-4 pb-28 sm:pt-6 sm:pb-32 flex flex-col lg:max-w-4xl"
+      class="mx-auto px-3 sm:px-4 pt-4 pb-4 sm:pt-6 flex flex-col lg:max-w-4xl"
       data-video-layout={hasVideoPlayback ? "true" : "false"}
       data-video-mode={hasVideoPlayback ? "read" : undefined}
     >
@@ -288,7 +288,9 @@ const hasLongDescription = hasBody && frontmatter.description.length > 135;
     </main>
     <Footer compact={!hasBody} />
     </div>
-    <AudioPlayer title={episodeTitle} src={audioSource} />
+    <div class="audio-player-dock shrink-0 border-t border-his-hr bg-his-bg">
+      <AudioPlayer title={episodeTitle} src={audioSource} />
+    </div>
   </div>
 
   {hasVideoPlayback && <script src="../scripts/video-player.ts"></script>}
