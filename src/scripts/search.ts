@@ -296,25 +296,12 @@ function createModal() {
 
             closeModal();
 
-            // If same page, manually scroll to hash target
-            if (url.pathname === window.location.pathname && hash) {
-                const targetId = hash.slice(1); // Remove #
-                const target = document.getElementById(targetId);
-                if (target) {
-                    // Small delay to let modal close animation complete
-                    setTimeout(() => {
-                        target.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                        // Trigger highlight animation if message
-                        if (target.classList.contains('message')) {
-                            target.classList.add('highlight-flash');
-                            setTimeout(() => target.classList.remove('highlight-flash'), 1500);
-                        }
-                    }, 100);
-                }
-                // Update URL hash
+            const samePage = url.origin === window.location.origin
+                && url.pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '');
+            if (samePage && hash) {
                 history.pushState(null, '', hash);
+                window.dispatchEvent(new HashChangeEvent('hashchange'));
             } else {
-                // Different page - do normal navigation
                 window.location.href = link.href;
             }
         }
