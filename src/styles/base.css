@@ -395,7 +395,7 @@ body:has(#home-layout-root) #theme-toggle {
 
   #chat-header #episode-video-shell {
     overflow: hidden;
-    max-height: min(58vh, 560px);
+    max-height: min(70vh, 650px);
     opacity: 1;
     visibility: visible;
     margin-top: 0;
