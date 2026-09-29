@@ -4,7 +4,6 @@ if (stage) {
   const cards = Array.from(stage.querySelectorAll<HTMLElement>('[data-moment]'));
   const status = stage.querySelector<HTMLElement>('[data-status]');
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const hoverCapable = window.matchMedia('(hover: hover) and (pointer: fine)');
 
   if (cards.length > 1) {
     let active = 0;
@@ -18,8 +17,7 @@ if (stage) {
 
     const syncPlayback = () => {
       if (!progress) return;
-      const paused = userPaused || pointerDown || !inView || document.hidden
-        || (hoverCapable.matches && stage.matches(':hover')) || focusedByKeyboard();
+      const paused = userPaused || pointerDown || !inView || document.hidden || focusedByKeyboard();
       if (paused) progress.pause();
       else progress.play();
     };
@@ -97,8 +95,6 @@ if (stage) {
     stage.addEventListener('pointerdown', () => { pointerDown = true; syncPlayback(); });
     window.addEventListener('pointerup', () => { pointerDown = false; syncPlayback(); });
     window.addEventListener('pointercancel', () => { pointerDown = false; syncPlayback(); });
-    stage.addEventListener('pointerenter', syncPlayback);
-    stage.addEventListener('pointerleave', syncPlayback);
     stage.addEventListener('focusin', syncPlayback);
     stage.addEventListener('focusout', () => queueMicrotask(syncPlayback));
     document.addEventListener('visibilitychange', syncPlayback);
