@@ -5,24 +5,16 @@ import Subscribe from "@/components/Subscribe.astro";
 import Search from "@/components/Search.astro";
 import { getImage } from "astro:assets";
 import his_cover from "@/assets/his.jpg";
-import { getEpisodeData, type EpisodeData } from "@/lib/episodes";
-import {
-  formatEpisodeDate,
-  formatEpisodeDateValue,
-} from "@/lib/dates";
 
 interface Props {
   page: "home" | "episodes";
   title?: string;
   description?: string;
-  episodeData?: EpisodeData;
 }
 
-const { page, title, description, episodeData } = Astro.props;
+const { page, title, description } = Astro.props;
 const isHome = page === "home";
 const slug = isHome ? "/" : "/episodes";
-const { episodes } = episodeData ?? await getEpisodeData();
-const latestEpisode = episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0];
 const cover = await getImage({
   src: his_cover,
   width: 472,
@@ -45,7 +37,7 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             ? <h1 class="brand-title m-0">Hope in Source</h1>
             : <span class="brand-title m-0">Hope in Source</span>}
           <picture class="contents">
-            <source media={isHome ? "(min-width: 1120px)" : "(min-width: 1200px)"} type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
+            <source media={isHome ? "(min-width: 960px)" : "(min-width: 1200px)"} type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
             <img
               src={isHome ? smallCover : emptyImage}
               alt="Hope in Source Cover Art"
@@ -83,19 +75,6 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             </p>
             <p class="m-0"><a href="https://github.com/sponsors/hzoo">Sponsor</a></p>
           </div>
-          {latestEpisode && (
-            <div class="brand-latest">
-              <a href={`/${latestEpisode.slug}`} class="brand-latest-link">
-                {latestEpisode.episodeTitle}
-                <span aria-hidden="true" class="brand-latest-arrow">&nearr;</span>
-              </a>
-              <p class="brand-latest-meta">
-                <time datetime={formatEpisodeDateValue(latestEpisode.data.date)}>
-                  {formatEpisodeDate(latestEpisode.data.date)}
-                </time>
-              </p>
-            </div>
-          )}
         </div>
       </div>
     </header>

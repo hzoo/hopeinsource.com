@@ -3,6 +3,7 @@ export interface HomeMoment {
   seconds: number;
   speaker: string;
   text: string;
+  preview?: string;
   side: "sent" | "received";
   context?: {
     before: HomeMomentLine;
@@ -21,10 +22,23 @@ interface HomeMomentLine {
 // original message even when the visible sentence is only part of that message.
 export const HOME_MOMENTS: HomeMoment[] = [
   {
+    slug: "totems",
+    seconds: 1539,
+    speaker: "Xiq",
+    text: "Words are totems. Definitely. If you know the etymology. If you don't, you're just looking at the top of the totem. You don't know where it comes from.",
+    preview: "Words are totems. Definitely.",
+    side: "received",
+    context: {
+      before: { seconds: 1515, speaker: "Henry", text: "Words work like that too.", side: "sent" },
+      after: { seconds: 1548, speaker: "Xiq", text: "Wow. Cool. I wanna tweet that.", side: "received" },
+    },
+  },
+  {
     slug: "overparticipation",
     seconds: 606,
     speaker: "Nadia",
     text: "Like, if you were to publish something online or even if you're just like reading news articles or whatever. I mean, we're all familiar with this idea that, \"don't read the comments section\" and you see just sort of all sorts of people come out of the woodwork in the comment section.",
+    preview: "\"don't read the comments section\"",
     side: "received",
     context: {
       before: { seconds: 583, speaker: "Henry", text: "I liked your point about the whole post comment model of social media, every single website essentially has that.", side: "sent" },
@@ -64,6 +78,7 @@ export const HOME_MOMENTS: HomeMoment[] = [
     seconds: 817,
     speaker: "Drew",
     text: "But in the physical world, you can be silent and present at the same time.",
+    preview: "But in the physical world, you can be silent and present at the same time.",
     side: "received",
     context: {
       before: { seconds: 807, speaker: "Drew", text: "And there's no like silence paired with presence. It's like people would notice if you, if you were silent and on Twitter, then it would be perceived as an absence.", side: "received" },
@@ -75,6 +90,7 @@ export const HOME_MOMENTS: HomeMoment[] = [
     seconds: 362,
     speaker: "Omar",
     text: "And I think often there are these aesthetic choices or there are these emotional choices or there are different goals people have. I think emotions are a big deal in programming. I think most of the work in programming is managing your own feelings about it.",
+    preview: "I think emotions are a big deal in programming.",
     side: "received",
     context: {
       before: { seconds: 352, speaker: "Omar", text: "Often one of the problems I have with a lot of discussion of programming languages or libraries or whatever, is this idea that we're just trying to find the right answer to do things.", side: "received" },
@@ -121,6 +137,7 @@ export const HOME_MOMENTS: HomeMoment[] = [
     seconds: 30,
     speaker: "Michael",
     text: "Various things have led me over the years to think about silence. And in this particular case, I was struck by the fact that silence is a critical part of human communication. It's meaningful. This is I think the important word, right?",
+    preview: "It's meaningful. This is I think the important word, right?",
     side: "received",
     context: {
       before: { seconds: 26, speaker: "Henry", text: "Maybe we can start with one of your posts called Impossible Silences.", side: "sent" },

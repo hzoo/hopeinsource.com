@@ -7,7 +7,7 @@ const episodeData = await getEpisodeData();
 const { archiveGroups } = episodeData;
 ---
 
-<HomeContentLayout page="episodes" title="All Episodes" description="Browse every Hope in Source episode by season." episodeData={episodeData}>
+<HomeContentLayout page="episodes" title="All Episodes" description="Browse every Hope in Source episode by season.">
   <section id="home-archive" aria-label="Episodes by season">
     <div class="space-y-4 sm:space-y-8">
       {archiveGroups.map((group, groupIndex) => {

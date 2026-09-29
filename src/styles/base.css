@@ -1137,56 +1137,13 @@ body:has(#home-layout-root) #theme-toggle {
   text-underline-offset: 0.15em;
 }
 
-#home-brand .brand-latest {
-  width: min(18rem, 88%);
-  margin-top: 0.95rem;
-  padding-top: 0.7rem;
-  border-top: 1px solid color-mix(in oklab, var(--color-his-hr) 72%, transparent);
-}
-
-#home-brand .brand-latest-meta {
-  margin: 0;
-  font-size: 0.66rem;
-  line-height: 1.45;
-  color: var(--color-his-text-tertiary);
-  letter-spacing: 0.02em;
-}
-
-#home-brand .brand-latest-link {
-  display: inline-flex;
-  align-items: baseline;
-  justify-content: center;
-  gap: 0.28rem;
-  color: var(--color-his-text);
-  font-size: 0.88rem;
-  line-height: 1.35;
-  text-decoration: none;
-}
-
-#home-brand .brand-latest-link:hover {
-  color: var(--color-his-green);
-}
-
-#home-brand .brand-latest-arrow {
-  font-size: 0.72rem;
-  color: var(--color-his-text-tertiary);
-}
-
-#home-brand .brand-latest-meta {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.35rem;
-  margin-top: 0.18rem;
-}
-
 #home-top-controls {
   max-width: 52rem;
   margin: 0 auto;
   width: 100%;
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 960px) {
   #home-top-controls {
     padding-right: 3rem;
   }
@@ -1247,14 +1204,14 @@ body:has(#home-layout-root) #theme-toggle {
   }
 }
 
-@media (min-width: 1120px) {
+@media (min-width: 960px) {
   .home-secondary #home-footer {
     display: none;
   }
 
   .home-root {
     display: grid;
-    grid-template-columns: minmax(18rem, 32rem) minmax(0, 1fr);
+    grid-template-columns: minmax(18rem, 32%) minmax(0, 1fr);
     column-gap: 2rem;
     row-gap: 1rem;
     align-items: start;
@@ -1319,10 +1276,6 @@ body:has(#home-layout-root) #theme-toggle {
     width: min(14rem, 68%);
   }
 
-  #home-brand .brand-latest {
-    width: min(16rem, 72%);
-  }
-
   #home-top-controls,
   #home-layout-stage,
   #home-footer {
@@ -1347,7 +1300,7 @@ body:has(#home-layout-root) #theme-toggle {
   }
 }
 
-@media (min-width: 1120px) and (max-width: 1199px) {
+@media (min-width: 960px) and (max-width: 1199px) {
   .home-secondary.home-root {
     display: flex;
     flex-direction: column;
