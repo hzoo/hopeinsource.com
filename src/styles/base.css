@@ -561,6 +561,11 @@ body:has(#home-layout-root) #theme-toggle {
     border-bottom-right-radius: 0.35rem;
   }
 
+  .message-sent.consecutive:not(.consecutive-start) .message-bubble,
+  .message-system.consecutive:not(.consecutive-start) .message-bubble {
+    border-top-right-radius: 0.35rem;
+  }
+
   .message-system .message-bubble {
     background: color-mix(in oklab, var(--color-his-chat-bg) 88%, var(--color-flexoki-cyan-400));
     border-bottom-right-radius: 0.35rem;
@@ -574,16 +579,20 @@ body:has(#home-layout-root) #theme-toggle {
     border-bottom-left-radius: 0.35rem;
   }
 
+  .message-received.consecutive:not(.consecutive-start) .message-bubble {
+    border-top-left-radius: 0.35rem;
+  }
+
   .message-time {
-    display: inline-block;
+    float: right;
     margin-left: 0.7rem;
+    margin-top: 0.3em;
     color: color-mix(in oklab, var(--color-his-text-secondary) 75%, var(--color-his-text-tertiary));
     font-size: 0.72rem;
     font-variant-numeric: tabular-nums;
-    line-height: 1;
+    line-height: 1.35;
     white-space: nowrap;
     text-decoration: none;
-    vertical-align: 0.15em;
     transition: color 150ms ease;
   }
 

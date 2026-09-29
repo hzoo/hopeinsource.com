@@ -11,11 +11,17 @@ const moments = conversations.toSorted((a, b) => {
   const episodeB = episodesBySlug.get(b.slug);
   return (episodeB?.data.date.getTime() ?? 0) - (episodeA?.data.date.getTime() ?? 0)
     || (episodeB?.epNumber ?? 0) - (episodeA?.epNumber ?? 0);
-}).map((moment) => ({
-  ...moment,
-  episodeTitle: episodesBySlug.get(moment.slug)?.episodeTitle ?? moment.slug,
-  time: formatMomentTime(moment.seconds),
-}));
+}).map((moment) => {
+  const groupedBefore = moment.context?.before.speaker === moment.speaker;
+  const groupedAfter = moment.context?.after?.speaker === moment.speaker;
+  return {
+    ...moment,
+    episodeTitle: episodesBySlug.get(moment.slug)?.episodeTitle ?? moment.slug,
+    time: formatMomentTime(moment.seconds),
+    groupedBefore,
+    groupedAfter,
+  };
+});
 const initialSlots = moments.map((_, index) =>
   index === 0 ? "focus" : index === 1 ? "up-next" : index === moments.length - 1 ? "previous" : undefined
 );
@@ -37,18 +43,18 @@ const initialSlots = moments.map((_, index) =>
           data-preview
           aria-label={`Show conversation from ${moment.episodeTitle}`}
         >
+          <span class="message-speaker"><strong>{moment.speaker}</strong></span>
+          <span class="message-bubble">{moment.preview ?? moment.text}<span class="message-time">{moment.time}</span></span>
           <span class="home-moment-teaser-label">
             <span data-teaser-direction>{index === 1 ? "Up next" : "Previous"}</span>
             <span aria-hidden="true">·</span>
             <span class="home-moment-teaser-title">{moment.episodeTitle}</span>
           </span>
-          <span class="message-speaker"><strong>{moment.speaker}</strong></span>
-          <span class="message-bubble">{moment.preview ?? moment.text}<span class="message-time">{moment.time}</span></span>
         </button>
         <div class="home-moment-conversation">
           {moment.context && (
             <a
-              class:list={["home-moment-context", "message", moment.context.before.side === "sent" ? "message-sent" : "message-received"]}
+              class:list={["home-moment-context", "message", moment.context.before.side === "sent" ? "message-sent" : "message-received", moment.groupedBefore && "consecutive consecutive-start"]}
               href={`/${moment.slug}#msg-${moment.context.before.seconds}`}
             >
               <span class="message-speaker"><strong>{moment.context.before.speaker}</strong></span>
@@ -56,7 +62,13 @@ const initialSlots = moments.map((_, index) =>
             </a>
           )}
           <a
-            class:list={["home-moment-link", "message", moment.side === "sent" ? "message-sent" : "message-received", moment.context?.before.speaker === moment.speaker && "hide-speaker"]}
+            class:list={[
+              "home-moment-link", "message", moment.side === "sent" ? "message-sent" : "message-received",
+              (moment.groupedBefore || moment.groupedAfter) && "consecutive",
+              !moment.groupedBefore && moment.groupedAfter && "consecutive-start",
+              moment.groupedBefore && !moment.groupedAfter && "consecutive-end",
+              moment.groupedBefore && "hide-speaker",
+            ]}
             href={`/${moment.slug}#msg-${moment.seconds}`}
             aria-label={`${moment.speaker} in ${moment.episodeTitle}: ${moment.text} At ${moment.time}.`}
           >
@@ -65,7 +77,7 @@ const initialSlots = moments.map((_, index) =>
           </a>
           {moment.context?.after && (
             <a
-              class:list={["home-moment-context", "message", moment.context.after.side === "sent" ? "message-sent" : "message-received", moment.context.after.speaker === moment.speaker && "hide-speaker"]}
+              class:list={["home-moment-context", "message", moment.context.after.side === "sent" ? "message-sent" : "message-received", moment.groupedAfter && "consecutive consecutive-end hide-speaker"]}
               href={`/${moment.slug}#msg-${moment.context.after.seconds}`}
             >
               <span class="message-speaker"><strong>{moment.context.after.speaker}</strong></span>
@@ -150,7 +162,8 @@ const initialSlots = moments.map((_, index) =>
     display: flex;
     align-items: baseline;
     gap: 0.3rem;
-    margin-bottom: 0.45rem;
+    margin-top: 0.4rem;
+    padding-inline: 0.25rem;
     color: var(--color-his-text-tertiary);
     font-size: 0.68rem;
     line-height: 1.35;
@@ -180,7 +193,6 @@ const initialSlots = moments.map((_, index) =>
   .home-moment[data-slot="focus"] .home-moment-link {
     position: relative;
     z-index: 1;
-    margin-block: 0.45rem;
   }
 
   .home-moment-actions { display: none; }
@@ -277,7 +289,7 @@ const initialSlots = moments.map((_, index) =>
     outline-offset: 3px;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 959px) {
     #home-moments { min-height: 0; padding-block: 0.75rem 1.5rem; touch-action: pan-y; }
     .home-moment .message-bubble { font-size: 0.94rem; }
     .home-moment[data-slot="focus"] { width: 96%; height: auto; }
