@@ -1,0 +1,73 @@
+---
+import { formatEpisodeDate } from "@/lib/dates";
+import type { EnrichedEpisode } from "@/lib/episodes";
+
+interface Props {
+  episode: EnrichedEpisode;
+  showDescription?: boolean;
+}
+
+const { episode, showDescription = false } = Astro.props;
+const description = episode.data.description;
+const previewText = description.match(/^([^?]+\?)/)?.[1] ?? description;
+---
+
+<a class="archive-episode" href={`/${episode.slug}`}>
+  <span class="archive-episode-number">{episode.epNumber}</span>
+  <span class="archive-episode-body">
+    <span class="archive-episode-title">{episode.episodeTitle}</span>
+    <span class="archive-episode-meta">
+      {episode.guestDisplays.length > 0 && <span>{episode.guestDisplays.map((guest) => guest.name).join(", ")}</span>}
+      <span>{formatEpisodeDate(episode.data.date)}</span>
+      {episode.data.time && <span>{episode.data.time} min</span>}
+    </span>
+    {showDescription && <span class="archive-episode-description">{previewText}</span>}
+  </span>
+</a>
+
+<style>
+  .archive-episode {
+    display: grid;
+    grid-template-columns: 1.7rem minmax(0, 1fr);
+    gap: 0.4rem;
+    min-width: 0;
+    padding: 0.55rem 0.65rem;
+    border-radius: 0.55rem;
+    color: var(--color-his-text);
+    text-decoration: none;
+  }
+  .archive-episode:hover { background: var(--color-his-hover); color: var(--color-his-text); }
+  .archive-episode:focus-visible { outline: 2px solid var(--color-his-green); outline-offset: -2px; }
+  .archive-episode-body { display: block; min-width: 0; }
+  .archive-episode-title { display: block; font-size: 1rem; font-weight: 550; line-height: 1.4; }
+  .archive-episode:hover .archive-episode-title { color: var(--color-his-green); }
+  .archive-episode-number {
+    padding-top: 0.2rem;
+    color: var(--color-his-text-tertiary);
+    font-size: 0.72rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .archive-episode-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.1rem 0.7rem;
+    margin-top: 0.05rem;
+    color: var(--color-his-text-tertiary);
+    font-size: 0.8125rem;
+    line-height: 1.4;
+  }
+  .archive-episode-description {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    margin-top: 0.25rem;
+    color: var(--color-his-text-secondary);
+    font-size: 0.875rem;
+    line-height: 1.4;
+  }
+  @media (max-width: 640px) {
+    .archive-episode { padding-inline: 0.4rem; }
+  }
+</style>

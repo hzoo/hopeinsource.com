@@ -1344,69 +1344,6 @@ body:has(#home-layout-root) #theme-toggle {
   margin: 0 auto;
 }
 
-.season-heading {
-  position: sticky;
-  top: 0.55rem;
-  z-index: 6;
-  padding: 0.2rem 0;
-  background: linear-gradient(
-    to bottom,
-    color-mix(in oklab, var(--color-his-bg) 96%, transparent) 72%,
-    transparent
-  );
-}
-
-.season-summary {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.6rem;
-  min-height: 44px;
-  cursor: pointer;
-  list-style: none;
-}
-
-.season-summary::-webkit-details-marker {
-  display: none;
-}
-
-.season-summary-meta {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.season-count {
-  font-size: 0.68rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--color-his-text-tertiary);
-}
-
-.season-caret {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 1rem;
-  height: 1rem;
-  border-radius: 9999px;
-  color: var(--color-his-text-tertiary);
-  transition: transform 0.2s ease, color 0.15s ease;
-}
-
-.season-block[open] .season-caret {
-  transform: rotate(45deg);
-  color: var(--color-his-green);
-}
-
-.season-summary:hover .season-caret {
-  color: var(--color-his-green);
-}
-
-.season-episodes {
-  margin-top: 0.2rem;
-}
-
 .ep-badge {
   display: inline-flex;
   align-items: center;
