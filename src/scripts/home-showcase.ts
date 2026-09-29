@@ -7,7 +7,9 @@ if (stage) {
 
   if (cards.length > 1) {
     let active = 0;
-    let progress: Animation | null = null;
+    let timer: number | null = null;
+    let remainingMs = 0;
+    let startedAt = 0;
     let userPaused = false;
     let pointerDown = false;
     let inView = false;
@@ -16,33 +18,34 @@ if (stage) {
       stage.contains(document.activeElement) && document.activeElement?.matches(':focus-visible');
 
     const syncPlayback = () => {
-      if (!progress) return;
       const paused = userPaused || pointerDown || !inView || document.hidden || focusedByKeyboard();
-      if (paused) progress.pause();
-      else progress.play();
+      if (paused || reducedMotion.matches) {
+        if (timer !== null) {
+          window.clearTimeout(timer);
+          timer = null;
+          remainingMs = Math.max(0, remainingMs - (performance.now() - startedAt));
+        }
+      } else if (timer === null) {
+        startedAt = performance.now();
+        timer = window.setTimeout(() => {
+          timer = null;
+          show(active + 1, 'auto');
+        }, remainingMs);
+      }
     };
 
-    const startProgress = () => {
-      progress?.cancel();
-      progress = null;
-      if (reducedMotion.matches) return;
-
+    const startTimer = () => {
+      if (timer !== null) window.clearTimeout(timer);
+      timer = null;
       const card = cards[active];
-      const fill = card.querySelector<HTMLElement>('[data-progress-fill]');
-      if (!fill) return;
       const text = Array.from(card.querySelectorAll<HTMLElement>('.home-moment-context .message-bubble, .home-moment-text'))
         .map((element) => element.textContent ?? '').join(' ');
       const words = text.match(/\S+/g)?.length ?? 0;
-      const duration = Math.min(30_000, Math.max(14_000, words * 330 + 4_000));
-      progress = fill.animate(
-        [{ transform: 'scaleX(0)' }, { transform: 'scaleX(1)' }],
-        { duration, easing: 'linear', fill: 'forwards' },
-      );
-      progress.onfinish = () => show(active + 1, 'auto');
+      remainingMs = Math.min(30_000, Math.max(14_000, words * 330 + 4_000));
       syncPlayback();
     };
 
-    const show = (index: number, reason: 'auto' | 'next' | 'previous' | 'preview') => {
+    const show = (index: number, reason: 'auto' | 'next' | 'preview') => {
       active = (index + cards.length) % cards.length;
       cards.forEach((card, cardIndex) => {
         const distance = (cardIndex - active + cards.length) % cards.length;
@@ -68,11 +71,11 @@ if (stage) {
           { duration: 220, easing: 'cubic-bezier(0.215, 0.61, 0.355, 1)' },
         );
       }
-      startProgress();
+      startTimer();
     };
 
     stage.addEventListener('click', (event) => {
-      const button = (event.target as Element).closest<HTMLButtonElement>('[data-preview], [data-previous], [data-pause], [data-next]');
+      const button = (event.target as Element).closest<HTMLButtonElement>('[data-preview], [data-pause], [data-next]');
       if (!button) return;
       if (button.hasAttribute('data-pause')) {
         userPaused = !userPaused;
@@ -88,7 +91,6 @@ if (stage) {
       const card = button.closest<HTMLElement>('[data-moment]');
       const index = card ? cards.indexOf(card) : active;
       if (button.hasAttribute('data-preview')) show(index, 'preview');
-      else if (button.hasAttribute('data-previous')) show(active - 1, 'previous');
       else show(active + 1, 'next');
     });
 
@@ -98,7 +100,7 @@ if (stage) {
     stage.addEventListener('focusin', syncPlayback);
     stage.addEventListener('focusout', () => queueMicrotask(syncPlayback));
     document.addEventListener('visibilitychange', syncPlayback);
-    reducedMotion.addEventListener('change', startProgress);
+    reducedMotion.addEventListener('change', startTimer);
 
     if ('IntersectionObserver' in window) {
       new IntersectionObserver(([entry]) => {
@@ -108,6 +110,6 @@ if (stage) {
     } else {
       inView = true;
     }
-    startProgress();
+    startTimer();
   }
 }
