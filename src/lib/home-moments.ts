@@ -7,7 +7,7 @@ export interface HomeMoment {
   side: "sent" | "received";
   context?: {
     before: HomeMomentLine;
-    after: HomeMomentLine;
+    after?: HomeMomentLine;
   };
 }
 
@@ -117,13 +117,21 @@ export const HOME_MOMENTS: HomeMoment[] = [
     speaker: "Melody",
     text: "things were always broken. But now they're just revealed.",
     side: "sent",
+    context: {
+      before: { seconds: 3530, speaker: "Henry", text: "And so it's pointing out how not useless, but how broken, maybe these systems were in the first place.", side: "received" },
+    },
   },
   {
     slug: "checkpoint",
     seconds: 1805,
     speaker: "Henry",
     text: "The whole point of all this is not so the AI would know. It's that I would know. If it doesn't help me understand, then what's the point?",
+    preview: "If it doesn't help me understand, then what's the point?",
     side: "received",
+    context: {
+      before: { seconds: 1760, speaker: "Melody", text: "It's like editing in post. You don't wanna assume that the AI's just gonna clean up your mess.", side: "sent" },
+      after: { seconds: 1817, speaker: "Melody", text: "The seed needs to be extremely high quality.", side: "sent" },
+    },
   },
   {
     slug: "salience",
@@ -131,6 +139,10 @@ export const HOME_MOMENTS: HomeMoment[] = [
     speaker: "Sonya",
     text: "The very substance of life itself is shape.",
     side: "sent",
+    context: {
+      before: { seconds: 2264, speaker: "Sonya", text: "Your shape is now welded to its shape.", side: "sent" },
+      after: { seconds: 2327, speaker: "Henry", text: "By programming, I by default want to make everything a list, which is just the simplest thing for the computer to understand.", side: "received" },
+    },
   },
   {
     slug: "silence",

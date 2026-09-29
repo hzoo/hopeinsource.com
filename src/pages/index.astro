@@ -4,19 +4,21 @@ import { getEpisodeData } from "@/lib/episodes";
 import { HOME_MOMENTS, formatMomentTime } from "@/lib/home-moments";
 
 const episodeData = await getEpisodeData();
-const episodeTitles = new Map(episodeData.episodes.map((episode) => [episode.slug, episode.episodeTitle]));
-const latestSlug = episodeData.episodes.toSorted((a, b) => b.data.date.getTime() - a.data.date.getTime())[0]?.slug;
+const episodesBySlug = new Map(episodeData.episodes.map((episode) => [episode.slug, episode]));
 const conversations = HOME_MOMENTS.filter((moment) => moment.context);
-const latestConversation = conversations.find((moment) => moment.slug === latestSlug);
-const orderedConversations = latestConversation
-  ? [latestConversation, ...conversations.filter((moment) => moment !== latestConversation)]
-  : conversations;
-const moments = orderedConversations.map((moment) => ({
+const moments = conversations.toSorted((a, b) => {
+  const episodeA = episodesBySlug.get(a.slug);
+  const episodeB = episodesBySlug.get(b.slug);
+  return (episodeB?.data.date.getTime() ?? 0) - (episodeA?.data.date.getTime() ?? 0)
+    || (episodeB?.epNumber ?? 0) - (episodeA?.epNumber ?? 0);
+}).map((moment) => ({
   ...moment,
-  episodeTitle: episodeTitles.get(moment.slug) ?? moment.slug,
+  episodeTitle: episodesBySlug.get(moment.slug)?.episodeTitle ?? moment.slug,
   time: formatMomentTime(moment.seconds),
 }));
-const initialSlots = ["focus", "upper-left", "lower-right"];
+const initialSlots = moments.map((_, index) =>
+  index === 0 ? "focus" : index === 1 ? "up-next" : index === moments.length - 1 ? "previous" : undefined
+);
 ---
 
 <HomeContentLayout page="home">
@@ -27,7 +29,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
         data-moment
         data-title={moment.episodeTitle}
         data-slot={initialSlots[index]}
-        hidden={index >= initialSlots.length}
+        hidden={!initialSlots[index]}
       >
         <button
           class:list={["home-moment-preview", "message", moment.side === "sent" ? "message-sent" : "message-received"]}
@@ -35,9 +37,14 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
           data-preview
           aria-label={`Show conversation from ${moment.episodeTitle}`}
         >
+          <span class="home-moment-teaser-label"><span data-teaser-direction>{index === 1 ? "Up next" : "Previous"}</span> <span aria-hidden="true">·</span> {moment.episodeTitle}</span>
           <span class="message-speaker"><strong>{moment.speaker}</strong></span>
           <span class="message-bubble">{moment.preview ?? moment.text}<span class="message-time">{moment.time}</span></span>
         </button>
+        <div class="home-moment-progress" aria-hidden="true">
+          <span class="home-progress-track"><span class="home-progress-fill" data-progress-fill></span></span>
+          <span class="home-progress-count">{String(index + 1).padStart(2, "0")} / {String(moments.length).padStart(2, "0")}</span>
+        </div>
         {moment.context && (
           <a
             class:list={["home-moment-context", "message", moment.context.before.side === "sent" ? "message-sent" : "message-received"]}
@@ -55,7 +62,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
           <span class="message-speaker"><strong>{moment.speaker}</strong></span>
           <span class="message-bubble"><span class="home-moment-text">{moment.text}</span><span class="message-time">{moment.time}</span></span>
         </a>
-        {moment.context && (
+        {moment.context?.after && (
           <a
             class:list={["home-moment-context", "message", moment.context.after.side === "sent" ? "message-sent" : "message-received", moment.context.after.speaker === moment.speaker && "hide-speaker"]}
             href={`/${moment.slug}#msg-${moment.context.after.seconds}`}
@@ -65,7 +72,14 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
           </a>
         )}
         <div class="home-moment-actions">
-          <button class="home-moment-next" type="button" data-next>Next conversation <span aria-hidden="true">→</span></button>
+          <div class="home-moment-transport" role="group" aria-label="Conversation controls">
+            <button type="button" data-previous aria-label="Previous conversation"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m14 5-7 7 7 7M7 12h11" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+            <button type="button" data-pause aria-label="Pause automatic advance" aria-pressed="false">
+              <svg class="icon-pause" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M9 6v12M15 6v12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" /></svg>
+              <svg class="icon-play" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 9 6-9 6V6Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" /></svg>
+            </button>
+            <button type="button" data-next aria-label="Next conversation"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m10 5 7 7-7 7m7-7H6" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" /></svg></button>
+          </div>
           <a class="home-moment-source" href={`/${moment.slug}#msg-${moment.seconds}`}>{moment.episodeTitle} <span aria-hidden="true">↗</span></a>
         </div>
       </div>
@@ -73,36 +87,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     <span class="sr-only" aria-live="polite" data-status></span>
   </section>
 
-  <script is:inline>
-    (() => {
-      const stage = document.getElementById("home-moments");
-      if (!stage) return;
-      const cards = Array.from(stage.querySelectorAll("[data-moment]"));
-      if (cards.length < 2) return;
-
-      const slots = ["focus", "upper-left", "lower-right"];
-      let active = 0;
-
-      const show = (index) => {
-        active = (index + cards.length) % cards.length;
-        cards.forEach((card, cardIndex) => {
-          const distance = (cardIndex - active + cards.length) % cards.length;
-          card.hidden = distance >= slots.length;
-          if (card.hidden) delete card.dataset.slot;
-          else card.dataset.slot = slots[distance];
-        });
-        stage.querySelector("[data-status]").textContent = `Showing ${cards[active].dataset.title}`;
-        cards[active].querySelector("[data-next]").focus({ preventScroll: true });
-      };
-
-      stage.addEventListener("click", (event) => {
-        const button = event.target.closest("[data-preview], [data-next]");
-        if (!button) return;
-        const index = cards.indexOf(button.closest("[data-moment]"));
-        show(button.hasAttribute("data-next") ? index + 1 : index);
-      });
-    })();
-  </script>
+  <script src="../scripts/home-showcase.ts"></script>
 </HomeContentLayout>
 
 <style>
@@ -117,6 +102,10 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     margin: 0 auto;
     padding-block: 3rem;
     overflow: hidden;
+  }
+
+  @media (min-width: 960px) {
+    #home-moments { min-height: max(40rem, calc(100svh - 5rem)); }
   }
 
   .home-moment {
@@ -149,7 +138,40 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     text-align: left;
     cursor: pointer;
   }
-  .home-moment:not([data-slot="focus"]) :is(.home-moment-link, .home-moment-context, .home-moment-actions) { display: none; }
+  .home-moment-teaser-label {
+    margin-bottom: 0.45rem;
+    color: var(--color-his-text-tertiary);
+    font-size: 0.68rem;
+    line-height: 1.35;
+  }
+  .home-moment:not([data-slot="focus"]) :is(.home-moment-link, .home-moment-context, .home-moment-actions, .home-moment-progress) { display: none; }
+  .home-moment-progress {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 1rem;
+  }
+  .home-progress-track {
+    flex: 1;
+    height: 3px;
+    overflow: hidden;
+    border-radius: 8px;
+    background: color-mix(in oklab, var(--color-his-green) 16%, var(--color-his-bg));
+  }
+  .home-progress-fill {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: var(--color-his-green);
+    transform: scaleX(0);
+    transform-origin: left center;
+  }
+  .home-progress-count {
+    color: var(--color-his-text-tertiary);
+    font-size: 0.7rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
   .home-moment-context { display: none; }
   .home-moment[data-slot="focus"] .home-moment-context {
     display: flex;
@@ -169,6 +191,7 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 0.75rem;
     width: 100%;
     margin-top: 0.3rem;
@@ -183,19 +206,24 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     text-decoration: none;
   }
   .home-moment-source:hover { text-decoration: underline; text-underline-offset: 2px; }
-  .home-moment-next {
-    flex: none;
-    min-height: 40px;
-    padding: 0 0.25rem;
+  .home-moment-transport { display: flex; align-items: center; gap: 0.1rem; }
+  .home-moment-transport button {
+    display: grid;
+    place-items: center;
+    width: 40px;
+    height: 40px;
+    padding: 0;
     border: 0;
     background: none;
     color: var(--color-his-text-secondary);
     font: inherit;
-    font-size: 0.75rem;
-    line-height: 1.4;
     cursor: pointer;
   }
-  .home-moment-next:hover { color: var(--color-his-green); }
+  .home-moment-transport button:hover { color: var(--color-his-green); }
+  .home-moment-transport svg { width: 18px; height: 18px; }
+  .home-moment-transport .icon-play { display: none; }
+  #home-moments[data-user-paused="true"] .home-moment-transport .icon-pause { display: none; }
+  #home-moments[data-user-paused="true"] .home-moment-transport .icon-play { display: block; }
 
   .home-moment[data-slot="focus"] {
     position: relative;
@@ -221,18 +249,23 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     background: color-mix(in oklab, var(--color-his-chat-bg) 45%, var(--color-his-bg));
   }
 
-  .home-moment[data-slot="upper-left"] {
+  .home-moment[data-slot="previous"] {
     top: 1%; left: 5%; max-width: 17rem;
   }
-  .home-moment[data-slot="lower-right"] {
+  .home-moment[data-slot="up-next"] {
     bottom: 1%; right: 1%; max-width: 17rem;
+  }
+
+  @media (min-width: 960px) {
+    .home-moment[data-slot="previous"] { top: calc(50% - 20rem); }
+    .home-moment[data-slot="up-next"] { bottom: calc(50% - 20rem); }
   }
 
   .home-moment :is(.home-moment-link, .home-moment-context, .home-moment-preview):focus-visible { outline: none; }
   .home-moment :is(.home-moment-link, .home-moment-context, .home-moment-preview):focus-visible .message-bubble {
     box-shadow: inset 0 0 0 2px var(--color-his-green);
   }
-  .home-moment :is(.home-moment-source, .home-moment-next):focus-visible {
+  .home-moment :is(.home-moment-source, .home-moment-transport button):focus-visible {
     outline: 2px solid var(--color-his-green);
     outline-offset: 3px;
   }
@@ -243,5 +276,10 @@ const initialSlots = ["focus", "upper-left", "lower-right"];
     .home-moment[data-slot="focus"] { width: 96%; }
     .home-moment[data-slot="focus"] .home-moment-actions { flex-direction: column-reverse; align-items: flex-end; gap: 0; }
     .home-moment:not([data-slot="focus"]) { display: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .home-moment:not([data-slot="focus"]) .message-bubble { transition: none; }
+    .home-moment-transport [data-pause] { display: none; }
   }
 </style>
