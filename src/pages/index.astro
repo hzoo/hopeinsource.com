@@ -37,7 +37,11 @@ const initialSlots = moments.map((_, index) =>
           data-preview
           aria-label={`Show conversation from ${moment.episodeTitle}`}
         >
-          <span class="home-moment-teaser-label"><span data-teaser-direction>{index === 1 ? "Up next" : "Previous"}</span> <span aria-hidden="true">·</span> {moment.episodeTitle}</span>
+          <span class="home-moment-teaser-label">
+            <span data-teaser-direction>{index === 1 ? "Up next" : "Previous"}</span>
+            <span aria-hidden="true">·</span>
+            <span class="home-moment-teaser-title">{moment.episodeTitle}</span>
+          </span>
           <span class="message-speaker"><strong>{moment.speaker}</strong></span>
           <span class="message-bubble">{moment.preview ?? moment.text}<span class="message-time">{moment.time}</span></span>
         </button>
@@ -137,10 +141,18 @@ const initialSlots = moments.map((_, index) =>
     cursor: pointer;
   }
   .home-moment-teaser-label {
+    display: flex;
+    align-items: baseline;
+    gap: 0.3rem;
     margin-bottom: 0.45rem;
     color: var(--color-his-text-tertiary);
     font-size: 0.68rem;
     line-height: 1.35;
+  }
+  .home-moment-teaser-title {
+    color: var(--color-his-text-secondary);
+    font-size: 0.75rem;
+    font-weight: 500;
   }
   .home-moment:not([data-slot="focus"]) :is(.home-moment-link, .home-moment-context, .home-moment-actions) { display: none; }
   .home-moment-context { display: none; }
@@ -172,13 +184,14 @@ const initialSlots = moments.map((_, index) =>
     align-items: center;
     gap: 0.2rem;
     min-height: 40px;
-    color: var(--color-his-green);
-    font-size: 0.75rem;
+    color: var(--color-his-text);
+    font-size: 0.8125rem;
+    font-weight: 500;
     line-height: 1.4;
     text-decoration: none;
   }
-  .home-moment-source svg { flex: none; width: 13px; height: 13px; }
-  .home-moment-source:hover { text-decoration: underline; text-underline-offset: 2px; }
+  .home-moment-source svg { flex: none; width: 13px; height: 13px; color: var(--color-his-green); }
+  .home-moment-source:hover { color: var(--color-his-green); text-decoration: underline; text-underline-offset: 2px; }
   .home-moment-transport { display: flex; align-items: center; gap: 0.1rem; }
   .home-moment-transport button {
     display: grid;
@@ -247,7 +260,8 @@ const initialSlots = moments.map((_, index) =>
     #home-moments { min-height: 0; padding-block: 0.75rem 1.5rem; }
     .home-moment .message-bubble { font-size: 0.94rem; }
     .home-moment[data-slot="focus"] { width: 96%; }
-    .home-moment[data-slot="focus"] .home-moment-actions { gap: 0.25rem; }
+    .home-moment[data-slot="focus"] .home-moment-actions { flex-direction: column-reverse; align-items: flex-end; gap: 0; }
+    .home-moment-source { min-height: 24px; }
     .home-moment:not([data-slot="focus"]) { display: none; }
   }
 
