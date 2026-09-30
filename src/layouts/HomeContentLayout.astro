@@ -2,8 +2,6 @@
 import Layout from "@/layouts/Layout.astro";
 import Footer from "@/components/Footer.astro";
 import Subscribe from "@/components/Subscribe.astro";
-import { getImage } from "astro:assets";
-import his_cover from "@/assets/his.jpg";
 
 interface Props {
   page: "home" | "episodes";
@@ -14,15 +12,8 @@ interface Props {
 const { page, title, description } = Astro.props;
 const isHome = page === "home";
 const slug = isHome ? "/" : "/episodes";
-const cover = await getImage({
-  src: his_cover,
-  width: 472,
-  height: 472,
-  widths: [128, 472, 944],
-  format: "webp",
-  quality: 90,
-});
-const smallCover = cover.srcSet.values.find((value) => value.descriptor === "128w")?.url ?? cover.src;
+const coverSrcSet = [128, 472, 944].map((width) => `/artwork/his-${width}.webp ${width}w`).join(", ");
+const smallCover = "/artwork/his-128.webp";
 const coverClass = "brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]";
 const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 ---
@@ -36,7 +27,7 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
             ? <h1 class="brand-title m-0">Hope in Source</h1>
             : <span class="brand-title m-0">Hope in Source</span>}
           <picture class="contents">
-            <source media={isHome ? "(min-width: 960px)" : "(min-width: 1200px)"} type="image/webp" srcset={cover.srcSet.attribute} sizes="352px" />
+            <source media={isHome ? "(min-width: 960px)" : "(min-width: 1200px)"} type="image/webp" srcset={coverSrcSet} sizes="352px" />
             <img
               src={isHome ? smallCover : emptyImage}
               alt="Hope in Source Cover Art"

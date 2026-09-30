@@ -1,4 +1,4 @@
-import { defineConfig } from "astro/config";
+import { defineConfig, passthroughImageService } from "astro/config";
 import { unified } from "@astrojs/markdown-remark";
 import tailwindcss from "@tailwindcss/vite";
 
@@ -30,7 +30,6 @@ export default defineConfig({
     chromeDevtoolsWorkspace: true,
   },
   image: {
-    responsiveStyles: true,
-    layout: 'constrained',
+    service: passthroughImageService(),
   },
 });
