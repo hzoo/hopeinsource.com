@@ -114,15 +114,15 @@ const hasLongDescription = hasBody && frontmatter.description.length > 135;
             {guests.length > 0 && (
               <span class="truncate text-his-text-secondary">{guests.join(", ")}</span>
             )}
-            {guests.length > 0 && <span class="text-his-text-tertiary/40">·</span>}
+            {guests.length > 0 && <span class="text-his-text-secondary">·</span>}
             <span class="ep-badge">{episodeNumber}</span>
-            <span class="text-his-text-tertiary/40 max-sm:hidden">·</span>
+            <span class="text-his-text-secondary max-sm:hidden">·</span>
             <time class="max-sm:hidden" datetime={formatEpisodeDateValue(frontmatter.date)}>
               {formatEpisodeDate(frontmatter.date)}
             </time>
             {frontmatter.time && (
               <>
-                <span class="text-his-text-tertiary/40 max-sm:hidden">·</span>
+                <span class="text-his-text-secondary max-sm:hidden">·</span>
                 <span class="max-sm:hidden">{frontmatter.time}m</span>
               </>
             )}
@@ -230,7 +230,7 @@ const hasLongDescription = hasBody && frontmatter.description.length > 135;
     {hasLongDescription && (
       <details class="episode-description-disclosure mx-auto mb-4 w-full max-w-[600px] sm:hidden">
         <summary>
-          <span class="episode-description-copy block text-[15px] leading-relaxed text-his-text-secondary">
+          <span class="episode-description-copy block text-[15px] leading-relaxed text-his-text">
             {frontmatter.description}
           </span>
           <span class="episode-description-more mt-0.5 block text-xs text-his-green">More</span>
@@ -238,7 +238,7 @@ const hasLongDescription = hasBody && frontmatter.description.length > 135;
         </summary>
       </details>
     )}
-    <p class:list={["mx-auto mb-4 w-full max-w-[600px] text-[15px] leading-relaxed text-his-text-secondary", hasLongDescription && "hidden sm:block"]}>
+    <p class:list={["mx-auto mb-4 w-full max-w-[600px] text-[15px] leading-relaxed text-his-text", hasLongDescription && "hidden sm:block"]}>
       {frontmatter.description}
     </p>
 

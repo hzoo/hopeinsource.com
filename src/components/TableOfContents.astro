@@ -22,7 +22,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         id="mobile-chapters"
         class="mobile-chapters sticky top-2 z-[45] mb-5 rounded-xl border border-his-hr bg-his-bg/95 shadow-sm backdrop-blur-sm md:hidden"
       >
-        <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 rounded-xl px-3 text-sm font-medium text-his-text-secondary focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60">
+        <summary class="flex min-h-11 cursor-pointer list-none items-center justify-between gap-3 rounded-xl px-3 text-sm font-medium text-his-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60">
           <span class="min-w-0 truncate">
             <span class="text-his-text-tertiary">Chapters</span>
             <span aria-hidden="true"> · </span>
@@ -36,7 +36,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
               <li class="m-0">
                 <a
                   href={`#${heading.slug}`}
-                  class="toc-link chapter-link flex min-h-11 items-center rounded-lg px-2.5 text-sm font-medium text-his-text-secondary no-underline transition-[color,background-color] duration-200 hover:bg-his-hover hover:text-his-text"
+                  class="toc-link chapter-link flex min-h-11 items-center rounded-lg px-2.5 text-sm font-medium text-his-text no-underline transition-[color,background-color] duration-200 hover:bg-his-hover hover:text-his-text"
                   data-heading-id={heading.slug}
                 >
                   <span class="toc-title min-w-0">{heading.text}</span>
@@ -130,7 +130,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
             >
               <a
                 href={`#ref-${link.blockquoteIndex}`}
-                class="ref-passage-link block rounded-sm text-sm text-his-text-secondary leading-relaxed mb-1 line-clamp-2 no-underline hover:text-his-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
+                class="ref-passage-link block rounded-sm text-sm text-his-text leading-relaxed mb-1 line-clamp-2 no-underline hover:text-his-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
               >
                 {link.quoteText?.slice(0, 120) || "Passage"}{link.quoteText && link.quoteText.length > 120 ? '...' : ''}
               </a>

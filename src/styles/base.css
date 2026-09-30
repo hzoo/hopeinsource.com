@@ -35,7 +35,8 @@ html {
   --color-his-bg: var(--color-flexoki-dark-bg);
   --color-his-text: var(--color-flexoki-paper);
   --color-his-text-secondary: var(--color-flexoki-base-200);
-  --color-his-text-tertiary: var(--color-flexoki-base-400);
+  /* Metadata shares one readable muted tone in both themes. */
+  --color-his-text-tertiary: var(--color-his-text-secondary);
   --color-his-hr: var(--color-flexoki-dark-ui-2);
   --color-his-chat-default: var(--color-flexoki-dark-tx-3);
   --color-his-chat-sent: var(--color-flexoki-dark-bg-2);
@@ -229,7 +230,6 @@ html {
     --color-his-bg: var(--color-flexoki-light-bg);
     --color-his-text: var(--color-flexoki-black);
     --color-his-text-secondary: var(--color-flexoki-base-700);
-    --color-his-text-tertiary: var(--color-flexoki-base-600);
     --color-his-hr: var(--color-flexoki-light-ui-2);
     --color-his-chat-default: var(--color-flexoki-light-tx-3);
     --color-his-chat-sent: var(--color-flexoki-light-bg-2);
@@ -425,10 +425,6 @@ html {
     display: none;
   }
 
-  #msg-0 {
-    @apply mt-8;
-  }
-
   #episode-content-shell h4 {
     margin-block: 2rem 0.9rem;
     color: var(--color-his-text);
@@ -572,7 +568,7 @@ html {
     float: right;
     margin-left: 0.7rem;
     margin-top: 0.3em;
-    color: color-mix(in oklab, var(--color-his-text-secondary) 75%, var(--color-his-text-tertiary));
+    color: var(--color-his-text-secondary);
     font-size: 0.72rem;
     font-variant-numeric: tabular-nums;
     line-height: 1.35;
@@ -827,7 +823,7 @@ html {
 
 .search-excerpt {
   font-size: 0.8125rem;
-  color: var(--color-his-text-secondary);
+  color: var(--color-his-text);
   line-height: 1.5;
   overflow: hidden;
   display: -webkit-box;
@@ -927,7 +923,7 @@ html {
   max-width: 78rem;
   margin: 0 auto;
   padding: 1rem 0.75rem 2rem;
-  gap: 1.5rem;
+  gap: 1rem;
 }
 
 @media (min-width: 640px) {
@@ -1123,10 +1119,6 @@ html {
   #home-brand .brand-title {
     display: block;
   }
-
-  #home-brand .brand-taglines p:not(:first-child) {
-    display: none;
-  }
 }
 
 @media (min-width: 960px) {
@@ -1294,7 +1286,7 @@ html {
   .message.message-nod { padding: 0; gap: 0; margin-top: -0.25rem; margin-bottom: 0.55rem; content-visibility: visible; }
   .message.message-nod::before { display: none; }
   .message.message-nod .message-speaker { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
-  .message.message-nod .nod-play { display: block; float: none; margin: 0; padding: 0.2rem 0.65rem; border-radius: 999px; background: color-mix(in oklab, var(--color-his-chat-bg) 92%, var(--color-his-green)); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-his-hr) 45%, transparent); color: var(--color-his-text-secondary); font-size: 0.78rem; line-height: 1.55; text-decoration: none; }
+  .message.message-nod .nod-play { display: block; float: none; margin: 0; padding: 0.2rem 0.65rem; border-radius: 999px; background: color-mix(in oklab, var(--color-his-chat-bg) 92%, var(--color-his-green)); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-his-hr) 45%, transparent); color: var(--color-his-text); font-size: 0.78rem; line-height: 1.55; text-decoration: none; }
   .message.message-nod .nod-play:hover { color: var(--color-his-text); background: var(--color-his-hover); }
   .message.message-nod.message-current { background: transparent; }
   .message.message-nod.message-current .nod-play { box-shadow: inset 0 0 0 1px var(--color-his-green); color: var(--color-his-text); }

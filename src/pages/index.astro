@@ -180,7 +180,7 @@ const initialSlots = moments.map((_, index) =>
     flex: 1;
     min-height: 0;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
   }
   .home-moment-context { display: none; }
   .home-moment[data-slot="focus"] .home-moment-context {
@@ -204,7 +204,7 @@ const initialSlots = moments.map((_, index) =>
     flex-wrap: wrap;
     gap: 0.75rem;
     width: 100%;
-    margin-top: 0.3rem;
+    margin-top: 0.75rem;
   }
   .home-moment-source {
     display: inline-flex;
@@ -247,7 +247,7 @@ const initialSlots = moments.map((_, index) =>
     position: relative;
     z-index: 2;
     width: min(36rem, 90%);
-    height: 26.5rem;
+    height: 22rem;
     opacity: 1;
   }
   .home-moment:not([data-slot="focus"]) {
@@ -258,13 +258,13 @@ const initialSlots = moments.map((_, index) =>
     color: var(--color-his-text-tertiary);
   }
   .home-moment:not([data-slot="focus"]) .message-bubble {
-    color: var(--color-his-text-tertiary);
+    color: var(--color-his-text);
     background: color-mix(in oklab, var(--color-his-chat-bg) 24%, var(--color-his-bg));
     font-size: 0.875rem;
     transition: background-color 160ms ease, color 160ms ease;
   }
   .home-moment-preview:hover .message-bubble {
-    color: var(--color-his-text-secondary);
+    color: var(--color-his-text);
     background: color-mix(in oklab, var(--color-his-chat-bg) 45%, var(--color-his-bg));
   }
 
@@ -290,19 +290,19 @@ const initialSlots = moments.map((_, index) =>
   }
 
   @media (max-width: 959px) {
-    #home-moments { min-height: 0; padding-block: 0.75rem 1.5rem; touch-action: pan-y; }
+    #home-moments { min-height: 0; padding-block: 0 1.5rem; touch-action: pan-y; }
     .home-moment .message-bubble { font-size: 0.94rem; }
     .home-moment[data-slot="focus"] { width: 96%; height: auto; }
     .home-moment[data-slot="focus"] .home-moment-conversation { flex: none; }
     .home-moment[data-slot="focus"] .home-moment-actions {
       order: -1;
-      flex-direction: column-reverse;
-      align-items: stretch;
-      gap: 0;
-      margin: 0 0 0.75rem;
+      flex-wrap: nowrap;
+      align-items: center;
+      gap: 0.75rem;
+      margin: 0 0 1rem;
     }
-    .home-moment-transport { align-self: flex-start; }
-    .home-moment-source { align-self: flex-end; min-height: 24px; }
+    .home-moment-transport { flex: none; }
+    .home-moment-source { justify-content: flex-end; min-width: 0; text-align: right; }
     .home-moment:not([data-slot="focus"]) { display: none; }
   }
 
