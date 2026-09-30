@@ -138,7 +138,7 @@ function initVideoPlayer() {
 
         event.preventDefault();
         history.replaceState(null, "", parsed.canonicalHash);
-        loadVideoAt(parsed.seconds, true);
+        window.dispatchEvent(new HashChangeEvent("hashchange"));
     });
 
     window.addEventListener("hashchange", () => {

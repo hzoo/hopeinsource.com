@@ -116,7 +116,12 @@ function updateTimeDisplay() {
 function setPlaybackUi(isPaused: boolean) {
     playIcon?.classList.toggle("hidden", !isPaused);
     pauseIcon?.classList.toggle("hidden", isPaused);
-    playPauseButton?.setAttribute("aria-label", isPaused ? "Play episode" : "Pause episode");
+    const position = isLoaded && audio ? audio.currentTime : pendingTime;
+    const playLabel = document.getElementById("play-label");
+    if (playLabel) playLabel.textContent = position > 0 ? `Play ${formatTime(position)}` : "Play";
+    playPauseButton?.setAttribute("aria-label", isPaused
+        ? (position > 0 ? `Play from ${formatTime(position)}` : "Play episode")
+        : "Pause episode");
 }
 
 function ensureAudioLoaded() {
@@ -134,6 +139,7 @@ function setAudioPosition(seconds: number) {
     if (currentTimeDisplay) currentTimeDisplay.textContent = formatTime(seconds);
     seekSlider?.setAttribute("aria-valuetext", `${formatTime(seconds)} of ${durationDisplay?.textContent || "00:00"}`);
     highlightTime(seconds);
+    if (audio?.paused) setPlaybackUi(true);
 }
 
 function playFrom(seconds = pendingTime) {
@@ -169,6 +175,7 @@ function stageHashTime(options: { scroll: boolean }) {
         if (hash !== parsedTimeHash.canonicalHash) {
             history.replaceState(null, "", parsedTimeHash.canonicalHash);
         }
+        audio?.pause();
         setAudioPosition(parsedTimeHash.seconds);
         if (options.scroll) {
             const index = findMessageIndex(parsedTimeHash.seconds);
@@ -183,7 +190,10 @@ function stageHashTime(options: { scroll: boolean }) {
     const anchor = document.getElementById(hash.slice(1));
     const message = anchor?.matches('.message') ? anchor : anchor?.closest<HTMLElement>('.message');
     const seconds = parseInt(message?.dataset.timestamp || "", 10);
-    if (!Number.isNaN(seconds)) setAudioPosition(seconds);
+    if (!Number.isNaN(seconds)) {
+        audio?.pause();
+        setAudioPosition(seconds);
+    }
 }
 
 function updateMuteIcon(isMuted: boolean) {
@@ -283,8 +293,7 @@ function handleGlobalClick(event: MouseEvent) {
 
     event.preventDefault();
     history.replaceState(null, "", parsed.canonicalHash);
-    setAudioPosition(parsed.seconds);
-    playFrom(parsed.seconds);
+    window.dispatchEvent(new HashChangeEvent("hashchange"));
 }
 
 function initAudioPlayer() {

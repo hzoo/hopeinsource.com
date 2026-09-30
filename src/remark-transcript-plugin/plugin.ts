@@ -79,7 +79,8 @@ function createTimestampLink(
     data: {
       hProperties: {
         className: [className],
-        "aria-label": `Listen from ${timestamp}`,
+        "aria-label": `Jump to ${timestamp}`,
+        title: `Jump to ${formatTimestamp(seconds)}`,
       },
     },
     children: [createText(formatTimestamp(timeToSeconds(timestamp)))],
@@ -245,7 +246,7 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         classes.push('message-nod', alignmentClass === 'message-received' ? 'reply-left' : 'reply-right');
         const play = createTimestampLink(`${timestampClass} nod-play`, timestamp, seconds);
         play.children = [messageChildren[0]];
-        play.data!.hProperties!['aria-label'] = `${nodLabel}: ${spokenText} Play passage`;
+        play.data!.hProperties!['aria-label'] = `${nodLabel}: ${spokenText} Jump to passage`;
         messageChildren.splice(0, messageChildren.length, play);
       }
 

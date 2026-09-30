@@ -51,13 +51,13 @@ test("remarkTranscriptPlugin transforms markdown correctly", async () => {
   expect(result).toContain('data-msg-occurrence="1"');
   expect(result).toContain('<span class="message-speaker"><strong>Speaker 1</strong></span>');
   expect(result).toContain('<span class="message-text">');
-  expect(result).toContain('<a href="#t=28" class="message-time" aria-label="Listen from 00:28">0:28</a>');
+  expect(result).toContain('<a href="#t=28" class="message-time" aria-label="Jump to 00:28" title="Jump to 0:28">0:28</a>');
 
   expect(result).toContain('id="msg-75"');
   expect(result).toContain('class="message message-received"');
   expect(result).toContain('data-timestamp="75"');
   expect(result).toContain('data-msg-occurrence="1"');
-  expect(result).toContain('<a href="#t=75" class="message-time" aria-label="Listen from 01:15">1:15</a>');
+  expect(result).toContain('<a href="#t=75" class="message-time" aria-label="Jump to 01:15" title="Jump to 1:15">1:15</a>');
 
   expect(result).toContain('id="msg-0"');
   expect(result).toContain('data-timestamp="0"');
@@ -72,7 +72,7 @@ test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () =>
   expect(result).toContain('id="msg-3603"');
   expect(result).toContain('data-timestamp="3603"');
   expect(result).toContain('data-msg-occurrence="1"');
-  expect(result).toContain('<a href="#t=3603" class="message-time" aria-label="Listen from 01:00:03">1:00:03</a>');
+  expect(result).toContain('<a href="#t=3603" class="message-time" aria-label="Jump to 01:00:03" title="Jump to 1:00:03">1:00:03</a>');
   expect(result).toContain('<strong>Henry</strong>');
 });
 
@@ -141,7 +141,7 @@ test('short replies compact by length while questions and longer replies remain 
   expect(result).toContain('data-timestamp="2"');
   expect(result.match(/<p id="msg-2"[^>]+>/)?.[0]).not.toContain('message-nod');
   expect(result.match(/<p id="msg-3"[^>]+>/)?.[0]).not.toContain('message-nod');
-  expect(result).toContain('A · 0:05: Not yet. Play passage');
+  expect(result).toContain('A · 0:05: Not yet. Jump to passage');
 });
 
 
@@ -174,7 +174,7 @@ test('verbal nod pills keep playable words and accessible attribution', async ()
  const result=await processMarkdown('[00:01] **A:** A thought.\n\n[00:02] **B:** Yeah.');
  expect(result).toContain('message-nod');
  expect(result).toContain('href="#t=2"');
- expect(result).toContain('B · 0:02: Yeah. Play passage');
+ expect(result).toContain('B · 0:02: Yeah. Jump to passage');
  expect(result).toContain('message-text');
 });
 
@@ -186,8 +186,8 @@ test('one-word responses and short stage cues compact by shape without deleting 
  for (const phrase of ['Really?', 'SDO?', '(laughs) That was funny.']) expect(isCompactReply(phrase)).toBe(false);
  const result = await processMarkdown('[00:01] **Henry:** A complete thought.\n\n[00:02] **Nadia:** Ah.\n\n[00:03] **Henry:** (laughs)\n\n[00:04] **Nadia:** Inertia.\n\n[00:05] **Henry:** Really?');
  expect(result.match(/message-nod/g)?.length).toBe(3);
- expect(result).toContain('Nadia · 0:04: Inertia. Play passage');
- expect(result).toContain('Henry · 0:03: (laughs) Play passage');
+ expect(result).toContain('Nadia · 0:04: Inertia. Jump to passage');
+ expect(result).toContain('Henry · 0:03: (laughs) Jump to passage');
  expect(result.match(/<p id="msg-5"[^>]+>/)?.[0]).not.toContain('message-nod');
 });
 
@@ -196,7 +196,7 @@ test('two-word replies use one size rule for reactions, substantive answers, and
  for (const phrase of ['I agree.', 'Me too.', 'Totally agreed.', 'Ah, yeah.', 'Mm-hmm, yeah.', "That's interesting.", 'Yeah (laughs).', 'Right. (laughs)', '(laughs) Yeah.', 'GitHub Sponsors.', 'Version control.', 'Your surroundings.', 'Ordinary Time.', 'Not yet.', 'In theory.', "There's a-", "They don't.", '(laughs) Fundraising.', 'Yeah, cryogenics.']) expect(isCompactReply(phrase)).toBe(true);
  for (const phrase of ['GitHub Sponsors program.', 'Version control system.', 'Your immediate surroundings.', '(laughs) I agree.', 'I agree?', 'Me too?']) expect(isCompactReply(phrase)).toBe(false);
  const result = await processMarkdown('[00:01] **Nadia:** A thought.\n\n[00:02] **Henry:** Yeah (laughs).\n\n[00:03] **Nadia:** Another thought.');
- expect(result).toContain('Henry · 0:02: Yeah (laughs). Play passage');
+ expect(result).toContain('Henry · 0:02: Yeah (laughs). Jump to passage');
  expect(result).toContain('data-reply-to="msg-1"');
 });
 
@@ -237,7 +237,7 @@ test('listening sounds attach to the prior message without losing speaker or aud
  expect(result.match(/<p id="msg-393"[^>]+>/)?.[0]).toContain('message-nod reply-left');
  expect(result).toContain('data-reply-to="msg-377"');
  expect(result).toContain('href="#t=393"');
- expect(result).toContain('Henry · 6:33: Hm. Play passage');
+ expect(result).toContain('Henry · 6:33: Hm. Jump to passage');
  expect(result).toContain('message-continuation');
 });
 
@@ -257,7 +257,7 @@ test('continuing speakers share attribution across nods but reset at headings, s
  expect(result).toContain('thread-continuation');
  expect(result).toContain('data-speaker="Laurel"');
  expect(result).toContain('href="#t=3"');
- expect(result).toContain('Laurel · 0:02: Yeah. Play passage');
+ expect(result).toContain('Laurel · 0:02: Yeah. Jump to passage');
 });
 
 
@@ -276,7 +276,7 @@ test('reply rows pair nearby opposite speakers while preserving chronology and b
  expect(result.match(/class="reply-row/g)?.length).toBe(3);
  expect(result.indexOf('id="msg-2"')).toBeLessThan(result.indexOf('id="msg-3"'));
  expect(result).toContain('href="#t=3"');
- expect(result).toContain('Laurel · 0:03: Cool. Play passage');
+ expect(result).toContain('Laurel · 0:03: Cool. Jump to passage');
  expect(result).not.toContain('<blockquote');
 });
 
@@ -294,7 +294,7 @@ test('short substantive replies keep accessible attribution and chronological re
  expect(result.indexOf('id="msg-2"')).toBeLessThan(result.indexOf('id="msg-3"'));
  expect(result.indexOf('id="msg-3"')).toBeLessThan(result.indexOf('id="msg-4"'));
  expect(result.match(/<p id="msg-4"[^>]+>/)?.[0]).toContain('message-nod');
- expect(result).toContain('Laurel · 0:04: Your surroundings. Play passage');
+ expect(result).toContain('Laurel · 0:04: Your surroundings. Jump to passage');
  expect(result.match(/<p id="msg-5"[^>]+>/)?.[0]).not.toContain('message-nod');
  expect(result).toContain('<strong>Laurel</strong>');
  expect(result).toContain('href="#t=5"');
