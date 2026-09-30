@@ -70,15 +70,15 @@ quotes:
 
 [04:17] **Henry:** Yeah that sounds really good. Just like the way we have the different paradigms we say object oriented, we think everything is an object or functions. Everything's a function. But then I guess with RxJS, maybe it's like pipes and streams and we use those metaphors?
 
-[04:29] **Maggie:** And I'm not sure.. We'll see I'd be curious to hear whether how much you perceive programmers actively build those, I suppose new mental models? I don't know if people think about those a lot.
+[04:29] **Maggie:** And I'm not sure.. We'll see I'd be curious to hear how much you perceive programmers actively build those, I suppose new mental models? I don't know if people think about those a lot.
 
 [04:41] **Henry:** Right, so maybe it's more that for us to understand that we all have mental models, but we might not think about it. I think this is sort of like what I was trying to say in some of my talks I gave about abstraction, where we are relying on the mental models, but we're not thinking about how they work.
 
 [05:00] **Henry:** And so that means those mental models are **abstractions**, because when you're using the abstraction, you're not thinking about how it works because someone else wrote that code for you. They wrote the library. And you don't have to understand how it works because you'll need to understand how to use it.
 
-[05:14] **Henry:** But then of course, when you inevitably find that bug or something happens, right? That you don't expect. That's when you're.. I guess your mental model is tested to see if it matches the thing that you're using right?
+[05:14] **Henry:** But then of course, when you inevitably find that bug or something happens, right? That you don't expect. I guess your mental model is tested to see if it matches the thing that you're using right?
 
-[05:27] **Maggie:** Right, right. Cause. Yeah, you could imagine someone building a library and they have a mental model in their head of how this code fits together and how it works, but they haven't made it explicit in the documentation or they haven't recognized it themselves. So then they might just show people the surface level documentation, right.
+[05:27] **Maggie:** Right. Yeah, you could imagine someone building a library and they have a mental model in their head of how this code fits together and how it works, but they haven't made it explicit in the documentation or they haven't recognized it themselves. So then they might just show people the surface level documentation, right.
 
 [05:42] **Maggie:** Here's how you wrote a function. Here's how you wrote loop. But if the person reading it doesn't have the same mental model as the person who wrote it, that's probably what you're getting into why people misunderstand how certain things work and why it's difficult to learn, right? Like reactive programming is infamously difficult and functional programming is infamously difficult to learn if you're coming from object oriented because you're trying to switch metaphors and no one is very explicitly talking in metaphor land. They're very much talking in syntax land.
 
@@ -88,11 +88,11 @@ quotes:
 
 [06:23] **Maggie:** I know I can pick whatever the type, but it sounds a bit egoistic, but something to that extent where much more of what I'm doing most of the time is trying to figure out what the metaphor underneath the language is and then of course, draw it so that it's visible and easy to see. But I'm much more interested in investigating metaphors and creating them than I am about using certain pens on paper or that sort of physical drawing. It's a medium, but it's not the thing itself.
 
-[06:52] **Henry:** Right. Right. In my talk, I mentioned this tweet from Justin Falcone. He wrote about Redux and how a lot of people complain about the boilerplate or why you have to do certain things. And so he was saying that just like what you were saying, that frameworks reinforced their mental models through the code.
+[06:52] **Henry:** Right. In my talk, I mentioned this tweet from Justin Falcone. He wrote about Redux and how a lot of people complain about the boilerplate or why you have to do certain things. And so he was saying that just like what you were saying, that frameworks reinforced their mental models through the code.
 
 [07:08] **Henry:** So his example was if you use Rails, then you are unavoidably or inevitably writing code like DHH, the creator, would write and that his view of how code works or even his view of the world is like in the framework itself. And so maybe the reason why it's hard to use Redux is because people just don't get it, they don't understand. They don't believe in the ideas of it. And so it's up to the framework people to figure out how to explain it, word it in a way that helps people understand that underlying model.
 
-[07:41] **Maggie:** Yeah. Cause that's why I'm always amazed that documentation never has many visuals to it. I'm someone that always needs a diagram, right? I always need to see, okay, if we're working in React, I need to see something like, okay, it's a tree of components and they have downwards data flow. Right? Once I see the diagram, I get it. And I feel like most people like that. I don't think I'm unique in that regard.
+[07:41] **Maggie:** Cause that's why I'm always amazed that documentation never has many visuals to it. I'm someone that always needs a diagram, right? I always need to see, okay, if we're working in React, I need to see something like, okay, it's a tree of components and they have downwards data flow. Right? Once I see the diagram, I get it. And I feel like most people like that. I don't think I'm unique in that regard.
 
 [08:02] **Maggie:** But on any documentation for any thing I'm trying to get my head around, I'm constantly scrolling, just being like, but where are the pictures? Like I don't get it. What's your model?
 
@@ -104,7 +104,7 @@ quotes:
 
 [08:49] **Maggie:** I have to say are they next to each other? Is one above the other one? Is it to the left? Is it to the right? Is it smaller? Is it bigger? It sounds a bit daft sometimes to ask those questions when what you are dealing with is abstract code, right? That's why it's lovely and faster, right? It wouldn't be efficient to actually do the visuals, which is why Visual Basic didn't work. But, when it's in syntax, you don't have to figure out what's above what and where it exists in time and space. And when you have to really do that, it forces you to think about the relationship between two objects much more explicitly. So that's why I find it more useful for learning the stuff.
 
-[09:27] **Henry:** I see. So asking those questions about space, where am I or where am I in the code is something that maybe because of the way we write code is just focused on that, that line that you're looking at. Otherwise we would look at functions and imports and exports, but otherwise we don't know what the relationship between anything is.
+[09:27] **Henry:** I see. So asking those questions about space, where am I or where am I in the code is something that maybe because of the way we write code is just focused on that line that you're looking at. Otherwise we would look at functions and imports and exports, but otherwise we don't know what the relationship between anything is.
 
 [09:44] **Maggie:** Yeah, especially with beginner content, I find this is missing a lot, the relationship of time to everything that you do with code. That usually doesn't get explicitly talked about. It's very implicit. If you have to explain state to people. Or you have to explain props being passed into a component or something of that sort.
 
@@ -116,7 +116,7 @@ quotes:
 
 [10:55] **Henry:** My equivalent was seeing how being skeptical of that is like, kind of not trusting other people or trusting yourself. That's kind of like the skepticism of Descartes, right? I can only discover truth by myself because I don't want to essentially take someone else's belief as fact or opinion.
 
-[11:11] **Maggie:** Cause yeah, the abstraction of course, it is necessary at some point, right? Like once you understand Redux, you don't need to constantly rebuild that. Every time you use it, you just know it. Like I know you're big on tacit knowledge and [Karl Polanyi](https://en.wikipedia.org/wiki/Karl_Polanyi) who I haven't heard as much of, but was your, in your talk, where you talking about that, understanding of certain code becomes tacit?
+[11:11] **Maggie:** Cause yeah, the abstraction of course, it is necessary at some point, right? Like once you understand Redux, you don't need to constantly rebuild that. Every time you use it, you just know it. Like I know you're big on tacit knowledge and [Karl Polanyi](https://en.wikipedia.org/wiki/Karl_Polanyi) who I haven't heard as much of, but in your talk, where you talking about that, understanding of certain code becomes tacit?
 
 [11:29] **Henry:** Oh and first, it's [Michael Polanyi](https://en.wikipedia.org/wiki/Michael_Polanyi) because he has a brother Karl. They're both, he's a lot more well known actually. But yeah, I guess I was just saying that, my talk was more just this idea that I think that if we do use abstraction, rely on it, it might cause us to not think about who maintains the dependencies or the abstractions that we use.
 
@@ -136,7 +136,7 @@ quotes:
 
 [13:46] **Henry:** Yeah, I guess I was just thinking around. Does abstraction lead to people not caring about people? Just inevitably.
 
-[13:55] **Maggie:** Yeah. I can see that actually, so with abstraction and then the maintainers of open source become invisible right? And, okay this definitely does tie into the metaphors that the more fundamental metaphors of how we think about the internet, and digital wealth in general. So, however culturally evolved, right? Our base understanding of the internet is very much as a nonphysical space, right? It's disembodied from the beginning, right? Cyberworld. Live in pixels.
+[13:55] **Maggie:** I can see that actually, so with abstraction and then the maintainers of open source become invisible right? And, okay this definitely does tie into the metaphors that the more fundamental metaphors of how we think about the internet, and digital wealth in general. So, however culturally evolved, right? Our base understanding of the internet is very much as a nonphysical space, right? It's disembodied from the beginning, right? Cyberworld. Live in pixels.
 
 [14:22] **Henry:** Hyperlinks, yeah.
 
@@ -156,9 +156,9 @@ quotes:
 
 [16:19] **Maggie:** So then you understand why the disembodiment rhetoric starts up, but then, because of that we forget how that were still embodied beings. It's the stream. If we want to be the brain in the machine, that we want to just leave off physical body behind and become the transhumanist movement.
 
-[16:35] **Maggie:** Yeah. They're all hoping the singularity will hit and they will upload their brain to the cloud into Dropbox. And they will be rid of their inconvenient body. They have to feed and move. And..
+[16:35] **Maggie:** They're all hoping the singularity will hit and they will upload their brain to the cloud into Dropbox. And they will be rid of their inconvenient body. They have to feed and move. And..
 
-[16:49] **Henry:** Yeah. I heard a talk about it at work before, where one idea was after you upload your consciousness or something, you would create little, I guess ships or something that are solar powered and then everyone gets their own little simulation universe. And then you don't have to interact with anyone because you get whatever you want or something, I forgot. Yeah.
+[16:49] **Henry:** I heard a talk about it at work before, where one idea was after you upload your consciousness or something, you would create little, I guess ships or something that are solar powered and then everyone gets their own little simulation universe. And then you don't have to interact with anyone because you get whatever you want or something, I forgot. Yeah.
 
 [17:10] **Maggie:** It is, you understand where that dream comes from culturally, right? We've always been, so this comes back to Descartes a bit. He split the mind from the body and him and many other thinkers who came after him that they made very clear that the body was sort of our more animalistic nature.
 
@@ -182,7 +182,7 @@ quotes:
 
 [19:25] **Maggie:** And there'd been quite a few books in that vein that have, anything, right? Psychosomatic medicine became very popular at some point, and they're all trying to get at the same thing. And yet at the same time, eh. All the ways we speak about, the brain and the body keep reinforcing **Cartesian dualism**, which was the original Descartes' theory. That mind and brain is separate substances. And I still see it so much in programmer culture and the, yeah, the denial of the body in certain ways and the glorification of the mind. More than other professions or communities. Programmers seemed very on board with that.
 
-[20:03] **Henry:** Yeah. The essay I mentioned in the talks I've been doing, it's called [Programming as Theory Building](https://pages.cs.wisc.edu/~remzi/Naur.pdf). And in a way, theory building is just mental models. So there's just saying that too. That's [Peter Naur](https://en.wikipedia.org/wiki/Peter_Naur). He wrote this in 1985, but essentially the first sentence..
+[20:03] **Henry:** The essay I mentioned in the talks I've been doing, it's called [Programming as Theory Building](https://pages.cs.wisc.edu/~remzi/Naur.pdf). And in a way, theory building is just mental models. So there's just saying that too. That's [Peter Naur](https://en.wikipedia.org/wiki/Peter_Naur). He wrote this in 1985, but essentially the first sentence..
 
 [20:20] **Henry:** It was like, the common notion is that programming is about making programs or pieces of texts, right? Programs about the code. And later he says that, no, it's actually about the insight that you have, which is essentially the mental model. And then he goes into this idea that programs have a life cycle even. And that's why it's interesting to say that programs are living rather than dead, that there's a life death, and you could say rebirth and all that has to do with the people that made it.
 
@@ -202,7 +202,7 @@ quotes:
 
 [22:11] **Henry:** When I was trying to come up with the name for **Hope in Source**, we were trying to find the cover, right? It was like some kind of plant and so. We were thinking of source of truth and source of water. Another one I wanted to use was commit, which is not necessarily a physical thing. It's more like the idea of we have to commit to something, like people. So.
 
-[22:32] **Maggie:** Yeah. No, then it could be, cause there's ways to have it be code as community or code as an organization. Right, like imagine if we stopped seeing code as sets of files, and saw them as, I don't know. If you had a circle of people and everyone's putting one drop in, there's all these ways you can build metaphors that change the way you see the code file.
+[22:32] **Maggie:** No, then it could be, cause there's ways to have it be code as community or code as an organization. Right, like imagine if we stopped seeing code as sets of files, and saw them as, I don't know. If you had a circle of people and everyone's putting one drop in, there's all these ways you can build metaphors that change the way you see the code file.
 
 [22:53] **Henry:** There's also code, all of the statements are like rules, right? It's like a rule based system. They actually, maybe they do call them commitments, where it's like everything has to be true for each thing or something.
 
@@ -242,9 +242,9 @@ quotes:
 
 [25:13] **Henry:** And one of them was like, they wanted to go to the left instead, but it's a, wall or something or an invisible wall. And so there's all these assumptions that are built into the games because you've been playing them for 20 years. So it's like similar.
 
-[25:27] **Maggie:** Yeah. Yeah. That's very much like certain programs when, if you're trying to let a new one you're like dropped in,
+[25:27] **Maggie:** That's very much like certain programs when, if you're trying to let a new one you're like dropped in,
 
-[25:32] **Henry:** Yeah. Jumped in is a good metaphor.
+[25:32] **Henry:** Jumped in is a good metaphor.
 
 [25:34] **Maggie:** Yeah, exactly right. The dropped in, right? We think, I don't know what it would be. We're above and the code file's below. I'm trying to figure that one out. Documentation is a whole different conversation, but it just seems to me the whole way documentation gets done right now just seems.. problematic sounds like there's something specifically wrong with it, but just maybe not optimal or maybe not the best way to teach someone a new programming concept..
 
@@ -260,25 +260,25 @@ quotes:
 
 [27:10] **Maggie:** And no documentation.. It's funny too, if you think of code as a piece of art, you would never not have the artist's name attached to the work. And in programming, for some reason, documentation becomes this.. Well, even the name, formal document. It feels like some meeting notes. You're like, Oh.
 
-[27:27] **Henry:** I think that's, that whole idea is super interesting to me because this is the same thing in journalism, right? You want to be objective, Right? And in programming, the docs should be this vague notion of what is objective, but they're all written by people.
+[27:27] **Henry:** I think that whole idea is super interesting to me because this is the same thing in journalism, right? You want to be objective, Right? And in programming, the docs should be this vague notion of what is objective, but they're all written by people.
 
 [27:43] **Henry:** And there's actually a type of journalism called **Gonzo journalism**, I found out, which is where you purposely at admit that you are biased and you just write in that way instead of people pretending that their being objective. It's not that you should purposely try to be biased. It's just admitting that you are anyway, right.
 
-[27:59] **Maggie:** Yeah. Anthropology has a long.. So for context, for people who didn't hear the first one. I originally studied cultural anthropology and I'm still very interested in, read too much about it all the time. But, in anthropology, we have a concept called **auto ethnography**. So at the beginning of any.. an ethnography is a piece of writing that describes a culture that someone's been working within and studying.
+[27:59] **Maggie:** Anthropology has a long.. So for context, for people who didn't hear the first one. I originally studied cultural anthropology and I'm still very interested in, read too much about it all the time. But, in anthropology, we have a concept called **auto ethnography**. So at the beginning of any.. an ethnography is a piece of writing that describes a culture that someone's been working within and studying.
 
 [28:20] **Maggie:** And at the beginning of every single one of our essays, or like my thesis, I had to write an auto ethnography, which is a statement that declares your positionality to the culture. So you say, are you a member of it? how did you get involved in it? We use terms like **etic** and **emic**. So etic means you are an outsider, and emic means you are an insider.
 
 [28:39] **Maggie:** So if I were to write an ethnography of the JavaScript world, which I would love to do, I'm probably. maybe by the time I'm forty, that's one of those life goals. I'm probably at this point more emic than etic, so I'm probably more inside than outside it, but I definitely came to it etically. So as an outsider, studying it and curious about it, so it's not a either-or, it's a linear scale.
 
-[29:02] **Henry:** Right, right. It could change over time. I have so many stories.. and I'm not even that old in the whole span of this thing, right.
+[29:02] **Henry:** Right. It could change over time. I have so many stories.. and I'm not even that old in the whole span of this thing, right.
 
 [29:12] **Maggie:** Well, you might need to validate an idea for me. So I've been, brainstorming, I really want to start a podcast just because I started going on them and it's so fun to chat to people and I was debating topics to do. And I kind of want to do an ethnography of JavaScript version where I just ask people like you or people who have been involved in the community for a long time and thinking about it just to tell me stories about the cultural side of this world. Yeah, so you might be coming on that.
 
-[29:41] **Henry:** There's a lot of people that like, it is interesting how there are people that, you could say there's jQuery and Backbone, all these different frameworks that people aren't talking about as much anymore, but they were very important. It's still being used right now, so there's, there's a lot of history there.
+[29:41] **Henry:** There's a lot of people that like, it is interesting how there are people that, you could say there's jQuery and Backbone, all these different frameworks that people aren't talking about as much anymore, but they were very important. It's still being used right now, so there's a lot of history there.
 
 [29:57] **Henry:** I know Allen, he was the editor of ES6, for JavaScript. He just did with Brendan Eich a book called **20 Years of JavaScript**. I can link it to you later.
 
-[30:08] **Maggie:** Yeah. Cause I'm always, sort of surprised by the lack of explicit cultural writing about the community. It's funny, it mostly shows up in tweets, right? Tweets that you can tell get tons and tons of likes and retweets. My favorite account is I am a developer. Do you know that one?
+[30:08] **Maggie:** Cause I'm always, sort of surprised by the lack of explicit cultural writing about the community. It's funny, it mostly shows up in tweets, right? Tweets that you can tell get tons and tons of likes and retweets. My favorite account is I am a developer. Do you know that one?
 
 [30:24] **Henry:** Yeah.
 
@@ -286,9 +286,9 @@ quotes:
 
 [30:40] **Henry:** I have a story with him too, whoever did that, they were, because eventually they're going to tweet about how Babel is really hard to configure, it's slow or whatever. And then I tweeted that I gave a talk about his tweet and then he retweeted that too. As a maintainer, I thought that was funny.
 
-[30:59] **Maggie:** Yeah. I know. I also liked the fact that whoever it is, they're anonymous, just like this generic developer.
+[30:59] **Maggie:** I know. I also liked the fact that whoever it is, they're anonymous, just like this generic developer.
 
-[31:10] **Maggie:** We also wanted to talk about, well a book, but most also more of an idea. So there's this book called [Purity and Danger](https://en.wikipedia.org/wiki/Purity_and_Danger) by an anthropologist called [Mary Douglas](https://en.wikipedia.org/wiki/Mary_Douglas). And she, I think she wrote this book in the 1960s, and it's essentially the quintessential anthropological text about ideas about purity, pollution, dirt, cleanliness and danger.
+[31:10] **Maggie:** We also wanted to talk about, well a book, but most also more of an idea. So there's this book called [Purity and Danger](https://en.wikipedia.org/wiki/Purity_and_Danger) by an anthropologist called [Mary Douglas](https://en.wikipedia.org/wiki/Mary_Douglas). I think she wrote this book in the 1960s, and it's essentially the quintessential anthropological text about ideas about purity, pollution, dirt, cleanliness and danger.
 
 [31:33] **Maggie:** So how those ideas all relate to each other and they do quite strongly. This definitely maps onto programming because we very much talk about programming through bodily metaphors. And a lot of this book is about bodily pollution and our discomfort with the body and how we use pollution rules to sort of police and maintain the body in certain ways, which also can get a bit into [Michel Foucault](https://en.wikipedia.org/wiki/Michel_Foucault). But he's a bit too much. I think we should rather leave him cause he's a deep one. Mary Douglas wrote this book, before Focault and so she starts out by defining dirt which seems kind of strange.
 
@@ -310,21 +310,21 @@ quotes:
 
 [34:30] **Maggie:** I've had people say, well, so I work for **egghead** and there's, I know we've had sometimes contractors come in and I've seen it develop a chat. They'll say something like, Oh, don't look over there. It's gross. Yeah, some old code, we have a cleaned up in a while, and they're like, yeah, that's a dirty corner. Don't go over there.
 
-[34:50] **Henry:** Yeah. Untouched. Yeah. It's picking up dust or whatever you could say that.
+[34:50] **Henry:** Untouched. Yeah. It's picking up dust or whatever you could say that.
 
-[34:54] **Maggie:** Yeah. So it could be that, and we talked a bit about, programming moves fast and things like jQuery are no longer seem no longer relevant. It seems like maybe the world moves way it reorders the world so quickly that the definition of dirty and clean changes so fast that some old code that might have jQuery on it is now considered dirty but used to be clean but boundaries have moved.
+[34:54] **Maggie:** So it could be that, and we talked a bit about, programming moves fast and things like jQuery seem no longer relevant. It seems like maybe the world moves way it reorders the world so quickly that the definition of dirty and clean changes so fast that some old code that might have jQuery on it is now considered dirty but used to be clean but boundaries have moved.
 
 [35:18] **Henry:** Right. So that is sort of like the patterns are changing where it's like it works fine. It could probably have no bugs, but then we still think it looks bad because that's not the correct way to do things.
 
-[35:28] **Maggie:** Yeah. Well, it's a, it's a nice idea. You have an idea in your head of, it would be nice if this was clean, right? You want to create your imagined world.
+[35:28] **Maggie:** Well, it's a nice idea. You have an idea in your head of, it would be nice if this was clean, right? You want to create your imagined world.
 
 [35:35] **Henry:** Yeah, that's interesting. In terms of digital, because it's like we do have unlimited space, and so I think it's interesting that at the same time, we talk about how once he puts in something on the internet, you can never take it back. But at the same time that you can forget about things just because it's not in the zeitgeist or it's not a thing that people are paying attention to, so it can be forgotten. It's like both at the same time.
 
-[35:58] **Maggie:** Yeah. It was kinda interesting that, this is a bit about the dirt and purity thing, that we very much, we talk about computer programming as through the body metaphor. So this does get back to the embodiment stuff a bit. But most specifically only with viruses, right? It's like you talk about, yeah, computer viruses, And then can machines become infected? But it's funny, I've never heard anyone use words related to immune systems or vaccines as much with programming. I'm trying to think when you disinfect, you know?
+[35:58] **Maggie:** It was kinda interesting that, this is a bit about the dirt and purity thing, that we very much, we talk about computer programming as through the body metaphor. So this does get back to the embodiment stuff a bit. But most specifically only with viruses, right? It's like you talk about, yeah, computer viruses, And then can machines become infected? But it's funny, I've never heard anyone use words related to immune systems or vaccines as much with programming. I'm trying to think when you disinfect, you know?
 
-[36:26] **Henry:** Yeah. That's interesting, huh? The only thing we talk about is, well, actually I was thinking about computers, sleeping, hibernation and, restoring well, and then the whole like, turn it off and on again thing, right?
+[36:26] **Henry:** That's interesting, huh? The only thing we talk about is, well, actually I was thinking about computers, sleeping, hibernation and, restoring well, and then the whole like, turn it off and on again thing, right?
 
-[36:39] **Maggie:** Yeah. When you wake up your Mac, I feel like Apple did all that rather intentionally though. I think they gave us sleeping, waking up, hibernating. I don't know if it was Mac, maybe it was someone before them, but I guess that was my first experience of, I had the old MacBook that had the breathing light, if you remember that it would pulse when it was asleep. yeah. It's just beautiful.
+[36:39] **Maggie:** When you wake up your Mac, I feel like Apple did all that rather intentionally though. I think they gave us sleeping, waking up, hibernating. I don't know if it was Mac, maybe it was someone before them, but I guess that was my first experience of, I had the old MacBook that had the breathing light, if you remember that it would pulse when it was asleep. yeah. It's just beautiful.
 
 [36:59] **Henry:** I think with Erlang the whole point is that you're supposed to shut things off and on. So instead of trying to restore things, cause it's easy to startup and turn off small processes.
 
@@ -332,13 +332,13 @@ quotes:
 
 [37:11] **Henry:** I guess we have linters?
 
-[37:13] **Maggie:** Oh yeah. Is that, Oh yes, that is! That's funny cause that's just like on your clothes, when you get a linting brush. See that? There we go. There's of course, _bugs_. But I love the historical origin of that one, that it was like a physical bug that they found in the, I forget it. Was it the punch cards? They had like a bug in it, like a squat fly. Or something. So that's like a beautiful historical metaphor. They, so they sometimes call those **dead metaphors** was where the original meaning almost doesn't matter. And we just use the metaphor without understanding where it came from. But you can look up the history on Wikipedia. It's there.
+[37:13] **Maggie:** Oh yeah. Is that, Oh yes, that is! That's funny cause that's just like on your clothes, when you get a linting brush. See that? There we go. There's of course, _bugs_. But I love the historical origin of that one, that it was like a physical bug that they found in the, I forget it. Was it the punch cards? They had like a bug in it, like a squat fly. Or something. So that's like a beautiful historical metaphor. So they sometimes call those **dead metaphors** was where the original meaning almost doesn't matter. And we just use the metaphor without understanding where it came from. But you can look up the history on Wikipedia. It's there.
 
 [37:49] **Henry:** Or some of the icons that we use. I know save, maybe it used to be a floppy disk, but we don't use that or something.
 
-[37:57] **Maggie:** Yeah. Well, so I'm going to have to try and think of the name of this guy. I can look it up really quick. There's a guy who wrote all this wonderful stuff on, internet metaphors and digital metaphors and where they came from. I'm going to find his name here. But he talked about how in the very beginning when, mostly at Apple, they were starting to try and design those icons, and figure out a way to give cause, right, Apple designed the desktop metaphor right? So before that, all computers were just the command line. You just don't have anywhere to start. And they designed this idea of, okay, your computer is like your desk and the code on your thing is contained into files, just like your paper on the desk.
+[37:57] **Maggie:** Well, so I'm going to have to try and think of the name of this guy. I can look it up really quick. There's a guy who wrote all this wonderful stuff on, internet metaphors and digital metaphors and where they came from. I'm going to find his name here. But he talked about how in the very beginning when, mostly at Apple, they were starting to try and design those icons, and figure out a way to give cause, right, Apple designed the desktop metaphor right? So before that, all computers were just the command line. You just don't have anywhere to start. And they designed this idea of, okay, your computer is like your desk and the code on your thing is contained into files, just like your paper on the desk.
 
-[38:34] **Maggie:** And everything about the way we use modern computers is framed around this, this desktop metaphor. I found his name, **Tim Rohrer**. I can't say that. Anyway, he wrote a lot of wonderful papers about the history of internet metaphors and digital metaphors.
+[38:34] **Maggie:** And everything about the way we use modern computers is framed around this desktop metaphor. I found his name, **Tim Rohrer**. I can't say that. Anyway, he wrote a lot of wonderful papers about the history of internet metaphors and digital metaphors.
 
 [38:48] **Maggie:** And he talked about, in the beginning they had a really hard time getting people to understand how to use the desktop, which to now, us is just.. of course it's intuitive, you know? That's what we say. Of course, you know where the stop button is. Of course, you know how to find files. Who wouldn't know that?
 
@@ -350,11 +350,11 @@ quotes:
 
 [39:42] **Maggie:** No, I have read some articles of people who are designers for VR systems. You say that's the biggest challenge, is how do you give people a familiar interface when they're in a completely different world? Right. And so we're still in the phase of it. A lot of VR worlds, they will draw a little floating button the same way, like any button on a website, right.
 
-[40:03] **Maggie:** Where you click okay. They just. Well, one of those in the middle of the screen and get people to kind of tap it and you kind of go, is this really the most intuitive way we can confirm things as we put? And it's like a metaphor, a metaphor of a master metaphor.
+[40:03] **Maggie:** Where you click okay. They just. Well, one of those in the middle of the screen and get people to kind of tap it and you kind of go, is this really the most intuitive way we can confirm things as we put? And it's like a metaphor of a master metaphor.
 
-[40:17] **Henry:** Yeah. And I know in some games they'll show your hands, but they don't show your arms, so at least you have some anchor to see what you're doing. It kind of reminds me of **McLuhan** in my talk too, from **The Medium is the Message**. You know, he talks about how technologies are extensions of your physical and nervous system. Right. I think that's really interesting metaphor too.
+[40:17] **Henry:** And I know in some games they'll show your hands, but they don't show your arms, so at least you have some anchor to see what you're doing. It kind of reminds me of **McLuhan** in my talk too, from **The Medium is the Message**. You know, he talks about how technologies are extensions of your physical and nervous system. Right. I think that's really interesting metaphor too.
 
-[40:41] **Maggie:** Yeah. Yeah. I had mentioned that a bit in the other talk I'd done too, one of my favorite sort of philosopher anthropologists, is a guy called [Andy Clark](https://en.wikipedia.org/wiki/Andy_Clark), and he wrote this book, [Natural Born Cyborgs](https://maggieappleton.com/cyborg-history), which argues to take cyborg, just to mean a blend of technology and human, that he says from the beginning, we have always been tool-based creatures and that the tools are extensions of ourselves.
+[40:41] **Maggie:** I had mentioned that a bit in the other talk I'd done too, one of my favorite sort of philosopher anthropologists, is a guy called [Andy Clark](https://en.wikipedia.org/wiki/Andy_Clark), and he wrote this book, [Natural Born Cyborgs](https://maggieappleton.com/cyborg-history), which argues to take cyborg, just to mean a blend of technology and human, that he says from the beginning, we have always been tool-based creatures and that the tools are extensions of ourselves.
 
 [41:00] **Maggie:** And a digital tool is no different to a hammer or a cup. And it can get a bit tricky with it if you want, and to go into the whole world theory where you say, we are all one, I am not different than the cup and the cup is part of me and I am part of the cup and that sort of thing.
 
@@ -376,15 +376,15 @@ quotes:
 
 [43:27] **Maggie:** And of course, again, you get into trippy Buddhist theory, they'll say that that's not true. But it is, I always think of this with my keyboard shortcuts. I can't explicitly tell you, if you asked me what combination of keys I pressed to do certain things, I couldn't begin to tell you any of them. And yet when I'm in a particular app, in a particular context and I want to do a certain thing, my fingers just hit keys and I don't know what keys they are.
 
-[43:54] **Maggie:** I set them up some time ago, but now it is so muscle memory that it feels the same to me as moving a finger. It's not, it doesn't feel different outside of myself. That is part of me and how I operate, you know?
+[43:54] **Maggie:** I set them up some time ago, but now it is so muscle memory that it feels the same to me as moving a finger. It doesn't feel different outside of myself. That is part of me and how I operate, you know?
 
-[44:06] **Henry:** No yeah. I think that's a good example of tacit knowledge and I guess one way of looking at it is that our self can be expanded to whatever we pay attention to, right? So if we're not paying attention to it, then we, that means we think that it is part of us.
+[44:06] **Henry:** No yeah. I think that's a good example of tacit knowledge and I guess one way of looking at it is that our self can be expanded to whatever we pay attention to, right? So if we're not paying attention to it, then that means we think that it is part of us.
 
-[44:22] **Maggie:** Right, right. I do like that, cause yeah, it's sort of like if you're not actively thinking about your right foot right now, it might as well not exist. It's not part of your current conscious world, you know?
+[44:22] **Maggie:** Right. I do like that, cause yeah, it's sort of like if you're not actively thinking about your right foot right now, it might as well not exist. It's not part of your current conscious world, you know?
 
 [44:32] **Henry:** But it's a part of you.
 
-[44:33] **Maggie:** Yeah. I like that idea of that the sense of self can shift and expand to include other objects and other bits of the world that don't have to be defined by my biological body, because that is a bit of an odd place to draw the line.
+[44:33] **Maggie:** I like that idea of that the sense of self can shift and expand to include other objects and other bits of the world that don't have to be defined by my biological body, because that is a bit of an odd place to draw the line.
 
 [44:46] **Henry:** Yeah one thing that I've been reading is that I think it's really easy to think that tacit knowledge is just implicit knowledge, right? It seems very similar, like explicit versus implicit. Explicit is just the things that I can say and implicit, I don't have the words for those things. He uses very technical terms, but there's this phrase that he uses called **focal subsidiary integration**.
 
@@ -396,13 +396,13 @@ quotes:
 
 [45:46] **Henry:** But if you focus back on the hands and the song becomes subsidiary, you might not actually be able to play anymore because you're focusing too much on your fingers again. I like this other metaphor of when we're giving out speech and then you start thinking about your words, then you start getting nervous. So getting nervous is just focusing on yourself versus the thing that you're actually wanting to say, getting stagefright.
 
-[46:08] **Maggie:** Yeah. I'm sure you covered this in your talk. This is exactly in the programming context, a newer programmers focused so much on syntax and libraries and frameworks and more experienced programmers have gotten to the level where they're thinking in the higher level abstract structures of things or mental models, but really metaphors. Of how to fit things together on a higher level, but people who are newer are probably more concerned about whether it's Vue or React or whatever, Python.
+[46:08] **Maggie:** I'm sure you covered this in your talk. This is exactly in the programming context, a newer programmers focused so much on syntax and libraries and frameworks and more experienced programmers have gotten to the level where they're thinking in the higher level abstract structures of things or mental models, but really metaphors. Of how to fit things together on a higher level, but people who are newer are probably more concerned about whether it's Vue or React or whatever, Python.
 
 [46:35] **Henry:** And maybe in a way, you give away your experiences by your questions, right? So if they say, what should I use? React or Vue, then you know.. that doesn't mean they're a bad programmer, it just means they're inexperienced, right? They don't know what to ask.
 
-[46:49] **Henry:** Going back to Bruce Lee again, I liked his, he has this three stages of cultivation that I talked about in terms of knowledge. And so the first stage is called the primitive stage where you don't really know what you're doing, so it's all based on intuition. If you're programming, you just doing things, you don't even know that there's a way of doing things. And then you move onto the second stage where you ask somebody and they tell you, and that's the mechanical stage, where you learn some principle about programming or you learn a framework and then you think, once I learn React, everything is React.
+[46:49] **Henry:** Going back to Bruce Lee again, he has this three stages of cultivation that I talked about in terms of knowledge. And so the first stage is called the primitive stage where you don't really know what you're doing, so it's all based on intuition. If you're programming, you just doing things, you don't even know that there's a way of doing things. And then you move onto the second stage where you ask somebody and they tell you, and that's the mechanical stage, where you learn some principle about programming or you learn a framework and then you think, once I learn React, everything is React.
 
-[47:22] **Henry:** Like I want to make a.. every single app I can make, I'll use React. Or once I learn DRY, everything has to be, don't repeat yourself, right. And then we know that if you're in the third stage, you'll be like, the answer is that it depends. It's not always, you can apply that one thing everywhere. And he calls that artlessness. There is no stage, you have to figure out the context, right? The situation.
+[47:22] **Henry:** Every single app I can make, I'll use React. Or once I learn DRY, everything has to be, don't repeat yourself, right. And then we know that if you're in the third stage, you'll be like, the answer is that it depends. It's not always, you can apply that one thing everywhere. And he calls that artlessness. There is no stage, you have to figure out the context, right? The situation.
 
 [47:43] **Maggie:** Right. Oh, I love that. See I struggle with that so much with answering questions. I do get a lot of questions of, whenever I put up an illustration of what app is that, is like the classic thing. And I always just try to be very polite about it, because of course it is just people who don't know, and what else do you ask? I would ask that if anything else, right? If I saw someone, I don't know, riding a bicycle, it'd be like, I don't know he's in some fancy way, I'd go, what bike is that? I don't know. But it is difficult to explain to people that the app is, absolutely nothing to do with it.
 
@@ -412,21 +412,21 @@ quotes:
 
 [48:48] **Henry:** Right, exactly, yeah. We think that knowledge is about either the tools or the actual content, but we forget that you have to know how to use those things. Right. So what you said, whether it's programming or cooking or playing an instrument, the best tools aren't going to help you if you don't know how to use them right.
 
-[49:07] **Maggie:** Yeah. There's certainly entry doors. I do struggle with that tension a bit where I go, okay, well the person can't learn the experience of drawing without some tool to draw with. But to shift people's mindset to say, you could get this app and it wouldn't help, but you do need an app of some sort to attempt to draw.
+[49:07] **Maggie:** There's certainly entry doors. I do struggle with that tension a bit where I go, okay, well the person can't learn the experience of drawing without some tool to draw with. But to shift people's mindset to say, you could get this app and it wouldn't help, but you do need an app of some sort to attempt to draw.
 
-[49:25] **Henry:** But it is interesting that. I find myself, focusing on that so much, the tool, right? When you don't, maybe that's one way of knowing that you're inexperienced is when you are spending all your time, say you're trying to buy, I'm trying to buy a new computer or whatever it is.
+[49:25] **Henry:** But it is interesting that. I find myself, focusing on that so much, the tool, right? When you don't, maybe that's one way of knowing that you're inexperienced is when you are spending all your time, say I'm trying to buy a new computer or whatever it is.
 
-[49:41] **Henry:** You feel like you have to do all this research upfront just to get something. Or someone's like, Hey, I want to make my, a podcast for the first time, and, well, what do I need? And I will just tell them, just use your phone. It's more important for you to even just start doing it at all than to buy all this stuff, right.
+[49:41] **Henry:** You feel like you have to do all this research upfront just to get something. Or someone's like, Hey, I want to make a podcast for the first time, and, well, what do I need? And I will just tell them, just use your phone. It's more important for you to even just start doing it at all than to buy all this stuff, right.
 
-[49:55] **Maggie:** Yeah. I've never quite figured out the tension between it. Cause I definitely believe in the. Well, everything we were talking about, right? Tools as part of embodiment and as part of extensions of ourselves. So I care deeply about my tools, I'm for sure the person that customizes everything to the absurd degree, I love macros on my desktop and I love making, I think of it as both fitting myself to the machine and fitting the machine to me in this interplay.
+[49:55] **Maggie:** I've never quite figured out the tension between it. Cause I definitely believe in the. Well, everything we were talking about, right? Tools as part of embodiment and as part of extensions of ourselves. So I care deeply about my tools, I'm for sure the person that customizes everything to the absurd degree, I love macros on my desktop and I love making, I think of it as both fitting myself to the machine and fitting the machine to me in this interplay.
 
-[50:22] **Maggie:** Where you just, merge and become one. Not that I think my machine is like an embodied being that cares whether it involves itself with me, but I think about it in a very, anthropomorph.. **anthropomorphization** that's the word. It is animate to me, it is a being.
+[50:22] **Maggie:** Where you just, merge and become one. Not that I think my machine is like an embodied being that cares whether it involves itself with me, but I think about it in a very, **anthropomorphization** that's the word. It is animate to me, it is a being.
 
 [50:39] **Henry:** Yeah.
 
 [50:39] **Maggie:** And not in a way right, where it has human rights, but as an I think of it as a more, cognitive living being in itself than perhaps other people might. But I'm more prone to take magic and mysticism and animism seriously, just from reading about it in anthropology and understanding it's a beautiful way to see the world, even if you don't, on a rational level, think it's all true.
 
-[51:00] **Henry:** Yeah. No, I resonated with that too with a book I was reading called **The Cat and The Toaster**. It's a book about ministry, but I think you can apply it to a lot of things. The key question is essentially, what are we dealing with, for whatever problem we're trying to solve? Is it a cat, or is it a toaster? Or if it's a toaster? You can take it apart. You can put it back together, you can repair it. But you definitely don't want to do that with the cat. So basically understand, are you dealing with a living thing, or a non-living thing. And it doesn't have to mean that it's literally that, right? So if you apply that to the metaphor of open source or a city or the environment, none of those things are living in a way, but we can treat them as living.
+[51:00] **Henry:** No, I resonated with that too with a book I was reading called **The Cat and The Toaster**. It's a book about ministry, but I think you can apply it to a lot of things. The key question is essentially, what are we dealing with, for whatever problem we're trying to solve? Is it a cat, or is it a toaster? Or if it's a toaster? You can take it apart. You can put it back together, you can repair it. But you definitely don't want to do that with the cat. So basically understand, are you dealing with a living thing, or a non-living thing. And it doesn't have to mean that it's literally that, right? So if you apply that to the metaphor of open source or a city or the environment, none of those things are living in a way, but we can treat them as living.
 
 [51:45] **Maggie:** I like that. Yeah. I always love that as systems, as organisms. We use that metaphor all the time. And especially programming as organism is probably my favorite programming metaphor to lean into, as living system. I liked your birth and death stuff about it, that makes perfect sense.
 

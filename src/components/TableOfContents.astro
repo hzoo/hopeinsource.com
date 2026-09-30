@@ -214,6 +214,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     const mobileChaptersCurrent = document.getElementById('mobile-chapters-current');
 
     function setActive(id: string) {
+      const target = document.getElementById(id);
+      if (!target?.matches('h4')) return;
       if (currentActiveId === id) return;
       currentActiveId = id;
       const currentHeading = document.getElementById(id);
@@ -304,11 +306,12 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     // Enrich TOC links with timestamps from adjacent messages
     document.querySelectorAll('h4').forEach((h4) => {
       let el = h4.nextElementSibling;
-      while (el && !el.matches('[data-timestamp]') && !el.matches('h4')) {
+      while (el && !el.matches('[data-timestamp]') && !el.querySelector('[data-timestamp]') && !el.matches('h4')) {
         el = el.nextElementSibling;
       }
-      if (el?.matches('[data-timestamp]')) {
-        const seconds = parseInt(el.getAttribute('data-timestamp') || '0', 10);
+      const timed = el?.matches('[data-timestamp]') ? el : el?.querySelector('[data-timestamp]');
+      if (timed) {
+        const seconds = parseInt(timed.getAttribute('data-timestamp') || '0', 10);
         const mins = Math.floor(seconds / 60);
         const secs = seconds % 60;
         const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
@@ -340,7 +343,22 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
     // Init from hash
     const hash = window.location.hash;
-    if (hash) setActive(hash.replace('#', ''));
+    if (hash) {
+      const id = hash.slice(1);
+      const target = document.getElementById(id);
+      if (target?.matches('h4')) setActive(id);
+      else {
+        const seconds = id.startsWith('t=') ? Number(id.slice(2)) : null;
+        const passage = target ?? (seconds !== null && Number.isFinite(seconds)
+          ? [...document.querySelectorAll<HTMLElement>('.message[data-timestamp]')]
+            .filter(m => Number(m.dataset.timestamp) <= seconds).at(-1) : null);
+        if (passage) {
+          const heading = [...document.querySelectorAll('h4')].filter(h =>
+            Boolean(h.compareDocumentPosition(passage) & Node.DOCUMENT_POSITION_FOLLOWING)).at(-1);
+          if (heading) setActive(heading.id);
+        }
+      }
+    }
   }
 
   function initTOCLazyBootstrap() {

@@ -20,11 +20,11 @@ quotes:
 
 [00:07] **Henry:** Yeah, today, I have with me Mikeal Rogers. I feel like Mikeal's been around for a pretty long time, especially in open source. I don't remember where I first met you or heard about you. But I mean I definitely knew that you worked on Node. And then probably feel like I talked to you a lot more after you made RFC with Nadia.
 
-[00:26] **Mikeal:** Right, right. Well, we had you on, and then, yeah, we just kind of kept talking after that as well.
+[00:26] **Mikeal:** Right. Well, we had you on, and then, yeah, we just kind of kept talking after that as well.
 
 [00:30] **Henry:** Actually, that's kind of interesting. I feel like podcasts are a really great way to get to know people. You talk with someone for a whole hour, or whatever it is, and, I don't know, it's different. Not that, you meet people in person, and I feel like that's a huge thing. But then at least if you're communicating online, it's a lot more I guess intimate than Twitter or something else, right?
 
-[00:56] **Mikeal:** Yeah, yeah. I'm actually I'm starting to consider starting a podcast with a friend of mine who whenever we get a chance to catch up, we have these really great conversations. And we don't have them enough. So I'm like, "Why don't we just set up [inaudible 00:01:11] week for us to have the conversation, and then we'll just publish it?"
+[00:56] **Mikeal:** I'm actually starting to consider starting a podcast with a friend of mine who whenever we get a chance to catch up, we have these really great conversations. And we don't have them enough. So I'm like, "Why don't we just set up [inaudible 00:01:11] week for us to have the conversation, and then we'll just publish it?"
 
 [01:15] **Henry:** No, that makes total sense. I feel like that's how a lot of podcasts start, right?
 
@@ -32,7 +32,7 @@ quotes:
 
 [01:20] **Henry:** You just have someone you like talking with, and you're like, "We might as well make it public." I feel like that's exactly what we did for Hope in Source. Yeah, it was just like, why not, right? I feel like then you don't have too much pressure about making it good because you at least enjoy it yourself, which probably says a lot about open source too, right?
 
-[01:41] **Mikeal:** Right, right. Also you did that one as a season and then released it Netflix-style. And that's really nice because I've done podcasts that are weekly, and I've done ... With RFC with Nadia we did seasoned. And that was nice because we got to just kind of prepare a season and think about the guests for that time. There was still some time pressure to knock it out on a particular schedule. And then I was on a weekly one for a while on The Changelog. And that was really stressful actually to always have to be available for that and be really consistent.
+[01:41] **Mikeal:** Right. Also you did that one as a season and then released it Netflix-style. And that's really nice because I've done podcasts that are weekly, and I've done ... With RFC with Nadia we did seasoned. And that was nice because we got to just kind of prepare a season and think about the guests for that time. There was still some time pressure to knock it out on a particular schedule. And then I was on a weekly one for a while on The Changelog. And that was really stressful actually to always have to be available for that and be really consistent.
 
 [02:10] **Mikeal:** But, yeah, with Hope in Source, people didn't even really know that you were doing it. I think you mentioned it to me, but unless you told somebody, they didn't know that you were doing it, and then you just released all of it. It was so nice. You got to take as much time as you wanted.
 
@@ -40,33 +40,33 @@ quotes:
 
 [03:04] **Henry:** So I think just feeling that out is fine. It's just when people, when it gets popular, people start demanding things. It sounds exactly like open source again. Maybe that's why it's fun because now, nobody knows. I think we only had 500 downloads for this one.
 
-[03:22] **Mikeal:** Yeah. I don't know. I listen to a lot of podcasts, and they really stretch to different formats and stuff like that. Some of the ones that are really produced I really love and enjoy. But also some of the ones that I listen to the most consistently are just simple interview ones, and they'll bring people back several times [inaudible 00:03:40] like that. I think the long-form podcast has [inaudible 00:03:42] on every other year basically and [inaudible 00:03:45]-
+[03:22] **Mikeal:** I don't know. I listen to a lot of podcasts, and they really stretch to different formats and stuff like that. Some of the ones that are really produced I really love and enjoy. But also some of the ones that I listen to the most consistently are just simple interview ones, and they'll bring people back several times [inaudible 00:03:40] like that. I think the long-form podcast has [inaudible 00:03:42] on every other year basically and [inaudible 00:03:45]-
 
-[03:46] **Henry:** Yeah. I think if it's 10 minutes, some people like that. And the other ones are like three hours, and people listen to the whole thing. It's interesting.
+[03:46] **Henry:** I think if it's 10 minutes, some people like that. And the other ones are like three hours, and people listen to the whole thing. It's interesting.
 
-[03:54] **Mikeal:** Yeah, yeah. Some of those feel a little meandering to me. They seem a little bit too long.
+[03:54] **Mikeal:** Some of those feel a little meandering to me. They seem a little bit too long.
 
 [04:00] **Henry:** That's true. I guess there's this balance of how much editing you ... How much do you want to do yourself or you're going to start paying people? And I was like, okay, I was editing the podcast before, and now I might as well just pay someone. And then also the transcripts, stuff like that.
 
-[04:16] **Mikeal:** Yeah. Now, you're running a business basically. So you just signed up for a side hustle.
+[04:16] **Mikeal:** Now, you're running a business basically. So you just signed up for a side hustle.
 
-[04:23] **Henry:** Yeah. It's funny how you end up, the thing that you turn into your job you find ... You always find some side thing. But I feel like they're all related. I feel like we have to justify to the world that, especially in my case, if you are doing this thing you set out to do, I didn't want it to be too specific, too vague because then it limits what I feel like I can do. But people change over time, right? This has been a whole year, and now, I'm like, "Okay, I want to do a bunch podcasts." And it's not like it's a different thing. It's still about open source, right?
+[04:23] **Henry:** It's funny how you end up, the thing that you turn into your job you find ... You always find some side thing. But I feel like they're all related. I feel like we have to justify to the world that, especially in my case, if you are doing this thing you set out to do, I didn't want it to be too specific, too vague because then it limits what I feel like I can do. But people change over time, right? This has been a whole year, and now, I'm like, "Okay, I want to do a bunch podcasts." And it's not like it's a different thing. It's still about open source, right?
 
 [04:54] **Henry:** It's funny how I keep thinking podcasts and open source are the same, going back to thinking that the thing that you think about you turn everything into that thing. Yeah, it's interesting.
 
-[05:05] **Mikeal:** Yeah. And you have the same maintenance problem, right?
+[05:05] **Mikeal:** And you have the same maintenance problem, right?
 
-[05:07] **Henry:** Yeah. Yes.
+[05:07] **Henry:** Yes.
 
 [05:08] **Mikeal:** Once you do it, people just expect you to keep doing it.
 
 [05:12] **Henry:** Right. Actually, this happened recently. Someone just tweeted, "Hey, Nadia, Henry, when are you going to make another episode of Hope in Source?" We're like, "We're not thinking about it right now, but maybe."
 
-[05:26] **Mikeal:** Yeah. When I started running NodeConf, people just expected immediately that it would be a yearly thing. There was no question, like, "Oh, yeah, so you're doing this next year, same time?" I moved the venue, and they were like, "What? Why?" And I would get really bored at doing the same thing. So everyone had a slightly kind of format to it. And I was always iterating and being creative about the format. And some people really liked that and loved the iteration of it. And some people kind of hated it. There's certain people that really want to do the same thing every year for some reason.
+[05:26] **Mikeal:** When I started running NodeConf, people just expected immediately that it would be a yearly thing. There was no question, like, "Oh, yeah, so you're doing this next year, same time?" I moved the venue, and they were like, "What? Why?" And I would get really bored at doing the same thing. So everyone had a slightly kind of format to it. And I was always iterating and being creative about the format. And some people really liked that and loved the iteration of it. And some people kind of hated it. There's certain people that really want to do the same thing every year for some reason.
 
-[06:04] **Henry:** Yeah. I was just thinking that. I feel like, well, if they're more on the, I don't want to say consumer side, but just want to be there, they probably want that consistency and almost like nostalgia, right? But then if you're the one organizing it, you're just like, "I'm doing the same thing over and over. I'm getting bored, or can we move?" Because you want to feel like you're progressing or something, right?
+[06:04] **Henry:** I was just thinking that. I feel like, well, if they're more on the, I don't want to say consumer side, but just want to be there, they probably want that consistency and almost like nostalgia, right? But then if you're the one organizing it, you're just like, "I'm doing the same thing over and over. I'm getting bored, or can we move?" Because you want to feel like you're progressing or something, right?
 
-[06:24] **Mikeal:** Yeah, yeah, I would always tell this. So in the early days of NodeConf, so Chris Williams helped me out running it. I mean he set it up. He ran the back of the financing and everything, because I had run a conference for CouchDB, but I was working at the CouchDB company at the time. And so I just had a corporate credit card. There was no sponsors or budgeting. And I was like, "I need to figure out how to do this for real." And Chris offered to help. And so we did NodeConf and JSConf kind of together back-to-back in Portland. And I went there and helped scout venues, and he ran the whole financing side.
+[06:24] **Mikeal:** Yeah, I would always tell this. So in the early days of NodeConf, so Chris Williams helped me out running it. I mean he set it up. He ran the back of the financing and everything, because I had run a conference for CouchDB, but I was working at the CouchDB company at the time. And so I just had a corporate credit card. There was no sponsors or budgeting. And I was like, "I need to figure out how to do this for real." And Chris offered to help. And so we did NodeConf and JSConf kind of together back-to-back in Portland. And I went there and helped scout venues, and he ran the whole financing side.
 
 [07:01] **Mikeal:** After that, Chris kept helping people start up conferences, and I did too actually. Since he helped me, I really felt like I needed to help other people. And the advice that I kept giving people is ... They really wanted to go, "Well, how did you do this? And what kind of venue for this?" And I was like, "You should put your own spin on this a little bit," right? "Here's why we did certain things and the kinds of constraints that we had. And in particular, here's the things you need to do to sell tickets and not be financially in debt at the end of this."
 
@@ -74,11 +74,11 @@ quotes:
 
 [07:55] **Henry:** That's really interesting, because it's taking advantage of the location, the space versus making it very specific a niche rather than just generalizing everything.
 
-[08:05] **Mikeal:** Right, right. And O'Reilly Conference, they'll move cities, and it's the same event. There's nothing different about it. It's just somewhere else.
+[08:05] **Mikeal:** Right. And O'Reilly Conference, they'll move cities, and it's the same event. There's nothing different about it. It's just somewhere else.
 
 [08:13] **Henry:** It's kind of like franchising for McDonald's or something in a way.
 
-[08:18] **Mikeal:** Yeah. And we always had this approach with the community conferences. There was no big media company looking to do a JavaScript event at that time. There was no big people that wanted to get money into that. And so we said, "We have this huge community. Rather than try to do one event or try to make our events into the big event, let's just do a lot of small events, just get more people running two- to 300-people events rather than one that's 3,000 people or whatever."
+[08:18] **Mikeal:** And we always had this approach with the community conferences. There was no big media company looking to do a JavaScript event at that time. There was no big people that wanted to get money into that. And so we said, "We have this huge community. Rather than try to do one event or try to make our events into the big event, let's just do a lot of small events, just get more people running two- to 300-people events rather than one that's 3,000 people or whatever."
 
 [08:47] **Mikeal:** And I think that worked out a lot better. One of the problems that we had, though, in the conference community was that when the media people did show up, it changed the financing a lot. O'Reilly eventually starting doing Fluent, which is a 1,000-person conference. And there's a few other bigger events as well. Also when the Node Foundation came on board, that turned into a much bigger event around Node, stuff like that. And when that happened, it's a lot more money.
 
@@ -98,13 +98,13 @@ quotes:
 
 [12:09] **Mikeal:** And, yeah, so I just had it completely wrong. And that was interesting to figure out just through the process of talking to different people with different models, including you.
 
-[12:17] **Henry:** Yeah. It's funny, really relevant to me now because I forgot when ... Well, that was obviously before I quit, but that podcast episode, but I don't know. I think, yeah, because I think when we talked, I was still, I was working at Adobe, and they were paying me to do it half-time. And we were talking about the conflicts with just even corporate sponsorship where if you ... well, not compromise, but if you're spending half your time on, quote/unquote, the regular work that other people are doing and then this open source work, there's still that dichotomy and then you just feel bad. And then even if it's your job to do it, you feel not that you're not appreciated. It's just everyone else is thinking about other things.
+[12:17] **Henry:** It's funny, really relevant to me now because I forgot when ... Well, that was obviously before I quit, but that podcast episode, but I don't know. I think, yeah, because I think when we talked, I was still, I was working at Adobe, and they were paying me to do it half-time. And we were talking about the conflicts with just even corporate sponsorship where if you ... well, not compromise, but if you're spending half your time on, quote/unquote, the regular work that other people are doing and then this open source work, there's still that dichotomy and then you just feel bad. And then even if it's your job to do it, you feel not that you're not appreciated. It's just everyone else is thinking about other things.
 
 [13:07] **Henry:** And I feel like now, yeah, I agree that funding a project is hard, because I have to deal with this now in both the Open Collective and the Patreon where obviously the Patreon's so much easier because, yeah, you don't have to think about where it's allocated. It's going to you directly. But then it's Open Collective, it's all right, how are you going to allocate? And are you going to pay the core maintainers? Are you going to pay random contributors? Are you going to pay your dependencies? People were suggesting that too. Or are you going to pay me where I decide to do this full-time? So are you going to pay ...
 
 [13:42] **Henry:** In my mind, it makes sense, even though obviously I'm biased now, that you would pay full-time people then other contributor maintainers and then everyone else, if that even if possible? And I feel like at that point, it's better to spend a lot more money on a few people even though I guess it seems like you're, what is it, biasing certain people. It just feels like that money's more well-spent when you're not distributing 1% of it to 100 people.
 
-[14:09] **Mikeal:** Yeah, yeah. So I was just remembering, when I first met Nadia, I had read her article when she was first getting involved in the topic. And my impression was that she saw it as a financing problem. And so I really walked into it thinking, "I need to unwind ... It's not a money problem. It's a time problem. And it's like a contribution problem getting people to contribute in a meaningful way and to the right things. But it's not necessarily a money problem." And she was already there I think. She had talked to enough people that she had a much wider view of it and was thinking about it more just in terms of general sustainability.
+[14:09] **Mikeal:** So I was just remembering, when I first met Nadia, I had read her article when she was first getting involved in the topic. And my impression was that she saw it as a financing problem. And so I really walked into it thinking, "I need to unwind ... It's not a money problem. It's a time problem. And it's like a contribution problem getting people to contribute in a meaningful way and to the right things. But it's not necessarily a money problem." And she was already there I think. She had talked to enough people that she had a much wider view of it and was thinking about it more just in terms of general sustainability.
 
 [14:51] **Mikeal:** But I remember coming into it going, "That is not the biggest problem. The money's not the biggest problem." And then when Open Collective started, and nobody was really even getting funded yet, but it already was like, "This is the solution to [inaudible 00:15:05]." Just the tone and the ... People in open source were just like, "Okay, all right, this is fixed now. You just raise money." And I was like, "I don't think that that's the case." And they were starting to just associate raising money in Open Collective with being sustainable.
 
@@ -112,15 +112,15 @@ quotes:
 
 [15:53] **Mikeal:** And they were like, "No. That's a fun thing. You can't do that." And I was like, "So, wait. So the solution to open-source sustainability is to pay people below market rate to do things that aren't fun? Really? That's our plan?"
 
-[16:07] **Henry:** Yeah. How did we get into that situation?
+[16:07] **Henry:** How did we get into that situation?
 
 [16:12] **Mikeal:** It was just unbelievable to me.
 
 [16:13] **Henry:** That sucks.
 
-[16:14] **Mikeal:** Yeah. And it's not like ... They were already not paying people well for their work. That podcast and also just Nadia's work in general has really widened the conversation about sustainability and made it about more than just kind of funding, funding as a tool. And we keep getting more tools for different types of funding, and trying that out has been really interesting to see.
+[16:14] **Mikeal:** And it's not like ... They were already not paying people well for their work. That podcast and also just Nadia's work in general has really widened the conversation about sustainability and made it about more than just kind of funding, funding as a tool. And we keep getting more tools for different types of funding, and trying that out has been really interesting to see.
 
-[16:35] **Henry:** Yeah. I mean I felt like money has never been the solution, but it's more like ... Some people think that's it, and it's that simple. They just need money. And other people are like, "It's just going to make things really complicated." And I think it's, can we say both? It's going to be complicated, and we need it. But it's not the end all, be all. And we have money now, and I'm getting paid to do it. I almost feel like either myself or other people are like, "If you have money, then suddenly the output of this project is going to be 20 times better."
+[16:35] **Henry:** I mean I felt like money has never been the solution, but it's more like ... Some people think that's it, and it's that simple. They just need money. And other people are like, "It's just going to make things really complicated." And I think it's, can we say both? It's going to be complicated, and we need it. But it's not the end all, be all. And we have money now, and I'm getting paid to do it. I almost feel like either myself or other people are like, "If you have money, then suddenly the output of this project is going to be 20 times better."
 
 [17:11] **Henry:** Not really. Actually in some sense, we're releasing less. And maybe that's okay because I had this pressure to feel like I had to keep up with this whole hype cycle and making releases every week or whatever. And it's not healthy. And I think what I really need with money is more, I just want to be able to not burn out, not to say the more money we get, the more code and more features and whatever. It's just making sure we can actually continue doing this.
 
@@ -146,7 +146,7 @@ quotes:
 
 [22:06] **Henry:** So it's like do you want to keep up with this cultural fight or ...
 
-[22:12] **Mikeal:** Yeah. And so what I've tried to do in the last say five years or so is try to remove this line between developers and open-source developers. Everybody is a developer. Everybody's an open-source developer. That's just the world that we're in now. Try to change governance principles and a lot of the ways in which people run their projects, that they're more open to contributions that are at the edges that are more casual, that they're not trying to optimize for somebody that is actually embedded full-time because there's a huge number of developers working on applications that are going to find a bug, just want to fix it real quick, and move along.
+[22:12] **Mikeal:** And so what I've tried to do in the last say five years or so is try to remove this line between developers and open-source developers. Everybody is a developer. Everybody's an open-source developer. That's just the world that we're in now. Try to change governance principles and a lot of the ways in which people run their projects, that they're more open to contributions that are at the edges that are more casual, that they're not trying to optimize for somebody that is actually embedded full-time because there's a huge number of developers working on applications that are going to find a bug, just want to fix it real quick, and move along.
 
 [22:49] **Mikeal:** And the more open you are to that, the more sustainable that you can be in the long term.
 
@@ -162,17 +162,17 @@ quotes:
 
 [24:36] **Mikeal:** Where I tend to get called in to talk to companies is when they want to do something big in open source, which is usually they want us to open source a project or add contributors to a project full-time or something like that. And it's funny because I'm one of open-source guys, so they call me in for that. But what I really think we need to be doing is just saying, "Look, all of your developers are open-source developers. Just let them fix bugs in all the stuff they're using because they're using open-source software every day."
 
-[25:03] **Henry:** Yeah. I feel like, yeah, you're right. In a way either ... I actually gave a talk about this recently at [inaudible 00:25:10]. I was trying to say that sometimes we treat the people that are very visible on social media like they're gods or something, right? They are this special type of developer that's open source. Or you don't even know who works on the project, so they're more anonymous people that you just report bugs to.
+[25:03] **Henry:** I feel like, yeah, you're right. In a way either ... I actually gave a talk about this recently at [inaudible 00:25:10]. I was trying to say that sometimes we treat the people that are very visible on social media like they're gods or something, right? They are this special type of developer that's open source. Or you don't even know who works on the project, so they're more anonymous people that you just report bugs to.
 
 [25:29] **Henry:** And so either case, you don't think that you can do open source. And so what you're saying makes sense. How do we get people to realize they can contribute back? The whole point of open source is that you can actually be involved in the process, right?
 
-[25:43] **Mikeal:** Yeah. And I mean I think smaller projects are much easier to contribute to. They don't have a lot of these bigger issues. But I do think that we were ... We're still to some extent really caught up in this BDFL notion. And it's like the fallback sort of governance model. And it just becomes really problematic really quickly if you're trying to encourage people to contribute and to stick around and help maintain it. It's not a good model.
+[25:43] **Mikeal:** And I mean I think smaller projects are much easier to contribute to. They don't have a lot of these bigger issues. But I do think that we were ... We're still to some extent really caught up in this BDFL notion. And it's like the fallback sort of governance model. And it just becomes really problematic really quickly if you're trying to encourage people to contribute and to stick around and help maintain it. It's not a good model.
 
 [26:08] **Mikeal:** And so I put a lot of time into trying to come up with better practices and principles and document them. And to some extent, I mean it worked. We fixed Node. Node.js works under a lot of those principles. But I don't know that we've really changed the culture in a significant way.
 
 [26:27] **Henry:** Right. Well, I guess it also is BDFL works for those small projects, right? And it's more that when they're trying to transition, how do they do that? And maybe it's because they're caught off guard where, like what you said, projects randomly get super popular and then your little pet project randomly becomes the thing everyone uses. And they weren't intending on it to be like that. And then there's no support structure. And we're trying to figure out how to create those guidelines to do that.
 
-[26:58] **Mikeal:** Yeah. And doing that from scratch is always really hard. I mean I've had to do it. It's tough to go out on a limb and say, "This is how we should run our project." It's unlike how any other project runs, whereas BDFL is sort of simple. I make all the decisions. It doesn't need to be documented. It's how Linux works I guess, not really, though, in practice. But it makes a good tagline or whatever.
+[26:58] **Mikeal:** And doing that from scratch is always really hard. I mean I've had to do it. It's tough to go out on a limb and say, "This is how we should run our project." It's unlike how any other project runs, whereas BDFL is sort of simple. I make all the decisions. It doesn't need to be documented. It's how Linux works I guess, not really, though, in practice. But it makes a good tagline or whatever.
 
 [27:26] **Henry:** I kind of want to go back to what you were saying about value actually, or values. And I guess I was reading Steve Klabnik's article that he did recently about what comes after open source. He was talking about the difference between I guess what you were calling old-school open source, like free software, and then this new group of people. I guess I'm part of the GitHub age.
 
@@ -192,19 +192,19 @@ quotes:
 
 [30:59] **Mikeal:** We tried to make this distinction when we created the Node Foundation's governance model where we have a way of doing things that is very mutable that we expect change over time that can change between different working groups. And then we have a set of values that went into that. And that's the thing that can't change. That's the thing that you have to sort of internalize and adopt, and then you can use that to make further process changes.
 
-[31:20] **Henry:** Yeah. I guess that gets into the nature of how do we retain information and knowledge transfer across people and our culture through these processes. And I think about the podcast we did on Hope in Source about liturgy. In a religious way, you have those processes and traditions as well. And what do we have in open source that helps us to do that?
+[31:20] **Henry:** I guess that gets into the nature of how do we retain information and knowledge transfer across people and our culture through these processes. And I think about the podcast we did on Hope in Source about liturgy. In a religious way, you have those processes and traditions as well. And what do we have in open source that helps us to do that?
 
-[31:48] **Mikeal:** Yeah. I mean it's really easy for people to copy a process. And it's a lot harder for them to internalize a value structure, right? It's just so much more work. And I think there's a place for ritual, right? Ritual is an interesting thing that you do and you don't know why you're doing it. But you don't have to know why you're doing it for it to be effective. That's the best, when I was learning [inaudible 00:32:17] meditation, that was one of the things the instructor said on the first day that really stuck with me is you don't have to believe in this for it to be effective.
+[31:48] **Mikeal:** I mean it's really easy for people to copy a process. And it's a lot harder for them to internalize a value structure, right? It's just so much more work. And I think there's a place for ritual, right? Ritual is an interesting thing that you do and you don't know why you're doing it. But you don't have to know why you're doing it for it to be effective. That's the best, when I was learning [inaudible 00:32:17] meditation, that was one of the things the instructor said on the first day that really stuck with me is you don't have to believe in this for it to be effective.
 
 [32:27] **Henry:** That's actually pretty interesting, yeah.
 
 [32:28] **Mikeal:** You just do it. Yeah. And there's a bunch of things that I think fill that void in open source, right? I think conferences to some extent do that. There are people that go to FOSDEM every year, and they have a routine that they do and people that they see and places they go out to eat. And it's like going to Mecca, right?
 
-[32:49] **Henry:** Yeah, yeah, no. Yeah, makes sense. [inaudible 00:32:51] but what you said, I guess it's really powerful that if you're involved in this ritual or tradition, it changes people. It affects how we live. But then you don't have to know how it works. But I think I guess it's on us, or maybe on the people that established those traditions to pass down why that was there in the first place. Otherwise, we forget, and I think it's almost maybe ... Even free software, all that stuff, I didn't know anything about that when I got involved in open source. And I didn't have to because we stopped caring about all those other concerns. We had new concerns.
+[32:49] **Henry:** Yeah, no. makes sense. [inaudible 00:32:51] but what you said, I guess it's really powerful that if you're involved in this ritual or tradition, it changes people. It affects how we live. But then you don't have to know how it works. But I think I guess it's on us, or maybe on the people that established those traditions to pass down why that was there in the first place. Otherwise, we forget, and I think it's almost maybe ... Even free software, all that stuff, I didn't know anything about that when I got involved in open source. And I didn't have to because we stopped caring about all those other concerns. We had new concerns.
 
 [33:26] **Henry:** But then I guess knowing history it should be relevant to those things because we're just reinventing something again and not knowing what happened before.
 
-[33:37] **Mikeal:** Yeah. So there's a book that I always recommend to people on this. And it's not the one that most people recommend about open source actually, because there's a lot of good books on open source on process and on values. But I feel like in the history telling of this, a lot of the underlying motivations and real values of free software get mistaken or mixed up in a lot of the ... How do I put this nicely? There's the antagonistic sort of attitude of a lot of the free software folks. And it's really hard to separate them.
+[33:37] **Mikeal:** So there's a book that I always recommend to people on this. And it's not the one that most people recommend about open source actually, because there's a lot of good books on open source on process and on values. But I feel like in the history telling of this, a lot of the underlying motivations and real values of free software get mistaken or mixed up in a lot of the ... How do I put this nicely? There's the antagonistic sort of attitude of a lot of the free software folks. And it's really hard to separate them.
 
 [34:13] **Mikeal:** There's this book called [Hackers](https://en.wikipedia.org/wiki/Hackers:_Heroes_of_the_Computer_Revolution) by Steven Levy. And this book starts in the 1950s actually, in the Tech Model Railroad Club at MIT. And it basically traces this group of people into creating the AI lab at MIT, which is still very popular. And all of that work all the way through ... And you can just skip the third act ... So the first two acts are very relevant and really [inaudible 00:34:43]. And the third act is about the gaming industry [inaudible 00:34:47] Sierra and just has no relevance.
 
@@ -232,7 +232,7 @@ quotes:
 
 [39:58] **Henry:** So I'm already doing work. If they want to pay for it, they can. And they could choose not to. And so doesn't mean that once they pay, now it's an obligation. They turn the gift into a transaction, right? And it's supposed to be a gift.
 
-[40:13] **Mikeal:** Yeah. That line is really, really hard, right? To some extent, Patreon is not really just patronage, right? It is not just gifts. If you have a podcast, you can do a patron-only podcast feed, and you can do art that is only for your patrons and things like that. So it does in some cases just operate as a paywall.
+[40:13] **Mikeal:** That line is really, really hard, right? To some extent, Patreon is not really just patronage, right? It is not just gifts. If you have a podcast, you can do a patron-only podcast feed, and you can do art that is only for your patrons and things like that. So it does in some cases just operate as a paywall.
 
 [40:35] **Henry:** Well, I guess yeah. And then they don't really have a lot of structure around that. You could do whatever you want. They're just a way to accept money from people and then it's established brand. So maybe they already have their credit card on there so it's easier for them to do it. But then it's up to you to decide all the tiers and stuff. And I look at people that are artists or on YouTube, they have tiers that are one, two, \$3, something, or more. And then, yeah, like what you said, they'll do a private podcast or your own piece of artwork if you pay a certain amount.
 
@@ -242,7 +242,7 @@ quotes:
 
 [41:53] **Henry:** I've heard [inaudible 00:41:54].
 
-[41:54] **Mikeal:** Yeah, yeah. I mean you don't want to flame individual people, so this stuff isn't public, right? But they've held projects hostage. They've taken a year off on something that nobody cared about. They end up listening to their community far less because there's just no incentive left. They're paid to do whatever anyway. I should say outright that I make a fair amount of money. I make enough money to be comfortable. I'm not independently wealthy. I haven't had an exit or anything. But I am paid well, and I do take jobs that will pay me well so that I can remain comfortable. I'm not trying to say that I'm sacrificing for particular work.
+[41:54] **Mikeal:** I mean you don't want to flame individual people, so this stuff isn't public, right? But they've held projects hostage. They've taken a year off on something that nobody cared about. They end up listening to their community far less because there's just no incentive left. They're paid to do whatever anyway. I should say outright that I make a fair amount of money. I make enough money to be comfortable. I'm not independently wealthy. I haven't had an exit or anything. But I am paid well, and I do take jobs that will pay me well so that I can remain comfortable. I'm not trying to say that I'm sacrificing for particular work.
 
 [42:33] **Mikeal:** But there's something to be said about the fact that if I was just off doing my own thing, I wouldn't know that anyone actually cared about it necessarily. I may not be doing the most valuable thing right now with my time, but at least it's valuable to someone who is willing to pay me this. That's a natural filter that I feel like you don't have when you get ... I mean some people at big companies are actually just hired to be the person that does that there.
 
@@ -266,11 +266,11 @@ quotes:
 
 [46:43] **Henry:** So you have experience with doing [crosstalk 00:46:48].
 
-[46:48] **Mikeal:** Yeah, yeah. And seeing it work out really well, right, better than if I had continued to do it. I started the PouchDB project in 2010 and handed it off pretty soon actually. I think I renamed it to PouchDB. I started with a different [crosstalk 00:47:07]. And there was going to be a big rewrite, but I just wasn't finding the time, and handed it off. And then it got handed off again. And it just became a much better project because I had handed it off. It's way better. They adopted promises when I was saying promises are dumb. So that wouldn't have happened obviously. And that was a really good decision for them that I was dumb for trying to fight against.
+[46:48] **Mikeal:** And seeing it work out really well, right, better than if I had continued to do it. I started the PouchDB project in 2010 and handed it off pretty soon actually. I think I renamed it to PouchDB. I started with a different [crosstalk 00:47:07]. And there was going to be a big rewrite, but I just wasn't finding the time, and handed it off. And then it got handed off again. And it just became a much better project because I had handed it off. It's way better. They adopted promises when I was saying promises are dumb. So that wouldn't have happened obviously. And that was a really good decision for them that I was dumb for trying to fight against.
 
 [47:33] **Henry:** And that was the project that Nolan was behind, and then he wrote that post about open source.
 
-[47:39] **Mikeal:** Right, right, right. I mean, yeah, Nolan did a much better job with it than I could've. Dale Harvey was running it before him and did a much better job than I would've. And so it worked out really well. And, yeah, I think that turning out so well has really encouraged me to not try to hold on to things. And I mean I worked on Node.js early on, but it wasn't like I owned a part of it, right, and was trying to hold on to that piece.
+[47:39] **Mikeal:** Right. I mean, yeah, Nolan did a much better job with it than I could've. Dale Harvey was running it before him and did a much better job than I would've. And so it worked out really well. And, yeah, I think that turning out so well has really encouraged me to not try to hold on to things. And I mean I worked on Node.js early on, but it wasn't like I owned a part of it, right, and was trying to hold on to that piece.
 
 [48:04] **Mikeal:** I think the closest thing to this would be Request, right? Request, I wrote it really early. It's been around for almost 10 years now. I'm fairly I think tied to that project. And even that, we're shutting it down now, right? I'm not handing if off because I don't think that it should be handed off. I think the right thing to do is to slowly spin it down.
 
@@ -290,11 +290,11 @@ quotes:
 
 [52:03] **Henry:** Inertia.
 
-[52:03] **Mikeal:** Yeah. And it's more than just the inertia, right? There's all the people that have already adopted it that are not going to change. But if you Google for how to do something with HTP in Node, you're going to get an example that has Request and Express. And even if we change our API a little bit, people are still going to find it because they were trying to do it because Stack Overflow told them to use it. They are not going to think, "I need a different HTP client. Let me search it in NPM or look for a blog post or something else."
+[52:03] **Mikeal:** And it's more than just the inertia, right? There's all the people that have already adopted it that are not going to change. But if you Google for how to do something with HTP in Node, you're going to get an example that has Request and Express. And even if we change our API a little bit, people are still going to find it because they were trying to do it because Stack Overflow told them to use it. They are not going to think, "I need a different HTP client. Let me search it in NPM or look for a blog post or something else."
 
 [52:33] **Mikeal:** So the only way to really push people in a different direction to adopt newer, better libraries, and to incentivize an ecosystem of people to create better libraries, is to just deprecate Request, to just take it out of the pool. And so that's what we're doing. It's on maintenance mode for a while, and then I think we'll eventually fully deprecate it.
 
-[52:50] **Henry:** Yeah. That's interesting that since the reason why it took so long was because JavaScript itself we were trying to figure out stuff [inaudible 00:52:58]. And I guess in some sense, even Babel was part of all that [inaudible 00:53:03].
+[52:50] **Henry:** That's interesting that since the reason why it took so long was because JavaScript itself we were trying to figure out stuff [inaudible 00:52:58]. And I guess in some sense, even Babel was part of all that [inaudible 00:53:03].
 
 [53:04] **Mikeal:** Yeah, I mean, so I think that it might seem like a big deal now that we're deprecating Request. But I think that in a few years, it will not seem like a big deal at all. I think that there's a big shift coming. So much of our toolchain is built to paper over these deficiencies in the platform. And now that the platform has caught up, we can greatly reduce the amount of conceptual overhead and tooling and just code between our code and the running environment.
 
@@ -302,11 +302,11 @@ quotes:
 
 [53:59] **Henry:** Yeah, because I was going to ask about how do you know when you should just make a new name or deprecate. But then that seems impossible. I think maybe more interesting is more how do you send a clear message to the community on all this stuff? Because I think people might not ... Different words, like "maintenance" or "being deprecated" or "end of life" being something or "being dead," people have different definitions for all those things. And I think sending any message across for your open source project is hard because not everyone goes on GitHub. Not everyone's on Twitter. They might just have it somewhere, right?
 
-[54:35] **Mikeal:** Mm-hmm (affirmative).
+[54:35] **Mikeal:** Mm-hmm.
 
 [54:36] **Henry:** It's hard to actually migrate people to anything, whether it's your next major version or a whole new project, right?
 
-[54:43] **Mikeal:** Yeah. I mean for us, we can update the README, which does make it around, right, because that's on not just the GitHub project but also on NPM. And I think in a year, we'll probably start printing a warning that says that we're deprecated, or having a warning get printed in some way that says that this is deprecated, so at least when people run it, they'll see that, "Okay, yeah, we should probably figure out how to not use this library anymore."
+[54:43] **Mikeal:** I mean for us, we can update the README, which does make it around, right, because that's on not just the GitHub project but also on NPM. And I think in a year, we'll probably start printing a warning that says that we're deprecated, or having a warning get printed in some way that says that this is deprecated, so at least when people run it, they'll see that, "Okay, yeah, we should probably figure out how to not use this library anymore."
 
 [55:11] **Mikeal:** Yeah, and I think that a lot of people are suggesting alternatives right now, and then people are complaining about those alternatives and saying that they are not as feature-complete, or they don't have this or that. And my response is sort of, well, there's no incentive for them to write that while Request is the market share leader, right? Yeah. So I think that I'm hoping that the message actually just gets to the right people that are working on HTP clients or want to work on a new HTP client and that they go and do the work to bring it up.
 
@@ -314,7 +314,7 @@ quotes:
 
 [55:47] **Henry:** Right. And it makes sense that you would ... I mean it might be interesting to just talk to those people. And all those things that people were asking for is either those are actual feature requests, or then they can better understand what their project's about too.
 
-[56:00] **Mikeal:** Yeah, yeah. I don't know. Things are changing.
+[56:00] **Mikeal:** I don't know. Things are changing.
 
 [56:04] **Henry:** Everything's always changing in JS.
 
@@ -326,13 +326,13 @@ quotes:
 
 [57:11] **Mikeal:** I don't know. So one lesson that I learned in the early Node days is that being highly incompatible is its own advantage. You sort of have two paths that you can go down when you're creating a new thing, right? You can try to leverage everything that came before you and all of the work and adoption that people already have with these libraries and this large ecosystem. Or you can start from scratch. And the worst thing that you can do is actually be in between I think. And I'll get into that in a second.
 
-[57:43] **Mikeal:** But in the early days of Node, we were the most incompatible platform that I had ever seen because not only ... So, one, it's a new platform, right? So we don't have Python Standard Lib or Ruby Standard Library or any of these ecosystems. We're new. But it's in JavaScript. Hey, people have written JavaScript. Well, it turns out that that there's no library that people have written in JavaScript that doesn't rely on [inaudible 00:58:07] in some way. So can't use any of that actually. That's all gone. When you look at when people build new platforms, they tend to write a C binding layer. And then a lot of what happens in the early ecosystem is people binding to the same C libraries [inaudible 00:58:21] for a long time.
+[57:43] **Mikeal:** But in the early days of Node, we were the most incompatible platform that I had ever seen because not only ... So, one, it's a new platform, right? So we don't have Python Standard Lib or Ruby Standard Library or any of these ecosystems. We're new. But it's in JavaScript. Hey, people have written JavaScript. Well, it turns out that there's no library that people have written in JavaScript that doesn't rely on [inaudible 00:58:07] in some way. So can't use any of that actually. That's all gone. When you look at when people build new platforms, they tend to write a C binding layer. And then a lot of what happens in the early ecosystem is people binding to the same C libraries [inaudible 00:58:21] for a long time.
 
 [58:22] **Mikeal:** So Postgres adapters and MySQL adapters and a lot of that kind of stuff is usually just the same C code that people just [inaudible 00:58:30]. That's how Ruby and Python work, for instance. That's how Java works. It's all just the same underlying libraries. So we don't work with any of those. And you can't bind to them because they use blocking I/O under the hood. And you just can't block your node process forever in the C binding layer. So people have to write those from scratch. So Tim Caswell wrote a Postgres driver in pure JavaScript from scratch.
 
 [58:54] **Mikeal:** And when we were creating this new ecosystem, all of these things that people thought were disadvantages that we were starting over were advantages because the internet is a really big place. And there's a lot of people that want to be the first person that writes that library.
 
-[59:10] **Henry:** Yeah. I was noticing that too.
+[59:10] **Henry:** I was noticing that too.
 
 [59:11] **Mikeal:** One of the reasons why I was so incentivized to get so involved early on in the community was I could literally be the person who wrote the first HTP client. And TJ showed up to be the person who wrote the first web framework, right? And that's why Express is really big. And that's all of TJ's motivation. It was funny because people always make a really big deal out of when the early community people leave to go off and do a new thing. But what's so funny about it is, no, no, but they're going to keep doing that forever. That's what they want to do, right? Caswell went off and wrote Luvit, right? He wrote [inaudible 00:59:46] a whole new platform so that he could be the guy in the new platform.
 
@@ -340,7 +340,7 @@ quotes:
 
 [59:53] **Henry:** Right. Never thought of it that way.
 
-[59:55] **Mikeal:** Yeah, yeah. It's really fun, first of all, to be involved in a community when it's that young and new. But it's also, a lot of people, like you were saying, people tend to think of developers as being either famous or anonymous. And if you're around just a little while, you realize, no, no, they're not really great. They were just there first. If you were there early, you have a lot more opportunities.
+[59:55] **Mikeal:** It's really fun, first of all, to be involved in a community when it's that young and new. But it's also, a lot of people, like you were saying, people tend to think of developers as being either famous or anonymous. And if you're around just a little while, you realize, no, no, they're not really great. They were just there first. If you were there early, you have a lot more opportunities.
 
 [01:00:23] **Mikeal:** And so a lot of people want to show up to be the first person to write that. And so my advice to Pika and a lot of the other systems where you could do a bunch of work to try to make all of NPM compatible or all this legacy libraries compatible. Or you could just say, "You know what, no, we're not. We're the new thing. You've got to make all new libraries. And we'll just start to capture all of the people that want to do that."
 
@@ -352,7 +352,7 @@ quotes:
 
 [01:01:54] **Henry:** So Babel Preset-ENV, I made that a separate repo, and then that helped people get involved in it for some reason because it wasn't Babel, like Babel/Babel for some reason. I just realized I guess that's the case for languages and ecosystems even specific projects then.
 
-[01:02:13] **Mikeal:** Mm-hmm (affirmative), yeah, yeah. Definitely. Yeah. It's a fun time. I don't know. I still like writing code. I keep writing code as a developer even though a lot of what I do for work now is people pulling other skill sets out of me. But I have cut out enough time to keep writing code because I really enjoy it. And, yeah, those new communities are always just so fun. They're such a good time.
+[01:02:13] **Mikeal:** Mm-hmm. Definitely. It's a fun time. I don't know. I still like writing code. I keep writing code as a developer even though a lot of what I do for work now is people pulling other skill sets out of me. But I have cut out enough time to keep writing code because I really enjoy it. And, yeah, those new communities are always just so fun. They're such a good time.
 
 [01:02:45] **Henry:** Yeah, I guess people are ... If it's something new, everyone's super incentivized to get involved versus all these other things that maybe it just feels like everything's maintenance and legacy stuff. And I feel like all people don't want to do that anyways.
 
@@ -370,15 +370,15 @@ quotes:
 
 [01:05:37] **Mikeal:** So it definitely got better, but I remember at the time, it was just impossible to think about being involved in that the way that I've been involved in any project since.
 
-[01:05:47] **Henry:** Yeah. I guess it's interesting to think about the procession people have on who actually works on a project and if you're able to be involved. I think it was a lot easier for me because ... Well, maybe in a way, I wasn't the first person to get involved, and Babel at that time was already really established. It was more that there weren't enough people. So I just happened to be there. And then when Sebastian burned out, I just happened to be one of the people that accidentally became [crosstalk 01:06:18].
+[01:05:47] **Henry:** I guess it's interesting to think about the procession people have on who actually works on a project and if you're able to be involved. I think it was a lot easier for me because ... Well, maybe in a way, I wasn't the first person to get involved, and Babel at that time was already really established. It was more that there weren't enough people. So I just happened to be there. And then when Sebastian burned out, I just happened to be one of the people that accidentally became [crosstalk 01:06:18].
 
 [01:06:21] **Henry:** So when there aren't a lot of people and they leave, then you end up being the person.
 
-[01:06:24] **Mikeal:** Yeah, yeah. I mean back to what you were saying about these famous, impenetrable people, it's like, no, we're just the people that stuck around, right?
+[01:06:24] **Mikeal:** I mean back to what you were saying about these famous, impenetrable people, it's like, no, we're just the people that stuck around, right?
 
-[01:06:37] **Henry:** Yeah. Long enough until someone else shows up maybe.
+[01:06:37] **Henry:** Long enough until someone else shows up maybe.
 
-[01:06:41] **Mikeal:** Yeah. So this is kind of a funny story, but when the IOJS fork was happening, which sort of led into modern Node and me kind of running the foundation, I sort of stepped into lead that effort and to pull everybody together. And the main reason that it was on me was that I was the only person that everyone would still talk to. So I've been involved with Node really early on and done a bunch of stuff in Core. And then I really pulled away from Core and started doing more community work and just NodeConf and everything else.
+[01:06:41] **Mikeal:** So this is kind of a funny story, but when the IOJS fork was happening, which sort of led into modern Node and me kind of running the foundation, I sort of stepped into lead that effort and to pull everybody together. And the main reason that it was on me was that I was the only person that everyone would still talk to. So I've been involved with Node really early on and done a bunch of stuff in Core. And then I really pulled away from Core and started doing more community work and just NodeConf and everything else.
 
 [01:07:12] **Mikeal:** And so as things got more toxic around Core, everyone got mad at each other. And I didn't start a company that was trying to financially benefit from Node, and I was not trying to get Code into Core. And so there were a bunch of Core developers that were all really unhappy. And they weren't speaking to each other. And so actually it might've looked from the outside like I showed up and I pushed everybody to start a fork. When I first heard about it, I heard that there was going to be a fork of Node. And I was like, "That sounds crazy. Let me talk to people about that."
 
@@ -388,13 +388,13 @@ quotes:
 
 [01:08:32] **Henry:** Right. But they didn't know that. They didn't realize that until you actually brought people together.
 
-[01:08:37] **Mikeal:** Yeah. Well, and also just something happened in the room where everyone sort of aired their grievances, and it seemed like everybody was that they needed a different thing or they had [inaudible 01:08:45] perspective. And I was the person that said, "The problem is none of these things. The problem is that nobody in this room is allowed to fix them except for [inaudible 01:08:53]. That's the problem. There is no governance model here where we can take responsibility for any of this stuff. So it's not going to get fixed overnight, and we don't have a solution to every problem here. But we can't even begin fixing them until we actually have a stake in running this project."
+[01:08:37] **Mikeal:** Well, and also just something happened in the room where everyone sort of aired their grievances, and it seemed like everybody was that they needed a different thing or they had [inaudible 01:08:45] perspective. And I was the person that said, "The problem is none of these things. The problem is that nobody in this room is allowed to fix them except for [inaudible 01:08:53]. That's the problem. There is no governance model here where we can take responsibility for any of this stuff. So it's not going to get fixed overnight, and we don't have a solution to every problem here. But we can't even begin fixing them until we actually have a stake in running this project."
 
-[01:09:10] **Mikeal:** Yeah. And so that was what eventually, almost six months later, turned into the IOJS fork, and then [Joint 01:09:18] decided to start a foundation according to them that in no way related to that. Just happened to be the foundation that I had set up for them to start. And then so this foundation was started, and then we were able to merge the project in. And basically just our governance model became the governance model of the project.
+[01:09:10] **Mikeal:** And so that was what eventually, almost six months later, turned into the IOJS fork, and then [Joint 01:09:18] decided to start a foundation according to them that in no way related to that. Just happened to be the foundation that I had set up for them to start. And then so this foundation was started, and then we were able to merge the project in. And basically just our governance model became the governance model of the project.
 
 [01:09:38] **Henry:** I guess just speaks to the importance of, I don't know, just communication and bringing people in a room. I feel like we don't do that. For people that communicate so much with code and on GitHub, I feel like there's a lack of whether video of hangouts or ... Even though people go to conferences, it's like, "I'll meet you at the conferences." Okay.
 
-[01:10:00] **Mikeal:** Yeah, yeah. It was funny. People are asking me, when I was running the foundation, "What do you do? What is your daily ..." I'm just like, "I'm just on the phone all day." And they were like, "What?" And I was like, "Yeah. It's the least transparent thing that you could do, but actually my main job is to talk to people on the phone and do conflict resolution with them before anything blows up. And that is my main job." It's almost a mantra at the Linux Foundation is just call, JFC, just fucking call somebody. Just get on the phone with them.
+[01:10:00] **Mikeal:** It was funny. People are asking me, when I was running the foundation, "What do you do? What is your daily ..." I'm just like, "I'm just on the phone all day." And they were like, "What?" And I was like, "Yeah. It's the least transparent thing that you could do, but actually my main job is to talk to people on the phone and do conflict resolution with them before anything blows up. And that is my main job." It's almost a mantra at the Linux Foundation is just call, JFC, just fucking call somebody. Just get on the phone with them.
 
 [01:10:34] **Mikeal:** You'll just see when people are communicating in text, you don't have a lot of the subtext there. And it's really hard to unwind people's thinking. And you just get into the spiral wars getting more and more aggressive. And it's like stop. Just talk to each other now. Yeah, it was a fun time.
 
@@ -402,7 +402,7 @@ quotes:
 
 [01:11:03] **Mikeal:** No, I hated that actually.
 
-[01:11:06] **Henry:** Okay. That's funny.
+[01:11:06] **Henry:** That's funny.
 
 [01:11:08] **Mikeal:** Yeah, I mean looking back on it, when IOJS was happening and I would say the first year that I was running the Node Foundation, it's one of the few times in my life where there was just nobody else that could do what I was doing at that time. And that's actually really rare. I'm not such a great programmer that nobody could take on my code or such a great manager or anything like that. There's really no other time where, no, no, if I don't do this, nope, this is not going to happen. It's just impossible.
 
@@ -426,7 +426,7 @@ quotes:
 
 [01:14:55] **Henry:** Wow.
 
-[01:14:56] **Mikeal:** Yeah. And I mean a lot of people will talk about, "The time, and da, da, da." And it hasn't really happened for me. So one thing to keep in mind is that my wife also has a really serious career that she takes very seriously. She went back to work in about four months after delivering. And so we have a nanny during the day while we both work. And then we completely share the parenting duties the rest of that time. It's really not ... In the first year, it's impossible to split it 50/50 because if she's breastfeeding, there's just things that only she can do. And so I'm just trying to do everything else.
+[01:14:56] **Mikeal:** And I mean a lot of people will talk about, "The time, and da, da, da." And it hasn't really happened for me. So one thing to keep in mind is that my wife also has a really serious career that she takes very seriously. She went back to work in about four months after delivering. And so we have a nanny during the day while we both work. And then we completely share the parenting duties the rest of that time. It's really not ... In the first year, it's impossible to split it 50/50 because if she's breastfeeding, there's just things that only she can do. And so I'm just trying to do everything else.
 
 [01:15:35] **Mikeal:** And now, it's less about that and more that sometimes the kid is just in a mommy mood. And there's nothing you can do. And, yeah, sorry, you are going to have to do this because she's not letting me do it. But, no, I mean, one, it's forced me to take a break every day away from my work and recharge. There was not a prompt to do that every day the way that there is now. And as I've gotten more attuned to that, I've been able to really enjoy the time with her and get a lot more out of it too. So that's been really, really great.
 
@@ -438,13 +438,13 @@ quotes:
 
 [01:18:16] **Henry:** Right. Helps us appreciate our own parents and what [crosstalk 01:18:20].
 
-[01:18:19] **Mikeal:** Yeah, yeah. Or I had an interesting thing where I definitely appreciate some of my parents, but also I had a pretty rough childhood, particularly around my stepfather. And I actually went through a period of time where I became an adult, and I was just like, "You know what, he was just a guy dealing with his own problems. Maybe it's fine," and kind of tried to forgive him about stuff. And then he hit on my sister at my dad's funeral. And then I was like [inaudible 01:18:44] no reason to forgive him for anything.
+[01:18:19] **Mikeal:** Or I had an interesting thing where I definitely appreciate some of my parents, but also I had a pretty rough childhood, particularly around my stepfather. And I actually went through a period of time where I became an adult, and I was just like, "You know what, he was just a guy dealing with his own problems. Maybe it's fine," and kind of tried to forgive him about stuff. And then he hit on my sister at my dad's funeral. And then I was like [inaudible 01:18:44] no reason to forgive him for anything.
 
 [01:18:47] **Mikeal:** But since having a kid, I've actually [inaudible 01:18:51] again, and oh, my God, he was horrible. He was so bad at this. All of this work that I'm putting into to try and make sure that my stuff is together so that I don't project it on my kid, just none of that happened, right? So on the one hand, with my mother and my father, I'm very appreciative of a lot of what they did in a new light. And then with my stepfather, a new level of criticism actually. But, yeah, that's a fun detour.
 
-[01:19:21] **Henry:** Yeah. Thanks for joining me today.
+[01:19:21] **Henry:** Thanks for joining me today.
 
-[01:19:23] **Mikeal:** Yeah, yeah. This was a great time. It was fun.
+[01:19:23] **Mikeal:** This was a great time. It was fun.
 
 [01:19:25] **Henry:** Yeah, I guess if you want to shout out what you're working on or how people can contact you.
 
@@ -454,9 +454,9 @@ quotes:
 
 [01:20:33] **Mikeal:** So, yeah, that's mostly what I'm working on nowadays.
 
-[01:20:35] **Henry:** Yeah. I didn't realize hashing is so powerful. I guess the idea that I guess it removes the [inaudible 01:20:42] because all you have to do is verify it's the same hash [crosstalk 01:20:45].
+[01:20:35] **Henry:** I didn't realize hashing is so powerful. I guess the idea that I guess it removes the [inaudible 01:20:42] because all you have to do is verify it's the same hash [crosstalk 01:20:45].
 
-[01:20:44] **Mikeal:** Yeah, yeah. We talk about this a lot inside of Protocol Labs, but the longer that you sit with [inaudible 01:20:50] head, and you think in it, it takes years. But you just start to open up just completely new second-, third-, fourth-order things that happen from it. But a big thing is you don't have to trust the data source anymore, right? If I link to an [Earl 01:21:07], the thing that I trust about that Earl is the location of it. I know that I have to talk to authority to get that data. And then I'm getting the data that this person talked about.
+[01:20:44] **Mikeal:** We talk about this a lot inside of Protocol Labs, but the longer that you sit with [inaudible 01:20:50] head, and you think in it, it takes years. But you just start to open up just completely new second-, third-, fourth-order things that happen from it. But a big thing is you don't have to trust the data source anymore, right? If I link to an [Earl 01:21:07], the thing that I trust about that Earl is the location of it. I know that I have to talk to authority to get that data. And then I'm getting the data that this person talked about.
 
 [01:21:18] **Mikeal:** If you want to decentralize data, you need something that is not just their name somewhere. So a hash, you can get that data from anybody and then compute the hash, and you know that you got the data that you were talking about. So using a hash not just as a way to verify data but a way to address data really kind of changes the dynamic quite a bit.
 
@@ -468,6 +468,6 @@ quotes:
 
 [01:22:37] **Henry:** Cool. Feel like we could keep talking, but we should probably end it.
 
-[01:22:40] **Mikeal:** Yeah. Well, could always do it again.
+[01:22:40] **Mikeal:** Well, could always do it again.
 
 [01:22:43] **Henry:** Thanks for listening. Check out our website MaintainersAnonymous.com for show notes and transcripts. If you have any feedback, ideas, or guest suggestions, you can reach me on Twitter at left_pad. If you'd like to support the show, you can visit Patreon.com/HenryZhu.

@@ -29,7 +29,7 @@ function handleDeepLink() {
 
     const target = document.getElementById(hash.slice(1));
     if (target?.matches('#episode-content-shell h4')) {
-        setTimeout(() => target.scrollIntoView({ block: 'start' }), 100);
+        requestAnimationFrame(() => target.scrollIntoView({ block: 'start', behavior: 'instant' }));
         return;
     }
 
@@ -37,15 +37,14 @@ function handleDeepLink() {
 
     const el = document.getElementById(hash.slice(1));
     if (el) {
-        // Small delay to ensure layout is complete
-        setTimeout(() => {
-            el.scrollIntoView({ block: 'center', behavior: 'smooth' });
+        requestAnimationFrame(() => {
+            el.scrollIntoView({ block: 'center', behavior: 'instant' });
             el.classList.add('highlight-flash');
 
             el.addEventListener('animationend', () => {
                 el.classList.remove('highlight-flash');
             }, { once: true });
-        }, 100);
+        });
     }
 }
 

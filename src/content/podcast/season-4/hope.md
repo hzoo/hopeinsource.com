@@ -29,13 +29,13 @@ quotes:
 
 [00:09] **Alex:** Man, my life is just a really washed up version of _Mad Max_ like if I were to purchase Mad Max as a reality from wish.com. I wonder if it's like a phenomenon of us being so interconnected.
 
-[00:26] **Alex:** There's always something looming, right? The world feels very apocalyptic, in kind of like the movie genre sense and not like what we would consider like a biblical sense of apocalyptic.
+[00:26] **Alex:** There's always something looming, right? The world feels very apocalyptic, in kind of like the movie genre sense and not what we would consider a biblical sense of apocalyptic.
 
 [00:41] **Alex:** And I can sense that there's a lot to talk about because of it, but at the same time, it can feel a little bit tiresome. I think people when they do have something to say, it's more like exasperation, right.
 
-[00:59] **Alex:** I don't know, like how are you feeling about all this?
+[00:59] **Alex:** I don't know, how are you feeling about all this?
 
-[01:03] **Henry:** It kind of just reminds me of burnout in general. Everyone's quitting their job whether it's in my industry or just generally speaking. None of us can focus on anything, caught up in the wind of like every single thing that's happening.
+[01:03] **Henry:** It kind of just reminds me of burnout in general. Everyone's quitting their job whether it's in my industry or just generally speaking. None of us can focus on anything, caught up in the wind of every single thing that's happening.
 
 [01:16] **Henry:** Not that those things aren't important, but those other things didn't stop mattering when this new thing happened, right.
 
@@ -43,7 +43,7 @@ quotes:
 
 [01:40] **Henry:** I forget if I sent that to you.. I might have given it to you..
 
-[01:44] **Alex:** Honestly, it's probably a both and, knowing that we share a lot of ideas with each other. Yeah. I mean, I was reading it recently. His third book is about how the Church is affected by what Charles Taylor considers like [_The Secular Age_](https://en.wikipedia.org/wiki/A_Secular_Age).
+[01:44] **Alex:** Honestly, it's probably a both and, knowing that we share a lot of ideas with each other. Yeah. I mean, I was reading it recently. His third book is about how the Church is affected by what Charles Taylor considers [_The Secular Age_](https://en.wikipedia.org/wiki/A_Secular_Age).
 
 [02:03] **Alex:** And I guess, regardless of what you may believe personally in terms of your own values or your own religious thought, he does say that the fascinating aspect of our burnout is tied to our conception of time. Not having enough time.
 
@@ -57,21 +57,21 @@ quotes:
 
 [03:08] **Alex:** Sometimes I wake up in the morning and I get that sense, right? Like, who am I, why do I feel? So burned out? Like, what do I need to do in order to be me today?
 
-[03:19] **Alex:** And that sort of rings true I think with all these like events happening back to back, right. It's not just a matter of like, what can be done to resolve these issues, but what is my responsibility and what is my place and who am I in relation to all these things?
+[03:19] **Alex:** And that sort of rings true I think with all these events happening back to back, right. It's not just a matter of like, what can be done to resolve these issues, but what is my responsibility and what is my place and who am I in relation to all these things?
 
 [03:39] **Alex:** And there seems to be kind of that extra demand that if I don't find my place within these movements that I'm doing something wrong.
 
 [03:49] **Henry:** Like a moral judgment on yourself, if anything.
 
-[03:52] **Alex:** Yeah. And it's this kind of this nebulous, journey to constantly find yourself and waking up the next day, realizing that you may not actually know who you are. And that it can be depressing. Not in a clinical sense, but existential.
+[03:52] **Alex:** And it's this kind of nebulous journey to constantly find yourself and waking up the next day, realizing that you may not actually know who you are. And that it can be depressing. Not in a clinical sense, but existential.
 
 [04:12] **Henry:** Is what I was doing related to this current movement? And if I think that movement is important, then maybe I should stop what I'm doing.
 
-[04:22] **Henry:** I guess if you're always like changing jobs, reinventing yourself, or trying to get caught up in this stuff, then you don't have roots, which is funny. His last name is Root, right?
+[04:22] **Henry:** I guess if you're always changing jobs, reinventing yourself, or trying to get caught up in this stuff, then you don't have roots, which is funny. His last name is Root, right?
 
 #### These Churches have Five Year Plans
 
-[04:32] **Alex:** Yeah. And it's interesting because the thesis of the book actually comes about because the writer explores these megachurches, who are known for just their constant dynamism, their constant movement and formulating their identity, who they are, having visionaries within their leadership.
+[04:32] **Alex:** And it's interesting because the thesis of the book actually comes about because the writer explores these megachurches, who are known for just their constant dynamism, their constant movement and formulating their identity, who they are, having visionaries within their leadership.
 
 [04:57] **Alex:** And what exactly do they do is.. They try to propagate as many high intensity events as possible, right? To try to get people energized in the next project.
 
@@ -81,9 +81,9 @@ quotes:
 
 [05:28] **Alex:** What's fascinating is that every time he goes to these churches and he talks to the people, the churches have like hundreds of people who attend.
 
-[05:36] **Alex:** But one of the blights that plague, not only this megachurch in say like a big metropolis like New York, but also like the small churches who low key hate these kind of megachurches, and like what we would consider like the middle of nowhere United States of America, they also face the exact same kind of burnout, I guess what we would call like a spiritual depression. Of course not using that in any like clinical sense, but just this idea of burnout.
+[05:36] **Alex:** But one of the blights that plague, not only this megachurch in say like a big metropolis like New York, but also the small churches who low key hate these kind of megachurches, and like what we would consider the middle of nowhere United States of America, they also face the exact same kind of burnout, I guess what we would call a spiritual depression. Of course not using that in any clinical sense, but just this idea of burnout.
 
-[06:08] **Alex:** And it's strange because you would think that with all this hyping up people would actually be doing things and not be burning out, because everyone's like so focused on the next project. Maybe it is a little bit more obvious to other people it ends up actually crowding out and burning people out.
+[06:08] **Alex:** And it's strange because you would think that with all this hyping up people would actually be doing things and not be burning out, because everyone's so focused on the next project. Maybe it is a little bit more obvious to other people it ends up actually crowding out and burning people out.
 
 #### The Dynamics of a Pastor
 
@@ -105,25 +105,25 @@ quotes:
 
 #### Intimate Moments &gt; Big Programs
 
-[08:49] **Alex:** But the question is how do we manage our responsibilities in a way that doesn't burn us out entirely to the point where we're like completely apathetic.?
+[08:49] **Alex:** But the question is how do we manage our responsibilities in a way that doesn't burn us out entirely to the point where we're completely apathetic?
 
-[09:00] **Alex:** Maybe part of the solution for at least within the church community is not to focus so much on these like big programs and trying to get people energized for it. But just to simply start small and appreciate the small intimate moments where people enjoy one another's company. Can be a good way to start.
+[09:00] **Alex:** Maybe part of the solution for at least within the church community is not to focus so much on these big programs and trying to get people energized for it. But just to simply start small and appreciate the small intimate moments where people enjoy one another's company. Can be a good way to start.
 
-[09:23] **Alex:** Part of the reason why you may feel burnout is, everything becomes kind of a task, right. You're really no longer in the moment. And it's almost like you are outside of your body, right? You're not really like experiencing it for what it is. You're not really enjoying it. You're just doing it for the sake of doing it because time demands it. And I wonder if our slavery to time itself can be broken simply by enjoying the moments that we have.
+[09:23] **Alex:** Part of the reason why you may feel burnout is, everything becomes kind of a task, right. You're really no longer in the moment. And it's almost like you are outside of your body, right? You're not really experiencing it for what it is. You're not really enjoying it. You're just doing it for the sake of doing it because time demands it. And I wonder if our slavery to time itself can be broken simply by enjoying the moments that we have.
 
 [09:56] **Henry:** That makes sense. Preoccupation of the future that doesn't exist or dwelling too much on the past, rather than just being there. We use the word fellowship, right. Being with friends and enjoying another's company in that moment.
 
 [10:12] **Henry:** And another thing we do is try to capture that. Say we see a nice sunset that anyone can see. We have to take a picture and make a video. Why is it so hard for me to just not need to record anything? It's funny even doing podcasts, we could just have this conversation. But might as well record it.
 
-[10:29] **Alex:** Yeah. And maybe there's also this thing too, where there's kind of this impulse for us to want to be known and to share our lives with people that we don't even know, for whatever reason. You can call it for clout, for reputation, things like that.
+[10:29] **Alex:** And maybe there's also this thing too, where there's kind of this impulse for us to want to be known and to share our lives with people that we don't even know, for whatever reason. You can call it for clout, for reputation, things like that.
 
 [10:49] **Alex:** But I wonder if it would actually be better for our health in certain ways, just to be satisfied with sharing those moments with people who are the closest to us.
 
 [11:02] **Alex:** And I wonder.. I don't come on here on this podcast thinking I have the answers for everything. Or even if I have the answers at all for these very complex questions..
 
-[11:13] **Alex:** I just hope that it's not nostalgia speaking. I'm not trying to like say, &quot;Well, in the good old days.&quot; as if there were a golden age per se besides the golden age that I believe in, starting in Genesis.
+[11:13] **Alex:** I just hope that it's not nostalgia speaking. I'm not trying to say, &quot;Well, in the good old days.&quot; as if there were a golden age per se besides the golden age that I believe in, starting in Genesis.
 
-[11:30] **Alex:** But like no solutions, just like food for thought.
+[11:30] **Alex:** But no solutions, just food for thought.
 
 [11:36] **Henry:** We're just speaking out loud.
 
@@ -133,15 +133,15 @@ quotes:
 
 [11:59] **Henry:** But one example would be like going to church on Sunday. That moment when you're there is connected to every other moment that you were in Church on a Sunday. It's always seven days apart, but each moment they're meaningfully talking about the same thing.
 
-[12:15] **Henry:** Same with a birthday. Every birthday you have reminds you of every other birthday, even though it's a year apart. So in terms of like measurable time, it's really far away. But in terms of what it means to you, it's like significant.
+[12:15] **Henry:** Same with a birthday. Every birthday you have reminds you of every other birthday, even though it's a year apart. So in terms of measurable time, it's really far away. But in terms of what it means to you, it's significant.
 
 [12:28] **Alex:** There's always pros and cons, right? I think one of the biggest problems with a lot of more traditionalist mindsets is that, at least when it comes to technology, is that they always sort of focus on all the cons, right?
 
 [12:44] **Alex:** And sometimes those who are all about tech can very easily fall into trap of thinking all about the pros without thinking about maybe some of the repercussions or things that are being pushed out of our sort of cultural memory.
 
-[13:01] **Alex:** And when it comes to even the measurement of time itself, you think about certain societies where like that rigidness when it comes to making time isn't nearly as important. More stereotypical views on this where the German conception of time is very like on time. Very similar to Japanese culture in terms of their train systems especially. Nothing is even early. Everything is exactly when it needs to be. Emphasis on needs to be, right.
+[13:01] **Alex:** And when it comes to even the measurement of time itself, you think about certain societies where that rigidness when it comes to making time isn't nearly as important. More stereotypical views on this where the German conception of time is very on time. Very similar to Japanese culture in terms of their train systems especially. Nothing is even early. Everything is exactly when it needs to be. Emphasis on needs to be, right.
 
-[13:36] **Alex:** And then you have like other time perceptions. People in our culture would consider it like Asian time, which is basically when everyone comes like 15 minutes later than they're supposed to. Or you leave 10 minutes later than they're supposed to.
+[13:36] **Alex:** And then you have other time perceptions. People in our culture would consider it like Asian time, which is basically when everyone comes like 15 minutes later than they're supposed to. Or you leave 10 minutes later than they're supposed to.
 
 [13:52] **Alex:** But I find that what's interesting is on the one hand being able to measure time does open us up for more efficiency. But the question is like, is life all about that kind of utilitarian efficiency?
 
@@ -151,7 +151,7 @@ quotes:
 
 #### Having a Proper Sense of Efficiency
 
-[14:36] **Alex:** Yeah. And I wonder if it's possible for us to recognize the importance of efficiency, but also have space where we're not enslaved to efficiency. Where we can tell ourselves and each other that there are times where, you no pun intended, where it's okay to just slow down.
+[14:36] **Alex:** And I wonder if it's possible for us to recognize the importance of efficiency, but also have space where we're not enslaved to efficiency. Where we can tell ourselves and each other that there are times where, you no pun intended, where it's okay to just slow down.
 
 [15:03] **Alex:** But I think it's very hard to escape that in our culture especially with what we're surrounded with.
 
@@ -169,23 +169,23 @@ quotes:
 
 [17:03] **Henry:** There's that phrase, work hard, play hard. That might be capturing part of that. It's really intense to be at work all the day, and then you do something really intense when you're not working. That probably makes you very tired too. There's no sense of rest. I think we don't have that as part of our vocabulary.
 
-[17:21] **Alex:** Yeah. I think our culture is maybe slowly shifting away from that rigidness, whatever you want to call it. I think you make a good point though. Why do you play hard? Well, you're working hard all the time, and yet you still only have like so much time to play. You're kind of put in this position where you have to make the most out of the time that you have.
+[17:21] **Alex:** I think our culture is maybe slowly shifting away from that rigidness, whatever you want to call it. I think you make a good point though. Why do you play hard? Well, you're working hard all the time, and yet you still only have like so much time to play. You're kind of put in this position where you have to make the most out of the time that you have.
 
-[17:46] **Henry:** That's the same problem. You're basically making play work by playing hard, right. I need to figure out the most intense thing. It's almost like the soul of play is like lost trying so hard, right.
+[17:46] **Henry:** That's the same problem. You're basically making play work by playing hard, right. I need to figure out the most intense thing. It's almost like the soul of play is lost trying so hard, right.
 
 #### Trapped in Itineraries
 
-[17:58] **Alex:** Yeah. And even vacations, I think can feel that way too, right? Not only are you working at your job right, 40 hours a week or whatever, but you're also planning a vacation. And when you plan a vacation, what do you plan? You plan an itinerary, which is a schedule of events. And you have only a certain allotted amount of time per event. And then you're off to do the next thing, right?
+[17:58] **Alex:** And even vacations, I think can feel that way too, right? Not only are you working at your job right, 40 hours a week or whatever, but you're also planning a vacation. And when you plan a vacation, what do you plan? You plan an itinerary, which is a schedule of events. And you have only a certain allotted amount of time per event. And then you're off to do the next thing, right?
 
 [18:27] **Alex:** I say this because when my wife and I go vacationing, I think we had this very intense itinerary at first. Our synapses were firing just always getting something new. And at a certain time, I was just like, okay, well, I feel like we have a decent enough understanding of the Hawaiian islands where we can make it without having such an intense itinerary, right.
 
-[18:59] **Alex:** We can take things slow. We can go to places, have a general outline, but just take time to enjoy what we experience. And if we don't happen to go to something like that's okay.
+[18:59] **Alex:** We can take things slow. We can go to places, have a general outline, but just take time to enjoy what we experience. And if we don't happen to go to something that's okay.
 
-[19:15] **Alex:** I think that changes the vacation or rest qualitatively. It's not just a rush to do more, because you feel like you don't have time, but you get to enjoy. And surprisingly, I would say that I probably remember more from having a less strict itinerary. Seems a little bit more like remarkable to me, memorable.
+[19:15] **Alex:** I think that changes the vacation or rest qualitatively. It's not just a rush to do more, because you feel like you don't have time, but you get to enjoy. And surprisingly, I would say that I probably remember more from having a less strict itinerary. Seems a little bit more remarkable to me, memorable.
 
 [19:43] **Henry:** There must be some relationship there. We went on a tour. Or tour bus. And that's literally the epitome of a schedule, right? You can't either stay longer or you can't skip something. It's all planned out for you.
 
-[19:56] **Alex:** Yeah. And of course there's some benefits to that because when you're already working, you don't want to put more work into setting out your time for this. So you have some company or corporation do it for you. But by doing it, I mean you still fall into the same trap where you're unable to really slow down and you're trapped. So it is really what it is. You're trapped to the schedule.
+[19:56] **Alex:** And of course there's some benefits to that because when you're already working, you don't want to put more work into setting out your time for this. So you have some company or corporation do it for you. But by doing it, I mean you still fall into the same trap where you're unable to really slow down and you're trapped. So it is really what it is. You're trapped to the schedule.
 
 [20:24] **Henry:** We chose that too, that's even better.
 
@@ -197,9 +197,9 @@ quotes:
 
 [21:04] **Henry:** That's a memorable thing too, because you didn't expect it. For a vacation, you go to the places that you're supposed to go to. You don't have any story to tell because everyone's gonna go there. You could just watch it online or whatever. But like something that happened personally to you, that's a testimony. That's a narrative that you can share. That's very meaningful that you'll remember and other people will remember.
 
-[21:24] **Alex:** Yeah. In the book he mentions that when several different people were interviewed about what they would do if they were to magically get a bunch of money, one of the more popular answers was to not work for a certain duration of time and just try to rest, right. Even though our society has a lot of entertainment venues, people are still not finding the kind of rest that they would like.
+[21:24] **Alex:** In the book he mentions that when several different people were interviewed about what they would do if they were to magically get a bunch of money, one of the more popular answers was to not work for a certain duration of time and just try to rest, right. Even though our society has a lot of entertainment venues, people are still not finding the kind of rest that they would like.
 
-[21:58] **Alex:** I mean, how many of us sort of feel that itch that needs to be scratched whenever we're just sitting around and not doing anything, right. We always feel like we need to be doing something or we're not &quot;productive members&quot; of society. But what a very like capitalistic, consumeristic view of oneself.
+[21:58] **Alex:** I mean, how many of us sort of feel that itch that needs to be scratched whenever we're just sitting around and not doing anything, right. We always feel like we need to be doing something or we're not &quot;productive members&quot; of society. But what a very capitalistic, consumeristic view of oneself.
 
 [22:21] **Henry:** It's a machine view of yourself.
 
@@ -209,7 +209,7 @@ quotes:
 
 [22:37] **Alex:** I know we sort of went on that tangent about burnout, but I think maybe burnout is very much tied to this idea of hopelessness, right? Because part of the problem with all these major events that are happening in our society is that they're all bad. They're all catastrophic in some way; things that we haven't seen in decades.
 
-[22:58] **Alex:** We have like a pandemic that's still lingering around. We have potential food shortages. We have a war in Europe. We have supply chain issues. We have a looming recession.
+[22:58] **Alex:** We have a pandemic that's still lingering around. We have potential food shortages. We have a war in Europe. We have supply chain issues. We have a looming recession.
 
 [23:15] **Alex:** And one wonders, what's beyond this? And I think it's relevant to my ministry with everything that's going on internationally and also domestically.. and even seeing some of my students who are very much Gen Z. They're one of the more socially active generations that we know.
 
@@ -217,17 +217,17 @@ quotes:
 
 [24:15] **Alex:** And ultimately when you are to ask them of the reasons behind all this is that it's this deep sense of hopelessness in the future. Which I guess makes sense if you think that this world is going down the drain then why would you want to bring new life into the world, right. Why would you want to have them suffer to things that you are suffering and things like that?
 
-[24:46] **Alex:** And the more I think about this along with just burnout, right? You get a sense of hopelessness too, right? I think part of the reason why burnout can feel so like saddening is that there's no real hope to escape that burnout, right. Or there's no perception of hope to progress to creating a better world.
+[24:46] **Alex:** And the more I think about this along with just burnout, right? You get a sense of hopelessness too, right? I think part of the reason why burnout can feel so saddening is that there's no real hope to escape that burnout, right. Or there's no perception of hope to progress to creating a better world.
 
 [25:15] **Alex:** Perhaps a lot of these steps towards what they would consider progress have taken several steps back, right. And I can see how that can be demoralizing; no one likes to see one's own efforts completely squashed over what could be uncontrollable at least in an individual's sense.
 
 #### On Shepherding
 
-[25:41] **Alex:** Sometimes I wonder if I should like bring up some of the things that my students do, even like anonymously.. Because I wonder if I bring it up on a podcast like this and they end up listening to like, oh, Alex is using me as an example here. But I don't mean it in any kind of like, mean spirited way, definitely not. But there are some things that my students say that I find to be very like provocative and very, very good to learn from.
+[25:41] **Alex:** Sometimes I wonder if I should bring up some of the things that my students do, even anonymously.. Because I wonder if I bring it up on a podcast like this and they end up listening to like, oh, Alex is using me as an example here. But I don't mean it in any kind of mean spirited way, definitely not. But there are some things that my students say that I find to be very provocative and very, very good to learn from.
 
 [26:07] **Alex:** I think that's the one thing that I try to be as a youth minister or a youth pastor is.. Part of who I am and what I need to be doing is I need to be declaring what God is saying, right, through the Bible. And if you wanna talk about job description, that's part of the job description.
 
-[26:29] **Alex:** But I think another part is like in order for you to be a good shepherd you need to start paying attention to how your sheep are doing.
+[26:29] **Alex:** But I think another part is in order for you to be a good shepherd you need to start paying attention to how your sheep are doing.
 
 [26:38] **Alex:** It's not just telling them to go here or there, but you need to actually understand their own condition, their thoughts, their worries, their anxieties, their questions.
 
@@ -267,9 +267,9 @@ quotes:
 
 #### Dual Causality
 
-[31:08] **Alex:** What I believe honestly is like not to just assign everything that's mysterious solely to God, but to recognize that God does work in and through his creation so that we can believe in a kind of like dual causality, right.
+[31:08] **Alex:** What I believe honestly is not to just assign everything that's mysterious solely to God, but to recognize that God does work in and through his creation so that we can believe in a kind of like dual causality, right.
 
-[31:26] **Alex:** The Bible often talks about like God riding on the clouds and bringing rain to his people. And the thunder and the lightning are his like weapons of choice or whatever. The clouds are like his chariots, like highly poetic.
+[31:26] **Alex:** The Bible often talks about God riding on the clouds and bringing rain to his people. And the thunder and the lightning are his weapons of choice or whatever. The clouds are like his chariots, like highly poetic.
 
 [31:43] **Alex:** Then if you were to ask anyone today, like, oh, how do you get rain? You talk about it in scientific terms, but for me it's both. There's multiple levels here, right? God's the one who is ultimately behind it, but that's because nature, as we see it, was set up in that way. And I don't think that necessarily contradicts each other.
 
@@ -281,7 +281,7 @@ quotes:
 
 #### Church as Wirecutters
 
-[33:09] **Alex:** Rather than just approaching it simply in terms of argumentation and discourse, I would much rather talk about like how we as a Church can stand with those who suffer and bring hope. And how can the Church sort of be the kind of wire cutters for this chain linked fence that we call hopelessness, right?
+[33:09] **Alex:** Rather than just approaching it simply in terms of argumentation and discourse, I would much rather talk about how we as a Church can stand with those who suffer and bring hope. And how can the Church sort of be the kind of wire cutters for this chain linked fence that we call hopelessness, right?
 
 [33:34] **Alex:** How can we help people not just see the other side, but gradually find their place on the other side.
 
@@ -293,7 +293,7 @@ quotes:
 
 [34:39] **Alex:** My skepticism or really my worry is that it'll be like, oh, we changed the system, now we can just get on with our lives, right. But again, our lives in the individualistic consumeristic sense and not in the corporate sharing of lives and responsibilities and sufferings and joys that come with living in this world on a day to day, moment by moment way.
 
-[35:06] **Henry:** I make a metaphor to technology. We have all this technology makes our lives more efficient, but we don't know how to use it effectively. Learn to use it when it makes sense and learn to know when to walk away. Same with like learning to improve our sense of what does it mean to be human or to live in a community? And we need that alongside changing the system.
+[35:06] **Henry:** I make a metaphor to technology. We have all this technology makes our lives more efficient, but we don't know how to use it effectively. Learn to use it when it makes sense and learn to know when to walk away. Same with learning to improve our sense of what does it mean to be human or to live in a community? And we need that alongside changing the system.
 
 [35:29] **Alex:** I mean, I think that's the next step, right? Just first I think, at least in my context, it's recognizing what is important to us? What are our values? How then can we start not only envisioning, but finding effective applications for those values in the lives that we live, right. What are the things that we say yes to? What are the things that we say no to? Because we have this vision of hope.
 
@@ -309,7 +309,7 @@ quotes:
 
 [37:29] **Alex:** I really do think that the way that we help people to understand hope is not merely talking about hope. That's part of it, but we just need to live as hopeful people, right. We just need to show people. And going back to consumption, people who only consume hopelessness will always only know hopelessness.
 
-[37:57] **Alex:** Not to go onto another tangent.. think about all the people who only listen to one type of news, then you wonder like how to get more and more extreme in that. Because going back to your love for liturgy, it becomes a habit. What you listen to, what you experience becomes you. What you subject yourself to.
+[37:57] **Alex:** Not to go onto another tangent.. think about all the people who only listen to one type of news, then you wonder how to get more and more extreme in that. Because going back to your love for liturgy, it becomes a habit. What you listen to, what you experience becomes you. What you subject yourself to.
 
 [38:21] **Alex:** We're not as insulated as we would like. We're very porous and we will absorb things. And actually I think that his Charles Taylor's own kind of analogy, that people in the past viewed themselves as being more porous to influences. Whereas we like to lie to ourselves and say that we're insulated.
 
@@ -327,15 +327,15 @@ quotes:
 
 [40:00] **Alex:** It's good that you brought up that thing a little earlier, because I think you're thinking about [James Chapter 2](https://www.biblegateway.com/passage/?search=James+2&version=ESV), right? Suppose a brother or sister is without clothes and daily food. If one of you says to them , "Go in peace; keep warm and well fed," but does nothing about their physical needs, what good is it?
 
-[40:16] **Alex:** Of course that chapter is talking about faith and deeds and stuff like that, which we don't have to get into now, but yeah, in a real sense, like the medium is the message. And in the Christian faith, the medium is our humanity and the message or the Word is Jesus. So really God's word of peace and love to us is presented not incorporeally, but through our humanity.
+[40:16] **Alex:** Of course that chapter is talking about faith and deeds and stuff like that, which we don't have to get into now, but yeah, in a real sense, the medium is the message. And in the Christian faith, the medium is our humanity and the message or the Word is Jesus. So really God's word of peace and love to us is presented not incorporeally, but through our humanity.
 
 [40:49] **Henry:** A person came down right. And we are supposed to imitate him.
 
-[40:54] **Alex:** Going real quick back to the whole, like giving hope for life and bringing life to hope, right.
+[40:54] **Alex:** Going real quick back to the whole, giving hope for life and bringing life to hope, right.
 
 [41:02] **Alex:** I would just like to really think about Jesus himself, who was born to someone who was in an engagement, not yet married, who we know was born basically poor, who was persecuted and had to flee from his place of birth, and who had friends who betrayed him, right. Knowing very much the amount of suffering that Jesus went through.. Yet, despite all this suffering, there was still hope to life and the life that he gave for us. Despite every argument that one could make that maybe Jesus shouldn't have been born, right.
 
-[41:58] **Alex:** And I think this is why for me it's important that Christians don't just like lobby and fight tooth and nail to use force to overturn, but to be compassionate and understanding and to find ways to provide a world that right now, not trying to be like condescending in any kind of way, but just recognizing what people are saying themselves, that they feel hopeless, that we could give them hope, right.
+[41:58] **Alex:** And I think this is why for me it's important that Christians don't just lobby and fight tooth and nail to use force to overturn, but to be compassionate and understanding and to find ways to provide a world that right now, not trying to be condescending in any kind of way, but just recognizing what people are saying themselves, that they feel hopeless, that we could give them hope, right.
 
 [42:36] **Alex:** I think one thing that Christians can do is that they kind of view themselves as superior to everyone else and just kind of assume that people are hopeless. And that's not what I'm trying to do here.
 

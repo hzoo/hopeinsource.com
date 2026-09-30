@@ -24,13 +24,13 @@ quotes:
 
 *(Montage of clips from the episode)*
 
-[00:39] **Melody:** Okay. We're going to test this. I guess this should work. Yeah. You want to talk your way to flip it? Okay.
+[00:39] **Melody:** We're going to test this. I guess this should work. Yeah. You want to talk your way to flip it? Okay.
 
 [00:47] **Melody:** This is actually kind of fun because it feels more like a vlog to me. I guess it is a vlog. It's my element.
 
 [00:57] **Henry:** Your element? Yeah. Not mine.
 
-[01:00] **Melody:** So we go this way. Okay. It's a time stamp. Internet checkpoint. All right. We're trying something new today, you guys. We're walking. We're walking.
+[01:00] **Melody:** So we go this way. Okay. It's a time stamp. Internet checkpoint. All right. We're trying something new today, you guys. We're walking.
 
 #### Internet Checkpoint
 
@@ -40,21 +40,21 @@ quotes:
 
 [01:18] **Melody:** Well, it's fun because I can actually just pause it and just show what it looks like. Our view. So I guess I'm used to holding the phone like this. Maybe do that. Maybe this is how you do it. The point five is nice. Maybe this is what we do, but we're going to have to trade off because my arms.
 
-[01:33] **Henry:** Yeah. So who knows. How long will we record this?
+[01:33] **Henry:** So who knows. How long will we record this?
 
 [01:37] **Melody:** Till we feel like it.
 
-[01:38] **Henry:** Yeah. I am a little hungry.
+[01:38] **Henry:** I am a little hungry.
 
 [01:40] **Melody:** I feel like we do need to help people get into the episode more quickly. So maybe I do edit the first part.
 
-[01:49] **Henry:** Yeah. Should we just start?
+[01:49] **Henry:** Should we just start?
 
 [01:52] **Melody:** Yeah, you can even start. And I sit down. Sit down.
 
 [01:57] **Henry:** No, we can't sit down.
 
-[02:00] **Melody:** Yeah. Oh, look. See, someone was already sitting there. Sitting. Look at that. Someone already made a spot. Okay. Oh, wow. Yeah. Okay, I guess I can try to sit here.
+[02:00] **Melody:** Oh, look. See, someone was already sitting there. Sitting. Look at that. Someone already made a spot. Okay. Oh, wow. Yeah. Okay, I guess I can try to sit here.
 
 [02:12] **Henry:** Oh, is this the. This could be the intro.
 
@@ -62,7 +62,7 @@ quotes:
 
 [02:18] **Henry:** Welcome to Internet Checkpoint, episode two. Today is February, okay, the 24th. And it is 5:20 p.m. We're seated on a park bench near Prospect Park.
 
-[02:35] **Melody:** Yeah. Checkpoint. Checkpoint.
+[02:35] **Melody:** Checkpoint.
 
 [02:38] **Melody:** I think the first thing we can do, if you wanted to just card what the AI news has been over the last two weeks. We'll just use that to help figure out what we're going to talk about this episode.
 
@@ -88,33 +88,33 @@ quotes:
 
 [04:44] **Henry:** The last two weeks. Let's see. Well, I already mentioned OpenClaw, so I guess in the last two weeks has been an OpenClaw craze.
 
-[05:00] **Melody:** Yeah. I saw, well, Peter, the founder creator, he got, the, joint, sniped by, so the right word, swooped up by, snatched up by OpenAI. And they're making a foundation. So, foundation. It's open source, but I don't know the extent of what that relationship looks like. But he's still working on it.
+[05:00] **Melody:** I saw, well, Peter, the founder creator, he got, the, joint, sniped by, so the right word, swooped up by, snatched up by OpenAI. And they're making a foundation. So, foundation. It's open source, but I don't know the extent of what that relationship looks like. But he's still working on it.
 
 [05:30] **Henry:** Okay. Every day, which is interesting to Henry, who previously, who is very involved in the open source community and previously maintained a very large open source project.
 
-[05:42] **Melody:** Yeah. He had a tweet a few days ago that was kind of like a call for maintainers.
+[05:42] **Melody:** He had a tweet a few days ago that was kind of like a call for maintainers.
 
-[05:58] **Henry:** Yeah. And again, even that tweet went pretty big. And of course, all the responses are like, why don't you use AI to review all the pull requests? And obviously someone could do that. But in the end you still need someone to review it. And it's good or interesting that he himself would say that. Because you would think out of all the people in the world, he would be the most AI pilled.
+[05:58] **Henry:** And again, even that tweet went pretty big. And of course, all the responses are like, why don't you use AI to review all the pull requests? And obviously someone could do that. But in the end you still need someone to review it. And it's good or interesting that he himself would say that. Because you would think out of all the people in the world, he would be the most AI pilled.
 
 [06:22] **Melody:** And he did have another tweet later. He sent like 50 agents to try to triage the PR.
 
 [06:22] **Henry:** So obviously people have to actually review it. And then I think they've been working on mostly security because that's the main concern people have, right? Not that it wasn't secure before. I think in the sense that you need a lot more documentation and framing that this is a thing that you run on your computer, it could do anything.
 
-[06:46] **Melody:** Yeah. And I think there's some other more news about people are like, I think Google was like, not allowing you to use OpenClaw for the Gemini subscription.
+[06:46] **Melody:** And I think there's some other more news about people are like, I think Google was like, not allowing you to use OpenClaw for the Gemini subscription.
 
-[07:00] **Henry:** Yeah. But I'm interested because I feel like the future of open source in some sense is going to be shaped by whatever happens to this project. In terms of how do you maintain a project with one person but with a few volunteers? And then what does that look like when you're literally getting a thousand issues a day?
+[07:00] **Henry:** But I'm interested because I feel like the future of open source in some sense is going to be shaped by whatever happens to this project. In terms of how do you maintain a project with one person but with a few volunteers? And then what does that look like when you're literally getting a thousand issues a day?
 
-[07:20] **Melody:** Yeah. I even vibe coded a dashboard to see it.
+[07:20] **Melody:** I even vibe coded a dashboard to see it.
 
 [07:20] **Henry:** Anyway, they tell you the rate of how many issues are getting opened and closed and whether it's increasing or not. I know there's a lot of good questions around how do you find who's a good potential maintainer? How do you trust people? All the non-technical stuff that you can use AI and tech to help you with. But ultimately you need to make a decision.
 
 #### What Is Open Source?
 
-[07:50] **Melody:** Yeah. I think there's going to be a number of people who have never heard of open source. But actually should we keep walking?
+[07:50] **Melody:** I think there's going to be a number of people who have never heard of open source. But actually should we keep walking?
 
-[07:55] **Henry:** Yeah. Yeah. Okay. This is fun. It's just like a random idea.
+[07:55] **Henry:** This is fun. It's just like a random idea.
 
-[08:00] **Melody:** Yeah. Henry. Mr. Open source, can you please elaborate on what open source is for the unacquainted?
+[08:00] **Melody:** Henry. Mr. Open source, can you please elaborate on what open source is for the unacquainted?
 
 [08:24] **Henry:** All right. My simple definition is you can look at, source as referring to source code. Which is just programming, the code that people write. Which I would say is similar to a recipe for if you're cooking, but it's like the recipe for making a program. And then open source is, I would say, as opposed to closed source. And if I'm going to use a recipe metaphor, then if you like the Coke formula, if it was closed, proprietary, people want to know about it. So then what if you purposely wanted people to know about it? That's kind of like open source.
 
@@ -134,7 +134,7 @@ quotes:
 
 [11:10] **Henry:** Yeah.
 
-[11:10] **Melody:** Okay. I guess the other thing to mention is that today is the day after this really big blizzard. Storm. It is.
+[11:10] **Melody:** I guess the other thing to mention is that today is the day after this really big blizzard. Storm. It is.
 
 [11:20] **Melody:** So I think the city did a really good job. Oh my gosh. Oh, wow. It's like it's clear. The city did a really good job of clearing the snow, and then I almost just slipped.
 
@@ -144,7 +144,7 @@ quotes:
 
 [11:50] **Melody:** So we're blending the two here, which I think is kind of fun.
 
-[11:50] **Henry:** Yeah. It's fun. But we don't know what we're doing.
+[11:50] **Henry:** It's fun. But we don't know what we're doing.
 
 [11:58] **Melody:** Well, look how pretty it is. I'm actually quite happy we're here. I don't think I would have come down. Oh, wow. Oh, my gosh, it's so pretty. Wait, should we walk this way or. Wow. So pretty.
 
@@ -166,7 +166,7 @@ quotes:
 
 [13:17] **Henry:** Okay. I think there's going to be a lot of that. That's okay. That's part of it. It's so pretty.
 
-[13:24] **Melody:** Okay. This is beautiful. So, yeah, in the sciences, it should be open. And that's why the journals and stuff, right? Once someone discovers something and they share with everyone, you can't really prevent people from learning from it. Iterating and sharing it back.
+[13:24] **Melody:** This is beautiful. So, yeah, in the sciences, it should be open. And that's why the journals and stuff, right? Once someone discovers something and they share with everyone, you can't really prevent people from learning from it. Iterating and sharing it back.
 
 [13:40] **Henry:** So the idea is truth and knowledge is shared with everybody. And I know people think science is this huge thing, but it's also individual people. And I think it's similar with open source.
 
@@ -176,11 +176,11 @@ quotes:
 
 [14:15] **Henry:** Oh, my gosh, it's so pretty. I'm so sorry. It's so pretty.
 
-[14:20] **Melody:** Okay. But, yeah, the dependency thing. You've shown me this because that's basically what you are with Babel.
+[14:20] **Melody:** But, yeah, the dependency thing. You've shown me this because that's basically what you are with Babel.
 
 [14:34] **Henry:** It was a random dude that is the only person working on the project. Nobody knows how it works. And they're doing it in their free time. And then maybe they retire and they have kids or something happens to them, and what are you going to do about it?
 
-[14:58] **Melody:** Yeah. So I guess the difference is, with science, maybe also people emphasize too much about discovery. But it's slippery.
+[14:58] **Melody:** So I guess the difference is, with science, maybe also people emphasize too much about discovery. But it's slippery.
 
 [15:05] **Henry:** The issue in science has always been the replication. So be careful. The replication crisis thing where it's hard to reproduce what people have done. So that maybe, I might say is similar to maintenance work. No one wants to do it, but it's really important.
 
@@ -188,7 +188,7 @@ quotes:
 
 [15:30] **Henry:** Well, that looks like we're going to slip. Okay. Certainly. But I think we kind of have. I kind of do want to go down there just because I want to go through that. So. Yeah. Okay. Let's just. Okay.
 
-[15:40] **Melody:** This looks so easy. Wait. How do I not make this look, okay. Okay.
+[15:40] **Melody:** This looks so easy. Wait. How do I not make this look, okay.
 
 [15:48] **Henry:** So do you just keep all this in the sauntercast? Yeah. Why?
 
@@ -196,13 +196,13 @@ quotes:
 
 [15:57] **Henry:** Yeah, I think so. I think I mentioned it last time. It helps me to remember that life is about being interrupted and being okay with it.
 
-[16:14] **Melody:** Yeah. Henry, I think you might enjoy vlogging.
+[16:14] **Melody:** Henry, I think you might enjoy vlogging.
 
 [16:14] **Henry:** Oh, yeah. I think it feels like a vlog. This is like a vlog, but I think yours is like an audio only vlog.
 
 [16:25] **Melody:** No, it's hard for me to do it if it's just by myself. I see. Yeah. I'm not used to talking to camera by myself.
 
-[16:36] **Henry:** Yeah. And then soon. Oh, okay.
+[16:36] **Henry:** And then soon. Oh, okay.
 
 [16:40] **Melody:** Well, you'll get used to it. Yeah. Well, I think it's more fun with other people. Yeah. Soon we're going to switch this camera off to you. Okay.
 
@@ -224,9 +224,9 @@ quotes:
 
 [18:15] **Melody:** All right. Okay, so that's open source. I could keep going forever.
 
-[18:18] **Henry:** Yeah. Well, people contribute. There's a million reasons.
+[18:18] **Henry:** Well, people contribute. There's a million reasons.
 
-[18:22] **Melody:** Yeah. But I feel like we caught the gist of it. Yeah.
+[18:22] **Melody:** But I feel like we caught the gist of it. Yeah.
 
 [18:27] **Henry:** I'll say one other aspect then. Okay. And maybe in relation to OpenClaw.
 
@@ -244,7 +244,7 @@ quotes:
 
 [20:00] **Henry:** Was it hitchhiking?
 
-[20:05] **Melody:** Yeah. Okay, so you're saying, just another reason why open source is good. Not just because you want to collaborate with people, but it's like freedom for people. For anyone that uses the thing that is made, a tool.
+[20:05] **Melody:** Okay, so you're saying, just another reason why open source is good. Not just because you want to collaborate with people, but it's like freedom for people. For anyone that uses the thing that is made, a tool.
 
 [20:21] **Henry:** And there's another phrase people use called the right to repair. Speaking of, as a farmer, you buy this tractor and it doesn't even work, and you can't even fix it yourself. You have to go to them, or you buy a car.
 
@@ -252,23 +252,23 @@ quotes:
 
 #### Everyone Building in the Snow
 
-[21:10] **Henry:** Yeah. I also just think it's promoting values that are good for us as a people. Humanity. And also, I think it also points to a different form of governance. That's where it feels very philosophical. Like I even like to believe that not everything needs to be administered or governed by either the state or the market. Meaning government or companies. And there are areas or situations where people can govern themselves through rules and things that don't need a third party.
+[21:10] **Henry:** I also just think it's promoting values that are good for us as a people. Humanity. And also, I think it also points to a different form of governance. That's where it feels very philosophical. Like I even like to believe that not everything needs to be administered or governed by either the state or the market. Meaning government or companies. And there are areas or situations where people can govern themselves through rules and things that don't need a third party.
 
 [22:00] **Melody:** Exactly. Yeah. And it's empowering. I think that's really what it's about. Yeah. 100%.
 
 [22:05] **Henry:** One second. Interruptions but yeah. Everyone's bringing their own little, see how beautiful it is when you can learn to, or you could just build whatever you want. This is it. This is like open source.
 
-[22:15] **Melody:** Yeah. Is it free? The freedom?
+[22:15] **Melody:** Is it free? The freedom?
 
 [22:18] **Henry:** Well, I was like, no. It's like, open. The raw materials. Right? To create whatever. Regulating. Oh, you have to use it in a certain way.
 
 [22:30] **Melody:** So you can use it to build this bench. You can use it to build the snowman. It's like a public source situation. Everyone benefits.
 
-[22:40] **Henry:** Yeah. I like it all the different projects. The guy in the back is sliding down. It's so fun.
+[22:40] **Henry:** I like it all the different projects. The guy in the back is sliding down. It's so fun.
 
 [22:48] **Melody:** Oh, nice. I love Prospect Park. I think it's why it's so big. This part? Yeah. We love when community comes together.
 
-[23:00] **Henry:** Yeah. And that's what open source is. Yeah. I think that's one of my big takeaways just from my move to New York. And probably because I've been meeting more open source people, like this guy. But I think you realize that technology doesn't have to be married to a commercial sort of mindset or individualistic.
+[23:00] **Henry:** And that's what open source is. Yeah. I think that's one of my big takeaways just from my move to New York. And probably because I've been meeting more open source people, like this guy. But I think you realize that technology doesn't have to be married to a commercial sort of mindset or individualistic.
 
 [23:20] **Melody:** Yes. I feel like the Silicon Valley mindset is very much like tech is only for commercial interests and values. And it doesn't have to be that way. And it's not that it's necessarily bad. It's just, I don't think it's a one-to-one relationship, which I think is the important thing.
 
@@ -282,7 +282,7 @@ quotes:
 
 [24:17] **Melody:** And I don't think doing that is going to solve everything. Like you said it's not that we shouldn't be thinking. So absolute. So there's room for multiple ways of doing things.
 
-[24:30] **Henry:** Yeah. What do you think this umbrella means? What is. Oh, I think it means. There's this. Okay. I guess it's another thing that happens is, why did you build that? The question. In open source. Why does this thing exist?
+[24:30] **Henry:** What do you think this umbrella means? What is. Oh, I think it means. There's this. Okay. I guess it's another thing that happens is, why did you build that? The question. In open source. Why does this thing exist?
 
 [24:55] **Melody:** That's good. Yeah. It gets people to question things.
 
@@ -296,7 +296,7 @@ quotes:
 
 [26:00] **Henry:** Because I think it was 200,000 GitHub stars and it's kind of like likes. In a month or something.
 
-[26:10] **Melody:** Yeah. Crazy. If you compare it with any other big project, it's straight up.
+[26:10] **Melody:** Crazy. If you compare it with any other big project, it's straight up.
 
 [26:16] **Henry:** So. Yeah. Exactly. Open to the right. Or just straight. Yeah. I'll go online. Vertical line.
 
@@ -304,9 +304,9 @@ quotes:
 
 [27:11] **Henry:** And I think that this is a problem. Open source is like even the word open source implies that open source is only about code. And so if we can incorporate other aspects, I think that would be cool. In your situation, what if there was open source design? Or what does that look like for someone to get involved in something that's not writing code? Documentation, marketing, branding, etc.
 
-[27:31] **Melody:** Yeah. Yeah. I feel like part of why this line is up into the right is it's emblematic of this larger flash in the pan moment or whatever you want to call it. It's just such a weird moment again, where everyone is now having access to GitHub, or to code because of Claude. Right? Was I using GitHub repos? I don't even know what these things are called, but I use them, right? I just tell Claude to just do it. But did I ever engage with GitHub like this before? No. So part of the 200K whatever likes is that the TAM has opened up. The user base has, it's not like of the existing developers this is a faster growing project. It's simply that who can call themselves a developer has largely expanded. Right?
+[27:31] **Melody:** I feel like part of why this line is up into the right is it's emblematic of this larger flash in the pan moment or whatever you want to call it. It's just such a weird moment again, where everyone is now having access to GitHub, or to code because of Claude. Right? Was I using GitHub repos? I don't even know what these things are called, but I use them, right? I just tell Claude to just do it. But did I ever engage with GitHub like this before? No. So part of the 200K whatever likes is that the TAM has opened up. The user base has, it's not like of the existing developers this is a faster growing project. It's simply that who can call themselves a developer has largely expanded. Right?
 
-[29:00] **Henry:** Yeah. Even on that, I think there's so many trade offs. I think at the same time, we don't want to gatekeep things that we want to share with people. But then at the same time, when too many people that are new come into a community, people always say the eternal September thing.
+[29:00] **Henry:** Even on that, I think there's so many trade offs. I think at the same time, we don't want to gatekeep things that we want to share with people. But then at the same time, when too many people that are new come into a community, people always say the eternal September thing.
 
 [29:19] **Melody:** No. But basically?
 
@@ -328,19 +328,19 @@ quotes:
 
 [30:55] **Melody:** Okay. You're ready for this? I just have to be perfect. You just have to make sure you don't. Yeah, you can look at it. Okay, let's make sure that there is a covering. I think it's fine.
 
-[31:05] **Henry:** Okay. That's the real lesson. You just have to. Yeah, exactly.
+[31:05] **Henry:** That's the real lesson. You just have to. Yeah, exactly.
 
-[31:07] **Melody:** Okay. All right. You tired? I just started. I've been holding it up. I know, I know, I know. Okay. Once you get too tired. I've been changing up the. Yeah. So you can kind of put it. Like we're figuring this out. Okay. But yeah, to make sure it's kind of pointed.
+[31:07] **Melody:** Okay. All right. You tired? I just started. I've been holding it up. I know. Okay. Once you get too tired. I've been changing up the. Yeah. So you can kind of put it. Like we're figuring this out. Okay. But yeah, to make sure it's kind of pointed.
 
-[31:30] **Henry:** Yeah. Okay. Is it, no. Well, good. Right. Okay. Yeah, I got it. All right.
+[31:30] **Henry:** Okay. Is it, no. Well, good. Right. Okay. Yeah, I got it. All right.
 
 [31:38] **Melody:** She's like a robot. I'm sorry. We need, we were going to do it Insta360, but we were not prepared. We're just vibing, you know?
 
-[31:45] **Henry:** Yeah. I'm. We're just vibing, okay? Just vibing through life.
+[31:45] **Henry:** We're just vibing, okay? Just vibing through life.
 
 [31:46] **Melody:** Vibing through life. Wasn't that Brian Johnson tweet about. Oh yeah. What was it he said God was vibing. He thought God was vibe coding in the beginning. He just had a prompt or something. What was it?
 
-[32:04] **Henry:** Yeah. I guess he was saying that the prompt was, quote unquote, simple.
+[32:04] **Henry:** I guess he was saying that the prompt was, quote unquote, simple.
 
 [32:10] **Melody:** Zero. Okay. That's fine. It's your workout.
 
@@ -348,7 +348,7 @@ quotes:
 
 [32:12] **Henry:** Yeah, I think something like that. No, he said, I follow the teachings of Jesus. Oh, wow.
 
-[32:13] **Melody:** Yeah. Anyways, that's another internet checkpoint moment. Yeah.
+[32:13] **Melody:** Anyways, that's another internet checkpoint moment. Yeah.
 
 [32:14] **Henry:** It's a day for the last. I know, I know, I know, but why don't we do it. Okay, so then the other way to do it is like this.
 
@@ -374,7 +374,7 @@ quotes:
 
 [33:00] **Melody:** Okay, so I actually don't know about this distillation thing, so we can talk about that for a minute. But highly controversial.
 
-[33:10] **Henry:** Okay. Oh, and then we can talk about the meta superintelligence. Okay.
+[33:10] **Henry:** Oh, and then we can talk about the meta superintelligence. Okay.
 
 [33:21] **Melody:** What else? Which is also related to, I think. I don't know, it's just. Oh, is it slippery? Yeah. It's okay. You could use your other hand, too.
 
@@ -398,7 +398,7 @@ quotes:
 
 [35:24] **Henry:** Yeah, I think that was the topic of conversation with some of the folks there because they also are vibe coders and stuff, too. And I think there's definitely a Twitter, everyone's talking about ChatGPT psychosis. It's like you could be in Twitter psychosis too. And I think the whole industry can tell you that you're falling behind if you don't figure this out, if you're not working 24/7, you're going to fall into this permanent underclass or whatever.
 
-[35:56] **Henry:** Yeah. And it's just like, I go this way. Oh, yeah. Not slippery. Okay.
+[35:56] **Henry:** And it's just like, I go this way. Oh, yeah. Not slippery. Okay.
 
 [36:05] **Henry:** They were saying. But I think that they talked about it last time, right? Everyone makes it feel like things are just going to happen to you and you can't do anything about it. And we just choosing to not have agency.
 
@@ -420,9 +420,9 @@ quotes:
 
 [37:51] **Melody:** Yeah.
 
-[37:55] **Henry:** Okay. Continue. Okay. So? So I'll say that, in summary. The reason why you feel good about it is just the experience of not.
+[37:55] **Henry:** Okay. Continue. So I'll say that, in summary. The reason why you feel good about it is just the experience of not.
 
-[38:10] **Melody:** You can use that. No. Okay. Yeah. Uncovering. Yeah. Yeah. Like that. Okay. The experience of being away and then everything was fine is like, that's what people need to be like, oh, yeah. It's just not like we've been through many technological disruptions in the past.
+[38:10] **Melody:** You can use that. No. Okay. Yeah. Uncovering. Yeah. Like that. Okay. The experience of being away and then everything was fine is like, that's what people need to be like, oh, yeah. It's just not like we've been through many technological disruptions in the past.
 
 [38:38] **Melody:** And I think the media and everyone around you will freak you out into believing that whatever that current doom or narrative is. And I think it's important for all of us to know that yes, you can get ahead, and yes, you can slip behind potentially. But actually everything will be okay. You have to. Yeah.
 
@@ -430,7 +430,7 @@ quotes:
 
 [39:00] **Melody:** I don't think I want to be on it. Yeah. Okay. You just want to saunter. Yeah. You don't want to cast.
 
-[39:10] **Henry:** Yeah. Or just audio? That's right. Yeah. I want people want to visualize where we are instead of.
+[39:10] **Henry:** Or just audio? That's right. Yeah. I want people want to visualize where we are instead of.
 
 [39:15] **Melody:** Yeah, right. That looks crazy. Look at that on the right.
 
@@ -448,21 +448,21 @@ quotes:
 
 [40:07] **Melody:** And it's like, go back to just being people. And I think I've heard people say the same thing is like, maybe when you find out everything is fake, people want to seek what's real. And maybe we'll start meeting in person more, you know?
 
-[40:20] **Henry:** Yeah. It's like encouraging people to find community. And that's a very positive notion.
+[40:20] **Henry:** It's like encouraging people to find community. And that's a very positive notion.
 
-[40:29] **Melody:** Yeah. I don't want to believe that people don't care about learning. They don't care about the truth. They don't care about trying to change the world or make themselves better, or their family or their friends. We're just going to passively doom scroll our brain right ourselves away. It's like. Yeah, I think ultimately you realize that it's not good. And people want the opportunity to change. We just need to give them, or ourselves, you know, whether it's imagination or inspiration.
+[40:29] **Melody:** I don't want to believe that people don't care about learning. They don't care about the truth. They don't care about trying to change the world or make themselves better, or their family or their friends. We're just going to passively doom scroll our brain right ourselves away. It's like. Yeah, I think ultimately you realize that it's not good. And people want the opportunity to change. We just need to give them, or ourselves, you know, whether it's imagination or inspiration.
 
 [40:53] **Henry:** I think even, I know you were talking earlier, Alyssa. Yeah. Oh, that whole thing that happened, Alyssa Liu happened.
 
-[41:00] **Melody:** That is a big deal. I freaking love her. There's so much to talk about there. Yeah, there's a lot. In relation to this. I'm already thinking about so much right now. Wait wait wait.
+[41:00] **Melody:** That is a big deal. I freaking love her. There's so much to talk about there. Yeah, there's a lot. In relation to this. I'm already thinking about so much right now. Wait.
 
-[41:10] **Melody:** No no, no. It's inspiring to hear someone that first says that she's willing to go through the pain. She does things on her own schedule. I know she's in a certain position, but it's just inspiring to hear someone, she doesn't do the hustle culture, trying so hard. But obviously she cares about what she's doing and she's internally motivated.
+[41:10] **Melody:** No. It's inspiring to hear someone that first says that she's willing to go through the pain. She does things on her own schedule. I know she's in a certain position, but it's just inspiring to hear someone, she doesn't do the hustle culture, trying so hard. But obviously she cares about what she's doing and she's internally motivated.
 
 [41:37] **Melody:** 100%. And also, we're not trying to medicate ourselves or, I guess she cares about mental health and that sort of thing. So I just feel like that's a cool role model, antidote to this kind of feeling.
 
 [42:00] **Henry:** So mature at 20 years old.
 
-[42:02] **Melody:** Yeah. Crazy. It's crazy. She got it.
+[42:02] **Melody:** Crazy. It's crazy. She got it.
 
 [42:05] **Henry:** The reason why I loved, first of all, even before I knew about what she was saying, I think I watched her skate and that. Yeah, I nearly cried watching her skate. And this was before I even understood her philosophy behind anything. Just you can see it.
 
@@ -516,7 +516,7 @@ quotes:
 
 [49:16] **Melody:** And then also just wanting to make stuff that I want to make just for the sake of making it. I think that's the ultimate freedom. Not being. I think though. Okay. So this is the corollary. It's the content you put out to attract an audience. That's striving content to me when you're like, I'm going to make this content to go viral. Or, I'm going to use this format.
 
-[49:41] **Henry:** Yeah. Why? It's so standardized.
+[49:41] **Henry:** Why? It's so standardized.
 
 [49:45] **Melody:** Because you know it works. Because it's a. It doesn't work. But I guess your point is that it changes you and it's like, yeah, if you really want to make for yourself. It's almost like making is helping you discover who you are. And exactly. If I stay in this format I'm not really exploring that.
 
@@ -544,29 +544,27 @@ quotes:
 
 [53:55] **Henry:** Totally. So it's a balance. But I think maybe the reason why push towards this concept of being more is just because we're a society full of striving. Celebrates striving, tells us to strive constantly. Which is burning us all out.
 
-[54:03] **Melody:** Yeah. I guess it's weird because it's like when it's producing weird stuff. But we're sorry. You're all right. Well, even, or you can say no.
+[54:03] **Melody:** I guess it's weird because it's like when it's producing weird stuff. But we're sorry. You're all right. Well, even, or you can say no.
 
 [54:22] **Henry:** I was just thinking, sometimes I feel like society pushes both at the same time in different ways. So it's like, you see all these people grinding, but then you also see people just doing nothing. As a reaction to what's happening. That's how we cope.
 
 [54:35] **Melody:** So the whole thing with, yeah, the opposite of striving is nothing. When really it should be, how do you come into being more? We're still doing, it's still doing, but in a different way.
 
-[54:41] **Henry:** Yeah. When we're talking about active waiting or patience. I even think about, right now we have Lent and then before, Advent. Those are all periods of waiting. But you're also doing. Fasting. It's funny because you're actually doing by not doing something, by not eating or something. And that's a form of helping you have a contrast with a normal day to day.
+[54:41] **Henry:** When we're talking about active waiting or patience. I even think about, right now we have Lent and then before, Advent. Those are all periods of waiting. But you're also doing. Fasting. It's funny because you're actually doing by not doing something, by not eating or something. And that's a form of helping you have a contrast with a normal day to day.
 
 [55:05] **Melody:** I think that's different than striving. Yes. Or. Yeah, 100%. And you can fast in a striving way, right?
 
 [55:10] **Henry:** Even the Bible talks about, yeah, they're complaining, oh, I'm fasting. You have to treat me better. Exactly.
 
-[55:18] **Melody:** Yeah, yeah. That's good. I don't know. You just even, you see these rappers or artists and everyone, it's just better when they're doing their thing in uniquely their way.
+[55:18] **Melody:** That's good. I don't know. You just even, you see these rappers or artists and everyone, it's just better when they're doing their thing in uniquely their way.
 
 [55:43] **Melody:** I got really Rick Rubin pilled when he has this whole thing about not caring about the audience. And his whole thing is about, you need to just make your stuff and your perspective is valuable because it's your perspective. And I think a lot of people discount that. But yeah, again, that's all we have in this age of AI is what we are uniquely experiencing. And that's what all art is. Music. From your perspective, whether it's movies or stories from your perspective. And you can still incorporate obviously influences. We're not a solo island. But it's just that balance of, oh, I saw something. Which is from someone else. And then you create your remake as a result.
 
-#### Spotify Broke the Album
-
-[56:36] **Henry:** Yeah. Let's go back to what you're talking about with the teachers and students. Because I have similar thoughts there and my thoughts are not fully formed. We can talk about or we can just.
+[56:36] **Henry:** Let's go back to what you're talking about with the teachers and students. Because I have similar thoughts there and my thoughts are not fully formed. We can talk about or we can just.
 
 [56:48] **Melody:** Yeah, I think what's on my mind is. You're saying that by. How slippery this looks, I'm gonna, it's a good moment to pause. We just, we're almost back. Exited the park. Almost. Yeah. Almost back. And I'm wondering where we should go.
 
-[57:00] **Henry:** Should we go to Grand Army over there? Yeah. Yeah.
+[57:00] **Henry:** Should we go to Grand Army over there? Yeah.
 
 [57:10] **Melody:** Okay. Let's see. My app is kind of. Okay. It's been nice. Oh, nice. So we had a little loop. Okay, cool. Yeah. We're gonna post this. Yeah, I can listen.
 
@@ -580,11 +578,11 @@ quotes:
 
 [58:09] **Henry:** I don't know. I usually try not to think of one size fits all solution. And so for some teachers or some sets of teachers and students, maybe they do need to just go back to talking. And some people are going to do the whole, there's no phones or anything. And other people might be more open to using AI in a different way. I want you to use AI for this assignment.
 
-[58:32] **Melody:** Yeah. I've been thinking about this. I think what's interesting is, you're either returning to an older form of teaching or the teaching now has to operate at a higher level of abstraction. Which is similar to the coding thing. Right?
+[58:32] **Melody:** I've been thinking about this. I think what's interesting is, you're either returning to an older form of teaching or the teaching now has to operate at a higher level of abstraction. Which is similar to the coding thing. Right?
 
 [58:50] **Henry:** Exactly. But I think the other piece that I think about is, assignments and teaching have been mechanized. In all these ways. And so it's pointing out how not useless, but how broken, maybe these systems were in the first place.
 
-[59:02] **Melody:** Yeah. It was always what, I love using that phrasing, but things were always broken. But now they're just revealed. So you could see it.
+[59:02] **Melody:** It was always what, I love using that phrasing, but things were always broken. But now they're just revealed. So you could see it.
 
 [59:30] **Henry:** Exactly. And it makes me think about, this was one conversation we had.
 
@@ -594,9 +592,11 @@ quotes:
 
 [59:52] **Melody:** Like, what's it called? Yeah. Right here. It's crazy. Yeah. Oh, gosh. Okay, let's just be careful.
 
-[1:00:01] **Henry:** Okay. So this is another thing we're talking about.
+[1:00:01] **Henry:** So this is another thing we're talking about.
 
 [1:00:05] **Melody:** Okay. Oh, okay. There's a few different ideas. Oops. Whoops. Okay. It says here. Oh is it okay.
+
+#### Spotify Broke the Album
 
 [1:00:22] **Melody:** Well I think with Spotify. Oh just we're talking about Suno okay. And how popular, it's right there, which is the AI generated music and that's happening all over China.
 
@@ -608,7 +608,7 @@ quotes:
 
 [1:01:00] **Henry:** Oh, it's, reflection is so bad now. It's all over.
 
-[1:01:10] **Melody:** Okay. I think mine's particularly bad because these are new glasses from Asia. But, yeah, AI generated music. And it's all over Asia right now. We're in the ski lodge, we're in, say or whatever, literally hearing it all the time. And the models have gotten better. It's gotten better in the last 3 to 6 months because I was in Asia in September or something already. Or October already. It's gotten much better.
+[1:01:10] **Melody:** I think mine's particularly bad because these are new glasses from Asia. But, yeah, AI generated music. And it's all over Asia right now. We're in the ski lodge, we're in, say or whatever, literally hearing it all the time. And the models have gotten better. It's gotten better in the last 3 to 6 months because I was in Asia in September or something already. Or October already. It's gotten much better.
 
 [1:01:53] **Melody:** Okay, so what was on my mind is that most people are okay with slop. Once you get good enough, or even now, it's pretty good, all over China and Asia, they're just listening to this.
 
@@ -634,7 +634,7 @@ quotes:
 
 [1:06:10] **Melody:** Because isn't it because they don't care, because they get money, because you're paying for this? So I don't care if it was actually foreground or background, in a sense, as long as you're using it.
 
-[1:06:19] **Henry:** Yeah. And I think the purpose of foreground content for Netflix or the streamers is that it's the stuff that gets you to subscribe, oh, because Ben Affleck and Matt Damon are coming out with this movie, a lot of people resub or newly sub to watch. Because they can tell, it's the first thing that you watch after you subscribe.
+[1:06:19] **Henry:** And I think the purpose of foreground content for Netflix or the streamers is that it's the stuff that gets you to subscribe, oh, because Ben Affleck and Matt Damon are coming out with this movie, a lot of people resub or newly sub to watch. Because they can tell, it's the first thing that you watch after you subscribe.
 
 [1:06:38] **Melody:** Oh. They know what they did. Oh, I see. So yeah.
 
@@ -644,7 +644,7 @@ quotes:
 
 [1:06:55] **Henry:** Well, you can, I guess. You're forced to, not you, because you no longer can. Because before you could efficiently.
 
-[1:07:02] **Melody:** I see, I see. There was still money to be made in slop arbitrage.
+[1:07:02] **Melody:** I see. There was still money to be made in slop arbitrage.
 
 [1:07:06] **Henry:** Just going for the background.
 
@@ -658,9 +658,9 @@ quotes:
 
 [1:08:58] **Melody:** So maybe in the movie it's the same thing. Yeah, that overall idea, I'm sure you could come up with it. But you said it doesn't feel, it doesn't suffer. It doesn't know what it's like to have a dad that's an alcoholic. It's the subtle thing.
 
-[1:09:17] **Henry:** Yeah. Subtle acting. I was saying, the actor pulling up the sheets over, it's the way that the alcoholic dad would negotiate with you would be just doing small little.
+[1:09:17] **Henry:** Subtle acting. I was saying, the actor pulling up the sheets over, it's the way that the alcoholic dad would negotiate with you would be just doing small little.
 
-[1:09:40] **Melody:** Yeah. The macro and micro things that AI can't pick up on. But that's the thing that fully communicates this person is an alcoholic or this person.
+[1:09:40] **Melody:** The macro and micro things that AI can't pick up on. But that's the thing that fully communicates this person is an alcoholic or this person.
 
 [1:10:01] **Henry:** Until someone points it out and then they train on it. But exactly. Those things, I think one thing you can do to know, there's always something in the center. Usually there's nothing happening in the background that's the main thing because why would you train on video that's random videos? Until they decide, oh, you should. I guess it just depends on what the signal is. And we're going to keep finding new signal.
 
@@ -670,7 +670,7 @@ quotes:
 
 [1:10:47] **Melody:** There's a video about it. I forgot. Big data hunters or something. They're trying to find, there's no data anymore. So they got to start going after people's personal journals and then.
 
-[1:11:00] **Henry:** Yeah. That's what. Exactly.
+[1:11:00] **Henry:** That's what. Exactly.
 
 #### Temporal Bandwidth
 
@@ -694,11 +694,11 @@ quotes:
 
 #### The Checkpoint
 
-[1:16:38] **Melody:** Yeah. Good stuff. It's getting cold.
+[1:16:38] **Melody:** Good stuff. It's getting cold.
 
-[1:16:42] **Henry:** Yeah. You can start to walk. We really went in that way then.
+[1:16:42] **Henry:** You can start to walk. We really went in that way then.
 
-[1:17:00] **Melody:** So I think. Yeah, it's been two weeks since our last checkpoint. I think we talked about a few big things. We didn't talk about some other AI news, like the distillation or the meta superintelligence and stuff, but I think there's just, I think we understand that there has been a lot going on. That will continue to happen.
+[1:17:00] **Melody:** So I think. Yeah, it's been two weeks since our last checkpoint. I think we talked about a few big things. We didn't talk about some other AI news, like the distillation or the meta superintelligence and stuff, but I think we understand that there has been a lot going on. That will continue to happen.
 
 [1:17:26] **Melody:** And not like we're going to just, I think people, there's always going to be a new technology or something new to have FOMO about. And I think more than anything. Yeah. Back to talking about being an artist. The number one job as an artist is figuring out what's happening, right?
 
@@ -712,11 +712,11 @@ quotes:
 
 [1:18:41] **Henry:** Watch out for all this.
 
-[1:18:45] **Melody:** Yeah. And the other, lost thought, audience of one. Maybe that should be the title.
+[1:18:45] **Melody:** And the other, lost thought, audience of one. Maybe that should be the title.
 
-[1:18:50] **Henry:** Yeah. So that's it?
+[1:18:50] **Henry:** So that's it?
 
-[1:18:55] **Melody:** Yeah. All right. Well, that concludes our Internet Checkpoint number two.
+[1:18:55] **Melody:** All right. Well, that concludes our Internet Checkpoint number two.
 
 [1:19:10] **Henry:** Yes. I think we're gonna do these on a semi-regular cadence. I feel like every two weeks is probably good.
 
@@ -726,9 +726,9 @@ quotes:
 
 [1:19:33] **Melody:** I know this is so icy. Oh my gosh.
 
-[1:19:35] **Henry:** Yeah. Oh yeah. Give us thoughts on how you like this kind of chaotic format.
+[1:19:35] **Henry:** Oh yeah. Give us thoughts on how you like this kind of chaotic format.
 
-[1:19:37] **Melody:** Oh yeah. Yeah I mean it's fun for me. Yeah. So we're just going to be, even if you give us feedback, we're just going to do our own thing.
+[1:19:37] **Melody:** Oh yeah. I mean it's fun for me. Yeah. So we're just going to be, even if you give us feedback, we're just going to do our own thing.
 
 [1:19:39] **Henry:** Thing? Yeah. You just tell us what you know. I'm just kidding.
 

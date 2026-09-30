@@ -20,7 +20,7 @@ quotes:
 
 #### What is your faith background?
 
-[00:00] **Nadia:** So we decided to start recording some conversations about open source and faith, because both of us have noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, Christian faith.
+[00:00] **Nadia:** We decided to start recording some conversations about open source and faith, because both of us have noticed in our work around open source, there are a lot of open source developers that had some sort of connection to faith. Often, Christian faith.
 
 [00:17] **Nadia:** For both of us were sort of wondering why that was. We have pretty different backgrounds in terms of our personal connection to faith.
 
@@ -28,7 +28,7 @@ quotes:
 
 [00:29] **Henry:** Yeah, real short, I am a Christian. I didn't grow up Christian, but I mostly started pursuing it after college and going into working.
 
-[00:42] **Henry:** I've just noticed through getting involved in open source, just a lot of parallels with what we do in church and our faith background.
+[00:42] **Henry:** I've noticed through getting involved in open source, a lot of parallels with what we do in church and our faith background.
 
 [00:53] **Henry:** I didn't hear a lot of people talking about it but it does seem like it's kind of underlying a lot of stuff. So it would be really interesting to talk more about it explicitly.
 
@@ -48,7 +48,7 @@ quotes:
 
 #### Giving without expectations
 
-[02:41] **Nadia:** I'm mixing all these terms of faith, spirituality, religion, and those are each different things, but the aspects of faith that are really present in open source are around community organizing, and also a sense of service, giving something to other people without expecting anything in return, for the benefit of some greater good.
+[02:41] **Nadia:** I'm mixing all these terms of faith, spirituality, religion, and those are each different things, but the aspects of faith that are really present in open source are around community organizing, and a sense of service, giving something to other people without expecting anything in return, for the benefit of some greater good.
 
 [03:08] **Henry:** Well I gave a talk on this in SF, at [Zeit Day](https://zeit.co/day) (now [Vercel](https://vercel.com)), but the way I got started in open source wasn't because I thought it was about community or serving people.
 
@@ -60,7 +60,7 @@ quotes:
 
 [03:54] **Nadia:** What's the reaction been like when you've given talks in that realm or talked to other people about it?
 
-[04:01] **Henry:** That's funny because in my mind, it's maybe like what you said. It's really surprising at the positive feedback I've gotten. I haven't really gotten anything negative from anyone about it.
+[04:01] **Henry:** That's funny because in my mind, it's maybe what you said. It's really surprising at the positive feedback I've gotten. I haven't really gotten anything negative from anyone about it.
 
 [04:17] **Henry:** Maybe this is because I'm sharing my story and sharing personal thoughts. I'm not trying to convince anyone of anything. It's recognizing what shared, agreed values or parallels are in both. I really like the word you used, restorative. It's a different aspect of technology and programming that I don't see other than in open source.
 
@@ -78,7 +78,7 @@ quotes:
 
 [07:44] **Henry:** That's a really good point and I'm definitely not on the side of you should do everything for free. Obviously, because I left to... and I have to sustain myself too. (laughs) I am living out that struggle right now where there's this sense of "I want to be able to give everything away", but you don't want to limit access to things because you have to make money, but you have to sustain yourself. The idea that only people that can have the free time to do open source are the only people that should do it seems pretty wrong to me as well. It's a healthy struggle to have.
 
-[08:28] **Nadia:** It seems like we don't hold our day to day work to that same standard. It's great to be intrinsically motivated by the work that you do as your day job, but that doesn't negate the need to have a salary or sustain yourself. And so why would that be any different for open source?
+[08:28] **Nadia:** It seems like we don't hold our day to day work to that same standard. It's great to be intrinsically motivated by the work that you do as your day job, but that doesn't negate the need to have a salary or sustain yourself. So why would that be any different for open source?
 
 [08:50] **Henry:** It shouldn't be in conflict. I had a conversation with someone about work. If we're all trying to help people you can make a for-profit company and then decide to donate it away or use that wealth or influence to help, or you can spend your time serving people more directly, (and maybe you won't ever make a lot of money) but you're having impact. Maybe some people believe one is more impactful than the other. It's hard to say. It's where you're placed at in the current time.
 
@@ -106,7 +106,7 @@ quotes:
 
 [13:55] **Henry:** You have to think about your physical health and your mental health. Maybe you are healthy and you're able to go more all in than other people, but if you're dealing with issues, then you have to understand more of yourself. I don't know if you can look to people, "Oh, I'm going to copy what they do," but you have to learn on your own what that is. More awareness, and maybe that means talking with others and seeing how they see how you're doing too.
 
-[14:34] **Nadia:** Like for them to evaluate you almost?
+[14:34] **Nadia:** For them to evaluate you almost?
 
 [14:38] **Henry:** A sense of accountability in the community. That's super important. Definitely in faith, you want people to let you know when you're getting off track. And in the same way with either working too much or serving too much it's pretty similar.
 
@@ -124,7 +124,7 @@ quotes:
 
 [16:59] **Henry:** It doesn't seem like it cause at least with tithing in your church, maybe you're going every week and you're in fellowship with people... It feels more like a community cause it's in person, and when it's open source the attitude is very consumer-like. It's very transactional, even though there's no payment. It's just, I'm using it or it doesn't even exist, but in church you see people all the time. You know who all the people in the congregation are and you're willing to give back cause you have a shared sense of ownership.
 
-[17:38] **Henry:** But with code and open source, people don't even know who the maintainers are. Like say with Babel, people think it's a company or it's a part of a company like Facebook, and there's that perception that still hasn't been changed.
+[17:38] **Henry:** But with code and open source, people don't even know who the maintainers are. Say with Babel, people think it's a company or it's a part of a company like Facebook, and there's that perception that still hasn't been changed.
 
 [17:54] **Nadia:** I wonder whether that's a good evolution or whether that's actually a sign of a problem. Historically in open source... When I talked to open source developers that were from projects that are a bit older, there's this belief that all the users are potential contributors and there shouldn't even be a concept of users, because if you are using the project, you have the potential to give back. In some of the older projects I've seen, there's much more of a sense of: if you have a problem, sure, you can report a bug so that other people can see it, but it's on you to contribute if you really need that fix that badly, then it's on you to figure out how to solve it. I think that worked because when projects are smaller, there are just fewer people using open source in general.
 
@@ -136,7 +136,7 @@ quotes:
 
 [20:02] **Henry:** The amount of contributors... there might be two or three or four core people on a team, and then maybe ten times more people that you might see regularly. And then maybe a thousand times more for users.
 
-[20:21] **Nadia:** And do you feel like the people that you see regularly, do they interact with each other at all, or do they only really interact with you or some other core maintainer? Is there a community for contributors?
+[20:21] **Nadia:** And do you feel like the people that you see regularly interact with each other at all, or do they only really interact with you or some other core maintainer? Is there a community for contributors?
 
 [20:37] **Henry:** That's one of the issues that we've had. Maybe before it was email, and then now it's through these chat apps like Slack and Discord. The community itself is outside of GitHub, or everything is about the issues and the pull request, but then in the day-to-day, it's not really there. And it's hard to foster community when you allow anyone to join and then half of the stuff is just questions about usage, and no one's really talking about development in the day-to-day.
 
@@ -164,7 +164,7 @@ quotes:
 
 [27:21] **Henry:** Right. Exactly. (laughs) I would say the same thing about going to church. It's not about feeling guilty or somehow going to church every week means that you're a good person or anything like that. Even going there for that reason might be a negative? Same way as continuing to do open source cause you feel guilty is just gonna lead to more burnout. So we need to think deeply about, "Why are we doing this in the first place," and whether it's good for you or other people. And not putting all the burden on yourself because you're like, "I'm the only person that can do this."
 
-[27:59] **Henry:** Which is also the same issue in the church too. Everyone there are all serving and trying to do different things and it might lead to burnout there. It's also an issue.
+[27:59] **Henry:** Which is also the same issue in the church. Everyone there are all serving and trying to do different things and it might lead to burnout there. It's also an issue.
 
 #### Learning when to step away
 

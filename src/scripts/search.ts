@@ -1,5 +1,5 @@
 /**
- * Search functionality with Spotlight-style modal.
+ * Search functionality with a nonmodal search popover.
  * Loaded on demand via search-entry.ts.
  */
 
@@ -86,7 +86,6 @@ function extractBucketSeconds(url: string): number | null {
 let pagefind: Pagefind | null = null;
 let debounceTimer: ReturnType<typeof setTimeout> | null = null;
 let selectedIndex = -1;
-let backdrop: HTMLDivElement | null = null;
 let modal: HTMLDivElement | null = null;
 let input: HTMLInputElement | null = null;
 let resultsArea: HTMLDivElement | null = null;
@@ -100,70 +99,6 @@ const INITIAL_RESULTS_TO_HYDRATE = 60;
 const LOAD_MORE_RESULTS_STEP = 40;
 const HYDRATE_BATCH_SIZE = 20;
 
-// Quotes from the podcast for the empty state
-const SEARCH_QUOTES = [
-    {
-        text: "Hope is not something that should be deprived from anyone. We want people to have hope. We all want a better world.",
-        author: "Alex Kim",
-        url: "/hope#msg-2601" // [43:21]
-    },
-    {
-        text: "Hope is a personed affair, right? And so you've rooted the open source in the person.",
-        author: "Esther",
-        url: "/reality#msg-31" // [00:31]
-    },
-    {
-        text: "If I give you a gift, the point is not really the object moving from me to you. It's more that it establishes a social bond between us.",
-        author: "Maggie Appleton",
-        url: "/gift#msg-256" // [04:16]
-    },
-    {
-        text: "We've lost that understanding of what it means for it to be a gift economy.",
-        author: "Maggie Appleton",
-        url: "/metaphor#msg-791" // [13:11]
-    },
-    {
-        text: "Code itself is just an artifact. But when we think of code as infrastructure... suddenly there's a relationship.",
-        author: "Nadia Asparouhova",
-        url: "/city#msg-2327" // [38:47]
-    },
-    {
-        text: "Inhabiting is the best way to maintain a building alive.",
-        author: "Marianita Palumbo",
-        url: "/heritage#msg-324" // [05:24]
-    },
-    {
-        text: "Open source is actually making the opposite, making the maintenance of it the front line, by exposing all of this.",
-        author: "Bernardo Robles Hidalgo",
-        url: "/heritage#msg-2009" // [33:29]
-    },
-    {
-        text: "One of the ways that we tell our testimony is just like, sharing with people all the ways that I am broken.",
-        author: "Jonathan Tsao",
-        url: "/haircut#msg-1206" // [20:06]
-    },
-    {
-        text: "Trust is about not fully knowing the other person... and just sort of accepting that things might go in different ways.",
-        author: "Nadia Asparouhova",
-        url: "/trust#msg-1579" // [26:19]
-    }
-];
-
-function getEmptyStateHtml(): string {
-    const quote = SEARCH_QUOTES[Math.floor(Math.random() * SEARCH_QUOTES.length)];
-    return `
-    <div class="search-splash">
-      <div class="search-splash-icon">✦</div>
-      <a href="${quote.url}" class="search-splash-quote-link">
-        <blockquote class="search-splash-quote">
-            <p>"${quote.text}"</p>
-            <cite>— ${quote.author}</cite>
-        </blockquote>
-      </a>
-    </div>
-  `;
-}
-
 function getLoadingHtml(): string {
     return `
     <div class="search-loading">
@@ -173,20 +108,13 @@ function getLoadingHtml(): string {
   `;
 }
 
-function createModal() {
+function createPopover() {
     if (modal) return;
 
-    // Backdrop
-    backdrop = document.createElement('div');
-    backdrop.className = 'search-backdrop';
-    backdrop.setAttribute('aria-hidden', 'true');
-    document.body.appendChild(backdrop);
-
-    // Modal
     modal = document.createElement('div');
-    modal.className = 'search-modal';
+    modal.className = 'search-popover';
     modal.setAttribute('role', 'dialog');
-    modal.setAttribute('aria-modal', 'true');
+    modal.id = 'search-popover';
     modal.setAttribute('aria-label', 'Search transcripts');
     modal.setAttribute('inert', '');
     modal.setAttribute('aria-hidden', 'true');
@@ -198,7 +126,7 @@ function createModal() {
       </svg>
       <input
         type="text"
-        class="search-modal-input"
+        class="search-popover-input"
         aria-label="Search transcripts"
         placeholder="Search transcripts..."
         autocomplete="off"
@@ -211,8 +139,9 @@ function createModal() {
     <div class="search-results-area"></div>
   `;
     document.body.appendChild(modal);
+    document.getElementById('search-trigger')?.setAttribute('aria-controls', modal.id);
 
-    input = modal.querySelector('.search-modal-input');
+    input = modal.querySelector('.search-popover-input');
     resultsArea = modal.querySelector('.search-results-area');
 
     if (!input || !resultsArea) return;
@@ -227,7 +156,7 @@ function createModal() {
             activeSearchId++;
             searchSession = null;
             isHydratingMore = false;
-            resultsArea!.innerHTML = getEmptyStateHtml();
+            resultsArea!.innerHTML = '';
             return;
         }
 
@@ -257,24 +186,22 @@ function createModal() {
     modal.addEventListener('keydown', (e) => {
         if (e.key === 'Escape') {
             e.preventDefault();
-            closeModal();
-        } else if (e.key === 'Tab') {
-            const focusable = Array.from(modal!.querySelectorAll<HTMLElement>('input, button, a[href]'));
-            const first = focusable[0];
-            const last = focusable[focusable.length - 1];
-            if (e.shiftKey && document.activeElement === first) {
-                e.preventDefault();
-                last?.focus();
-            } else if (!e.shiftKey && document.activeElement === last) {
-                e.preventDefault();
-                first?.focus();
-            }
+            closePopover();
         }
     });
 
-    // Backdrop click
-    backdrop.addEventListener('click', closeModal);
-    modal.querySelector('.search-close-button')?.addEventListener('click', closeModal);
+    document.addEventListener('pointerdown', (event) => {
+        const target = event.target as Node;
+        if (!modal?.contains(target) && !document.getElementById('search-trigger')?.contains(target)) {
+            closePopover(false);
+        }
+    });
+    document.addEventListener('focusin', (event) => {
+        if (modal?.classList.contains('visible') && !modal.contains(event.target as Node)) {
+            closePopover(false);
+        }
+    });
+    modal.querySelector('.search-close-button')?.addEventListener('click', () => closePopover());
 
     // Delegated clicks in search area
     resultsArea.addEventListener('click', (e) => {
@@ -285,21 +212,24 @@ function createModal() {
             return;
         }
 
-        // Handle both search results and splash quote links
-        const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('.search-result, .search-splash-quote-link');
+        // Follow transcript results.
+        const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('.search-result');
 
         if (link) {
             e.preventDefault();
             const url = new URL(link.href, window.location.origin);
             const hash = url.hash;
 
-            closeModal();
+            closePopover();
 
             const samePage = url.origin === window.location.origin
                 && url.pathname.replace(/\/$/, '') === window.location.pathname.replace(/\/$/, '');
             if (samePage && hash) {
-                history.pushState(null, '', hash);
-                window.dispatchEvent(new HashChangeEvent('hashchange'));
+                if (window.location.hash === hash) {
+                    window.dispatchEvent(new HashChangeEvent('hashchange'));
+                } else {
+                    window.location.hash = hash;
+                }
             } else {
                 window.location.href = link.href;
             }
@@ -307,9 +237,9 @@ function createModal() {
     });
 }
 
-async function openModal() {
+async function openPopover() {
     if (!modal) {
-        createModal();
+        createPopover();
     }
 
     const trigger = document.getElementById('search-trigger');
@@ -323,7 +253,7 @@ async function openModal() {
         }
     }
 
-    if (!modal || !backdrop) return;
+    if (!modal) return;
     if (modal.classList.contains('visible')) {
         input?.focus();
         return;
@@ -339,27 +269,27 @@ async function openModal() {
     modal.removeAttribute('inert');
     modal.setAttribute('aria-hidden', 'false');
     modal.classList.add('visible');
-    backdrop.classList.add('visible');
-    document.body.style.overflow = 'hidden';
+    trigger?.setAttribute('aria-expanded', 'true');
     input?.focus();
 
     if (!input?.value && resultsArea) {
-        resultsArea.innerHTML = pagefind ? getEmptyStateHtml() : '<div class="search-empty-state">Search available after build</div>';
+        resultsArea.innerHTML = pagefind ? '' : '<div class="search-empty-state">Search available after build</div>';
     }
 }
 
-function closeModal() {
-    if (!modal || !backdrop || !input || !resultsArea) return;
+function closePopover(restoreFocus = true) {
+    if (!modal?.classList.contains('visible') || !input || !resultsArea) return;
+    if (debounceTimer) clearTimeout(debounceTimer);
     activeSearchId++;
     searchSession = null;
     isHydratingMore = false;
-    returnFocusTo?.focus();
+    const focusTarget = returnFocusTo;
     returnFocusTo = null;
     modal.classList.remove('visible');
     modal.setAttribute('inert', '');
     modal.setAttribute('aria-hidden', 'true');
-    backdrop.classList.remove('visible');
-    document.body.style.overflow = '';
+    document.getElementById('search-trigger')?.setAttribute('aria-expanded', 'false');
+    if (restoreFocus) focusTarget?.focus();
     input.value = '';
     resultsArea.innerHTML = '';
     selectedIndex = -1;
@@ -654,8 +584,8 @@ function updateSelection(resultLinks: NodeListOf<HTMLAnchorElement>) {
     }
 }
 
-export async function openSearchModal() {
-    await openModal();
+export async function openSearchPopover() {
+    await openPopover();
 }
 
 export {};

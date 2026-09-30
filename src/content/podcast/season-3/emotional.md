@@ -29,7 +29,7 @@ quotes:
 
 > [Omar's Twitter, @rsnous](https://twitter.com/rsnous)
 
-[00:12] **Omar:** Yeah. I just left my job at Dynamicland. So I've kind of been collecting my thoughts and it could be fun to go through some of what I've been thinking about.
+[00:12] **Omar:** I just left my job at Dynamicland. So I've kind of been collecting my thoughts and it could be fun to go through some of what I've been thinking about.
 
 > [Dynamicland](https://dynamicland.org) may be difficult to describe, as it's not just a program, it's also the building itself! I had a [chance](https://twitter.com/left_pad/status/1192511538541690880?s=20) to experience it thanks to Omar, but I recommend reading Carl Tashian's [post](https://tashian.com/articles/dynamicland/) on it! You can also check out Omar's [writeup of Geokit](https://omar.website/posts/notes-from-dynamicland-geokit/), a map project he did at Dynamicland.
 
@@ -43,7 +43,7 @@ quotes:
 
 [00:40] **Omar:** Little bit under two years.
 
-[00:42] **Henry:** Okay. Maybe how has that shaped the things that you're tweeting too, right? Cause I think you mentioned, that's kind of a Dynamicland sort of thought.
+[00:42] **Henry:** Maybe how has that shaped the things that you're tweeting too, right? Cause I think you mentioned, that's kind of a Dynamicland sort of thought.
 
 [00:50] **Omar:** Yeah, I think it's had a pretty deep influence on me. I don't actually usually talk that much about Dynamicland concretely. There are a lot of those little kinds of tricks that I often apply when I see something that I kind of learned.
 
@@ -61,7 +61,7 @@ quotes:
 
 [![A screenshot with a Google search of "the tyranny of lists" with 320k results](https://user-images.githubusercontent.com/588473/95119801-90834c00-071a-11eb-9cc8-de45195a7073.png)](https://twitter.com/rsnous/status/1290668662949462016?s=20)
 
-[01:20] **Omar:** Yeah. And these are the things where hopefully, it turns out a lot simpler if you apply this way of thinking to the problem?
+[01:20] **Omar:** And these are the things where hopefully, it turns out a lot simpler if you apply this way of thinking to the problem?
 
 [01:28] **Henry:** To get into them more, I guess what's wrong with lists?
 
@@ -85,29 +85,29 @@ quotes:
 
 ![screenshot of our HackMD list of tweets](https://user-images.githubusercontent.com/588473/95120290-536b8980-071b-11eb-8fef-bde27e712c98.png)
 
-[03:02] **Omar:** Yeah. Sometimes now when I'm looking at my email, I see like an email from a week ago and an email from a month ago. They're kind of about the same thing and I'm like, why can't I drag these to be together?
+[03:02] **Omar:** Sometimes now when I'm looking at my email, I see like an email from a week ago and an email from a month ago. They're kind of about the same thing and I'm like, why can't I drag these to be together?
 
 [03:10] **Henry:** I was noticing that too, instead of lists like tyranny of boxes with every chat app just a square of the person's face. And then you see a bunch of new apps that are trying to introduce space into that as well.
 
 #### Dictating Terms to You
 
-[03:24] **Omar:** Yeah. It's also like emotionally, it ends up being like the software is dictating terms to you about how your stuff is organized. Where it's like, your stuff is this stuff in the website or the app, but the app is telling you how it should be laid out. And you don't actually have a choice. You can't pick things up and move them around.
+[03:24] **Omar:** It's also like emotionally, it ends up being like the software is dictating terms to you about how your stuff is organized. Where it's like, your stuff is this stuff in the website or the app, but the app is telling you how it should be laid out. And you don't actually have a choice. You can't pick things up and move them around.
 
 [03:41] **Omar:** Whereas if you know, things are pieces of paper on your desk, or even in the old kind of personal computer files, at least you can drag them around and arrange them. Cause it's your stuff.
 
-[03:50] **Henry:** Right. So it almost like limits what you can, not even do, but like think right? You wouldn't even think to do certain things unless you knew, Oh, they added in drag and drop functionality versus like that it's built in as a core feature or something.
+[03:50] **Henry:** Right. So it almost limits what you can, not even do, but like think right? You wouldn't even think to do certain things unless you knew, Oh, they added in drag and drop functionality versus like that it's built in as a core feature or something.
 
-[04:04] **Omar:** Right, right. And I don't blame people making these apps, cause it is a lot of work for them. They have to add in functionality explicitly, and it's hard to think about this stuff. I think it's totally understandable.
+[04:04] **Omar:** Right. And I don't blame people making these apps, cause it is a lot of work for them. They have to add in functionality explicitly, and it's hard to think about this stuff. I think it's totally understandable.
 
 [04:21] **Henry:** So it's more that it's kind of ubiquitous and it's just the default way of thinking. And it's hard not to think that way. So you're just kind of saying that we should maybe look in this other direction as well.
 
-[04:33] **Omar:** Yeah. And that's kind of what I'm trying to do whenever I tweet about things like that. It's just pushed people to think in some of these ways that I kind of learned from Dynamicland, that I now apply when I'm looking at software.
+[04:33] **Omar:** And that's kind of what I'm trying to do whenever I tweet about things like that. It's just pushed people to think in some of these ways that I kind of learned from Dynamicland, that I now apply when I'm looking at software.
 
 [04:47] **Henry:** Was that one of the core principles of Dynamicland, just the idea of space. I guess that makes sense in that Dynamicland itself is a space, right. And you're trying to make computing like physical.
 
 #### Giving the User Control
 
-[04:59] **Omar:** Yeah. Yeah. I think it's almost deeper than space because you can make software that uses space while still not giving the user control over how the space is used.
+[04:59] **Omar:** I think it's almost deeper than space because you can make software that uses space while still not giving the user control over how the space is used.
 
 [05:09] **Omar:** Whereas I think what we were doing at Dynamicland, once you have a bunch of actual pieces of paper, you can move them around however you want. It's also like the user actually has control over how things are organized.
 
@@ -117,7 +117,7 @@ quotes:
 
 [05:30] **Henry:** Right. A lot of your other tweets are around either expression or freedom. There's a few that are around the library author didn't let you do certain things and you know that you want to do it. And then that's frustrating, right?
 
-[05:45] **Omar:** Yeah. And I'm very attuned to the way that the system is constructed affects how you think. And it also affects how you feel.
+[05:45] **Omar:** And I'm very attuned to the way that the system is constructed affects how you think. And it also affects how you feel.
 
 [05:52] **Omar:** Often one of the problems I have with a lot of discussion of programming languages or libraries or whatever, is this idea that we're just trying to find the right answer to do things.
 
@@ -125,9 +125,9 @@ quotes:
 
 #### Industrial Open Source
 
-[06:15] **Henry:** Yeah. So it kinda makes me think of how in tech, I guess maybe the dominant thinking is sort of assumed to be the right way or the neutral thing. Like say we all think, well, obviously you're supposed to use a list, right.
+[06:15] **Henry:** So it kinda makes me think of how in tech, I guess maybe the dominant thinking is sort of assumed to be the right way or the neutral thing. Like say we all think, well, obviously you're supposed to use a list, right.
 
-[06:29] **Omar:** Yeah. And I think these kinds of dominant ways of thinking, they often make sense in a specific context. Where there's like technology companies and they're doing software engineering and they're making these big systems. So they want their software to be well tested and correct. And they want it to scale a lot.
+[06:29] **Omar:** And I think these kinds of dominant ways of thinking, they often make sense in a specific context. Where there's like technology companies and they're doing software engineering and they're making these big systems. So they want their software to be well tested and correct. And they want it to scale a lot.
 
 [06:47] **Omar:** And I think there are a lot of solutions to those kinds of problems that don't necessarily apply if I'm just playing around with software or if I'm making a little hobby project. Or even if I'm a scientist and I'm trying to do data analysis, I think there should be a different set of solutions for that.
 
@@ -135,7 +135,7 @@ quotes:
 
 [07:14] **Henry:** I guess that also makes me think of open source itself. A lot of times, it could be a hobby project that someone's doing on their own, but it gets almost taken over by people that work at companies. And it turns into this thing that you might not envision at first.
 
-[07:28] **Omar:** Yeah. And it feels like that's like almost the central story or problem of open source. Just like people mean different things when they say programming and programming is a lot of different stuff. Open source is also a lot of different stuff and it evolves from one kind of thing to another.
+[07:28] **Omar:** And it feels like that's almost the central story or problem of open source. Just like people mean different things when they say programming and programming is a lot of different stuff. Open source is also a lot of different stuff and it evolves from one kind of thing to another.
 
 [07:42] **Omar:** One other example that I always think about other than the lists thing is, I think a lot of what the discussion in the front end world is about is that there are these big tools for packaging managing packages and compiling other languages to JavaScript and testing and type checking and stuff.
 
@@ -149,7 +149,7 @@ quotes:
 
 #### A Project You Identify With
 
-[08:54] **Omar:** Yeah. So I have this screenshot app that I wrote, and that I kind of sell as kind of a side project. Because I use it like all the time, it's basically guaranteed to be maintained as long as I use a Mac or whatever. There's something really powerful about a project that you identify with, that you use regularly.
+[08:54] **Omar:** So I have this screenshot app that I wrote, and that I kind of sell as kind of a side project. Because I use it like all the time, it's basically guaranteed to be maintained as long as I use a Mac or whatever. There's something really powerful about a project that you identify with, that you use regularly.
 
 > [Screenotate](https://screenotate.com) saves the screenshot (and other metadata) as well as the text via OCR for easier search. Here's a metadata example below:
 
@@ -159,11 +159,11 @@ quotes:
 
 > "I think this is an underrated take. that you can be like Apple and design good things, but you can't just have good taste; you also have to be working on things, like the iPhone or Mac, /for which your taste is valid/ (because you're a target user yourself)" - [Omar](https://twitter.com/rsnous/status/1290671620982370305?s=20)
 
-[09:19] **Omar:** Yeah, yeah. We were talking about this on Twitter I think last week. Where there's this idea that Apple is really brilliant at design and the way to do great design is to learn from what Apple does.
+[09:19] **Omar:** We were talking about this on Twitter I think last week. Where there's this idea that Apple is really brilliant at design and the way to do great design is to learn from what Apple does.
 
 [09:30] **Omar:** And I mean, there's certainly some truth to that. But I think an aspect of Apple's success that is really underrated is that Apple makes products that anybody can use, including the people who work at Apple. If you're working on the iPhone or you're working on the Mac, like an iPhone is something that you can actually use every day.
 
-[09:50] **Omar:** You're not making a product for other people who are not like you to use. And that means you don't need to go do user testing, or any of these kind of traditional design processes where you're trying to figure out what to put in the product, you can kind of just like introspect.
+[09:50] **Omar:** You're not making a product for other people who are not like you to use. And that means you don't need to go do user testing, or any of these kind of traditional design processes where you're trying to figure out what to put in the product, you can kind of just introspect.
 
 [10:04] **Omar:** And I think that's a really powerful advantage. And it's an advantage that doesn't really port that well to a lot of things people try to make where they're often trying to make something for some other audience.
 
@@ -183,19 +183,19 @@ quotes:
 
 [11:06] **Henry:** I guess in the early days of computing, when there's less people, that was probably true because the only people that used it were people making it. But I guess the problem is how do you scale that to people that are not familiar. They don't have to have a degree or take all these classes, right.
 
-[11:23] **Omar:** Yeah. There was certainly a time when you could say the same thing about reading and writing, right? Where 95% of the population couldn't do these things, but you know, we've been able to solve that problem for the most part with education. And also just the fact that you need to read and write to function in our society. Puts a lot more pressure on people to learn those things.
+[11:23] **Omar:** There was certainly a time when you could say the same thing about reading and writing, right? Where 95% of the population couldn't do these things, but you know, we've been able to solve that problem for the most part with education. And also just the fact that you need to read and write to function in our society. Puts a lot more pressure on people to learn those things.
 
 [11:43] **Omar:** And we don't, I think, live in a society where programming is useful in the same way. So I think there's not that social motivation.
 
 [11:49] **Henry:** A lot of people want to go into tech, but I was just thinking about it almost like a way of thinking that programmers have, where when you see it, you feel like you have the opportunity to change something right?
 
-[12:01] **Omar:** Yeah. And I feel like you can always get more of that energy. Even in the last few years, as I've like learned more about the computer. Like whenever I learned more about how my operating system works or about how my browser works or whatever, that then kind of opens up a new way of seeing problems that are happening to me where I'm like, Oh, I can just go and dig into this and see what the problem is.
+[12:01] **Omar:** And I feel like you can always get more of that energy. Even in the last few years, as I've learned more about the computer. Like whenever I learned more about how my operating system works or about how my browser works or whatever, that then kind of opens up a new way of seeing problems that are happening to me where I'm like, Oh, I can just go and dig into this and see what the problem is.
 
 [12:21] **Henry:** It's like a level of curiosity that you build, but I think that's hard to build sometimes right.
 
-[12:26] **Omar:** Yeah. It's almost like a kind of confidence or like an emotional, like, Oh, if I look into this, I can probably figure it out or I have some kind of lead, so it's not just the scary thing.
+[12:26] **Omar:** It's almost like a kind of confidence or like an emotional, like, Oh, if I look into this, I can probably figure it out or I have some kind of lead, so it's not just the scary thing.
 
-[12:36] **Henry:** Yeah, I guess you even build that as a programmer because like a lot of things that we do, you've never done before in programming yourself. And learning how to like Google things and use stack overflow.
+[12:36] **Henry:** Yeah, I guess you even build that as a programmer because like a lot of things that we do, you've never done before in programming yourself. And learning how to Google things and use stack overflow.
 
 #### A Personal Warehouse
 
@@ -223,13 +223,13 @@ quotes:
 
 #### The Materiality of Books
 
-[14:40] **Henry:** Cause you mentioned religious texts. You have a lot of tweets around like books. One of them was a picture of the Quran and there was gold and when you see it in real life, it glimmers. But in a 2D environment, you lose that information because it's just the picture.
+[14:40] **Henry:** Cause you mentioned religious texts. You have a lot of tweets around books. One of them was a picture of the Quran and there was gold and when you see it in real life, it glimmers. But in a 2D environment, you lose that information because it's just the picture.
 
 ![quran with glimmering gold lettering](https://user-images.githubusercontent.com/588473/95123250-a6474000-071f-11eb-9ebf-a10847be83bd.png)
 
 > "I bet that the power of the gold lettering is much diminished when you view it as flat images on your screen. I bet it'd be far more striking in person. like, the gold would catch the light more than everything else on the page, and it'd shine differently from different angles…" - [Omar](https://twitter.com/rsnous/status/1254406794174009344?s=20)
 
-[14:55] **Omar:** Yeah. A lot of my interest in books is like the materiality of books. I follow a lot of these accounts that kind of tweet pictures of medieval manuscripts. And so I'm always interested more in these physical things. The material, the texture, the way it looks as you walk around, rather than the text per se. Especially in the medium.
+[14:55] **Omar:** A lot of my interest in books is like the materiality of books. I follow a lot of these accounts that kind of tweet pictures of medieval manuscripts. And so I'm always interested more in these physical things. The material, the texture, the way it looks as you walk around, rather than the text per se. Especially in the medium.
 
 > "I was in this big cathedral just after sunrise a few months ago and was looking at the murals. this is a crappy photo but see how much the halos stick out because of their gold texture and the light conditions!!" - [Omar](https://twitter.com/rsnous/status/1254557768834363392)
 
@@ -243,7 +243,7 @@ quotes:
 
 > Reminded of [Bibliotheca](https://www.bibliotheca.co/) and "reader's bibles", as many Bible's are many associated with the intention of references and encycliopedia's versus reading. I would bring up the two column page, small text, footnotes, references, chapter/verse markers.
 
-[16:08] **Omar:** Yeah. And there's this sort of physical interactions that you can do when you're reading a physical book. I had one tweet, there's no equivalent on your computer, on your phone of being able to hold the finger somewhere while you go to somewhere else. And that has all kinds of consequences for the way that you read the book. You'll be a lot more reluctant to move around, if you feel like you're going to lose your place.
+[16:08] **Omar:** And there's this sort of physical interactions that you can do when you're reading a physical book. I had one tweet, there's no equivalent on your computer, on your phone of being able to hold the finger somewhere while you go to somewhere else. And that has all kinds of consequences for the way that you read the book. You'll be a lot more reluctant to move around, if you feel like you're going to lose your place.
 
 > "wish I could plug a second mouse into my computer so I could leave my current mouse on what I was doing before, like using one finger to hold a place in a book while I'm flipping to somewhere else" - [Omar](https://twitter.com/rsnous/status/1262234001571381254?s=20)
 
@@ -257,7 +257,7 @@ quotes:
 
 > '❤️ "the sacred texts are brought out into the open, and their pages are turned at a slow pace, giving each some time to dry out in the sunshine"' - [Omar](https://twitter.com/rsnous/status/1290664383882964997?s=20)
 
-[16:58] **Henry:** You had a tweet talking about Buddhist texts and how back then, the pages would get damp. And so they would have this festival every summer where they would turn the pages really slowly, to dry them out. But then that turned into its own like ritual, because they enjoyed doing them. That's cool.
+[16:58] **Henry:** You had a tweet talking about Buddhist texts and how back then, the pages would get damp. And so they would have this festival every summer where they would turn the pages really slowly, to dry them out. But then that turned into its own ritual, because they enjoyed doing them. That's cool.
 
 [17:17] **Omar:** I thought that was a really nice bit of history. I'm sort of interested in these rituals and the way that solving a problem in a particular context can kind of turn into this cultural thing.
 
@@ -271,13 +271,13 @@ quotes:
 
 #### Optional Daycare Surveillance
 
-[18:22] **Omar:** Yeah. The other thing I was going to say about reading on the phone. One of the things that is always tempting to do is, to think of software in terms of discrete features, where you're like adding this feature to the next version, or this is the button that you use to access that feature.
+[18:22] **Omar:** The other thing I was going to say about reading on the phone. One of the things that is always tempting to do is, to think of software in terms of discrete features, where you're like adding this feature to the next version, or this is the button that you use to access that feature.
 
 > "increasingly skeptical that 'features' is a good way to think about software" - [Omar](https://twitter.com/rsnous/status/1263212491808534528)
 
 [18:39] **Omar:** And I do this too, in my own software I often fall into thinking of it in terms of features, but I think that's often too reductive. Adding a feature often changes what all the other features mean because it changed the whole user experience.
 
-[18:56] **Henry:** Right, that's like trying to apply like the whole is greater than the sum of its parts to the software development.
+[18:56] **Henry:** Right, that's trying to apply the whole is greater than the sum of its parts to the software development.
 
 [19:03] **Omar:** I remember hearing a story a few months ago. Somebody I met was talking about the daycare where he put his kid in. And how the daycare introduced this capability where you could check in during the day and watch your kids at the daycare because they have this camera.
 
@@ -285,7 +285,7 @@ quotes:
 
 [19:42] **Henry:** Yeah, exactly. We tend to give everything on machine like quality, we don't think about the effect that essentially a surveillance has on daycare.
 
-[19:51] **Omar:** Yeah. And I was wondering if part of the reason for this is that the structure of the technology or the software is actually additive, right? To add a feature, because you can add code, you kind of think of the effect of the code as also being additive.
+[19:51] **Omar:** And I was wondering if part of the reason for this is that the structure of the technology or the software is actually additive, right? To add a feature, because you can add code, you kind of think of the effect of the code as also being additive.
 
 > "I also wonder if code encourages thinking in features: because 'adding' a 'feature' mostly involves adding extra code onto your program, you assume the resulting experience is also additive (but it isn't! you're changing the whole program's experience, not only the new piece)" - [Omar](https://twitter.com/rsnous/status/1287275307200688128)
 
@@ -307,7 +307,7 @@ quotes:
 
 [21:57] **Omar:** I think these things only work in that specific context where people are ready for it. And Apple has this cultural cachet that makes people want to buy in and all this other stuff. This is also a part of the theory of Dynamicland was to try to build a concrete community and culture in a specific place and do that right. And then grow out of that instead of trying to make something that's like a general product.
 
-[22:39] **Henry:** Okay. Kind of the idea the way to go general is to go very specific, right?
+[22:39] **Henry:** Kind of the idea the way to go general is to go very specific, right?
 
 #### A way of knowing by name (vs A/B test)
 
@@ -331,11 +331,11 @@ quotes:
 
 [24:44] **Henry:** Yeah, I think that speaks to Michael Polanyi's thinking around tacit knowledge. He's basically saying knowing is an act of trust. You learn to be able to express, but even when you don't have no words for it, there's something that you know, right.
 
-[24:58] **Omar:** Yeah. A lot of the original work on [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) sort of came out of this idea of constructivist education. Where the idea is, to learn something, you kind of have to build it yourself in your head. Making programming tools so that people can build the stuff they're learning about.
+[24:58] **Omar:** A lot of the original work on [Smalltalk](https://en.wikipedia.org/wiki/Smalltalk) sort of came out of this idea of constructivist education. Where the idea is, to learn something, you kind of have to build it yourself in your head. Making programming tools so that people can build the stuff they're learning about.
 
 [25:13] **Omar:** And I think it's a similar idea. Even if you're writing down a tutorial or a textbook, and that's the way you're communicating it, it's not like the knowledge is being transferred through that. People are using that to build their own version of the knowledge of their own heads.
 
-[25:26] **Henry:** Right, right. It's not directly transmitted to them. They still have to use that to figure out on their own somehow.
+[25:26] **Henry:** Right. It's not directly transmitted to them. They still have to use that to figure out on their own somehow.
 
 [25:33] **Henry:** Kind of amazing in a way, right? It's like communication. Everyone has to interpret in their own way and somehow hopefully the same concepts.
 
@@ -345,7 +345,7 @@ quotes:
 
 [25:51] **Omar:** It's like this sort of creative spark that can be shared.
 
-[26:00] **Henry:** Yeah. Actually this is similar to when you're talking about how people think technology is just something you add onto. So Polanyi says that knowledge isn't just like another piece of data that you add to your brain, but it sometimes may change how you see the whole world, right.
+[26:00] **Henry:** Actually this is similar to when you're talking about how people think technology is just something you add onto. So Polanyi says that knowledge isn't just like another piece of data that you add to your brain, but it sometimes may change how you see the whole world, right.
 
 [26:16] **Henry:** What was the other term? Like desire lines. Right? Once you learn how to ride a bike, you'll actually notice in your mind, bike paths. But if you didn't, you might not see them. Cause you're just used to walking or taking a car.
 
@@ -359,19 +359,19 @@ quotes:
 
 > "👍 the hidden influence of tools & materials on practice. (in this case, the hidden influence of availability & nature of compute on the practice of economics + subsequent path dependence)" - [Omar](https://twitter.com/rsnous/status/1163105743148421121?s=20)
 
-[27:06] **Omar:** Because, you know, if you're an economist, you often are doing a lot of calculations on data. You're trying to like figure things out. And you're often using computers to do that, right? Like for the last 50 years or so, that's been one of the uses of computers. So how has the tractability of, things like what things are easy to calculate, how has that affected the field of economics?
+[27:06] **Omar:** Because, you know, if you're an economist, you often are doing a lot of calculations on data. You're trying to figure things out. And you're often using computers to do that, right? Like for the last 50 years or so, that's been one of the uses of computers. So how has the tractability of, things like what things are easy to calculate, how has that affected the field of economics?
 
 [27:25] **Omar:** And then in my thread, I'm kind of trying to find other examples of this effect of tractability on the field of geography or on other fields. Cause this is often something people don't notice or talk about explicitly, right?
 
-[27:36] **Omar:** It's not something that you'll read in the paper that we we didn't think about doing this other thing because we instinctively knew it wouldn't be tractable. You only see the things that people thought to do. And so it's just sort of hidden hand that's shaping a lot of things.
+[27:36] **Omar:** It's not something that you'll read in the paper that we didn't think about doing this other thing because we instinctively knew it wouldn't be tractable. You only see the things that people thought to do. And so it's just sort of hidden hand that's shaping a lot of things.
 
-[27:47] **Omar:** Or the other example that I often bring up is that like deep learning was only possible once you had a GPUs that could like actually do the computations. And once you had like enough data. Those are kind of hidden forces that. It's not part of anybody's research to like make a GPU. And then suddenly that opened the flood gates, you could do all kinds of research.
+[27:47] **Omar:** Or the other example that I often bring up is that like deep learning was only possible once you had a GPUs that could actually do the computations. And once you had like enough data. Those are kind of hidden forces that. It's not part of anybody's research to make a GPU. And then suddenly that opened the flood gates, you could do all kinds of research.
 
 [28:06] **Henry:** I see. So this other functionality that seemed random at the time, we can look back.
 
-[28:12] **Omar:** Yeah. And nobody's said before that, Oh, we need GPUs to be able to do this. It was just not work that that was worth working on.
+[28:12] **Omar:** And nobody's said before that, Oh, we need GPUs to be able to do this. It was just not work that was worth working on.
 
-[28:20] **Henry:** Yeah. Opens up possibilities once someone notices something that happens. And it just happens to match up with something else they were thinking about.
+[28:20] **Henry:** Opens up possibilities once someone notices something that happens. And it just happens to match up with something else they were thinking about.
 
 [28:27] **Omar:** I think that technology often has a lot of these kinds of effects of limiting or expanding what people can do in seemingly unrelated fields.
 
@@ -381,9 +381,9 @@ quotes:
 
 [28:52] **Henry:** I guess another theme I saw. You were saying like a respect for how people feel or how they use computers. Cause I think, whoever it is, can be dismissive of anyone's actions or reactions to certain things. Oh, this is supposed to be the right way of doing things.
 
-[29:08] **Omar:** Yeah. I think one of the examples that I had was if somebody's making an HTML page and then just using bold tags or just like putting in-line CSS everywhere. And that's not what you're supposed to do, right? If you go on any tutorial, they'll tell you, you should make a separate CSS file or you should put everything in a style tag at the top and use classes.
+[29:08] **Omar:** I think one of the examples that I had was if somebody's making an HTML page and then just using bold tags or just putting in-line CSS everywhere. And that's not what you're supposed to do, right? If you go on any tutorial, they'll tell you, you should make a separate CSS file or you should put everything in a style tag at the top and use classes.
 
-> "i love this -- the energy of using screenshots and camera roll for everything, or making your Web page with HTML tables / b and font tags / inline CSS instead of 'the way you're supposed to'" - [Omar](https://twitter.com/rsnous/status/1285565425376301058)
+> "i love this, the energy of using screenshots and camera roll for everything, or making your Web page with HTML tables / b and font tags / inline CSS instead of 'the way you're supposed to'" - [Omar](https://twitter.com/rsnous/status/1285565425376301058)
 
 > "So this was a big lesson to me. Of course doing it by hand on a computer may not be, you know, the perfection that computers are capable of, but it's much better than doing it by hand in hot metal. So it was a big improvement step for him, and I completely ignored that intermediate possibility in my wish to have the perfection, and I didn't even recognize that it would be exploited, and it was just a big lesson to me that less than perfect is still valuable, and in fact perfection sometimes, it delays things so much that meanwhile people keep suffering under the kind of the old methods" - [Simonyi, page 26](https://archive.computerhistory.org/resources/access/text/2015/06/102702232-05-01-acc.pdf)
 
@@ -395,7 +395,7 @@ quotes:
 
 [29:56] **Henry:** Right, the impulse would be like, Oh, we should find a way to prevent them from even doing that in the first place.
 
-[30:01] **Omar:** Or we should like educate them to not do that.
+[30:01] **Omar:** Or we should educate them to not do that.
 
 [30:03] **Henry:** Right. Because it's a lot easier to just say that then to really maybe even talk to them and be like, Hey, why are you doing that? Like a clue to link how we could design something better.
 
@@ -409,7 +409,7 @@ quotes:
 
 [30:48] **Omar:** When people are using them, if there are problems with spreadsheets, maybe we should fix those problems instead of throwing the whole thing out because we have some kind of aesthetic objection to them or for whatever cultural reasons we have.
 
-[31:04] **Henry:** Yeah. I think that related, you had a desire to star a line of a code, like favoriting a tweet, right?
+[31:04] **Henry:** I think that related, you had a desire to star a line of a code, like favoriting a tweet, right?
 
 > "i just had the impulse to star a line of code like it was a tweet or something" - [Omar](https://twitter.com/rsnous/status/1292046169871245313?s=20)
 
@@ -417,13 +417,13 @@ quotes:
 
 > "i think when you star a line of code, the person who wrote it should get a notification" - [Omar](https://twitter.com/rsnous/status/1294172471080361984?s=20)
 
-[31:35] **Henry:** Yeah. Coding itself isn't that social from line of code point of view, even though all of open source of supposedly social.
+[31:35] **Henry:** Coding itself isn't that social from line of code point of view, even though all of open source of supposedly social.
 
 #### Really Fine Grain Open Source
 
-[31:47] **Omar:** Yeah. We talked about this earlier today. If you're using an open source library and it doesn't do something that you need, it's really hard to, even if it's totally open source and you have all the freedom to fork it and modify the code.
+[31:47] **Omar:** We talked about this earlier today. If you're using an open source library and it doesn't do something that you need, it's really hard to, even if it's totally open source and you have all the freedom to fork it and modify the code.
 
-> "I have a lot of problems with open source as-is as a solution to this -- I think it's hugely more difficult and takes a lot more willpower to fork a library or send a pull request than to change something in your own code. you really have to go out of your way" - [Omar](https://twitter.com/rsnous/status/1292639339730542593)
+> "I have a lot of problems with open source as-is as a solution to this, I think it's hugely more difficult and takes a lot more willpower to fork a library or send a pull request than to change something in your own code. you really have to go out of your way" - [Omar](https://twitter.com/rsnous/status/1292639339730542593)
 
 [32:01] **Omar:** It's like still a lot harder than if you're just changing something in your own project. I think in some sense, the grain of opensource is too coarse or too big. I think I want to play around more with really fine grain open source. That's where it is sort of at the line of code level or the cell level with a spreadsheet. And that's the level that you're working with people at.
 
@@ -437,11 +437,11 @@ quotes:
 
 [33:19] **Henry:** Right. They think of it as different modes and writing a console.log feels like writing code.
 
-[33:26] **Omar:** And it doesn't give you a chance to, while you're switching tasks, go do something else and get distracted. I think a lot of the problems I have with multitasking or being distracted by social media or whatever, you can almost think of these as maybe they're just interface problems where we have interfaces that like almost encourage you to get distracted. And I don't just mean notifications. I mean the actual task work of programming and debugging and compiling, I think has all kinds of opportunities for you to just fall off a cliff.
+[33:26] **Omar:** And it doesn't give you a chance to, while you're switching tasks, go do something else and get distracted. I think a lot of the problems I have with multitasking or being distracted by social media or whatever, you can almost think of these as maybe they're just interface problems where we have interfaces that almost encourage you to get distracted. And I don't just mean notifications. I mean the actual task work of programming and debugging and compiling, I think has all kinds of opportunities for you to just fall off a cliff.
 
-[33:50] **Henry:** Yeah. it feels like there's like a whole interface when you only want to look at one thing.
+[33:50] **Henry:** it feels like there's like a whole interface when you only want to look at one thing.
 
-[33:55] **Omar:** Yeah. It's like if you're biking around and suddenly you have to get off the bike. You don't want to get off the bike, if you could avoid it, and park it somewhere.
+[33:55] **Omar:** It's like if you're biking around and suddenly you have to get off the bike. You don't want to get off the bike, if you could avoid it, and park it somewhere.
 
 [34:04] **Henry:** Right. We know that it's better in every situation, but it's like, I just want to know the value of this thing. I'm just going to log it right.
 
@@ -451,27 +451,27 @@ quotes:
 
 [34:43] **Omar:** And to me that introduces the potential again to fall off this cliff or to dread doing that because it's a mode switch.
 
-[34:53] **Henry:** Okay. That seems similar to what we were talking about with like form and function, about how we separate them. Cause it assumes that we just have to change the UI and the structure is the same thing. But you're saying maybe the reason why it's that way is the structure itself needs to be different.
+[34:53] **Henry:** That seems similar to what we were talking about with like form and function, about how we separate them. Cause it assumes that we just have to change the UI and the structure is the same thing. But you're saying maybe the reason why it's that way is the structure itself needs to be different.
 
 #### Emotion-aware Programming
 
-[35:13] **Omar:** Yeah. It's not sufficient to just give people a tool that theoretically does the thing. It has to be integrated in the experience in a way that works emotionally.
+[35:13] **Omar:** It's not sufficient to just give people a tool that theoretically does the thing. It has to be integrated in the experience in a way that works emotionally.
 
-[35:22] **Henry:** Yeah. I like that, emotional programming. I guess I never thought about how dread is such an important feature of thinking about how to design, yeah.
+[35:22] **Henry:** I like that, emotional programming. I guess I never thought about how dread is such an important feature of thinking about how to design, yeah.
 
-[35:31] **Omar:** Yeah. Once I started introspecting about what am I thinking and feeling when I'm programming and why am I not doing things? I noticed that there were all these weird emotional forces that are really determinative of what I'm doing at any given time.
+[35:31] **Omar:** Once I started introspecting about what am I thinking and feeling when I'm programming and why am I not doing things? I noticed that there were all these weird emotional forces that are really determinative of what I'm doing at any given time.
 
-> "when I used to TA intro systems programming, kids similarly dreaded using gdb -- they would do almost anything, even if it took way longer and they were completely stuck, to avoid breaking it out" - [Omar](https://twitter.com/rsnous/status/1257165574032879616)
+> "when I used to TA intro systems programming, kids similarly dreaded using gdb, they would do almost anything, even if it took way longer and they were completely stuck, to avoid breaking it out" - [Omar](https://twitter.com/rsnous/status/1257165574032879616)
 
 [35:45] **Omar:** And I originally noticed the debugger thing, I tweeted about this, because I was TAing a class in college with freshmen and sophomores who were learning how to program in C and they hated using the debugger. They would do almost anything to avoid having to pull up the debugger. And again, it's always tempting to tell them, we did usually tell them, why don't you open the debugger? But I think at the same time, there's something to learn from that. Why don't people want to use the debugger?
 
-[36:14] **Henry:** Yeah. I mean, I think about this for any tool in JavaScript, like nobody ever wants to open their Babel config. I know the answer is that there shouldn't even be one. I don't know how to implement that, but.
+[36:14] **Henry:** I mean, I think about this for any tool in JavaScript, like nobody ever wants to open their Babel config. I know the answer is that there shouldn't even be one. I don't know how to implement that, but.
 
 [36:25] **Omar:** Right. That would be my radical, you should just reprogram Babel if you want to. But it is true that when I'm programming my thing, every bit of code that I write actually has a visible effect on the thing that I care about. But if I have to switch into configuring something, number one, it's a switch and number two, I've lost that direct connection to my actual domain.
 
 [36:42] **Henry:** I understand that because it's like, there's no time where anyone would ever want to even think about configuring Babel. Like I wouldn't ever either.
 
-[36:50] **Omar:** Yeah. I never blame people.. Or I don't pretend necessarily that I have alternatives for these things, but I just want to point them out.
+[36:50] **Omar:** I never blame people.. Or I don't pretend necessarily that I have alternatives for these things, but I just want to point them out.
 
 #### Being Immediately Useful
 
@@ -481,11 +481,11 @@ quotes:
 
 [37:05] **Omar:** You open up your spreadsheet. You start typing your data, your list of things, and it's immediately useful. You don't have to initialize a new project. You don't have to write a bunch of code so that things will appear on the screen. Things are on the screen from the beginning. From the beginning, you're already working in your domain, you already have your stuff that you actually care about in the system.
 
-[37:24] **Omar:** Whereas if you were making a react project or something, you need to write a bunch. If you want to get your data on the screen, you have to like load your data from a JSON file. And you have to write a bunch of loops to make elements for all your data. There's a lot of upfront stuff you have to do, that's not related to what you care about.
+[37:24] **Omar:** Whereas if you were making a react project or something, you need to write a bunch. If you want to get your data on the screen, you have to load your data from a JSON file. And you have to write a bunch of loops to make elements for all your data. There's a lot of upfront stuff you have to do, that's not related to what you care about.
 
-[37:41] **Henry:** Yeah. Programming just feels so far removed from Excel.
+[37:41] **Henry:** Programming just feels so far removed from Excel.
 
-[37:45] **Omar:** Yeah. Well there was an interesting demo by Yoshiki Schmitz, who's one of these kinds of people in our Twitter community. It's a prototype of a way to turn JSON data into an interface. Maybe you have data of a bunch of apartments and you want to turn it into an Airbnb type of interface.
+[37:45] **Omar:** Well there was an interesting demo by Yoshiki Schmitz, who's one of these kinds of people in our Twitter community. It's a prototype of a way to turn JSON data into an interface. Maybe you have data of a bunch of apartments and you want to turn it into an Airbnb type of interface.
 
 > "I've been jamming on this concept for making data-driven designs. Given some JSON, this app will provide you with an interface to describe how you want each entry styled, allowing you to gradually create a more complicated design. Here I create an airbnb-ish app." - [Yoshiki](https://twitter.com/yoshikischmitz/status/1176642448077967362?s=20)
 
@@ -511,7 +511,7 @@ quotes:
 
 [39:29] **Henry:** Hmm, it doesn't make assumptions about the input.
 
-[39:32] **Omar:** Yeah. And this is more true for screenshots and for the real world, you can attach things to the input and even if it doesn't know what they are, they kind of make it through. So I'm interested in those ways of like, how can we make software that has this nature to it, where the engineers don't need to implement features for everything that users want to do. I had an example, I think a year or two ago about like, what if Twitter let you just attach other fields to your tweets. But even if Twitter didn't understand them, you can just attach your own metadata to a tweet and have it go out to their database.
+[39:32] **Omar:** And this is more true for screenshots and for the real world, you can attach things to the input and even if it doesn't know what they are, they kind of make it through. So I'm interested in those ways of like, how can we make software that has this nature to it, where the engineers don't need to implement features for everything that users want to do. I had an example, I think a year or two ago about like, what if Twitter let you just attach other fields to your tweets. But even if Twitter didn't understand them, you can just attach your own metadata to a tweet and have it go out to their database.
 
 [40:04] **Henry:** That was interesting. A lot of stuff to cover, honestly. Well, hopefully it was helpful for you to just think about stuff you've been thinking about.
 

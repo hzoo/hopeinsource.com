@@ -24,7 +24,7 @@ quotes:
 
 [00:12] **Henry:** But the thing that caught my attention was when you wrote [Fortnite and the Good Life](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life).
 
-> "Naturally, then, such public debates, and consequently are own habits of moral reasoning, get locked into matters of measurable—which is to say supposedly objective, scientifically verifiable—harm." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
+> "Naturally, then, such public debates, and consequently are own habits of moral reasoning, get locked into matters of measurable, which is to say supposedly objective, scientifically verifiable, harm." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
 [00:16] **Michael:** As I said in that little newsletter, gaming is not my beat. So I wrote that with a little bit of trepidation, making a very specific point, but yeah.
 
@@ -32,7 +32,7 @@ quotes:
 
 [00:24] **Henry:** Maybe a common view of gaming, especially for people that don't necessarily play games, is something like: a lot of video games are violent and that's not good for you, so video games are bad. And it's a very simple view of gaming, right?
 
-> "When parents and other concerned adults—recall Hillary Clinton's mid-2000s criticism of Grand Theft Auto—worry about games they are usually worried about violent or sexualized content."
+> "When parents and other concerned adults, recall Hillary Clinton's mid-2000s criticism of Grand Theft Auto, worry about games they are usually worried about violent or sexualized content."
 
 [00:40] **Henry:** But I guess you were trying to get across the point that maybe "Fortnite is bad" isn't really what you should be thinking. But rather the opposite question of: is Fortnite not just good, but does it promote a certain type of character in people when they're playing?
 
@@ -62,7 +62,7 @@ quotes:
 
 [02:44] **Henry:** One example is how on your desktop, you have all these icons, right? You can drag them around. And some people have a very specific layout for where all their icons are. Some people might be like, well, why don't you just use alphabetical order? Or why don't you just have no icons? There's something important about an attitude of understanding, what leads someone to do a certain behavior? Instead of saying, Oh, gaming is bad, why is that happening?
 
-[03:08] **Michael:** Yeah. And even sort of what desires is it fulfilling? What role is it playing in a social life? One of the interesting dynamics about gaming today is the kind of sociality that it inculcates.. I was about to say that it has a social dimension, but I corrected myself because when I played with my friends, it had a social dimension.
+[03:08] **Michael:** And even sort of what desires is it fulfilling? What role is it playing in a social life? One of the interesting dynamics about gaming today is the kind of sociality that it inculcates.. I was about to say that it has a social dimension, but I corrected myself because when I played with my friends, it had a social dimension.
 
 > "Let us quickly acknowledge that playing Fortnite is not a disembodied experience." - [Michael](https://tinyletter.com/lmsacasas/letters/the-convivial-society-no-15-fortnite-and-the-good-life)
 
@@ -74,7 +74,7 @@ quotes:
 
 [03:46] **Henry:** There was a trend of this idea of couch play. Oh, actually before that would have been like arcades, right? And that was a certain experience where you had to go somewhere and actually a place to meet people. And eventually, we had home consoles where you would have LAN parties where you bring your computers. That was a communal experience.
 
-[04:03] **Henry:** And eventually we had the internet. Everyone has their own console. You don't have to go to everyone's house. And now we have quarantine where like, even more so right? You are together, but in some sense you're not together.
+[04:03] **Henry:** And eventually we had the internet. Everyone has their own console. You don't have to go to everyone's house. And now we have quarantine where, even more so right? You are together, but in some sense you're not together.
 
 [04:14] **Henry:** Another point, there's been a resurgence in board games too, at least in the Western sphere. [_Catan_](https://en.wikipedia.org/wiki/Catan) is super big. And that's replaced video games with board games.
 
@@ -88,7 +88,7 @@ quotes:
 
 > Newsletter: ["Children and Technology"](https://theconvivialsociety.substack.com/p/children-and-technology)
 
-[05:07] **Henry:** Yeah. You brought up kids. I think you had an interesting [post](https://theconvivialsociety.substack.com/p/children-and-technology) recently about your thoughts as a parent. So I went home for a while, so I got to live with my parents for a few months. And I was just thinking about how they're still gonna treat you like a kid, even though you're an adult. And I even showed them the article. I really appreciated the metaphor of the carpenter and the gardener.
+[05:07] **Henry:** You brought up kids. I think you had an interesting [post](https://theconvivialsociety.substack.com/p/children-and-technology) recently about your thoughts as a parent. So I went home for a while, so I got to live with my parents for a few months. And I was just thinking about how they're still gonna treat you like a kid, even though you're an adult. And I even showed them the article. I really appreciated the metaphor of the carpenter and the gardener.
 
 [05:29] **Henry:** I think it speaks a lot to the idea of relationship. Going back to a video game analogy, is treating people like they're NPCs in a game where they have this set, rote thing, where if you say X and they say Y.
 
@@ -110,7 +110,7 @@ quotes:
 
 [07:07] **Henry:** I think that relates a lot to the views of Illich, we're talking about treating people as commodities. In our computer age, we like to think of everything as a machine.
 
-[07:17] **Michael:** Yeah. And I will say that sort of machine metaphor goes back much further. There's a rather well known French text from the 1700s called [Man as Machine](https://en.wikipedia.org/wiki/Man_a_Machine). And that metaphor is persistent to today and changed in some respects under the old days we might have called cybernetic conditions.
+[07:17] **Michael:** And I will say that sort of machine metaphor goes back much further. There's a rather well known French text from the 1700s called [Man as Machine](https://en.wikipedia.org/wiki/Man_a_Machine). And that metaphor is persistent to today and changed in some respects under the old days we might have called cybernetic conditions.
 
 > "The human body is a machine which winds its own springs." - [Man a Machine](http://bactra.org/LaMettrie/Machine/)
 
@@ -146,7 +146,7 @@ quotes:
 
 [10:23] **Henry:** So in that case, I'm basically being the same person. I'm trying to be the controlling person. Don't watch this. Don't look at this sort of thing. And I have to learn to let go. Well, they're going to do it anyway, if I tell them, right. And it's like, how do I really engage in that?
 
-[10:37] **Michael:** Yeah. That is interesting. And the impulse in cases like that is to make that very bright line, right. Just don't watch this, right. Don't look at this. And I think there's a place for that, especially with young children. A lot of it I think comes down to this question of responsibility and capability, right?
+[10:37] **Michael:** That is interesting. And the impulse in cases like that is to make that very bright line, right. Just don't watch this, right. Don't look at this. And I think there's a place for that, especially with young children. A lot of it I think comes down to this question of responsibility and capability, right?
 
 [10:56] **Michael:** What are young children capable of processing? And again, note the technological metaphor there for an essentially emotional work. So with older parents, obviously it's different to some degree, they're not children per se, right. Although, I mean, I don't know here, I feel like, ugh, it's hard to even talk about this in a generic abstract way. Every case is different, but all that to say that, yeah, I see the similarity there.
 
@@ -242,7 +242,7 @@ quotes:
 
 [19:10] **Henry:** And I talked about this in [Nadia's book](https://press.stripe.com/working-in-public). Her book goes about open source, and how it's the same problems showing up there and how it reflects in our greater society. Of a neutral public square. Commenting on YouTube videos, anyone can do it, the same problem. Maybe we have too many people involved.
 
-[19:28] **Michael:** Yeah. The proposition that there should be limits is a kind of modern heresy. It goes against something I think, deeply ingrained in Western modernity. Not only with regards to its technological aspects. Although, again, increasingly these two things are so deeply intertwined. It's hard to pull them apart.
+[19:28] **Michael:** The proposition that there should be limits is a kind of modern heresy. It goes against something I think, deeply ingrained in Western modernity. Not only with regards to its technological aspects. Although, again, increasingly these two things are so deeply intertwined. It's hard to pull them apart.
 
 [19:48] **Michael:** So you see it reflected in tech, but you see it reflected in other areas as well. But yeah, it's one of those taken for granted assumptions that I think a lot of modern Western culture, assumes, right. That limits are just fundamentally bad, right.
 
@@ -260,7 +260,7 @@ quotes:
 
 [21:11] **Michael:** And **Wendell Berry**, who obviously has written a great deal about the temptation of limitlessness and it's ills, but he has this wonderful passage where he talks about whether we see limits as an inducement to elaboration.
 
-> "… our human and earthly limits, properly understood, are not confinements but rather inducements to formal elaboration and elegance, to fullness of relationship and meaning. Perhaps our most serious cultural loss in recent centuries is the knowledge that some things, though limited, are inexhaustible … A small place, as I know from my own experience, can provide opportunities of work and learning, and a fund of beauty, solace, and pleasure—in addition to its difficulties—that cannot be exhausted in a lifetime or in generations." - Wendell Berry
+> "… our human and earthly limits, properly understood, are not confinements but rather inducements to formal elaboration and elegance, to fullness of relationship and meaning. Perhaps our most serious cultural loss in recent centuries is the knowledge that some things, though limited, are inexhaustible … A small place, as I know from my own experience, can provide opportunities of work and learning, and a fund of beauty, solace, and pleasure, in addition to its difficulties, that cannot be exhausted in a lifetime or in generations." - Wendell Berry
 
 [21:23] **Michael:** He says as a farmer, right, that one plot of land worked well and carefully and responsibly can be sustained for generations, right. It will provide it's fund of riches. But you have to recognize its own unique limits and work within those limits.
 
@@ -276,7 +276,7 @@ quotes:
 
 #### Iatrogenesis: The Cure is the Problem
 
-[22:56] **Henry:** Yeah. I was just thinking. We use this term like diminishing returns, but the threshold is saying that there's a point where it's not just diminishing returns, where it's negative returns, right.
+[22:56] **Henry:** I was just thinking. We use this term diminishing returns, but the threshold is saying that there's a point where it's not just diminishing returns, where it's negative returns, right.
 
 [23:05] **Michael:** Right, right, exactly. And I'm obviously not a medical doctor. So I'll just offer this as what Illich argues, that passed the second threshold, he places that somewhere in the mid 20th century, we then begin to get the generation.. I forget the technical term for this, but of diseases that are caused by the medical profession, right.
 
@@ -306,7 +306,7 @@ quotes:
 
 [25:22] **Michael:** And I wonder to what degree, to reflect on this from a theological perspective, if that is a function of just coming to see that this is sort of it, right? This is the one shot you get at life. And so the only thing to do is to extend it indefinitely. And I don't know if that's part of the picture as well. Although I will say this attitude isn't just limited to secular society, right. I think you're as likely to see it within the churches without, and then we get into all sorts of other questions there.
 
-[25:52] **Henry:** Yeah. I think you were the one that pointed me to C.S. Lewis' thinking. I forgot the title of what he wrote.
+[25:52] **Henry:** I think you were the one that pointed me to C.S. Lewis' thinking. I forgot the title of what he wrote.
 
 [25:58] **Michael:** Is it [Learning in Wartime](https://bradleyggreen.com/attachments/Lewis.Learning%20in%20War-Time.pdf)?
 
@@ -348,7 +348,7 @@ quotes:
 
 > "Society" is a technical term in the book, but it arises only in modern world. By "life of the species" she is referring to mere biological life - Michael
 
-[29:58] **Henry:** Yeah. I was thinking about how you said we don't really see it. And I was thinking, we don't really see it coming too in a way, because. People live in different places, the way you find out is like through a phone call or something. Whereas before if you were living together..
+[29:58] **Henry:** I was thinking about how you said we don't really see it. And I was thinking, we don't really see it coming too in a way, because. People live in different places, the way you find out is through a phone call or something. Whereas before if you were living together..
 
 [30:10] **Michael:** Right, right. Or even [John Donne's](https://en.wikipedia.org/wiki/John_Donne) famous poem, right, [For Whom the Bell Tolls](http://www.yourdailypoem.com/listpoem.jsp?poem_id=2118). The idea that in your community, there'll be a public announcement of the death of a member that everybody would sort of know that this had transpired.
 
@@ -371,6 +371,6 @@ quotes:
 
 [30:22] **Henry:** Oh, that's interesting. So this sort of reminds me of when people leave their job or they leave the city. It's not always announced. People just kind of leave and then you find out a few months later, like, Oh, what happened to this person? And they're like, Oh yeah, they left.
 
-[30:33] **Henry:** But at the same time we have the opposite thing. Well, I know exactly what someone's tweeting or taking an Instagram photo of their food, but like not these things.
+[30:33] **Henry:** But at the same time we have the opposite thing. Well, I know exactly what someone's tweeting or taking an Instagram photo of their food, but not these things.
 
 [30:43] **Michael:** Yeah, it would be interesting to explore. I'm not thought about that. What is it that we highlight with our new tools and what gets foregrounded, what gets backgrounded right. Yeah, that is an interesting dichotomy..

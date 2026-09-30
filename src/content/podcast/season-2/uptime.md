@@ -28,9 +28,9 @@ quotes:
 
 [00:51] **Jonathan:** Thank you for having me.
 
-[00:53] **Henry:** Yeah. I guess just some background. I interviewed Wendy before and she's part of this cohort for preservation, and she I guess got me a lot more contacts to talk with, and I think everyone does different things, so you're focused on artwork. Then I realized that I've never been to the Guggenheim. I live here in New York. So I guess I just reached out to you and I went two days ago with some friends. It was just good to actually go there, even though we're not really going to talk about the museum itself, but it's good to have the context.
+[00:53] **Henry:** I guess just some background. I interviewed Wendy before and she's part of this cohort for preservation, and she I guess got me a lot more contacts to talk with, and I think everyone does different things, so you're focused on artwork. Then I realized that I've never been to the Guggenheim. I live here in New York. So I guess I just reached out to you and I went two days ago with some friends. It was just good to actually go there, even though we're not really going to talk about the museum itself, but it's good to have the context.
 
-[01:33] **Jonathan:** Of course, of course, yeah.
+[01:33] **Jonathan:** Of course, yeah.
 
 [01:35] **Henry:** Yeah, so thanks again.
 
@@ -42,7 +42,7 @@ quotes:
 
 [02:16] **Henry:** So a bunch of universities?
 
-[02:18] **Jonathan:** Yeah. It's most university libraries. We're the only museum in the cohort. But just to get back to your question, my fellowship is part of the conservation department, so as a museum we collect all these artworks. They're part of our permanent collection, the idea being that they're held by the museum and they could be loaned to other institutions in the future or exhibited at the Guggenheim, and that they're held in trust that the public is going to be able to do research about them, is going to be able to see them indefinitely into the future.
+[02:18] **Jonathan:** It's most university libraries. We're the only museum in the cohort. But just to get back to your question, my fellowship is part of the conservation department, so as a museum we collect all these artworks. They're part of our permanent collection, the idea being that they're held by the museum and they could be loaned to other institutions in the future or exhibited at the Guggenheim, and that they're held in trust that the public is going to be able to do research about them, is going to be able to see them indefinitely into the future.
 
 [03:05] **Henry:** That's a huge responsibility.
 
@@ -52,9 +52,9 @@ quotes:
 
 [03:30] **Jonathan:** My position is relatively new. I've been at the Guggenheim for about two and a half years through what we call the [CCBA or the Conserving Computer-Based Art Initiative](https://www.guggenheim.org/blogs/checklist/how-the-guggenheim-and-nyu-are-conserving-computer-based-art-part-1). That initiative began a little bit before I started, so it started around 2014. We had Joanna Phillips was the conservator of time-based media at the Guggenheim at that time, and she started collaborating with Deena Engel, who is a computer science professors at NYU. Joanna and Deena started looking at computer-based works in our collection.
 
-[04:19] **Henry:** So you already had computer-based art already.
+[04:19] **Henry:** So you had computer-based art already.
 
-[04:21] **Jonathan:** Yeah. Our first work was collected in 1989. It's an untitled work by Jenny Holzer. Jenny Holzer works with a lot of LED signage and this particular work was part of her show at the Guggenheim and it's an LED sign that goes up the entire spiral of the rotunda. I mean, I didn't see it in person, but it looked amazing. That was our first computer-based or software-based work. Maybe I should also define computer-based works-
+[04:21] **Jonathan:** Our first work was collected in 1989. It's an untitled work by Jenny Holzer. Jenny Holzer works with a lot of LED signage and this particular work was part of her show at the Guggenheim and it's an LED sign that goes up the entire spiral of the rotunda. I mean, I didn't see it in person, but it looked amazing. That was our first computer-based or software-based work. Maybe I should also define computer-based works-
 
 [05:00] **Henry:** Yeah, that could be fun.
 
@@ -66,7 +66,7 @@ quotes:
 
 [06:30] **Henry:** Right, makes sense. How many pieces of digital art are you... I don't even know what the word is, taking care of right now?
 
-[06:39] **Jonathan:** Yeah. How many pieces that are in our collection. The number keeps growing. We have about 30, actually.
+[06:39] **Jonathan:** How many pieces that are in our collection. The number keeps growing. We have about 30, actually.
 
 [06:52] **Henry:** Wow. How many is that compared to the physical art?
 
@@ -80,7 +80,7 @@ quotes:
 
 [08:21] **Henry:** It's the same as before.
 
-[08:22] **Jonathan:** Yeah. With the software-based artwork, if you put a computer in storage that ran certain software, if you pull it out in 30 years, I mean-
+[08:22] **Jonathan:** With the software-based artwork, if you put a computer in storage that ran certain software, if you pull it out in 30 years, I mean-
 
 [08:30] **Henry:** Who knows what's going to happen.
 
@@ -88,7 +88,7 @@ quotes:
 
 [08:48] **Henry:** Right when you know about it.
 
-[08:49] **Jonathan:** Yeah. So in the case if Jenny Holzer, that was a work where there were different standards. There wasn't really practices in place for collecting computer-based artworks in 1989. There have been a couple of works collected in the past where as part of my fellowship I've had to go back and talk with programmers and technicians because again, in those earlier years there weren't necessarily standards for the kinds of things you need to collect when you collect computer-based artworks. For example, source code, certain types of documentation, things like that.
+[08:49] **Jonathan:** So in the case if Jenny Holzer, that was a work where there were different standards. There wasn't really practices in place for collecting computer-based artworks in 1989. There have been a couple of works collected in the past where as part of my fellowship I've had to go back and talk with programmers and technicians because again, in those earlier years there weren't necessarily standards for the kinds of things you need to collect when you collect computer-based artworks. For example, source code, certain types of documentation, things like that.
 
 [09:38] **Henry:** It kind of reminds me that sometimes the newer the technology is the easier it is to be obsolete, right?
 
@@ -98,9 +98,9 @@ quotes:
 
 [10:20] **Jonathan:** Dead links, yeah.
 
-[10:22] **Henry:** Yeah. That seems really hard to do, right? I guess what are kind of the main ways of preserving digital stuff?
+[10:22] **Henry:** That seems really hard to do, right? I guess what are kind of the main ways of preserving digital stuff?
 
-[10:32] **Jonathan:** Yeah. I think you stated the problem really well, especially for some works that we have are web artworks. The whole purpose of web artworks is that they're available 24/7 on the internet. Anyone can see them. You don't have to go to the museum. You just go to the URL and you should be able to access them and interact with the artwork.
+[10:32] **Jonathan:** I think you stated the problem really well, especially for some works that we have are web artworks. The whole purpose of web artworks is that they're available 24/7 on the internet. Anyone can see them. You don't have to go to the museum. You just go to the URL and you should be able to access them and interact with the artwork.
 
 [10:57] **Henry:** 100% uptime, yeah.
 
@@ -130,7 +130,7 @@ quotes:
 
 [12:42] **Jonathan:** Space Jam, it looks almost exactly like it did I guess when the movie came out.
 
-[12:48] **Henry:** Yeah. The committee, they like this idea of one JS, there's only one version of JavaScript. You don't have to specify different versions. It should always be backwards compatible. But what they do is sometimes they kind of subtly break things when they try to... What they do is they'll implement the thing and then test it out and if it starts breaking things they'll revert it back. But if it goes through and not enough people complain then we'll just technically break it because no one's actually using it. Well, how do you know people aren't using it? What if they're not online? What if the artworks are using those things.
+[12:48] **Henry:** The committee, they like this idea of one JS, there's only one version of JavaScript. You don't have to specify different versions. It should always be backwards compatible. But what they do is sometimes they kind of subtly break things when they try to... What they do is they'll implement the thing and then test it out and if it starts breaking things they'll revert it back. But if it goes through and not enough people complain then we'll just technically break it because no one's actually using it. Well, how do you know people aren't using it? What if they're not online? What if the artworks are using those things.
 
 [13:21] **Jonathan:** Sure. There's a web artwork from the '90s that uses that thing that just got deprecated, but nobody is necessarily there to notice. Yeah, and artists who makes these kinds of artworks, they're usually working at that edge of how technology is supposed to be used. They're often like hackers, where they're using the technology in ways it wasn't necessarily intended to be used. In those cases it's very easy to break the types of ways they're implementing JavaScript or HTML or other technologies.
 
@@ -140,7 +140,7 @@ quotes:
 
 [15:00] **Henry:** Right. When you say vulnerability you don't mean security vulnerability, but actually making sure this thing will last.
 
-[15:07] **Jonathan:** Right. Yeah, so for example, one artwork that we have, Color Panel by this artist named John F. Simon, Jr., this artwork's from 1999. It's a disassembled PowerBook 280C computer, a laptop that he basically John Simon disassembled it and mounted it on this acrylic board and it's supposed to be hung like a painting, and the PowerBook runs software that he wrote that shows all these different color patterns. It's based on Josef Albers' color studies, so it looks a lot like an animation.
+[15:07] **Jonathan:** Right. Yeah, so for example, one artwork that we have, Color Panel by this artist named John F. Simon, Jr., this artwork's from 1999. It's a disassembled PowerBook 280C computer, a laptop that John Simon disassembled and mounted it on this acrylic board and it's supposed to be hung like a painting, and the PowerBook runs software that he wrote that shows all these different color patterns. It's based on Josef Albers' color studies, so it looks a lot like an animation.
 
 [15:48] **Jonathan:** The problem is now this disassembled laptop from I believe it became obsolete in 1995 is now, that is an artwork, and so you have that huge hardware dependency, and of course that hardware was never meant to last-
 
@@ -148,7 +148,7 @@ quotes:
 
 [16:09] **Jonathan:** ... very long, yeah. So that's one way to look at it, that when the hardware becomes art then we have to think about what would be the right course of action, of course in conversation with the artist too. Fortunately, John Simon is still around, so we can discuss options with him about that.
 
-[16:33] **Jonathan:** In other cases, it's thinking about like, okay, we have a floppy disk, we have a CD. Let's just get the data off of those vulnerable carriers that are eventually going to degrade over time. Let's properly get the data off there and then put it in our digital repository, more safe storage, and make copies, make redundant copies of it.
+[16:33] **Jonathan:** In other cases, it's thinking about, okay, we have a floppy disk, we have a CD. Let's just get the data off of those vulnerable carriers that are eventually going to degrade over time. Let's properly get the data off there and then put it in our digital repository, more safe storage, and make copies, make redundant copies of it.
 
 [16:59] **Henry:** In that case the floppy disk isn't the artwork itself so it doesn't really matter if you get rid of it.
 
@@ -156,17 +156,17 @@ quotes:
 
 [17:04] **Henry:** It's the other thing on it.
 
-[17:06] **Jonathan:** Yeah, the floppy disk might just contain the executable file that's going to run the program, so the disk itself is not the artwork, but it's a way that the code or the executable was delivered to the museum, almost like a backup. For example, for Color Panel we have, John Simon gave us the executable program that runs on that laptop on a floppy disk, so we have that preserved.
+[17:06] **Jonathan:** Yeah, the floppy disk might just contain the executable file that's going to run the program, so the disk itself is not the artwork, but it's a way that the code or the executable was delivered to the museum, almost like a backup. For example, for Color Panel John Simon gave us the executable program that runs on that laptop on a floppy disk, so we have that preserved.
 
 [17:33] **Henry:** But then for that, given that that kind of computer won't ever be produced anymore, then if it doesn't turn on anymore then you can't really... I guess now the question is what do you do with that then?
 
-[17:46] **Jonathan:** Yeah. We have to again discuss with him and think about what some of the possible solutions are.
+[17:46] **Jonathan:** We have to again discuss with him and think about what some of the possible solutions are.
 
 [17:56] **Henry:** I guess for that particular thing it's like I don't know if you could find another computer and try to make it look the same, but that doesn't seem to be the same thing at all really.
 
-[18:05] **Jonathan:** Yeah. Then it becomes an issue of yeah, even if you could obtain the same laptop, is it the same thing if you replace the laptop? I think that's a very interesting question.
+[18:05] **Jonathan:** Then it becomes an issue of yeah, even if you could obtain the same laptop, is it the same thing if you replace the laptop? I think that's a very interesting question.
 
-[18:22] **Henry:** Yeah. There's not really an answer there, other than wanting to talk to that artist about what they think is reasonable.
+[18:22] **Henry:** There's not really an answer there, other than wanting to talk to that artist about what they think is reasonable.
 
 [18:30] **Jonathan:** Yeah, and what he considers the core of the artwork. Is the core of the artwork the software that he wrote, the hardware, some combination of both? What's his vision for what he thinks is important, what's variable about the artwork, what must stay the same?
 
@@ -184,7 +184,7 @@ quotes:
 
 [21:00] **Henry:** Yeah, this seems like something where having the artist is completely necessary to keeping this work at all.
 
-[21:06] **Jonathan:** Yeah. Luckily, almost all the computer-based works in our collection are contemporary works and the artist is still around and can answer questions that we have.
+[21:06] **Jonathan:** Luckily, almost all the computer-based works in our collection are contemporary works and the artist is still around and can answer questions that we have.
 
 [21:18] **Henry:** Yeah, I think this gets to this question of, especially there's a lot in open source, what is open source? What's the core of open source? In the name it's about code but is it really? It's like is it enough for it to be about code or is it about the community and all this higher level stuff around it? I think it's the same question here where maybe it's not enough to just save the code for this art, because clearly what about what was the vision and the metadata and the process to make that thing. Because if you wanted to reverse engineer it, you would want to know how they were thinking about that, right?
 
@@ -194,7 +194,7 @@ quotes:
 
 [23:39] **Henry:** Right. This is all the context that we don't really think about, even just for regular software. No one's saying, "I was writing this code in this place at this time." It's just the code. It's like a very specific kind of version control of the way this was presented over time. Like, this was in a big room, not too tall room.
 
-[24:00] **Jonathan:** Mm-hmm (affirmative). Then we look at, even ask the artist often, "Were you happy with this iteration, were you not happy with this iteration?", and they tell us why, and then that gets recorded and that's in our records for the artwork. A lot of times with a new artwork in the different iterations it actually starts to take on more of a kind of persistent identity, so we learn a lot about it in the first few iterations.
+[24:00] **Jonathan:** Mm-hmm. Then we look at, even ask the artist often, "Were you happy with this iteration, were you not happy with this iteration?", and they tell us why, and then that gets recorded and that's in our records for the artwork. A lot of times with a new artwork in the different iterations it actually starts to take on more of a kind of persistent identity, so we learn a lot about it in the first few iterations.
 
 [24:34] **Henry:** Yeah, and I guess if we're thinking about preserving things for the long term, I feel like in a way maybe even I wonder if the artwork itself basically could change or the artists themselves might slowly change what they thought the core was through the process of working with you.
 
@@ -222,7 +222,7 @@ quotes:
 
 [27:22] **Henry:** I guess maybe do you want to go into more detail on this idea of conservation and what are the steps that you take to save something for the long term?
 
-[27:32] **Jonathan:** Yeah. I mentioned backups. One of the simplest ways is we have this floppy disk and then we have a method that's called disk imaging. I don't know if you ever heard of disk imaging, but a lot of times it's used by IT professionals to create backups of computers, and it's also used by forensic investigators to create copies of digital information as evidence in a court case. We use those same methods but we apply it to components of an artwork. Archives and libraries also use the same methods and they would apply it to disks that come in from someone's personal papers or something like that or hard drives that come in.
+[27:32] **Jonathan:** I mentioned backups. One of the simplest ways is we have this floppy disk and then we have a method that's called disk imaging. I don't know if you ever heard of disk imaging, but a lot of times it's used by IT professionals to create backups of computers, and it's also used by forensic investigators to create copies of digital information as evidence in a court case. We use those same methods but we apply it to components of an artwork. Archives and libraries also use the same methods and they would apply it to disks that come in from someone's personal papers or something like that or hard drives that come in.
 
 [28:30] **Jonathan:** So we have this floppy disk that has the files related to an artwork. We create a disk image with it, which is a file that's a bit for bit copy of everything that's on that disk, a perfect bit for bit copy. We verify that it's an actual copy and then we take that disk image file and then we save it in our repository. Then we get into just kind of basic digital preservation concepts, which is we have to take that file, we have to make redundant copies of it, and put those redundant copies in different places. Then we also have to check each of our copies periodically to make sure that no data has changed, there's no bit flipping or anything like that.
 
@@ -232,7 +232,7 @@ quotes:
 
 [29:32] **Henry:** So that's the baseline. That was the thing that they gave you, and just want to make sure that that is preserved as is. Then moving forward, there's more like, "Oh, can we do something more?"
 
-[29:45] **Jonathan:** Yeah. That's the baseline. Then we create rich documentation about that file, so we record what's the significance of that file. Let's say the significance is it's the executable file that runs the artwork, so we're going to record that somewhere. We're going to record, we have photos of course of the disk that it came from. We're going to record obviously that the disk image file came from that physical piece of media. So that's important to maintain that relationship. Then we can do sometimes some technical analysis, like let's say we're doing a disk image of an entire computer. We can do a technical analysis of what are all the files on that computer, and we may have to also identify which files on that computer are necessary to run the artwork. Then in addition we have to identify the dependencies. What's the operating system, are there any other software dependencies? Is it dependent on a certain computer and certain peripherals. That's the kind of rich documentation that we have to add as well. That's one way to think about the whole backing up process.
+[29:45] **Jonathan:** That's the baseline. Then we create rich documentation about that file, so we record what's the significance of that file. Let's say the significance is it's the executable file that runs the artwork, so we're going to record that somewhere. We're going to record, we have photos of course of the disk that it came from. We're going to record obviously that the disk image file came from that physical piece of media. So that's important to maintain that relationship. Then we can do sometimes some technical analysis, like let's say we're doing a disk image of an entire computer. We can do a technical analysis of what are all the files on that computer, and we may have to also identify which files on that computer are necessary to run the artwork. Then in addition we have to identify the dependencies. What's the operating system, are there any other software dependencies? Is it dependent on a certain computer and certain peripherals. That's the kind of rich documentation that we have to add as well. That's one way to think about the whole backing up process.
 
 [31:04] **Jonathan:** Then in addition to backing up, then we also have to address stuff that's already failing. I mentioned our web artworks. We have three of them. The first one you mentioned Brandon in the Introduction by Shu Lea Cheang. That's from 1998. Then we have two other artworks from 2002, Unfolding Object by John F. Simon, Jr., the guy who also did Color Panel, and we have net.flag by Mark Napier. Again, as I mentioned, they're all supposed to be available for anyone who goes to the website.
 
@@ -240,11 +240,11 @@ quotes:
 
 [32:21] **Henry:** Because it was failing, you evaluated that that's necessary.
 
-[32:24] **Jonathan:** Yeah. It was actually before I started my fellowship, there were NYU computer science students working under Deena who had already looked at the work and made an inventory of the parts that were not working anymore. Oh yeah, and that's of course another part of the rich documentation, is having some sort of reference for what does this thing look like when it's functioning properly. That's really important. We were able to gather some videos of Brandon while it was still functioning so we have that reference for, "Okay, it looks like this when it's working." When we did the restoration, of course, we looked at those videos and images as reference.
+[32:24] **Jonathan:** It was actually before I started my fellowship, there were NYU computer science students working under Deena who had already looked at the work and made an inventory of the parts that were not working anymore. Oh yeah, and that's of course another part of the rich documentation, is having some sort of reference for what does this thing look like when it's functioning properly. That's really important. We were able to gather some videos of Brandon while it was still functioning so we have that reference for, "Okay, it looks like this when it's working." When we did the restoration, of course, we looked at those videos and images as reference.
 
 [33:03] **Henry:** Right, so that verification is important.
 
-[33:06] **Jonathan:** Yeah. The students made a catalog of all the things that weren't working with Brandon, and then by the time I had started this restoration project had been kind of scoped out. Previously they had tried emulation. There were problems with that.
+[33:06] **Jonathan:** The students made a catalog of all the things that weren't working with Brandon, and then by the time I had started this restoration project had been kind of scoped out. Previously they had tried emulation. There were problems with that.
 
 [33:28] **Henry:** How would that work for this case? Like running an old browser you mean?
 
@@ -270,13 +270,13 @@ quotes:
 
 [35:20] **Jonathan:** Polyfill? No.
 
-[35:22] **Henry:** Basically it's usually the opposite, where if there is a new standard that's not actually standard yet, so before it's out, you can use it now and write kind of like the mock version of what it should be. Say there's a function that is going to be globally available, the whatever equals function, and you're substituting it. So you could do that for blink.
+[35:22] **Henry:** Basically it's usually the opposite, where if there is a new standard that's not actually standard yet, so before it's out, you can use it now and write kind of the mock version of what it should be. Say there's a function that is going to be globally available, the whatever equals function, and you're substituting it. So you could do that for blink.
 
 [35:46] **Jonathan:** Oh, I see. Yeah. We had a particular way we did it, which was our programmer Emma Dickson actually wrote a JavaScript function that went through the code and looked for the blink HTML tag, and then what it did was I believe she used CSS to basically make it appear and disappear.
 
 [36:10] **Henry:** Oh cool, yeah. Right. She wrote her own then, basically.
 
-[36:12] **Jonathan:** Yeah. She called it zombie code. It's like finding old code in there that doesn't work and then reanimating it.
+[36:12] **Jonathan:** She called it zombie code. It's like finding old code in there that doesn't work and then reanimating it.
 
 [36:21] **Henry:** Oh yeah. We have legacy code everywhere, so this is pretty relevant stuff.
 
@@ -288,11 +288,11 @@ quotes:
 
 [38:46] **Henry:** In your commits and stuff like that.
 
-[38:48] **Jonathan:** Yeah. We used version control, we used Git.
+[38:48] **Jonathan:** We used version control, we used Git.
 
 [38:49] **Henry:** Version control.
 
-[38:50] **Jonathan:** Yeah. Then we have clearly delineated what's original code, what's the code that Emma added, and anyone can basically look at that and see what we did in the code itself. Then also documentation. We wrote a treatment report basically of every intervention that we made and the reasons for it.
+[38:50] **Jonathan:** Then we have clearly delineated what's original code, what's the code that Emma added, and anyone can basically look at that and see what we did in the code itself. Then also documentation. We wrote a treatment report basically of every intervention that we made and the reasons for it.
 
 [39:15] **Henry:** Yeah, because I was going to ask earlier, and you answered it already, which was are there certain norms that you have and a code of ethics.
 
@@ -300,7 +300,7 @@ quotes:
 
 [40:17] **Henry:** This reminds me a lot of in a company you might decide to rewrite your whole code base or do you modify the existing thing, and there's a point where you think this code sucks so badly that it's worth migrating. They're doing the same thing, and maybe [inaudible 00:40:36] kind of similar. They're always wondering is it worth starting over. Then it gets into this question of what should you conserve from the old code base, where it's like what about bugs? Do you fix the bugs while you're doing it or do you just make everything look the same and then fix it later, stuff like that.
 
-[40:55] **Jonathan:** Yeah. There's also a concept in conservation called minimal intervention. You only intervene or make changes as much as is needed to fix the problem, almost kind of like if you think about a doctor. If you have a certain condition maybe the doctor's going to do surgery but maybe there's something before surgery that they can do, giving you drugs or something like that. That would be intervening only enough to solve the problem and nothing more. We try to practice that by saving as much of the original code as we could, so the code that still worked. A lot of programmers would like to start from scratch and just change it all, but of course we had to keep, our mandate was to keep as much of the original code as possible.
+[40:55] **Jonathan:** There's also a concept in conservation called minimal intervention. You only intervene or make changes as much as is needed to fix the problem, almost kind of if you think about a doctor. If you have a certain condition maybe the doctor's going to do surgery but maybe there's something before surgery that they can do, giving you drugs or something like that. That would be intervening only enough to solve the problem and nothing more. We try to practice that by saving as much of the original code as we could, so the code that still worked. A lot of programmers would like to start from scratch and just change it all, but of course we had to keep, our mandate was to keep as much of the original code as possible.
 
 [41:55] **Jonathan:** I remember Deena said that often her students, her computer science students, are very vexed by this. They would rather in some cases just start over, but that just doesn't work for this project. If you're conserving artworks, you want to keep as much of the original as possible and then also if there are any kinds of technical changes that are really going to affect the artwork or what we think of as the artist's intent, the way that they programmed things, we're always going to loop in the artist to see how they would handle certain situations. Things like bugs. Nobody's perfect. There's sometimes things in there that one would consider bugs but you could also say that it's an inherent part of the artwork and that's how it was produced, and often it stays the same.
 
@@ -322,7 +322,7 @@ quotes:
 
 [45:43] **Henry:** Very similar.
 
-[45:43] **Jonathan:** Yeah. In terms of the unit tests and any kind of automated testing, it's something that I thought about actually quite a few times in my fellowship. We should have some automated thing that alerts us if these websites are breaking. For example, Brandon had quite a few dead links that it had accumulated since 1998, and we had to figure out ways to redirect some of those links, again in consultation with the artist.
+[45:43] **Jonathan:** In terms of the unit tests and any kind of automated testing, it's something that I thought about actually quite a few times in my fellowship. We should have some automated thing that alerts us if these websites are breaking. For example, Brandon had quite a few dead links that it had accumulated since 1998, and we had to figure out ways to redirect some of those links, again in consultation with the artist.
 
 [46:15] **Henry:** Right. Are those to outside websites that are down, or internal, or what are the dead links then?
 
@@ -352,21 +352,21 @@ quotes:
 
 [49:13] **Jonathan:** But you click on stuff and it unfolds and then it's counting how many people clicked on each facet.
 
-[49:22] **Henry:** Right, every time someone clicks on it it adds another line, so it's always different.
+[49:22] **Henry:** Right, every time someone clicks on it, it adds another line, so it's always different.
 
-[49:27] **Jonathan:** Mm-hmm (affirmative).
+[49:27] **Jonathan:** Mm-hmm.
 
-[49:28] **Henry:** I guess for that, that seems like more of a behavior thing. Is there a way to logically know that this line got added in or something like that. Which is funny because given that this is artwork, it's very unlikely, unless that person I guess knows a lot about engineering practices of them writing tests themselves, the artist doing it. It's funny because then you wouldn't have to retroactively add in tests, which is normal for any kind of legacy code base. But a lot of times, the current practice for a lot of people at companies, it's like, okay, or any open source project, right, you have your test while you write your code and then you can verify there's no regressions in the code base.
+[49:28] **Henry:** I guess for that, that seems like more of a behavior thing. Is there a way to logically know that this line got added in or something like that. Which is funny because given that this is artwork, it's very unlikely, unless that person I guess knows a lot about engineering practices of them writing tests themselves, the artist doing it. It's funny because then you wouldn't have to retroactively add in tests, which is normal for any kind of legacy code base. But a lot of times, the current practice for a lot of people at companies, it's, okay, or any open source project, right, you have your test while you write your code and then you can verify there's no regressions in the code base.
 
-[50:10] **Jonathan:** Yeah. Actually I believe that that's something... We did a restoration of Unfolding Object as well, and then that was actually something that our programmer was looking at when he was writing his restoration code, was doing regression testing. He included a bunch of test scripts in our final version of it, so that someone in the future could go back and run the same tests.
+[50:10] **Jonathan:** Actually I believe that that's something... We did a restoration of Unfolding Object as well, and then that was actually something that our programmer was looking at when he was writing his restoration code, was doing regression testing. He included a bunch of test scripts in our final version of it, so that someone in the future could go back and run the same tests.
 
-[50:41] **Henry:** Yeah. It's funny. It reminded me of two things. One is I kind of wish, so Babel is a compiler for JavaScript, but if it was more true to its name, it actually converts any language to any other language, that would make this whole effort really easy, if there was somehow you take the language, you literally converts it to whatever language you want. That would be pretty amazing.
+[50:41] **Henry:** It's funny. It reminded me of two things. One is I kind of wish, so Babel is a compiler for JavaScript, but if it was more true to its name, it actually converts any language to any other language, that would make this whole effort really easy, if there was somehow you take the language, you literally converts it to whatever language you want. That would be pretty amazing.
 
-[51:05] **Jonathan:** Yeah. I think at certain times we've looked at certain tools, a tool to get Java to JavaScript, but since these are artworks, the degree of fidelity needs to be really precise.
+[51:05] **Jonathan:** I think at certain times we've looked at certain tools, a tool to get Java to JavaScript, but since these are artworks, the degree of fidelity needs to be really precise.
 
 [51:19] **Henry:** Pretty high.
 
-[51:20] **Jonathan:** Yeah. In some cases, maybe even if there was a better way to do something in JavaScript we might not do it because we would just rather have it remain more faithful to the Java implementation.
+[51:20] **Jonathan:** In some cases, maybe even if there was a better way to do something in JavaScript we might not do it because we would just rather have it remain more faithful to the Java implementation.
 
 [51:34] **Henry:** Right.
 
@@ -394,7 +394,7 @@ quotes:
 
 [54:14] **Henry:** That's funny because the project I just did before this one was for the devs I made Slay the Spire, which is a Steam game. That's on Switch as well now. Their background was also QA, and then they're incorporating those kind of testing ideas into their game. It's a card game so they have to balance it and they use testing and data and all this stuff that they learned from their previous job.
 
-[54:39] **Jonathan:** Oh cool, yeah. Yeah, I think having that experience with video game QA, it gives you a very particular mindset that I think is super helpful for any kind of work that I do now. If you're looking at software you want to look at not just how people are supposed to use it. Especially if we're putting an artwork on the web, you want to look at what are the edge cases, how are people going to abuse it, or how are people going to try and break it. That's some of what I bring too, if I'm testing restoration code.
+[54:39] **Jonathan:** Oh cool, yeah. I think having that experience with video game QA, it gives you a very particular mindset that I think is super helpful for any kind of work that I do now. If you're looking at software you want to look at not just how people are supposed to use it. Especially if we're putting an artwork on the web, you want to look at what are the edge cases, how are people going to abuse it, or how are people going to try and break it. That's some of what I bring too, if I'm testing restoration code.
 
 [55:23] **Henry:** Right. I think that's the attitude in testing in general. It's not the normal case but those edge cases. Those are things you need to cover because the ones that are obvious you can manually know that they're fine, but then it's all the other things.
 
@@ -404,11 +404,11 @@ quotes:
 
 [56:45] **Henry:** So no formal training. You just kind of learned it on the job?
 
-[56:49] **Jonathan:** Yeah. Learned it on the job and then I became friends with a lot of people who were programmers there.
+[56:49] **Jonathan:** Learned it on the job and then I became friends with a lot of people who were programmers there.
 
 [56:58] **Henry:** That's awesome.
 
-[56:58] **Jonathan:** Yeah. Then I was laid off from that job and I was friends with one particular programmer and we decided, we were both out of a job, we decided we wanted to create a website, so I got a lot of experience in what it takes to build a website through doing that. We created it's called Veg Philly. We took it down maybe two years ago, but it was originally supposed to be a vegan restaurant guide for Philadelphia.
+[56:58] **Jonathan:** Then I was laid off from that job and I was friends with one particular programmer and we decided, we were both out of a job, we decided we wanted to create a website, so I got a lot of experience in what it takes to build a website through doing that. We created it's called Veg Philly. We took it down maybe two years ago, but it was originally supposed to be a vegan restaurant guide for Philadelphia.
 
 [57:27] **Henry:** Nice.
 
@@ -420,7 +420,7 @@ quotes:
 
 [58:00] **Henry:** Was there anything that happened?
 
-[58:01] **Jonathan:** Yeah. Before I was brought back as a programmer at the software company, I was working at this community video center in Philadelphia called Scribe, and Scribe has, they've been making community documentaries for about the last, I think it's since the early '80s. So you have tons of tapes of these really, really interesting documentaries about different political issues, about different organizations within Philadelphia.
+[58:01] **Jonathan:** Before I was brought back as a programmer at the software company, I was working at this community video center in Philadelphia called Scribe, and Scribe has, they've been making community documentaries for about the last, I think it's since the early '80s. So you have tons of tapes of these really, really interesting documentaries about different political issues, about different organizations within Philadelphia.
 
 [58:32] **Henry:** In Philadelphia?
 
@@ -436,23 +436,23 @@ quotes:
 
 [01:00:17] **Henry:** Very interesting topic.
 
-[01:00:18] **Jonathan:** Yeah. Which perhaps in a future episode we can get more into the meat of that research project. But yeah, I was really starting to get into the digital stuff, and when I graduated the Guggenheim posted this fellowship position and it just seemed like my skills really matched up well with what they were asking for. Then I had also been, the Guggenheim hosted a conference, this was my second year of grad school, called Tech Focus 3, and it was all about preserving software-based artworks. When I was there it was a real turning point, where I saw, oh, they want people who know how to use Git and know how to use command line and can make disk images and know about emulators. I had previously a lot of this background and experience and it just seemed like there were all these great connections. I met a lot of great people there, and it just seemed like I had a nice place there that I could really contribute to this field of computer-based art conservation.
+[01:00:18] **Jonathan:** Which perhaps in a future episode we can get more into the meat of that research project. But yeah, I was really starting to get into the digital stuff, and when I graduated the Guggenheim posted this fellowship position and it just seemed like my skills really matched up well with what they were asking for. Then I had also been, the Guggenheim hosted a conference, this was my second year of grad school, called Tech Focus 3, and it was all about preserving software-based artworks. When I was there it was a real turning point, where I saw, oh, they want people who know how to use Git and know how to use command line and can make disk images and know about emulators. I had previously a lot of this background and experience and it just seemed like there were all these great connections. I met a lot of great people there, and it just seemed like I had a nice place there that I could really contribute to this field of computer-based art conservation.
 
 [01:01:36] **Henry:** Yeah, the intersection of those two fields. Interesting. You said that you worked on an open source project.
 
-[01:01:43] **Jonathan:** Yeah, mm-hmm (affirmative).
+[01:01:43] **Jonathan:** Yeah, mm-hmm.
 
 [01:01:46] **Henry:** I guess I'm also curious, I guess two different things. I had a question around, I mean, this is more of a... I think it's interesting that with this kind of more interactive art, and because the code is open, there is an opportunity for people to build off of that. We have this idea of remixing art and stuff like that versus with traditional art you wouldn't necessarily do that. Do you see that happening at all? That's not really your focus or anything, but.
 
-[01:02:16] **Jonathan:** Yeah, I do see cases of artists, artists might take code that's in the public domain and use it in one of their artworks. I've definitely seen that. I've seen artists kind of encourage people to remix or reuse their code. There's definitely that as well.
+[01:02:16] **Jonathan:** Yeah, artists might take code that's in the public domain and use it in one of their artworks. I've definitely seen that. I've seen artists kind of encourage people to remix or reuse their code. There's definitely that as well.
 
 [01:02:41] **Henry:** It's a little bit beyond simply you can fork a project, which a lot of open source is just tools. But with art it's like you can tweak little variables or parameters here and there that will look very different. I think even for just teaching and for kids, I think that's a really interesting opportunity too, because say Khan Academy, they have a lot of with processing and those kinds of languages it's all around the art of being able to tweak things and learn.
 
-[01:03:09] **Jonathan:** Yeah. I mean, one thing with the restoration of Unfolding Object, it was important to the artist that the code be easily readable to anyone who goes to the site. One of the things we could have done would be to minify the JavaScript, and because the artist said, "No, I want people to be able to see this," we chose not to do that.
+[01:03:09] **Jonathan:** I mean, one thing with the restoration of Unfolding Object, it was important to the artist that the code be easily readable to anyone who goes to the site. One of the things we could have done would be to minify the JavaScript, and because the artist said, "No, I want people to be able to see this," we chose not to do that.
 
 [01:03:37] **Henry:** That's interesting.
 
-[01:03:40] **Jonathan:** Yeah. And then Brandon again we wanted to make everything that we did transparent so we have all the tags and the HTML about where the new code is and where the original code is.
+[01:03:40] **Jonathan:** And then Brandon again we wanted to make everything that we did transparent so we have all the tags and the HTML about where the new code is and where the original code is.
 
 [01:03:49] **Henry:** Yeah, I guess that's around accessibility. Then I wonder, well, the other option, you could just link to GitHub. I'm assuming you could put it on GitHub. Because minifying in the end is mostly around saving space, so I guess it depends on how you want to do that.
 
@@ -462,17 +462,17 @@ quotes:
 
 [01:04:33] **Jonathan:** During the time, yeah, during that one year and actually even a little bit after too. She had this part of the website called a panopticon, which is supposed to be like the panopticon prison. It's a prison where you have this central watchtower and you have all these cells on the outside. Shu Lea's idea was that you could have different artists kind of occupying the cells, so it was almost like an artist residency online where they would contribute GIFs or text or images to one of the cells. That would be their cell. That was one of the ways she encouraged people to contribute.
 
-[01:05:18] **Jonathan:** Then also at one of the events you could, anyone who was attending the event could submit a headline and then those headlines were basically like scrolling.
+[01:05:18] **Jonathan:** Then also at one of the events you could, anyone who was attending the event could submit a headline and then those headlines were basically scrolling.
 
 [01:05:30] **Henry:** Oh, through the screen. Okay.
 
 [01:05:31] **Jonathan:** Yeah, it was this event that was simulcast between New York and Amsterdam, so the Guggenheim Soho in New York and the De Waag Center in Amsterdam. It was basically this lecture. They had different speakers from each side, and so people were sending these headlines back and forth and sending images back and forth. I mean, for the time, for 1998, it was pretty novel. Now we think nothing of it, but this was kind of the beginning of these kind of simulcast events.
 
-[01:06:08] **Henry:** I'm kind of curious now because there's obviously more and more artwork being created over time. I mean, I could ask the question what should we preserve or conserve and the answer's probably it would idealistically it would just be all of them. I guess I wonder how people can help with this kind of thing.
+[01:06:08] **Henry:** I'm kind of curious now because there's obviously more and more artwork being created over time. I mean, I could ask the question what should we preserve or conserve and the answer's probably idealistically it would just be all of them. I guess I wonder how people can help with this kind of thing.
 
 [01:06:29] **Jonathan:** Yeah, that's a good question.
 
-[01:06:30] **Henry:** Because then the question is is it up to you and all the archivists to do all this work, or can people be involved? The question in open source is the same, where it's like as a maintainer is it our responsibility to provide this free software to all these developers and companies and do it for free?
+[01:06:30] **Henry:** Because then the question is: is it up to you and all the archivists to do all this work, or can people be involved? The question in open source is the same, where it's like as a maintainer is it our responsibility to provide this free software to all these developers and companies and do it for free?
 
 [01:06:50] **Jonathan:** Yeah, I think in my case we have to deal with what's in our collection in terms of preserving it. Other museums deal with their collections, and then there's also this organization, [Rhizome](https://rhizome.org/), that has their collection of mostly net art, and they're actually developing a lot of really interesting software to deal with some of the problems of preserving that art in their collection. They came up with [Webrecorder](https://webrecorder.net/), which is a piece of open source software that allows for interactive web archiving. A lot of web archiving software, it's automated. It'll just go out and it'll bring in the pages but for the modern web, you have a lot of different interactive stuff.
 

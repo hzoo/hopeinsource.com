@@ -67,7 +67,7 @@ quotes:
 
 [05:16] **Michael:** And so I did have some frustrations with the ways in which one tries to sustain an audience in an era of social media and was not really happy with any of the options. Right now, I think we're sort of in a boom of newsletters. I'd like to say a little prior to that boom, the newsletter option became something that some writers were turning towards.
 
-[05:36] **Michael:** I described it as a rather convivial tool in the sense that it liberated one from the temporal patterns of social media, right? So if something is delivered to one's inbox it, it doesn't exist in a kind of temporal horizon where you have to sort of catch it or else we find yourself as the producer having to repeat yourself all the time on social media in order to capture somebody's attention.
+[05:36] **Michael:** I described it as a rather convivial tool in the sense that it liberated one from the temporal patterns of social media, right? So if something is delivered to one's inbox it doesn't exist in a kind of temporal horizon where you have to sort of catch it or else we find yourself as the producer having to repeat yourself all the time on social media in order to capture somebody's attention.
 
 [05:58] **Michael:** And so it also gave the reader complete freedom to discard, to delete, to read again, to open when they want. And so I thought that there was something attractive about that particular medium. And to know that I wasn't just sort of writing into the ether of the internet, but to a neatly circumscribed community of people.
 
@@ -91,7 +91,7 @@ quotes:
 
 [09:45] **Madhu:** And so they are the ones being starved of learning opportunities. And then you compound that with handicap people with just different disorders, ADHD, and so on and so forth who are suffering. Just as there's immense suffering amongst people of color in terms of infection and death. So in that spirit, it's dragged in as one more horrible inequality in our society. Thoughts on that as a lover of Illich or a friend of Illich.
 
-[10:24] **Michael:** Yeah. No, I think that's absolutely right. And it's interesting, because the idea that we might be presented with an opportunity in a sense may also sort of naively presuppose that a great deal of damage hasn't been done already over the years, that was in large measure ignored or papered over or not attended to in a way that it ought to have been. So opportunity for some, but others are reinforced in their lack of opportunity, their lack of resources available to them.
+[10:24] **Michael:** No, I think that's absolutely right. And it's interesting, because the idea that we might be presented with an opportunity in a sense may also sort of naively presuppose that a great deal of damage hasn't been done already over the years, that was in large measure ignored or papered over or not attended to in a way that it ought to have been. So opportunity for some, but others are reinforced in their lack of opportunity, their lack of resources available to them.
 
 [10:52] **Michael:** And so that now we're beginning to see all of these fractures and inequalities in our society for what they are, they're exposed and heightened. And so this has been a revelatory experience. And that we also have lost certain capacities along the way.
 
@@ -101,7 +101,7 @@ quotes:
 
 [11:53] **Michael:** Right. And even with something so basic as who can afford to stay home, or who can afford to quarantine appropriately or protect themselves, and who's forced into unhealthy situations. So Yeah, it's been devastating and tragic.
 
-[12:09] **Michael:** I was thinking of deskilling in terms of our inability to appropriately care for one another, or even with regards to where we began here, the task of education. If we are placed in a position where we have our children at home, do any of us even know any longer what it means to teach our children? Not formally necessarily by the curricular standards of the institutional school, but by simply introducing them to to the skills that they need as human beings to flourish.
+[12:09] **Michael:** I was thinking of deskilling in terms of our inability to appropriately care for one another, or even with regards to where we began here, the task of education. If we are placed in a position where we have our children at home, do any of us even know any longer what it means to teach our children? Not formally necessarily by the curricular standards of the institutional school, but by simply introducing them to the skills that they need as human beings to flourish.
 
 [12:43] **Michael:** The fact that so many parents feel inadequate to that task is both a reflection of the inequalities on the one hand, but then also I think a reflection of what schooling has become. Which I think Illich's work can help us at least imagine some alternatives or some other ways of thinking about what schooling and education can be that would be liberating in our context.
 
@@ -117,7 +117,7 @@ quotes:
 
 [14:46] **Michael:** I sometimes refer to technology as sort of the material infrastructure of our moral lives or alternatively the infrastructure of our social lives. This may be changing to some degree, but in the popular imagination tools are just sort of neutral things that we can use for good or you use for ill.
 
-[15:04] **Michael:** They don't necessarily have a very great bearing on our our moral or communal or social lives. And so recognizing through the work of Ivan and others, that this is not the case. That the tools that we use have a profound impact on how we conduct our lives, how we imagine the social sphere, then then to ask questions of those systems and tools and artifacts, and try to understand how they impact our efforts to live the kinds of lives that we want to live.
+[15:04] **Michael:** They don't necessarily have a very great bearing on our moral or communal or social lives. And so recognizing through the work of Ivan and others, that this is not the case. That the tools that we use have a profound impact on how we conduct our lives, how we imagine the social sphere, then to ask questions of those systems and tools and artifacts, and try to understand how they impact our efforts to live the kinds of lives that we want to live.
 
 [15:40] **Michael:** And those ends may be very diverse. They may depend upon one's cultural or religious background and upbringing and assumptions. But regardless of what those happened to be the tools in a modern society are still kind of intersecting with those desires and aspirations.
 
@@ -137,7 +137,7 @@ quotes:
 
 [18:12] **Dana:** And if I can give an example very quickly of what I mean. Ever since I lived in Southwestern Ohio, where I passed the tallest mountain in Ohio, which happened to be a landfill, I've asked myself everything I put in the trash is there in that mountain. That's an ethical issue and waste. Very generally, I ask myself all the time, how do I judge my living, my decisions, my actions, my relationship to my daughter and what she's learning by living with me. So these are very real personal questions. I can't say that I've achieved any enlightenment on them, but those are my active questions. And I suspect you have similar.
 
-[18:56] **Michael:** Yeah. One of the things that comes to my mind along these lines. Let me back up a little bit. At the end of *Deschooling Society*, Illich draws upon the myth of Prometheus and that opposition between a life that seeks to plan and control, as opposed to receiving as a gift, right? So that frame of mind that the reality that we experience is a gift and is given and for which we have responsibilities which does not belong to us as it were.
+[18:56] **Michael:** One of the things that comes to my mind along these lines. Let me back up a little bit. At the end of *Deschooling Society*, Illich draws upon the myth of Prometheus and that opposition between a life that seeks to plan and control, as opposed to receiving as a gift, right? So that frame of mind that the reality that we experience is a gift and is given and for which we have responsibilities which does not belong to us as it were.
 
 [19:25] **Michael:** Especially as I think about this in a distinctively theological vein with people like Illich or even [Wendell Berry](https://en.wikipedia.org/wiki/Wendell_Berry) who has this wonderful line about how we live the given life, not the planned in one of his Sabbath poems. And that succinctly captures something that is very important to me.
 
@@ -145,7 +145,7 @@ quotes:
 
 [20:02] **Michael:** So Berry describes the lowest denominator of health is the community, not the individual. And the community he defines as the all living things and the world that they inhabit, right? So that there's this rich network of communities in which I am but one member. And not even necessarily by myself, the most important member.
 
-[20:24] **Michael:** And I find that the, the affordances of modern technology, particularly as they are sort of coupled with a consumer economy, encouraged me to see the world in precisely the opposite fashion as sort of disposable reality that is subject to my whim. And for which there are no consequences however I treat the world. There are ultimately no consequences to pay. I just keep on consuming as it were.
+[20:24] **Michael:** And I find that the affordances of modern technology, particularly as they are sort of coupled with a consumer economy, encouraged me to see the world in precisely the opposite fashion as sort of disposable reality that is subject to my whim. And for which there are no consequences however I treat the world. There are ultimately no consequences to pay. I just keep on consuming as it were.
 
 [20:48] **Michael:** So resisting that frame in order to see the world as a gift that invites my wonder and my gratitude and my care and my celebration. And again, in speaking of this, the work of Ivan and of Albert Borgmann, the work with Wendell Berry, all neatly form a package for me. And helping me to articulate this and express this desire to have a certain way of being in the world.
 
@@ -161,9 +161,9 @@ quotes:
 
 [22:36] **Dana:** Because I see that response as a problem. But that example is illustrative of an approach to technology and technological solutions to the many crises that I think Illich has something to say about.
 
-[22:53] **Michael:** Yeah. That gesture that there is this one still future or still developing technology that will be the solution to all of the problems with the prior configuration of technology has caused.
+[22:53] **Michael:** That gesture that there is this one still future or still developing technology that will be the solution to all of the problems with the prior configuration of technology has caused.
 
-[23:03] **Michael:** On the one hand, I don't want to suggest that it is impossible. You know, one of the things I've been thinking of late is that when one sort of writes in this vein it, it's very common to sort of hear the rejoinder. Well are you just anti-technology? And I think one of the wonderful things about Illich, especially in *Tools for Conviviality*, it's not about, anti-technology about finding the right technology, the technology that is conducive towards human flourishing right. There are no illusions in Illich's work about a return to some sort of state of nature or anything of that sort, but it is about finding tools that are appropriate.
+[23:03] **Michael:** On the one hand, I don't want to suggest that it is impossible. You know, one of the things I've been thinking of late is that when one sort of writes in this vein it's very common to sort of hear the rejoinder. Well are you just anti-technology? And I think one of the wonderful things about Illich, especially in *Tools for Conviviality*, it's not about, anti-technology about finding the right technology, the technology that is conducive towards human flourishing right. There are no illusions in Illich's work about a return to some sort of state of nature or anything of that sort, but it is about finding tools that are appropriate.
 
 [23:40] **Michael:** One way of thinking about this is, you know, tools are appropriate to a human scale. I just saw someone comment yesterday about Facebook and asking whether the problem with Facebook was at scale, to which of course in my mind with Illich on the question of scale and limits very much in view, answered yes, obviously. And if you applied sort of the institutional critique to something like Facebook, the only thing Facebook can ever offer you is more Facebook. And so the idea that the answer may be limits is something that never occurs to us, right. This is something that both Berry and Illich are so good on, that maybe the answer is not more, but less. Or differently configured.
 
@@ -175,7 +175,7 @@ quotes:
 
 [25:06] **Michael:** The way I've thought of it lately is, you know, [Simone Weil](https://en.wikipedia.org/wiki/Simone_Weil) talks about the [need for roots](https://en.wikipedia.org/wiki/The_Need_for_Roots). She talks about the needs of the soul and distinguishes between material and material needs. And certainly from a certain perspective for a certain class of people, industrial society has provided for material needs by certain measures, but perhaps at the cost of ignoring the non-material needs that are often as important for human flourishing as the material needs.
 
-[25:33] **Michael:** And so instead of imagining that the answer is always more of something, but rather to consider that perhaps the answer is less. A different way of life. A smaller scale, a more humane scale for our technologies, for our communities. And that there are satisfactions in that, that we have lost sight of. And that might more readily provide us with joy and and a sense of meaning that we encounter these limits, not as something to be transcended, but rather as essential to, I think Berry puts it as "invitations to elaboration" within those limits that provide a wonderful fund of endless satisfactions. That's I think also an important part of this.
+[25:33] **Michael:** And so instead of imagining that the answer is always more of something, but rather to consider that perhaps the answer is less. A different way of life. A smaller scale, a more humane scale for our technologies, for our communities. And that there are satisfactions in that, that we have lost sight of. And that might more readily provide us with joy and a sense of meaning that we encounter these limits, not as something to be transcended, but rather as essential to, I think Berry puts it as "invitations to elaboration" within those limits that provide a wonderful fund of endless satisfactions. That's I think also an important part of this.
 
 [26:19] **Dana:** That was a beautiful response, Micheal.
 
@@ -185,9 +185,9 @@ quotes:
 
 [26:29] **Dana:** Can I ask a question about Ivan's ideas that challenge you or to live them out or to imagine them manifest in the world or other interpretations too?
 
-[26:43] **Michael:** Yeah. It is challenging to think about, what is a need? What do I consider a need? What do I feel that I need? What has fabricated that sense of need in me? And that exploration, that is in part generated from Ivan's work, I think is something that I think all of us would find relatively challenging. What do I feel that I need? And what do I sacrifice in order to meet these needs? And are they in fact needs in the way that we think that they are? And so to constantly think about that and examine my own life, my own practices, the allocation of my time. I wouldn't say that that's troubling, but it is challenging to live with that question in view.
+[26:43] **Michael:** It is challenging to think about, what is a need? What do I consider a need? What do I feel that I need? What has fabricated that sense of need in me? And that exploration, that is in part generated from Ivan's work, I think is something that I think all of us would find relatively challenging. What do I feel that I need? And what do I sacrifice in order to meet these needs? And are they in fact needs in the way that we think that they are? And so to constantly think about that and examine my own life, my own practices, the allocation of my time. I wouldn't say that that's troubling, but it is challenging to live with that question in view.
 
-[27:20] **Michael:** Again, to imagine that there is a kind of austerity that.. And austerity now has become such a politically loaded word. But I think Ivan doesn't use it with regards to what at least since 2008 been seen as especially sort of neo-liberal approach to finance, but rather of personal austerity and an aesthetic practice that is aimed not simply at saying no, but having the capacity to say yes to the things that we truly value and would be truly satisfying in own lives and so that, that, that idea of, of re-examining needs of recognizing the importance of a certain form of austerity or aesthetism in our own lives, these are things that I want to allow to constantly sort of challenge how I live in my assumptions.
+[27:20] **Michael:** Again, to imagine that there is a kind of austerity that.. And austerity now has become such a politically loaded word. But I think Ivan doesn't use it with regards to what at least since 2008 been seen as especially sort of neo-liberal approach to finance, but rather of personal austerity and an aesthetic practice that is aimed not simply at saying no, but having the capacity to say yes to the things that we truly value and would be truly satisfying in own lives and so that idea of re-examining needs of recognizing the importance of a certain form of austerity or aesthetism in our own lives, these are things that I want to allow to constantly sort of challenge how I live in my assumptions.
 
 #### Progeny
 
@@ -231,7 +231,7 @@ quotes:
 
 [34:50] **Madhu:** .. I have not even hugged.. But that's just a metaphor for our times that we have taken this enemy, the virus, as another way of cutting ourselves off from playfulness and friendship.
 
-[35:08] **Michael:** Yeah. What comes to my mind right now, and this is undeveloped thoughts, but the regimentation of life that does not allow for playfulness and I think of this even with regards to our children. This is painting with a very broad stroke, but that there's one way in which we might say that we have infantilized adulthood and that we have simultaneously professionalized childhood and the loss of playfulness even for children. And some of this is connected with what schooling has become, especially in more well-to-do families where even the choice of the right preschool becomes so fraught with anxiety about future prospects and that there is this very regimented way that we want to construct our children's lives.
+[35:08] **Michael:** What comes to my mind right now, and this is undeveloped thoughts, but the regimentation of life that does not allow for playfulness and I think of this even with regards to our children. This is painting with a very broad stroke, but that there's one way in which we might say that we have infantilized adulthood and that we have simultaneously professionalized childhood and the loss of playfulness even for children. And some of this is connected with what schooling has become, especially in more well-to-do families where even the choice of the right preschool becomes so fraught with anxiety about future prospects and that there is this very regimented way that we want to construct our children's lives.
 
 [35:56] **Michael:** Often, you know, I grant that it often is motivated by well-meaning parents who want the best for their children. I have a picture of what that looks like, however limited it may be Or very concerned, especially maybe with the safety of children so that we have excised this playfulness this more liberated encounter with the world, risky as it may sometimes be.
 
@@ -271,9 +271,9 @@ quotes:
 
 [42:46] **Michael:** I mean, I think Illich is sort of his own genre in some respects. You know, as this question suggests, it doesn't sit neatly within our academic discourse. But to introduce people to that work in a way that is inviting, I certainly hope that's part of what I've done and what the newsletter does. And actually, I tend to find Illich's work stimulating and provocative. But I can see how even sort of the idea of questioning the institutions of medicine and schooling just run so against the grain of the assumptions of modernity's blessings to us and what we take for granted.
 
-[43:22] **Michael:** So when people in in the grassroots, or indigenous people who don't have access to these same services or institutions, or don't take the same things for granted find that aha moment, that I think that is a testament to the fact that part of the problem with the quote unquote educated class is that we have been so schooled by modernity as it were that we don't see the truth that is contained in the wisdom that I think Illich channels in his own way.
+[43:22] **Michael:** So when people in the grassroots, or indigenous people who don't have access to these same services or institutions, or don't take the same things for granted find that aha moment, that I think that is a testament to the fact that part of the problem with the quote unquote educated class is that we have been so schooled by modernity as it were that we don't see the truth that is contained in the wisdom that I think Illich channels in his own way.
 
-[43:53] **Michael:** All of that to say that, that I there's a little work to do there sometimes. And maybe it is just in making that application, right? Where look, here's this problem that we face and I I've got this wonderful insight from Illich that helps us understand this.
+[43:53] **Michael:** All of that to say that there's a little work to do there sometimes. And maybe it is just in making that application, right? Where look, here's this problem that we face and I've got this wonderful insight from Illich that helps us understand this.
 
 [44:09] **Michael:** And maybe if they had come to Illich in a different way, it might've been different. But yeah, hopefully that's work that I feel very much.. called maybe is too freighted away, but I certainly experience it as part of what I want to accomplish through some of my writing.
 
@@ -305,7 +305,7 @@ quotes:
 
 > [Dialogues](https://www.goodreads.com/book/show/1107404-dialogues) by Jerry Brown - A collection of interviews from his radio show.
 
-[48:09] **Michael:** Okay. Yeah. I found that online, David Apple or something, he has a kind of a archive and I think that's where I first encountered him.
+[48:09] **Michael:** Yeah. I found that online, David Apple or something, he has a kind of a archive and I think that's where I first encountered him.
 
 [48:16] **Madhu:** Oh, that book is a joy. It's Jerry Brown interviewing a whole spectrum of people and that many interviews that he had on the radio and he's put it beautifully.
 
@@ -317,7 +317,7 @@ quotes:
 
 [48:51] **Dana:** Tutorial. But the point is, I became aware that Ivan was actually having a conversation with people dead and with people in the room. That every lecture attendee was simply listening in on a conversation. And unless you understood that, you were even more lost.
 
-[49:10] **Michael:** Yeah. That's that's really well put.
+[49:10] **Michael:** That's really well put.
 
 [49:13] **Dana:** I was saying.. So that you use conversation and sitting around the table to suggest that that be the way to invite people in is so perfect. Is so apt.
 

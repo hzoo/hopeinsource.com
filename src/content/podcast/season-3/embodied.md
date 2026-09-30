@@ -35,17 +35,17 @@ quotes:
 
 > The Oxford definition of indwelling (within a theological context): "be permanently present in (someone's soul or mind); possess spiritually."
 
-[00:33] **Henry:** And I think that is an aspect of perception and awareness. There's a sense that we are blind because like we can see things with our eyes, but if our minds don't see the pattern that's there, they won't show up. He was saying the body is actually something we always indwell, meaning we always are relying on our body. We can't focus on our body, cause we live through our body. We are, like we said, embodied beings.
+[00:33] **Henry:** And I think that is an aspect of perception and awareness. There's a sense that we are blind because we can see things with our eyes, but if our minds don't see the pattern that's there, they won't show up. He was saying the body is actually something we always indwell, meaning we always are relying on our body. We can't focus on our body, cause we live through our body. We are, like we said, embodied beings.
 
 > "And our body is the only aggregate of things of which we are aware almost exclusively in such a subsidiary manner." - [Polanyi, The Structure of Consciousness](http://www.polanyisociety.org/mp-structure.htm)
 
-[00:57] **Maggie:** Yeah. Did we talk last time about directionality in cultures and intuitively knowing what direction you're facing.
+[00:57] **Maggie:** Did we talk last time about directionality in cultures and intuitively knowing what direction you're facing.
 
 [01:05] **Henry:** Yeah, I think you mentioned the whole behind and forward in terms of time, yeah.
 
 > "They talk about the past as being in front of them because they can see what's happened and the future is behind them because they can't see it." [Maggie, metaphor episode](https://hopeinsource.com/metaphor/#t=14:44)
 
-[01:09] **Maggie:** Yeah. And then there's also one where depending on the language you speak, it will affect your ability to perceive directions. So in Papa new Guinea, there's a couple of places too, if you say good morning to someone, you see it in a way that's like, good morning, I'm walking Northeast. And they might say, good morning, I'm walking Southwest. So in every single interaction and exchange you have, you are stating your positionality in the world and it makes it so that children of these cultures, if you ask them what direction Southwest is, they can point and it's dead on. It's correct.
+[01:09] **Maggie:** And then there's also one where depending on the language you speak, it will affect your ability to perceive directions. So in Papa new Guinea, there's a couple of places too, if you say good morning to someone, you see it in a way that's like, good morning, I'm walking Northeast. And they might say, good morning, I'm walking Southwest. So in every single interaction and exchange you have, you are stating your positionality in the world and it makes it so that children of these cultures, if you ask them what direction Southwest is, they can point and it's dead on. It's correct.
 
 [01:42] **Maggie:** They just know because the technology of their language has given them this bodily understanding of directionality in a way that we don't have, right. If someone asks us where Northwest is and we're inside the house, most of us who speak English would just have no clue.
 
@@ -53,11 +53,11 @@ quotes:
 
 #### Ambient Technology
 
-[02:05] **Maggie:** Yeah. And I love this idea of indwelling, of ambient technology that takes more advantage or is more entwined with our bodily experience in the world. I know that Google is doing work on trying to put [wearables into clothing](https://atap.google.com/jacquard/), but we use very little haptic feedback in our current technical systems. I always think of fitness trackers, especially.
+[02:05] **Maggie:** And I love this idea of indwelling, of ambient technology that takes more advantage or is more entwined with our bodily experience in the world. I know that Google is doing work on trying to put [wearables into clothing](https://atap.google.com/jacquard/), but we use very little haptic feedback in our current technical systems. I always think of fitness trackers, especially.
 
 [02:25] **Maggie:** So vibrating certain parts of the body to give information. It doesn't take a lot of cognitive ability to clock something like that. And we rely so much on visuals right now. So if you get a notification, right, it's some popup in your sidebar, or it's on your phone and it has to make a noise and it interrupts your cognitive flow in a more explicit way.
 
-[02:44] **Maggie:** And I don't understand why or what the barriers are to us having something like, you know, if I got a certain message that my right shoulder would vibrate, and if I got a different kind of message, you know, like something like my left leg would vibrate.
+[02:44] **Maggie:** And I don't understand why or what the barriers are to us having something like, you know, if I got a certain message that my right shoulder would vibrate, and if I got a different kind of message, something like my left leg would vibrate.
 
 [02:57] **Maggie:** Cause to get back to the directionality one a bit. I had heard from one of my other friends, a story of someone who had built themselves a belt that would always vibrate in the direction of North when they were facing it. And think of how quickly you would learn which direction North was, if just there was this very tacit nudge that gives you like, Oh, okay, that's North. And even if you were in a house, you would suddenly learn to understand the direction so fast.
 
@@ -67,13 +67,13 @@ quotes:
 
 [03:28] **Maggie:** I mean, it gets us back to the technology as tools with the affordances baked in, that because we've all been handed the web and our digital mediums from this historical legacy of being visual first and text first. That we don't have the design patents for embodiment or using light or sound in different ways with them, even if we now have more of the material infrastructure to be able to do that.. Most of us can't actually hack together a raspberry PI system that has cool led lights that communicate things to us or haptic feedback stuff, right.
 
-[04:05] **Maggie:** We can build an app in React, but you know, we can't build things into our house that are more just like inventive technology processes. Or it takes a lot of work to, or at least I've tried Googling it and it's harder than I can figure out.
+[04:05] **Maggie:** We can build an app in React, but you know, we can't build things into our house that are more just inventive technology processes. Or it takes a lot of work to, or at least I've tried Googling it and it's harder than I can figure out.
 
 [04:19] **Henry:** It might be just, we kind of reflect the kind of programming that we do. When we're writing code, we're using lists and maps. We see all these lists, so we just assume that it's going to be like a feed or in Zoom it's a box. We don't know how to think spatially, so it's just not what we turn to.
 
 #### Paperclip Thought Experiment
 
-[04:43] **Maggie:** Yeah. That's funny. I had done a talk recently. Do you know the paperclip machine thought experiment, from AI?
+[04:43] **Maggie:** That's funny. I had done a talk recently. Do you know the paperclip machine thought experiment, from AI?
 
 [04:50] **Henry:** I dunno if it's the same.
 
@@ -97,7 +97,7 @@ quotes:
 
 [07:27] **Henry:** Right, we don't understand the second order effects of whatever is happening right.
 
-[07:33] **Maggie:** Yeah. And it always just bounces back. There's always a reaction to any extreme action.
+[07:33] **Maggie:** And it always just bounces back. There's always a reaction to any extreme action.
 
 #### Knowing is Subjective
 
@@ -125,15 +125,15 @@ quotes:
 
 [09:24] **Maggie:** And Bruno was quite innovative doing this throughout the seventies and eighties saying no, no, you know, you have culture just like everyone else. Anthropologists don't just study people on islands and claim they're the only ones with culture, you know.
 
-[09:36] **Maggie:** It's like everyone has cultural beliefs and biases and blind spots. And pointing that out was quite an innovative thing. But him with Polanyi was so strange because Bruno Latour has this theory about what he calls hybrid objects, which says, you know, how do we explain that everything is cultural and subjective and yet also hold that the physical world has what he calls like a robustness to it that you can't deny.
+[09:36] **Maggie:** It's like everyone has cultural beliefs and biases and blind spots. And pointing that out was quite an innovative thing. But him with Polanyi was so strange because Bruno Latour has this theory about what he calls hybrid objects, which says, you know, how do we explain that everything is cultural and subjective and yet also hold that the physical world has what he calls a robustness to it that you can't deny.
 
 > "facts remain robust only when they are supported by a common culture, by institutions that can be trusted, by a more or less decent public life, by more or less reliable media." - [nytimes](https://www.nytimes.com/2018/10/25/magazine/bruno-latour-post-truth-philosopher-science.html)
 
-[09:59] **Maggie:** Like I can't deny this table is solid and I can't put my hand through it. I don't have the subjective opinion that I'm able to put my hand through the table. Or that how do we understand that everything is a hybrid of both social, cultural beliefs and physical reality.
+[09:59] **Maggie:** I can't deny this table is solid and I can't put my hand through it. I don't have the subjective opinion that I'm able to put my hand through the table. Or that how do we understand that everything is a hybrid of both social, cultural beliefs and physical reality.
 
-[10:16] **Maggie:** He's uses the example of quarks, that if we didn't have any conception of what a quark was. That's a cultural concept. We've given it a name and we've studied it in like a very cultural space where we said, okay, this is how we're going to study that quarks exist. And we're going to use all these special instruments to study them.
+[10:16] **Maggie:** He's uses the example of quarks, that if we didn't have any conception of what a quark was. That's a cultural concept. We've given it a name and we've studied it in a very cultural space where we said, okay, this is how we're going to study that quarks exist. And we're going to use all these special instruments to study them.
 
-[10:33] **Maggie:** And then we're gonna tell ourselves stories about what quarks are and who they're important to and why they're important. Those are all social, cultural layers to it. But at the core, if we hadn't told any of those things, they would still be quarks in the universe. So like, how do we blend those, but I liked his idea of that there's like this layer around them.
+[10:33] **Maggie:** And then we're gonna tell ourselves stories about what quarks are and who they're important to and why they're important. Those are all social, cultural layers to it. But at the core, if we hadn't told any of those things, they would still be quarks in the universe. So, how do we blend those, but I liked his idea of that there's like this layer around them.
 
 [10:50] **Maggie:** So you have the physical thing and there's the social cultural layer on the outside. And we can't see the quark without looking through that layer, right. We built the layer and we're inside of it. And there is no way for us to step outside of it, into this objective, idealist, modernist viewpoint, and be like, no, no, I know what quarks really are because the numbers on my graph that I have also invented, you know, say this quark exists. It fails to recognize that the graph itself and your measurement devices are cultural artifacts.
 
@@ -147,7 +147,7 @@ quotes:
 
 [11:55] **Maggie:** And I do like that approach too, cause it's different to what I would maybe think of as the popular understanding of how your quote unquote supposed to study or consume someone's.. consume even oh that word.. but read someone's work currently, right.
 
-[12:11] **Maggie:** You're supposed to like sit down and you're like super focused mode and take really great notes into your digital [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) system. And take out all the highlights and automate the process and tweet about it. It's a very specific way of interacting with knowledge, as opposed to coming to it in bits and pieces and revisiting it in small chunks over time, and not turning it into some sort of information filtering system.
+[12:11] **Maggie:** You're supposed to sit down and you're like super focused mode and take really great notes into your digital [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten) system. And take out all the highlights and automate the process and tweet about it. It's a very specific way of interacting with knowledge, as opposed to coming to it in bits and pieces and revisiting it in small chunks over time, and not turning it into some sort of information filtering system.
 
 [12:36] **Henry:** We said this before, but that is the whole reductionist view of information, that you can just download it.
 
@@ -159,15 +159,15 @@ quotes:
 
 [13:03] **Henry:** If we want to know somebody, you're not going to do all your research on someone before you get to know them. It's good to have some kind of context, but wouldn't you rather just actually talk to them?
 
-[13:14] **Henry:** And you could say the same thing about God, it's like, I can read a bunch of stuff about him or what other people said about him. I think communion is a good word to describe what the relationship is supposed to be like? What is prayer really about? Not thoughts and prayers, but like actually communication. And communication is a relationship. And I think that's why in this sense faith is a relationship.
+[13:14] **Henry:** And you could say the same thing about God, it's like, I can read a bunch of stuff about him or what other people said about him. I think communion is a good word to describe what the relationship is supposed to be like? What is prayer really about? Not thoughts and prayers, but actually communication. And communication is a relationship. And I think that's why in this sense faith is a relationship.
 
 [13:37] **Henry:** And I think that represents a good way of thinking about how we might want to relate to knowledge too, even though it's not a real person, we personify. And that's why it's personal, right? Any topic that you care a lot about, you're obviously gonna put your whole body, mind, and soul into this thing.
 
-[13:56] **Maggie:** Yeah. I liked that so much, that idea of putting the embodied action investment into, when you care about something to try and be part of it. I'm now thinking about when someone gets really into a theory or an author, and they want to go do something like a pilgrimage to where that person maybe used to live or they, or they'll buy a really nice copy of the hardback edition of one of their books, right.
+[13:56] **Maggie:** I liked that so much, that idea of putting the embodied action investment into, when you care about something to try and be part of it. I'm now thinking about when someone gets really into a theory or an author, and they want to go do something like a pilgrimage to where that person maybe used to live or they'll buy a really nice copy of the hardback edition of one of their books, right.
 
 [14:22] **Maggie:** And what they're seeking is some sort of meaningful embodied experience with what so far has just being more of a detached mental experience. Maybe just text on a page. I was thinking of this because all around London, we're sort of getting allowed to go around a bit more again, with locked down lifting.
 
-[14:41] **Maggie:** And I always love all around London, they're these blue plaques on houses that you see where the famous people used to live in the house or not. So there's hundreds of them, but you can be walking around London and be like, Oh, like Friedrich Engels used to live in this house. Or like, Led Zeppelin or whatever visited here in this year, or here's the old Beatles recording studio.
+[14:41] **Maggie:** And I always love all around London, they're these blue plaques on houses that you see where the famous people used to live in the house or not. So there's hundreds of them, but you can be walking around London and be like, Oh, Friedrich Engels used to live in this house. Or like, Led Zeppelin or whatever visited here in this year, or here's the old Beatles recording studio.
 
 [14:59] **Maggie:** So you can kind of go to these locations and see it. And you go, what's the point of having these? But it gives you so much more of this, like, Oh, for some reason, this feels now like I'm more embodied with my relationship with this person, that was before just an intellectual one. And now I'm standing where they stood. It does have meaning to us.
 
@@ -175,7 +175,7 @@ quotes:
 
 #### Truth through Ritual
 
-[15:27] **Henry:** Because we were talking about how knowledge is subjective, but leading towards something objective, the question might you might be asking is how do you know something is true then?
+[15:27] **Henry:** Because we were talking about how knowledge is subjective, but leading towards something objective, the question you might be asking is how do you know something is true then?
 
 [15:38] **Henry:** And he's saying that you can't ever know for certain what the truth is, meaning that we're all fallible, right? You can't be a hundred percent certain; you could say that's very postmodernist. He's trying to say that the way we showcase that to ourselves and other people is through commitment. Meaning that you will stake something on the things that you believe. The same idea of skin in the game, right? So it is not an intellectual thing. Right? And we could say in faith, we devote our life to this thing, right?
 
@@ -183,23 +183,23 @@ quotes:
 
 [16:12] **Maggie:** Interesting. So is it the theory of skin in the game and saying, okay, no, I believe this thing, so I'm going to put material time and effort into it. Is there something if lots and lots of people believe something's true, that that's where they start to build physical artifacts to demonstrate commitment to it. Would that add up?
 
-[16:31] **Henry:** Yeah, I think so. I think I might emphasize more of the practices. So like liturgy, ritual, right? Not just you actually, it becomes a part of the community and that would be like a church setting or a science as a general community, right.
+[16:31] **Henry:** Yeah, I think so. I think I might emphasize more of the practices. So liturgy, ritual, right? Not just you actually, it becomes a part of the community and that would be like a church setting or a science as a general community, right.
 
 [16:46] **Henry:** Those artifacts become the liturgies. And liturgies are in a way practices that are embodied through people doing them, because if no one does them anymore.. If people wrote down how to pray or worship, and you have the instruments for it, and the setting like the cathedral, but no one actually does it, then you probably won't be able to pass that down anymore.
 
-[17:10] **Maggie:** Right. I mean, yeah, that is very like a live belief and knowledge that have, you know, thousands of people engaging in a certain practice. Is there any greater signal of it, you know, if something being true for lots and lots of people then actively there being enormous numbers of people living out a long tradition of ritual and a practice.
+[17:10] **Maggie:** Right. Yeah, that is very like a live belief and knowledge that have, you know, thousands of people engaging in a certain practice. Is there any greater signal of it, you know, if something being true for lots and lots of people then actively there being enormous numbers of people living out a long tradition of ritual and a practice.
 
 [17:32] **Henry:** And I think that's why modern American worship are a lot more almost like pop culture-ish and other people are like, no, we need to be more traditional like hymns. And I understand the appeal of that because like the whole, I've still where other people stood or I'm saying the same things that other people have been saying for the last thousands of years. There's something special about that, and we shouldn't get rid of it just because we thought it sounds weird.
 
-[17:57] **Maggie:** Right. Cause we probably receive it as a little bit of arrogance, right. When people say they're going to throw out history. It's to say, I don't think that anything that has come before.. You give up the idea that it could have something you don't understand. Singing a hymn that has been sung for thousands of years and you think, Oh, well, you know, it has no meaning to me, let's just not do it anymore. You're not making space for what maybe it can like teach you that you aren't consciously aware of.
+[17:57] **Maggie:** Right. Cause we probably receive it as a little bit of arrogance, right. When people say they're going to throw out history. It's to say, I don't think that anything that has come before.. You give up the idea that it could have something you don't understand. Singing a hymn that has been sung for thousands of years and you think, Oh, well, you know, it has no meaning to me, let's just not do it anymore. You're not making space for what maybe it can teach you that you aren't consciously aware of.
 
-[18:23] **Henry:** Yeah. Cause it means that the focus is on the content again, because the medium is different, right. Hymns in itself is a different medium than just the normal song.
+[18:23] **Henry:** Cause it means that the focus is on the content again, because the medium is different, right. Hymns in itself is a different medium than just the normal song.
 
 #### The Incarnation as Skin in the Game
 
 > "The Word became flesh and made his dwelling among us. We have seen his glory, the glory of the one and only Son, who came from the Father, full of grace and truth." - [John 1:14 NIV](https://www.biblegateway.com/passage/?search=John%201&version=NIV)
 
-[18:31] **Henry:** And actually, skin in the game, specifically in Christianity, is really interesting. And I didn't really put the two together. The story of Christianity itself is God becoming a person, right. That is it's own skin in the game of like, assuming you believe in any of this and that it's a positive thing, God becoming a person and representing us, is saying I care about you. I will actually become incarnate, like an actual embodied being. And then also the whole death and resurrection part too. That to me is a reminder that Christianity should be very anti-modern and it should embrace this idea of embodiment more.
+[18:31] **Henry:** And actually, skin in the game, specifically in Christianity, is really interesting. And I didn't really put the two together. The story of Christianity itself is God becoming a person, right. That is it's own skin in the game of, assuming you believe in any of this and that it's a positive thing, God becoming a person and representing us, is saying I care about you. I will actually become incarnate, like an actual embodied being. And then also the whole death and resurrection part too. That to me is a reminder that Christianity should be very anti-modern and it should embrace this idea of embodiment more.
 
 > "So it appears that the church founders really wanted Christ to have skin in the game; he did actually suffer on the cross, sacrifice himself, and experience death. He was a risk taker. More crucially to our story, he sacrificed himself for the sake of others." - Skin in the Game, pg 120
 
@@ -207,21 +207,21 @@ quotes:
 
 [19:28] **Maggie:** Hmm. I like that. I hadn't thought of that before. That embodiment clearly being so symbolically critical. And then God coming into human form and the resurrection, clearly yeah it's a signal that embodiment is important.
 
-[19:41] **Maggie:** And in my head, I'm just finding it an interesting contrast to what I would maybe think of as I want to call it like the digital religion, but, you know, the transhumanist ideal that is a little bit religious in many ways. It's ideal is to escape embodiment, right?
+[19:41] **Maggie:** And in my head, I'm just finding it an interesting contrast to what I would maybe think of as I want to call it the digital religion, but, you know, the transhumanist ideal that is a little bit religious in many ways. It's ideal is to escape embodiment, right?
 
-[19:55] **Maggie:** Like all the rhetoric around, well, not just living in the cloud, but not caring as much about your body or it being a burden or weight. You have to upkeep it. It's talked about as this inconvenient thing. Yeah, it doesn't allow you to just like fly through cyberspace, right?
+[19:55] **Maggie:** Like all the rhetoric around, well, not just living in the cloud, but not caring as much about your body or it being a burden or weight. You have to upkeep it. It's talked about as this inconvenient thing. Yeah, it doesn't allow you to just fly through cyberspace, right?
 
-[20:12] **Maggie:** Like is like the VR dream of everyone wanting to just put on headsets and not have to deal with that physicality. That's funny. I hadn't ever thought of, of the contrast between those two. And I wonder if then transhumanism is some sort of reaction to maybe some of the more traditional religious beliefs.
+[20:12] **Maggie:** Like is like the VR dream of everyone wanting to just put on headsets and not have to deal with that physicality. That's funny. I hadn't ever thought of the contrast between those two. And I wonder if then transhumanism is some sort of reaction to maybe some of the more traditional religious beliefs.
 
-[20:30] **Henry:** Yeah. Actually, even in revelation, when Christ comes back, we talk about this idea of new heavens and new earth. And we will all have new bodies. And so whatever that means, there is a belief that we will still have a body, we're not just a spirit, right.
+[20:30] **Henry:** Actually, even in revelation, when Christ comes back, we talk about this idea of new heavens and new earth. And we will all have new bodies. And so whatever that means, there is a belief that we will still have a body, we're not just a spirit, right.
 
 > "Then I saw “a new heaven and a new earth,” for the first heaven and the first earth had passed away, and there was no longer any sea." - [Revelation 21:1 NIV](https://www.biblegateway.com/passage/?search=Revelation+21&version=NIV)
 
-[20:46] **Henry:** Typically you think that you go to heaven and you leave your body. We're all like little spirits floating around, but in this case, no. It's actually saying that that that's a vital part of the end, if you want to call it that. And I think the end for transhumanism is like you said, it's an escape of the body because we see the limitations of it and we want to get rid of that.
+[20:46] **Henry:** Typically you think that you go to heaven and you leave your body. We're all like little spirits floating around, but in this case, no. It's actually saying that that's a vital part of the end, if you want to call it that. And I think the end for transhumanism is like you said, it's an escape of the body because we see the limitations of it and we want to get rid of that.
 
 > "But our citizenship is in heaven, and from it we await a Savior, the Lord Jesus Christ, who will transform our lowly body to be like his glorious body, by the power that enables him even ito subject all things to himself. " - [Philippians 3:20–21 ESV](https://biblia.com/bible/esv/philippians/3/20-21)
 
-[21:06] **Henry:** And I think being a person in the context of faith here is understanding our limits. And I think idolatry is saying that we are God. And this is not something that is fun to hear, you know, like we want to become God, of course, we want to be the one in control.
+[21:06] **Henry:** And I think being a person in the context of faith here is understanding our limits. And I think idolatry is saying that we are God. And this is not something that is fun to hear, we want to become God, of course, we want to be the one in control.
 
 [21:24] **Henry:** And here, this is the idea of surrender. It's the idea of letting go, that I am not in control. And I'm gonna have the faith that hopefully something positive will happen. And it's because I believe in someone that has those interests in mind, right.
 
@@ -233,22 +233,22 @@ quotes:
 
 [22:46] **Maggie:** I definitely struggle with that as well, right. That if we take seriously post-modern subjective truth. Then anyone else's decision of what is true for them and their cultural context, we have to take as valid. Which is interesting if we tie it back to Bruno Latour's robustness thing where at some point there's a material reality to it.
 
-[23:07] **Maggie:** So, I mean, especially in the context of, right, maybe COVID and facemasks. There's a point in which the infection rate, human bodies get the disease. That's like a very hard to deny reality of a situation. But there's such disjuncture, right? In like all large scale media landscape between the actual infection numbers, and maybe one person individual's behavior and their location, and their cultural beliefs around whether it's real or not.
+[23:07] **Maggie:** So, I mean, especially in the context of, right, maybe COVID and facemasks. There's a point in which the infection rate, human bodies get the disease. That's like a very hard to deny reality of a situation. But there's such disjuncture, right? In all large scale media landscape between the actual infection numbers, and maybe one person individual's behavior and their location, and their cultural beliefs around whether it's real or not.
 
-[23:33] **Maggie:** And whether, what was it, Bill Gates' vaccine is going to inject us all with mind controlling.. Yeah. Like at some point, you know, there's like a robustness to some form of reality that having a strong connection to is probably important in whatever our understanding of truth is.
+[23:33] **Maggie:** And whether, what was it, Bill Gates' vaccine is going to inject us all with mind controlling.. Yeah. Like at some point, you know, there's a robustness to some form of reality that having a strong connection to is probably important in whatever our understanding of truth is.
 
 [23:49] **Henry:** Yeah, it's so fascinating to me to read this. It validates my thinking, but then I was like, Oh, validates, all of us. It's just like learning to empathize with people, just like other people are doing with me.
 
-[24:02] **Maggie:** Yeah. Yeah. Cause yeah, I mean I'm in the same boat. Telling someone they're wrong is like the worst possible way to convince anyone of anything, right. And yet, yeah, to be able to make space for multiple truths and ways of seeing the world and not just shutting people down because there's a different to yours. Yeah. I don't know if there's as much validity to just, you know, anyone's saying like, okay, like this is, this is my truth and I get to believe it.
+[24:02] **Maggie:** Cause I'm in the same boat. Telling someone they're wrong is like the worst possible way to convince anyone of anything, right. And yet, yeah, to be able to make space for multiple truths and ways of seeing the world and not just shutting people down because there's a different to yours. Yeah. I don't know if there's as much validity to just, you know, anyone's saying okay, this is my truth and I get to believe it.
 
-[24:27] **Henry:** I guess it's just, we can say that abstractly, but when, when we find something that we think is just completely right or completely wrong.. And like we said before, there's nothing we can be certain about. I say that. But yet we all believe in certain things that we think are just, that's just how it is.
+[24:27] **Henry:** I guess it's just, we can say that abstractly, but when we find something that we think is just completely right or completely wrong.. And like we said before, there's nothing we can be certain about. I say that. But yet we all believe in certain things that we think are just, that's just how it is.
 
-[24:43] **Maggie:** Yeah. So I am curious to dive into Polanyi more. I don't know if he's really going to have the answers for this sort of thing, but I do have more faith in books that have been around for longer. And you go like, okay, we know this is like a very modern thing we're struggling with, right?
+[24:43] **Maggie:** So I am curious to dive into Polanyi more. I don't know if he's really going to have the answers for this sort of thing, but I do have more faith in books that have been around for longer. And you go like, okay, we know this is a very modern thing we're struggling with, right?
 
-[24:56] **Maggie:** Like this post-truth world quote unquote. How do you manage multiple truths or having to interact with each other in a close internet space? But yeah, hopefully going back to people like Polanyi, you're going to be more insightful and useful than whatever medium post was written this week on it..
+[24:56] **Maggie:** This post-truth world quote unquote. How do you manage multiple truths or having to interact with each other in a close internet space? But yeah, hopefully going back to people like Polanyi, you're going to be more insightful and useful than whatever medium post was written this week on it..
 
 [25:10] **Henry:** Thanks for listening to this episode of Hope in Source. If you'd like to continue the conversation, you can join our discord, or find me on Twitter @left_pad. If you'd like to check out the transcript with links and references, please visit hopeinsource.com.
 
 I'll end with Polanyi's last paragraph in Personal Knowledge:
 
-> "So far as we know, the tiny fragments of the universe embodied in man are the only centres of thought and responsibility in the visible world. If that be so, the appearance of the human mind has been so far the ultimate stage in the awakening of the world; and all that has gone before, the strivings of a myriad centres that have taken the risks of living and believing, seem to have all been pursuing, along rival lines, the aim now achieved by us up to this point. They are all akin to us. For all these centres—those which led up to our own existence and the far more numerous others which produced different lines of which many are extinct—may be seen engaged in the same endeavour towards ultimate liberation. We may envisage then a cosmic field which called forth all these centres by offering them a short-lived, limited, hazardous opportunity for making some progress of their own towards an unthinkable consummation. And that is also, I believe, how a Christian is placed when worshipping God."
+> "So far as we know, the tiny fragments of the universe embodied in man are the only centres of thought and responsibility in the visible world. If that be so, the appearance of the human mind has been so far the ultimate stage in the awakening of the world; and all that has gone before, the strivings of a myriad centres that have taken the risks of living and believing, seem to have all been pursuing, along rival lines, the aim now achieved by us up to this point. They are all akin to us. For all these centres, those which led up to our own existence and the far more numerous others which produced different lines of which many are extinct, may be seen engaged in the same endeavour towards ultimate liberation. We may envisage then a cosmic field which called forth all these centres by offering them a short-lived, limited, hazardous opportunity for making some progress of their own towards an unthinkable consummation. And that is also, I believe, how a Christian is placed when worshipping God."

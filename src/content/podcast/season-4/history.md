@@ -88,7 +88,7 @@ quotes:
 
 [07:00] **Henry:** It's a little bit of history. She did a lot of interviews. This is similar to, I think what I like about Charles Taylor too. It's about [phenomenology](https://en.wikipedia.org/wiki/Phenomenology_(philosophy)), what does it feel like to be in a [secular age](https://en.wikipedia.org/wiki/A_Secular_Age)? What does it feel like to be an open source person? She was reading all the stuff about open source, but it's all academic, it's all thinking about open source as they thought of it in 1990 or whenever. I can keep going, but that's..
 
-[07:25] **David:** Okay. That is really interesting. Okay. So if I translate into familiar terms, all the big tech companies are built on this basis, to which they're contributors, as you've said, but they're affecting a kind of enclosure of the commons, right. And it's a kind of new commons.
+[07:25] **David:** That is really interesting. So if I translate into familiar terms, all the big tech companies are built on this basis, to which they're contributors, as you've said, but they're affecting a kind of enclosure of the commons, right. And it's a kind of new commons.
 
 [07:47] **David:** And where it fits with public broadcasting is obviously public broadcasting is, free and supposedly free from commercial constraint. Although in fact, in Canada, it's always been hammed in by commercial broadcasters who set the terms on which the business is conducted. So it's never really been that in fact. But still there's an analogy here, right.
 
@@ -158,7 +158,7 @@ quotes:
 
 [17:26] **Henry:** Because you'll always want to apply it to the past. You're always interpreting by the way you already interpret everything.
 
-[17:33] **David:** Yeah. You remain within your taken for granted horizon, as the certainties, as the real horizon, the actual horizon, as opposed to all of the illusory horizons, people used to think they lived with it. It's a deep kind of bracketing.
+[17:33] **David:** You remain within your taken for granted horizon, as the certainties, as the real horizon, the actual horizon, as opposed to all of the illusory horizons, people used to think they lived with it. It's a deep kind of bracketing.
 
 [17:50] **David:** And he even in a wonderful passage, calls it _necromancy _at one point, the summoning of the dead, right. And portrays himself as a _magus_, as a teacher of history, which is a beautiful passage. It's also in _Ivan Illich in Conversation,_ a crucial example of that kind of deep or ontological difference.
 
@@ -200,7 +200,7 @@ quotes:
 
 [23:23] **David:** The powerless church, he had a whole understanding of that, that developed in the sixties that the church was increasingly from the time of the late Roman empire onward laden with administrative and social control functions. So it was the primary agent of social control in many places, bishops became magistrates after Constantine's time and so on.
 
-[23:50] **David:** What he felt positively as the dawning of a new age in the 1960s and even before was the potential freeing of the church from all instrumental purposes. So that it became.. became powerless in the sense of, being purely the Gospel, purely the Surprise, purely the pearl in the net as he says, purely the divine bud that will flower in eternity, purely the good news.
+[23:50] **David:** What he felt positively as the dawning of a new age in the 1960s and even before was the potential freeing of the church from all instrumental purposes. So that it became powerless in the sense of, being purely the Gospel, purely the Surprise, purely the pearl in the net as he says, purely the divine bud that will flower in eternity, purely the good news.
 
 [24:21] **David:** Could be added to anything, right, without taking it over, without having to administer it. It was a vision of the Gospel as what it originally was in all those images that Jesus uses: of salt, of leaven, of The Pearl in the Field, right.
 
@@ -346,7 +346,7 @@ quotes:
 
 [45:14] **David:** It's just not a surprising finding. I think most people confused themselves with their statistical doppelganger. To get those two separated, that's a practical example of the kind of a askesis that I think is ncessary right? Where you could draw the limits would occur after once you learn to think accurately, right?
 
-[45:43] **David:** So that's my faith anyway, that accurate thinking, that's not an expression I'd wanna be tied to, but clear thinking.. That's better. Clear thinking is possible, which is definitely a form of faith. But that that would be prior to establishing limits, right. To actually creating what Ivan calls limits to tools.
+[45:43] **David:** So that's my faith anyway, that accurate thinking, that's not an expression I'd wanna be tied to, but clear thinking.. That's better. Clear thinking is possible, which is definitely a form of faith. But that would be prior to establishing limits, right. To actually creating what Ivan calls limits to tools.
 
 [46:10] **Henry:** It makes me think of your genes and how people will say, oh, my family has a history of XYZ disease, diabetes or heart disease, whatever. I don't have to literally believe that you thinking that will lead to that happening more.
 
@@ -372,7 +372,7 @@ quotes:
 
 [49:08] **David:** How someone's gonna live with their cell phone is something I can't say, but this, pardon the fancy word, epistemological cases is something I can imagine. I can begin to think about how more careful thinking might help.
 
-[49:28] **Henry:** Okay. Illich seems like in the past or even seems anti-tech. I think I recall, I don't know where I read it, but he was obviously railing against cars and stuff like that, but he still used planes.
+[49:28] **Henry:** Illich seems like in the past or even seems anti-tech. I think I recall, I don't know where I read it, but he was obviously railing against cars and stuff like that, but he still used planes.
 
 [49:41] **Henry:** And I think he was saying the reason why I like them is just so I can see you, right, whoever the person was. He's willing to say, I have a good reason for why I'm willing to use the technology, which is to get closer to someone.
 

@@ -38,17 +38,17 @@ quotes:
 
 [01:26] **Henry:** In certain churches, maybe the majority of people are people that might not actually believe in God, but they're looking. Maybe they think that having membership turns people off. But with membership you can see what it's like to be a member, to be committed, to have responsibility, to be in a greater community with people.
 
-[01:49] **Henry:** It's like the depth of community versus just like, "I'm there". Or for a lot of people, maybe they only go on like Christmas or Easter or something like that.
+[01:49] **Henry:** It's like the depth of community versus just, "I'm there". Or for a lot of people, maybe they only go on Christmas or Easter or something like that.
 
 #### Membership as an Affirmation
 
-[02:02] **Nadia:** What does it mean to be a member? What do you get if you are a member? And also what do you have to give to be a member?
+[02:02] **Nadia:** What does it mean to be a member? What do you get if you are a member? And what do you have to give to be a member?
 
 [02:08] **Henry:** For (laughs) a lot of places, the get is not material, well maybe they'll give you a certificate. Hey, you're a member now. But it's more of a sense of responsibility, it could be a lot of things. Maybe you're expected to participate, or to be there every week for people to join a certain type of ministry to serve people in the skills that God is giving you.
 
-[02:44] **Henry:** Or maybe it's tithing. Or maybe it's other kinds of responsibilities in the church. And I think the way a lot of people think about it is... my old pastor used the word, not like a Costco membership. Where you kind of pay a fee every year, and then you get these nice benefits or sales on things. No, you're committed. And I think even in the book, you're committed to this local group where you live for the foreseeable future. Instead of just like, I can come and go whenever I please, where people wanna know what's going on and you care about what's going on.
+[02:44] **Henry:** Or maybe it's tithing. Or maybe it's other kinds of responsibilities in the church. And I think the way a lot of people think about it is... my old pastor used the word, not like a Costco membership. Where you kind of pay a fee every year, and then you get these nice benefits or sales on things. No, you're committed. And I think even in the book, you're committed to this local group where you live for the foreseeable future. Instead of just, I can come and go whenever I please, where people wanna know what's going on and you care about what's going on.
 
-[03:35] **Nadia:** Sounds like it's almost more of like a declaration/affirmation of a level of commitment you already have, versus you sign up and then grow into it.
+[03:35] **Nadia:** Sounds like it's almost more of a declaration/affirmation of a level of commitment you already have, versus you sign up and then grow into it.
 
 [03:47] **Henry:** Right, exactly. Unless you just feel like you've been to this church one week, and you're like, "Oh, this is already for me." A lot of people, they might wait a whole year to decide to be a member. Because you could think of it like a marriage, or we would use the word covenant. It's like you're signing something to say, "Yeah, I'm committed to this church, and the church is in turn also committed to me in the same way."
 
@@ -64,7 +64,7 @@ quotes:
 
 #### Membership Composition
 
-[05:23] **Nadia:** And how many people are members versus how many people would just say, just attend a service and aren't members?
+[05:23] **Nadia:** And how many people are members versus how many people would just attend a service and aren't members?
 
 [05:36] **Henry:** It could be half. It depends on the composition of the church.
 
@@ -82,7 +82,7 @@ quotes:
 
 [07:42] **Henry:** That's a really good way of putting it. You're not taking a test or proving something. You've already done work or you've already shown something before, but you're telling the group of maintainers or the church, that you are committed now. You might do volunteer work just because, but later it's like, "Oh, I'm committing to this." Or even me, "Hey, I was already doing open source, and it's fine. But if I quit, and I say I'm doing this full time, I'm telling everybody that I'm committing to this." It's a declaration to people, in public, in the community as a whole, that I'm doing this. Instead of just personally, or individually.
 
-[08:35] **Nadia:** Has that worked out in practice on Babel, in terms of like how maintainers became maintainers, or more active contributors?
+[08:35] **Nadia:** Has that worked out in practice on Babel, in terms of how maintainers became maintainers, or more active contributors?
 
 [08:49] **Henry:** I definitely have not... I've never really thought about what exactly it takes to do that. We don't have classes on it (laughs), being a maintainer. I don't even have the right thoughts for that right now, which I wanna do. It would be interesting to make that more formal. A lot of open source is very informal, especially if you're not a huge project. With a large company backing and they're all paid to do that. And you have people that are all thinking about organization.
 
@@ -94,7 +94,7 @@ quotes:
 
 [10:22] **Henry:** They might not even know they wanna be a maintainer, they don't know what it looks like. We should write down what are the responsibilities of being a maintainer explicitly. What are the things you should care about. That way they'll have a better sense of, "Oh, is this something I wanna move toward?" Same with mentorship. You'll find people, they're like, "Oh, you're a member," and say what does that mean? And you can talk about it in the same way. Right now, maybe they don't even know that it's a thing, or it's very vague. "Oh, I'm a maintainer." Everyone has their own definition of what that means.
 
-[11:03] **Nadia:** We were talking about this with church, right? Where I was like, I'd gone to church here and there, but I didn't even know there was a concept of (laughs) membership. I thought then everyone agrees to show up sometimes, and sometimes people were there more often than others. And if that is a thing, then it's interesting to think about. Oh, yeah I didn't even know that was possible, so maybe I do.
+[11:03] **Nadia:** We were talking about this with church, right? Where I'd gone to church here and there, but I didn't even know there was a concept of (laughs) membership. I thought then everyone agrees to show up sometimes, and sometimes people were there more often than others. And if that is a thing, then it's interesting to think about. Oh, yeah I didn't even know that was possible, so maybe I do.
 
 #### Not Everyone Will Be a Member
 
@@ -110,7 +110,7 @@ quotes:
 
 [13:20] **Nadia:** Have you ever done that with a contributor?
 
-[13:23] **Henry:** Yeah, 'cause maybe they're like, "Oh, I'm not into compilers, or maybe my language isn't JavaScript," so I could say, "Oh, like you should contribute to webpack or React or something else." Yeah, I've definitely done that before. And other people have done that for me as well.
+[13:23] **Henry:** Yeah, 'cause maybe they're like, "Oh, I'm not into compilers, or maybe my language isn't JavaScript," so I could say, "Oh, you should contribute to webpack or React or something else." Yeah, I've definitely done that before. And other people have done that for me as well.
 
 [13:41] **Nadia:** I'm curious, does that tend to happen within the context of the projects itself, or is that a conversation at an event? Where does that meta-conversation happen?
 
@@ -140,9 +140,9 @@ quotes:
 
 [18:17] **Henry:** Right, I think you were talking earlier that, we tend to want to broaden the definition of maintainer. If there are specific people that only care about those things, so for Babel, it's like they care about this package, or this specific implementation, and in some sense they are a maintainer, they just maintain that small thing.
 
-[18:40] **Henry:** And if you made that in another repo, would you call them the maintainer of that repo, just 'cause it's in the same project? It's kind of hard to distinguish. But then, do they only care about that one thing, do they have to care about every aspect? Does it depend on like how many people are working on it?
+[18:40] **Henry:** And if you made that in another repo, would you call them the maintainer of that repo, just 'cause it's in the same project? It's kind of hard to distinguish. But then, do they only care about that one thing, do they have to care about every aspect? Does it depend on how many people are working on it?
 
-[19:00] **Nadia:** Mm-hmm (affirmative). So we definitely struggled with this at GitHub, of trying to figure out how to define a maintainer, in a way that was fair and objective. And I think while I was there, I erred more on the side of.. I think the definition I was pretty much trying to work with was, if you're having to deal with non-code aspects of the project, you're probably a maintainer. Like if you're thinking about triaging issues, or reviewing people's codes, then you're probably a maintainer, or you've moved into some different realm there.
+[19:00] **Nadia:** Mm-hmm. So we definitely struggled with this at GitHub, of trying to figure out how to define a maintainer, in a way that was fair and objective. And I think while I was there, I erred more on the side of.. I think the definition I was pretty much trying to work with was, if you're having to deal with non-code aspects of the project, you're probably a maintainer. Like if you're thinking about triaging issues, or reviewing people's codes, then you're probably a maintainer, or you've moved into some different realm there.
 
 [19:28] **Nadia:** But I don't actually think that definition holds, partly because there's such different sizes of projects, so there might be a project where you do just mostly write code all day. There can also be on the other spectrum, a really big project, where you just end up focusing on your specific area.
 
@@ -152,39 +152,39 @@ quotes:
 
 [20:26] **Nadia:** Whereas you could still be a very regular, active, and valuable contributor, but if you're only concerned about your one area, and like you were saying, you might ping someone if you had React questions, a specific person, and they come in and talk about that or work on that, or whatever. And they're otherwise not super involved. I don't know that I would call that person a maintainer.
 
-[20:49] **Henry:** Right. 'Cause it's just the one area, and especially if you're only pinging them for that one thing. I tend to think, are they thinking very high level and meta, also maybe when they think, when they see a PR, whatever it is, are they thinking of the greater whole or vision of the project, instead of just I wanna get this finished. 'Cause someone that makes a PR that they just want it to be in there, they might not be thinking, how does this relate to everything else.
+[20:49] **Henry:** Right. 'Cause it's just the one area, and especially if you're only pinging them for that one thing. I tend to think, are they thinking very high level and meta, also maybe when they see a PR, whatever it is, are they thinking of the greater whole or vision of the project, instead of just I wanna get this finished. 'Cause someone that makes a PR that they just want it to be in there, they might not be thinking, how does this relate to everything else.
 
-[21:14] **Henry:** The maintainer is like, "I've seen every other PR that's related to this, I'll even do the research to figure out like, how does this affect X, Y, Z, or even not the project itself, but projects outside of it," thinking way bigger than people can even perceive maybe. I think that might be helpful.
+[21:14] **Henry:** The maintainer is like, "I've seen every other PR that's related to this, I'll even do the research to figure out how does this affect X, Y, Z, or even not the project itself, but projects outside of it," thinking way bigger than people can even perceive maybe. I think that might be helpful.
 
-[21:36] **Nadia:** Yeah, I think that's useful. The idea that you're someone who's seeing the big picture or sort of connecting the dots between different parts of the project, or can just sort of like hold that entire vision and all its tradeoffs in your head.
+[21:36] **Nadia:** Yeah, I think that's useful. The idea that you're someone who's seeing the big picture or sort of connecting the dots between different parts of the project, or can just sort of hold that entire vision and all its tradeoffs in your head.
 
 [21:55] **Henry:** Yeah, which is really hard to do (laughs).
 
-[21:57] **Nadia:** (Laughs) I'm trying to do that in my head right now. And I think the reason I think we're talking about this is just the idea that, at least I feel like there's sort of been this historical.. in the early days of source there was very much this focus on a [BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), benevolent dictator for life, and the maintainer was the authority, and then there was kind of this swing in a different direction more recently around going very far to the other side of being super sort of welcoming, and bringing everyone in. Everyone can participate however they wanna participate. And I'm struggling to find that like happy medium between the two, because there are tradeoffs on both, right?
+[21:57] **Nadia:** (Laughs) I'm trying to do that in my head right now. And I think the reason we're talking about this is just the idea that, at least I feel like there's sort of been this historical.. in the early days of source there was very much this focus on a [BDFL](https://en.wikipedia.org/wiki/Benevolent_dictator_for_life), benevolent dictator for life, and the maintainer was the authority, and then there was kind of this swing in a different direction more recently around going very far to the other side of being super sort of welcoming, and bringing everyone in. Everyone can participate however they wanna participate. And I'm struggling to find that happy medium between the two, because there are tradeoffs on both, right?
 
-[22:37] **Nadia:** When you're too authoritarian, then people are unhappy (laughs). They don't enjoy working on the project, everyone's in this very, difficult situation where it's just like not at all democratic. But then if you go too far on the other side, you find that it becomes really overwhelming to cater to the needs to lots of people who might not necessarily be that committed.
+[22:37] **Nadia:** When you're too authoritarian, then people are unhappy (laughs). They don't enjoy working on the project, everyone's in this very, difficult situation where it's just not at all democratic. But then if you go too far on the other side, you find that it becomes really overwhelming to cater to the needs to lots of people who might not necessarily be that committed.
 
 [22:58] **Nadia:** And yeah, trying to find that line between keeping the doors open, but also requiring some level of commitment, and that's why I'm sort of feeling more recently in favor of, can you draw a line around what a maintainer is a little more narrowly. To say if you're a maintainer, you are committed to this level. We don't want you to say you're a maintainer and then you just leave the project and don't even think twice about it next week. Then how can I rely on you?
 
-[23:30] **Henry:** Right. Maybe that's a good word, relying on people. Expecting that they're going to show up again. And even when they're not, 'cause it's not like every day doing open source you're really excited or happy about it, same with going to church. Not every day you're feeling like devoted or whatever.
+[23:30] **Henry:** Right. Maybe that's a good word, relying on people. Expecting that they're going to show up again. And even when they're not, 'cause it's not like every day doing open source you're really excited or happy about it, same with going to church. Not every day you're feeling devoted or whatever.
 
 [23:48] **Henry:** I think I've said this before, but I went to a prayer meeting yesterday and I was talking to my roommate, and he was like, "Oh, wow you're so devoted for going to church on Wednesday." And I'm like, it's not because I'm devoted that I'm going. It's 'cause going will make me more devoted as well. Same with open source. Continuing to do it will make me continue to want to do it. 'Cause, if I already believe that it's good..
 
 #### Maintainer Therapy
 
-[24:14] **Nadia:** I think we talk about how maintainers serve contributors a lot. But I'm also curious to learn how do maintainers serve each other in that way. How do you sort of like show up for, if you have other maintainers, how do you show up for those other maintainers and how do you motivate each other or make each other, strengthen each other's commitment?
+[24:14] **Nadia:** I think we talk about how maintainers serve contributors a lot. But I'm also curious to learn how do maintainers serve each other in that way. How do you sort of show up for, if you have other maintainers, how do you show up for those other maintainers and how do you motivate each other or strengthen each other's commitment?
 
-[24:40] **Henry:** Yeah, I feel like in personal experience with Babel, it's different then with church. Well we can tell when people aren't like involved as much, and you try to encourage them on like, how they're dealing with stuff in their life, and maybe it's a little more like, "Hey, I appreciate what you're doing," that kind of thing.
+[24:40] **Henry:** Yeah, I feel like in personal experience with Babel, it's different then with church. Well we can tell when people aren't involved as much, and you try to encourage them on how they're dealing with stuff in their life, and maybe it's a little more like, "Hey, I appreciate what you're doing," that kind of thing.
 
-[24:58] **Henry:** But it's still not as personalized as it is in church. It's like, I'm not like doing video calls with people all the time on how's it going. I mean, maybe I'd like to, I don't know if they'd want to do that (laughs).
+[24:58] **Henry:** But it's still not as personalized as it is in church. It's like, I'm not doing video calls with people all the time on how's it going. I mean, maybe I'd like to, I don't know if they'd want to do that (laughs).
 
 [25:09] **Henry:** Then with church it's like, we have whether it's this prayer meeting, or on Friday nights I have Bible study, at the end we talk about what's going on in your life, and you're sharing, being able to talk about the issues that you're dealing with.
 
-[25:28] **Henry:** And even with open source, we have like the "maintainers" repo, but that's just a repo. And maybe you don't really know everyone that well. And having events, I forgot the name of the event, like [Maintainerati](https://maintainerati.org) or those kind of things. I think those could be, I haven't been to any of them, but those seem pretty useful. So just be able to be with people that are maybe dealing with the same issues.
+[25:28] **Henry:** And even with open source, we have the "maintainers" repo, but that's just a repo. And maybe you don't really know everyone that well. And having events, I forgot the name of the event, like [Maintainerati](https://maintainerati.org) or those kind of things. I think those could be, I haven't been to any of them, but those seem pretty useful. So just be able to be with people that are maybe dealing with the same issues.
 
-[25:57] **Nadia:** Yeah, within projects too, right. There's so many maintainers I've talked to who've like never met their fellow maintainers, which I just think is really funny. It's just like internet friends.
+[25:57] **Nadia:** Yeah, within projects too, right. There's so many maintainers I've talked to who've never met their fellow maintainers, which I just think is really funny. It's just like internet friends.
 
-[26:13] **Henry:** Yeah that just happened to me, right. Like I went to San Francisco, like a month ago? And I finally met like Sebastian, who's the creator of the project. And it's been, I don't know, like three years or something, so.
+[26:13] **Henry:** Yeah that just happened to me, right. I went to San Francisco, like a month ago? And I finally met Sebastian, who's the creator of the project. And it's been, I don't know, like three years or something, so.
 
 #### Building Trust Through Professionalism
 
@@ -192,17 +192,17 @@ quotes:
 
 [26:52] **Nadia:** Do you think that motivation just more internal and assumed with open source, that if you put in this much work already, then I feel like I can trust you. Or does the trust come from within, like a shared bond between people?
 
-[27:09] **Henry:** You know, I think maybe it's both. But maybe you can't really expect that much out of them, either. Mybe you don't know them that well, and you just trust because they've done all this work before. If you don't have that personal relationship it's gonna be hard to really understand what's going on with anyone.
+[27:09] **Henry:** I think maybe it's both. But maybe you can't really expect that much out of them, either. Mybe you don't know them that well, and you just trust because they've done all this work before. If you don't have that personal relationship it's gonna be hard to really understand what's going on with anyone.
 
 [27:28] **Henry:** Or maybe you almost feel weird. Maybe I shouldn't learn that much about who they are. And a lot of people think open source is just about code. But especially as a maintainer, if you're gonna have a team of people, whether you're a company and you learn about what's going on in people's lives, you're probably gonna do that too in open source.
 
-[27:50] **Nadia:** Not gonna lie, I've found that kind of oddly refreshing. And I guess the flip side is maybe you just don't know someone and that's a problem. But, I've been thinking about this in relation to work in general. And I've worked in different environments, had different managers where in some settings you're just super super candid with each other, you know everything about each other, you're just like close personal friends on top of working together.
+[27:50] **Nadia:** Not gonna lie, I've found that kind of oddly refreshing. And I guess the flip side is maybe you just don't know someone and that's a problem. But, I've been thinking about this in relation to work in general. And I've worked in different environments, had different managers where in some settings you're just super super candid with each other, you know everything about each other, you're just close personal friends on top of working together.
 
-[28:20] **Nadia:** And then there's like another style that's much more like (laughs), you show up, you do your work, you talk to each other, and there is a sense of like camaraderie and trust, but you don't really go like super deep into each other's personal lives and whatever. And I've actually found that I think I prefer the latter. Not to the point that there is this medium where it's.. it's not like you're so not connected that you don't even really like each other, or this person means nothing to you.
+[28:20] **Nadia:** And then there's another style that's much more like (laughs), you show up, you do your work, you talk to each other, and there is a sense of camaraderie and trust, but you don't really go super deep into each other's personal lives and whatever. And I've actually found that I think I prefer the latter. Not to the point that there is this medium where it's not like you're so not connected that you don't even really like each other, or this person means nothing to you.
 
-[28:45] **Nadia:** But I do like the sense that there's, I guess some level of, I hate to use this term, but I can't think of a better term, professionalism, that when you show up, you're kind of there to do the thing that is bonding you together. Which might be this shared work. But when it becomes too personal, then I just feel like it can kind of kind of muddy the mission or the purpose. You can't really separate out work from personal anymore.
+[28:45] **Nadia:** But I do like the sense that there's, I guess some level of, I hate to use this term, but I can't think of a better term, professionalism, that when you show up, you're kind of there to do the thing that is bonding you together. Which might be this shared work. But when it becomes too personal, then I just feel like it can kind of muddy the mission or the purpose. You can't really separate out work from personal anymore.
 
-[29:09] **Nadia:** I definitely noticed that working with people in open source. I don't work on open source projects in the same way, so obviously maybe it's just different, and I am just more of an outsider. But something I notice that I like about spending time with open source folks versus, I don't know, even just like the tech industry, being in San Francisco where I am now. It is a little more depersonalized, but it doesn't feel any less close. I feel like there are a lot of people that I really like and trust and enjoy spending time with, but I really don't know anything about their personal lives and they don't know anything about mine, and I'm kind of okay with that. I just feel like it just makes it easier to focus on the stuff that we do care about and we do share.
+[29:09] **Nadia:** I definitely noticed that working with people in open source. I don't work on open source projects in the same way, so obviously maybe it's just different, and I am just more of an outsider. But something I notice that I like about spending time with open source folks versus, I don't know, even just the tech industry, being in San Francisco where I am now. It is a little more depersonalized, but it doesn't feel any less close. I feel like there are a lot of people that I really like and trust and enjoy spending time with, but I really don't know anything about their personal lives and they don't know anything about mine, and I'm kind of okay with that. I just feel like it just makes it easier to focus on the stuff that we do care about and we do share.
 
 [29:51] **Henry:** Yeah, work doesn't have to be family, or same with open source. It works that way.
 
@@ -218,7 +218,7 @@ quotes:
 
 [30:53] **Henry:** Because most of the struggle with faith is about what happens in your life and how you deal with that. And if you don't share any of that, everything is going to be vague. The only way we can really solve these issues is being specific about what's going on and being vulnerable. Doing all those things is hard because you don't wanna talk about what's wrong with your life or what's wrong with you even.
 
-[31:22] **Henry:** So that's the weird part. Because it's like in tech, we don't really wanna do that. We don't even wanna be perceived as being wrong. But then in church, some people like to say it's like a hospital. It's like for people that know that they need help, and that people are there to help each other. But yeah, I can understand why that also is the reason why people don't wanna go. 'Cause it's like, I don't wanna talk about those things.
+[31:22] **Henry:** So that's the weird part. Because in tech, we don't really wanna do that. We don't even wanna be perceived as being wrong. But then in church, some people like to say it's like a hospital. It's like for people that know that they need help, and that people are there to help each other. But yeah, I can understand why that also is the reason why people don't wanna go. 'Cause it's like, I don't wanna talk about those things.
 
 [31:50] **Nadia:** I'm trying to think.. hearing that is clarifying my own thinking of it. In that, I think vulnerability is good and should be encouraged because that's how you build trust. I think the difference that I was trying to identify earlier is.. we're all trying to show up and bring our best selves, and best self doesn't mean my most perfect, put together self, but we're all trying to be constructive in the work that we're doing. And doing things with the group in mind, versus sort of making it all about like, 'cause everyone has problems, right?
 
@@ -228,7 +228,7 @@ quotes:
 
 [33:36] **Henry:** No, it definitely makes sense. Yeah.
 
-[33:40] **Nadia:** Yeah. I think that's a nice thing about church being a place where you can bring your truest self, or your problems or whatever. But, but you're all kind of there, focused on something greater than just yourself, which I think is the nice thing about God being part of that conversation.
+[33:40] **Nadia:** I think that's a nice thing about church being a place where you can bring your truest self, or your problems or whatever. But you're all kind of there, focused on something greater than just yourself, which I think is the nice thing about God being part of that conversation.
 
 [34:02] **Henry:** Yeah, 'cause it's, and also that it's not just, maybe we're all feeling that we can't do anything, but it's kind of the whole point, where it's not you internally figuring it all out. But you're learning something about who you are and all that stuff. So, it's way more encouraging than just like, oh, it's gonna work out. It's like where is the specifics and where is it all going?
 

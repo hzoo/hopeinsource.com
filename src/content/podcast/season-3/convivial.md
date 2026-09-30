@@ -52,7 +52,7 @@ quotes:
 
 [03:10] **Michael:** And so I think at one level, the convivial society is a society that enables individuals to have a degree of freedom and autonomy. To be self directed, we might say, especially in their work. But then also to learn to depend upon one another, to learn, to turn towards each other, rather than towards an institution or a professional for support in the work of living, right. In the caring of our lives together.
 
-[03:44] **Henry:** So that's why he has a critique against like experts. Also, I guess, related to industrialization, commodifying everything into products. And then everything's about products.
+[03:44] **Henry:** So that's why he has a critique against experts. Also, I guess, related to industrialization, commodifying everything into products. And then everything's about products.
 
 [03:57] **Michael:** And yeah. And services. I think Illich, in the seventies, when the talk of postindustrial society is ramping up. And we're moving to what we think of as a service economy.
 
@@ -86,11 +86,11 @@ quotes:
 
 [07:43] **Henry:** And I guess that is its own escalation.
 
-[07:45] **Michael:** Right. So yes, I forgot where we started down this trail, but that is also one of the targets that Illich has an in view here. Is that we learn to depend on institutions instead of our neighbor, right? Just as a collective word for those around us, our friends, our family, our community.
+[07:45] **Michael:** Right. So yes, I forgot where we started down this trail, but that is also one of the targets that Illich has in view here. Is that we learn to depend on institutions instead of our neighbor, right? Just as a collective word for those around us, our friends, our family, our community.
 
 > The hypothesis was that machines can replace slaves. The evidence shows that, used for this purpose, machines enslave men. Neither a dictatorial proletariat nor a leisure mass can escape the dominion of constantly expanding industrial tools. The crisis can be solved only if we give people tools that guarantee their right to work with high, independent efficiency, thus simultaneously eliminating the need for either slaves or masters and enhancing each person’s range of freedom. People need new tools to work with rather than tools that “work” for them. - Tools For Conviviality
 
-[08:04] **Henry:** So how do you merge like the individual thing and the community aspect?
+[08:04] **Henry:** So how do you merge the individual thing and the community aspect?
 
 [08:08] **Michael:** Right. And I think Illich holds those two together, right. And we do a bad job of that.
 
@@ -104,7 +104,7 @@ quotes:
 
 [08:52] **Michael:** And one of the things I've been reading lately is about the crucial role that a certain interpretation of the [Parable of The Good Samaritan](https://en.wikipedia.org/wiki/Parable_of_the_Good_Samaritan) played in his thinking. Maybe we should mention it for those that don't know, Illich was a Roman Catholic priest.
 
-[09:05] **Michael:** And he fell.. he got into a bit of trouble with a hierarchy in the late sixties and he never ceased being a priest, but he did cease practicing the office of a priest in an official capacity. And it was sort of his obedience as it were to the Church at the end of the day. So there is a theological strand of religious thinking, although it's not immediately evident in a lot of his best known work.
+[09:05] **Michael:** And he got into a bit of trouble with a hierarchy in the late sixties and he never ceased being a priest, but he did cease practicing the office of a priest in an official capacity. And it was sort of his obedience as it were to the Church at the end of the day. So there is a theological strand of religious thinking, although it's not immediately evident in a lot of his best known work.
 
 [09:29] **Michael:** But the parable of the good Samaritan was extremely important to him and it kind of capture this notion of the importance of recognizing in the other, a neighbor to be cared for, right.
 
@@ -142,11 +142,11 @@ quotes:
 
 [13:19] **Michael:** I was listening to [Makoto Fujimura](https://www.makotofujimura.com), I think I pronounced his last name correctly, the visual artist, talking about this very specific kind of art that he has learned through long hours of apprenticeship to a Japanese master. And how they now have this, you know, very close relationship, right. There's a bond that has been formed there. And so you're back at this ideal of friendship undergirding so much of our human relationships.
 
-[13:44] **Henry:** A lot of times, creating something with a friend builds a very specific kind of relationship versus just like just chatting or something, right?
+[13:44] **Henry:** A lot of times, creating something with a friend builds a very specific kind of relationship versus just chatting or something, right?
 
 [13:52] **Michael:** Right. There's a depth of experience. And it's hard to articulate some of this stuff, right. But it's a sort of thing where if you've been through that, you understand it, right. It is tacit right, it's a kind of tacit knowledge. It's experiential, difficult to articulate, but you know that it's there and it's substantial and it has added up a depth to your relationship that you wouldn't have had otherwise.
 
-[14:15] **Henry:** I think Polanyi would describe that as, it's real. Which is an interesting way of putting it. That indescribable feeling. What I would say is like, there's like potential, right? It's so funny. He uses this fancy phrase, indeterminate future possibilities or something, which to me, all that means is like, When you learn something new and expands how you think about the world, in a positive way. I don't know, it's a hopeful view of knowledge and learning right.
+[14:15] **Henry:** I think Polanyi would describe that as, it's real. Which is an interesting way of putting it. That indescribable feeling. What I would say is, there's potential, right? It's so funny. He uses this fancy phrase, indeterminate future possibilities or something, which to me, all that means is, When you learn something new and expands how you think about the world, in a positive way. I don't know, it's a hopeful view of knowledge and learning right.
 
 #### Learning to Name the World
 
@@ -162,21 +162,21 @@ quotes:
 
 [16:17] **Henry:** I think that's exactly his thinking. Knowing itself is a skill that you have to develop. And this relates to this idea of personal knowledge, right? If that's true, then the person is so important to the act of knowledge. And not trying to distance ourselves. And we've been talking a lot about distance, right.
 
-[16:34] **Michael:** Yeah. When I think of that idea of the personal dimension of knowledge, part of where my mind goes this Augustinian view that you have to be prepared for to receive certain kinds of knowledge.
+[16:34] **Michael:** When I think of that idea of the personal dimension of knowledge, part of where my mind goes this Augustinian view that you have to be prepared to receive certain kinds of knowledge.
 
 #### Capacity for Attention
 
-[16:47] **Michael:** Right. To come back to the idea of attention, right? Your capacity for attention, your willingness in humility to attend to the world, right? To see what is there, right. To acknowledge your ignorance in order to be prepared to receive the knowledge that that is there for you.
+[16:47] **Michael:** Right. To come back to the idea of attention, right? Your capacity for attention, your willingness in humility to attend to the world, right? To see what is there, right. To acknowledge your ignorance in order to be prepared to receive the knowledge that is there for you.
 
 [17:04] **Michael:** These are all traits of the human being. Even in the question of seeing, when I talk about the difference between just looking and seeing. Maybe even in which technological practices shape the way we think about these things. Our minds are not cameras, right, that just click the world, right. And everything that is there to be seen as is perceived by our minds, right. Our perception is intended, right. We direct it.
 
-[17:28] **Michael:** We have to be trained to perceive certain facets of reality. We have to submit ourselves to the patient work of attending to certain realities in order to allow them to emerge fully before our intellect. And these all, I think, do reflect this question of the person, right? Have we become the sort of person that is able to receive? the particular kind of knowledge that we're, that that is in view here?
+[17:28] **Michael:** We have to be trained to perceive certain facets of reality. We have to submit ourselves to the patient work of attending to certain realities in order to allow them to emerge fully before our intellect. And these all, I think, do reflect this question of the person, right? Have we become the sort of person that is able to receive? the particular kind of knowledge that is in view here?
 
 [17:53] **Henry:** I think that gets into this fancy term he uses to explain knowledge, [subsidiary-focal integration](https://en.wikipedia.org/wiki/Tacit_knowledge#Tacit_knowing). There's a lot of fancy words, but subsidiary is the environment. It's the things in your periphery. And then focal is the thing that you're putting your attention on. So I thought that tacit knowledge would mean like implicit versus explicit. But it's the integration of both of those things together.
 
-[18:17] **Henry:** So piano is like a really simple example of like, I'm playing the notes. My body has learned to play the piano, right. And I can focus on the piece, the actual music itself. The subsidiary is like the notes that we're playing. But if I started focusing on the notes, then I won't be able to concentrate on the music itself and then probably start playing badly.
+[18:17] **Henry:** So piano is a really simple example of, I'm playing the notes. My body has learned to play the piano, right. And I can focus on the piece, the actual music itself. The subsidiary is like the notes that we're playing. But if I started focusing on the notes, then I won't be able to concentrate on the music itself and then probably start playing badly.
 
-[18:37] **Michael:** Right, right. It seems to me like a common feature of most kinds of what we might think of as an embodied knowledge, right. So if you're touch typing, this is the thing about being in the flow, right? You can enter a certain state where you're expertly typing, you're almost not thinking. To think about the keys would be to interrupt the process, right.
+[18:37] **Michael:** Right. It seems to me like a common feature of most kinds of what we might think of as an embodied knowledge, right. So if you're touch typing, this is the thing about being in the flow, right? You can enter a certain state where you're expertly typing, you're almost not thinking. To think about the keys would be to interrupt the process, right.
 
 [18:58] **Michael:** Even as an athlete, right. If you become too conscious of your free-throw technique, it throws it off, right. There's this balance to be struck there that I think is a balance you're describing between kind of using those clues as it were to suspend the activity, right. But if you focus too much on them, then kind of derails the work itself.
 
@@ -186,11 +186,11 @@ quotes:
 
 > "You get one experience of a thing when you look along it and another when you look at it. Which is the “true” or “valid” experience?" - [Meditation in a Toolshed](http://ktf.cuni.cz/~linhb7ak/Meditation-in-a-Toolshed.pdf)
 
-[19:59] **Henry:** Yeah. In order to learn, you have to surrender to something. Like what you said when you're learning from a master, every time they tell you to do something you can't tell yourself, I have to question every single thing he says.
+[19:59] **Henry:** In order to learn, you have to surrender to something. Like what you said when you're learning from a master, every time they tell you to do something you can't tell yourself, I have to question every single thing he says.
 
 [20:10] **Henry:** But in order to evaluate something, to be critical, you do have to just go through it. And so you are doing both at the same time. Even if I test a product, I have to evaluate, Oh, was this even good?
 
-[20:22] **Henry:** I guess you could say services, products, institutions, algorithms, they make us not willing to make that choice anymore. It's a personal choice of some kind of discernment into like, whether something is good because someone else is telling us that it is good objectively.
+[20:22] **Henry:** I guess you could say services, products, institutions, algorithms, they make us not willing to make that choice anymore. It's a personal choice of some kind of discernment into whether something is good because someone else is telling us that it is good objectively.
 
 #### On Surrendering Our Experience
 
@@ -206,14 +206,14 @@ quotes:
 
 [21:59] **Michael:** But he would say experts would do the same thing for us. We've surrendered our ability to independently experience the world to various classes of experts and to the media writ large, in a sense, that have overdetermined, right, what the reality is going to be or what it is.
 
-[22:18] **Henry:** I guess you could argue that there was never a time you could really experience it for yourself because you're always influenced by other people. But I think the keyword is over where it's like so much. So you don't even feel like you have any sense of self thinking around that idea.
+[22:18] **Henry:** I guess you could argue that there was never a time you could really experience it for yourself because you're always influenced by other people. But I think the keyword is over where it's so much. So you don't even feel like you have any sense of self thinking around that idea.
 
 [22:35] **Michael:** Yeah, I guess the word I'm thinking of is serendipity then, right? It's like stumbling upon something that you weren't intending to. You have a goal of certain things, but you weren't thinking of that specific thing.
 
-[22:48] **Michael:** Right, right. And I think that that kind of describes Percy's description of how you kind of actually get to see the Canyon. Are you serendipitously sorta come upon it before you realize it?
+[22:48] **Michael:** Right. And I think that kind of describes Percy's description of how you kind of actually get to see the Canyon. Are you serendipitously sorta come upon it before you realize it?
 
 [22:57] **Michael:** It reminds me of being in Florence and knowing that I'm working my way towards [El Duomo](https://en.wikipedia.org/wiki/Florence_Cathedral), the famous orange brick building that you see in all the pictures of Florence, right. It's the cathedral and has a tower next to it. But the streets are so narrow. And it's a huge building, but you don't see it, until you.. Well in my case, turn a corner, and there it is, you know, right before you. And it does, it catches you off guard. And it was a great experience for me, right. I know I'm going here to see this, but at that moment I wasn't ready to see it. And so it struck me in a unique way.
 
-[23:33] **Henry:** Okay. Awesome, everyone should check out the [newsletter](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)! Whenever that comes out.
+[23:33] **Henry:** Awesome, everyone should check out the [newsletter](https://theconvivialsociety.substack.com/p/care-friendship-hospitality-reflections)! Whenever that comes out.
 
-[23:37] **Michael:** Yeah. It was good talking to you, Henry.
+[23:37] **Michael:** It was good talking to you, Henry.

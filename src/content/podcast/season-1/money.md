@@ -54,7 +54,7 @@ quotes:
 
 [07:33] **Henry:** You're talking about if a church wants to split, and why?
 
-[07:39] **Nadia:** Yeah. Not denomination or anything but just the actual church where people would go to, you hit 100 people. Do they ever split into 50 'cause it's just easier? I feel like they wouldn't unless there was an actual split in community philosophy.
+[07:39] **Nadia:** Not denomination or anything but just the actual church where people would go to, you hit 100 people. Do they ever split into 50 'cause it's just easier? I feel like they wouldn't unless there was an actual split in community philosophy.
 
 [07:55] **Henry:** Churches definitely will split in terms of philosophy or theology... but even that, it takes a long time for people to be willing to. That's gonna cause a lot of issues with the members and everything about it...
 
@@ -62,7 +62,7 @@ quotes:
 
 [08:48] **Henry:** Well, you could decide a few things really. Like, you could either figure out if you can expand the existing building, or you should figure out if you can get a lease or a rent for a bigger building somewhere else and you have to move the whole congregation somewhere else, or like what you were saying is yeah, you would actually split it up and have two places or multiple, I guess, quote unquote, "campuses" or something.
 
-[09:19] **Nadia:** Yeah. Interesting to think about. Going back to money stuff. I know I went down this other track (laughs). Can you talk a-, as much as you know, what the fundraising process looks like in religion or, like, especially the concept of [tithing](https://en.wikipedia.org/wiki/Tithe) but even besides tithing? Like, how do churches raise money for stuff they need to get done?
+[09:19] **Nadia:** Interesting to think about. Going back to money stuff. I know I went down this other track (laughs). Can you talk a-, as much as you know, what the fundraising process looks like in religion or, especially the concept of [tithing](https://en.wikipedia.org/wiki/Tithe) but even besides tithing? Like, how do churches raise money for stuff they need to get done?
 
 [09:43] **Henry:** Yeah (laughs). There's a lot to talk about and I probably don't know that much but so I guess first, we can say that tithing, the word comes from an old term that means 10% and so that's where we get the idea that people that attend a local church to give 10% of their income to that church.
 
@@ -74,13 +74,13 @@ quotes:
 
 [11:14] **Henry:** Yeah (laughs).
 
-[11:16] **Nadia:** Sort of like ... I don't know. I find the other part interesting. There's like an implicit assumption there that some people pay and then other people can enjoy and benefit it, like people that casually come in because other people are paying, right?
+[11:16] **Nadia:** Sort of like ... I don't know. I find the other part interesting. There's an implicit assumption there that some people pay and then other people can enjoy and benefit it, like people that casually come in because other people are paying, right?
 
 [11:29] **Henry:** Oh, yeah. It's true. Not everyone is going to do that. One thing that people might suggest is that, we talked about church membership a few episodes ago and some churches will say like, if you're a member, then you're not required either but they highly suggest that you also give the tithe.
 
-[11:48] **Henry:** And I think it goes back to where we were talking about context before, it's like if you're committed to a church over a year's time, I think it's ... Like, I don't see why you wouldn't wanna support the thing that you're a part of, right? And so, I think it's not out of the question for you to be like, "Okay, I'm going to invest my time and also my money into this, in this community."
+[11:48] **Henry:** And I think it goes back to where we were talking about context before, it's like if you're committed to a church over a year's time, I think it's ... Like, I don't see why you wouldn't wanna support the thing that you're a part of, right? And so, I think it's not out of the question for you to be like, "Okay, I'm going to invest my time and also my money in this community."
 
-[12:16] **Nadia:** Yeah. It's, I mean, there's really no one who's giving to a church that doesn't have some personal stake in the church, right? I mean, I can't even imagine what that would be, like a random sponsor (laughs) or something.
+[12:16] **Nadia:** there's really no one who's giving to a church that doesn't have some personal stake in the church, right? I mean, I can't even imagine what that would be, like a random sponsor (laughs) or something.
 
 [12:31] **Henry:** So the way that would work would be more like maybe something happened, like maybe it was an environmental thing, like a hurricane or something and you might decide to donate to a different church, maybe it's a sister church of yours, and you have a loose connection but it's not like you go there or anything.
 
@@ -90,9 +90,9 @@ quotes:
 
 [12:54] **Nadia:** ... Other community. I feel like it's so much harder to do that online because then you can't see who your community is, right? Like, with churches, you're coming into physical space on a regular basis and forming, yeah, in-person connections ...
 
-[13:13] **Henry:** Mm-hmm (affirmative).
+[13:13] **Henry:** Mm-hmm.
 
-[13:14] **Nadia:** ... And I think a problem that's more unique to open source and a lot of other things around funding online is, you don't actually really know who your users are, who your users are or who's benefiting from it, who's participating or anything until someone actually tries to make a contribution or something.
+[13:14] **Nadia:** ... And I think a problem that's more unique to open source and a lot of other things around funding online is, you don't actually really know who your users are or who's benefiting from it, who's participating or anything until someone actually tries to make a contribution or something.
 
 [13:33] **Nadia:** And it's just like, it feels like ... Yeah, I don't know whether this solution is to try to make your community more visible somehow or reveal themselves or whether it's that maybe they just aren't ... I don't know whether there's actually a way to transfer what works with in-person communities to online communities.
 
@@ -110,19 +110,19 @@ quotes:
 
 [15:48] **Henry:** That kind of defeats the purpose where the point of the tithing is to help people but it's also to help yourself whether you're like, it's an opportunity for you to kind of act out that belief that your money is not yours, say, in the sense of church, it's like, it's God's money than even though all of it is his, it, to give that act as a way for te-, you telling yourself that you actually believe that.
 
-[16:14] **Nadia:** How do they collect the money if it's not online? Is it, like, an in-person check?
+[16:14] **Nadia:** How do they collect the money if it's not online? Is it an in-person check?
 
 [16:20] **Henry:** Yeah (laughs).
 
 [16:21] **Nadia:** Really?
 
-[16:21] **Henry:** Wait, so ... This is probably, when you attend a church, there's always, like, there's a worship service and a sermon and in some, sometime in between, they do that whole offering, offertory, where they have some kind of, I don't know-
+[16:21] **Henry:** Wait, so ... This is probably, when you attend a church, there's always a worship service and a sermon and in some, sometime in between, they do that whole offering, offertory, where they have some kind of, I don't know-
 
 [16:39] **Nadia:** Like, the plate?
 
 [16:40] **Henry:** Yeah, whatever it is, the plate or a bag or something like that, and then you have your welcoming team that kind of is there and then you kinda pass it down the aisles kind of thing, (laughs) which is always interesting 'cause I'll, I think people have a lot of opinions on how that works. But yeah, that's, every week, you can give money through that.
 
-[17:01] **Nadia:** That's not, like, the major source of funding though, right? I mean, like, if you're giving 10% of your income, you're not putting that on a plate.
+[17:01] **Nadia:** That's not the major source of funding though, right? I mean, if you're giving 10% of your income, you're not putting that on a plate.
 
 [17:09] **Henry:** Well, yeah, that's where you would just put in a check, yeah.
 
@@ -130,13 +130,13 @@ quotes:
 
 [17:14] **Henry:** Yeah (laughs). That is pretty normal.
 
-[17:18] **Nadia:** Just picturing these, like, churches laundering just, like, massive amounts of cash and checks.
+[17:18] **Nadia:** Just picturing these churches laundering just massive amounts of cash and checks.
 
 [17:23] **Henry:** Well, that's the thing. I think most people don't do it, so (laughs) ...
 
-[17:28] **Nadia:** Yeah. It would be curious for a church that.. I'm sure there are churches that do online giving or ...
+[17:28] **Nadia:** It would be curious for a church that.. I'm sure there are churches that do online giving or ...
 
-[17:34] **Henry:** Mm-hmm (affirmative).
+[17:34] **Henry:** Mm-hmm.
 
 [17:34] **Nadia:** ... That's a regular subscription, so you don't have to think about it or whatever, I'm sure would unlock more people that are comfortable giving in that way versus in person, but it would just be really different. I like your analogy about just digital versus physical books also 'cause ... I just switched back to.. side tangent. I just switched back to physical books for the most part, after using Kindle for a few years and I can't put my finger on why, the Kindle has done everything right. It's like I can't point to something that I don't have.
 
@@ -160,9 +160,9 @@ quotes:
 
 [19:08] **Nadia:** ... Fluffy and things you can touch and his hypothesis was because people aren't touching enough in real life, which I thought it was kind of interesting. Yeah, that's what it turned out but anyhow, more unconfirmed things I've heard, that apparently bookstores and physical book sales are way up in our generation which I guess is the idea that people want physical books for whatever reason.
 
-[19:34] **Nadia:** So yeah, maybe they're not going to die off, but you're right. We kind of underestimate the, we are human beings and maybe there's sort of like a backlash response where you do wanna have more physical things in your life and maybe it will be one of those things too, like physical, physical sense of community.
+[19:34] **Nadia:** So yeah, maybe they're not going to die off, but you're right. We kind of underestimate the, we are human beings and maybe there's sort of like a backlash response where you do wanna have more physical things in your life and maybe it will be one of those things too, like physical sense of community.
 
-[19:53] **Henry:** Yeah. I think it would be interesting when we get to VR and AR and all that 'cause it kinda loses the sense of touch, but ...
+[19:53] **Henry:** I think it would be interesting when we get to VR and AR and all that 'cause it kinda loses the sense of touch, but ...
 
 [20:00] **Nadia:** Yeah, really relying on visual and your ears. I mean, there's something with haptic feedback but yeah, it's very, it's not very tactile at all.
 
@@ -172,15 +172,15 @@ quotes:
 
 [20:44] **Henry:** Yeah, I'm glad I don't drive anymore too (laughs).
 
-[20:48] **Nadia:** Okay. Go back to fundraising stuff. I was thinking about why do people give in a church context versus why would someone give in an open source context and ... Yeah, what are they looking for? What do they care about? And it seems like in a church context, there's just this ...
+[20:48] **Nadia:** Go back to fundraising stuff. I was thinking about why do people give in a church context versus why would someone give in an open source context and ... Yeah, what are they looking for? What do they care about? And it seems like in a church context, there's just this ...
 
-[21:17] **Nadia:** It's sort of like a more deeply ingrained cultural obligation almost that like you're doing this because there is already an expectation that that's what you do. I think most people, if you've been to one church service, you're familiar with the idea of an offering being passed around and that's kind of just a thing you do.
+[21:17] **Nadia:** It's sort of like a more deeply ingrained cultural obligation almost that you're doing this because there is already an expectation that that's what you do. I think most people, if you've been to one church service, you're familiar with the idea of an offering being passed around and that's kind of just a thing you do.
 
-[21:35] **Henry:** Mm-hmm (affirmative).
+[21:35] **Henry:** Mm-hmm.
 
 [21:37] **Nadia:** Whereas I think something that I'm afraid of with open source sustainability stuff is that people that are giving out of this sense of charity because that's never anything ... I never wanted it to really be about that (laughs). Like, I want it to that you're doing this because you rely on it and you should but I guess it was like a really fine line between like, "Are you giving this because you feel bad for the project?" Because I think there's only an upper limit to how much money people are gonna give when they're doing it out of this sense of like ...
 
-[22:09] **Henry:** Mm-hmm (affirmative).
+[22:09] **Henry:** Mm-hmm.
 
 [22:09] **Nadia:** ... altruism, but it's different to do it if you feel like, "Well, this is just what I do." Like with tithing, I mean, if 10% is the expectation, then that's a very high percent but it's just a thing that is kind of like, it's knowledge that it's just sort of known and distributed and understood.
 
@@ -190,9 +190,9 @@ quotes:
 
 [23:17] **Henry:** But then they also, it kind of goes in the other way for church where it's like because there's an expectation, people do it out of obligation and we don't want to guilt people into giving, which kind of, it is about, you wanna give because, not because it's a good idea or you feel bad but, no, this is important to me. And I think that should be the same mindset in open source ...
 
-[23:46] **Nadia:** How do you, how do you encourage someone to do that for the, like, quote unquote, "right reasons?"
+[23:46] **Nadia:** How do you encourage someone to do that for the quote unquote, "right reasons?"
 
-[23:53] **Henry:** Yeah, I think that's really challenging and I feel like that is kinda almost a, almost like a lifelong journey that you have to go on. And it's the same thing with church itself. People think like, "Oh, if I go to church or if I give money or do good things that somehow I'm like, it's good, right?"
+[23:53] **Henry:** Yeah, I think that's really challenging and I feel like that is kinda almost like a lifelong journey that you have to go on. And it's the same thing with church itself. People think like, "Oh, if I go to church or if I give money or do good things that somehow I'm like, it's good, right?"
 
 [24:15] **Henry:** And I think then you're expecting something out of giving, and you kinda have to ... I know it might be different than what you think but giving out of not expecting anything back but knowing that the process of doing that will, you'll oversee that. It's kind of like you have to do it in faith in a way. It's hard because there's always that struggle between knowing you're doing the right thing and then not expecting anything out of it.
 
@@ -206,13 +206,13 @@ quotes:
 
 [26:39] **Nadia:** But it's very hard for me to think of a company doing that because (laughs) I don't know ... I mean, it's hard enough to justify sponsorships even when there are tangible tactical benefits. It's a lot har-, you can't really go to your boss and say like, "Can we add this line item to our budget because it's just kind of what we do?" Maybe. Maybe for certain companies but ... And maybe just different messages will appeal to different kinds of funders but, to me, those are two kind of distinct visions and then I'm wondering how much can open source really take from religion in that sense.
 
-[27:17] **Henry:** Right. No, I think what Sean does is, seems to be the way to go ... I don't know if, if they don't see anything from it, then at some point, someone's gonna question, they look at the account and they're like, "Why are we giving this for nothing back?" And it's, as much as we would like to say like, "Oh, we're investing in the future, whatever," no one's gonna believe that and so, yeah.
+[27:17] **Henry:** Right. No, I think what Sean does is, seems to be the way to go ... I don't know if they don't see anything from it, then at some point, someone's gonna question, they look at the account and they're like, "Why are we giving this for nothing back?" And it's, as much as we would like to say like, "Oh, we're investing in the future, whatever," no one's gonna believe that and so, yeah.
 
 [27:45] **Henry:** Creating, being creative with the kinds of things that you kind of offer back, helps although in another way, I don't know if you can ever really put a monetary factor on things where it's like, "Oh," say, a lot of people sponsor open source for marketing and hiring and it's hard to measure like, "Oh, we gave to this project and somehow that led to X people," unless you said like, "Oh, how did you find out?" And they're like, "Oh, it's 'cause I saw it on the website," or something.
 
 [28:16] **Nadia:** Right. That's hard for a lot of marketing budgets in outside of open source.
 
-[28:21] **Henry:** Right, and so it's like, and we can say things like, "Oh, you sponsored a conference for X thousand dollars and instead, you could just donate to this open source project and get the same visibility or something." And Sean does a lot of interesting things, not just the office hours but, (laughs) we could even, for the next Babel 7 release if I, if we wanted to, you find a company and it's like, "We're gonna name this release after yours or your company," and then now you get a lot of buzz or branding.
+[28:21] **Henry:** Right, and so it's like, and we can say things like, "Oh, you sponsored a conference for X thousand dollars and instead, you could just donate to this open source project and get the same visibility or something." And Sean does a lot of interesting things, not just the office hours but, (laughs) we could even, for the next Babel 7 release if we wanted to, you find a company and it's like, "We're gonna name this release after yours or your company," and then now you get a lot of buzz or branding.
 
 [28:48] **Nadia:** Like-
 
@@ -220,11 +220,11 @@ quotes:
 
 [28:54] **Nadia:** The other thing I wanted to touch on was people in a church that are giving not just money but giving their time, like you mentioned that you volunteer on the welcoming committee at your church ...
 
-[29:10] **Henry:** Mm-hmm (affirmative).
+[29:10] **Henry:** Mm-hmm.
 
 [29:11] **Nadia:** ... And it's not even ... Yeah, I don't even volunteer is right or, I mean, you're participating in the production of this whole thing in a very serious way and yeah, for people that want to give back to church, do they face this either or question of like, "Do I give my money or do I give my time?" 'Cause that seems really similar to me with open source of, on the one hand, it's sometimes it's like encouraging companies to give money to projects but then it's also, your engineers should also donate their time or give back to projects during work hours with things like that, so it seems like too similar ... It's two kinds of resources that someone else can give back to a project.
 
-[29:56] **Henry:** Yeah, I think they are very similar. I guess for church, it would, I would say it is an "and" like, it should be both (laughs). I don't know if you can expect that from random people on open source. No, I think in the church, everyone is actually called to serve in some way, and we would say that God has given everyone we'd say spiritual gifts and maybe it's teaching or welcoming or hospitality or giving money to all those different ways that people can help, and encourage everyone to serve and ...
+[29:56] **Henry:** Yeah, I think they are very similar. I guess for church, I would say it is an "and" like, it should be both (laughs). I don't know if you can expect that from random people on open source. No, I think in the church, everyone is actually called to serve in some way, and we would say that God has given everyone we'd say spiritual gifts and maybe it's teaching or welcoming or hospitality or giving money to all those different ways that people can help, and encourage everyone to serve and ...
 
 [30:32] **Henry:** I don't know if it's that different from open source too. I think everyone should be able to. It doesn't mean we can expect that to happen, but it doesn't mean we don't try to incorporate that and even so (laughs) ... It's funnily enough. This year, I finally decided to be a, quote unquote, "leader" for our bible study family group, and it took me a really long time to wanna to say "okay" to this.
 
@@ -232,9 +232,9 @@ quotes:
 
 [31:22] **Henry:** I don't know. It's, we wanna encourage people to be involved in a project because they can give us all this money but in the end, I'm just one person and there's no way for me to handle all the kind of responsibility and things that we could be doing, and I think it's a way for people to step up and I think it calls for leaders to learn how to delegate and to inspire people to be a part of it knowing that they are capable of giving back.
 
-[31:54] **Nadia:** That's cool. I like this idea of, like, money and time being an "and" and not an "or" thing 'cause it is true in both directions. I think I mostly thought of it in the direction of if people give a lot of time but there's enough money, like, well, you still need money for some things at time, just can't make up for ... But it definitely goes in the other direction too of if you had all the money in the world but you're one person, like, that's also, like, you just can't even deliver on all the things you wanna do. So you need other people to help out.
+[31:54] **Nadia:** That's cool. I like this idea of money and time being an "and" and not an "or" thing 'cause it is true in both directions. I think I mostly thought of it in the direction of if people give a lot of time but there's enough money, like, well, you still need money for some things at time, just can't make up for ... But it definitely goes in the other direction too of if you had all the money in the world but you're one person, you just can't even deliver on all the things you wanna do. So you need other people to help out.
 
-[32:27] **Henry:** Yeah and, I mean, I think time is ... At least in open source, I feel like that's way better than money because it's like not, you don't necessarily have to work on open source full-time, if we had enough volunteers where everything just worked, yeah, you wouldn't even need money because you're getting money from somewhere else.
+[32:27] **Henry:** Yeah and, I mean, I think time is ... At least in open source, I feel like that's way better than money because you don't necessarily have to work on open source full-time, if we had enough volunteers where everything just worked, yeah, you wouldn't even need money because you're getting money from somewhere else.
 
 [32:49] **Henry:** But I do think kind of similar to a church where they have a pastor or whatever and they're paid full-time to manage this organization, I think it is great that a project could have someone full-time because you need someone to be thinking about the vision and all that stuff, right? And I think it's hard to do that when you're just trying to juggle all these things in your life.
 
@@ -258,7 +258,7 @@ quotes:
 
 [35:26] **Nadia:** It's definitely a concern with that in non-profits, including some tech non-profits where ... Like, I know that there's been criticisms of Wikipedia during their annual campaign, and I don't know how true this is or not. I should probably stop sharing things on this podcast but (laughs) ... I don't know whether that's true or not but I just heard from multiple people that they at least felt like, "Well, what is Wikipedia really doing with my money?" Like, there's not that much product development, but they do this huge fundraising campaign every year and, yeah, I think it is a question of ...
 
-[36:06] **Nadia:** Like, I think that's where those sort of like help metrics you were talking about can come into conflict where they're just so many people that use [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) that raising money at this point I'm sure it's just trivial for them even though they do the whole blocking out your page and [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales)' face and everything. In the end, I think it's probably not hard from them to raise the money they need just because there's a lot of people that go to it. Although I think [Google](https://en.wikipedia.org/wiki/Google) is cutting into that traffic now, but anyway, yeah.
+[36:06] **Nadia:** Like, I think that's where those sort of help metrics you were talking about can come into conflict where they're just so many people that use [Wikipedia](https://en.wikipedia.org/wiki/Wikipedia) that raising money at this point I'm sure it's just trivial for them even though they do the whole blocking out your page and [Jimmy Wales](https://en.wikipedia.org/wiki/Jimmy_Wales)' face and everything. In the end, I think it's probably not hard from them to raise the money they need just because there's a lot of people that go to it. Although I think [Google](https://en.wikipedia.org/wiki/Google) is cutting into that traffic now, but anyway, yeah.
 
 [36:34] **Henry:** I think it's funny. I just saw that today, I was on Wikipedia, and I was like, "Wow, this whole page of (laughs) telling me to donate." I guess it goes into that, yeah.
 
@@ -266,7 +266,7 @@ quotes:
 
 [37:02] **Nadia:** Like, we're gonna only raise a finite set of money, right? 'Cause more money is more freedom to be able to plan ahead or do things that you might want to, I don't know, it just gives you more options, so it's also hard for me to imagine someone like Wikipedia saying, "We're only gonna raise a million dollars this year instead of 10 million or whatever it is," like why would you wanna, why would you turn away money if so many people are willing to give it to you? And I think that's a hard thing to know how to regulate.
 
-[37:29] **Henry:** Yeah. And even just going into kind of the ethics of fundraising and asking or ... And even now, people complain that in open source, for, say, [npm](https://en.wikipedia.org/wiki/Npm_(software)), you have that post install message where every time you install, at the bottom, it says like, "Hey, you should donate to our [Patreon](https://en.wikipedia.org/wiki/Patreon) or [Open Collective](https://opencollective.com/)," and if every open source project did that, then you gets spammed with all the stuff and so I did not decide to do that for our project, but I can see that other people feel like they have to.
+[37:29] **Henry:** And even just going into kind of the ethics of fundraising and asking or ... And even now, people complain that in open source, for, say, [npm](https://en.wikipedia.org/wiki/Npm_(software)), you have that post install message where every time you install, at the bottom, it says like, "Hey, you should donate to our [Patreon](https://en.wikipedia.org/wiki/Patreon) or [Open Collective](https://opencollective.com/)," and if every open source project did that, then you gets spammed with all the stuff and so I did not decide to do that for our project, but I can see that other people feel like they have to.
 
 [37:59] **Nadia:** This is a huge controversy and [Bundler](https://bundler.io), I don't know if you have followed that but, I think there are just two different factions within the [Ruby](https://en.wikipedia.org/wiki/Ruby_(programming_language))/ [Rails](https://en.wikipedia.org/wiki/Ruby_on_Rails) community of people who think that kind of fundraising makes sense and people that don't, some kind of bubble to the surface publicly but they had an install message that, I guess, the criticism was that it had sort of inflated the problem in ways that weren't totally accurate or something like that.
 
@@ -274,9 +274,9 @@ quotes:
 
 [38:58] **Henry:** Hm, that's really interesting because I feel like in a church setting, I don't, I think anyone would feel that way, right? It's like we're all volunteering our time but we're definitely not expecting to get paid. I wouldn't, we wouldn't want to have that responsibility anyway (laughs).
 
-[39:17] **Nadia:** Yeah. I wonder, I think it makes it even more complicated in open source that ... See, if people that are completely volunteers, they just kinda do it 'cause they feel like it, there are people that are getting, that work at a company that allows them to work on open source, which is kinda different and then there are people that might get funded independently to work on the projects. And so I'm guessing a lot of the criticism also comes from employees who are, they're being paid full-time somehow to work on this thing, but it's like, "Yeah, but not everyone has that same situation as you," or, I don't know. I think the problem lies when sometimes you're not ...
+[39:17] **Nadia:** I wonder, I think it makes it even more complicated in open source that ... See, if people that are completely volunteers, they just kinda do it 'cause they feel like it, there are people that are getting, that work at a company that allows them to work on open source, which is kinda different and then there are people that might get funded independently to work on the projects. And so I'm guessing a lot of the criticism also comes from employees who are, they're being paid full-time somehow to work on this thing, but it's like, "Yeah, but not everyone has that same situation as you," or, I don't know. I think the problem lies when sometimes you're not ...
 
-[39:52] **Nadia:** Just because you're not being paid to work on the project by the project doesn't mean you're not being paid somehow to work on the project and, like, you're not a volunteer if ... In my view, you're not a volunteer if you're a company employee and your company is, like, essentially encouraging you to work on it all day long. Like, that doesn't make you a volunteer. That, that just means you have a corporate patron.
+[39:52] **Nadia:** Just because you're not being paid to work on the project by the project doesn't mean you're not being paid somehow to work on the project and, like, you're not a volunteer if ... In my view, you're not a volunteer if you're a company employee and your company is essentially encouraging you to work on it all day long. Like, that doesn't make you a volunteer. That just means you have a corporate patron.
 
 [40:14] **Henry:** Yeah, exactly.
 
@@ -288,21 +288,21 @@ quotes:
 
 [40:30] **Henry:** As the one that doesn't work on a company, I agree (laughs).
 
-[40:31] **Nadia:** Yeah. I'm sure you got feels on that. So yeah, it makes the whole fundraising really hard 'cause it's like, "Well, who are you fundraising for? Are you fundraising for yourself? And are you, like using the project as a platform to raise money for yourself and is that okay or not?" Yeah. How has it developed into more open source things than church things but ...
+[40:31] **Nadia:** I'm sure you got feels on that. So yeah, it makes the whole fundraising really hard 'cause it's like, "Well, who are you fundraising for? Are you fundraising for yourself? And are you using the project as a platform to raise money for yourself and is that okay or not?" Yeah. How has it developed into more open source things than church things but ...
 
 [40:47] **Henry:** (laughs) It's hard to talk about money without being very negative because ...
 
-[40:53] **Nadia:** Yeah, we'll it involves a lot of ... Yeah. It just involves a lot of ... It's because it's like quantifying a thing that you didn't think about quantifying beforehand, I think (laughs). Or I think that's what makes it especially hard in stuff like open source or religion where ...
+[40:53] **Nadia:** It just involves a lot of ... It's because it's like quantifying a thing that you didn't think about quantifying beforehand, I think (laughs). Or I think that's what makes it especially hard in stuff like open source or religion where ...
 
 [41:11] **Henry:** Yeah, everything.
 
-[41:12] **Nadia:** Maybe you didn't come into it thinking about money at all. I mean, you probably didn't 'cause it's not like you can make a ton of money (laughs) and either of these situations ... Yeah, once you do have different reasons for being in it or you just need to, like, sustain the work that you're doing then it just leads to a lot of difficult conversations.
+[41:12] **Nadia:** Maybe you didn't come into it thinking about money at all. I mean, you probably didn't 'cause it's not like you can make a ton of money (laughs) and either of these situations ... Yeah, once you do have different reasons for being in it or you just need to sustain the work that you're doing then it just leads to a lot of difficult conversations.
 
-[41:29] **Henry:** Yeah. It's just a lot of pressure really. You wanna sustain yourself but then you're like, "Well, should I limit how much that I make?" And all those questions, and feeling guilty almost. I felt like that a lot when I was trying to raise money on Patreon where it's like you feel bad that people are giving you money but you should feel free but you don't. You almost feel trapped, and maybe you don't wanna feel like you need to give more or do more because they're giving you money. So that, I think the incentive of all the different reward systems isn't necessarily great either.
+[41:29] **Henry:** It's just a lot of pressure really. You wanna sustain yourself but then you're like, "Well, should I limit how much that I make?" And all those questions, and feeling guilty almost. I felt like that a lot when I was trying to raise money on Patreon where it's like you feel bad that people are giving you money but you should feel free but you don't. You almost feel trapped, and maybe you don't wanna feel like you need to give more or do more because they're giving you money. So that, I think the incentive of all the different reward systems isn't necessarily great either.
 
-[42:04] **Nadia:** Yeah. I've heard that from people that are hired by companies to contribute also where it, in some cases, that works really well and in other cases, it's like, "Well, suddenly this thing that I could choose to work on or not, I now feel like I have this obligation to work on." So yeah, I think it's hard for everyone.
+[42:04] **Nadia:** I've heard that from people that are hired by companies to contribute also where it, in some cases, that works really well and in other cases, it's like, "Well, suddenly this thing that I could choose to work on or not, I now feel like I have this obligation to work on." So yeah, I think it's hard for everyone.
 
-[42:23] **Henry:** Yeah. I feel like now I feel more like ... I don't know what word is. Not strongly but I understand that there are people that ... I think we all have this dream of doing open source full-time but now that I'm actually living it, it's like yeah, I don't think it's for everyone, and I'm sure there are a lot of people that just like doing it for fun, and they wouldn't want it to worry about all this stuff that they have to deal with.
+[42:23] **Henry:** I feel like now I feel more like ... I don't know what word is. Not strongly but I understand that there are people that ... I think we all have this dream of doing open source full-time but now that I'm actually living it, it's like yeah, I don't think it's for everyone, and I'm sure there are a lot of people that just like doing it for fun, and they wouldn't want it to worry about all this stuff that they have to deal with.
 
 [42:51] **Henry:** And I think if we can encourage people to be able to work on open source in the ways that they are able to, maybe they can only do it an hour a day but they see all these people doing it full-time, they're like, "Oh, I'm not actually doing open source." I think we should figure out how to showcase the different ways that you can contribute.
 
@@ -310,6 +310,6 @@ quotes:
 
 [43:33] **Nadia:** And you could say the same about religion too, right? Like, be spiritual but not religious. You can practice privately and not go to a church at all. Some people want to be really, really active in church. None of that is right or wrong. It's just, different people have different behaviors and the goal is just to give people lots of different options and to know what their options are but not to force people choose one thing or another.
 
-[43:55] **Henry:** Yeah. Going back to [evangelism](/evangelism).
+[43:55] **Henry:** Going back to [evangelism](/evangelism).
 
 [43:58] **Nadia:** Thanks for listening. If you'd like to continue the conversation, you can find us on Twitter at [@left_pad](https://twitter.com/left_pad) or [@nayafia](https://twitter.com/nayafia) or on our website [hopeinsource.com](https://hopeinsource.com)

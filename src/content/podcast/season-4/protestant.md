@@ -26,7 +26,7 @@ quotes:
 
 [00:17] **Henry:** When I'm in these [places where supposedly Christ was crucified](https://en.wikipedia.org/wiki/Church_of_the_Holy_Sepulchre).
 
-[00:20] **Henry:** Not that I didn't feel anything, but when I see other people expressing themselves by like kissing the ground or weeping.
+[00:20] **Henry:** Not that I didn't feel anything, but when I see other people expressing themselves by kissing the ground or weeping.
 
 > Specifically what's the right posture to be placed towards our liturgies/rituals/actions and our beliefs? Protestant's (tend) to think more towards "[faith alone](https://en.wikipedia.org/wiki/Sola_fide)/[belief alone](https://en.wikipedia.org/wiki/Sola_fide)/[bible alone](https://en.wikipedia.org/wiki/Sola_scriptura)" ala the "[solas](https://en.wikipedia.org/wiki/Five_solas)" and care less about anything else. This tendency in a way is caring about content in a way that is detrimental, and loses the idea of medium/form.
 
@@ -38,7 +38,7 @@ quotes:
 
 [00:45] **Henry:** We are all "protestant" on the Internet.
 
-[00:49] **Michael:** Yeah, right. Oh, that that's a really interesting angle. I don't wanna kind of make unfair generalizations. But yes, I think that more Protestant traditions and maybe especially evangelicalism in the American context tends to de-emphasize the role that the body might play in spirituality.
+[00:49] **Michael:** Yeah, right. Oh, that's a really interesting angle. I don't wanna kind of make unfair generalizations. But yes, I think that more Protestant traditions and maybe especially evangelicalism in the American context tends to de-emphasize the role that the body might play in spirituality.
 
 [01:11] **Michael:** And so the faith becomes a much more cognitive affair. It's a matter of holding or asserting certain truths or ascending to certain truths or propositional beliefs.
 
@@ -62,13 +62,13 @@ quotes:
 
 [03:11] **Henry:** It'd be interesting to explore that. It's almost like we went too far in a certain way as Protestants throwing out the baby with the bathwater.
 
-[03:19] **Henry:** The whole metaphor is like liturgy, which is like those material things you're saying. You get to a point where the only thing that matters is like this flattening of faith, right. Belief.
+[03:19] **Henry:** The whole metaphor is like liturgy, which is like those material things you're saying. You get to a point where the only thing that matters is this flattening of faith, right. Belief.
 
-[03:30] **Henry:** When we talk about like salvation, we always talk about like, oh, did you say the prayer that said I believe in Christ, stuff like that.
+[03:30] **Henry:** When we talk about salvation, we always talk about like, oh, did you say the prayer that said I believe in Christ, stuff like that.
 
-[03:36] **Henry:** And it has nothing to do with like what you do, how you live your life. It is kind of like this reductionism at the extreme. And then the other side might be like, wow, it looks like they're emphasizing these practices too much, there's too much action and not enough belief.
+[03:36] **Henry:** And it has nothing to do with what you do, how you live your life. It is kind of this reductionism at the extreme. And then the other side might be like, wow, it looks like they're emphasizing these practices too much, there's too much action and not enough belief.
 
-[03:51] **Michael:** Yeah. And I think the more nuanced representatives both poles of that would probably be closer than what that kind of points to. But I think there are tendencies in those directions. Definitely.
+[03:51] **Michael:** And I think the more nuanced representatives both poles of that would probably be closer than what that kind of points to. But I think there are tendencies in those directions. Definitely.
 
 [04:06] **Michael:** And that has been an interest of mine. To examine not just what we do with our tools, right?
 
@@ -82,7 +82,7 @@ quotes:
 
 [04:56] **Michael:** I was thinking, I use the example of the difference between an e-reader and a physical book, right? I'm staring at some shelves now that have some books that I've accumulated over the years.
 
-[05:09] **Michael:** And with each one of them what matters about them to me is not just the content of the the argument of the book itself. But I have a set of associations with them where have been with this book who gave me this book?
+[05:09] **Michael:** And with each one of them what matters about them to me is not just the content of the argument of the book itself. But I have a set of associations with them where have been with this book who gave me this book?
 
 > "As a bookish person, for example, I think about how the distinct material shape of the book not only encodes a text but also becomes a reservoir of my personal history. I remember where I was when I read it. Or I recall who gave it to me or to whom I have lent it." -[The Stuff of Life: Materiality and the Self](https://theconvivialsociety.substack.com/p/the-stuff-of-life-materiality-and)
 
@@ -114,19 +114,19 @@ quotes:
 
 [06:52] **Henry:** Mostly because.. I would say that you could probably embed that kind of stuff in the technology. It's just that as a designer, you're not thinking that.
 
-[07:00] **Henry:** Let's do the efficient thing, which is alphabetized. Maybe sorted by, I don't know how much you've read it or like the size. Very like, yeah, quantitative things.
+[07:00] **Henry:** Let's do the efficient thing, which is alphabetized. Maybe sorted by, I don't know how much you've read it or the size. Very quantitative things.
 
 #### Translated Affordances of Digital Interfaces
 
 [07:11] **Henry:** But you could create an interface that would allow you to add in that stuff. I've seen people where when you read a book, they would take a picture of where they are at.
 
-[07:21] **Henry:** And so it'd be like, I'm in a park at this time on this day, and that would embed that kind of information. And maybe that would help you if they displayed it in a way that was like, kind of spatial. There's no reason why you can't do that.
+[07:21] **Henry:** And so it'd be like, I'm in a park at this time on this day, and that would embed that kind of information. And maybe that would help you if they displayed it in a way that was kind of spatial. There's no reason why you can't do that.
 
-[07:32] **Henry:** It's just that our interfaces also don't afford that naturally, right. Because like this bookshelf it's just there.
+[07:32] **Henry:** It's just that our interfaces also don't afford that naturally, right. Because this bookshelf it's just there.
 
 [07:39] **Henry:** I think of the idea of say [lossless compression](https://en.wikipedia.org/wiki/Lossless_compression) and how when we put something in digital, we could just remove all the information that "doesn't matter", the sake of saving space. And we lose all this other stuff that like you said, it's not in inconsequential, but we kind of don't really focus on it. Maybe we could, if we wanted to.
 
-[08:03] **Michael:** Right. I mean, what strikes me about that is precisely the difference between how in this just this very specific example we're talking about. I don't have to do anything more than use the book in its most natural way in order for these associations to gather around that, right.
+[08:03] **Michael:** Right. I mean, what strikes me about that is precisely the difference between how in this very specific example we're talking about. I don't have to do anything more than use the book in its most natural way in order for these associations to gather around that, right.
 
 [08:22] **Michael:** So I hear what you're saying about.. Yeah, we can maybe figure out ways of trying to incorporate this, but then it always.. All these moves seem to require a lot of effort, right? A lot of forethought, a lot of intentionality, a lot of follow through on the part of the user in a way that makes it..
 
@@ -134,19 +134,19 @@ quotes:
 
 [08:43] **Michael:** It's a burden, right? Yes, right. It becomes a kind of burden, rather than just sort of being just a default way of experiencing the technology, right.
 
-[08:53] **Michael:** And I don't know.. I feel like I hear that a lot in a lot of other cases where like.. Well, we can recapture this thing that may be lost, but then when they describe how that would work.. I just, I can never help but think, I'm never gonna do that.
+[08:53] **Michael:** And I don't know.. I feel like I hear that a lot in a lot of other cases where like.. Well, we can recapture this thing that may be lost, but then when they describe how that would work.. I can never help but think, I'm never gonna do that.
 
 [09:08] **Henry:** Yeah, no, I know, I totally feel that.
 
 #### The Burden of Note-Taking Systems
 
-[09:11] **Henry:** One example I immediately think of is.. I mean, everyone has to take notes on stuff eventually. And there's even a meme lately.. I don't know if you've seen that meme with the whole IQ curve thing. The people on the left and the right just use like simple notepad, Apple notes.
+[09:11] **Henry:** One example I immediately think of is.. I mean, everyone has to take notes on stuff eventually. And there's even a meme lately.. I don't know if you've seen that meme with the whole IQ curve thing. The people on the left and the right just use simple notepad, Apple notes.
 
 - [tweet](https://twitter.com/andreyzagoruiko/status/1552086187489107969?s=20)
 
 [09:27] **Henry:** And then one in the middle, it's like all the different types, Notion and OneNote and whatever. All don't even remember all the names, Roam. And I've used all those things in the middle a lot.
 
-[09:38] **Henry:** And I come back to, I don't wanna set up anything. I just wanna jot something down. And I might not ever look at it again. I just need that the minimal amount of effort.
+[09:38] **Henry:** And I come back to, I don't wanna set up anything. I just wanna jot something down. And I might not ever look at it again. I just need the minimal amount of effort.
 
 [09:49] **Michael:** Right. No, that's a great example. In fact, what did I recently download, Craft. So I haven't used it yet, which says a lot.
 
@@ -158,9 +158,9 @@ quotes:
 
 #### No Accounting for Loss
 
-[10:36] **Michael:** When we go for the most efficient method or tool or device or whatever, when we you're talking about lossless compression, there's often no way of even accounting for what you're losing.
+[10:36] **Michael:** When we go for the most efficient method or tool or device or whatever, when you're talking about lossless compression, there's often no way of even accounting for what you're losing.
 
-[10:49] **Michael:** Sometimes it's difficult for people to even articulate what it is, what this loss is. Or what am I missing out on. And it's certainly very difficult to come to quantify, to assign value to, right.
+[10:49] **Michael:** Sometimes it's difficult for people to even articulate what it is, what this loss is. Or what am I missing out on. And it's certainly very difficult to quantify, to assign value to, right.
 
 [11:02] **Michael:** These things end up getting lost, getting discounted in part because there's no way of assigning them a value, given the quantitative, profit loss orientation of so much of our society.
 
@@ -174,17 +174,17 @@ quotes:
 
 [11:48] **Henry:** If someone tries to bring up like, oh, well we lost this, then it's too easy to just be like, well, you're too focused on the past.
 
-[11:55] **Henry:** I also think of like, say like music. People want the physical [vinyl](https://en.wikipedia.org/wiki/Phonograph_record). Even I feel like this, you've probably heard of like [lofi](https://en.wikipedia.org/wiki/Lofi_Girl) music. And it's interesting because they purposely make the music sound not bad, but like old, they put in the crackling sound.
+[11:55] **Henry:** I also think of, say music. People want the physical [vinyl](https://en.wikipedia.org/wiki/Phonograph_record). Even I feel like this, you've probably heard of like [lofi](https://en.wikipedia.org/wiki/Lofi_Girl) music. And it's interesting because they purposely make the music sound not bad, but old, they put in the crackling sound.
 
 [12:12] **Henry:** It's gotten so popular where now we're generating.. So it's like we reverse it. We're just automating and optimizing that kind of sound. So that even that gets kind of lost.
 
-[12:24] **Michael:** Yeah. I can hear the kind of responses that you're aluding to, that this is kind of [Luddite](https://en.wikipedia.org/wiki/Luddite) tendency or [reactionary](https://en.wikipedia.org/wiki/Reactionary) or [romantic](https://en.wikipedia.org/wiki/Romanticism) or some other adjective of that sort is always kinda used as a slur.
+[12:24] **Michael:** I can hear the kind of responses that you're aluding to, that this is kind of [Luddite](https://en.wikipedia.org/wiki/Luddite) tendency or [reactionary](https://en.wikipedia.org/wiki/Reactionary) or [romantic](https://en.wikipedia.org/wiki/Romanticism) or some other adjective of that sort is always kinda used as a slur.
 
 [12:40] **Michael:** Even being able to mount a defense, to articulate why something like that matters without falling into a romanticism about the past or a kind of nost.. I'm looking for an adjective because I actually don't think all forms of nostalgia are bad.
 
 [12:59] **Michael:** But a kind of reactionary nostalgia about the past that ignores elements of injustice or ways in which life was a lot harder. Whatever. I grant all of that.
 
-[13:11] **Michael:** And yet I think when people register a preference for analog technologies or technologies that are a little less smooth and crisp and efficient. I think they're registering a kind of genuine human need for a deeper kind of engagement with stuff that that's just a little bit more rewarding, even if it's a little harder, a little more.. requires a little bit more of us, but it involves us in ways that are a little more satisfying.
+[13:11] **Michael:** And yet I think when people register a preference for analog technologies or technologies that are a little less smooth and crisp and efficient. I think they're registering a kind of genuine human need for a deeper kind of engagement with stuff that's just a little bit more rewarding, even if it's a little harder, a little more.. requires a little bit more of us, but it involves us in ways that are a little more satisfying.
 
 [13:39] **Michael:** And it's why I kept using this word texture, to talk about materiality how it changes texture. And I think we want a measure of texture, right. Rather than just a completely smooth experience of the world.
 
@@ -224,9 +224,9 @@ quotes:
 
 #### The Frictionless Life
 
-[16:02] **Henry:** [_Friction is the Friend of Serendipity_](https://buttondown.email/chriskrycho/archive/friction-is-the-friend-of-serendipity/). And even thinking about like, if there's no friction, right. I'm thinking about like on ice, sliding across.
+[16:02] **Henry:** [_Friction is the Friend of Serendipity_](https://buttondown.email/chriskrycho/archive/friction-is-the-friend-of-serendipity/). And even thinking about, if there's no friction, right. I'm thinking about on ice, sliding across.
 
-> "And here we come to it: friction is good. It is of course not a wholesale good, but a contextual good—but a good it remains... To riff on Cohen’s post: friction is the enemy of engagement, and therefore of monetization. That also suggests the corollary: friction is (or at least may be) the friend of serendipity." - [Chris Krycho](https://buttondown.email/chriskrycho/archive/friction-is-the-friend-of-serendipity/)
+> "And here we come to it: friction is good. It is of course not a wholesale good, but a contextual good, but a good it remains... To riff on Cohen’s post: friction is the enemy of engagement, and therefore of monetization. That also suggests the corollary: friction is (or at least may be) the friend of serendipity." - [Chris Krycho](https://buttondown.email/chriskrycho/archive/friction-is-the-friend-of-serendipity/)
 
 [16:10] **Henry:** The texture is actually what makes you stop? Those are the anchors. I mean, this is all metaphorical..
 
@@ -238,7 +238,7 @@ quotes:
 
 [16:28] **Henry:** Feel like it's a good metaphor.
 
-[16:29] **Michael:** Right, right. No, in fact, while you were writing that, I tracked down this blog post I wrote in 2011. The title was [_A Frictionless Life is Also a Life Without Traction_](https://thefrailestthing.com/2011/05/05/a-frictionless-life-is-also-a-life-without-traction/). Near the end I talk about [Albert Borgmann](https://en.wikipedia.org/wiki/Albert_Borgmann) here. I think Borgmann is very good of philosophy of technology on these questions.
+[16:29] **Michael:** Right. No, in fact, while you were writing that, I tracked down this blog post I wrote in 2011. The title was [_A Frictionless Life is Also a Life Without Traction_](https://thefrailestthing.com/2011/05/05/a-frictionless-life-is-also-a-life-without-traction/). Near the end I talk about [Albert Borgmann](https://en.wikipedia.org/wiki/Albert_Borgmann) here. I think Borgmann is very good of philosophy of technology on these questions.
 
 > Removing all resistance removes all traction; and if everything is easy, in the end nothing may be satisfying or meaningful. This reminded me of philosopher of technology Albert Borgmann’s suggestion that we must make a distinction between “trouble we reject in principle and accept in practice and trouble we accept in practice and in principle.” - [A Frictionless Life](https://thefrailestthing.com/2011/05/05/a-frictionless-life-is-also-a-life-without-traction/)
 
@@ -250,7 +250,7 @@ quotes:
 
 > "The trajectory of our desire toward a frictionless life, then, may paradoxically leave us unable to find meaningful satisfaction or a sense of fulfillment." - [A Frictionless Life](https://thefrailestthing.com/2011/05/05/a-frictionless-life-is-also-a-life-without-traction/)
 
-[17:13] **Henry:** Another topic would be like video games. There are a lot of mindless games where you don't actually improve on any particular skill. They give you plus ones and points right. Make you feel like you're progressing, based on how much time you put in.
+[17:13] **Henry:** Another topic would be video games. There are a lot of mindless games where you don't actually improve on any particular skill. They give you plus ones and points right. Make you feel like you're progressing, based on how much time you put in.
 
 > Ref things like most mobile games (Bejeweled, gacha games), but also idle games (Cookie Clicker, Universal Paperclips, etc). See [What Makes "Clicker Games" Good? (video)](https://www.youtube.com/watch?v=j_nI6G3ZDiE)
 
@@ -278,13 +278,13 @@ quotes:
 
 > My favorite examples that I've played (with varying levels of help): Hades, Slay the Spire, Noita, Nuclear Throne, Risk of Rain 2, One Step From Eden, Inscryption. I'll also mention platformers as also usually not helping you (Super Meat Boy, Celeste), other than maybe for accessibility.
 
-[18:44] **Henry:** And I think that gives you a lot of fulfillment because at the end that it was me, that I had the skills to get through this. Versus like the game just kind of pushed me along.
+[18:44] **Henry:** And I think that gives you a lot of fulfillment because at the end that it was me, that I had the skills to get through this. Versus the game just kind of pushed me along.
 
 [18:54] **Henry:** I put enough hours in it, in terms of just straight up time, my skill doesn't have to increase at all.
 
 [18:58] **Henry:** If it's all frictionless at the end of it, you're not really satisfied completing this thing. It's like entertainment or something.
 
-[19:06] **Michael:** Yeah. And of course, I think this is kind of a good segue to Illich. We have to talk about Illich at some point. So it's the difference between just being a consumer, right, and being skilled, developing some measure of skill or competency.
+[19:06] **Michael:** And of course, I think this is kind of a good segue to Illich. We have to talk about Illich at some point. So it's the difference between just being a consumer, right, and being skilled, developing some measure of skill or competency.
 
 [19:21] **Michael:** Which then gives you a sense of accomplishment, sense of purpose. I think that anchors your identity to some degree, helps you contribute to the life of the community, et cetera.
 
@@ -298,7 +298,7 @@ quotes:
 
 [19:52] **Henry:** But a lot of his work is around the language of needs, in terms of community, in terms of what you were saying about being consumer. And his point was in order for the community to grow, the institution will never help the community grow because the institution is an outsider, a third party. They're coming in to fix your problems.
 
-[20:14] **Henry:** And of course, they're looking at this community from the point of deficiencies and needs. He was coming into like a university setting and all the studies are all what he would say are the glass half empty. Let's find out all the, I don't know, drug problems in the city, and then figure out how to pay these people to help those people.
+[20:14] **Henry:** And of course, they're looking at this community from the point of deficiencies and needs. He was coming into a university setting and all the studies are all what he would say are the glass half empty. Let's find out all the, I don't know, drug problems in the city, and then figure out how to pay these people to help those people.
 
 > "We have deficiencies and problems and emptiness. And we have fullness and gifts and capacities... communities have no needs for needs. In my hometown, little town of Wisconsin, we have one carpenter. And he has one leg. Nobody in my hometown needs John's missing leg; we need his other leg. We need to understand him not as physically disabled, but as a carpenter because he's the only one we got. And if we begin to think of him as physically disabled, our community will stop growing." - [John McKnight](https://www.youtube.com/watch?v=0-yvfj-ttIs&list=LL&index=17&t=2628)
 
@@ -310,19 +310,19 @@ quotes:
 
 [21:05] **Henry:** Especially what he would call labeled people. We label them based on their disabilities, rather than their gifts. And it's difficult because it's easy to just say, yeah, let's just pay for something. Or I guess separate people, isolate them into different places or like something like that.
 
-[21:19] **Michael:** Yeah, yeah, this certainly resonates with Illich. Yeah. I can definitely see the affinity.
+[21:19] **Michael:** Yeah, this certainly resonates with Illich. Yeah. I can definitely see the affinity.
 
-[21:24] **Henry:** I don't know where we went with but that was, that was interesting. I wanna go deeper into what I thought was the Protestant mindset or whatever you wanna call it..
+[21:24] **Henry:** I don't know where we went with but that was interesting. I wanna go deeper into what I thought was the Protestant mindset or whatever you wanna call it..
 
 [21:33] **Michael:** Man, I'd have to I'd wanna think about it a little otherwise I think I'd just be kind of..
 
 [21:37] **Henry:** I'm happy to just spend some time thinking about too.. With podcasts, we always wanna say immediately what I'm thinking.
 
-[21:42] **Michael:** No, no, but you're right. I mean, it's fine, fine to try to hash it out. I just don't want to give you nothing. Yeah. I mean, if you wanna start off and tell me some of what you were thinking along those lines, I'm happy think out loud with you.
+[21:42] **Michael:** No, no, but you're right. I mean, it's fine to try to hash it out. I just don't want to give you nothing. Yeah. I mean, if you wanna start off and tell me some of what you were thinking along those lines, I'm happy think out loud with you.
 
 #### Liturgies and Mediums
 
-> "Education is a holistic endeavor that involves the whole person, including our bodies, in a process of formation that aims our desires, primes our imagination, and orients us to the world -- all before we ever start thinking about it." ― James K.A. Smith, Desiring the Kingdom
+> "Education is a holistic endeavor that involves the whole person, including our bodies, in a process of formation that aims our desires, primes our imagination, and orients us to the world, all before we ever start thinking about it." ― James K.A. Smith, Desiring the Kingdom
 
 [21:52] **Henry:** I guess I kind of go to James K.A. Smith's work on liturgies habits?
 
@@ -332,13 +332,13 @@ quotes:
 
 > The section on "the medium is the message" can, perhaps, be clarified by pointing out that any technology gradually creates a totally new human environment. Environments are not passive wrappings but active processes. … “The medium is the message” means, in terms of the electronic age, that a totally new environment has been created. - [_Understanding Media_](https://en.wikipedia.org/wiki/Understanding_Media)
 
-[22:07] **Michael:** Mm-hmm. Yeah, yeah.
+[22:07] **Michael:** Mm-hmm. Yeah.
 
 [22:08] **Henry:** Even the materiality, the texture you were talking about in the world, isn't that like our medium?
 
 [22:14] **Michael:** That's the medium, right? Yeah, definitely. It's the stuff of life.
 
-[22:17] **Henry:** So when we reduce, when we flatten life by digitizing things and we kind of lose those other, what we call them, things that we can't even say, we lose like the medium.. Or the medium becomes something else. I don't know what..
+[22:17] **Henry:** So when we reduce, when we flatten life by digitizing things and we kind of lose those other, what we call them, things that we can't even say, we lose the medium.. Or the medium becomes something else. I don't know what..
 
 [22:33] **Michael:** Right, it changes, right? So the medium changes and the most important effects are not often the ones that we immediately perceive.
 
@@ -362,7 +362,7 @@ quotes:
 
 [24:08] **Henry:** And they have these new apps. They'll be like, oh, you took this picture like a year ago. And I think genuinely do help, but it's not just stuck in this pocket in a coat.
 
-[24:18] **Michael:** Yeah. No, I think, my wife had one of those apps for a while. It would kind of collect your photos across various apps and it was on this day. I forget what it was. And it was interesting because it was also gamified with a streak function. You'd get a little record of how many days in a row you'd done it or something like that.
+[24:18] **Michael:** No, I think, my wife had one of those apps for a while. It would kind of collect your photos across various apps and it was on this day. I forget what it was. And it was interesting because it was also gamified with a streak function. You'd get a little record of how many days in a row you'd done it or something like that.
 
 [24:34] **Michael:** But to me, this is a really interesting point. Because I think this kind of echoes something we were talking about a little bit ago.
 
@@ -384,11 +384,11 @@ quotes:
 
 [26:04] **Henry:** That's why people don't like reading the same book, because they're like, well, I already read the content, but it's like, you are different as a person, and the context have changed.
 
-[26:12] **Michael:** That's right. I mean, that's well put right. You're just escalating in a sense the problem, right? You think, well, there's this kind of loss, or this this thing I need to compensate for, so I'll just introduce one more tool or technique to do so, and then you've just sort of introduced a whole new set of..
+[26:12] **Michael:** That's right. I mean, that's well put right. You're just escalating in a sense the problem, right? You think, well, there's this kind of loss, or this thing I need to compensate for, so I'll just introduce one more tool or technique to do so, and then you've just sort of introduced a whole new set of..
 
 [26:28] **Michael:** You've not only failed to recapture what you think you're recapturing, right. You've introduced a whole new host of issues.
 
-[26:35] **Michael:** And not all of these necessarily, pan out in catastrophic ways or anything like that. But, but I feel like we're constantly chasing something, that we can't quite capture, or recapture as case may be. And then generating other effects that we still haven't fully comprehended like this inability to just inhabit moments and actions..
+[26:35] **Michael:** And not all of these necessarily, pan out in catastrophic ways or anything like that. But I feel like we're constantly chasing something, that we can't quite capture, or recapture as case may be. And then generating other effects that we still haven't fully comprehended like this inability to just inhabit moments and actions..
 
 [26:59] **Henry:** As they come!
 
@@ -404,7 +404,7 @@ quotes:
 
 [27:28] **Henry:** I almost feel like that this practice of digitizing things or wanting to recreate is like the habit that we're creating, because we're trying to chase after what I would just say, capturing things.
 
-[27:40] **Henry:** If we wanna speak from Illichian point of view, he has like this famous.. It's not famous, but like I keep thinking about it, where someone was trying to take a picture of him when he was giving a talk and then he just shouts in the middle of his talk. "You can't capture me!"
+[27:40] **Henry:** If we wanna speak from Illichian point of view, he has this famous.. It's not famous, but I keep thinking about it, where someone was trying to take a picture of him when he was giving a talk and then he just shouts in the middle of his talk. "You can't capture me!"
 
 [27:54] **Michael:** Oh, interesting. Yeah,
 
@@ -412,13 +412,13 @@ quotes:
 
 [28:09] **Henry:** What it was like. And we could try to simulate the sounds and the smells and all these things, just like we're trying to do with the [metaverse](https://en.wikipedia.org/wiki/Metaverse), but it's not going to be the same, right.
 
-[28:18] **Michael:** Yes. I mean that dynamic of trying to capture the moment, document the moment. Yeah, that that's so pervasive.
+[28:18] **Michael:** Yes. I mean that dynamic of trying to capture the moment, document the moment. Yeah, that's so pervasive.
 
 [28:25] **Michael:** I mean, I wonder.. I used to think about that a lot more. And I wonder to what degree.. Has that changed? Do you feel like that has changed, like that impulse to document?
 
 [28:34] **Michael:** I think of that as being a very sort of early social media kind of instinct, I'm not sure how much that is the case anymore, but I mean, I think to some degree it is, right. I know I'm I certainly tempted by that.
 
-[28:48] **Henry:** Well, I think as someone that does podcasts, you might start feeling like I need to record every conversation that I have because there's something good. There's devices that are always on. It's probably default on, and then when you need it 30 seconds back, I can like save that. But you're conscious that you're being recorded all the time. But I also think maybe it's not as big a deal just because we are doing that all the time.
+[28:48] **Henry:** Well, I think as someone that does podcasts, you might start feeling like I need to record every conversation that I have because there's something good. There's devices that are always on. It's probably default on, and then when you need it 30 seconds back, I can save that. But you're conscious that you're being recorded all the time. But I also think maybe it's not as big a deal just because we are doing that all the time.
 
 #### Reality TV prepped us for the very online life
 
@@ -426,17 +426,17 @@ quotes:
 
 [29:22] **Henry:** And it's like these streamers, maybe they are famous through video games, but now they're just basically celebrities, like YouTubers. And they just stream them doing random stuff, being in their home, like cooking food or whatever. And that is their whole life.
 
-[29:39] **Michael:** Yeah. That is curious because that hearkens back to very early internet days or very early, maybe web two days. I remember there was a documentary to this effect. I wrote about it in some essay I wrote about privacy at one point a long time ago.
+[29:39] **Michael:** That is curious because that hearkens back to very early internet days or very early, maybe web two days. I remember there was a documentary to this effect. I wrote about it in some essay I wrote about privacy at one point a long time ago.
 
 [29:53] **Michael:** I forget the name of the documentary, but it was somebody who basically subjected himself and a group of friends to 24/7 surveillance. And I think that that kind of stuff was more popular in that era. So interesting to kind see that kind of come back.
 
-[30:08] **Michael:** I think of that too I've, I've often thought that reality TV was such a perfect prelude to the social media era. That in many ways it prepped our consciousness to then just put our lives online. Right?
+[30:08] **Michael:** I think of that too I've often thought that reality TV was such a perfect prelude to the social media era. That in many ways it prepped our consciousness to then just put our lives online. Right?
 
 [30:23] **Henry:** And it gets kind of worse because it's the way they make money is through.. It's actually hard to do that. It's not just a YouTube video. You can edit it, make it short.
 
 [30:32] **Henry:** A lot livestreaming is.. You can just say it's boring. And if they have a contract signed they have to stream a certain number of hours per month, then you know, how do you fill up that time?
 
-[30:41] **Henry:** So a lot of people aren't creative enough or just it it's not, you could still get a lot of views if you're famous by eating some food, you don't have create this whole like setup.
+[30:41] **Henry:** So a lot of people aren't creative enough or just it's not, you could still get a lot of views if you're famous by eating some food, you don't have create this whole setup.
 
 [30:52] **Henry:** So a lot of times people are just end up watching their own YouTube videos or other streamers as the stream, which is so meta. It just gets kind of like, wow, what is going on?
 
@@ -454,27 +454,27 @@ quotes:
 
 [32:05] **Michael:** That has changed and shifted to something a little bit different, although I'm not sure I can articulate how exactly it's changed.
 
-[32:12] **Michael:** But I think we're in a realm now where it's less about the active presentation of the self for most people. And more about kind of the ambient capturing of data that reveals preferences, ostensibly, and automates all forms of content intake and consumption, which has its its own set of issues or whatever.
+[32:12] **Michael:** But I think we're in a realm now where it's less about the active presentation of the self for most people. And more about kind of the ambient capturing of data that reveals preferences, ostensibly, and automates all forms of content intake and consumption, which has its own set of issues or whatever.
 
-[32:35] **Henry:** Yeah. I guess maybe that fits into.. We're always talking about algorithms now. You flatten everyone's inputs into some data set, and then that turns into like what you're supposed to watch.
+[32:35] **Henry:** I guess maybe that fits into.. We're always talking about algorithms now. You flatten everyone's inputs into some data set, and then that turns into what you're supposed to watch.
 
 [32:49] **Henry:** Even livestreaming fits in with this ambient thing you're talking about, it's not like most people are necessarily watching someone as the main focus of what they're doing. They're cooking food or running or something. It's just like in the background, like having TV in the..
 
 [33:05] **Michael:** Right, and that's interesting of itself. But I don't know that I ever completed a thought of extraction, right. So we want to extract.
 
-[33:11] **Michael:** And often for the sake of, I mean, in the case of the the people who are live streaming and have a platform and contracts, obviously it's a form of income, right? You're generating income for yourself by basically extracting your private life, right. Or what would presumably be your private life?
+[33:11] **Michael:** And often for the sake of, I mean, in the case of the people who are live streaming and have a platform and contracts, obviously it's a form of income, right? You're generating income for yourself by basically extracting your private life, right. Or what would presumably be your private life?
 
 [33:28] **Michael:** Everything now can just be a source of production, right? It has no integrity on its own terms except as a potential source of content.
 
 #### On the Terms of the Medium
 
-[33:41] **Henry:** Yeah. It's interesting, because I spend a lot of time watching this stuff too. So it's not like I'm trying to say this is bad whatever. But I'm also trying to understand like what's going on and I think..
+[33:41] **Henry:** It's interesting, because I spend a lot of time watching this stuff too. So it's not like I'm trying to say this is bad whatever. But I'm also trying to understand what's going on and I think..
 
 [33:52] **Henry:** People that do that, they are very open about their lives and that can obviously be bad and good in so many different ways.
 
 [33:58] **Henry:** But it is interesting hearing when they're not on, right. They're not on their livestream voice or whatever and because there's so much time, right, people just act like themselves and just be honest about how they feel. But then you can't tell if it's like, is that for the livestream or is that just them?
 
-[34:14] **Henry:** Sometimes like people will share. And like one of them, I thought was interesting. They're just speaking about how you have to evaluate whether that game is gonna be good for your viewership. The game might be just fun, but if no one will watch it..
+[34:14] **Henry:** Sometimes people will share. And one of them, I thought was interesting. They're just speaking about how you have to evaluate whether that game is gonna be good for your viewership. The game might be just fun, but if no one will watch it..
 
 [34:28] **Henry:** It actually hurts you because if you play the game that no one watches that actually might make people not wanna watch you later, or they start tuning to someone else.
 
@@ -490,7 +490,7 @@ quotes:
 
 [35:29] **Michael:** Right. Or this topic that trended for 24 hours.
 
-[35:33] **Michael:** Yeah, And I I don't know, to go back to this idea of things we have a hard time articulating, quantifying, defending whatever. The we here obviously very generic, right.
+[35:33] **Michael:** Yeah, And I don't know, to go back to this idea of things we have a hard time articulating, quantifying, defending whatever. The we here obviously very generic, right.
 
 #### Extraction of Private Life into Public Benefit
 
@@ -510,19 +510,19 @@ quotes:
 
 [37:16] **Michael:** So it's in a way we've.. Maybe corrupted is too strong of a word, but you know, we've kind of corrupted public life with private elements of the self and invaded private life with the public in ways that have kind of disturbed the right balance, the right order of both of those sphers. I don't know. Does that make sense?
 
-[37:37] **Henry:** Yeah. Some people now, they don't want a distinction between the private and the public. Or maybe by putting ourselves so much in public, what's the difference?
+[37:37] **Henry:** Some people now, they don't want a distinction between the private and the public. Or maybe by putting ourselves so much in public, what's the difference?
 
-[37:44] **Henry:** And I think that a lot of us share these very deep, intimate moments about our lives online. That doesn't mean it's everything, but like share when they get married, they have kids, when they change their job. You think about all these big events, we wanna put that on there.
+[37:44] **Henry:** And I think that a lot of us share these very deep, intimate moments about our lives online. That doesn't mean it's everything, but share when they get married, they have kids, when they change their job. You think about all these big events, we wanna put that on there.
 
 [38:00] **Henry:** Of course we all wanna share these moments, but it's also weird because everyone else sees it too. And they're not gonna have the context or relationship with you to even make that meaningful to you other than making your likes go up.
 
-[38:13] **Michael:** Yeah. And I mean, I wanna be careful on two fronts here.
+[38:13] **Michael:** And I mean, I wanna be careful on two fronts here.
 
 [38:16] **Michael:** So I've mentioned two things so far, right? The televisual ideal of the self that we carry into the early social media period. The way in which reality television, mid to late nineties, early two thousands kind of preps us for that.
 
 #### On Loneliness and Making a Living
 
-[38:28] **Michael:** The third thing maybe is loneliness, right. You know, throughout the mid to late 20th century there's a lot of work done on the, the. The pervasive nature of loneliness, right? Anonymity, mass society, the individual is lost. You know, I think [_Bowling Alone_](https://en.wikipedia.org/wiki/Bowling_Alone) comes out in 2000.
+[38:28] **Michael:** The third thing maybe is loneliness, right. You know, throughout the mid to late 20th century there's a lot of work done on the pervasive nature of loneliness, right? Anonymity, mass society, the individual is lost. You know, I think [_Bowling Alone_](https://en.wikipedia.org/wiki/Bowling_Alone) comes out in 2000.
 
 [38:47] **Michael:** And so I think we bring an experience of loneliness and alienation also into that early social media period. And social media promises connection, right. Promises to alleviate that loneliness. To give us people who will hear us and listen to us tell our story or share our lives. I imagine there must be some solace in that.
 
@@ -542,9 +542,9 @@ quotes:
 
 [40:43] **Michael:** Right, yeah. And being inside of it and trying to navigate, in a sense unless we're talking about something we might deem altogether illict, right. But that otherwise this is what we can hope for, right.
 
-[40:54] **Michael:** To kind of thoughtfully participate in these arenas and find out from experience rather than just as a kind of outside observer, whether they're wise and virtuous ways of navigating these spaces. In humane ways of being in them, rather than just allowing the demands of the machine or the system or the the network to completely overtake us and shape us. Yeah.
+[40:54] **Michael:** To kind of thoughtfully participate in these arenas and find out from experience rather than just as a kind of outside observer, whether they're wise and virtuous ways of navigating these spaces. In humane ways of being in them, rather than just allowing the demands of the machine or the system or the network to completely overtake us and shape us. Yeah.
 
-[41:19] **Henry:** Right. And I think that goes back to what we were talking about with like a certain mindset. Doesn't have to be Protestant or whatever, that was just my funny label for it.
+[41:19] **Henry:** Right. And I think that goes back to what we were talking about with a certain mindset. Doesn't have to be Protestant or whatever, that was just my funny label for it.
 
 [41:27] **Henry:** One could be like, well, the future of work is everyone live streams. And the other one is like, oh, this stuff is really bad, we should get rid of it. I think this is gonna be here to stay, it's not gonna go away. So how do we think about doing this in maybe some more thoughtful ways.
 
@@ -558,15 +558,15 @@ quotes:
 
 [42:20] **Michael:** And so what we're trying to do is navigate, negotiate. So then I wanna say the third option is refusal, right? And I think there is for certain people and certain conditions, depending on their moral outlook, how they're situated, they may conclude the best option is to refuse.
 
-[42:35] **Michael:** And that that's a perfectly legitimate option as well.
+[42:35] **Michael:** And that's a perfectly legitimate option as well.
 
-[42:38] **Henry:** Yeah. The concern is just being able to opt out. And I guess that goes back to like Illich and the feeling that may be forced to do something because there are no more options whether it's legally or culturally, right? Maybe there's some universe out there where everyone has to livestream for some reason.
+[42:38] **Henry:** The concern is just being able to opt out. And I guess that goes back to Illich and the feeling that may be forced to do something because there are no more options whether it's legally or culturally, right? Maybe there's some universe out there where everyone has to livestream for some reason.
 
 [42:59] **Henry:** And I'd rather someone do livestream and do youtube then they just work some random 9-5 job. At least maybe they can be creative about it, the fact that they have the ability to try something else. I think that's great.
 
 [43:10] **Michael:** I think that's right. Every era has presented us with demeaning forms of human labor, right. And so anytime where we increase the freedom of individuals.. Genuinely, right. I think the catch here is always what is sometimes offered as increased freedom is often just another form of entrapment.
 
-[43:28] **Michael:** But if there are genuine avenues for a greater degree of independence and self-sufficiency and, and development of personal skills and capacities. Those are always to be valued and preferred, I think.
+[43:28] **Michael:** But if there are genuine avenues for a greater degree of independence and self-sufficiency and development of personal skills and capacities. Those are always to be valued and preferred, I think.
 
 [43:42] **Henry:** Mm-hmm. I'm not sure where this fits in, and you've wrote about this too.
 
@@ -580,7 +580,7 @@ quotes:
 
 [44:03] **Michael:** Right. And it's funny, cause that's another case of that pattern that we talked about at the outset, which is that it just happened by default in the setting that she was describing, right? You just the arrangement of the space was such.
 
-[44:15] **Michael:** You walk out, you pass your neighbors, you're, you're going to the local market.
+[44:15] **Michael:** You walk out, you pass your neighbors, you're going to the local market.
 
 [44:19] **Michael:** And so you have all of these interactions that are not the kinds of interactions you have in your home, where you invite people into your private spheres, but neither are they completely anonymous interactions, right?
 
@@ -604,7 +604,7 @@ quotes:
 
 [46:21] **Michael:** And it's, you course, very easy for me just to say that right, declare that.
 
-[46:26] **Henry:** Yeah. I mean, I guess it just speaks to just the difficulty and maybe impossibility of designing a world. The digital space is that I think you use the word built environment. It's artificial in that way. Not that it's like a negative thing, simply that we have to build everything from scratch.
+[46:26] **Henry:** I mean, I guess it just speaks to just the difficulty and maybe impossibility of designing a world. The digital space is that I think you use the word built environment. It's artificial in that way. Not that it's like a negative thing, simply that we have to build everything from scratch.
 
 [46:44] **Henry:** And like you said, recreate all these things that just don't.. We can't even use the same assumptions. Actually that's one of the problems with tech. We aren't able to embody, if that's even possible, what's in this space enough to just come up with new ideas or primitives that is better suited for the digital space rather than just trying tack on.
 
@@ -620,7 +620,7 @@ quotes:
 
 #### A Gaze Turned Pastward
 
-[48:07] **Henry:** I think you've written that it's also like the digital is always the past.
+[48:07] **Henry:** I think you've written that it's also the digital is always the past.
 
 [48:12] **Michael:** Oh, yeah, well recently, yes. It always turns our gaze to the past, right. I think of the experience of a timeline on Twitter or Facebook, whatever, right. It's always receding into the past, right.
 

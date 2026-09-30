@@ -31,7 +31,7 @@ quotes:
 
 [0:25] **Henry:** I guess so, yeah.
 
-[0:27] **Sonya:** Which is kind of a wild thing to think about on its own. It's a familiar tool. And I think this does actually have some echoes in.. The concepts that we use to understand the world. And I somewhat recently went through this big shift in what my default concepts that I was reaching for were. And it almost like changes the shape of how you see the world.
+[0:27] **Sonya:** Which is kind of a wild thing to think about on its own. It's a familiar tool. And I think this does actually have some echoes in.. The concepts that we use to understand the world. And I somewhat recently went through this big shift in what my default concepts that I was reaching for were. And it almost changes the shape of how you see the world.
 
 [0:52] **Sonya:** And it's sort of like if you're using a Word document, or you're using a PDF, or you're using a website, the underlying text may still be the same. But your way of engaging with it, the tools that are readily available to you.. You were talking about how it was an unselectable PDF, so you couldn't copy paste a sentence easily. And once that capability is available, you have a new way of interacting. You could easily put together, like here are my favorite quotes or something. And that is not necessarily possible before.
 
@@ -49,11 +49,11 @@ quotes:
 
 [3:35] **Sonya:** I don't know, it's your vantage point or something. You can only see certain things from certain vantage points. Kind of scary also. Like, what am I not seeing because of where I am, but that's actually one of the advantages of Christianity. It's kind of like one of the things that I want from it. And one of the things that Jesus talks about and comes up in other parts of the Bible as well, is like, yes, it shapes you and it's supposed to.
 
-[3:57] **Henry:** Right. It's one thing to say, it's a bunch of like wisdom and you can learn some stuff.  It's like, we are becoming *born again*, right? The idea of transformation. But if you think about it more deeply, talking about baptism, going into the water and coming out, dying and becoming literally another person because you are a Christian now. It shows that it's not like just the quantity, you added some plus ones to some attributes if you're like a RPG character. The idea of like being holy, set apart, isn't just like times two, right?
+[3:57] **Henry:** Right. It's one thing to say, it's a bunch of wisdom and you can learn some stuff.  It's like, we are becoming *born again*, right? The idea of transformation. But if you think about it more deeply, talking about baptism, going into the water and coming out, dying and becoming literally another person because you are a Christian now. It shows that it's not like just the quantity, you added some plus ones to some attributes if you're like a RPG character. The idea of like being holy, set apart, isn't just like times two, right?
 
 [4:29] **Sonya:** Born again.. It has all these cultural connotations and I think that's one of the reasons why people shy away from it, but it's almost like.. It's so sincere. And I mean, we live in an age of irony, right? Like maybe every age is an age of irony in its own way, but I definitely feel like there's a kind of fear of earnestness of just like owning something. It's almost like being willing to be made fun of really, and I wonder if that's another reason why people shy away from the notion of being born again.
 
-[4:56] **Sonya:** You know, what it made me think of is, *washed in the blood*. Like that's a very visceral.. Makes me think of like Buddhist traditions. I'm not going to remember the name of the specific thing, but like where you meditate on the carnage of the hell realms sort of, but in a way that's meant to be kind of transcendent, like, yes, this is an aspect of the universe and I want to understand it want to dissolve into it in a way. And, I mean, there's some aspects of that Christianity too. Like some of the old Jesus on the cross images that really like try to go deep on the suffering and, you know, the angst and like the torture, cause I mean, being crucified is torture.
+[4:56] **Sonya:** You know, what it made me think of is, *washed in the blood*. Like that's a very visceral.. Makes me think of like Buddhist traditions. I'm not going to remember the name of the specific thing, but like where you meditate on the carnage of the hell realms sort of, but in a way that's meant to be kind of transcendent, like, yes, this is an aspect of the universe and I want to understand it want to dissolve into it in a way. And, I mean, there's some aspects of that Christianity too. Like some of the old Jesus on the cross images that really try to go deep on the suffering and, you know, the angst and like the torture, cause I mean, being crucified is torture.
 
 [5:37] **Henry:** The passion, right?
 
@@ -69,7 +69,7 @@ quotes:
 
 > kenosis: (in Christian theology) the renunciation of the divine nature, at least in part, by Christ in the Incarnation.
 
-[6:51] **Sonya:** Was it you who mentioned kenosis? Like the emptying of godhead so that he can become a man and die? I frankly don't know what I think happens. Does Jesus empty himself of Godhead? Does that even make sense? Like I'm not sure, but I'd say it's at least an interesting notion. The idea that you'd have to like drain away all your power in order to physically die. I wonder about that.
+[6:51] **Sonya:** Was it you who mentioned kenosis? Like the emptying of godhead so that he can become a man and die? I frankly don't know what I think happens. Does Jesus empty himself of Godhead? Does that even make sense? Like I'm not sure, but I'd say it's at least an interesting notion. The idea that you'd have to drain away all your power in order to physically die. I wonder about that.
 
 #### The Legitimacy of Questioning
 
@@ -85,7 +85,7 @@ quotes:
 
 > I was seeing the beam, not seeing things by it. Then I moved, so that the beam fell on m yeyes. Instantly the whole previous picture vanished. I saw no toolshed, and (above all) no beam. [Meditation in a Toolshed](https://thecultivatingproject.com/wp-content/uploads/2018/07/Meditation-in-a-Toolshed.pdf)
 
-[9:04] **Sonya:** Yeah. That makes me think of the story about the elephant and all the blind men, like feeling the elephant. It kind of also works with CS Lewis. You mentioned the beam of light coming into the shed, you know, what do you think that light is? It's it depends on how you engage with it.
+[9:04] **Sonya:** That makes me think of the story about the elephant and all the blind men, like feeling the elephant. It kind of also works with CS Lewis. You mentioned the beam of light coming into the shed, you know, what do you think that light is? It depends on how you engage with it.
 
 [9:23] **Henry:** You're always looking at something and then looking from something at the same time, you can't pretend that you're going to find this objective, observer view. We're always within some framework, I guess. And that's the thing with the elephant. The only person that can claim it's an elephant is the person that is the objective view, but none of us have that. So there is truth, but I can only see it through my personal lens.
 
@@ -103,7 +103,7 @@ quotes:
 
 [10:57] **Sonya:** What did it even mean to them? I don't know. And I wish I could know. But I wonder, you know, what kind of worldview reordering did they go through? And  we have some evidence of this from the documents that survived and from the Bible itself.
 
-[11:12] **Sonya:** I don't think that they were less legitimate Christians. You mentioned all these like theological disputes. I don't think that really like disagreements over theology necessarily are that important. I feel like someone's going to come for me for saying that, but I don't feel like Jesus would have cared a lot about people.. But I don't know.. Very presumptuous for me to say, right? I don't know what it, what are your thoughts on this?
+[11:12] **Sonya:** I don't think that they were less legitimate Christians. You mentioned all these like theological disputes. I don't think that really like disagreements over theology necessarily are that important. I feel like someone's going to come for me for saying that, but I don't feel like Jesus would have cared a lot about people.. But I don't know.. Very presumptuous for me to say, right? What are your thoughts on this?
 
 [11:37] **Henry:** Well, I don't think you would say either that nothing in theology matters.
 
@@ -129,7 +129,7 @@ quotes:
 
 [13:26] **Sonya:** And that.. I mean, it's kind of scary also. You know, the idea that you can be affected by things without deciding, I guess. Or, I mean, in the case of going to church, the decision would be going to church. But who you hang out with or what you choose to do with your life, those things ends up changing you in ways that you can't necessarily know ahead.
 
-[13:51] **Henry:** Yeah. I liked that a lot. You're saying I need to be okay with being vulnerable, not just showing yourself, but the other part of vulnerability of like allowing people to affect you. And it's like, otherwise, what are we doing in this world? We are going to change.
+[13:51] **Henry:** I liked that a lot. You're saying I need to be okay with being vulnerable, not just showing yourself, but the other part of vulnerability of like allowing people to affect you. And it's like, otherwise, what are we doing in this world? We are going to change.
 
 [14:06] **Henry:** And as much as I'd think the same or want everything to be in control, when you talk to someone, whatever they say, it's subtlely affecting you in some way. And they're not trying to manipulate you, it's just what happens, right. That is pretty interesting, that someone told you like, Hey, like almost warning you that you might change.
 
@@ -167,15 +167,15 @@ quotes:
 
 [18:40] **Henry:** Right. So say it was an Apple tree. Like different kinds of apples, they would all produce different fruit. Assuming it's compatible.
 
-[18:46] **Sonya:** This also reminds me of the body metaphor that we talked about a little bit before that all the limbs are different. And even on the interior, you know, the organs all do different things and have like different  functions, but they are all part of the same overall entity, you know, working together in tandem.
+[18:46] **Sonya:** This also reminds me of the body metaphor that we talked about a little bit before that all the limbs are different. And even on the interior, you know, the organs all do different things and have different functions, but they are all part of the same overall entity, you know, working together in tandem.
 
 [19:06] **Henry:** Honestly, it's a beautiful metaphor because they all produce their own different fruit. I think that says a lot about calling. We don't need to copy someone else. Like you said, every part has its own function. And then talking about maintenance, cause it's a body, it's a dynamic living thing. It also says like, if one part hurts, we feel it right. And we want to help them. I think that's awesome.
 
-[19:27] **Sonya:** Yeah. The empathy is a sort of natural response.
+[19:27] **Sonya:** The empathy is a sort of natural response.
 
 [19:31] **Henry:** I mean, we use the family metaphor. We're all in the same family but I guess obviously you care about your body.
 
-[19:37] **Sonya:** Yeah. I mean Paul says that specifically, if part of your body is sick, you're going to be upset about that. This also makes me think of.. In the sermon on the Mount, Jesus says, you shall know them by their fruits. This actually puts an interesting spin on that, which is that there are different fruits. But you can still tell whether a plum is rotten and you can tell whether an apple is rotten, but they don't have to be the same thing.
+[19:37] **Sonya:** I mean Paul says that specifically, if part of your body is sick, you're going to be upset about that. This also makes me think of.. In the sermon on the Mount, Jesus says, you shall know them by their fruits. This actually puts an interesting spin on that, which is that there are different fruits. But you can still tell whether a plum is rotten and you can tell whether an apple is rotten, but they don't have to be the same thing.
 
 #### Interwoven Stories
 
@@ -183,7 +183,7 @@ quotes:
 
 [20:34] **Henry:** Yeah, it internally coherent and full of meaning. There's depth. I think the rational view makes everything flat, like everything's one-to-one. We talked about this earlier with like things that Jesus talks about reference to the past, and also refers to the future and to the present, all at the same time.
 
-[20:54] **Sonya:** Yes, I, there are sometimes the way I think of it is that there are like multiple scales happening. Going back to the body. Like we all have gut bacteria and the gut bacteria does a lot of really important stuff. It actually seems to even be linked to cognition. There's emerging evidence and experimentation showing this, which I can't cite in detail, I'm not a biologist. But it's really wild the degree to which it can affect people. And it affects from digestion to mood to your mental faculties, which is wild.
+[20:54] **Sonya:** Yes, there are sometimes the way I think of it is that there are like multiple scales happening. Going back to the body. Like we all have gut bacteria and the gut bacteria does a lot of really important stuff. It actually seems to even be linked to cognition. There's emerging evidence and experimentation showing this, which I can't cite in detail, I'm not a biologist. But it's really wild the degree to which it can affect people. And it affects from digestion to mood to your mental faculties, which is wild.
 
 [21:26] **Sonya:** But the gut bacteria are distinct organisms from us in at least some sense, but we can't really exist without them, or at least we don't exist without them. And I don't know, are they part of me, the human? I don't know. I'm assuming they have different DNA. But we're still part of the same system. Like they live inside of me and because of the rest of me, they are able to flourish. I hope. And I hope my gut bacteria are doing well. I don't really know. I try to treat them well.
 
@@ -201,7 +201,7 @@ quotes:
 
 [23:54] **Sonya:** It feels really important, like the nestedness, the like fractalness of reality feels really important to me. It shows up everywhere. There are all these patterns that have the small and the big. It's almost like they radiate.
 
-[24:06] **Henry:** Yeah. This is like in a lot of different places. So like urban planning. [Jane Jacobs](https://en.wikipedia.org/wiki/Jane_Jacobs) talks about like complexity theory in [the death and life of great American cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). The way she thinks of a city is that it's an organism, right?
+[24:06] **Henry:** This is like in a lot of different places. So like urban planning. [Jane Jacobs](https://en.wikipedia.org/wiki/Jane_Jacobs) talks about like complexity theory in [the death and life of great American cities](https://en.wikipedia.org/wiki/The_Death_and_Life_of_Great_American_Cities). The way she thinks of a city is that it's an organism, right?
 
 [24:19] **Henry:** And her whole issue with the high modernist people that were trying to plan a city was because they thought of the city as  just the land or the buildings, right. It's not the whole ecosystem of people and the wildlife and the environment and all these things. And so we would want to see that in our society, in church. Is the church the people? Is it the building? Is it the land? We can't meet in person. What is it now?
 
@@ -209,7 +209,7 @@ quotes:
 
 [24:54] **Henry:** Static, right.
 
-[24:56] **Sonya:** But they won't, they won't do that for us. You can capture a snapshot.
+[24:56] **Sonya:** But they won't do that for us. You can capture a snapshot.
 
 #### The Language of Discovery
 
@@ -219,7 +219,7 @@ quotes:
 
 [25:56] **Henry:** That's so funny, you bring this up because that's literally what Polanyi talks about. His word is tacit knowledge, right? You know more than you can say, exactly what you said. He likes to use the word discovery and clues. You're pursuing clues in a certain direction. You're not arbitrarily trying all possibilities. There's a reason. There's something in you that's like, I think there's some truth about reality. That I don't know, I'm not certain, but I want to go in this direction. I'm going to choose to do that. And that's a very personal, he would say active commitment.
 
-[26:25] **Henry:** He was saying that like a certain view of science thinks that people are going to abandon what is what they think is already true, just because someone gave them that different evidence. He's like, no, you live through a certain lens. You're going to argue your way, even if they give you evidence to the contrary, because you have a commitment to it. And that's like skin in the game. You need to embody that before you even decide I need to believe this thing.
+[26:25] **Henry:** He was saying that like a certain view of science thinks that people are going to abandon what they think is already true, just because someone gave them that different evidence. He's like, no, you live through a certain lens. You're going to argue your way, even if they give you evidence to the contrary, because you have a commitment to it. And that's like skin in the game. You need to embody that before you even decide I need to believe this thing.
 
 [26:50] **Sonya:** I think that's very.. He's really capturing something that's very essential there. And it frustrates me to a degree. Like, I wish you could all like interface more directly. But, I don't know. It's just not how it works. Although I wonder like what is going to happen with say like [Neuralink](https://en.wikipedia.org/wiki/Neuralink) or something along those lines takes off and we develop telepathy. Okay.
 
@@ -229,25 +229,25 @@ quotes:
 
 [28:03] **Sonya:** I suspect.. With zero evidence, well not zero evidence, but not with unscientific evidence.. That it might work in some way, but it will be transformed by being passed through. You know, if you were to sort of.. I'm imagining a big syringe, like you suck out the data and you inject it into the other brain, I think it would be transformed by going through the personal filter.
 
-[28:27] **Henry:** Okay. Cause if you think about communication, that's basically what we're already doing right. By talking we're already transforming every time. So it's just like a more direct way of doing that.
+[28:27] **Henry:** Cause if you think about communication, that's basically what we're already doing right. By talking we're already transforming every time. So it's just like a more direct way of doing that.
 
 [28:37] **Sonya:** I mean, what if language is more mutually intelligible than a direct brain to brain? It certainly seems possible to me cause language is a tool for kind of like condensing concepts into some sort of like standardized form so that we can then look at them together.
 
 [28:56] **Sonya:** When language was evolving, it's not like someone sat down and thought like, okay, I'm going to design a form so that we can, you know, talk about things. All of these notions of what language is and what it does and what it's for and how it transforms us and how we transform it, all of this comes after language.
 
-[29:15] **Sonya:** At first it just turns out to be useful, you know, like someone's just like messing around and making noises and eventually you get these connections developing. Sign language probably came first, but it transforms us. It being there unlocks new capabilities. And just kind of like everything about evolution is like that. Where you develop some level of capability, right? That sets the new conditions for what, like future levels of capability can evolve. It's path dependent, I guess. There's like there's [hysteresis](https://en.wikipedia.org/wiki/Hysteresis), like the system changes and the changes of the system dependent on the past of the system.
+[29:15] **Sonya:** At first it just turns out to be useful, you know, like someone's just like messing around and making noises and eventually you get these connections developing. Sign language probably came first, but it transforms us. It being there unlocks new capabilities. And just kind of like everything about evolution is like that. Where you develop some level of capability, right? That sets the new conditions for what, like future levels of capability can evolve. It's path dependent, I guess. There's [hysteresis](https://en.wikipedia.org/wiki/Hysteresis), like the system changes and the changes of the system dependent on the past of the system.
 
 [29:49] **Sonya:** Makes me think again of what you said about Jesus is speaking to the past, the present, and the future all at once. Almost like the present itself is speaking to both the past and the future. This is also, I guess, the ship of Theseus thing, like.. All of these systems that exist now, are they different? Are they the same? Like, cause we came from there. But we've transformed so much along the way. That's what I had to say.
 
 #### Extensions of the Body
 
-[30:13] **Henry:** Yeah, that reminds me of technology is an extension of our body kind of idea. It's not just the device, right. When you first learn how to use a hammer, you're very aware of the grip, but then once you're used to it, you start thinking from the the tip of the hammer. So it becomes almost like you.
+[30:13] **Henry:** Yeah, that reminds me of technology is an extension of our body kind of idea. It's not just the device, right. When you first learn how to use a hammer, you're very aware of the grip, but then once you're used to it, you start thinking from the tip of the hammer. So it becomes almost like you.
 
-[30:29] **Sonya:** Or like driving. When you first learned to drive, it's super overwhelming because you have to think about like all these different things at once. You have to like coordinate, your hands with what your feet are doing. Or like learning piano where you have to coordinate your fingers. In the beginning you haven't chunked the patterns, and the instincts, and the feeling of it. It's like the muscle memory. But once you have, like you said, it changes your perspective.
+[30:29] **Sonya:** Or like driving. When you first learned to drive, it's super overwhelming because you have to think about all these different things at once. You have to coordinate your hands with what your feet are doing. Or like learning piano where you have to coordinate your fingers. In the beginning you haven't chunked the patterns, and the instincts, and the feeling of it. It's like the muscle memory. But once you have, like you said, it changes your perspective.
 
 [30:53] **Sonya:** Like you almost.. When I'm driving, when I'm parking, I almost feel the boundaries of the car. Like it's not, I'm actually, I'm like remarkably bad at spatial.. Like my brain does not think well, spatially. But because I've driven so much, like it's just, I lack words for it. I'm just like making hand gestures. Do I think in my fingers? I don't know. Maybe I do to some extent.
 
-[31:19] **Henry:** I think the point is like, you're not like triangulating where the box of the car is. Just like say basketball, you're not like calculating. You just feel it. You just know your body has somehow absorbed that information.
+[31:19] **Henry:** I think the point is like, you're not triangulating where the box of the car is. Just like say basketball, you're not calculating. You just feel it. You just know your body has somehow absorbed that information.
 
 [31:31] **Henry:** I think it's interesting to think of these physical things, but then turning that mentally as well through knowledge. And we were talking about the whole PDF thing at the very beginning, right.
 
@@ -257,7 +257,7 @@ quotes:
 
 [32:21] **Sonya:** I don't know. That's just like instantly how I think of it, it's almost like I just brush it on the edges at first. Like just feeling it with your fingertips and then it sort of comes. Like the knowledge comes in. And then once it's in, it can go out again.
 
-[32:36] **Henry:** Yeah. So I think what you're saying is like good definition of his word indwelling. And I think it's such a good physical word. From a theological point of view, like indwelling in the Holy spirit. We say that in Christianity, like the spirit is in us. Like I want to indwell this idea until it becomes like second nature in another way, right. And I think that is what life is about, indwelling in Christ to become like him.
+[32:36] **Henry:** So I think what you're saying is like good definition of his word indwelling. And I think it's such a good physical word. From a theological point of view, like indwelling in the Holy spirit. We say that in Christianity, like the spirit is in us. Like I want to indwell this idea until it becomes like second nature in another way, right. And I think that is what life is about, indwelling in Christ to become like him.
 
 [33:06] **Henry:** That's one way of looking at it. But again, that's not a mental thing. It's mental plus physical, right. Cause it's through the body as well. So it's not just like I assent all these things, but like I'm figuring out in my own way. Maybe that's the fruit, right. By embodying it, we produce fruit that shows that we actually understand.
 
@@ -265,7 +265,7 @@ quotes:
 
 > Jesus said to the servants, “Fill the jars with water”; so they filled them to the brim. 8 Then he told them, “Now draw some out and take it to the master of the banquet.” They did so, 9 and the master of the banquet tasted the water that had been turned into wine. He did not realize where it had come from, though the servants who had drawn the water knew. Then he called the bridegroom aside - John 2:7-9 (NIVV)
 
-[33:54] **Henry:** It reminds me of metamorphosis then, with the butterfly. But actually, cause you you're talking about the process of fruit. Sunday, one of my friends was talking about John 2 and the first miracle that Jesus did, turning water into wine. Where does wine comes from? It comes from fruit. That's another thing of pointing to the future, meaning when he comes back, is a wedding feast. And the first miracle was at the wedding. The fruit is processed, and it becomes something better than fruit, because people like wine, right. The ultimate fruit would be wine.
+[33:54] **Henry:** It reminds me of metamorphosis then, with the butterfly. But actually, cause you're talking about the process of fruit. Sunday, one of my friends was talking about John 2 and the first miracle that Jesus did, turning water into wine. Where does wine comes from? It comes from fruit. That's another thing of pointing to the future, meaning when he comes back, is a wedding feast. And the first miracle was at the wedding. The fruit is processed, and it becomes something better than fruit, because people like wine, right. The ultimate fruit would be wine.
 
 [34:25] **Sonya:** There's also an interesting dimension there where when you go back to the era when Jesus was alive, water is more of a like fraught endeavor. You know, it's not necessarily clean. Could be little beasties in there that'll make you sick. I don't know whether that was actually really applicable like in that specific time and place. What kind of water filter, like how good was the water available to the wedding? I have no idea. But it occurs to me as sort of an additional theme. Oh my little dog says hello, by the way.  Like the wine is more kind of trustworthy, I guess, in a way.
 
@@ -291,7 +291,7 @@ quotes:
 
 [37:59] **Sonya:** What are you talking about? Even like Christian historians would not necessarily talk about it in this way as like, this is the transformative work of Jesus. Like this is it happening. I'm not even sure that this really makes sense as I'm saying it, because again I should mention this at least twice that like, I'm still working all of this out, for sure. And I don't think that ever really ends. It doesn't seem to end. The working stuff out part or the like, trying to figure out like how systems function and where I am in the systems. And what is the relationship between past states of the systems and current states.
 
-[38:38] **Henry:** Totally agree. Yeah, we're all working on it. I guess I think there's a difference between not wanting to be biased, but then also knowing that you are a biased regardless. I kind of want to embrace the fact that if that is such an important part of your life, it would be weird to say like, I'm trying to be neutral and it's like, well, I am Christian. So then that's how I see the world. It's not just a belief. It literally affects all things. I might not need to like say that explicitly, but it's going to come out in some way, and acknowledging that it's personal versus like this fake neutrality, I guess.
+[38:38] **Henry:** Totally agree. Yeah, we're all working on it. I guess I think there's a difference between not wanting to be biased, but then also knowing that you are a biased regardless. I kind of want to embrace the fact that if that is such an important part of your life, it would be weird to say like, I'm trying to be neutral and it's like, well, I am Christian. So then that's how I see the world. It's not just a belief. It literally affects all things. I might not need to say that explicitly, but it's going to come out in some way, and acknowledging that it's personal versus like this fake neutrality, I guess.
 
 [39:11] **Sonya:** It's probably, you know, a result of like where I am in my personal journey and my personal evolution, that I keep coming back to this theme of like the atheist conception of religion as being like a realm of make-believe kind of. Or at least this is how I thought of it when I was still an atheist. I thought of it as like a, sort of a realm of the imagination.
 
@@ -305,7 +305,7 @@ quotes:
 
 [40:41] **Sonya:** Interesting. It's like the conspiracies are sort of divergent along different axes or something. Yeah, everyone is kind of interested in QAnon at the moment. And I looked into it a little bit and I was like, yeah, I don't really understand where you guys are coming from. Or it's like, I understand the aspects of it. Some of their concerns I even share. I don't think that they're happening in the way that they think that it is happening.
 
-[41:06] **Henry:** I think that's part of the issue of like there, everything in it is rooted in some truth, but they take it to an extreme or they extrapolate all these things. And then when you dialogue, well, you want it to acknowledge that those things were true, but then how do you also like say that I don't believe the whole thing. And this maybe relates to heresy too. How do you engage without dismissal? Because that would turn them away entirely. Or if you acknowledge part of it, they're like, Oh, then you believe the whole thing. And how do you kind of navigate that?
+[41:06] **Henry:** I think that's part of the issue of like there, everything in it is rooted in some truth, but they take it to an extreme or they extrapolate all these things. And then when you dialogue, well, you want it to acknowledge that those things were true, but then how do you also say that I don't believe the whole thing. And this maybe relates to heresy too. How do you engage without dismissal? Because that would turn them away entirely. Or if you acknowledge part of it, they're like, Oh, then you believe the whole thing. And how do you kind of navigate that?
 
 [41:36] **Sonya:** Especially since in conversation, I've found that people will assume that you agree with them. If you don't articulate that you don't, which is a weird and interesting. Like why is that the assumption, that if I listen to you, it means I agree with you. Why do we think that? I don't know, but I've had this happen to me a number of times where I thought that I was just like hearing somebody out. And then I find out later that they thought that by listening and asking questions, they thought I was agreeing with them. And that's not what I meant at all. I was just interested in where they were coming from.
 
@@ -313,7 +313,7 @@ quotes:
 
 [42:49] **Sonya:** They were not on board with that. They thought, no, we need to hash out every disagreement. It ended up that our approaches to the friendship we're just incompatible and it kind of fell apart. Yeah, which is sad. But it was educational also in terms of.. It's the assumptions, right? Like the assumptions you bring to the table change what you see. You know, we had different experiences of that friendship. Like what we thought it was, was different. I don't know.
 
-[43:17] **Henry:** Yeah. I'm thinking about like my parents. I felt.. I actually experienced this, but I was feeling that when I went home for the quarantine for a few months, actually, and I like couldn't take it anymore.  and learning the hard way of how to continue the lines of communication, right. Dialoguing and not having judgment on them. And same with them.
+[43:17] **Henry:** I'm thinking about like my parents. I felt.. I actually experienced this, but I was feeling that when I went home for the quarantine for a few months, actually, and I couldn't take it anymore.  and learning the hard way of how to continue the lines of communication, right. Dialoguing and not having judgment on them. And same with them.
 
 [43:37] **Henry:** None of us can change their thinking by arguing it, right. Saying they're just absurd or something.. If someone told that to us, we're not going to change. Like, of course. So why do we feel like that's okay. It's just because it's a reaction we haven't learned how to..
 

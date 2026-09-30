@@ -171,13 +171,17 @@ function stageHashTime(options: { scroll: boolean }) {
         }
         setAudioPosition(parsedTimeHash.seconds);
         if (options.scroll) {
-            document.getElementById(`msg-${parsedTimeHash.seconds}`)?.scrollIntoView({ block: "start" });
+            const index = findMessageIndex(parsedTimeHash.seconds);
+            const message = document.getElementById(`msg-${parsedTimeHash.seconds}`)
+                ?? messagePoints[Math.max(0, index)]?.el;
+            requestAnimationFrame(() => message?.scrollIntoView({ block: "start", behavior: "instant" }));
         }
         return;
     }
 
     if (!hash.startsWith("#msg-")) return;
-    const message = document.getElementById(hash.slice(1));
+    const anchor = document.getElementById(hash.slice(1));
+    const message = anchor?.matches('.message') ? anchor : anchor?.closest<HTMLElement>('.message');
     const seconds = parseInt(message?.dataset.timestamp || "", 10);
     if (!Number.isNaN(seconds)) setAudioPosition(seconds);
 }

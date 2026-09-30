@@ -43,9 +43,9 @@ quotes:
 
 [01:07] **Philip:** So it's ironic that timing all happened now.
 
-[01:11] **Henry:** Yeah. You mentioned this in the video, it's not like a sudden thing. You've been thinking about this for a while anyway, right.
+[01:11] **Henry:** You mentioned this in the video, it's not like a sudden thing. You've been thinking about this for a while anyway, right.
 
-[01:17] **Philip:** Yeah. The only YouTube video on my channel is..
+[01:17] **Philip:** The only YouTube video on my channel is..
 
 [01:21] **Philip:** It's like the stereotypical thing where people quit YouTube. It wasn't even meant as clickbait, but I didn't explain anything. It wasn't like a long video. I needed a placeholder there, just so people don't freak out that my channel is gone, right. They think I like freaked out.
 
@@ -113,7 +113,7 @@ quotes:
 
 [04:54] **Henry:** That is left-pad!
 
-[04:55] **Philip:** Yeah. Like the left-pad of the web!
+[04:55] **Philip:** Like the left-pad of the web!
 
 [04:57] **Philip:** What I did was, on Google analytics, I just saw the articles that people were reading the most because they probably linked to it, right. And also videos, not as much.
 
@@ -127,7 +127,7 @@ quotes:
 
 [05:26] **Philip:** I felt pretty good about th 90/10 rule. Like that 10% of stuff, I'll keep those up and it's fine.
 
-[05:31] **Philip:** I just won't link to them in the future, but it's sort of like my own internet archive in a sense, right. So it's the same URL. You can see the page. But it says this, this archive is not being updated. It's like, disclaimer.
+[05:31] **Philip:** I just won't link to them in the future, but it's sort of like my own internet archive in a sense, right. So it's the same URL. You can see the page. But it says this archive is not being updated. It's like, disclaimer.
 
 [05:43] **Philip:** Of course the Internet Archive, it crawls everything.
 
@@ -167,7 +167,7 @@ quotes:
 
 [07:31] **Philip:** It's not like they're secrets or anything.
 
-[07:34] **Henry:** Yeah. I think that's an important distinction because I feel like the first question that people are going to ask is just why.
+[07:34] **Henry:** I think that's an important distinction because I feel like the first question that people are going to ask is just why.
 
 [07:40] **Henry:** But it's just not what you might initially think of. I don't want to get rid of my presence on the internet, but I don't want to introduce new things, but the things that are already there, I don't want it to break.
 
@@ -183,7 +183,7 @@ quotes:
 
 [08:12] **Philip:** The people who are the most bad or the most good.
 
-[08:14] **Philip:** Yeah. This is all good brainstorming.
+[08:14] **Philip:** This is all good brainstorming.
 
 [08:16] **Philip:** I talked to Nadia about this. I actually talked to her right before I did all the deletion and that episode hasn't aired yet.
 
@@ -221,15 +221,15 @@ quotes:
 
 [09:58] **Philip:** It's like, Oh yeah. When I was young, I was in a rock band for like 10 years and now I'm an accountant or something.
 
-[10:03] **Henry:** Yeah. You're talking about this transition and even thinking of that is I could say mature in a way where it's like, you understand that there are phases in life. Nothing is forever.
+[10:03] **Henry:** You're talking about this transition and even thinking of that is I could say mature in a way where it's like, you understand that there are phases in life. Nothing is forever.
 
 #### Naturally Transitioning Out
 
-[10:13] **Henry:** And it's good for us as we grow older or time passes by to understand where are we and what do we want? And I think it's good that you're like thinking that.
+[10:13] **Henry:** And it's good for us as we grow older or time passes by to understand where are we and what do we want? And I think it's good that you're thinking that.
 
 [10:23] **Henry:** A lot of us just go with the flow, or just what you're used to, or what everyone else does.
 
-[10:28] **Philip:** Yeah. There are things that are good forcing functions, right? Barring a forcing function for anything, some people just transition out of it right.
+[10:28] **Philip:** There are things that are good forcing functions, right? Barring a forcing function for anything, some people just transition out of it right.
 
 [10:37] **Philip:** For example, use is a good example, right? There was no real turning point or anything. I started on Facebook very early, right. Cause I'm of the age where it started in my junior year of college and February, 2004 was when it started Harvard and MIT.
 
@@ -289,9 +289,9 @@ quotes:
 
 [13:58] **Philip:** How much longer do you keep going for, right?
 
-[13:59] **Philip:** Am I going to be like 70 and like tweeting with 20 year olds and stuff. And like trying to keep up with the latest memes. I don't see myself doing that.
+[13:59] **Philip:** Am I going to be like 70 and tweeting with 20 year olds and stuff. And trying to keep up with the latest memes. I don't see myself doing that.
 
-[14:07] **Philip:** So then it's like, all right, I'm going to extrapolate to 70. Okay, I'm not going to be like posting social media at 70. Do I do that age 60? No, probably not. At age 50? I don't know. Sometime you gotta stop doing that.
+[14:07] **Philip:** So then it's like, all right, I'm going to extrapolate to 70. Okay, I'm not going to be posting social media at 70. Do I do that age 60? No, probably not. At age 50? I don't know. Sometime you gotta stop doing that.
 
 [14:19] **Philip:** So I decided, okay, why don't I just stop right now?
 
@@ -347,7 +347,7 @@ quotes:
 
 [17:11] **Henry:** Yeah, I was going to ask you that.
 
-[17:12] **Henry:** It reminds me of the fact that like, we probably signed up for hundreds of websites and services all the time and we just forget about them. And even if I don't have data on there, it's more of I don't want to get hacked.
+[17:12] **Henry:** It reminds me of the fact that we probably signed up for hundreds of websites and services all the time and we just forget about them. And even if I don't have data on there, it's more of I don't want to get hacked.
 
 [17:25] **Philip:** So I'm not doing a full digital scrub, right? I mean, this really isn't for like privacy as much, right. The full digital scrub is like every random account you've had. And then they probably sold your thing or the company got acquired, right.
 
@@ -369,7 +369,7 @@ quotes:
 
 [18:49] **Henry:** Ironically. Yeah. I think that gets to the heart of that being quiet or I guess, silent on social media, it doesn't work because inherently it's about posting. So it is weird to say like, I'm going to be quiet, I'm going to quit Twitter on Twitter.
 
-[19:04] **Philip:** Yeah. It almost seems like you're attracting attention to yourself in that way, right?
+[19:04] **Philip:** It almost seems like you're attracting attention to yourself in that way, right?
 
 [19:08] **Philip:** I mean, that's fine. I mean, people have quit Facebook before me and they post a rant about it, which is fine. I mean, that's like understandable or they're like, here's my email info, right?
 
@@ -387,21 +387,21 @@ quotes:
 
 [19:42] **Philip:** One is that they get old right. I mean, technical stuff gets old, right. They kind of get stale and outdated.
 
-[19:47] **Philip:** And the other one is that there's so much stuff out there now tech wise, that I don't really feel like much is lost if my videos are not there because I'm not like making a career being a tech YouTuber or whatever, right. So it's like, it's fine.
+[19:47] **Philip:** And the other one is that there's so much stuff out there now tech wise, that I don't really feel like much is lost if my videos are not there because I'm not making a career being a tech YouTuber or whatever, right. So it's like, it's fine.
 
 [20:00] **Philip:** A lot of these videos I made early on when I was teaching, right. It's like, Oh, I would make a good tutorial. It's nothing like spectacular, but people watched it. I just put it online and they searched for it. And I just used it; I embedded in my class notes and stuff. And it's like now five, 10 years have passed and there are so many resources online for programming. If they're missing my few articles or videos, no one's going to cry. They'll find some other ones.
 
 #### Making Introductory Content
 
-[20:24] **Henry:** Yeah, it's interesting cause like that's an argument for people to not make YouTube videos because they think there's so many. But that's when they're getting started.
+[20:24] **Henry:** Yeah, it's interesting cause that's an argument for people to not make YouTube videos because they think there's so many. But that's when they're getting started.
 
-[20:32] **Philip:** Yeah. I mean, that's a distinction we talked about that, I think the stuff I would suggest for someone to get started is very different than someone like me who's been doing it for a long time, right.
+[20:32] **Philip:** I mean, that's a distinction we talked about that, I think the stuff I would suggest for someone to get started is very different than someone like me who's been doing it for a long time, right.
 
 [20:42] **Philip:** So another reason that I guess I don't care as much anymore about this is that I don't really care as much about making quote unquote introductory content anymore, right. Because I've seen so much of it. I've done so much of it.
 
 [20:54] **Philip:** But, you know, my suggestion for people who want to get into tech blogging or YouTube again, or live streaming, whatever, it's fine to do introductory stuff, right?
 
-[21:01] **Philip:** You have this whole like dev.to network where people mostly write introductory posts. Here's how you use pandas and Python.
+[21:01] **Philip:** You have this whole dev.to network where people mostly write introductory posts. Here's how you use pandas and Python.
 
 [21:07] **Philip:** A lot of it is just getting practice. I'm learning, I'm excited about this. I want to share these lessons and they're very introductory for the most part.
 
@@ -419,13 +419,13 @@ quotes:
 
 [21:47] **Henry:** And so it's actually more, it's necessary for people to make new content and introductory content because the amount of people that have had X years experience gets smaller as the total pool of people in programming or whatever it is, right.
 
-[22:03] **Philip:** Yeah. I think this dovetails really well with traditional computer science education, right? So a lot of the online textbooks, or even my Python tutor site and stuff, textbooks and courses, MOOCs, online courses, youTube videos, resources. The majority of those are aimed at beginners, right? Just getting started, kind of CS 1 sort of beginners.
+[22:03] **Philip:** I think this dovetails really well with traditional computer science education, right? So a lot of the online textbooks, or even my Python tutor site and stuff, textbooks and courses, MOOCs, online courses, youTube videos, resources. The majority of those are aimed at beginners, right? Just getting started, kind of CS 1 sort of beginners.
 
 [22:23] **Philip:** And if you want to have the most impact, that's what you do. Because like you're saying, by definition, most people are beginners. There's always new beginners every year learning. And then, you know, if the field is growing, then the number of beginners keeps growing.
 
 [22:37] **Philip:** If you want to just have impact numbers wise, that's the most bang for the buck.
 
-[22:42] **Philip:** But then I just, I don't find it as interesting. I've been offered, can you do like an introductory Python online course and I'm like, there's a bunch of other people doing that. It's great.
+[22:42] **Philip:** But then I just, I don't find it as interesting. I've been offered, can you do an introductory Python online course and I'm like, there's a bunch of other people doing that. It's great.
 
 [22:50] **Philip:** But I don't feel like the n+1th version would be that great for the world, right.
 
@@ -433,7 +433,7 @@ quotes:
 
 [23:06] **Philip:** If you really want to impact the most people, you write a very introductory guide.
 
-[23:10] **Henry:** Yeah. Not even like quality and quantity, but more like depth and like surface level.
+[23:10] **Henry:** Not even like quality and quantity, but more like depth and surface level.
 
 #### The Business of Patrons
 
@@ -471,7 +471,7 @@ quotes:
 
 [25:26] **Philip:** But since you're not full on that does feel a bit weird, but on the other hand you have to make a living too. So it's a hard balance.
 
-[25:32] **Henry:** Yeah. I think you have to have a balance because you'd be kidding yourself. You're like, Oh, I'm just going to do my work. That's naive that you could just assume that people are going to support you just because you're doing good work.
+[25:32] **Henry:** I think you have to have a balance because you'd be kidding yourself. You're like, Oh, I'm just going to do my work. That's naive that you could just assume that people are going to support you just because you're doing good work.
 
 [25:42] **Henry:** I mean, we all know that cause of marketing, the whole industry, but you don't want to turn into a marketing person if you don't want that. I keep saying that the more I think about marketing and money, the more I focus on it. And then eventually I'm not even doing the work I wanted to.
 
@@ -483,7 +483,7 @@ quotes:
 
 [26:31] **Philip:** Then there's the other stuff around it that's needed, I mean, funding is the main thing to sustain that. And how do you balance that creative thing with trying to keep making a living, which is hard.
 
-[26:43] **Henry:** Yeah. And I feel that now. If you make money, you might need to spend money to get other people to do it the things that you might not want to do, that they want to do. That's a whole other skill.
+[26:43] **Henry:** And I feel that now. If you make money, you might need to spend money to get other people to do the things that you might not want to do, that they want to do. That's a whole other skill.
 
 [26:53] **Henry:** And this is probably why a lot of people, once they get their company bought or it gets bigger, they actually quit because they want to do the startup.
 
@@ -511,7 +511,7 @@ quotes:
 
 [28:16] **Henry:** It's a momentum thing, inertia, where it's like, you don't want that thing to stop. And you know that once you stop, you're going to be irrelevant. So it's still stress filled, even though you're making like millions of dollars, and you can't not do it. So he doesn't take vacations and he works like, however, eight hours a day, just streaming.
 
-[28:33] **Philip:** Yeah. I think Nadia had also talked about this. We just made all these comparisons to celebrities.
+[28:33] **Philip:** I think Nadia had also talked about this. We just made all these comparisons to celebrities.
 
 [28:37] **Philip:** So Jerry Seinfeld, when he had his show in the nineties, where it was like the most successful sitcom in the nineties, right. And it was eight seasons, I think.
 
@@ -549,11 +549,11 @@ quotes:
 
 #### "It's all I've Known"
 
-[30:50] **Philip:** Yeah. The other thing that I have, I have this weird morbid curiosity. Again, I'm getting older now and stuff and a lot of these musicians, right.
+[30:50] **Philip:** The other thing that I have this weird morbid curiosity. Again, I'm getting older now and stuff and a lot of these musicians, right.
 
 [30:57] **Philip:** So, you know, music is obviously another very youth centered.. Media and music. These musicians from the nineties that I was into when I was young, now that we're 10, 20 years removed, there are some that have transitioned gracefully, right?
 
-[31:10] **Philip:** But then there are some aging musicians who like really try to hang on to their youth? And like they're much older now and they're still trying to play the same things and stuff, and it just doesn't feel as good, right.
+[31:10] **Philip:** But then there are some aging musicians who really try to hang on to their youth? And like they're much older now and they're still trying to play the same things and stuff, and it just doesn't feel as good, right.
 
 [31:20] **Philip:** You're no longer 25 years old and just jump around the stage, you're like 45 or 50 and still trying to hang on to that nostalgia. I mean, it's fine. People like it.
 
@@ -561,7 +561,7 @@ quotes:
 
 [31:39] **Philip:** I'm being a record producer. I'm opening a business. I'm done with that phase of my life.
 
-[31:43] **Philip:** I don't want to be 50 years old and like trying to jump around a stage all night; cause you know, I can't do that anymore.
+[31:43] **Philip:** I don't want to be 50 years old and trying to jump around a stage all night; cause you know, I can't do that anymore.
 
 [31:50] **Philip:** You can see how aging musicians, they want to hold on, right. Because they're like, that's all I've known.
 
@@ -573,15 +573,15 @@ quotes:
 
 #### Graceful Degradation
 
-[32:28] **Philip:** Yeah. And, you know, I think people can gracefully transition, right? So musician, for example, I mean, you can obviously stay in the industry, but you evolve your music, you evolve your style.
+[32:28] **Philip:** And, you know, I think people can gracefully transition, right? So musician, for example, I mean, you can obviously stay in the industry, but you evolve your music, you evolve your style.
 
 [32:37] **Philip:** Performing is a very physical thing, right? If you're performing like you are when you're young, it is a very physically demanding thing. I've seen some people transition to being record producers or working with younger artists and shaping the business and stuff. So they can still stay in that industry that they're passionate about, right.
 
 [32:55] **Philip:** Or filmmaking, right. So people who are actors, they transition to being directors or producers and stuff. Media is another one that's like very physical and very youth driven, right. If you're no longer 20, you can't play in those movies, right. Like you gotta find other roles in the industry.
 
-[33:10] **Henry:** Yeah. I guess it does feel like writing is one where a lot of people do that instead, out of all the other things that can be doing, right.
+[33:10] **Henry:** I guess it does feel like writing is one where a lot of people do that instead, out of all the other things that can be doing, right.
 
-[33:17] **Philip:** Yeah. I mean, you can age well. Actually Nadia had the same conversation.
+[33:17] **Philip:** I mean, you can age well. Actually Nadia had the same conversation.
 
 [33:20] **Philip:** If you're like Stephen King or like a novelist, right? Like it's fine to be older doing that, cause you're behind the scenes, right?
 
@@ -617,7 +617,7 @@ quotes:
 
 [35:19] **Philip:** But for someone younger, yeah. We don't think about this stuff, right. Unless, you know, people have some kind of a disease and stuff, which sucks at any age, right.
 
-[35:28] **Henry:** Yeah. I don't have any fatal issues, but I've had chronic issues for a long time. And so the idea of suffering and disease and all this stuff. It does come up a lot.
+[35:28] **Henry:** I don't have any fatal issues, but I've had chronic issues for a long time. And so the idea of suffering and disease and all this stuff. It does come up a lot.
 
 [35:38] **Henry:** And it is hard to talk about it. Everyone's just talking about like whatever, and then like this serious topic. You don't want to bring it up either, cause you don't want make their day sound bad.
 
@@ -665,9 +665,9 @@ quotes:
 
 #### Intentionality
 
-[38:57] **Henry:** Intentionality is lacking in almost everything that we have, and that has a lot to do with like habits.
+[38:57] **Henry:** Intentionality is lacking in almost everything that we have, and that has a lot to do with habits.
 
-[39:03] **Henry:** And you brought up sugar. Same with like alcohol or coffee,
+[39:03] **Henry:** And you brought up sugar. Same with alcohol or coffee,
 
 [39:06] **Philip:** I had a conversation with another podcast guest. We didn't record that one, it was just a conversation. I think this word intentional, she brought up and I think I'll use that in the newsletter.
 
@@ -689,13 +689,13 @@ quotes:
 
 [40:40] **Henry:** Now it's like, okay, we've trained that muscle. And we need to be intentional about working out or whatever that metaphor means.
 
-[40:47] **Philip:** Yeah. It's turning into an episode where we just compare ourselves to celebrities. I think the one with Nadia, we did the same thing.
+[40:47] **Philip:** It's turning into an episode where we just compare ourselves to celebrities. I think the one with Nadia, we did the same thing.
 
 #### We Are As Athletes
 
 [40:55] **Philip:** There's that Michael Jordan documentary that was just out, right. If you're going to be good at any sport, right. It starts off with you just playing the sport a lot. You obviously have to be passionate about it.
 
-[41:04] **Philip:** And when you're young, I love playing basketball and just like a really competitive sport, right? You just like play basketball every day with your friends and you go shoot hoops every day.
+[41:04] **Philip:** And when you're young, I love playing basketball and just like a really competitive sport, right? You just play basketball every day with your friends and you go shoot hoops every day.
 
 [41:12] **Philip:** You just do it. Cause you love it.
 
@@ -709,7 +709,7 @@ quotes:
 
 [41:47] **Philip:** So I think I'm moving toward more of that. Than like the very beginning, which is great; that's where you have your love for your sport.
 
-[41:54] **Philip:** Or for like software, right. If you're just hacking on software early on, it's important to just play with stuff, right. Make replicas or clones of your favorite projects. Make a Twitter clone. Obviously your Twitter clone isn't production scale, but like just do it. Make an app for your friends just to like do it.
+[41:54] **Philip:** Or for like software, right. If you're just hacking on software early on, it's important to just play with stuff, right. Make replicas or clones of your favorite projects. Make a Twitter clone. Obviously your Twitter clone isn't production scale, but like just do it. Make an app for your friends just to do it.
 
 [42:10] **Philip:** But then when you get serious about it, if you want to make a company or you want to do research or innovate on something.
 
@@ -717,7 +717,7 @@ quotes:
 
 [42:22] **Henry:** Like you said it doesn't stop you from doing those kinds of experiments when you're older, it's just that kind of your main thing, you might have a specific goal in mind or something, right?
 
-[42:33] **Philip:** Yeah. And I guess to wrap up the hour, I haven't really thought about a really clear mission statement, whatever yet.
+[42:33] **Philip:** And I guess to wrap up the hour, I haven't really thought about a really clear mission statement, whatever yet.
 
 [42:39] **Philip:** But the content I want to produce is going to be longer form, right. So I think these podcasts are great. These long form sorts of thought out things.
 
@@ -747,18 +747,18 @@ quotes:
 
 [44:44] **Henry:** Like going deeper, right? I want to make actual connection and relationship. Listening to someone's podcast makes you feel closer just because it's a podcast than just reading a tweet.
 
-[44:53] **Philip:** Yeah. I have these articles that I wrote last summer about communicating fast and slow. It all goes to the friction thing, right? So the most fast forms of communication are social media replies. You know, you're just kind of retweeting and replying to stuff, and it's very superficial, very conversational.
+[44:53] **Philip:** I have these articles that I wrote last summer about communicating fast and slow. It all goes to the friction thing, right? So the most fast forms of communication are social media replies. You know, you're just kind of retweeting and replying to stuff, and it's very superficial, very conversational.
 
 [45:09] **Philip:** And then like the more intentional, slower things are like recording a podcast, writing a long form article. I mean that the slowest is really writing a book, right? Like writing a old school, traditional book that takes you years of research and effort. But when you read that, it's like, wow, that's substantive, right?
 
 [45:24] **Philip:** If you're in that audience and you read someone book and it's good, you're like, okay, clearly they didn't just make random stuff up. They distilled down years of wisdom and deep thought and editing. So I think I want to move more toward that end of the spectrum.
 
-[45:38] **Henry:** Yeah. The phrase, the medium is the message.
+[45:38] **Henry:** The phrase, the medium is the message.
 
-[45:40] **Philip:** Yeah, it's funny. Cause like, you know, none of these are new ideas, right. But they're just reinforced today and there's a really concrete example of that.
+[45:40] **Philip:** Yeah, it's funny. Cause none of these are new ideas, right. But they're just reinforced today and there's a really concrete example of that.
 
 [45:47] **Philip:** So I'll think about that in the later newsletter updates and stuff, but thanks for helping me brainstorm here that I've been having these thoughts. It just happened like a week ago.
 
-[45:55] **Henry:** Yeah. For sure. This was fun.
+[45:55] **Henry:** For sure. This was fun.
 
 [45:57] **Philip:** Cool. This was great.

@@ -76,7 +76,7 @@ quotes:
 
 [08:06] **Nadia:** And I feel like in reality we're coming to this hard realization that a more localized community is actually really, really important for people to feel grounded and some shape or form and you can't just scale this thing to some massive global scale.
 
-[08:21] **Nadia:** Yeah. It's interesting that people are church hopping 'cause I feel like church would be an example of something where people could feel a little bit more localized. It makes sense in an open source context just because you're using so many more projects than you did before and so many more choices. I feel like GitHub in particular has just made it so easy to hop around from one product to another, that I think that's some of the conflict between
+[08:21] **Nadia:** It's interesting that people are church hopping 'cause I feel like church would be an example of something where people could feel a little bit more localized. It makes sense in an open source context just because you're using so many more projects than you did before and so many more choices. I feel like GitHub in particular has just made it so easy to hop around from one product to another, that I think that's some of the conflict between
 earlier open source and now.
 
 #### On Losing a Coherent Story with Growth
@@ -113,7 +113,7 @@ earlier open source and now.
 
 [15:00] **Nadia:** But at the same time I still feel an affiliation if I went to another country and I'm like, "Oh, you're Quaker, I know Quakers." I don't know where you always draw that dividing line between, how do we share the same affiliation in one way, but in other ways I know that we're not really the same community.
 
-[15:17] **Henry:** Yeah those are good points. I think that's the benefit of a denomination or something like that structure. Maybe there's a network of churches that you're part of and when you do travel you can kind of vaguely know that they either believe the same things or do service in the same way and that's that's good. I guess it's just saying that it shouldn't literally be the same everywhere.
+[15:17] **Henry:** Yeah those are good points. I think that's the benefit of a denomination or something like that structure. Maybe there's a network of churches that you're part of and when you do travel you can kind of vaguely know that they either believe the same things or do service in the same way and that's good. I guess it's just saying that it shouldn't literally be the same everywhere.
 
 [15:48] **Henry:** And what you said, people that you actually know versus just some random anonymous person.
 
@@ -123,7 +123,7 @@ earlier open source and now.
 
 [16:19] **Nadia:** What does that mean?
 
-[16:20] **Henry:** There's also like catholic and so there's differentiating between Catholic like the Catholic Church versus catholic, which is more universal. The idea that we should even if we have different maybe secondary values that we all kind of agree on the core things. We should work together.
+[16:20] **Henry:** There's also catholic and so there's differentiating between Catholic like the Catholic Church versus catholic, which is more universal. The idea that we should even if we have different maybe secondary values that we all kind of agree on the core things. We should work together.
 
 [16:42] **Henry:** And that's important because otherwise you're kind of just isolated. There's always gonna be that conflict because some people are gonna be like, "Well, they believe this thing and we don't, so should we even engage?" Some people are more willing to engage.
 
@@ -159,7 +159,7 @@ earlier open source and now.
 
 [21:00] **Henry:** Yeah, practicing humility.
 
-[21:02] **Henry:** Especially for spirituality, the whole point of being Christian is to say that it wasn't you and so it's funny because the more you learn, there's that, not risk, but there's a chance that if you don't actually understand that well, then you're gonna look back and be like, "I learned all this. I'm so good,". And it'll come out in those ways even through evangelism. And when you're doing evangelism and two people are talking about it and then people are like, "All you're doing is telling me that I'm bad and that you're good," and that's not the point, but it can be hard for people to like know that and understand that.
+[21:02] **Henry:** Especially for spirituality, the whole point of being Christian is to say that it wasn't you and so it's funny because the more you learn, there's that, not risk, but there's a chance that if you don't actually understand that well, then you're gonna look back and be like, "I learned all this. I'm so good,". And it'll come out in those ways even through evangelism. And when you're doing evangelism and two people are talking about it and then people are like, "All you're doing is telling me that I'm bad and that you're good," and that's not the point, but it can be hard for people to know that and understand that.
 
 [21:47] **Nadia:** I really like what you had said to me, that you don't need to actively convince somebody, you should just be the model person that you're aspiring to, just live it out through the things that you're doing versus telling someone that they should be doing something that way. That's so much more effective I think when you're showing versus telling.
 
@@ -171,7 +171,7 @@ earlier open source and now.
 
 [23:46] **Nadia:** Yeah, this is something I've always liked about Quakerism 'cause there was just never any hard lines between who is or isn't, it was more about if everyone has God within them. I think the values in Quakersism were just very egalitarian for that reason. And that's what I like also about just the idea of being an eternal student and never really thinking of yourself as having mastered anything.
 
-[24:17] **Henry:** Yeah. I guess even with studying Christianity, we even have colleges for studying God, there's seminary and all those things. It is a lifelong pursuit, and even being okay with reading the same thing over and over because you're gonna gain new insight from the same thing or talking about the same things over and over 'cause a lot of those problems might not go away.
+[24:17] **Henry:** I guess even with studying Christianity, we even have colleges for studying God, there's seminary and all those things. It is a lifelong pursuit, and even being okay with reading the same thing over and over because you're gonna gain new insight from the same thing or talking about the same things over and over 'cause a lot of those problems might not go away.
 
 [24:45] **Henry:** And I think you mentioned this in previous conversations. About how there's a certain mystery to it. And even though in our age, it's all about knowledge and science and instant wanting to know the answer, I think there's something special or interesting about not knowing and maybe never really understanding completely, but knowing it truly and that we can know, but we might not know exhaustively. I think that's really good.
 
@@ -179,7 +179,7 @@ earlier open source and now.
 
 [25:19] **Nadia:** That's the value of documenting everything you're learning in public to me also 'cause, I don't know, it just seems like it almost makes it necessary to be like, if the whole point is the process and everything is a lifelong process, then it's really important that I'm documenting that process in a way that other people can learn from wherever they're at because I'm never gonna just be done and then publish a thing where I'm like, "Look, I figured it out (laughs) here it is."
 
-[25:49] **Nadia:** I really struggle with just all the open source research that I'm doing now 'cause I think when I came in, I just felt like, "All right, the problem is really obvious," we should have just figured out an answer, but the more I dig into it the more I'm like, "Oh, that's just like really, really complicated," and in general I think with research not just mine, but just in general it's like you're kinda exploring these questions that you just don't really have answers to and you're just gonna have to keep probing at.
+[25:49] **Nadia:** I really struggle with just all the open source research that I'm doing now 'cause I think when I came in, I just felt like, "All right, the problem is really obvious," we should have just figured out an answer, but the more I dig into it the more I'm like, "Oh, that's just really, really complicated," and in general I think with research not just mine, but just in general it's like you're kinda exploring these questions that you just don't really have answers to and you're just gonna have to keep probing at.
 
 [26:20] **Nadia:** So if you're never gonna arrive at the answer, then it's all you can really do to show progress or to show that you are actively thinking about things is to record it, but that's also something I think I've lifted from open source and just the importance of, you don't have to make a thing, you don't have to make the best tool ever and then put it out there just along the way, just put yourself out there and publish it.
 
@@ -197,7 +197,7 @@ earlier open source and now.
 
 [28:49] **Henry:** Every time you exit a house you'll turn on the bike button, you'd zoom off to wherever you're going. Even funnier is later, you learn the fly ability and so now you don't have to bike anywhere, you'll just fly directly to the place that you're trying to go to.
 
-[29:05] **Henry:** And that reminds me of all the new video games where there's a fast travel mode where you can kinda teleport wherever you want. And then the game is literally is just grinding through the game. Same with life, it's like all we're doing is just trying to get to this end. And at the end of it, you feel really empty actually. You lost the sense of enjoyment and wonder of doing something that you enjoy and same with open source. So maybe it's all about how many downloads you have and how many PRs and how many contributors. And at the end you're like, "I don't even know if I want to do this anymore."
+[29:05] **Henry:** And that reminds me of all the new video games where there's a fast travel mode where you can kinda teleport wherever you want. And then the game literally is just grinding through the game. Same with life, it's like all we're doing is just trying to get to this end. And at the end of it, you feel really empty actually. You lost the sense of enjoyment and wonder of doing something that you enjoy and same with open source. So maybe it's all about how many downloads you have and how many PRs and how many contributors. And at the end you're like, "I don't even know if I want to do this anymore."
 
 [29:44] **Nadia:** That's deep (laughs).
 
@@ -207,15 +207,15 @@ earlier open source and now.
 
 #### Intimacy with Martha and Mary
 
-[29:58] **Henry:** I think there are multiple parts to it. He used this passage where it's talking about Mary and Martha, and so one of them washing the dishes basically and the other one was washing Jesus's feet. And so she was like, "Hey, why don't you help me in the kitchen 'cause we have to like get stuff done?" And the other person is just being with Jesus, like in relationship.
+[29:58] **Henry:** I think there are multiple parts to it. He used this passage where it's talking about Mary and Martha, and so one of them washing the dishes basically and the other one was washing Jesus's feet. And so she was like, "Hey, why don't you help me in the kitchen 'cause we have to get stuff done?" And the other person is just being with Jesus, in relationship.
 
-> "Martha, Martha, you are worried and upset about many things, but few things are needed—or indeed only one. Mary has chosen what is better, and it will not be taken away from her." - [Luke 10:41-42](https://www.biblegateway.com/passage/?search=Luke+10:41-42)
+> "Martha, Martha, you are worried and upset about many things, but few things are needed, or indeed only one. Mary has chosen what is better, and it will not be taken away from her." - [Luke 10:41-42](https://www.biblegateway.com/passage/?search=Luke+10:41-42)
 
-[30:21] **Henry:** And so his point was that, you can spend your whole life, this is for spirituality. You can go to a seminary and study about God, you can read about God, you can listen to podcasts about God, you can talk about it, all these things. And yet in the end, you might not actually know him at all, because you turned it into this kind of game where there's a number attached to it versus like washing someone's feet, that's a very like different thing from accomplishing all these things.
+[30:21] **Henry:** And so his point was that, you can spend your whole life, this is for spirituality. You can go to a seminary and study about God, you can read about God, you can listen to podcasts about God, you can talk about it, all these things. And yet in the end, you might not actually know him at all, because you turned it into this kind of game where there's a number attached to it versus washing someone's feet, that's a very different thing from accomplishing all these things.
 
-[30:56] **Henry:** So how do we remember what it means to know someone? And to know them, we would use the word intimacy, right? So that's something that that we should be doing. I think his point with the inefficiency part is that to be in a relationship is actually to be inefficient.
+[30:56] **Henry:** So how do we remember what it means to know someone? And to know them, we would use the word intimacy, right? So that's something that we should be doing. I think his point with the inefficiency part is that to be in a relationship is actually to be inefficient.
 
-[31:16] **Henry:** You don't want to meet someone, and then only talk to them for five minutes because you're like, "Oh, I need to go on with the rest of my day." But if you like them and you want to know them more, if it's God or another person, then you're gonna wanna be inefficient, right? You wanna stay there as long as possible, you wanna just talk about whatever, maybe like what you said, in silence, you're just like there waiting.
+[31:16] **Henry:** You don't want to meet someone, and then only talk to them for five minutes because you're like, "Oh, I need to go on with the rest of my day." But if you like them and you want to know them more, if it's God or another person, then you're gonna wanna be inefficient, right? You wanna stay there as long as possible, you wanna just talk about whatever, maybe like what you said, in silence, you're just there waiting.
 
 #### Relationship Building
 
@@ -233,9 +233,9 @@ earlier open source and now.
 
 [34:15] **Nadia:** I was thinking about that, and a friend of mine has a friend who's known for being, as he put it, very good at resting.
 
-[34:27] **Nadia:** And it's such a weird way to describe someone. Like he's good at resting, not in terms of meditating or doing some active thing, but just literally sitting there with his eyes closed and not doing anything, which is like a funny thing for me to imagine. But I've been trying to think about it and the stuff I do day-to-day now too, where sometimes I'll have a good couple hours where I'm getting stuff done and I can kinda wrap up my big thing and then I kinda take a little break before I do something else. Normally I think I would just go on Twitter or something or check my email or something, but now I'm just like, "I want to be good at resting too," and I'm just sitting there (laughs) and just being in the moment. It's really, really nice.
+[34:27] **Nadia:** And it's such a weird way to describe someone. Like he's good at resting, not in terms of meditating or doing some active thing, but just literally sitting there with his eyes closed and not doing anything, which is a funny thing for me to imagine. But I've been trying to think about it and the stuff I do day-to-day now too, where sometimes I'll have a good couple hours where I'm getting stuff done and I can kinda wrap up my big thing and then I kinda take a little break before I do something else. Normally I think I would just go on Twitter or something or check my email or something, but now I'm just like, "I want to be good at resting too," and I'm just sitting there (laughs) and just being in the moment. It's really, really nice.
 
-[35:09] **Nadia:** Yeah, I don't know. It's like we also have to find a reason, something you have to be doing while you're waiting or something. You have an active resting activity, but to just actually sit there and stare out the window for a little bit is like really, really nice.
+[35:09] **Nadia:** Yeah, I don't know. It's like we also have to find a reason, something you have to be doing while you're waiting or something. You have an active resting activity, but to just actually sit there and stare out the window for a little bit is really, really nice.
 
 [35:26] **Henry:** Yeah, that's really cool. We want to learn to push back on this sense of hustling and especially in a city like New York or San Francisco. But in the startup culture it's all about doing all this stuff, and in open source it might not be like that from other people but internally it might be like, "Oh, I need to keep moving forward."
 

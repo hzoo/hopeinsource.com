@@ -26,7 +26,7 @@ quotes:
 
 [00:21] **Henry:** We'll see where the conversation goes, which is very Illichian.
 
-[00:24] **Michael:** Yeah. That's right.
+[00:24] **Michael:** That's right.
 
 [00:26] **Henry:** Maybe we can start with one of your posts called [*Impossible Silences*](https://theconvivialsociety.substack.com/p/impossible-silences).
 
@@ -44,19 +44,19 @@ quotes:
 
 [02:01] **Henry:** And then maybe you feel the need to say oh, I took a break or I'm going on vacation. Almost like your excuse in some sense, even though it's just your life. Who knows what it could have been, right.
 
-[02:11] **Michael:** Yeah. Silence can't just sustain itself. It needs explanatory comments as it were, right. The first time I thought about this, I think it was way back in 2013. And it was a school shooting in Connecticut. And I remember feeling as I'm reading, I opened up Twitter and this is how I learned of it, or it had just happened.
+[02:11] **Michael:** Silence can't just sustain itself. It needs explanatory comments as it were, right. The first time I thought about this, I think it was way back in 2013. And it was a school shooting in Connecticut. And I remember feeling as I'm reading, I opened up Twitter and this is how I learned of it, or it had just happened.
 
 [02:31] **Michael:** And I remember feeling the need to say something. And I immediately remember thinking why is it that I feel the need to say something? I have nothing to say to this, it's tragic. It's upsetting, et cetera, but I just felt that imperative to speak. And I think it was a function of social media because the only way one exists on social media or appears before others is through communication right, through posting something, whether it's speech or a meme or whatever the case may be.
 
-[03:02] **Henry:** Your box shows up on newsfeed, but that'd be interesting if like not saying something makes space on the newsfeed. But that's not how it works, right.
+[03:02] **Henry:** Your box shows up on newsfeed, but that'd be interesting if not saying something makes space on the newsfeed. But that's not how it works, right.
 
 [03:11] **Michael:** Right. No, I actually thought what happens if you hit a space bar and post to Twitter, does that show up? I have no idea. I was tempted to try it. But then I got sardonic about it. And how would anybody know I'm being silent on Twitter? I guess I post hashtag silence, just, but defeat the purpose, you're so self aware of it.
 
 [03:31] **Michael:** And so then even the silence, it's not performative if other people can't note it anyway. So it seemed to me like this is just a perverse incentive structure in the context of whatever tragedy happens to be front and center that given moment,
 
-[03:48] **Henry:** And maybe that's related to like quitting too. I'm telling everyone on Twitter that I'm quitting Twitter, maybe it's sends the wrong signal. I don't know.
+[03:48] **Henry:** And maybe that's related to quitting too. I'm telling everyone on Twitter that I'm quitting Twitter, maybe it's sends the wrong signal. I don't know.
 
-[03:57] **Michael:** Yeah. In any case, I then thought about the value of strategic.. I'm not sure who coined the term, but the idea of strategic silence. This is prior to 2016 when things began to get really crazy. But there was something that was causing a bit of consternation and drawing a lot of attention and whoever the provocateur was at the point at that moment was by all respects, a kind of insignificant figure.
+[03:57] **Michael:** In any case, I then thought about the value of strategic.. I'm not sure who coined the term, but the idea of strategic silence. This is prior to 2016 when things began to get really crazy. But there was something that was causing a bit of consternation and drawing a lot of attention and whoever the provocateur was at the point at that moment was by all respects, a kind of insignificant figure.
 
 [04:21] **Michael:** But he was receiving an immense amount of attention for the actions that had gone viral on social media. And so even.. This is a well-known dynamic now, right, even if I wanted to criticize these actions, I'm in fact feeding into the growth of his popularity, on the terms of the attention economy, right. The only kind of negative attention is no attention. And so if I give him negative attention, I'm still spreading the message, his actions and his presence through my network. And I know this is a dicey way of thinking about this because we have so long equated speech with power.
 
@@ -72,9 +72,9 @@ quotes:
 
 [06:03] **Michael:** So I suppose in this context, our bodies aren't quite fully present, but we could be silent, and that silence would take on some dimension of meaningfulness. I think it would still fall short of what the fully embodied experience would yield, but nonetheless, right, on social media, by and large, it's impossible to be silent in this way, right. To be meaningfully silent.
 
-[06:26] **Henry:** Yeah. Just thinking about this podcast. Depending on how you do it, it could be like an interview style. So then the silence doesn't feel as natural, where when you're talking with someone, you actually do cut off one another and that's normal. But then for this stuff, it's usually like question, answer, question, answer. Just feels a lot more strict.
+[06:26] **Henry:** Just thinking about this podcast. Depending on how you do it, it could be like an interview style. So then the silence doesn't feel as natural, where when you're talking with someone, you actually do cut off one another and that's normal. But then for this stuff, it's usually like question, answer, question, answer. Just feels a lot more strict.
 
-[06:45] **Michael:** Yeah. And even on radio, the worst thing that could happen if you're a DJ is for there to be silence, right. And so you have this pressure to fill the empty space. In a podcast scenario, you have a little bit of that. I think podcasts can be more informal. And maybe there's a little more space for that.
+[06:45] **Michael:** And even on radio, the worst thing that could happen if you're a DJ is for there to be silence, right. And so you have this pressure to fill the empty space. In a podcast scenario, you have a little bit of that. I think podcasts can be more informal. And maybe there's a little more space for that.
 
 #### Silence as a Commons
 
@@ -92,15 +92,15 @@ quotes:
 
 [09:48] **Michael:** Right, exactly. It's a mode of attending to the other, that is more interested in what the other may give to you then and what you may give to them, right. I think often we tend to think about, and again, I don't want, this is just sort of part of the human condition, I suppose.
 
-[10:08] **Michael:** I won't connect it very directly to social media, but we want to be heard, we want to say what we have to say. And it takes a certain degree of virtue to be able to put that aside, to be less concerned with winning an argument or making my point, and to just to listen with humility, with care.
+[10:08] **Michael:** I won't connect it very directly to social media, but we want to be heard, we want to say what we have to say. And it takes a certain degree of virtue to be able to put that aside, to be less concerned with winning an argument or making my point, and to listen with humility, with care.
 
 [10:28] **Michael:** And I think that that's a good connection. And it's about recognizing the other as a gift before you. And not just one more thing to manipulate. One more aspect of your experience to control and to just bend to your own wishes or desires.
 
 [10:43] **Henry:** And seeing the other person not as a resource, maybe that relates to the end of that essay about the commons and how silence gets turned into a resource and then it needs to be managed and policed. Then it destroys the commons. Maybe you could share the story about the loud speaker?
 
-[11:02] **Michael:** Yeah. So he tells a story about how, when he was an infant. Obviously it must have been related to him at some point, but when he was an infant, he was brought to his grandfather's estate on an island off the coast of Dalmatia, which is a province within Croatia. And the island in his father's estate.
+[11:02] **Michael:** So he tells a story about how, when he was an infant. Obviously it must have been related to him at some point, but when he was an infant, he was brought to his grandfather's estate on an island off the coast of Dalmatia, which is a province within Croatia. And the island in his father's estate.
 
-[11:21] **Michael:** This is what had been in the 1920s in the mid twenties. And so in large measure, in modern society, as we know it had not quite yet come to this island, right. He, I think it's in this context or maybe elsewhere. He says, many things were still being done on his grandfather's estate, as they had been done for hundreds of years. Even to the point of having a wine press that had been in operation since the 14 hundreds or something of that sort. So, so it was a very different world and social reality there at that point now.
+[11:21] **Michael:** This is what had been in the 1920s in the mid twenties. And so in large measure, in modern society, as we know it had not quite yet come to this island, right. He, I think it's in this context or maybe elsewhere. He says, many things were still being done on his grandfather's estate, as they had been done for hundreds of years. Even to the point of having a wine press that had been in operation since the 14 hundreds or something of that sort. So it was a very different world and social reality there at that point now.
 
 [11:51] **Michael:** But on that ferry, that's bringing little baby Ivan to the island was the first loudspeaker that was being brought to that island. You know, he had a lifelong aversion to microphones. If he could help it, he would not use a microphone. And I think part of the reason for that is that it.. It gave a granted a kind of power that destroyed the idea of silence as a commons.
 
@@ -112,7 +112,7 @@ quotes:
 
 [13:40] **Henry:** Right. I mean, you could even argue that it could be democratic. You could pass the microphone to someone else, or other people can buy their own microphone. Maybe people might say that it's helpful. Same with social media.
 
-[13:49] **Michael:** Yeah. I think when you introduce ways of communicating that augment somebody's voice, what Illich would say is that you generate a kind of arms race, an escalatory process. Right? So now I need to figure out a way to be heard over the person who is now thus equipped.
+[13:49] **Michael:** I think when you introduce ways of communicating that augment somebody's voice, what Illich would say is that you generate a kind of arms race, an escalatory process. Right? So now I need to figure out a way to be heard over the person who is now thus equipped.
 
 [14:09] **Michael:** And the end result is a situation where everybody has gained the power to speak, but in such a way that nobody can be heard. And in his classic way of analyzing these things, it becomes counterproductive. You cross a threshold where the advances, so to speak, have flipped in such a way that it makes it now very difficult.
 
@@ -120,11 +120,11 @@ quotes:
 
 #### Attending with the Body
 
-[15:10] **Henry:** Yeah. You were mentioning a while back that silence is, at least within the presence of people, a way of attending to people. That was related to a different newsletter you wrote on attention not being a resource. So attention, we think attention is the mental act of focusing on something, but then you're like, oh, what about all these other bodily ways of attending? And silence is one of those.
+[15:10] **Henry:** You were mentioning a while back that silence is, at least within the presence of people, a way of attending to people. That was related to a different newsletter you wrote on attention not being a resource. So attention, we think attention is the mental act of focusing on something, but then you're like, oh, what about all these other bodily ways of attending? And silence is one of those.
 
 [15:37] **Michael:** Yeah, or silence is an observable sort of, I'm not sure what the right word will be, right, but silence is what happens when you're attending acoustically, right, in a sense.
 
-[15:48] **Michael:** Yeah. I've written about attention on and off as so many others have over the past 10 years. And in this particular case, it did seem to me that when we think about attention, we tend to think of it without regard to what the body is doing, this is also inspired by Illich. Illich in his later phase of his career, of his writing, was very interested in the body. Very interested in the senses, in what sight can be. He writes this cultural history of how we think of what we're doing when we see, and it's actually a very interesting history. It brings to our attention, no pun intended, these very seemingly odd ways of understanding sight as something that actually emanates from the eye and makes contact with the world beyond us, which would have been Greco Roman and into the medieval period. The understanding of what eyesight is before modern day optics.
+[15:48] **Michael:** I've written about attention on and off as so many others have over the past 10 years. And in this particular case, it did seem to me that when we think about attention, we tend to think of it without regard to what the body is doing, this is also inspired by Illich. Illich in his later phase of his career, of his writing, was very interested in the body. Very interested in the senses, in what sight can be. He writes this cultural history of how we think of what we're doing when we see, and it's actually a very interesting history. It brings to our attention, no pun intended, these very seemingly odd ways of understanding sight as something that actually emanates from the eye and makes contact with the world beyond us, which would have been Greco Roman and into the medieval period. The understanding of what eyesight is before modern day optics.
 
 [16:41] **Michael:** In any case, a lot of what I call attention discourse, thinking back to all the different people who have written about distraction and attention in online digital context, that discourse sometimes takes the body out of the picture. And I can understand why, if I think about paying attention to something, I almost think of closing my eyes and girding myself, and thinking really hard about something, right. It's just this intense mental act. It almost becomes synonymous with thinking itself and it seemed to me that it'd be worth exploring the idea of attention with a more direct connection to the senses so that what I need to do to attend to the world is not just think harder.
 
@@ -138,23 +138,23 @@ quotes:
 
 [19:53] **Michael:** Right. We have sounds all around us all the time. It was interesting at the early phases of the pandemic last year, reading a lot about people saying, oh, I'm hearing the birds for the first time, or I've never noticed all this noise, right. And I suppose part of that, especially if you live in an urban setting, had to do with the fact that there were fewer cars on the road, maybe less ambient noise.
 
-[20:15] **Michael:** But I wonder how much of it just simply had to do with the fact that we were paying attention in a different way, right. And all of our senses can be trained, I think, in this way. This is what I was trying to, to get in that piece or that attention is not just a mental activity. It can be a fully embodied activity. Yeah. Does that make sense?
+[20:15] **Michael:** But I wonder how much of it just simply had to do with the fact that we were paying attention in a different way, right. And all of our senses can be trained, I think, in this way. This is what I was trying to get in that piece or that attention is not just a mental activity. It can be a fully embodied activity. Yeah. Does that make sense?
 
-[20:35] **Henry:** Totally. I think we talked about this last time, the bike analogy. When you learn how to ride a bike, the bike paths, like kind of almost show up or they light up. Like you saw them before. And this actually happened for me where I finally started using this thing called Citibike in New York City. And then there's a bunch of stations all around the city. So you don't have to walk or take the subway.
+[20:35] **Henry:** Totally. I think we talked about this last time, the bike analogy. When you learn how to ride a bike, the bike paths, kind of almost show up or they light up. Like you saw them before. And this actually happened for me where I finally started using this thing called Citibike in New York City. And then there's a bunch of stations all around the city. So you don't have to walk or take the subway.
 
-[20:56] **Henry:** And because I didn't use it before, I would have ignored it. Maybe I thought was annoying. Or other people did it. I was like, oh, but I'm scared, you know, all these different ways of thinking about that thing. But then once I finally did it, I was like, wow, every time I noticed one, oh, maybe I should bike over here. It really changes your view of the city. But also like your life, like what you decide to do, may you spontaneously go somewhere else just because you can. So I think that really opens up things, because you decided look at it differently.
+[20:56] **Henry:** And because I didn't use it before, I would have ignored it. Maybe I thought was annoying. Or other people did it. I was like, oh, but I'm scared, you know, all these different ways of thinking about that thing. But then once I finally did it, I was like, wow, every time I noticed one, oh, maybe I should bike over here. It really changes your view of the city. But also your life, what you decide to do, may you spontaneously go somewhere else just because you can. So I think that really opens up things, because you decided look at it differently.
 
-[21:27] **Michael:** Right, right. A guy named [Rob Walker](https://robwalker.substack.com/), I think Rob Walker's his name, has an interesting newsletter called [The Art of Noticing](https://robwalker.substack.com/). And every newsletter is an exercise you might do. Not physical in the sense of activities you might undertake, but prompts to get you to see the world differently, or think about the world differently or to become attentive to the world in different ways. And I think that'd be a good thing for us to do, certainly to counteract the degree to which our attention does get siphoned into our devices, right. With smartphone in hand, I'm much more tempted to become inattentive to my surroundings, right.
+[21:27] **Michael:** Right. A guy named [Rob Walker](https://robwalker.substack.com/), I think Rob Walker's his name, has an interesting newsletter called [The Art of Noticing](https://robwalker.substack.com/). And every newsletter is an exercise you might do. Not physical in the sense of activities you might undertake, but prompts to get you to see the world differently, or think about the world differently or to become attentive to the world in different ways. And I think that'd be a good thing for us to do, certainly to counteract the degree to which our attention does get siphoned into our devices, right. With smartphone in hand, I'm much more tempted to become inattentive to my surroundings, right.
 
 [22:13] **Henry:** I think of walking on the street with your phone out, not looking at the road or anything. And then also this is related to sound, noise canceling headphones. I use those all the time now and it's not just a safety concern, but it is interesting that you might not hear what's going on or just notice things are going on. That's more of a recent thing I feel like too.
 
-[22:34] **Michael:** Yeah. It's interesting. I really liked [*Fahrenheit 451*](https://en.wikipedia.org/wiki/Fahrenheit_451) by [Ray Bradbury](https://en.wikipedia.org/wiki/Ray_Bradbury). And I think the book is often just lumped into this anti-censorship thing. I think there's a lot more going on there. It's really interesting. And there's this theme of people encasing themselves, in such a way that they have just lost touch with reality if you like or the world. And my understanding is, this is before headphones were a thing, Bradbury envisioned what he called in that story, seashells, he calls them, right. And so they're very familiar to us, you know, 70 years later, as earbuds that people would put in their years, but it would sort of block out the world, right. And so it was also a world in which people move very, very fast. And so speed becomes an impediment to noticing the world. It's the difference between walking and driving.
+[22:34] **Michael:** It's interesting. I really liked [*Fahrenheit 451*](https://en.wikipedia.org/wiki/Fahrenheit_451) by [Ray Bradbury](https://en.wikipedia.org/wiki/Ray_Bradbury). And I think the book is often just lumped into this anti-censorship thing. I think there's a lot more going on there. It's really interesting. And there's this theme of people encasing themselves, in such a way that they have just lost touch with reality if you like or the world. And my understanding is, this is before headphones were a thing, Bradbury envisioned what he called in that story, seashells, he calls them, right. And so they're very familiar to us, you know, 70 years later, as earbuds that people would put in their years, but it would sort of block out the world, right. And so it was also a world in which people move very, very fast. And so speed becomes an impediment to noticing the world. It's the difference between walking and driving.
 
 #### Hope vs. Expectation
 
-[23:27] **Henry:** Yeah, that relates a lot to efficiency. And attentiveness in this sense is around being inefficient. Because I don't want to get from A to B and I'm trying to be aware of my surroundings, I will notice things. Is because the A to B mindset, right? I'm going to here to there. You're of course you're not going to notice anything. So I'm going to buy things or use things to make me not have to see or listen to anything around me, right.
+[23:27] **Henry:** Yeah, that relates a lot to efficiency. And attentiveness in this sense is around being inefficient. Because I don't want to get from A to B and I'm trying to be aware of my surroundings, I will notice things. Is because the A to B mindset, right? I'm going to here to there. of course you're not going to notice anything. So I'm going to buy things or use things to make me not have to see or listen to anything around me, right.
 
-[23:52] **Michael:** Right, right. It's interesting because as you're saying that it occurs to me that it works if all we ever want to do is the goal. Our self given goal, right? So this thing I want to accomplish.. Anything that prevents me from doing that or makes it harder or more challenging, it's just an inefficiency that I can eradicate. And if I get rid of it, I can accomplish my goal.
+[23:52] **Michael:** Right. It's interesting because as you're saying that it occurs to me that it works if all we ever want to do is the goal. Our self given goal, right? So this thing I want to accomplish.. Anything that prevents me from doing that or makes it harder or more challenging, it's just an inefficiency that I can eradicate. And if I get rid of it, I can accomplish my goal.
 
 [24:15] **Michael:** But then I guess the other way of thinking about it, and this goes back to the idea of receiving life as a gift, is that there's an openness, I don't know what I may find, right.
 
@@ -162,7 +162,7 @@ quotes:
 
 [24:25] **Michael:** Exactly. Often in terms of surprise, right? Do I live in such a way that I am prepared to be surprised? By my circumstances, by the world, by people. But if I only ever think about my self given goals, right? The goals I give myself to accomplish. You're inhabiting the world in such a way that you're not able to see what may be there. The gifts that might be there, right in your path.
 
-[24:51] **Henry:** That's also the planned life, the world of control that you predict, right. Instead of knowing that there's a risk. Because you don't know, it could lead to failure, but it could also lead to something like good or amazing.
+[24:51] **Henry:** That's also the planned life, the world of control that you predict, right. Instead of knowing that there's a risk. Because you don't know, it could lead to failure, but it could also lead to something good or amazing.
 
 [25:04] **Michael:** Right. I think a profound theme in Illich's work, right? The opposition of the idea of planning. At the end of Deschooling, in that essay, Epimethean man, right. It's hope versus expectation, expectation as regards what we can expect because we've planned for it, and we've predicted and we've directed our technology towards the control of things to make this thing happen, as opposed to an openness to what may happen. Yeah, it's a really.. In many ways I think this is at the heart of the question of technology. As a kind of culture, a mindset, not just this tool or that tool, but a way of being in the world.
 
@@ -170,11 +170,11 @@ quotes:
 
 #### Vendor Lock-in
 
-[25:48] **Michael:** Yeah. And they're tools that very intentionally lock us in. Their point is to lock us in, into their own dynamics.
+[25:48] **Michael:** And they're tools that very intentionally lock us in. Their point is to lock us in, into their own dynamics.
 
 [25:57] **Henry:** It's funny because in software we have vendor lock-in right. You make it really convenient. And I guess that's why everything is free, so that you use it and then you depend on it. And we all know this, but I guess that's the whole radical monopoly, right. The whole idea of it is dependence, like cars.
 
-[26:12] **Michael:** Yeah. That you can only imagine doing this thing through the service or through this product. And so you mentioned cars, right? I think in Illich's view, true auto mobility is you and your own two feet taking you where you want to go. You don't depend on anybody or anything when you service or the industry in order to do that.
+[26:12] **Michael:** That you can only imagine doing this thing through the service or through this product. And so you mentioned cars, right? I think in Illich's view, true auto mobility is you and your own two feet taking you where you want to go. You don't depend on anybody or anything when you service or the industry in order to do that.
 
 [26:36] **Michael:** Granted, you necessarily can't walk from Florida to London, but the idea that transportation gets reduced to having a car, in the American context, certainly right. My freedom of mobility is dependent upon having a car. And of course, we've built cities in such a way that that becomes a kind of self fulfilling prophecy, right.
 
@@ -218,11 +218,11 @@ quotes:
 
 [31:51] **Michael:** I hear a lot of talk about the four day work week. There's talk about what is the source of the dynamics in the workforce right now, right? Is it that there are no jobs, is it that people are just holding out for better pay? Or is it just people who decided
 
-[32:05] **Henry:** That reminded me, I read something about China actually. There's like a slang term for it in Chinese, lying down. And it essentially is like, they all quit, because they just want to metaphorically, lay low not do anything. Maybe that's like their version of exit and voice. Well, by studying or working, we're not going to increase our social standing at all, or just helping the government. So the only way to not help them is to just stop working entirely.
+[32:05] **Henry:** That reminded me, I read something about China actually. There's a slang term for it in Chinese, lying down. And it essentially is like, they all quit, because they just want to metaphorically, lay low not do anything. Maybe that's like their version of exit and voice. Well, by studying or working, we're not going to increase our social standing at all, or just helping the government. So the only way to not help them is to just stop working entirely.
 
 #### What in Fact Do We Need?
 
-[32:33] **Michael:** Yeah. That is interesting. And at the heart of so much of this, deciding what is.. What path do I want to follow? What choices do I want to make? What can I live with? What can I not live with? You know, just answering this sort of fundamental question of what do I conceive of as a good life for myself and my family, et cetera.
+[32:33] **Michael:** That is interesting. And at the heart of so much of this, deciding what is.. What path do I want to follow? What choices do I want to make? What can I live with? What can I not live with? You know, just answering this sort of fundamental question of what do I conceive of as a good life for myself and my family, et cetera.
 
 [32:54] **Michael:** Is this question of desire, of want. What we want. So the last thing I wrote, the last thing I put on newsletter. Also very Illichian in theme, is the idea, very simply put, maybe we want too much. And what we want, I can imagine how that will strike some people listening, but the idea here is chiefly about stuff, right? So this is in some respects a very cliched critique of materialism, right? The idea that if I just get more stuff, access to more services or more experiences, then I'm going to be happy.
 
@@ -230,7 +230,7 @@ quotes:
 
 [34:03] **Henry:** This is funny because we just moved. So every time you move, you realize you have like two times as many things as you thought, right.
 
-[34:10] **Michael:** And maybe as, as you need. And so I think what Illich really came to see, and I think this was an evolution in his thinking, is that you can't just critique schools and modern medicine and the transportation industry. This is all what he does in the early and mid seventies.
+[34:10] **Michael:** And maybe as you need. And so I think what Illich really came to see, and I think this was an evolution in his thinking, is that you can't just critique schools and modern medicine and the transportation industry. This is all what he does in the early and mid seventies.
 
 [34:28] **Michael:** Because there were some more fundamental realities underpinning these institutions. They were serving in some respects what people came to think that they needed and wanted. And so you had to attack the problems that were at that level, and to expose these supposed needs as manufactured needs.
 
@@ -242,13 +242,13 @@ quotes:
 
 [35:45] **Henry:** Right. That reminds me of Alan Jacobs, breaking bread with the dead. I remember he was mentioning that history, the reason why you would read it is so you get to see the present state from a different light. And me personally.. Encountering one of these things where it's like, oh, the thing that I believe now is a very current idea, then it helps you think that maybe you could question a lot of things that seemed important. People are completely different from before.
 
-[36:15] **Michael:** Yeah. And I think you're right. It's sometimes just having this happen in one very specific way is enough to open the flood gate as it were. Now you are at least cognizant of the possibility that the things that you take for granted need not be so.
+[36:15] **Michael:** And I think you're right. It's sometimes just having this happen in one very specific way is enough to open the flood gate as it were. Now you are at least cognizant of the possibility that the things that you take for granted need not be so.
 
 #### Askesis of Perception
 
 [36:33] **Henry:** Related to that would be, how do we do that? And maybe we could talk about your other posts, called it surviving the show, and then this other fancy word that people might not know of, askesis of perception, right.
 
-[36:49] **Michael:** Yeah. I think that that's just a transliteration of a Greek word; it's the word behind the word asceticism, which we associate with monks and, you know, severely religious people. But it is essentially just disciplining, right?
+[36:49] **Michael:** I think that that's just a transliteration of a Greek word; it's the word behind the word asceticism, which we associate with monks and, you know, severely religious people. But it is essentially just disciplining, right?
 
 [37:04] **Michael:** Which if we might, even that word discipline, I think has a kind of a pejorative connotation. So training, right? It's just training. A form of training. And in a sense, this is what people in religious orders do, is they undergo kind of askesis, or training and disciplining of their desires, say for example. But athletes do the same thing, right. Even as we've talked about earlier, artists trained themselves to see the world in a certain way, et cetera. So, yeah, askesis is just sort of the idea of needing to train your perception, your vision.
 
@@ -264,11 +264,11 @@ quotes:
 
 [39:46] **Michael:** But really, before any of that matters at all, somebody has to want to know the truth and somebody has to entertain the possibility that they might be wrong. Somebody has to have the courage to believe that their tribe, their people, their party, is in error. And to be willing to break with them, right. If that means coming to better understand the truth of the case or the matter.
 
-[40:14] **Michael:** So in other words, all that to say is that there are moral virtues that have to underpin the deployment of any of these skills, right? All of these skills can, if these intellectual virtues aren't there, will not avail, right. In some respects, they may just reinforce the person and their errors. Make them more clever in their..
+[40:14] **Michael:** So in other words, all that to say is that there are moral virtues that have to underpin the deployment of any of these skills, right? All of these skills, if these intellectual virtues aren't there, will not avail, right. In some respects, they may just reinforce the person and their errors. Make them more clever in their..
 
 [40:37] **Henry:** That makes sense in light of conspiracy theories. That's like, believe the science. If only they knew the facts, their mind will be changed. Just arguing with anyone, that might not be the case. And even in a religious context, you're trying to evangelize or convert someone or whatever, you can't just say some facts, quote, unquote, and then that will lead to anything, really.
 
-[40:58] **Michael:** Yeah. There's other dimensions of the human person that go into how we view the world, what we believe, what we trust. Often it's a matter of trust. And I think Illich's point then in relation to this is that you can't just impart people with a set of intellectual skills. There's more that is needed. There's more that is needed at the level of human desire, of virtue.
+[40:58] **Michael:** There's other dimensions of the human person that go into how we view the world, what we believe, what we trust. Often it's a matter of trust. And I think Illich's point then in relation to this is that you can't just impart people with a set of intellectual skills. There's more that is needed. There's more that is needed at the level of human desire, of virtue.
 
 #### Isn't Just Something You Can Code into a Program
 
@@ -282,7 +282,7 @@ quotes:
 
 [42:41] **Henry:** I feel like that's so hard to express. Maybe that's the whole point, exposing or bringing in an imagination that there are other approaches. Maybe the only approach we have is this ban people, these kind of black and white things, or very technique oriented things.
 
-[42:59] **Michael:** Right, right. And that's just the nature of modernity in a sense, right. That if there is a problem, it's susceptible to technique. And we just need the right method, the right tool, the right sort of institutional structures. And then this problem will be solved or will go away. Right. I think the human person and thus human society is simply just more complicated than that. More complex than that.
+[42:59] **Michael:** Right. And that's just the nature of modernity in a sense, right. That if there is a problem, it's susceptible to technique. And we just need the right method, the right tool, the right sort of institutional structures. And then this problem will be solved or will go away. Right. I think the human person and thus human society is simply just more complicated than that. More complex than that.
 
 #### The Commons vs The Public
 
@@ -298,7 +298,7 @@ quotes:
 
 [45:13] **Michael:** You had to deal with it. Yes.
 
-[45:15] **Henry:** Now, if like there's a mosquito, you get really annoyed, you get bug spray, all this stuff. But then, they didn't even bother to ask a doctor to fix something, because they didn't think it was possible. They live with it.
+[45:15] **Henry:** Now, if there's a mosquito, you get really annoyed, you get bug spray, all this stuff. But then, they didn't even bother to ask a doctor to fix something, because they didn't think it was possible. They live with it.
 
 [45:26] **Michael:** Yeah, in a lot of cases, it wasn't. There was very little that could be done, right. And I think this is the part that probably just infuriates some people that read Illich. Because the immediate thing is, what are you saying? Should we not treat our festering sores, right.
 
@@ -314,7 +314,7 @@ quotes:
 
 [48:06] **Michael:** And to get to that through skin and hair. And to connect that with a sort of understanding of the body is certainly a very unique path, right.
 
-[48:19] **Henry:** Yeah. I just think it was.. And also he was pointing out hair is simultaneously in you and outside of you.
+[48:19] **Henry:** I just think it was.. And also he was pointing out hair is simultaneously in you and outside of you.
 
 [48:27] **Michael:** Exactly. It troubles the clean distinction between what is me and what is not me in the same way that his idea of the commons, I think, troubles the distinction between public and private.
 
@@ -336,7 +336,7 @@ quotes:
 
 [50:24] **Henry:** And then I guess before that, "a commons is a space which is established by custom. It can not be regulated by law. The law would never be able to give sufficient details to regulate a commons."
 
-[50:36] **Michael:** Yeah. That line stuck out to me as well. Recently, it was a reading group I was leading of Measure for Measure of all things, Shakespeare's play. And part of what struck me in that.. How can I avoid giving a whole summary of the play?
+[50:36] **Michael:** That line stuck out to me as well. Recently, it was a reading group I was leading of Measure for Measure of all things, Shakespeare's play. And part of what struck me in that.. How can I avoid giving a whole summary of the play?
 
 [50:51] **Michael:** Basically it has this idea of following the letter of the law fastidiously, right? And so, it led to a conversation about how we relate to rules and the desire to make everything sort of rule based or to function.
 
@@ -358,11 +358,11 @@ quotes:
 
 [53:40] **Michael:** Right. I mean, I think there's a you can't do it. And so the attempt to do it becomes destructive, but certainly I think normatively, you shouldn't do it, right?
 
-[53:48] **Henry:** Yeah. That's the whole thing around algorithms and recommendation systems. These things that supposedly know us better than ourselves or we have these AIs that are gonna code better than us. But people have been talking about this for a while, like Michael Polanyi about tacit knowledge, right? There are things that we know that we can't say, will never be able to express, in speech to someone else or to a computer. That's why communication is so hard because otherwise we could literally transfer information to each other through like the Matrix, but like, that's not how anything works.
+[53:48] **Henry:** That's the whole thing around algorithms and recommendation systems. These things that supposedly know us better than ourselves or we have these AIs that are gonna code better than us. But people have been talking about this for a while, like Michael Polanyi about tacit knowledge, right? There are things that we know that we can't say, will never be able to express, in speech to someone else or to a computer. That's why communication is so hard because otherwise we could literally transfer information to each other through like the Matrix, but that's not how anything works.
 
 [54:21] **Michael:** Right. And this is forced, but to bring it all the way back to the beginning, something like silence, right? How does the meaningfulness of silence get captured in that way, right.
 
-[54:32] **Henry:** And that's just like art and beauty. That whole thing about not everything that's good should be measured. This essay, programming as theory building, says that exact thing, why you shouldn't outsource your programmers is because what matters is the mental model that programmers create for their program, not the code. The code is just an artifact of the programmer. And once they leave, like everyone knows, like in a way that team that is lacking the person that made it in the first place, they don't know what to do, right. They don't know how it works. You can't just read the code and understand this is how it works.
+[54:32] **Henry:** And that's just like art and beauty. That whole thing about not everything that's good should be measured. This essay, programming as theory building, says that exact thing, why you shouldn't outsource your programmers is because what matters is the mental model that programmers create for their program, not the code. The code is just an artifact of the programmer. And once they leave, like everyone knows, in a way that team that is lacking the person that made it in the first place, they don't know what to do, right. They don't know how it works. You can't just read the code and understand this is how it works.
 
 [55:07] **Michael:** That's interesting.
 
@@ -374,7 +374,7 @@ quotes:
 
 [56:02] **Henry:** But I think that if you take that to the extreme, like what if we just make everything a program, I think we're gonna have the same problem. If crypto will be a convivial tool, it would have to be one where people are still in it, right?
 
-[56:15] **Michael:** Right. You're better versed in this than I am. And so I always kind of hesitate to speak into this space, but I certainly have seen expressed at these sort of liberatory, emancipatory visions for what it could be. And you know, some pin their hopes on this as a way of sort of being able to generate a new society that doesn't depend upon certain existing structures. But then also, certainly been made aware of very different ways of seeing that, where the inequalities get, things we talked about earlier, sort of just replicated. And so, yeah. I can't say I'm doing much more than, than observing at this point to see how that plays out.
+[56:15] **Michael:** Right. You're better versed in this than I am. And so I always kind of hesitate to speak into this space, but I certainly have seen expressed at these sort of liberatory, emancipatory visions for what it could be. And you know, some pin their hopes on this as a way of sort of being able to generate a new society that doesn't depend upon certain existing structures. But then also, certainly been made aware of very different ways of seeing that, where the inequalities get, things we talked about earlier, sort of just replicated. And so, yeah. I can't say I'm doing much more than observing at this point to see how that plays out.
 
 [56:52] **Henry:** Yeah, I'd be happy to hear more of your thoughts as time goes on, or happy to share more. I think it's easy to conflate that with this thing about trustlessness within crypto, and then whether trustless just means less trust.
 
@@ -384,7 +384,7 @@ quotes:
 
 [57:53] **Michael:** Right. To do without trust, to create a system. And I honestly do need to take this more seriously than I have in becoming better informed in this area.
 
-[58:02] **Henry:** Yeah. It's a weird topic to end on, but it's hard because there's so much noise in all of it. You don't even know where to begin.
+[58:02] **Henry:** It's a weird topic to end on, but it's hard because there's so much noise in all of it. You don't even know where to begin.
 
 [58:10] **Michael:** Somebody starting to try and make their way through it has a lot of work to figure out.. Who do I need to listen to? Who do I trust in these questions? No pun intended.
 

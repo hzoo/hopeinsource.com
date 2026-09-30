@@ -75,7 +75,7 @@ quotes:
 
 [06:25] **Henry:** How would you define co-laborer versus customer?
 
-[06:29] **Conley:** Yeah. So that's a very good question. One way to think about it is obligation, right? So who is that person obligated to? One who, gives to the minister out of a felt obligation directly to him is very different than one who gives out a felt obligation to God.
+[06:29] **Conley:** So that's a very good question. One way to think about it is obligation, right? So who is that person obligated to? One who, gives to the minister out of a felt obligation directly to him is very different than one who gives out a felt obligation to God.
 
 [06:48] **Conley:** So for example Paul says in [1 Corinthians 9](https://www.biblegateway.com/passage/?search=1+Corinthians+9&version=ESV), he likens the whole act of funding ministers to how the priests received their money and goods in general. The Lord said of the priests that he was their inheritance. And what that meant was that they received the ties and the offerings and sacrifices.
 
@@ -91,7 +91,7 @@ quotes:
 
 [07:55] **Conley:** So yeah, I've thought a lot about that. And most recently I was thinking about it in the context of, employee contribution matching. So for those who don't know, I'm both an engineer and a pastor. So I'm kind of handling this from both ends, deciding as the employee do I go through this program and as the pastor, do I set this up so that other employees can give to the church this way.
 
-[08:18] **Conley:** And so this is hard because.. Is my employer like a real co-laborer? A lot of things they stand for are quite contrary to what the Church stands for. And in what sense, could we receive that? Well, the dichotomy I set up in the book is between reciprocity and co-labor right? So first of all, this is obviously not reciprocity, right? It's not that they're giving an exchange for something else.
+[08:18] **Conley:** And so this is hard because.. Is my employer a real co-laborer? A lot of things they stand for are quite contrary to what the Church stands for. And in what sense, could we receive that? Well, the dichotomy I set up in the book is between reciprocity and co-labor right? So first of all, this is obviously not reciprocity, right? It's not that they're giving an exchange for something else.
 
 [08:43] **Conley:** Something else that kind of helped me think through this too was family worship. So a long tradition in the church prior the past century was for families to worship God together every day. And this is, one of the distinctives in my church. My family does worship God every day together.
 
@@ -131,7 +131,7 @@ quotes:
 
 [12:48] **Conley:** I've had thoughts on copyright ever since college, when I got involved in open source and began growing discontent with the way ministries were using copyright for the sake of gain. Just kind of had that on my mind as I was reading the Bible and began to see some of the relevant texts and was able to think of them in that grid of how it might apply to copyright. I began realizing that this was more than just a personal preference I had. This was actually what the Bible was saying about obligation about ministering freely. And there was a real solid application to draw here and not just a wishy washy this might be the wiser way to go.
 
-[13:25] **Henry:** Can you talk through how that applies to like Bibles and songs? I don't think most people, whether you're Christian or not, think about the translations and the copyright.
+[13:25] **Henry:** Can you talk through how that applies to Bibles and songs? I don't think most people, whether you're Christian or not, think about the translations and the copyright.
 
 [13:35] **Conley:** So copyright runs deep in Bible version publication. It's a shame how deep it runs, but it goes all the way to the manuscripts themselves. So there is court precedence that says that a mechanically reproduced copy of a public domain work can't be copyrighted.
 
@@ -165,15 +165,15 @@ quotes:
 
 [17:54] **Conley:** Once again, I'm not a lawyer, but I don't know what value CCLI is really providing other than trying to make sure that the artists that are get funded. They all have churches. Hopefully those churches recognize that this is a ministry they provide and would want to support that ministry as opposed to trying to get money from every other church who benefits from it.
 
-[18:16] **Henry:** Right. I guess the question is.. I don't know how much money they're getting from that. And how much is it actually going to the artist versus the organization? And then if their music's gets popular, they're probably having like concerts or something.
+[18:16] **Henry:** Right. I guess the question is.. I don't know how much money they're getting from that. And how much is it actually going to the artist versus the organization? And then if their music's gets popular, they're probably having concerts or something.
 
 [18:28] **Conley:** Right. And the CCLI, it provides so little it doesn't give you the right to rearrange the tunes or anything. And if you think of [Creative Commons](https://creativecommons.org/) hopefully some of the listeners are familiar with Creative Commons. It's kind of like still giving you a non derivative license. It's very locked down.
 
-[18:45] **Conley:** And once again, I'd love to see the Church change in this area. And this is also true for, for hymns. A lot of hymnals have been written within the time span of copyright law. So they're still under copyright and a lot of times they will have very small modifications of the original lyrics of the original tune. So that now you've got a new copyrighted work. And even though that song is hundreds and hundreds of years old, it's still considered copyrighted.
+[18:45] **Conley:** And once again, I'd love to see the Church change in this area. And this is also true for hymns. A lot of hymnals have been written within the time span of copyright law. So they're still under copyright and a lot of times they will have very small modifications of the original lyrics of the original tune. So that now you've got a new copyrighted work. And even though that song is hundreds and hundreds of years old, it's still considered copyrighted.
 
-[19:12] **Conley:** And I don't know of this personally, but I heard this from a lawyer friend, there was a case of some very old public domain music just classical music. And someone had copied it and was distributing it. And there were typos of where some of the notes were set. And so the original republishers of this work that they had copied from claim that those typos, those accidents, were creative additions. And so their work not actually the public domain work, but, but one that was then copyrightable and tried to enforce copyright on that. So yeah it's crazy what people will do.
+[19:12] **Conley:** And I don't know of this personally, but I heard this from a lawyer friend, there was a case of some very old public domain music just classical music. And someone had copied it and was distributing it. And there were typos of where some of the notes were set. And so the original republishers of this work that they had copied from claim that those typos, those accidents, were creative additions. And so their work not actually the public domain work, but one that was then copyrightable and tried to enforce copyright on that. So yeah it's crazy what people will do.
 
-[19:47] **Henry:** Ugh. Why do I want to think about any of this. It's like.. Not that we shouldn't be thinking about.. It just limits like people's ability to express themselves and maybe one way of doing that is to modify songs or the text.
+[19:47] **Henry:** Ugh. Why do I want to think about any of this. It's like.. Not that we shouldn't be thinking about.. It just limits people's ability to express themselves and maybe one way of doing that is to modify songs or the text.
 
 [19:59] **Conley:** Right. It limits people's ability to do that. It also provides a _chilling factor_ for where things are legal, but people don't know whether or not okay. Well then on top of that, you have many people who are paid to deal with these issues.
 
@@ -187,21 +187,21 @@ quotes:
 
 [20:51] **Conley:** Yeah, I would say so. I mean, certainly in the case of the Bible. Like for example, Christians thinking about the KJV. Like I said, it's technically copyrighted, but in the US practically it's not.
 
-[21:01] **Conley:** I've talked to people in charge of Bible versions and asked them to to use a freer license. And a lot of them have said no, primarily because they don't want someone to tamper with the text. But if you think about the King James Version, Joseph Smith has its own version of the King James version. Thomas Jefferson had his own version where he erased the miracles of Jesus and things like that. Like you have all these versions that a lot of Christians wouldn't be happy with, but at the same time, I think far more good has been done by KJV being practically freely available.
+[21:01] **Conley:** I've talked to people in charge of Bible versions and asked them to use a freer license. And a lot of them have said no, primarily because they don't want someone to tamper with the text. But if you think about the King James Version, Joseph Smith has its own version of the King James version. Thomas Jefferson had his own version where he erased the miracles of Jesus and things like that. Like you have all these versions that a lot of Christians wouldn't be happy with, but at the same time, I think far more good has been done by KJV being practically freely available.
 
-[21:34] **Henry:** I guess it's similar to like free speech discussions. Little bit different, but kind of this fundamentalism about not allowing your kids to see things. Like Harry Potter is about witches, so it's like from the devil, that kind of thing. In this case, it's like allowing this to be free brings a possibility of someone corrupting it and then that might influence people.
+[21:34] **Henry:** I guess it's similar to free speech discussions. Little bit different, but kind of this fundamentalism about not allowing your kids to see things. Like Harry Potter is about witches, so it's like from the devil, that kind of thing. In this case, it's like allowing this to be free brings a possibility of someone corrupting it and then that might influence people.
 
-[21:53] **Henry:** And then we need to make sure that it's controlled. And I guess it's like the control itself is the problem. Of like not letting it go out there. There's a possibility of it failing and people doing whatever they want..
+[21:53] **Henry:** And then we need to make sure that it's controlled. And I guess it's like the control itself is the problem. Of not letting it go out there. There's a possibility of it failing and people doing whatever they want..
 
-[22:06] **Conley:** Right. Yeah. There are two ways to think about one is the pragmatism. Well, what's the, the better end and like you and I are saying, yeah, I think the better end is if these things are free.
+[22:06] **Conley:** Right. Yeah. There are two ways to think about one is the pragmatism. Well, what's the better end and like you and I are saying, yeah, I think the better end is if these things are free.
 
 [22:16] **Conley:** And then secondly, there's the more fundamental rights aspect of it does the copyright holder have a true absolute right, even outside of the construct of the government to control their work.
 
 [22:28] **Conley:** I would say no, given some of the reasoning and that [Thomas Jefferson](https://en.wikipedia.org/wiki/Thomas_Jefferson) quote, what I was talking about, natural law. That God has set up things that are real inalienable rights. And the right is not the copyright holders as though this were physical property. The right is anyone to whom the idea comes because once it has entered their head, it is now their idea as well.
 
-[22:50] **Henry:** Yeah, no, that makes sense. Feels very intuitive in the internet age where it's like, it's already so open. Like websites, you can look at the source code, you can copy it. The remixing of anything like a video or like on TikTok or music. And then also like fan fiction, right. They're technically extending something or they rewrite it. The death of the author, like does it even matter who wrote it if we want to claim that it's ours now. Feel like that kind of sentiment is already in the air.
+[22:50] **Henry:** Yeah, no, that makes sense. Feels very intuitive in the internet age where it's like, it's already so open. Like websites, you can look at the source code, you can copy it. The remixing of anything like a video or like on TikTok or music. And then also fan fiction, right. They're technically extending something or they rewrite it. The death of the author, does it even matter who wrote it if we want to claim that it's ours now. Feel like that kind of sentiment is already in the air.
 
-[23:21] **Conley:** Sure. Yeah. It earlier. I think I do think attribution is important, but but yeah there doesn't seem to be enough to be gained by insisting on control. And beyond that, I don't think that it is actually the right of the creator to insist on such control.
+[23:21] **Conley:** Sure. Yeah. It earlier. I think I do think attribution is important, but yeah there doesn't seem to be enough to be gained by insisting on control. And beyond that, I don't think that it is actually the right of the creator to insist on such control.
 
 [23:36] **Henry:** Yeah, I guess when people are pretending to be that author, that's different from forking
 
@@ -209,11 +209,11 @@ quotes:
 
 #### Personal Bibles
 
-[23:44] **Henry:** Going back to Bible translations, because you brought up like Jefferson had a Bible. What do you think of like personal Bibles or even encouraging people to kind of, I don't know, not change it or anything, but like kind of change it in way that makes sense to them. And then there's also this whole thing about like machine learning and like, what if you had a Bible that was like for you.
+[23:44] **Henry:** Going back to Bible translations, because you brought up Jefferson had a Bible. What do you think of personal Bibles or even encouraging people to kind of, I don't know, not change it or anything, but kind of change it in way that makes sense to them. And then there's also this whole thing about machine learning and, what if you had a Bible that was for you.
 
 [24:03] **Conley:** Before I answer that question, it's probably worth saying that there are a few free versions that exist. So there's the ASV, the American Standard Version that's from the early 1900s. And then there's also the WEB version, W E B. So that's more recent.
 
-[24:17] **Conley:** And for those who don't know, there's probably two main kinds of Bible translations, one that's based on Byzantine texts and one that's based on other, other texts. So anyway the WEB is based on Byzantine texts and the ASV is based on other kind of critical additions.
+[24:17] **Conley:** And for those who don't know, there's probably two main kinds of Bible translations, one that's based on Byzantine texts and one that's based on other texts. So anyway the WEB is based on Byzantine texts and the ASV is based on other kind of critical additions.
 
 [24:31] **Conley:** So, anyway, yeah, it's interesting that you asked that question because I've been trying to update the ASV myself. I've been doing this for like eight years. I mean, very slowly. A few words here and there, but changing all of thees and thous, that kind of stuff.
 
@@ -225,27 +225,27 @@ quotes:
 
 [25:29] **Henry:** Maybe there's a word and you want to use the original Greek or something instead, because that might help you understand it better.
 
-[25:35] **Conley:** Yeah. Like every time you have the word love to actually insert like agape and philia or whatever. People tend to be interested in that kind of thing. Which version of love is this? That would be interesting.
+[25:35] **Conley:** Like every time you have the word love to actually insert agape and philia or whatever. People tend to be interested in that kind of thing. Which version of love is this? That would be interesting.
 
-[25:45] **Henry:** Otherwise you would have to learn how to use or even know that exists the whole Strong's concordance, those kinds of things. The average person has no idea, but it's like what if you made it simpler? It's not that like everything has to have a synonym, but it's kind of cool, this is kind of a more deeper word than English provides. And it maybe helps you to learn Greek or some other language so you can appreciate better.
+[25:45] **Henry:** Otherwise you would have to learn how to use or even know that exists the whole Strong's concordance, those kinds of things. The average person has no idea, but it's like what if you made it simpler? It's not that everything has to have a synonym, but it's kind of cool, this is kind of a more deeper word than English provides. And it maybe helps you to learn Greek or some other language so you can appreciate better.
 
-[26:08] **Conley:** Right. Yeah. But then, and then it's worth pointing out, but with most modern versions, you would not be able to do that and then publish it. So that's worth thinking about.
+[26:08] **Conley:** Right. Yeah. But then it's worth pointing out, but with most modern versions, you would not be able to do that and then publish it. So that's worth thinking about.
 
 #### Given Without Price
 
-[26:17] **Henry:** Maybe we could end with like what's a takeaway for someone that might not be a Christian?
+[26:17] **Henry:** Maybe we could end with what's a takeaway for someone that might not be a Christian?
 
 [26:22] **Conley:** Sure. So that's a very good question. What's the takeaway for someone who's not Christian, but finds this interesting.
 
-[26:28] **Conley:** So I have been sensitive about talking about this, cause in a way it's kind of like exposing a lot of the dirty laundry of current state of Christianity. Yeah, I mean, I wanna be transparent at the same time. I don't want to.. I mean, that's not my main agenda, to draw attention to like the messes we have in the church at the moment.
+[26:28] **Conley:** So I have been sensitive about talking about this, cause in a way it's kind of like exposing a lot of the dirty laundry of current state of Christianity. Yeah, I mean, I wanna be transparent at the same time. I don't want to.. I mean, that's not my main agenda, to draw attention to the messes we have in the church at the moment.
 
-[26:47] **Conley:** But yeah I would say that forgive us for for where we've, gone wrong and tried to, charge you for offering you the gospel. And that that's obviously not what Jesus promoted or Paul or any of the apostles. Yeah, and I hope that as this is adopted the Bible's more freely available and that people have more access to it.
+[26:47] **Conley:** But yeah I would say that forgive us for where we've, gone wrong and tried to, charge you for offering you the gospel. And that that's obviously not what Jesus promoted or Paul or any of the apostles. Yeah, and I hope that as this is adopted the Bible's more freely available and that people have more access to it.
 
-[27:06] **Conley:** And yeah, if someone's listening to this and not a believer, of course, the, the main thing I would want them to think about is just to consider the words of the new Testament, that Jesus Christ was offered as a sacrifice to pay for the sins of the world.
+[27:06] **Conley:** And yeah, if someone's listening to this and not a believer, of course, the main thing I would want them to think about is just to consider the words of the new Testament, that Jesus Christ was offered as a sacrifice to pay for the sins of the world.
 
 [27:19] **Henry:** I think pointing out the problems, especially in this case.. I guess it helps explain what it's all about in the first place?
 
-[27:25] **Conley:** I guess there's a more serious tie into the gospel. So if I can just read like part of the conclusion, of the book.
+[27:25] **Conley:** I guess there's a more serious tie into the gospel. So if I can just read part of the conclusion, of the book.
 
 [27:30] **Conley:** The prophet Isaiah describes salvation as water that is offered without money and without price, [Isaiah 55:1](https://www.biblegateway.com/passage/?search=Isaiah+55%3A1&version=ESV). In the gospels, Jesus explains that he is the source of that living water, [John 7:37](https://www.biblegateway.com/passage/?search=John+7%3A37&version=ESV). On the final pages of Scripture, John records the repeated assertion that the Lord offers this water freely, [Revelation 21:6](https://www.biblegateway.com/passage/?search=Revelation+21%3A6&version=ESV); [22:17](https://www.biblegateway.com/passage/?search=Revelation+22%3A17&version=ESV). As we consider the relationship between money and ministry, there's nothing less at stake than the proper advancement of the gospel of Jesus.
 
@@ -253,8 +253,8 @@ quotes:
 
 [28:24] **Henry:** Right. Pointing out that that's been lost, it is promoting the whole point in the first place.
 
-[28:30] **Conley:** Yeah. So this is not just one arbitrary thing about how ministry is done, but it is reflective of the gospel itself. That valuable thing that has been offered, without charge.
+[28:30] **Conley:** So this is not just one arbitrary thing about how ministry is done, but it is reflective of the gospel itself. That valuable thing that has been offered, without charge.
 
-[28:39] **Henry:** Thanks for this conversation. I've given a talk about like why I do open source and I bring up the same verse about freely given, freely received. So it's like kind of cool to see this applied to the faith.
+[28:39] **Henry:** Thanks for this conversation. I've given a talk about why I do open source and I bring up the same verse about freely given, freely received. So it's kind of cool to see this applied to the faith.
 
 [28:51] **Conley:** Well, thank you, Henry. I've appreciated it.

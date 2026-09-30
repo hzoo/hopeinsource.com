@@ -1,5 +1,6 @@
 ---
 import BaseHead from '@/components/BaseHead.astro';
+import Search from '@/components/Search.astro';
 import ThemeToggle from '@/components/ThemeToggle.astro';
 import '../styles/base.css';
 
@@ -24,6 +25,7 @@ const { frontmatter, slug = '' } = Astro.props;
     />
   </head>
   <body>
+    <Search />
     <ThemeToggle />
     <slot />
   </body>

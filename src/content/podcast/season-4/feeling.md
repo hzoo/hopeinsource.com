@@ -37,15 +37,15 @@ quotes:
 
 [02:09] **Henry:** What translation was that?
 
-[02:10] **Sonya:** That's the [new King James version](https://en.wikipedia.org/wiki/New_King_James_Version). I love the poetry of the [King James version](https://en.wikipedia.org/wiki/King_James_Version), but the new one is definitely a little bit easier to understand, I guess, to a modern reader. In the original King James, they say a penny instead of a [denarius](https://en.wikipedia.org/wiki/Denarius). So there's also some like translation update stuff.
+[02:10] **Sonya:** That's the [new King James version](https://en.wikipedia.org/wiki/New_King_James_Version). I love the poetry of the [King James version](https://en.wikipedia.org/wiki/King_James_Version), but the new one is definitely a little bit easier to understand, I guess, to a modern reader. In the original King James, they say a penny instead of a [denarius](https://en.wikipedia.org/wiki/Denarius). So there's also some translation update stuff.
 
 #### Come to the table: God's generosity
 
-[02:30] **Sonya:** But this parable in particular really resonated with me right now. Because it's on the face of it, unfair, right? Like you have the people who work more, who put in more hours, who were as they complained there during the heat of the day.
+[02:30] **Sonya:** But this parable in particular really resonated with me right now. Because it's on the face of it, unfair, right? you have the people who work more, who put in more hours, who were as they complained there during the heat of the day.
 
 [02:45] **Sonya:** And then you have the people who got recruited much later and who haven't put in as much effort and the landowner. Who is unto, what is the phrasing exactly, it's like unto the kingdom of Heaven decides to remunerate them all the same, to give them all the same payment for their labor. And they aren't instantly happy about it. But he says, this is my right and my privilege to decide what to do. You got what I agreed I would give you. And it's my decision to decide to also give these other people exactly what I gave you.
 
-[03:19] **Sonya:** And within context of christian theology. This serves as a metaphor for salvation, really, that if you're the the most righteous, meticulous person, I don't know, it may seem unfair that people who are not are also saved or also eligible for salvation.
+[03:19] **Sonya:** And within context of christian theology. This serves as a metaphor for salvation, really, that if you're the most righteous, meticulous person, I don't know, it may seem unfair that people who are not are also saved or also eligible for salvation.
 
 [03:38] **Sonya:** And this is a theme that comes up in multiple parables. You wanna mention the one that came to mind for you?
 
@@ -65,9 +65,9 @@ quotes:
 
 [05:21] **Sonya:** And how you feel about it. I think that's one of the things that's really challenging about Christianity is that it's not just about right behavior or striving to act the right way, but there's also an internal aspect in striving to feel the right way. It sounds so restrictive and it kind of is.
 
-[05:41] **Henry:** Yeah. I think sometimes we make it more palatable to people, but there's a asking of you to be different. It's not purely an external thing. There's a change of heart that results in external behavior. Only doing the external behavior is the example of the prodigal son.
+[05:41] **Henry:** I think sometimes we make it more palatable to people, but there's a asking of you to be different. It's not purely an external thing. There's a change of heart that results in external behavior. Only doing the external behavior is the example of the prodigal son.
 
-[05:58] **Henry:** If people aren't familiar with the story, in essence, there's a younger son that kind of takes the inheritance of the father and he loses all the money. And then at some point he comes back to the father. 'cause he feels like maybe I can be his servant at least. And the father kind of like runs, he's like looking for him every day and he welcomes him back and he has a whole feast.
+[05:58] **Henry:** If people aren't familiar with the story, in essence, there's a younger son that kind of takes the inheritance of the father and he loses all the money. And then at some point he comes back to the father. 'cause he feels like maybe I can be his servant at least. And the father kind of runs, he's like looking for him every day and he welcomes him back and he has a whole feast.
 
 [06:18] **Henry:** But then the older brother was the one that was doing everything right. Every day he would do his labor, all that stuff. But then his true colors show up when the younger brother comes back and he's not happy that there's that party for him. And so clearly he was doing it for a different reason. Right? He is like, how come you didn't give me a feast?
 
@@ -79,9 +79,9 @@ quotes:
 
 [07:58] **Sonya:** Jesus is not utilitarian. It's pretty explicit that the things that happen on Earth are important. It's important to approach your earthly life with care. Because you are preparing for your next life, your life with the God.
 
-[08:14] **Henry:** And then you see that in the example of Jesus himself, right? Just his life, how he lived it. The contrast between giving these sermons on the boat. It's like a one to many, like an equivalent of a Twitch streamer at this point. But there's also him meeting the woman at the well and people that no one wants to talk to. He does both.
+[08:14] **Henry:** And then you see that in the example of Jesus himself, right? Just his life, how he lived it. The contrast between giving these sermons on the boat: It's like a one to many, like an equivalent of a Twitch streamer at this point. But there's also him meeting the woman at the well and people that no one wants to talk to. He does both.
 
-[08:32] **Sonya:** Yeah. And especially with healing, I think, at least the translation that I'm reading always puts it as, he was moved with compassion. It's like he meets someone individually. It's almost like the love flows out of him.
+[08:32] **Sonya:** And especially with healing, I think, at least the translation that I'm reading always puts it as, he was moved with compassion. It's like he meets someone individually. It's almost like the love flows out of him.
 
 [08:45] **Henry:** Even that itself can seem weird. Mm-Hmm. Why would God feel something? Whatever our assumptions about who God is, when we read that stuff.
 
@@ -95,15 +95,15 @@ quotes:
 
 [09:44] **Sonya:** Gosh, I don't wanna use that language, but I lack another. It benefits you as well, I guess I will say, to have both responsibilities and forgiveness. Like Jesus is very demanding, but also very forgiving. But as you said, Jesus talks to the lepers, Jesus talks to the prostitutes, to the foreigners, people who are outside of the chosen people and doesn't.
 
-[10:09] **Sonya:** He at some point verbatim, instruct his disciples to go to the Gentiles as well. But overall, there's both a high standard of behavior and of internal feeling to which you are called to live up. At the same time, if it's a struggle, like it's okay for it to be a struggle and it's okay for it to be a work in progress.
+[10:09] **Sonya:** He at some point verbatim, instruct his disciples to go to the Gentiles as well. But overall, there's both a high standard of behavior and of internal feeling to which you are called to live up. At the same time, if it's a struggle, it's okay for it to be a struggle and it's okay for it to be a work in progress.
 
 [10:32] **Sonya:** All of these things are debatable 'cause there's definitely an element of interpretation, but that's how I read it. I really feel that there's an emphasis on personal responsibility on improving yourself and focusing on that. Which is not to say that you shouldn't encourage others and sort of be in community with your fellow Christians and with your neighbors in general.
 
 [10:55] **Henry:** That's an interesting point to bring up. 'cause a lot of criticism, some people have of say, American Christianity, is that maybe two individual at certain points. But I think it's both that we want to emphasize interdependence, right? We have our own walk, but it's not alone, right? Mm-Hmm. At first we have the Holy Spirit in us.
 
-[11:15] **Henry:** Which is kind of amazing. If Jesus says, I'm gonna send my helper right. We have God in us to help us. And also we have our fellow people that we are walking with on, on this journey and, and you could bring up discipleship where I can't force anyone to do anything, but I can help them grow. Going back to the garden metaphor, I can plant the seeds right?
+[11:15] **Henry:** Which is kind of amazing. If Jesus says, I'm gonna send my helper right. We have God in us to help us. And also we have our fellow people that we are walking with on this journey and you could bring up discipleship where I can't force anyone to do anything, but I can help them grow. Going back to the garden metaphor, I can plant the seeds right?
 
-[11:37] **Henry:** But God is the one that makes the growth happen. Just like you can't make the plant grow faster, you can only make an environment such that the plant will grow at all. That's related to like parenting.
+[11:37] **Henry:** But God is the one that makes the growth happen. Just like you can't make the plant grow faster, you can only make an environment such that the plant will grow at all. That's related to parenting.
 
 [11:48] **Sonya:** I think of what Jesus says is the primary. What are the foremost laws? What is the most important thing?
 
@@ -117,7 +117,7 @@ quotes:
 
 [12:42] **Sonya:** That's what it is. So something that listeners, I'm gonna review for you, Henry and I, one of the things that we've been wanting to talk about is in the online subcultural circles that I run in, there's been a burgeoning interest in spirituality, not so much Christianity.
 
-[13:02] **Sonya:** Specifically, although I think there's a definite Christian strain, but in ritual in things that are the non-material realm, I guess both in terms of interchange but also to some extent the supernatural. There are even people who are going in a more like occult direction, but dissatisfaction with your sort of lay scientific consensus, which is not to say that people are really rejecting science, but it's like looking for more, what else is there?
+[13:02] **Sonya:** Specifically, although I think there's a definite Christian strain, but in ritual in things that are the non-material realm, I guess both in terms of interchange but also to some extent the supernatural. There are even people who are going in a more occult direction, but dissatisfaction with your sort of lay scientific consensus, which is not to say that people are really rejecting science, but it's like looking for more, what else is there?
 
 [13:31] **Sonya:** And for me, that was definitely part of why and how I came to Christianity was part of this questing. I really felt that [rationalism](https://en.wikipedia.org/wiki/Rationalism) was insufficient for a good life. And I still like rationalism. I think there's a lot of value there. For me personally, I feel like it's necessary but not sufficient.
 
@@ -127,7 +127,7 @@ quotes:
 
 [14:26] **Sonya:** It's scary because it's a lot. It's hard. I think it's also attractive. I don't think it's really enough for people to not have some kind.. like we yearn for community and connection and I think the sort of hedonistic standard where it's just all for fun is not enough.
 
-[14:44] **Sonya:** And I think there's a reason why generation upon generation of humans have. And I mean, not even just specifically Christianity with other religions too, have sought obligations that both, that bind them together and that bind them to a higher power. What do you think?
+[14:44] **Sonya:** And I think there's a reason why generation upon generation of humans have. And I mean, not even just specifically Christianity with other religions too, have sought obligations that bind them together and that bind them to a higher power. What do you think?
 
 [15:02] **Henry:** Yeah, there's a lot there. Obligation is interesting. Maybe that's really on point, where a lot of religions try to tie what is true with what is moral.
 
@@ -137,11 +137,11 @@ quotes:
 
 [15:41] **Sonya:** The freedom thing makes me think of. There's a Reddit post that I really like, which is the [parable of the wood carver](https://www.reddit.com/r/slatestarcodex/comments/47z07a/the_fable_of_the_woodcarver/). I'll try to find a link later and send it to you, but I'll briefly summarize it.
 
-[15:52] **Sonya:** What the post is about is a contrast between freedom from and freedom to, as in like external influence or freedom from constraints imposed on you by others and [tracingwoodgrains](https://www.tracingwoodgrains.com/) is their username. Used to be a Mormon but is no longer, so this is like in a Mormon context, but it's not very like Mormon specific.
+[15:52] **Sonya:** What the post is about is a contrast between freedom from and freedom to, as in like external influence or freedom from constraints imposed on you by others and [tracingwoodgrains](https://www.tracingwoodgrains.com/) is their username. Used to be a Mormon but is no longer, so this is in a Mormon context, but it's not very Mormon specific.
 
 [16:12] **Sonya:** He talks about how you can have this freedom from, but there's, it's also important to have freedom too, which is the freedom of capability. And he gives the metaphor of a wood carver where if you put wood carving tools into my hands, or presumably your hands, unless you're secretly a master wood carver, and I don't know.
 
-[16:31] **Sonya:** No, we wouldn't really have any freedom to do anything with these wood carving tools. So maybe we could like get some chunks out of a piece of wood. The master Woodcarver, who has spent a lifetime using these tools and honing his skill. He has the freedom to make all kinds of beautiful things, useful things using these tools because he's put in the time and he has the practice and that kind of freedom.
+[16:31] **Sonya:** No, we wouldn't really have any freedom to do anything with these wood carving tools. So maybe we could get some chunks out of a piece of wood. The master Woodcarver, who has spent a lifetime using these tools and honing his skill. He has the freedom to make all kinds of beautiful things, useful things using these tools because he's put in the time and he has the practice and that kind of freedom.
 
 [16:56] **Sonya:** The freedom to build, the freedom to act, the freedom to create. But it does depend to some extent on the freedom from being able to choose what you do. But it also depends on having built up your skill, sort of shaping and training yourself. And I think that this is something that. Is definitely part of Christianity.
 
@@ -149,7 +149,7 @@ quotes:
 
 [17:36] **Sonya:** Maybe that's a little overstating. Things like, I don't wanna say that utilitarians don't do anything, and I think there are utilitarians who feel their moral obligations really strongly like the [effective altruism](https://en.wikipedia.org/wiki/Effective_altruism) movement. Mm-hmm is an example. I wouldn't be surprised if there are fair few effective altruist Christians who see it as a kind of natural marriage.
 
-[17:57] **Sonya:** Because, I mean, it's all about wanting to help people. To the maximum extent possible according to a certain definition. And that's always the tricky part is like, how do we define the good?
+[17:57] **Sonya:** Because it's all about wanting to help people. To the maximum extent possible according to a certain definition. And that's always the tricky part is like, how do we define the good?
 
 [18:07] **Henry:** Yeah, you need negative freedom in order to have that direction where you should go. That's the modern predicament.
 
@@ -159,7 +159,7 @@ quotes:
 
 #### formative moments of intimacy
 
-[18:36] **Sonya:** Yeah. That also really resonates with me, the idea of belonging. That's certainly how I felt. Coming back to Christianity, just it was like a feeling of everything lining up. Often to me, reality feels very layered and all the layers kind of aligned.
+[18:36] **Sonya:** That also really resonates with me, the idea of belonging. That's certainly how I felt. Coming back to Christianity, just it was like a feeling of everything lining up. Often to me, reality feels very layered and all the layers kind of aligned.
 
 [18:52] **Sonya:** I guess you could call it an epiphany of some sort. It almost feels a little presumptuous to say that I had an epiphany. 'cause to me it feels like a very grand notion and it didn't feel grand necessarily. It felt more intimate, I would say.
 
@@ -173,7 +173,7 @@ quotes:
 
 [20:27] **Sonya:** And I was like, okay, this is a psychological experience that my brain produced. And then I had this moment. I was like, well, why can't that be God? If God is all powerful and spans everything, why would that be outside of God's? Capabilities, obviously not. So it was a very formative moment, and I think going through the pondering afterwards was also important.
 
-[20:48] **Sonya:** It forced me to think about the literal level as well as the metaphysical level. Again, I would go to the layers they feel stacked, where there's like a pattern that runs through all of them. And that experience allowed me to see the pattern.
+[20:48] **Sonya:** It forced me to think about the literal level as well as the metaphysical level. Again, I would go to the layers they feel stacked, where there's a pattern that runs through all of them. And that experience allowed me to see the pattern.
 
 [21:04] **Henry:** Yeah, you had this psychological response, but on top of that it's like God maybe used that to show you something, but they're just where you see it, right in the stack, I guess.
 
@@ -191,19 +191,19 @@ quotes:
 
 [22:59] **Henry:** Some people are trying to turn back to old ways of doing liturgy and worship. The opposite is taking the content of Christianity or the message, I guess, and putting it in the medium of whatever happens to be popular at the moment. Livestream, church, pop worship music. Which is all good, but..
 
-[23:16] **Sonya:** The like youth pastor stereotype.
+[23:16] **Sonya:** The youth pastor stereotype.
 
 [23:18] **Henry:** That was done with the intentions of getting people into the message, but we're separating the form and the content and I realized that those forms has its own message that might tie better to Christianity than trying to do the opposite. We're losing something about kind of adapting to the times.
 
 [23:36] **Sonya:** Yeah, I have a both perspective on that. I think it's important to sustain and revive the older ways that have fallen off.
 
-[23:48] **Sonya:** But I also, I really like [Kanye West](https://en.wikipedia.org/wiki/Kanye_West) and actually some of Kanye's more recent work has been specifically Christian music. Right. But in rap form or both rap and gospel, he weaves it together. That's good too. There is something though where it's like you want it to be.
+[23:48] **Sonya:** But I really like [Kanye West](https://en.wikipedia.org/wiki/Kanye_West) and actually some of Kanye's more recent work has been specifically Christian music. Right. But in rap form or both rap and gospel, he weaves it together. That's good too. There is something though where it's like you want it to be.
 
-[24:07] **Sonya:** For lack of a better word, authentic, because it feels like there's a difference between kind of like grafting it on and kind of like trying to make it, it's like a, how do you do fellow kids thing? Like is it being used as like a marketing technique or is it a, this is the form through which the spirit flowed?
+[24:07] **Sonya:** For lack of a better word, authentic, because it feels like there's a difference between kind of grafting it on and kind of trying to make it, it's like a, how do you do fellow kids thing? Like is it being used as a marketing technique or is it a, this is the form through which the spirit flowed?
 
 [24:25] **Sonya:** I don't know. Yeah, and maybe it's kind of presumptuous to say that You could tell from the outside. Maybe a better way to put it is that there's definitely some Christian art that I feel really resonates with me and it feels sincere and it was meant to come in that form and some, not so much. Maybe that's just my aesthetics.
 
-[24:43] **Henry:** Yeah. I don't want to say that we should go back to a certain way. It is just like, how do we. Truly understand the new forms, but then also really understand what is the Christian faith and how do we kind of really relate the to it culturally. We have to understand both and and be aware of that. A lot of times we just like to tack on things, like you said, and it doesn't really work for christians or non-Christians.
+[24:43] **Henry:** I don't want to say that we should go back to a certain way. It is just like, how do we. Truly understand the new forms, but then also really understand what is the Christian faith and how do we kind of really relate the to it culturally. We have to understand both and be aware of that. A lot of times we just like to tack on things, like you said, and it doesn't really work for christians or non-Christians.
 
 [25:06] **Sonya:** There are so many beautiful old monasteries and old cathedrals, some of which still have services or still have people living there who are keeping the faith. And I find that really beautiful and I agree with you that it's not like old things are automatically good, but there is still the things that have survived through the ages. For a reason by some mechanism, there's something there, they wouldn't survive if there wasn't some there, there, and it's worth going to look for it.
 
@@ -215,7 +215,7 @@ quotes:
 
 [26:06] **Sonya:** Oh, that's definitely how I feel. It's been wonderful. It's been exciting. And there's a rejuvenation.
 
-[26:14] **Henry:** I think if you're not a Christian, it could be like an academic exercise, like, oh, I just want to learn the history or something. But no, you're evoking awe and wonder. If you are like super rationalists. A lot of people get that from the cosmos, right? Like, Mm-Hmm. Seeing that there's a lot out there, that there's complexity in the world and that gives them wonder. But yeah, a lot of times we, we just like to reduce everything. Hope that it's like legible to us.
+[26:14] **Henry:** I think if you're not a Christian, it could be like an academic exercise, like, oh, I just want to learn the history or something. But no, you're evoking awe and wonder. If you are like super rationalists. A lot of people get that from the cosmos, right? Like, Mm-Hmm. Seeing that there's a lot out there, that there's complexity in the world and that gives them wonder. But yeah, a lot of times we just like to reduce everything. Hope that it's like legible to us.
 
 [26:37] **Sonya:** Mm-Hmm. Christianity is so particular like, you know.
 
@@ -223,7 +223,7 @@ quotes:
 
 [26:41] **Sonya:** Some very specific tenets. There's specific beliefs, especially around Christ himself, who he was, the nature of Christ. That can be offputting to people, that it is both, I don't even wanna say unscientific necessarily, but it's not justified by math, right? You can't prove a theorem that says Christianity is true or something.
 
-[27:04] **Sonya:** You have to decide this particular thing. Yes. It's like you find a way to say yes without having a double blind experiment or something. 'cause it's not that kind of thing. I guess it would be like trying to, trying to say that some historical event is like proofed by math or something. It's like the wrong kind of evidence.
+[27:04] **Sonya:** You have to decide this particular thing. Yes. It's like you find a way to say yes without having a double blind experiment or something. 'cause it's not that kind of thing. I guess it would be like trying to say that some historical event is like proofed by math or something. It's like the wrong kind of evidence.
 
 [27:24] **Henry:** That's what faith is. Sort of why I feel like that kind of apologetics was just already admitting that we failed. Our lives should be the argument for Christ in some sense actually.
 
@@ -231,7 +231,7 @@ quotes:
 
 [27:34] **Sonya:** You shall know them by their fruits. That's another line that I've been thinking about a lot. And that's also like a garden. It's an orchard metaphor.
 
-[27:43] **Henry:** Yeah. And that question is what are those fruits? And if we are the tree, are we a isolated tree or are we grafted into the tree that is Christ? And how does that relate to like all the people around us?
+[27:43] **Henry:** And that question is what are those fruits? And if we are the tree, are we a isolated tree or are we grafted into the tree that is Christ? And how does that relate to all the people around us?
 
 [27:56] **Sonya:** And he also points out in keeping with the body metaphor later, this kind of tree has this kind of fruit.
 
@@ -239,7 +239,7 @@ quotes:
 
 [28:13] **Henry:** Especially modern people, it's mostly about the efficient cause, like cause and effect. But the formal cause is actually about form.
 
-[28:21] **Sonya:** As in like having to do with like shapes and morphology.
+[28:21] **Sonya:** As in having to do with shapes and morphology.
 
 [28:24] **Henry:** Like why does that matter? It's just like the shape changes what happens.
 
@@ -247,11 +247,11 @@ quotes:
 
 [28:43] **Henry:** The final cause would be like the purpose. Right? That's the other thing. Nothing has purpose, it just does it, right?
 
-[28:50] **Sonya:** It's something that people really want, like this crisis of meaning is something that people have been talking about a lot. There's like something missing in our culture. And I guess I think what's missing is God.
+[28:50] **Sonya:** It's something that people really want, like this crisis of meaning is something that people have been talking about a lot. There's something missing in our culture. And I guess I think what's missing is God.
 
 [29:01] **Henry:** [Sarah Perry](https://twitter.com/sarahdoingthing) of [Ribbonfarm](https://www.ribbonfarm.com/) had a post like [ambiguity as meaning](https://www.ribbonfarm.com/2012/11/27/meaning-in-ambiguity/), something like that. A lot of meaning comes outta the fact we don't know specifically.
 
-[29:09] **Sonya:** Yeah. It's so hard to talk about this because I feel like, and maybe that's a feature, not a bug, that it's hard to talk about talk. It feels like language doesn't really encompass it.
+[29:09] **Sonya:** It's so hard to talk about this because I feel like, and maybe that's a feature, not a bug, that it's hard to talk about talk. It feels like language doesn't really encompass it.
 
 [29:19] **Sonya:** It's like trying to talk about what happens inside a black hole, you know? Mm-Hmm. Like, it just completely breaks all of our. Things like causality disappearing or time inverting, it just doesn't match with sort of the way that we typically interact with the world and all the intuitions that we have built up about that.
 
@@ -263,9 +263,9 @@ quotes:
 
 #### Auras: acceptable woo and phenomelogy
 
-[30:18] **Henry:** I was reading a book called [In the Vineyard of the Text](https://en.wikipedia.org/wiki/In_the_Vineyard_of_the_Text), and it's also by [Ivan Illich](https://en.wikipedia.org/wiki/Ivan_Illich). A lot of murals and paintings in like cathedrals, they have those halos on top of the saints heads, right. And it's like that gold color that like glitters when you're looking at it. And in this passage it says that the painter. They represent the world as if all beings contain their own source of light. Light is imminent in the world of medieval things, so basically everything gives off its own light.
+[30:18] **Henry:** I was reading a book called [In the Vineyard of the Text](https://en.wikipedia.org/wiki/In_the_Vineyard_of_the_Text), and it's also by [Ivan Illich](https://en.wikipedia.org/wiki/Ivan_Illich). A lot of murals and paintings in cathedrals, they have those halos on top of the saints heads, right. And it's like that gold color that glitters when you're looking at it. And in this passage it says that the painter. They represent the world as if all beings contain their own source of light. Light is imminent in the world of medieval things, so basically everything gives off its own light.
 
-[30:48] **Henry:** It says you feel that if their luminosity were extinguished. What is in the picture will not cease to be visible, but also cease to exist altogether. But for us, we, we know we're shining a light on things that exist. If there's no light, obviously those things still exist. But in that world, like the way they put it makes it look like all things have their own light and they're giving off light to our eyes.
+[30:48] **Henry:** It says you feel that if their luminosity were extinguished. What is in the picture will not cease to be visible, but also cease to exist altogether. But for us, we know we're shining a light on things that exist. If there's no light, obviously those things still exist. But in that world, like the way they put it makes it look like all things have their own light and they're giving off light to our eyes.
 
 [31:10] **Sonya:** Makes me think of, I can't remember if we talked about this before. There are people who see auras and what exactly they're seeing or what produces what they're seeing, I don't really know. Mechanistically, I'm sure it happens in their own brain, but that is not a reductive thing to me.
 
@@ -275,13 +275,13 @@ quotes:
 
 [31:49] **Henry:** Yeah, the new age thing would be like, oh, they're getting officer and energy. But then normal talk people are like, oh, they have this vibe, right.
 
-[31:56] **Sonya:** Yeah, it's interesting there. There's like accepted woo, and then there's like woo that's kind of out there. But if you look at it closely, a lot of the assertions are similar. Maybe it depends on how many people experience it. Like almost everyone, I think. Feels some kind of like vibe, you know, it's like the mood of a situation or somebody else, but not everyone has like a synesthesia of like seeing it in like a colored light kind of way.
+[31:56] **Sonya:** Yeah, it's interesting there. There's accepted woo, and then there's woo that's kind of out there. But if you look at it closely, a lot of the assertions are similar. Maybe it depends on how many people experience it. Like almost everyone, I think. Feels some kind of vibe, you know, it's like the mood of a situation or somebody else, but not everyone has a synesthesia of seeing it in a colored light kind of way.
 
-[32:22] **Sonya:** I don't see either of those as like less legitimate than the other. I just see them as different. Now I'm thinking, what else is accepted? Woo. I feel like that'd be a fun thing to try and figure out. It's kind of invisible by nature. It's like part of our folk psychology of how things work.
+[32:22] **Sonya:** I don't see either of those as less legitimate than the other. I just see them as different. Now I'm thinking, what else is accepted? Woo. I feel like that'd be a fun thing to try and figure out. It's kind of invisible by nature. It's like part of our folk psychology of how things work.
 
-[32:36] **Henry:** I think like the feeling you get within the first few seconds of talking to someone, you're like, oh, we could be friends. People say that all the time. Mm-Hmm. That's normal. And you can't really describe that either.
+[32:36] **Henry:** I think the feeling you get within the first few seconds of talking to someone, you're like, oh, we could be friends. People say that all the time. Mm-Hmm. That's normal. And you can't really describe that either.
 
-[32:44] **Sonya:** And there's like this sort of rationalist, like scientific impulse. Still deconstruct it and break it down into like, okay, well you're looking at their facial features or you're picking up on cultural markers and stuff.
+[32:44] **Sonya:** And there's this sort of rationalist, scientific impulse. Still deconstruct it and break it down into, okay, well you're looking at their facial features or you're picking up on cultural markers and stuff.
 
 [32:55] **Sonya:** And I don't think it's wrong, but I would call it again, insufficient. I'm big on phenomenology. I really like the experience and beingness happening. This as a way of exploring the nature of things. Our sensing apparatus is so powerful.
 
@@ -293,13 +293,13 @@ quotes:
 
 [33:36] **Henry:** Anything can be sacred in some sense, but you don't wanna take it too far. I think there's two extremes, right? One is there are specific things that are sacred and the other thing is that everything is sacred to the point where you don't even know anymore.
 
-[33:50] **Sonya:** I think of sacredness as almost like a mode. Or like a way of being? So I guess the way that I would try to sort of unify those is that like certain acts, certain experiences pull you more strongly into the sacred mode, but I do think it is present and accessible for most, maybe all of our lives there are, say the Christian dissidents who got sent to the Gulag in the Soviet regime.
+[33:50] **Sonya:** I think of sacredness as almost like a mode. Or like a way of being? So I guess the way that I would try to sort of unify those is that certain acts, certain experiences pull you more strongly into the sacred mode, but I do think it is present and accessible for most, maybe all of our lives there are, say the Christian dissidents who got sent to the Gulag in the Soviet regime.
 
 [34:20] **Sonya:** The Gulag is like a prison. Labor camp is not what you would normally think of as very sacred space, but if you are enduring and resisting and keeping your faith, there's something very sacred in that, despite the setting. And that's a very extreme example, but I think that mismatch between the superficial what's going on and then what is going on inside feels significant to me.
 
-[34:49] **Henry:** I like that. Some other people that I know have a lot more interest in meeting in person, even though we can't, so we are doing this mini house church thing outside, and all that means is getting together and doing a church service on our own, right? You pray, someone gives their own little sermon, do some worship. That's where I feel like God is there. You know the whole, where two or three people are gathered, God is with us. I feel a lot more edified and fulfilled doing that then like listening to the last few months of livestream church. Even though we have a lot more people there, we have this whole production, but the fact that it's normal activities and normal people, something about that can be its own sacredness. Right.
+[34:49] **Henry:** I like that. Some other people that I know have a lot more interest in meeting in person, even though we can't, so we are doing this mini house church thing outside, and all that means is getting together and doing a church service on our own, right? You pray, someone gives their own little sermon, do some worship. That's where I feel like God is there. You know the whole, where two or three people are gathered, God is with us. I feel a lot more edified and fulfilled doing that then listening to the last few months of livestream church. Even though we have a lot more people there, we have this whole production, but the fact that it's normal activities and normal people, something about that can be its own sacredness. Right.
 
-[35:31] **Sonya:** Yeah. I think that's really beautiful. This came up in our earlier conversations, we're embodied, we are flesh and those things are important too. Being together in person, even if it's not normal, I'm sure you guys took precautions. You're not like running up and hugging each other. Presumably I wouldn't judge, but you know, probably other people would, but it's important. I don't know. It's important to be with each other, which is not to say I think it's good to do the virtual stuff also, but it's not the same.
+[35:31] **Sonya:** I think that's really beautiful. This came up in our earlier conversations, we're embodied, we are flesh and those things are important too. Being together in person, even if it's not normal, I'm sure you guys took precautions. You're not like running up and hugging each other. Presumably I wouldn't judge, but you know, probably other people would, but it's important. I don't know. It's important to be with each other, which is not to say I think it's good to do the virtual stuff also, but it's not the same.
 
 [36:03] **Henry:** We could have had this podcast in person.
 
@@ -317,7 +317,7 @@ quotes:
 
 [36:55] **Henry:** Actually, I think it depends on the person too. Certain people actually would rather do it online. Nadia herself was saying that when she does the podcast, she would rather us not have the video like audio only because it actually helps her concentrate better.
 
-[37:11] **Sonya:** Oh, that's interesting. Yeah, being on video is something that people have been talking about, like zoom fatigue. It's, it's almost like physically weird. There was something else that I wanted to say about religion that I've now forgotten. Oh, community. Something you brought up earlier.
+[37:11] **Sonya:** Oh, that's interesting. Yeah, being on video is something that people have been talking about, like zoom fatigue. It's almost like physically weird. There was something else that I wanted to say about religion that I've now forgotten. Oh, community. Something you brought up earlier.
 
 #### Communities of praise
 
@@ -325,7 +325,7 @@ quotes:
 
 [37:30] **Sonya:** I think it's a really important part of Christianity in particular. It's an important part of many religions, but we've been mostly talking about Christianity. Certainly there is the path of going off to be a hermit in the desert, but I think much more common is to have a congregation, a community of faith and of praise.
 
-[37:51] **Sonya:** I feel like praise is something that the, like modern kind of secular mind, what is the equivalent of praise for secular people? And I don't know that there really is one? Not like glorification? And I think it can come across as like pretty weird actually without being inside Christianity.
+[37:51] **Sonya:** I feel like praise is something that the modern kind of secular mind, what is the equivalent of praise for secular people? And I don't know that there really is one? Not like glorification? And I think it can come across as pretty weird actually without being inside Christianity.
 
 [38:10] **Sonya:** Especially like the idea of.. Say like [Job](https://www.biblegateway.com/passage/?search=Job+1&version=ESV), you know, Job in the midst of his torment. The idea you could go through stuff like that or that anyone could go through stuff like that and then praise the creator. You don't necessarily expect to get anything out of praise, right? That's not really like the point, I guess. Praise coexisting with suffering is like from a utilitarian perspective, weird.
 
@@ -337,7 +337,7 @@ quotes:
 
 [39:24] **Sonya:** That makes me think of how nature is sort of awe-inspiring in its own right, but it also helps people, including myself, connect with God that the mm-Hmm. Yeah. And I love the way that you put it, that it's so wonderful, how could you help but, say something.
 
-[39:38] **Henry:** I think in the quote he was saying, that there's like an author that you like and you just need to tell everyone how amazing this person is. And another one he said was a good joke. That goes back to the [chief end of man](https://en.wikipedia.org/wiki/Westminster_Shorter_Catechism), is to glorify God and enjoy him. So that ties together what our purpose is and that we actually want to do that.
+[39:38] **Henry:** I think in the quote he was saying, that there's an author that you like and you just need to tell everyone how amazing this person is. And another one he said was a good joke. That goes back to the [chief end of man](https://en.wikipedia.org/wiki/Westminster_Shorter_Catechism), is to glorify God and enjoy him. So that ties together what our purpose is and that we actually want to do that.
 
 [39:53] **Henry:** It's not like, well, why does God want us to tell him how amazing he is? Isn't that like a megalomaniac. The only reason why this is okay is because he deserves it. Why would I wanna praise someone that doesn't?
 
@@ -347,17 +347,17 @@ quotes:
 
 [40:26] **Henry:** My friend Justin showed me this essay called A World Without Laughter, and it's making equivalent faith and humor. Basically a sense of humor is like having a sense of faith.
 
-[40:39] **Henry:** And the story is these other people don't know how to laugh and I guess the government or some company they're trying to like make us and no one laughs 'cause they think it's bad. So they make pills and take people to hospitals to try to get rid of it. And then people create their own little places, basically church, to do that on their own. But other people are trying to audibly make those sounds, but they don't actually feel it. And they're like, oh, that's not how it works.
+[40:39] **Henry:** And the story is these other people don't know how to laugh and I guess the government or some company they're trying to make us and no one laughs 'cause they think it's bad. So they make pills and take people to hospitals to try to get rid of it. And then people create their own little places, basically church, to do that on their own. But other people are trying to audibly make those sounds, but they don't actually feel it. And they're like, oh, that's not how it works.
 
 [41:03] **Sonya:** Actually. I feel like that helps with the, how can this coexist with suffering, right. Or how can you, you know, feel for the terrible situations that other people are in and still glorify God.
 
-[41:13] **Sonya:** And I love laughter as a way.. Like gallows humor is a thing, right? Like when you're in the depths of despair, humor can be one of the things that sustains you. Mm-Hmm. And I think it's similar with faith and with glorification, that it's not an impulse that goes away because of those circumstances. And it's not a mode that is like turned off.
+[41:13] **Sonya:** And I love laughter as a way.. Like gallows humor is a thing, right? Like when you're in the depths of despair, humor can be one of the things that sustains you. Mm-Hmm. And I think it's similar with faith and with glorification, that it's not an impulse that goes away because of those circumstances. And it's not a mode that is turned off.
 
 #### cheap grace, coming prepared for the wedding
 
 [41:34] **Sonya:** Yeah, I wonder are there many Christian dissonance throughout history? How did they endure? And I think that's one of the ways.
 
-[41:41] **Henry:** Yeah. I wanna learn a little bit more about Bonhoeffer. I don't know if you're familiar with him.
+[41:41] **Henry:** I wanna learn a little bit more about Bonhoeffer. I don't know if you're familiar with him.
 
 [41:45] **Sonya:** No.
 
@@ -365,7 +365,7 @@ quotes:
 
 [42:08] **Henry:** Something we don't deserve. It is something that does require us to do something right after it's given to us. There's a responsibility, and not taking on that responsibility is the insult. Mm-hmm. To the grace that has been given to you.
 
-[42:21] **Sonya:** Yeah. Oh, that reminds me of another parable. The one of the [wedding](https://www.biblegateway.com/passage/?search=Matthew+22%3A1-14&version=ESV), there are multiple wedding scenarios. Yeah.
+[42:21] **Sonya:** Oh, that reminds me of another parable. The one of the [wedding](https://www.biblegateway.com/passage/?search=Matthew+22%3A1-14&version=ESV), there are multiple wedding scenarios. Yeah.
 
 [42:28] **Sonya:** But the one I'm thinking of specifically is there's a man who, I think it's his son, he wants to hold a wedding for, I'm not positive, but he sends out his servants to invite people to the wedding, and the people don't wanna go to the wedding and they treat his servants badly, and I think they kill one of them.
 
@@ -375,7 +375,7 @@ quotes:
 
 [43:17] **Sonya:** And the host is like, Hey, why are you not ready for the wedding? Why are you not all dressed up? And the guy doesn't really have an answer. And the host roses him out and casts him out into the outer darkness. So there's wailing of gnashing of teeth. And that's harsh.
 
-[43:35] **Sonya:** It's very harsh. But I think it is, at least my reading of it, is that it's about this, do you come prepared? Do you come ready to celebrate? Are, are you transformed? Are you just responding to the invitation or are you really becoming a guest? Hmm. I guess that is another obligation, you know, to treat it with the sincerity and with the, the seriousness that it merits.
+[43:35] **Sonya:** It's very harsh. But I think it is, at least my reading of it, is that it's about this, do you come prepared? Do you come ready to celebrate? are you transformed? Are you just responding to the invitation or are you really becoming a guest? Hmm. I guess that is another obligation, you know, to treat it with the sincerity and with the seriousness that it merits.
 
 [43:59] **Henry:** You come as you are, but then once you have encountered Jesus, our life is that process of continual transformation to become like him.
 
@@ -385,11 +385,11 @@ quotes:
 
 [44:16] **Henry:** He talked about the different wedding, basically Jesus's first miracle, which is the [Cana](https://www.biblegateway.com/passage/?search=John+2%3A1-11&version=ESV), so his. Mom was like, can you turn the water into wine? So that was his first miracle. And why was it at a wedding and why was it turning water into wine? And he also talks about how Genesis, in some sense, is a wedding, right?
 
-[44:34] **Henry:** Adam and Eve. And at the end, in Revelation, when we're in heaven, that is also depicted as a wedding. The wedding feast of when everyone comes and we're all eating bread together, right? Same with communion. Hmm. So that's a interesting parallel of like the beginning and the end. And this part, and I guess our lives is a preparation for that wedding feast.
+[44:34] **Henry:** Adam and Eve. And at the end, in Revelation, when we're in heaven, that is also depicted as a wedding. The wedding feast of when everyone comes and we're all eating bread together, right? Same with communion. Hmm. So that's a interesting parallel of the beginning and the end. And this part, and I guess our lives is a preparation for that wedding feast.
 
-[44:55] **Henry:** But the metaphor is that the church is the bride. Right. And Christ is the groom. So that's the other wedding and the, the church needs to prepare to, to go to heaven. Right. It's just cool to see that throughout and, and I don't have a point with this, but like just trying to tie in all these thoughts that we had around gardening too in the beginning was the gardening the Eden with the fruit.
+[44:55] **Henry:** But the metaphor is that the church is the bride. Right. And Christ is the groom. So that's the other wedding and the church needs to prepare to go to heaven. Right. It's just cool to see that throughout and I don't have a point with this, but just trying to tie in all these thoughts that we had around gardening too in the beginning was the gardening the Eden with the fruit.
 
-[45:16] **Henry:** I. And then he pointed out that the water into wine is really interesting too, because when we go to heaven, it's not just a repeat of the past. We're not just going back to a garden. It's a transformation. It's a redeeming of the old. We're gonna go to a city like the garden to city. And then water into wine is interesting because it's not just like water, but like wine is the refinement of fruit, which is also in the garden. So there's like whole nother parallel.
+[45:16] **Henry:** And then he pointed out that the water into wine is really interesting too, because when we go to heaven, it's not just a repeat of the past. We're not just going back to a garden. It's a transformation. It's a redeeming of the old. We're gonna go to a city like the garden to city. And then water into wine is interesting because it's not just like water, but like wine is the refinement of fruit, which is also in the garden. So there's whole nother parallel.
 
 [45:42] **Sonya:** Yeah, this is like one of the layered nesses. Layeredness. There's another word for that that doesn't sound ridiculous that I'm not remembering. Stratification, I guess. But that has a whole different connotation. But oh, I just love how it resonates. It feels almost like a vibration that goes through the whole stack.
 
@@ -399,8 +399,8 @@ quotes:
 
 [46:01] **Henry:** It's really easy to pick out random things here and there, but how does that relate to the whole thing? It is a part of something that spans the whole time. And I really like the point you made about Christianity being particular. I used to think that's not really a big deal, but I think that's kind of unique in comparison to say, in my experience, Buddhism, right? Hmm. It's very abstract in some sense. It doesn't even matter who said it, the truth could be out there somewhere. But with Christianity it's kind of saying the opposite. There is compatibility there, but truth is contained within the person of Christ. And that he was an actual person at a certain time and a certain place.
 
-[46:39] **Sonya:** Yeah. That specificity, I think it makes it very hard to accept in some ways, but it also.. Once you're inside of it, is also part of the power of it?
+[46:39] **Sonya:** That specificity, I think it makes it very hard to accept in some ways, but it also.. Once you're inside of it, is also part of the power of it?
 
 [46:50] **Henry:** I think so. Especially the phenomenology part of it. The story itself is personal. God is personal. And it makes it look like reality is personal and that the way I should live my life is very relational.
 
-[47:01] **Sonya:** And there's a chronology, you see this also in the before Christ and then ano Domini. It was very much understood that way. It's like it transforms history. And history is pretty like material and specific as well as transforming the spiritual realm. I mean, you can see it on the material level also. Christianity is pretty historically important, even from a secular perspective.
+[47:01] **Sonya:** And there's a chronology, you see this also in the before Christ and then ano Domini. It was very much understood that way. It's like it transforms history. And history is pretty material and specific as well as transforming the spiritual realm. I mean, you can see it on the material level also. Christianity is pretty historically important, even from a secular perspective.

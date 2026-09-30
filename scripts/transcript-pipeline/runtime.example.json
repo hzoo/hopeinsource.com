@@ -1,0 +1,18 @@
+{
+  "transcribe": {
+    "python": "/path/to/whisper-venv/bin/python",
+    "model": "/path/to/downloaded/whisper-large-v3-turbo",
+    "package": "mlx-whisper==0.4.3"
+  },
+  "diarize": {
+    "python": "/path/to/diar-venv/bin/python",
+    "model": "/path/to/downloaded/diar_streaming_sortformer_4spk-v2.1-fp16",
+    "package": "mlx-audio==0.5.7"
+  },
+  "crosscheck": {
+    "python": "/path/to/redux-venv/bin/python",
+    "model": "moondream/parakeet-redux",
+    "device": "cpu",
+    "package": "moondream==2.5.0"
+  }
+}

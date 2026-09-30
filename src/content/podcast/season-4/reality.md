@@ -50,15 +50,15 @@ quotes:
 
 [03:25] **Esther:** So how do you think oughta happen about that?
 
-[03:28] **Henry:** Yeah. I wonder.. Part of me is like, freely given, freely received. I think open source is a really interesting way of thinking about grace. The whole point is that they don't have to give back. At least if that's the reason why you're doing it.
+[03:28] **Henry:** I wonder.. Part of me is like, freely given, freely received. I think open source is a really interesting way of thinking about grace. The whole point is that they don't have to give back. At least if that's the reason why you're doing it.
 
-[03:42] **Henry:** But at the same time, people need to live, people need to survive. And then also, maybe you just feel uncomfortable with like, well, they're making billions of dollars and they don't even give..
+[03:42] **Henry:** But at the same time, people need to live, people need to survive. And then also, maybe you just feel uncomfortable with, well, they're making billions of dollars and they don't even give..
 
 [03:51] **Esther:** I have a problem with that.
 
 [03:52] **Henry:** Are they exploiting us?
 
-[03:54] **Esther:** Yeah. And maybe it's because I'm older than you. You know, I think younger people have a different, probably more healthy relatedness to money and recompense for their work, but you know, you also still have a sense of justice and injustice. And I think a large company, like that ought to be.. I think you should be reimbursed for your work.
+[03:54] **Esther:** And maybe it's because I'm older than you. You know, I think younger people have a different, probably more healthy relatedness to money and recompense for their work, but you know, you also still have a sense of justice and injustice. And I think a large company, like that ought to be.. I think you should be reimbursed for your work.
 
 #### The Gift
 
@@ -74,7 +74,7 @@ quotes:
 
 [05:15] **Esther:** So somehow the artist has to find a way to navigate that. So what I'm thinking is listening to you, the book might be valuable. To say, what you actually prefer is the gift economy. That seems to go with the creativity of what you're doing, but you've gotta find a way to survive in the market.
 
-[05:37] **Henry:** Yeah. My friend Maggie brought up the book, so I have to think back on it. I totally agree with that.
+[05:37] **Henry:** My friend Maggie brought up the book, so I have to think back on it. I totally agree with that.
 
 [05:44] **Esther:** Well, I wish you well on that because, I think there's just gotta be ways to skin the cat that cultivate the generosity and the conviviality of a gift to me. Polanyi in his books.. What he was puzzling over was how the scientific community works, because that requires a free exchange you know?
 
@@ -86,23 +86,23 @@ quotes:
 
 [06:56] **Henry:** I think there's a lot of parallels then, because science is a _public good_, a word we use now in the market. It's like non-excludable and non-rivalrous. You can't prevent anyone from using your idea, science is just ideas.
 
-[07:09] **Henry:** Just like open source, once it's out there. I can't like prevent anyone from using it, whether I don't like them. It kind of feels like the water, air sort of thing. And I think science is the same way. And then how do you fund that? Our only default option is government grants or some rich person gives us money because they're a patron.
+[07:09] **Henry:** Just like open source, once it's out there. I can't prevent anyone from using it, whether I don't like them. It kind of feels like the water, air sort of thing. And I think science is the same way. And then how do you fund that? Our only default option is government grants or some rich person gives us money because they're a patron.
 
 [07:29] **Esther:** So you make a product and then you sell your product. Like for me, as a scholar and an author, I would be effectively doing the same thing because you can tap anybody's work with a footnote, right. And then you hope you can sell your books, and then maybe you trust that somebody will invite you to come and speak.
 
-[07:51] **Esther:** There's no exchange of of money going on in this yet. I value the opportunity to talk with not only you for the first time, but your audience and that's kind how that goes too. And you know, our real goal in life, I think, is making a difference in the world. So, obviously there's reward in that, but you gotta eat!
+[07:51] **Esther:** There's no exchange of money going on in this yet. I value the opportunity to talk with not only you for the first time, but your audience and that's kind how that goes too. And you know, our real goal in life, I think, is making a difference in the world. So, obviously there's reward in that, but you gotta eat!
 
 [08:16] **Henry:** No, exactly. And if you're able to eat, then you are willing to do things for free or just because you want to, right. Everyone naturally wants to help people. And it's just that we all face this tension. I don't always wanna calculate, oh, is this worth it? Or how much money am I gonna make on this? Be more generous, right?
 
-[08:36] **Esther:** Yeah. I think there's something to anticipating that as you are generous, there will be fruit for you. There's some Bible about that. It's not the stingy person who is rewarded so in the larger scheme of how reality works, cool things come your way, as you bless others.
+[08:36] **Esther:** I think there's something to anticipating that as you are generous, there will be fruit for you. There's some Bible about that. It's not the stingy person who is rewarded so in the larger scheme of how reality works, cool things come your way, as you bless others.
 
 #### Polanyi's Interpersonal View of Reality
 
 [09:03] **Henry:** I wanna talk more about Polanyi, so I think that could be a good segue. I feel like there's something there around seeking out truth or whatever it is. And it talks back to you? You've said like how knowing is like a dance. I like these bodily metaphors.
 
-[09:19] **Esther:** Yeah. And interpersonal ones too. Thinking about my own proposals about how knowing works and now I'm also trying to write about the real. I really in a key way take my original orientation from some of Polanyi's ideas. But I've augmented them creatively to really feature the interpersonal as maybe the fundamental dynamic of reality.
+[09:19] **Esther:** And interpersonal ones too. Thinking about my own proposals about how knowing works and now I'm also trying to write about the real. I really in a key way take my original orientation from some of Polanyi's ideas. But I've augmented them creatively to really feature the interpersonal as maybe the fundamental dynamic of reality.
 
-[09:47] **Esther:** And if you just take the idea of face to face. And you know, we're having a hard time, you and I right now. Because you know, I see you, you're so not looking at me. And you're looking at me, I'm so not looking at you. But the point is if you were face to face.. In classrooms, I make my students look at each other, which is like, scandalous.
+[09:47] **Esther:** And if you just take the idea of face to face. And you know, we're having a hard time, you and I right now. Because you know, I see you, you're so not looking at me. And you're looking at me, I'm so not looking at you. But the point is if you were face to face.. In classrooms, I make my students look at each other, which is scandalous.
 
 [10:10] **Esther:** You need to turn and look face to face at the person sitting next to you, you know? And then, I feel that face to face gaze. You can't stay the same. It cannot, not change you and cannot not change the other person because faces are like that. And so I like to see our orientation to the real and our communion with the real as first of all, interpersoned like that.
 
@@ -118,13 +118,13 @@ quotes:
 
 #### Covenant Epistemology
 
-[12:03] **Esther:** So I have invented this term called _covenant epistemology_, which stands for my thesis, that the paradigm of knowing, and here we're doing epistemology, which is a big, hairy word that means it means anything that has to do with how knowing works, right.
+[12:03] **Esther:** So I have invented this term called _covenant epistemology_, which stands for my thesis, that the paradigm of knowing, and here we're doing epistemology, which is a big, hairy word that means anything that has to do with how knowing works, right.
 
 [12:21] **Esther:** So how it is that we know whatever it is, we know. Covenant epistemology is my proposal that the paradigm of knowing not be the inherited presumed knowledge as information mindset, but rather be the interpersonal, covenantally constituted, relationship.
 
 [12:43] **Esther:** So if you think, especially of yourself and something that you want to be known. So that would be the knower and the yet to be known.
 
-[12:52] **Esther:** I wanna say that the relatedness between those two is inter-person like, and it's intrinsically covenantal because you've got a promise to love, honor, and obey what you do not yet know, if you're gonna invite it to self disclose. So that's kind of the the key to what I mean by covenant epistemology.
+[12:52] **Esther:** I wanna say that the relatedness between those two is inter-person like, and it's intrinsically covenantal because you've got a promise to love, honor, and obey what you do not yet know, if you're gonna invite it to self disclose. So that's kind of the key to what I mean by covenant epistemology.
 
 [13:12] **Esther:** And I would say that I got kind of the nugget of that from reading [Annie Dillard](https://en.wikipedia.org/wiki/Annie_Dillard)'s [_Pilgrim at Tinker Creek_](https://en.wikipedia.org/wiki/Pilgrim_at_Tinker_Creek), where she talks about stalking muskrats. And what you have to do, if you wanna invite a muskrat to self disclose, and what that involves is you've gotta surrender your dignity and sit very still and not scratch your nose for a really, really long time, which sounds like covenantal behavior to me.
 
@@ -164,13 +164,13 @@ quotes:
 
 #### Loving with Control-F
 
-[18:14] **Henry:** Yeah. Tying all that you just said with technology, the metaphor we use of knowledge is the database now, right. You know, Control F to search through things. Instead of the sense of community or communion with that thing that you're trying to learn.
+[18:14] **Henry:** Tying all that you just said with technology, the metaphor we use of knowledge is the database now, right. You know, Control F to search through things. Instead of the sense of community or communion with that thing that you're trying to learn.
 
-[18:30] **Henry:** I think it's interesting, like how does technology shape how we do epistemology? And clearly it makes us treat everyone like a resource in a database rather than like a person.
+[18:30] **Henry:** I think it's interesting, how does technology shape how we do epistemology? And clearly it makes us treat everyone like a resource in a database rather than a person.
 
 [18:43] **Henry:** And I think that's why I'm so interested in your work, because I wanna know as a person, a technologist or whatever, how do we maybe design or work on things that are doing that less, I guess?
 
-[18:57] **Henry:** I think of doom scrolling, the assumption behind that is that that more information is better. That if I find this random piece of information, it'll make me feel better about what's going on in the world. It's sort of true that the more you know, the better, but there's so many other aspects of knowledge that matter.
+[18:57] **Henry:** I think of doom scrolling, the assumption behind that is that more information is better. That if I find this random piece of information, it'll make me feel better about what's going on in the world. It's sort of true that the more you know, the better, but there's so many other aspects of knowledge that matter.
 
 [19:14] **Esther:** Well, can I say a couple things? One is I think the key on a Polanyian approach and a Meekian approach with regard to the database is to see that as subsidiary. So the trick is what we have been missing in our modernist understanding of epistemology is we have just presumed that knowledge has to be vocally explicit.
 
@@ -182,9 +182,9 @@ quotes:
 
 [20:42] **Esther:** No, your goal is communion with the real. And that's way richer, way richer than comprehensive information because you've subsidiarily indwelled it, artfully, creatively. And it opens up new worlds to you that are highly personed. Does that make sense?
 
-[21:03] **Henry:** Yeah, I think it's like the whole is greater than the sum of the parts, right? The parts are the subsidiary. And then the whole is what happens when you are able to indwell those clues and like come up with something new and use your judgment.
+[21:03] **Henry:** Yeah, I think it's like the whole is greater than the sum of the parts, right? The parts are the subsidiary. And then the whole is what happens when you are able to indwell those clues and come up with something new and use your judgment.
 
-[21:16] **Henry:** And I think another related topic with tech is like we have all our algorithms and apps that tell us how we should think or what we should wear or what we should eat or watch. In some way we are outsourcing our ability to choose, right.
+[21:16] **Henry:** And I think another related topic with tech is we have all our algorithms and apps that tell us how we should think or what we should wear or what we should eat or watch. In some way we are outsourcing our ability to choose, right.
 
 [21:32] **Esther:** In other words, we're letting other people make our mind up for us.
 
@@ -210,11 +210,11 @@ quotes:
 
 #### Fire Pit Conversations
 
-[24:07] **Henry:** I was gonna say, how have you feel like been able to cultivate that sense of belonging in this time?
+[24:07] **Henry:** I was gonna say, how have you been able to cultivate that sense of belonging in this time?
 
 [24:15] **Esther:** My life kind of changed because of COVID. And I also had the opportunity that I could pick up and move to my daughter's neighborhood. And that was able to happen only because I was taking this gradual phased retirement from Geneva College where I've been professor of philosophy for 17 years. And so I can look out this window down there and my daughter and grandchildren, and son-in-law, they live three blocks down there. So it was like I literally moved so that I could have them in my bubble, which is a big deal. And obviously people can't necessarily do that.
 
-[24:56] **Esther:** And I would think in New York you you'd need to cultivate balconies that you can hang out and talk to each other. You know, you gotta find some place where you can meet that's COVID approved, but you do I think need to make the effort to do that.
+[24:56] **Esther:** And I would think in New York you'd need to cultivate balconies that you can hang out and talk to each other. You know, you gotta find some place where you can meet that's COVID approved, but you do I think need to make the effort to do that.
 
 [25:10] **Esther:** So my daughter and son-in-law in St. Louis, they're artists and she's an engineer. But they literally set up their backyard so they could have fire pit conversations. And they have faithfully had their artist friends and other friends over. And they sit out there in the cold wrapped in blankets by the fire.
 
@@ -252,7 +252,7 @@ quotes:
 
 [29:56] **Esther:** And throw in the algorithm.
 
-[29:58] **Henry:** Yeah. It's like surveillance as care or algorithm as care versus a person, right. And that tool, which could be used to track.. It's like the word track even just sounds bad, you know?
+[29:58] **Henry:** It's like surveillance as care or algorithm as care versus a person, right. And that tool, which could be used to track.. It's like the word track even just sounds bad, you know?
 
 [30:08] **Esther:** I'm so not up on movies, but there's a lot of post apocalyptic films that just continue to play out this kind of control. It's endemic.
 
@@ -262,9 +262,9 @@ quotes:
 
 [30:48] **Henry:** Cause it's subsidiary, supposedly.
 
-[30:50] **Esther:** That's right. So it would only be an inappropriate fixation on what ought to be subsidiary that would lead to that. So I think what the modernist mindset, the modernist epistemological default as I call it, actually is, is just that myopic fixation. It's actually blinding us to the real. It's no mistake that this little girl, meaning me, wasn't sure that reality was outside her mind and that's that's a crying shame.
+[30:50] **Esther:** That's right. So it would only be an inappropriate fixation on what ought to be subsidiary that would lead to that. So I think what the modernist mindset, the modernist epistemological default as I call it, actually is, is just that myopic fixation. It's actually blinding us to the real. It's no mistake that this little girl, meaning me, wasn't sure that reality was outside her mind and that's a crying shame.
 
-[31:26] **Henry:** Thinking about idolatry, the way we define it in a faith point of view is just like putting something above what is ultimate, God or whatever. So when we say idol of money, and the same thing with the subsidiary, we're not saying technology is bad, it's just that we have made them too important, right. There's a balance that needs to be had. Otherwise it makes it sound like we're just being critical of everything, right.
+[31:26] **Henry:** Thinking about idolatry, the way we define it in a faith point of view is just putting something above what is ultimate, God or whatever. So when we say idol of money, and the same thing with the subsidiary, we're not saying technology is bad, it's just that we have made them too important, right. There's a balance that needs to be had. Otherwise it makes it sound like we're just being critical of everything, right.
 
 [31:50] **Esther:** Well, we hear idolatry and rightly think about that in reference to God, but I think we can also just think about it in reference to knowing plain old stuff. If you were just totally enamored of your database, you know what I'm saying? There'd be something outta whack, about that. You know, and it would blind you to the real, and I'm not talking anything religious here at all. But you have gotta indwell it.
 
@@ -274,35 +274,35 @@ quotes:
 
 [32:45] **Henry:** Another thing I wanted to talk about was _commitment_ and how that relates to Polanyi. Just generally it's hard to commit to things. Given open source, why would I want to put myself out there to join a project or do something when I know I might not get anything back. So there's an aspect of faith and trust.
 
-[33:05] **Esther:** Okay. Commitment. That's a great one. And I'd also like to add the word _consent_.
+[33:05] **Esther:** Commitment. That's a great one. And I'd also like to add the word _consent_.
 
 [33:11] **Esther:** So I had two childhood questions. One was whether there's a world outside my mind, but the other is how do I know that God exists? Although I knew lots about the Bible and went to a Bible believing church and all of that.
 
 [33:24] **Esther:** So in_ Longing to Know _which was my first book, that really is me trying to justify my own Christianity to myself. And as a book for people considering Christianity, you have questions about knowing. And I really do see it as a response to Newbigin's challenge about what, whatever it is that's stopping the ears of people in the West so they don't even hear the gospel and his saying, &quot;Look, it's epistemology. We gotta fix that.&quot;
 
-[33:48] **Esther:** But Polanyi, in talking about tools, you mentioned about the hammer. And if you think about a bicycle as a tool, you have got to entrust yourself to the tool. So that's more evident with regard to a bike that, that somehow you've gotta give yourself to that bike and trust that it's gonna hold you up all that kind of stuff.
+[33:48] **Esther:** But Polanyi, in talking about tools, you mentioned about the hammer. And if you think about a bicycle as a tool, you have got to entrust yourself to the tool. So that's more evident with regard to a bike that somehow you've gotta give yourself to that bike and trust that it's gonna hold you up all that kind of stuff.
 
 [34:16] **Esther:** So he defined commitment as our manner of disposing ourselves toward the world. And I thought, oh, you can grow up with all this religious jargon and not exactly know what it means, faith, commitment, and stuff like that. But if somebody says, look it's giving yourself to a bike so that you can ride it, you know?
 
-[34:40] **Esther:** That means that that whatever the Christians call _faith_ really is this ordinary everyday sort of an act. And oh yes, obviously knowing God he's gonna transform your life in a way that knowing your bicycle isn't. But what I what I needed to know was that knowing of all types had things in it that looked like trust and faith. That was really the beginning of my approach in _Longing to Know_.
+[34:40] **Esther:** That means that whatever the Christians call _faith_ really is this ordinary everyday sort of an act. And oh yes, obviously knowing God he's gonna transform your life in a way that knowing your bicycle isn't. But what I needed to know was that knowing of all types had things in it that looked like trust and faith. That was really the beginning of my approach in _Longing to Know_.
 
 #### Moment of Consent
 
-[35:10] **Esther:** And then over years of thinking about this, I've also began to realize that part of what's going on with commitment is this _moment of consent_. You have got to say yes to something, you've got to say yes to the bike, or or you're not gonna be a bike rider.
+[35:10] **Esther:** And then over years of thinking about this, I've also began to realize that part of what's going on with commitment is this _moment of consent_. You have got to say yes to something, you've got to say yes to the bike, or you're not gonna be a bike rider.
 
 [35:29] **Esther:** You've gotta say yes to the authoritative guide. Who's trying to teach you to ride the bike or you'll never get it. So my students, when they came to class, I would say, look, your consent is absolutely critical to this. And you know, I hand you your syllabus. Somehow inside you, you've gotta say, okay, I'm gonna do what she says. I'm gonna trust that if I say yes to what she's asking me to do to these assignments that I'll get where I need to go.
 
 [36:01] **Esther:** And I would argue that modernity is characterized by saying no, where we need to say yes. And actually there's a term for that. It's _acedia_, which is one of the seven deadly sins. It's often known as slothfulness or laziness. But one philosopher, [Joseph Pieper](https://en.wikipedia.org/wiki/Josef_Pieper), has defined acedia as refusal to consent to being or to the real. And so what you've got in modernity is effectively a living out of a big fat no to the real.
 
-[36:38] **Esther:** What we have to start to do is have the humility and and the risk taking responsibility to say yes to say I do, right. To give our consent for the real, so commitment and consent are huge. And they're not particularly essentially religious. Obviously you've gotta consent to God, but you've gotta consent to your garden, if you're gonna grow flowers, so you gotta give yourself and trust, but there's this kind of, yes, I'm gonna reciprocate.
+[36:38] **Esther:** What we have to start to do is have the humility and the risk taking responsibility to say yes to say I do, right. To give our consent for the real, so commitment and consent are huge. And they're not particularly essentially religious. Obviously you've gotta consent to God, but you've gotta consent to your garden, if you're gonna grow flowers, so you gotta give yourself and trust, but there's this kind of, yes, I'm gonna reciprocate.
 
 #### Willed Loneliness
 
 [37:12] **Esther:** And I've actually felt in my past and have read about this too, that some people you can see, they're so struggling with themselves. It's like they are living out one big no to themselves.
 
-[37:25] **Esther:** Okay, here's a movie that I saw a long time ago, which was filmed in Pittsburgh. That _Joker_ was living out one big no. I mean, he was, he was obviously just like a tissue of no to everything, right. And, and that's what made him such a despicable character. Philosopher [Eleonore Stump](https://en.wikipedia.org/wiki/Eleonore_Stump) has coined the term _willed loneliness_, and that's what's going on with Joker, you know? And you know, all of us can have periods in our life where we have got to retrain ourselves to say yes, when our typical response to that point has been to say no. But knowing requires that you have got to give yourself to the prospect of college education, if you're going to get it. Or you've gotta give yourself to whatever your job is for you to get somewhere with that.
+[37:25] **Esther:** Okay, here's a movie that I saw a long time ago, which was filmed in Pittsburgh. That _Joker_ was living out one big no. I mean, he was obviously just like a tissue of no to everything, right. And that's what made him such a despicable character. Philosopher [Eleonore Stump](https://en.wikipedia.org/wiki/Eleonore_Stump) has coined the term _willed loneliness_, and that's what's going on with Joker, you know? And you know, all of us can have periods in our life where we have got to retrain ourselves to say yes, when our typical response to that point has been to say no. But knowing requires that you have got to give yourself to the prospect of college education, if you're going to get it. Or you've gotta give yourself to whatever your job is for you to get somewhere with that.
 
-[38:25] **Henry:** I think of other words, like humility. Laying down, a surrender to something, which doesn't have to be faith in God, but just trust. That is the opposite of control. Knowing that I can't guarantee it's not certain. Having confidence. It might not happen. And actually taking a risk, but I'm still willing to go outta my way to like to try this thing. And serendipity, right?
+[38:25] **Henry:** I think of other words, like humility. Laying down, a surrender to something, which doesn't have to be faith in God, but just trust. That is the opposite of control. Knowing that I can't guarantee it's not certain. Having confidence. It might not happen. And actually taking a risk, but I'm still willing to go outta my way to try this thing. And serendipity, right?
 
 [38:49] **Esther:** And so, in my approach to philosophizing, I really like to spend a whole lot of time talking about ordinary acts of knowing. But I feel like every ordinary act of knowing has this kind of silent witness to the reality of God. And so it's like intrinsically.. For you to love a garden well, or to be an artist or to do the work that you're doing. You know, there is this surrender, this commitment. And then this sense that when you have a discovery, it's a gift from on high. The whole thing is so naturally open to the gracious in breaking, coming of God. You know, which I'll leave to him to do, but I feel as if every act of knowing bear's witness to that.
 
@@ -316,13 +316,13 @@ quotes:
 
 [41:10] **Esther:** Well, and I like to help people think about riding bikes, because then the believe in order to understand is essential. You cannot ride a bike, if you do not exercise trust, you can't. You've gotta trust your authoritative guide. You've gotta trust the bike. You gotta trust the world. You've gotta trust your body which is what take some doing. Trust is of a piece with rationality. It's not opposed to, it. You can't have rationality, if you don't trust.
 
-[41:47] **Henry:** It's like when you're trying to learn how to program. It's just another language, like learning like Chinese or Spanish. And there's a guide as well. It might be your friend. It might be a teacher, whatever. And it's like all those symbols or whatever, they don't make any sense. And then at some point it does. And then now you can say, I know this language,
+[41:47] **Henry:** It's like when you're trying to learn how to program. It's just another language, like learning Chinese or Spanish. And there's a guide as well. It might be your friend. It might be a teacher, whatever. And it's like all those symbols or whatever, they don't make any sense. And then at some point it does. And then now you can say, I know this language,
 
 [42:06] **Esther:** And in that moment of the aha it's like a door opens and you're caught up in a larger reality.
 
 [42:14] **Henry:** Then they can start thinking from that view.
 
-[42:17] **Esther:** It's almost like the aha moment is really over fast. You put it all together, the door opens and then you're into another world, right. I don't know what else to say there, except that's pretty wild. And there's like this split second moment that you are looking eye to eye the face of the real. It's this, _I see you_ moment from _Avatar._ That aha face to face encounter. You're looking deep into the eyes of the real that's looking back at you and has been looking at you since, before you saw it. And then the world opens. And so when you realize you're keeping your balance on a bike, the world starts to come to you in bike paths. That's future possibilities. That's how you know you've made contact with reality.
+[42:17] **Esther:** It's almost like the aha moment is really over fast. You put it all together, the door opens and then you're into another world, right. I don't know what else to say there, except that's pretty wild. And there's this split second moment that you are looking eye to eye the face of the real. It's this, _I see you_ moment from _Avatar._ That aha face to face encounter. You're looking deep into the eyes of the real that's looking back at you and has been looking at you since, before you saw it. And then the world opens. And so when you realize you're keeping your balance on a bike, the world starts to come to you in bike paths. That's future possibilities. That's how you know you've made contact with reality.
 
 [43:10] **Henry:** I started riding Citi bike. I was like, oh wow, this actually is true. I will go to this different part of the city, just because I know that I can do it now. And those paths are always there to begin with.
 

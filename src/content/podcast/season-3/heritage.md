@@ -56,7 +56,7 @@ quotes:
 
 [01:24] **Bernardo:** How do we know each other?
 
-[01:25] **Bernardo:** So we met, we met in October, in a conference that took place in Washington. And we were invited to support the [Maintainers III](https://themaintainers.org/miii/), which is a network of people trying to promote different fields to change.
+[01:25] **Bernardo:** So we met in October, in a conference that took place in Washington. And we were invited to support the [Maintainers III](https://themaintainers.org/miii/), which is a network of people trying to promote different fields to change.
 
 [01:40] **Bernardo:** I was invited because I am co founder of MAMA, which is a practice that's trying to put the maintenance as a major point in the conception, production, and caring off buildings.
 
@@ -76,9 +76,9 @@ quotes:
 
 [02:32] **Bernardo:** So we had the chance to walk around Washington together, probably the only museums we had to pay for. And I said to you, let's keep in touch.
 
-[02:41] **Bernardo:** And I invited you to come to to Brussels because I knew there were some interesting conference going on and you came, it was great.
+[02:41] **Bernardo:** And I invited you to come to Brussels because I knew there were some interesting conference going on and you came, it was great.
 
-[02:50] **Henry:** Yeah. I went to [Sustain Open Source](https://sustainoss.org/). And then [FOSDEM](https://en.wikipedia.org/wiki/FOSDEM).
+[02:50] **Henry:** I went to [Sustain Open Source](https://sustainoss.org/). And then [FOSDEM](https://en.wikipedia.org/wiki/FOSDEM).
 
 #### Bosch, a Co-housing project in Brussels
 
@@ -146,11 +146,11 @@ quotes:
 
 #### Proactive, Responsible Relationships with a Space
 
-[07:55] **Bernardo:** I think as as an inhabitant, we start to develop a different relationship. The contract that we have with the owner is that we are looking after it.
+[07:55] **Bernardo:** I think as an inhabitant, we start to develop a different relationship. The contract that we have with the owner is that we are looking after it.
 
 [08:04] **Bernardo:** So we are responsible of it. It's not like every time there is a problem, we just call him and he come and he will fix it. So we, as the people responsible, it just makes us aware and attentive of issues. That they can take place and we have to resolve them.
 
-[08:20] **Marianita:** Also is putting us in a very different relationship with what is already there. For sure I'd say the color of the wall is not what exactly what we wanted, or maybe the the kind of pavement is not what we expected, but you learn how actually you can deal with all elements.
+[08:20] **Marianita:** Also is putting us in a very different relationship with what is already there. For sure I'd say the color of the wall is not exactly what we wanted, or maybe the kind of pavement is not what we expected, but you learn how actually you can deal with all elements.
 
 [08:40] **Marianita:** Also the classical configuration of the house. Not nowadays, but the ability that you have as a dweller to update, to change, to transform, to take care. It's a big freedom that we're giving to ourself because this is not what is happening in most cases in which people are renting spaces.
 
@@ -164,11 +164,11 @@ quotes:
 
 [09:49] **Henry:** But here, okay, let's deal with what we have. And at the same time, because you are empowered to care about the house, then you're willing to change things.
 
-[09:59] **Henry:** Maybe other people, they only think of their house in that way. You might need certain skills to take care of it, but also like the mindset change, right? Of like, Oh, I can actually do something.
+[09:59] **Henry:** Maybe other people, they only think of their house in that way. You might need certain skills to take care of it, but also the mindset change, right? Of like, Oh, I can actually do something.
 
 [10:10] **Marianita:** Exactly.
 
-[10:11] **Henry:** We were saying that like, a lot of people, they don't even touch the house. Maybe a lot of us treat our houses like a hotel. It's like you just go there and you sleep, and you go to work or something. You're saying it's like a baby, feels like a personal relationship, right?
+[10:11] **Henry:** We were saying that a lot of people, they don't even touch the house. Maybe a lot of us treat our houses like a hotel. It's like you just go there and you sleep, and you go to work or something. You're saying it's like a baby, feels like a personal relationship, right?
 
 [10:26] **Marianita:** At least in the last fifty years, we're not used to be asked to have an active relationship with the environment and with our home. We are more asked to respect what is there and so we're asked not to interact with our home.
 
@@ -198,7 +198,7 @@ quotes:
 
 [13:02] **Henry:** Kind of reminded of like a school or a college dorm, but completely that's not the same at all. Because you might not even talk to the people next door, even in just a normal apartment, right. You don't even know who your neighbors are. But in here, you got to work together to do these mundane tasks.
 
-[13:17] **Henry:** But I think that even with the roommate situation, you have to figure out like who's going to wash the dishes and take out the trash. Cleaning the bathroom. Like those are all things where you do have to set up some kind of governance structure that might not be so explicit as an actual government.
+[13:17] **Henry:** But I think that even with the roommate situation, you have to figure out who's going to wash the dishes and take out the trash. Cleaning the bathroom. Like those are all things where you do have to set up some kind of governance structure that might not be so explicit as an actual government.
 
 [13:34] **Henry:** But it's like, certain kinds of rules or norms or some way of coordinating, like who's going to do what? Without it turning into like, you need someone else to tell you how to do it or you need to pay someone to do it, everyone just volunteering to do this together.
 
@@ -234,7 +234,7 @@ quotes:
 
 [16:32] **Henry:** We're paying people, which is good in some ways, but then you kind of take everything for granted. So you kind of don't appreciate even how hard it is to do these things cause you don't do it yourself, right. I think a lot of times you learn through experience.
 
-[16:46] **Henry:** That kind of makes me think, it almost like kills your sense of curiosity maybe. You know, when you're learning, if you like it, you'll want to learn about it more. If you did learn how to cook and you started watching YouTube or reading books and actually experimenting in terms of cooking, then go out to eat, that's like something you turn off on your brain. Or like how do the systems in your house work? Like the plumbing or electricity.
+[16:46] **Henry:** That kind of makes me think, it almost kills your sense of curiosity maybe. You know, when you're learning, if you like it, you'll want to learn about it more. If you did learn how to cook and you started watching YouTube or reading books and actually experimenting in terms of cooking, then go out to eat, that's like something you turn off on your brain. Or like how do the systems in your house work? Like the plumbing or electricity.
 
 [17:07] **Bernardo:** The materials that you are using. Like what happened when you get tomatoes?
 
@@ -244,7 +244,7 @@ quotes:
 
 [17:18] **Henry:** I love it. This is related to using open source and not understanding how it works or not giving back. It's good to have a level of abstraction where it's like, I don't need to know how it works. But at some point, it kind of prevents you from understanding the world better.
 
-[17:35] **Henry:** It's kind of like knowing how to drive a car and versus knowing how to fix a car or understand how it works. I mean for majority of people, yeah, you don't have to know. But then once it breaks, now you're reliant on it. And not that we have to do everything ourselves, but I think there's a certain sense of freedom when you do know.
+[17:35] **Henry:** It's kind of like knowing how to drive a car versus knowing how to fix a car or understand how it works. I mean for majority of people, yeah, you don't have to know. But then once it breaks, now you're reliant on it. And not that we have to do everything ourselves, but I think there's a certain sense of freedom when you do know.
 
 #### Right to Repair: Freedom vs. Independence
 
@@ -272,9 +272,9 @@ quotes:
 
 #### To Live it is to Understand How it Works
 
-[20:29] **Marianita:** Yeah. In the practice and belief of talking about the professional part of the story. I think one aim is to empower the dwellers actually, in order to make them understanding the system in which they're living and to give them the tools and the knowledge to interact with it. And this is what is happening in other fields, with technology.
+[20:29] **Marianita:** In the practice and belief of talking about the professional part of the story. I think one aim is to empower the dwellers actually, in order to make them understanding the system in which they're living and to give them the tools and the knowledge to interact with it. And this is what is happening in other fields, with technology.
 
-[20:57] **Marianita:** But is it is not happening with the built environment. It's paradoxical, but you have some starting experience that in public space with the help of people. But it would be even more evident if we were talking about housing because you own or you rent a space. To live it is to understand how it works. And we're completely passive at the moment about that.
+[20:57] **Marianita:** But it is not happening with the built environment. It's paradoxical, but you have some starting experience that in public space with the help of people. But it would be even more evident if we were talking about housing because you own or you rent a space. To live it is to understand how it works. And we're completely passive at the moment about that.
 
 [21:22] **Marianita:** And to go back to coding, which I'm learning so many things on a topic that. It's completely unknown for me, but I think it is exactly the same. We don't know how much maintenance there is behind it. And that's exactly the same for architecture and housing.
 
@@ -284,7 +284,7 @@ quotes:
 
 #### Code as Archeology: Who wrote this? Oh I did..
 
-[22:33] **Henry:** We just pretend that time's like still, I guess, right. The coding thing is interesting because I think digital makes you feel like it will last forever.
+[22:33] **Henry:** We just pretend that time's still, I guess, right. The coding thing is interesting because I think digital makes you feel like it will last forever.
 
 [22:45] **Henry:** But we had this concept of bit rot. You know, I'm talking about bits, binary. Code can rot too.
 
@@ -292,7 +292,7 @@ quotes:
 
 [23:03] **Henry:** The typical example is you look at this code, and "who wrote this, this is really weird?" And then you look at it as like, Oh, I wrote it like a year ago.
 
-[23:12] **Henry:** Or they change your job or are they retired and they weren't able to pass down the knowledge to other people. And that's why I kind of say that code becomes archeology; you're trying to figure out, like the bones of the code and trying to figure out like why did they write this?
+[23:12] **Henry:** Or they change your job or are they retired and they weren't able to pass down the knowledge to other people. And that's why I kind of say that code becomes archeology; you're trying to figure out, like the bones of the code and trying to figure out why did they write this?
 
 [23:26] **Henry:** And so I think as our society becomes more technological, we still think that the code's going to save us, that it's all timeless.
 
@@ -306,7 +306,7 @@ quotes:
 
 #### Was Code Better in the Old Days?
 
-[24:52] **Marianita:** But my question is for you, Henry, do you have in the field of coding, do you have sometimes this impression that before it was better? Are you already there?
+[24:52] **Marianita:** But my question is for you, Henry, in the field of coding, do you have sometimes this impression that before it was better? Are you already there?
 
 [25:06] **Marianita:** I mean, did you already get at the moment in which you say, ah, but actually the old way of coding had something that now we were losing?
 
@@ -324,11 +324,11 @@ quotes:
 
 [26:18] **Henry:** It's like when you get started, you're just doing it and then eventually you're like, Oh, why am I doing it this way? Maybe we start questioning, you start thinking. Of course there's that momentum to where it's kind of hard to get everybody to just be like, let's stop and go back. All the other people are trying to push the edges.
 
-[26:34] **Henry:** I feel like I could go in and a lot of different directions for this. Yeah, in some ways we are making it more complicated and you could say that's a bad thing because it's making it harder for new people to get involved.
+[26:34] **Henry:** I feel like I could go in a lot of different directions for this. Yeah, in some ways we are making it more complicated and you could say that's a bad thing because it's making it harder for new people to get involved.
 
 [26:46] **Henry:** We keep.. Going back to this idea of abstraction, it's a term of adding layers, so like abstraction can be a good thing because it allows you to focus on the thing that you care about without caring about the other things.
 
-[27:00] **Henry:** Of course, that's just a lens on which to view things. So kind of like, Oh, I don't need to know how to the car works. I can just know how to drive it.
+[27:00] **Henry:** Of course, that's just a lens on which to view things. So kind of like, Oh, I don't need to know how the car works. I can just know how to drive it.
 
 [27:09] **Henry:** Perfect example with code is, every dependency I add, I don't need to know how this thing works because someone else wrote the code to do it. And then that person wrote some code that depends on that, that said, I don't even know how to do that.
 
@@ -344,7 +344,7 @@ quotes:
 
 [27:56] **Henry:** All these people have made important things that I can use, especially if it's open source, I don't have to make it myself. I don't have to start over from scratch. But the tradeoff is that you don't understand it. So then if there's a problem, how are you going to figure it out? And you're can ask that person.
 
-[28:13] **Henry:** If you have to do everything from scratch, then you're going to understand everything. But you might not be able to quote unquote go as far. But what does it mean to like go as far? So I think it's a complicated question. I don't know if that answers that.
+[28:13] **Henry:** If you have to do everything from scratch, then you're going to understand everything. But you might not be able to quote unquote go as far. But what does it mean to go as far? So I think it's a complicated question. I don't know if that answers that.
 
 [28:28] **Bernardo:** I have another question, actually. For Henry too. Yeah, sorry Henry.
 
@@ -362,7 +362,7 @@ quotes:
 
 [29:38] **Bernardo:** So I wonder, do you think that there is a part of the world of coding that comes with shame? What is responsible of not valorizing those processes, basically?
 
-[29:50] **Henry:** So you're saying that like, when you're making buildings, you put a picture of what the building will look like?
+[29:50] **Henry:** So you're saying that when you're making buildings, you put a picture of what the building will look like?
 
 [29:57] **Bernardo:** Afterwards. I'm talking about a historical building. I've been in that's been there for 200 years. So today you have been to the Grand Place, the major touristic attraction here in Brussels.
 
@@ -376,11 +376,11 @@ quotes:
 
 [30:50] **Henry:** How a building learns.
 
-[30:51] **Bernardo:** Yeah. And the other one is more related to how we hide.
+[30:51] **Bernardo:** And the other one is more related to how we hide.
 
 [30:56] **Henry:** Everyone puts all their stuff in like a closet or something, right.
 
-[30:59] **Bernardo:** Yeah. Whenever we have guests coming, we will arrange the house. Very quickly. Because there are things that we are not proud of. I don't know if we have to be proud or not. But this sort of hiding. What it says about us, hiding these mundane tasks. And I wonder if coding, there are things like that.
+[30:59] **Bernardo:** Whenever we have guests coming, we will arrange the house. Very quickly. Because there are things that we are not proud of. I don't know if we have to be proud or not. But this sort of hiding. What it says about us, hiding these mundane tasks. And I wonder if coding, there are things like that.
 
 [31:17] **Henry:** Yeah, that's good to think about. Are there things like that? I mean, there are definitely tasks that you might consider like cleaning. We have a term called refactoring, which is where you want to change the code. That it's more easily understood.
 
@@ -402,9 +402,9 @@ quotes:
 
 [33:16] **Henry:** And then once you're the maintainer and you're like, I want everyone to see it. Cause I want them to know that we're figuring it out too. Even though we're the expert, we're still figuring out as well. I want that to be learning in public sort of thing.
 
-[33:29] **Bernardo:** Yeah. I guess open source is actually making the opposite, making the maintenance of it the front line, by exposing all of this.
+[33:29] **Bernardo:** I guess open source is actually making the opposite, making the maintenance of it the front line, by exposing all of this.
 
-[33:37] **Henry:** I think that's where we have to talk about like boundaries and stuff, but yeah, we don't allow anyone to contribute whatever they want.
+[33:37] **Henry:** I think that's where we have to talk about boundaries and stuff, but yeah, we don't allow anyone to contribute whatever they want.
 
 [33:44] **Henry:** You know, when someone hasn't been approved that anyone can make a change, like a request to make a change, but someone has to kind of supervise.
 
@@ -450,7 +450,7 @@ quotes:
 
 #### Self-Managed, Informal, Shared Spaces
 
-[38:50] **Marianita:** And maybe the next step would be.. When we will have to move, maybe that should be a more, stable move. I don't know. I don't know. Do you want to make a stable move?
+[38:50] **Marianita:** And maybe the next step would be.. When we will have to move, maybe that should be a more, stable move. I don't know. Do you want to make a stable move?
 
 [39:02] **Bernardo:** I think for me, be a good example of a practice. How this habitat, how this shared domestic space is an added value to the cities. And make strides to make sure that public figures as well as private, they see the value on it and they make more easy to other initiatives to take place around the city.
 
@@ -462,7 +462,7 @@ quotes:
 
 [39:48] **Bernardo:** Replace a bit the owner, things are far more formalized. So for us, again, this informal aspect is important.
 
-[39:55] **Henry:** We were talking about before this, but I was gonna ask about like, how do you fund the space? So this is free for people to use. They can sign up to do like sewing. They don't have to pay, you're not asking for anything. Right?
+[39:55] **Henry:** We were talking about before this, but I was gonna ask about how do you fund the space? So this is free for people to use. They can sign up to do like sewing. They don't have to pay, you're not asking for anything. Right?
 
 [40:09] **Bernardo:** They have not asked for any money. We have workshops where they suggest a payment, for example, yoga. And yoga says you have to pay minimum one euro.
 
@@ -472,13 +472,13 @@ quotes:
 
 [40:23] **Bernardo:** And we've had self defense courses that was two different days in two weeks. They suggested euros.
 
-[40:30] **Henry:** You're not trying to like grow this thing into like..
+[40:30] **Henry:** You're not trying to grow this thing into like..
 
 [40:32] **Marianita:** No, I mean this is definitely not for profit, right.
 
 [40:35] **Bernardo:** For us, the objective is more like, okay, we want people to benefit from it, but there is not a business model.
 
-[40:43] **Marianita:** And we are the.. The dwellers are paying the rent. So we do pay a rent to the owner. And in this rent, we negotiate the fact that it had to be the lowest we can. I mean, the lowest he can (laughs) .
+[40:43] **Marianita:** The dwellers are paying the rent. So we do pay a rent to the owner. And in this rent, we negotiate the fact that it had to be the lowest we can. I mean, the lowest he can (laughs) .
 
 [41:01] **Marianita:** Because we knew we were going to invest a lot of time in the management of the downstairs space. So this was the idea. So we said, okay, we want to live in the first and second floor. We want to do a community neighborhood space downstairs. This will take us time.
 
@@ -496,7 +496,7 @@ quotes:
 
 #### A Message to the Neighborhood
 
-[43:15] **Henry:** Yeah. I like how on the windows outside, you're writing down what are the activities, it's like for local people that live here and they can just see it. You don't have to post on social media.
+[43:15] **Henry:** I like how on the windows outside, you're writing down what are the activities, it's like for local people that live here and they can just see it. You don't have to post on social media.
 
 [43:28] **Marianita:** That is maybe interesting for the podcast. This decision that we made, it was very spontaneous. But at the end, we claim it somehow the fact that we would not use. So the idea was that we would promote our activities only using the windows of the space, because this for us was a way to be more or less sure that we would address people of the neighborhoods. Of course, we also sometimes sends emails.
 
@@ -506,6 +506,6 @@ quotes:
 
 [44:14] **Henry:** And also just like when we were walking on the street and you just met like 5 different people that you knew. You just actually are a part of the community. So it's making a big impact.
 
-[44:23] **Marianita:** So when, when are you coming back?
+[44:23] **Marianita:** So when are you coming back?
 
 [44:28] **Henry:** Next year?

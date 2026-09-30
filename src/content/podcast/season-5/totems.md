@@ -25,9 +25,9 @@ quotes:
 
 [00:00:01] **Xiq:** I don't know. Just hunch. Like wherever seems interesting.
 
-[00:00:06] **Henry:** Okay. That's the best.
+[00:00:06] **Henry:** That's the best.
 
-[00:00:10] **Henry:** We'll, we will come back somehow.
+[00:00:10] **Henry:** We will come back somehow.
 
 [00:00:13] **Xiq:** Man. The cherry blossoms.
 
@@ -35,7 +35,7 @@ quotes:
 
 [00:00:22] **Xiq:** Multiple streets. Yeah. I talked to a guy at office hours who said, whenever he's in the area, he doesn't even go to a park. He just walks around the block.
 
-[00:00:33] **Henry:** Oh, I see. I see.
+[00:00:33] **Henry:** Oh, I see.
 
 [00:00:36] **Xiq:** So pretty.
 
@@ -49,11 +49,11 @@ quotes:
 
 [00:01:13] **Xiq:** He's wrapped in a snake.
 
-[00:01:14] **Henry:** Yeah. That's it. It's with two...
+[00:01:14] **Henry:** That's it. It's with two...
 
-[00:01:16] **Xiq:** Two, with two heads. Holding the tail and then at the bottom the snake two heads.
+[00:01:16] **Xiq:** With two heads. Holding the tail and then at the bottom the snake two heads.
 
-[00:01:22] **Henry:** Yeah. Oh. To make it look like, it's almost his legs. That's wild.
+[00:01:22] **Henry:** Oh. To make it look like, it's almost his legs. That's wild.
 
 [00:01:28] **Xiq:** That's cool.
 
@@ -65,11 +65,11 @@ quotes:
 
 [00:02:01] **Xiq:** Get food? I get food some point too.
 
-[00:02:05] **Henry:** Yeah. We could do that too. That's part of it, the walk. It's just like, if you find something then just go. Did you have any goals that you had?
+[00:02:05] **Henry:** We could do that too. That's part of it, the walk. It's just like, if you find something then just go. Did you have any goals that you had?
 
 [00:02:18] **Xiq:** Do I have any goals? I think my main goal is to get a sense for what's happening in AT Proto. And I think I'm succeeding. I think basically I just need to pay a lot more attention to AT Proto than I am currently.
 
-[00:02:33] **Henry:** Okay. That's the, okay.
+[00:02:33] **Henry:** Okay.
 
 [00:02:34] **Xiq:** Because people are in fact working on the things that I think are important, say are missing.
 
@@ -89,7 +89,7 @@ quotes:
 
 [00:03:30] **Xiq:** Which one?
 
-[00:03:31] **Henry:** Permission data or what does it enable and then why do we need to track things and trace it? And I mean, I guess the bot thing makes sense. It's because an easy argument is just AI is here, it's gonna take over. In the sense that you don't know who's real and so you want be able to track it.
+[00:03:31] **Henry:** Permission data or what does it enable and then why do we need to track things and trace it? And I guess the bot thing makes sense. It's because an easy argument is just AI is here, it's gonna take over. In the sense that you don't know who's real and so you want be able to track it.
 
 [00:03:50] **Xiq:** I think for permission data. So one thing I really want is a swarm of AI fairies conspiring in my favor at all times. So I want agents to look at my data and my friend's data.
 
@@ -101,11 +101,11 @@ quotes:
 
 [00:04:21] **Xiq:** I see an eagle over there. Like a totem with an eagle on top.
 
-[00:04:26] **Xiq:** Okay. I wanna check that out.
+[00:04:26] **Xiq:** I wanna check that out.
 
 [00:04:28] **Xiq:** If you see things that you wanna check out, you should point them out too. Honestly, I wanna see the eagle, but then I want to go there 'cause it looks so much...
 
-[00:04:36] **Henry:** Yeah. The mountains and stuff. It looks good. Yeah, you were saying,
+[00:04:36] **Henry:** The mountains and stuff. It looks good. Yeah, you were saying,
 
 [00:04:45] **Xiq:** Oh, you asked.
 
@@ -117,7 +117,7 @@ quotes:
 
 [00:05:39] **Xiq:** Yeah, kind of cross check between your data and people's data. Where there are opportunities for deals and coordination and so on, then we can just have a lot more luck in serendipity and yeah, it's gonna feel like fairies.
 
-[00:05:54] **Henry:** I guess funny 'cause I've heard a lot of people do this and want, and I think that there's a lot of potential. It's just funny that we, it's implied that we should just give all our data to the AI. And that's fine. It's just kind of funny.
+[00:05:54] **Henry:** I guess funny 'cause I've heard a lot of people do this and want, and I think that there's a lot of potential. It's just funny that it's implied that we should just give all our data to the AI. And that's fine. It's just kind of funny.
 
 [00:06:10] **Xiq:** You can have the AI be like a model you run. Right. Ideally, your AI determines what to expose to the other AI. Exactly. And that's where the permission data comes in, right. Ideally you have lists, maybe you have roles, right? You have your friends and you have your family, and you have your partner. And ideally the AI is good enough at knowing what's appropriate to share with whom.
 
@@ -131,7 +131,7 @@ quotes:
 
 [00:07:14] **Xiq:** Holy shit. Isn't that fucking crazy? You wanna go over there?
 
-[00:07:18] **Henry:** Yeah. You should take a picture too. You can annotate the post.
+[00:07:18] **Henry:** You should take a picture too. You can annotate the post.
 
 [00:07:25] **Henry:** My camera's not working or something.
 
@@ -149,11 +149,11 @@ quotes:
 
 [00:08:20] **Henry:** It's kind of interesting because I also think of markets, the whole point of market to bring people together that needs something and this other person needs something. But then this is with information. It doesn't really cost anything. Like you said about, I need a sofa, and then they need a whatever. It's more just building community and stuff, potentially.
 
-[00:08:46] **Xiq:** Yeah. I think what you get is a network of trust, right? You have your friends and you have certain policies about who you share what with, right. You formalize trust and clearance between people and there's a graph, right? There's a graph and you can't see the whole graph. 'Cause not everyone trusts you. Right. But maybe you can see your friends and your friend's friends, right.
+[00:08:46] **Xiq:** I think what you get is a network of trust, right? You have your friends and you have certain policies about who you share what with, right. You formalize trust and clearance between people and there's a graph, right? There's a graph and you can't see the whole graph. 'Cause not everyone trusts you. Right. But maybe you can see your friends and your friend's friends, right.
 
 #### Openness and Game Theory
 
-[00:09:16] **Henry:** And now I'm thinking of, when you meet someone. You're trying to figure out who they are and they're trying to figure out who you are, like strangers. Then this whole thing of, if you're vulnerable first and you're willing to take that step, maybe they'll be vulnerable back. So then I'm like, it'd be funny if the agents are doing that too. It's like, oh, I think this person has high potential to be good alpha or whatever. So then I'm gonna say something, see what they say. And then I'm like, wow, this is game theory stuff, like prisoner's dilemma or something. But for this,
+[00:09:16] **Henry:** And now I'm thinking of when you meet someone. You're trying to figure out who they are and they're trying to figure out who you are, like strangers. Then this whole thing of, if you're vulnerable first and you're willing to take that step, maybe they'll be vulnerable back. So then I'm like, it'd be funny if the agents are doing that too. It's like, oh, I think this person has high potential to be good alpha or whatever. So then I'm gonna say something, see what they say. And then I'm like, wow, this is game theory stuff, like prisoner's dilemma or something. But for this,
 
 [00:09:52] **Xiq:** I think we run some amount of game theory automatically. You probably don't think about it in terms of game theory explicitly, but I think if your brain isn't doing that, then you're exposing yourself to vulnerabilities. You're taking risks, undue risks.
 
@@ -163,11 +163,11 @@ quotes:
 
 [00:10:17] **Henry:** Compared to most people.
 
-[00:10:20] **Xiq:** Maybe, maybe even a little careless.
+[00:10:20] **Xiq:** Maybe even a little careless.
 
-[00:10:21] **Henry:** Yeah, I think so. But honestly, the reason why I think I do it is 'cause every time I'm doing it, I'm getting something positive or I feel like it's working, whatever that means. And so it causes me to want to be more bold, like talking to strangers or I was saying, every time I go on the airplane, I am open. And even looking forward to talk to the person next to me, I might not do it, but I'm kind of, like before I'd be like, oh, it's nice if it happens. But now I'm actively looking for the opportunity. Like, oh, they're holding a book or what they're wearing or whatever happens in the situation. You just need any excuse to say something. Right.
+[00:10:21] **Henry:** Yeah, I think so. But honestly, the reason why I think I do it is 'cause every time I'm doing it, I'm getting something positive or I feel like it's working, whatever that means. And so it causes me to want to be more bold, like talking to strangers or I was saying, every time I go on the airplane, I am open. And even looking forward to talk to the person next to me, I might not do it, but before I'd be like, oh, it's nice if it happens. But now I'm actively looking for the opportunity. Like, oh, they're holding a book or what they're wearing or whatever happens in the situation. You just need any excuse to say something. Right.
 
-[00:11:13] **Henry:** And I don't know, it's like, my hope is that whoever it is, it could be that person could become your best friend, it could also become nothing. And then maybe you just talk for a whole hour, five hours, you don't even know their name and you leave and that's fine too. So yeah, that's how I have been seeing it.
+[00:11:13] **Henry:** And I don't know, it's like, my hope is that whoever it is, that person could become your best friend, it could also become nothing. And then maybe you just talk for a whole hour, five hours, you don't even know their name and you leave and that's fine too. So yeah, that's how I have been seeing it.
 
 [00:11:37] **Henry:** I think the taking more risk thing is interesting 'cause I think usually if it goes well, you might do the same action again, 'cause it feels good. But then I'm like, no, you can go even farther, which is more risky. 'Cause it might fail and then it might make you not wanna do it anymore. But I think you have to.
 
@@ -183,15 +183,15 @@ quotes:
 
 [00:13:22] **Xiq:** Totem.
 
-[00:13:24] **Henry:** Oh, is there, oh, here there's a... Okay. Oh wow. Reconciliation pole. Dang. Oh, that's interesting. It says it's bottom to top.
+[00:13:24] **Henry:** Oh, here there's a... Okay. Oh wow. Reconciliation pole. Dang. Oh, that's interesting. It says it's bottom to top.
 
 [00:13:47] **Xiq:** Makes sense. 800 year old red cedar log.
 
-[00:13:57] **Henry:** Okay. And then there's three sections. Before, during, after, probably before...
+[00:13:57] **Henry:** And then there's three sections. Before, during, after, probably before...
 
 [00:14:01] **Xiq:** Probably before colonization.
 
-[00:14:02] **Henry:** Yeah. That's very interesting. Oh, it's about schools.
+[00:14:02] **Henry:** That's very interesting. Oh, it's about schools.
 
 [00:14:14] **Henry:** Specifically?
 
@@ -207,7 +207,7 @@ quotes:
 
 [00:14:35] **Xiq:** A government instituted system designed to assimilate and destroy all indigenous cultures across Canada.
 
-[00:14:42] **Henry:** Okay. So, okay, I get it. Okay. Interesting. Wow. So it's like the history of, it was like this before. What happened and then now. Okay. Oh, and that's just interesting. The four figures, what was it? Water, whale
+[00:14:42] **Henry:** Okay, I get it. Interesting. Wow. So it's like the history of, it was like this before. What happened and then now. Okay. Oh, and that's interesting. The four figures, what was it? Water, whale
 
 [00:15:02] **Xiq:** Land, Eagle Air, and Thunderbird. Supernatural.
 
@@ -217,7 +217,7 @@ quotes:
 
 [00:15:22] **Henry:** Side by side.
 
-[00:15:26] **Xiq:** Alright. Cool. I'm glad they inject the indigenous flavors back into the... But it feels, it feels almost like beating a dead horse. No. 'cause there's so few indigenous people.
+[00:15:26] **Xiq:** Alright. Cool. I'm glad they inject the indigenous flavors back into the... But it feels almost like beating a dead horse. No. 'cause there's so few indigenous people.
 
 [00:15:48] **Henry:** Oh, I see.
 
@@ -227,11 +227,11 @@ quotes:
 
 [00:15:58] **Xiq:** I think great to remember it and to try to make it part of your DNA, but it's hard, right? It's like something really awful and atrocious happened at some point, and how you need to find the least bad way of dealing with it.
 
-[00:16:20] **Henry:** Yeah. I guess it's kind of like, well, it's funny I was talking about grieving and mourning. And then it's like, and maybe it's part of it, it's like what does it mean to remember what happened in the past? To not forget it, but to not try to go back to the past or to make people do anything. What does it mean to respect that culture or what was lost? I was talking with someone, it was like, we didn't even grieve COVID in a way, like it just ended, but we didn't, no one said it was over. And then there's this underlying fear in everyone.
+[00:16:20] **Henry:** I guess it's funny I was talking about grieving and mourning. And maybe it's part of it, what does it mean to remember what happened in the past? To not forget it, but to not try to go back to the past or to make people do anything. What does it mean to respect that culture or what was lost? I was talking with someone, it was like, we didn't even grieve COVID in a way, like it just ended, but no one said it was over. And then there's this underlying fear in everyone.
 
-[00:17:09] **Xiq:** Yeah. We didn't have a collective cleansing.
+[00:17:09] **Xiq:** We didn't have a collective cleansing.
 
-[00:17:12] **Henry:** Or something. Like a banishing ritual or something. And so it's like what are our rituals anymore anyway. And are we just kind of going through life?
+[00:17:12] **Henry:** Or something. Like a banishing ritual or something. And so what are our rituals anymore anyway. And are we just kind of going through life?
 
 #### Psychomagic and Hyperstition
 
@@ -239,13 +239,13 @@ quotes:
 
 [00:17:48] **Henry:** Why is it called psychomagic? That's interesting.
 
-[00:17:50] **Xiq:** I'm not sure why psychomagic. It comes from Alejandro Jodorowsky, who's a Chilean filmmaker. He was supposed to make the Dune movie and he's really eccentric and really esoteric. Anyway, my point, I think it's like psycho, obviously 'cause you're moving your psychology, and then magic. I always think of magic as pointing to hyperstition, right? So it's like manifesting, kind of acting as if. And the thing you're acting as if is true becomes more likely to be true.
+[00:17:50] **Xiq:** I'm not sure why psychomagic. It comes from Alejandro Jodorowsky, who's a Chilean filmmaker. He was supposed to make the Dune movie and he's really eccentric and really esoteric. Anyway, my point, I think it's psycho, obviously 'cause you're moving your psychology, and then magic. I always think of magic as pointing to hyperstition, right? So it's like manifesting, kind of acting as if. And the thing you're acting as if is true becomes more likely to be true.
 
-[00:18:42] **Henry:** More true. Like you believe something into existence. Okay. That's interesting. It is funny 'cause normally people just use the word self-fulfilling prophecy, right? But then hyperstition seems like a new word that is coming about.
+[00:18:42] **Henry:** More true. You believe something into existence. Okay. That's interesting. It is funny 'cause normally people just use the word self-fulfilling prophecy, right? But then hyperstition seems like a new word that is coming about.
 
 [00:19:08] **Xiq:** You're asking why not use self-fulfilling prophecy?
 
-[00:19:10] **Henry:** No, no, no. I think every generation has their version of the same stuff, so it's like, but for now, it feels more resonant, right?
+[00:19:10] **Henry:** No. I think every generation has their version of the same stuff, but for now, it feels more resonant, right?
 
 [00:19:20] **Xiq:** The word. Hyperstition. And you have lots of synonyms that have slightly different meanings.
 
@@ -273,11 +273,11 @@ quotes:
 
 [00:21:15] **Xiq:** Is it the simulacra?
 
-[00:21:15] **Henry:** Yeah. Simulacra. Simulation. Because it's like, I guess the simulation is supposed to point to a thing, but then it becomes the thing.
+[00:21:15] **Henry:** Simulacra. Simulation. Because it's like, I guess the simulation is supposed to point to a thing, but then it becomes the thing.
 
-[00:21:26] **Henry:** It's like the map territory. Or there's, like you said, there's no, it doesn't point to anything anymore. It's just so far removed you don't even remember anymore.
+[00:21:26] **Henry:** It's like the map territory. Or there's, like you said, it doesn't point to anything anymore. It's just so far removed you don't even remember anymore.
 
-[00:21:36] **Xiq:** Yeah. Oh, that makes me wanna read him more because I have this whole crusade, this whole of my life that's about making words more precise and redefining words to be neater
+[00:21:36] **Xiq:** Oh, that makes me wanna read him more because I have this whole crusade, this whole of my life that's about making words more precise and redefining words to be neater
 
 [00:21:50] **Henry:** and more in line with their etymology, talking about that the other day.
 
@@ -285,7 +285,7 @@ quotes:
 
 [00:21:57] **Xiq:** It's part of how I improve the world or something,
 
-[00:22:03] **Henry:** Improve the world. Yeah. That's funny. 'cause I think that's, there's something there because it's kinda the opposite. Like say with 1984, double speak and then basic English. It's like the guy was trying to simplify English, so then you could just do more good or more and more good, that kind of thing. And obviously he wrote against that. Because it makes people think less essentially.
+[00:22:03] **Henry:** Improve the world. Yeah. That's funny. 'cause I think there's something there because it's kinda the opposite. Like say with 1984, double speak and then basic English. It's like the guy was trying to simplify English, so then you could just do more good or more and more good, that kind of thing. And obviously he wrote against that. Because it makes people think less essentially.
 
 [00:22:31] **Xiq:** And it's not about the diversity of words. It's like if you lose certain words or if you lose touch with the way they came about, you lose the ability to certain concepts.
 
@@ -297,9 +297,9 @@ quotes:
 
 [00:23:04] **Xiq:** It's like if there's any way to get back to it, any path, any written thing, any path, then yes. Right. But you probably cut access to some branches fully.
 
-[00:23:16] **Henry:** Right, right. Do you, what do you think about the Sapir-Whorf hypothesis that your language determines what you can think? I mean, obviously most people don't believe in the strong version. But a weak version. And I watched Arrival recently. And it was the whole movie related to that kind of stuff, and it was really cool.
+[00:23:16] **Henry:** Right. What do you think about the Sapir-Whorf hypothesis that your language determines what you can think? I mean, obviously most people don't believe in the strong version. But a weak version. And I watched Arrival recently. And it was the whole movie related to that kind of stuff, and it was really cool.
 
-[00:23:41] **Xiq:** I basically, yeah, I definitely believe the weak version. I'm not sure what the strong version is.
+[00:23:41] **Xiq:** I definitely believe the weak version. I'm not sure what the strong version is.
 
 [00:23:45] **Henry:** I think it's literally just, you cannot think certain thoughts if you don't have the word for it or something like that.
 
@@ -317,7 +317,7 @@ quotes:
 
 [00:25:15] **Henry:** Especially in Chinese where the picture, the character encodes. It's like we watched that totem pole of the history of what happened here, literally. But it's literally a totem. Words work like that too.
 
-[00:25:29] **Xiq:** Words are totems. Yes. Yes, yes, yes.
+[00:25:29] **Xiq:** Words are totems. Yes.
 
 [00:25:32] **Henry:** Oh, that's a good one.
 
@@ -345,15 +345,15 @@ quotes:
 
 #### Facts Into Wonders
 
-[00:27:46] **Henry:** Yeah. I've been thinking about my Twitter bio or Blue Sky bio, whatever. It is a reference, another reference to Chesterton and he talks about what he thinks imagination is, and he says it's about making not wonders facts, but facts wonders. It's the things that you believe in, these facts, which are kind of whatever. It's very non-personal, neutral statement. But if you could read that and then be like, wow, that's amazing. That's making it a wonder. But I think a lot of people are always doing the opposite. Like, oh, it's just this, it's just there. Instead of being like, whoa, and then that's what imagination is. To be willing to expand things, not reduce things. The more you know, do you really think there's less to know? Or is it the opposite?
+[00:27:46] **Henry:** I've been thinking about my Twitter bio or Blue Sky bio, whatever. It is a reference, another reference to Chesterton and he talks about what he thinks imagination is, and he says it's about making not wonders facts, but facts wonders. It's the things that you believe in, these facts, which are kind of whatever. It's very non-personal, neutral statement. But if you could read that and then be like, wow, that's amazing. That's making it a wonder. But I think a lot of people are always doing the opposite. Like, oh, it's just this, it's just there. Instead of being like, whoa, and then that's what imagination is. To be willing to expand things, not reduce things. The more you know, do you really think there's less to know? Or is it the opposite?
 
 [00:28:45] **Xiq:** Oh, I love that. That matches my experience perfectly.
 
-[00:28:48] **Henry:** Yeah. There's this expansion of knowledge. I think there's that quote, I don't even know if it's from him, but Einstein is like, if you think you're struggling with math and how hard it is, I'm basically struggling even more. And he knows all this stuff. So why do we think it's so boring? And reduced and flat. And now I'm thinking of, I saw a tweet from Aiden, and he was talking about, I guess just being overwhelmed, what's the point with life and you don't believe in God, all these things. And it just reminded me of my old roommate. He was like, if we do go to heaven, won't it be boring? And I had this thought, I'm like, why do we think that? Heaven, whatever we think it is, it would be boring. And I think it's because we think that eternity is flat, time is just passing. Of course it would be boring. If you're a vampire and you live forever, they hate it. Everyone around you is dying. All these things versus if time doesn't have to be the same thing over and over, just seconds passing. Of course that'd be, that'd basically be hell. Nothing's happening. And I think it's more to say heaven should be like what CS Lewis says. It's going deeper. There's a phrase that says further up and further in. The farther you go in, the more it feels like there's more and it never ends. And that's supposed to be exciting, not boring. But I think we just can't comprehend.
+[00:28:48] **Henry:** There's this expansion of knowledge. I think there's that quote, I don't even know if it's from him, but Einstein is like, if you think you're struggling with math and how hard it is, I'm basically struggling even more. And he knows all this stuff. So why do we think it's so boring? And reduced and flat. And now I'm thinking of, I saw a tweet from Aiden, and he was talking about, I guess just being overwhelmed, what's the point with life and you don't believe in God, all these things. And it just reminded me of my old roommate. He was like, if we do go to heaven, won't it be boring? And I had this thought, I'm like, why do we think that? Heaven, whatever we think it is, it would be boring. And I think it's because we think that eternity is flat, time is just passing. Of course it would be boring. If you're a vampire and you live forever, they hate it. Everyone around you is dying. All these things versus if time doesn't have to be the same thing over and over, just seconds passing. Of course that'd basically be hell. Nothing's happening. And I think it's more to say heaven should be like what CS Lewis says. It's going deeper. There's a phrase that says further up and further in. The farther you go in, the more it feels like there's more and it never ends. And that's supposed to be exciting, not boring. But I think we just can't comprehend.
 
 [00:30:22] **Xiq:** Wow. Yeah. So, thinking heaven is boring as a failure of the imagination.
 
-[00:30:32] **Henry:** Yeah. 'cause of what we have here. But the funny thing is this world should be pointing to, if this world is amazing then heaven should be even more. But I think it's the opposite. We think this world sucks, so then heaven probably sucks too. Right. Just like people now, they don't want to live, or they don't wanna have kids, or they don't want to do anything. They're just, we're just passing by.
+[00:30:32] **Henry:** 'cause of what we have here. But the funny thing is this world should be pointing to, if this world is amazing then heaven should be even more. But I think it's the opposite. We think this world sucks, so then heaven probably sucks too. Right. Just like people now, they don't want to live, or they don't wanna have kids, or they don't want to do anything. We're just passing by.
 
 [00:31:00] **Xiq:** Do you think the singularity is preventing people from having kids? Or is it Calvinism?
 
@@ -367,17 +367,17 @@ quotes:
 
 [00:32:16] **Xiq:** That's kind of what I'm pointing at when I say leverage. Yeah, I don't know. I also don't think this is the juiciest topic. I wanted to make the joke.
 
-[00:32:27] **Henry:** Yeah. Or the Calvinism.
+[00:32:27] **Henry:** Or the Calvinism.
 
 [00:32:30] **Xiq:** Is it Calvinism preventing people from having kids?
 
-[00:32:34] **Henry:** That's funny. Or you, I guess you mean implicit Calvinism.
+[00:32:34] **Henry:** That's funny. Or I guess you mean implicit Calvinism.
 
-[00:32:41] **Xiq:** Yeah. Part of the joke is identifying Calvinism with the singularity.
+[00:32:41] **Xiq:** Part of the joke is identifying Calvinism with the singularity.
 
 [00:32:45] **Henry:** The capital-S Singularity. We could talk about it, but yeah. No, that's funny. Okay, well now we're in front of the...
 
-[00:32:54] **Xiq:** Yeah. Of the bay with mountains. And we're gonna take a picture.
+[00:32:54] **Xiq:** Of the bay with mountains. And we're gonna take a picture.
 
 [00:32:59] **Henry:** Let's take a picture. Yeah. Beautiful. Nice. With the plane too.
 
@@ -387,9 +387,9 @@ quotes:
 
 [00:33:27] **Xiq:** Cool. And I propose after looking at the mountains for a bit...
 
-[00:33:33] **Henry:** Okay. That's a good idea. What's here? I wonder if you can go down there or is it just, oh, this is stairs here.
+[00:33:33] **Henry:** That's a good idea. What's here? I wonder if you can go down there or is it just, oh, this is stairs here.
 
-[00:34:08] **Henry:** I was talking to someone about, oh, I mentioned it earlier, before we recorded, but if you work on something and then you don't want to maintain it anymore. What do you do? You should talk about it and then you feel bad. But I think that's also related to this life and death grieving thing. It is funny when you make something, you shouldn't be thinking about leaving when you start. But when you do feel like, oh, why am I even working on this? Why do I feel so much anxiety? 'cause you're competing against other people, blah, blah, blah. It's all part of the psychology, right?
+[00:34:08] **Henry:** I mentioned it earlier, before we recorded, but if you work on something and then you don't want to maintain it anymore. What do you do? You should talk about it and then you feel bad. But I think that's also related to this life and death grieving thing. It is funny when you make something, you shouldn't be thinking about leaving when you start. But when you do feel like, oh, why am I even working on this? Why do I feel so much anxiety? 'cause you're competing against other people, blah, blah, blah. It's all part of the psychology, right?
 
 [00:34:51] **Xiq:** Baby. Cute dog.
 
@@ -415,21 +415,21 @@ quotes:
 
 [00:36:01] **Henry:** We're close.
 
-[00:36:02] **Xiq:** Okay. I'm hungry, but we should check it out. It's four minutes away.
+[00:36:02] **Xiq:** I'm hungry, but we should check it out. It's four minutes away.
 
 [00:36:10] **Henry:** Do you want to go in? I guess you have to pay, so,
 
 [00:36:15] **Xiq:** Do we have to pay?
 
-[00:36:16] **Henry:** Yeah, I think so. I mean, it's not, it's more just, if you want to eat, then...
+[00:36:16] **Henry:** Yeah, I think so. I mean, if you want to eat, then...
 
 [00:36:20] **Xiq:** I did want to eat though. But it looks so pretty.
 
 [00:36:26] **Henry:** You probably want to spend more time there.
 
-[00:36:30] **Xiq:** Yeah. What do you say, we come back?
+[00:36:30] **Xiq:** What do you say, we come back?
 
-[00:36:33] **Henry:** Okay. We can come back and then we'll just look for a place.
+[00:36:33] **Henry:** We can come back and then we'll just look for a place.
 
 [00:36:40] **Xiq:** I got some recs the other day.
 
@@ -447,9 +447,9 @@ quotes:
 
 [00:38:12] **Xiq:** Does it feel unsatisfying?
 
-[00:38:14] **Henry:** No. Maybe. Maybe it's just 'cause when you usually talking about it, it's very negative. But if it is just describing, I guess that's just how it is. But your role.
+[00:38:14] **Henry:** No. Maybe it's just 'cause when you usually talking about it, it's very negative. But if it is just describing, I guess that's just how it is. But your role.
 
-[00:38:28] **Xiq:** Yeah. I think I straddle a line between obsessive and schizo.
+[00:38:28] **Xiq:** I think I straddle a line between obsessive and schizo.
 
 [00:38:33] **Henry:** What's the difference?
 
@@ -463,7 +463,7 @@ quotes:
 
 [00:39:06] **Henry:** Right. But the schizo is, you go all over the place, I guess.
 
-[00:39:10] **Xiq:** Yeah. And you make connections and notice patterns.
+[00:39:10] **Xiq:** And you make connections and notice patterns.
 
 [00:39:16] **Henry:** I see. And do you think that different media bring about more of different kinds, or it's not related? Like, does Twitter have a certain personality?
 
@@ -485,13 +485,13 @@ quotes:
 
 [00:41:10] **Xiq:** If you're interested.
 
-[00:41:12] **Henry:** Yeah. You're calling it a theory of Tpot, so why is it a theory?
+[00:41:12] **Henry:** You're calling it a theory of Tpot, so why is it a theory?
 
 [00:41:17] **Xiq:** Well, I think it's a theory in the sense that it's a mechanistic account of what I think is special about Tpot. Why does it exist? Why is it so generative or seemingly generative? Why am I obsessed with Tpot? I think is the actual question here.
 
 [00:41:43] **Henry:** Why? I mean, I know your audience, it is people in it, but I guess it's why would someone care about this? Basically.
 
-[00:41:54] **Xiq:** Yeah. And I think I answer that to some extent. I think I could present a lot more evidence, for example. But I at least described the core mechanism and I give a couple examples.
+[00:41:54] **Xiq:** And I think I answer that to some extent. I think I could present a lot more evidence, for example. But I at least described the core mechanism and I give a couple examples.
 
 [00:42:07] **Henry:** No, it smashed it out my head because I think anyone that's in it, they don't know what it is. It's always like, I don't know what I would say either, or what it is or what it does.
 
@@ -499,9 +499,9 @@ quotes:
 
 [00:42:24] **Henry:** I would just say post-rat, but that's one word, it doesn't really say that much, so.
 
-[00:42:30] **Xiq:** Yeah, I think, look, I think I actually have, I think I've made intellectual progress here, in my humble opinion. I think I came up with an explanation that most people don't think about and don't have in their heads already.
+[00:42:30] **Xiq:** Yeah, I think I've made intellectual progress here, in my humble opinion. I think I came up with an explanation that most people don't think about and don't have in their heads already.
 
-[00:42:47] **Henry:** Right, right.
+[00:42:47] **Henry:** Right.
 
 [00:42:51] **Henry:** How would you describe it in a short, one sentence?
 
@@ -517,11 +517,11 @@ quotes:
 
 #### Post-Critical
 
-[00:44:17] **Henry:** Yeah, me too. Because I was just talking to my roommate about, so there's a person I really like called Michael Polanyi and he popularized tacit knowledge. He's kind of related to Thomas Kuhn, the paradigm shift, all that. So it's all about frames and how taking leaps of faith to join a new theory basically. And I think that, and he uses very spiritual language. Basically, in order to believe something, you need to go through a conversion experience essentially.
+[00:44:17] **Henry:** Yeah, me too. Because I was just talking to my roommate about, so there's a person I really like called Michael Polanyi and he popularized tacit knowledge. He's kind of related to Thomas Kuhn, the paradigm shift, all that. So it's all about frames and how taking leaps of faith to join a new theory basically. And he uses very spiritual language. Basically, in order to believe something, you need to go through a conversion experience essentially.
 
-[00:44:54] **Xiq:** Yeah. Because there are some assumptions at the base of your being that don't depend on anything else. It's just assumptions that you accepted on their own. And to acquire new ones and drop these ones, there's no reasoning that will help you. You just need to take the thing, remove it, and replace it with something else.
+[00:44:54] **Xiq:** Because there are some assumptions at the base of your being that don't depend on anything else. It's just assumptions that you accepted on their own. And to acquire new ones and drop these ones, there's no reasoning that will help you. You just need to take the thing, remove it, and replace it with something else.
 
-[00:45:13] **Henry:** Yeah. And you can only, that's what I meant, you can only understand something from that new frame. It just won't make sense in the old frame. And so I really liked his term, which is post-critical instead of postmodern or post-rationalist. Critical as in skeptical. And so I do think in that sense that I am in it because I'm trying to merge the faith, which is supposedly non-rational, and then rational. Or to take Christianity and then explain it to these rationalist people.
+[00:45:13] **Henry:** And that's what I meant, you can only understand something from that new frame. It just won't make sense in the old frame. And so I really liked his term, which is post-critical instead of postmodern or post-rationalist. Critical as in skeptical. And so I do think in that sense that I am in it because I'm trying to merge the faith, which is supposedly non-rational, and then rational. Or to take Christianity and then explain it to these rationalist people.
 
 [00:45:48] **Xiq:** Exactly. That's exactly what you're doing. Yeah.
 
@@ -529,11 +529,11 @@ quotes:
 
 [00:45:57] **Xiq:** I would say so. I'd say you're an archetypal post-rat.
 
-[00:46:04] **Henry:** That is funny. But yeah, I remember I saw a tweet a while ago and they call it the W Pipeline or something. It was like you start Christian or something. And then you become atheist and then you become agnostic. And then you learn about meditation. And then you become like Catholic again or something. Or something like that. It's just kind of funny circle that happens. And maybe that is that though. But you come back around, it's a weird...
+[00:46:04] **Henry:** That is funny. But yeah, I remember I saw a tweet a while ago and they call it the W Pipeline or something. It was like you start Christian or something. And then you become atheist and then you become agnostic. And then you learn about meditation. And then you become like Catholic again or something like that. It's just kind of funny circle that happens. And maybe that is that though. But you come back around, it's a weird...
 
 [00:46:36] **Xiq:** But it's a spiral 'cause you come back with more perspective, more knowledge, and more meta-cognizance.
 
-[00:46:44] **Xiq:** Okay. Let me see if we can find any food. I think Jill recommended some food. Down Low Chicken has great fried chicken. Alright. Let me see. Oh, 400 meters. This way.
+[00:46:44] **Xiq:** Let me see if we can find any food. I think Jill recommended some food. Down Low Chicken has great fried chicken. Alright. Let me see. Oh, 400 meters. This way.
 
 [00:47:16] **Henry:** We probably are over there.
 
@@ -541,39 +541,39 @@ quotes:
 
 [00:47:19] **Henry:** Yeah.
 
-[00:47:20] **Xiq:** Okay. Yeah, it's right next to the student center.
+[00:47:20] **Xiq:** Yeah, it's right next to the student center.
 
 #### The Midwit Spiral
 
 [00:47:23] **Henry:** Oh, okay. Perfect. Nice. I feel like the midwit meme always comes up for this because you start off, say you think that people that believe in God are really dumb. I don't think so, but low IQ, whatever. And then you're like, oh, I'm smart now, I'm atheist, rationalist. But then later you go back to it. But like you said, you had this greater understanding of it.
 
-[00:47:50] **Xiq:** Yeah. So I'm having this image of taking the midwit meme, stretching it out. And turning it into a spiral. Right. So you're at the top, then you flip because you become the midwit again, and you realize there's more to learn. So you go around. It's a spiral. And that's the hero's journey also. The hero's journey is also a spiral. Because you start at home, you get disrupted, you have a hard time, you learn, and then you bring it back home. You come back home with what you learned. So now you're smarter and more capable. And then you're home again until next time you're disrupted and need to do the whole journey again. So everything is secretly the same thing.
+[00:47:50] **Xiq:** So I'm having this image of taking the midwit meme, stretching it out. And turning it into a spiral. Right. So you're at the top, then you flip because you become the midwit again, and you realize there's more to learn. So you go around. It's a spiral. And that's the hero's journey also. The hero's journey is also a spiral. Because you start at home, you get disrupted, you have a hard time, you learn, and then you bring it back home. You come back home with what you learned. So now you're smarter and more capable. And then you're home again until next time you're disrupted and need to do the whole journey again. So everything is secretly the same thing.
 
 [00:48:42] **Henry:** Or like the matrix or something, you're trying to get out, but then you're just in another one. So I think it's similar to saying that there's no frame that you can, or there's no non-frame, I guess.
 
-[00:49:00] **Xiq:** Yeah. Of course. There's no view from nowhere.
+[00:49:00] **Xiq:** Of course. There's no view from nowhere.
 
-[00:49:02] **Henry:** Yeah. Or you always have to have a map. So,
+[00:49:02] **Henry:** Or you always have to have a map. So,
 
-[00:49:05] **Xiq:** Yeah. But you can have more useful ones.
+[00:49:05] **Xiq:** But you can have more useful ones.
 
-[00:49:09] **Henry:** Better, yeah. Better ones. Right. And you can test that, or you can basically be closer to knowing that you're closer to whatever reality or the truth. It's just the reason why it's not rationalist is 'cause you can't prove it. Right. With a hundred percent evidence.
+[00:49:09] **Henry:** Better ones. Right. And you can test that, or you can basically be closer to knowing that you're closer to whatever reality or the truth. It's just the reason why it's not rationalist is 'cause you can't prove it. Right. With a hundred percent evidence.
 
 [00:49:39] **Henry:** I feel like with a typical rationalist thing, it's no, you gotta prove a hundred percent.
 
-[00:49:44] **Xiq:** Yeah. And you just let go of that.
+[00:49:44] **Xiq:** And you just let go of that.
 
 [00:49:46] **Henry:** Not because you don't think there is truth, it's just, you,
 
 [00:49:50] **Xiq:** that you can't get to it.
 
-[00:49:51] **Henry:** Yeah, yeah, yeah.
+[00:49:51] **Henry:** Yeah.
 
 [00:49:53] **Xiq:** It's like there is an underlying reality, but not from where you are. You won't know for sure.
 
 [00:50:06] **Xiq:** Ivan was talking about this the other day. I think Mike Johnson said this to him, basically, 'cause I think Ivan was treating lots of different perspectives as they were equally valid. And I guess something in the conversation made Mike realize, maybe Ivan was overlooking that there is an underlying
 
-[00:50:29] **Henry:** Oh, I see, I see. Reality. Yeah.
+[00:50:29] **Henry:** Oh, I see. Reality. Yeah.
 
 [00:50:34] **Xiq:** And you can approximate it.
 
@@ -593,15 +593,15 @@ quotes:
 
 [00:51:05] **Xiq:** Was this Lewis?
 
-[00:51:07] **Henry:** No. It's a guy that influenced CS Lewis. His name is GK Chesterton. He was saying that, that was me. I was trying to, in his view, prove Christianity wrong by trying to find some heresy. But then he just found out, he just came back to where he was. And he says it's like a story that he wanted to write of a guy that was trying to find the new world sailing from England. And he comes and then he gets lost and then he comes back, but he doesn't know he's back. He's like, well this is so amazing. But then you realize, wait, I'm just back home. And then he is mind blown. Because you have a different perspective, right? It was the same.
+[00:51:07] **Henry:** No. It's a guy that influenced CS Lewis. His name is GK Chesterton. He was saying that, that was me. I was trying to, in his view, prove Christianity wrong by trying to find some heresy. But then he just came back to where he was. And he says it's like a story that he wanted to write of a guy that was trying to find the new world sailing from England. And he comes and then he gets lost and then he comes back, but he doesn't know he's back. He's like, well this is so amazing. But then you realize, wait, I'm just back home. And then he is mind blown. Because you have a different perspective, right? It was the same.
 
 [00:51:48] **Xiq:** Oh yeah. You're seeing the old with new eyes and so it's different.
 
-[00:51:55] **Henry:** Yeah. Oh, okay. We're here.
+[00:51:55] **Henry:** Oh, okay. We're here.
 
 [00:52:02] **Xiq:** It's a bit further ahead I think.
 
-[00:52:07] **Henry:** Yeah. That was a good walk. Quick.
+[00:52:07] **Henry:** That was a good walk. Quick.
 
 [00:52:12] **Xiq:** Wait, how should we conclude?
 
@@ -613,9 +613,9 @@ quotes:
 
 [00:52:52] **Xiq:** It's me, you, the world. Me, you and the universe. The universe was also part of this conversation, and if we were locked in a room, it would have been less evident.
 
-[00:53:03] **Henry:** Yeah. And that's why I kind of wanted to do this more, is you can have a podcast with two people in a room and that's fun too. But I feel like getting stuff from outside to influence your conversation. We're not being directed by just what we're saying. The environment is also kind of directing us. Right. And we're open to that. Part of the openness too.
+[00:53:03] **Henry:** And that's why I kind of wanted to do this more, is you can have a podcast with two people in a room and that's fun too. But I feel like getting stuff from outside to influence your conversation. We're not being directed by just what we're saying. The environment is also kind of directing us. Right. And we're open to that. Part of the openness too.
 
-[00:53:30] **Xiq:** Yeah. Cool.
+[00:53:30] **Xiq:** Cool.
 
 [00:53:33] **Henry:** Cool.
 

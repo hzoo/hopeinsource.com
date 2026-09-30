@@ -43,7 +43,7 @@ quotes:
 
 > "Dear Lord Baby Jesus.." - Ricky Bobby ([video](https://www.youtube.com/watch?v=i1Nh_3JCFj8))
 
-[02:01] **Henry:** Yeah. I know you're talking about.
+[02:01] **Henry:** I know you're talking about.
 
 [02:02] **Alex:** Pray to baby Jesus. But I think that's unfortunate because it really misses out on the broader themes that the church is trying to instill during the season.
 
@@ -69,7 +69,7 @@ quotes:
 
 [04:40] **Henry:** Outside of time, not in time.
 
-[04:43] **Alex:** Not in time, but outside of time. But the question then would be like, what does that even mean, right? But yeah we have like a fascination with time, especially since we see time itself as a created thing, right. So if creation is all of an analogy to who God is, it's almost like a point of contact where we can describe God. But at the same time, we can't fully capture God. That's why a lot of people say that God is both unknowable and made known. That sort of the paradox. And it's almost like our concentration on time, especially throughout the church year helps us to reorient ourselves to God, in this kind of timeless fashion.
+[04:43] **Alex:** Not in time, but outside of time. But the question then would be like, what does that even mean, right? But yeah we have a fascination with time, especially since we see time itself as a created thing, right. So if creation is all of an analogy to who God is, it's almost like a point of contact where we can describe God. But at the same time, we can't fully capture God. That's why a lot of people say that God is both unknowable and made known. That sort of the paradox. And it's almost like our concentration on time, especially throughout the church year helps us to reorient ourselves to God, in this kind of timeless fashion.
 
 [05:32] **Alex:** Which is exactly why the church calendar is cyclical. I think there's an idea of participation that we're not just remembering Jesus's baptism or Jesus's presentation at the temple or Jesus's birth or Pentecost or any of these things merely as ideas, but by participating in the rituals and liturgies and the worship of the season, we are in fact almost.. Reliving.
 
@@ -77,9 +77,9 @@ quotes:
 
 [06:02] **Alex:** Yeah, Reenacting. There's kind of that visceral component. I think that's the one word that we have come to really like using
 
-[06:12] **Henry:** Yeah.  I think we might've said like liturgy and ritual is the embodiment of those ideas. It helps us to remember that it's not an idea. It's not a concept.
+[06:12] **Henry:** I think we might've said liturgy and ritual is the embodiment of those ideas. It helps us to remember that it's not an idea. It's not a concept.
 
-[06:24] **Alex:** Yeah. It's interesting because these rituals again, they're not things that we just do alongside our active remembrance. They themselves are the remembrance. It's a memorial that causes us to remember.
+[06:24] **Alex:** It's interesting because these rituals again, they're not things that we just do alongside our active remembrance. They themselves are the remembrance. It's a memorial that causes us to remember.
 
 [06:40] **Alex:** We already talked about this in prior conversations, but about the idea that you can remember something that you've never experienced. But it is such a part of who you are that you can even say that you remember it collectively as a people. And I think that's partially what memorials are for, to kind of perpetuate a collective memory and to pass it down through tradition, which is essentially what the church calendar is. It's helpful tradition.
 
@@ -95,7 +95,7 @@ quotes:
 
 [09:58] **Alex:** And interesting enough in later Protestant history, the celebration of Christmas would become almost like your act of martyrdom. And I say this almost tongue in cheek, because if you remember, talking about the theme of remembering again, there's the whole idea of war on Christmas. For whatever reason in the history of Protestantism where a lot of the earlier guys were suspicious of these Roman Catholic Holy days are now almost seeing Christmas as a litmus test for whether or not you stand within Protestant, Bible believing, church stuff, right.
 
-[10:39] **Alex:** So it's fascinating how over time, where you stand on these issues kind of change depending on how you see it. I don't think it necessarily that means that the Puritans were wrong to be suspicious. I do think that it's always good, no matter what you do, to form or check or understand why you're doing what you're doing. And as a pastor, like that's the biggest issue, is that a lot of people just do things without really understanding why they're doing it.
+[10:39] **Alex:** So it's fascinating how over time, where you stand on these issues kind of change depending on how you see it. I don't think it necessarily that means that the Puritans were wrong to be suspicious. I do think that it's always good, no matter what you do, to form or check or understand why you're doing what you're doing. And as a pastor, that's the biggest issue, is that a lot of people just do things without really understanding why they're doing it.
 
 #### Being Cognizantly Ritualistic
 
@@ -105,11 +105,11 @@ quotes:
 
 [11:44] **Henry:** Catechism, right.
 
-[11:44] **Alex:** Quote, unquote answers. Through catechism, through books that you would buy off of like Crossway, any kind of VBS material. You know, that's why in the church we sort of make fun of that, what we call like a Sunday school answer, right. It's like, it's just so cookie cutter. There's no depth. There's no complexity. There's no real thought behind it. Is it wrong? No, not necessarily, right. But we don't prepare our students to actually think through complicated world issues,
+[11:44] **Alex:** Quote, unquote answers. Through catechism, through books that you would buy off of Crossway, any kind of VBS material. You know, that's why in the church we sort of make fun of that, what we call a Sunday school answer, right. It's like, it's just so cookie cutter. There's no depth. There's no complexity. There's no real thought behind it. Is it wrong? No, not necessarily, right. But we don't prepare our students to actually think through complicated world issues,
 
 [12:16] **Henry:** Exactly. It's all theoretical then, because it doesn't apply to your life and to the current moment. True understanding lets you to think different questions and answer other questions because of what you really know.
 
-[12:29] **Alex:** Yeah. And it's interesting that you say theoretical. Because in my mind, and this may be just how I'm looking at it, but theoretical almost assumes you understand, at least at a minimum, the abstract. But I think for most of the people who go through church Sunday school, they don't even understand theory, right. It's more that they're just being taught data points. Just memorize these. And if someone asks you this question, just spit out this line of data or whatever. They still don't understand why all of this is kind of all encompassing. Forget about practical application, you know, like we're not even there.
+[12:29] **Alex:** And it's interesting that you say theoretical. Because in my mind, and this may be just how I'm looking at it, but theoretical almost assumes you understand, at least at a minimum, the abstract. But I think for most of the people who go through church Sunday school, they don't even understand theory, right. It's more that they're just being taught data points. Just memorize these. And if someone asks you this question, just spit out this line of data or whatever. They still don't understand why all of this is kind of all encompassing. Forget about practical application, you know, like we're not even there.
 
 [13:11] **Henry:** It's not even shallow. Each thing should kind of build on itself. You should be able to kind of make the connections in your mind.
 
@@ -119,7 +119,7 @@ quotes:
 
 [14:26] **Henry:** Okay, so liturgy. What is difficult about getting someone to understand? Is it harder to get someone to understand why they do it or even to get them to do it?
 
-[14:38] **Alex:** Yeah. As a youth pastor, it's not that hard to get the youth to do stuff, because one, the parents just sort of.. There's that parental pressure, right. So that sort of alleviates the need to do that. But even then, we are really focused on not trying to force anyone to do anything. Right, if you don't want to do it, we can't force you to do it.
+[14:38] **Alex:** As a youth pastor, it's not that hard to get the youth to do stuff, because one, the parents just sort of.. There's that parental pressure, right. So that sort of alleviates the need to do that. But even then, we are really focused on not trying to force anyone to do anything. Right, if you don't want to do it, we can't force you to do it.
 
 [15:01] **Alex:** And we're not going to try to baby you, we're not going to try to strike fear into you, to kind of force you to do something.  But we are going to try what we can to encourage you because we think it's helpful. We think it's beneficial. And we want to act as.. Living signs or guideposts.
 
@@ -159,7 +159,7 @@ quotes:
 
 [17:46] **Henry:** the hope that we have in Christ. That God is a person now.
 
-[17:49] **Alex:** Right. Well, just to be more like technical, right. God has always existed in three persons, according to our confessions and creeds and all of that. It's just that the second person of the Trinity has now become flesh.
+[17:49] **Alex:** Right. Well, just to be more technical, right. God has always existed in three persons, according to our confessions and creeds and all of that. It's just that the second person of the Trinity has now become flesh.
 
 [18:03] **Henry:** [Incarnation](https://en.wikipedia.org/wiki/Incarnation_(Christianity)).
 
@@ -171,7 +171,7 @@ quotes:
 
 [18:47] **Henry:** Spiraling up.
 
-[18:48] **Alex:** And.. Well, it wasn't always spiraling up, right. It was.. With the arrival of sin. With the advent of sin into the world, we were spiraling down. That's why God had to send in Christ to break us from that cycle and to bring us back up into the the new cycle.
+[18:48] **Alex:** And.. Well, it wasn't always spiraling up, right. It was.. With the arrival of sin. With the advent of sin into the world, we were spiraling down. That's why God had to send in Christ to break us from that cycle and to bring us back up into the new cycle.
 
 [19:07] **Alex:** And that's exactly what the Christian calendar is about. This repetition and flow that allows us to relive and to participate in a way that I would even argue is impossible, if we just kind of had a posture where we're like, forget rituals entirely.
 
@@ -195,13 +195,13 @@ quotes:
 
 [21:50] **Henry:** Versus Advent is like, we're still waiting for it.
 
-[21:53] **Alex:** There's posturing of preparation and waiting, which are much more like solemn acts, right? You're not really necessarily like joyfully prepared. I mean, you can, but preparation, it really depends what you're preparing for. You know, the coming of Christ can either be a really scary thing for you, or it can be a really happy thing for you, depending on what side of the, you know, judgment you're on. But that's a whole different topic.
+[21:53] **Alex:** There's posturing of preparation and waiting, which are much more solemn acts, right? You're not really necessarily joyfully prepared. I mean, you can, but preparation, it really depends what you're preparing for. You know, the coming of Christ can either be a really scary thing for you, or it can be a really happy thing for you, depending on what side of the, you know, judgment you're on. But that's a whole different topic.
 
 [22:21] **Alex:** But regardless, one of the biggest things that I guess one example that we could talk about is singing the song. Oh, camo come Emmanuel. Right. That song is sung for Christmas. A lot of times it's sung during Christmas Eve service, which is not necessarily bad. But that's an advent song, right. You're asking for arrival, of Christ himself.
 
 [22:44] **Henry:** So for people that are like, what's the big deal, I guess you're just saying that if you even. Think a little bit about the content of what that's even about. They're kind of doing a disservice to the whole point of it, right?
 
-[22:56] **Alex:** Yeah, it goes back to this idea of being cognizant surgical, right? It's like if you're just doing things for a sake of doing it,  you're gonna build habits by, you're not really going to know why. Right. And it's the same thing. Like if you're singing these songs and you can be like, Oh, that's so nitpicky, but, but that's the point is like, the reason why Christmas is so joyful is because you spent essentially four weeks in Advent contemplating your standing before God, the meaning of Jesus returning. You know, how have you conducted your life or are you prepared?
+[22:56] **Alex:** Yeah, it goes back to this idea of being cognizant surgical, right? It's like if you're just doing things for a sake of doing it,  you're gonna build habits by, you're not really going to know why. Right. And it's the same thing. Like if you're singing these songs and you can be like, Oh, that's so nitpicky, but that's the point is like, the reason why Christmas is so joyful is because you spent essentially four weeks in Advent contemplating your standing before God, the meaning of Jesus returning. You know, how have you conducted your life or are you prepared?
 
 [23:35] **Alex:** Have you repented and also maybe just some of the ways your life hasn't been the way that you wanted it to be and you see your own failures and you really hope for the second coming, right? That's what makes Christmas so meaningful as a kind of a way to end the advent season. Right because now your hope has been materialized and incarnation.
 
@@ -213,7 +213,7 @@ quotes:
 
 [24:57] **Henry:** I'm reminded of a book I read a while back, Strange Rites, talking about all of the rituals that we have online. The struggle is of this institutional wisdom and intuition realism, the participation of people and being able to have a say in things. And how does that relate to the past and the history and not forgetting that?
 
-[25:19] **Alex:** Yeah. I mean, to give one example of learning from tradition, from people who have lived long before us.. And also just thinking about the rise of technology, I would say that even though technology has changed, human nature hasn't really changed as much as we would like to think, right.
+[25:19] **Alex:** I mean, to give one example of learning from tradition, from people who have lived long before us.. And also just thinking about the rise of technology, I would say that even though technology has changed, human nature hasn't really changed as much as we would like to think, right.
 
 #### Augustine Has Gone Before Us
 
@@ -235,7 +235,7 @@ quotes:
 
 [27:39] **Alex:** Right. How many times have we asked ourselves in our deepest and darkest, most emotional states, right? Think high school here. Oh man, no one can understand me. No one has gone through what I've gone through, right. There might be some extraordinary cases. But in general, I think most humans go through very analogous or similar experiences where tradition can help.
 
-[28:04] **Alex:** So I think that's why things like the church calendar and also the Advent season and Christmas season in general, do really help to guide us, especially when we come to realize like, we're not the only ones living in this world.
+[28:04] **Alex:** So I think that's why things like the church calendar and also the Advent season and Christmas season in general, do really help to guide us, especially when we come to realize we're not the only ones living in this world.
 
 [28:19] **Henry:** We're in community. We found a place to belong. People that understand. Or at least if we don't understand, God understands, right?
 
@@ -251,13 +251,13 @@ quotes:
 
 [28:59] **Alex:** Yeah, you have to open. You have to do the risky act of opening up your life to them.
 
-[29:04] **Henry:** And you can apply that to not just people, but everything. And we're doing that in this season then, right? I'm thinking of like [Charles Taylor](https://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)) again, being porous, right. Being able to be affected, by the external world instead of putting up a shield, right.
+[29:04] **Henry:** And you can apply that to not just people, but everything. And we're doing that in this season then, right? I'm thinking of [Charles Taylor](https://en.wikipedia.org/wiki/Charles_Taylor_(philosopher)) again, being porous, right. Being able to be affected, by the external world instead of putting up a shield, right.
 
 [29:19] **Alex:** Right. Yeah. I mean, you can try to put a shield up all you want. But I think the reality is much closer to the fact that an arrow or two will find its way around your shield. I think that's just how we are. You can't completely isolate yourself. You will inevitably be affected by something.
 
 [29:39] **Henry:** Right, we are not that strong.
 
-[29:41] **Alex:** Yeah. And even in like an almost interesting sense, I'm really going to not let anyone influence me is, in a way, letting other people influence you, right. Because you're still conceptualizing the other in how you determine your life.
+[29:41] **Alex:** And even in an almost interesting sense, I'm really going to not let anyone influence me is, in a way, letting other people influence you, right. Because you're still conceptualizing the other in how you determine your life.
 
 [29:57] **Henry:** Maybe you're being affected the most by doing that.
 
@@ -269,7 +269,7 @@ quotes:
 
 [30:42] **Alex:** And the question is always going to be is, is it worth taking that risk? And there's always the other question for who should we take that risk? Definitely would not advise opening up your life to serial abusers if you know them.
 
-[30:57] **Alex:** It's being able to know. But the trick here is that you can't know unless you participate, right. And maybe you have some viewers out there who are super anxious about social relationships. And my advice is not like, you have to go a hundred percent, like open your life up to everything. But that's the one good thing about the internet, it helps a lot of people who have social anxiety.
+[30:57] **Alex:** It's being able to know. But the trick here is that you can't know unless you participate, right. And maybe you have some viewers out there who are super anxious about social relationships. And my advice is not like, you have to go a hundred percent, open your life up to everything. But that's the one good thing about the internet, it helps a lot of people who have social anxiety.
 
 [31:26] **Alex:** And my advice, if anyone is wanting to take it, is like, look, you don't have to go out and try to meet people if you are super anxious about that. But try, in whatever safe space you're able to. May it be the Internet, anonymity might be helpful to you. But use that as an opportunity to help yourself gain trust, to also be trustworthy.
 
@@ -279,7 +279,7 @@ quotes:
 
 [32:47] **Henry:** That's hope, right. It's not guaranteed, and we have to take steps to, like you said, put ourselves in that story, but I guess that's what this remembering is all about.
 
-[32:57] **Alex:** Yeah. Advent is about putting ourselves into the story of preparation waiting that happened way before we were even born. Advent is a story of Israel preparing and waiting for the coming of Jesus, whom they may not have known until he actually came. But they were waiting for God to come.
+[32:57] **Alex:** Advent is about putting ourselves into the story of preparation waiting that happened way before we were even born. Advent is a story of Israel preparing and waiting for the coming of Jesus, whom they may not have known until he actually came. But they were waiting for God to come.
 
 > [Divinization](https://en.wikipedia.org/wiki/Divinization_(Christian)): "For the Son of God became man so that we might become God" - Athanasius
 
@@ -289,6 +289,6 @@ quotes:
 
 [34:06] **Alex:** We participate in it. I do want to break one, not really myth, but one misconception I think it might be fun for the listeners. But Christmas, I was looking, I think it was Google search or something online. And they were talking about how there's 25 days of Christmas. No, they're not 25 days of Christmas. There are four weeks of advent, which ends with Christmas. And Christmas is not one day. Christmas is 12 days. We have a song for this. It's called the 12 days of Christmas.
 
-[34:44] **Alex:** And it ends with epiphany really. The introduction of the epiphany tide or to season of epiphany. And then we have a few days in between, and then we hit Lent. And start entering into the holiest part of the a Christian year. Yeah, good Friday and resurrection Sunday, but no one cares about the Saturday in between, which is like, just as important. Yeah. But we'll get there. We'll talk about that in a few months. All right. Thank you, Henry.
+[34:44] **Alex:** And it ends with epiphany really. The introduction of the epiphany tide or to season of epiphany. And then we have a few days in between, and then we hit Lent. And start entering into the holiest part of the a Christian year. Yeah, good Friday and resurrection Sunday, but no one cares about the Saturday in between, which is just as important. Yeah. But we'll get there. We'll talk about that in a few months. All right. Thank you, Henry.
 
 [35:15] **Henry:** Thanks Alex.

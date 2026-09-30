@@ -7,20 +7,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Episode pages have an inline header theme control; avoid overlap with fixed toggle. */
-body:has(#chat-header) #theme-toggle {
-  display: none;
-}
-
-body:has(#home-layout-root) #theme-toggle {
-  position: absolute;
-}
-
-@media (min-width: 640px) {
-  body:has(#home-layout-root) #theme-toggle {
-    top: 1.5rem;
-  }
-}
+/* Shared search/theme controls hold their position across pages. */
+.episode-header-row { padding-right: 96px; min-height: 48px; }
+.episode-header-controls { align-self: flex-start; padding-top: 4px; }
+.episode-header-controls #video-mode-toggle { margin-top: -3px; }
+#episode-shell { height: 100dvh; }
+.audio-player-dock { padding-bottom: env(safe-area-inset-bottom, 0px); }
 
 @media (prefers-reduced-motion: reduce) {
   *,
@@ -466,19 +458,12 @@ body:has(#home-layout-root) #theme-toggle {
     width: fit-content;
     max-width: min(88%, 36rem);
     margin: 0 0 0.6rem;
-    scroll-margin-top: 1.25rem;
-    content-visibility: auto;
-    contain-intrinsic-size: 96px;
+    scroll-margin-top: 3.5rem;
 
     @media (max-width: 640px) {
       max-width: 92%;
     }
 
-    &.message-current,
-    &.highlight-flash,
-    &:target {
-      content-visibility: visible;
-    }
   }
 
   .message.consecutive:not(.consecutive-end) {
@@ -540,7 +525,7 @@ body:has(#home-layout-root) #theme-toggle {
 
     @media (max-width: 768px) {
       padding: 0.6rem 0.8rem;
-      font-size: 0.94rem;
+      font-size: 1rem;
     }
   }
 
@@ -607,8 +592,7 @@ body:has(#home-layout-root) #theme-toggle {
     border-radius: 2px;
   }
 
-  .message.message-current .message-bubble,
-  .message:target .message-bubble {
+  .message.message-current .message-bubble {
     box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-his-green) 55%, transparent);
   }
 }
@@ -625,35 +609,17 @@ body:has(#home-layout-root) #theme-toggle {
 }
 
 /* Search Modal (appended to body) */
-.search-backdrop {
+.search-popover {
   position: fixed;
-  inset: 0;
-  background: oklch(0.15 0 0 / 0.85);
-  z-index: 999;
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease-out;
-}
-
-.search-backdrop.visible {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-.search-modal {
-  position: fixed;
-  top: 20%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-8px) scale(0.98);
-  width: min(92vw, 560px);
-  max-height: 70vh;
+  top: 64px;
+  right: 16px;
+  transform: translateY(-4px);
+  width: min(480px, calc(100vw - 32px));
+  max-height: calc(100dvh - 80px);
   background: var(--color-his-bg);
   border: 1px solid var(--color-his-hr);
-  border-radius: 16px;
-  box-shadow:
-    0 0 0 1px rgba(255, 252, 240, 0.05),
-    0 24px 64px rgba(0, 0, 0, 0.6),
-    0 8px 24px rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 0.14);
   z-index: 1000;
   opacity: 0;
   pointer-events: none;
@@ -663,18 +629,18 @@ body:has(#home-layout-root) #theme-toggle {
   flex-direction: column;
 }
 
-.search-modal.visible {
+.search-popover.visible {
   opacity: 1;
-  transform: translateX(-50%) translateY(0) scale(1);
+  transform: translateY(0);
   pointer-events: auto;
 }
 
-/* Input row at top of modal */
+/* Search stays beside the page, without blocking it. */
 .search-input-row {
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  padding: 1rem 1.25rem;
+  padding: 0.5rem 0.75rem;
   border-bottom: 1px solid var(--color-his-hr);
   flex-shrink: 0;
 }
@@ -686,8 +652,9 @@ body:has(#home-layout-root) #theme-toggle {
   flex-shrink: 0;
 }
 
-.search-modal-input {
+.search-popover-input {
   flex: 1;
+  min-width: 0;
   background: transparent;
   border: none;
   padding: 0;
@@ -696,7 +663,7 @@ body:has(#home-layout-root) #theme-toggle {
   outline: none;
 }
 
-.search-modal-input::placeholder {
+.search-popover-input::placeholder {
   color: var(--color-his-text-tertiary);
 }
 
@@ -722,7 +689,7 @@ body:has(#home-layout-root) #theme-toggle {
   flex: 1;
   overflow-y: auto;
   overscroll-behavior: contain;
-  min-height: 120px;
+  min-height: 0;
 }
 
 .search-results-area::-webkit-scrollbar {
@@ -758,55 +725,6 @@ body:has(#home-layout-root) #theme-toggle {
   text-align: center;
   font-size: 0.8125rem;
   color: var(--color-his-text-tertiary);
-}
-
-/* Splash screen for empty search state */
-.search-splash {
-  padding: 2.5rem 1.5rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.search-splash-icon {
-  font-size: 2rem;
-  color: var(--color-his-green);
-  opacity: 0.6;
-}
-
-.search-splash-quote-link {
-  text-decoration: none;
-  display: block;
-  transition: opacity 0.2s;
-}
-
-.search-splash-quote-link:hover {
-  opacity: 0.8;
-}
-
-.search-splash-quote {
-  max-width: 380px;
-  margin: 0.5rem 0 0 0;
-  padding: 0;
-  border: none;
-  font-style: normal;
-  opacity: 1;
-}
-
-.search-splash-quote p {
-  font-size: 0.875rem;
-  color: var(--color-his-text-secondary);
-  margin: 0 0 0.5rem 0;
-  line-height: 1.5;
-  font-style: italic;
-}
-
-.search-splash-quote cite {
-  font-size: 0.75rem;
-  color: var(--color-his-text-tertiary);
-  font-style: normal;
 }
 
 /* Loading state with spinner */
@@ -936,7 +854,7 @@ body:has(#home-layout-root) #theme-toggle {
   color: var(--color-his-green);
 }
 
-.search-modal mark {
+.search-popover mark {
   background: color-mix(in oklab, var(--color-his-green) 30%, transparent);
   color: var(--color-his-green);
   padding: 0.0625rem 0.1875rem;
@@ -1177,7 +1095,8 @@ body:has(#home-layout-root) #theme-toggle {
 
   .home-secondary .home-controls-inner {
     display: grid;
-    grid-template-columns: minmax(0, 1fr) 40px 40px;
+    grid-template-columns: minmax(0, 1fr);
+    padding-right: 96px;
     align-items: center;
     gap: 0.5rem;
   }
@@ -1193,10 +1112,7 @@ body:has(#home-layout-root) #theme-toggle {
     width: 100%;
   }
 
-  .home-secondary #search-trigger {
-    grid-column: 2;
-    grid-row: 1;
-  }
+
 
   #home-brand .brand-cover {
     order: -1;
@@ -1353,4 +1269,105 @@ body:has(#home-layout-root) #theme-toggle {
   font-variant-numeric: tabular-nums;
   background: color-mix(in oklab, var(--color-his-hover) 80%, transparent);
   color: var(--color-his-text-secondary);
+}
+
+/* Brief replies keep their speaker's alignment without another chat bubble. */
+@layer components {
+  .message.message-ack {
+    flex-direction: row;
+    align-items: baseline;
+    gap: 0.45rem;
+    margin-top: -0.3rem;
+    margin-bottom: 0.7rem;
+    padding: 0 0.55rem;
+    max-width: 92%;
+    contain-intrinsic-size: 25px;
+  }
+  .message.message-ack::before { content: "↳"; color: var(--color-his-text-secondary); font-size: 0.8rem; }
+  .message.message-ack .message-speaker { position: static; width: auto; height: auto; clip: auto; overflow: visible; margin: 0; padding: 0; white-space: normal; font-size: 0.7rem; }
+  .message.message-ack .message-bubble { display: inline; padding: 0; border-radius: 0; box-shadow: none; background: transparent; font-size: 0.82rem; line-height: 1.45; }
+  .message.message-ack .message-time { float: none; display: inline-block; margin-top: 0; font-size: 0.65rem; }
+  .message.message-ack.message-current { background: color-mix(in oklab, var(--color-his-green) 12%, transparent); border-radius: 4px; }
+}
+
+@layer components {
+  .message.message-nod { padding: 0; gap: 0; margin-top: -0.25rem; margin-bottom: 0.55rem; content-visibility: visible; }
+  .message.message-nod::before { display: none; }
+  .message.message-nod .message-speaker { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+  .message.message-nod .nod-play { display: block; float: none; margin: 0; padding: 0.2rem 0.65rem; border-radius: 999px; background: color-mix(in oklab, var(--color-his-chat-bg) 92%, var(--color-his-green)); box-shadow: inset 0 0 0 1px color-mix(in oklab, var(--color-his-hr) 45%, transparent); color: var(--color-his-text-secondary); font-size: 0.78rem; line-height: 1.55; text-decoration: none; }
+  .message.message-nod .nod-play:hover { color: var(--color-his-text); background: var(--color-his-hover); }
+  .message.message-nod.message-current { background: transparent; }
+  .message.message-nod.message-current .nod-play { box-shadow: inset 0 0 0 1px var(--color-his-green); color: var(--color-his-text); }
+  .message.message-nod::after { content: attr(data-nod-label); position: absolute; bottom: calc(100% + 5px); right: 0; white-space: nowrap; padding: 3px 7px; border-radius: 4px; background: var(--color-his-bg); color: var(--color-his-text-secondary); border: 1px solid var(--color-his-hr); font-size: 0.68rem; opacity: 0; pointer-events: none; z-index: 3; }
+  .message.message-nod.message-received::after { right: auto; left: 0; }
+  .message.message-nod:hover::after,.message.message-nod:focus-within::after { opacity: 1; }
+}
+
+@layer components {
+  .message.message-nod.reply-left { margin-left: 0.65rem; margin-right: auto; }
+  .message.message-nod.reply-right { margin-left: auto; margin-right: 0.65rem; }
+  .message.message-nod { margin-top: -0.35rem; margin-bottom: 0.6rem; }
+  .message.message-nod.reply-left::after { left: 0; right: auto; }
+  .message.message-nod.reply-right::after { left: auto; right: 0; }
+}
+
+/* Compact responses belong to the preceding bubble, with stable speaker sides. */
+@layer components {
+  .message-thread { width: fit-content; max-width: min(88%, 36rem); margin-bottom: 0.6rem; }
+  .message-thread.thread-left { margin-right: auto; }
+  .message-thread.thread-right { margin-left: auto; }
+  .message-thread > .message { max-width: 100%; }
+  .message-thread > .message:first-child { margin-top: 0; margin-bottom: 0; }
+  .reply-row { display: flex; gap: 0.5rem; padding: 0 0.65rem; margin-top: 0.2rem; }
+  .reply-row.reply-row-pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
+  .reply-row > .message.message-nod { margin: 0; max-width: 100%; min-width: 0; }
+  .reply-row > .message.message-nod.reply-left { margin-right: auto; grid-column: 1; grid-row: 1; justify-self: start; }
+  .reply-row > .message.message-nod.reply-right { margin-left: auto; grid-column: 2; grid-row: 1; justify-self: end; }
+  .message.message-nod.message-received .nod-play { background: var(--color-his-chat-bg); }
+  .reply-row > .message.message-nod::before { display: none; }
+  .reply-row .nod-play { white-space: normal; overflow-wrap: anywhere; }
+  @media(max-width:640px) { .message-thread { max-width: 92%; } }
+}
+
+.search-results-area:empty { display: none; }
+.search-popover:has(.search-results-area:empty) .search-input-row { border-bottom: 0; }
+
+/* Continuing thoughts share one speaker label, even across a brief reply. */
+@layer components {
+  .message.message-continuation,
+  .message-thread.thread-continuation { margin-top: -0.3rem; }
+  .message-thread > .message.message-continuation:first-child { margin-top: 0; }
+}
+
+/* Short spoken turns keep attribution, with proportionate padding. */
+@layer components {
+  .message.message-brief .message-bubble { padding: 0.4rem 0.7rem; line-height: 1.45; }
+  .message.consecutive:not(.consecutive-end) { margin-bottom: 0.2rem; }
+}
+@media (max-width: 639px) {
+  .episode-header-meta { flex-wrap: nowrap; overflow: hidden; }
+  .episode-header-meta > span:first-child { min-width: 0; }
+  .episode-header-meta .ep-badge { flex-shrink: 0; }
+}
+
+@media (max-width: 767px) {
+  .message { scroll-margin-top: 6.5rem; }
+}
+
+@layer components {
+  .message.message-continuation.consecutive { margin-top: 0; }
+}
+@media (max-width: 639px) {
+  .episode-header-row h1 {
+    font-size: 1rem;
+    line-height: 1.2;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+  }
+}
+
+@layer components {
+  .message-thread.thread-continuation:has(> .message.consecutive) { margin-top: 0; }
 }

@@ -24,3 +24,7 @@ experiments/
 .plans/
 .claude
 .agents/
+
+# Python tooling
+__pycache__/
+*.py[cod]

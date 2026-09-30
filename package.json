@@ -16,7 +16,7 @@
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro check && astro build && bun run scripts/build-search-index.ts",
+    "build": "astro check && astro build --force && bun run scripts/build-search-index.ts",
     "build:force": "astro check && astro build --force && bun run scripts/build-search-index.ts",
     "preview": "astro preview",
     "astro": "astro",

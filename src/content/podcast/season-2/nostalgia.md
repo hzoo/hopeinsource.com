@@ -35,7 +35,7 @@ quotes:
 
 > [98.css](https://jdan.github.io/98.css/) - Jordan's design system for building Windows 98-style UIs. Also see [his blog post](https://thatjdanisso.cool/98-dot-css).
 
-[00:01:36] **Jordan:** And there's a bit of nostalgia that just hits me when I see it. And this is an idea that's been floating around for a really long time. I'm not the first one to do this, I guess first off I should qualify that. There is a 95.css, and there's also a ... Goodness, I'm forgetting the name. I think it might literally be called Windows98.css by Contra. It's the guy that made Gulp all those years ago. And yeah, but one thing, and I'm starting to rant a little, but one thing that always tripped me up was it was close, but never exact. And in my career, I am a software developer at Stripe. I write mostly front end code.
+[00:01:36] **Jordan:** And there's a bit of nostalgia that just hits me when I see it. And this is an idea that's been floating around for a really long time. I'm not the first one to do this, I guess first off I should qualify that. There is a 95.css, and there's also a ... Goodness, I'm forgetting the name. I think it might literally be called Windows98.css by Contra. It's the guy that made Gulp all those years ago. And I'm starting to rant a little, but one thing that always tripped me up was it was close, but never exact. And in my career, I am a software developer at Stripe. I write mostly front end code.
 
 [00:02:16] **Jordan:** So, I interact with designs all the time. Component libraries. And prior to that, I used to work at Khan Academy and Medium. And in all those places, one thing that, in my career, I've been really obsessed with, is pixel perfect. So when a designer gives me something, I want to make it look the designer wants it. Sometimes it's a bad idea. Sometimes the designer gives me things that are not good and don't work. Don't scale well across different browser resolutions and all that stuff.
 
@@ -63,7 +63,7 @@ quotes:
 
 **Henry:** Yeah, you kind of changed.
 
-**Jordan:** Yeah. But yeah. Anyway, so this library is fun. It's funny, it makes you smile. It's not serious. No critical infrastructure depends on it. So I kind of just do whatever I want.
+**Jordan:** But yeah. Anyway, so this library is fun. It's funny, it makes you smile. It's not serious. No critical infrastructure depends on it. So I kind of just do whatever I want.
 
 **Henry:** Not yet.
 
@@ -79,7 +79,7 @@ quotes:
 
 **Henry:** That's a whole different scope.
 
-**Jordan:** Yeah. Why did you file this issue? But sure, sounds good. Close that one, stay out of scope. Other people write in and say, "Hey, you're missing drop downs". And I'm like, sweet, yeah. Sounds good. Let's put a label on that bad boy. Other people write in and say ... Probably the most fascinating one, and this one, maybe I'll spend a little bit of time on, is; I'm finding ... So this library, put this on the Twitter, got some traction, put on Hacker News, got some traction, which I don't like. But the Hacker News comments were really good this time around, which was very nice. Kind of fits into the old cranky style of, "Oh, everything was better back then". Which is part of the library. So a lot of people are like, "Oh, I feel so much nostalgia because the modern web, the flat design sucks". So anyway, I tracked a lot of old beards that are super into this stuff. And one guy that filed a bunch of issues, he runs a site that talks about old GUIs and it has screenshots of these old GUIs.
+**Jordan:** Why did you file this issue? But sure, sounds good. Close that one, stay out of scope. Other people write in and say, "Hey, you're missing drop downs". And I'm like, sweet, yeah. Sounds good. Let's put a label on that bad boy. Other people write in and say ... Probably the most fascinating one, and this one, maybe I'll spend a little bit of time on, is; I'm finding ... So this library, put this on the Twitter, got some traction, put on Hacker News, got some traction, which I don't like. But the Hacker News comments were really good this time around, which was very nice. Kind of fits into the old cranky style of, "Oh, everything was better back then". Which is part of the library. So a lot of people are like, "Oh, I feel so much nostalgia because the modern web, the flat design sucks". So anyway, I tracked a lot of old beards that are super into this stuff. And one guy that filed a bunch of issues, he runs a site that talks about old GUIs and it has screenshots of these old GUIs.
 
 **Jordan:** And it has OS2, Windows NT, Windows 98, Windows 95, Windows 3, fascinating stuff. And he has given me these detailed issues that are like, "Oh, just so you know, the window text, when you have this type in the title bar is off by these pixels. Here's a before and after screenshot". And I'm like, oh my God, I had no idea there were other people that cared about this stuff. And those are fascinating to me. I go in to fix them. It is interesting because I fix it and I feel good, but no one really notices, because it's kind of pixels.
 
@@ -87,15 +87,15 @@ quotes:
 
 **Jordan:** Right. 100%. You can go on the used by on GitHub and see a couple of people are making games or personal websites with it. And they don't really care if the button shadow color changes. It's not going to affect them. But one thing to keep in mind is; I do get these PRs, so I'll splinter this one out as well. I'll get these PRs that are like, "Hey, I added a tab menu or a tab panel". List of tabs, which the web platform does not provide. You have to build it yourself. And they'll do it in CSS because it's the CSS library. There's no JavaScript. However, you can't do it with CSS. I mean, you can, but you got to use checkboxes and after tags and there's no Aria labels on it. It's not accessible. You can't use it with a keyboard. A screen reader's just going to throw up.
 
-**Jordan:** It's not going to not going to work at all. So for me to build a tab panel means I have to do something stateless where, if you want to show it a list of tabs, the CSS selector will probably be like, role equals tab list. And then on the list of tabs, the active one is not going to be hidden checkbox.focus. It's going to be Aria selected, which is how you build a tab panel that is compatible with a screen reader. And you have to do it stateless. So you got to use the selectors that way. And that's an annoying thing to get right. I have an outstanding issue that I'm working with a very patient developer that is going through the ropes and that's been the hardest one so far. Has been getting that PR in a really good shape because first they did it with hidden checkboxes. Again, can't do it.
+**Jordan:** It's not going to work at all. So for me to build a tab panel means I have to do something stateless where, if you want to show it a list of tabs, the CSS selector will probably be like, role equals tab list. And then on the list of tabs, the active one is not going to be hidden checkbox.focus. It's going to be Aria selected, which is how you build a tab panel that is compatible with a screen reader. And you have to do it stateless. So you got to use the selectors that way. And that's an annoying thing to get right. I have an outstanding issue that I'm working with a very patient developer that is going through the ropes and that's been the hardest one so far. Has been getting that PR in a really good shape because first they did it with hidden checkboxes. Again, can't do it.
 
-**Jordan:** Then I wrote out in detail why they'll they'll have to do it a certain way. They came back and did it pretty good. It wasn't perfect. And I outlined the exit criteria to be like, "Hey, reach UI, which is Ryan Florence's thing. Reach UI has tap handle library tie, I'm sorry, tap handle component. What if you rendered a tab panel and you put 98.css, and it just worked?" So basically, Ryan's markup is now correct because that's been verified. He works with Marcy Sutton who is a phenomenal accessibility developer. I've been a contemporary of hers for a number of years, ever since I did accessibility work back at Khan Academy. Smartest person ever. I think she's at Gatsby now doing accessibility stuff, and super bright. So she works for Ryan a lot of these things, and that's the exit criteria.
+**Jordan:** Then I wrote out in detail why they'll have to do it a certain way. They came back and did it pretty good. It wasn't perfect. And I outlined the exit criteria to be like, "Hey, reach UI, which is Ryan Florence's thing. Reach UI has tap handle library tie, I'm sorry, tap handle component. What if you rendered a tab panel and you put 98.css, and it just worked?" So basically, Ryan's markup is now correct because that's been verified. He works with Marcy Sutton who is a phenomenal accessibility developer. I've been a contemporary of hers for a number of years, ever since I did accessibility work back at Khan Academy. Smartest person ever. I think she's at Gatsby now doing accessibility stuff, and super bright. So she works for Ryan a lot of these things, and that's the exit criteria.
 
 **Jordan:** He's like, "Hey, if this works, then I'm going to hall march this bad boy. But that's a time consuming process. And once it's good to go, I'm going to add it to the docs. But it's annoying to use, right? You have to provide your own tab panel to use this thing. It's not nearly as cool as, "Hey, I'm going to take a text box and I'm going to make it look like Windows 98". So, some of those things aren't as interesting to me, those sorts of problems with adding these components, like a dropdown menu. Not super interested in it, but I think it sounds ... Doesn't sound like scope creep. It should probably be in Windows 98.css. It should be able to render them, but yeah, those issues come in and they're tough.
 
 **Jordan:** Someone else gave me a start menu component, and it's the same thing. It's like, I can't do this with focus because that's not how start menu works. You're not going to be able to use with the keyboard. And that's frustrating to tell somebody. How do you outline that to say, "Listen, before you put in a couple hours to make this fun thing, I'm not going to put it in the library because it's not accessible". I have that as one of the core tenets of the product, but how do you put unit tests for something like that, right? You can't.
 
-**Henry:** I don't think you would, you would have to review.
+**Henry:** I don't think you would. You would have to review.
 
 **Jordan:** Yeah, you got to review it, and it'd be like, "Hey, I'm not going to put this in, thanks for all your work."
 
@@ -111,15 +111,15 @@ quotes:
 
 **Jordan:** So anyway, I used her math, but I thought that was a killer feature of the thing. Turned out, it wasn't. It is good, but that's not how you get people to buy your $5 color picker. So when Catalina came out, it broke my electron app, and I couldn't fix it. I spent like, six hours, and I couldn't fix it. And I was like, cool. I've well exceeded the margins here. The return on investment of my time, the thing was making maybe $20 a month, which is a fun thing, right? When someone buys your software, it's like, "Whoa, cool, someone gave me money". But at a certain point, I'm like, I'm not going to be able to fix this thing. I don't want to rewrite it. So I recommended Sam Soffes and @mds have usecontrast.com. They have a phenomenal color picker, really well designed, works.
 
-**Jordan:** It's native, it's not electronic. So it feels really good. It looks really good. Doesn't suggest a shade of blue that you should use. So they don't have my killer feature, but they outsold me because they're both better developers than I make a better product. So anyway, yeah, I'm into accessibility. I could not make an inaccessible Windows 98, especially CSS thing. If people are going to be using this thing, and I've gotten PRS of, "Oh, I need my so and so to look like a button, so here's a thing that inserts and is button class name". So I'll get the button styles for my divs. And I'm like, "Absolutely fucking not, I'm not going to allow that". I understand the extremes of the Gmail interface is built with divs, and it's perfectly keyboard accessible. They also spend literally hundreds of millions of dollars building that interface. So well, hundreds of millions is a lot. I guess over the timeline of Google, it's probably about right. But anyway, millions of dollars a year on Google's interface, Gmail's interface, sorry, so they can make buttons out of divs, but you cannot.
+**Jordan:** It's native, it's not electronic. So it feels really good. It looks really good. Doesn't suggest a shade of blue that you should use. So they don't have my killer feature, but they outsold me because they're both better developers than I make a better product. So anyway, yeah, I'm into accessibility. I could not make an inaccessible Windows 98, especially CSS thing. If people are going to be using this thing, and I've gotten PRS of, "Oh, I need my so and so to look like a button, so here's a thing that inserts and is button class name". So I'll get the button styles for my divs. And I'm like, "Absolutely fucking not, I'm not going to allow that". I understand the extremes of the Gmail interface is built with divs, and it's perfectly keyboard accessible. They also spend literally hundreds of millions of dollars building that interface. So well, hundreds of millions is a lot. I guess over the timeline of Google, it's probably about right. But anyway, millions of dollars a year on Gmail's interface, so they can make buttons out of divs, but you cannot.
 
 **Henry:** I guess it got me thinking that this would be a great library or project to just talk about accessibility then. If you want it to be almost an educational tool, this is fine. People, like you were saying, when they see the site for the first time, they already know what it's about. You don't have to read it, really. But then when they look into it, they want to contribute. You can be like, "Hey, this is important to me, and it should be important to you too. And this is one way for you to get into learning some of this stuff". And how to make it easier.
 
 **Jordan:** Happening a little bit in the PR comments of the tab panels and the drop down menu, but yeah. If I get more contributors and I make the experience really nice and really fun, yeah. Totally spread the word more. I'm thinking of it from the other end of in order to use my frigging library, your interface has to be accessible, which is not teachable. That's enforceable. It's like tax code versus teaching people to do the right thing. I should be able to do both.
 
-**Henry:** Yeah. Because I know you wrote a blog post about making it and everything, and at the end, you don't really care if no one uses it. You just want to do it for fun. But if it does get some traction, then, I mean, it seems like you are looking at emerging PRs, and people are contributing. So it's not that it needs to be an official thing or anything. It's just it is more than maybe what you thought, initially.
+**Henry:** Because I know you wrote a blog post about making it and everything, and at the end, you don't really care if no one uses it. You just want to do it for fun. But if it does get some traction, then, I mean, it seems like you are looking at emerging PRs, and people are contributing. So it's not that it needs to be an official thing or anything. It's just it is more than maybe what you thought, initially.
 
-**Jordan:** Yeah. No, that's a really good point. Yeah. It's been fun. The PR process has been fun. It's been fun for a couple of reasons. One of them is that it's just nice to be on GitHub again. I mean, it's been a while. I did a lot of open source when I was in college. I had all this free time doing internships and stuff. I like to think it helped, but this was at the time where a lot of people were like, "Oh, the GitHub portfolio is not a good idea", and
+**Jordan:** No, that's a really good point. Yeah. It's been fun. The PR process has been fun. It's been fun for a couple of reasons. One of them is that it's just nice to be on GitHub again. I mean, it's been a while. I did a lot of open source when I was in college. I had all this free time doing internships and stuff. I like to think it helped, but this was at the time where a lot of people were like, "Oh, the GitHub portfolio is not a good idea", and
 
 **Jordan:** And it's not, but anyway, I had a good one. And I had a lot of fun building a couple of things you see here, your star counts. I've gotten desensitized to be honest. 98.css has 4400 stars, which is a lot.
 
@@ -129,7 +129,7 @@ quotes:
 
 **Jordan:** I used to sort of, I'll give you an example, when I wrote my sideshow library, I cared very deeply about the code quality. And if people saw it, it was like, "Cool. I wrote really good code. And so many people saw it and starred it. That means I'm awesome."
 
-**Jordan:** Now, it sort of follows my personality, my career, which is that like, the code for 98.css, it's not good. There are a couple of build scripts in there that are disgusting. They work and I'm really proud of them because they work. And I'm more proud of the fact that I got this thing up and running and people are like talking about how cool it is, rather than just looking at it and My code is good, therefore, I'm a good developer. Now it's people are saying nice things about this thing that I put out in the world, therefore I did the right thing.
+**Jordan:** Now, it sort of follows my personality, my career, which is that the code for 98.css, it's not good. There are a couple of build scripts in there that are disgusting. They work and I'm really proud of them because they work. And I'm more proud of the fact that I got this thing up and running and people are talking about how cool it is, rather than just looking at it and My code is good, therefore, I'm a good developer. Now it's people are saying nice things about this thing that I put out in the world, therefore I did the right thing.
 
 **Jordan:** So it's shifted, right? It used to be a code-quality thing. I really don't care about code quality. And we could talk about this too-
 
@@ -145,9 +145,9 @@ quotes:
 
 **Henry:** Yeah.
 
-**Jordan:** So like, if your rule's on the same line, I don't care. It's not important to me. If I hit save next time I'm editing it, and Prettier decides that it should be on a separate line. Great. I'm just going to commit it. I'm not going to like freak out because it's not perfectly matching my thing. I'm sort of a nihilist when it comes to that.
+**Jordan:** So if your rule's on the same line, I don't care. It's not important to me. If I hit save next time I'm editing it, and Prettier decides that it should be on a separate line. Great. I'm just going to commit it. I'm not going to freak out because it's not perfectly matching my thing. I'm sort of a nihilist when it comes to that.
 
-**Henry:** No. I feel that way too. Especially that kind of stuff, you can just when you're committing, you could add another committing yourself that formats it, or you could run it on CI or whatever. There's so many ways to like get around the fact that they didn't know that it was needed. And maybe the other person was well meaning, like they said that.
+**Henry:** No. I feel that way too. Especially that kind of stuff, you can just when you're committing, you could add another committing yourself that formats it, or you could run it on CI or whatever. There's so many ways to get around the fact that they didn't know that it was needed. And maybe the other person was well meaning, like they said that.
 
 **Jordan:** They absolutely were. They want the code quality to match and they think that that's important to me. They're trying to represent me.
 
@@ -155,13 +155,13 @@ quotes:
 
 **Jordan:** I think there's a threshold. Like I think Babel source code should probably look pretty similar. Would you go across files? Maybe it's easier to reverse. I don't know. I don't contribute to Babel. I removed Guy Fieri, but that's it.
 
-**Henry:** Yeah. You had a contribution.
+**Henry:** You had a contribution.
 
 **Jordan:** I did have a contribution. It was pinned to my profile for a while.
 
 **Henry:** We use prettier too. I think over time, the things that you care about changes. And maybe what you're trying to go for is it's not really that, how many people are actually going to look at the code versus you're showing them usually the site itself with the style, like the design Or the styles itself, not the source code. They're probably looking at that anyway. So no one really cares if the code is not that great.
 
-**Jordan:** Yeah. Right.
+**Jordan:** Right.
 
 **Jordan:** I think another half of it is that I don't know what clean CSS looks like. People have tried really hard and this is another entire podcast episode. I used to be super into CSS and JS. I'm not so much anymore because Stripe has a literally world-class component library.
 
@@ -171,41 +171,41 @@ quotes:
 
 **Jordan:** The designer has these tools that give me a list, with text fields and buttons. And if I use the list component with the text fields component and the button component, it's going to be pixel perfect. I don't have to use the right class name. I just use the button component. So I don't write CSS. I don't have any opinions on CSS anymore. But I don't know how to write good CSS. I don't know.
 
-**Jordan:** Is it even a skill I want to develop, I don't think it is. I think it's important in certain circumstances. It's not important for 98.css. It's important at Stripe in the sense of like the people writing the CSS for the textlist component or the textinput component and the button component. Maybe that CSS should look pretty frigging good. But for me, I don't really concern myself with it. So I think it's honestly arrogant for me to say like, "Your CSS doesn't look like mine, therefore I'm not going to accept your contribution." Because I don't know what that CSS is. Should I alphabetize them? Probably not. You could argue that maybe you should. You could argue that you want to have them, there's that four letter acronym of like position and colors should be in separate sections. Do you want to abide by that?
+**Jordan:** Is it even a skill I want to develop, I don't think it is. I think it's important in certain circumstances. It's not important for 98.css. It's important at Stripe in the sense of the people writing the CSS for the textlist component or the textinput component and the button component. Maybe that CSS should look pretty frigging good. But for me, I don't really concern myself with it. So I think it's honestly arrogant for me to say, "Your CSS doesn't look like mine, therefore I'm not going to accept your contribution." Because I don't know what that CSS is. Should I alphabetize them? Probably not. You could argue that maybe you should. You could argue that you want to have them, there's that four letter acronym of position and colors should be in separate sections. Do you want to abide by that?
 
-**Jordan:** I don't care. If I really cared, I would just put like an automatic thing in there. Kind of like Prettier, right? I don't really care what clean JavaScript looks like. Clean formatted JavaScript. So just whatever Prettier does is good for me. I'm a big, big proponent of code formatting. I'm getting off topic.
+**Jordan:** I don't care. If I really cared, I would just put an automatic thing in there. Kind of like Prettier, right? I don't really care what clean JavaScript looks like. Clean formatted JavaScript. So just whatever Prettier does is good for me. I'm a big, big proponent of code formatting. I'm getting off topic.
 
 **Jordan:** But yeah. All that to say that I care way more about this person that is enthusiastically giving me source code for a library. I want to get that merged. It's cool. And if they're giving me a tree view component, let's just get it out. It looks fine. The code's fine. The semantics are fine. It's accessible. That's all I care about, right? I don't really care if their CSS looks like mine.
 
-**Henry:** Yeah. And right now it's just a single file. So maybe it's easier to be like, Does it really matter? And you're like "All right, let's do it."
+**Henry:** And right now it's just a single file. So maybe it's easier to be like, Does it really matter? And you're like "All right, let's do it."
 
-**Jordan:** Yeah. A hundred percent.
+**Jordan:** A hundred percent.
 
 **Henry:** And also, if this is more of a niche thing, then the people that are willing to contribute are a lot more enthusiastic than maybe other people in different projects, possibly. Especially if this has to do with lists aesthetics and-
 
-**Jordan:** Yeah. I'd like to think so.
+**Jordan:** I'd like to think so.
 
 **Jordan:** Another thing that has been interesting is so I haven't given any one contributor access apart from Mu-An. So Mu-An is at GitHub, she's an also awesome sort of person. I'm sure you met her at BoroJS events. Also an awesome accessibility person. And she talks about a lot about spans to HTML. It's very important to my project.
 
-**Jordan:** She, how was I getting... Wait, hold on. Sorry. Oh yeah. She is a contributor. I have another friend of mine that's contributor. But in my other projects, like when people give me PRs for Cleaver, which is my presentation framework has like 4,000 stars. I don't think it's used by that many people though. Sort of tried by star. But anyway, somebody gives me a good PR. I'd really look at it for like a split second and then I'll look at their profile, make sure they're not like a spammer. And then I'll just give them PR access.
+**Jordan:** She is a contributor. I have another friend of mine that's contributor. But in my other projects, like when people give me PRs for Cleaver, which is my presentation framework has like 4,000 stars. I don't think it's used by that many people though. Sort of tried by star. But anyway, somebody gives me a good PR. I'd really look at it for a split second and then I'll look at their profile, make sure they're not like a spammer. And then I'll just give them PR access.
 
 **Jordan:** Or I'm sorry, commit access. So I'll literally add them to collaborator and be like, cool. You're in. Then merge your own thing. And I've tweeted about this. This is a piece of advice I got from John Resig. So I used to work in the Khan Academy. I am sorry. I'm namedropping so much of the episode. These are all nice people. I'm not saying that they're like, I'm cool because I know them. They're just really nice people you should know get to know them.
 
-**Jordan:** Anyway, John used to like mentor me a bit. We worked on accessibility stuff together. And one of the pieces of advice he gave you was like, "These people that enthusiastically view source code, a lot of times magical things will happen when you just give them commit access." So this is a library that I'm not going to touch again. And this person is, so let's just see what happens.
+**Jordan:** Anyway, John used to mentor me a bit. We worked on accessibility stuff together. And one of the pieces of advice he gave you was, "These people that enthusiastically view source code, a lot of times magical things will happen when you just give them commit access." So this is a library that I'm not going to touch again. And this person is, so let's just see what happens.
 
 **Jordan:** Worst case scenario, well, I guess worst, worst case scenario they spyware my library. So let's make sure they don't do that. If my library is not super important, whatever. But worst case scenario, they don't do anything so I can give the commit access, the emerge their own PR. Then they walk away. Great. That's the same as where we were in the initial state.
 
-**Jordan:** But what usually happens, and it's always fascinating to me, is that they'll start like grooming issues and grooming other people's PRs. It's fascinating to me. I have a Python library from when I was 19. It generates sine waves and like square waves and stuff. So you can write like sheet music and it will (singing) in Python. It's an awful, awful library. Very slow. It doesn't do anything. Anyway, someone gave me PR, I was like, cool, "Here you go."
+**Jordan:** But what usually happens, and it's always fascinating to me, is that they'll start grooming issues and grooming other people's PRs. It's fascinating to me. I have a Python library from when I was 19. It generates sine waves and square waves and stuff. So you can write sheet music and it will (singing) in Python. It's an awful, awful library. Very slow. It doesn't do anything. Anyway, someone gave me PR, I was like, cool, "Here you go."
 
-**Jordan:** And then they like redid everything. They're like, "Oh cool. You know, the way that you do octaves is wrong. I have a music degree." I'm like, "Cool. I don't, so that's great. Let's go with your code." And they fix everything. They go to old issues. They close them out. People can be PRs. They review them. It's phenomenal. This is just someone who gave me a drive by PR, that was probably like, "I fixed the typo in your docs." And I gave them commit access and magical things happened.
+**Jordan:** And then they redid everything. They're like, "Oh cool. You know, the way that you do octaves is wrong. I have a music degree." I'm like, "Cool. I don't, so that's great. Let's go with your code." And they fix everything. They go to old issues. They close them out. People can be PRs. They review them. It's phenomenal. This is just someone who gave me a drive by PR, that was probably like, "I fixed the typo in your docs." And I gave them commit access and magical things happened.
 
-**Jordan:** So all that to say I have not done that yet with an idea that 98.css. I still am interested in shaping it a little bit. Figuring out like, Where's this library live? How can I set this up for success when it comes to accessibility, when it comes to contributing a JavaScript style components? Once it's at that point, I'll probably be super, super, super liberal with just giving people all the access. But for now I'm very liberal with just merging PRs. Anyway listening, give me a PR I'll merge it. You can put spyware in it if you want.
+**Jordan:** So all that to say I have not done that yet with an idea that 98.css. I still am interested in shaping it a little bit. Figuring out, Where's this library live? How can I set this up for success when it comes to accessibility, when it comes to contributing a JavaScript style components? Once it's at that point, I'll probably be super, super, super liberal with just giving people all the access. But for now I'm very liberal with just merging PRs. Anyway listening, give me a PR I'll merge it. You can put spyware in it if you want.
 
 **Henry:** No, it makes sense.
 
 **Henry:** I think in the beginning, it's almost like you're still figuring out what you think this project is and you don't know the scope and stuff like that. And eventually you're kind of okay with what people... Or no, I think you put enough things in place so that it's natural for people to follow what your mental model on this project is, essentially. And it's almost like you don't even have to tell them, "Oh, this is about accessibility," or whatever it is, people will follow it. And I think that it's true in the source code, and the docs, and in how you act as a maintainer.
 
-**Henry:** I was even just trying to look through the project and stuff, and so even I was looking at some of the examples on the site for how to use certain things. I saw it would say, they had like the Bon Appétit members in one of the examples, I was like, that's cool.
+**Henry:** I was even just trying to look through the project and stuff, and so even I was looking at some of the examples on the site for how to use certain things. I saw it would say, they had the Bon Appétit members in one of the examples, I was like, that's cool.
 
 **Jordan:** Bon Appétit Test Kitchen. Shoutout to Claire!
 
@@ -221,7 +221,7 @@ quotes:
 
 **Jordan:** Oh, that's so great.
 
-**Jordan:** Thank you for telling me about that. I didn't know. But yeah, you're so right. Setting the stage of like have fun with this damn thing. Library makes it look like windows 98. Don't take yourself seriously. It's fun. Make sure it works. That's it. That's all I care about.
+**Jordan:** Thank you for telling me about that. I didn't know. But yeah, you're so right. Setting the stage of have fun with this damn thing. Library makes it look like windows 98. Don't take yourself seriously. It's fun. Make sure it works. That's it. That's all I care about.
 
 **Jordan:** I don't know. I'm into it. I don't know what the end state is. Part of me, I'm such an nihilist with this stuff, part of me is like, cool projects done. Looks like Windows 98, right? I'm done with it.
 
@@ -229,15 +229,15 @@ quotes:
 
 **Jordan:** Maybe no one's ever going to use this for their personal site. I didn't really build it for myself to use. I didn't have a use case in mind when I built this, which is an interesting point of view. That's the complete opposite from all my other open source projects. This is just literally something fun I want to make.
 
-**Jordan:** And I don't know what that means for the quote unquote, health of the library. If you want to determine health as like, how fresh is this thing going to stay? It's possible that no commits will ever be added again. There's a possibility that the library is going to sit there for two years.
+**Jordan:** And I don't know what that means for the quote unquote, health of the library. If you want to determine health as, how fresh is this thing going to stay? It's possible that no commits will ever be added again. There's a possibility that the library is going to sit there for two years.
 
 **Jordan:** And I don't think there's any visual bugs in it. I'm so arrogant to be saying, it's so small in scope, I've measured. It looks like Windows 98. And I don't think anyone's going to be complaining on Twitter like people have been about a dedent JavaScript library being like, Oh, this is used by 4 million people a month, but it has this old bug library's not maintained for two years. I'm so pissed off right now.
 
 **Jordan:** That's not going to happen for Windows 98. So is it fair to say that Windows 98 might die? I don't know. Maybe it's immortal because it's just going to always exist. It's always going to look like Windows 98.
 
-**Henry:** I think that's a good question to think about, what you're saying. What does it mean for a project to be healthy? There's so many aspects of that. I think we tend to think of healthy as relevance instead of I, and from the maintainer point of view, I think of the maintainer health of like, who is working on it. Are they not being burnt out that kind of thing? Or you can talk about the code and whether it even works still, is it doing what it's supposed to do? And then also just what you were saying earlier about, where is it going? Does it have a vision? But not every project needs, something like that.
+**Henry:** I think that's a good question to think about, what you're saying. What does it mean for a project to be healthy? There's so many aspects of that. I think we tend to think of healthy as relevance instead of I, and from the maintainer point of view, I think of the maintainer health of, who is working on it. Are they not being burnt out that kind of thing? Or you can talk about the code and whether it even works still, is it doing what it's supposed to do? And then also just what you were saying earlier about, where is it going? Does it have a vision? But not every project needs, something like that.
 
-**Jordan:** Yeah. It's funny. I don't know if I'm taking it seriously enough.
+**Jordan:** It's funny. I don't know if I'm taking it seriously enough.
 
 **Henry:** Which is funny.
 
@@ -245,13 +245,13 @@ quotes:
 
 **Henry:** Good question.
 
-**Jordan:** Here's the thing. I am not, there's a couple parts of it where I am addressing browser bugs or browser discrepancies. Those will definitely probably break spectacularly. The way that we render check boxes on mobile Safari requires us to add another property. And is it possible that in five years, safari will catch up, mobile's safari will catch up that property will it break something else? I guess it's possible.
+**Jordan:** Here's the thing. There's a couple parts of it where I am addressing browser bugs or browser discrepancies. Those will definitely probably break spectacularly. The way that we render check boxes on mobile Safari requires us to add another property. And is it possible that in five years, safari will catch up, mobile's safari will catch up that property will it break something else? I guess it's possible.
 
 **Jordan:** And at that point, someone files a bug, is anyone going to want to fix it? That would be nice. How do I ensure that that's the case? I don't know. If I make it fun and an interesting place to contribute. I don't know.
 
 **Jordan:** A lot of people talk about how there's just this wall of even though they have a one line change for library, they don't want to go through the hoops. So what if those switches did exist for 98.css? What if I, two years from now, had six people that I've added as contributors because they've given me PRs and someone writes in says, "Hey, this checkbox bug is happening again." And then they just merge it. That would be, I think, successful for me.
 
-**Henry:** Another thing I wanted to bring up was you mentioned pixel perfect and sort of this weird uncanny valley of what it should look like, and then someone else did it. So like kind of right. What do we call it? Almost like anti-aliasing, by doing the 45 degree.
+**Henry:** Another thing I wanted to bring up was you mentioned pixel perfect and sort of this weird uncanny valley of what it should look like, and then someone else did it. What do we call it? Almost like anti-aliasing, by doing the 45 degree.
 
 **Jordan:** Yes. Absolutely.
 
@@ -265,9 +265,9 @@ quotes:
 
 **Henry:** I thought that was cool to put in.
 
-**Jordan:** Yeah. It kind of made for a cute little introduction of what did an input box? How was that described to the nineties. It's an input for entering text, anyway.
+**Jordan:** It kind of made for a cute little introduction of what did an input box? How was that described to the nineties. It's an input for entering text, anyway.
 
-**Jordan:** Yeah. So this book, I grabbed a copy of it because I found a digital version that had literally a picture of what that staircase pattern looks like on the shadows. And I was like, Oh my God, I have to immediately own this.
+**Jordan:** So this book, I grabbed a copy of it because I found a digital version that had literally a picture of what that staircase pattern looks like on the shadows. And I was like, Oh my God, I have to immediately own this.
 
 **Jordan:** So I bought it and I did reference it. It's referencing my variable names in terms of, I'm calling it button highlight color, button shadow color, and there's things in there of what should I call it? So I call something, just let me open up the docs, but the names I give to these things do correspond with what they're called. So for instance, option button, instead of radio button. It's called an option button. In the docs, it mentions why I've called radio. I didn't know this little fun fact. On old school radios, you might know this already, but you can only hit one of the buttons at once.
 
@@ -337,7 +337,7 @@ quotes:
 
 **Henry:** PRs. Those are PRs.
 
-**Jordan:** Sure. It's on GitHub! Thatjdanisso.cool. I used to care about that, and I used to think my blog post has to be perfect, but it takes so long. And again, this goes back to the CSS, I don't know what a perfect blog post is. I'm not a good writer, so who am I to say that I'm using too much passive voice. I don't know what that is, I got a B+ in English in high school. So for me, a blog post is like I have an idea, stew on it for a bit. Rich Hickey, what is it called, his hammock driven development. You go off and you think about it for a couple of days, and then one day you're like why not? You sit for 30 minutes and you just cram something out.
+**Jordan:** Sure. It's on GitHub! Thatjdanisso.cool. I used to care about that, and I used to think my blog post has to be perfect, but it takes so long. And again, this goes back to the CSS, I don't know what a perfect blog post is. I'm not a good writer, so who am I to say that I'm using too much passive voice. I don't know what that is, I got a B+ in English in high school. So for me, a blog post is like I have an idea, stew on it for a bit. Rich Hickey, what is it called, his hammock driven development. You go off and think about it for a couple of days, and then one day you're like why not? You sit for 30 minutes and you just cram something out.
 
 **Jordan:** That's what happened with the 98.css blog post. I was like cool, should I blog about this? Sure. It used to matter to me, where I'd be like oh, I got to get this out on launch. How could I launch without a blog post? That's so stupid in hindsight, so now as a very mature senior engineer, I know what it's like to be like I don't know, I don't feel like writing a blog post today. Then a week later, I'm like yeah, fuck it. Why not? Then you sit for 25 minutes and you write it, and it has typos, and you just ship it. That's how all my writing, that's now the Guy Fieri posts happened. I almost didn't finish that. This was four years ago, five years ago.
 
@@ -373,7 +373,7 @@ quotes:
 
 **Henry:** You mentioned the fractal thing earlier, too.
 
-**Jordan:** Yeah, yeah. Just having a lot of fun with it. It's just fantastic academic exercise, and the engagement on those tweets is nothing. On Twitter, you could be like node_modules are big, by the way, and you get 10,000 responses. It's so stupid. And if you want retweets, like if you want to be the person that is talking about hey, look how many stars my GitHub project got, look how many retweets I have, these sort of output metrics as I call them, you can hack those. I'm not into that, I'm more into I have things I want to share with people. Let me make it easy. For me, it's easiest to write something that's silly. It's easiest to... Sorry, did I click something in the podcast thing, or are we good?
+**Jordan:** Just having a lot of fun with it. It's just fantastic academic exercise, and the engagement on those tweets is nothing. On Twitter, you could be like node_modules are big, by the way, and you get 10,000 responses. It's so stupid. And if you want retweets, like if you want to be the person that is talking about hey, look how many stars my GitHub project got, look how many retweets I have, these sort of output metrics as I call them, you can hack those. I'm not into that, I'm more into I have things I want to share with people. Let me make it easy. For me, it's easiest to write something that's silly. It's easiest to... Sorry, did I click something in the podcast thing, or are we good?
 
 **Henry:** No, we're good.
 
@@ -399,7 +399,7 @@ quotes:
 
 **Henry:** They don't know so.
 
-**Jordan:** Yeah. They don't know, and they shouldn't care about me. I'm literally nobody. I don't matter. So if you're blogging about some cool CSS thing and it doesn't interest me, don't worry about it. So yeah, that's the risk is someone leaving. The other risk is again, the expert being snarky to you on Twitter. Which again, I don't care about them. I don't. Whatever, who cares. I've been flamed by lots of people. I have a picture of Jonathan Blow calling me an idiot on my wall, right? It's my Twitter background.
+**Jordan:** They don't know, and they shouldn't care about me. I'm literally nobody. I don't matter. So if you're blogging about some cool CSS thing and it doesn't interest me, don't worry about it. So yeah, that's the risk is someone leaving. The other risk is again, the expert being snarky to you on Twitter. Which again, I don't care about them. I don't. Whatever, who cares. I've been flamed by lots of people. I have a picture of Jonathan Blow calling me an idiot on my wall, right? It's my Twitter background.
 
 **Henry:** Love it. I tell people about that all the time.
 
@@ -426,7 +426,7 @@ quotes:
 
 **Henry:** I got tired of it, so yeah.
 
-**Jordan:** Okay. Very good game, The Witness. Witness is made by Jonathan Blow for anyone listening and doesn't know that. Very good game. One of my favorite puzzlers in the last several years.
+**Jordan:** Very good game, The Witness. Witness is made by Jonathan Blow for anyone listening and doesn't know that. Very good game. One of my favorite puzzlers in the last several years.
 
 **Henry:** I think it was because I did too many puzzles. I also played Antichamber so then.
 
@@ -436,7 +436,7 @@ quotes:
 
 **Jordan:** I understand that. Today, I didn't do many puzzles. I didn't do any chess puzzles today. I usually do those in the morning. I didn't actually do the crossword today. Today's Friday, right, so it's going to be hard.
 
-**Henry:** Yeah. How about we end with the guy theory stuff then?
+**Henry:** How about we end with the guy theory stuff then?
 
 **Jordan:** Ooh. Should I give a history lesson?
 
@@ -458,7 +458,7 @@ quotes:
 
 **Henry:** Because you put typos in there everywhere and stuff too.
 
-**Jordan:** Yeah. It's a whole thing. There's hidden jokes in there. Links that go to the wrong thing. I have a screenshot of the searching for glitter instead of glimmer on getting healthy, getting zero results. And I say I've never even heard of this glimmer thing. What is this spyware? And then everyone starts flaming you going, Oh my God, you're so stupid. You search for glitter, and it's like a honeypot, right. You get a honey pot for these snarky people, and I just love that, man. I love that stuff. It just gets me going because you're making a fool out of them. You're making it public that you were so rude to me. Here, I'm going to show the world how rude to me you are.
+**Jordan:** It's a whole thing. There's hidden jokes in there. Links that go to the wrong thing. I have a screenshot of the searching for glitter instead of glimmer on getting healthy, getting zero results. And I say I've never even heard of this glimmer thing. What is this spyware? And then everyone starts flaming you going, Oh my God, you're so stupid. You search for glitter, and it's like a honeypot, right. You get a honey pot for these snarky people, and I just love that, man. I love that stuff. It just gets me going because you're making a fool out of them. You're making it public that you were so rude to me. Here, I'm going to show the world how rude to me you are.
 
 **Jordan:** Yeah, a lot of people read through the entire thing and found it sincerely, which is sad for when it's a non-English speaker because I don't want to make fun of them. I don't want to make fun of anyone that didn't get the joke because they didn't understand my writing. But there are people that are English speakers that are VP of engineering at so-and-so, they're like, wow, definitely never using Babel again. I'm like okay, wait, hold on, pump the brakes a little bit. And no one said that, but people did say, wow, this is crazy. You could tell they didn't finish it. I don't even know. It doesn't make any sense.
 
@@ -480,13 +480,13 @@ quotes:
 
 **Jordan:** Oh, I tried to find the file size and I entered it incorrectly about four times in a row.
 
-**Henry:** Yeah. That was cool. That's real though. That's why it's funny.
+**Henry:** That was cool. That's real though. That's why it's funny.
 
 **Jordan:** So it'll say find length, command not found. So I have that. Usually, you don't see code examples with errors in them, so I thought that was a fun bit. Yeah, there's a couple of little pieces of treasure in there. Again, it's one of those things. You have fun writing it. I made myself laugh doing it, and I need to laugh. So yeah.
 
 **Henry:** No, it was good, and it created so many side things. I think you know when something's good when... Remember we found out a few years later, I think I messaged you, that the Britannica thing someone actually-
 
-**Jordan:** Someone used Lerna to like made a Britannica module, and it was real. I don't know how they even built it, but they got all the terms and then wrote a script, I guess, bizarre.
+**Jordan:** Someone used Lerna to made a Britannica module, and it was real. I don't know how they even built it, but they got all the terms and then wrote a script, I guess, bizarre.
 
 **Henry:** And they had a package for every letter too. So it's like Britannica A, B, C, D, and they all linked to each other. It's just like this crazy Frankenstein-
 
@@ -528,13 +528,13 @@ quotes:
 
 **Jordan:** I made fun of the guy. Your Twitter handles left pad. I made fun of the left pad guy a little bit. I called him a rouge developer instead of rogue, and he actually did get upset. He sent me a vaguely threatening Twitter message, but again, not a native speaker, so we had a chat about it. We're cool now. We're all set.
 
-**Jordan:** But anyway, and no one's expense, right. You make people laugh. You don't have to make fun of someone to get laughs out of people. You can just make fun of everything without being overly enlightened centrists. I'm not saying everything's bad, ha-ha. Just like being silly, and I don't know, it's kind of cool. It's a cheap way to smile, right. You're smiling at no one's expense. No one's getting made fun of. So I'm into it, but I haven't done it as much. I think that it's so much easier to put out a funny tweet than it is to do a funny Medium post, and it reaches more people faster.
+**Jordan:** But anyway, and no one's expense, right. You make people laugh. You don't have to make fun of someone to get laughs out of people. You can just make fun of everything without being overly enlightened centrists. I'm not saying everything's bad, ha-ha. Just being silly, and I don't know, it's kind of cool. It's a cheap way to smile, right. You're smiling at no one's expense. No one's getting made fun of. So I'm into it, but I haven't done it as much. I think that it's so much easier to put out a funny tweet than it is to do a funny Medium post, and it reaches more people faster.
 
-**Jordan:** Mediums also changed a lot, man. There are like modals everywhere. It's hard to read them on your phone. That post is behind the paywall now, though. And I have made a decent amount of money. Just every month Medium writes me a check and that pays for my HBO Go and my Netflix and stuff. So it's kind of nice over the years to just have to report it on my tax and stuff.
+**Jordan:** Mediums also changed a lot, man. There are modals everywhere. It's hard to read them on your phone. That post is behind the paywall now, though. And I have made a decent amount of money. Just every month Medium writes me a check and that pays for my HBO Go and my Netflix and stuff. So it's kind of nice over the years to just have to report it on my tax and stuff.
 
 **Jordan:** But yeah, it's bizarre. I could talk about it for hours. The responses and how I feel about it and all that. I don't know, I'm not embarrassed by it. A lot of people, I would say I'm most well known for that probably in the scheme of the internet and I'm not ashamed of it. I'm not embarrassed. It's fine. It's cool. I'm proud of that work. It's all right.
 
-**Henry:** Yeah. In terms of the balance between making fun or not wanting to make fun, like mocking people. I was thinking, it kind of reminds me of Angus's the Babel song basically that he made.
+**Henry:** In terms of the balance between making fun or not wanting to make fun, like mocking people. I was thinking, it kind of reminds me of Angus's the Babel song basically that he made.
 
 **Jordan:** I think I've listened to it.
 
@@ -542,13 +542,13 @@ quotes:
 
 **Jordan:** Yeah, you got to laugh. I don't know. My motto for life and the thing that trace everything down to is I just like to make people smile, and if that's 98.css or if it's a Guy Fieri post, that's what gets me going. It's just making people smile and making myself smile, really. I'm a deeply sad individual sometimes though. I have to make myself smile. That's also pretty good too. And yeah, I don't take myself too seriously. I don't see the value in it. Be nice to people. That's it. It's how I live my life.
 
-**Henry:** Yeah. I think that's a good place to end, actually.
+**Henry:** I think that's a good place to end, actually.
 
 **Jordan:** To end on a lofty, high horse, philosophical point.
 
 **Henry:** Yeah.
 
-**Jordan:** I think that that covers everything on my mind. Thanks so much for the chat and asking me questions.
+**Jordan:** I think that covers everything on my mind. Thanks so much for the chat and asking me questions.
 
 **Henry:** Yeah, thanks for joining.
 

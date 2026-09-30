@@ -1,7 +1,6 @@
 ---
 import { formatEpisodeDate } from "@/lib/dates";
 import { getEpisodeData } from "@/lib/episodes";
-import Search from "./Search.astro";
 
 interface Props {
   currentSlug: string;
@@ -25,11 +24,8 @@ const { archiveGroups } = await getEpisodeData();
          transform -translate-x-full lg:translate-x-0 transition-transform duration-300
          flex flex-col"
 >
-  <!-- Sidebar header with search, home, and mobile close -->
+  <!-- Sidebar navigation -->
   <div class="px-3 py-3 flex-shrink-0 flex items-center gap-2">
-    <div class="flex-1 min-w-0">
-      <Search variant="sidebar" />
-    </div>
     <a
       href="/"
       class="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-lg text-his-text-secondary no-underline transition-colors hover:bg-his-hover hover:text-his-text focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-his-green/60"
@@ -42,7 +38,7 @@ const { archiveGroups } = await getEpisodeData();
     </a>
     <button
       id="sidebar-close"
-      class="lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-his-hover text-his-text-tertiary transition-colors"
+      class="ml-auto lg:hidden w-10 h-10 flex items-center justify-center rounded-lg hover:bg-his-hover text-his-text-tertiary transition-colors"
       aria-label="Close sidebar"
     >
       <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">

@@ -22,7 +22,7 @@ quotes:
 
 **Henry:** I don't even know how to start. You're like, "I'm going to get a haircut" and if I want to get one with you. I was like, I might as well cut my own hair. Oh, do you want to cut my hair? And we should record a podcast while you're cutting my hair.
 
-[00:56] **Jonathan:** Yeah. Only good ideas.
+[00:56] **Jonathan:** Only good ideas.
 
 [00:58] **Henry:** I think we just cut the sides and then trim the top a little bit.
 
@@ -46,7 +46,7 @@ quotes:
 
 [01:51] **Henry:** What was that lecture we went to?
 
-[01:54] **Jonathan:** about like culture,
+[01:54] **Jonathan:** about culture,
 
 [01:55] **Henry:** Dr. Hunter ? I forgot. it was talking about how Christians tend to see our place in the culture in three different ways. And the first way was.. I don't know what the word was. It was forcing people to adhere to what our morals are. That kind of brings up pictures of kings and the opposite of separation of church and state.
 
@@ -54,7 +54,7 @@ quotes:
 
 [02:20] **Henry:** They would like to have theocracy, where the church has power and is how we're gonna change the culture. The other way was, assimilation, where you give up and you become like the world. I guess the first way is being stubborn ? And then the second way is accepting what everyone else says? And then the third way is isolating yourself, becoming a monk, living out what you believe without telling anyone anything.
 
-[02:47] **Jonathan:** Yeah, it's really interesting too because it's back in the time when Jesus was, there were a lot of different people like the Roman government or just the culture that they lived in. There are people who isolate from society because of being incredibly hopeless with whatever God was calling them to live in accordance to. Then there are other people who are like, I'm just going to give up and follow whatever people around me are doing. And there are people who are like really fiery, the zealots, right? They would resort to violence, to means that really go against how God calls us to live, to love other people.
+[02:47] **Jonathan:** Yeah, it's really interesting too because it's back in the time when Jesus was, there were a lot of different people like the Roman government or just the culture that they lived in. There are people who isolate from society because of being incredibly hopeless with whatever God was calling them to live in accordance to. Then there are other people who are like, I'm just going to give up and follow whatever people around me are doing. And there are people who are really fiery, the zealots, right? They would resort to violence, to means that really go against how God calls us to live, to love other people.
 
 **Jonathan:** And it's so interesting because I was reading [A Creative Minority](https://www.goodreads.com/book/show/32934494-a-creative-minority) by Jon Tyson. A lot of people see the religious group of ISIS trying to take control by force. What they find to be correct, what they find to be true. And they're trying to take back their culture. and it's interesting cause us as Christians, when we get really frustrated, we feel like we have to win our culture back and we have that mentality. He drew really interesting parallels, right? And it's not every day when people make comparisons with the modern church and ISIS, right.
 
@@ -70,7 +70,7 @@ quotes:
 
 **Jonathan:** I dunno. I mean you've been out of college longer than I have, so what are your thoughts about being a young adult, Christian, living in New York City? It's hard living in New York City when there's a lot of pressures and what they define as a meaningful and purposeful life. How do you maintain that?
 
-[06:05] **Henry:** Yeah. There's a lot to unpack there cause being a young adult in New York is pretty different from being a college student in New York.
+[06:05] **Henry:** There's a lot to unpack there cause being a young adult in New York is pretty different from being a college student in New York.
 
 **Henry:** I can get back to how I even came to New York. I didn't want to come cause I had negative opinions but maybe a lot of us grew up in the suburbs and decided to go to the city for some reason. I was just talking about this with my, old friends.
 
@@ -96,7 +96,7 @@ quotes:
 
 [08:27] **Jonathan:** I'm curious. I mean, you've lived in New York for some time now. When someone says, how's your community Henry? What do you think of?
 
-[08:34] **Henry:** Yeah. We were in Chinatown recently and you were talking about how you go to that park a lot. You might not even know anyone there, but you might see them a lot and it just feels like they know each other and everyone's not on their phone. So there's the neighborhood that you live in where you might know people, but not personally.
+[08:34] **Henry:** We were in Chinatown recently and you were talking about how you go to that park a lot. You might not even know anyone there, but you might see them a lot and it just feels like they know each other and everyone's not on their phone. So there's the neighborhood that you live in where you might know people, but not personally.
 
 **Henry:** And then there's the people that you hang out with. Maybe your church community, how are they doing? And of course work, which is different now because I live in the online city. Our online communities are like mini cities, they're just digital cities. I think all of us are participating in a lot of different ones, right? The internet itself is a big one. And for me, there's open source and JavaScript specifically.
 
@@ -108,7 +108,7 @@ quotes:
 
 **Henry:** It's a good opportunity for us to be a part of God's work in the city. Obviously we're biased because we live here, but where are people going and where should the gospel be spread? The city's that place. I think we all have different reasons. But I want to be a part of it here.
 
-[11:10] **Jonathan:** Yeah. You have a very different perspective on work and probably just with a lot of thinking.
+[11:10] **Jonathan:** You have a very different perspective on work and probably just with a lot of thinking.
 
 **Jonathan:** Getting sweaty.
 
@@ -116,7 +116,7 @@ quotes:
 
 [11:35] **Henry:** I think a big reason for that is cause I struggle with it so much. I'm still figuring that now, but at least recently, I feel a lot more at peace. When I was younger, I was super perfectionist. Especially with Asian parents, they always want you to do well in school.
 
-**Henry:** Really early on I kind of internalized that myself, where they didn't even have to tell me anymore. Wait, why do you care so much about grades now? So they never had to ask me cause I would just do it myself. But I think about like why I wanted to so badly. I think in the end, it would have to be about my identity.
+**Henry:** Really early on I kind of internalized that myself, where they didn't even have to tell me anymore. Wait, why do you care so much about grades now? So they never had to ask me cause I would just do it myself. But I think about why I wanted to so badly. I think in the end, it would have to be about my identity.
 
 **Henry:** But I finally started questioning, thinking more about Christianity. You can replay what your life's going to be like in your head saying, I have to get into a good college. Then you have to get a good job. Then you get married and you have kids. At the end you feel like you've already fast forwarded and what's the point? This is all going back to good grades. And so is life more than that? Is life more than getting a good job and making it? Of being successful?
 
@@ -126,7 +126,7 @@ quotes:
 
 **Henry:** I think one thing that we all could be better at is having the confidence to execute on our imagination. I remember reading this book recently called [Art and Fear](https://www.goodreads.com/book/show/187633.Art_and_Fear), and one of quotes was saying:
 
-**Henry:** "Your imagination is always going to be like ahead of what you can do, your execution."
+**Henry:** "Your imagination is always going to be ahead of what you can do, your execution."
 
 **Henry:** The problem is that we feel bad when the thing that is in your mind isn't the thing that is happening now. So you try really hard to get there. We feel like if you're not there, you're not good enough. But if you're a professional or the best in the world, that they've figured that out. You're always gonna feel that way and it's a good thing that your aspirations should always be ahead of where you're at.
 
@@ -134,7 +134,7 @@ quotes:
 
 **Henry:** It was talking about how in the midst of finishing, you've had the seeds of the next thing that you want to do. And hopefully that's the thing to inspire you versus, Oh, there's another thing. So it's not the hedonic treadmill, there's always a new thing, but that should be something that sparks some kind of hope or joy and not be so burdened.
 
-[14:32] **Jonathan:** I dunno. your hair is looking, let's just say this. You know how you're talking about like art
+[14:32] **Jonathan:** I dunno. your hair is looking, let's just say this. You know how you're talking about art
 
 [14:39] **Henry:** the haircut's a piece of art now. Oh, wow.
 
@@ -158,11 +158,11 @@ quotes:
 
 **Jonathan:** Oh yeah.
 
-**Jonathan:** Like let's say you're making up words in a language or something. You're never in a position where everything is going to be objectively new from that point forward. When God has this idea of creation, however he created the world, we can't relate to that because we have creation, we have inspirations.
+**Jonathan:** let's say you're making up words in a language or something. You're never in a position where everything is going to be objectively new from that point forward. When God has this idea of creation, however he created the world, we can't relate to that because we have creation, we have inspirations.
 
 **Jonathan:** There's a lot of people who limit creativity as just the output of using a specific side of the brain. Or just something that artists or people like writers or dancers, these few people are creative. People who studies science, they're not creative. I think even in engineering, there's this aspect of creativity that is overlooked and we also think about certain problems in metaphors.
 
-**Jonathan:** I was talking with my manager and we were talking about this one problem and there's a story of this one, painter right? He was painting the sidewalk and he put his bucket of paint in one place. Then, he painted let's say one yard, but then he left the bucket in the same place. And after each yard you have to walk all the way back and dip his paintbrush in the bucket. And then the further that that he was painting, the farther and farther he had to go to redip his paintbrush. And we were just kind of thinking of these different ways to imagine problems, which in a way it takes some sort of creativity as well. Maybe there's less of a left brain, right brain type of thing, or there's only some people who have creativity, but maybe the way that we view creativity is just very boxed into things that we can describe clearly.
+**Jonathan:** I was talking with my manager and we were talking about this one problem and there's a story of this one, painter right? He was painting the sidewalk and he put his bucket of paint in one place. Then, he painted let's say one yard, but then he left the bucket in the same place. And after each yard you have to walk all the way back and dip his paintbrush in the bucket. And then the further that he was painting, the farther and farther he had to go to redip his paintbrush. And we were just kind of thinking of these different ways to imagine problems, which in a way it takes some sort of creativity as well. Maybe there's less of a left brain, right brain type of thing, or there's only some people who have creativity, but maybe the way that we view creativity is just very boxed into things that we can describe clearly.
 
 [18:13] **Henry:** It's funny, the painting thing, I thought you were gonna mention Tom Sawyer or something. Wasn't he painting a fence and then he somehow got everyone else to do it? I forgot the story, but he didn't want to do it, but he convinced everyone else to do it for him. Which is creative too, in a different way.
 
@@ -180,7 +180,7 @@ quotes:
 
 **Henry:** What's the point of a conference talk? What do you want to get across? Do you want to teach people a certain thing or do you want them to come away being inspired? I think that's a better use of this opportunity to speak than just simply presenting some information they could have looked up. Especially if they have the opportunity to see you in person. The more personal, the better.
 
-[20:06] **Jonathan:** I think that's really interesting too, because I feel as Christians it's incredibly easy to portray in our society. When you tell someone I'm going to Easter Sunday it's really easy for people to be like, Oh this guy's probably, you know, especially wholly, right? Or this guy wouldn't be someone I'd have asked to hang out and go out at night, right? They instantly kind of put you in this box where you're abstaining from these things, I dunno. One of the ways that we tell our testimony is just like, sharing with people all the ways that I am broken, right? Sharing all the ways I have failed a million times.
+[20:06] **Jonathan:** I think that's really interesting too, because I feel as Christians it's incredibly easy to portray in our society. When you tell someone I'm going to Easter Sunday it's really easy for people to be like, Oh this guy's probably, you know, especially wholly, right? Or this guy wouldn't be someone I'd have asked to hang out and go out at night, right? They instantly kind of put you in this box where you're abstaining from these things, I dunno. One of the ways that we tell our testimony is just sharing with people all the ways that I am broken, right? Sharing all the ways I have failed a million times.
 
 **Jonathan:** I have really struggled with these things. For me, my story is that I wanted to go into medical school, and I didn't make it right, and I think before I'd be like so ashamed of that. Instantly I started to fear, people are going to view me as the guy who couldn't make it right, that the wall was a little bit too high for him.
 
@@ -188,9 +188,9 @@ quotes:
 
 **Jonathan:** That's where testimony is strong, right? There's a part where we were not all put together, there was a part when we struggled. It doesn't have to be those crazy stories, a lot of people get scared of sharing their testimony because they don't feel it's grandiose enough.
 
-**Jonathan:** Yeah. I think it's unfortunate, right? The point of testimony, what makes it so powerful is that there was this sort of turnaround, right? And it's this focus in this direction of, okay, God pulled me out of this situation and it wasn't me. There's such a power in sharing the place where we were and the place we are now.
+**Jonathan:** I think it's unfortunate, right? The point of testimony, what makes it so powerful is that there was this sort of turnaround, right? And it's this focus in this direction of, okay, God pulled me out of this situation and it wasn't me. There's such a power in sharing the place where we were and the place we are now.
 
-[22:04] **Henry:** Yeah. A lot of suffering that people go through can be shared, right? So in a way, people relate to your sufferings, weakness, burdens a lot more than your strengths or your accomplishments. That is that kind of leveling where we all feel weak at times and we all feel inadequate, because we are so similar in being sinful. it's pretty relevant even just for this week, how Christ redeems all that.
+[22:04] **Henry:** A lot of suffering that people go through can be shared, right? So in a way, people relate to your sufferings, weakness, burdens a lot more than your strengths or your accomplishments. That is that kind of leveling where we all feel weak at times and we all feel inadequate, because we are so similar in being sinful. it's pretty relevant even just for this week, how Christ redeems all that.
 
 **Henry:** Kind of going back to what you were saying, instead of saving the world, it's more how do we redeem the world, restore the world, and repair the world? I think there's a different attitude, approach, or mindset around that. Seeing the world more not like an actual person, seeing it as biological system. This is the same with how we can see cities or even code.
 
@@ -200,7 +200,7 @@ quotes:
 
 **Henry:** Maybe that goes back to Christianity too, us imposing our view of what we think flourishing is. The problem is that if we don't accomplish that, you might be hard on yourself or other people for not stepping up.
 
-**Henry:** They would use the word high modernism. When you think of those those TV shows or movies where the future is skyscrapers, flying cars, and clean streets, that kind of look. For her that vision was dead. For her cities should be for people. No one was intentionally like, this city should be for cars or for buildings, but trapped in your own vision, you might forget that it's about people.
+**Henry:** They would use the word high modernism. When you think of those TV shows or movies where the future is skyscrapers, flying cars, and clean streets, that kind of look. For her that vision was dead. For her cities should be for people. No one was intentionally like, this city should be for cars or for buildings, but trapped in your own vision, you might forget that it's about people.
 
 **Henry:** That's what I was saying earlier about the Bonhoeffer quote, about dreams of community. If you seek the dreams only, then you'll destroy the community because you lost the sense of loving people themselves. You have to go back to the loving people versus your idea. And that goes back to loving God. We think we love God through ideas and promises. We learn all this stuff and read all these books about theology, but we don't actually know God.
 

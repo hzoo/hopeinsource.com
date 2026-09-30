@@ -1,9 +1,11 @@
+import { isCompactReply } from "./compact-reply.js";
 import { toString as toStringUtil } from "mdast-util-to-string";
 import { visit } from "unist-util-visit";
 import type { Heading, Link, Paragraph, Parent, PhrasingContent, Root, RootContent, Strong, Text } from "mdast";
 import type { Plugin } from "unified";
 
 const timestampRegex = /^\[(\d{1,2}:\d{2}(?::\d{2})?)\]/;
+const maxConversationGapSeconds = 45;
 
 interface PluginOptions {
   timestampClass?: string;
@@ -32,6 +34,17 @@ function isHeading(node: RootContent): node is Heading {
 
 function createText(value: string): Text {
   return { type: "text", value };
+}
+
+function isProvisionalSpeaker(speaker: string): boolean {
+  return /^(?:unconfirmed\b|speaker\s+(?:\d+|unknown)\b)/i.test(speaker);
+}
+
+// A mini bubble is itself a playback link; never put another link/control inside it.
+function hasInteractiveContent(node: PhrasingContent): boolean {
+  if (['link', 'linkReference', 'image', 'imageReference'].includes(node.type)) return true;
+  if (node.type === 'html' && !/^\s*(?:<span\s+id=["'][^"']+["']\s*>\s*(?:<\/span>)?|<\/span>)\s*$/u.test(node.value)) return true;
+  return 'children' in node && node.children.some(hasInteractiveContent);
 }
 
 function createSpan(
@@ -105,6 +118,9 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
     const messageIdCountsBySecond = new Map<number, number>();
     let speakerCount = 0;
     let lastSpeaker: string | null = null;
+    let replyParent = "";
+    let previousTime: number | null = null;
+    let previousTimed = false;
 
     visit(tree, "paragraph", (node: Paragraph, index?: number, parent?: Parent) => {
       if (index === undefined || !parent) return;
@@ -113,6 +129,8 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       const prevNode = index > 0 ? parent.children[index - 1] : null;
       if (prevNode && isHeading(prevNode)) {
         lastSpeaker = null;
+        replyParent = "";
+        previousTime = null;
       }
 
       let timestamp: string | null = null;
@@ -130,6 +148,10 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
         timestamp = "00:00";
         speaker = toStringUtil(node.children[0] as Strong);
       } else {
+        // Prose, quotations, lists, and other Markdown interrupt reply attachment.
+        lastSpeaker = null;
+        replyParent = "";
+        previousTime = null;
         return;
       }
 
@@ -183,7 +205,9 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
 
       // Handle consecutive messages
       const isNextConsecutive = speaker === nextSpeaker;
-      const isPrevConsecutive = speaker === lastSpeaker;
+      const previousClasses = prevNode?.data?.hProperties?.className;
+      const isPrevConsecutive = speaker === lastSpeaker
+        && !(Array.isArray(previousClasses) && previousClasses.includes('message-ack'));
 
       const messageChildren: PhrasingContent[] = [
         createSpan("message-text", content as PhrasingContent[]),
@@ -193,7 +217,37 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
       }
       const messageSpan = createSpan(textClass, messageChildren);
 
+      const spokenText = content.map(part => toStringUtil(part)).join("").replace(/<[^>]*>/g, "").trim().replace(/^:\s*/, "");
+      // Reviewed empty filler turns retain their original anchor and occurrence.
+      // Keeping the source turn also keeps later same-second IDs stable.
+      if (!spokenText) {
+        node.children = content;
+        node.data = { hName: 'span', hProperties: { id: messageId, className: ['transcript-anchor'], 'data-timestamp': String(seconds) } };
+        replyParent = "";
+        previousTime = null;
+        return;
+      }
+      const previousProps = prevNode?.data?.hProperties;
+      const adjacentMessage = Boolean(previousProps?.['data-speaker']
+        && Array.isArray(previousProps.className) && !previousProps.className.includes('message-system'));
+      const nearby = previousTime !== null && previousTimed === hasExplicitTimestamp
+        && (!hasExplicitTimestamp || (seconds >= previousTime && seconds - previousTime <= maxConversationGapSeconds));
+      const compactReply = Boolean(adjacentMessage && nearby && replyParent && lastSpeaker && lastSpeaker !== speaker
+        && alignmentClass !== 'message-system' && !isProvisionalSpeaker(speaker) && !isProvisionalSpeaker(lastSpeaker)
+        && !content.some(hasInteractiveContent) && isCompactReply(spokenText));
       const classes = [wrapClass, alignmentClass];
+      if (compactReply) classes.push('message-ack');
+      else if (spokenText.split(/\s+/).length <= 4 && alignmentClass !== 'message-system'
+        && !isProvisionalSpeaker(speaker)) classes.push('message-brief');
+      const nod = compactReply && hasExplicitTimestamp;
+      const nodLabel = `${speaker.replace(/:$/, "")} · ${formatTimestamp(seconds)}`;
+      if (nod) {
+        classes.push('message-nod', alignmentClass === 'message-received' ? 'reply-left' : 'reply-right');
+        const play = createTimestampLink(`${timestampClass} nod-play`, timestamp, seconds);
+        play.children = [messageChildren[0]];
+        play.data!.hProperties!['aria-label'] = `${nodLabel}: ${spokenText} Play passage`;
+        messageChildren.splice(0, messageChildren.length, play);
+      }
 
       if (isPrevConsecutive || isNextConsecutive) {
         classes.push('consecutive');
@@ -219,11 +273,94 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
           id: messageId,
           className: classes,
           "data-timestamp": String(seconds),
+          "data-speaker": speaker.replace(/:$/, ""),
           "data-msg-occurrence": String(nextOccurrence),
+          ...(nod ? { "data-nod-label": nodLabel, "data-reply-to": replyParent } : {}),
         },
       };
 
       lastSpeaker = speaker;
+      previousTime = seconds;
+      previousTimed = hasExplicitTimestamp;
+      if (!compactReply) { replyParent = messageId; }
     });
+
+    // Group only adjacent rendered turns. Markdown and canonical passage IDs stay flat.
+    const grouped: RootContent[] = [];
+    for (const node of tree.children) {
+      const replyTo = node.data?.hProperties?.['data-reply-to'];
+      const previous = grouped.at(-1);
+      if (replyTo && previous) {
+        const previousId = previous.data?.hProperties?.id;
+        const groupId = previous.data?.hProperties?.['data-reply-parent'];
+        if (groupId === replyTo && previous.type === 'blockquote') {
+          previous.children.push(node as Paragraph);
+          continue;
+        }
+        if (previousId === replyTo && previous.type === 'paragraph') {
+          const classes = String(previous.data?.hProperties?.className || '');
+          grouped[grouped.length - 1] = {
+            type: 'blockquote',
+            data: { hName: 'div', hProperties: {
+              className: ['message-thread', classes.includes('message-received') ? 'thread-left' : 'thread-right'],
+              'data-reply-parent': replyTo,
+            } },
+            children: [previous, node as Paragraph],
+          };
+          continue;
+        }
+      }
+      grouped.push(node);
+    }
+    // A brief response does not restart the main speaker's visual run.
+    // Structural boundaries and longer pauses restore the visible attribution.
+    let previousLead: string | null = null;
+    let previousEnd = 0;
+    for (const node of grouped) {
+      const lead = node.type === 'blockquote' && node.data?.hProperties?.['data-reply-parent']
+        ? node.children[0] : node;
+      const props = lead.data?.hProperties;
+      const speaker = props?.['data-speaker'];
+      const classes = props?.className;
+      if (typeof speaker !== 'string' || !Array.isArray(classes) || classes.includes('message-nod')) {
+        previousLead = null;
+        continue;
+      }
+      const start = Number(props?.['data-timestamp']);
+      if (previousLead === speaker && start >= previousEnd && start - previousEnd <= maxConversationGapSeconds) {
+        if (!classes.includes('hide-speaker')) classes.push('hide-speaker');
+        classes.push('message-continuation');
+        if (node !== lead) {
+          (node.data!.hProperties!.className as string[]).push('thread-continuation');
+        }
+      }
+      previousLead = speaker;
+      const tail = node.type === 'blockquote' ? node.children.at(-1) : node;
+      previousEnd = Number(tail?.data?.hProperties?.['data-timestamp'] ?? start);
+    }
+    // Pair nearby responses on opposite sides without reordering their DOM/audio sequence.
+    for (const group of grouped) {
+      if (group.type !== 'blockquote' || !group.data?.hProperties?.['data-reply-parent']) continue;
+      const children = [group.children[0]];
+      for (const reply of group.children.slice(1)) {
+        const previous = children.at(-1);
+        const previousReply = previous?.type === 'blockquote' ? previous.children[0] : null;
+        const left = (reply.data?.hProperties?.className as string[])?.includes('reply-left');
+        const previousLeft = (previousReply?.data?.hProperties?.className as string[])?.includes('reply-left');
+        const gap = Number(reply.data?.hProperties?.['data-timestamp'])
+          - Number(previousReply?.data?.hProperties?.['data-timestamp']);
+        if (previous?.type === 'blockquote' && previous.children.length === 1
+          && left !== previousLeft && gap >= 0 && gap <= 8 && (previousLeft || gap === 0)) {
+          previous.children.push(reply);
+          (previous.data!.hProperties!.className as string[]).push('reply-row-pair');
+        } else {
+          children.push({ type: 'blockquote', data: { hName: 'div', hProperties: {
+            className: ['reply-row'],
+          } }, children: [reply] });
+        }
+      }
+      group.children = children;
+    }
+    tree.children = grouped;
   };
 };
