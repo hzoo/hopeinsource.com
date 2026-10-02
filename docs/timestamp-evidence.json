@@ -1,0 +1,1066 @@
+{
+  "status": "Model-derived timing evidence; no human listening or speaker verification.",
+  "method": "Exact normalized token-phrase matching in bounded absolute windows; whitespace and punctuation normalized, wording not repaired.",
+  "models": {
+    "whisper": "Existing local mlx-whisper 0.4.3 / MLX 0.32.2 large-v3-turbo; deterministic English unprompted word timing.",
+    "phonon": "Parent-produced FermionResearch/Phonon-2 / fermion-research 0.2.7 / MLX 0.32.3; source outputs preserved.",
+    "redux": "Cached moondream/parakeet-redux revision 2bf128600aac4b16946f7ed8372e56117fe5e23b; installed mlx-audio 0.5.7 adapter, strict loading, float32, greedy TDT, 30s chunks/2s overlap, no VAD."
+  },
+  "model_limitations": [
+    "Model output may omit, alter, repeat or hallucinate words; absent exact phrase is not absent audio.",
+    "Redux token times have an 80ms encoder-frame granularity and use 30s/2s-overlap chunks without VAD.",
+    "Source timestamps use whole seconds; floor versus rounding can differ by less than one second.",
+    "Motivation initial I think is misrecognized by all full-clip models; the onset of that source prefix is not an exact phrase match.",
+    "Phonon Illich omits portions that Whisper/Redux transcribe, so it is not evidence to delete those source words."
+  ],
+  "clips": [
+    {
+      "clip": "01-motivation-11m20s-13m10s",
+      "sha256": "701972cecd3845a0263cafd1636356d53505fb6be45a1c32ee3e49f9f66868a0",
+      "offset_seconds": 680,
+      "duration_seconds": 110
+    },
+    {
+      "clip": "02-speedrunning-20m25s-22m05s",
+      "sha256": "edaa1b86fa12140c64137c63c784d52dd21b22347b690ea7372cae71559faa58",
+      "offset_seconds": 1225,
+      "duration_seconds": 100
+    },
+    {
+      "clip": "03-speedrunning-1h24m08s-1h24m35s",
+      "sha256": "58ca73e84110e48a48e972ac4099847cbfecf5b5220de5d154f4afc0e7842628",
+      "offset_seconds": 5048,
+      "duration_seconds": 27
+    },
+    {
+      "clip": "04-illich-24m38s-26m25s",
+      "sha256": "6ff6248dcebfe0065639af2376b84bc0409ad62a17c561b1b5e10e1af947b64b",
+      "offset_seconds": 1478,
+      "duration_seconds": 107
+    },
+    {
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "sha256": "cb680f3793700626487bcd8c44aff3b211a736d63101403f39c2af9eba744d1a",
+      "offset_seconds": 5080,
+      "duration_seconds": 126.438141
+    },
+    {
+      "clip": "06-motivation-10m55s-12m35s",
+      "sha256": "191b7670af92f131225f85c8b2e31a111164cf95868bed4bb7e6a155507a3e99",
+      "offset_seconds": 655,
+      "duration_seconds": 100
+    },
+    {
+      "clip": "07-speedrunning-19m40s-20m35s",
+      "sha256": "4801821122fc99a1c1d55c40ec5fba4ef9985725c52183c99f3e46de4d435b17",
+      "offset_seconds": 1180,
+      "duration_seconds": 55
+    }
+  ],
+  "source_edits": [
+    {
+      "path": "src/content/podcast/season-1/motivation.md",
+      "before": "11:54",
+      "after": "11:07",
+      "preserved_anchor": "msg-714",
+      "passage_prefix": "I've had people"
+    },
+    {
+      "path": "src/content/podcast/season-1/motivation.md",
+      "before": "12:16",
+      "after": "11:26",
+      "preserved_anchor": "msg-736",
+      "passage_prefix": "I think I brought this up"
+    },
+    {
+      "path": "src/content/podcast/season-1/motivation.md",
+      "before": "12:33",
+      "after": "11:45",
+      "preserved_anchor": "msg-753",
+      "passage_prefix": "And I saw that you tweeted"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "20:41",
+      "after": "21:00",
+      "preserved_anchor": "msg-1241",
+      "passage_prefix": "I would say most people"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "21:55",
+      "after": "21:16",
+      "preserved_anchor": "msg-1315",
+      "passage_prefix": "Yeah cause I think"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "22:09",
+      "after": "21:32",
+      "preserved_anchor": "msg-1329",
+      "passage_prefix": "There are certainly people"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:23:33",
+      "after": "01:24:58",
+      "preserved_anchor": "msg-5013",
+      "passage_prefix": "And then regarding decentralization"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:24:00",
+      "after": "01:25:27",
+      "preserved_anchor": "msg-5040",
+      "passage_prefix": "Yeah there\u2019s benefits"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:24:13",
+      "after": "01:25:45",
+      "preserved_anchor": "msg-5053",
+      "passage_prefix": "Yeah I think that\u2019s all"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:24:22",
+      "after": "01:25:52",
+      "preserved_anchor": "msg-5062",
+      "passage_prefix": "Oh yeah it was great"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:24:20",
+      "after": "01:25:56",
+      "preserved_anchor": "msg-5060",
+      "passage_prefix": "Where can people find you"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:24:25",
+      "after": "01:26:00",
+      "preserved_anchor": "msg-5065",
+      "passage_prefix": "Well now that most"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:25:05",
+      "after": "01:26:43",
+      "preserved_anchor": "msg-5105",
+      "passage_prefix": "Thanks!"
+    },
+    {
+      "path": "src/content/podcast/season-2/speedrunning.md",
+      "before": "01:25:06",
+      "after": "01:26:45",
+      "preserved_anchor": "msg-5106",
+      "passage_prefix": "Thank you so much Henry."
+    }
+  ],
+  "phrase_evidence": [
+    {
+      "episode": "motivation",
+      "source_before": "11:54",
+      "source_after": "11:07",
+      "exact_query_phrase": "I've had people",
+      "clip": "06-motivation-10m55s-12m35s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 667.6,
+              "end": 668.48
+            }
+          ],
+          "raw": "06-motivation-10m55s-12m35s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 667.8,
+              "end": 668.52
+            }
+          ],
+          "raw": "phonon/06-motivation-10m55s-12m35s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 667.64,
+              "end": 668.76
+            }
+          ],
+          "raw": "redux/06-motivation-10m55s-12m35s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "motivation",
+      "source_before": "12:16",
+      "source_after": "11:26",
+      "exact_query_phrase": "I think I brought this up",
+      "clip": "06-motivation-10m55s-12m35s",
+      "models": {
+        "whisper": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "06-motivation-10m55s-12m35s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "phonon/06-motivation-10m55s-12m35s.absolute-words.json"
+        },
+        "redux": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "redux/06-motivation-10m55s-12m35s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "motivation",
+      "source_before": "12:16 context",
+      "source_after": null,
+      "exact_query_phrase": "brought this up",
+      "clip": "06-motivation-10m55s-12m35s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 687.22,
+              "end": 687.8
+            }
+          ],
+          "raw": "06-motivation-10m55s-12m35s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 687.395,
+              "end": 687.875
+            }
+          ],
+          "raw": "phonon/06-motivation-10m55s-12m35s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 687.4,
+              "end": 687.8
+            }
+          ],
+          "raw": "redux/06-motivation-10m55s-12m35s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "motivation",
+      "source_before": "12:33",
+      "source_after": "11:45",
+      "exact_query_phrase": "And I saw",
+      "clip": "01-motivation-11m20s-13m10s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 705.66,
+              "end": 706.28
+            }
+          ],
+          "raw": "01-motivation-11m20s-13m10s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "phonon/01-motivation-11m20s-13m10s.absolute-words.json"
+        },
+        "redux": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "redux/01-motivation-11m20s-13m10s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "motivation",
+      "source_before": "12:33 first retained word",
+      "source_after": "11:45",
+      "exact_query_phrase": "And",
+      "clip": "01-motivation-11m20s-13m10s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 705.66,
+              "end": 705.9
+            }
+          ],
+          "raw": "01-motivation-11m20s-13m10s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 705.68,
+              "end": 705.84
+            }
+          ],
+          "raw": "phonon/01-motivation-11m20s-13m10s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 705.68,
+              "end": 705.84
+            }
+          ],
+          "raw": "redux/01-motivation-11m20s-13m10s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "20:41",
+      "source_after": "21:00",
+      "exact_query_phrase": "I would say most people",
+      "clip": "02-speedrunning-20m25s-22m05s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1260.22,
+              "end": 1261.68
+            }
+          ],
+          "raw": "02-speedrunning-20m25s-22m05s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1260.715,
+              "end": 1261.675
+            }
+          ],
+          "raw": "phonon/02-speedrunning-20m25s-22m05s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1260.52,
+              "end": 1261.72
+            }
+          ],
+          "raw": "redux/02-speedrunning-20m25s-22m05s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "21:55",
+      "source_after": "21:16",
+      "exact_query_phrase": "Yeah",
+      "clip": "02-speedrunning-20m25s-22m05s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1276.58,
+              "end": 1276.98
+            }
+          ],
+          "raw": "02-speedrunning-20m25s-22m05s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1276.795,
+              "end": 1276.955
+            }
+          ],
+          "raw": "phonon/02-speedrunning-20m25s-22m05s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1276.68,
+              "end": 1276.84
+            }
+          ],
+          "raw": "redux/02-speedrunning-20m25s-22m05s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "22:09",
+      "source_after": "21:32",
+      "exact_query_phrase": "There are certainly people",
+      "clip": "02-speedrunning-20m25s-22m05s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1292.0,
+              "end": 1293.48
+            }
+          ],
+          "raw": "02-speedrunning-20m25s-22m05s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1292.315,
+              "end": 1293.515
+            }
+          ],
+          "raw": "phonon/02-speedrunning-20m25s-22m05s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1292.2,
+              "end": 1293.56
+            }
+          ],
+          "raw": "redux/02-speedrunning-20m25s-22m05s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:23:33",
+      "source_after": "01:24:58",
+      "exact_query_phrase": "And then",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5098.36,
+              "end": 5099.0
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5098.64,
+              "end": 5098.96
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5098.56,
+              "end": 5098.96
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:24:00",
+      "source_after": "01:25:27",
+      "exact_query_phrase": "Yeah",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5126.38,
+              "end": 5127.7
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5127.48,
+              "end": 5127.8
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5127.28,
+              "end": 5127.6
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:24:13",
+      "source_after": "01:25:45",
+      "exact_query_phrase": "Yeah I think",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5145.7,
+              "end": 5146.52
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5145.81,
+              "end": 5146.53
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5145.68,
+              "end": 5146.4
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:24:22",
+      "source_after": "01:25:52",
+      "exact_query_phrase": "Oh yeah",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5152.88,
+              "end": 5153.46
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5153.17,
+              "end": 5153.49
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5152.96,
+              "end": 5153.36
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:24:20",
+      "source_after": "01:25:56",
+      "exact_query_phrase": "Where can people find you",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5156.18,
+              "end": 5157.96
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5156.53,
+              "end": 5157.97
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5156.4,
+              "end": 5158.16
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:24:25",
+      "source_after": "01:26:00",
+      "exact_query_phrase": "Well now that most",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5160.68,
+              "end": 5162.94
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "exact_phrase_absent",
+          "matches": [],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:24:25 first retained word",
+      "source_after": "01:26:00",
+      "exact_query_phrase": "Well",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5160.68,
+              "end": 5161.16
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5160.69,
+              "end": 5161.09
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5160.56,
+              "end": 5160.96
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:25:05",
+      "source_after": "01:26:43",
+      "exact_query_phrase": "Thanks",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5203.38,
+              "end": 5203.62
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5203.495,
+              "end": 5205.175
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5203.36,
+              "end": 5204.0
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "speedrunning",
+      "source_before": "01:25:06",
+      "source_after": "01:26:45",
+      "exact_query_phrase": "Thank you so much",
+      "clip": "05-speedrunning-tail-1h24m40s-1h26m46s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5205.0,
+              "end": 5205.9
+            }
+          ],
+          "raw": "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5205.255,
+              "end": 5205.975
+            }
+          ],
+          "raw": "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 5205.04,
+              "end": 5205.76
+            }
+          ],
+          "raw": "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "illich",
+      "source_before": "24:47 retained / 25:33 removed duplicate",
+      "source_after": null,
+      "exact_query_phrase": "And so",
+      "clip": "04-illich-24m38s-26m25s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1487.68,
+              "end": 1487.94
+            }
+          ],
+          "raw": "04-illich-24m38s-26m25s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1487.68,
+              "end": 1488.0
+            }
+          ],
+          "raw": "phonon/04-illich-24m38s-26m25s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1487.6,
+              "end": 1488.08
+            }
+          ],
+          "raw": "redux/04-illich-24m38s-26m25s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "illich",
+      "source_before": "24:47 phrase context",
+      "source_after": null,
+      "exact_query_phrase": "necessity of limits",
+      "clip": "04-illich-24m38s-26m25s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1492.0,
+              "end": 1493.08
+            }
+          ],
+          "raw": "04-illich-24m38s-26m25s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1491.92,
+              "end": 1493.04
+            }
+          ],
+          "raw": "phonon/04-illich-24m38s-26m25s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1492.0,
+              "end": 1493.28
+            }
+          ],
+          "raw": "redux/04-illich-24m38s-26m25s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "illich",
+      "source_before": "25:06 unchanged",
+      "source_after": null,
+      "exact_query_phrase": "the way I've thought of it lately",
+      "clip": "04-illich-24m38s-26m25s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1505.74,
+              "end": 1507.28
+            }
+          ],
+          "raw": "04-illich-24m38s-26m25s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1506.16,
+              "end": 1507.28
+            }
+          ],
+          "raw": "phonon/04-illich-24m38s-26m25s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1506.08,
+              "end": 1507.28
+            }
+          ],
+          "raw": "redux/04-illich-24m38s-26m25s.raw.json"
+        }
+      }
+    },
+    {
+      "episode": "illich",
+      "source_before": "25:33 distinct unchanged",
+      "source_after": null,
+      "exact_query_phrase": "And so instead of imagining",
+      "clip": "04-illich-24m38s-26m25s",
+      "models": {
+        "whisper": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1532.8,
+              "end": 1535.6
+            }
+          ],
+          "raw": "04-illich-24m38s-26m25s.whisper.raw.json"
+        },
+        "phonon": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1533.275,
+              "end": 1535.675
+            }
+          ],
+          "raw": "phonon/04-illich-24m38s-26m25s.absolute-words.json"
+        },
+        "redux": {
+          "status": "matched",
+          "matches": [
+            {
+              "start": 1533.28,
+              "end": 1535.36
+            }
+          ],
+          "raw": "redux/04-illich-24m38s-26m25s.raw.json"
+        }
+      }
+    }
+  ],
+  "illich_sequence": {
+    "whisper": {
+      "necessity of limits": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1492.0,
+            "end": 1493.08,
+            "matched_text": "necessity of limits"
+          }
+        ]
+      },
+      "the way I've thought": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1505.74,
+            "end": 1506.8,
+            "matched_text": "the way i've thought"
+          }
+        ]
+      },
+      "and so instead of imagining": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1532.8,
+            "end": 1535.6,
+            "matched_text": "and so instead of imagining"
+          }
+        ]
+      }
+    },
+    "phonon": {
+      "necessity of limits": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1491.92,
+            "end": 1493.04,
+            "matched_text": "necessity of limits"
+          }
+        ]
+      },
+      "the way I've thought": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1506.16,
+            "end": 1506.88,
+            "matched_text": "the way i've thought"
+          }
+        ]
+      },
+      "and so instead of imagining": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1533.275,
+            "end": 1535.675,
+            "matched_text": "and so instead of imagining"
+          }
+        ]
+      }
+    },
+    "redux": {
+      "necessity of limits": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1492.0,
+            "end": 1493.28,
+            "matched_text": "necessity of limits"
+          }
+        ]
+      },
+      "the way I've thought": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1506.08,
+            "end": 1506.8,
+            "matched_text": "the way i've thought"
+          }
+        ]
+      },
+      "and so instead of imagining": {
+        "count": 1,
+        "matches": [
+          {
+            "start": 1533.28,
+            "end": 1535.36,
+            "matched_text": "and so instead of imagining"
+          }
+        ]
+      }
+    }
+  },
+  "raw_sha256": {
+    "06-motivation-10m55s-12m35s.whisper.raw.json": "7ec0724d6f42c7005c806cfd3cc1d8edb593cecce4b203e84be7fcecef617811",
+    "phonon/06-motivation-10m55s-12m35s.absolute-words.json": "87c9127def4f7e914cb4216e0b599804c83143cb290681ba13b5318e506838cf",
+    "redux/06-motivation-10m55s-12m35s.raw.json": "a8a6ce08da865d399cbe3bfab81c860cdde8e09f430cba5049f8855638df9cfc",
+    "01-motivation-11m20s-13m10s.whisper.raw.json": "dbed6d38b14131ff7041b08794c25e5e044dc04ae46e47cbfa69fcd0384780ab",
+    "phonon/01-motivation-11m20s-13m10s.absolute-words.json": "bbd8e89ad9599c23c5bcce682d5bd3571159463f2b5cd396916f26a69a2ff73a",
+    "redux/01-motivation-11m20s-13m10s.raw.json": "fe8f271c8475e4cc65307ee0b8ea6f5925a589c2c42e0bba78b45ea0904ff1c4",
+    "02-speedrunning-20m25s-22m05s.whisper.raw.json": "ccabc26366f4651b9370331cbb4d3f591aad74113c00513abe4e993e34d342ca",
+    "phonon/02-speedrunning-20m25s-22m05s.absolute-words.json": "9b52f98c98e80ae4982a26d6ee6a4e6e583e6e387116b982cd5cdfacf4d8465a",
+    "redux/02-speedrunning-20m25s-22m05s.raw.json": "61006ce46d9357ccd52e8c9b3c5386f42bec9c06c74f1c3ec292b80db2721998",
+    "05-speedrunning-tail-1h24m40s-1h26m46s.whisper.raw.json": "584ab058d0f9ef788a16bb278ebbc857f24323c2e8ded738cded9c1935e8c396",
+    "phonon/05-speedrunning-tail-1h24m40s-1h26m46s.absolute-words.json": "d9efc1ddf75e6519d2b65b4b9052f2e2f7c9dff066402e093bafce595c40908f",
+    "redux/05-speedrunning-tail-1h24m40s-1h26m46s.raw.json": "1ac3d6701260ae771f3dc28b48191c950304eb4c8b6e779a401158caf560bd0b",
+    "04-illich-24m38s-26m25s.whisper.raw.json": "5ed2f8371ffaaf931ec640f4d1aaeee142677c6d5351d045a4797560402d812f",
+    "phonon/04-illich-24m38s-26m25s.absolute-words.json": "50dc48481aa1158513e7b9971d8d24e2a5a79dcc044bdb2e91fb471f347bd6cc",
+    "redux/04-illich-24m38s-26m25s.raw.json": "9d9eefab81e42e95bfa226565e170ee75ce85670285fe11e114a0f4fea4c6771"
+  },
+  "initial_motivation_prefix": {
+    "status": "Lower-confidence inferred turn onset; wording retained.",
+    "support": "The unchanged cached 685\u2013705s Whisper excerpt recognizes I think I brought this up; initial I at686.20\u2013687.16, probability0.355, brought at687.32. Longer clips recognize Nick near686.8\u2013687.0.",
+    "cached_evidence": "experiments/transcript-pilot/motivation/raw/excerpts/track-0-685-705.json"
+  }
+}

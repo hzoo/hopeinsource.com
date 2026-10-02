@@ -51,3 +51,12 @@ export function parseTimeHash(hash: string): ParsedTimeHash | null {
     canonicalHash: `#t=${seconds}`,
   };
 }
+
+/** A legacy passage alias must not redirect a time link to a different timestamp. */
+export function timeHashTarget<T extends { dataset: { timestamp?: string } }>(
+  seconds: number,
+  candidate: T | null,
+  nearest: T | undefined,
+): T | undefined {
+  return candidate && parseTimeValue(candidate.dataset.timestamp ?? '') === seconds ? candidate : nearest;
+}

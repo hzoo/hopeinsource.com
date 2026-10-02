@@ -3,7 +3,7 @@
  * Audio owns timestamps in Read view; video owns them in Watch view.
  */
 
-import { parseTimeHash } from "./time-hash";
+import { parseTimeHash, timeHashTarget } from "./time-hash";
 
 interface MessagePoint {
     time: number;
@@ -179,8 +179,9 @@ function stageHashTime(options: { scroll: boolean }) {
         setAudioPosition(parsedTimeHash.seconds);
         if (options.scroll) {
             const index = findMessageIndex(parsedTimeHash.seconds);
-            const message = document.getElementById(`msg-${parsedTimeHash.seconds}`)
-                ?? messagePoints[Math.max(0, index)]?.el;
+            const message = timeHashTarget(parsedTimeHash.seconds,
+                document.getElementById(`msg-${parsedTimeHash.seconds}`),
+                messagePoints[Math.max(0, index)]?.el);
             requestAnimationFrame(() => message?.scrollIntoView({ block: "start", behavior: "instant" }));
         }
         return;

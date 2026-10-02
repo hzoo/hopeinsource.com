@@ -58,7 +58,7 @@ Hosted CI passed for the initial cleanup commit. Hosted preview checks verified 
 
 ## Remaining source review
 
-The read-only archive audit reports four backward timestamp transitions. Listening is needed before changing these source times or their linkable IDs.
+The initial read-only archive audit reported four backward timestamp transitions. A subsequent explicitly authorized, focused recognition pass checked them with Whisper, Parakeet Redux, and Phonon-2. Its corrections and remaining timing limits are recorded in the [timestamp review](timestamp-review.md); all old passage IDs are retained. The transitions below describe the original audit findings.
 
 | Episode | Transition | Flagged anchor |
 | --- | --- | --- |
@@ -67,7 +67,7 @@ The read-only archive audit reports four backward timestamp transitions. Listeni
 | Speedrunning as Research | 1:24:22 → 1:24:20 | [msg-5060](https://hopeinsource.com/speedrunning#msg-5060) |
 | Ivan Illich | 25:33 → 25:06 | [msg-1506](https://hopeinsource.com/illich#msg-1506) |
 
-The audit also flags 89 exact repeated passages for contextual review, including ordinary repeated acknowledgments. These are candidates, not demonstrated duplicate-content bugs, and were left intact. All 63 episodes have dialogue; Legacy uses untimed turns.
+The original audit also flagged 89 exact repeated passages for contextual review, including ordinary repeated acknowledgments. The focused timing review removed the confirmed duplicate limits paragraph in Illich. Other repeated passages remain review candidates. All 63 episodes have dialogue; Legacy uses untimed turns.
 
 `home-lab-curation.ts` is currently unused by the frontend but contains intentional editorial material documented for future metadata. It adds no browser payload and was retained. No backend, auth, annotation system, transcript reprocessing, or visual redesign was introduced.
 

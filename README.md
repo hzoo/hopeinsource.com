@@ -54,6 +54,8 @@ Generated `dist/`, `.astro/`, cover variants, Python caches, and local `experime
 
 The transcript is the primary artifact. Preserve `#t=<seconds>`, canonical `#msg-<seconds>` IDs, occurrence suffixes, and existing aliases. Headings also remain linkable. Annotations and excerpts must point to existing canonical anchors. See [AGENTS.md](AGENTS.md), [curation](docs/home-lab-curation.md), and [reference linking](docs/reference-linking.md).
 
+After correcting a time, keep the old passage ID as an empty inline `<span id="msg-OLD"></span>` inside that passage. If removing a duplicate would renumber a later same-second passage, a leading `<span data-message-id="msg-SECONDS-2"></span>` preserves its outer ID. The marker must match the passage's timestamp; the renderer consumes it. Time links use the actual timestamp, while message aliases retain their passage destination.
+
 The search builder reads the rendered `.message` elements and their visible dialogue. It creates one virtual Pagefind document per episode, with canonical message IDs as section boundaries. Native [Pagefind sub-results](https://pagefind.app/docs/sub-results/) then link directly to passages, including same-second occurrence suffixes. The virtual headings do not change the reading page. This keeps indexing aligned with the renderer while avoiding one deployed index fragment per message.
 
 Transcript recognition and editorial cleanup are separate, explicitly authorized work. The website build only reads the existing content; it does not run the transcript pipeline.

@@ -7,7 +7,9 @@ from pathlib import Path
 import re
 
 TURN = re.compile(r'^(?:\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s+)?\*\*([^*]+)\*\*:?[ \t]*(.*)$', re.M)
-IDS = re.compile(r'\bid\s*=\s*[\"\']([^\"\']+)[\"\']')
+IDS = re.compile(r'(?<![\w-])id\s*=\s*[\"\']([^\"\']+)[\"\']')
+MESSAGE_MARKER = re.compile(r'<span\s+data-message-id=([\"\'])([^\"\'<>]+)\1\s*>\s*</span>')
+MARKER_ATTRIBUTE = re.compile(r'\bdata-message-id\b')
 
 def seconds(timestamp):
     value = 0
@@ -25,10 +27,24 @@ def audit_text(text, path='<memory>', long_turn_words=180):
             continue
         timestamp, speaker, first = match.groups()
         content = first + paragraph[match.end():]
+        override = None
+        invalid_override = False
+        marker_count = sum(len(MARKER_ATTRIBUTE.findall(tag)) for tag in re.findall(r'<[^>]*>', content))
+        if marker_count:
+            marker = MESSAGE_MARKER.match(content.lstrip())
+            identity = re.fullmatch(r'msg-(0|[1-9]\d*)-([1-9]\d*)', marker[2]) if marker else None
+            valid = (marker_count == 1 and timestamp and identity
+                     and int(identity[1]) == seconds(timestamp)
+                     and 2 <= int(identity[2]) <= 9007199254740991)
+            if valid:
+                override = marker[2]
+            else:
+                invalid_override = True
         plain = re.sub(r'<[^>]*>', '', content)
         words = re.findall(r"\b\w+(?:['’]\w+)*\b", plain)
         turns.append({'timestamp': timestamp, 'seconds': seconds(timestamp) if timestamp else 0,
-                      'speaker': speaker.rstrip(':').strip(), 'text': plain.strip(), 'words': len(words)})
+                      'speaker': speaker.rstrip(':').strip(), 'text': plain.strip(), 'words': len(words),
+                      'override': override, 'invalid_override': invalid_override})
     issues = []
     if not turns:
         issues.append({'kind': 'missing_transcript', 'severity': 'error'})
@@ -39,9 +55,11 @@ def audit_text(text, path='<memory>', long_turn_words=180):
     for turn in turns:
         counts[turn['seconds']] += 1
         occurrence = counts[turn['seconds']]
-        anchor = f"msg-{turn['seconds']}" + (f'-{occurrence}' if occurrence > 1 else '')
+        anchor = turn['override'] or f"msg-{turn['seconds']}" + (f'-{occurrence}' if occurrence > 1 else '')
         generated.append(anchor)
         turn['anchor'] = anchor
+        if turn['invalid_override']:
+            issues.append({'kind': 'invalid_message_id_override', 'severity': 'error', 'anchor': anchor})
         if turn['timestamp'] and previous_timed and turn['seconds'] < previous_timed['seconds']:
             issues.append({'kind': 'backward_chronology', 'severity': 'error', 'anchor': anchor,
                            'previous_timestamp': previous_timed['timestamp'], 'timestamp': turn['timestamp']})
@@ -56,6 +74,9 @@ def audit_text(text, path='<memory>', long_turn_words=180):
             issues.append({'kind': 'exact_duplicate_passage', 'severity': 'review', 'speaker': speaker,
                            'text': passage, 'anchors': anchors})
     explicit = Counter(IDS.findall(body))
+    for anchor, count in Counter(generated).items():
+        if count > 1:
+            issues.append({'kind': 'duplicate_generated_id', 'severity': 'error', 'id': anchor, 'count': count})
     for anchor, count in explicit.items():
         if count > 1:
             issues.append({'kind': 'duplicate_explicit_id', 'severity': 'error', 'id': anchor, 'count': count})
