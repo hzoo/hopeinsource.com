@@ -19,6 +19,33 @@ class ArchiveAuditTests(unittest.TestCase):
         self.assertIn('duplicate_explicit_id', [x['kind'] for x in report['issues']])
         self.assertIn('explicit_generated_id_collision', [x['kind'] for x in report['issues']])
 
+    def test_occurrence_override_and_alias_preserve_separate_passage_ownership(self):
+        report = audit_text('[24:47] **Michael:** <span id="msg-1533"></span>Limits can be beautiful.\n\n'
+                            '[25:06] **Michael:** Roots matter.\n\n'
+                            '[25:33] **Michael:** <span data-message-id="msg-1533-2"></span>A smaller scale.',
+                            long_turn_words=0)
+        self.assertEqual(report['issues'], [])
+        self.assertEqual([turn['anchor'] for turn in report['long_turns']], ['msg-1487', 'msg-1506', 'msg-1533-2'])
+        self.assertTrue(report['generated_ids_unique'])
+
+    def test_invalid_and_conflicting_occurrence_overrides_are_errors(self):
+        cases = [
+            '[00:02] **Henry:** <span data-message-id="msg-3-2"></span>Wrong time.',
+            '[00:02] **Henry:** <span data-message-id="msg-2-1"></span>First occurrence.',
+            '[00:02] **Henry:** <span data-message-id="msg-2-02"></span>Noncanonical count.',
+            '[00:02] **Henry:** <span data-message-id="msg-2"></span>Missing count.',
+            '[00:02] **Henry:** <span data-message-id="msg-2-2">Nonempty.</span>',
+            '[00:02] **Henry:** Text first. <span data-message-id="msg-2-2"></span>',
+            '[00:02] **Henry:** <span data-message-id="msg-2-2"></span><span data-message-id="msg-2-3"></span>Two markers.',
+            '**Henry:** <span data-message-id="msg-0-2"></span>Untimed.',
+        ]
+        for source in cases:
+            with self.subTest(source=source):
+                self.assertIn('invalid_message_id_override', [x['kind'] for x in audit_text(source)['issues']])
+        collision = audit_text('[00:02] **Henry:** <span data-message-id="msg-2-2"></span>First.\n\n'
+                               '[00:02] **Guest:** Second.')
+        self.assertIn('duplicate_generated_id', [x['kind'] for x in collision['issues']])
+
     def test_missing_body_ignores_frontmatter(self):
         report = audit_text('---\ntitle: Test\ndescription: "[00:01] **Henry:** Not a transcript"\n---\n\nComing soon.')
         self.assertEqual(report['turn_count'], 0)

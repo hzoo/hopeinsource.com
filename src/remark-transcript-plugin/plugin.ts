@@ -46,6 +46,42 @@ function hasInteractiveContent(node: PhrasingContent): boolean {
   return 'children' in node && node.children.some(hasInteractiveContent);
 }
 
+function messageIdMarkerCount(node: PhrasingContent): number {
+  if (node.type === 'html') return (node.value.match(/\bdata-message-id\b/g) ?? []).length;
+  return 'children' in node ? node.children.reduce((total, child) => total + messageIdMarkerCount(child), 0) : 0;
+}
+
+/** Preserve a reviewed same-second occurrence without changing its playback time. */
+function extractMessageIdOverride(content: PhrasingContent[], seconds: number, timed: boolean) {
+  const markers = content.map(messageIdMarkerCount);
+  if (!markers.some(Boolean)) return { content, override: null };
+  const index = markers.findIndex(Boolean);
+  const leading = content.slice(0, index).every(node => node.type === 'text' && !node.value.trim());
+  const node = content[index];
+  let markup = node.type === 'html' ? node.value : '';
+  let consumed = 1;
+  if (!/<\/span>\s*$/.test(markup)) {
+    while (content[index + consumed]?.type === 'text'
+      && !(content[index + consumed] as Text).value.trim()) {
+      markup += (content[index + consumed] as Text).value;
+      consumed++;
+    }
+    const closing = content[index + consumed];
+    if (closing?.type === 'html') {
+      markup += closing.value;
+      consumed++;
+    }
+  }
+  const match = markup.match(/^<span\s+data-message-id=(["'])([^"'<>]+)\1\s*>\s*<\/span>$/);
+  const identity = match?.[2].match(/^msg-(0|[1-9]\d*)-([1-9]\d*)$/);
+  const occurrence = Number(identity?.[2]);
+  if (markers.reduce((total, count) => total + count, 0) !== 1 || !leading || !timed
+    || !identity || Number(identity[1]) !== seconds || !Number.isSafeInteger(occurrence) || occurrence < 2) {
+    throw new Error('Invalid data-message-id: use a leading empty span with a same-timestamp occurrence ID (msg-<seconds>-<occurrence>, occurrence >= 2).');
+  }
+  return { content: [...content.slice(0, index), ...content.slice(index + consumed)], override: match![2] };
+}
+
 function createSpan(
   className: string,
   children: PhrasingContent[]
@@ -121,6 +157,7 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
     const speakerOrder: string[] = [];
     const messageIdCountsBySecond = new Map<number, number>();
     const timedMessageIds = new Set<string>();
+    const usedMessageIds = new Set<string>();
     let speakerCount = 0;
     let lastSpeaker: string | null = null;
     let replyParent = "";
@@ -184,16 +221,19 @@ export const remarkTranscriptPlugin: Plugin<[PluginOptions?], Root> = (
                          speakerIndex === 1 ? "message-received" : "message-system";
       }
 
-      const content = hasExplicitTimestamp
+      const originalContent = hasExplicitTimestamp
         ? node.children.slice(2)
         : node.children.slice(1);
 
       const seconds = timeToSeconds(timestamp);
+      const { content, override } = extractMessageIdOverride(originalContent, seconds, hasExplicitTimestamp);
       const nextOccurrence = (messageIdCountsBySecond.get(seconds) ?? 0) + 1;
       messageIdCountsBySecond.set(seconds, nextOccurrence);
-      const messageId = nextOccurrence === 1
+      const messageId = override ?? (nextOccurrence === 1
         ? `msg-${seconds}`
-        : `msg-${seconds}-${nextOccurrence}`;
+        : `msg-${seconds}-${nextOccurrence}`);
+      if (usedMessageIds.has(messageId)) throw new Error(`Duplicate transcript message ID: ${messageId}`);
+      usedMessageIds.add(messageId);
       if (hasExplicitTimestamp) timedMessageIds.add(messageId);
 
       const previousProps = prevNode?.data?.hProperties;

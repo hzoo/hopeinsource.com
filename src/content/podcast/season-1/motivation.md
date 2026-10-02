@@ -76,13 +76,13 @@ quotes:
 
 [11:03] **Henry:** It comes naturally. You find someone that feels like you're able to share with that person. Maybe it's not that a company per se has to create those kinds of spaces, but provide the environment in which you can feel comfortable doing that. I don't think it means that you necessarily have to make meetings, but through conversations at lunch, or outside of work, that's when you get to know people outside of the work context. And then, people will bring up what they do outside of that and what they're dealing with sometimes.
 
-[11:54] **Henry:** I've had people that even at work asked about, "You're talking about faith a lot," so that conversation comes up. And through that, you might talk about things that we're dealing with and how I handle that.
+[11:07] **Henry:** <span id="msg-714"></span>I've had people that even at work asked about, "You're talking about faith a lot," so that conversation comes up. And through that, you might talk about things that we're dealing with and how I handle that.
 
 #### One Way Communication
 
-[12:16] **Nadia:** I think I brought this up last time we talked. But it just brings up this question for me of how much do you share with fellow maintainers versus how much do you share with the general public and how much do you kind of filter it to be like, "Oh, everything is going great" versus a smaller set of people where you can be honest?
+[11:26] **Nadia:** <span id="msg-736"></span>I think I brought this up last time we talked. But it just brings up this question for me of how much do you share with fellow maintainers versus how much do you share with the general public and how much do you kind of filter it to be like, "Oh, everything is going great" versus a smaller set of people where you can be honest?
 
-[12:33] **Nadia:** And I saw that you tweeted a few days ago about being like, "Hey, I'm feeling like not so ..." (laughs) and clearly you didn't do that at all in how.. like when do you feel comfortable sharing that stuff super publicly versus in a more intimate context. And what was your reaction to being able to say something like that publicly?
+[11:45] **Nadia:** <span id="msg-753"></span>And I saw that you tweeted a few days ago about being like, "Hey, I'm feeling like not so ..." (laughs) and clearly you didn't do that at all in how.. like when do you feel comfortable sharing that stuff super publicly versus in a more intimate context. And what was your reaction to being able to say something like that publicly?
 
 [12:09] **Henry:** Yeah, that was a struggle and I didn't even wanna say anything at all because you don't really ... well, that's the thing, right? Part of the point of the community is so that you can bring your burdens to people to know about. But I don't wanna just be all negative all the time. Obviously, everyone's going through stuff all the time. And I don't know if tweeting a thing that just says, "I'm not feeling well," is that even that helpful 'cause there's really no context. I almost feel like I have to bring all this stuff so that people understand. Otherwise it's just like, "Why do I even need to say it if I'm not saying anything then that means something is up" (laughs).
 
