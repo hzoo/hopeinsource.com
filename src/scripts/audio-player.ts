@@ -22,7 +22,7 @@ let muteButton: HTMLElement | null = null;
 let volumeIcon: HTMLElement | null = null;
 let muteIcon: HTMLElement | null = null;
 let shortcutsButton: HTMLElement | null = null;
-let shortcutsDialog: HTMLElement | null = null;
+let shortcutsDialog: HTMLDialogElement | null = null;
 let closeShortcuts: HTMLElement | null = null;
 let volumeSlider: HTMLInputElement | null = null;
 let playerFeedback: HTMLElement | null = null;
@@ -188,7 +188,7 @@ function stageHashTime(options: { scroll: boolean }) {
 
     if (!hash.startsWith("#msg-")) return;
     const anchor = document.getElementById(hash.slice(1));
-    const message = anchor?.matches('.message') ? anchor : anchor?.closest<HTMLElement>('.message');
+    const message = anchor?.closest<HTMLElement>('[data-timestamp]');
     const seconds = parseInt(message?.dataset.timestamp || "", 10);
     if (!Number.isNaN(seconds)) {
         audio?.pause();
@@ -200,6 +200,13 @@ function updateMuteIcon(isMuted: boolean) {
     volumeIcon?.classList.toggle("hidden", isMuted);
     muteIcon?.classList.toggle("hidden", !isMuted);
     muteButton?.setAttribute("aria-label", isMuted ? "Unmute episode" : "Mute episode");
+}
+
+function toggleMute() {
+    if (!audio) return;
+    audio.muted = !audio.muted;
+    if (!audio.muted && audio.volume === 0) audio.volume = 0.5;
+    showFeedback(audio.muted ? "mute" : "unmute");
 }
 
 function showFeedback(action: "seek" | "play" | "pause" | "mute" | "unmute" | "volume" | "error", value: string | number = "") {
@@ -231,18 +238,9 @@ function seekRelative(seconds: number) {
 }
 
 function handleAudioKeydown(event: KeyboardEvent) {
-    if (shortcutsDialog && !shortcutsDialog.classList.contains("hidden")) {
-        if (event.key === "Escape") {
-            event.preventDefault();
-            closeShortcutsDialog();
-        } else if (event.key === "Tab") {
-            event.preventDefault();
-            closeShortcuts?.focus();
-        }
-        return;
-    }
-
-    if ((event.target as HTMLElement).matches("input, textarea, select, button, a, [role='button'], [contenteditable='true']")) return;
+    if (event.defaultPrevented || event.metaKey || event.ctrlKey || event.altKey || event.shiftKey || shortcutsDialog?.open) return;
+    const target = event.target;
+    if (target instanceof HTMLElement && (target.isContentEditable || target.closest("input, textarea, select, button, a, [role='button']"))) return;
     if (!audio || isWatchView()) return;
 
     switch (event.code) {
@@ -260,30 +258,27 @@ function handleAudioKeydown(event: KeyboardEvent) {
             break;
         case "KeyM":
             event.preventDefault();
-            audio.muted = !audio.muted;
-            showFeedback(audio.muted ? "mute" : "unmute");
+            toggleMute();
             break;
     }
 }
 
 function openShortcutsDialog() {
-    if (!shortcutsDialog) return;
+    if (!shortcutsDialog || shortcutsDialog.open) return;
     shortcutReturnFocus = document.activeElement as HTMLElement | null;
     shortcutsDialog.classList.remove("hidden");
+    shortcutsDialog.classList.add("flex");
     shortcutsDialog.setAttribute("aria-hidden", "false");
+    shortcutsDialog.showModal();
     closeShortcuts?.focus();
 }
 
 function closeShortcutsDialog() {
-    if (!shortcutsDialog || shortcutsDialog.classList.contains("hidden")) return;
-    shortcutsDialog.classList.add("hidden");
-    shortcutsDialog.setAttribute("aria-hidden", "true");
-    shortcutReturnFocus?.focus();
-    shortcutReturnFocus = null;
+    shortcutsDialog?.close();
 }
 
 function handleGlobalClick(event: MouseEvent) {
-    if (isWatchView()) return;
+    if (isWatchView() || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#t="]');
     if (!link) return;
 
@@ -309,7 +304,7 @@ function initAudioPlayer() {
     volumeIcon = document.getElementById("volume-icon");
     muteIcon = document.getElementById("mute-icon");
     shortcutsButton = document.getElementById("shortcuts-button");
-    shortcutsDialog = document.getElementById("shortcuts-dialog");
+    shortcutsDialog = document.getElementById("shortcuts-dialog") as HTMLDialogElement | null;
     closeShortcuts = document.getElementById("close-shortcuts");
     volumeSlider = document.getElementById("volume-slider") as HTMLInputElement | null;
     playerFeedback = document.getElementById("player-feedback");
@@ -357,18 +352,22 @@ function initAudioPlayer() {
         if (!audio) return;
         updateMuteIcon(audio.muted);
         if (!audio.muted && volumeSlider) {
-            volumeSlider.value = String(Math.round(audio.volume * 100));
+            const percent = Math.round(audio.volume * 100);
+            volumeSlider.value = String(percent);
+            volumeSlider.setAttribute("aria-valuetext", `${percent} percent`);
         }
     });
-    muteButton?.addEventListener("click", () => {
-        if (!audio) return;
-        audio.muted = !audio.muted;
-        if (!audio.muted && audio.volume === 0) audio.volume = 0.5;
-        showFeedback(audio.muted ? "mute" : "unmute");
-    });
+    muteButton?.addEventListener("click", toggleMute);
 
     shortcutsButton?.addEventListener("click", openShortcutsDialog);
     closeShortcuts?.addEventListener("click", closeShortcutsDialog);
+    shortcutsDialog?.addEventListener("close", () => {
+        shortcutsDialog?.classList.add("hidden");
+        shortcutsDialog?.classList.remove("flex");
+        shortcutsDialog?.setAttribute("aria-hidden", "true");
+        shortcutReturnFocus?.focus();
+        shortcutReturnFocus = null;
+    });
     shortcutsDialog?.addEventListener("click", (event) => {
         if (event.target === shortcutsDialog) closeShortcutsDialog();
     });

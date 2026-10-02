@@ -53,7 +53,7 @@ const { archiveGroups } = await getEpisodeData();
     {archiveGroups.map((group) => (
       <section class="mb-6">
         {group.id !== "0" && (
-          <h3 class="mb-3 px-3 text-xs font-semibold uppercase tracking-[0.14em] text-his-text-secondary">{group.label}</h3>
+          <h2 class="mb-3 px-3 text-xs font-semibold uppercase tracking-[0.14em] text-his-text-secondary">{group.label}</h2>
         )}
         <div class="space-y-0.5">
           {group.episodes.map((episode) => {

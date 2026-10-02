@@ -23,6 +23,8 @@ test("parseTimeValue rejects invalid values", () => {
   expect(parseTimeValue("14:77")).toBeNull();
   expect(parseTimeValue("1:70:00")).toBeNull();
   expect(parseTimeValue("14m44s")).toBeNull();
+  expect(parseTimeValue("9007199254740992")).toBeNull();
+  expect(parseTimeValue(`${'9'.repeat(400)}:00`)).toBeNull();
 });
 
 test("parseTimeHash returns canonical hash", () => {

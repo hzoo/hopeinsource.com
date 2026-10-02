@@ -18,7 +18,7 @@ const coverClass = "brand-cover w-full max-w-[472px] h-auto aspect-square object
 const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 ---
 
-<Layout frontmatter={{ title, description }} slug={slug}>
+<Layout frontmatter={{ title, description }} slug={slug} mainId="home-layout-stage">
   <div id="home-layout-root" class:list={["home-root", !isHome && "home-secondary"]}>
     <header id="home-brand">
       <div class="brand-inner">
@@ -83,7 +83,7 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
       </div>
     </nav>
 
-    <main id="home-layout-stage">
+    <main id="home-layout-stage" tabindex="-1">
       {!isHome && <h1 class="sr-only">Episodes</h1>}
       <slot />
     </main>

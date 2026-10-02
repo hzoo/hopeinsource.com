@@ -18,7 +18,7 @@ function initChatHeader() {
     };
 
     scrollContainer.addEventListener('scroll', onScroll, { passive: true });
-
+    onScroll();
 }
 
 // --- Transcript Deep-linking Logic ---
@@ -28,7 +28,7 @@ function handleDeepLink() {
     if (!hash) return;
 
     const target = document.getElementById(hash.slice(1));
-    if (target?.matches('#episode-content-shell h4')) {
+    if (target?.matches('#episode-content-shell h2')) {
         requestAnimationFrame(() => target.scrollIntoView({ block: 'start', behavior: 'instant' }));
         return;
     }

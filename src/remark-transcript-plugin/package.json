@@ -8,8 +8,6 @@
     "unist-util-visit": "^5.0.0"
   },
   "devDependencies": {
-    "bun-types": "^1.1.26",
-    "remark": "^12.0.1",
     "remark-parse": "^11.0.0",
     "remark-rehype": "^11.1.0",
     "rehype-stringify": "^10.0.0",

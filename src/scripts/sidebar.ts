@@ -9,6 +9,7 @@ function initSidebar() {
     const getToggle = () => document.getElementById('header-sidebar-toggle');
     const desktopQuery = window.matchMedia('(min-width: 1024px)');
     if (!getSidebar() || !getBackdrop()) return;
+    let sidebarOpen = false;
 
     function setSidebarAccessible(isAccessible: boolean) {
         const sidebar = getSidebar();
@@ -23,9 +24,11 @@ function initSidebar() {
     }
 
     function openSidebar() {
+        if (desktopQuery.matches || sidebarOpen) return;
         const sidebar = getSidebar();
         const backdrop = getBackdrop();
 
+        sidebarOpen = true;
         setSidebarAccessible(true);
         document.getElementById('episode-shell')?.setAttribute('inert', '');
         sidebar?.classList.remove('-translate-x-full');
@@ -33,15 +36,14 @@ function initSidebar() {
         backdrop?.classList.add('opacity-100');
         getToggle()?.setAttribute('aria-expanded', 'true');
         document.body.style.overflow = 'hidden';
-        window.setTimeout(() => {
-            sidebar?.querySelector<HTMLElement>('input, button, a')?.focus();
-        }, 200);
+        sidebar?.querySelector<HTMLElement>('input, button, a')?.focus({ preventScroll: true });
     }
 
     function closeSidebar(returnFocus = false) {
         const sidebar = getSidebar();
         const backdrop = getBackdrop();
 
+        sidebarOpen = false;
         sidebar?.classList.add('-translate-x-full');
         backdrop?.classList.add('opacity-0', 'invisible');
         backdrop?.classList.remove('opacity-100');
@@ -58,8 +60,7 @@ function initSidebar() {
 
         // Toggle button or Sidebar close button
         if (target.closest('#header-sidebar-toggle')) {
-            const sidebar = getSidebar();
-            if (sidebar?.classList.contains('-translate-x-full')) {
+            if (!sidebarOpen) {
                 openSidebar();
             } else {
                 closeSidebar(true);
@@ -87,8 +88,19 @@ function initSidebar() {
     document.addEventListener('his:search-open', closeForSearch);
 
     function handleGlobalKeydown(e: KeyboardEvent) {
-        if (e.key === 'Escape' && !getSidebar()?.classList.contains('-translate-x-full')) {
+        if (!sidebarOpen || desktopQuery.matches) return;
+        if (e.key === 'Escape') {
+            e.preventDefault();
             closeSidebar(true);
+        } else if (e.key === 'Tab') {
+            const controls = Array.from(getSidebar()?.querySelectorAll<HTMLElement>('a[href], button:not(:disabled), input:not(:disabled)') ?? [])
+                .filter((control) => control.getClientRects().length > 0);
+            const first = controls[0];
+            const last = controls.at(-1);
+            if (first && last && ((e.shiftKey && document.activeElement === first) || (!e.shiftKey && document.activeElement === last))) {
+                e.preventDefault();
+                (e.shiftKey ? last : first).focus();
+            }
         }
     }
     document.addEventListener('keydown', handleGlobalKeydown);
@@ -103,7 +115,7 @@ function initSidebar() {
     }
 
     function handleTouchEnd(e: TouchEvent) {
-        const sidebar = getSidebar();
+        if (desktopQuery.matches) return;
         const touchEndX = e.changedTouches[0].clientX;
         const touchEndY = e.changedTouches[0].clientY;
         const diffX = touchEndX - touchStartX;
@@ -111,7 +123,7 @@ function initSidebar() {
 
         if (diffY < 100) {
             if (touchStartX < 30 && diffX > 80) openSidebar();
-            else if (diffX < -80 && !sidebar?.classList.contains('-translate-x-full')) closeSidebar();
+            else if (diffX < -80 && sidebarOpen) closeSidebar();
         }
     }
 
@@ -131,14 +143,8 @@ function initSidebar() {
     }
 
     const syncResponsiveAccessibility = () => {
-        if (desktopQuery.matches) {
-            setSidebarAccessible(true);
-            document.getElementById('episode-shell')?.removeAttribute('inert');
-        } else {
-            const isOpen = !getSidebar()?.classList.contains('-translate-x-full');
-            setSidebarAccessible(isOpen);
-            if (!isOpen) document.getElementById('episode-shell')?.removeAttribute('inert');
-        }
+        closeSidebar();
+        setSidebarAccessible(desktopQuery.matches);
     };
     desktopQuery.addEventListener('change', syncResponsiveAccessibility);
     syncResponsiveAccessibility();

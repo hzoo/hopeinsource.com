@@ -1,8 +1,8 @@
-# https://www.netlify.com/docs/redirects/
+# https://developers.cloudflare.com/pages/configuration/redirects/
 
-/faith-and-open-source /faith
-/community-membership /membership
-/intrinsic-motivation /motivation
-/holy-inefficiency /inefficiency
-/mythology-and-symbolism /myth
-/authority-and-leadership /authority
+/faith-and-open-source /faith 301
+/community-membership /membership 301
+/intrinsic-motivation /motivation 301
+/holy-inefficiency /inefficiency 301
+/mythology-and-symbolism /myth 301
+/authority-and-leadership /authority 301

@@ -15,6 +15,8 @@ LOCK = threading.Lock()
 
 
 def save_decision(directory, value, project=PROJECT):
+    if not isinstance(value, dict):
+        raise ValueError('Invalid decision')
     queue = json.loads((directory / 'review.json').read_text())
     item = next((i for i in queue['items'] if i['id'] == value.get('id')), None)
     if not item or value.get('item_revision') != item['revision']:
@@ -60,7 +62,7 @@ def save_decision(directory, value, project=PROJECT):
     return decision
 
 
-def make_handler(directory):
+def make_handler(directory, project=PROJECT):
     class Handler(SimpleHTTPRequestHandler):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, directory=str(directory), **kwargs)
@@ -74,7 +76,7 @@ def make_handler(directory):
                 size = int(self.headers.get('Content-Length', 0))
                 if not 0 < size <= 200000:
                     raise ValueError('Invalid request size')
-                save_decision(directory, json.loads(self.rfile.read(size)))
+                save_decision(directory, json.loads(self.rfile.read(size)), project)
             except (ValueError, KeyError, TypeError, OSError) as error:
                 self.send_response(409)
                 self.send_header('Content-Type', 'text/plain; charset=utf-8')

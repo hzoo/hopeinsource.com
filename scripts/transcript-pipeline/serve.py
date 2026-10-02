@@ -1,23 +1,13 @@
 """Serve the local review with byte ranges so long MP3 files can seek."""
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from functools import partial
 from pathlib import Path
 import re
 import json
 import os
 import tempfile
 
-import argparse
-parser=argparse.ArgumentParser(description=__doc__)
-parser.add_argument('directory',type=Path)
-parser.add_argument('--port',type=int,default=8768)
-args=parser.parse_args()
-ROOT = args.directory.resolve()
-
-
 class Handler(SimpleHTTPRequestHandler):
-    def __init__(self, *args, **kwargs):
-        super().__init__(*args, directory=str(ROOT), **kwargs)
-
     def do_POST(self):
         # Only same-origin JSON suggestions; never modify canonical transcript files.
         if self.path != '/review-decisions.json':
@@ -29,17 +19,20 @@ class Handler(SimpleHTTPRequestHandler):
             if not 0 < size <= 2_000_000:
                 raise ValueError('Invalid size')
             value = json.loads(self.rfile.read(size))
-            episode = json.loads((ROOT/'episode.json').read_text())
+            if not isinstance(value, dict):
+                raise ValueError('Invalid review')
+            root = Path(self.directory)
+            episode = json.loads((root/'episode.json').read_text())
             if (value.get('review_revision') != episode['review_revision'] or
                 value.get('episode_id') != episode['manifest']['episode_id'] or
                 value.get('audio_sha256') != [t['sha256'] for t in episode['manifest']['tracks']] or
                 not isinstance(value.get('decisions'), dict)):
                 raise ValueError('Stale or invalid review')
-            with tempfile.NamedTemporaryFile(mode='w', dir=ROOT, delete=False) as file:
+            with tempfile.NamedTemporaryFile(mode='w', dir=root, delete=False) as file:
                 json.dump(value, file, indent=2)
                 temporary = file.name
-            os.replace(temporary, ROOT/'review-decisions.json')
-        except (ValueError, KeyError, TypeError):
+            os.replace(temporary, root/'review-decisions.json')
+        except (ValueError, KeyError, TypeError, OSError):
             self.send_error(400, 'Invalid review'); return
         self.send_response(204)
         self.end_headers()
@@ -75,6 +68,7 @@ class Handler(SimpleHTTPRequestHandler):
         return file
 
     def end_headers(self):
+        self.send_header('Cache-Control', 'no-store')
         self.send_header('Accept-Ranges', 'bytes')
         super().end_headers()
 
@@ -93,5 +87,11 @@ class Handler(SimpleHTTPRequestHandler):
 
 
 if __name__ == '__main__':
+    import argparse
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('directory', type=Path)
+    parser.add_argument('--port', type=int, default=8768)
+    args = parser.parse_args()
     print(f'Review: http://127.0.0.1:{args.port}/', flush=True)
-    ThreadingHTTPServer(('127.0.0.1', args.port), Handler).serve_forever()
+    ThreadingHTTPServer(('127.0.0.1', args.port),
+                        partial(Handler, directory=str(args.directory.resolve()))).serve_forever()

@@ -11,7 +11,7 @@ let searchModulePromise: Promise<SearchModule> | null = null;
 
 function isTypingTarget(target: EventTarget | null): boolean {
     if (!(target instanceof HTMLElement)) return false;
-    return target.matches('input, textarea, [contenteditable], [contenteditable="true"]');
+    return target.isContentEditable || Boolean(target.closest('input, textarea, select'));
 }
 
 function loadSearchModule(): Promise<SearchModule> {
@@ -28,7 +28,7 @@ async function openSearch() {
 }
 
 function handleGlobalKeydown(e: KeyboardEvent) {
-    if (e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
+    if (e.defaultPrevented || e.key !== '/' || e.metaKey || e.ctrlKey || e.altKey) return;
     if (isTypingTarget(e.target)) return;
 
     e.preventDefault();

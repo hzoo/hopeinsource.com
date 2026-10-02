@@ -176,28 +176,30 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
   function handleTOCKeyDown(e: KeyboardEvent) {
     if (e.key === 'Escape') {
-      closeTOC();
-      closeRefPopover();
+      closeTOC(true);
+      closeRefPopover(true);
     }
   }
 
-  function closeTOC() {
+  function closeTOC(restoreFocus = false) {
     const tocNav = document.getElementById('toc-nav');
     const tocBars = document.getElementById('toc-bars');
     tocNav?.classList.remove('opacity-100');
     tocNav?.classList.add('invisible', 'opacity-0');
     tocNav?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
     tocBars?.setAttribute('aria-expanded', 'false');
+    if (restoreFocus && tocOpen && tocNav?.contains(document.activeElement)) tocBars?.focus();
     tocOpen = false;
   }
 
-  function closeRefPopover() {
+  function closeRefPopover(restoreFocus = false) {
     const refPopover = document.getElementById('ref-popover');
     const refBadge = document.getElementById('ref-badge');
     refPopover?.classList.remove('opacity-100');
     refPopover?.classList.add('invisible', 'opacity-0');
     refPopover?.style.setProperty('transform', 'translateY(-50%) translateX(10px)');
     refBadge?.setAttribute('aria-expanded', 'false');
+    if (restoreFocus && refOpen && refPopover?.contains(document.activeElement)) refBadge?.focus();
     refOpen = false;
   }
 
@@ -215,7 +217,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 
     function setActive(id: string) {
       const target = document.getElementById(id);
-      if (!target?.matches('h4')) return;
+      if (!target?.matches('h2')) return;
       if (currentActiveId === id) return;
       currentActiveId = id;
       const currentHeading = document.getElementById(id);
@@ -304,9 +306,9 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     });
 
     // Enrich TOC links with timestamps from adjacent messages
-    document.querySelectorAll('h4').forEach((h4) => {
-      let el = h4.nextElementSibling;
-      while (el && !el.matches('[data-timestamp]') && !el.querySelector('[data-timestamp]') && !el.matches('h4')) {
+    document.querySelectorAll('#episode-content-shell h2').forEach((heading) => {
+      let el = heading.nextElementSibling;
+      while (el && !el.matches('[data-timestamp]') && !el.querySelector('[data-timestamp]') && !el.matches('h2')) {
         el = el.nextElementSibling;
       }
       const timed = el?.matches('[data-timestamp]') ? el : el?.querySelector('[data-timestamp]');
@@ -316,7 +318,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
         const secs = seconds % 60;
         const timeStr = `${mins}:${secs.toString().padStart(2, '0')}`;
 
-        const matchingLinks = document.querySelectorAll(`.toc-link[data-heading-id="${h4.id}"]`);
+        const matchingLinks = document.querySelectorAll(`.toc-link[data-heading-id="${heading.id}"]`);
         matchingLinks.forEach((tocLink) => {
           if (tocLink.querySelector('.toc-time')) return;
           const timeSpan = document.createElement('time');
@@ -335,7 +337,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       }),
       { rootMargin: '-10% 0px -70% 0px', threshold: 0 }
     );
-    document.querySelectorAll('h4').forEach((h) => observer.observe(h));
+    document.querySelectorAll('#episode-content-shell h2').forEach((h) => observer.observe(h));
 
     // Global listeners
     document.addEventListener('click', handleTOCClick);
@@ -346,14 +348,14 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     if (hash) {
       const id = hash.slice(1);
       const target = document.getElementById(id);
-      if (target?.matches('h4')) setActive(id);
+      if (target?.matches('h2')) setActive(id);
       else {
         const seconds = id.startsWith('t=') ? Number(id.slice(2)) : null;
         const passage = target ?? (seconds !== null && Number.isFinite(seconds)
           ? [...document.querySelectorAll<HTMLElement>('.message[data-timestamp]')]
             .filter(m => Number(m.dataset.timestamp) <= seconds).at(-1) : null);
         if (passage) {
-          const heading = [...document.querySelectorAll('h4')].filter(h =>
+          const heading = [...document.querySelectorAll('#episode-content-shell h2')].filter(h =>
             Boolean(h.compareDocumentPosition(passage) & Node.DOCUMENT_POSITION_FOLLOWING)).at(-1);
           if (heading) setActive(heading.id);
         }
@@ -394,7 +396,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
           0,
           scrollContainer.scrollTop + detailsRect.top - containerRect.top - 8,
         );
-        scrollContainer.scrollTo({ top: targetTop, behavior: 'smooth' });
+        const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth';
+        scrollContainer.scrollTo({ top: targetTop, behavior });
       }
     });
     scrollContainer?.addEventListener('scroll', warmInit, { passive: true, once: true });

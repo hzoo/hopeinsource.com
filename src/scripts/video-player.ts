@@ -30,7 +30,7 @@ function timeFromHash(): number | null {
     }
 
     if (!hash.startsWith("#msg-")) return null;
-    const message = document.getElementById(hash.slice(1));
+    const message = document.getElementById(hash.slice(1))?.closest<HTMLElement>('[data-timestamp]');
     const seconds = parseInt(message?.dataset.timestamp || "", 10);
     return Number.isNaN(seconds) ? null : seconds;
 }
@@ -130,7 +130,7 @@ function initVideoPlayer() {
     modeReadButton?.addEventListener("click", () => setMode("read"));
     document.addEventListener("his:audio-intent", () => setMode("read"));
     document.addEventListener("click", (event) => {
-        if (mode !== "watch") return;
+        if (mode !== "watch" || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
         const link = (event.target as HTMLElement).closest<HTMLAnchorElement>('a[href^="#t="]');
         const href = link?.getAttribute("href");
         const parsed = href ? parseTimeHash(href) : null;

@@ -28,9 +28,6 @@ export interface EnrichedEpisode extends PodcastEntry {
 
 export interface EpisodeData {
   episodes: EnrichedEpisode[];
-  episodesBySeasons: Record<number, EnrichedEpisode[]>;
-  seasons: number[];
-  guestCounts: Map<string, number>;
   archiveGroups: EpisodeArchiveGroup[];
 }
 
@@ -80,13 +77,8 @@ export async function getEpisodeData(): Promise<EpisodeData> {
     });
   });
 
-  // Pre-compute episode numbers
-  const episodeNumbers = new Map(
-    posts.map((post, index) => [post.slug, posts.length - index])
-  );
-
   // Enrich episodes with all computed data
-  const episodes: EnrichedEpisode[] = posts.map(post => {
+  const episodes: EnrichedEpisode[] = posts.map((post, index) => {
     const { episodeTitle, guests } = parseTitle(post.data.title);
     return {
       ...post,
@@ -96,24 +88,9 @@ export async function getEpisodeData(): Promise<EpisodeData> {
         name: g,
         count: guestCounts.get(g) || 0
       })),
-      epNumber: episodeNumbers.get(post.slug) || 0
+      epNumber: posts.length - index
     };
   });
-
-  // Group by season
-  const episodesBySeasons = episodes.reduce((acc, episode) => {
-    const season = episode.data.season || 0;
-    if (!acc[season]) {
-      acc[season] = [];
-    }
-    acc[season].push(episode);
-    return acc;
-  }, {} as Record<number, EnrichedEpisode[]>);
-
-  // Sort seasons descending
-  const seasons = Object.keys(episodesBySeasons)
-    .map(Number)
-    .sort((a, b) => b - a);
 
   const archiveGroupMap = new Map<string, EpisodeArchiveGroup>();
   for (const episode of episodes) {
@@ -133,5 +110,5 @@ export async function getEpisodeData(): Promise<EpisodeData> {
 
   const archiveGroups = Array.from(archiveGroupMap.values());
 
-  return { episodes, episodesBySeasons, seasons, guestCounts, archiveGroups };
+  return { episodes, archiveGroups };
 }

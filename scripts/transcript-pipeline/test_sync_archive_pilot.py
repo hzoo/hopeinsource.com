@@ -64,6 +64,7 @@ class ArchivePilotSync(unittest.TestCase):
             self.assertEqual(entry['semantic_review'], 'Already accepted wording')
             self.assertEqual(plan['edits']['accepted_choices'], {'id': 'keep'})
             self.assertEqual(plan['report']['visible_turns_verified'], 2)
+            self.assertEqual(plan['report']['source'], str(source.relative_to(root)))
             self.assertTrue(all(p.read_bytes() == value for p, value in inputs.items()))
 
     def test_apply_assembles_without_exporting_or_changing_decisions(self):

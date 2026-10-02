@@ -12,8 +12,8 @@ import re
 def export(episode, destination):
     source = episode / 'episode.json'
     data = json.loads(source.read_text())
-    original = destination.read_text()
-    frontmatter = re.match(r'\A---\n.*?\n---(?:\n|$)', original, re.S)
+    original = destination.read_bytes().decode('utf-8')
+    frontmatter = re.match(r'\A---\r?\n.*?\r?\n---(?:\r?\n|$)', original, re.S)
     if not frontmatter:
         raise ValueError('Destination needs existing episode frontmatter')
     visible = [t for t in data['reading'] if t['text'].strip()]
@@ -28,7 +28,8 @@ def export(episode, destination):
     emitted = set(owners)
     unresolved = any(re.match(r'^(?:Speaker\s+(?:\d+|unknown)\b|Unconfirmed\b)', t['speaker'], re.I) for t in visible)
     note = 'Draft transcript.' + (' Some speaker labels remain unconfirmed.' if unresolved else '')
-    lines = [frontmatter[0].rstrip(), '', '> ' + note, '']
+    newline = '\r\n' if '\r\n' in frontmatter[0] else '\n'
+    lines = ['> ' + note, '']
     for t in visible:
         if t['id'] in headings:
             lines += ['#### ' + headings[t['id']], '']
@@ -47,7 +48,8 @@ def export(episode, destination):
     required = {t['anchor'] for t in data['raw']}
     if not required.issubset(emitted):
         raise ValueError('Reading export would lose canonical source anchors')
-    destination.write_text('\n'.join(lines))
+    prefix = frontmatter[0] if frontmatter[0].endswith('\n') else frontmatter[0] + newline
+    destination.write_bytes((prefix + newline + newline.join(lines)).encode('utf-8'))
     ledger = {'source': 'episode.json', 'source_sha256': hashlib.sha256(source.read_bytes()).hexdigest(),
               'destination': str(destination), 'destination_sha256': hashlib.sha256(destination.read_bytes()).hexdigest(),
               'state': data['state'], 'visible_turns': len(visible), 'headings': len(headings),

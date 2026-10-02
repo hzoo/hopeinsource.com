@@ -7,6 +7,23 @@ html {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.skip-link {
+  position: fixed;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 1100;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.4rem;
+  background: var(--color-his-bg);
+  color: var(--color-his-text);
+  box-shadow: 0 0 0 2px var(--color-his-green);
+  transform: translateY(calc(-100% - 1rem));
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+}
+
 /* Shared search/theme controls hold their position across pages. */
 .episode-header-row { padding-right: 96px; min-height: 48px; }
 .episode-header-controls { align-self: flex-start; padding-top: 4px; }
@@ -425,7 +442,8 @@ html {
     display: none;
   }
 
-  #episode-content-shell h4 {
+  #episode-content-shell h2 {
+    scroll-margin-top: 3rem;
     margin-block: 2rem 0.9rem;
     color: var(--color-his-text);
     font-size: 1rem;
@@ -437,11 +455,11 @@ html {
   }
 
   @media (max-width: 767px) {
-    #episode-content-shell h4 {
+    #episode-content-shell h2 {
       scroll-margin-top: 4rem;
     }
 
-    #episode-content-shell .mobile-chapters ~ div h4:first-child {
+    #episode-content-shell .mobile-chapters ~ div h2:first-child {
       margin-top: 1rem;
     }
   }
@@ -852,7 +870,7 @@ html {
 
 .search-popover mark {
   background: color-mix(in oklab, var(--color-his-green) 30%, transparent);
-  color: var(--color-his-green);
+  color: var(--color-his-text);
   padding: 0.0625rem 0.1875rem;
   border-radius: 3px;
   font-weight: 500;

@@ -1,6 +1,13 @@
 /_astro/*
   Cache-Control: public, max-age=31556952, immutable
 
+# Pagefind loader and entry metadata keep stable filenames across deployments.
+/pagefind/pagefind.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/pagefind/pagefind-entry.json
+  Cache-Control: public, max-age=0, must-revalidate
+
 /pagefind/index/*
   Cache-Control: public, max-age=31556952, immutable
 

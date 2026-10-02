@@ -39,8 +39,8 @@ Reserve for supplementary content *outside* the transcript, like video links or 
 1. Read through the transcript, noting timestamps of linkable items
 2. Research and verify URLs
 3. Apply inline links, keeping changes minimal
-4. Run `npm run build` to verify no broken markdown
-5. Update `_refs.md` to track completed work
+4. Run `bun run build` to verify the Markdown renders successfully
+5. Check the rendered passage and its canonical message anchor
 
 ## Avoid
 

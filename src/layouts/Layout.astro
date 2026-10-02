@@ -10,9 +10,11 @@ interface Props {
     description?: string;
   };
   slug?: string;
+  mainId?: string;
+  noindex?: boolean;
 }
 
-const { frontmatter, slug = '' } = Astro.props;
+const { frontmatter, slug = '', mainId = 'main-content', noindex = false } = Astro.props;
 ---
 
 <!doctype html>
@@ -22,9 +24,11 @@ const { frontmatter, slug = '' } = Astro.props;
       title={frontmatter?.title}
       description={frontmatter?.description}
       slug={slug}
+      noindex={noindex}
     />
   </head>
   <body>
+    <a class="skip-link" href={`#${mainId}`}>Skip to content</a>
     <Search />
     <ThemeToggle />
     <slot />

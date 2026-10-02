@@ -2,8 +2,8 @@
 import Layout from "@/layouts/Layout.astro";
 ---
 
-<Layout>
-    <div class="grid place-items-center min-h-screen bg-his-bg px-6">
+<Layout frontmatter={{ title: "Page not found", description: "This Hope in Source page could not be found." }} slug="/404" noindex>
+    <main id="main-content" tabindex="-1" class="grid place-items-center min-h-screen bg-his-bg px-6">
         <div class="max-w-sm w-full mx-auto text-center">
             <h1 class="mb-8 text-9xl font-black text-his-text/20">404</h1>
 
@@ -37,5 +37,5 @@ import Layout from "@/layouts/Layout.astro";
                 </a>
             </div>
         </div>
-    </div>
+    </main>
 </Layout>
