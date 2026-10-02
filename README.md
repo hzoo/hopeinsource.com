@@ -58,6 +58,8 @@ The search builder reads the rendered `.message` elements and their visible dial
 
 Transcript recognition and editorial cleanup are separate, explicitly authorized work. The website build only reads the existing content; it does not run the transcript pipeline.
 
+Homepage conversations advance only through previous/next controls, previews, arrow keys, or swipes. Reading an episode stores its path and current canonical message anchor in device-local `localStorage` under `his.reading-position`; the homepage offers **Continue reading** when that saved position is valid. Opening an episode never restores progress automatically, and explicit passage, time, or heading links keep their destination. Unavailable storage leaves navigation usable.
+
 ## Deployment
 
 The static output is deployed to the existing **Cloudflare Pages Direct Upload** project `hopeinsource-com`, with `main` as its production branch. Wrangler is pinned in the deployment commands and downloaded on demand, so local frontend installs do not include the Workers emulator toolchain.
