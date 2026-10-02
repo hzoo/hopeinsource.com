@@ -107,11 +107,11 @@ quotes:
 
 [20:56] **Omnigamer:** But it’s really about finding that value, because if you’re going to play it and you want that sense of discovery, that still will drop off at some point. You will get to a point where you’ve learned everything you need to know about that game to run it in any scenario, and you might start to lose that. In the same way, it's a trade off between the challenge of doing that, the enjoyment you get from figuring out something or getting a great run, versus the frustration of having to basically repeat it again for every new game, having to do X number of runs to be able to get something you’re satisfied with, so there’s always that trade off there.
 
-[20:41] **Omnigamer:** I would say most people get to the point where they’ve tried out three or four games and then they find “Okay I'm happy with this as my core set, I don't’ need to expand any further.” And then there’s others who every game that they pick up now, even after playing it casually, just like alright it’s speedrun time.
+[21:00] **Omnigamer:** <span id="msg-1241"></span>I would say most people get to the point where they’ve tried out three or four games and then they find “Okay I'm happy with this as my core set, I don't’ need to expand any further.” And then there’s others who every game that they pick up now, even after playing it casually, just like alright it’s speedrun time.
 
-[21:55] **Henry:** Yeah cause I think about it with open source...it's not very common for people to maintain multiple projects because it's just so much scope. Or I guess you might move across projects. But I think most people stick with one.
+[21:16] **Henry:** <span id="msg-1315"></span>Yeah cause I think about it with open source...it's not very common for people to maintain multiple projects because it's just so much scope. Or I guess you might move across projects. But I think most people stick with one.
 
-[22:09] **Omnigamer:** There are certainly people out there who have done many many speedruns. But my personal take on that is that if you start to go for quantity over quality mindset, it really does kind of defeat the purpose. You spend just a, let’s say, a week working on a game, you do one run, you get your completion, you stamp it in and load it up, and that’s it, you’re done with that game - it's not really a fulfilling practice. There’s still obviously much much more you can learn, there's better optimization that you can do. For me at least, it's not the best way to kind of approach this, that’s something will burn you out and also doesn't really produce that great of an artifact at the end either.
+[21:32] **Omnigamer:** <span id="msg-1329"></span>There are certainly people out there who have done many many speedruns. But my personal take on that is that if you start to go for quantity over quality mindset, it really does kind of defeat the purpose. You spend just a, let’s say, a week working on a game, you do one run, you get your completion, you stamp it in and load it up, and that’s it, you’re done with that game - it's not really a fulfilling practice. There’s still obviously much much more you can learn, there's better optimization that you can do. For me at least, it's not the best way to kind of approach this, that’s something will burn you out and also doesn't really produce that great of an artifact at the end either.
 
 [22:53] **Henry:** You mentioned earlier that you appreciate the aspects of speedrunning in the sense that you get to kind of - especially if you pick a new game that no ones done before - you can do all the work that’s required. What are the kinds of roles that people can have when they're trying to speedrun a game, and if they want to get involved in the community, they obviously don't have to just do the runs, they can also, like you said, do researching or documentation, those kind of things.
 
@@ -307,18 +307,18 @@ quotes:
 
 [01:22:42] **Omnigamer:** In the old days this was satisfied by... Speed Demos Archive had a common submission ruleset. But obviously there's going to be exceptions. Some games that don't quite play well with those rules for one reason or another, whether it’s technical, whether it's enjoyment or entertainment purposes. But after the SDA era, that’s become less and less common. Speedrun.com does not provide any kind of template for rules, it's simply the community settles on whatever is best for them. And if the community starts out as one person, who may not have the best interest at heart, it can kind of ruin things going forward, or at the very least make it a little bit more of a sticky mess to work through and correct them.
 
-[01:23:33] **Henry:** And then regarding decentralization, it's funny because in another sense, centralization can also be...we have this, we want more decentralization in the internet itself...but then with the information we still want it to be centralized cause then we want it to be accessible to people. So it’s funny that there’s this weird opposite thing.
+[01:24:58] **Henry:** <span id="msg-5013"></span>And then regarding decentralization, it's funny because in another sense, centralization can also be...we have this, we want more decentralization in the internet itself...but then with the information we still want it to be centralized cause then we want it to be accessible to people. So it’s funny that there’s this weird opposite thing.
 
-[01:24:00] **Omnigamer:** Yeah there’s benefits to either way and it's just simply the pendulum is shifted one way for the time being and I’m sure that it’ll switch back at another point. So we’ll see where the future goes with this.
+[01:25:27] **Omnigamer:** <span id="msg-5040"></span>Yeah there’s benefits to either way and it's just simply the pendulum is shifted one way for the time being and I’m sure that it’ll switch back at another point. So we’ll see where the future goes with this.
 
-[01:24:13] **Henry:** Yeah I think that’s all the questions I have. We went through a lot. Thanks for coming onto the show.
+[01:25:45] **Henry:** <span id="msg-5053"></span>Yeah I think that’s all the questions I have. We went through a lot. Thanks for coming onto the show.
 
-[01:24:22] **Omnigamer:** Oh yeah it was great, thank you for having me.
+[01:25:52] **Omnigamer:** <span id="msg-5062"></span>Oh yeah it was great, thank you for having me.
 
-[01:24:20] **Henry:** Where can people find you online?
+[01:25:56] **Henry:** <span id="msg-5060"></span>Where can people find you online?
 
-[01:24:25] **Omnigamer:** Well now that most of my activity of writing and working on the book are done, I tend to stream a few times a week. I’ll be working on different speedruns or playing games casually. You can just find me at twitch.tv/omnigamer. On Twitter I’m @theomnigamer. You can check out my book, which has a lot on the topic we discussed today, and whole bunch more, by going to SpeedrunScience.com and that’ll take you to the product page, which should be launching. Finally I have copies in hand sometime in April, so look forward to that.
+[01:26:00] **Omnigamer:** <span id="msg-5065"></span>Well now that most of my activity of writing and working on the book are done, I tend to stream a few times a week. I’ll be working on different speedruns or playing games casually. You can just find me at twitch.tv/omnigamer. On Twitter I’m @theomnigamer. You can check out my book, which has a lot on the topic we discussed today, and whole bunch more, by going to SpeedrunScience.com and that’ll take you to the product page, which should be launching. Finally I have copies in hand sometime in April, so look forward to that.
 
-[01:25:05] **Henry:** Thanks!
+[01:26:43] **Henry:** <span id="msg-5105"></span>Thanks!
 
-[01:25:06] **Omnigamer:** Thank you so much Henry.
+[01:26:45] **Omnigamer:** <span id="msg-5106"></span>Thank you so much Henry.

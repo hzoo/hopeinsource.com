@@ -1,9 +1,20 @@
 import { expect, test } from "bun:test";
 
-import { parseTimeHash, parseTimeValue } from "./time-hash";
+import { parseTimeHash, parseTimeValue, timeHashTarget } from "./time-hash";
 
 test("parseTimeValue accepts seconds", () => {
   expect(parseTimeValue("884")).toBe(884);
+});
+
+test('time links skip relocated aliases while keeping real-time passage destinations', () => {
+  const retained = { dataset: { timestamp: '1487' }, id: 'msg-1487' };
+  const duplicateAlias = { dataset: {}, id: 'msg-1533' };
+  const distinct = { dataset: { timestamp: '1533' }, id: 'msg-1533-2' };
+  expect(timeHashTarget(1533, duplicateAlias, distinct)).toBe(distinct);
+  expect(timeHashTarget(1533, retained, distinct)).toBe(distinct);
+  expect(timeHashTarget(1533, distinct, retained)).toBe(distinct);
+  expect(timeHashTarget(1533, null, distinct)).toBe(distinct);
+  expect(timeHashTarget(1533, duplicateAlias, undefined)).toBeUndefined();
 });
 
 test("parseTimeValue accepts MM:SS", () => {
