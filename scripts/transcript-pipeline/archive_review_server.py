@@ -2,13 +2,14 @@
 import argparse
 from datetime import datetime, timezone
 import hashlib
-from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
+from http.server import ThreadingHTTPServer
 import json
 import os
 from pathlib import Path
-import re
 import tempfile
 import threading
+
+from serve import Handler as ReviewHandler
 
 PROJECT = Path(__file__).resolve().parents[2]
 LOCK = threading.Lock()
@@ -63,7 +64,7 @@ def save_decision(directory, value, project=PROJECT):
 
 
 def make_handler(directory, project=PROJECT):
-    class Handler(SimpleHTTPRequestHandler):
+    class Handler(ReviewHandler):
         def __init__(self, *args, **kwargs):
             super().__init__(*args, directory=str(directory), **kwargs)
 
@@ -84,47 +85,6 @@ def make_handler(directory, project=PROJECT):
                 self.wfile.write(str(error).encode()); return
             self.send_response(204); self.end_headers()
 
-        def end_headers(self):
-            self.send_header('Cache-Control', 'no-store')
-            self.send_header('Accept-Ranges', 'bytes')
-            super().end_headers()
-
-        def send_head(self):
-            self.remaining = None
-            path = Path(self.translate_path(self.path))
-            value = self.headers.get('Range', '')
-            if not value or not path.is_file():
-                return super().send_head()
-            match = re.fullmatch(r'bytes=(\d*)-(\d*)', value)
-            size = path.stat().st_size
-            if not match or not any(match.groups()):
-                self.send_error(400, 'Unsupported range'); return None
-            left, right = match.groups()
-            start = int(left) if left else max(0, size - int(right))
-            end = min(size - 1, int(right)) if left and right else size - 1
-            if start >= size or end < start:
-                self.send_response(416)
-                self.send_header('Content-Range', f'bytes */{size}')
-                self.send_header('Content-Length', '0')
-                self.end_headers(); return None
-            file = path.open('rb'); file.seek(start); self.remaining = end - start + 1
-            self.send_response(206)
-            self.send_header('Content-Type', self.guess_type(str(path)))
-            self.send_header('Content-Range', f'bytes {start}-{end}/{size}')
-            self.send_header('Content-Length', str(self.remaining))
-            self.end_headers()
-            return file
-
-        def copyfile(self, source, outputfile):
-            if self.remaining is None:
-                return super().copyfile(source, outputfile)
-            try:
-                while self.remaining:
-                    chunk = source.read(min(65536, self.remaining))
-                    if not chunk: break
-                    outputfile.write(chunk); self.remaining -= len(chunk)
-            except (BrokenPipeError, ConnectionResetError):
-                pass
     return Handler
 
 

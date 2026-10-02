@@ -32,7 +32,7 @@ bun run preview
 | `bun run build:images` | Generate the three WebP cover sizes in `public/artwork/` |
 | `bun run build:search` | Rebuild Pagefind from already-rendered episode HTML in `dist/` |
 
-`build` deliberately uses `astro build --force`. Astro's content cache can retain stale rendered Markdown after a local remark plugin changes; a normal build can succeed while still serving the old transcript structure. `build:force` is an alias for the complete build.
+`build` deliberately uses `astro build --force`. Astro's content cache can retain stale rendered Markdown after a local remark plugin changes; a normal build can succeed while still serving the old transcript structure.
 
 GitHub Actions runs the frozen dependency install, both test suites, and the full build for pull requests and pushes to `main`. It does not deploy.
 
@@ -52,7 +52,9 @@ Generated `dist/`, `.astro/`, cover variants, Python caches, and local `experime
 
 ## Transcript and search contracts
 
-The transcript is the primary artifact. Preserve `#t=<seconds>`, canonical `#msg-<seconds>` IDs, occurrence suffixes, and existing aliases. Headings also remain linkable. Annotations and excerpts must point to existing canonical anchors. See [AGENTS.md](AGENTS.md), [curation](docs/home-lab-curation.md), and [reference linking](docs/reference-linking.md).
+The transcript is the primary artifact. Preserve `#t=<seconds>`, canonical `#msg-<seconds>` IDs, occurrence suffixes, and existing aliases. Headings also remain linkable. Annotations and excerpts must point to existing canonical anchors. See [AGENTS.md](AGENTS.md) and the transcript tools' [editing rules](scripts/transcript-pipeline/README.md#editing-rules).
+
+Homepage moments must remain verbatim, preserve speaker attribution, and link to an existing canonical message. Add sparse inline links for named works, people, or unfamiliar concepts; verify destinations and preserve dialogue. Supplementary material belongs in blockquotes. Only blockquote links populate the References menu. Build and inspect the rendered passage after editing.
 
 Time corrections keep old IDs as inline `<span id="msg-OLD"></span>` aliases. A leading `<span data-message-id="msg-SECONDS-2"></span>` preserves a later same-second occurrence when a duplicate is removed; its seconds must match the timestamp.
 
