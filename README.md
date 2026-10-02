@@ -41,7 +41,7 @@ GitHub Actions runs the frozen dependency install, both test suites, and the ful
 - `src/content/podcast/`: canonical episode Markdown and frontmatter, grouped by season.
 - `src/pages/`: the homepage, episode pages, and error page.
 - `src/components/`, `src/scripts/`, `src/styles/`: UI, browser behavior, and styles.
-- `src/remark-transcript-plugin/`: workspace package that renders canonical messages, aliases, and compact replies.
+- `src/remark-transcript-plugin/`: local plugin that renders canonical messages, aliases, and compact replies.
 - `src/plugins/`: reference extraction and responsive Markdown images.
 - `src/lib/home-moments.ts`: verbatim homepage excerpts linked to original passages.
 - `scripts/build-*.ts`: cover-image and production-search generation.
