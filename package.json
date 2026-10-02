@@ -24,8 +24,8 @@
     "build:force": "bun run build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "bun run build && bun run check:site && bunx wrangler@4.140.0 pages deploy dist --project-name hopeinsource-com --branch=main",
-    "deploy:preview": "bun run build && bun run check:site && bunx wrangler@4.140.0 pages deploy dist --project-name hopeinsource-com --branch=preview",
+    "deploy": "bun run build && bun run check:site && CLOUDFLARE_ACCOUNT_ID=899db3f6d2659dfb20376c7e752c862d bunx wrangler@4.140.0 pages deploy dist --project-name hopeinsource-com --branch=main",
+    "deploy:preview": "bun run build && bun run check:site && CLOUDFLARE_ACCOUNT_ID=899db3f6d2659dfb20376c7e752c862d bunx wrangler@4.140.0 pages deploy dist --project-name hopeinsource-com --branch=preview",
     "build:images": "bun run scripts/build-cover-images.ts",
     "build:search": "bun run scripts/build-search-index.ts"
   },

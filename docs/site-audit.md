@@ -41,7 +41,7 @@ The existing media strategy is sound: audio uses `preload="none"`, and reading v
 
 Authenticated read-only inspection confirmed `hopeinsource-com` is a Cloudflare Pages Direct Upload project, with current production deployments on `main` and the expected custom domains. GitHub does not build or deploy this Pages project automatically. The added workflow validates changes; local deploy commands upload `dist/`.
 
-Wrangler 4.140.0 and its branch/project flags were verified. The configured Bun release-age policy excluded the newer release during this audit, so the eligible version is pinned. CI action tags were resolved against their official repositories. Stable Pagefind loader and entry metadata now revalidate, while hashed data remains immutable.
+Wrangler 4.140.0 and its branch/project flags were verified. A fresh worktree exposed an additional deployment issue: multiple authenticated accounts prevent noninteractive account selection when Wrangler's local cache is absent. Both commands now explicitly select the verified account that owns `hopeinsource-com`. The configured Bun release-age policy excluded the newer release during this audit, so the eligible version is pinned. CI action tags were resolved against their official repositories. Stable Pagefind loader and entry metadata now revalidate, while hashed data remains immutable.
 
 ## Verification
 
@@ -54,7 +54,7 @@ Wrangler 4.140.0 and its branch/project flags were verified. The configured Bun 
 - Settled automated accessibility scans reported zero violations for the tested homepage, archive, desktop/mobile episodes, dark theme, and search. Some contrast/link/ARIA checks remained marked incomplete by the scanner; DOM relationships and visible interactions were checked separately.
 - No transcript source or experiment files changed. Git whitespace validation passed.
 
-Hosted CI has not run yet. Actual YouTube playback was not verified; embed creation, timestamp selection, and unloading were verified. Audio playback was verified with sound muted.
+Hosted CI passed for the initial cleanup commit. Hosted preview checks verified all 111 search files, permanent redirects, cache headers, canonical passage navigation, and actual muted YouTube playback advancing from 1:58 to 2:02. Read unloaded the player. Real iPhone Safari verification remains pending. Audio playback was verified with sound muted.
 
 ## Remaining source review
 

@@ -75,7 +75,7 @@ bun run deploy:preview  # preview branch URL
 bun run deploy         # main branch
 ```
 
-Both commands perform the full build and generated-site validation before uploading `dist/`. The production command explicitly sends `--branch=main`; keep it aligned with the project's production branch if that setting changes. The preview command sends `--branch=preview`. See Cloudflare's [Direct Upload guide](https://developers.cloudflare.com/pages/get-started/direct-upload/) for branch behavior and account setup.
+Both commands perform the full build and generated-site validation before uploading `dist/`. They select the project's Cloudflare account explicitly, so a fresh checkout does not depend on Wrangler's ignored local account cache. The production command explicitly sends `--branch=main`; keep it aligned with the project's production branch if that setting changes. The preview command sends `--branch=preview`. See Cloudflare's [Direct Upload guide](https://developers.cloudflare.com/pages/get-started/direct-upload/) for branch behavior and account setup.
 
 Cloudflare does not run a Git-connected build for this project. GitHub Actions validates changes; the commands above upload the completed local build.
 
