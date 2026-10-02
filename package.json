@@ -16,18 +16,23 @@
   "scripts": {
     "dev": "bun run build:images && astro dev",
     "start": "bun run dev",
-    "build": "bun run build:images && astro check && astro build --force && bun run scripts/build-search-index.ts",
+    "check": "astro check",
+    "check:site": "bun run scripts/check-site.ts",
+    "test": "bun test",
+    "test:transcripts": "python3 -m unittest discover -s scripts/transcript-pipeline",
+    "build": "bun run build:images && bun run check && astro build --force && bun run build:search",
     "build:force": "bun run build",
     "preview": "astro preview",
     "astro": "astro",
-    "deploy": "bun run build:force && wrangler pages deploy dist --project-name hopeinsource-com",
-    "build:images": "bun run scripts/build-cover-images.ts"
+    "deploy": "bun run build && bun run check:site && CLOUDFLARE_ACCOUNT_ID=899db3f6d2659dfb20376c7e752c862d bunx wrangler@4.140.0 pages deploy dist --project-name hopeinsource-com --branch=main",
+    "deploy:preview": "bun run build && bun run check:site && CLOUDFLARE_ACCOUNT_ID=899db3f6d2659dfb20376c7e752c862d bunx wrangler@4.140.0 pages deploy dist --project-name hopeinsource-com --branch=preview",
+    "build:images": "bun run scripts/build-cover-images.ts",
+    "build:search": "bun run scripts/build-search-index.ts"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.10",
     "@astrojs/markdown-remark": "^7.3.1",
     "astro": "^7.3.4",
-    "gray-matter": "^4.0.3",
     "pagefind": "^1.5.2",
     "tailwindcss": "^4.3.3"
   },
@@ -36,9 +41,11 @@
     "@types/bun": "^1.4.2",
     "@types/mdast": "^4.0.4",
     "@types/unist": "^3.0.3",
+    "entities": "^6.0.1",
     "typescript": "^6.0.3"
   },
   "engines": {
-    "bun": ">=1.4.2"
+    "bun": ">=1.4.2",
+    "node": ">=22.12.0"
   }
 }

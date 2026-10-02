@@ -13,11 +13,29 @@ interface PagefindData {
     plain_excerpt?: string;
     raw_content?: string;
     locations?: number[];
+    anchors?: PagefindAnchor[];
+    sub_results?: PagefindSubResult[];
     meta: {
         title: string;
         speaker?: string;
         timestamp?: string;
+        seconds?: string;
     };
+}
+
+interface PagefindAnchor {
+    id: string;
+    element: string;
+    text: string;
+    location: number;
+}
+
+interface PagefindSubResult {
+    url: string;
+    excerpt: string;
+    plain_excerpt?: string;
+    locations: number[];
+    anchor?: PagefindAnchor;
 }
 
 interface Pagefind {
@@ -27,60 +45,58 @@ interface Pagefind {
 interface SearchSession {
     id: number;
     results: PagefindResult[];
-    hydratedResults: PagefindData[];
+    passageResults: PagefindData[];
+    visibleResults: number;
     nextIndex: number;
     total: number;
     query: string;
 }
 
-/**
- * Extract the first timestamp [MM:SS] from an HTML excerpt and convert to seconds.
- * This allows us to construct precise #msg-{seconds} anchors even when indexing by bucket.
- */
-function extractTimestampSeconds(excerpt: string): number | null {
-    // Pagefind may wrap matches in <mark>, so we need to strip HTML first
-    const textOnly = excerpt.replace(/<[^>]*>/g, '');
-
-    // Look for patterns like [00:31] or [1:05:30]
-    const timestampMatch = textOnly.match(/\[(\d{1,2}):(\d{2})(?::(\d{2}))?\]/);
-    if (!timestampMatch) return null;
-
-    const [, first, second, third] = timestampMatch;
-    if (third !== undefined) {
-        // Format is HH:MM:SS
-        return parseInt(first) * 3600 + parseInt(second) * 60 + parseInt(third);
-    }
-    // Format is MM:SS
-    return parseInt(first) * 60 + parseInt(second);
+function resultSeconds(result: PagefindData): number | null {
+    if (result.meta.seconds === undefined) return null;
+    const seconds = Number(result.meta.seconds);
+    return Number.isFinite(seconds) && seconds >= 0 ? seconds : null;
 }
 
-function extractTimestampFromRawContent(result: PagefindData): number | null {
-    if (!result.raw_content) return null;
-
-    const plainExcerpt = result.plain_excerpt ?? result.excerpt.replace(/<[^>]*>/g, '');
-    if (!plainExcerpt) return null;
-
-    const excerptIndex = result.raw_content.indexOf(plainExcerpt);
-    if (excerptIndex < 0) return null;
-
-    const beforeExcerpt = result.raw_content.slice(0, excerptIndex);
-    const timestampMatches = beforeExcerpt.match(/\[(\d{1,2}:\d{2}(?::\d{2})?)\]/g);
-    const lastTimestamp = timestampMatches?.[timestampMatches.length - 1];
-    return lastTimestamp ? extractTimestampSeconds(lastTimestamp) : null;
+/** Keep Pagefind's exact passage URLs, including repeated timestamps. */
+export function getPassageResults(result: PagefindData): PagefindData[] {
+    const words = (result.raw_content ?? '').split(/[\r\n\s]+/);
+    const anchors = (result.anchors ?? [])
+        .filter((anchor) => /^msg-\d+(?:\.\d+)?(?:-\d+)?$/.test(anchor.id))
+        .sort((a, b) => a.location - b.location);
+    const bounds = new Map(anchors.map((anchor, index) => [anchor.id, {
+        start: anchor.location + anchor.text.split(/\s+/).length,
+        end: anchors[index + 1]?.location ?? words.length,
+    }]));
+    const passages = (result.sub_results ?? []).flatMap((subResult) => {
+        const anchor = subResult.anchor;
+        const seconds = anchor?.id.match(/^msg-(\d+(?:\.\d+)?)(?:-\d+)?$/)?.[1];
+        if (!anchor || seconds === undefined) return [];
+        const range = bounds.get(anchor.id);
+        const locations = range
+            ? subResult.locations.filter((location) => location >= range.start && location < range.end)
+            : subResult.locations;
+        if (!locations.length) return [];
+        const label = escapeText(anchor.text);
+        const labelPattern = label.split(/\s+/).map((word) =>
+            `(?:<mark>)?${word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}(?:</mark>)?`,
+        ).join('\\s+');
+        const withoutLabel = (excerpt: string) => excerpt.replace(new RegExp(`^${labelPattern}\\s*`), '');
+        return [{
+            url: subResult.url,
+            excerpt: withoutLabel(subResult.excerpt),
+            plain_excerpt: withoutLabel(subResult.plain_excerpt ?? ''),
+            raw_content: range ? words.slice(range.start, range.end).join(' ') : subResult.plain_excerpt,
+            locations,
+            meta: { ...result.meta, seconds },
+        }];
+    });
+    // The episode title can match without any matching transcript passage.
+    return [{ url: result.url, excerpt: '', locations: [], meta: result.meta }, ...passages];
 }
 
-function extractResultTimestampSeconds(result: PagefindData): number | null {
-    return extractTimestampSeconds(result.excerpt || '')
-        ?? extractTimestampFromRawContent(result)
-        ?? extractBucketSeconds(result.url);
-}
-
-/**
- * Extract seconds from bucket URL like /slug#bucket-123
- */
-function extractBucketSeconds(url: string): number | null {
-    const match = url.match(/#bucket-(\d+)/);
-    return match ? parseInt(match[1]) : null;
+function escapeText(value: string): string {
+    return value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 }
 
 let pagefind: Pagefind | null = null;
@@ -95,9 +111,10 @@ let searchSession: SearchSession | null = null;
 let isHydratingMore = false;
 
 // Keep initial search render cheap, then hydrate more on demand.
-const INITIAL_RESULTS_TO_HYDRATE = 60;
+const EPISODES_TO_HYDRATE = 8;
+const INITIAL_VISIBLE_RESULTS = 60;
 const LOAD_MORE_RESULTS_STEP = 40;
-const HYDRATE_BATCH_SIZE = 20;
+const HYDRATE_BATCH_SIZE = 8;
 
 function getLoadingHtml(): string {
     return `
@@ -128,6 +145,10 @@ function createPopover() {
         type="text"
         class="search-popover-input"
         aria-label="Search transcripts"
+        role="combobox"
+        aria-autocomplete="list"
+        aria-expanded="false"
+        aria-controls="search-results-list"
         placeholder="Search transcripts..."
         autocomplete="off"
         spellcheck="false"
@@ -151,15 +172,22 @@ function createPopover() {
         const query = (e.target as HTMLInputElement).value.trim();
         if (debounceTimer) clearTimeout(debounceTimer);
         selectedIndex = -1;
+        input?.removeAttribute('aria-activedescendant');
+        input?.setAttribute('aria-expanded', 'false');
+        activeSearchId++;
+        searchSession = null;
+        isHydratingMore = false;
 
         if (!query) {
-            activeSearchId++;
-            searchSession = null;
-            isHydratingMore = false;
             resultsArea!.innerHTML = '';
             return;
         }
 
+        if (!pagefind) {
+            resultsArea!.innerHTML = '<div class="search-empty-state">Search available after build</div>';
+            return;
+        }
+        resultsArea!.innerHTML = getLoadingHtml();
         debounceTimer = setTimeout(() => {
             void performSearch(query);
         }, 250);
@@ -167,19 +195,26 @@ function createPopover() {
 
     // Keyboard navigation
     input.addEventListener('keydown', (e) => {
-        const resultLinks = resultsArea!.querySelectorAll<HTMLAnchorElement>('.search-result, .search-episode-title[data-keyboard-result]');
+        const resultLinks = resultsArea!.querySelectorAll<HTMLAnchorElement>('[role="option"]');
 
         if (e.key === 'ArrowDown') {
             e.preventDefault();
-            selectedIndex = Math.min(selectedIndex + 1, resultLinks.length - 1);
+            const firstPassage = Array.from(resultLinks).findIndex((link) => link.classList.contains('search-result'));
+            selectedIndex = selectedIndex < 0 && firstPassage >= 0
+                ? firstPassage : Math.min(selectedIndex + 1, resultLinks.length - 1);
             updateSelection(resultLinks);
         } else if (e.key === 'ArrowUp') {
             e.preventDefault();
             selectedIndex = Math.max(selectedIndex - 1, -1);
             updateSelection(resultLinks);
-        } else if (e.key === 'Enter' && (selectedIndex >= 0 || resultLinks.length === 1)) {
-            e.preventDefault();
-            resultLinks[selectedIndex >= 0 ? selectedIndex : 0]?.click();
+        } else if (e.key === 'Enter') {
+            const passages = Array.from(resultLinks).filter((link) => link.classList.contains('search-result'));
+            const target = selectedIndex >= 0 ? resultLinks[selectedIndex]
+                : passages.length === 1 ? passages[0] : resultLinks.length === 1 ? resultLinks[0] : null;
+            if (target) {
+                e.preventDefault();
+                target.click();
+            }
         }
     });
 
@@ -216,6 +251,7 @@ function createPopover() {
         const link = (e.target as HTMLElement).closest<HTMLAnchorElement>('.search-result');
 
         if (link) {
+            if (e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
             e.preventDefault();
             const url = new URL(link.href, window.location.origin);
             const hash = url.hash;
@@ -291,6 +327,8 @@ function closePopover(restoreFocus = true) {
     document.getElementById('search-trigger')?.setAttribute('aria-expanded', 'false');
     if (restoreFocus) focusTarget?.focus();
     input.value = '';
+    input.removeAttribute('aria-activedescendant');
+    input.setAttribute('aria-expanded', 'false');
     resultsArea.innerHTML = '';
     selectedIndex = -1;
 }
@@ -319,6 +357,8 @@ async function performSearch(query: string) {
 
     const searchId = ++activeSearchId;
     selectedIndex = -1;
+    input?.removeAttribute('aria-activedescendant');
+    input?.setAttribute('aria-expanded', 'false');
     searchSession = null;
     isHydratingMore = false;
 
@@ -336,16 +376,26 @@ async function performSearch(query: string) {
         const hydratedResults = await hydrateResults(
             resultSet.results,
             0,
-            INITIAL_RESULTS_TO_HYDRATE,
+            EPISODES_TO_HYDRATE,
             searchId,
         );
         if (!hydratedResults || searchId !== activeSearchId) return;
 
+        const passageResults = getQueryResults(hydratedResults, query);
+        let nextIndex = hydratedResults.length;
+        while (!passageResults.length && nextIndex < resultSet.results.length) {
+            const nextHydrated = await hydrateResults(resultSet.results, nextIndex, EPISODES_TO_HYDRATE, searchId);
+            if (!nextHydrated || searchId !== activeSearchId) return;
+            passageResults.push(...getQueryResults(nextHydrated, query));
+            nextIndex += nextHydrated.length;
+        }
+
         searchSession = {
             id: searchId,
             results: resultSet.results,
-            hydratedResults,
-            nextIndex: hydratedResults.length,
+            passageResults,
+            visibleResults: INITIAL_VISIBLE_RESULTS,
+            nextIndex,
             total: resultSet.results.length,
             query,
         };
@@ -359,46 +409,54 @@ async function performSearch(query: string) {
 
 async function loadMoreResults() {
     if (!searchSession || !resultsArea || isHydratingMore) return;
-    if (searchSession.nextIndex >= searchSession.total) return;
+    if (searchSession.nextIndex >= searchSession.total && searchSession.visibleResults >= searchSession.passageResults.length) return;
 
     isHydratingMore = true;
 
     const loadMoreButton = resultsArea.querySelector<HTMLButtonElement>('#search-load-more');
+    const restoreFocus = document.activeElement === loadMoreButton;
     if (loadMoreButton) {
         loadMoreButton.disabled = true;
         loadMoreButton.textContent = 'Loading...';
     }
 
-    const nextHydrated = await hydrateResults(
-        searchSession.results,
-        searchSession.nextIndex,
-        LOAD_MORE_RESULTS_STEP,
-        searchSession.id,
-    );
-
-    if (!nextHydrated) {
-        isHydratingMore = false;
-        return;
+    const session = searchSession;
+    const firstNewIndex = Math.min(session.visibleResults, session.passageResults.length);
+    try {
+        if (session.visibleResults >= session.passageResults.length) {
+            const nextHydrated = await hydrateResults(
+                session.results,
+                session.nextIndex,
+                EPISODES_TO_HYDRATE,
+                session.id,
+            );
+            if (!nextHydrated || session.id !== activeSearchId) return;
+            session.passageResults.push(...getQueryResults(nextHydrated, session.query));
+            session.nextIndex += nextHydrated.length;
+        }
+        session.visibleResults = firstNewIndex + LOAD_MORE_RESULTS_STEP;
+        renderSearchSession();
+        if (restoreFocus) {
+            const focusTarget = resultsArea.querySelector<HTMLElement>(`[data-index="${firstNewIndex}"], #search-load-more`) ?? input;
+            focusTarget?.focus();
+        }
+    } catch {
+        if (session.id !== activeSearchId) return;
+        if (loadMoreButton) {
+            loadMoreButton.disabled = false;
+            loadMoreButton.textContent = 'Try loading more again';
+            if (restoreFocus) loadMoreButton.focus();
+        }
+    } finally {
+        if (session.id === activeSearchId) isHydratingMore = false;
     }
-
-    if (!searchSession || searchSession.id !== activeSearchId) {
-        isHydratingMore = false;
-        return;
-    }
-
-    searchSession.hydratedResults.push(...nextHydrated);
-    searchSession.nextIndex += nextHydrated.length;
-    isHydratingMore = false;
-
-    renderSearchSession();
 }
 
 function renderSearchSession() {
     if (!searchSession) return;
     renderGroupedResults(
-        searchSession.hydratedResults,
-        searchSession.query,
-        searchSession.nextIndex < searchSession.total,
+        searchSession.passageResults.slice(0, searchSession.visibleResults),
+        searchSession.nextIndex < searchSession.total || searchSession.visibleResults < searchSession.passageResults.length,
     );
 }
 
@@ -432,39 +490,44 @@ function transcriptMatches(result: PagefindData, terms: string[], hasMultipleWor
         && terms.some((term) => markedWords.some((word) => matchesTerm(word, term)));
 }
 
-function renderGroupedResults(results: PagefindData[], query: string, hasMore: boolean) {
-    if (!resultsArea) return;
+function titleMatches(title: string, terms: string[]): boolean {
+    const words = new Set(title.toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []);
+    return terms.length > 0 && terms.every((term) => words.has(term));
+}
 
+function getQueryResults(results: PagefindData[], query: string): PagefindData[] {
     const terms = searchTerms(query);
     const hasMultipleWords = (query.match(/[\p{L}\p{N}]+/gu)?.length ?? 0) > 1;
+    return results.flatMap(getPassageResults).filter((result) => result.meta.seconds === undefined
+        ? titleMatches(result.meta.title, terms)
+        : transcriptMatches(result, terms, hasMultipleWords));
+}
+
+function renderGroupedResults(results: PagefindData[], hasMore: boolean) {
+    if (!resultsArea) return;
+    selectedIndex = -1;
+    input?.removeAttribute('aria-activedescendant');
+
     // Group results by episode (base URL without anchor)
-    const grouped = new Map<string, { title: string; titleMatch: boolean; results: Array<{ result: PagefindData; index: number }> }>();
+    const grouped = new Map<string, { title: string; results: Array<{ result: PagefindData; index: number }> }>();
 
     results.forEach((result, i) => {
         const baseUrl = result.url.split('#')[0];
-        // Extract clean episode title
-        const rawTitle = result.meta?.title || 'Untitled';
-        const cleanTitle = rawTitle.replace(/\s*\(\d{1,2}:\d{2}(?::\d{2})?\)\s*$/, '');
+        const cleanTitle = result.meta?.title || 'Untitled';
 
-        const titleWords = new Set(cleanTitle.toLowerCase().match(/[\p{L}\p{N}]+/gu) ?? []);
-        const titleMatch = terms.length > 0 && terms.every((term) => titleWords.has(term));
         if (!grouped.has(baseUrl)) {
-            grouped.set(baseUrl, { title: cleanTitle, titleMatch, results: [] });
+            grouped.set(baseUrl, { title: cleanTitle, results: [] });
         }
-        if (transcriptMatches(result, terms, hasMultipleWords)) {
+        if (result.meta.seconds !== undefined) {
             grouped.get(baseUrl)!.results.push({ result, index: i });
         }
     });
 
-    for (const [baseUrl, group] of grouped) {
-        if (!group.titleMatch && group.results.length === 0) grouped.delete(baseUrl);
-    }
-
     // 1. Sort matches within each group by timestamp/seconds
     for (const group of grouped.values()) {
         group.results.sort((a, b) => {
-            const timeA = extractResultTimestampSeconds(a.result) ?? 0;
-            const timeB = extractResultTimestampSeconds(b.result) ?? 0;
+            const timeA = resultSeconds(a.result) ?? 0;
+            const timeB = resultSeconds(b.result) ?? 0;
             return timeA - timeB;
         });
     }
@@ -474,8 +537,8 @@ function renderGroupedResults(results: PagefindData[], query: string, hasMore: b
         return b[1].results.length - a[1].results.length;
     });
 
-    const resultsHtml = sortedGroups.map(([baseUrl, group]) =>
-        renderEpisodeGroup(baseUrl, group.title, group.results),
+    const resultsHtml = sortedGroups.map(([baseUrl, group], groupIndex) =>
+        renderEpisodeGroup(baseUrl, group.title, group.results, groupIndex),
     ).join('');
 
     const loadMoreHtml = hasMore
@@ -489,18 +552,19 @@ function renderGroupedResults(results: PagefindData[], query: string, hasMore: b
 
     resultsArea.innerHTML = `
       <div class="search-results-header">Search results</div>
-      <div class="search-results-list">${resultsHtml}</div>
+      <div id="search-results-list" class="search-results-list" role="listbox" aria-label="Search results">${resultsHtml}</div>
       ${loadMoreHtml}
     `;
+    input?.setAttribute('aria-expanded', String(sortedGroups.length > 0));
 }
 
-function renderEpisodeGroup(baseUrl: string, title: string, results: Array<{ result: PagefindData; index: number }>) {
-    const matchesHtml = results.map(({ result, index }) => renderMatch(result, index, baseUrl)).join('');
+function renderEpisodeGroup(baseUrl: string, title: string, results: Array<{ result: PagefindData; index: number }>, groupIndex: number) {
+    const matchesHtml = results.map(({ result, index }) => renderMatch(result, index)).join('');
 
     return `
-    <div class="search-episode-group">
+    <div class="search-episode-group" role="group" aria-label="${escapeHtml(title)}">
       <div class="search-episode-header">
-        <a href="${baseUrl}" class="search-episode-title" ${results.length ? '' : 'data-keyboard-result=""'}>${escapeHtml(title)}</a>
+        <a id="search-episode-${groupIndex}" href="${baseUrl}" class="search-episode-title" role="option" aria-selected="false">${escapeHtml(title)}</a>
         <span class="search-episode-count">${results.length ? `${results.length} match${results.length !== 1 ? 'es' : ''}` : 'Episode'}</span>
       </div>
       <div class="search-episode-matches">${matchesHtml}</div>
@@ -508,58 +572,22 @@ function renderEpisodeGroup(baseUrl: string, title: string, results: Array<{ res
   `;
 }
 
-function renderMatch(result: PagefindData, index: number, baseUrl: string) {
+function renderMatch(result: PagefindData, index: number) {
     const excerpt = result.excerpt || '';
-
-    // Extract precise timestamp from excerpt for deep linking
-    // Fall back to bucket seconds from URL if excerpt doesn't have timestamp
-    const seconds = extractResultTimestampSeconds(result);
-
-    const url = seconds !== null
-        ? `${baseUrl}#msg-${seconds}`
-        : baseUrl;
-
-    // Format timestamp for display
-    const displayTime = formatSecondsToTime(seconds);
-
-    // Clean up the excerpt for display
-    const cleanedExcerpt = cleanExcerpt(excerpt);
+    const displayTime = formatSecondsToTime(resultSeconds(result));
 
     return `
-    <a href="${url}"
+    <a href="${result.url}"
+       id="search-result-${index}"
+       role="option"
+       aria-selected="false"
        class="search-result"
        data-index="${index}"
        style="animation-delay: ${Math.min(index, 10) * 20}ms">
       <span class="search-result-time">${displayTime}</span>
-      <div class="search-excerpt">${cleanedExcerpt}</div>
+      <div class="search-excerpt">${excerpt}</div>
     </a>
   `;
-}
-
-/**
- * Clean up excerpt text for display:
- * - Remove timestamps like [MM:SS] or [HH:MM:SS]
- * - Convert markdown links [text](url) to just text
- * - Remove markdown bold (**text** or __text__) and italics (*text* or _text_)
- * - Remove speaker prefixes like "Speaker:" anywhere in text
- */
-function cleanExcerpt(excerpt: string): string {
-    return excerpt
-        // Remove timestamps [MM:SS] or [HH:MM:SS] (may be wrapped in <mark>)
-        .replace(/\[(?:<[^>]*>)?(\d{1,2}):(\d{2})(?::(\d{2}))?(?:<[^>]*>)?\]\s*/g, '')
-        // Convert markdown links [text](url) to just text
-        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
-        // Remove markdown bold **text** or __text__
-        .replace(/\*\*([^*]+)\*\*/g, '$1')
-        .replace(/__([^_]+)__/g, '$1')
-        // Remove markdown italics *text* or _text_ (be careful not to match already-processed bold)
-        .replace(/\*([^*]+)\*/g, '$1')
-        .replace(/(?<!\w)_([^_]+)_(?!\w)/g, '$1')
-        // Remove speaker names like "Name:" or "Name: " anywhere in text
-        .replace(/\b[A-Z][a-z]+:\s*/g, '')
-        // Clean up any double spaces
-        .replace(/\s{2,}/g, ' ')
-        .trim();
 }
 
 function formatSecondsToTime(seconds: number | null): string {
@@ -570,17 +598,19 @@ function formatSecondsToTime(seconds: number | null): string {
 }
 
 function escapeHtml(str: string) {
-    const div = document.createElement('div');
-    div.textContent = str;
-    return div.innerHTML;
+    return escapeText(str).replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
 function updateSelection(resultLinks: NodeListOf<HTMLAnchorElement>) {
     resultLinks.forEach((link, i) => {
         link.classList.toggle('selected', i === selectedIndex);
+        link.setAttribute('aria-selected', String(i === selectedIndex));
     });
     if (selectedIndex >= 0) {
+        input?.setAttribute('aria-activedescendant', resultLinks[selectedIndex].id);
         resultLinks[selectedIndex]?.scrollIntoView({ block: 'nearest' });
+    } else {
+        input?.removeAttribute('aria-activedescendant');
     }
 }
 

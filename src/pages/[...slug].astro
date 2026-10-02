@@ -18,7 +18,7 @@ export async function getStaticPaths() {
   const pages = await Promise.all(
     episodes.map(async (episode) => {
       const { Content, headings, remarkPluginFrontmatter } = await render(episode);
-      const h4Headings = headings.filter((h) => h.depth === 4);
+      const chapterHeadings = headings.filter((h) => h.depth === 2);
       const extractedLinks = (remarkPluginFrontmatter?.extractedLinks || []) as ExtractedLink[];
 
       // Find other episodes by the same guest(s)
@@ -36,7 +36,7 @@ export async function getStaticPaths() {
         props: {
           slug: episode.slug,
           Content,
-          headings: h4Headings,
+          headings: chapterHeadings,
           frontmatter: episode.data,
           episodeNumber: episode.epNumber,
           extractedLinks,
@@ -81,7 +81,7 @@ const audioSource = getEpisodeAudioSource(frontmatter.episodeLink);
 const hasLongDescription = hasBody && frontmatter.description.length > 135;
 ---
 
-<Layout frontmatter={frontmatter} slug={`/${slug}`}>
+<Layout frontmatter={frontmatter} slug={`/${slug}`} mainId="episode-content-shell">
   <EpisodeSidebar currentSlug={slug} />
 
   <div
@@ -223,6 +223,7 @@ const hasLongDescription = hasBody && frontmatter.description.length > 135;
     <div id="episode-scroll-container" class="flex-1 overflow-y-auto">
     <main
       id="episode-content-shell"
+      tabindex="-1"
       class="mx-auto px-3 sm:px-4 pt-4 pb-4 sm:pt-6 flex flex-col lg:max-w-4xl"
       data-video-layout={hasVideoPlayback ? "true" : "false"}
       data-video-mode={hasVideoPlayback ? "read" : undefined}

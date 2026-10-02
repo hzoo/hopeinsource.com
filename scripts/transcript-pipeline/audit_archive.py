@@ -6,7 +6,7 @@ import json
 from pathlib import Path
 import re
 
-TURN = re.compile(r'^\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s+\*\*([^*]+)\*\*\s*(.*)$', re.M)
+TURN = re.compile(r'^(?:\[(\d{1,2}:\d{2}(?::\d{2})?)\]\s+)?\*\*([^*]+)\*\*:?[ \t]*(.*)$', re.M)
 IDS = re.compile(r'\bid\s*=\s*[\"\']([^\"\']+)[\"\']')
 
 def seconds(timestamp):
@@ -27,7 +27,7 @@ def audit_text(text, path='<memory>', long_turn_words=180):
         content = first + paragraph[match.end():]
         plain = re.sub(r'<[^>]*>', '', content)
         words = re.findall(r"\b\w+(?:['’]\w+)*\b", plain)
-        turns.append({'timestamp': timestamp, 'seconds': seconds(timestamp),
+        turns.append({'timestamp': timestamp, 'seconds': seconds(timestamp) if timestamp else 0,
                       'speaker': speaker.rstrip(':').strip(), 'text': plain.strip(), 'words': len(words)})
     issues = []
     if not turns:
@@ -35,15 +35,18 @@ def audit_text(text, path='<memory>', long_turn_words=180):
     seen_passages = defaultdict(list)
     counts = Counter()
     generated = []
-    for index, turn in enumerate(turns):
+    previous_timed = None
+    for turn in turns:
         counts[turn['seconds']] += 1
         occurrence = counts[turn['seconds']]
         anchor = f"msg-{turn['seconds']}" + (f'-{occurrence}' if occurrence > 1 else '')
         generated.append(anchor)
         turn['anchor'] = anchor
-        if index and turn['seconds'] < turns[index - 1]['seconds']:
+        if turn['timestamp'] and previous_timed and turn['seconds'] < previous_timed['seconds']:
             issues.append({'kind': 'backward_chronology', 'severity': 'error', 'anchor': anchor,
-                           'previous_timestamp': turns[index - 1]['timestamp'], 'timestamp': turn['timestamp']})
+                           'previous_timestamp': previous_timed['timestamp'], 'timestamp': turn['timestamp']})
+        if turn['timestamp']:
+            previous_timed = turn
         # Same words at a different time may be intentional; report for review, never delete.
         key = (turn['speaker'], turn['text'])
         if turn['text']:
@@ -75,7 +78,7 @@ def main():
     parser.add_argument('--output', type=Path)
     args = parser.parse_args()
     root = Path(__file__).resolve().parents[2]
-    paths = args.paths or [root / 'src/content/podcast/season-5', root / 'src/content/podcast/season-6']
+    paths = args.paths or [root / 'src/content/podcast']
     files = sorted({file for path in paths for file in (path.rglob('*.md') if path.is_dir() else [path])})
     reports = [audit_text(file.read_text(), file) for file in files]
     result = {'read_only': True, 'episodes': reports,

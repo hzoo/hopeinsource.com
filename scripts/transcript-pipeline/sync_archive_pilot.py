@@ -190,9 +190,9 @@ def prepare(ledger, slug, root=ROOT):
         turn['start'], turn['end'] = timed[turn['id']]['start'], timed[turn['id']]['end']
     visible = verify_visible(''.join(virtual_lines), reading)
     # Decision and evidence files are read-only inputs, including any accepted choices.
-    for relative, expected in hashes.items():
-        if digest(root / relative) != expected:
-            raise ValueError(f'Input changed during preflight: {relative}')
+    for watched_relative, expected in hashes.items():
+        if digest(root / watched_relative) != expected:
+            raise ValueError(f'Input changed during preflight: {watched_relative}')
     report = {'slug': slug, 'mode': 'dry-run', 'mapped_edits': mapped,
               'visible_turns_verified': visible, 'source': relative,
               'source_sha256': digest(source), 'input_sha256': hashes,

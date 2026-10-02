@@ -11,30 +11,31 @@ const {
   publishedTime,
   modifiedTime,
   author = 'Henry Zhu',
+  noindex = false,
 } = Astro.props;
 
-const siteTitle = title === hisMetadata.title ? title : `${title}`;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 <meta name="generator" content={Astro.generator} />
+{noindex && <meta name="robots" content="noindex" />}
 
 <!-- Canonical URL -->
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Primary Meta Tags -->
-<title>{siteTitle}</title>
-<meta name="title" content={siteTitle} />
+<title>{title}</title>
+<meta name="title" content={title} />
 <meta name="description" content={description} />
 <meta name="author" content={author} />
 
 <!-- Open Graph / Facebook -->
 <meta property="og:type" content={type} />
 <meta property="og:url" content={canonicalURL} />
-<meta property="og:title" content={siteTitle} />
+<meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
 {publishedTime && <meta property="article:published_time" content={publishedTime} />}
@@ -43,7 +44,7 @@ const siteTitle = title === hisMetadata.title ? title : `${title}`;
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={canonicalURL} />
-<meta property="twitter:title" content={siteTitle} />
+<meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={`${hisMetadata.siteUrl}${his_cover.src}`} />
 <meta name="twitter:creator" content="@left_pad" />

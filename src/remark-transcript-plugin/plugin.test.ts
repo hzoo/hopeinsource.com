@@ -78,7 +78,7 @@ test("remarkTranscriptPlugin handles timestamps longer than 1 hour", async () =>
 
 test("remarkTranscriptPlugin groups consecutive speaker-only messages", async () => {
   const result = await processMarkdown(`
-[00:28] **Henry:** First thought.
+**Henry:** First thought.
 
 **Henry:** Second thought with **emphasis**.
 
@@ -89,6 +89,32 @@ test("remarkTranscriptPlugin groups consecutive speaker-only messages", async ()
   expect(result).toMatch(/class="message message-sent[^"]*consecutive consecutive-end hide-speaker/);
   expect(result).toContain('<span class="message-speaker"><strong>Henry</strong></span>');
   expect(result).toContain('<span class="message-text"> Second thought with <strong>emphasis</strong>.</span>');
+});
+
+test('speaker attribution resets across structural and timing boundaries', async () => {
+  for (const separator of ['---', '```js\nconst example = true;\n```', '<div>An editorial note.</div>']) {
+    const result = await processMarkdown(`[00:01] **Henry:** A complete thought.\n\n${separator}\n\n[00:02] **Henry:** Another complete thought.`);
+    expect(result.match(/<p id="msg-2"[^>]+>/)?.[0]).not.toContain('hide-speaker');
+  }
+  for (const [lead, reply, id] of [
+    ['[00:01] **Henry:** A thought.', '[02:00] **Henry:** After a pause.', 'msg-120'],
+    ['[00:03] **Henry:** A thought.', '[00:02] **Henry:** Earlier time.', 'msg-2'],
+    ['[00:01] **Henry:** A thought.', '**Henry:** Untimed thought.', 'msg-0'],
+    ['**Henry:** An untimed thought.', '[00:02] **Henry:** Timed thought.', 'msg-2'],
+  ]) {
+    const result = await processMarkdown(`${lead}\n\n${reply}`);
+    expect(result.match(new RegExp(`<p id="${id}"[^>]+>`))?.[0]).not.toContain('hide-speaker');
+    expect(result).not.toContain('consecutive-start');
+    expect(result).not.toContain('message-continuation');
+  }
+});
+
+test('provisional and third speakers retain attribution on consecutive turns', async () => {
+  for (const speaker of ['Speaker 0', 'Unconfirmed voice', 'Guest']) {
+    const prefix = speaker === 'Guest' ? '[00:00] **Henry:** First voice.\n\n[00:01] **Nadia:** Second voice.\n\n' : '';
+    const result = await processMarkdown(`${prefix}[00:02] **${speaker}:** A complete thought.\n\n[00:03] **${speaker}:** Another complete thought.`);
+    expect(result.match(/<p id="msg-3"[^>]+>/)?.[0]).not.toContain('hide-speaker');
+  }
 });
 
 test("remarkTranscriptPlugin disambiguates duplicate same-second message ids", async () => {
@@ -120,6 +146,14 @@ test("remarkTranscriptPlugin ignores non-transcript paragraphs", async () => {
   const input = "This is a regular paragraph without timestamps or speakers.";
   const result = await processMarkdown(input);
   expect(result).toBe(`<p>${input}</p>`);
+});
+
+test('episode section headings follow the page title without changing their text or aliases', async () => {
+  const result = await processMarkdown('#### A topic <span id="old-topic"></span>\n\n[00:01] **Henry:** A thought.\n\n### Show Notes');
+  expect(result).toContain('<h2>A topic <span id="old-topic"></span></h2>');
+  expect(result).toContain('<h2>Show Notes</h2>');
+  expect(result).toContain('id="msg-1"');
+  expect(result).not.toContain('<h4>');
 });
 
 test("remarkTranscriptPlugin handles custom options", async () => {

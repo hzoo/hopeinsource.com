@@ -108,12 +108,10 @@ const { src, title } = Astro.props;
 </div>
 
 <!-- Keyboard shortcuts dialog -->
-<div
+<dialog
   id="shortcuts-dialog"
-  class="fixed inset-0 bg-black/50 backdrop-blur-sm hidden flex items-center justify-center z-50"
-  role="dialog"
+  class="fixed inset-0 m-0 h-full max-h-none w-full max-w-none border-0 bg-black/50 p-0 backdrop-blur-sm hidden items-center justify-center z-50"
   aria-label="Keyboard shortcuts"
-  aria-modal="true"
   aria-hidden="true"
 >
   <div
@@ -154,7 +152,7 @@ const { src, title } = Astro.props;
       </div>
     </div>
   </div>
-</div>
+</dialog>
 
 <script src="../scripts/audio-player.ts"></script>
 

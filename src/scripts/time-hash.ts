@@ -35,10 +35,11 @@ export function parseTimeValue(value: string): number | null {
 
   if (/^\d+$/.test(trimmed)) {
     const seconds = Number.parseInt(trimmed, 10);
-    return Number.isFinite(seconds) ? seconds : null;
+    return Number.isSafeInteger(seconds) ? seconds : null;
   }
 
-  return parseClockParts(trimmed);
+  const seconds = parseClockParts(trimmed);
+  return seconds !== null && Number.isSafeInteger(seconds) ? seconds : null;
 }
 
 export function parseTimeHash(hash: string): ParsedTimeHash | null {

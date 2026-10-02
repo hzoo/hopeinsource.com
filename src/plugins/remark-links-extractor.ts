@@ -23,6 +23,13 @@ export const remarkLinksExtractor: Plugin<[], Root> = () => {
     const extractedLinks: ExtractedLink[] = [];
     let refIndex = 0;
 
+    // Older transcripts omitted the scheme on links to this site.
+    visit(tree, "link", (node: Link) => {
+      if (/^hopeinsource\.com(?=[/?#]|$)/.test(node.url)) {
+        node.url = `https://${node.url}`;
+      }
+    });
+
     visit(tree, "blockquote", (node: Blockquote) => {
       node.data = node.data || {};
       node.data.hProperties = {

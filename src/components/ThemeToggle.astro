@@ -12,93 +12,52 @@
 </button>
 
 <script is:inline>
-  const THEME_CONTROLLER_KEY = '__hisThemeToggleController';
-  const existingController = window[THEME_CONTROLLER_KEY];
-  if (existingController?.cleanup) {
-    existingController.cleanup();
-  }
-
   const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-  let toggles = [];
-
-  function setTheme(theme) {
-    if (theme === 'system') {
-      const systemTheme = mediaQuery.matches ? 'dark' : 'light';
-      document.documentElement.setAttribute('data-theme', systemTheme);
-      localStorage.removeItem('theme');
-    } else {
-      document.documentElement.setAttribute('data-theme', theme);
-      localStorage.theme = theme;
-    }
+  let savedTheme = null;
+  try {
+    const storedTheme = localStorage.getItem('theme');
+    if (storedTheme === 'dark' || storedTheme === 'light') savedTheme = storedTheme;
+  } catch {
+    // Theme controls still work when the browser blocks persistent storage.
   }
 
-  function updateThemeIcons() {
-    const theme = document.documentElement.getAttribute('data-theme');
+  function applyTheme() {
+    const theme = savedTheme ?? (mediaQuery.matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
     const isDark = theme === 'dark';
-
-    // Update button icons
     for (const prefix of ['theme-toggle', 'header-theme']) {
       document.getElementById(`${prefix}-dark-icon`)?.classList.toggle('hidden', isDark);
       document.getElementById(`${prefix}-light-icon`)?.classList.toggle('hidden', !isDark);
     }
-  }
-
-  function handleSystemThemeChange() {
-    if (!localStorage.theme) { // Only update if using system theme
-      setTheme('system');
-      updateThemeIcons();
+    for (const id of ['theme-toggle', 'header-theme-toggle']) {
+      document.getElementById(id)?.setAttribute('aria-label', `Switch to ${isDark ? 'light' : 'dark'} theme`);
     }
   }
 
   function handleToggleClick() {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    setTheme(newTheme);
-    updateThemeIcons();
-  }
-
-  function bindToggleClick() {
-    for (const toggle of toggles) toggle.removeEventListener('click', handleToggleClick);
-    toggles = ['theme-toggle', 'header-theme-toggle']
-      .map((id) => document.getElementById(id))
-      .filter(Boolean);
-    for (const toggle of toggles) toggle.addEventListener('click', handleToggleClick);
+    savedTheme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+    try {
+      localStorage.setItem('theme', savedTheme);
+    } catch {
+      // Keep the selection for this page even without persistent storage.
+    }
+    applyTheme();
   }
 
   function initThemeToggle() {
-    // Initial theme setup
-    if (localStorage.theme === 'dark' || localStorage.theme === 'light') {
-      setTheme(localStorage.theme);
-    } else {
-      setTheme('system');
+    for (const id of ['theme-toggle', 'header-theme-toggle']) {
+      document.getElementById(id)?.addEventListener('click', handleToggleClick);
     }
-
-    // Update icons
-    updateThemeIcons();
-    bindToggleClick();
+    applyTheme();
   }
 
-  function cleanupThemeToggle() {
-    for (const toggle of toggles) toggle.removeEventListener('click', handleToggleClick);
-    mediaQuery.removeEventListener('change', handleSystemThemeChange);
-    document.removeEventListener('astro:after-swap', initThemeToggle);
-    document.removeEventListener('DOMContentLoaded', initThemeToggle);
-  }
-
-  // Initial setup
-  initThemeToggle();
-
+  applyTheme();
   if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', initThemeToggle, { once: true });
+  } else {
+    initThemeToggle();
   }
-
-  // Listen for system theme changes
-  mediaQuery.addEventListener('change', handleSystemThemeChange);
-
-  // Re-initialize after View Transitions
-  document.addEventListener('astro:after-swap', initThemeToggle);
-
-  window[THEME_CONTROLLER_KEY] = {
-    cleanup: cleanupThemeToggle,
-  };
+  mediaQuery.addEventListener('change', () => {
+    if (!savedTheme) applyTheme();
+  });
 </script> 
