@@ -38,9 +38,9 @@ test('title matches remain episode links and never become invented passage links
     excerpt: '<mark>Episode</mark>',
     sub_results: [{ url: '/episode', excerpt: '<mark>Episode</mark>', locations: [0] }],
   };
-  expect(getPassageResults(result)).toEqual([
-    { url: '/episode', meta: result.meta, excerpt: '', locations: [] },
-  ]);
+  const matches = getPassageResults(result);
+  expect(matches).toHaveLength(1);
+  expect(matches[0]).toMatchObject({ url: '/episode', meta: result.meta, excerpt: '', locations: [] });
 });
 
 test('encoded speaker labels are removed without stripping body text or highlights', () => {

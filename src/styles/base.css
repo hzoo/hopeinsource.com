@@ -698,6 +698,36 @@ html {
   cursor: pointer;
 }
 
+.search-scope {
+  display: flex;
+  gap: 0.25rem;
+  padding: 0.25rem 0.75rem;
+  border-bottom: 1px solid var(--color-his-hr);
+  flex-shrink: 0;
+}
+
+.search-scope button {
+  min-height: 40px;
+  padding: 0.375rem 0.75rem;
+  border-radius: 4px;
+  font-size: 0.8125rem;
+  color: var(--color-his-text-secondary);
+  cursor: pointer;
+}
+
+.search-scope button[aria-pressed="true"] {
+  background: var(--color-his-hover);
+  color: var(--color-his-text);
+  font-weight: 600;
+}
+
+.search-scope button:hover { color: var(--color-his-green); }
+.search-scope button:focus-visible,
+.search-close-button:focus-visible {
+  outline: 2px solid var(--color-his-green);
+  outline-offset: -2px;
+}
+
 /* Results area */
 .search-results-area {
   flex: 1;
@@ -721,16 +751,6 @@ html {
 
 .search-results-area::-webkit-scrollbar-thumb:hover {
   background: var(--color-his-text-tertiary);
-}
-
-.search-results-header {
-  padding: 0.5rem 1.25rem;
-  font-size: 0.625rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--color-his-text-tertiary);
-  background: var(--color-his-hover);
 }
 
 .search-empty-state,
@@ -780,6 +800,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 0.75rem;
   padding: 0.625rem 1.25rem;
   background: var(--color-his-hover);
   position: sticky;
@@ -795,13 +816,15 @@ html {
 }
 
 .search-episode-title:hover,
-.search-episode-title.selected {
+.search-episode-title:focus-visible {
   color: var(--color-his-green);
 }
 
 .search-episode-count {
   font-size: 0.6875rem;
   color: var(--color-his-text-tertiary);
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 
 /* Matches container - flex for individual match items */
@@ -818,7 +841,6 @@ html {
   text-decoration: none;
   color: inherit;
   transition: background 0.1s;
-  animation: searchSlideIn 0.2s ease-out both;
 }
 
 .search-result+.search-result {
@@ -826,11 +848,12 @@ html {
 }
 
 .search-result:hover,
-.search-result.selected {
+.search-result:focus-visible {
   background: color-mix(in oklab, var(--color-his-hover) 70%, transparent);
 }
 
 .search-result-time {
+  font-variant-numeric: tabular-nums;
   font-size: 0.75rem;
   font-family: ui-monospace, monospace;
   color: var(--color-his-text-tertiary);
@@ -838,6 +861,45 @@ html {
   flex-shrink: 0;
   padding-top: 0.125rem;
 }
+
+.search-result-copy {
+  flex: 1;
+  min-width: 0;
+}
+
+.search-result-speaker {
+  display: block;
+  margin-bottom: 0.125rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  color: var(--color-his-text-secondary);
+}
+
+.search-more-passages {
+  min-height: 40px;
+  padding: 0.375rem 1.25rem;
+  text-align: left;
+  font-size: 0.75rem;
+  color: var(--color-his-green);
+  cursor: pointer;
+}
+
+.search-more-passages:hover,
+.search-more-passages:focus-visible {
+  background: var(--color-his-hover);
+}
+
+.search-suggestions { margin-top: 0.5rem; }
+.search-suggestions:empty { display: none; }
+.search-suggestions button,
+.search-all-episodes {
+  min-height: 40px;
+  color: var(--color-his-green);
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.search-all-episodes { display: block; margin: 0.5rem auto 0; }
 
 .search-excerpt {
   font-size: 0.8125rem;
@@ -874,18 +936,6 @@ html {
   padding: 0.0625rem 0.1875rem;
   border-radius: 3px;
   font-weight: 500;
-}
-
-@keyframes searchSlideIn {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
 }
 
 /* Flash animation for message deep-linking */
@@ -1341,6 +1391,7 @@ html {
 
 .search-results-area:empty { display: none; }
 .search-popover:has(.search-results-area:empty) .search-input-row { border-bottom: 0; }
+.search-popover:has(.search-results-area:empty) .search-scope { border-bottom: 0; }
 
 /* Continuing thoughts share one speaker label, even across a brief reply. */
 @layer components {

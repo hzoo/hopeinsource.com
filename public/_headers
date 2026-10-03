@@ -5,14 +5,29 @@
 /pagefind/pagefind.js
   Cache-Control: public, max-age=0, must-revalidate
 
+/pagefind/pagefind-worker.js
+  Cache-Control: public, max-age=0, must-revalidate
+
+/pagefind/wasm.*.pagefind
+  Cache-Control: public, max-age=0, must-revalidate
+
 /pagefind/pagefind-entry.json
   Cache-Control: public, max-age=0, must-revalidate
 
 /pagefind/index/*
   Cache-Control: public, max-age=31556952, immutable
 
+/pagefind/filter/*
+  Cache-Control: public, max-age=31556952, immutable
+
 /pagefind/fragment/*
   Cache-Control: public, max-age=31556952, immutable
 
 /pagefind/*.pf_meta
+  Cache-Control: public, max-age=31556952, immutable
+
+/pagefind/vocabulary.json
+  Cache-Control: public, max-age=0, must-revalidate
+
+/pagefind/vocabulary-*.json
   Cache-Control: public, max-age=31556952, immutable

@@ -4,6 +4,7 @@ import { decodeHTML } from "entities";
 import { mkdtemp, readdir, rename, rm, stat } from "node:fs/promises";
 import { dirname, join, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
+import { buildSearchVocabulary, vocabularyAsset } from "./search-vocabulary";
 
 const BUILD_DIR = fileURLToPath(new URL("../dist/", import.meta.url));
 const OUTPUT_DIR = join(BUILD_DIR, "pagefind");
@@ -80,15 +81,16 @@ export async function extractEpisodeRecords(html: string, url: string): Promise<
   });
 }
 
-/** Virtual headings give Pagefind native sub-results without changing the reading UI. */
+/** Virtual headings retain canonical passage boundaries without changing the reading UI. */
 export function createEpisodeSearchHtml(records: EpisodeSearchRecord[]): string {
   const title = records[0]?.meta.title ?? "";
+  const episodeRoute = Bun.escapeHTML(records[0]?.url.split("#")[0] ?? "");
+  const speakers = Bun.escapeHTML(JSON.stringify(records.map(record => record.meta.speaker)));
   const passages = records.map(record => {
     const anchor = record.url.split("#")[1] ?? "";
-    const label = `[${record.meta.timestamp}] ${record.meta.speaker}:`;
-    return `<h2 id="${Bun.escapeHTML(anchor)}" data-pagefind-weight="0">${Bun.escapeHTML(label)}</h2><p>${Bun.escapeHTML(record.content)}</p>`;
+    return `<h2 id="${Bun.escapeHTML(anchor)}"></h2><p>${Bun.escapeHTML(record.content)}</p>`;
   }).join("\n");
-  return `<html lang="en"><body data-pagefind-body><h1 data-pagefind-meta="title">${Bun.escapeHTML(title)}</h1>${passages}</body></html>`;
+  return `<html lang="en"><head><meta data-pagefind-meta="passage_speakers[content]" content="${speakers}"><meta data-pagefind-filter="episode[content]" content="${episodeRoute}"></head><body data-pagefind-body><h1 data-pagefind-meta="title">${Bun.escapeHTML(title)}</h1>${passages}</body></html>`;
 }
 
 function formatTimestamp(seconds: number): string {
@@ -108,9 +110,9 @@ async function getHtmlFiles(dir: string): Promise<string[]> {
   return files.sort();
 }
 
-function pageUrl(filePath: string): string {
+export function pageUrl(filePath: string): string {
   const path = relative(BUILD_DIR, filePath).split(sep).join("/");
-  return path.endsWith("/index.html") ? `/${dirname(path)}` : `/${path.replace(/index\.html$|\.html$/g, "")}`;
+  return path.endsWith("/index.html") ? `/${dirname(path)}/` : `/${path.replace(/index\.html$|\.html$/g, "")}`;
 }
 
 async function main() {
@@ -124,9 +126,11 @@ async function main() {
   try {
     let totalMessages = 0;
     let totalEpisodes = 0;
+    const vocabularyRecords: EpisodeSearchRecord[] = [];
     for (const filePath of await getHtmlFiles(BUILD_DIR)) {
       const records = await extractEpisodeRecords(await Bun.file(filePath).text(), pageUrl(filePath));
       if (!records.length) continue;
+      vocabularyRecords.push(...records);
       totalEpisodes++;
       const result = await index.addHTMLFile({ url: pageUrl(filePath), content: createEpisodeSearchHtml(records) });
       if (result.errors.length) throw new Error(`Failed to index ${filePath}: ${result.errors.join("; ")}`);
@@ -135,6 +139,9 @@ async function main() {
     if (!totalMessages) throw new Error("No rendered transcript passages found; search index was not replaced");
     const result = await index.writeFiles({ outputPath: tempDir });
     if (result.errors.length) throw new Error(`Failed to write search: ${result.errors.join("; ")}`);
+    const vocabulary = vocabularyAsset(buildSearchVocabulary(vocabularyRecords));
+    await Bun.write(join(tempDir, vocabulary.filename), vocabulary.content);
+    await Bun.write(join(tempDir, "vocabulary.json"), vocabulary.manifest);
     await rm(OUTPUT_DIR, { recursive: true, force: true });
     await rename(tempDir, OUTPUT_DIR);
     console.log(`Search indexed ${totalMessages} canonical passages in ${totalEpisodes} episodes`);

@@ -1,6 +1,7 @@
 import { expect, test } from "bun:test";
 import * as pagefind from "pagefind";
-import { createEpisodeSearchHtml, extractEpisodeRecords } from "./build-search-index";
+import { createEpisodeSearchHtml, extractEpisodeRecords, pageUrl } from "./build-search-index";
+import { fileURLToPath } from 'node:url';
 
 test("search records use rendered canonical anchors and decode only visible dialogue", async () => {
   const html = `<header id="chat-header"><h1>A &amp; B</h1></header>
@@ -35,6 +36,17 @@ test("non-episode HTML does not enter the transcript index", async () => {
   expect(await extractEpisodeRecords("<h1>Home</h1><nav>Episodes</nav>", "/")).toEqual([]);
 });
 
+test('directory episode routes point directly at canonical static pages', () => {
+  expect(pageUrl(fileURLToPath(new URL('../dist/play/index.html', import.meta.url)))).toBe('/play/');
+  expect(pageUrl(fileURLToPath(new URL('../dist/index.html', import.meta.url)))).toBe('/');
+});
+
+test('the episode filter uses the rendered canonical route without a passage hash', async () => {
+  const records = await extractEpisodeRecords(`<header id="chat-header"><h1>Conversation</h1></header>
+    <p class="message" id="msg-21-2" data-timestamp="21" data-speaker="Henry"><span class="message-text">A passage.</span></p>`, '/conversation/');
+  expect(createEpisodeSearchHtml(records)).toContain('data-pagefind-filter="episode[content]" content="/conversation/"');
+});
+
 test("rendered document titles preserve guest-name search metadata", async () => {
   const records = await extractEpisodeRecords(`<title>Digital Disembodiment (Maggie Appleton)</title>
     <header id="chat-header"><h1>Digital Disembodiment</h1></header>
@@ -66,9 +78,13 @@ test("Pagefind native sections retain duplicate-second canonical anchors in one 
     const decoded = new TextDecoder().decode(Bun.gunzipSync(new Uint8Array(content)));
     const fragment = JSON.parse(decoded.slice(decoded.indexOf("{")));
     expect(fragment.anchors.map((anchor: { id: string }) => anchor.id)).toEqual(["msg-21", "msg-21-2"]);
+    expect(fragment.anchors.map((anchor: { text: string }) => anchor.text)).toEqual(['', '']);
+    expect(JSON.parse(fragment.meta.passage_speakers)).toEqual(['Henry', 'Nadia']);
+    expect(fragment.filters).toEqual({ episode: ['/play'] });
     expect(fragment.content).toContain("Apple red.");
     expect(fragment.content).toContain("Apple green.");
     expect(fragment.content).not.toContain("<span");
+    expect(fragment.content).not.toContain("Henry:");
   } finally {
     await index.deleteIndex();
     await pagefind.close();
