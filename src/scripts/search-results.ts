@@ -199,8 +199,9 @@ function compatibleWord(word: string, term: string): boolean {
 }
 
 function matchesTerms(result: PagefindData, terms: string[]): boolean {
-    // Title metadata can match without body offsets (for example a HEAD title).
-    if (result.term_locations && result.meta.seconds !== undefined) {
+    // Use native offsets for indexed titles as well as dialogue. A metadata-only
+    // title (for example in HEAD) has no indexed title content to validate.
+    if (result.term_locations && (result.meta.seconds !== undefined || result.content?.trim())) {
         const words = wordsFor(result);
         return terms.every((term, index) => result.term_locations?.[index]?.some(location => compatibleWord(words[location] ?? '', term)));
     }

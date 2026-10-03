@@ -52,6 +52,18 @@ test('drastic native prefix fallback is rejected for single and multiple words',
     expect(getQueryResults([result], 'communtiy')).toEqual([]);
 });
 
+test('body prefix fallback cannot invent a match in an indexed episode title', () => {
+    const result: PagefindData = {
+        url: '/membership/', excerpt: '',
+        content: 'Community Membership Visit hopeinsource.com for transcripts.',
+        anchors: [{ ...anchors[0], location: 2 }],
+        meta: { title: 'Community Membership' }, locations: [3], term_locations: [[3]],
+    };
+    expect(getQueryResults([result], 'communtiy')).toEqual([]);
+    const titleHit = { ...result, locations: [0], term_locations: [[0]] };
+    expect(getQueryResults([titleHit], 'community').map(match => match.url)).toEqual(['/membership/']);
+});
+
 test('quoted search finds every matching message even when native excerpts only include the first', () => {
     const results = getQueryResults([episode], '"open source"');
     expect(results.map(result => result.url)).toEqual(['/episode/#msg-21-2', '/episode/#msg-42']);
