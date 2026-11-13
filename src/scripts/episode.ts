@@ -2,6 +2,8 @@
  * Episode page interactions: Chat header shadow and message deep-linking
  */
 
+import { getFragmentTarget } from './fragment-target';
+
 // --- Chat Header Logic ---
 
 function initChatHeader() {
@@ -27,7 +29,7 @@ function handleDeepLink() {
     const hash = window.location.hash;
     if (!hash) return;
 
-    const target = document.getElementById(hash.slice(1));
+    const target = getFragmentTarget(hash);
     if (target?.matches('#episode-content-shell h2')) {
         requestAnimationFrame(() => target.scrollIntoView({ block: 'start', behavior: 'instant' }));
         return;
@@ -35,14 +37,13 @@ function handleDeepLink() {
 
     if (!hash.startsWith('#msg-')) return;
 
-    const el = document.getElementById(hash.slice(1));
-    if (el) {
+    if (target) {
         requestAnimationFrame(() => {
-            el.scrollIntoView({ block: 'center', behavior: 'instant' });
-            el.classList.add('highlight-flash');
+            target.scrollIntoView({ block: 'center', behavior: 'instant' });
+            target.classList.add('highlight-flash');
 
-            el.addEventListener('animationend', () => {
-                el.classList.remove('highlight-flash');
+            target.addEventListener('animationend', () => {
+                target.classList.remove('highlight-flash');
             }, { once: true });
         });
     }

@@ -132,7 +132,7 @@ function initSidebar() {
 
     // Bring the active episode into view only when it starts outside the list.
     const sidebar = getSidebar();
-    const activeLink = sidebar?.querySelector('[aria-current="page"]');
+    const activeLink = sidebar?.querySelector<HTMLElement>('[aria-current="page"]');
     const episodeList = sidebar?.querySelector('.overflow-y-auto');
     if (activeLink && episodeList) {
         const activeRect = activeLink.getBoundingClientRect();
@@ -143,8 +143,12 @@ function initSidebar() {
     }
 
     const syncResponsiveAccessibility = () => {
-        closeSidebar();
-        setSidebarAccessible(desktopQuery.matches);
+        const desktop = desktopQuery.matches;
+        const focused = document.activeElement;
+        const focusDesktopEpisode = desktop && sidebarOpen && (focused === document.body || focused?.id === 'sidebar-close');
+        closeSidebar(!desktop && Boolean(sidebar?.contains(focused)));
+        setSidebarAccessible(desktop);
+        if (focusDesktopEpisode) activeLink?.focus({ preventScroll: true });
     };
     desktopQuery.addEventListener('change', syncResponsiveAccessibility);
     syncResponsiveAccessibility();

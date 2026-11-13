@@ -12,14 +12,6 @@ export default defineConfig({
   compressHTML: true,
   vite: {
     plugins: [tailwindcss()],
-    build: {
-      rollupOptions: {
-        external: ['/pagefind/pagefind.js'],
-      },
-    },
-    optimizeDeps: {
-      exclude: ['/pagefind/pagefind.js'],
-    },
   },
   markdown: {
     processor: unified({

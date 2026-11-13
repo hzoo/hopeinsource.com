@@ -38,7 +38,10 @@ export function loadSearchVocabulary(): Promise<SearchVocabulary | null> {
                 // Optional spelling help must never turn an empty search into an error.
                 return null;
             }
-        })();
+        })().then(vocabulary => {
+            if (vocabulary === null) vocabularyRequest = null;
+            return vocabulary;
+        });
     }
     return vocabularyRequest;
 }

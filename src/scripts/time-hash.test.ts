@@ -10,11 +10,13 @@ test('time links skip relocated aliases while keeping real-time passage destinat
   const retained = { dataset: { timestamp: '1487' }, id: 'msg-1487' };
   const duplicateAlias = { dataset: {}, id: 'msg-1533' };
   const distinct = { dataset: { timestamp: '1533' }, id: 'msg-1533-2' };
-  expect(timeHashTarget(1533, duplicateAlias, distinct)).toBe(distinct);
-  expect(timeHashTarget(1533, retained, distinct)).toBe(distinct);
-  expect(timeHashTarget(1533, distinct, retained)).toBe(distinct);
-  expect(timeHashTarget(1533, null, distinct)).toBe(distinct);
-  expect(timeHashTarget(1533, duplicateAlias, undefined)).toBeUndefined();
+  const points = [{ time: 1487, el: retained }, { time: 1533, el: distinct }];
+  expect(timeHashTarget(1533, duplicateAlias, points)).toBe(distinct);
+  expect(timeHashTarget(1533, retained, points)).toBe(distinct);
+  expect(timeHashTarget(1533, distinct, points.slice(0, 1))).toBe(distinct);
+  expect(timeHashTarget(1532, null, points)).toBe(retained);
+  expect(timeHashTarget(2, null, points)).toBe(retained);
+  expect(timeHashTarget(1533, duplicateAlias, [])).toBeUndefined();
 });
 
 test("parseTimeValue accepts MM:SS", () => {

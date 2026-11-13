@@ -1058,17 +1058,95 @@ html {
 }
 
 #home-brand .brand-cover {
+  position: relative;
   width: 48px;
   height: 48px;
   border-radius: 0;
   margin-bottom: 0.45rem;
 }
 
+#home-brand .brand-cover-art,
+#home-brand .brand-cover-art img,
+#home-brand .brand-cover-intro {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+:root:not([data-theme="light"]) #home-brand .brand-cover-light,
+:root[data-theme="light"] #home-brand .brand-cover-dark,
+#home-brand .brand-cover:not([data-intro="playing"]) .brand-cover-intro {
+  display: none;
+}
+
+/* while the intro plays it covers the still, on the cover's own sky so nothing flashes before the first frame */
+#home-brand .brand-cover[data-intro="playing"] {
+  background: #1b353e;
+}
+
+:root[data-theme="light"] #home-brand .brand-cover[data-intro="playing"] {
+  background: #efe0c2;
+}
+
+#home-brand .brand-cover[data-intro="playing"] .brand-cover-art {
+  visibility: hidden;
+}
+
+#home-brand .brand-cover-intro {
+  position: absolute;
+  inset: 0;
+}
+
+#home-brand .brand-cover:has(.brand-cover-replay:not([hidden])) {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* a quiet replay mark in the cover's corner: faint at rest, clear on hover or focus, gone while the intro plays */
+#home-brand .brand-cover-replay {
+  position: absolute;
+  right: 0.5rem;
+  bottom: 0.5rem;
+  display: grid;
+  place-items: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 0;
+  border-radius: 999px;
+  padding: 0;
+  color: #fff;
+  background: rgb(0 0 0 / 0.35);
+  opacity: 0.45;
+  cursor: pointer;
+  transition: opacity 160ms ease;
+}
+
+#home-brand .brand-cover-replay[hidden],
+#home-brand .brand-cover[data-intro="playing"] .brand-cover-replay {
+  display: none;
+}
+
+#home-brand .brand-cover:hover .brand-cover-replay,
+#home-brand .brand-cover-replay:focus-visible {
+  opacity: 1;
+}
+
+#home-brand .brand-cover-replay:focus-visible {
+  outline: 2px solid var(--color-his-green);
+  outline-offset: 2px;
+}
+
+/* the cover carries the name at every size, so the text title is for screen readers and search */
 #home-brand .brand-title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--color-his-text);
-  margin: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 #home-brand .brand-taglines p {
@@ -1179,13 +1257,8 @@ html {
 
 
   #home-brand .brand-cover {
-    order: -1;
-    width: 64px;
-    height: 64px;
-  }
-
-  #home-brand .brand-title {
-    display: block;
+    width: min(12rem, 46vw);
+    height: auto;
   }
 }
 
@@ -1220,21 +1293,9 @@ html {
   }
 
   #home-brand .brand-cover {
-    width: min(22rem, 28vw);
-    height: min(22rem, 28vw);
+    width: min(24rem, 26vw);
+    height: auto;
     margin-bottom: 0.65rem;
-  }
-
-  #home-brand .brand-title {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border: 0;
   }
 
   #home-brand .brand-taglines {

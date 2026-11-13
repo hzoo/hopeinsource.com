@@ -120,10 +120,10 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     {extractedLinks.length > 0 && (
       <div
         id="ref-popover"
-        class="hidden md:block fixed right-12 top-[calc(50%+80px)] w-72 max-h-[60vh] overflow-hidden bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-[opacity,transform,visibility] duration-200 z-50"
+        class="hidden md:block fixed right-12 top-[calc(50%+80px)] w-72 max-h-[60vh] overflow-y-auto bg-his-bg border border-his-hr rounded-lg shadow-xl opacity-0 invisible transition-[opacity,transform,visibility] duration-200 z-50 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
         style="transform: translateY(-50%) translateX(10px);"
       >
-        <div class="p-1.5 overflow-y-auto max-h-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+        <div class="p-1.5">
           {extractedLinks.map((link) => (
             <div
               class="ref-popover-item py-2 px-2 rounded-md hover:bg-his-hover/50 transition-colors"
@@ -154,6 +154,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
 )}
 
 <script>
+  import { getFragmentTarget } from '../scripts/fragment-target';
+
   let currentActiveId: string | null = null;
   let tocOpen = false;
   let refOpen = false;
@@ -207,8 +209,10 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     tocInitialized = true;
     const tocBars = document.getElementById('toc-bars');
     const tocNav = document.getElementById('toc-nav');
-    const tocLinks = document.querySelectorAll('.toc-link');
+    const tocLinks = document.querySelectorAll<HTMLAnchorElement>('.toc-link');
     const scrubberBars = document.querySelectorAll('.toc-scrubber-bar');
+    const headings = [...document.querySelectorAll<HTMLHeadingElement>('#episode-content-shell h2[id]')];
+    const scrollContainer = document.getElementById('episode-scroll-container');
 
     const refBadge = document.getElementById('ref-badge');
     const refPopover = document.getElementById('ref-popover');
@@ -220,9 +224,8 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       if (!target?.matches('h2')) return;
       if (currentActiveId === id) return;
       currentActiveId = id;
-      const currentHeading = document.getElementById(id);
-      if (mobileChaptersCurrent && currentHeading?.textContent) {
-        mobileChaptersCurrent.textContent = currentHeading.textContent.trim();
+      if (mobileChaptersCurrent && target.textContent) {
+        mobileChaptersCurrent.textContent = target.textContent.trim();
       }
 
       tocLinks.forEach(link => {
@@ -279,17 +282,13 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     // TOC links - scroll to section
     tocLinks.forEach(link => {
       link.addEventListener('click', () => {
-        const href = link.getAttribute('href');
-        if (href) {
-          const target = document.querySelector(href);
-          if (target) {
-            closeTOC();
-            mobileChapters?.removeAttribute('open');
-            setActive(href.slice(1));
-            (target as HTMLElement).tabIndex = -1;
-            requestAnimationFrame(() => (target as HTMLElement).focus({ preventScroll: true }));
-          }
-        }
+        const target = getFragmentTarget(link.hash);
+        if (!target) return;
+        closeTOC();
+        mobileChapters?.removeAttribute('open');
+        setActive(target.id);
+        target.tabIndex = -1;
+        requestAnimationFrame(() => target.focus({ preventScroll: true }));
       });
     });
 
@@ -306,7 +305,7 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     });
 
     // Enrich TOC links with timestamps from adjacent messages
-    document.querySelectorAll('#episode-content-shell h2').forEach((heading) => {
+    headings.forEach((heading) => {
       let el = heading.nextElementSibling;
       while (el && !el.matches('[data-timestamp]') && !el.querySelector('[data-timestamp]') && !el.matches('h2')) {
         el = el.nextElementSibling;
@@ -330,14 +329,25 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
       }
     });
 
-    // Intersection Observer
-    const observer = new IntersectionObserver(
-      (entries) => entries.forEach((entry) => {
-        if (entry.isIntersecting) setActive(entry.target.id);
-      }),
-      { rootMargin: '-10% 0px -70% 0px', threshold: 0 }
-    );
-    document.querySelectorAll('#episode-content-shell h2').forEach((h) => observer.observe(h));
+    let chapterFrame: number | null = null;
+    function syncActiveChapter() {
+      chapterFrame = null;
+      const first = headings[0];
+      if (!scrollContainer || !first) return;
+      // Count a heading as current at its fragment landing position.
+      const margin = parseFloat(getComputedStyle(first).scrollMarginTop) || 0;
+      const readingLine = scrollContainer.getBoundingClientRect().top + margin + 1;
+      const current = headings.findLast(heading => heading.getBoundingClientRect().top <= readingLine) ?? first;
+      setActive(current.id);
+    }
+    function scheduleActiveChapter() {
+      if (chapterFrame === null) chapterFrame = requestAnimationFrame(syncActiveChapter);
+    }
+    if (headings.length) {
+      scrollContainer?.addEventListener('scroll', scheduleActiveChapter, { passive: true });
+      window.addEventListener('resize', scheduleActiveChapter);
+      window.addEventListener('hashchange', scheduleActiveChapter);
+    }
 
     // Global listeners
     document.addEventListener('click', handleTOCClick);
@@ -347,20 +357,20 @@ const hasContent = headings.length > 0 || extractedLinks.length > 0;
     const hash = window.location.hash;
     if (hash) {
       const id = hash.slice(1);
-      const target = document.getElementById(id);
-      if (target?.matches('h2')) setActive(id);
+      const target = getFragmentTarget(hash);
+      if (target?.matches('h2')) setActive(target.id);
       else {
         const seconds = id.startsWith('t=') ? Number(id.slice(2)) : null;
         const passage = target ?? (seconds !== null && Number.isFinite(seconds)
           ? [...document.querySelectorAll<HTMLElement>('.message[data-timestamp]')]
             .filter(m => Number(m.dataset.timestamp) <= seconds).at(-1) : null);
         if (passage) {
-          const heading = [...document.querySelectorAll('#episode-content-shell h2')].filter(h =>
-            Boolean(h.compareDocumentPosition(passage) & Node.DOCUMENT_POSITION_FOLLOWING)).at(-1);
+          const heading = headings.findLast(h => h.compareDocumentPosition(passage) & Node.DOCUMENT_POSITION_FOLLOWING);
           if (heading) setActive(heading.id);
         }
       }
     }
+    if (currentActiveId === null) syncActiveChapter();
   }
 
   function initTOCLazyBootstrap() {

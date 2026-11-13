@@ -72,7 +72,7 @@ function isBriefAcknowledgment(content: string): boolean {
 }
 
 export function searchTerms(query: string): string[] {
-    const words = query.toLowerCase().replace(/['’]/g, '').match(/[\p{L}\p{N}]+/gu) ?? [];
+    const words = query.normalize('NFC').toLowerCase().replace(/['’]/g, '').match(/[\p{L}\p{N}]+/gu) ?? [];
     const meaningful = words.filter(word => !FILLER_WORDS.has(word));
     return [...new Set(meaningful.length ? meaningful : words)];
 }

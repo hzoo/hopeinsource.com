@@ -43,6 +43,7 @@ const records = [
     { anchor: 'msg-100', seconds: '100', speaker: 'Nadia', content: 'Our communities gather tomorrow.' },
     { anchor: 'msg-120', seconds: '120', speaker: 'Henry', content: 'This turn ends with open.' },
     { anchor: 'msg-121', seconds: '121', speaker: 'Nadia', content: 'Source starts another turn.' },
+    { anchor: 'msg-130', seconds: '130', speaker: 'Henry', content: 'There is a naïve consistency in that answer.' },
 ].map(record => ({
     url: `/conversation/#${record.anchor}`,
     content: record.content,
@@ -139,6 +140,14 @@ test('native multiword morphology matches within one turn and retains its first 
     expect(results.some(result => /#msg-(90|100)$/.test(result.url))).toBe(false);
 });
 
+test('composed and decomposed accented queries find the same spoken passage', async () => {
+    for (const query of ['naïve consistency', 'nai\u0308ve consistency']) {
+        const results = await passages(query);
+        expect(results.map(result => result.url)).toEqual(['/conversation/#msg-130']);
+        expect(results[0]!.excerpt).toContain('<mark>naïve</mark>');
+    }
+});
+
 test('the native short-root matches survive the prefix-fallback guard', async () => {
     for (const query of ['city', 'sky', 'baby', 'lady', 'die', 'run']) {
         const results = await passages(query);
@@ -196,7 +205,7 @@ test('quoted phrases never join neighboring speaker turns or reverse word order'
         .toEqual(['/conversation/#msg-42', '/conversation/#msg-65']);
 });
 
-test('a failed native fragment needs a lifecycle restart and fresh result handles to recover', async () => {
+test('a transient fragment failure recovers on the same result handle', async () => {
     // Start from an empty native cache so this request exercises the real fetch path.
     await native.destroy();
     await native.options(nativeOptions);
@@ -217,23 +226,8 @@ test('a failed native fragment needs a lifecycle restart and fresh result handle
     }, originalFetch);
     try {
         expect(await first.data().catch((error: Error) => error.message)).toBe('Simulated fragment abort');
-        expect(await first.data().catch((error: Error) => error.message)).toBe('Simulated fragment abort');
-        const sameInstance = (await native.search('starlight')).results[0]!;
-        expect(await sameInstance.data().catch((error: Error) => error.message)).toBe('Simulated fragment abort');
-        expect(fragmentRequests).toBe(1);
-
-        // The documented public lifecycle discards rejected caches. Old handles
-        // still point at the old instance, so pagination must acquire new ones.
-        await native.destroy();
-        await native.options(nativeOptions);
-        await native.init();
-        const restarted = (await native.search('starlight')).results[0]!;
-        expect(restarted.id).toBe(first.id);
-        const recovered = await restarted.data();
-        expect(recovered.url).toBe('/other/');
+        const recovered = await first.data();
         expect(getQueryResults([recovered], 'starlight').map(result => result.url)).toEqual(['/other/#msg-7']);
-        expect(fragmentRequests).toBe(2);
-        expect(await first.data().catch((error: Error) => error.message)).toBe('Simulated fragment abort');
         expect(fragmentRequests).toBe(2);
     } finally {
         globalThis.fetch = originalFetch;
@@ -241,6 +235,35 @@ test('a failed native fragment needs a lifecycle restart and fresh result handle
         await native.options(nativeOptions);
     }
 });
+
+for (const shard of ['index', 'filter']) {
+    test(`a transient ${shard} 503 does not leave a known passage missing`, async () => {
+        await native.destroy();
+        await native.options(nativeOptions);
+        const originalFetch = globalThis.fetch;
+        let available = false;
+        let failedRequests = 0;
+        globalThis.fetch = Object.assign(async (request: Parameters<typeof fetch>[0], options?: Parameters<typeof fetch>[1]) => {
+            const url = request instanceof Request ? request.url : String(request);
+            if (!available && url.includes(`/${shard}/`)) {
+                failedRequests++;
+                return new Response('Temporary failure', { status: 503 });
+            }
+            return originalFetch(request, options);
+        }, originalFetch);
+        try {
+            expect(await hydrate('starlight', '/other/')).toEqual([]);
+            expect(failedRequests).toBeGreaterThan(0);
+            available = true;
+            const recovered = getQueryResults(await hydrate('starlight', '/other/'), 'starlight');
+            expect(recovered.map(result => result.url)).toEqual(['/other/#msg-7']);
+        } finally {
+            globalThis.fetch = originalFetch;
+            await native.destroy();
+            await native.options(nativeOptions);
+        }
+    });
+}
 
 test('native carrier-only matches are excluded before hydration and zero weighting survives restart', async () => {
     const originalFetch = globalThis.fetch;

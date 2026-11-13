@@ -52,11 +52,42 @@ export function parseTimeHash(hash: string): ParsedTimeHash | null {
   };
 }
 
-/** A legacy passage alias must not redirect a time link to a different timestamp. */
+interface TimePoint<T> {
+  time: number;
+  el: T;
+}
+
+const transcriptTimePoints = new WeakMap<HTMLElement, TimePoint<HTMLElement>[]>();
+
+export function getTranscriptTimePoints(transcript: HTMLElement): readonly TimePoint<HTMLElement>[] {
+  let points = transcriptTimePoints.get(transcript);
+  if (!points) {
+    points = Array.from(transcript.querySelectorAll<HTMLElement>('.message[id][data-timestamp]'), el => ({
+      time: Number.parseInt(el.dataset.timestamp ?? '', 10),
+      el,
+    })).filter(point => Number.isFinite(point.time)).sort((a, b) => a.time - b.time);
+    transcriptTimePoints.set(transcript, points);
+  }
+  return points;
+}
+
+export function findTimePointIndex(points: readonly TimePoint<unknown>[], seconds: number): number {
+  let low = 0;
+  let high = points.length - 1;
+  while (low <= high) {
+    const middle = Math.floor((low + high) / 2);
+    if (points[middle].time <= seconds) low = middle + 1;
+    else high = middle - 1;
+  }
+  return high;
+}
+
+/** Exact timestamps win over aliases. Between passages, use the preceding turn. */
 export function timeHashTarget<T extends { dataset: { timestamp?: string } }>(
   seconds: number,
   candidate: T | null,
-  nearest: T | undefined,
+  points: readonly TimePoint<T>[],
 ): T | undefined {
-  return candidate && parseTimeValue(candidate.dataset.timestamp ?? '') === seconds ? candidate : nearest;
+  if (candidate && parseTimeValue(candidate.dataset.timestamp ?? '') === seconds) return candidate;
+  return points[Math.max(0, findTimePointIndex(points, seconds))]?.el;
 }

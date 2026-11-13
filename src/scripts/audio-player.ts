@@ -3,12 +3,7 @@
  * Audio owns timestamps in Read view; video owns them in Watch view.
  */
 
-import { parseTimeHash, timeHashTarget } from "./time-hash";
-
-interface MessagePoint {
-    time: number;
-    el: HTMLElement;
-}
+import { findTimePointIndex, getTranscriptTimePoints, parseTimeHash, timeHashTarget } from "./time-hash";
 
 let audio: HTMLAudioElement | null = null;
 let playPauseButton: HTMLButtonElement | null = null;
@@ -27,8 +22,7 @@ let closeShortcuts: HTMLElement | null = null;
 let volumeSlider: HTMLInputElement | null = null;
 let playerFeedback: HTMLElement | null = null;
 let feedbackText: HTMLElement | null = null;
-let messagePoints: MessagePoint[] = [];
-let messagePointsReady = false;
+let transcript: HTMLElement | null = null;
 let feedbackTimeout: ReturnType<typeof setTimeout> | null = null;
 let lastHighlightedMessage: HTMLElement | null = null;
 let isLoaded = false;
@@ -46,18 +40,6 @@ function enterReadView() {
     }
 }
 
-function ensureMessagePoints() {
-    if (messagePointsReady) return;
-    messagePoints = Array.from(document.querySelectorAll<HTMLElement>(".message"))
-        .map((message) => ({
-            time: parseInt(message.dataset.timestamp || "", 10),
-            el: message,
-        }))
-        .filter(({ time }) => !Number.isNaN(time))
-        .sort((a, b) => a.time - b.time);
-    messagePointsReady = true;
-}
-
 function formatTime(seconds: number) {
     if (!seconds || Number.isNaN(seconds)) return "00:00";
     const h = Math.floor(seconds / 3600);
@@ -69,28 +51,10 @@ function formatTime(seconds: number) {
     return `${m.toString().padStart(2, "0")}:${s.toString().padStart(2, "0")}`;
 }
 
-function findMessageIndex(seconds: number): number {
-    let low = 0;
-    let high = messagePoints.length - 1;
-    let best = -1;
-
-    while (low <= high) {
-        const mid = Math.floor((low + high) / 2);
-        if (messagePoints[mid].time <= seconds) {
-            best = mid;
-            low = mid + 1;
-        } else {
-            high = mid - 1;
-        }
-    }
-
-    return best;
-}
-
 function highlightTime(seconds: number) {
-    ensureMessagePoints();
-    const currentIndex = findMessageIndex(Math.floor(seconds));
-    const currentMessage = currentIndex >= 0 ? messagePoints[currentIndex].el : null;
+    if (!transcript) return;
+    const points = getTranscriptTimePoints(transcript);
+    const currentMessage = points[findTimePointIndex(points, Math.floor(seconds))]?.el ?? null;
 
     if (currentMessage === lastHighlightedMessage) return;
     lastHighlightedMessage?.classList.remove("message-current");
@@ -125,11 +89,14 @@ function setPlaybackUi(isPaused: boolean) {
 }
 
 function ensureAudioLoaded() {
-    if (!audio || isLoaded || !src) return;
-    document.getElementById("audio-player-container")?.setAttribute("data-audio-state", "active");
-    audio.src = src;
+    if (!audio || !src || (isLoaded && !audio.error)) return;
+    if (!isLoaded) {
+        document.getElementById("audio-player-container")?.setAttribute("data-audio-state", "active");
+        audio.src = src;
+        isLoaded = true;
+    }
+    if (seekSlider) seekSlider.disabled = true;
     audio.load();
-    isLoaded = true;
 }
 
 function setAudioPosition(seconds: number) {
@@ -159,7 +126,7 @@ function playFrom(seconds = pendingTime) {
 function togglePlayPause() {
     if (!audio) return;
     enterReadView();
-    if (!isLoaded || audio.paused) {
+    if (!isLoaded || audio.paused || audio.error) {
         playFrom(isLoaded ? audio.currentTime : pendingTime);
     } else {
         audio.pause();
@@ -177,11 +144,10 @@ function stageHashTime(options: { scroll: boolean }) {
         }
         audio?.pause();
         setAudioPosition(parsedTimeHash.seconds);
-        if (options.scroll) {
-            const index = findMessageIndex(parsedTimeHash.seconds);
+        if (options.scroll && transcript) {
             const message = timeHashTarget(parsedTimeHash.seconds,
                 document.getElementById(`msg-${parsedTimeHash.seconds}`),
-                messagePoints[Math.max(0, index)]?.el);
+                getTranscriptTimePoints(transcript));
             requestAnimationFrame(() => message?.scrollIntoView({ block: "start", behavior: "instant" }));
         }
         return;
@@ -294,6 +260,7 @@ function handleGlobalClick(event: MouseEvent) {
 
 function initAudioPlayer() {
     audio = document.getElementById("audio-element") as HTMLAudioElement | null;
+    transcript = document.getElementById("episode-content-shell");
     playPauseButton = document.getElementById("play-pause") as HTMLButtonElement | null;
     seekSlider = document.getElementById("seek-slider") as HTMLInputElement | null;
     currentTimeDisplay = document.getElementById("current-time");
@@ -337,6 +304,7 @@ function initAudioPlayer() {
         if (isLoaded) showFeedback("pause");
     });
     audio.addEventListener("error", () => {
+        if (seekSlider) seekSlider.disabled = true;
         setPlaybackUi(true);
         showFeedback("error");
     });

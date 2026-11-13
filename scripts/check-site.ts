@@ -3,6 +3,7 @@ import { readdir } from "node:fs/promises";
 import { resolve, relative, dirname } from "node:path";
 import { decodeHTML } from "entities";
 import { parseTimeHash } from "../src/scripts/time-hash";
+import { LEGACY_PAGEFIND_VERSION, PAGEFIND_PATH, PAGEFIND_VERSION } from "../src/lib/pagefind-path";
 
 const root = resolve(import.meta.dir, "../dist");
 const origin = "https://hopeinsource.com";
@@ -21,6 +22,25 @@ const paths = new Set(files.map(file => `/${relative(root, file)}`));
 const pages = new Map<string, { ids: Set<string>; links: string[]; assets: string[] }>();
 const errors: string[] = [];
 let passages = 0;
+
+async function checkSearchBundle(path: string, version: string) {
+  const manifestPath = `${path}/pagefind-entry.json`;
+  for (const file of [manifestPath, `${path}/pagefind.js`, `${path}/pagefind-worker.js`]) {
+    if (!paths.has(file)) errors.push(`Search bundle is missing ${file}`);
+  }
+  if (!paths.has(manifestPath)) return;
+  const manifest: { version: string; languages: Record<string, { hash: string; wasm: string }> } =
+    await Bun.file(resolve(root, `.${manifestPath}`)).json();
+  if (manifest.version !== version) errors.push(`${manifestPath} serves ${manifest.version}, expected ${version}`);
+  for (const { hash, wasm } of Object.values(manifest.languages)) {
+    for (const file of [`${path}/pagefind.${hash}.pf_meta`, `${path}/wasm.${wasm}.pagefind`]) {
+      if (!paths.has(file)) errors.push(`Search bundle is missing ${file}`);
+    }
+  }
+}
+
+await checkSearchBundle(PAGEFIND_PATH, PAGEFIND_VERSION);
+await checkSearchBundle("/pagefind", LEGACY_PAGEFIND_VERSION);
 
 for (const file of files.filter(file => file.endsWith(".html"))) {
   const path = relative(root, file);

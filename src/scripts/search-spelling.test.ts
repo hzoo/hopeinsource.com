@@ -46,22 +46,27 @@ test('nearest spellings outrank more frequent but more distant words and remain 
     expect(suggestions).not.toContain('communities');
 });
 
-test('the optional dictionary loads once through a revalidated manifest and immutable asset', async () => {
+test('a manifest outage allows later spelling suggestions and shares the successful dictionary', async () => {
     const originalFetch = globalThis.fetch;
     const requests: Array<{ url: string; cache?: RequestCache }> = [];
     globalThis.fetch = Object.assign(async (url: string | URL | Request, options?: RequestInit) => {
         requests.push({ url: String(url), cache: options?.cache });
-        return Response.json(requests.length === 1
+        if (requests.length === 1) return new Response(null, { status: 503 });
+        return Response.json(requests.length === 2
             ? { url: '/pagefind/vocabulary-0123456789abcdef.json' } : vocabulary);
     }, { preconnect: originalFetch.preconnect }) as typeof fetch;
     try {
         // Pure suggestions do not fetch the corpus.
         suggestQuery('communtiy', vocabulary);
         expect(requests).toEqual([]);
+        expect(await Promise.all([loadSearchVocabulary(), loadSearchVocabulary()])).toEqual([null, null]);
+        expect(requests).toHaveLength(1);
         const [first, second] = await Promise.all([loadSearchVocabulary(), loadSearchVocabulary()]);
-        expect(first).toEqual(vocabulary);
+        expect(first && suggestQuery('communtiy', first)).toEqual(['community']);
         expect(second).toBe(first);
+        expect(await loadSearchVocabulary()).toBe(first);
         expect(requests).toEqual([
+            { url: '/pagefind/vocabulary.json', cache: 'no-cache' },
             { url: '/pagefind/vocabulary.json', cache: 'no-cache' },
             { url: '/pagefind/vocabulary-0123456789abcdef.json', cache: 'force-cache' },
         ]);

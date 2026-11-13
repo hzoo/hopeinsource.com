@@ -5,8 +5,8 @@ import {
   readReadingPosition,
   readingAnchorForDestination,
   writeReadingPosition,
-  type ReadingPosition,
 } from '../lib/reading-position';
+import { getTranscriptTimePoints, parseTimeHash, timeHashTarget } from './time-hash';
 
 function localReadingStorage(): Storage | null {
   try {
@@ -57,32 +57,27 @@ function initReadingPosition() {
 
   const path = window.location.pathname.replace(/\/$/, '');
   const storage = localReadingStorage();
-  const previous = readReadingPosition(storage);
-  let lastSavedAnchor = previous?.path === path ? previous.anchor : null;
-  let pending: ReadingPosition | null = null;
+  if (!storage) return;
+  let pendingAnchor: string | null = null;
   let saveTimer: ReturnType<typeof setTimeout> | null = null;
   let scrollFrame: number | null = null;
   let settlingDestination = false;
   let destinationVersion = 0;
+  let observedHash = window.location.hash;
 
   const flush = () => {
     if (saveTimer !== null) clearTimeout(saveTimer);
     saveTimer = null;
-    if (pending && writeReadingPosition(storage, pending)) {
-      lastSavedAnchor = pending.anchor;
-      pending = null;
+    if (!pendingAnchor) return;
+    const previous = readReadingPosition(storage);
+    if ((previous?.path === path && previous.anchor === pendingAnchor)
+      || writeReadingPosition(storage, { path, anchor: pendingAnchor })) {
+      pendingAnchor = null;
     }
   };
   const remember = (anchor: string | null) => {
-    if (!anchor) return;
-    if (anchor === lastSavedAnchor) {
-      pending = null;
-      if (saveTimer !== null) clearTimeout(saveTimer);
-      saveTimer = null;
-      return;
-    }
-    if (anchor === pending?.anchor) return;
-    pending = { path, anchor };
+    if (!anchor || anchor === pendingAnchor) return;
+    pendingAnchor = anchor;
     if (saveTimer !== null) clearTimeout(saveTimer);
     saveTimer = setTimeout(flush, 600);
   };
@@ -97,11 +92,24 @@ function initReadingPosition() {
     const target = document.getElementById(id)?.closest<HTMLElement>('.message[id]');
     return target && content.contains(target) ? target.id : null;
   };
+  const destinationAnchor = (visible: string | null) => {
+    const hash = window.location.hash;
+    const time = parseTimeHash(hash);
+    if (time) {
+      const timedTarget = timeHashTarget(time.seconds, document.getElementById(`msg-${time.seconds}`),
+        getTranscriptTimePoints(content));
+      const id = timedTarget && resolveMessageId(timedTarget.id);
+      const anchor = id && `#${id}`;
+      if (anchor && isCanonicalReadingAnchor(anchor)) return anchor;
+    }
+    return readingAnchorForDestination(hash, visible, resolveMessageId);
+  };
   const recordScroll = () => {
     scrollFrame = null;
     if (!settlingDestination) remember(visibleAnchor());
   };
   const settleDestination = () => {
+    observedHash = window.location.hash;
     settlingDestination = true;
     const version = ++destinationVersion;
     if (scrollFrame !== null) cancelAnimationFrame(scrollFrame);
@@ -109,7 +117,7 @@ function initReadingPosition() {
     requestAnimationFrame(() => requestAnimationFrame(() => {
       if (version !== destinationVersion) return;
       settlingDestination = false;
-      remember(readingAnchorForDestination(window.location.hash, visibleAnchor(), resolveMessageId));
+      remember(destinationAnchor(visibleAnchor()));
     }));
   };
 
@@ -117,18 +125,19 @@ function initReadingPosition() {
     if (!settlingDestination && scrollFrame === null) scrollFrame = requestAnimationFrame(recordScroll);
   }, { passive: true });
   window.addEventListener('hashchange', settleDestination);
-  window.addEventListener('pagehide', () => {
+  const saveBeforeSuspension = () => {
+    const destinationChanged = settlingDestination || window.location.hash !== observedHash;
     if (scrollFrame !== null) {
       cancelAnimationFrame(scrollFrame);
-      recordScroll();
+      scrollFrame = null;
+      if (!destinationChanged) remember(visibleAnchor());
     }
-    if (settlingDestination && window.location.hash.startsWith('#msg-')) {
-      remember(readingAnchorForDestination(window.location.hash, null, resolveMessageId));
-    }
+    if (destinationChanged) remember(destinationAnchor(null));
     flush();
-  });
+  };
+  window.addEventListener('pagehide', saveBeforeSuspension);
   document.addEventListener('visibilitychange', () => {
-    if (document.hidden) flush();
+    if (document.hidden) saveBeforeSuspension();
   });
 
   // Saved progress is a link on the homepage, never an automatic scroll target.

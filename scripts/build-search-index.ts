@@ -1,10 +1,12 @@
 /** Index the rendered transcript so every search result has a real passage anchor. */
 import * as pagefind from "pagefind";
+import * as legacyPagefind from "pagefind-legacy";
 import { decodeHTML } from "entities";
 import { mkdtemp, readdir, rename, rm, stat } from "node:fs/promises";
 import { dirname, join, relative, sep } from "node:path";
 import { fileURLToPath } from "node:url";
 import { buildSearchVocabulary, vocabularyAsset } from "./search-vocabulary";
+import { LEGACY_PAGEFIND_VERSION, PAGEFIND_VERSION } from "../src/lib/pagefind-path";
 
 const BUILD_DIR = fileURLToPath(new URL("../dist/", import.meta.url));
 const OUTPUT_DIR = join(BUILD_DIR, "pagefind");
@@ -115,40 +117,59 @@ export function pageUrl(filePath: string): string {
   return path.endsWith("/index.html") ? `/${dirname(path)}/` : `/${path.replace(/index\.html$|\.html$/g, "")}`;
 }
 
+async function writeSearchBundle(
+  engine: typeof pagefind,
+  outputPath: string,
+  version: string,
+  pages: Array<{ url: string; content: string }>,
+) {
+  const { index, errors } = await engine.createIndex();
+  try {
+    if (!index || errors.length) throw new Error(`Failed to create Pagefind ${version} index: ${errors.join("; ")}`);
+    for (const page of pages) {
+      const result = await index.addHTMLFile(page);
+      if (result.errors.length) throw new Error(`Failed to index ${page.url}: ${result.errors.join("; ")}`);
+    }
+    const result = await index.writeFiles({ outputPath });
+    if (result.errors.length) throw new Error(`Failed to write search: ${result.errors.join("; ")}`);
+    const manifest = await Bun.file(join(outputPath, "pagefind-entry.json")).json();
+    if (manifest.version !== version) {
+      throw new Error(`Pagefind generated version ${manifest.version}, expected ${version}`);
+    }
+  } finally {
+    await index?.deleteIndex();
+    await engine.close();
+  }
+}
+
 async function main() {
   await stat(join(BUILD_DIR, "index.html")).catch(() => {
     throw new Error("Build the website before indexing search: bun run build");
   });
-  const { index, errors } = await pagefind.createIndex();
-  if (!index || errors.length) throw new Error(`Failed to create Pagefind index: ${errors.join("; ")}`);
   const tempDir = await mkdtemp(join(BUILD_DIR, ".pagefind-"));
 
   try {
-    let totalMessages = 0;
-    let totalEpisodes = 0;
+    const pages: Array<{ url: string; content: string }> = [];
     const vocabularyRecords: EpisodeSearchRecord[] = [];
     for (const filePath of await getHtmlFiles(BUILD_DIR)) {
-      const records = await extractEpisodeRecords(await Bun.file(filePath).text(), pageUrl(filePath));
+      const url = pageUrl(filePath);
+      const records = await extractEpisodeRecords(await Bun.file(filePath).text(), url);
       if (!records.length) continue;
       vocabularyRecords.push(...records);
-      totalEpisodes++;
-      const result = await index.addHTMLFile({ url: pageUrl(filePath), content: createEpisodeSearchHtml(records) });
-      if (result.errors.length) throw new Error(`Failed to index ${filePath}: ${result.errors.join("; ")}`);
-      totalMessages += records.length;
+      pages.push({ url, content: createEpisodeSearchHtml(records) });
     }
-    if (!totalMessages) throw new Error("No rendered transcript passages found; search index was not replaced");
-    const result = await index.writeFiles({ outputPath: tempDir });
-    if (result.errors.length) throw new Error(`Failed to write search: ${result.errors.join("; ")}`);
+    if (!pages.length) throw new Error("No rendered transcript passages found; search index was not replaced");
+    // Retain the complete unversioned bundle for clients with the old app or worker cached.
+    await writeSearchBundle(legacyPagefind, tempDir, LEGACY_PAGEFIND_VERSION, pages);
+    await writeSearchBundle(pagefind, join(tempDir, PAGEFIND_VERSION), PAGEFIND_VERSION, pages);
     const vocabulary = vocabularyAsset(buildSearchVocabulary(vocabularyRecords));
     await Bun.write(join(tempDir, vocabulary.filename), vocabulary.content);
     await Bun.write(join(tempDir, "vocabulary.json"), vocabulary.manifest);
     await rm(OUTPUT_DIR, { recursive: true, force: true });
     await rename(tempDir, OUTPUT_DIR);
-    console.log(`Search indexed ${totalMessages} canonical passages in ${totalEpisodes} episodes`);
+    console.log(`Search indexed ${vocabularyRecords.length} canonical passages in ${pages.length} episodes`);
   } finally {
     await rm(tempDir, { recursive: true, force: true });
-    await index.deleteIndex();
-    await pagefind.close();
   }
 }
 

@@ -12,9 +12,9 @@ interface Props {
 const { page, title, description } = Astro.props;
 const isHome = page === "home";
 const slug = isHome ? "/" : "/episodes";
-const coverSrcSet = [128, 472, 944].map((width) => `/artwork/his-${width}.webp ${width}w`).join(", ");
-const smallCover = "/artwork/his-128.webp";
-const coverClass = "brand-cover w-full max-w-[472px] h-auto aspect-square object-contain mb-4 sm:max-w-[90%]";
+const themes = ["dark", "light"] as const;
+const coverSrcSet = (theme: string) => [128, 472, 944].map((width) => `/artwork/his-${theme}-${width}.webp ${width}w`).join(", ");
+const coverClass = "brand-cover w-full h-auto aspect-square mb-4";
 const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
 ---
 
@@ -26,19 +26,39 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
           {isHome
             ? <h1 class="brand-title m-0">Hope in Source</h1>
             : <span class="brand-title m-0">Hope in Source</span>}
-          <picture class="contents">
-            <source media={isHome ? "(min-width: 960px)" : "(min-width: 1200px)"} type="image/webp" srcset={coverSrcSet} sizes="352px" />
-            <img
-              src={isHome ? smallCover : emptyImage}
-              alt="Hope in Source Cover Art"
-              width="472"
-              height="472"
-              class={coverClass}
-              loading={isHome ? "eager" : "lazy"}
-              fetchpriority={isHome ? "high" : undefined}
-              decoding="async"
-            />
-          </picture>
+          <div class={coverClass} data-cover>
+            {themes.map((theme) => (
+              <picture class={`brand-cover-art brand-cover-${theme}`}>
+                <source media={isHome ? undefined : "(min-width: 1200px)"} type="image/webp" srcset={coverSrcSet(theme)} sizes="(min-width: 960px) min(24rem, 26vw), min(12rem, 46vw)" />
+                <img
+                  src={isHome ? `/artwork/his-${theme}-128.webp` : emptyImage}
+                  alt="Hope in Source Cover Art"
+                  width="472"
+                  height="472"
+                  loading="lazy"
+                  fetchpriority={isHome ? "high" : undefined}
+                  decoding="async"
+                />
+              </picture>
+            ))}
+            {isHome && (
+              <video
+                class="brand-cover-intro"
+                data-dark="/artwork/his-intro-dark.mp4"
+                data-light="/artwork/his-intro-light.mp4"
+                muted
+                playsinline
+                preload="none"
+                aria-hidden="true"
+              ></video>
+              <button class="brand-cover-replay" type="button" aria-label="Replay the cover animation" hidden>
+                <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+                  <path d="M3.5 8a4.5 4.5 0 1 0 1.32-3.18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" />
+                  <path d="M3 2.5v3h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </button>
+            )}
+          </div>
           <div class="brand-taglines text-center space-y-1">
             <p class="m-0 text-lg font-medium tracking-wide">
               off-the-cuff conversations between friends
@@ -61,7 +81,7 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
               Hosts <a href="https://nadia.xyz/public-faith">Nadia</a> & <a href="https://henryzoo.com/living-out-in-faith">Henry</a>
             </p>
             <p class="m-0">
-              Art Jessica Han <span aria-hidden="true">·</span> Music <a href="https://twitter.com/kenwheeler">Ken Wheeler</a>
+              Original art Jessica Han
             </p>
             <p class="m-0"><a href="https://github.com/sponsors/hzoo">Sponsor</a></p>
           </div>
@@ -91,3 +111,42 @@ const emptyImage = "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
     {!isHome && <div id="home-footer"><Footer compact /></div>}
   </div>
 </Layout>
+
+<script>
+  // The cover's intro (rain falling through the grid, the sprout, the name) plays once per visit, and again from the
+  // replay button (or a click anywhere on the cover).
+  // It ends on the same frame as the still; a theme switch or an error leaves the still, and reduced motion never starts it.
+  const cover = document.querySelector<HTMLElement>("[data-cover]");
+  const video = cover?.querySelector("video");
+  const replay = cover?.querySelector<HTMLButtonElement>(".brand-cover-replay");
+  if (cover && video && replay && matchMedia("(prefers-reduced-motion: no-preference)").matches) {
+    let watch: MutationObserver | undefined;
+    const done = () => { watch?.disconnect(); delete cover.dataset.intro; video.pause(); };
+    const play = () => {
+      if (cover.dataset.intro) return;
+      const theme = document.documentElement.dataset.theme === "light" ? "light" : "dark";
+      const src = new URL(video.dataset[theme]!, location.href).href;
+      if (video.src !== src) video.src = src;
+      video.currentTime = 0;
+      cover.dataset.intro = "playing";
+      // The theme script re-applies the same theme on DOMContentLoaded, so only a real change ends the intro.
+      watch = new MutationObserver(() => { if (document.documentElement.dataset.theme !== theme) done(); });
+      watch.observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+      video.play().catch(done);
+    };
+    video.addEventListener("ended", done);
+    video.addEventListener("error", done);
+
+    replay.hidden = false;
+    cover.addEventListener("click", play);
+
+    let seen = false;
+    try { seen = sessionStorage.getItem("cover-intro") === "seen"; } catch {}
+    // A background tab can't play video, so the first intro waits until the page is looked at.
+    const first = () => { play(); try { sessionStorage.setItem("cover-intro", "seen"); } catch {} };
+    if (!seen) {
+      if (document.hidden) document.addEventListener("visibilitychange", first, { once: true });
+      else first();
+    }
+  }
+</script>

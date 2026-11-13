@@ -52,7 +52,7 @@ function updateModeUi() {
     }
 }
 
-function embedUrlAt(seconds: number, shouldPlay: boolean): string {
+function embedUrlAt(seconds: number): string {
     const url = new URL(videoEmbedSrc);
     const videoSeconds = Math.max(0, Math.floor(seconds + videoOffsetSeconds));
 
@@ -62,22 +62,14 @@ function embedUrlAt(seconds: number, shouldPlay: boolean): string {
         url.searchParams.delete("start");
     }
 
-    if (shouldPlay) {
-        url.searchParams.set("autoplay", "1");
-    } else {
-        url.searchParams.delete("autoplay");
-    }
-
     return url.toString();
 }
 
-function loadVideoAt(seconds: number, shouldPlay: boolean) {
+function loadVideoAt(seconds: number) {
     if (!videoIframe || !videoEmbedSrc || !Number.isFinite(seconds) || seconds < 0) return;
     requestedTranscriptTime = seconds;
     document.dispatchEvent(new CustomEvent("his:video-position", { detail: { seconds } }));
-    const src = embedUrlAt(seconds, shouldPlay);
-    if (videoIframe.getAttribute("src") === src) return;
-    videoIframe.src = src;
+    videoIframe.src = embedUrlAt(seconds);
 }
 
 function unloadVideo() {
@@ -87,6 +79,7 @@ function unloadVideo() {
 }
 
 function setMode(nextMode: VideoMode) {
+    if (nextMode === mode) return;
     if (nextMode === "read") {
         mode = "read";
         unloadVideo();
@@ -103,7 +96,7 @@ function setMode(nextMode: VideoMode) {
     document.dispatchEvent(new CustomEvent("his:watch-intent"));
     mode = "watch";
     updateModeUi();
-    loadVideoAt(resumeTime, false);
+    loadVideoAt(resumeTime);
 }
 
 function initVideoPlayer() {
@@ -144,7 +137,7 @@ function initVideoPlayer() {
     window.addEventListener("hashchange", () => {
         if (mode !== "watch") return;
         const seconds = timeFromHash();
-        if (seconds !== null) loadVideoAt(seconds, false);
+        if (seconds !== null) loadVideoAt(seconds);
     });
 }
 
